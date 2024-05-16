@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dialog_margin" >
+
+    <TextView
+        android:id="@+id/changeheroicon_title"
+        style="@style/titleWithIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/ui_theme_richframe_bitmap"
+        android:drawableLeft="@drawable/char_hero"
+        android:text="@string/changeheroicon_title" />
+
+    <TextView
+        android:id="@+id/changeheroicon_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/ui_theme_stdframe_bitmap"
+        android:text="@string/changeheroicon_description" />
+
+    <ScrollView
+        style="@style/AndorsTrail_Style_StdFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <!-- For now, you have to add a new button for every Hero Sprite. Since there are only three, this can be done manually. -->
+          
+            <Button
+                android:id="@+id/hero_sprite_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hero_sprite_1" />
+
+            <Button
+                android:id="@+id/hero_sprite_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hero_sprite_2" />
+
+            <Button
+                android:id="@+id/hero_sprite_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hero_sprite_3" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@null" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
