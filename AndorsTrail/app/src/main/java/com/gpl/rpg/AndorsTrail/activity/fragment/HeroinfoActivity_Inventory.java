@@ -42,6 +42,7 @@ public final class HeroinfoActivity_Inventory extends Fragment implements Custom
 
 	private static final int INTENTREQUEST_ITEMINFO = 3;
 	private static final int INTENTREQUEST_BULKSELECT_DROP = 11;
+	private static final int INTENTREQUEST_CHANGEHEROICON = 99; // TODO: Set this to actual number
 
 	private WorldContext world;
 	private ControllerContext controllers;
@@ -444,7 +445,8 @@ public final class HeroinfoActivity_Inventory extends Fragment implements Custom
 	}
 
 	private void showCharacterIconSelection() {
-		// Inflate window with selection
+		Intent intent = Dialogs.getIntentForChangeHeroIcon(getActivity());
+		startActivityForResult(intent, INTENTREQUEST_CHANGEHEROICON);
 	}
 	
 	private void reloadShownCategory(int v) { // Apologies about the code duplication,
