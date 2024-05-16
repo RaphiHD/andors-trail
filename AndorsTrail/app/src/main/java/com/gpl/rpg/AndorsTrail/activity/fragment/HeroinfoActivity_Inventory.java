@@ -108,6 +108,13 @@ public final class HeroinfoActivity_Inventory extends Fragment implements Custom
 			}
 		});
 
+		heroicon.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO: Inflate window with Icon Chooser
+			}
+		});
+		
 		new SpinnerEmulator(v, R.id.inventorylist_category_filters_button, R.array.inventorylist_category_filters, R.string.heroinfo_inventory_categories) {
 			@Override
 			public void setValue(int value) {
