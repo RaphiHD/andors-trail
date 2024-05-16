@@ -26,7 +26,7 @@ public final class ChangeHeroIconActivity extends AndorsTrailBaseActivity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-    setTheme(ThemeHelper.getDialogTheme());
+   		setTheme(ThemeHelper.getDialogTheme());
 		super.onCreate(savedInstanceState);
 		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(this);
 		if (!app.isInitialized()) { finish(); return; }
@@ -38,8 +38,33 @@ public final class ChangeHeroIconActivity extends AndorsTrailBaseActivity {
 
 		setContentView(R.layout.levelup);
 
+		changeheroicon_title = (TextView) findViewById(R.id.changeheroicon_title);
+		changeheroicon_description = (TextView) findViewById(R.id.changeheroicon_description);
+		
+		Button b;
 
+		b = (Button) findViewById(R.id.hero_sprite_1);
+		b.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				player.updatePlayerIcon(0); // TODO: Find out actual IDs of Hero Sprites
+			}
+		});
 
-    
+		b = (Button) findViewById(R.id.hero_sprite_2);
+		b.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				player.updatePlayerIcon(1); // TODO: Find out actual IDs of Hero Sprites
+			}
+		});
+
+		b = (Button) findViewById(R.id.hero_sprite_3);
+		b.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				player.updatePlayerIcon(2); // TODO: Find out actual IDs of Hero Sprites
+			}
+		});
 	}
 }
