@@ -111,7 +111,7 @@ public final class HeroinfoActivity_Inventory extends Fragment implements Custom
 		heroicon.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				// TODO: Inflate window with Icon Chooser
+				showCharacterIconSelection();
 			}
 		});
 		
@@ -443,6 +443,10 @@ public final class HeroinfoActivity_Inventory extends Fragment implements Custom
 		startActivityForResult(intent, INTENTREQUEST_ITEMINFO);
 	}
 
+	private void showCharacterIconSelection() {
+		// Inflate window with selection
+	}
+	
 	private void reloadShownCategory(int v) { // Apologies about the code duplication,
 		// just didn't seem to make sense as an array, although I did create a nice array for skill category adapters.
 
