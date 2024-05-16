@@ -141,6 +141,10 @@ public final class Player extends Actor {
 		}
 	}
 
+	public void updatePlayerIcon(int playerIcon) {
+		baseTraits.iconID = playerIcon;
+	}
+	
 	public boolean hasExactQuestProgress(QuestProgress progress) { return hasExactQuestProgress(progress.questID, progress.progress); }
 	public boolean hasExactQuestProgress(String questID, int progress) {
 		if (!questProgress.containsKey(questID)) return false;
