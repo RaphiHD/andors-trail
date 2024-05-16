@@ -66,5 +66,13 @@ public final class ChangeHeroIconActivity extends AndorsTrailBaseActivity {
 				player.updatePlayerIcon(2); // TODO: Find out actual IDs of Hero Sprites
 			}
 		});
+
+		b = (Button) findViewById(R.id.changeheroicon_close);
+		b.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				ChangeHeroIconActivity.this.finish();
+			}
+		});
 	}
 }
