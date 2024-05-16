@@ -278,6 +278,12 @@ public final class Dialogs {
 		return intent;
 	}
 
+	public static Intent getIntentForChangeHeroIcon(final Context ctx) {
+		Intent intent = new Intent(ctx, ChangeHeroIconActivity.class);
+		intent.setData(Uri.parse("content://com.gpl.rpg.AndorsTrail/changeheroicon"));
+		return intent;
+	}
+	
 	public static void showConfirmRest(final Activity currentActivity, final ControllerContext controllerContext, final MapObject area) {
 		final CustomDialog d = CustomDialogFactory.createDialog(currentActivity,
 				currentActivity.getResources().getString(R.string.dialog_rest_title), 
