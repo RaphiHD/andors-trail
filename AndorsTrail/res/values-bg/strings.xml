@@ -106,7 +106,7 @@
     <string name="dialog_permission_information_title">Зареждане и запазване на игри</string>
     <string name="monster_difficulty_veryeasy">Много лесно</string>
     <string name="heroinfo_skill_sort">Сортиране</string>
-    <string name="heroinfo_unlimited_lives_and_saves">Стандартно
+    <string name="heroinfo_unlimited_lives_and_saves">Стандартен
 \n(Неограничени животи и запазвания на играта)</string>
     <string name="dialog_groundloot_message">Вие намерихте някакви предмети.</string>
     <string name="menu_save_gamesaved">Играта беше запазена в слот %1$d</string>
@@ -132,11 +132,11 @@
     <string name="monster_difficulty_normal">Нормално</string>
     <string name="combat_use">Използвай предмет</string>
     <string name="dialog_rest_confirm_message">Искате ли да си починете тук?</string>
-    <string name="dialog_game_over_text">Поехте за последно дъх и загинахте.</string>
+    <string name="dialog_game_over_text">Поехте за последно дъх и издъхнахте.</string>
     <string name="monster_difficulty_easy">Лесно</string>
     <string name="dialog_monsterloot_title">Победа</string>
     <string name="combat_condition_monster_apply">%1$s е засегнат от %2$s.</string>
-    <string name="startscreen_mode_unlimited_saves_and_lives">Стандартна (Неограничени запазвания на играта и животи)</string>
+    <string name="startscreen_mode_unlimited_saves_and_lives">Стандартен (Неограничени запазвания на играта и животи)</string>
     <string name="heroinfo_quests">Задачи</string>
     <string name="heroinfo_mode">Режим</string>
     <string name="startscreen_error_loading_game">Грешка при зареждането на играта</string>
@@ -185,7 +185,7 @@
     <string name="combat_result_monsterhitcritical">%1$s нанесе критичен удар в размер на %2$d тз!</string>
     <string name="dialog_monsterencounter_conditions">Състояния</string>
     <string name="status_exp">ТО:</string>
-    <string name="combat_miss_animation_message">Несполучлив удар</string>
+    <string name="combat_miss_animation_message">Пропуск</string>
     <string name="dialog_recenter">Центрирай</string>
     <string name="status_hp">ТЗ:</string>
     <string name="combat_result_herokillsmonster">%1$s загина!</string>

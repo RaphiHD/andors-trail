@@ -381,14 +381,14 @@ public final class DebugInterface {
 				,new DebugButton("#6", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "blackwater_mountain54", "east4", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothmanor1", "down2", 0, 0);
 			}
 		})
 
 				,new DebugButton("#7", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "blackwater_mountain30", "east", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "final_cave1", "up", 0, 0);
 			}
 		})
 
@@ -402,7 +402,14 @@ public final class DebugInterface {
 				,new DebugButton("#9", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "island1", "south2", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "island2", "down", 0, 0);
+			}
+		})
+
+				,new DebugButton("#10", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothprison3", "south", 2, 0);
 			}
 		})
 

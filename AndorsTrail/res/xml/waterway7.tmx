@@ -217,6 +217,16 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object name="mysterious_map_44_reset" type="script" x="64" y="544" width="32" height="384">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
+  <object name="mysterious_map_44_reset" type="script" x="864" y="416" width="32" height="512">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object name="erumen_1" type="spawn" x="64" y="480" width="384" height="448">
@@ -247,5 +257,15 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys">
+  <object name="mysterious_map_waterway7" type="key" x="448" y="480" width="32" height="32">
+   <properties>
+    <property name="phrase" value="mysterious_map_stop_and_review"/>
+    <property name="requireId" value="nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="44"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

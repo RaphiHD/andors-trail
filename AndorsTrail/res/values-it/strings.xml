@@ -618,4 +618,21 @@
     <string name="startscreen_migration_failure">Errore nella migrazione dei dati di gioco.</string>
     <string name="loadsave_export">Esporta salvataggi</string>
     <string name="loadsave_export_overwrite_confirmation_title">Sovrascrivi Files Esistenti\?</string>
+    <string name="loadsave_import_error_unknown">Errore imprevisto durante l\'importazione.</string>
+    <string name="loadsave_export_unsuccessfull">Esportazione non riuscita</string>
+    <string name="loadsave_export_successfull">Esportazione riuscita</string>
+    <string name="loadsave_import_save">Importa i salvataggi</string>
+    <string name="loadsave_import_save_successfull">Importazione riuscita</string>
+    <string name="loadsave_export_overwrite_confirmation">La cartella di destinazione contiene file esistenti con lo stesso nome di alcuni file che dovrebbero essere esportati. Sei sicuro di voler sovrascrivere quei file?</string>
+    <string name="loadsave_import_save_unsuccessfull">Importazione non riuscita</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Sovrascrivo lo slot esitente?</string>
+    <string name="loadsave_import_option_keep_existing">Mantieni il salvataggio esistente</string>
+    <string name="loadsave_import_option_add_as_new">Aggiungi salvataggio</string>
+    <string name="loadsave_import_option_keep_imported">Mantieni il salvataggio importato</string>
+    <string name="loadsave_export_info">Selezionare la cartella dove esportare tutti i file.</string>
+    <string name="loadsave_exporting_savegames">Esportare i salvataggi</string>
+    <string name="loadsave_export_error_unknown">Si è verificato un errore imprevisto durante l\'esportazione.</string>
+    <string name="loadsave_import_save_info">Seleziona i salvataggi da importare.</string>
+    <string name="loadsave_importing_savegames">Importo salvataggi</string>
+    <string name="loadsave_exporting_worldmap">Esporta la mappa del mondo</string>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="localize_resources_from_mo_filename">zh_CN.mo</string>
-    <string name="app_description">任务驱动型的幻想 RPG</string>
+    <string name="app_description">任务驱动型的奇幻 RPG</string>
     <string name="exit_to_menu">返回菜单</string>
     <string name="menu_settings">设定</string>
     <string name="menu_save">保存</string>
@@ -22,7 +22,7 @@
     <string name="dialog_recenter">回到中央</string>
     <string name="dialog_close">关闭</string>
     <string name="dialog_more">更多</string>
-    <string name="app_name">安道尔的足迹</string>
+    <string name="app_name">安道尔的踪迹</string>
     <string name="status_hp">体力：</string>
     <string name="heroinfo_char">总览</string>
     <string name="heroinfo_skill">技能</string>
@@ -94,9 +94,9 @@
     <string name="levelup_buttontext">等级提升</string>
     <string name="skill_title_regeneration">再生</string>
     <string name="skillinfo_action_levelup">等级提升</string>
-    <string name="skill_title_crit1">内出血</string>
-    <string name="skill_title_crit2">骨折</string>
-    <string name="skill_title_concussion">脑震荡</string>
+    <string name="skill_title_crit1">内出血附加</string>
+    <string name="skill_title_crit2">骨折附加</string>
+    <string name="skill_title_concussion">震荡</string>
     <string name="heroinfo_gamestats_name_and_qty">%1$s（%2$d）</string>
     <string name="inventory_equip">装备</string>
     <string name="inventory_unequip">卸下</string>
@@ -226,8 +226,8 @@
 \n请到我们的论坛一起讨论游戏，帮助我们做得更好（查看关于）。
 \n
 \n感谢大家的反馈！</string>
-    <string name="skill_title_eater">食尸者</string>
-    <string name="skill_title_cleave">坚持</string>
+    <string name="skill_title_eater">尸骸掠食</string>
+    <string name="skill_title_cleave">我还能打</string>
     <string name="skill_title_more_exp">快速学习</string>
     <string name="skill_title_coinfinder">宝藏猎人</string>
     <string name="skill_title_speed">战斗速度</string>
@@ -235,7 +235,7 @@
     <string name="skill_title_more_criticals">更多暴击</string>
     <string name="skill_title_barkskin">硬化皮肤</string>
     <string name="skill_title_dodge">闪避</string>
-    <string name="skill_title_barter">商人</string>
+    <string name="skill_title_barter">商人才智</string>
     <string name="skill_title_weapon_dmg">重击</string>
     <string name="bulkselection_sell_confirmation">你确认要卖出%1$s吗？这个物品是%2$s的，你可能不会再次获得。</string>
     <string name="skill_title_weapon_chance">武器精度</string>
@@ -455,18 +455,18 @@
     <string name="preferences_ui_enable_animations_title">启用动画</string>
     <string name="preferences_ui_category">界面设置</string>
     <string name="about_button4">关于</string>
-    <string name="skill_longdescription_concussion">当敌人的格挡低于你的命中至少%1$d时，有%2$d%%概率对敌人造成脑震荡。脑震荡会严重降低目标的进攻作战能力，使目标无法成功地发动攻击。</string>
-    <string name="skill_shortdescription_concussion">脑震荡的几率</string>
+    <string name="skill_longdescription_concussion">当敌人的格挡低于你的命中至少%1$d时，有%2$d%%概率对敌人造成震荡。震荡会严重降低目标的进攻作战能力，使目标无法成功地发动攻击。</string>
+    <string name="skill_shortdescription_concussion">有概率附加震荡</string>
     <string name="skill_longdescription_taunt">攻击没有命中时，攻击者有%1$d%%概率失去%2$dAP。这适用于所有对你的近战攻击。</string>
     <string name="skill_shortdescription_taunt">攻击者在未命中时失去AP</string>
     <string name="skill_title_taunt">嘲讽</string>
-    <string name="skill_longdescription_rejuvenation">每回合（6秒），有%1$d%%几率使一个当前的负面状态被降低一级。这适用于影响身体的所有临时效果类型；精神状态如头晕，物理状态如疲劳，血液状态如中毒。</string>
-    <string name="skill_shortdescription_rejuvenation">移除负面状态的几率</string>
-    <string name="skill_title_rejuvenation">恢复活力</string>
-    <string name="skill_longdescription_crit2">每一次成功暴击，都会有%1$d %% 几率在目标上造成骨折状态。这将严重降低目标的防御战斗能力，使其在随后的攻击中防御能力下降。</string>
-    <string name="skill_shortdescription_crit2">骨折的几率</string>
-    <string name="skill_longdescription_crit1">每一次成功暴击，都会有%1$d%%概率对目标造成内出血状态。内出血严重降低攻击性作战能力，使目标无法成功发动攻击。</string>
-    <string name="skill_shortdescription_crit1">内出血的概率</string>
+    <string name="skill_longdescription_rejuvenation">每回合（6秒），有%1$d%%几率使一个当前的负面状态被降低一级。这适用于影响身体的所有临时效果类型；精神状态如眩晕，物理状态如疲劳，血液状态如中毒。</string>
+    <string name="skill_shortdescription_rejuvenation">有概率移除负面状态</string>
+    <string name="skill_title_rejuvenation">活力回复</string>
+    <string name="skill_longdescription_crit2">每一次成功的暴击都会有%1$d %% 几率给目标附加骨折状态。这会大大降低目标的防守性作战能力，使其在随后的攻击中防御能力下降。</string>
+    <string name="skill_shortdescription_crit2">有概率附加骨折</string>
+    <string name="skill_longdescription_crit1">每一次成功的暴击都会有%1$d%% 几率给目标附加内出血状态。这会大大降低目标的攻击性性作战能力，使其更难攻击成功。</string>
+    <string name="skill_shortdescription_crit1">有概率附加内出血</string>
     <string name="loadsave_save_overwrite_confirmation_title">覆盖存档？</string>
     <string name="loadsave_save_to_new_slot">创建新的存档槽</string>
     <string name="traitsinfo_criticalhit_effectivechance">有效暴击率：</string>
@@ -544,13 +544,13 @@
     <string name="skill_shortdescription_barter">伶牙俐齿</string>
     <string name="skill_shortdescription_weapon_dmg">增加攻击伤害</string>
     <string name="skill_shortdescription_weapon_chance">增加命中率</string>
-    <string name="skill_title_resistance_blood_disorder">血统纯净</string>
+    <string name="skill_title_resistance_blood_disorder">血液净化</string>
     <string name="skill_title_resistance_physical_capacity">身强力壮</string>
     <string name="skill_title_resistance_mental">修心养性</string>
-    <string name="skill_title_magicfinder">魔法探测器</string>
+    <string name="skill_title_magicfinder">魔器寻索</string>
     <string name="skill_title_lower_exploss">吸取教训</string>
     <string name="skill_title_evasion">逃跑</string>
-    <string name="about_interface">&lt;div&gt;&lt;b&gt;游戏设置&lt;/b&gt;可通过按下设备的菜单按钮找到。&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;界面图标&lt;/h1&gt; &lt;div&gt;&lt;b&gt;宝箱&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;快捷栏 【长按快捷栏槽可分配快捷栏内容】&lt;/p&gt; &lt;div&gt;&lt;b&gt;英雄&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;菜单 【总览，任务，技能，背包 *】&lt;/p&gt; &lt;p&gt;* （在背包界面，点击物品可以看到信息，长按有更多选项）&lt;/p&gt; &lt;div&gt;&lt;b&gt;敌人&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;信息 【仅在战斗中出现】&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;战斗&lt;/h1&gt; &lt;p&gt;战斗时进行操作会消耗 AP...&lt;/p&gt; &lt;div&gt;&lt;b&gt;攻击&lt;/b&gt; - 【3AP】 *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* （装备或使用消耗品会影响AP上限或消耗的AP）&lt;/p&gt; &lt;div&gt;&lt;b&gt;使用物品&lt;/b&gt; - [5AP]&lt;/div&gt; &lt;div&gt;&lt;b&gt;逃跑&lt;/b&gt; - [6AP]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;高级战斗&lt;/h1&gt; &lt;div&gt;在战斗中，长按英雄附近的方块...&lt;/div&gt; &lt;div&gt;&lt;b&gt;来逃跑&lt;/b&gt;&lt;/div&gt; &lt;p&gt;（选中的方块会高亮，攻击按钮会变成移动）&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;【逃跑模式启动- 长按敌人重新进入战斗】&lt;/p&gt; &lt;div&gt;&lt;b&gt;来改变目标&lt;/b&gt;&lt;/div&gt; &lt;p&gt;（红色高亮表示你选中的敌人）&lt;/p&gt; &lt;p&gt;【目标已改变】&lt;/p&gt;</string>
+    <string name="about_interface">&lt;div&gt;&lt;b&gt;游戏设置&lt;/b&gt;可通过按下设备的菜单按钮找到。&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;界面图标&lt;/h1&gt; &lt;div&gt;&lt;b&gt;宝箱&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;快捷栏 【长按快捷栏槽可分配快捷栏内容】&lt;/p&gt; &lt;div&gt;&lt;b&gt;英雄&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;菜单 【总览，任务，技能，背包 *】&lt;/p&gt; &lt;p&gt;* （在背包界面，点击物品可以看到信息，长按有更多选项）&lt;/p&gt; &lt;div&gt;&lt;b&gt;敌人&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;信息 【仅在战斗中出现】&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;战斗&lt;/h1&gt; &lt;p&gt;战斗时进行操作会消耗 AP...&lt;/p&gt; &lt;div&gt;&lt;b&gt;攻击&lt;/b&gt; - 【3AP】 *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* （装备或使用消耗品会影响AP上限或消耗的AP）&lt;/p&gt; &lt;div&gt;&lt;b&gt;使用物品&lt;/b&gt; - [5AP]&lt;/div&gt; &lt;div&gt;&lt;b&gt;逃跑&lt;/b&gt; - [6AP]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;战斗高级操作&lt;/h1&gt; &lt;div&gt;在战斗中，长按英雄附近的方格...&lt;/div&gt; &lt;div&gt;&lt;b&gt;逃跑&lt;/b&gt;&lt;/div&gt; &lt;p&gt;（选中的方块会高亮，攻击按钮字样会变成移动）&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;【逃跑模式激活- 长按敌人重新进入战斗模式】&lt;/p&gt; &lt;div&gt;&lt;b&gt;改变目标&lt;/b&gt;&lt;/div&gt; &lt;p&gt;（红色高亮表示你选中的敌人）&lt;/p&gt; &lt;p&gt;【目标已改变】&lt;/p&gt;</string>
     <string name="heroinfo_gamestats_bonemeals">使用骨粉药剂</string>
     <string name="heroinfo_gamestats_spent_gold">商店消费金币</string>
     <string name="heroinfo_gamestats_deaths">死亡次数</string>

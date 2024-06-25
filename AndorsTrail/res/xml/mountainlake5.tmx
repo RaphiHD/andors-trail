@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="29" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="22">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="29" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="25">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -123,37 +123,37 @@
  <tileset firstgid="4917" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="10" name="Base" width="29" height="20">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AU0BvcYRtoF4yCUTAKRsEoQAYA+XYA4w==
-  </data>
- </layer>
  <layer id="1" name="Ground" width="29" height="20">
   <data encoding="base64" compression="zlib">
-   eJy9lLERgzAMRY0L6gzACngFhyLpIStQZ8tswQgZIviQLsInwXfCUbzjAOFnCfhT7dwE8PqT1jsXCMR3hDOc5Gz8Artaxcm1lpPXSOz54lxzJTRnXq855ftgGm/vo5/PByJSPe8DdUbFGUQviY68t2o5jn6hpx55H6iz9+t5sWMQPGi95LTmNBrOLW/uGAXPi+2UcypxTvXaYdVoTp5T2Pj+0H8IdbK3PdnJMz7aKb9bq1ckT0p8yHOleYY675XNLzmKrGXtC8lNpF90FmHnX8kzPc/V3Gnd495kXloOLVutfJfXUx6+6y9aTqMOhI7yUDpl/hwN+zRn7v0AML9tkg==
+   eJy9lMENgzAMRUMOTMEKZAXKob0DK7AYw3QLRugQBeGvupZNTIs4PCHA5MUG/lyGMDt4/kkdQ0iEx3eGM13krOIGXLXiRK3lxBorOV+z1NwIzSnrNSd/H6CK9j665bwnGqrHPrzORnEm1stKS957sR3HuNFRj9iH19nF73nB0TMGWm91WnMaDeeeVzpGBuo0J5/TEedc6g6J5sSc0s735/2HvE5464udmPHZTv7dWr168uSIz/Pc0TzzOh+FzS856lnL2pcnNz39emeRMv+KzHSZq9Jp3UNvPC+t9bVstfKdX29FVmg5jWemIu/J0VIevsoPPH/OQOb9YDil9w3IeW3T
   </data>
  </layer>
  <layer id="2" name="Objects" width="29" height="20">
   <data encoding="base64" compression="zlib">
-   eJyllbFOwzAQht3OqWSJEfFIrDCUDYmx2aNCZqIys/A+fYSsIIZIrUL3qm3w0Tv893JuK/WXTo4d5z7f5Ww7d1pj79xDsE3m3Da0XbAVt9/Zfs5KjZO+sn1/56OvW9/3f4wp2rIfbIWnx6m9Htq8IvSnbM/qnTAXGXD5uebxfw6PC0er8ZFVBpsEy1VMVpykm+BznTlTDc9dqPfLLPoj1izYm7f9j6Hfgp+5j35kHdhfDew1CYNqgeafYuL6a99fx9THtgvMD4OrGdR/Uf9UM49pwnNnPlrOY4/DQ+ZfHQSrjH9awXeiH2P9d/x/UE+j/ppL5f9qZOdXuO+B9RpsN4h1IIY8Yok0E+d++sPY9XqrBAP9W8I8NeB3w3WwTdSR5Vv3Zd+R9D7X/0fvI6mj1BlhqYA9Tkrtc4mLhOck5jA/ky/7XPJ9rCaQh9w179cUH9kSo9wDxYm8WOdzl/hG+ClRjMjXuuf91ar4JG7i175/R5Awb5hTmq9zLHmg3Mh5Zd1LeP/o+rKYGFPJPKppstT9QrLezY384BneJu6Vc2XFY53hjVqH9V1KywvXeIl+Ac5xtgM=
+   eJyNlb9OAkEQxhfqI9nE0vgMvoIvYGNjgZ2J5WFNUGoJdiYkxso30JfwEWg1FiQYpCf8cUZm3I+5Wc4vmRy77M1vZm5nN4R6tWMIF2TLIoQVPTdkc3l+Fts1czPP+ii243VMvk5j1f8+pmolfvCpPDvPz8Omz+vSuCd2Y/5T5rQArvwey/wfR+aVYzWJidUnK8k6JicvT9YR+VwUwdVE1k7N/19F8sesIdl99P23YTwDP28x+dE4cDxv+DEpg/cCr69jYvzjWI2jF9NzQ8wnh2sZPL4139Qy96mUtcOYrCNzl81d5u8+IBs433QA76m+nfhL+T6oq1Y15r7xf9Dy66vcEbHuyNaNtA/UkMcslWXi2ve4m7uNd5BhoH9PWKcJ+F3KPlhl9pHn246171i2z+33sX2k+yh3RnjqQo+zcn2uebHwnMQadv7J1z7Xeu/bE8hD7kL6NcdHtuao90C3pi7e+bzJvKP8nDhH5FudS3/NTH6aN/PHsXpHsLBuWFNeb2usdeDa6Hnl3Ut4/9j95TExp77h5e6X3LwnPMNnJp4T8MN9lOvba5nnfJ7Nmeyd4djT+h7rmHhnNbFjvA/EeSF7JXvM3D9WHI/l1zFVP4TLvI8=
   </data>
  </layer>
  <layer id="3" name="Above" width="29" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMvBNgYHgrQLy4NBOFFgLBcSzm4gLk2neBBDuIAYq8DAxKvNjlqBEmwwmkQ8Nem4RwectDmh3hAtj56UjipNiPDHDpQ7ZTB6gmTQC7W3ABQmkS3d5UJDvwuYVeAN1OcsOXFIDN/+j2gsqpd3QMD+Rykdb2gvyKq3weCACy97gAIsyJCXvk8t6TEZiO0DC28hNX/YMOsJkXxohfD6XltSyafmTzQHJpOOoJWoJ0OqcHkH30LINg9hGyEwDmtySg
+   eJxjYKAMvBNgYHgrQLy4NBOFFgLBcSzm4gLk2neBBDuIAYq8DAxKvNjlqBEmwwmkQ8Nem4RwectDmh3haPGbJoBqN6n2IwNc+tKQzNZBUoPuFlyAUJpEt1cHj/uJtZOaAN1OcsOXFJCGxZ/o9oLKqXd0DA/kcpHW9oL8iqt8HggAsve4ACLMiQl75PLekxGYjtAwtvITV/2DDrCZF8aIXw+l5bUsmn5k89DlSAWk1I3IIA1H3UQpALmnDc1sWBlLahn0msQyHhmEE2knAByVJeM=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="29" height="20" visible="0">
+ <layer id="4" name="Top" width="29" height="20">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcCUCwwAxaqmlHxmQaye57kQH6Oahi1PqVlLcQchOaroHlxnY7KRGOiHVTmqHOSl2Usuv+OIeF5/aduJLO7TyJ6FwpZaduMyhtp3E6EdXQ4n9xOrDJocPkBNPpLiFEkBJeiAnTVLTvlE8+DEAt+iUbA==
+   eJxjYBgFo2AUjIJRMApGwUgF6QID7YLBAQCDuAB4
   </data>
  </layer>
- <layer id="5" name="Walkable_replace" width="29" height="20">
+ <layer id="5" name="Walkable" width="29" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy9kskNwDAIBF1CmnL/LeUVCSHAHOMgRbnMznLsZ62duL7InKXyZXSZXZ86tJ7+PvVa8XFikn48DYtJ7EmVSfe8wqRqjWbvvdPMaHdu1XnqK8X0dGhmJl+fmfCzeda/KDpzqniZxGQfOjtJ8mjvf/dOamhdebeeqfncrvMF6OWJzA==
+  </data>
+ </layer>
+ <layer id="6" name="Walkable_replace" width="29" height="20">
   <data encoding="base64" compression="zlib">
    eJztwQEBAAAAgiD/r25IQAEAfBsJEAAB
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="7" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="288" width="32" height="160">
    <properties>
     <property name="map" value="mountainlake4"/>
@@ -185,77 +185,95 @@
    </properties>
   </object>
   <object id="6" name="trapexit" type="mapchange" x="736" y="320" width="32" height="32"/>
+  <object id="7" name="west_up" type="mapchange" x="0" y="608" width="32" height="32">
+   <properties>
+    <property name="map" value="mountainlake4"/>
+    <property name="place" value="east_up"/>
+   </properties>
+  </object>
+  <object id="8" name="south_up" type="mapchange" x="160" y="608" width="288" height="32">
+   <properties>
+    <property name="map" value="laerothcave0"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn">
-  <object id="7" name="arulir_1" type="spawn" x="672" y="192" width="32" height="64">
+ <objectgroup id="8" name="Spawn">
+  <object id="9" name="arulir_1" type="spawn" x="672" y="192" width="32" height="64">
    <properties>
     <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object id="8" name="arulir_1_1" type="spawn" x="672" y="256" width="32" height="64">
+  <object id="10" name="arulir_1_1" type="spawn" x="672" y="256" width="32" height="64">
    <properties>
     <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object id="9" name="arulir_1_2" type="spawn" x="448" y="448" width="64" height="32">
+  <object id="11" name="arulir_1_2" type="spawn" x="448" y="448" width="64" height="32">
    <properties>
     <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object id="10" name="arulir_1_3" type="spawn" x="512" y="448" width="64" height="32">
+  <object id="12" name="arulir_1_3" type="spawn" x="512" y="448" width="64" height="32">
    <properties>
     <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object id="11" name="arulir_1_4" type="spawn" x="608" y="352" width="128" height="160">
+  <object id="13" name="arulir_1_4" type="spawn" x="608" y="352" width="128" height="160">
    <properties>
     <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object id="12" name="maonit_3" type="spawn" x="576" y="96" width="64" height="32">
+  <object id="14" name="maonit_3" type="spawn" x="576" y="96" width="64" height="32">
    <properties>
     <property name="spawngroup" value="maonit_3"/>
    </properties>
   </object>
-  <object id="13" name="arulir_1_5" type="spawn" x="512" y="96" width="32" height="32">
+  <object id="15" name="arulir_1_5" type="spawn" x="512" y="96" width="32" height="32">
    <properties>
     <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object id="14" name="maonit_3_1" type="spawn" x="32" y="96" width="160" height="160">
+  <object id="16" name="maonit_3_1" type="spawn" x="32" y="96" width="160" height="160">
    <properties>
     <property name="spawngroup" value="maonit_3"/>
    </properties>
   </object>
-  <object id="15" name="maonit_2" type="spawn" x="64" y="128" width="384" height="384">
+  <object id="17" name="maonit_2" type="spawn" x="64" y="128" width="384" height="384">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="maonit_2"/>
    </properties>
   </object>
-  <object id="16" name="maonit_2_1" type="spawn" x="416" y="64" width="64" height="32">
+  <object id="18" name="maonit_2_1" type="spawn" x="416" y="64" width="64" height="32">
    <properties>
     <property name="spawngroup" value="maonit_2"/>
    </properties>
   </object>
-  <object id="17" name="arulir_1a" type="spawn" x="800" y="416" width="64" height="32">
+  <object id="19" name="arulir_1a" type="spawn" x="800" y="416" width="64" height="32">
    <properties>
     <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object id="18" name="arulir_1b" type="spawn" x="832" y="160" width="32" height="32">
+  <object id="20" name="arulir_1b" type="spawn" x="832" y="160" width="32" height="32">
    <properties>
     <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object id="19" name="arulir_1c" type="spawn" x="800" y="64" width="64" height="32">
+  <object id="21" name="arulir_1c" type="spawn" x="832" y="32" width="32" height="32">
    <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object id="22" name="arulir_up" type="spawn" x="192" y="544" width="256" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys">
-  <object id="20" name="arulirmountain_needskin" type="key" x="768" y="416" width="32" height="32">
+ <objectgroup id="9" name="Keys">
+  <object id="23" name="arulirmountain_needskin" type="key" x="768" y="416" width="32" height="32">
    <properties>
     <property name="phrase" value="arulirmountain_entrance"/>
     <property name="requireId" value="arulir_skin"/>
@@ -263,8 +281,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Replace">
-  <object id="21" name="arulircave_trap:10" type="replace" x="704" y="352" width="64" height="32">
+ <objectgroup id="10" name="Replace">
+  <object id="24" name="arulircave_trap:10" type="replace" x="704" y="352" width="64" height="32">
    <properties>
     <property name="Walkable" value="Walkable_replace"/>
    </properties>

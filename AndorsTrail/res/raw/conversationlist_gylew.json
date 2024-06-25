@@ -1,7 +1,137 @@
 [
     {
         "id":"gylew",
-        "message":"Beat it, kid. You shouldn't be out here."
+        "message":"Hey kid.",
+        "replies":[
+            {
+                "text":"I'm not a kid anymore. Let's talk about the Korhald coins.",
+                "nextPhraseID":"gylew_korhald_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"Hey old man.",
+                "nextPhraseID":"gylew_old_man"
+            },
+            {
+                "text":"Hey. I found the Korhald tomb and it had two items that I think might interest you.",
+                "nextPhraseID":"gylew_korhald_cop_0",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":66
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"shield_of_brave",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hero_coin",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Inside the  Korhald tomb, I found a locked chest. Do you know where I can find its key?",
+                "nextPhraseID":"odd_coin_collector_ask_about_locked_chest",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":66
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"About that \"Coin of Prestige\"...",
+                "nextPhraseID":"gylew_korhald_cop_30a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":47
+                    }
+                ]
+            },
+            {
+                "text":"Hey. I need to go now and find this map.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"We have no more business to discuss. I'll see you later.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"I was glad to help fulfill you and your father's dream, but I need to go now.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":105
+                    }
+                ]
+            },
+            {
+                "text":"[Lie]I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them.",
+                "nextPhraseID":"coin_collector_thief_coins_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":106
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":80
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"bronze_coin",
+                        "value":50
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"silver_coin",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"laeroth_nondisplay",
+                        "value":107,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"gylew_henchman",

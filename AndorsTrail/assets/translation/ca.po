@@ -400,6 +400,30 @@ msgstr ""
 msgid "Thirst"
 msgstr ""
 
+#: actorconditions_laeroth.json:swift_attack
+msgid "Swift attack"
+msgstr ""
+
+#: actorconditions_laeroth.json:blindness
+msgid "Blindness"
+msgstr ""
+
+#: actorconditions_laeroth.json:life_drain
+msgid "Life drain"
+msgstr ""
+
+#: actorconditions_laeroth.json:sting_major
+msgid "Major sting"
+msgstr ""
+
+#: actorconditions_laeroth.json:spider_bite
+msgid "Spider bite"
+msgstr ""
+
+#: actorconditions_laeroth.json:environmental_poisoning
+msgid "Environmental poisoning"
+msgstr ""
+
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
 msgstr "Oh! Bé! Esteu despert."
@@ -1305,6 +1329,7 @@ msgstr "Necessito que entris a la cova i matis a la rata gran, així potser acab
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_80:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95:1
 #: conversationlist_mt_galmore.json:aidem_camp_intro_30:0
+#: conversationlist_laeroth.json:lae_torturer_100:1
 msgid "OK."
 msgstr "D'acord."
 
@@ -1798,6 +1823,18 @@ msgstr "Trobo molt de plaer als meus llibres. Tenen el coneixement acumulat de l
 msgid "Do you have a book called 'Calomyran Secrets'?"
 msgstr "Tens un llibre que es diu 'Els Secrets de Calomyran'?"
 
+#: conversationlist_fallhaven_arcir.json:arcir_books_1:2
+msgid "I have found some valuable looking map. Want to have a look?"
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_1:3
+msgid "I have found a strange book about slavery. Interested?"
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_1:4
+msgid "I have got a book about world history. Interested?"
+msgstr ""
+
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_1
 msgid "'Calomyran Secrets'? Hmm, yes I think I have one of those in my basement."
 msgstr "'Els Secrets de Calomyran'? Hmm, sí, crec que en tinc un al soterrani."
@@ -1831,6 +1868,72 @@ msgstr ""
 "Què deia la nota?\n"
 "\n"
 "Larcal... el conec. Sempre buscant sarau. Sol voltar pel graner que hi ha cap a l'est."
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_map
+msgid "Oh, an ancient map of the area! This would fit well into my collection of old maps. I offer you 500 gold pieces for it."
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:0
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:0
+msgid "Thanks, I'd rather keep it."
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:1
+msgid "OK. Here is Ewmondold's map."
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1
+msgid "And here are 500 shining gold pieces. Use them wisely."
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:0
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:0
+msgid "Thanks, I have to go now."
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:1
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:1
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:1
+msgid "Let's talk about other things."
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1
+msgid "Let's have a look. Oh, what the ... Well, this is no book for little ones as you. Give it to me, you get 200 pieces of gold for it."
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:1
+msgid "OK. Here is the book about slavery."
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1
+msgid "And here are 200 shining gold pieces. Be happy that I'm freeing you from this terrible work."
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2
+msgid "Ah, a history textbook."
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1
+msgid "But there are a lot of pages missing. Did you rip them out? You should be ashamed of yourself!"
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1:0
+msgid "No, that wasn't me!"
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2
+msgid "Such a beautiful book, completely broken! You dare to offer this to me and think I won't notice?!"
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:0
+#: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_no:0
+#: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_yes_1:0
+msgid "[Run]"
+msgstr ""
+
+#: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_3
+msgid "Yes, just run away, you book murderer!"
+msgstr ""
 
 #: conversationlist_fallhaven_bucus.json:bucus_welcome
 msgid "Hi again, welcome back to the ... Oh wait, I thought you were someone else."
@@ -2143,6 +2246,7 @@ msgstr "Espera, i tu qui eres? Ets el guàrdia aquell?"
 #: conversationlist_brimhaven.json:blackjack_dealer_30:0
 #: conversationlist_brimhaven.json:brv_woodcraftsman_0:0
 #: conversationlist_brimhaven_2.json:brv_villager3_asd_80:0
+#: conversationlist_laeroth.json:forenza_island_170:0
 msgid "Yes"
 msgstr "Sí"
 
@@ -2155,6 +2259,8 @@ msgstr "Sí"
 #: conversationlist_stoutford_combined.json:script_lakecave1_damerilia4_1:1
 #: conversationlist_stoutford_combined.json:script_lakecave1_damerilia5_1:1
 #: conversationlist_brimhaven.json:blackjack_dealer_30:1
+#: conversationlist_laeroth.json:gylew12:3
+#: conversationlist_laeroth.json:forenza_brimhaven_5:3
 msgid "No"
 msgstr "No"
 
@@ -4018,6 +4124,8 @@ msgstr "Hola. Saps on puc trobar l'Umar?"
 #: conversationlist_lethenlor.json:lethenlor4:1
 #: conversationlist_stoutford.json:stoutford_gateguard_0:0
 #: conversationlist_sullengard.json:sullengard_gaelian_0:1
+#: conversationlist_laeroth.json:moriath_1:1
+#: conversationlist_laeroth.json:moriath_caretaker_1:0
 msgid "What is this place?"
 msgstr "Què és aquest lloc?"
 
@@ -5760,6 +5868,8 @@ msgstr "Creença. Poder. Lluita."
 #: conversationlist_ratdom.json:ratdom_wakeup_140:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_10:0
+#: conversationlist_laeroth.json:lae_centaur9_2a:0
+#: conversationlist_laeroth.json:lae_torturer_36
 msgid "What?"
 msgstr "Què?"
 
@@ -6681,6 +6791,7 @@ msgstr ""
 #: conversationlist_omicronrg9.json:guild04_defy_4:0
 #: conversationlist_brimhaven_2.json:kizzo_asd_50:0
 #: conversationlist_gison.json:gael_20_6
+#: conversationlist_laeroth.json:brute_fisherman_4:0
 msgid "Really?"
 msgstr "De debò?"
 
@@ -9390,6 +9501,7 @@ msgid "Would you like to trade for some potions?"
 msgstr ""
 
 #: conversationlist_blackwater_herec.json:herec_q5:0
+#: conversationlist_laeroth.json:coin_collector_thief_coins_10
 msgid "Sure. Let's see what you have."
 msgstr ""
 
@@ -9747,6 +9859,8 @@ msgstr ""
 #: conversationlist_stoutford_combined.json:lakecave2_troll_14
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low
 #: conversationlist_ratdom.json:ratdom_ghost_40:1
+#: conversationlist_laeroth.json:cuned_3
+#: conversationlist_laeroth.json:lae_centaur1_1:0
 msgid "What do you want?"
 msgstr ""
 
@@ -10695,6 +10809,7 @@ msgstr "Sí, tens raó."
 #: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5_2
 #: conversationlist_gison.json:gison_p2_10_7:1
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_40:0
+#: conversationlist_laeroth.json:gylew7a:1
 msgid "No."
 msgstr "No."
 
@@ -13073,6 +13188,7 @@ msgstr ""
 #: conversationlist_gison.json:gison_p1_10_0:0
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_12:1
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden:2
+#: conversationlist_laeroth.json:moriath_history_1:0
 msgid "What are you doing here?"
 msgstr "Que estàs fent aquí?"
 
@@ -13903,6 +14019,7 @@ msgstr "Utilitza-ho bé, amic meu. No deixis que altres puguin obtenir el poder 
 #: conversationlist_halvor_surprise.json:halvor_crossglen_7:1
 #: conversationlist_gison.json:gison_p1_20_warmup_1
 #: conversationlist_bwmfill.json:loneford_villager2_fence1
+#: conversationlist_laeroth.json:gylew_korhald_20:0
 msgid "Here you go."
 msgstr "Aquí tens."
 
@@ -13937,6 +14054,7 @@ msgstr ""
 #: conversationlist_remgard_bridgeguard.json:remgardb_3:0
 #: conversationlist_lodar.json:lodar_andor9:0
 #: conversationlist_omicronrg9.json:troublemaker_guild_4:1
+#: conversationlist_laeroth.json:forenza_island_100:1
 msgid "Please continue."
 msgstr ""
 
@@ -15361,7 +15479,47 @@ msgid "How about some of those other blessings?"
 msgstr ""
 
 #: conversationlist_gylew.json:gylew
-msgid "Beat it, kid. You shouldn't be out here."
+msgid "Hey kid."
+msgstr ""
+
+#: conversationlist_gylew.json:gylew:0
+msgid "I'm not a kid anymore. Let's talk about the Korhald coins."
+msgstr ""
+
+#: conversationlist_gylew.json:gylew:1
+msgid "Hey old man."
+msgstr ""
+
+#: conversationlist_gylew.json:gylew:2
+#: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:1
+msgid "Hey. I found the Korhald tomb and it had two items that I think might interest you."
+msgstr ""
+
+#: conversationlist_gylew.json:gylew:3
+#: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:2
+msgid "Inside the  Korhald tomb, I found a locked chest. Do you know where I can find its key?"
+msgstr ""
+
+#: conversationlist_gylew.json:gylew:4
+msgid "About that \"Coin of Prestige\"..."
+msgstr ""
+
+#: conversationlist_gylew.json:gylew:5
+msgid "Hey. I need to go now and find this map."
+msgstr ""
+
+#: conversationlist_gylew.json:gylew:6
+#: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:6
+msgid "We have no more business to discuss. I'll see you later."
+msgstr ""
+
+#: conversationlist_gylew.json:gylew:7
+msgid "I was glad to help fulfill you and your father's dream, but I need to go now."
+msgstr ""
+
+#: conversationlist_gylew.json:gylew:8
+#: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:8
+msgid "[Lie]I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them."
 msgstr ""
 
 #: conversationlist_gylew.json:gylew_henchman
@@ -19870,6 +20028,7 @@ msgstr ""
 #: conversationlist_lodar.json:lodar_d0
 #: conversationlist_maevalia.json:maevalia_s1
 #: conversationlist_trader_teksin.json:teksin11
+#: conversationlist_laeroth.json:moriath_1_0
 msgid "Hello again."
 msgstr ""
 
@@ -21770,6 +21929,10 @@ msgstr ""
 msgid "You're all sweaty and pale, what's wrong?"
 msgstr ""
 
+#: conversationlist_woodcabin.json:smuggler5_1:1
+msgid "I just met a talking pig right over there. [You point in the direction of west]"
+msgstr ""
+
 #: conversationlist_woodcabin.json:smuggler5_2
 msgid "Um. Just one more. Please, just one more."
 msgstr ""
@@ -21811,6 +21974,10 @@ msgid "The Sakul are watching us. They're coming."
 msgstr ""
 
 #: conversationlist_woodcabin.json:pig
+#: conversationlist_laeroth.json:hungry_pig_upset_stomach_2
+#: conversationlist_laeroth.json:hungry_pig_feed
+#: conversationlist_laeroth.json:hungry_pig_feed_2
+#: conversationlist_laeroth.json:hungry_pig_grunt
 msgid "[Grunt]"
 msgstr "[Gruny]"
 
@@ -22179,6 +22346,7 @@ msgstr ""
 #: conversationlist_fallhaven_potions.json:fungi_panic_potioner_28:0
 #: conversationlist_fungi_panic.json:gison_bottle_8_1:0
 #: conversationlist_ratdom.json:ratdom_wells_chest_4:0
+#: conversationlist_laeroth.json:lae_centaur9_12b:1
 msgid "Nice."
 msgstr ""
 
@@ -22234,6 +22402,8 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_41
 #: conversationlist_mt_galmore.json:wild6_house_hatch_10:0
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_75:0
+#: conversationlist_laeroth.json:gylew7a:0
+#: conversationlist_laeroth.json:gylew_korhald_10:0
 msgid "Yes."
 msgstr "Sí."
 
@@ -22320,6 +22490,7 @@ msgstr ""
 #: conversationlist_brimhaven2.json:brv_school_history_30:0
 #: conversationlist_fungi_panic.json:zuul_khan3_blocker:1
 #: conversationlist_fungi_panic.json:zuul_khan4_blocker:1
+#: conversationlist_laeroth.json:lae_torturer_42:0
 msgid "Sigh."
 msgstr ""
 
@@ -22769,6 +22940,7 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_75a:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_76a:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_77a:0
+#: conversationlist_laeroth.json:gylew_korhald_70:0
 msgid "Of course."
 msgstr ""
 
@@ -23451,6 +23623,9 @@ msgstr ""
 #: conversationlist_fungi_panic.json:zuul_khan4:0
 #: conversationlist_omi2.json:ortholion_guard9_1:1
 #: conversationlist_sullengard.json:sullengard_matpat_2:0
+#: conversationlist_laeroth.json:lae_centaur1_2:0
+#: conversationlist_laeroth.json:lae_torturer_30:0
+#: conversationlist_laeroth.json:lae_torturer_64:0
 msgid "Why?"
 msgstr "Per què?"
 
@@ -23967,6 +24142,7 @@ msgid "Not interested, seems like trouble."
 msgstr ""
 
 #: conversationlist_graveyard1.json:graveyard_quest2
+#: conversationlist_laeroth.json:laerothbasement1_chest_examine_locked
 msgid "The chest is locked."
 msgstr ""
 
@@ -24760,6 +24936,11 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_employee_key_house
 #: conversationlist_brimhaven.json:brv_brother2_door1
 #: conversationlist_fungi_panic.json:sign_bogsten_nokey
+#: conversationlist_laeroth.json:script_open_korhald_tomb_door_has_key
+#: conversationlist_laeroth.json:lae_prison_cell1
+#: conversationlist_laeroth.json:lae_prison_cell2
+#: conversationlist_laeroth.json:lae_prison_cell3
+#: conversationlist_laeroth.json:lae_prison_cell4
 msgid "The door is locked."
 msgstr ""
 
@@ -29246,6 +29427,7 @@ msgid "Yes. I need some potions."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:blornvale_thorns74_1
+#: conversationlist_laeroth.json:lae_demon4_10
 msgid "As you wish."
 msgstr ""
 
@@ -29565,6 +29747,7 @@ msgid "Yes, incredible! Although kids like you should not play with such things.
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:yolgen_4a:0
+#: conversationlist_laeroth.json:brute_creator_26:0
 msgid "Hmph."
 msgstr "Hmff."
 
@@ -32350,6 +32533,7 @@ msgstr ""
 #: conversationlist_omi2.json:elm2f2_chest_2:0
 #: conversationlist_omi2.json:ehrenfest_53:1
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_20:2
+#: conversationlist_laeroth.json:chest_search_1:1
 msgid "Leave."
 msgstr "Marxar."
 
@@ -32555,6 +32739,7 @@ msgstr ""
 #: conversationlist_omicronrg9.json:umar_guild03_19d
 #: conversationlist_omicronrg9.json:umar_guild04_14:0
 #: conversationlist_omi2.json:ehrenfest_33a:1
+#: conversationlist_laeroth.json:brute_fisherman_16:0
 msgid "Fine."
 msgstr "D'acord."
 
@@ -35363,6 +35548,9 @@ msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_11a_13
 #: conversationlist_ratdom_npc.json:ratdom_rat_242:1
+#: conversationlist_laeroth.json:lae_torturer_4:0
+#: conversationlist_laeroth.json:lae_torturer_18:0
+#: conversationlist_laeroth.json:lae_demon_call_10
 msgid "Nothing."
 msgstr ""
 
@@ -38816,6 +39004,7 @@ msgid "I'm not quite done yet. I just want to take a short break."
 msgstr ""
 
 #: conversationlist_brimhaven2.json:brv_wh_boss_10_10:1
+#: conversationlist_laeroth.json:lae_andor1_10:2
 msgid "Please tell me again, what I should do."
 msgstr ""
 
@@ -38859,6 +39048,7 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_inn_traveler_30
 #: conversationlist_sullengard.json:sullengard_zaccheria_100:0
 #: conversationlist_sullengard.json:sullengard_citizen_andor_20:0
+#: conversationlist_laeroth.json:coin_collector_thief_coins_70
 msgid "Thank you so much."
 msgstr ""
 
@@ -39166,6 +39356,7 @@ msgstr ""
 
 #: conversationlist_brimhaven2.json:guard_advent_58:0
 #: conversationlist_fungi_panic.json:bogsten_90_40:0
+#: conversationlist_laeroth.json:lae_torturer_4
 msgid "What??"
 msgstr ""
 
@@ -40650,6 +40841,7 @@ msgid "This brute growled at me, but I got away and let it live."
 msgstr ""
 
 #: conversationlist_brimhaven_2b.json:hettar_30:2
+#: conversationlist_laeroth.json:lae_centaur9_100:3
 msgid "I am still searching."
 msgstr ""
 
@@ -41586,6 +41778,7 @@ msgstr ""
 #: conversationlist_fungi_panic.json:zuul_khan9_blocker_10:0
 #: conversationlist_omi2.json:arghest_alert_9:1
 #: conversationlist_ratdom.json:ratdom_rat_conv2_592:0
+#: conversationlist_laeroth.json:lae_centaur9_310:1
 msgid "At last."
 msgstr ""
 
@@ -42390,6 +42583,8 @@ msgstr ""
 #: conversationlist_fungi_panic.json:gison_arg_10:1
 #: conversationlist_fungi_panic.json:nimael_arg_10:1
 #: conversationlist_omi2.json:arghest_15:1
+#: conversationlist_laeroth.json:lae_algangror2_32:0
+#: conversationlist_laeroth.json:lae_torturer_11e:0
 msgid "If you say so."
 msgstr ""
 
@@ -45198,6 +45393,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:prim_tavern_guest4_13:1
 #: conversationlist_sullengard.json:sullengard_nanette_0:0
+#: conversationlist_laeroth.json:hungry_pig_sick:0
 msgid "Are you OK?"
 msgstr ""
 
@@ -48130,11 +48326,6 @@ msgstr ""
 msgid "Then what are you standing there for?! Get out and deliver everything!"
 msgstr ""
 
-#: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_no:0
-#: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_yes_1:0
-msgid "[Run]"
-msgstr ""
-
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_no:1
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_yes_1:1
 msgid "Yes boss."
@@ -48960,7 +49151,7 @@ msgid "What the? But it just happened yesterday."
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_nanette_9
-msgid "Oh hello there, kid. Have you talked to Kaelwea the priest yet?"
+msgid "Oh hello there, kid. Have you talked to Kealwea the priest yet?"
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_nanette_9:0
@@ -49046,6 +49237,7 @@ msgid "As far your reward is concerned, I am now willing to sell and trade with 
 msgstr ""
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_100:0
+#: conversationlist_laeroth.json:gylew14:0
 msgid "Sounds good."
 msgstr ""
 
@@ -50384,6 +50576,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_11:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_54c
+#: conversationlist_laeroth.json:moriath_1_1:0
 msgid "Thanks!"
 msgstr ""
 
@@ -51272,6 +51465,7 @@ msgstr ""
 
 #: conversationlist_haunted_forest.json:gabriel_shh:0
 #: conversationlist_mt_galmore.json:blue_cat_blue:0
+#: conversationlist_laeroth.json:gylew_attack
 msgid "What? Why?"
 msgstr ""
 
@@ -52332,6 +52526,7 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_40d:0
 #: conversationlist_ratdom_npc.json:whootibarfag_120:0
+#: conversationlist_laeroth.json:lae_torturer_34:0
 msgid "Eh ..."
 msgstr ""
 
@@ -55159,6 +55354,7 @@ msgid "Yes, that's why. Hurry now."
 msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_50_20:0
+#: conversationlist_laeroth.json:lae_torturer_32:0
 msgid "Oh, OK."
 msgstr ""
 
@@ -58047,6 +58243,3780 @@ msgstr ""
 msgid "Well ... OK."
 msgstr ""
 
+#: conversationlist_laeroth.json:bridge_key
+msgid "The bridge is no longer passable."
+msgstr ""
+
+#: conversationlist_laeroth.json:arulir_secret_room_loot_1
+msgid "You found a corpse with a loot bag."
+msgstr ""
+
+#: conversationlist_laeroth.json:arulir_secret_room_loot_1:0
+msgid "[Plunder the loot]"
+msgstr ""
+
+#: conversationlist_laeroth.json:arulir_secret_room_loot_1:1
+msgid "[Leave the loot alone]"
+msgstr ""
+
+#: conversationlist_laeroth.json:arulir_secret_room_loot_2
+msgid "You have 'acquired' some gold and other valuable gems!"
+msgstr ""
+
+#: conversationlist_laeroth.json:arulir_secret_room_loot_3
+msgid "You've been here before and have already plundered the man's valuables."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew2
+msgid "Great! Let me see."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew3
+msgid "I am a rare coin collector. Have you ever noticed how some of your gold is more unique or older looking than others?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew3:0
+msgid "Yes, I have."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew3:1
+msgid "[Lie] Yes, yes I have."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew3:2
+msgid "Honestly, I just use it to buy bonemeal."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew3:3
+msgid "No and I don't care."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew4
+msgid "Great. Please let me see...agh, interesting."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew4:0
+msgid "What? What do you see?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew5
+msgid "This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew5:0
+msgid "Oh, I see."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew5:1
+msgid "[While pointing at a few of the coins in Gylew's hand, you ask:] What about those?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew5:2
+msgid "Yes, I know this already."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew5:3
+msgid "I am so not interested."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew6
+msgid "Where did you get these coins?! [Gylew shows you a set of identical coins]"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew6:0
+msgid "None of your business. Now get to the point."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew6:1
+msgid "It was a gift from a friend. Can we get right to what you want?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew6:2
+msgid "With all of my coins, do you actually think I can remember?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew6:3
+msgid "It was a reward for helping a mermaid."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7
+msgid "OK, I will get back to my ask of you now."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7:0
+msgid "Um, is this going to take long? I have to find my brother."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7:1
+msgid "Interesting, it really is, but I'm leaving."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7:2
+msgid "Interesting. Please enlighten me some more."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7a
+msgid "What?! Seriously?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7a_1
+msgid "I must have one."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7a_1:0
+#: conversationlist_laeroth.json:gylew8a_2:0
+msgid "OK. What do you have of value?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7a_1:1
+#: conversationlist_laeroth.json:gylew8a_2:1
+msgid "Here, take it."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7a_1:2
+msgid "Nope, they are mine."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7a_2
+msgid "Here is 500 gold."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7a_2:0
+#: conversationlist_laeroth.json:gylew7a_2:1
+msgid "Now that's funny. A coin collector traded me his gold coins for my coins."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7a_3
+msgid "That was foolish of you. This is very valuable and you just gave it to me."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew7a_3:1
+msgid "Well, I just gave it to you because I was hoping for something special in return."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8
+msgid "Where did you get these coins?! [Gylew shows you a collection of identical coins]"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8:0
+msgid "I took them off of a dead guy."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8:1
+msgid "I got them from a friend"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8:2
+msgid "That's none of your business."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8:3
+msgid "I don't know. After all, I have looted many a gold coin in my travels."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew9
+msgid "You see, I was raised in Feygard by my father who was commissioned to create gold coins. All he ever talked about was coins and we shared this common love."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew10
+msgid "He once told me this story when I was very young about this magnificent coin collection called the 'Korhald coins'. So from a very young age I was fascinated."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew10:0
+msgid "You mentioned 'Korhald coins'. Who or what is 'Korhald'?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew10_1
+msgid "You never heard of Korhald? He was the founder of Remgard. Anyways, back to my story..."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew10_2
+msgid "My father never mentioned the exact location to me, but from my efforts, I've ascertained a location near Remgard."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew10_2:0
+msgid "Remgard? Where's that?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew10_2:1
+msgid "Great, I see where this is going. I need to go back to Remgard."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew10_2_1
+msgid "It is far east of here near a place called Laeroth Manor."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew12
+msgid "We have failed to retrieve it as the monsters are too strong. That's where you come in. What do you say? Will you help me?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew12:0
+msgid "Yes, of course, you need my help."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew12:1
+msgid "Pathetic creatures you two are. Needing the help of a child. I will do it."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew12:2
+msgid "Depends. What is the reward?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew11
+msgid "Yes, a place called Laeroth Manor."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew13
+msgid "Then please head to the east and return to me when you find the Korhald coins."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew14
+msgid "We will discuss this after you have completed the job. But remember, I am from Feygard and can reward you handsomly."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew14:1
+msgid "OK, but I have high expectations. Please be prepared to pay up."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_old_man_10a
+msgid "Show me your gold."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_old_man_10a:0
+msgid "No way. I'm out of here."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_old_man_10a:1
+msgid "Um...sure, I guess"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8a_1
+msgid "What?! You went digging through his corpse?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8a_1:0
+msgid "Don't judge me. I was desperate at the time."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8a_2
+msgid "I must have them. All 10 of them!"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8a_2:2
+msgid "Nope. You can not have them."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8a_3
+msgid "Here is 550 gold"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8a_3:0
+msgid "Wow! I get 550 gold for the 10 I gave you?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew8a_4
+msgid "Much appreciated. Thank you."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_old_man_10b
+msgid "What are you waiting for? Go find those Korhald coins!"
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement2_korhald_sign_30
+msgid "As you approach the crates, you notice an almost illegible sign hanging on the wall. Upon further examination, you can make out the word 'Korhald'."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement2_chest_examine_40
+msgid "As you approach these crates, you quickly develop an appreciation for their age. You also notice the vast amount of nasty cobwebs surrounding them. Yet something compels you to look further."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement2_chest_examine_40:0
+msgid "I better not. There could be danger lurking inside."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement2_chest_examine_40:1
+msgid "[Examine the crate.]"
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement2_chest_examine_2
+msgid "The cobwebs must have been holding this extremely old container together."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement2_chest_examine_50
+msgid "You pull out a small, richly covered box."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement1_chest_examine
+msgid "Examine the chest?"
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement1_chest_examine:0
+msgid "Go for it! This could be the 'Korhald coins'."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement1_chest_examine:1
+msgid "No! This may be a trap."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement1_chest_examine_locked:0
+msgid "I should look somewhere else."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_initial_phrase
+msgid "What do you think you are doing here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_initial_phrase:0
+msgid "Returning to Gylew what is rightfully his."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_initial_phrase:1
+msgid "I am working a job for a man name Gylew."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_initial_phrase:2
+msgid "Um...I am returning something to a man name Gylew."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_10
+msgid "I don't think you want to do that."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_10:0
+msgid "And why is that?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_20
+msgid "Well, for starters, that chest that you are carrying belongs to me."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_20:0
+msgid "How do you figure?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_30
+msgid "Because I said it does! Now give me that chest before you get hurt."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_30:0
+msgid "Don't make me laugh. You hurt me? Do you know who I am? Explain yourself now."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_30:1
+msgid "Explain yourself now or Gylew gets his treasure."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_40
+msgid "The story starts many many years ago."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_40:0
+msgid "[You rudely interrupt] Oh great, please spare me the grandpa story."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_50
+msgid "Anyways...it was back when we were kids. You see, Gylew and I are half-brothers."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_60
+msgid "We have the same father. After Gylew's mom died of the Great Plague, father traveled to Brightport in search of a new wife."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_70
+msgid "To \"spare you of the grandpa story\" as you called it, I will skip details."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_70:0
+msgid "Thank you very much."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_80
+msgid "Eventually, they were married and I was soon born. Gylew and I were close in age and often got along great."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_90
+msgid "But father always favored Gylew. They often took long trips in search of exotic and unique coins. I was left out of these adventures most of the time."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_100
+msgid "I was only allowed to go after mother instisted to father that I go too."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_100:0
+#: conversationlist_laeroth.json:forenza_island_130:0
+msgid "What happened to skipping the details?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_110
+msgid "OK...Gylew and father discovered this story of looted gold coins that were rumored to be hidden here in the Laeroth Manor. But neither was strong enough to dare try to retrieve it."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_120
+msgid "For many years afterwards, this is all the family ever talked about. During this time, my father and I grew apart and eventually, my mother and I left him and returned to her hometown of Brightport."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_130
+msgid "I was able to make it back to him shortly before his death in an attempt to repair our broken relationship."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_130:1
+msgid "Please, continue."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_140
+msgid "Angry with him, I was able to steal this key [Forenza shows you what you suspect is the key to the chest] from his estate before it was given to Gylew."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_150
+msgid "A few years later I learned what this key opened and this is why I am here. To my disappointment, I quickly realized I was missing the second key."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_150:0
+msgid "Where do you think the other key is?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_150:1
+msgid "[Sarcasm] I like the 'stories with Grandpa hour'. But seriously, skip the details and tell me where the other key is."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_160
+msgid "Isn't it obvious? Gylew must have it."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_160:0
+msgid "You have been wronged by your family and deserve this treasure. I can get Gylew's key for you."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_160:1
+msgid "Gylew is the rightful owner of his father's estate and that key belongs to the estate."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_170
+msgid "You will do this for me?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_170:1
+msgid "On second thought..."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_170_attack
+msgid "What are you going to do about it?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_170_attack:0
+msgid "Kill you and take that key!"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_180
+msgid "Great. Go to Gylew and get his key. Then bring it and the chest to me. I will meet you outside of Brimhaven."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase
+msgid "Hey, kid, nice to see you again."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:0
+msgid "It's nice to see you too.  Can we talk about the Korhald coins?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:3
+msgid "I tried to get Gylew's key, but..."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:4
+msgid "I have not gone back to see Gylew since our last encounter. Why am I wasting time talking to you when the job is not done yet?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:5
+msgid "Hey. I need to go now and follow this map."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:7
+msgid "I hope that having these coins will enable you to make peace with your father. Take care."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_brimhaven_10
+msgid "With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_brimhaven_15
+msgid "Well, go get it and bring me back both the key and the chest."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_brimhaven_15:0
+msgid "Yes sir!"
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_chest_examine_10
+msgid "He then begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something..."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_chest_examine_20
+#: conversationlist_laeroth.json:korhald_chest_examine_20_gylew
+msgid "Look at what I found at the bottom of the chest. A pendant and a map. [Shows item to you]"
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_chest_examine_20:0
+#: conversationlist_laeroth.json:korhald_chest_examine_20_gylew:0
+msgid "A map? Really? Where does it point to?"
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_chest_examine_30
+msgid "Well, that is really hard to say. You see [he shows you the map], it is really old and a lot of the landmarks no longer exist in Dhayavar."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_chest_examine_30:0
+msgid "Yeah, I can see what you mean."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_chest_examine_40
+msgid "But not all hope is lost. You see this map shows the great river that is just right over there [points northeast] behind those trees. Anyone who follows the map going east, should have no problem reaching wherever this map is leading to."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_chest_examine_50
+msgid "Here, take the map and the pendant. If you need me, I'll be here for a little bit longer."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_attack:0
+msgid "You are not rightful."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_10
+msgid "Did you find them?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_10:1
+msgid "Yes and I already gave it to you."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_10:2
+msgid "Yes, I found the Korhald coins, but you are not getting them...[Attack]"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_10:3
+msgid "Yes, but I don't have them on me. I will go get them."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_20
+msgid "Great! Let me have it."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_30
+msgid ""
+"[Gylew examines the chest]\n"
+"What?! There are two locks! How can this be? Do you know anything about a second key?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_30:0
+#: conversationlist_laeroth.json:gylew_korhald_27:0
+msgid "Yes. In fact, I met a 'friend' of yours who told me all about it."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_40
+msgid "And whom may that be?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_40:0
+msgid "Your half-brother, Forenza. What a story he had to tell."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_50
+msgid "But I see that you did not listen to those 'stories' as you would not be here if you had. What did he tell you about the second key?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_50:0
+msgid "Well, for starters, he told me that he had it and he would not give it to me without a fight. Which of course, we did fight to the death for."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_60
+msgid "You killed my brother?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_60:0
+msgid "YES, and I loved doing so. Pathetic creature he was."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_60:1
+msgid "I was forced to. He gave me no choice."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_60:2
+msgid "[Lie] No, but I beat him up good and took his key."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_70
+msgid "I guess I should be saddened, but I am not. Can I have my brother's key now? I've waited a long time for these coins."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_80
+msgid "Thank you! It is so nice to finally be this close to my life's dream."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_chest_examine_10_gylew
+msgid "He opens the chest and begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something..."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_old_man
+msgid "Oh, you think you are a funny kid? I see."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_old_man:0
+msgid "Let's talk about the Korhald coins."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_old_man:1
+msgid "Yeah, actually, I do think so."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_old_man:2
+msgid "Umm..."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_cave_hidden_basket_examine_loot_f
+msgid "Forenza would love to hear that..."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_cave_hidden_basket_examine_loot_g
+msgid "Gylew would be very interested to hear that..."
+msgstr ""
+
+#: conversationlist_laeroth.json:mysterious_map_stop_and_review_south
+#: conversationlist_laeroth.json:mysterious_map_stop_and_review
+msgid "Let's stop for a second and look at the 'Mysterious Korhald map'."
+msgstr ""
+
+#: conversationlist_laeroth.json:mysterious_map_waterway7_0
+msgid "According to the map, I should continue heading east."
+msgstr ""
+
+#: conversationlist_laeroth.json:mysterious_map_missing
+msgid "I don't have the map. I should go back and get it so that I don't get lost."
+msgstr ""
+
+#: conversationlist_laeroth.json:mysterious_map_waterway9_0
+msgid "According to the map, I should continue heading south."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_cave_hidden_war_book
+msgid "At a quick glance, you notice a couple of books on the strategy of war."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_0
+#: conversationlist_laeroth.json:forenza_korhald_cop_0
+msgid "Oh, really?! Let me see them and we can talk more."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_0:0
+msgid "[You show Gylew the Coin of Prestige and the Shield of the brave]"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_10
+#: conversationlist_laeroth.json:forenza_korhald_cop_10
+msgid "Hmm...these are indeed interesting. Very interesting in fact."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_10:0
+msgid "[While trying to hold back the giant smile that you can feel growing upon your face, you ask 'why is that?']"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_20
+msgid "Well, for starters, this shield has the Korhald family crest engraved on its front side and clearly belonged to Korhald himself, but I have no use for such an item. Here take it."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_30
+msgid "But this coin you have here is a completely different story. I don't know anything about it. Which makes me want it even more. Can I have it? I will reward you handsomely for it."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_30:0
+#: conversationlist_laeroth.json:forenza_korhald_cop_30:0
+#: conversationlist_laeroth.json:gylew_korhald_cop_30a:0
+msgid "Reward?! I always love the sound of that. What are we talking here? 10000 gold? 20000 gold?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_30:1
+#: conversationlist_laeroth.json:forenza_korhald_cop_30:1
+#: conversationlist_laeroth.json:gylew_korhald_cop_30a:1
+msgid "Here, take it. I have enough coins."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_40
+msgid ""
+"[While laughing]\n"
+"Now, now, don't get greedy on me. How about 7000 gold and I will tell people we are friends?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_40:0
+#: conversationlist_laeroth.json:forenza_korhald_cop_40:0
+msgid "Sounds like a great deal. I'll take it."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_40:1
+#: conversationlist_laeroth.json:forenza_korhald_cop_40:1
+msgid "Let me think about it. I will be back shortly."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_50
+#: conversationlist_laeroth.json:forenza_korhald_cop_50
+msgid "Excellent. Come see me if you ever find any more interesting coins."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_45
+msgid "OK, but don't keep an old man waiting too long. I want that coin."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_35
+msgid "Oh, you are so kind. I'll tell you what. Once you find your way to Feygard, seek out my family. They will help you make that shield a little bit better."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_tower_north
+msgid "Looking to the north, you see more of the manor, the lake, and cliffs beyond that."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_tower_east
+msgid "You gaze to the east, but there is not much to see. The lake, the shore, but you think you recognize some of the cliffs you had to scale to get here."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_tower_south
+msgid "Looking to the south, you see the lakeshore you walked along. There is also a tower in the distance. You wonder if at one time the that tower and this one sent signals to each other."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_tower_west
+msgid "To the west, you see a town on an island. It looks prosperous. In the far distance, somewhat to the north, it looks like there is another island, but you can't make out any details."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_brimhaven_5
+msgid "Do you have Gylew's key?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_brimhaven_5:0
+msgid "Yes, and I also have the chest. Here, take them. [You give both items to Forenza]"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_brimhaven_5:1
+msgid "Yes, but I don't have the chest."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_brimhaven_5:2
+msgid "What are you talking about? I already gave it to you along with the chest I found on the island."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_korhald_cop_0:0
+msgid "[You show Forenza the Coin of Prestige and the Shield of the brave]"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_korhald_cop_10:0
+msgid "[While trying to hold back the giant smile that you can feel growing upon your face, you ask]'why is that'?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_korhald_cop_20
+msgid "Well, for obvious reasons. Didn't you notice that the shield has the Korhald family crest engraved on its front side? This clearly belonged to Korhald himself. You should keep this item as i could aid you in your adventures."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_korhald_cop_30
+msgid "But this coin you have here really gives my pause, as I never believed the stories about its existence were true.  I don't know much about it, but I do know that it has great value. Can I have it? I will reward you for it of course."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_korhald_cop_40
+msgid ""
+"[While laughing]\n"
+"Now, now, who do you think I am, Gylew? I don't have that kind of gold. How about 7000 gold?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_korhald_cop_35
+msgid "Oh, how very generous of you to just hand it over for free. I'll tell you what once you find your way to Brightport, seek out my family. They will help you reward you for all of your generosity and hard work."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_0
+msgid "Hello. It's so very long since I have seen another person. Who are you, and why are you here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_0:0
+msgid "I'm $playername. I'm looking for my brother, Andor. Have you seen him?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1
+msgid "No. I just told you that you are the first person I have seen here in a very long time. Getting to the old manor is difficult and dangerous, and there is nothing here. So why would anyone come here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1:0
+msgid "So why are you here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1:2
+msgid "I guess I'll be going then."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_1
+msgid "I am Moriath, the caretaker for this manor."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_1:1
+#: conversationlist_laeroth.json:moriath_history_1:1
+msgid "Can you tell me more about this place?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_1:2
+msgid "If there is nobody else here, why do you stay?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_1
+msgid "This is Laeroth manor. Or what is left of it, anyway."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_2
+msgid "Laeroth manor? Yes, of course."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_2
+msgid ""
+"I am bound by an oath to take care of the manor. It is not an oath I ever gave though. \n"
+"\n"
+"I cannot care for everything of course. I take care of the main house, the bridges, and tend to the graves as best I can. Everything else has gradually fallen to ruin."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_2:0
+msgid "How can you be bound by an oath you never gave?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_3
+msgid "It is a matter of honor. The Lord of the manor saved my great-great grandfather from certain death many years ago. In return my great-great grandfather vowed that his family would always look after the manor."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_3:0
+msgid "He should not have made a vow that bound his family for generations!"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_3:1
+msgid "Well, that's too bad for you. I need to get going. I have to find my brother."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_4
+msgid "I do not disagree, but he did."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_4:0
+msgid "Is there something I can do to help?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_4:1
+msgid "Too bad. Look on the bright side though. You have an entire manor to yourself. Bye."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_3
+msgid "Many years ago, this island was used as a refuge in times of danger by communities that lived on the lakeshore. There was little here other than a small fortification, but being an island, that was enough for protection."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_4
+msgid "Then a man by the name of Laeroth, along with a group of followers, declared himself the Lord of Laeroth, and took the fortifications and the island as his own."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_5
+msgid ""
+"For many years his family continued to provide refuge to those that lived on the shore, and they even built a watchtower on the mountain to the south, as a lookout for approaching enemies.\n"
+"In return, the manor was provided with supplies."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_5:0
+msgid "Interesting. Please continue."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_5:1
+msgid "Maybe I shouldn't have asked. This is getting boring. I need to leave, and look for my brother."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_6
+msgid "The fall of the manor began when the shore folk, led by a man called Korhald, built a bridge to an island, and founded the city of Remgard."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_7
+msgid "Anyway, Remgard was far from any enemies, and easily defended, so the islands in the lake were no longer important, and the supplies stopped coming."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_8
+msgid "With no place to grow food on the islands most of the staff left. The last lord that resided here had only one son, and when the lord died his son abandoned the manor and left to look for other opportunities."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_8:0
+msgid "So if the son has left, why do you stay here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_8:1
+msgid "Thanks for the history lesson. I need to leave, and look for my brother."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_5
+msgid "The only thing that would help is for me to be released from the oath."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_5:0
+msgid "Who can do that?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_6
+msgid "The current lord, of course. But he has gone. I do not know his whereabouts, or even if he is still alive. If I knew he was deceased I would consider the oath void, but I do not know that."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_6:0
+msgid "There is nobody else?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_7
+msgid "Any of the past lords Laeroth could release me from the oath. But, like my great-great grandfather, they are long dead. Their graves are in the tomb on the far island. So unless you can talk to the dead, they will be of no help."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_7:0
+msgid "How can I talk to the dead?"
+msgstr ""
+
+#: conversationlist_laeroth.json:book_not_found_1
+msgid "You look through the shelves, but there does not seem to be anything that would help you here."
+msgstr ""
+
+#: conversationlist_laeroth.json:book_found_1
+msgid "You look through the shelves, and one book catches your eye. \"A Treatise on Ghosts and Other Undead\". Maybe this has the information you seek."
+msgstr ""
+
+#: conversationlist_laeroth.json:book_found_2
+msgid ""
+"You look at the contents page. There are chapters on zombies, liches, ... wait, what's this?\n"
+"\n"
+"There is a chapter on spirits of the dead, with a section on raising them! This looks like what you need! "
+msgstr ""
+
+#: conversationlist_laeroth.json:book_found_3
+msgid "You flip to the section on raising spirits, and start reading."
+msgstr ""
+
+#: conversationlist_laeroth.json:book_found_4
+msgid ""
+"\"To start, it must be stressed that raising the spirits of the dead is dangerous. They do not like to be disturbed. \n"
+"\n"
+"Always remember the chant \"estray inyay eacepay\". This chant will only work if you are the one that raised the spirit, but then it is very effective. Unless it is especially angry this will send it back to its rest on the other side.\""
+msgstr ""
+
+#: conversationlist_laeroth.json:book_found_5
+msgid "\"The spirit's natural state is one of rest, therefore raising a spirit is much more difficult than sending one back to its rest on the other side.\""
+msgstr ""
+
+#: conversationlist_laeroth.json:book_found_6
+msgid "\"The raising of the spirits of the dead is best left to priests that have been trained in how to both raise them, and send them back. Priests of The Shadow can do this with ease, but they are sworn to secrecy about their methods.\""
+msgstr ""
+
+#: conversationlist_laeroth.json:book_found_7
+msgid "\"It is known that they invoke The Shadow to do this, but no other information is available at the time of writing.\""
+msgstr ""
+
+#: conversationlist_laeroth.json:book_found_8
+msgid ""
+"\"However, there is another way. It requires a rare and valuable crystal, an oegyth crystal, and a personal item that belonged to the deceased. \n"
+"\n"
+"It must be said that using an oegyth crystal in this way will permanently diminish it's power, so the cost is significant.\""
+msgstr ""
+
+#: conversationlist_laeroth.json:Book_found_9
+msgid ""
+"\"The oegyth crystal and the personal item must be placed on the grave or tomb of the deceased.\n"
+"\n"
+"Then utter the chant \"iseray iritspay\".\" "
+msgstr ""
+
+#: conversationlist_laeroth.json:book_found_10
+msgid "It looks like I have the information I need, although it sounds dangerous."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_8
+msgid "I have no idea. I am a caretaker, not a priest. The manor has an extensive library. Maybe you should look there."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_8:0
+msgid "I'll take a look."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_caretaker_8:1
+msgid "That sounds like a lot of work, and I need to go and find my brother."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_0:0
+msgid "Finally, success. I had to raise the spirits of many family members, but Jerelin said he would release you from the oath. There is one condition though. You must move his grave away from that of his wife. They don't seem to get along very well."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_0:1
+msgid "Audela told me to talk again to her husband Jerelin. I think I don't need another of Jerelin's items again. His seal should still be enough."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_0:2
+msgid "Cuned now sent me to his mother Audela. Where are Audela's item?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_0:3
+msgid "Jerelin was not helpful. In fact, he just ignored me."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_0:4
+msgid "Cuned has sent me to talk to his father Jerelin. Now I need a personal item of him"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_0:5
+msgid "I spoke to the spirit of Eyvipa. Even now he was extremely displeased at being passed over in favor of Cuned in the line of succession. Do you know where I might find a personal item of him?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_0:6
+msgid "I spoke to the spirit of Verigil, but he told me he cannot help. I must speak to his uncle, Eyvipa. So I need a personal item of his. Do you know where I might find one?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_0:7
+msgid "I have found how to raise a spirit and talk to it. However, I need a personal item from the deceased."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_0:8
+msgid "Can you tell me about this place?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_0:9
+msgid "Can you tell me again why you are still here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_0:10
+msgid "I have to leave to look for my brother."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_1_1
+msgid "Well, the previous lord was Verigil. His son, Adakin, did not take any of his fathers possesions when he left. You might find something in the master bedroom."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_2_1
+msgid "There are items from all the generations scattered around. They were fond of putting their intials on them. A mixture of vanity and possessiveness I think. So see if you can find something with \"E\" marked on it."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_2_1:0
+#: conversationlist_laeroth.json:moriath_3_1:0
+msgid "Thanks. Will do!"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_3_1
+msgid "Cuned has put a \"C\" as intials on his personal items. Please look for it yourself."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_4_1
+msgid "Jerelin has put a \"J\" as intials on his personal items. Please look for it yourself."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_5_1
+msgid "Maybe it helps if you talk to Cuned again?"
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_5_1:0
+msgid "Hmm, I could try that."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_6_1
+msgid "Audela has always an \"A\" as intials on her personal items. They should be easy to find."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_7_1
+msgid "Yes, probably you are right."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_9_1
+msgid "Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again."
+msgstr ""
+
+#: conversationlist_laeroth.json:nightstand_search_1
+msgid "You found a ring with \"V\" engraved on it. This should work."
+msgstr ""
+
+#: conversationlist_laeroth.json:nightstand_search_2
+msgid "I have found a smalled jeweled key that looks like it will fit Adakin's diary."
+msgstr ""
+
+#: conversationlist_laeroth.json:verigil_script_0
+#: conversationlist_laeroth.json:verigil_script_1
+msgid "Here lies Verigil, Ninth Lord of Laeroth."
+msgstr ""
+
+#: conversationlist_laeroth.json:verigil_script_1:0
+msgid "Place Verigil's ring on the tomb."
+msgstr ""
+
+#: conversationlist_laeroth.json:verigil_script_2a
+msgid "You place an oegyth crystal and Verigil's signet ring on the tomb, and chant \"iseray iritspay\""
+msgstr ""
+
+#: conversationlist_laeroth.json:verigil_0
+msgid "Who dares to disturb my rest?"
+msgstr ""
+
+#: conversationlist_laeroth.json:verigil_0:0
+msgid "I am $playername. Sorry to disturb you, but I need some help."
+msgstr ""
+
+#: conversationlist_laeroth.json:verigil_1
+msgid "With what?"
+msgstr ""
+
+#: conversationlist_laeroth.json:verigil_1:0
+msgid "Your son has left Laeroth, and his whereabouts are unknown. However, the caretaker remains, bound by an oath to look after the manor. I ask that you release him from the oath."
+msgstr ""
+
+#: conversationlist_laeroth.json:verigil_2
+msgid ""
+"I cannot. It is not my branch of the family that bound him. You must talk to my uncle, Eyvipa. Now let me rest.\n"
+"\n"
+"[You take the oegyth crystal, but decide to leave the ring.]"
+msgstr ""
+
+#: conversationlist_laeroth.json:chest_search_1
+msgid "This chest looks like it is used to store important items."
+msgstr ""
+
+#: conversationlist_laeroth.json:chest_search_1:0
+msgid "Take a look in the chest."
+msgstr ""
+
+#: conversationlist_laeroth.json:chest_search_2
+msgid "You rummage around in the contents. Then a high quality candlestick catches your eye. It has \"E\" engraved on it! This should work!"
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_script_0
+#: conversationlist_laeroth.json:eyvipa_script_1
+msgid "Here lies Eyvipa, eldest son of Jerelin."
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_script_1:0
+msgid "Place candlestick on the tomb."
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_script_1:1
+msgid "Call for Eyvipa."
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_script_2a
+msgid "You place the slightly diminished oegyth crystal and Eyvipa's candlestick on the tomb, and chant \"iseray iritspay\""
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_0
+msgid "I hope you disturbed my rest for a good reason!"
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_0:0
+#: conversationlist_laeroth.json:cuned_2a:0
+#: conversationlist_laeroth.json:audela_0:0
+msgid "I am $playername. Apologies for distubing you, but I need some help."
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_1
+msgid "What help do you need?"
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_1:0
+msgid "Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I ask you to release him from the oath."
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_2
+msgid "Why ask me? I was not the last lord. Or in fact lord at all."
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_2:0
+msgid "I talked to the last lord that is buried here, Verigil. He said he cannot release him because the oath was not made by his branch of the family."
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_3
+msgid "Ah. The son of the usurper. I will not help you, or the caretaker, or anyone else. I should have been Lord. My father passed me over for the usurper, Cuned, my younger brother. Ask him for help. But before you go, since you disturbed me, you owe me your life force! "
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_3:0
+msgid "[You feel your life being drained from you]."
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_4a
+msgid "I feel stronger already! Soon I will rise again, and then I will be Lord. A terrible lord, for those that wronged me!"
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_4a:0
+msgid "I'm leaving!"
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_4a:1
+msgid "Estay imgrey earcepay!"
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_4a:2
+msgid "Estray inyay eacepay!"
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_4a:3
+msgid "Esay intray eaceplay!"
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_4a:4
+msgid "Espray inpray eatnpay!"
+msgstr ""
+
+#: conversationlist_laeroth.json:eyvipa_4b
+msgid "The ghost of Eyvipa vanishes. You feel great relief that the chant worked. You take back the oegyth crystal, although it seems to be losing some of its luster."
+msgstr ""
+
+#: conversationlist_laeroth.json:cupboard_search_1
+msgid "Maybe there is something in these cupboards that would be useful."
+msgstr ""
+
+#: conversationlist_laeroth.json:cupboard_search_1:0
+msgid "Too much clutter in here. Not worth the effort."
+msgstr ""
+
+#: conversationlist_laeroth.json:cupboard_search_1:1
+msgid "You rummage around in the clutter in the cupboards."
+msgstr ""
+
+#: conversationlist_laeroth.json:cupboard_search_2
+msgid "You find a book, that says \"My Diary\" on the cover, with an ornate \"C\" embossed in the cover. This must surely have belonged to Cuned! You take the book."
+msgstr ""
+
+#: conversationlist_laeroth.json:cuned_script_0
+#: conversationlist_laeroth.json:cuned_script_1
+msgid "Here lies Cuned, Eighth Lord of Laeroth."
+msgstr ""
+
+#: conversationlist_laeroth.json:cuned_script_1:0
+msgid "Place diary on the tomb."
+msgstr ""
+
+#: conversationlist_laeroth.json:cuned_script_1:1
+msgid "Call for Cuned."
+msgstr ""
+
+#: conversationlist_laeroth.json:cuned_script_2a
+msgid "You place the diminished oegyth crystal and Cuned's diary on the tomb, and chant \"iseray iritspay\""
+msgstr ""
+
+#: conversationlist_laeroth.json:cuned_2a
+msgid "What do you want? I was at peace until you brought me back!"
+msgstr ""
+
+#: conversationlist_laeroth.json:cuned_3:0
+msgid "Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I ask you to release him from the oath. Verigil said he cannot, because it is not his branch of the family. Eyvipa refused, because he was not made Lord."
+msgstr ""
+
+#: conversationlist_laeroth.json:cuned_4
+msgid ""
+"Eyvipa was not made Lord because he was lazy and irresponsible. If he chose to he could release the caretaker, but he is obviously still irresponsible. I am afraid Verigil is correct. I cannot release him either. You will have to talk to my father, Jerelin. Goodbye. \n"
+"\n"
+"[You take the oegyth crystal. It's gleam is fading.]"
+msgstr ""
+
+#: conversationlist_laeroth.json:cuned_script_b_2a
+msgid "You place the heavily diminished oegyth crystal on the tomb, and chant \"iseray iritspay\""
+msgstr ""
+
+#: conversationlist_laeroth.json:cuned_b_2a
+msgid "You again! I told you to talk to Jerelin."
+msgstr ""
+
+#: conversationlist_laeroth.json:cuned_b_2a:0
+msgid "Sorry. Jerelin refused to talk to me or help me."
+msgstr ""
+
+#: conversationlist_laeroth.json:cuned_b_3
+msgid ""
+"He always was stubborn. You should talk to my mother, Audela. He didn't listen to most people, but he listened to her. Goodbye. \n"
+"\n"
+"[You take the oegyth crystal. It looks even duller.]"
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_chest_search_1
+msgid "This chest looks pretty old. Is it worth taking a look?"
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_chest_search_1:0
+msgid "The chest will probably crumble if you touch it."
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_chest_search_1:1
+msgid "You rummage around in the clutter in the chest."
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_chest_search_2
+msgid "You find a ring that apparently served as a seal for Jerelin, as it had a large \"J\" on it. You take the seal."
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_script_0
+#: conversationlist_laeroth.json:jerelin_script_1
+msgid "Here lies Jerelin, Seventh Lord of Laeroth."
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_script_1:0
+msgid "Place seal on the tomb."
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_script_1:1
+msgid "Call for Jerelin."
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_script_2a
+msgid "You place the very diminished oegyth crystal and Jerelin's seal on the tomb, and chant \"iseray iritspay\""
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_0
+msgid "I dislike being disturbed. I disliked it when I was alive, and I dislike it even more now!"
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_1
+msgid ""
+"Hmpff. Go away! \n"
+"\n"
+"[You take the rather dull looking oegyth crystal.]"
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_script_b_2a
+msgid "You place the nearly depleted oegyth crystal on the tomb, and chant \"iseray iritspay\""
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_b_2a
+msgid "Again? I told you I don't like being disturbed!"
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_b_2a:0
+msgid "I spoke to Audela. She said to tell you that she insists you do this. She even made some kind of threat about reaching into your grave if you don't."
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_b_3
+msgid "It seems I can't escape my nagging wife even in death! OK, I release the caretaker from the oath. But there is a condition. He needs to do one more thing, which is to move my grave away from my wife's grave so that I can rest in peace. Now leave!"
+msgstr ""
+
+#: conversationlist_laeroth.json:jerelin_script_b_0
+msgid ""
+"Here lies Jerelin, Seventh Lord of Laeroth.\n"
+"In peace at last."
+msgstr ""
+
+#: conversationlist_laeroth.json:dresser_1
+msgid "You rummage around in the dresser. You have found a fancy looking key!"
+msgstr ""
+
+#: conversationlist_laeroth.json:jewelry_box_1
+msgid "This looks interesting. Could be a jewelry box. I has \"A\" inscribed on it. It is locked though, and too heavy to move to the tomb."
+msgstr ""
+
+#: conversationlist_laeroth.json:jewelry_box_2
+msgid "The key fits the box! You turn it, and the lid springs open. It appears to be mainly full of trinkets and keepsakes. You rummage around inside, and find a necklace with \"With love to Audela\" written on the back. This should work!"
+msgstr ""
+
+#: conversationlist_laeroth.json:audela_script_0
+#: conversationlist_laeroth.json:audela_script_1
+msgid "Here lies Audela, wife of Jerelin."
+msgstr ""
+
+#: conversationlist_laeroth.json:audela_script_1:0
+msgid "Place Audela's necklace on the tomb."
+msgstr ""
+
+#: conversationlist_laeroth.json:audela_script_2a
+msgid "You place the very heavily diminished oegyth crystal and Audela's necklace on the tomb, and chant \"iseray iritspay\""
+msgstr ""
+
+#: conversationlist_laeroth.json:audela_0
+msgid "Why did you summon me?  I was finally at rest, after spending years directing my husband about what he needed to do each day."
+msgstr ""
+
+#: conversationlist_laeroth.json:audela_1
+#: conversationlist_laeroth.json:lae_prison_01a:0
+#: conversationlist_laeroth.json:lae_prison_02:0
+msgid "What sort of help?"
+msgstr ""
+
+#: conversationlist_laeroth.json:audela_1:0
+msgid "Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I asked Jerelin to release him from the oath. Verigil and Cuned cannot, because it is not their branch of the family. Eyvipa refused, because he was not made Lord. Jerelin just ignored me. Cuned suggested I talk to you about that."
+msgstr ""
+
+#: conversationlist_laeroth.json:audela_2
+msgid ""
+"So typical of my husband! He always found excuses to do something other than what I asked him to do. Either that, or he just hid somewhere in the manor so that I couldn't even find him. Always gave the excuse that he was doing \"something important\". What is more important than doing what your wife tells you to do? This needs to be done, and you tell him that I am telling him to do it. If he doesn't, he will feel my presence in his grave! \n"
+"\n"
+"[You take the oegyth crystal. There is almost no gleam left in it.]"
+msgstr ""
+
+#: conversationlist_laeroth.json:caretaker_grave_1
+msgid "Here lies Gormelyn, caretaker of Laeroth."
+msgstr ""
+
+#: conversationlist_laeroth.json:caretaker_grave_2
+msgid "Here lies Leofric, caretaker of Laeroth, son of Gormelyn."
+msgstr ""
+
+#: conversationlist_laeroth.json:caretaker_grave_3
+msgid "Here lies Gauron, caretaker of Laeroth, son of Leofric."
+msgstr ""
+
+#: conversationlist_laeroth.json:caretaker_grave_4
+msgid "Here lies Farpith, caretaker of Laeroth, son of Gauron."
+msgstr ""
+
+#: conversationlist_laeroth.json:lewan_script_0
+msgid "Here lies Lewan, Fourth Lord of Laeroth."
+msgstr ""
+
+#: conversationlist_laeroth.json:thond_script_0
+msgid "Here lies Thond, Fifth Lord of Laeroth."
+msgstr ""
+
+#: conversationlist_laeroth.json:beconnon_script_0
+msgid "Here lies Beconnon, Sixth Lord of Laeroth."
+msgstr ""
+
+#: conversationlist_laeroth.json:laearothtomb0_1
+msgid "Here lies Breen, a loyal servant."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothtomb0_2
+msgid "Interred here is Snuffy. A loyal dog."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothtomb0_3
+msgid "There is no epitaph on this grave. Strange."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothtomb0_4
+msgid "Here lies Athonnaith."
+msgstr ""
+
+#: conversationlist_laeroth.json:Jenoel_grave
+msgid "Here lies Jenoel, a great friend of the Laeroth family."
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_0
+msgid "Hello. Can I help you?"
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_0:0
+msgid "I am looking for my brother, Andor. He looks a bit like me. Have you seen him?"
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_1
+msgid "There was someone that came here recently that looked somewhat like you, but I didn't speak to him. Sorry, that's all the information I can give you."
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_1:0
+msgid "OK. Thanks. Bye."
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_1:1
+msgid "Thanks. What do you do around here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_2
+msgid "I came here for the solitude. I wish to be a playwright. So I am writing my first play. I hope that someday I will be famous."
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_2:0
+msgid "Best of luck. Sounds like a boring thing to do to me."
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_2:1
+msgid "What is the play about?"
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_3
+msgid "It is set in a very small village. So I called it \"Hamlet\". An old Dhayavarian word for a very small village.  "
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_3:0
+msgid "Life in a small village? I come from one. It must be a very boring play."
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_4
+msgid "Not at all. It involves murder, revenge for the murder, but the murderer knows the avenger is coming, so plots to kill him. There's ghosts too."
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_4:0
+msgid "OK. Sounds more exciting than I thought. If you finish it and I happen to be close to a showing, perhaps I will watch."
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_4:1
+msgid "Sounds exciting! But if you really want to get the audience's attention you need to add some s..."
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_5
+msgid "Enough! It is my play. I do not need your advice!"
+msgstr ""
+
+#: conversationlist_laeroth.json:eraep_5:0
+msgid "OK. I was only going to make a suggestion. Bye."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_exit_1a
+msgid "As you are about to leave Laeroth Manor, you think of the last lord. Where did he go?"
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_exit_1a:0
+msgid "Perhaps I should try to find out more."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_exit_1a:1
+msgid "Maybe there are clues somewhere in the manor."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_exit_1a:2
+msgid "I am just wasting time here. Time to leave."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_exit_1b
+msgid "It doesn't matter where the last lord went."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_exit_1c
+msgid "I will look around. The main quarters are probably a good place to start."
+msgstr ""
+
+#: conversationlist_laeroth.json:caretaker_chest_1
+msgid ""
+"There is a chest here that contains what the caretaker left behind. Maybe there is something here about the last lord. \n"
+"\n"
+"There is a letter that says\n"
+"\"Dear Moriath. \n"
+"Thank you so much for your service over the years. Sadly, I have decided it is time for me to leave the manor. I need to find my future, and I do not believe it is here. I will go to the south, and see what fate brings me. I know the road will be hard, but I was trained well in weapon skills. I cannot take everything with me, so I have put things that matter to me, including my diary, in a chest downstairs. I will return for them if and when I can. \n"
+"I wish you the best,\n"
+"Adakin.\""
+msgstr ""
+
+#: conversationlist_laeroth.json:adakin_chest_1
+msgid "There is a chest here with \"Adakin\" written on the top. It is locked though. I need the key."
+msgstr ""
+
+#: conversationlist_laeroth.json:adakin_key_search_1
+msgid "This small chest looks like it might contain something useful. Yes! A key that looks about the right size for Adakin's chest!"
+msgstr ""
+
+#: conversationlist_laeroth.json:adakin_chest_2
+msgid ""
+"The key works, and the chest is open! Here is his diary. It has its own lock though, so now I need a key for this!\n"
+"\n"
+"There's some other nice looking stuff in here too."
+msgstr ""
+
+#: conversationlist_laeroth.json:adakin_chest_2:0
+msgid "Maybe I should loot the chest. After all, Adakin is not here anymore."
+msgstr ""
+
+#: conversationlist_laeroth.json:adakin_chest_2:1
+msgid "It's tempting to loot the chest, but Adakin said he may return for his things. I should leave them."
+msgstr ""
+
+#: conversationlist_laeroth.json:adakin_chest_3a
+msgid "There are some nice items here. Let's see: I'll take 3 of these health potions, the sword and this ring."
+msgstr ""
+
+#: conversationlist_laeroth.json:last_lord_final_0a
+msgid "You open the diary and go to the last pages."
+msgstr ""
+
+#: conversationlist_laeroth.json:last_lord_final_0b
+msgid ""
+"It reads: \n"
+"\n"
+"\"I need to go and find my destiny. It is not here at the manor, so I must strike out and find what lies ahead for me. I will go south to the fabled Duleian road. What then? I will make a decision when I get there. North west to Feygard, or south east to Nor city? Perhaps I will visit both, and make a final decision only then. I hope fate will show me the right way.\n"
+"Farewell Laeroth.\""
+msgstr ""
+
+#: conversationlist_laeroth.json:last_lord_final_0b:0
+msgid "I will leave the diary here in the manor."
+msgstr ""
+
+#: conversationlist_laeroth.json:last_lord_final_0c
+msgid "Now I should dedicate myself again to finding Andor, my brother."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman
+msgid "Hush."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman:0
+msgid "[low voice] Oh hi, caught anything already?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman:1
+msgid "You don't seem to be used to people coming over here."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman:2
+msgid "About the few people who come this way ..."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman:3
+msgid "About the monsters along the way here ..."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman:4
+msgid "I saw something extremely strange."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman:5
+#: conversationlist_laeroth.json:brute_fisherman:6
+msgid "Hi again. Any news?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman:7
+msgid "Hi Bidro."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_2
+msgid "Sigh. OK, let's talk. The fish have already fled anyway."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_4
+msgid "Well yes, you're right. There was a time when this path was almost crowded."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_5
+msgid "It's hard to imagine now. I'm not used to people coming here anymore."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_6
+msgid "But I want to introduce myself first. My name is Bidro, I live in Remgard."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_6:0
+msgid ""
+"Nice to meet you. I am $playername.\n"
+"Ehm, may I ask you a question?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_7
+msgid "Sure, just ask."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_7:0
+msgid "From a distance I would have thought you were a woman. Why are you wearing women's clothes?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_7b
+msgid "Because I can. Period, no discussion."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_7b:0
+msgid "Oh, your sensitive spot, sorry. Let us talk about something else."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_8
+msgid "You just came this path. Do you know why it's been used so little lately?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_8:0
+msgid "Well, yes, I think so."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_10
+msgid "So what's stopping people from using the route?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_10:0
+msgid "I will find out and tell you."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_10:1
+msgid "That's easy to say. I went that route recently after all."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_10:2
+msgid "That's none of my concern."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_10:3
+msgid "Did you see my brother Andor lately? He looks a bit like me."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_12
+msgid "Well, yes indeed."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_12:0
+msgid "Great - when was it?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_14
+msgid "I don't know. Here it is one day like another."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_14:0
+msgid "Doesn't help me much."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_16
+msgid "If he comes by again, I'll tell him that you asked about him."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_20
+msgid "Have you been able to find out why the path is rarely used anymore?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_20:0
+msgid "Yes. There are many vicious monsters such as wolves or poisonous spiders. But Arulir and different brutes in particular haunt the area."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_20:1
+msgid "It's a long and boring road. Simply because of that."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_22
+msgid "Yes, it has always been long."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_24
+msgid "Please go and take a closer look. There must be more to it."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_30
+msgid "Ohh! Do not keep me in suspense."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_30:0
+#: questlist_laeroth.json:brute_creator:30
+msgid "I have discovered a cave where brutes seem to pour out."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_30:1
+msgid "I have discovered a cave, but I don't know what's inside."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_32
+msgid "Oh interesting. What did you find in the cave?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_32:0
+msgid "It was full of monsters. I didn't dare go in deeper."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_32:1
+msgid "It was full of monsters. But that wasn't everything."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_32:2
+msgid "Nothing special, why?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_35
+msgid "Please find out what's in the cave. Then I can tell my wife a good story in the evening."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_40
+msgid "Finally tell - what was so exciting in the cave?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_40:0
+msgid "All the brutes along the coast actually come from this cave."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_41
+msgid "No!"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_41:0
+msgid "Yes, I saw it with my own eyes."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_42
+msgid "But how can that be?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_42:0
+msgid "I have talked to Os. He claims to be a researcher who turns rats into these brutes to study them."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_44
+msgid "Really? Very amazing!"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_44:0
+msgid "I don't understand how he does it exactly, but the rats become these brutes in several stages."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_46
+msgid "Stages? What do you mean?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_46:0
+msgid "There are several bake rooms where the animals take on an even more hideous appearance. Until they finally come out of the cave as brutes."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_50
+msgid "Wow, what a great story!"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_90
+msgid "Now I know where these brutes suddenly come from."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_92
+msgid "My wife will love this story!"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_fisherman_94
+msgid "... and won't believe a word I say."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_1i
+msgid "Test subject - input"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_1o
+msgid "Minor Brute - output"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_2i
+msgid "Minor Brute - input"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_2o
+msgid "Major Brute - output"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_3i
+msgid "Major Brute - input"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_3o
+msgid "Brute complete - output"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_key
+msgid "Stop! You must not go in there!"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_key2
+msgid "Stop! You must not go in there while the lightning is active!"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_in
+msgid "Hey, I'm on the inside!"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_chair
+msgid "This is my chair if you please."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_sign_1
+msgid "Science isn't about \"why\", it's about \"why not\""
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_sign_2
+msgid "Praise is the portal to the presence of Alythara"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_sign_3
+msgid "Your dream is a portal to your destiny."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_sign_4
+msgid "The bonemeal potion is a lie."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_sign_5
+msgid "We do what we must because we can."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_sign_6
+msgid "Black Water won't steal our research results."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_papers
+msgid "The note says: \"C.A.K.E.\""
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_origin1a_1
+msgid "Well, you found me. Congratulations. Was it worth it?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_origin1a_2
+msgid "Oh, you are still alive?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_origin1a_3
+msgid "I was told here would be cake."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_origin1a_4
+msgid "The cake is a lie."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_origin1a_5
+msgid "I don't hate you."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator
+msgid ""
+"Oh, a visitor. How unusual.\n"
+"Come in, come in. I am Os."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator:0
+msgid "Hi, I am $playername. Glad to meet you."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_2
+msgid "You certainly want to know everything about these brutes outside."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_2:0
+msgid "Do I?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_2:1
+msgid "Well, if you say so ..."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_2:2
+msgid "Yes. Fascinating beings they are."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_4
+msgid "Indeed. And you are talking to the leading expert in these matters who is still alive."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_4:0
+msgid "These 'matters' tend to run around and get in my way."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_6
+msgid "Yes, they love to do so. Aren't they adorable?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_6:0
+msgid "Ehh ..."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_10
+msgid "Here in my laboratory you can see the latest research on brutes."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_10:0
+msgid "You are exploring brutes?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_20
+msgid "Exploring? Well, no. I am far more gone already."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_22
+msgid "'Creating' fits better. Best I'll show you."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_22:0
+msgid "Oh dear!"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_24
+msgid "Of course I can't explain too much to you. Otherwise my ideas would soon be stolen."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_24:0
+msgid "That is understandable."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_24:1
+#: conversationlist_laeroth.json:brute_creator_24:2
+msgid "Do I look like a thief?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_26
+msgid "Honestly? Yes you do."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_28
+msgid "Indeed no. But better safe than sorry."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_28:0
+msgid "Right."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_30
+msgid "I'll just say that my brutes evolve from rats. There are too many of them anyway."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_30:0
+msgid "That's true."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_32
+msgid "This was a triumph, a huge success!"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_32:0
+msgid "Thank you for telling me all this."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_40
+msgid "Now I have to work again."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_40:0
+msgid "Be glad. May I visit your laboratory?"
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_42
+msgid "You're welcome to look around a little. But don't enter the Brute Bake rooms."
+msgstr ""
+
+#: conversationlist_laeroth.json:brute_creator_42:0
+msgid "Sure, I want to stay alive after all."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_map_hint
+msgid "Step forward to have a better view of the map."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_map_f
+msgid "F i r e"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_map_w
+msgid "W a t e r"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_map_e
+msgid "E a r t h"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_map_a
+msgid "A i r"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_10
+#: conversationlist_laeroth.json:final_cave_k3_10
+#: conversationlist_laeroth.json:final_cave_k5_10
+#: conversationlist_laeroth.json:final_cave_k7_10
+#: conversationlist_laeroth.json:final_cave2_k1_10
+msgid "Which elemental scroll do you want to put here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_10:0
+#: conversationlist_laeroth.json:final_cave_k3_10:0
+#: conversationlist_laeroth.json:final_cave_k5_10:0
+#: conversationlist_laeroth.json:final_cave_k7_10:0
+#: conversationlist_laeroth.json:final_cave2_k1_10:0
+msgid "The scroll of fire"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_10:1
+#: conversationlist_laeroth.json:final_cave_k3_10:1
+#: conversationlist_laeroth.json:final_cave_k5_10:1
+#: conversationlist_laeroth.json:final_cave_k7_10:1
+msgid "The scroll of water"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_10:2
+#: conversationlist_laeroth.json:final_cave_k3_10:2
+#: conversationlist_laeroth.json:final_cave_k5_10:2
+#: conversationlist_laeroth.json:final_cave_k7_10:2
+msgid "The scroll of earth"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_10:3
+#: conversationlist_laeroth.json:final_cave_k3_10:3
+#: conversationlist_laeroth.json:final_cave_k5_10:3
+#: conversationlist_laeroth.json:final_cave_k7_10:3
+msgid "The scroll of wind"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_10:4
+#: conversationlist_laeroth.json:final_cave_k3_10:4
+#: conversationlist_laeroth.json:final_cave_k5_10:4
+#: conversationlist_laeroth.json:final_cave_k7_10:4
+#: conversationlist_laeroth.json:final_cave2_k1_10:1
+msgid "None"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_20
+#: conversationlist_laeroth.json:final_cave_k3_20
+#: conversationlist_laeroth.json:final_cave_k5_20
+#: conversationlist_laeroth.json:final_cave_k7_20
+msgid "The scroll still lies on the table."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_20:0
+#: conversationlist_laeroth.json:final_cave_k3_20:0
+#: conversationlist_laeroth.json:final_cave_k5_20:0
+#: conversationlist_laeroth.json:final_cave_k7_20:0
+msgid "I take back my scroll of fire."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_20:1
+#: conversationlist_laeroth.json:final_cave_k3_20:1
+#: conversationlist_laeroth.json:final_cave_k5_20:1
+#: conversationlist_laeroth.json:final_cave_k7_20:1
+msgid "I take back my scroll of water."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_20:2
+#: conversationlist_laeroth.json:final_cave_k3_20:2
+#: conversationlist_laeroth.json:final_cave_k5_20:2
+#: conversationlist_laeroth.json:final_cave_k7_20:2
+msgid "I take back my scroll of earth."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_20:3
+#: conversationlist_laeroth.json:final_cave_k3_20:3
+#: conversationlist_laeroth.json:final_cave_k5_20:3
+#: conversationlist_laeroth.json:final_cave_k7_20:3
+msgid "I take back my scroll of wind."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k1_20:4
+#: conversationlist_laeroth.json:final_cave_k2_20:3
+#: conversationlist_laeroth.json:final_cave_k3_20:4
+#: conversationlist_laeroth.json:final_cave_k4_20:3
+#: conversationlist_laeroth.json:final_cave_k5_20:4
+#: conversationlist_laeroth.json:final_cave_k6_20:3
+#: conversationlist_laeroth.json:final_cave_k7_20:4
+msgid "I let it be."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k2_10
+#: conversationlist_laeroth.json:final_cave_k4_10
+#: conversationlist_laeroth.json:final_cave_k6_10
+msgid "What do you want to put here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k2_10:0
+#: conversationlist_laeroth.json:final_cave_k4_10:0
+#: conversationlist_laeroth.json:final_cave_k6_10:0
+msgid "The red globe"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k2_10:1
+#: conversationlist_laeroth.json:final_cave_k4_10:1
+#: conversationlist_laeroth.json:final_cave_k6_10:1
+msgid "The green globe"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k2_10:2
+#: conversationlist_laeroth.json:final_cave_k4_10:2
+#: conversationlist_laeroth.json:final_cave_k6_10:2
+msgid "The blue globe"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k2_10:3
+#: conversationlist_laeroth.json:final_cave_k4_10:3
+#: conversationlist_laeroth.json:final_cave_k6_10:3
+msgid "Nothing"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k2_20
+#: conversationlist_laeroth.json:final_cave_k4_20
+#: conversationlist_laeroth.json:final_cave_k6_20
+msgid "The globe still hovers over the table."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k2_20:0
+#: conversationlist_laeroth.json:final_cave_k4_20:0
+#: conversationlist_laeroth.json:final_cave_k6_20:0
+msgid "I take back my red globe."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k2_20:1
+#: conversationlist_laeroth.json:final_cave_k4_20:1
+#: conversationlist_laeroth.json:final_cave_k6_20:1
+msgid "I take back my green globe."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_k2_20:2
+#: conversationlist_laeroth.json:final_cave_k4_20:2
+#: conversationlist_laeroth.json:final_cave_k6_20:2
+msgid "I take back my blue globe."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_kx_open
+msgid "A loud rumbling fills the air!"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_kx_close
+msgid ""
+"You hear a low but intense noise.\n"
+"What is happening now?"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_kx_hint1
+msgid "Maybe I have to find out the correct order?"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_kx_hint1_2
+msgid "I wish there would be a placement order map somewhere here."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_kx_hint2
+msgid "I am sure there is a placement order map somewhere here."
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_kx_hint3
+msgid "I even think I have already seen that order map down here."
+msgstr ""
+
+#: conversationlist_laeroth.json:island_4_cave1_key
+msgid "You feel somebody staring at your back."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror1
+#: conversationlist_laeroth.json:lae_jhaeld1
+msgid "$playername - good that you are here! I need your help urgently."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror1:0
+msgid "Why? Do you have a little problem in your basement again?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror1_10
+msgid "Iiiek! Don't remind me!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror1_10:0
+msgid "So how can I help you?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror1_20
+msgid "A friend of mine is captured, here, deep in the cave."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror1_22
+msgid "You know him very well by the way. We have to help him!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror1_22:0
+msgid "Of course I'm happy to help."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror1_22:1
+msgid "Who is this friend?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror1_30
+msgid "To free him I would need to go for some items all over the isle. But these nasty centaurs wouldn't let me."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror1_30:0
+msgid "Well, first I am going downstairs to talk to our friend and find out who he is."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror1_40
+msgid "Do that. But hurry."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_jhaeld1:0
+msgid "Why? Don't coming around on your own anymore?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2
+msgid "$playername, what have you done?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_10
+msgid "Now we are all locked in here! We will all starve to death!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_20
+msgid "It is all your fault!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_20:0
+msgid "Hey - I did nothing!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_30
+msgid "Our only chance of survival lies in that stairway over there."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_30:0
+msgid "What is down there?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_30:1
+msgid "You didn't try it yourself yet?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_30:2
+msgid "Why did all that gold disappear for a few moments?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_32
+msgid "Did it? You must have dreamed that."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_32:1
+msgid "Hmm ..."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_50
+msgid "We can't use those stairs. Some invisible force holds us back. But maybe you can do it?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_50:0
+msgid "OK you weaklings - I'll show you."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror2_50:1
+msgid "Well, I could at least try."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_10
+msgid "Surprised to see me here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_12
+msgid "You should see your face! Hahaha!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_20
+msgid ""
+"Of course we are not what you think you see. Ever heard of posers?\n"
+"You were great, that was really fun."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_22
+msgid "Even the many gold is all fake. We had a lot of fun decorating this ugly room as a treasure trove."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_24
+msgid "Making rocks look like piles of gold and stuff like that."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_24:0
+msgid "And the walls? The element scrolls and the globes?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_26
+msgid "The point of all this was just to lure you down here to our master Dorhantarh without you becoming suspicious."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_28
+msgid "So it couldn't be too easy for you. That's why I came up with the idea of the scrolls and glass balls."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_28:0
+msgid "Does that mean this complex mechanism doesn't work at all?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_30
+msgid "Oh yes, of course it works. Why do you think the wall closed again?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_30:0
+msgid "Yes, why did it?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_32
+msgid "Well, because I brought a scroll from the table here with me. That's why."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_32:0
+msgid "What?! You ..."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_34
+msgid "Hahaha!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_40
+msgid "Now go ahead, you'll be a tasty dinner for our master Dorhantarh tonight."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_42
+msgid "You're so speechless. Hahaha! Go now."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_42:0
+msgid "Well wait - attack!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_50
+msgid "No no no. It is not proper to draw a weapon in the presence of our Master."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_100
+msgid "NO! What have you done to our master?!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_algangror3_100:0
+msgid "The same that I'll do to you now."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_1
+#: conversationlist_laeroth.json:lae_andor1_2
+msgid "Are you trying to get out of the affair by faking death? Shame on you!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_10
+msgid "Who is there? Declare yourself!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_10:0
+msgid "I know that voice ... Andor, is it really you?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_10:1
+msgid "Calm down, Andor. It's me."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_30
+msgid "At last, $playername. What kept you so long?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_30:0
+msgid "What?! "
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_40
+msgid "OK. We have no time for that. Let's come to business."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_42
+msgid "I entered this room to find a powerful weapon against the enemy, when suddenly the walls closed around me."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_42:0
+msgid "Too curious again?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_44
+msgid "Oh, shut up."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_44:0
+msgid "Who is locked up here - you or me?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_50
+msgid "Sigh. Open the wall and come here."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_50:0
+msgid "How can I do this? The walls look rather massive."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_52
+msgid "It's very easy."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_52:0
+msgid "Oh dear. You always said that when things got tricky."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_54
+msgid "You just have to find the elemental scrolls and the colored globes. Somebody must have taken them and hidden them all over the island."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_54:0
+msgid "Can you be a little more specific?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_60
+msgid "There are four scrolls and three globes. Get them here and place them around this room."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_60:0
+msgid "Around this room?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_62
+msgid "Of course around this room. Don't always be so stupid."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_70
+msgid "Hurry now!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor1_72
+msgid "And bring something to eat!"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave_kd
+msgid "Hey, don't run away. Talk to us!"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave2_k
+msgid "Did someone follow me? I thought they couldn't go down here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_andor3
+msgid "You really believed I was your brother? Hahaha!"
+msgstr ""
+
+#: conversationlist_laeroth.json:final_cave2_k1_10_f
+msgid "A loud rumbling fills the air! - At the same time the scroll of fire explodes."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_plant
+msgid "Crap, the plant didn't grow tall enough."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_fc1_key
+msgid "You see nothing special."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_fc2_s1_6
+msgid "You hear a loud rumbling from above. Seems to be the walls are opened up again."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_fc2_s1_10
+msgid "You call back upstairs that there was no problem going down."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_fc2_s1_12
+msgid "But something is very wrong here."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_island_boss
+msgid "Ah, my dinner at last."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_island_boss_10
+msgid "And no horse meat this time. My servants promised me a delicious surprise tonight."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_island_boss_10:0
+msgid "We'll see. Attack!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur_10
+#: conversationlist_laeroth.json:lae_centaur1_20
+#: conversationlist_laeroth.json:lae_centaur2_20
+msgid "You are not wanted here."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur_20
+msgid "We have an eye on you."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_1
+msgid "You there, human."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_2
+msgid "Our leader wants to see you. Now."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_2:1
+msgid "Who is your leader?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_3
+msgid "Don't ask questions. Just do as you're told."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_3:0
+msgid "Fine. Lead the way."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_3:1
+msgid "And if I refuse?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_4
+msgid "Then you'll regret it. Trust me, you don't want to anger our leader."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_4:0
+#: conversationlist_laeroth.json:lae_centaur2_5:1
+msgid "It's okay, calm down. Where is this leader?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_5
+msgid "I have better things to do than play tour guide to useless intruders."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_5:0
+msgid "Then just tell me where he is."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_8
+#: conversationlist_laeroth.json:lae_centaur2_8
+#: conversationlist_laeroth.json:lae_centaur3_8
+msgid "Thalos, our wise guide, is currently in the northeast of the island."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_8:0
+#: conversationlist_laeroth.json:lae_centaur2_5:0
+#: conversationlist_laeroth.json:lae_centaur2_8:0
+#: conversationlist_laeroth.json:lae_centaur3_8:0
+msgid "Fine, I'll go see him."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_8:1
+#: conversationlist_laeroth.json:lae_centaur2_8:1
+#: conversationlist_laeroth.json:lae_centaur3_8:1
+msgid "Hopefully this Thalos will be a little more accommodating."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur1_10
+msgid "Hurry up now. And don't try anything stupid."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur2_1
+msgid "What brings a human like you to our island?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur2_1:0
+msgid "Just passing through. No need to get defensive."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur2_2
+msgid "Defensive? Ha! We have every right to be wary of your kind. Humans have brought nothing but trouble to our land."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur2_2:0
+msgid "I'm not here to cause trouble."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur2_2:1
+#: conversationlist_laeroth.json:lae_centaur3_2:1
+msgid "I'm just looking for..."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur2_3
+msgid "That's what they all say. But mark my words, human, if you step out of line, you'll regret it."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur2_3:0
+msgid "I assure you, I have no intentions of causing any harm."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur2_4
+msgid "We'll see about that. Just remember, you're not welcome here."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur2_5
+msgid "We will have to decide what happens to you. You must therefore go to our leader now."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur2_10
+msgid "Don't think about trying anything funny. We'll be watching you."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur3_1
+msgid "What do you want, human?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur3_1:0
+msgid "Just passing through. No need to be hostile."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur3_2
+msgid "We don't take kindly to your kind here. You humans always cause trouble."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur3_2:0
+msgid "I'm not looking for trouble. Just trying to explore."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur3_3
+msgid "Well, you're not welcome here. Keep moving before you cause any problems."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur3_3:0
+msgid "I don't mean any harm. Can't we just talk?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur3_4
+msgid "Talking won't change anything. You humans are all the same. You should have just left us alone."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur3_4:0
+msgid "Fine. I'll go. But I won't forget how unwelcoming you've been."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur3_4:1
+msgid "Enough now. I want to speak to your boss."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur3_5
+msgid "We don't care what you think. Just leave our island and never come back."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur3_10
+msgid "Go talk to Thalos. Although I'd rather you just disappear altogether."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur8
+#: conversationlist_laeroth.json:lae_centaur9_2b
+msgid "The stars are bright tonight."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_1
+msgid "I am Thalos. Human, you are not welcome here."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_1:0
+msgid "I know by now."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_1:1
+#: conversationlist_laeroth.json:lae_centaur9_1a:0
+msgid "I am just looking for my brother, Andor. Have you perhaps seen him?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_1:2
+#: conversationlist_laeroth.json:lae_centaur9_1a:1
+msgid "I mean no harm. I come in peace, seeking to understand your ways."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_1:3
+#: conversationlist_laeroth.json:lae_centaur9_1a:2
+msgid "May I try riding one of your centaurs?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_1a
+msgid "What business do you have on our island?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_1b
+msgid "Understand our ways? Humans have never cared to understand us. They see us as nothing more than beasts of burden."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_1b:0
+msgid "Half breads you mean."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_1b:1
+msgid "I'm not like other humans. I respect your kind and wish to prove it."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_1z
+msgid "You better leave now."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_2
+msgid "This Andor, does he look a bit like you?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_2:0
+msgid "Yes, yes. Have you seen him? Where is he? When?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_2a
+msgid "Who can be sure?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_2b:0
+msgid "Never, ever try to elicit a straight answer from a centaur."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_8
+msgid "Words are cheap. Actions speak louder."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_10
+msgid "If you truly wish to prove yourself, you must complete a task for us."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_10:0
+msgid "What task do you require of me?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_10:1
+msgid "I won't clean out your stable."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_12
+msgid "There is a foul creature that lurks in the cave to the east. It resembles a human but is far more savage."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_12a
+msgid "It attacks my people and threatens our way of life."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_12b
+msgid "[with ominous voice] It is deadly."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_12b:0
+msgid "It is deadly? Then I'll make sure it's dead."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_12b:2
+msgid "Eh, well - I'm out."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_30
+msgid "Go and slay this beast. Then I will reconsider your intentions."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_32
+msgid "We centaurs have difficulty walking up stairs and fighting monsters in caves."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_34
+msgid "Here you humans are exceptionally advantageous."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_35
+msgid "Go and free us from the bane of all centaurs."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_35:0
+msgid "Consider it done. I will rid your island of this threat."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_36
+msgid "Do not underestimate the danger, human. This creature is formidable."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_38
+msgid "But if you succeed, your efforts will be rewarded."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_100
+msgid "What news do you bring?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_100:0
+msgid "I met acquaintances in the entrance to the cave."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_100:1
+msgid "I have found my brother Andor, locked in a room down in that cave."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_100:2
+msgid "The creature has been slain. Your island is safe once more."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_110
+msgid "Even more people. Terrible - does it never end?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_110:0
+msgid "I'll continue looking for the monster"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_112
+msgid "Do that"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_130
+msgid "Is that so?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_130:0
+msgid "Yes. I'll go free him now."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_132
+msgid "Do that if you must. Although I am not glad with even more humans on our island."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_134
+msgid "After all, humans are a useless nuisance to centaur society."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_300
+msgid "Impressive, human. Yes, I can feel it."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_300:0
+msgid "And this heart does prove it."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_300:1
+msgid "I wanted to prove it with the monster's heart, but I seem to have lost it. Just a minute ..."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_302
+msgid "That foul creature is no more. A great burden is lifted from my heart."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_310
+msgid "You have proven yourself to be more than just another ignorant human."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_310:0
+msgid "Very good."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_390
+msgid "Alas, you have earned our gratitude."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_centaur9_392
+msgid "You are free to roam our island as you please. And know that you will always have a friend in the centaurs."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew4a
+msgid "You know that stuff is illegal and that you can get in serious trouble just for possessing it?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew4a:0
+msgid "What can I say? I like to go rogue."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_cop_30a
+msgid "I don't know anything about it. Which makes me want it even more. Can I have it? I will reward you handsomely for it."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_korhald_41
+msgid "OK, but don't keep this coin collector waiting too long. I want that coin."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_cave_hidden_basket_examine_loot_f2
+msgid "you have just found a coin and a shield. You should bring this coin back to Forenza."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_cave_hidden_basket_examine_loot_g2
+msgid "you have just found a coin and a shield. You should bring this coin back to Gylew."
+msgstr ""
+
+#: conversationlist_laeroth.json:script_open_korhald_tomb_door_no_pendant
+msgid "You do however notice that the keyhole is oddly shaped, but you have no key that will fit."
+msgstr ""
+
+#: conversationlist_laeroth.json:script_open_korhald_tomb_door_has_pendant
+msgid "But before dispair sets in, you notice that the keyhole is oddly shaped."
+msgstr ""
+
+#: conversationlist_laeroth.json:script_open_korhald_tomb_door_has_pendant:0
+msgid "Use the Mysterious Korhald 'pendant' as a key."
+msgstr ""
+
+#: conversationlist_laeroth.json:moriath_history_6a
+msgid "They admired Korhald because without him the city of Remgard would not exist, but he was not well liked. He ruled the city like an oppressive king. When he died the cityfolk built a tomb in his honor, but well away from Remgard. Somewhere to the south."
+msgstr ""
+
+#: conversationlist_laeroth.json:script_open_korhald_tomb_door_unlocked
+msgid "Is it really locked?"
+msgstr ""
+
+#: conversationlist_laeroth.json:script_open_korhald_tomb_door_unlocked:0
+msgid "[Push it open.]"
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_defeated_5
+msgid "You've killed the defenseless coin collector."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_korhald_gylew_not_dead
+msgid "You wimp! Get me my brother's key now."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_25
+msgid "You did? Oh, yes, I remember now."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_25:0
+msgid "Your a crazy old man."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_korhald_27
+msgid "There are two locks! How can this be? Do you know anything about a second key?"
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement2_korhald_notice_sign
+msgid "As you approach these crates, a sign on the wall catches your eye and something tells you to take a look at it first."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement2_korhald_sign_10
+#: conversationlist_laeroth.json:laerothbasement2_korhald_sign_nope
+msgid "Not paying attention, you fall flat on your face. Damaging your chin and forehead."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement2_korhald_sign_10:0
+#: conversationlist_laeroth.json:laerothbasement2_korhald_sign_nope:0
+msgid "Oops, that's really going to cost me."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement2_korhald_sign_read
+msgid "You have already examined the nearly illegible sign hanging on the wall."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_attack_2
+msgid "My trusty henchman will take care of you."
+msgstr ""
+
+#: conversationlist_laeroth.json:gylew_attack_2:0
+msgid "Oh, you need someone to help you?"
+msgstr ""
+
+#: conversationlist_laeroth.json:mysterious_map_stop_and_review_west
+msgid "Let's stop once again and look at the 'Mysterious Korhald map'."
+msgstr ""
+
+#: conversationlist_laeroth.json:mysterious_map_stop_and_review_korhald_cave_outdoor1
+msgid "According to the map, I'm really close now and I should continue head west."
+msgstr ""
+
+#: conversationlist_laeroth.json:stop_henchman_key
+msgid "If you come back here, I will kill you!"
+msgstr ""
+
+#: conversationlist_laeroth.json:script_close_cave_door_scared
+msgid ""
+"As the heavy doors of the cave swing shut with a resounding slam, a sudden wave of fear grips you as the rush of wind hits your back.\n"
+"The echoing sound reverberates through you, sending shivers down your spine. This leaves you visibly shaken with a sense of uneasiness, casting a temporary shadow over your courage."
+msgstr ""
+
+#: conversationlist_laeroth.json:script_close_cave_door_not_scared
+msgid "Oh, that was the door closing. No big deal now."
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_10:0
+msgid "[Show the coins]"
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_20
+msgid "[The coin collector eagerly examines the pilfered coins, eyes gleaming with fascination.]..."
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_30
+msgid "Ah, these coins tell a tale of clandestine dealings and shadowy alliances."
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_35
+msgid "These bronze pieces bear the mark of the Lunar Whispe, an infamous thieves' guild that once ruled the underground markets. Legend has it, these coins were minted in secret, their alloy infused with fragments of moonstone to enhance the guild's stealthy endeavors"
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_40
+msgid "These silver coins hold the captivating history of a nomadic people, a seafaring tribe whose exploits were as boundless as the horizon. Born from the hands of skilled minters among the maritime wanderers, these coins tell the tale of the Ocean Nomads, a group of sailors, pirates, and free-spirited adventurers."
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_45
+msgid "The silver pieces depict a mighty ship sailing under the moonlit sky, capturing the essence of the Ocean Nomads' freedom and unity. Legends speak of these coins being crafted during the tribe's grand gatherings, where sailors from various corners of the seas exchanged not only goods but also these tokens, forging connections that transcended the vastness of the ocean."
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_45:0
+msgid "So they are priceless?"
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_50
+msgid ""
+"[The collector pauses, his gaze lingering on the coins.] These pieces are not merely currency; they are artifacts of a hidden past,\n"
+"a glimpse into the umderground world where alliances were forged in secrecy. I'd be willing to make you an offer for these intriguing\n"
+"tokens of history, should you be interested in parting with them."
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_50:0
+msgid "So you want to buy them all?"
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_55
+msgid "Well, yes. But not all of them. Afterall, who needs 110 of these?"
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_55:0
+msgid "OK, so what do you want to buy?"
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_60
+msgid "Well, let's talk price first. You see, the silver coin is worth 11 gold in weight and the bronze is worth 5 gold in weight. But, to a collector they are worth more. Let's make this simple. I will pay you double those values for each coin and I'll take 5 of each."
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_60:0
+msgid "So how much total than?"
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_65
+msgid "110 gold for the silver and 50 for the bronze coins."
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_65:0
+msgid "That little? No, thanks"
+msgstr ""
+
+#: conversationlist_laeroth.json:coin_collector_thief_coins_65:1
+msgid "Well, something is better than nothing."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_brimhaven_11
+msgid "Oh, yeah. Let's look in that chest now."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured
+msgid "Hey, you. I need your help!"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured:0
+msgid "What? Who are you? How did you get in here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured:1
+#: conversationlist_laeroth.json:forenza_island_injured_need_help:0
+msgid "What kind of help?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_need_help
+msgid "Nervermind that now. I am injured and I need your help!"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_explained
+msgid "Seriously?! Can't you see that I am bleeding and weak?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_explained:0
+msgid "Well, I have this ointment for stopping wounds. Take it."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_explained:1
+msgid "What do you want? A healing potion maybe?"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_ointment
+msgid "Oh, that's wonderful. Thank you."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help
+msgid "Please. I'll take whatever you have that could heal me."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help:0
+msgid "Well I have a bonemeal potion. It's yours now. Take it."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help:1
+msgid "Well I have a special bonemeal potion. It's yours now. Take it."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help:2
+msgid "Here, take it. It's a really strong potion of healing."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help:3
+msgid "I have this really special potion of healing that I got from a very wise old man. Take it!"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help:4
+msgid "I have an ordinary potion of health for you. Take it!"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help:5
+msgid "I have an little health potion for you. It's all I have. Take it!"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help:6
+msgid "I'm so sorry, but I have nothing that can help you."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help_bm
+msgid "Oh, this stuff is great!"
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help_mph
+msgid "This stuff tastes nasty, but I swear I can feel it helping already."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help_lph
+msgid "Oh, now this stuff feels like its healing power will last just a little bit longer."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help_rph
+msgid "Oh, this should help. Thank you."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help_minor_ph
+msgid "Oh, this should help. I guess."
+msgstr ""
+
+#: conversationlist_laeroth.json:forenza_island_injured_help_not
+msgid "You are a disappointment. Anyways..."
+msgstr ""
+
+#: conversationlist_laeroth.json:Remgard_jetty_sign
+msgid "From this jetty you have an excitingly beautiful view of the mighty Lake Laeroth."
+msgstr ""
+
+#: conversationlist_laeroth.json:Remgard_jetty_sign:0
+msgid "What a lot of water!"
+msgstr ""
+
+#: conversationlist_laeroth.json:Remgard_jetty_sign_2
+msgid "You can clearly see the neighboring group of islands and the old buildings on them."
+msgstr ""
+
+#: conversationlist_laeroth.json:Remgard_jetty_sign_2:0
+msgid "That ruin over there will probably be called \"Laeroth Manor\"."
+msgstr ""
+
+#: conversationlist_laeroth.json:Remgard_jetty_sign_3
+msgid "You'd like to get over there, but you realize it's not possible from here."
+msgstr ""
+
+#: conversationlist_laeroth.json:Remgard_jetty_sign_3:0
+msgid "I'LL FIND A WAY!!"
+msgstr ""
+
+#: conversationlist_laeroth.json:Remgard_jetty_sign_4
+msgid "You hear the echoes of your shout - then silence."
+msgstr ""
+
+#: conversationlist_laeroth.json:Remgard_jetty_sign_4:0
+msgid "So close yet so far."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_barn_basement_spider
+#: conversationlist_laeroth.json:laeroth_barn_basement_centipede
+#: conversationlist_laeroth.json:laeroth_barn_basement_1
+msgid "As you approach the hole, you notice something inside and are intrigued."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_barn_basement_spider:0
+#: conversationlist_laeroth.json:laeroth_barn_basement_centipede:1
+#: conversationlist_laeroth.json:laeroth_barn_basement_1:0
+msgid "[Bend down and take a look.]"
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_barn_basement_spider:1
+#: conversationlist_laeroth.json:laeroth_barn_basement_centipede:0
+#: conversationlist_laeroth.json:laeroth_barn_basement_1:1
+msgid "No, I don't think so. I'm not that intrigued enough to risk my life."
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_barn_basement_spider_2
+msgid "Ugh, spiders!"
+msgstr ""
+
+#: conversationlist_laeroth.json:laeroth_barn_basement_centipede_2
+msgid "Ugh, centipedes"
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_cave_hidden_locked_chest_no_key
+msgid "This chest is locked and you don't seem to have the key."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_cave_hidden_locked_chest_not_looted
+msgid "The chest is locked, but you can try that \"Mystery Laeroth key\" you found."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_cave_hidden_locked_chest_not_looted:0
+msgid "Let's get this thing unlocked."
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_cave_hidden_locked_chest_not_looted:1
+msgid "This might be a mistake. I should leave before it's too late!"
+msgstr ""
+
+#: conversationlist_laeroth.json:korhald_cave_hidden_locked_chest_loot
+msgid "Inside the chest, you find a book with an ancient leather cover, a helmet and some valuables."
+msgstr ""
+
+#: conversationlist_laeroth.json:odd_coin_collector_ask_about_locked_chest
+msgid "A locked chest you say? Well, I'm not really sure, but logic tells me to look back in the Laeroth Manor."
+msgstr ""
+
+#: conversationlist_laeroth.json:odd_coin_collector_ask_about_locked_chest:0
+msgid "Oh, yeah. That makes sense."
+msgstr ""
+
+#: conversationlist_laeroth.json:odd_coin_collector_ask_about_locked_chest:1
+msgid "Oh, come on! I don't want to go back there again."
+msgstr ""
+
+#: conversationlist_laeroth.json:gwendolyn_1
+msgid "Hello, stranger. What are you doing down here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gwendolyn_1:0
+msgid "I'm looking for my brother Andor. Have you seen him? He kind of looks like me."
+msgstr ""
+
+#: conversationlist_laeroth.json:gwendolyn_1:1
+msgid "What are you doing down here?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gwendolyn_2
+msgid "Well, unless he looks like one of these books, I will say \"no\"."
+msgstr ""
+
+#: conversationlist_laeroth.json:gwendolyn_3
+msgid "You see, I've been down here all day looking for a book for Skylenar as he really needs it."
+msgstr ""
+
+#: conversationlist_laeroth.json:gwendolyn_3:0
+msgid "Well, maybe I could help you? What is the name of this book?"
+msgstr ""
+
+#: conversationlist_laeroth.json:gwendolyn_4
+msgid "Oh, how nice of you to offer. It's called \"The Tome of Veiled Truths\", but I don't think you will have much luck finding it."
+msgstr ""
+
+#: conversationlist_laeroth.json:gwendolyn_4:0
+msgid "Oh, OK. I will let you be then."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison1
+#: conversationlist_laeroth.json:lae_prison1a
+msgid "Please help us!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_cell1:0
+#: conversationlist_laeroth.json:lae_prison_cell2:0
+#: conversationlist_laeroth.json:lae_prison_cell3:0
+#: conversationlist_laeroth.json:lae_prison_cell4:0
+msgid "Unlock."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_cell1:1
+#: conversationlist_laeroth.json:lae_prison_cell2:1
+#: conversationlist_laeroth.json:lae_prison_cell3:1
+#: conversationlist_laeroth.json:lae_prison_cell4:1
+msgid "Unfortunately the lock is now broken."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_cell1:2
+#: conversationlist_laeroth.json:lae_prison_cell2:2
+#: conversationlist_laeroth.json:lae_prison_cell3:2
+#: conversationlist_laeroth.json:lae_prison_cell4:2
+msgid "You have no matching key."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_cell1_unlock
+#: conversationlist_laeroth.json:lae_prison_cell2_unlock
+#: conversationlist_laeroth.json:lae_prison_cell3_unlock
+#: conversationlist_laeroth.json:lae_prison_cell4_unlock
+msgid "Click."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_01a
+#: conversationlist_laeroth.json:lae_prison_02
+msgid "Please, can you help us?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_01b
+msgid "Please open the other cells and free us all! Hurry! Then come back to me."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_01b:0
+msgid "OK, just a second ..."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_02a
+msgid "The prison torturer died, but he took the life force of us prisoners in the hope to live again."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_02b
+msgid "It didn't work, because we had so little life left anyway."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_02c
+msgid "But now we cannot rest in peace, because he is still here, somewhere in the lower caves. He needs to be destroyed, but we cannot do it because he has control over us."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_02c:0
+msgid "OK. I'll do it. I am not afraid of a few monsters!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_02c:1
+msgid "No thanks. Seems dangerous, and there's nothing in it for me."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_03
+msgid "Thank you! But beware! He has guards that are like him. They may appear to be human at first glance, but they are not!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_3a
+msgid "Ohhh! What will become of us?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_end_10
+msgid "Oh, the kid is back. Just look!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_end_10:0
+msgid "You can finally find peace. Kotheses, the torturer is dead."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_end_20
+msgid "Ooooh! We are eternally grateful!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_prison_end_30
+msgid "Everything is in order now. The prisoners are back in their cells, and the Demon guards are on duty again."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_2
+msgid "Why do you kill my precious demons?! I told you to stay here beside me!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_2:0
+msgid "They have attacked me!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_3
+msgid "Do as you are told, and there will be no harm."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_3:0
+msgid "[softly] Gna gna gna."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_key
+msgid "Stop, kid! Not a step further!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_10
+msgid "Hello, child."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_10a
+msgid "Would you like to learn the trade of a torturer?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_10a:0
+msgid "Tell me more about it."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_10a:1
+msgid "I'm sorry, I don't have time for that. I have to look for my brother. Do you perhaps know where he is? He looks something like me."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_10a:2
+msgid "You stole the life force of your captives."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_10a:3
+msgid "Very gladly. I always like to learn new things."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_11
+msgid "I seek a young apprentice to train in our essential duties."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_11a
+msgid "You will start by observing and assisting me during interrogations, learning the delicate balance of inflicting pain."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_11b
+msgid "While keeping the prisoner alive, of course."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_11b:0
+msgid "Oh, makes sense."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_11c
+msgid "Your education will include mastering various torture devices and understanding their effects."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_11d
+msgid "Over the years, you will gradually take on more responsibility, eventually conducting interrogations on your own once you have proven your skill and steadiness."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_11d:0
+msgid "Interrogations you call it?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_11e
+msgid "Sure. We only want want the thruth. Nothing more. It is a very prestigious work."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_11e:1
+msgid "Then why do you wear a mask at public executions?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_11f
+msgid "Enough questions."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_12
+msgid "No, I don't know where Andor is now."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_12:0
+msgid "Oh, how do you know his name?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_14
+msgid "Well, he was here a while ago and was shown a few tricks."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_14:0
+msgid "So he was here too?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_16
+msgid "Andor was a very eager student. It's a shame he didn't stay."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_18
+msgid "Yes. So?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_20
+msgid "You are sure you don't want to learn the art of a torturer?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_20:0
+msgid "That is no job for me."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_20:1
+msgid "Well, I could try at least."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_30
+msgid "Okay, then let's get started. This is a very important job, you know?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_32
+msgid "You get people to tell you the truth you want to hear."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_34
+msgid "Like these dangerous captives in the cells above. They all confessed. Luckily they are in safe custody."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_36:0
+msgid "I opened the cells and released them."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_40
+msgid "Not again! You need to wake up the Demon Guard and send them upstairs. That way you will quickly get the problem under control."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_40:0
+msgid "Demons? That doesn't sound safe."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_42
+msgid "You screwed up, you have to fix it."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_42:1
+msgid "Sigh. I know."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_44
+msgid "Here take this Oegyth crystal."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_45
+msgid "Take this precious Oegyth crystal to that small room to the south and continue through the corridor."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_46
+msgid "Then throw the crystal with all your might into the dark abyss."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_46:0
+msgid "What?!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_48
+msgid "Do it. Then run for your life back to me so that I can protect you from them."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_50
+msgid "You hear me? Don't wait for the demons. They are deadly."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_52
+msgid "Now. Move."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_60
+msgid "What a pity. At least let me warn you about the prisoners above."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_60:0
+msgid "What is with them?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_62
+msgid "They are devious. They are highly dangerous."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_64
+msgid "They must be imprisoned for all reasons."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_66
+msgid "Their lies influence you to have mercy. But turn your back to them they pierce you cruelly."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_70
+msgid "Believe it or not."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_70:0
+msgid "Not."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_74
+msgid "At least I play fair. I do not come from ambush, but rather announce my attack."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_74:0
+msgid "OK ..."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_76
+msgid "... which is now!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_76:0
+msgid "How gross."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_100
+msgid "Now you can talk to the demons. To all of them. Tell them what they have to do."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_100:0
+msgid "All of them?"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_101
+msgid "To all of those that you have left alive. But please, stay close to me this time."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_102
+msgid "But stay close to me."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_110
+msgid "I see it in your eyes - you want to leave too. Like your brother."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_torturer_110:0
+msgid "Yes. Thank you for your lessons."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon_call
+msgid "An icy cold breeze hits your face."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon_call:0
+#: conversationlist_laeroth.json:lae_demon_call_10:0
+msgid "Let's throw an oegyth crystal down there."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon_call:1
+msgid "I would like to throw an oegyth crystal down there, if I only had one."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon_call:2
+msgid "Let's try to throw a rock."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon_call:3
+msgid "What an eery place. I better leave this alone."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon_call_10:1
+msgid "I better leave this alone."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon_call_20
+msgid "You hear an uproar from far away. But coming nearer and nearer."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon_call_20:0
+msgid "Well, let's hurry from here - now."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon4
+#: conversationlist_laeroth.json:lae_demon5
+#: conversationlist_laeroth.json:lae_demon7
+msgid "Command us!"
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon4:0
+msgid "You go and watch over the prisoners in the cells."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon5:0
+msgid "You stand guard in the hall under the cell block."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon7:0
+msgid "You protect Kotheses in case the prisoners get here."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon9
+msgid "[hollow voice] Take back your glass ball, brave little human."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon9:0
+msgid "Th ... thanks."
+msgstr ""
+
+#: conversationlist_laeroth.json:lae_demon
+msgid "We are legion. Fear us."
+msgstr ""
+
+#: conversationlist_laeroth.json:hungry_pig_upset_stomach
+msgid "[Squeal] Please, stop feeding these to me. They're making my stomach hurt."
+msgstr ""
+
+#: conversationlist_laeroth.json:hungry_pig_upset_stomach:0
+msgid "What? You can talk?"
+msgstr ""
+
+#: conversationlist_laeroth.json:hungry_pig_upset_stomach:1
+msgid "More eating and less talking."
+msgstr ""
+
+#: conversationlist_laeroth.json:hungry_pig_upset_stomach_2:0
+msgid "Here. Have another piece of rotten meat. It's good for you."
+msgstr ""
+
+#: conversationlist_laeroth.json:hungry_pig_upset_stomach_3
+#: conversationlist_laeroth.json:hungry_pig_sick
+msgid "[Squeal]"
+msgstr ""
+
+#: conversationlist_laeroth.json:hungry_pig_feed:0
+msgid "Hungry? Here, have a piece of rotten meat."
+msgstr ""
+
+#: conversationlist_laeroth.json:smuggler5_pig
+msgid "Yeah, I'm sure you didn't. Why don't you go have another one of \"Lowyna's special brews\"?"
+msgstr ""
+
+#: conversationlist_laeroth.json:guard_dog
+msgid "[Grrr]"
+msgstr ""
+
+#: conversationlist_laeroth.json:waterway_forest2_beware_dogs
+msgid "Beware of dogs! Trespassers are not tolerated."
+msgstr ""
+
+#: conversationlist_laeroth.json:waterway_forest_isolated_man
+msgid "What were you doing in my house!"
+msgstr ""
+
+#: conversationlist_laeroth.json:waterway_forest_isolated_man:0
+msgid "I've come a long distance in the persuit of my brother Andor. So I peeked inside to see if he was in there."
+msgstr ""
+
+#: conversationlist_laeroth.json:waterway_forest_isolated_man:1
+msgid "I am looking for someone that could explain why that land over there [pointing west] is poisoned."
+msgstr ""
+
+#: conversationlist_laeroth.json:waterway_forest_isolated_man:2
+msgid "I was looking for help in getting into that cave just west of here."
+msgstr ""
+
+#: conversationlist_laeroth.json:waterway_forest_isolated_man_5
+msgid "Do you really think that I believe that? Who are you?! What do you really want?!"
+msgstr ""
+
+#: conversationlist_laeroth.json:waterway_forest_isolated_man_5:0
+msgid "I don't care what you don't believe because that's the truth."
+msgstr ""
+
+#: conversationlist_laeroth.json:waterway_forest_isolated_man_5:1
+msgid "Can you just answer my question now or I will go back in your house?"
+msgstr ""
+
+#: conversationlist_laeroth.json:waterway_forest_isolated_man_dog
+msgid "Well, with that attitude, you better get out of here now before I unleash my hounds on you."
+msgstr ""
+
+#: conversationlist_laeroth.json:waterway_forest_isolated_man_dog:0
+msgid "OK, calm down. I'm leaving."
+msgstr ""
+
+#: conversationlist_laeroth.json:hungry_pig_dies
+msgid "The hungry pig dies due to the rotten meat."
+msgstr ""
+
+#: conversationlist_laeroth.json:laerothbasement2_cannot_examine_chest
+msgid "As you approach these crates, you quickly develop an appreciation for their age. You also notice the vast amount of nasty cobwebs surrounding them. Outside of all that, you are bored and decide that it's time to move on."
+msgstr ""
+
 #: itemcategories_1.json:dagger
 msgid "Dagger"
 msgstr "Daga"
@@ -59424,6 +63394,10 @@ msgstr ""
 
 #: itemlist_v0611_2.json:oegyth
 msgid "Oegyth crystal"
+msgstr ""
+
+#: itemlist_v0611_2.json:oegyth:description
+msgid "You can feel some strange power radiating from this crystal."
 msgstr ""
 
 #: itemlist_v0611_2.json:toszylae_heart
@@ -62314,8 +66288,363 @@ msgstr ""
 msgid "A gold goin from Nor City."
 msgstr ""
 
+#: itemlist_laeroth.json:serpent_meat
+msgid "Serpent meat"
+msgstr ""
+
+#: itemlist_laeroth.json:lizard_skin
+msgid "Lizard skin"
+msgstr ""
+
+#: itemlist_laeroth.json:shield_dark_ref
+msgid "Shield of dark reflections"
+msgstr ""
+
+#: itemlist_laeroth.json:shield_dark_ref:description
+msgid "When you look into the polished surface, you see a terrifying reflection of yourself."
+msgstr ""
+
+#: itemlist_laeroth.json:bloodseeker
+msgid "Blood seeker"
+msgstr ""
+
+#: itemlist_laeroth.json:shield_of_brave
+msgid "Shield of the Brave"
+msgstr ""
+
+#: itemlist_laeroth.json:shield_of_brave:description
+msgid "Provides to its possessor, a level of fearlessness and courage."
+msgstr ""
+
+#: itemlist_laeroth.json:korhald_coins
+msgid "Korhald coin chest"
+msgstr ""
+
+#: itemlist_laeroth.json:korhald_coins:description
+msgid "A set of magnificent coins commissioned by the great Korhald during the Noble Wars."
+msgstr ""
+
+#: itemlist_laeroth.json:gylew_key
+msgid "Gylew's key"
+msgstr ""
+
+#: itemlist_laeroth.json:gylew_key:description
+#: itemlist_laeroth.json:forenza_key:description
+msgid "A key to open the chest that houses Korhald coins."
+msgstr ""
+
+#: itemlist_laeroth.json:forenza_key
+msgid "Forenza's key"
+msgstr ""
+
+#: itemlist_laeroth.json:feygard_plated_gloves
+msgid "Feygard plated gloves"
+msgstr ""
+
+#: itemlist_laeroth.json:korhald_map
+msgid "Mysterious Korhald map"
+msgstr ""
+
+#: itemlist_laeroth.json:korhald_map:description
+msgid "A mysterious looking map found inside the Korhald chest."
+msgstr ""
+
+#: itemlist_laeroth.json:korhald_chamber_key
+msgid "Mysterious Korhald pendant"
+msgstr ""
+
+#: itemlist_laeroth.json:korhald_chamber_key:description
+msgid "Found in the Korhald coin chest. This is a mysterous item indeed."
+msgstr ""
+
+#: itemlist_laeroth.json:qtrstaff_2
+msgid "Superior quarterstaff"
+msgstr ""
+
+#: itemlist_laeroth.json:qtrstaff_2:description
+msgid "This quarterstaff is made of very dense wood, and has metal endcaps with intricate engravings."
+msgstr ""
+
+#: itemlist_laeroth.json:hero_coin
+msgid "Coin of Prestige"
+msgstr ""
+
+#: itemlist_laeroth.json:hero_coin:description
+msgid "A gift from the people of Remgard to the Korhald family after Korhald's death to honor and respect the great man that was Korhald."
+msgstr ""
+
+#: itemlist_laeroth.json:stinging_gland
+msgid "Stinging gland"
+msgstr ""
+
+#: itemlist_laeroth.json:stinging_gland:description
+msgid "You should handle this very carefully!"
+msgstr ""
+
+#: itemlist_laeroth.json:verigil_ring
+msgid "Verigil's signet ring"
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth1
+msgid "Slightly diminished oegyth crystal"
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth1:description
+msgid "The power radiating from the crystal seems somewhat less than it was."
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth2
+msgid "Diminished oegyth crystal"
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth2:description
+msgid "The power radiating from the crystal seems less than it was."
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth3
+msgid "Very diminished oegyth crystal"
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth3:description
+msgid "The power radiating from the crystal seems a lot less than it was."
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth4
+msgid "Heavily diminished oegyth crystal"
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth4:description
+msgid "The power radiating from the crystal seems much less than it was."
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth5
+msgid "Very heavily diminished oegyth crystal"
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth5:description
+msgid "The power radiating from the crystal seems to be weak now."
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth6
+msgid "Nearly depleted oegyth crystal"
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth6:description
+msgid "The power radiating from the crystal seems to be very weak now."
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth7
+msgid "Depleted oegyth crystal"
+msgstr ""
+
+#: itemlist_laeroth.json:oegyth7:description
+msgid "You can no longer sense any power radiating from the crystal."
+msgstr ""
+
+#: itemlist_laeroth.json:eyvipa_candlestick
+msgid "Eyvipa's candlestick"
+msgstr ""
+
+#: itemlist_laeroth.json:obsidian
+msgid "Obsidian"
+msgstr ""
+
+#: itemlist_laeroth.json:obsidian:description
+msgid "It looks like black glass."
+msgstr ""
+
+#: itemlist_laeroth.json:obsidian_dagger
+msgid "Obsidian dagger"
+msgstr ""
+
+#: itemlist_laeroth.json:pink_potion
+msgid "Pink potion of stomach calming"
+msgstr ""
+
+#: itemlist_laeroth.json:pink_potion:description
+msgid "A thick, pink liquid"
+msgstr ""
+
+#: itemlist_laeroth.json:audela_necklace
+msgid "Audela's necklace"
+msgstr ""
+
+#: itemlist_laeroth.json:audela_necklace:description
+msgid "A very pretty necklace."
+msgstr ""
+
+#: itemlist_laeroth.json:diary_cuned
+msgid "Cuned's diary"
+msgstr ""
+
+#: itemlist_laeroth.json:diary_cuned:description
+msgid "This is private, so you decide not to read it."
+msgstr ""
+
+#: itemlist_laeroth.json:seal_jerelin
+msgid "Jerelin's seal"
+msgstr ""
+
+#: itemlist_laeroth.json:seal_jerelin:description
+msgid "You can see some old ink still on the seal."
+msgstr ""
+
+#: itemlist_laeroth.json:laeroth_box_key
+msgid "Fancy looking key"
+msgstr ""
+
+#: itemlist_laeroth.json:laeroth_box_key:description
+msgid "A small, very ornate key"
+msgstr ""
+
+#: itemlist_laeroth.json:jelly_blob
+msgid "Gelatinous blob"
+msgstr ""
+
+#: itemlist_laeroth.json:jelly_blob:description
+msgid "This looks and feels disgusting."
+msgstr ""
+
+#: itemlist_laeroth.json:spider_fang
+msgid "Spider fang"
+msgstr ""
+
+#: itemlist_laeroth.json:spider_fang:description
+msgid "It's sharp!"
+msgstr ""
+
+#: itemlist_laeroth.json:centipede_skin
+msgid "Centipede skin"
+msgstr ""
+
+#: itemlist_laeroth.json:glaive_butcher
+msgid "Glaive of the butcher"
+msgstr ""
+
+#: itemlist_laeroth.json:glaive_butcher:description
+msgid "Shiny, and sharp!"
+msgstr ""
+
+#: itemlist_laeroth.json:adakin_letter
+msgid "Letter from Adakin"
+msgstr ""
+
+#: itemlist_laeroth.json:adakin_letter:description
+msgid "My dear Moriath. I wish to thank you for your service over the years. However, I realize there is no future for me here at the manor, so I must leave to find my path in life. I wish you all the best, and perhaps we will meet again somewhere. I have secured the things that are valuable to me but I cannot carry, including my diary, in a chest downstairs. Perhaps one day I will be able to collect them. Signed, Adakin."
+msgstr ""
+
+#: itemlist_laeroth.json:adakin_chest_key
+msgid "Key for Adakin's chest"
+msgstr ""
+
+#: itemlist_laeroth.json:adakin_diary_key
+msgid "Key for Adakin's diary"
+msgstr ""
+
+#: itemlist_laeroth.json:adakin_diary
+msgid "Adakin's diary"
+msgstr ""
+
+#: itemlist_laeroth.json:adakin_diary:description
+msgid "An ornate diary."
+msgstr ""
+
+#: itemlist_laeroth.json:durian
+msgid "Durian fruit"
+msgstr ""
+
+#: itemlist_laeroth.json:durian:description
+msgid "Wow! The smell is almost overpowering. It's a mixture of old socks and sewage! It does taste good though!"
+msgstr ""
+
+#: itemlist_laeroth.json:feline_hat
+msgid "Feline hat"
+msgstr ""
+
+#: itemlist_laeroth.json:mystery_laeroth_key
+msgid "Mystery Laeroth key"
+msgstr ""
+
+#: itemlist_laeroth.json:mystery_laeroth_key:description
+msgid "A mysterious key found in Laeroth Manor that's embossed with the letter 'K'."
+msgstr ""
+
+#: itemlist_laeroth.json:final_cave_f
+msgid "Scroll of fire"
+msgstr ""
+
+#: itemlist_laeroth.json:final_cave_w
+msgid "Scroll of water"
+msgstr ""
+
+#: itemlist_laeroth.json:final_cave_e
+msgid "Scroll of earth"
+msgstr ""
+
+#: itemlist_laeroth.json:final_cave_a
+msgid "Scroll of wind"
+msgstr ""
+
+#: itemlist_laeroth.json:final_cave_r
+msgid "Red globe of the elements"
+msgstr ""
+
+#: itemlist_laeroth.json:final_cave_b
+msgid "Blue globe of the elements"
+msgstr ""
+
+#: itemlist_laeroth.json:final_cave_g
+msgid "Green globe of the elements"
+msgstr ""
+
+#: itemlist_laeroth.json:lae_island_boss_heart
+msgid "Dorhantarh's heart"
+msgstr ""
+
+#: itemlist_laeroth.json:lae_cube
+msgid "Cube"
+msgstr ""
+
+#: itemlist_laeroth.json:korhald_kettle
+msgid "Korhald's kettle"
+msgstr ""
+
+#: itemlist_laeroth.json:korhald_kettle:description
+msgid "Korhald's helmet, adorned with intricate engravings, offering formidable protection while symbolizing the vallor and resilience to its wearer."
+msgstr ""
+
+#: itemlist_laeroth.json:korhald_book
+msgid "Korhald Family Legacy"
+msgstr ""
+
+#: itemlist_laeroth.json:korhald_book:description
+msgid ""
+"'In the annals of time,' [the text begins], 'there lived a man whose legend burns as brightly as the forge fires he tended. Korhald, master blacksmith and unmatched warrior, emerged from humble beginnings to etch his name upon the tapestry of fate.'\n"
+" [With each turn of the page, the tale unfolds before you like a parchment map unfurling across the expanse of memory.]\n"
+"'Born of simple stock,' the words continue, 'Korhald inherited not only his father's name but also his legacy of hard work and unwavering resolve.'\n"
+" [As you delve deeper into the passages, you learn of Korhald's ascent from apprentice to artisan, his hands shaping steel with the precision of a sculptor and the strength of a titan.]\n"
+"'In the heart of the forge,' the tome whispers, 'Korhald found not only his craft but also his calling, for his creations were not merely weapons and armor, but the very embodiment of his spirit.'\n"
+" [But Korhald's legacy extends beyond the anvil and the battlefield.] 'A leader among men,' the pages declare, 'Korhald's valor and wisdom guided his people through times of strife and uncertainty, laying the cornerstone upon which the town of Remgard would rise.'\n"
+"\n"
+"[With each passing paragraph, you bear witness to the indomitable spirit of a man who forged his own destiny, shaping the world around him with the hammer blows of fate. And as you close the tome, the echoes of Korhald's journey linger in your mind, a testament to the enduring power of courage, determination, and the bonds of family that transcend the ages.]"
+msgstr ""
+
+#: itemlist_laeroth.json:lae_prison_key
+msgid "Laeroth prison key"
+msgstr ""
+
+#: itemlist_laeroth.json:insect_claw
+msgid "Insect claw"
+msgstr ""
+
+#: itemlist_laeroth.json:raiders_reach
+msgid "Raider's reach"
+msgstr ""
+
 #: monsterlist_crossglen_animals.json:tiny_rat
 #: monsterlist_ratdom.json:ratdom_maze_rat1
+#: monsterlist_laeroth.json:brute_origin1
+#: monsterlist_laeroth.json:brute_origin1a
 msgid "Tiny rat"
 msgstr "Rata petita"
 
@@ -63935,6 +68264,7 @@ msgid "Gylew"
 msgstr "Gylew"
 
 #: monsterlist_v0611_npcs1.json:gylew_henchman
+#: monsterlist_laeroth.json:gylew_henchman_aggresive
 msgid "Gylew's henchman"
 msgstr ""
 
@@ -63955,6 +68285,9 @@ msgid "Basement rat"
 msgstr ""
 
 #: monsterlist_v0611_npcs1.json:algangror
+#: monsterlist_laeroth.json:lae_algangror1
+#: monsterlist_laeroth.json:lae_algangror2
+#: monsterlist_laeroth.json:lae_algangror3
 msgid "Algangror"
 msgstr "Algangror"
 
@@ -64016,6 +68349,9 @@ msgid "Commoner"
 msgstr "Plebeu"
 
 #: monsterlist_v0611_npcs2.json:jhaeld
+#: monsterlist_laeroth.json:lae_jhaeld1
+#: monsterlist_laeroth.json:lae_jhaeld2
+#: monsterlist_laeroth.json:lae_jhaeld3
 msgid "Jhaeld"
 msgstr "Jhaeld"
 
@@ -66894,6 +71230,247 @@ msgstr ""
 msgid "Gornaud leader"
 msgstr ""
 
+#: monsterlist_laeroth.json:beach_crawler_1
+msgid "Venomous beach crawler"
+msgstr ""
+
+#: monsterlist_laeroth.json:lae_centaur
+msgid "Centaur"
+msgstr ""
+
+#: monsterlist_laeroth.json:lae_centaur1
+msgid "Orion, the centaur"
+msgstr ""
+
+#: monsterlist_laeroth.json:lae_centaur2
+msgid "Callista, the centaur"
+msgstr ""
+
+#: monsterlist_laeroth.json:lae_centaur3
+msgid "Silvanus, the centaur"
+msgstr ""
+
+#: monsterlist_laeroth.json:lae_centaur8
+msgid "Lyra, the centaur"
+msgstr ""
+
+#: monsterlist_laeroth.json:lae_centaur9
+msgid "Thalos, the centaur"
+msgstr ""
+
+#: monsterlist_laeroth.json:spit_serpent_1
+msgid "Spitting serpent"
+msgstr ""
+
+#: monsterlist_laeroth.json:spit_serpent_2
+msgid "Young spitting serpent"
+msgstr ""
+
+#: monsterlist_laeroth.json:spit_serpent_3
+msgid "Aggressive spitting serpent"
+msgstr ""
+
+#: monsterlist_laeroth.json:island_lizard
+msgid "Island lizard"
+msgstr ""
+
+#: monsterlist_laeroth.json:poison_vine_top
+#: monsterlist_laeroth.json:poison_vine_bottom
+msgid "Poisonous vine"
+msgstr ""
+
+#: monsterlist_laeroth.json:forenza
+#: monsterlist_laeroth.json:forenza_waytobrimhaven3
+msgid "Forenza"
+msgstr ""
+
+#: monsterlist_laeroth.json:moriath
+msgid "Moriath"
+msgstr ""
+
+#: monsterlist_laeroth.json:laerothbasement_spider
+msgid "Basement spider"
+msgstr ""
+
+#: monsterlist_laeroth.json:verigil
+msgid "Verigil"
+msgstr ""
+
+#: monsterlist_laeroth.json:eyvipa
+msgid "Eyvipa"
+msgstr ""
+
+#: monsterlist_laeroth.json:cuned
+msgid "Cuned"
+msgstr ""
+
+#: monsterlist_laeroth.json:jerelin
+#: monsterlist_laeroth.json:jerelin_b
+msgid "Jerelin"
+msgstr ""
+
+#: monsterlist_laeroth.json:audela
+msgid "Audela"
+msgstr ""
+
+#: monsterlist_laeroth.json:vahram
+msgid "Vahram the butcher"
+msgstr ""
+
+#: monsterlist_laeroth.json:eraepsekahs
+msgid "Eraepsekahs"
+msgstr ""
+
+#: monsterlist_laeroth.json:cave_jelly
+msgid "Cave jelly"
+msgstr ""
+
+#: monsterlist_laeroth.json:spider_massive
+msgid "Giant spider"
+msgstr ""
+
+#: monsterlist_laeroth.json:spider_queen
+msgid "Queen spider"
+msgstr ""
+
+#: monsterlist_laeroth.json:centipede
+msgid "Giant centipede"
+msgstr ""
+
+#: monsterlist_laeroth.json:centipede_aggressive
+msgid "Aggressive giant centipede"
+msgstr ""
+
+#: monsterlist_laeroth.json:cave_worm
+msgid "Cave worm"
+msgstr ""
+
+#: monsterlist_laeroth.json:cave_worm_vicious
+msgid "Vicious cave worm"
+msgstr ""
+
+#: monsterlist_laeroth.json:laeroth_last_lord
+msgid "Adakin"
+msgstr ""
+
+#: monsterlist_laeroth.json:brute_creator
+msgid "Os"
+msgstr ""
+
+#: monsterlist_laeroth.json:brute_fisherman
+msgid "Bidro"
+msgstr ""
+
+#: monsterlist_laeroth.json:lae_andor2
+#: monsterlist_laeroth.json:lae_andor3
+msgid "Andor"
+msgstr ""
+
+#: monsterlist_laeroth.json:lae_island_boss
+msgid "Dorhantarh"
+msgstr ""
+
+#: monsterlist_laeroth.json:cave_bear
+msgid "Aggressive bear"
+msgstr ""
+
+#: monsterlist_laeroth.json:remgard_gwendolyn
+msgid "Gwendolyn"
+msgstr ""
+
+#: monsterlist_laeroth.json:wight_lesser
+#: monsterlist_laeroth.json:wight_lesser5
+#: monsterlist_laeroth.json:wight_lesser5b
+msgid "Lesser wight"
+msgstr ""
+
+#: monsterlist_laeroth.json:wight_greater
+msgid "Greater wight"
+msgstr ""
+
+#: monsterlist_laeroth.json:kotheses
+msgid "Kotheses"
+msgstr ""
+
+#: monsterlist_laeroth.json:lae_demon4
+#: monsterlist_laeroth.json:lae_demon4b
+#: monsterlist_laeroth.json:lae_demon4_safe
+#: monsterlist_laeroth.json:lae_demon4b_safe
+#: monsterlist_laeroth.json:lae_demon5
+#: monsterlist_laeroth.json:lae_demon5_safe
+#: monsterlist_laeroth.json:lae_demon7
+#: monsterlist_laeroth.json:lae_demon7_safe
+#: monsterlist_laeroth.json:lae_demon9
+#: monsterlist_laeroth.json:lae_demon9_safe
+msgid "Dark watch"
+msgstr ""
+
+#: monsterlist_laeroth.json:lae_prisoner
+#: monsterlist_laeroth.json:lae_prisoner1
+#: monsterlist_laeroth.json:lae_prisoner2
+#: monsterlist_laeroth.json:lae_prisoner2a
+#: monsterlist_laeroth.json:lae_prisoner2i
+#: monsterlist_laeroth.json:lae_prisoner3
+#: monsterlist_laeroth.json:lae_prisoner3a
+#: monsterlist_laeroth.json:lae_prisoner3i
+#: monsterlist_laeroth.json:lae_prisoner4
+#: monsterlist_laeroth.json:lae_prisoner4a
+#: monsterlist_laeroth.json:lae_prisoner4i
+msgid "Laeroth prisoner"
+msgstr ""
+
+#: monsterlist_laeroth.json:hungry_pig
+msgid "Hungry pig"
+msgstr ""
+
+#: monsterlist_laeroth.json:rooster
+msgid "Rooster"
+msgstr ""
+
+#: monsterlist_laeroth.json:chicken
+msgid "Chicken"
+msgstr ""
+
+#: monsterlist_laeroth.json:guard_dog
+msgid "Guard dog"
+msgstr ""
+
+#: monsterlist_laeroth.json:isolated_man
+msgid "Isolated man"
+msgstr ""
+
+#: monsterlist_laeroth.json:young_church_dweller
+msgid "Young church dweller"
+msgstr ""
+
+#: monsterlist_laeroth.json:adult_church_dweller
+msgid "Adult church dweller"
+msgstr ""
+
+#: monsterlist_laeroth.json:church_dweller
+msgid "Church dweller"
+msgstr ""
+
+#: monsterlist_laeroth.json:brown_church_rat
+msgid "Brown church rat"
+msgstr ""
+
+#: monsterlist_laeroth.json:young_church_rat
+msgid "Pup rat"
+msgstr ""
+
+#: monsterlist_laeroth.json:drakthorn
+msgid "Drakthorn"
+msgstr ""
+
+#: monsterlist_laeroth.json:drakthorn_warrior
+msgid "Drakthorn warrior"
+msgstr ""
+
+#: monsterlist_laeroth.json:drakthorn_warrior_captain
+msgid "Drakthorn warrior captain"
+msgstr ""
+
 #: questlist.json:andor
 msgid "Search for Andor"
 msgstr ""
@@ -66983,6 +71560,10 @@ msgid ""
 "After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do.\n"
 "\n"
 "[Quest is not completable at this time.]"
+msgstr ""
+
+#: questlist.json:andor:120
+msgid "In the dungeons of Laeroth manor, Kotheses, the torturer, mentioned that he had taught Andor the basics of torturing."
 msgstr ""
 
 #: questlist.json:mikhail_bread
@@ -71027,8 +75608,8 @@ msgstr ""
 msgid "Uniform blue lighting: I solved a difficult logic riddle."
 msgstr ""
 
-#: questlist_fungi_panic.json:achievements:130
-msgid "Nightmare Survived: I survived the most intense nightmares ever"
+#: questlist_fungi_panic.json:achievements:135
+msgid "Innocent barnyard animal dies: Even after the pig told me to stop feeding it rotten mean as it was make it sick, i continued to do so and it result in its death."
 msgstr ""
 
 #: questlist_gison.json:gison_soup
@@ -72047,7 +76628,7 @@ msgid "I found Tunlon, a sheep farmer, on the hill next to Crossglen. He asked m
 msgstr ""
 
 #: questlist_bwmfill.json:tunlon_fence:12
-msgid "Tunlon got furious when he saw that you killed his sheep."
+msgid "Tunlon got furious when he saw that I killed his sheep."
 msgstr ""
 
 #: questlist_bwmfill.json:tunlon_fence:20
@@ -72104,6 +76685,397 @@ msgstr ""
 
 #: questlist_bwmfill.json:tunlon_fence:250
 msgid "Tunlon was happy to see the fences I brought him. These should be just fine, he said."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector
+msgid "The odd coin collector"
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:10
+msgid "I traded 5 of my 'mermaid coins' to Gylew for 500 gold."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:11
+msgid "I foolishly gave 5 of my 'mermaid coins' to Gylew."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:20
+msgid "I have agreed to set off to Laeroth Manor in persuit of the Korhald coins and to bring them back to Gylew."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:12
+msgid "I  sold the 10 coins that I looted from the Arulir secret room to Gylew."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:13
+msgid "I gave Gylew the 10 coins that I looted from the Arulir secret room."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:30
+msgid "In the Laeroth basement, I noticted a sign on the wall that i could not read in its entirety, but I was able make out the name 'Korhald'. This makes me wonder if this is a clue?"
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:40
+msgid "In the Laeroth basement, I discovered and looted the chest containing the 'Korhald coins'."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:41
+msgid "In the Laeroth basement, I encountered an injured man named Forenza."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:42
+msgid "I aided Forenza with an ointment for bleeding wounds."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:43
+msgid "In the Laeroth basement, I was able to help out Forenza by giving him a bonemeal potion."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:44
+msgid "In the Laeroth basement, I was able to help out Forenza by giving him a major health potion."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:46
+msgid "In the Laeroth basement, I was able to help out Forenza by giving him a potion of health from Lodar."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:47
+msgid "In the Laeroth basement, I was able to help out Forenza by giving him a regular health potion."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:48
+msgid "In the Laeroth basement, I was able to help out Forenza by giving him a minor health potion."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:50
+msgid "I've decided to help Forenza by agreeing to get the second key from Gylew. I should go back to Gylew now. Forenza has left the Manor island and has asked that I meet him outside of Brimhaven after my \"business\" with Gylew is complete."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:45
+msgid "I have decided to attack Forenza. I should return to Gylew with the key once he is dead."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:60
+msgid "We discovered a mysterious map inside the Korhald chest and I need to follow the river going east."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:62
+msgid "I have decided to attack Gylew. I should return to Forenza with the key once he is dead."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:63
+msgid "I killed Gylew and should return to Forenza with Gylew's key."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:65
+msgid "Inside the Korhald cave, I found the Coin of Prestige and the Shield of the Brave. I should return to Forenza and show him the coin."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:66
+msgid "Inside the Korhald cave, I found the Coin of Prestige and the Shield of the Brave. I should return to Gylew and show him the coin."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:100
+msgid "I sold Gylew the Coin of Prestige and he rewarded me handsomely for it."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:105
+msgid "I gave Gylew the Coin of Prestige and he told me that if I ever make my way to Feygrad, to seek out his family and they will 'make that shield a little bit better\". Whatever that means."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:110
+msgid "I sold Forenza the Coin of Prestige and he rewarded me handsomely for it."
+msgstr ""
+
+#: questlist_laeroth.json:odd_coin_collector:115
+msgid "I gave Forenza the Coin of Prestige and he told me that if I ever make my way to Brightport, to seek out his family and they will 'reward\" me. Whatever that means."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker
+msgid "Take care of the caretaker"
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:10
+msgid "I met a caretaker at Laeroth manor. He said he cannot leave because he is bound by an oath, but not one he ever gave."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:15
+msgid "The caretaker said that he feels honor bound by a pledge that his great-great grandfather made many years ago."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:17
+msgid "Moriath told me only the past lords can release him from the oath, but they are dead. He suggested I look in the library for information about how to talk to them."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:20
+msgid "I have learned the chant needed to send spirits back to their rest on the other side."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:30
+msgid "I have learned how to raise the spirits of the dead with the help of an oegyth crystal. But I also need a personal item. I should talk to Moriath again."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:35
+msgid "Moriath suggested I search the master bedroom for a personal item from the last lord, Verigil."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:40
+msgid "Verigil told me he could not release the Caretaker from his oath, because he is from the wrong branch of the family. I must talk to his uncle, Eyvipa. He has gone back to his rest."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:50
+msgid "Moriath suggested I look for an item with \"E\" engraved on it. This would have belonged to Eyvipa."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:60
+msgid "I have found an expensive looking candlestick with \"E\" engraved on it. This must have belonged to Eyvipa."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:70
+msgid "Eyvipa was angry that I woke him from his rest. He refused to help me because his father passed him over, and made his younger brother, Cuned, lord. I had to send him back to his rest with the chant \"estray inyay eacepay\"."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:80
+msgid "I found a diary that must have belonged to Cuned."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:90
+msgid "Cuned told me that Verigil is correct, and he cannot release the caretaker from his oath because he is from the wrong branch of the family. I must talk to his father, Jerelin."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:100
+msgid "After much searching I found a seal for Jerelin in an old chest. I must go back to the tomb again."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:110
+msgid "Jerelin ignored me, and went back to his resting place. I will have to ask Cuned again what to do."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:120
+msgid "Cuned told me to speak to his mother, Audela. Jerelin didn't listen to many people, but he listened to her."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:130
+msgid "I have found what appears to be a jewelry box, with \"A\" inscribed on it. It is locked though, and too heavy to move to the tomb."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:140
+msgid "I have found a key in the bedroom."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:150
+msgid "The key fitted the jewelry box! Inside I found a necklace \"With love to Audela\" written on the back."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:160
+msgid "Audela told me to talk to Jerelin again, but tell him Audela wants this done."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:170
+msgid "I spoke to Jerelin again, and told him of Audela's wishes. He told me he will reease the caretaker, but with a condition. The caretakers last act must be to move his grave away from that of his nagging wife."
+msgstr ""
+
+#: questlist_laeroth.json:laeroth_caretaker:180
+msgid "I told the caretaker what he has to do to be released from the oath. He thanked me, and agreed to do it."
+msgstr ""
+
+#: questlist_laeroth.json:last_lord
+msgid "The last lord of Laeroth"
+msgstr ""
+
+#: questlist_laeroth.json:last_lord:10
+msgid "Before I leave Laeroth, perhaps I should try to find out where the last Lord went. Maybe there are clues somewhere in the manor."
+msgstr ""
+
+#: questlist_laeroth.json:last_lord:15
+msgid "I didn't really care about where the last lord went. I left this place, and whatever happened to him didn't make any difference to me."
+msgstr ""
+
+#: questlist_laeroth.json:last_lord:20
+msgid "I searched the caretakers room, and found a letter from \"Adakin\". It says he is leaving to explore his future, but little more than that except that it mentions a chest that contains a diary and other things he could not take with him. I should look for this chest."
+msgstr ""
+
+#: questlist_laeroth.json:last_lord:30
+msgid "I have found a chest, with an inscription \"Adakin\" on the top. It is locked though, so I need to find the key. Hopefully he did not take it with him."
+msgstr ""
+
+#: questlist_laeroth.json:last_lord:40
+msgid "I have found a key that looks like it should fit Adakin's chest."
+msgstr ""
+
+#: questlist_laeroth.json:last_lord:50
+msgid "I have opened Adakin's chest. There are some useful items in here, as well as his diary. The diary has a lock though, so it seems I must find a small key that fits this lock."
+msgstr ""
+
+#: questlist_laeroth.json:last_lord:60
+msgid "I have found a jeweled key that looks like it might be for the diary. Time to try it."
+msgstr ""
+
+#: questlist_laeroth.json:last_lord:70
+msgid "The key unlocked the diary. The final entry did not really give an answer, except that he intended to go to either Nor City or Feygard, but had yet to decide which. Perhaps I will meet him some day."
+msgstr ""
+
+#: questlist_laeroth.json:brute_creator
+msgid "Brutes"
+msgstr ""
+
+#: questlist_laeroth.json:brute_creator:10
+msgid "I have met Bidro, a fisherman on the long way to Remgard. He wondered why only few people come along nowadays."
+msgstr ""
+
+#: questlist_laeroth.json:brute_creator:20
+msgid "I told Bidro about the many nasty monsters along the way."
+msgstr ""
+
+#: questlist_laeroth.json:brute_creator:35
+msgid "Then I have told Bidro about this cave full of brutes."
+msgstr ""
+
+#: questlist_laeroth.json:brute_creator:40
+msgid "I have talked to Os, a scientist about brute matters. He has built up a brute production facility."
+msgstr ""
+
+#: questlist_laeroth.json:brute_creator:90
+msgid "I told Bidro what I have learned from Os. He thanked me for this new story he could tell his wife."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer
+msgid "Shadow of the torturer"
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:5
+msgid "In the dungeon of the mansion I found some ghosts of prisoners. One of them told me their story."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:10
+msgid "I have agreed to help the spirits in the prison be free of the prison torturer."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:20
+msgid "I didn't want to help the spirits in the prison be free of the prison torturer."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:25
+msgid "Kotheses the torturer offered to teach me his art, as he had done for Andor before."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:30
+msgid "I accepted his offer to apprentice with him."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:35
+msgid "Kotheses gave me an Oegyth crystal."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:40
+msgid "In order to imprison the released prisoners again, I should call the demon guard by throwing an Oegyth Kristal into the abyss."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:50
+msgid "Kotheses scolded me because I killed his precious demons."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:60
+msgid "I declined the offer to become his apprentice."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:70
+msgid "Kotheses attacked me."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:80
+msgid "I told the prisoners that I had killed their torturer. Now they could get peace."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:100
+msgid "I have thrown an oegyth crystal down into the abyss to call for the dark watch."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:110
+msgid "I got back the Oegyth crystal from the chief of the Demon guard."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:114
+msgid "I ordered the demons to watch over the prisoners."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:120
+msgid "I took my leave from Kotheses, who, incidentally, forgot to reclaim his Oegyth crystal."
+msgstr ""
+
+#: questlist_laeroth.json:lae_torturer:130
+msgid "Everything was in order now. The prisoners were back in their cells, and the Demon guard were on duty again."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs
+msgid "Not Pony Island"
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:10
+msgid "The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told me to seek out their leader, Thalos. He should be in the northeast of the island."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:20
+msgid "I have met Thalos."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:30
+msgid "He ordered me to slay a foul creature that hides in a cave on the hills of Laeroth Island, because the centaurs can't enter it."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:110
+msgid "In the cave entrance I have met Algangror, who asked for help."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:112
+msgid "In a cave entrance I have met Jhaeld of Remgard, who asked for help."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:120
+msgid "A common friend would be trapped deeper in the cave and I should free him."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:130
+msgid "Down in the cave I have found my brother Andor, locked in a room with no doors or other entrances."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:140
+msgid ""
+"To open an entrance I had to find the four scrolls of elements and the three color globes. These were hidden all over the island.\n"
+"The scrolls and globes would need to be properly placed around Andor's golden prison."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:150
+msgid "The wall opened and gave access to the interior of the room."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:160
+msgid "With an intense sound, the wall built up again. I've been locked up!"
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:170
+#: questlist_laeroth.json:lae_centaurs:180
+msgid "The only way out was down a staircase, which, however, seemed to be magically secured."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:190
+msgid "It was no problem going downstairs, but something was wrong there."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:200
+msgid "The whole thing was just a big scam to lure me into this cave to serve Dorhantarh as dinner."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:210
+msgid "The moment I placed the Scroll of Fire on the table, it exploded. At the same time the wall opened again."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:300
+msgid "I brought the monster's heart to Thalos and told him that the danger has been averted. He was impressed and relieved at the same time."
+msgstr ""
+
+#: questlist_laeroth.json:lae_centaurs:310
+msgid "Since then I have been a welcome guest of the centaurs."
 msgstr ""
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_bloskelt_area
@@ -72208,5 +77180,9 @@ msgstr ""
 
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
+msgstr ""
+
+#: worldmap.xml:world1:laeroth_area
+msgid "Lake Laeroth"
 msgstr ""
 

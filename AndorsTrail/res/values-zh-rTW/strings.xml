@@ -563,7 +563,7 @@
     <string name="loadsave_save_to_new_slot">建立新的遊戲存檔</string>
     <string name="levelup_adds_new_skillpoint">升級帶來一個新的技能點！</string>
     <string name="skill_number_of_increases_several">你可以選擇 %1$d 個技能來升級。</string>
-    <string name="skill_number_of_increases_one">你可以選擇 1 個技能來升級。</string>
+    <string name="skill_number_of_increases_one">你可以選擇一項技能來提升。技能點將保留直至使用。</string>
     <string name="skill_prerequisite_stat">你需要至少 %1$d %2$s（基本屬性），才能升級此技能。</string>
     <string name="skill_prerequisite_level">你需要至少 %1$d 等級，才能升級此技能。</string>
     <string name="skill_prerequisite_other_skill">你需要至少 %1$d 等 %2$s，才能升級此技能。</string>
@@ -646,4 +646,6 @@
     <string name="loadsave_importing_worldmap">世界地圖載入中</string>
     <string name="loadsave_import_worldmap_wrong_file">你是否確定選擇一個世界地圖？請選擇名為「worldmap.zip」的 zip 檔案，之前被輸出至你指定的位置。</string>
     <string name="loadsave_import_worldmap_successfull">世界地圖載入成功</string>
+    <string name="loadsave_import_save_error_unknown">- 廢棄 -</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- 廢棄 -</string>
 </resources>

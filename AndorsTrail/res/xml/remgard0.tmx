@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="34">
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="32" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="17">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,76 +183,76 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="30" height="30">
+ <layer id="1" name="Ground" width="32" height="30">
   <data encoding="base64" compression="zlib">
-   eJzdlkEKgzAQRYUipdlmF+gRuvAuHkHEg3ghwV1XhS6E7nqH3qMRDApmJjOZhGIXD0Qz84IZP06XopgQhgBYrYRfeEPOXH6ON+UeYr2SPXB6X9WeWP+/eKnuHF6KO5cX83NnFvRqAMQ7ahyK96H9+Lyu11PjULx34wfzQjXbWsdN7Znvv8zK6bxeY163pi7hWgnYPLXW2VgqS1fKXVRvTo7qnc+/jjgDqbdZZkDqpWbFQFiP9eHkhc8byheoDycvcnq3OUHJipTebqEizMvb8MG8LXFGod7ze6J4nZv7TXwAegU/S/H9QvSBf46j5mQsX0/gkVI=
+   eAHdlU1KA0EQhRtERLfZCR7BhXfJESTkIF5IcOdKcDHgzjt4j9RbFCke9dczgYCLx3TXz/umJzOV5X6MpaF3qcnU8dhSk7GR2+Jd9VZsm6+81uSt/8x6DcvrmWFGtZ5vJxb5efGnhzFYXNdh2hruz/bMxp7rrXdnzf3ZvsNHf4erNRmPc13+zD0wI9vP8NVHz+ldtaZ7Dfk7eQ88Fb8FuB/Sl8neW8T/Eg9P6PXOjZj6fktvJq3DNeJ/Po7hqcP3+mzM8p/le2Mh/yN81c3ded3ha9/+9tzHHvYeZtfe82ePg7BfRS+io4jzW/Yd/hb/qve/8PF+QNV5OX+p8+P9gNi/2kf87sxR/6w+yqGX+erXnTmd+sgr49sZw2tl2mvEyOIZ384bzKBq5mScKFfxMWsgzB17Vm/9K/c4qw4fs8/jcSxi47lFOY+P9xHx2W/pT3o8vcl/khdHLOPz+dbuwc96+fvT82c9l8xdm38Cf1LCTg==
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="30">
+ <layer id="2" name="Objects" width="32" height="30">
   <data encoding="base64" compression="zlib">
-   eJytl99r1EAQx4PSEnyol2IPFoL/hT9BfFL00QoWfWv7F4pgQUVQQcUT4az0ehfxpVDvrlULhUN9coZkyHcns0nkbmCYzSa7n53Z2dm7KArLu24UvSfdT8q+70n1/SLlkOY7UvO+VQzmTknHpJMF8XnOEekfmG8H2l/WomhGz79JM+DPuwaJ4c04is6Rbi7nXLb8fCPO392KS/68a7BifJj4/opsxP5zaA1t+FaMWT7Q81PQ592cO0uqimvIWuYf5mnmyHdnf7fTwB0m5XzTFj4LV5jaau7fpKoDOG8ziHkdW7gWE9l1XC3IHhtszKkQk+3UNXOP6ZsfrrSYc5avklM898TZFv09u1pVlIsXwrHVvjaNY14dd2DEWmS7E/a1SZB7ZrWqIi/T3J4ul22Li75+Tf02j32yVuXWyScad3/JbyMXY/zC5e+PgYtt5F4ie1nplWItW0u5bpOeUNxvF+3zEA+Mcc/l77WcwJ4Jl2VP1TFd07QMAncpc9chFnsqR9jHB7Ffr3+pb8bFs66toiHultp7vc5nHJcF3LnI/ej8PZgUvFfU/xrOLgrnwyRQX3S/xdU5YuWM5SvnQ7/rM6S+9BK/7gjbqhd1Nca6h/9HMlf62qZeSOzn5R4BF339Rme1v5JbrhWPi1qx2Slj3Kupg02SBbg/U99epb27RnqvM7+vLCF/UbhW3CHm3SJvhLuv/D1IfctxsvpZ0F/rt0DfWEvI39PUt3X94q/8FhCf++CT7KPUf+GOWu7vkBgj59sMznDTf46NwLllGcMaMN8+d8M1RHPfFH1DGL/r/HtAz6W/l/9Quk7tunK85obqlNwDuh49pP7rAX0U27WT7T9aGGkH
+   eAGtV99LVFEQPhhJ9FAqFQTRf1FWID4V9ViBUW/qXxiBgoWQgkobgRWWa/QSmGv2AwQpn/w+9nzsx3Du3du6A+PMmTP3fDNz5s5eU+pP61dS2gB/Hu/5fjdd+73d4Wm7wP2R8XXqGtZOxN8H74E7Yc/9BtF5dhv8z85dNP3j5ZSOsP4L3gErjmHFotpOn0vpPHh2NCXiU3I9BebeXbDiGFYspdrv4t49f9X0CfCdqmL5n/sp1Z4Yb5D/gvFL6MQ/QmyR6a9YeD/s46ak2tN/5yr6EFwi1qMOfzu/KzyP/dG0BsIXdpSKRfjHwIn8KWPTl3VQjzaJQfjMO2JrzXPr8Lnv5DHwHaki7z1hleQ+YuuHfwCfn2BJ9QPfkypi7nrvidEBlySfF/6ZiZQi+/nXL/mqWvfc3av0PPuuDt/v38+iPj8WLd2151726FkdfwT5R5bn8rWudoi5Jb0O39/TL/lZnkCdZ7zA3CU5ftdS/vsOzz0+292TXsL32r/CnfOZA8N3nacJ/wbu4WbgSaxJcziDPA/+g/fxXtYvol6RvPYt4POZSDxDJHyut9CzCxXMGRmp1Bt65+lL/EfWI1uGy33mPANm/4l+B5+9vI4zW3HqOcmIP2f48vG4l4DdMnz5DCod/y3y9zvq5Fxew74CJnnuXLNfOCvizNTscDv9Iwk/9lJcs7dKubNfNlEPj4HYpBbi9znGWJy892UvzRztxdxlbyo5z52Yu2au26OuOzktfsxftRfeV7z3mxdSouTMeZ5nzix6UrVnTQelUv4+937luSN5C3d7G/wQ+KfNnTH3y9/z4sy5D+wHub+E7/8T0P9bjlmSdSvZaSvlX/o+Yj9HEn60H2Z8Se1rLUl7zJ/fBf6NKFzmqHvmvCUJv93w/rfR622wy5g/z409SJsT8dV7bqeuWUtd8VJ/z7yAzXwpfRZx30n4q/Aj6duV+gfY/Pcmnhn99T+izyLGwHNIdfnHeaf1TP698TOZz1PY71TwM9jdX3WgPAHTBGkH
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="30">
+ <layer id="3" name="Above" width="32" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVljEOwjAMRQMS0JUFKQehTByCowJH4ASwBcEAG3CDTiQqEVFQ7V+5ScuTIrdK7B8P/q1Sw+U5U+oVLPeeg8rqbKb1s4tVYt11gZ0ri9+1AnOHhtFKnXV+TY/TznEHQ9RPqf1gaiPaF3vmqr8RgepXgpnT+1y/HDdixu8Ne1QOl+sZEfM7btijcrhchMMib245qeNJoNs29yjQkuT+I1s7WztivryPcrEvQu3l57vZB5xfxF6B+AtSh/OL2CsQf0HqcMRe0VW/HLFXpOw3hVdI/FmCxJ8R2vS1B/wE9Z8u/1kktfxdQ3L71RtR5kL3
+   eAHVVjsOwjAMDUh8VhYkDkKZOARHBY7ACWArggE24AZMxCpPjazUTiFNwFLkJrbfsyP1tcb8j91HxjycRfuU9rR8q2HFSJ72KWw5DmMpbB5fi8DaMIZ8WeXMmKNdOYy4YdRDyl5cbvQAn+I+bs7s4HV9SA8ni3G2C96t156l+bVaKV5OpGgd0+avM/1PF0EjrkKM0KRasGkYPeH97wsxwpdqwa9hIM/nd1PfabuzTzCKQcVxiMDfFmMfgTMGRrtb/q3stdWSjaBL0GfN557Kp53z9zc8Z2+a7nDN0fKbZuE4yNN0h2uOlg9c7jkOjzftuebEnr+JF+dcc1LM34Xm8HvEfKk8v8eueD+ZcyvoG/rk+oZz7rv4h/oGE//QvE/ap9a/F1p3Qvc=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30">
+ <layer id="4" name="Walkable" width="32" height="30">
   <data encoding="base64" compression="zlib">
-   eJztk0sOACEIQz3F3P8K3nBWkxgD2kLRzZCw8cNrQfvTWl/kLlZ3M3mDy0SV709HZX3G7+5cVY8ZfQx3pwPdU8wy4pdho/1gQvm+UYaCi/it/Gc/1+ZmdDC11NzRSyZQjnUnoyPCVQTD9Xxm30l0zqp/wfRdwUTq3OZm5oRw57VTfse1U/NFIvpGrbNzXWtdzV35Qv0jujy/Vu+9Wp6u7OwjvdvlC3/Mzc4=
+   eAHtUkkKw0AMyyv6/y/kh0UHgSLsmbEdeqqheNPiDL0/13Uf/K5NnGhMMBv7o2/o+u+8dd/1qPDgV8FPsfp9WQ2PVXRvWGnqbudPbPUO57H3vPLXXcc/4+gN6qHzqM70OnPqV/zB6XhlHOrxFs/OI97nnZ5e4GbR0a1w4Pv3z17/+V/jW1Xe17Gu4b3ifee9Yk9raDDAmcSJZ6ZPru6r91BjlVX/7Xrly517RnPOKhm6Fbxj9S7fTfrdXerLeuKn3FM94phVY1Kf6ikO9cRTuarrc++J/bW/+rLW2yZ1pMfZKmee4GS7bE6O+gEbzYnZaWX7aE7NKPOOaKczx0U+2Qw65DNzFvXUIQZZg/u3MrTf0voCXnX8cg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
-  <object id="1" name="north" type="mapchange" x="256" y="0" width="256" height="32">
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="north" type="mapchange" x="320" y="0" width="256" height="32">
    <properties>
     <property name="map" value="mountainlake13a"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="2" name="east" type="mapchange" x="928" y="480" width="32" height="128">
+  <object id="2" name="east" type="mapchange" x="992" y="480" width="32" height="128">
    <properties>
     <property name="map" value="remgard1"/>
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="3" name="remgard_farmer1" type="mapchange" x="832" y="416" width="32" height="32">
+  <object id="3" name="remgard_farmer1" type="mapchange" x="896" y="416" width="32" height="32">
    <properties>
     <property name="map" value="remgard_farmer1"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="4" name="remgard_church" type="mapchange" x="704" y="800" width="32" height="32">
+  <object id="4" name="remgard_church" type="mapchange" x="768" y="800" width="32" height="32">
    <properties>
     <property name="map" value="remgard_church"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="5" name="remgard_armour" type="mapchange" x="352" y="448" width="32" height="32">
+  <object id="5" name="remgard_armour" type="mapchange" x="416" y="448" width="32" height="32">
    <properties>
     <property name="map" value="remgard_armour"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="6" name="remgard_weapon" type="mapchange" x="256" y="736" width="32" height="32">
+  <object id="6" name="remgard_weapon" type="mapchange" x="320" y="736" width="32" height="32">
    <properties>
     <property name="map" value="remgard_weapon"/>
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="7" name="south" type="mapchange" x="352" y="928" width="32" height="32">
+  <object id="7" name="south" type="mapchange" x="416" y="928" width="32" height="32">
    <properties>
     <property name="map" value="remgard3"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="8" name="sign_remgard0" type="sign" x="448" y="64" width="32" height="32"/>
-  <object id="9" name="been_to_remgard" type="script" x="256" y="32" width="256" height="32">
+  <object id="8" name="sign_remgard0" type="sign" x="512" y="64" width="32" height="32"/>
+  <object id="9" name="been_to_remgard" type="script" x="320" y="32" width="256" height="32">
    <properties>
     <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="10" name="brv_patrol2_check_stop_hero" type="script" x="480" y="480" width="96" height="96">
+  <object id="10" name="brv_patrol_check_stop_hero" type="script" x="544" y="480" width="96" height="96">
    <properties>
     <property name="when" value="enter"/>
    </properties>
@@ -359,29 +359,29 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
-  <object id="11" name="ingus" type="spawn" x="448" y="480" width="256" height="128">
+ <objectgroup id="6" name="Spawn">
+  <object id="11" name="ingus" type="spawn" x="512" y="480" width="256" height="128">
    <properties>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="ingus"/>
    </properties>
   </object>
-  <object id="12" name="caeda" type="spawn" x="544" y="128" width="224" height="320">
+  <object id="12" name="caeda" type="spawn" x="608" y="128" width="224" height="320">
    <properties>
     <property name="spawngroup" value="caeda"/>
    </properties>
   </object>
-  <object id="13" name="remgard_villager1" type="spawn" x="352" y="608" width="160" height="256">
+  <object id="13" name="remgard_villager1" type="spawn" x="416" y="608" width="160" height="256">
    <properties>
     <property name="spawngroup" value="remgard_villager1"/>
    </properties>
   </object>
-  <object id="14" name="taylin" type="spawn" x="96" y="704" width="32" height="32">
+  <object id="14" name="taylin" type="spawn" x="160" y="704" width="32" height="32">
    <properties>
     <property name="spawngroup" value="taylin"/>
    </properties>
   </object>
-  <object name="knights" type="spawn" x="448" y="416" width="192" height="192">
+  <object id="15" name="knights" type="spawn" x="512" y="416" width="192" height="192">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
@@ -406,10 +406,10 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys" visible="0">
-  <object id="16" name="stop_hero2" type="key" x="448" y="448" width="160" height="160">
+ <objectgroup id="7" name="Keys">
+  <object id="16" name="stop_hero" type="key" x="512" y="448" width="160" height="160">
    <properties>
-    <property name="phrase" value="brv_wait_patrol2"/>
+    <property name="phrase" value="brv_wait_patrol"/>
     <property name="requireId" value="brv_nondisplay"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>

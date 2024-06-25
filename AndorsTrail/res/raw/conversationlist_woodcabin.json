@@ -82,6 +82,17 @@
             {
                 "text":"You're all sweaty and pale, what's wrong?",
                 "nextPhraseID":"smuggler5_2"
+            },
+            {
+                "text":"I just met a talking pig right over there. [You point in the direction of west]",
+                "nextPhraseID":"smuggler5_pig",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":51
+                    }
+                ]
             }
         ]
     },

@@ -46,6 +46,8 @@
         <item>@raw/actorconditions_mt_galmore</item>
         <!--Added by ATCS v0.6.20 for project bwmfill-->
         <item>@raw/actorconditions_bwmfill</item>
+        <!--Added by ATCS v0.6.20 for project laeroth-->
+        <item>@raw/actorconditions_laeroth</item>
     </array>
         
     <array name="loadresource_items">
@@ -111,6 +113,8 @@
         <item>@raw/itemlist_mt_galmore</item>
         <!--Added by ATCS v0.6.20 for project bwmfill-->
         <item>@raw/itemlist_bwmfill</item>
+        <!--Added by ATCS v0.6.20 for project laeroth-->
+        <item>@raw/itemlist_laeroth</item>
     </array>
         
     <array name="loadresource_droplists">
@@ -169,6 +173,8 @@
         <item>@raw/droplists_mt_galmore</item>
         <!--Added by ATCS v0.6.20 for project bwmfill-->
         <item>@raw/droplists_bwmfill</item>
+        <!--Added by ATCS v0.6.20 for project laeroth-->
+        <item>@raw/droplists_laeroth</item>
     </array>
         
     <array name="loadresource_quests">
@@ -223,6 +229,8 @@
         <item>@raw/questlist_mt_galmore</item>
         <!--Added by ATCS v0.6.20 for project bwmfill-->
         <item>@raw/questlist_bwmfill</item>
+        <!--Added by ATCS v0.6.20 for project laeroth-->
+        <item>@raw/questlist_laeroth</item>
     </array>
         
     <array name="loadresource_conversationlists">
@@ -431,6 +439,8 @@
         <item>@raw/conversationlist_omifix2</item>
         <!--Added by ATCS v0.6.20 for project bwmfill-->
         <item>@raw/conversationlist_bwmfill</item>
+        <!--Added by ATCS v0.6.20 for project laeroth-->
+        <item>@raw/conversationlist_laeroth</item>
     </array>
         
     <array name="loadresource_monsters">
@@ -496,6 +506,8 @@
         <item>@raw/monsterlist_mt_galmore</item>
         <!--Added by ATCS v0.6.20 for project bwmfill-->
         <item>@raw/monsterlist_bwmfill</item>
+        <!--Added by ATCS v0.6.20 for project laeroth-->
+        <item>@raw/monsterlist_laeroth</item>
     </array>
         
     <array name="loadresource_maps">
@@ -1430,6 +1442,69 @@
         <item>@xml/bwmfill7</item>
         <item>@xml/bwmfill8</item>
         <item>@xml/bwmfill_tunlon</item>
+        <!--Added by ATCS v0.6.20 for project laeroth-->
+        <item>@xml/final_cave1</item>
+        <item>@xml/final_cave2</item>
+        <item>@xml/final_cave_labyrinth</item>
+        <item>@xml/final_cave_map</item>
+        <item>@xml/island1</item>
+        <item>@xml/island2</item>
+        <item>@xml/island2_cave</item>
+        <item>@xml/island3</item>
+        <item>@xml/island4</item>
+        <item>@xml/island_4_cave1</item>
+        <item>@xml/island_4_cave2</item>
+        <item>@xml/island_underground1</item>
+        <item>@xml/island_underground2</item>
+        <item>@xml/island_underground3</item>
+        <item>@xml/island_underground4</item>
+        <item>@xml/island_underground4a</item>
+        <item>@xml/island_underground4b</item>
+        <item>@xml/island_underground4c</item>
+        <item>@xml/island_underground5</item>
+        <item>@xml/korhald_cave1</item>
+        <item>@xml/korhald_cave2</item>
+        <item>@xml/korhald_cave_bear</item>
+        <item>@xml/korhald_cave_hidden</item>
+        <item>@xml/korhald_cave_outdoor1</item>
+        <item>@xml/laerothbarn0</item>
+        <item>@xml/laerothbarn1</item>
+        <item>@xml/laerothbasement0</item>
+        <item>@xml/laerothbasement1</item>
+        <item>@xml/laerothbasement2</item>
+        <item>@xml/laerothcave0</item>
+        <item>@xml/laerothcave1</item>
+        <item>@xml/laerothcave2</item>
+        <item>@xml/laerothcave3</item>
+        <item>@xml/laerothcave4</item>
+        <item>@xml/laerothisland0</item>
+        <item>@xml/laerothisland1</item>
+        <item>@xml/laerothisland2</item>
+        <item>@xml/laerothisland3</item>
+        <item>@xml/laerothmanor0</item>
+        <item>@xml/laerothmanor1</item>
+        <item>@xml/laerothmanor2</item>
+        <item>@xml/laerothmanor3</item>
+        <item>@xml/laerothprison0</item>
+        <item>@xml/laerothprison1</item>
+        <item>@xml/laerothprison2</item>
+        <item>@xml/laerothprison3</item>
+        <item>@xml/laerothprison4</item>
+        <item>@xml/laerothprison5</item>
+        <item>@xml/laerothprison6</item>
+        <item>@xml/laerothprison7</item>
+        <item>@xml/laerothsmith0</item>
+        <item>@xml/laerothtomb0</item>
+        <item>@xml/laerothtomb1</item>
+        <item>@xml/mountainlake8_cave</item>
+        <item>@xml/remgard2a</item>
+        <item>@xml/remgard_church_basement</item>
+        <item>@xml/secretpassage0</item>
+        <item>@xml/secretpassage1</item>
+        <item>@xml/waterway_forest1</item>
+        <item>@xml/waterway_forest2</item>
+        <item>@xml/waterway_forest2_house</item>
+        <item>@xml/waterway_forest3</item>
     </array>
         
 </resources>

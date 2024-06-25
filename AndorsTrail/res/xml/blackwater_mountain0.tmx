@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="14">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Walkable" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNlNENwCAIRJ2i+6/ghv1q0hjgDjjSmhij4jtAdF9r7R/3p6l5Z4vsrHnEi3ROm/eIfPQ0rDOZ2Fk9lJcKb5rbZUd1VPGzUpuI4a2h8x6zE0+Gp3q/kW6Gx2op/p8uZ4rJsjKayFaZ3ymeyobxi607Zm/qntgYVHX3VRwZfYt5A7kwHuc=
+   eJzNlN0JwCAMhJ3C/Vdwwz4VRPJzZy60gogav0tidM0x1o/729S8s0V21jziRTqnzT5mPnoa1hkmdlTPuhMFL8t3hVtlR3V04+dNbWYMby077zEr8TA81fuNdBkeqqX4f6qcLibKYjQzW2V+u3gqG8QvtO6Qva57QmNQ1d1XcTD6FvMBT8Qfrg==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">

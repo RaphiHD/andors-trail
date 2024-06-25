@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
+  <segment id="laeroth_caves" x="260" y="144">
+    <map id="laerothcave1" x="281" y="219"/>
+    <map id="laerothcave2" x="281" y="198"/>
+    <map id="laerothcave3" x="275" y="177"/>
+    <map id="laerothcave4" x="271" y="171"/>
+    <map id="laerothtomb0" x="268" y="160"/>
+    <map id="laerothtomb1" x="260" y="144"/>
+  </segment>
+  <segment id="island_caves" x="23" y="67">
+    <map id="island_underground1" x="100" y="100"/>
+    <map id="island_underground3" x="45" y="131"/>
+    <map id="island_underground4" x="23" y="100"/>
+    <map id="island_underground2" x="76" y="131"/>
+    <map id="island_underground4a" x="47" y="67"/>
+    <map id="island_underground4b" x="80" y="67"/>
+    <map id="island_underground4c" x="80" y="98"/>
+    <map id="island_underground5" x="59" y="104"/>
+  </segment>
+  <segment id="island_cave_2" x="-20" y="-43">
+    <map id="island_4_cave1" x="11" y="3"/>
+    <map id="island_4_cave2" x="18" y="-1"/>
+    <map id="final_cave_labyrinth" x="-20" y="-16"/>
+    <map id="final_cave1" x="-19" y="-47"/>
+  </segment>
+  <segment id="laeroth_prison" x="50" y="50">
+    <map id="laerothprison2" x="50" y="50"/>
+    <map id="laerothprison3" x="65" y="50"/>
+    <map id="laerothprison4" x="65" y="63"/>
+    <map id="laerothprison5" x="68" y="77"/>
+    <map id="laerothprison6" x="99" y="94"/>
+    <map id="laerothprison7" x="99" y="63"/>
+  </segment>
   <segment id="ratdom_cave" x="-26" y="-12">
     <map id="ratdom_maze1" x="-6" y="-12"/>
     <map id="ratdom_maze2" x="-15" y="-2"/>
@@ -431,7 +463,7 @@
     <map id="mountainlake11" x="701" y="4"/>
     <map id="mountainlake12" x="671" y="8"/>
     <map id="mountainlake13" x="640" y="20"/>
-    <map id="mountainlake13a" x="648" y="50"/>
+    <map id="mountainlake13a" x="640" y="50"/>
     <map id="mountainlake2" x="733" y="128"/>
     <map id="mountainlake3" x="756" y="128"/>
     <map id="mountainlake4" x="761" y="111"/>
@@ -441,7 +473,7 @@
     <map id="mountainlake8" x="779" y="31"/>
     <map id="mountainlake9" x="763" y="0"/>
     <map id="lakecave1" x="695" y="-52"/>
-    <map area="remgard" id="remgard0" x="642" y="76"/>
+    <map area="remgard" id="remgard0" x="640" y="76"/>
     <map area="remgard" id="remgard1" x="673" y="83"/>
     <map area="remgard" id="remgard2" x="673" y="114"/>
     <map area="remgard" id="remgard3" x="652" y="107"/>
@@ -729,6 +761,20 @@
     <map id="bwmfill7" x="145" y="407"/>
     <map id="bwmfill8" x="145" y="428"/>
     <map id="bwmfill3" x="107" y="355"/>
+    <map id="laerothcave0" x="787" y="125"/>
+    <map id="laerothisland0" x="743" y="52"/>
+    <map id="laerothisland1" x="743" y="73"/>
+    <map area="laeroth_area" id="laerothisland2" x="710" y="68"/>
+    <map id="laerothisland3" x="710" y="99"/>
+    <map id="island3" x="555" y="102"/>
+    <map id="island2" x="555" y="71"/>
+    <map id="island1" x="524" y="71"/>
+    <map id="island4" x="524" y="102"/>
+    <map id="korhald_cave_outdoor1" x="550" y="278"/>
+    <map id="remgard2a" x="702" y="114"/>
+    <map id="waterway_forest1" x="581" y="259"/>
+    <map id="waterway_forest2" x="581" y="278"/>
+    <map id="waterway_forest3" x="612" y="255"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
@@ -744,5 +790,6 @@
     <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
     <namedarea id="sullengard" name="Sullengard" type="settlement"/>
     <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
+    <namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
   </segment>
 </worldmap>

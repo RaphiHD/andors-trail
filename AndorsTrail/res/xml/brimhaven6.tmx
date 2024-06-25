@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="16" height="32" tilewidth="32" tileheight="32" infinite="0" nextobjectid="5">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="16" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="5">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,32 +183,32 @@
  <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="16" height="32">
+ <layer id="1" name="Ground" width="16" height="32">
   <data encoding="base64" compression="zlib">
    eJyVlU2uwjAMhFF3XbPrSTgCh8wVSluUfVpu0HKFnIIVjbCFGdluQBqhp5dv7PiHTO3pNO2am19Nbb2W/fwGSpUe437uuSuD1kqPwr9aXcWjP/BIdN/ymRWvwg+Ox0r3je3nG/Mp/reDHDLxmfLV7uDlIMVnMYd/+MXIoYYfqJ+Sj5V14NjR6aXnocWWOTCveXDdtNhR4YsC+QT6W+OjUAAexbwl7qPFB+Axj5XmU+N477X7ezz3jPfe2kXuYQKe9//pxNY8ZooteXnufrbFHoPgMfbjbGttvrUYG73el85WDX/tbMle9AZ/pHJ+FLX8l38Rz79/Pc0Rq4bnWc7CZzP80DPR3MlZwvcD3yQ5I/x/bx/xTUI+U+08D9xv+a4EJUdPGD8pOXrS7v8GXdGYqQ==
   </data>
  </layer>
- <layer name="Objects" width="16" height="32">
+ <layer id="2" name="Objects" width="16" height="32">
   <data encoding="base64" compression="zlib">
    eJydVbFOwzAQtbJEHUOlWoH+APAHrKhDF/4BKrETNqAfwDeUfgHZ2Gg3FoqyIBZEEUu3woxYkPApOfl8vjgNTzoltXzv3jufU6WUuo6UhylZ++4p9cNiaeKu4+eOIp9jkZTPYepzNmEqaPtN3N+52fOp3Zhpl+OD5VDcRPaJ9daMA/BYcRylKoh3kzfoKjUn+Q+CV9C0Iv7w/UmXHJB/xvxz76hl0XP7W2jfA9cAfjD/lfEWVZ7kYVjjf0K00nzq8YVoAC/IRXsK54n50jnQmcBzpbXvzf4vE53IarhlfaQc1DvWPujKHjkmwnwW2l+T6kqQ5uS/OhDzgJ5QHoDO8ahhL0Dyvq7uJELyiHMu5WPdVeAMAXjubQH8dObeWnLkTDv066RfRhortW1iJ7ZrHNDj08TNz/pl7Jq8PRP7sV2Dfcc1c5dFtt91MdNyL/G70wR+JzNBy1L7QblxprgOOmMXpieXJq5MjJNS32HNDCLP+QYzynUPyF0vtly+NLKzmbfgRuB3ZBz4/0Fscr8kZAHvdE6o/ufq/Q/WE4L1
   </data>
  </layer>
- <layer name="Above" width="16" height="32">
+ <layer id="3" name="Above" width="16" height="32">
   <data encoding="base64" compression="zlib">
-   eJxjYCAeWErilrssRoJBWPReokD/YSx6HzPhVo/NH3OwqEc2g5D/atnxq52Lwz12ULf0suMPX1zm2uHQA1OLLRwI2QMC2MIUmx9gZiG7A1984goHQnYTC6idlmYzQdIGMe5G1g/TdwAJEwOQ9R0E4idQfInItLgOSd8aJD1TBDHdiA0chOpDVk+MfpibYHYuQdOPzEcPS5BekJnodhILDqPpf8iOX/0jNPnD0DQDcyMjB379TGjyIP1hJLgdPfywhedzAdw0evrGpv+7AH6a1oBQfplNRH6Yw4SKu5H0dBKZn6gNKCmbQGC37MDaj552ALnUTH0=
+   eJxjYCAeWErilrssRoJBWPReokD/YSx6HzPhVm+HxR9zsKhHNoOQ/2rZ8audi8M9MLf0suMPX1zmYvMLslps4UDIHhDAFqbY/AAzC9kd+OITVzgQsptYQO20NJsJkjaIcTeyfpi+A0iYGICs7yAQP4HiS0SmxXVI+tYg6ZkiiOlGbOAgVB+yemL0w9wEs3MJmn5kPnpYgvSCzES3k1hwGE3/Q3b86h+hyR+GphmYGxk58OtnQpMH6Q8jwe3o4YctPJ8L4KbR0zc2/d8F8NO0BoTyy2wi8sMcJlTcjaSnk8j8RG1ASdkEArtlB9Z+9LQDAN0QTII=
   </data>
  </layer>
- <layer name="Top" width="16" height="32">
+ <layer id="4" name="Top" width="16" height="32">
   <data encoding="base64" compression="zlib">
    eJxjYBgFgw3MZRpoF4wCGJhNZlxQS99jMfLMAelbQ6YbyLUTBMi1EwQOU2AvCFyiUP9QBYOhvNhPoRsu0skPs2Up07+aQv2rKNRPbQAAlfAM+Q==
   </data>
  </layer>
- <layer name="Walkable" width="16" height="32">
+ <layer id="5" name="Walkable" width="16" height="32" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEYYHRAjn50syjVT4oZ6GrJ9Qe19ZNrBjX1kxMX1NZPrBn4wEjST04aIARonebQ3U+v9ErI/aT6HTn88dGkhj+pfqRUPzXjZ1Q/dv0AGDQoOw==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="north" type="mapchange" x="64" y="192" width="32" height="32">
    <properties>
     <property name="map" value="waterway12"/>
@@ -222,12 +222,12 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup id="7" name="Spawn">
   <object id="4" name="brv_temple_entrance_guard" type="spawn" x="288" y="736" width="32" height="32">
    <properties>
     <property name="spawngroup" value="brv_temple_entrance_guard"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup id="8" name="Keys" visible="0"/>
 </map>

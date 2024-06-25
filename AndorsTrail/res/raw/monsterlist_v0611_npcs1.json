@@ -26,17 +26,40 @@
         "id":"gylew",
         "name":"Gylew",
         "iconID":"monsters_mage2:0",
+        "maxHP":180,
+        "moveCost":5,
+        "unique":1,
         "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":10,
+            "max":22
+        },
         "spawnGroup":"gylew",
-        "phraseID":"gylew"
+        "phraseID":"gylew",
+        "droplistID":"gylew_dl",
+        "attackCost":5,
+        "attackChance":60,
+        "criticalSkill":20,
+        "criticalMultiplier":2.0,
+        "blockChance":40
     },
     {
         "id":"gylew_henchman",
         "name":"Gylew's henchman",
         "iconID":"monsters_men:8",
+        "maxHP":200,
+        "moveCost":5,
         "monsterClass":"humanoid",
+        "attackDamage":{
+            "min":11,
+            "max":22
+        },
         "spawnGroup":"gylew_henchman",
-        "phraseID":"gylew_henchman"
+        "phraseID":"gylew_henchman",
+        "droplistID":"gold100",
+        "attackCost":3,
+        "attackChance":70,
+        "blockChance":60
     },
     {
         "id":"toszylae",
