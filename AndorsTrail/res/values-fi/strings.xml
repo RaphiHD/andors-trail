@@ -35,4 +35,12 @@
     <string name="dialog_more">Lisää</string>
     <string name="dialog_close">Sulje</string>
     <string name="menu_save_failed">Pelin tallentaminen epäonnistui! Onko SD-kortti asennettu ja kirjoitettavissa\?</string>
+    <string name="skill_longdescription_evasion">Jokaisella taitotasolla vähentää sekä epäonnistuneiden pakoyritysten mahdollisuutta %1$d %% että mahdollisuutta, että viereinen hirviö hyökkää %2$d %%.</string>
+    <string name="skill_longdescription_coinfinder">Parantaa todennäköisyyttä löytää kultaa hirviöpudotuksista %1$d %%, ja lisää kullan määrää %2$d %% kullakin taitotasolla (maksimimäärään, jonka hirviö pudottaa).</string>
+    <string name="skill_longdescription_more_criticals">Parantaa tämän varusteen antamaa olemassa olevaa kriittistä taitoa %1$d %% jokaisella taitotasolla.</string>
+    <string name="skill_longdescription_crit1">Jokaista kriittistä osumaa kohden on %1$d %% mahdollisuus, että osuma aiheuttaa sisäisen verenvuodon kohteessa, mikä tehokkaasti aiheuttaa \"sisäisen verenvuodon\" kohteella. Sisäinen verenvuoto heikentää huomattavasti hyökkääviä taistelukykyjä, mikä heikentää kohteen kykyä laskeutua onnistuneisiin hyökkäyksiin.</string>
+    <string name="skill_longdescription_more_exp">Kasvata kokemusten määrää päihittämällä hirviöitä %1$d %% jokaisella taitotasolla.</string>
+    <string name="skill_longdescription_better_criticals">Parantaa tämän varusteen antamaa olemassa olevaa kriittistä kerrointa %1$d %% jokaisella taitotasolla.</string>
+    <string name="skill_longdescription_lower_exploss">Jokaisella taitotasolla, vähentää kuoleman aiheuttaman menetettyjen kokemusten määrää %1$d %% (prosenttiosuus olemassa olevan kokemuksen menetysarvosta, ei prosenttiyksikköä). %2$d tasoa poistaa kaiken kuoleman aiheuttaman kokemuksen menetyksen.</string>
+    <string name="skill_longdescription_magicfinder">Parantaa mahdollisuutta löytää epätavallisia kohteita %1$d %% jokaisella taitotasolla.</string>
 </resources>
