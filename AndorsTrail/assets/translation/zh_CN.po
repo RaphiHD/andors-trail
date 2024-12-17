@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-16 19:02+0000\n"
+"PO-Revision-Date: 2024-12-17 16:19+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.9\n"
+"X-Generator: Weblate 5.9.2-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -18303,19 +18303,21 @@ msgid ""
 "West: Loneford\n"
 "East: Lake Laeroth\n"
 "Southeast: Brightport"
-msgstr "[OUTDATED]"
+msgstr ""
 "南：布林海文\n"
 "西：隆福德\n"
-"东：布林海文，莱洛斯湖"
+"东：莱洛斯湖\n"
+"东南：布莱特口岸"
 
 #: conversationlist_signs_v0611.json:sign_waterway9
 msgid ""
 "West: Loneford\n"
 "East: Lake Laeroth\n"
 "South: Brightport"
-msgstr "[OUTDATED]"
+msgstr ""
 "西：隆福德\n"
-"东：布莱特口岸，莱洛斯湖"
+"东：莱洛斯湖\n"
+"南：布莱特口岸"
 
 #: conversationlist_signs_v0611.json:sign_waterway11
 msgid ""
@@ -30131,7 +30133,7 @@ msgstr "你看起来又很高兴。"
 
 #: conversationlist_stoutford_combined.json:odirath_0:5
 msgid "Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you."
-msgstr "你真的订购了如此丑陋的瓷制人像吗？哎呀，对不起，我不是有意冒犯你的"
+msgstr "这么丑的瓷制人像真是你订购的？哦，抱歉，我不是有意冒犯你的。"
 
 #: conversationlist_stoutford_combined.json:odirath_1
 msgid "I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know more."
@@ -57587,11 +57589,11 @@ msgstr "我最希望看到你因罪行受到惩罚."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:0
 msgid "Come and get it!"
-msgstr ""
+msgstr "快来拿！"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:3
 msgid "What are you waiting for? Go take the fake key to Troublemaker."
-msgstr "[OUTDATED]快来拿！"
+msgstr "你还在等啥？快去把钥匙带给麻烦精。"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10
 #: conversationlist_mt_galmore.json:aidem_base_dont_help_defy_10
@@ -69785,7 +69787,7 @@ msgstr "毒牙短剑"
 
 #: itemlist_omi2.json:venomfang_dagger:description
 msgid "Fast and accurate, delivering a venomous bite to those that dare to confront it."
-msgstr "[OUTDATED]快速而准确，就像蛇的獠牙。"
+msgstr "这把匕首又快又准，任何胆敢与其刃相对者都要挨上这剧毒一咬。"
 
 #: itemlist_omi2.json:bwm_olm_boots1
 msgid "Amphibian boots"
@@ -71420,7 +71422,7 @@ msgstr "伊洛戈图"
 
 #: monsterlist_crossglen_animals.json:reindeer
 msgid "Reindeer"
-msgstr ""
+msgstr "驯鹿"
 
 #: monsterlist_crossglen_npcs.json:mikhail
 #: monsterlist_stoutford_combined.json:stn_colonel_mons3
@@ -74979,7 +74981,7 @@ msgstr "戈尔瓦特"
 
 #: monsterlist_gorwath.json:arensia
 msgid "Arensia"
-msgstr "阿伦西亚"
+msgstr "艾伦希雅"
 
 #: monsterlist_omi2.json:mountain_wolf_2
 msgid "Trained mountain wolf"
@@ -82203,7 +82205,8 @@ msgstr "它们接受了那些蜂蜜酒，但还是声称想要一些别的东西
 
 #: questlist_lytwings.json:fallhaven_lytwings:40
 msgid "I have to find twelve wild flowers for the lytwings. I wonder where I could find those. Perhaps Arensia will know."
-msgstr ""
+msgstr "我需要为那群森灵收集十二朵野花，而其可以在哪里找到我并不太清楚，或许艾伦希雅"
+"会知道可以采到它们的地方。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:41
 msgid "They accepted the flowers, and as expected, said they want something else! How many more times will they make me run around?"
@@ -82352,4 +82355,3 @@ msgstr "莱洛斯湖"
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr "维克斯罗村"
-
