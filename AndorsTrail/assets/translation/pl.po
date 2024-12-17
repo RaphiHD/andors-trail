@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-17 18:58+0000\n"
-"Last-Translator: Mateusz Mendel <mendelm9@gmail.com>\n"
+"PO-Revision-Date: 2024-12-17 19:47+0000\n"
+"Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
 "Language: pl\n"
@@ -50954,8 +50954,8 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_inn_traveler_110
 msgid "Well, if you want to know the location of those items, then you will pay me."
 msgstr ""
-"Dobrze, jeśli chcesz poznać miejsce, w którym znajdują się te przedmioty, to "
-"będziesz musiał mi zapłacić."
+"Cóż, musisz mi zapłacić jeśli chcesz się dowiedzieć gdzie schowałem te "
+"przedmioty."
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_110:0
 msgid "How much?!"
@@ -50964,14 +50964,16 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_inn_traveler_120
 msgid "10000 gold! And not a piece less or no stolen property for you."
 msgstr ""
+"Dziesięć tysięcy sztuk złota i ani odrobinki mniej! Albo płacisz albo szukaj "
+"dalej sam."
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_120:0
 msgid "No way."
-msgstr ""
+msgstr "Nie zapłacę."
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_120:1
 msgid "Whatever. I can spare it."
-msgstr ""
+msgstr "Trudno. Jakoś to przeżyję."
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_130
 msgid ""
