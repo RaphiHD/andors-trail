@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-18 20:27+0000\n"
+"PO-Revision-Date: 2024-12-18 20:53+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -18299,19 +18299,21 @@ msgid ""
 "West: Loneford\n"
 "East: Lake Laeroth\n"
 "Southeast: Brightport"
-msgstr "[OUTDATED]"
+msgstr ""
 "Południe: Brimhaven\n"
 "Zachód: Loneford\n"
-"Wschód: Brightport, Jezioro Laeroth"
+"Wschód: Jezioro Laeroth\n"
+"Południowy wschód: Brightport"
 
 #: conversationlist_signs_v0611.json:sign_waterway9
 msgid ""
 "West: Loneford\n"
 "East: Lake Laeroth\n"
 "South: Brightport"
-msgstr "[OUTDATED]"
+msgstr ""
 "Zachód: Loneford\n"
-"Wschód: Brightport, Jezioro Laeroth"
+"Wschód: Jezioro Laeroth\n"
+"Południe: Brightport"
 
 #: conversationlist_signs_v0611.json:sign_waterway11
 msgid ""
@@ -30127,7 +30129,9 @@ msgstr "Znów wyglądasz na szczęśliwego."
 
 #: conversationlist_stoutford_combined.json:odirath_0:5
 msgid "Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you."
-msgstr "Czy naprawdę zamówiłeś tak brzydką figurkę z porcelany? Ups, przepraszam, nie chciałem Cię obrazić"
+msgstr ""
+"Czy naprawdę zamówiłeś tak brzydką figurkę z porcelany? Ups, przepraszam, "
+"nie chciałem Cię obrazić."
 
 #: conversationlist_stoutford_combined.json:odirath_1
 msgid "I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know more."
@@ -51003,7 +51007,7 @@ msgstr "W czym mogę służyć?"
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_sell_0:0
 msgid "Can I see your wares?"
-msgstr ""
+msgstr "Czy mogę obejrzeć rzeczy które masz wystawione na sprzedaż?"
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_sell_10
 msgid "Absolutetly."
@@ -51011,7 +51015,7 @@ msgstr "Zdecydowanie tak."
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_85
 msgid "Have you found my stuff yet?"
-msgstr "Czy znalazłeś już moje rzeczy?"
+msgstr "Czy odnalazłeś już moje rzeczy?"
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_85:0
 msgid "Nope. Sorry, I am still looking."
