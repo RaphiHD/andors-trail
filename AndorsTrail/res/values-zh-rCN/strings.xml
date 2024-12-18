@@ -550,7 +550,7 @@
     <string name="skill_title_evasion">脚底抹油</string>
     <string name="about_interface"><![CDATA[
 
-<div><b>游戏设置</b>可通过按下设备上的菜单按钮找到。</div>
+<div>按下运行设备上的菜单按钮即可找到并进入<b>游戏设置</b>界面。</div>
 
 <p>________________</p>
 <h1>界面图标</h1>
@@ -559,8 +559,8 @@
 <p>快捷栏 [长按快捷栏槽可分配快捷栏物品]</p>
 
 <div><b>英雄</b><img alt="hero" src="char_hero.png" /></div>
-<p>菜单 [总览，任务，技能，&amp; 背包 *]</p>
-<p>* (在背包界面，点击物品可以看到其对应信息&amp; 长按会显示更多操作选项)</p>
+<p>菜单 [总览，任务，技能，背包 *]</p>
+<p>* (在背包界面，点击物品可以看到其对应信息，而长按会显示更多操作选项)</p>
 
 <div><b>敌人</b><img alt="monster" src="monster.png" /></div>
 <p>对应信息 [在战斗中显示]</p>
@@ -574,7 +574,7 @@
 
 <div><b>攻击</b> - [3AP] *</div>
 <img alt="attacking" src="doubleattackexample.png" />
-<p>* (装备的选择&amp;或者物品的使用可能会改变AP上限&amp;以及操作所需的AP)</p>
+<p>* (装备的选择或者物品的使用可能会改变AP上限以及操作所需的AP)</p>
 
 <div><b>使用物品</b> - [5AP]</div>
 <div><b>逃跑</b> - [6AP]</div>
