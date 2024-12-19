@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-19 06:58+0000\n"
+"PO-Revision-Date: 2024-12-19 12:35+0000\n"
 "Last-Translator: aircqsj <11285819@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -18907,7 +18907,7 @@ msgstr "在墙上，你看到一块牌匾，上面写着：把我无法忍受的
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3_10
 #: conversationlist_v0612graves.json:
 msgid "You place the ladder below the tiny window."
-msgstr ""
+msgstr "你把梯子放在小窗户下面。"
 
 #: conversationlist_agthor.json:agthor0
 msgid "Hello there. Please move along. These things are property of Feygard, and you have no business here."
@@ -27962,7 +27962,7 @@ msgstr "是的，已经有几个人迷路了，再也没有出现过。没有办
 
 #: conversationlist_guynmart2_npc.json:guynmart_roadguard_20:0
 msgid "But ... which fog?"
-msgstr ""
+msgstr "但是......什么是徒劳的?"
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_14
 msgid "Welcome! Nice to see you again."
@@ -44227,11 +44227,11 @@ msgstr "在这里，我为你准备了10块好肉。不过，我不能保证这�
 
 #: conversationlist_gison.json:gael_20_6:2
 msgid "Here, I have 10 nice pieces of lamb meat for you. Maybe not as good as snake though."
-msgstr ""
+msgstr "给你，我有10块美味的羊肉。也许比不了蛇肉。"
 
 #: conversationlist_gison.json:gael_20_6:3
 msgid "Here, I have 8 nice pieces of snake meat for you."
-msgstr ""
+msgstr "给你，我有8块美味的蛇肉。"
 
 #: conversationlist_gison.json:gael_20_7
 msgid "Excellent! In return, I can give you this nice little purse, made of the finest snake leather. Look here, isn't it beautiful?"
@@ -59591,7 +59591,7 @@ msgstr "你真傻，这么珍贵的东西就如此白白地送我了。"
 
 #: conversationlist_laeroth.json:gylew7a_3:0
 msgid "Well, what can I say? You caught me me wanting to be charitable."
-msgstr ""
+msgstr "好吧，我能说什么呢？"
 
 #: conversationlist_laeroth.json:gylew7a_3:1
 msgid "Well, I just gave it to you because I was hoping for something special in return."
@@ -59936,11 +59936,12 @@ msgstr "嘿，我现在要跟着地图出发了。"
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:10
 msgid "I hope that these coins will enable you to make peace with your father. Take care."
-msgstr ""
+msgstr "我希望这些硬币能让你和你父亲和好。保重。"
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:11
 msgid "[Lie] I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them."
-msgstr ""
+msgstr "[撒谎]"
+"我从一个凭运气的游戏里赢来了这些铜币与硬币，我想知道你是否对它们有兴趣。"
 
 #: conversationlist_laeroth.json:forenza_brimhaven_10
 msgid "With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest."
@@ -63294,19 +63295,19 @@ msgstr "当你走近这些板条箱时，你很容易就意识到它们放在有
 
 #: conversationlist_feygard_1.json:sign_feygard_wexlow
 msgid "North: Feygard"
-msgstr ""
+msgstr "北：费加德"
 
 #: conversationlist_feygard_1.json:guynmart_fog
 msgid "You can't get through this dense fog here."
-msgstr ""
+msgstr "你无法穿过这里的浓雾。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster_startquest_10
 msgid "This fog seems to be very unnatural."
-msgstr ""
+msgstr "这雾看起来很不自然。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster_startquest_20
 msgid "Let's look for the source of it. Maybe we can find out how to lift the fog."
-msgstr ""
+msgstr "让我们寻找它的根源。也许我们可以找出如何驱散雾。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster1_heart_10
 #: conversationlist_feygard_1.json:feygard_fogmonster2_heart_10
@@ -63314,54 +63315,54 @@ msgstr ""
 #: conversationlist_feygard_1.json:feygard_fogmonster4_heart_10
 #: conversationlist_feygard_1.json:feygard_fogmonster5_heart_10
 msgid "The fog vanishes completely as soon as you touch its heart."
-msgstr ""
+msgstr "你一碰到雾的心，雾就完全消失了。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_1
 #: conversationlist_feygard_1.json:feygard_fogmonster9_5
 #: conversationlist_feygard_1.json:feygard_fogmonster9_10
 msgid "Me and my brothers watch over the ruler of the swamp."
-msgstr ""
+msgstr "我和我的兄弟们看着沼泽的统治者。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_1:0
 msgid "Not for long, some of your brothers have all left the area already. Attack!"
-msgstr ""
+msgstr "不会太久的，你的一些兄弟已经离开这个地区了。进攻！"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_1:1
 msgid "So I'm going to talk to your remaining brothers."
-msgstr ""
+msgstr "所以我要和你剩下的兄弟谈谈。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_5:0
 msgid "Your brothers have all left the area already. Now to you ..."
-msgstr ""
+msgstr "你的兄弟们都已经离开这个地区了。现在轮到你了..."
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_5:1
 #: conversationlist_feygard_1.json:feygard_fogmonster9_10:1
 msgid "So I'm going to talk to your brothers."
-msgstr ""
+msgstr "所以我要和你的兄弟们谈谈。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_10:0
 msgid "Not for long. Attack!"
-msgstr ""
+msgstr "不会太久的。进攻！"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_20
 msgid "You can't defeat me as long as my brothers stand their ground."
-msgstr ""
+msgstr "只要我的兄弟们坚守阵地，你就无法打败我。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_20:0
 msgid "Well, in that case stay here. I'll be back in a minute."
-msgstr ""
+msgstr "好吧，既然如此，就呆在这儿吧。我马上就回来。"
 
 #: conversationlist_feygard_1.json:feygard_offering
 msgid "\"Pay homage to Elythara, radiant queen of the world!\""
-msgstr ""
+msgstr "\"向光芒四射的世界女王埃利萨拉致敬！\""
 
 #: conversationlist_feygard_1.json:feygard_offering:0
 msgid "Homage - and above all gold ..."
-msgstr ""
+msgstr "致敬，尤其是黄金……"
 
 #: conversationlist_feygard_1.json:feygard_offering_20
 msgid "Below the statue you see an offering bowl."
-msgstr ""
+msgstr "在雕像下方，你可以看到一个供奉碗。"
 
 #: conversationlist_feygard_1.json:feygard_offering_20:0
 msgid "Place 1 gold coin in the bowl."
