@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-19 19:23+0000\n"
-"Last-Translator: Mateusz Mendel <mendelm9@gmail.com>\n"
+"PO-Revision-Date: 2024-12-20 08:28+0000\n"
+"Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
 "Language: pl\n"
@@ -51066,11 +51066,13 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_0:1
 msgid "Nah, maybe some other time."
-msgstr "Nie, może innym razem."
+msgstr "E tam, może innym razem."
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_10
 msgid "Upon examination, it looks like some kind of sack has been stuffed down inside. Reach in and grab it out?"
-msgstr "Po dokładnych oględzinach wygląda na to, że coś jakby worek został tam wepchnięty. Dosięgnąć go i wyciągnąć?"
+msgstr ""
+"Po dokładnych oględzinach wygląda na to, że coś na kształt worka zostało tam "
+"wepchnięte. Dosięgnąć go i wyciągnąć?"
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_10:0
 msgid "Oh yeah! I've come this far already. There's no reason to stop."
@@ -51098,7 +51100,9 @@ msgstr "Oh, jesteś największym słodziakiem w całym Dhayavar."
 
 #: conversationlist_sullengard.json:sullengard_mariora_10:0
 msgid "[Now blushing, you are nervous and desperate for this feeling to go away.] Well, I try to be when in the presence of elegance."
-msgstr "[Pokrywasz się rumieńcem i rozpaczliwie starasz się aby zniknął.] Cóż, będę starał się zachować namiastki elegancki."
+msgstr ""
+"[Pokrywasz się rumieńcem i rozpaczliwie starasz się aby zniknął.] Cóż, będę "
+"starał się zachować namiastki elegancji."
 
 #: conversationlist_sullengard.json:sullengard_mariora_20
 msgid "What can I do for you, cutie."
@@ -51130,11 +51134,13 @@ msgstr "Grazia, proszę poczekaj tu chwilkę. Sprawdzę ten most zanim przez nie
 
 #: conversationlist_sullengard.json:sullengard_gs_1
 msgid "Diramisk was right, the drink didn't kill him...it was the fall."
-msgstr "Diramisk miał rację, to nie napój go zabił... to był upadek."
+msgstr "Diramisk miał rację, to nie alkohol go zabił... lecz upadek."
 
 #: conversationlist_sullengard.json:sullengard_gs_2
 msgid "[This gravestone has been heavily scratched. It appears someone really wanted to obscure the inscription.]"
-msgstr "[Ten nagrobek został mocno podrapany. Wygląda jakby ktoś bardzo chciał zatrzeć napis.]"
+msgstr ""
+"[Ten nagrobek jest mocno podrapany. Wygląda na to, że ktoś bardzo chciał "
+"zatrzeć napis.]"
 
 #: conversationlist_sullengard.json:sullengard_gs_3
 msgid ""
@@ -51366,7 +51372,9 @@ msgstr "Cóż, w takim razie cierpliwie sobie poczekam aż będziesz na to gotow
 
 #: conversationlist_sullengard.json:crossglen_valentina_10
 msgid "Do you really need to ask me that? Please leave my house and come back when I have calmed down."
-msgstr "Czy naprawdę musisz mnie o to teraz pytać? Proszę opuść teraz ten dom i wróć kiedy tylko się uspokoję."
+msgstr ""
+"Czy naprawdę musisz mnie o to teraz pytać? Proszę opuść teraz mój dom i wróć "
+"kiedy tylko się uspokoję."
 
 #: conversationlist_sullengard.json:crossglen_valentina_10:0
 msgid "OK mother."
@@ -51663,7 +51671,7 @@ msgstr "To przykre, ale przynajmniej coś wiesz. Powiedz mi."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull:0
 msgid "It is the Theives guild."
-msgstr "To jest Gildia Złodziei."
+msgstr "Za wszystkim stoi Gildia Złodziei."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves
 msgid "That is disappointing, but at least you know something. Please tell me."
@@ -51694,11 +51702,13 @@ msgstr "Hej, czego ode mnie chcesz? Utknąłem tutaj opiekując się bandą wiec
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_60
 msgid "Anyways, I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation."
 msgstr ""
+"Tak czy inaczej, chcę, abyś wiedział, że jak tylko zaraportuję to do "
+"Feygard, to położymy kres całemu procederowi nielegalnego warzenia piwa."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_60:0
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_20:0
 msgid "Glory to Feygard."
-msgstr ""
+msgstr "Ku chwale Feygard."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_10
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_33
@@ -51712,11 +51722,11 @@ msgstr "Na pewno. Usłyszałem to bezpośrednio od nich."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_20:0
 msgid "Thanks and Shadow be with you."
-msgstr ""
+msgstr "Dziękuję i niech Cień będzie z Tobą."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_20:1
 msgid "Thanks and glory to Feygard."
-msgstr ""
+msgstr "Dziękuję. Wszystko ku chwale Feygard."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_30
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_20
