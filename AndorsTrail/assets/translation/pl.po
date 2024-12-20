@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-20 08:28+0000\n"
+"PO-Revision-Date: 2024-12-21 12:00+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.9.2-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -51683,7 +51683,8 @@ msgstr "Browarnikami są rodziny mieszkające w Sullengard."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_30
 msgid "Sullengard?! Of course it would be coming from Sullengard."
-msgstr "Sullengard?! Przecież to oczywiste że będzie pochodziło z Sullengardu."
+msgstr ""
+"Sullengard?! Przecież to było oczywiste że piwo pochodziło z Sullengardu."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_40
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_20
@@ -51732,10 +51733,14 @@ msgstr "Dziękuję. Wszystko ku chwale Feygard."
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_20
 msgid "I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation."
 msgstr ""
+"Chcę, abyś wiedział, że jak tylko zaraportuję to do Feygard, to położymy "
+"kres całemu procederowi nielegalnego warzenia piwa."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_10
 msgid "Sullengard?! Of course it would be coming from Sullengard. I should have known it is coming from them."
 msgstr ""
+"Sullengard?! Przecież to było oczywiste że to piwo pochodziło z Sullengardu. "
+"Powinienem się był sam tego domyślić."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_11:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_54c
@@ -51750,6 +51755,8 @@ msgstr "CO?! Mów mi co wiesz, natychmiast!"
 #: conversationlist_sullengard.json:ff_captain_beer_tell:0
 msgid "That's the thing, I don't 'know' anything that I could prove."
 msgstr ""
+"W tym problem, że nie jestem w stanie udowodnić wszystkiego czego się "
+"dowiedziałem."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_10
 msgid "I knew that you would be a waste of my time. I'll reward you with nothing."
