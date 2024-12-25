@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-21 12:00+0000\n"
+"PO-Revision-Date: 2024-12-26 06:00+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -32624,7 +32624,9 @@ msgstr "Muszę ... (patrzysz na Ambelie) znaleźć dla niej lepsze miejsce."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:4
 msgid "[Lie] I just recovered 10000 gold from my latest mission and was told to give it to The Guild."
-msgstr "[Kłamstwo] Właśnie odzyskałem 10000 złota z mojej ostatniej misji i powiedziano mi żebym dał je gildii."
+msgstr ""
+"[Kłamstwo] Właśnie odzyskałem 10000 złotych monet z mojej ostatniej misji i "
+"powiedziano mi, abym przekazał je Gildii."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:5
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:7
@@ -51764,71 +51766,79 @@ msgstr "Wiedziałem, że tylko stracę przez Ciebie swój cenny czas. Zapomnij o
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_10:0
 msgid "I should get going. Sorry that I could not be more helpful."
-msgstr ""
+msgstr "Muszę już iść. Przepraszam że nie mogłem bardziej pomóc."
 
 #: conversationlist_sullengard.json:torilo_beer
 msgid "OK, and this is your business why?"
-msgstr ""
+msgstr "No dobrze, a jaki masz w tym interes?"
 
 #: conversationlist_sullengard.json:torilo_beer:0
 msgid "Well, of course it is not my business, but I am just wondering..."
-msgstr ""
+msgstr "Cóż, to oczywiście nie jest moja sprawa ale jestem po prostu ciekaw..."
 
 #: conversationlist_sullengard.json:torilo_beer_10
 msgid "Wondering what?"
-msgstr ""
+msgstr "Ciekaw czego?"
 
 #: conversationlist_sullengard.json:torilo_beer_10:0
 msgid "Why you have so much beer for such a small-sized tavern and where you got it? I would like some to bring home to father."
 msgstr ""
+"Dlaczego masz tak dużo piwa w tak małej karczmie i skąd je masz? Chciałbym "
+"wziąć go trochę do domu, dla ojca."
 
 #: conversationlist_sullengard.json:torilo_beer_10:1
 msgid "Why you're such a jerk?"
-msgstr ""
+msgstr "Czy musisz być aż takim bucem?"
 
 #: conversationlist_sullengard.json:torilo_beer_jerk
 msgid "Well, it's because of little snot-nosed kids like you"
-msgstr ""
+msgstr "Cóż, to wszystko przez takie małe zasmarkańce jak Ty"
 
 #: conversationlist_sullengard.json:torilo_beer_20
 msgid "Well, for as why I have so much, that is none of your business. As for where I got it, that information will cost you."
 msgstr ""
+"Cóż, to nie Twoja sprawa dlaczego mam tak dużo piwa. A jeśli chcesz wiedzieć "
+"skąd go mam, to za taką informację musisz zapłacić."
 
 #: conversationlist_sullengard.json:torilo_beer_20:0
 msgid "What? Are you asking me to buy information from you? Why would I want to do that?"
 msgstr ""
+"Co? Czy Ty aby przypadkiem nie prosisz mnie, abym kupił od Ciebie "
+"informacje? Dlaczego miałbym tak zrobić?"
 
 #: conversationlist_sullengard.json:torilo_beer_30
 msgid "Well, for the same reason why my bed is so expensive to rent...It's valuable."
 msgstr ""
+"Cóż, myślę że z tego samego powodu dla którego wynajęcie łóżka w mojej "
+"karczmie jest tak drogie... Jest po prostu cenne."
 
 #: conversationlist_sullengard.json:torilo_beer_30:1
 msgid "Funny, I thought it was because you are a jerk."
-msgstr ""
+msgstr "Zabawne, a myślałem że to tylko dlatego że jesteś palantem."
 
 #: conversationlist_sullengard.json:torilo_beer_30:2
 msgid "Oh, fine! What do you want? Gold? How much?"
-msgstr ""
+msgstr "Och, cudownie! Czego zatem chcesz? Złota? Ile?"
 
 #: conversationlist_sullengard.json:torilo_beer_40
 msgid "Hmm...let me think...how does 10000 gold sound?"
-msgstr ""
+msgstr "Hmm... niech no pomyślę... co powiesz na kwotę 10 000 złotych monet?"
 
 #: conversationlist_sullengard.json:torilo_beer_40:0
 #: conversationlist_sullengard.json:torilo_beer_bribe7500:0
 msgid "That sounds fair. Take it. Now the information please!"
-msgstr ""
+msgstr "Brzmi uczciwie. Weź je. A teraz chcę usłyszeć to, za co zapłaciłem!"
 
 #: conversationlist_sullengard.json:torilo_beer_40:1
 msgid "That sounds ridiculous! I won't pay that."
-msgstr ""
+msgstr "To absurdalna kwota! Nie zapłacę tyle."
 
 #: conversationlist_sullengard.json:torilo_beer_40:2
 #: conversationlist_sullengard.json:torilo_beer_bribe7500:2
 #: conversationlist_sullengard.json:torilo_beer_bribe6000:2
 #: conversationlist_sullengard.json:tharwyn_beer_40:2
 msgid "I can't afford that."
-msgstr ""
+msgstr "Nie stać mnie na taką kwotę."
 
 #: conversationlist_sullengard.json:torilo_beer_pay
 msgid "Oh, I love the sound of clanking coins. Anyways...myself and other tavern owners have a 'business agreement' with a group of 'distributors'."
@@ -51836,80 +51846,92 @@ msgstr "Och, jak ja uwielbiam dźwięk brzęczących monet. W każdym razie... j
 
 #: conversationlist_sullengard.json:torilo_beer_bribe7500
 msgid "OK. How does 7500 gold sound?"
-msgstr ""
+msgstr "No dobrze. A co powiesz zatem na 7500 złotych monet?"
 
 #: conversationlist_sullengard.json:torilo_beer_bribe7500:1
 msgid "That still sounds ridiculous and I won't pay it."
-msgstr ""
+msgstr "To wciąż jest absurdalna kwota i nie zapłacę jej."
 
 #: conversationlist_sullengard.json:torilo_beer_bribe6000
 msgid "OK. How does 6000 gold sound?"
-msgstr ""
+msgstr "Dobrze. A za 6000 złotych monet?"
 
 #: conversationlist_sullengard.json:torilo_beer_bribe6000:0
 msgid "That sounds ridiculous too, but I've had enough negotiating with you. [You reach into your bag, grab the coins and slam them on the ground] Take it. Now the information please!"
 msgstr ""
+"Ta kwota to też absurd, ale mam już dość negocjacji z Tobą. "
+"[Wkładasz rękę do torby, wyciągasz monety i rzucasz je na ziemię] Bierz. A "
+"teraz zamieniam się w słuch!"
 
 #: conversationlist_sullengard.json:torilo_beer_bribe6000:1
 msgid "That sounds ridiculous! I won't pay that"
-msgstr ""
+msgstr "To jakaś groteska! Nie zapłacę tyle"
 
 #: conversationlist_sullengard.json:torilo_beer_bribe6000_10
 #: conversationlist_sullengard.json:tharwyn_beer_51
 msgid "That's fine with me, but no information for you."
-msgstr ""
+msgstr "Mnie to strzyka a Ty dalej nic nie wiesz."
 
 #: conversationlist_sullengard.json:torilo_beer_pay_10
 msgid "It means that that is all I will tell you and I suggest you talk to another tavern owner."
 msgstr ""
+"To znaczy tyle, że powiedziałem już wszystko to, co miałem do powiedzenia i "
+"radzę Ci na ten temat porozmawiać z innym karczmarzami."
 
 #: conversationlist_sullengard.json:tharwyn_beer
 msgid "What? I don't know anything about what you speak of."
-msgstr ""
+msgstr "Co? Nie wiem o czym mówisz."
 
 #: conversationlist_sullengard.json:tharwyn_beer:0
 msgid "I am sure you do. What do I have to do to hear what you know?"
 msgstr ""
+"A ja myślę, że Ty dobrze wiesz o czym mówię. Co w takim razie muszę zrobić, "
+"aby usłyszeć to, co chcę wiedzieć?"
 
 #: conversationlist_sullengard.json:tharwyn_beer_10
 msgid "Well, if I read you correctly, I feel like you are prepared to offer me a bribe?"
 msgstr ""
+"Cóż, jeśli dobrze zrozumiałem, to wydaje mi się, że tylko czekasz na to abym "
+"zaproponował Ci łapówkę?"
 
 #: conversationlist_sullengard.json:tharwyn_beer_10:0
 msgid "Oh great, not another tavern owner hungry for more gold."
-msgstr ""
+msgstr "O, cudownie. Kolejny karczmarz który chce tylko mojego złota."
 
 #: conversationlist_sullengard.json:tharwyn_beer_20
 msgid "Well, am I correct?"
-msgstr ""
+msgstr "Cóż, chyba się nie mylę?"
 
 #: conversationlist_sullengard.json:tharwyn_beer_20:0
 msgid "If that's what it it takes to get you to talk, then yes."
-msgstr ""
+msgstr "Jeśli tylko w ten sposób mogę skłonić Cię do rozmowy, to tak."
 
 #: conversationlist_sullengard.json:tharwyn_beer_30
 msgid "Wow! This is my lucky day. I just found out today that my daughter needs 5000 gold in order to enroll at this special school in Nor City and now here you are offering me a bribe."
 msgstr ""
+"Wspaniale! To mój szczęśliwy dzień. Dopiero co dowiedziałem się, że moja "
+"córka potrzebuje 5000 sztuk złota, aby wstąpić do pewnej elitarnej szkoły w "
+"Nor City, a Ty właśnie teraz oferujesz mi łapówkę."
 
 #: conversationlist_sullengard.json:tharwyn_beer_31
 msgid "That will be 5000 gold please."
-msgstr ""
+msgstr "To będzie kosztowało 5000 sztuk złota."
 
 #: conversationlist_sullengard.json:tharwyn_beer_31:0
 msgid "What? You guys are killing me."
-msgstr ""
+msgstr "Co? Wy wszyscy chcecie mnie chyba wykończyć."
 
 #: conversationlist_sullengard.json:tharwyn_beer_40
 msgid "Is that a 'yes' or a 'no'?"
-msgstr ""
+msgstr "Określ się, bo nie wiem czy to oznacza 'tak' czy też 'nie'?"
 
 #: conversationlist_sullengard.json:tharwyn_beer_40:0
 msgid "That sounds ridiculous, but here, take it."
-msgstr ""
+msgstr "To absurdalna kwota, ale proszę, weź to."
 
 #: conversationlist_sullengard.json:tharwyn_beer_40:1
 msgid "That sounds ridiculous! I won't pay that much."
-msgstr ""
+msgstr "To zdzierstwo! Nie zapłacę tyle."
 
 #: conversationlist_sullengard.json:tharwyn_beer_50
 msgid "I will not get into the 'business agreement' part of this deal, but I will tell you about the 'distributors'."
@@ -51917,19 +51939,19 @@ msgstr "Nie będę teraz zagłębiał się w szczegóły 'umowy handlowej', ale 
 
 #: conversationlist_sullengard.json:tharwyn_beer_50:0
 msgid "Great. Start talking."
-msgstr ""
+msgstr "Świetnie. Mów zatem."
 
 #: conversationlist_sullengard.json:tharwyn_beer_60
 msgid "Do you see that suspicious looking fellow over there in the corner?"
-msgstr ""
+msgstr "Widzisz tego podejrzanego koleżkę stojącego w tamtym kącie?"
 
 #: conversationlist_sullengard.json:tharwyn_beer_60:0
 msgid "The thief?"
-msgstr ""
+msgstr "Złodzieja?"
 
 #: conversationlist_sullengard.json:tharwyn_beer_70
 msgid "That is Dunla. He gets me my beer. Go talk to him."
-msgstr ""
+msgstr "To jest Dunla. To on dostarcza mi piwo. Pogadaj z nim."
 
 #: conversationlist_sullengard.json:bela_beer
 msgid "Who is Torilo?"
@@ -51941,19 +51963,21 @@ msgstr "No dalej. Na pewno wiesz kto to jest Torilo."
 
 #: conversationlist_sullengard.json:bela_beer_10
 msgid "No, really, I don't know anyone by that name."
-msgstr ""
+msgstr "Prawdę mówię. Nie znam nikogo o takim imieniu."
 
 #: conversationlist_sullengard.json:bela_beer_10:0
 msgid "Sure you do. He is the owner of the Foaming flask."
-msgstr ""
+msgstr "Na pewno go znasz. Jest właścicielem 'Pod spienionym kuflem'."
 
 #: conversationlist_sullengard.json:bela_beer_20
 msgid "the 'Foaming flask', what is that? Is that a tavern?"
-msgstr ""
+msgstr "'Pod spienionym kuflem', co to takiego? Czy to jakaś karczma?"
 
 #: conversationlist_sullengard.json:bela_beer_20:0
 msgid "I've had enough of you. If you want to play dumb, then I don't have time for you."
 msgstr ""
+"Mam Ciebie dość. Skoro wolisz rżnąć głupa to Twoja sprawa ale ja nie będę tu "
+"marnował mojego cennego czasu."
 
 #: conversationlist_sullengard.json:dunla_beer
 msgid "She did, did she? Well, that is an insider topic, and you are not an \"insider\". Come back when you are."
@@ -74770,19 +74794,19 @@ msgstr "Lediofa"
 
 #: monsterlist_fungi_panic.json:lombric_ball
 msgid "Lombric ball"
-msgstr "Kula dżdżownic"
+msgstr "Glizdokula"
 
 #: monsterlist_fungi_panic.json:lombric_ball2
 msgid "Mature lombric ball"
-msgstr "Dorosła kula dżdżownic"
+msgstr "Sędziwa glizdokula"
 
 #: monsterlist_fungi_panic.json:lombric_ball3
 msgid "Quick lombric ball"
-msgstr "Szybka kula dżdżownic"
+msgstr "Szybka glizdokula"
 
 #: monsterlist_fungi_panic.json:lombric_beast
 msgid "Lombric beast"
-msgstr "Bestia z dżdżownic"
+msgstr "Glizdokulowa bestia"
 
 #: monsterlist_fungi_panic.json:zuul_khan1_blocker
 #: monsterlist_fungi_panic.json:zuul_khan2_blocker
