@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "POT-Creation-Date: Sun Nov 10 11:14:56 CET 2013\n"
-"PO-Revision-Date: 2024-01-15 21:06+0000\n"
-"Last-Translator: Ilian Iliev <nemirco@gmail.com>\n"
+"PO-Revision-Date: 2024-12-26 06:00+0000\n"
+"Last-Translator: Miroslav Iliev <iliev.mb@gmail.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/bg/>\n"
 "Language: bg\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: [none]
 msgid "translator-credits"
@@ -596,7 +596,7 @@ msgstr "Благодаря ти за хляба, който ми донесе п
 #: conversationlist_sullengard.json:sullengard_hadena_7:1
 #: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
-msgstr ""
+msgstr "Заповядайте отново."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
@@ -12041,7 +12041,7 @@ msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_8:0
 msgid "I will see what I can do."
-msgstr ""
+msgstr "Ще видя какво мога да направя."
 
 #: conversationlist_ailshara.json:ailshara_interested_8:1
 #: conversationlist_ailshara.json:ailshara_deliver_1:2
@@ -12050,7 +12050,7 @@ msgstr "Не. Aз ще помогнa нa Фeигapд вместо теб."
 
 #: conversationlist_ailshara.json:ailshara_interested_8:2
 msgid "Whatever, I choose my own path."
-msgstr ""
+msgstr "Няма значение, Аз избрах свой собствен път."
 
 #: conversationlist_ailshara.json:ailshara_interested_9
 msgid "Shadow be with you. May the Shadow guide you on the clouded paths that you walk."
@@ -13599,7 +13599,7 @@ msgstr ""
 
 #: conversationlist_algangror.json:algangror_1:0
 msgid "I am looking for my brother."
-msgstr ""
+msgstr "Търся брат си."
 
 #: conversationlist_algangror.json:algangror_1:1
 msgid "I just entered to see if there's any loot to be found here."
@@ -48130,7 +48130,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard10_2:0
 msgid "Uh... How did you get drunk that fast?"
-msgstr ""
+msgstr "Ъъ... Как успя да се напиеш толкова бързо?"
 
 #: conversationlist_omi2.json:ortholion_guard10_2:1
 msgid "Mead isn't my cup of tea, goodbye."
@@ -48142,7 +48142,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard10_3
 msgid "H..Halt! [hic] Kids not allowed!"
-msgstr ""
+msgstr "Ст.....ой![хлъц]Забранено е за деца!"
 
 #: conversationlist_omi2.json:ortholion_guard10_3:0
 msgid "I'll go where I please in this mine! Hmpf..."
@@ -61606,7 +61606,7 @@ msgstr ""
 
 #: conversationlist_laeroth.json:forenza_island_injured_need_help
 msgid "Nerver mind that now. I am injured and I need your help!"
-msgstr ""
+msgstr "Сега това няма значение. Аз съм ранен и имам нужда от вашата помощ!"
 
 #: conversationlist_laeroth.json:forenza_island_injured_explained
 msgid "Seriously?! Can't you see that I am bleeding and weak?"
@@ -81118,4 +81118,3 @@ msgstr ""
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr ""
-
