@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-24 08:00+0000\n"
+"PO-Revision-Date: 2024-12-26 06:00+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -2600,19 +2600,19 @@ msgstr "窗户已经开了。"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_38:1
 msgid "I hope for your sake that was all."
-msgstr "我希望为了你，就这些。"
+msgstr "看在你自己的份上，就别再出幺蛾子了。"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_40
 msgid "Yes. I tidied up a bit again."
-msgstr "对。我又收拾了一下。"
+msgstr "嗯，我又检查了一遍。"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_40:0
 msgid "Could you ..."
-msgstr "你能。。。"
+msgstr "你能不能……"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_42
 msgid "... unlock the window again for you? No, I have enough cooked meat for a long time."
-msgstr "…再次为你打开窗户？不，我已经有足够长时间吃的熟肉了。"
+msgstr "……再为你开遍窗户？不行，我这里熟肉已经可以吃上好长一阵了。"
 
 #: conversationlist_fallhaven_drunk.json:fallhaven_drunk
 msgid "No problem. No sireee! Not causing any more trouble now. I sits here outside now."
@@ -7360,7 +7360,8 @@ msgid ""
 "East: Nor City\n"
 "West: Vilegard"
 msgstr ""
-"[OUTDATED]东：诺尔城\n"
+"北：利奥夫里克的蜂蜜乡\n"
+"东：诺尔城\n"
 "西：维尔加德"
 
 #: conversationlist_maelveon.json:maelveon
@@ -15926,12 +15927,13 @@ msgstr "嘿，我现在得跟着地图出发了。"
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:7
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:9
 msgid "I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical."
-msgstr "[OUTDATED][OUTDATED]我希望这些硬币能让从你父亲的事里释怀，请好好的保存它们。"
+msgstr "你看这些会发光的硬币，它们是我在维克斯罗的村井附近的一个坑道里找到的，上面似"
+"乎有魔法。"
 
 #: conversationlist_gylew.json:gylew:8
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:8
 msgid "We have no more business to discuss. I'll see you later."
-msgstr "[OUTDATED][OUTDATED][撒谎]我从一个凭运气的游戏里赢来了这些铜币与硬币，我想知道你是否对它们有兴趣。"
+msgstr "我现在好像没啥好根你讨论的话题了，以后再见哈。"
 
 #: conversationlist_gylew.json:gylew:10
 msgid "I was glad to help fulfill you and your father's dream, but I need to go now."
@@ -18909,7 +18911,7 @@ msgstr "在墙上，你看到一块牌匾，上面写着：把我无法忍受的
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3_10
 #: conversationlist_v0612graves.json:
 msgid "You place the ladder below the tiny window."
-msgstr "你把梯子放在小窗户下面。"
+msgstr "你把梯子放在了小窗户下面。"
 
 #: conversationlist_agthor.json:agthor0
 msgid "Hello there. Please move along. These things are property of Feygard, and you have no business here."
@@ -27964,7 +27966,7 @@ msgstr "是的，已经有几个人迷路了，再也没有出现过。没有办
 
 #: conversationlist_guynmart2_npc.json:guynmart_roadguard_20:0
 msgid "But ... which fog?"
-msgstr "但是......什么是徒劳的?"
+msgstr "那个.....啥雾啊？"
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_14
 msgid "Welcome! Nice to see you again."
@@ -36960,7 +36962,7 @@ msgstr "要我帮你剪吗？"
 #: conversationlist_feygard_1.json:godoe:0
 #: conversationlist_feygard_1.json:swamp_witch_20_12:0
 msgid "Yes, please."
-msgstr "是的，请。"
+msgstr "是的，拜托了。"
 
 #: conversationlist_brimhaven.json:arlish_12:1
 msgid "No, thank you. I prefer the cake as a whole."
@@ -44229,11 +44231,11 @@ msgstr "在这里，我为你准备了10块好肉。不过，我不能保证这�
 
 #: conversationlist_gison.json:gael_20_6:2
 msgid "Here, I have 10 nice pieces of lamb meat for you. Maybe not as good as snake though."
-msgstr "给你，我有10块美味的羊肉。也许比不了蛇肉。"
+msgstr "我这里有10块美味的羔羊肉给你，虽然它们可能比不了蛇肉。"
 
 #: conversationlist_gison.json:gael_20_6:3
 msgid "Here, I have 8 nice pieces of snake meat for you."
-msgstr "给你，我有8块美味的蛇肉。"
+msgstr "我这里有8块美味的蛇肉给你。"
 
 #: conversationlist_gison.json:gael_20_7
 msgid "Excellent! In return, I can give you this nice little purse, made of the finest snake leather. Look here, isn't it beautiful?"
@@ -57574,7 +57576,7 @@ msgstr "你应该和他们一起去金库,因为我们可能需要你的帮助."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40
 msgid "You can find the empty house just southwest of here. Enter it and you will find your way."
-msgstr "[REVIEW]你可以在这里的东南方找到那座空房子.进入它,你会找到你的路."
+msgstr "你可以在这里的西南方找到那座空房子.进入它,你会找到你的路."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40:0
 msgid "I'll be there. Thank you."
@@ -59519,7 +59521,7 @@ msgstr "[你指着吉卢正握着的几枚硬币，问道：]那些呢？"
 #: conversationlist_laeroth.json:gylew5:2
 #: conversationlist_laeroth.json:gylew5:3
 msgid "Yes, I know this already."
-msgstr "[REVIEW]好吧我对此并不太感兴趣。"
+msgstr "好吧，对此我已经知道了。"
 
 #: conversationlist_laeroth.json:gylew5:4
 msgid "I am so not interested."
@@ -59926,11 +59928,12 @@ msgstr "遇见你我同样高兴。    我们可以讨论一下科哈德之币�
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:4
 msgid "I tried to get Gylew's key, but..."
-msgstr "[OUTDATED]自上次在庄园碰头过后我还没有去找过我还没找过吉卢，我为什么还要在这浪费时间而不是去完成工作？"
+msgstr "我有试着去搞到吉卢的钥匙，但是…"
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:5
 msgid "I have not gone back to see Gylew since our last encounter. Why am I wasting time talking to you when the job is not done yet?"
-msgstr "[OUTDATED]我现在好像没啥好根你讨论的话题了，以后再见。"
+msgstr "自上次在庄园碰头过后我还没有去找过我还没找过吉卢，我为什么还要在这聊天浪费时"
+"间而不是去完成工作？"
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:6
 msgid "Hey. I need to go now and follow this map."
@@ -59938,7 +59941,7 @@ msgstr "嘿，我现在要跟着地图出发了。"
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:10
 msgid "I hope that these coins will enable you to make peace with your father. Take care."
-msgstr "我希望这些硬币能让你和你父亲和好。保重。"
+msgstr "我希望这些硬币能让从你父亲的事里释怀，保重。"
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:11
 msgid "[Lie] I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them."
@@ -61365,7 +61368,7 @@ msgstr "科学所要问的问题并不是“为什么”，而是“为什么不
 
 #: conversationlist_laeroth.json:brute_creator_sign_2
 msgid "Praise is the portal to the presence of Elythara"
-msgstr "[REVIEW]传送门本身就是对埃利萨拉女神的赞美"
+msgstr "传送门本身就是对埃利萨拉女神显圣的赞美"
 
 #: conversationlist_laeroth.json:brute_creator_sign_3
 msgid "Your dream is a portal to your destiny."
@@ -63305,11 +63308,11 @@ msgstr "你无法穿过这里的浓雾。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster_startquest_10
 msgid "This fog seems to be very unnatural."
-msgstr "这雾看起来很不自然。"
+msgstr "这雾看起来并不是天然产生的。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster_startquest_20
 msgid "Let's look for the source of it. Maybe we can find out how to lift the fog."
-msgstr "让我们寻找它的根源。也许我们可以找出如何驱散雾。"
+msgstr "要是可以寻找它的来源的话，也许我们能找到办法驱散迷雾。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster1_heart_10
 #: conversationlist_feygard_1.json:feygard_fogmonster2_heart_10
@@ -63317,54 +63320,54 @@ msgstr "让我们寻找它的根源。也许我们可以找出如何驱散雾。
 #: conversationlist_feygard_1.json:feygard_fogmonster4_heart_10
 #: conversationlist_feygard_1.json:feygard_fogmonster5_heart_10
 msgid "The fog vanishes completely as soon as you touch its heart."
-msgstr "你一碰到雾的心，雾就完全消失了。"
+msgstr "你一触碰到这颗怪物的心脏，这里的雾就彻底散掉了。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_1
 #: conversationlist_feygard_1.json:feygard_fogmonster9_5
 #: conversationlist_feygard_1.json:feygard_fogmonster9_10
 msgid "Me and my brothers watch over the ruler of the swamp."
-msgstr "我和我的兄弟们看着沼泽的统治者。"
+msgstr "我和我的弟兄们在此看守这片沼泽的主人。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_1:0
 msgid "Not for long, some of your brothers have all left the area already. Attack!"
-msgstr "不会太久的，你的一些兄弟已经离开这个地区了。进攻！"
+msgstr "以后就不是这样了，你的一部分弟兄已经被驱走了。接招！"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_1:1
 msgid "So I'm going to talk to your remaining brothers."
-msgstr "所以我要和你剩下的兄弟谈谈。"
+msgstr "就等我去和你剩下的的弟兄们好好谈谈吧。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_5:0
 msgid "Your brothers have all left the area already. Now to you ..."
-msgstr "你的兄弟们都已经离开这个地区了。现在轮到你了..."
+msgstr "你所有的弟兄都已经被驱走了，现在轮到你了……"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_5:1
 #: conversationlist_feygard_1.json:feygard_fogmonster9_10:1
 msgid "So I'm going to talk to your brothers."
-msgstr "所以我要和你的兄弟们谈谈。"
+msgstr "这样的话我就得去和你别的弟兄们好好谈谈了。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_10:0
 msgid "Not for long. Attack!"
-msgstr "不会太久的。进攻！"
+msgstr "以后就不是这样了，接招！"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_20
 msgid "You can't defeat me as long as my brothers stand their ground."
-msgstr "只要我的兄弟们坚守阵地，你就无法打败我。"
+msgstr "只要我的弟兄们屹立不倒，你就是无法打败我的。"
 
 #: conversationlist_feygard_1.json:feygard_fogmonster9_20:0
 msgid "Well, in that case stay here. I'll be back in a minute."
-msgstr "好吧，既然如此，就呆在这儿吧。我马上就回来。"
+msgstr "好啊，既然如此，你就等在这儿吧，我马上就回来。"
 
 #: conversationlist_feygard_1.json:feygard_offering
 msgid "\"Pay homage to Elythara, radiant queen of the world!\""
-msgstr "\"向光芒四射的世界女王埃利萨拉致敬！\""
+msgstr "\"向照耀全宇的光辉女王 埃利萨拉致敬！\""
 
 #: conversationlist_feygard_1.json:feygard_offering:0
 msgid "Homage - and above all gold ..."
-msgstr "致敬，尤其是黄金……"
+msgstr "致敬——往往是采用捐钱的方式……"
 
 #: conversationlist_feygard_1.json:feygard_offering_20
 msgid "Below the statue you see an offering bowl."
-msgstr "在雕像下方，你可以看到一个供奉碗。"
+msgstr "在雕像的下方，你看到了一个供钵。"
 
 #: conversationlist_feygard_1.json:feygard_offering_20:0
 msgid "Place 1 gold coin in the bowl."
@@ -63388,43 +63391,43 @@ msgstr "将10000枚金币放入碗中。"
 
 #: conversationlist_feygard_1.json:feygard_offering_20:5
 msgid "Take 1 gold coin."
-msgstr "拿1枚金币。"
+msgstr "拿走1枚金币。"
 
 #: conversationlist_feygard_1.json:feygard_offering_20:6
 msgid "Take 10 gold coins."
-msgstr "拿10枚金币。"
+msgstr "拿走10枚金币。"
 
 #: conversationlist_feygard_1.json:feygard_offering_20:7
 msgid "Take 100 gold coins."
-msgstr "拿100枚金币。"
+msgstr "拿走100枚金币。"
 
 #: conversationlist_feygard_1.json:feygard_offering_20:8
 msgid "Take 1000 gold coins."
-msgstr "拿1000枚金币。"
+msgstr "拿走1000枚金币。"
 
 #: conversationlist_feygard_1.json:feygard_offering_30_100_heal
 msgid "You hear a bodyless voice: \"Thank you.\""
-msgstr "你听到一个没有身体的声音：“谢谢你。”"
+msgstr "你听到了一句不知从哪来的声音：“谢谢你。”"
 
 #: conversationlist_feygard_1.json:feygard_offering_30_1000_heal
 msgid "You feel good. Very good, in fact."
-msgstr "你感觉很好。事实上，非常好。"
+msgstr "你心头一悦，具体来说，非常悦。"
 
 #: conversationlist_feygard_1.json:feygard_offering_30_10000_heal
 msgid "You feel good. Extremely good, in fact."
-msgstr "你感觉很好。事实上，非常好。"
+msgstr "你心头一悦，具体来说，极为悦。"
 
 #: conversationlist_feygard_1.json:feygard_offering_34_1
 msgid "Your gift will be viewed favorably."
-msgstr "你的礼物会受到好评。"
+msgstr "你的献礼会取得垂青的。"
 
 #: conversationlist_feygard_1.json:feygard_offering_34_2
 msgid "Thank you, in the name of Elythara."
-msgstr "感谢您,以埃利萨拉的名义."
+msgstr "感谢您，以埃利萨拉的名义."
 
 #: conversationlist_feygard_1.json:feygard_offering_34_3
 msgid "Let your name be praised in the halls of Elythara!"
-msgstr "让你的名字在埃利萨拉的大厅里被赞扬!"
+msgstr "你的名字应在埃利萨拉之殿上所颂扬！"
 
 #: conversationlist_feygard_1.json:feygard_offering_34_4
 msgid "For the greatness of Elythara, our Godess!"
@@ -63436,82 +63439,82 @@ msgstr "埃利萨拉万岁！"
 
 #: conversationlist_feygard_1.json:feygard_offering_36
 msgid "You can not undo your evil theft."
-msgstr "你不能撤销你的邪恶盗窃。"
+msgstr "你过去的盗窃勾当已是覆水难收。"
 
 #: conversationlist_feygard_1.json:feygard_offering_40_1a
 #: conversationlist_feygard_1.json:feygard_offering_40_10a
 #: conversationlist_feygard_1.json:feygard_offering_40_100a
 #: conversationlist_feygard_1.json:feygard_offering_40_1000a
 msgid "Stealing from the goddess Elythara - are you sure?"
-msgstr "从女神埃利萨拉那里偷东西-你确定吗？"
+msgstr "从埃利萨拉女神那里偷东西——你确定吗？"
 
 #: conversationlist_feygard_1.json:feygard_offering_40_1a:1
 #: conversationlist_feygard_1.json:feygard_offering_40_10a:1
 #: conversationlist_feygard_1.json:feygard_offering_40_100a:1
 #: conversationlist_feygard_1.json:feygard_offering_40_1000a:1
 msgid "Hm, better not."
-msgstr "嗯，最好不要。"
+msgstr "呃…最好不要。"
 
 #: conversationlist_feygard_1.json:feygard_offering_44
 msgid "Elythara is known for her thirst for revenge. Fear her wrath!"
-msgstr "埃利萨拉以渴望复仇而闻名。害怕她的愤怒！"
+msgstr "埃利萨拉的一大知名脾性就是有仇必报，在她的威怒前颤抖吧！"
 
 #: conversationlist_feygard_1.json:feygard_swamp_sign
 msgid "Go away - while you still can!"
-msgstr "走开——趁你还能走的时候！"
+msgstr "快走——趁你现在还走得了！"
 
 #: conversationlist_feygard_1.json:godoe
 msgid "Hello, strange kid. Wanna pass?"
-msgstr "你好，奇怪的孩子。想通过吗？"
+msgstr "你好，怪小孩，想通过这里吗？"
 
 #: conversationlist_feygard_1.json:godoe_2
 msgid "Gimme 5 red glassy stones, and I'll open the path for you."
-msgstr "给我5块红色玻璃石，我就为你开路。"
+msgstr "给我5块红色玻璃石，我就为你放行。"
 
 #: conversationlist_feygard_1.json:godoe_2:0
 msgid "Sure, I have plenty of them."
-msgstr "当然，我有很多。"
+msgstr "嗯，这我身上多着呢。"
 
 #: conversationlist_feygard_1.json:godoe_2:1
 msgid "Are 5 shiny gold coins OK too?"
-msgstr "5个闪亮的金币也可以吗？"
+msgstr "5枚闪亮金币可以吗？"
 
 #: conversationlist_feygard_1.json:godoe_4
 msgid "Did I hear 500?"
-msgstr "我听到500了吗？"
+msgstr "我刚刚好像听到你说，500枚？"
 
 #: conversationlist_feygard_1.json:godoe_4:0
 msgid "Eh, sure. 500 shiny gold coins."
-msgstr "嗯，当然。500枚闪闪发光的金币。"
+msgstr "嗯，没问题，500枚闪亮金币。"
 
 #: conversationlist_feygard_1.json:godoe_10
 msgid "Good, good! Here you go. But don't waste time."
-msgstr "好，很好！给你。但是不要浪费时间。"
+msgstr "好，很好！去吧，别磨蹭。"
 
 #: conversationlist_feygard_1.json:guynmart18_k_10
 msgid "Coming back soon - Godoe"
-msgstr "很快回来-戈多"
+msgstr "稍等片刻，马上回来——戈多"
 
 #: conversationlist_feygard_1.json:guynmart18_s3_11
 #: conversationlist_feygard_1.json:guynmart18_s3_12
 msgid "I think I said: Don't waste time, did I not? Hee hee."
-msgstr "我想我说过:不要浪费时间，我没说过吗？嘻嘻。"
+msgstr "我想我有说过：别磨蹭，难道是我没说吗？嘻嘻。"
 
 #: conversationlist_feygard_1.json:guynmart_roadguard_12
 msgid "The fog over there is very dangerous."
-msgstr "那边的雾很危险。"
+msgstr "那边的雾非常危险。"
 
 #: conversationlist_feygard_1.json:guynmart_roadguard_12:0
 msgid "Which fog? Do you ever look up?"
-msgstr "什么雾？你曾经抬头看吗？"
+msgstr "啥雾啊？你抬头瞧瞧？"
 
 #: conversationlist_feygard_1.json:guynmart_roadguard_30
 msgid "Oh ... Forget it. I feel rather stupid now. Bye."
-msgstr "哦。。。算了。我现在觉得自己很愚蠢。再见。"
+msgstr "哦……当我没说，我现在觉得自己有点傻，再见。"
 
 #: conversationlist_feygard_1.json:swamp_witch_20
 msgid "Who dares disturb my solitude? Be gone, or face my wrath!"
-msgstr "谁敢打扰我的孤独？走开，否则就要面对我的愤怒！"
+msgstr "你是谁，胆敢打扰我的清静？快滚，否则迎接你的就是我的怒火！"
 
 #: conversationlist_feygard_1.json:swamp_witch_20:0
 msgid "Sorry. I got lost in the fog."
@@ -76238,31 +76241,31 @@ msgstr "扎克松战士头目"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster1
 msgid "Wobbling foggerlump"
-msgstr "摇晃的雾团"
+msgstr "抖颤喷雾怪"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster2
 msgid "Icy foggerlump"
-msgstr "冰雾团"
+msgstr "刺骨喷雾怪"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster3
 msgid "Wet foggerlump"
-msgstr "湿雾团"
+msgstr "潮湿喷雾怪"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster4
 msgid "Dizzy foggerlump"
-msgstr "眩晕的雾团"
+msgstr "眩目喷雾怪"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster5
 msgid "Dense foggerlump"
-msgstr "浓雾团"
+msgstr "厚实喷雾怪"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster9
 msgid "Shiny Foggerlump"
-msgstr "闪亮的雾团"
+msgstr "闪光喷雾怪"
 
 #: monsterlist_feygard_1.json:feygard_offering_guard
 msgid "Honor Guard"
-msgstr "仪仗队"
+msgstr "荣耀守卫"
 
 #: monsterlist_feygard_1.json:godoe1
 #: monsterlist_feygard_1.json:godoe2
@@ -80536,11 +80539,12 @@ msgstr "我消灭了那条怪物般的蛇，解除了法尔海文因其所遭受
 
 #: questlist_fungi_panic.json:achievements
 msgid "Unusual experiences and achievements"
-msgstr "不寻常的经历和成就"
+msgstr "奇遇卓绩"
 
 #: questlist_fungi_panic.json:achievements:1
 msgid "Mikhail gave me a book in which I could put down my most unusual experiences and achievements."
-msgstr "米哈伊尔给了我一本书，让我可以写下自己不寻常的经历和成就。"
+msgstr "米哈伊尔给了我一本书，让我可以在上面写下自己所遇到及做出的那些不寻常的经历和"
+"成就。"
 
 #: questlist_fungi_panic.json:achievements:10
 msgid "On the road: My first glimpse of the great Duleian Road!"
