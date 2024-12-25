@@ -7,7 +7,7 @@
 \n
 \nФайлът може да е повреден или непълен.</string>
     <string name="dialog_loading_failed_incorrectversion">Cледата на Андор не успя да зареди файла със запазената игра. Този файл е създаден с по-нова версия от това, което се изпълнява в момента.</string>
-    <string name="about_contents1">Добре дошли в Cледата на Андор, ролева игра за Android с отворен код. &lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt; Форуми на играта за въпроси и дискусии. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=http://docs.andorstrail.com/&gt;Интернет енциклопедия за играта. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; Изходен код на играта в github.com. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; Моля, посетете форумите, за да обсъдите играта с други играчи. &lt;br /&gt;</string>
+    <string name="about_contents1">Добре дошли в Cледата на Андор, ролева игра за Android с отворен код. &lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt; Форуми на играта за въпроси и дискусии. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=https://andorstrail.gitbook.io/docs&gt;Интернет енциклопедия за играта. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; Изходен код на играта в github.com. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; Моля, посетете форумите, за да обсъдите играта с други играчи. &lt;br /&gt;</string>
     <string name="localize_resources_from_mo_filename">bg.mo</string>
     <string name="preferences_display_category">Покажи</string>
     <string name="questlog_queststatus_completed">Завършени</string>
@@ -20,9 +20,7 @@
     <string name="heroinfo_actionpoints">Точки действие (ТД):</string>
     <string name="dialog_monsterloot_gainedexp">Вие получихте %1$d точки опит.</string>
     <string name="heroinfo_healthpoints">Точки здраве (ТЗ):</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nЗа да можете да запазвате и зареждате съответно вашите игри, (единствено поради тази причина) Следата на Андор ще изиска от вас разрешение за достъп до вътрешната памет на устройството ви."</string>
+    <string name="dialog_newversion_permission_information">\n\nЗа да можете да запазвате и зареждате съответно вашите игри, (единствено поради тази причина) Следата на Андор ще изиска от вас разрешение за достъп до вътрешната памет на устройството ви.</string>
     <string name="monster_difficulty_impossible">Невъзможно</string>
     <string name="heroinfo_inventory_sort">Подреди по</string>
     <string name="inventory_item_used">Вие използвахте %1$s.</string>
