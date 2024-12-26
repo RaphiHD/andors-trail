@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-26 06:00+0000\n"
+"PO-Revision-Date: 2024-12-26 10:48+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -34162,7 +34162,7 @@ msgstr "将路德的钥匙插入锁中。"
 
 #: conversationlist_omicronrg9.json:guild03_hideout3_lock:1
 msgid "Insert the blessed key of Luthor into the lock."
-msgstr "将路德的祝福钥匙插入锁中。"
+msgstr "将赐福路德之匙插入锁中。"
 
 #: conversationlist_omicronrg9.json:guild03_hideout3_exit_1
 msgid "W..wait ...."
@@ -63518,39 +63518,39 @@ msgstr "你是谁，胆敢打扰我的清静？快滚，否则迎接你的就是
 
 #: conversationlist_feygard_1.json:swamp_witch_20:0
 msgid "Sorry. I got lost in the fog."
-msgstr "对不起。我在雾中迷路了。"
+msgstr "抱歉，我在雾中迷路了。"
 
 #: conversationlist_feygard_1.json:swamp_witch_20:1
 msgid "I am not afraid of you. (You grope for your weapon)"
-msgstr "我不怕你。（你摸索着你的武器）"
+msgstr "我才不怕你呢。(你摸出自己的武器)"
 
 #: conversationlist_feygard_1.json:swamp_witch_20_10
 msgid "Oh, how touching. The brave little hero got themselves lost, did they?"
-msgstr "哦，太感人了。勇敢的小英雄迷路了，是吗？"
+msgstr "哦，好可怜啊，这位勇敢的小英雄是自己把自己给搞丢了，不是这样吗？"
 
 #: conversationlist_feygard_1.json:swamp_witch_20_12
 msgid "And now you expect me to help you? Ha!"
-msgstr "现在你指望我帮你？哈！"
+msgstr "而现在你却指望我来帮你？哈！"
 
 #: conversationlist_feygard_1.json:swamp_witch_20_12:1
 msgid "No. I can handle myself as always."
-msgstr "不，我可以像往常一样控制自己。"
+msgstr "不是这样的，我一直都可以做到一个人闯风闯雨的。"
 
 #: conversationlist_feygard_1.json:swamp_witch_20_12:2
 msgid "I managed to defeat the fog monsters that caused it."
-msgstr "我设法打败了造成它的雾怪。"
+msgstr "我把那些造雾的怪物给打败了。"
 
 #: conversationlist_feygard_1.json:swamp_witch_20_20
 msgid "Defeated my fog monsters, did you? Meddlesome brat!"
-msgstr "打败了我的雾怪，是吗？淘气的小家伙！"
+msgstr "你打败了我的雾怪，是吗？你这个乳臭未干的好事小鬼！"
 
 #: conversationlist_feygard_1.json:swamp_witch_20_22
 msgid "Those creatures were my only protection from unwanted visitors like you!"
-msgstr "那些生物是我抵御像你这样不受欢迎的访客的唯一保护！"
+msgstr "那些家伙是我用来阻挡像你这样的不速之客的！"
 
 #: conversationlist_feygard_1.json:swamp_witch_20_22:0
 msgid "I didn't know. The fog was disorienting ..."
-msgstr "我不知道。雾让人迷失方向。。。"
+msgstr "我并不知道这件事，在雾里我找不着北……"
 
 #: conversationlist_feygard_1.json:swamp_witch_20_22:1
 msgid "I'm sorry, I didn't mean to disturb you."
@@ -67095,7 +67095,7 @@ msgstr "带毒匕首"
 #: itemlist_omicronrg9.json:g03_luthor
 #: questlist.json:bucus
 msgid "Key of Luthor"
-msgstr "路德的钥匙"
+msgstr "路德之匙"
 
 #: itemlist_quest.json:calomyran_secrets
 #: questlist.json:calomyran
@@ -68809,7 +68809,7 @@ msgstr "发出蓝光的古老的钥匙。"
 
 #: itemlist_omicronrg9.json:g03_luthor2
 msgid "Blessed key of luthor"
-msgstr "祝福过的路德的钥匙"
+msgstr "赐福路德之匙"
 
 #: itemlist_omicronrg9.json:g03_luthor2:description
 msgid "The curse has disappeared."
@@ -76687,7 +76687,7 @@ msgstr "我给布库斯带来了路德的钥匙。"
 
 #: questlist.json:fallhavendrunk
 msgid "Drunken tale"
-msgstr "醉酒的传言"
+msgstr "酒中传言"
 
 #: questlist.json:fallhavendrunk:10
 msgid "A drunk outside Fallhaven tavern began telling me his story, but wants me to bring him some mead. I don't know if his story will lead anywhere though."
@@ -76711,7 +76711,7 @@ msgstr "我把书还给了老人。"
 
 #: questlist.json:nocmar
 msgid "Lost treasures"
-msgstr "失落宝藏"
+msgstr "蒙尘宝物"
 
 #: questlist.json:nocmar:10
 msgid "Unnmir told me he used to be an adventurer, and gave me a hint to go see Nocmar. His house is just southwest of the tavern in Fallhaven."
@@ -76959,7 +76959,7 @@ msgstr "在历经那个庞大曲折的绿色迷宫以及潮湿阴暗的洞穴之
 
 #: questlist_v068.json:vilegard
 msgid "Trusting an outsider"
-msgstr "外来者的取信之道"
+msgstr "陌客取信"
 
 #: questlist_v068.json:vilegard:10
 msgid "The people of Vilegard are very suspicious of outsiders. I was told to go see Jolnor in the Vilegard chapel if I want to gain their trust."
@@ -77534,7 +77534,7 @@ msgstr "我帮助米娜拉完成了她的任务。"
 
 #: questlist_v0610.json:feygard_shipment
 msgid "Feygard errands"
-msgstr "费加德的差事"
+msgstr "费加德之差"
 
 #: questlist_v0610.json:feygard_shipment:10
 msgid "I met Gandoren, the guard captain at the Crossroads guardhouse. He told me about some trouble up in Loneford, that have forced the guards to be even more alert than usual. Because of this, they can't do their regular errands themselves but need help with some basic things."
@@ -77891,7 +77891,10 @@ msgstr "各执一词"
 
 #: questlist_v0611_2.json:sisterfight:10
 msgid "I heard a story about two squabbling sisters in Remgard, Elwel and Elwyl. Apparently they have kept people awake at night with the way they are shouting at each other. I should go visit them in their house on the southern shore of the city of Remgard."
-msgstr "我听说瑞姆加德有两姐妹一直吵架，她们是埃尔韦尔和埃尔崴尔。她们吵架的喊叫声搞得镇里的人在晚上不能好好休息。我应该去瑞姆加德南边湖岸的房子里去拜访一下她们。"
+msgstr ""
+"我听说瑞姆加德有两姐妹一直吵架，她们是埃尔维尔和埃尔崴尔。她们吵架的喊叫声搞"
+"得镇里的人在晚上不能好好休息。我应该去瑞姆加德南边湖岸的房子里去拜访一下她们"
+"。"
 
 #: questlist_v0611_2.json:sisterfight:20
 msgid "I have talked to Elwyl, one of the Elwille sisters in Remgard. She is furious at her sister for not agreeing on even the most simple of facts. Apparently, they have had their disagreements with each other for several years."
@@ -77951,7 +77954,7 @@ msgstr "很不幸，在此之后她们的争吵并没有减少，相反她们似
 
 #: questlist_v0611_3.json:remgard
 msgid "Everything in order"
-msgstr "一切都井然有序"
+msgstr "秩序井然"
 
 #: questlist_v0611_3.json:remgard:10
 msgid "I have reached the bridge to enter the town of Remgard. According to the bridge guard, the town is closed for outsiders to enter, and no-one is currently allowed to leave. They are investigating some disappearances of some of the townspeople."
@@ -78371,7 +78374,7 @@ msgstr "听到我杀死了怪物入侵的源头，梅瓦利亚很高兴。"
 
 #: questlist_v070_lodar.json:lodar2
 msgid "Searching for madness"
-msgstr "寻找疯狂"
+msgstr "寻癫觅狂"
 
 #: questlist_v070_lodar.json:lodar2:10
 msgid "The potion-maker Lodar seems to be obsessed with something called the Hira'zinn."
@@ -78459,7 +78462,7 @@ msgstr "我已经摧毁了苏维尔。"
 
 #: questlist_v070_lodar.json:lodar13_rest
 msgid "No rest for the guilty"
-msgstr "有罪者不得安息"
+msgstr "罪人不得安息"
 
 #: questlist_v070_lodar.json:lodar13_rest:10
 msgid "In the maze of green vines east of the Duleian road, I met a guard named Aulowenn from Feygard, guarding some crates. She told me that she was part of a larger group of guards searching for a madman that supposedly hides somewhere in the nearby hills, but that the other guards are now dead or missing."
@@ -78603,7 +78606,7 @@ msgstr "我把新的捷径告诉了洛达尔。他让我保守秘密。"
 
 #: questlist_pathway_fallhaven.json:pathway_fallhaven
 msgid "A path to the Duleian Road"
-msgstr "通往杜莱恩路的捷径"
+msgstr "通往杜莱恩路之径"
 
 #: questlist_pathway_fallhaven.json:pathway_fallhaven:10
 msgid "I talked to a guard in the east of Fallhaven. He watches over the old passage to the Duleian Road, which is now blocked by fallen trees. If I want to help opening the path I should talk to his superior, the guard captain in the Fallhaven prison."
@@ -80527,7 +80530,7 @@ msgstr "我在法尔海文的药水店遇到莱迪奥法。她没钱付给药剂
 
 #: questlist_fungi_panic.json:bela_gsnake
 msgid "A giant snake"
-msgstr "一条巨蛇"
+msgstr "庞然巨蛇"
 
 #: questlist_fungi_panic.json:bela_gsnake:10
 msgid "I heard rumours of a giant snake to the south of Fallhaven."
@@ -80726,7 +80729,7 @@ msgstr "如果我给他50金币，2个博格斯坦的蘑菇和一个空瓶子，
 
 #: questlist_gorwath.json:postman
 msgid "You're the postman"
-msgstr "你是邮递员"
+msgstr "递信传情"
 
 #: questlist_gorwath.json:postman:10
 msgid "Gorwath would like me to give a letter to Arensia, in Fallhaven."
@@ -81950,7 +81953,7 @@ msgstr "我把欧斯那获知的信息告诉了彼德罗，他感谢了我的分
 
 #: questlist_laeroth.json:lae_torturer
 msgid "Shadow of the torturer"
-msgstr "行刑者之影"
+msgstr "刽伍之影"
 
 #: questlist_laeroth.json:lae_torturer:5
 msgid "In the dungeon of the mansion I found some ghosts of prisoners. One of them told me their story."
@@ -82018,7 +82021,7 @@ msgstr "现在一切又秩序井然了，囚犯回到了狱房里，而恶魔履
 
 #: questlist_laeroth.json:lae_centaurs
 msgid "Not Pony Island"
-msgstr "并非小马之国"
+msgstr "并非小马国"
 
 #: questlist_laeroth.json:lae_centaurs:10
 msgid "The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told me to seek out their leader, Thalos. He should be in the northeast of the island."
@@ -82067,11 +82070,11 @@ msgstr "随着紧烈的声响，墙壁又闭合了，我被锁在了里面！"
 #: questlist_laeroth.json:lae_centaurs:170
 #: questlist_laeroth.json:lae_centaurs:180
 msgid "The only way out was down a staircase, which, however, seemed to be magically secured."
-msgstr "现在唯一可走的路是一处向下的楼梯，但是那里似乎存在某种魔法守护。"
+msgstr "现在唯一可走的路是一处向下的楼梯，但是那里似乎存在某种魔法阻碍。"
 
 #: questlist_laeroth.json:lae_centaurs:190
 msgid "It was no problem going downstairs, but something was wrong there."
-msgstr "下楼的路上并没有什么阻碍，不过事情的发展好像有点不对劲。"
+msgstr "下楼的路上我并没有遇到什么阻碍，不过事情的发展好像有点不对劲。"
 
 #: questlist_laeroth.json:lae_centaurs:200
 msgid "The whole thing was just a big scam to lure me into this cave to serve Dorhantarh as dinner."
@@ -82091,7 +82094,7 @@ msgstr "至此我成为了半人马们所欢迎之客。"
 
 #: questlist_feygard_1.json:fogmonster
 msgid "Fog in the woods"
-msgstr "林中有雾"
+msgstr "林中稠雾"
 
 #: questlist_feygard_1.json:fogmonster:5
 msgid "You had entered a very unnatural looking fog and decided to find the source of it. Maybe you could lift the fog?"
