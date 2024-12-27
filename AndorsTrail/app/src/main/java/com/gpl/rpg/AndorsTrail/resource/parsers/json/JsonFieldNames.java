@@ -4,6 +4,7 @@ public final class JsonFieldNames {
 	public static final class ActorCondition {
 		public static final String conditionTypeID = "id";
 		public static final String name = "name";
+		public static final String description = "description";
 		public static final String iconID = "iconID";
 		public static final String category = "category";
 		public static final String isStacking = "isStacking";

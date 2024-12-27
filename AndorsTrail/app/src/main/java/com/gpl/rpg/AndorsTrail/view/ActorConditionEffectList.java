@@ -66,6 +66,7 @@ public final class ActorConditionEffectList extends LinearLayout {
 				sb.append(effect.magnitude);
 			}
 		}
+
 		if (ActorCondition.isTemporaryEffect(effect.duration)) {
 			sb.append(' ');
 			sb.append(res.getString(R.string.iteminfo_effect_duration, effect.duration));
