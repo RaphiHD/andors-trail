@@ -25,6 +25,12 @@
             android:padding="@dimen/dialog_margin" >
 
             <TextView
+                android:id="@+id/actorconditioninfo_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/section_margin" />
+
+            <TextView
                 android:id="@+id/actorconditioninfo_category"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -38,6 +38,10 @@ public final class ActorConditionInfoActivity extends AndorsTrailBaseActivity {
 		tv.setText(conditionType.name);
 		world.tileManager.setImageViewTile(getResources(), tv, conditionType);
 
+		TextView descriptionTv = (TextView) findViewById(R.id.actorconditioninfo_description);
+		if(conditionType.description != null && !conditionType.description.isEmpty()) descriptionTv.setText(conditionType.description);
+		else descriptionTv.setVisibility(View.GONE);
+
 		Button b = (Button) findViewById(R.id.actorconditioninfo_close);
 		b.setOnClickListener(new OnClickListener() {
 			@Override

@@ -10,6 +10,7 @@ public final class ActorConditionType {
 
 	public final String conditionTypeID;
 	public final String name;
+	public final String description;
 	public final int iconID;
 	public final ConditionCategory conditionCategory;
 	public final boolean isStacking;
@@ -21,6 +22,7 @@ public final class ActorConditionType {
 	public ActorConditionType(
 			String conditionTypeID
 			, String name
+			, String description
 			, int iconID
 			, ConditionCategory conditionCategory
 			, boolean isStacking
@@ -31,6 +33,7 @@ public final class ActorConditionType {
 	) {
 		this.conditionTypeID = conditionTypeID;
 		this.name = name;
+		this.description = description;
 		this.iconID = iconID;
 		this.conditionCategory = conditionCategory;
 		this.isStacking = isStacking;
