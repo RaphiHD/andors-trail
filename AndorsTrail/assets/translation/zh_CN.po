@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-27 12:00+0000\n"
+"PO-Revision-Date: 2024-12-29 18:05+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -446,7 +446,7 @@ msgstr "埃利萨拉之焕"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
-msgstr "醺眩"
+msgstr "晃眩"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -20154,7 +20154,7 @@ msgstr "看到我戴的这个护身符了吗？这是马罗坦特。"
 
 #: conversationlist_lleglaris.json:lleglaris2:2
 msgid "See this ring that I am wearing? This is the Ring of lesser Shadow."
-msgstr "看到我戴的这枚戒指了吗？这可是“少许暗影之戒”。"
+msgstr "看到我戴的这枚戒指了吗？这可是“次分暗影之戒”。"
 
 #: conversationlist_lleglaris.json:lleglaris2:3
 msgid "I was the one who helped solve the mystery in Loneford."
@@ -21518,7 +21518,7 @@ msgstr "我可以处理好自己的事情!"
 
 #: conversationlist_lowyna.json:lowyna_6:1
 msgid "Two-teeth sent me to get some rat poison."
-msgstr "两颗牙齿让我去拿一些老鼠药。"
+msgstr "两颗牙让我去拿一些老鼠药。"
 
 #: conversationlist_lowyna.json:lowyna_7
 msgid "Hah! How about no?"
@@ -21526,7 +21526,7 @@ msgstr "哈!不怎么样？"
 
 #: conversationlist_lowyna.json:lowyna_8
 msgid "I'm amazed he's still around, good old two-teeth."
-msgstr "我很惊讶他还在，好个老两颗牙齿。"
+msgstr "他还待在这里可真是令人惊讶，那个年迈的好伙计，两颗牙。"
 
 #: conversationlist_lowyna.json:lowyna_9
 msgid "For his sake, I'll let you browse my wares."
@@ -22149,7 +22149,7 @@ msgstr "呵呵。是的，你可以。但这就是这一切的魅力所在!"
 
 #: conversationlist_twoteeth.json:twoteeth_11
 msgid "Good. Tell her two-teeth sent you."
-msgstr "好的。告诉她是两颗牙齿让你来的。"
+msgstr "好，告诉她是两颗牙让你来的。"
 
 #: conversationlist_twoteeth.json:twoteeth_12
 msgid "Oh sure! It's perfectly safe. Har har."
@@ -26684,7 +26684,8 @@ msgstr "我从未见过戒指制造商。"
 
 #: conversationlist_guynmart_npc.json:guynmart_wizard_42
 msgid "You and Andor are different. You will be legendary. Well do I know your deeds! And I even heard rumors that you gained the legends of legends, the mighty Ring of lesser Shadow!"
-msgstr "你与安道尔不同，那就是你将成为传奇，我很清楚你的事迹！我甚至听传言说，你拥有那枚号称“传奇中的传奇”的少许暗影之戒！"
+msgstr "你与安道尔不同，那就是你将成为传奇，我很清楚你的事迹！我甚至听传言说，你拥有"
+"那枚号称“传奇中的传奇”的次分暗影之戒！"
 
 #: conversationlist_guynmart_npc.json:guynmart_wizard_50
 msgid ""
@@ -26693,7 +26694,7 @@ msgid ""
 "You are lucky indeed."
 msgstr ""
 "我可以靠一些骨粉药水来把它改进得更为强大，效果性质相似但更为强力。它将变成\n"
-"** 超少暗影之戒**。\n"
+"** 超分暗影之戒**。\n"
 "说实话你确实很幸运。"
 
 #: conversationlist_guynmart_npc.json:guynmart_wizard_54
@@ -63812,7 +63813,7 @@ msgstr "100金币"
 #: conversationlist_feygard_1.json:swamp_witch_20_222:1
 #: conversationlist_feygard_1.json:swamp_witch_20_222:2
 msgid "My Ring of the Lesser Shadow"
-msgstr "我的少许暗影之戒"
+msgstr "我的次分暗影之戒"
 
 #: conversationlist_feygard_1.json:swamp_witch_20_222:3
 msgid "A quick death"
@@ -63872,8 +63873,8 @@ msgstr ""
 
 #: conversationlist_feygard_1.json:swamp_witch_checkkill_20
 msgid "The life of this lonely swamp witch was somehow sad. Fortunately for her, it is now over."
-msgstr "这位孤独的沼泽女巫的一生某种意义上挺可悲的。现在一切都结束了，对她来说也不妨"
-"是种幸运。"
+msgstr "这位沼泽女巫的孤独生活不知何故让你感到一丝伤感。而现在一切都结束了，这对她来"
+"说也不妨是种幸运。"
 
 #: conversationlist_feygard_1.json:swamp_witch_checkkill_22
 msgid "You try not to think about it anymore."
@@ -63897,59 +63898,59 @@ msgstr "啊——好暖好惬意。"
 
 #: conversationlist_feygard_1.json:tobby_help_10
 msgid "Wait! Hey kid, please help me!"
-msgstr "等等！嘿，孩子，请帮帮我！"
+msgstr "请等一下！嘿，孩子，请帮帮我！"
 
 #: conversationlist_feygard_1.json:tobby_1
 msgid "Oh good, somebody comes to help me. Hey kid!"
-msgstr "哦，太好了，有人来帮我。嘿，孩子！"
+msgstr "哦，太好了，有人来帮我了。嘿，孩子！"
 
 #: conversationlist_feygard_1.json:tobby_2
 msgid "I am Tobby. Please, you must help me."
-msgstr "我是托比。求求你，你必须帮帮我。"
+msgstr "我叫托比。求求你，请帮帮我吧。"
 
 #: conversationlist_feygard_1.json:tobby_2:0
 msgid "I am $playername. What can I do for you?"
-msgstr "我是$playername。我能为你做什么？"
+msgstr "我叫$playername。那我能为你做什么呢？"
 
 #: conversationlist_feygard_1.json:tobby_3
 msgid "I can't seem to find my brother, Sobby. He hasn't been back since he left last year."
-msgstr "我好像找不到我弟弟，索比。自从去年离开后，他就再也没有回来过。"
+msgstr "我哥哥好像失踪了，他叫索比。自去年离开后，他就再也没有回来过。"
 
 #: conversationlist_feygard_1.json:tobby_3:0
 msgid "Never mind, he will probably not be back too soon."
-msgstr "没关系，他可能不会很快回来。"
+msgstr "别担心，说不定再等上一阵子他就回来了。"
 
 #: conversationlist_feygard_1.json:tobby_10
 msgid "My father had sent me to look for him. But I dare not pass the kobolds in the ravine."
-msgstr "我父亲派我去找他。但我不敢经过峡谷里的狗头人。"
+msgstr "于是乎我父亲把我派出去找他，不过那边峡谷里全是狗头人，我还是不太敢穿过去。"
 
 #: conversationlist_feygard_1.json:tobby_10:0
 msgid "You are sure your brother went that way?"
-msgstr "你确定你哥哥走那条路了？"
+msgstr "你确定你哥哥是往这个方向去的吗？"
 
 #: conversationlist_feygard_1.json:tobby_12
 msgid "Absolutely. Once he was told of a lovely village hidden in the forest to the southeast."
-msgstr "当然。有一次，他听说东南方森林里有一个可爱的村庄。"
+msgstr "非常确定。有一次，他听说东南方的某片森林里有一处美丽小村潜藏其中。"
 
 #: conversationlist_feygard_1.json:tobby_14
 msgid "Since then not a single day passed when he didn't talk about it."
-msgstr "从那以后，他没有一天不谈论这件事。"
+msgstr "从那以后，他没有一天不把它挂在嘴边。"
 
 #: conversationlist_feygard_1.json:tobby_16
 msgid "And now he is gone."
-msgstr "现在他走了。"
+msgstr "然后他现在消失了。"
 
 #: conversationlist_feygard_1.json:tobby_16:0
 msgid "And you neither dare pass the kobolds, nor tell your father that you give up."
-msgstr "你既不敢越过狗头人，也不敢告诉你父亲你放弃了。"
+msgstr "所以说，你现在既不敢从那群狗头人中穿过去，又不敢告诉你父亲你想放弃。"
 
 #: conversationlist_feygard_1.json:tobby_18
 msgid "Well, yes."
-msgstr "嗯，是的。"
+msgstr "呃，是。"
 
 #: conversationlist_feygard_1.json:tobby_19
 msgid "You have come from the south, so you know how to pass these nasty kobolds, right?"
-msgstr "你来自南方，所以你知道如何通过这些讨厌的狗头人，对吧？"
+msgstr "你是南边来的，所以你应该知道如何通过这群讨厌的狗头人，对吧？"
 
 #: conversationlist_feygard_1.json:tobby_19:0
 msgid "Well, OK. I'll help you."
@@ -63957,27 +63958,27 @@ msgstr "好吧，我来帮你。"
 
 #: conversationlist_feygard_1.json:tobby_20
 msgid "I am glad you want to help me."
-msgstr "我很高兴你想帮助我。"
+msgstr "我很高兴你愿意帮助我。"
 
 #: conversationlist_feygard_1.json:tobby_20:0
 msgid "Sure thing. We brother-seekers must stand together."
-msgstr "当然。我们兄弟寻求者必须站在一起。"
+msgstr "举手之劳，我和你都在找自己的哥哥，我们互帮互助理所应当。"
 
 #: conversationlist_feygard_1.json:tobby_22
 msgid "I want to get some provisions from the house, just a second ..."
-msgstr "我想从家里拿些食物，等一下。。。"
+msgstr "那个，我得到家里拿些口粮带着，请稍微等一下……"
 
 #: conversationlist_feygard_1.json:tobby_22:0
 msgid "Go ahead, I'll wait and when you are ready, you can follow me. We will head south."
-msgstr "去吧，我等着，等你准备好了，你可以跟我来。我们向南走。"
+msgstr "去吧，我在这等着，等你准备好后，直接跟在我后面就行了，我带你往南走。"
 
 #: conversationlist_feygard_1.json:tobby_22:1
 msgid "OK. And tell your father that his rat problem is solved."
-msgstr "好的。告诉你爸爸他的老鼠问题解决了。"
+msgstr "好的，另外记得告诉你父亲，老鼠的问题已经解决掉了。"
 
 #: conversationlist_feygard_1.json:tobby_22:2
 msgid "OK. And bring your father this loaf of bread."
-msgstr "好的。把这条面包带给你爸爸。"
+msgstr "好的，另外记得把这条面包带给你父亲。"
 
 #: conversationlist_feygard_1.json:tobby_30
 msgid "Oh, how did you know?"
@@ -63985,15 +63986,15 @@ msgstr "哦，你怎么知道的？"
 
 #: conversationlist_feygard_1.json:tobby_30:0
 msgid "I just had an inspiration."
-msgstr "我刚刚得到了一个灵感。"
+msgstr "灵光一闪罢了。"
 
 #: conversationlist_feygard_1.json:tobby_30:1
 msgid "Also here, bring him a loaf of bread."
-msgstr "还有，给他拿条面包来。"
+msgstr "还有，把这条面包带给你父亲。"
 
 #: conversationlist_feygard_1.json:tobby_32
 msgid "Now I'm speechless - thank you!"
-msgstr "现在我无话可说了——谢谢你！"
+msgstr "你都搞得我一时不知道说什么好了——太谢谢你了！"
 
 #: conversationlist_feygard_1.json:tobby2
 msgid "Ouch, my toes!"
@@ -64001,43 +64002,43 @@ msgstr "哎哟，我的脚趾！"
 
 #: conversationlist_feygard_1.json:tobby2:1
 msgid "Booh!"
-msgstr "嘘！"
+msgstr "滚！"
 
 #: conversationlist_feygard_1.json:tobby2:2
 msgid "Go away, or I have to kill you."
-msgstr "走开，否则我必须杀了你。"
+msgstr "滚开，否则我就杀了你。"
 
 #: conversationlist_feygard_1.json:tobby2_1
 msgid "No, I can't!"
-msgstr "不，我不能！"
+msgstr "不，我做不到！"
 
 #: conversationlist_feygard_1.json:tobby2_1:0
 msgid "I'll show you - attack!"
-msgstr "我给你看——进攻！"
+msgstr "那你就瞧好了——接招！"
 
 #: conversationlist_feygard_1.json:tobby2_1:1
 msgid "Then try harder."
-msgstr "那就更加努力。"
+msgstr "那就精神点。"
 
 #: conversationlist_feygard_1.json:tobby2_2
 msgid "Tobby cried out aloud and ran away like the wind. You monster!"
-msgstr "托比大叫一声，像风一样跑开了。你这个怪物！"
+msgstr "托比直接哭了出来，然后像风一样跑开了。你这个家伙！"
 
 #: conversationlist_feygard_1.json:tobby5_1
 msgid "Wow, that was an adventure!"
-msgstr "哇，那真是一次冒险！"
+msgstr "哇，这可以说是一场冒险了！"
 
 #: conversationlist_feygard_1.json:tobby5_1:0
 msgid "Was it? I have got used to such things by now."
-msgstr "是吗？我现在已经习惯了这些事情。"
+msgstr "是吗？这种事情现在对我来说已经是家常便饭了。"
 
 #: conversationlist_feygard_1.json:tobby5_10
 msgid "I think that I'll find Sobby by myself now. Thank you - hope we'll meet again!"
-msgstr "我想我现在可以自己去找索比了。谢谢，希望我们能再见面！"
+msgstr "我想我现在可以独自去找索比了。谢谢你——希望我们未来能再次见面！"
 
 #: conversationlist_feygard_1.json:tobby6
 msgid "Hey $playername - great to see you again!"
-msgstr "嘿$playername -很高兴再次见到你！"
+msgstr "嘿，$playername——很高兴能再次见到你！"
 
 #: conversationlist_feygard_1.json:tobby6:0
 msgid "Tobby? What are you doing here?"
@@ -64045,47 +64046,47 @@ msgstr "托比？你在这里干什么？"
 
 #: conversationlist_feygard_1.json:tobby6_10
 msgid "Thanks to you I have found my brother Sobby."
-msgstr "多亏了你，我找到了我的兄弟索比。"
+msgstr "多亏了你，我现在找到了我的哥哥索比。"
 
 #: conversationlist_feygard_1.json:tobby6_10:0
 msgid "Two-teeth ... is your brother?!"
-msgstr "两颗牙齿。。。是你弟弟吗？！"
+msgstr "两颗牙……是你哥哥？！"
 
 #: conversationlist_feygard_1.json:tobby6_20
 msgid "Well, due to his rat poison he has lost a few things in here ..."
-msgstr "好吧，由于他的老鼠药，他在这里丢了一些东西。。。"
+msgstr "呃，由于他服用了好久的老鼠药，他丢掉了一些东西……"
 
 #: conversationlist_feygard_1.json:tobby6_22
 msgid "like his gold, his memory, most of his teeth ..."
-msgstr "就像他的金子，他的记忆，他的大部分牙齿。。。"
+msgstr "比方说他的随身财物，他的记忆，以及大部分牙齿……"
 
 #: conversationlist_feygard_1.json:tobby6_30
 msgid "But yes - of course this is Sobby, my brother! Don't you see how we look alike?"
-msgstr "但是，是的，这当然是索比，我的兄弟！你没看见我们长得很像吗？"
+msgstr "不过就算如此，我敢肯定他就是索比，我的哥哥！你没发现我俩长得很像吗？"
 
 #: conversationlist_feygard_1.json:fallhaven_coup_62
 msgid "Hey, the window won't open. I hope Athamyr has a good excuse for that."
-msgstr "嘿，窗户打不开。我希望阿萨米尔有个好借口。"
+msgstr "嘿，窗户打不开。我希望阿萨米尔对此能有个好解释。"
 
 #: conversationlist_feygard_1.json:fallhaven_clothes_coup_20
 msgid "Now look what we have found here! The famous Jewel of Fallhaven."
-msgstr "现在看看我们在这里发现了什么！著名的法尔海文珠宝。"
+msgstr "瞧瞧我们发现了啥！是大名鼎鼎的法尔海文之宝。"
 
 #: conversationlist_feygard_1.json:fallhaven_clothes_coup_20:0
 msgid "Take it."
-msgstr "拿着。"
+msgstr "拿了。"
 
 #: conversationlist_feygard_1.json:fallhaven_clothes_coup_20:1
 msgid "Leave it."
-msgstr "离开它。"
+msgstr "走了。"
 
 #: conversationlist_feygard_1.json:fallhaven_clothes_coup_30
 msgid "Softly, softly now. We don't want to rush the tailor... Got it."
-msgstr "温柔地，现在温柔地。我们不想催裁缝。。。知道了。"
+msgstr "动作再缓一点，再缓一点。我们可不能让裁缝给撞…到手了。"
 
 #: conversationlist_feygard_1.json:fallhaven_clothes_coup_40
 msgid "Great. Now let's leave quickly."
-msgstr "太棒了。现在让我们快点离开。"
+msgstr "很好，现在我们得尽快开溜了。"
 
 #: conversationlist_feygard_1.json:boat0
 msgid "Hi kid. You look curious. Want to try boating?"
@@ -66492,7 +66493,7 @@ msgstr "双手剑"
 
 #: itemcategories_1.json:bsword
 msgid "Broadsword"
-msgstr "宽剑"
+msgstr "阔剑"
 
 #: itemcategories_1.json:axe
 msgid "Axe"
@@ -67319,7 +67320,7 @@ msgstr "哈伦的戒指"
 
 #: itemlist_v069_2.json:rusted_iron_sword
 msgid "Rusted iron sword"
-msgstr "生锈的铁剑"
+msgstr "生锈铁剑"
 
 #: itemlist_v069_2.json:broken_buckler
 msgid "Broken wooden buckler"
@@ -67327,7 +67328,7 @@ msgstr "破损的木盾"
 
 #: itemlist_v069_2.json:used_gloves
 msgid "Blood-stained gloves"
-msgstr "沾血的手套"
+msgstr "沾血手套"
 
 #: itemlist_v0610_1.json:gloves_critical
 msgid "Assassin's gloves"
@@ -67351,7 +67352,7 @@ msgstr "优质木棒"
 
 #: itemlist_v0610_1.json:axe_fine_iron
 msgid "Fine iron axe"
-msgstr "优质的铁斧"
+msgstr "优质铁斧"
 
 #: itemlist_v0610_1.json:longsword_hard_iron
 msgid "Hardened iron longsword"
@@ -67359,19 +67360,19 @@ msgstr "硬化铁长剑"
 
 #: itemlist_v0610_1.json:broadsword_fine_iron
 msgid "Fine iron broadsword"
-msgstr "优质的铁宽剑"
+msgstr "优质铁阔剑"
 
 #: itemlist_v0610_1.json:dagger_sharp_steel
 msgid "Sharp steel dagger"
-msgstr "锋利的钢匕首"
+msgstr "锋利钢匕首"
 
 #: itemlist_v0610_1.json:sword_balanced_steel
 msgid "Balanced steel sword"
-msgstr "均衡的钢剑"
+msgstr "匀质钢剑"
 
 #: itemlist_v0610_1.json:broadsword_fine_steel
 msgid "Fine steel broadsword"
-msgstr "优质的钢宽剑"
+msgstr "优质钢阔剑"
 
 #: itemlist_v0610_1.json:sword_defenders
 msgid "Defender's blade"
@@ -67383,7 +67384,7 @@ msgstr "恶棍之刃"
 
 #: itemlist_v0610_1.json:sword_challengers
 msgid "Challenger's iron sword"
-msgstr "挑战者的铁剑"
+msgstr "挑战者铁剑"
 
 #: itemlist_v0610_1.json:sword_fencing
 msgid "Fencing blade"
@@ -67403,15 +67404,15 @@ msgstr "碎颅者"
 
 #: itemlist_v0610_1.json:shield_crude_wooden
 msgid "Crude wooden buckler"
-msgstr "粗糙的木盾"
+msgstr "粗糙木质圆盾"
 
 #: itemlist_v0610_1.json:shield_cracked_wooden
 msgid "Cracked wooden buckler"
-msgstr "破裂的木盾"
+msgstr "破裂木质圆盾"
 
 #: itemlist_v0610_1.json:shield_wooden_buckler
 msgid "Second-hand wooden buckler"
-msgstr "二手木盾"
+msgstr "二手木质圆盾"
 
 #: itemlist_v0610_1.json:shield_wooden
 msgid "Wooden shield"
@@ -67419,7 +67420,7 @@ msgstr "木盾"
 
 #: itemlist_v0610_1.json:shield_wooden_defender
 msgid "Wooden defender"
-msgstr "木制守护盾"
+msgstr "木制防御盾"
 
 #: itemlist_v0610_1.json:hat_hard_leather
 msgid "Hardened leather cap"
@@ -67431,55 +67432,55 @@ msgstr "优质皮帽"
 
 #: itemlist_v0610_1.json:hat_leather_vision
 msgid "Leather cap of reduced vision"
-msgstr "遮挡视野的皮帽"
+msgstr "挡眼皮帽"
 
 #: itemlist_v0610_1.json:helm_crude_iron
 msgid "Crude iron helmet"
-msgstr "粗糙的铁头盔"
+msgstr "粗糙铁头盔"
 
 #: itemlist_v0610_1.json:shirt_torn
 msgid "Torn shirt"
-msgstr "破衬衫"
+msgstr "破烂衬衫"
 
 #: itemlist_v0610_1.json:shirt_weathered
 msgid "Weathered shirt"
-msgstr "风化衬衫"
+msgstr "旧化衬衫"
 
 #: itemlist_v0610_1.json:shirt_patched_cloth
 msgid "Patched cloth shirt"
-msgstr "打补丁的布衬衫"
+msgstr "补丁布衫"
 
 #: itemlist_v0610_1.json:armour_crude_leather
 msgid "Crude leather armor"
-msgstr "粗糙的皮革盔甲"
+msgstr "粗糙皮甲"
 
 #: itemlist_v0610_1.json:armour_firm_leather
 msgid "Firm leather armor"
-msgstr "坚固的皮革盔甲"
+msgstr "坚固皮甲"
 
 #: itemlist_v0610_1.json:armour_rigid_leather
 msgid "Rigid leather armor"
-msgstr "坚硬的皮甲"
+msgstr "坚硬皮甲"
 
 #: itemlist_v0610_1.json:armour_rigid_chain
 msgid "Rigid chain mail"
-msgstr "坚硬的锁甲"
+msgstr "坚硬锁子甲"
 
 #: itemlist_v0610_1.json:armour_superior_chain
 msgid "Superior chain mail"
-msgstr "卓越的锁甲"
+msgstr "上好锁子甲"
 
 #: itemlist_v0610_1.json:armour_chain_champ
 msgid "Champion's chain mail"
-msgstr "冠军锁甲"
+msgstr "优胜锁子甲"
 
 #: itemlist_v0610_1.json:armour_leather_villain
 msgid "Villain's leather armor"
-msgstr "恶棍的皮甲"
+msgstr "恶棍皮甲"
 
 #: itemlist_v0610_1.json:armour_misfortune
 msgid "Leather shirt of misfortune"
-msgstr "不幸的皮衬衫"
+msgstr "不幸皮衫"
 
 #: itemlist_v0610_1.json:gloves_barbrawler
 msgid "Bar brawler's gloves"
@@ -73871,7 +73872,7 @@ msgstr "提基"
 
 #: monsterlist_v070_npcs.json:twoteeth
 msgid "Two-teeth"
-msgstr "两颗牙齿"
+msgstr "两颗牙"
 
 #: monsterlist_pathway_fallhaven.json:guard_pathway
 msgid "Watchman"
@@ -76416,7 +76417,7 @@ msgstr "幼小暗黑爬怪"
 
 #: monsterlist_feygard_1.json:murkcrawler
 msgid "Murkcrawler"
-msgstr "暗黑爬怪"
+msgstr "混沌爬怪"
 
 #: monsterlist_feygard_1.json:grass_spider
 msgid "Grass spider"
@@ -78517,7 +78518,9 @@ msgstr "甜甜的老鼠药"
 
 #: questlist_v070_lowyna.json:lowyna:10
 msgid "Among some huts to the west of the Duleian road, I met a man called two-teeth. He wants me to go get him something called Rat poison from Lowyna. I can find her in one of the other huts."
-msgstr "在杜莱恩路西边的一些木屋中，我遇到了一个叫两颗牙齿的人。他想让我去给他找一种叫 \"老鼠药 \"的东西，从洛伊娜那里。我可以在其他的一个木屋里找到她。"
+msgstr ""
+"在杜莱恩路西边的一些木屋中，我遇到了一个叫两颗牙的人。他想让我去给他找一种叫 "
+"\"老鼠药 \"的东西，从洛伊娜那里。我可以在其他的一个木屋里找到她。"
 
 #: questlist_v070_lowyna.json:lowyna:20
 msgid "Lowyna will now allow me to trade with her."
@@ -78525,7 +78528,7 @@ msgstr "洛伊娜现在允许我与她进行交易。"
 
 #: questlist_v070_lowyna.json:lowyna:40
 msgid "I have given some rat poison to two-teeth."
-msgstr "我给两颗牙齿下了一些老鼠药。"
+msgstr "我给两颗牙下了一些老鼠药。"
 
 #: questlist_v070_lowyna.json:lleglaris
 msgid "Long lost memories"
@@ -82024,7 +82027,7 @@ msgstr "现在一切又秩序井然了，囚犯回到了狱房里，而恶魔履
 
 #: questlist_laeroth.json:lae_centaurs
 msgid "Not Pony Island"
-msgstr "并非小马国"
+msgstr "并非小马之国"
 
 #: questlist_laeroth.json:lae_centaurs:10
 msgid "The island west of Remgard was inhabited by centaurs who were very angry about your visit. They told me to seek out their leader, Thalos. He should be in the northeast of the island."
@@ -82101,31 +82104,33 @@ msgstr "林中稠雾"
 
 #: questlist_feygard_1.json:fogmonster:5
 msgid "You had entered a very unnatural looking fog and decided to find the source of it. Maybe you could lift the fog?"
-msgstr "你进入了一片看起来很不自然的雾中，决定找到它的源头。也许你可以把雾驱散？"
+msgstr "你走入了一片迷雾中，这雾看起来并不是天然产生的。于是乎你决定去寻找雾的源头，"
+"也许如此你就能找到办法把它驱散掉？"
 
 #: questlist_feygard_1.json:fogmonster:10
 msgid "After you chased away a fog monster, the fog suddenly dissipated."
-msgstr "你赶走雾怪后，雾突然消散了。"
+msgstr "你赶走雾怪后，周围的雾突然就消散了。"
 
 #: questlist_feygard_1.json:fogmonster:20
 msgid "Another fog monster guarded the footbridge to the hut. As long as there was still fog somewhere around the hut, you couldn't drive it away."
-msgstr "另一个雾怪守卫着通往小屋的人行天桥。只要小屋周围还有雾，你就无法把它赶走。"
+msgstr "有个雾怪守卫着一条通往一间小屋子的短桥。只要小屋周边区域还有雾气，你就赶不走"
+"它。"
 
 #: questlist_feygard_1.json:fogmonster:30
 msgid "In the hut you encountered a terrifying looking witch."
-msgstr "在小屋里，你遇到了一个长相可怕的女巫。"
+msgstr "在小屋里，你遇到了一个凶神恶煞的女巫。"
 
 #: questlist_feygard_1.json:fogmonster:70
 msgid "You defeated the old witch in battle, so she can't create a new fog."
-msgstr "你在战斗中打败了老巫婆，所以她不能制造新的雾。"
+msgstr "你在战斗中打败了那个老巫婆，如此就再也没有新的迷雾被召出来了。"
 
 #: questlist_feygard_1.json:fogmonster:80
 msgid "You were able to convince the witch Mim to keep the road clear of fog."
-msgstr "你成功地说服了女巫米姆，让道路远离雾气。"
+msgstr "你成功地说服了女巫米姆，让大路上不再出现雾气了。"
 
 #: questlist_feygard_1.json:fogmonster:90
 msgid "You convinced the witch Mim to replace the fog with a distraction spell."
-msgstr "你说服了女巫米姆用分心咒语代替雾。"
+msgstr "你说服了女巫米姆用驱离咒语来代替浓雾。"
 
 #: questlist_feygard_1.json:fogmonster:92
 msgid "Madame Mim gave you a bottle of her swamp water."
@@ -82133,7 +82138,7 @@ msgstr "米姆夫人给了你一瓶她的沼泽水。"
 
 #: questlist_feygard_1.json:tobby
 msgid "Sobby's Trail"
-msgstr "索比的足迹"
+msgstr "索比追踪"
 
 #: questlist_feygard_1.json:tobby:10
 msgid "On the road to Feygard I have met a boy named Tobby. He is looking for his brother Sobby."
