@@ -387,21 +387,21 @@ public final class DebugInterface {
 				,new DebugButton("#5", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "island1", "south2", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "waytogalmore1", "entrance2", 0, 0);
 			}
 		})
 
 				,new DebugButton("#6", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothmanor1", "down2", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "galmore_32", "south", 19, 0);
 			}
 		})
 
 				,new DebugButton("#7", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "final_cave1", "up", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "cabin_norcity_road1", "north", 5, 0);
 			}
 		})
 
