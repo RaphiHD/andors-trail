@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-30 19:00+0000\n"
+"PO-Revision-Date: 2024-12-30 22:17+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -52595,91 +52595,105 @@ msgstr "Czy możesz mi opowiedzieć o swojej 'umowie handlowej' z 'pośrednikami
 #: conversationlist_sullengard.json:sullengard_mayor_no_letter_delivered
 msgid "Why have you not delivered my letter to Kealwea yet?"
 msgstr ""
+"Czemu do tej pory nie zaniosłeś mojego listu do Kealwea jak o to prosiłem?"
 
 #: conversationlist_sullengard.json:sullengard_mayor_no_letter_delivered:0
 msgid "How did you know that?"
-msgstr ""
+msgstr "Skąd to wiesz?"
 
 #: conversationlist_sullengard.json:sullengard_mayor_letter_delivered
 msgid "Thank you for delivering my letter to Kealwea."
-msgstr ""
+msgstr "Dziękuję za dostraczenie mojego listu do Kealwea."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_32
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_15
 msgid "What else can you tell me?"
-msgstr ""
+msgstr "Czy możesz powiedzieć mi coś jeszcze?"
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_32:0
 msgid "I know that the thieves guild are the ones helping the people of Sullengard distribute their beer."
 msgstr ""
+"Dowiedziałem się, że to Gildia Złodziei pomaga mieszkańcom Sullengardu w "
+"sprzedaży piwa."
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_generic
 msgid "[Under your feet you notice a freshly dug hole, but you resist the urge and say to yourself: \"What am I doing? I am too old to play in the dirt. I need to focus on finding Andor.\"]"
 msgstr ""
+"[Pod stopami dostrzegasz świeżo wykopaną dziurę, ale powstrzymujesz "
+"ciekawość i mówisz do siebie: „Co ja robię? Jestem już za stary, żeby bawić "
+"się w błocie. Muszę skupić się na znalezieniu Andora.”]"
 
 #: conversationlist_sullengard.json:hamerick_0
 msgid "Hey there. Not to be rude, but can you please move along? I have lots to do before the beer festival begins."
 msgstr ""
+"Hej Ty. Nie chcę być nieuprzejmy, ale czy mógłbyś łaskawie się przesunąć? "
+"Mam jeszcze dużo do zrobienia, a muszę zdążyć ze wszystkim zanim zacznie się "
+"festiwal piwa."
 
 #: conversationlist_sullengard.json:hamerick_0:0
 msgid "Oh, I'm sorry to bother you."
-msgstr ""
+msgstr "Och, przepraszam, że Ci przeszkadzam."
 
 #: conversationlist_sullengard.json:sullengard_courtyard_girl
 msgid "Hello. We are just playing, but mother doesn't like us to play in the courtyard."
 msgstr ""
+"Cześć. Nasza mama nie lubi, gdy bawimy się na naszym podwórku, więc robimy "
+"to tutaj."
 
 #: conversationlist_sullengard.json:sullengard_courtyard_girl:0
 msgid "Maybe you should listen to her?"
-msgstr ""
+msgstr "A może powinnaś jej posłuchać?"
 
 #: conversationlist_sullengard.json:sullengard_courtyard_kids
 msgid "Maybe you should mind your own business and let us play?"
-msgstr ""
+msgstr "A może powinieneś pilnować swojego nosa i pozwolić nam grać?"
 
 #: conversationlist_sullengard.json:sullengard_courtyard_boy_0
 msgid "Hello. We are just playing here in the courtyard. We like to jump over and off of the benches."
 msgstr ""
+"Cześć. My tylko bawimy się na tym dziedzińcu. Lubimy sobie poskakać po "
+"ławkach."
 
 #: conversationlist_sullengard.json:sullengard_courtyard_boy_0:0
 msgid "Well, maybe you shouldn't do that? It's not safe."
-msgstr ""
+msgstr "Cóż, a może nie powinieneś tego robić? To nie jest do końca bezpieczne."
 
 #: conversationlist_sullengard.json:sullengard_cat_0
 msgid "Roar!"
-msgstr ""
+msgstr "Mrauuu!"
 
 #: conversationlist_sullengard.json:sullengard_cat_0:0
 msgid "\"Roar\"? How big do you think you are?"
-msgstr ""
+msgstr "Jakie 'mrauu'. Myślisz że jesteś groźny?"
 
 #: conversationlist_sullengard.json:sullengard_cat_seeker_0
 msgid "Hey there. You haven't seen my cat by any chance have you?"
-msgstr ""
+msgstr "Hej, Ty. Czy nie widziałeś przypadkiem mojego kota?"
 
 #: conversationlist_sullengard.json:sullengard_cat_seeker_0:0
 msgid "What does your cat look like?"
-msgstr ""
+msgstr "A jak wygląda Twój kot?"
 
 #: conversationlist_sullengard.json:sullengard_cat_seeker_10
 msgid "He is entirely white. He looks look a fresh coat of snow."
-msgstr ""
+msgstr "Jest cały biały. Tak biały jak świeża warstwa śniegu."
 
 #: conversationlist_sullengard.json:sullengard_cat_seeker_10:0
 msgid "Oh, yes, in fact I have! He is over there. [Pointing to the southeast.]"
 msgstr ""
+"A tak, widziałem takiego! Tam był. [Pokazujesz palcem na południowy wschód.]"
 
 #: conversationlist_sullengard.json:sullengard_cat_seeker_10:1
 msgid "[Lie] No, I have not."
-msgstr ""
+msgstr "[Kłamiesz] Nie widziałem go."
 
 #: conversationlist_sullengard.json:sullengard_cat_seeker_10:2
 msgid "No, I have not. Sorry."
-msgstr ""
+msgstr "Przykro mi ale go nie widziałem."
 
 #: conversationlist_sullengard.json:sullengard_cat_seeker_20
 msgid "Oh, thank you so much!"
-msgstr ""
+msgstr "Och, dziękuję Ci bardzo!"
 
 #: conversationlist_sullengard.json:sullengard_citizen_0
 msgid "Are you here for the beer festival?"
@@ -52711,7 +52725,9 @@ msgstr "Słyszałeś o nim!?"
 
 #: conversationlist_sullengard.json:sullengard_citizen_andor_20
 msgid "Maybe, but I'm not really sure. I think you should ask Mayor Ale."
-msgstr "Może, ale nie jestem pewien. Myślę, że powinieneś zapytać burmistrza Ale."
+msgstr ""
+"Być może, ale nie jestem do końca pewien. Myślę, że powinieneś zapytać "
+"burmistrza Ale."
 
 #: conversationlist_sullengard.json:sullengard_citizen_andor_20:1
 msgid "Well you were nothing but a tease. Thanks a lot!"
@@ -52732,14 +52748,21 @@ msgstr "Cień? Czy on kiedyś coś dla mnie zrobił?"
 #: conversationlist_sullengard.json:sullengard_town_clerk_0
 msgid "Hello. I am Maddalena, the town hall clerk. If you are looking for Mayor Ale, he's back there trying to look busy."
 msgstr ""
+"Cześć. Mam na imię Maddalena i pracuję w tym ratuszu. Jeśli szukasz "
+"burmistrza Ale, to jest tam z tyłu i jak zwykle stara się wyglądać na "
+"zarobionego po uszy."
 
 #: conversationlist_sullengard.json:sullengard_town_clerk_10
 msgid "If you are here about a tax complaint or a land dispute, then please sign in and I will get to you momentarily."
 msgstr ""
+"Jeśli przybyłeś tutaj w związku z zażaleniem na wysokość podatku lub sporem "
+"dotyczącym ziemi, to wpisz się tutaj, a ja już za chwilę zajmę się Twoją "
+"sprawą."
 
 #: conversationlist_sullengard.json:sullengard_godrey_10a
 msgid "Sure. Look at the table over there. He is my best customer at he moment."
 msgstr ""
+"Pewnie. Spójrz tylko na tamten stół. To mój najlepszy klient w tej chwili."
 
 #: conversationlist_sullengard.json:sullengard_ravine_ledge_10b
 msgid ""
@@ -52762,29 +52785,32 @@ msgstr "Wynoś się. Nie wracaj tu dopóki nie dowiesz się co oznacza szacunek.
 #: conversationlist_haunted_forest.json:daw_haunted_enterance
 msgid "As you approach, the hair stands up on the back of your neck and you get a sudden and intense fear sensation and decide that now is not your time to go any further."
 msgstr ""
+"Gdy tylko podchodzisz bliżej, to od razu włosy na karku stają Ci dęba, a "
+"Ciebie ogarnia nagłe i intensywne uczucie strachu. Myślisz sobie, że w sumie "
+"to jeszcze nie nadszedł czas, aby pójść dalej."
 
 #: conversationlist_haunted_forest.json:gabriel_shh
 msgid "Shh!"
-msgstr ""
+msgstr "Ciii!"
 
 #: conversationlist_haunted_forest.json:gabriel_shh:0
 #: conversationlist_mt_galmore.json:blue_cat_blue:0
 #: conversationlist_laeroth.json:gylew_attack
 msgid "What? Why?"
-msgstr ""
+msgstr "Co? Czemu?"
 
 #: conversationlist_haunted_forest.json:gabriel_shh:1
 #: conversationlist_haunted_forest.json:gabriel_daw_10:0
 msgid "[You just nod up and down]"
-msgstr ""
+msgstr "[W ciszy kiwasz głową w górę i w dół]"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10
 msgid "Do you hear it?"
-msgstr ""
+msgstr "Słyszysz to?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10:1
 msgid "[Lie] Umm I sure do."
-msgstr ""
+msgstr "[Kłamiesz] Aha, coś słyszę."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10:2
 msgid "No, sir, I do not."
