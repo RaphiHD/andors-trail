@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-30 22:17+0000\n"
+"PO-Revision-Date: 2025-01-01 19:00+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -52814,233 +52814,270 @@ msgstr "[Kłamiesz] Aha, coś słyszę."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10:2
 msgid "No, sir, I do not."
-msgstr ""
+msgstr "Nic nie słyszę."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10_rec
 msgid "Speak, child."
-msgstr ""
+msgstr "Mów, moje dziecko."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20
 msgid "What do you hear?"
-msgstr ""
+msgstr "Co słyszysz?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20:0
 msgid "The Shadow. It talks to me too."
-msgstr ""
+msgstr "Cień. On też do mnie mówi."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20:1
 msgid "The birds are singing today. I also like to listen to them."
-msgstr ""
+msgstr "Ptaki dziś tak pieknie śpiewają. Także uwielbiam ich słuchać."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20_lie
 msgid "You lie!"
-msgstr ""
+msgstr "Ty oszuście!"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20_birds
 msgid "No! Not that."
-msgstr ""
+msgstr "Nie! To nie to."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_30
 msgid "It's coming from over there. [He points east]"
-msgstr ""
+msgstr "Te odgłosy dochodzą stamtąd. [Pokazuje na wschód]"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_35
 msgid "Clear your mind and you will hear it."
-msgstr ""
+msgstr "Oczyść swój umysł, a na pewno wszystko usłyszysz."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_35:0
 msgid "You are crazy. I'm out of here."
-msgstr ""
+msgstr "Jesteś szalony. Idę jak najdalej stąd."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_35:1
 msgid "How do I clear my mind?"
-msgstr ""
+msgstr "Jak mam oczyścić swój umysł?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_40
 msgid "Close your eyes."
-msgstr ""
+msgstr "Zamknij oczy."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_40:0
 msgid "Yeah, you're scaring me. Maybe I'll come back later."
-msgstr ""
+msgstr "Taa, zaczynasz mnie przerażać. Przejdę się i zajrzę tu później."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_40:1
 msgid "Sure. I'll close my eyes now, but don't try anything that you will regret."
 msgstr ""
+"No dobra. Zamknę teraz oczy, ale Ty nie próbuj w tym czasie zrobić niczego, "
+"czego mógłbyś potem żałować."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_50
 msgid "Do you hear it now?"
-msgstr ""
+msgstr "A teraz słyszysz?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_50:0
 msgid "Yes, I think so. It sounds like moaning of some kind."
-msgstr ""
+msgstr "Tak, myślę, że coś słyszę. Brzmi to jak jakieś jęczenie."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_60
 msgid "Yes! Finally. Someone else that can hear it."
-msgstr ""
+msgstr "Nareszcie! W końcu usłyszał to ktoś inny."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_60:0
 msgid "This is scaring me. I'm going home to father."
-msgstr ""
+msgstr "To mnie przeraża. Wracam do domu, do tatusia."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_70
 msgid "I have no idea and the other villagers think I am crazy. Do you think I'm crazy?"
 msgstr ""
+"Nie mam pomysłu co to może być a pozostali mieszkańcy mają mnie za wariata. "
+"Czy Ty też myślisz, że jestem stuknięty?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_70:0
 msgid "Maybe, but I'm intrigued, so I will say 'no'."
 msgstr ""
+"Odnoszę takie wrażenie, ale z uwagi na to, że mnie zaciekawiłeś swoją "
+"historią to powiem 'nie'."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_70:1
 msgid "Oh, absolutely."
-msgstr ""
+msgstr "Ależ oczywiście że tak."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_80
 msgid "OK. I fear that whatever it is, it is coming for this church and the village."
 msgstr ""
+"W porządku. Boję się, bo cokolwiek by to nie było, to powoli zbliża się do "
+"tego kościoła i wioski."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_85
 msgid "I am not an adventurer, and I am certainly not a fighter."
-msgstr ""
+msgstr "Nie jestem poszukiwaczem przygód a już na pewno nie wojownikiem."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_85:0
 msgid "Obviously"
-msgstr ""
+msgstr "To widać"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90
 msgid "I need someone willing and able. Will you go investigate the noise and stop it if it is a threat?"
 msgstr ""
+"Potrzebuję kogoś chętnego i zdolnego. Czy mógłbyś sprawdzić co jest źródłem "
+"hałasu i ewentualnie powstrzymać to, jeśli jest zagrożeniem?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90:0
 msgid "Of course. Anything for the Shadow."
-msgstr ""
+msgstr "Oczywiście. Dla Cienia wszystko."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90:1
 msgid "If there is a reward, why not?"
-msgstr ""
+msgstr "Jeśli wiąże się z tym jakaś nagroda to czemu by nie?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90:2
 msgid "I don't think I am ready. "
-msgstr ""
+msgstr "Nie sądzę abym był gotów. "
 
 #: conversationlist_haunted_forest.json:gabriel_daw_100
 msgid "Outstanding. Report back to me when you are done."
-msgstr ""
+msgstr "Jesteś wielki. Wróć tu gdy zakończysz swą misję."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete
 msgid "Why are you still here when the noises persist?"
-msgstr ""
+msgstr "Hałasy nie ustały a ty wciąż tu jesteś?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete:0
 msgid "Can you explain to me again what it is that you want me to do?"
-msgstr ""
+msgstr "Czy możesz mi jeszcze raz wyjaśnić co mam zrobić?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete:1
 msgid "You're not the boss of me, Shadow man. I will address your problem when I am ready to do so."
 msgstr ""
+"Nie jesteś moim wodzem, wyznawco Cienia. Zajmę się twoim problemem, kiedy "
+"uznam to za stosowne."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete_10
 msgid "The noise, my child! It's coming from over there. [He points east]"
-msgstr ""
+msgstr "Hałas, moje dziecko! Dochodzi stamtąd. [Pokazuje na wschód]"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete_20
 msgid "I asked you to go investigate the noise and stop it if it is a threat"
 msgstr ""
+"Prosiłem Cię, abyś zbadał źródło tego dziwnego hałasu i ewentualnie go "
+"powstrzymał, jeśli będzie stanowił zagrożenie"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete_20:0
 msgid "Oh yeah. Sorry. I will get on top of that right away."
-msgstr ""
+msgstr "Ach tak, rzeczywiście. Przepraszam. Biorę się za to w tym momencie."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_0
 msgid "The noise, it's gone! Was it you? Did you stop it?"
 msgstr ""
+"Nie ma hałasu, wszystko ucichło! Czy to byłeś ty? Czy powstrzymałeś to coś?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_0:0
 msgid "Yes. It was me."
-msgstr ""
+msgstr "Tak, to byłem ja."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_10
 msgid "Well, for that, I am eternally grateful."
-msgstr ""
+msgstr "Cóż, za ten czyn jestem Ci dozgonnie wdzięczny."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_10:0
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_40:0
 msgid "How 'grateful' are you?"
-msgstr ""
+msgstr "Jak bardzo 'wdzięczny' jesteś?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_10:1
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_40:1
 msgid "I will do anything for the Shadow."
-msgstr ""
+msgstr "Dla Cienia zrobię wszystko."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_15
 msgid "I will get to that momentarily."
-msgstr ""
+msgstr "Wkrótce się tym zajmę."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_13
 msgid "Thank you, my child."
-msgstr ""
+msgstr "Dziękuję Ci, moje dziecko."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_20
 msgid "Please tell me what was causing the noise?"
-msgstr ""
+msgstr "Powiedz, proszę co powodowało te dziwne dźwięki?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_20:0
 msgid "A demonic creature and its minions rose from their graves and were roaming the forest."
 msgstr ""
+"To była jakaś demoniczna istota i jej powstałe z grobów sługi, które "
+"włóczyły się po pobliskim lesie."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_30:0
 msgid "They inhabited this abandoned house in the forest and were doing some sort of ritual. I think that they were planning to make Vilegard their first victims"
 msgstr ""
+"Istoty zajęły jakiś opuszczony dom i odprawiały w nim pewien rodzaj rytuału. "
+"Myślę, że planowały uczynić mieszkańców Vilegard swymi pierwszymi ofiarami"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_40
 msgid "This is indeed alarming. But we are so grateful for your work here."
 msgstr ""
+"To rzeczywiście bardzo niepokojące. Ale jesteśmy bardzo wdzięczni za to, co "
+"zrobiłeś."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_50
 msgid "Very! In fact, here are 3000 gold pieces for all your trouble."
 msgstr ""
+"Bardzo! Jako dowód wdzięczności oraz w podziękowaniu za cały wysiłek jaki "
+"włożyłeś w rozwiązanie tej sprawy, chciałbym dać Ci 3000 złotych monet."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_49
 msgid "Walk with the Shadow, my child."
-msgstr ""
+msgstr "Podążaj z Cieniem, moje dziecko."
 
 #: conversationlist_haunted_forest.json:haunted_house_basement_script_10
 msgid "Just as you reach the bottom step, you look across the room to see this demonic creature. It does not see you as it's looking towards the ground."
 msgstr ""
+"Gdy tylko schodzisz na najniższy stopień schodów, rozglądasz się po "
+"pomieszczeniu i widzisz jakąś demoniczną istotę. Ona nie widzi Cię, ponieważ "
+"ma wzrok skierowany ku podłodze."
 
 #: conversationlist_haunted_forest.json:haunted_house_basement_script_20
 msgid "It begins to bring its arms and head straight up towards the ceiling while moaning and speaking in a language that you do not understand. When all of a sudden it notices your presence and begins to drop it's arm and points directly at you."
 msgstr ""
+"Istota powoli zaczyna podnosić ramiona i głowę do góry, równocześnie jęcząc "
+"i mówiąc w języku, którego nie rozumiesz. Przez moment wpatruje się w sufit, "
+"aż nagle zauważa twoją obecność i wtedy zaczyna opuszczać ramię, wskazując "
+"bezpośrednio na Ciebie."
 
 #: conversationlist_haunted_forest.json:haunted_house_basement_script_30
 msgid "Again, yelling in a language that you do not understand. You begin to tremble in fear."
 msgstr ""
+"Ponownie zaczyna krzyczeć w języku, którego nie rozumiesz. Zaczynasz drżeć "
+"ze strachu."
 
 #: conversationlist_haunted_forest.json:haunted_forest_discovery_script_10
 msgid "As you enter this dark place, you suspect that you are getting closer to the sounds heard by Gabriel as the moaning is much louder now."
 msgstr ""
+"Wchodząc do tego ciemnego miejsca słyszysz coraz głośniejsze jęki, więc "
+"zaczynasz podejrzewać, że zbliżasz się do źródła dźwięków słyszanych przez "
+"Gabriela."
 
 #: conversationlist_haunted_forest.json:road2_daw_10
 msgid "You stick your head between the trees."
-msgstr ""
+msgstr "Twoja głowa utknęła pomiędzy drzewami."
 
 #: conversationlist_haunted_forest.json:road2_daw_10:0
 msgid "What an eerie sound ..."
-msgstr ""
+msgstr "Co za przerażający dźwięk..."
 
 #: conversationlist_haunted_forest.json:road2_daw_20
 msgid "Now you notice that the moaning heard by Gabriel is a little louder here."
-msgstr ""
+msgstr "Zauważasz, że jęki słyszane przez Gabriela są tutaj nieco głośniejsze."
 
 #: conversationlist_haunted_forest.json:road5_daw_10
 msgid "As you stick your head between the trees, you feel a burst of cold air and a shiver goes down your body"
 msgstr ""
+"Gdy tylko wtykasz głowę pomiędzy drzewa, to od razu czujesz podmuch zimnego "
+"powietrza i dreszcz przechodzi Ci po całym ciele"
 
 #: conversationlist_haunted_forest.json:road5_daw_10:0
 msgid "This doesn't feel right! I should get out of here now."
-msgstr ""
+msgstr "To nie wygląda zbyt dobrze! Powinienem się stąd natychmiast wydostać."
 
 #: conversationlist_haunted_forest.json:road5_daw_10:1
 msgid "I should stick around a little bit longer."
