@@ -293,7 +293,7 @@
     <string name="iteminfo_effect_works_on_target">目标获得</string>
     <string name="iteminfo_effect_works_on_source">获得</string>
     <string name="iteminfo_effect_duration">（%1$d回合）</string>
-    <string name="iteminfo_effect_chance_of">%1$s的几率获得%2$s</string>
+    <string name="iteminfo_effect_chance_of">%1$s机率的%2$s</string>
     <string name="actorcondition_info_immunity">免疫%1$s</string>
     <string name="actorcondition_info_removes_all">移除所有%1$s</string>
     <string name="actorinfo_currentconditions">当前状态</string>
@@ -458,12 +458,12 @@
     <string name="skill_longdescription_taunt">攻击没有命中时，攻击者有%1$d%%概率失去%2$dAP。这适用于所有对你的混战攻击。</string>
     <string name="skill_shortdescription_taunt">攻击者在未命中时失去AP</string>
     <string name="skill_title_taunt">寻衅引怒</string>
-    <string name="skill_longdescription_rejuvenation">每回合（6秒），有%1$d%%几率使一个当前的负面状态被降低一级。这适用于影响身体的所有临时效果类型；精神状态如眩晕，物理状态如疲劳，血液状态如中毒。</string>
+    <string name="skill_longdescription_rejuvenation">每回合（6秒），有%1$d%%的机率使一个当前的负面状态被降低一级。这适用于影响身体的所有临时效果类型；精神状态如眩晕，物理状态如疲劳，血液状态如中毒。</string>
     <string name="skill_shortdescription_rejuvenation">有概率移除负面状态</string>
     <string name="skill_title_rejuvenation">脱然焕发</string>
-    <string name="skill_longdescription_crit2">每一次成功的暴击都会有%1$d %% 几率给目标附加折伤状态。这会大大降低目标的防守性作战能力，使其在随后的攻击中防御能力下降。</string>
+    <string name="skill_longdescription_crit2">每一次成功的暴击都会有%1$d %%的机率给目标附加折伤状态。这会大大降低目标的防守性作战能力，使其在随后的攻击中防御能力下降。</string>
     <string name="skill_shortdescription_crit2">有概率附加骨折</string>
-    <string name="skill_longdescription_crit1">每一次成功的暴击都会有%1$d%% 几率给目标附加内出血状态。这会大大降低目标的攻击性性作战能力，使其更难攻击成功。</string>
+    <string name="skill_longdescription_crit1">每一次成功的暴击都会有%1$d%%的机率给目标附加内出血状态。这会大大降低目标的攻击性性作战能力，使其更难攻击成功。</string>
     <string name="skill_shortdescription_crit1">有概率附加内出血</string>
     <string name="loadsave_save_overwrite_confirmation_title">覆盖存档？</string>
     <string name="loadsave_save_to_new_slot">创建新的存档槽</string>
@@ -525,10 +525,10 @@
     <string name="skill_shortdescription_resistance_blood_disorder">抵抗血液类负面状态</string>
     <string name="skill_shortdescription_resistance_physical_capacity">抵抗物理类负面状态</string>
     <string name="skill_shortdescription_resistance_mental">抵抗精神类负面状态</string>
-    <string name="skill_shortdescription_magicfinder">增加找到魔法物品的几率</string>
+    <string name="skill_shortdescription_magicfinder">增加找到魔法物品的机率</string>
     <string name="skill_shortdescription_lower_exploss">减少死亡时经验值损失</string>
     <string name="skill_shortdescription_regeneration">每回合恢复生命值</string>
-    <string name="skill_shortdescription_evasion">增加逃跑几率</string>
+    <string name="skill_shortdescription_evasion">增加逃跑机率</string>
     <string name="skill_shortdescription_fortitude">每次等级提升后增加更多生命值</string>
     <string name="skill_shortdescription_eater">每次击杀敌人后恢复HP</string>
     <string name="skill_shortdescription_cleave">每次击杀敌人后恢复AP</string>
