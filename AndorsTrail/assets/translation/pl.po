@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-02 20:00+0000\n"
-"Last-Translator: Filip <filip987654321a@gmail.com>\n"
+"PO-Revision-Date: 2025-01-03 21:01+0000\n"
+"Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
 "Language: pl\n"
@@ -15939,15 +15939,19 @@ msgstr ""
 #: conversationlist_gylew.json:gylew:8
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:8
 msgid "We have no more business to discuss. I'll see you later."
-msgstr ""
+msgstr "Nie mamy już więcej spraw do omówienia. Zobaczymy się później."
 
 #: conversationlist_gylew.json:gylew:10
 msgid "I was glad to help fulfill you and your father's dream, but I need to go now."
 msgstr ""
+"Cieszę się, że mogłem pomóc spełniając marzenie Twoje i Twojego ojca, ale "
+"niestety muszę już iść."
 
 #: conversationlist_gylew.json:gylew:11
 msgid "[Lie]I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them."
 msgstr ""
+"[Kłamstwo]Mam monety z brązu i srebra, które 'wygrałem' na loterii. "
+"Chciałbym wiedzieć, czy jesteś nimi zainteresowany."
 
 #: conversationlist_gylew.json:gylew_henchman
 msgid "Hey, I'm trying to admire the view here. Get out of my way."
@@ -18731,7 +18735,7 @@ msgstr "Tu spoczywa Sir Karthanir z domu Gellir. Syn Sir Anarogasa oraz młodszy
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3:0
 msgid "There is the ladder. [Fetch it]"
-msgstr ""
+msgstr "Jest i drabina. [Postaw ją]"
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave4
 msgid "Here lies Lady Gelythus of house Gellir. Wife of Sir Eneryth of house Gellir."
@@ -18917,7 +18921,7 @@ msgstr "Na ścianie widzisz tablicę z napisem: Przynieś mi to, czego nie mogę
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3_10
 #: conversationlist_v0612graves.json:
 msgid "You place the ladder below the tiny window."
-msgstr ""
+msgstr "Ustawiasz drabinę pod małym okienkiem."
 
 #: conversationlist_agthor.json:agthor0
 msgid "Hello there. Please move along. These things are property of Feygard, and you have no business here."
@@ -27972,7 +27976,7 @@ msgstr "Tak. Kilku wędrowców już do niej weszło i nikt ich już więcej nie 
 
 #: conversationlist_guynmart2_npc.json:guynmart_roadguard_20:0
 msgid "But ... which fog?"
-msgstr ""
+msgstr "Ale... jaka mgła?"
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_14
 msgid "Welcome! Nice to see you again."
@@ -44242,10 +44246,12 @@ msgstr "Proszę, mam tu 10 całkiem ładnych kawałków mięsa. Nie mogę Ci jed
 #: conversationlist_gison.json:gael_20_6:2
 msgid "Here, I have 10 nice pieces of lamb meat for you. Maybe not as good as snake though."
 msgstr ""
+"Oto dziesięć całkiem ładnych sztuk jagnięciny dla Ciebie. Może nie tak dobre "
+"jak mięso węża, ale zawsze coś."
 
 #: conversationlist_gison.json:gael_20_6:3
 msgid "Here, I have 8 nice pieces of snake meat for you."
-msgstr ""
+msgstr "Mam dla Ciebie osiem ładnych kawałków mięsa z węża."
 
 #: conversationlist_gison.json:gael_20_7
 msgid "Excellent! In return, I can give you this nice little purse, made of the finest snake leather. Look here, isn't it beautiful?"
@@ -44704,7 +44710,7 @@ msgstr "Jeszcze raz dziękuję za pomoc!"
 
 #: conversationlist_gorwath.json:arensia
 msgid "Hello, dear."
-msgstr ""
+msgstr "Cześć skarbie."
 
 #: conversationlist_gorwath.json:arensia:0
 #: conversationlist_gorwath.json:arensia_1:1
@@ -44718,15 +44724,15 @@ msgstr "Cześć. Zastanawiam się, czy nie mógłbyś przypadkiem mi pomóc?"
 
 #: conversationlist_gorwath.json:arensia:2
 msgid "You seem tired. Is everything alright?"
-msgstr ""
+msgstr "Wyglądasz na zmęczoną. Czy wszystko w porządku?"
 
 #: conversationlist_gorwath.json:arensia:3
 msgid "About the lytwings ..."
-msgstr ""
+msgstr "Odnośnie Lytwingów ..."
 
 #: conversationlist_gorwath.json:arensia:4
 msgid "Have the lytwings honored their word?"
-msgstr ""
+msgstr "Czy Lytwingi dotrzymały słowa?"
 
 #: conversationlist_gorwath.json:arensia_done
 msgid "What a beautiful day, isn't it?"
@@ -53211,47 +53217,47 @@ msgstr "Hej - te posągi nie są prawdziwe! Możemy po prostu przejść przez ni
 #: conversationlist_ratdom.json:ratdom_646_statues_10:0
 #: conversationlist_ratdom.json:ratdom_646_statues_12:0
 msgid "That's eery."
-msgstr ""
+msgstr "To straszne."
 
 #: conversationlist_ratdom.json:ratdom_646_statues_12
 msgid "These statues are not real, you can just move through them."
-msgstr ""
+msgstr "Te posągi nie są prawdziwe, można po prostu przez nie przejść."
 
 #: conversationlist_ratdom.json:ratdom_646_statues_20
 msgid "These statues always give me a shudder when I pass through them."
-msgstr ""
+msgstr "Mam zawsze ciarki na plecach gdy przechodzę obok tych posągów."
 
 #: conversationlist_ratdom.json:ratdom_check_backbone_10
 msgid "You wonder why you have found some rat bones in a library."
-msgstr ""
+msgstr "Zastanawiasz się, dlaczego znalazłeś kości szczura w bibliotece."
 
 #: conversationlist_ratdom.json:ratdom_check_backbone_20
 #: conversationlist_ratdom.json:ratdom_goldhunter_bone_reminder_20
 msgid "Why didn't you take the bones with you?"
-msgstr ""
+msgstr "Dlaczego nie zabrałeś kości ze sobą?"
 
 #: conversationlist_ratdom.json:ratdom_check_backbone_20:0
 #: conversationlist_ratdom.json:ratdom_goldhunter_bone_reminder_20:0
 msgid "What bones?"
-msgstr ""
+msgstr "Jakich kości?"
 
 #: conversationlist_ratdom.json:ratdom_check_backbone_22
 #: conversationlist_ratdom.json:ratdom_goldhunter_bone_reminder_22
 msgid "Oh man, to make matters worse, he's blind."
-msgstr ""
+msgstr "Pięknie, żeby było lepiej to na dodatek jest ślepy."
 
 #: conversationlist_ratdom.json:ratdom_check_backbone_26
 msgid "I should take a closer look at the library."
-msgstr ""
+msgstr "Powinienem przyjrzeć się bliżej tej bibliotece."
 
 #: conversationlist_ratdom.json:ratdom_artefact_la_10
 #: conversationlist_ratdom_npc.json:ratdom_rat_240:1
 msgid "Wait ..."
-msgstr ""
+msgstr "Czekaj ..."
 
 #: conversationlist_ratdom.json:ratdom_artefact_la_10:0
 msgid "Clevred! What's wrong with you?"
-msgstr ""
+msgstr "Clevred! Coś Ci się stało?"
 
 #: conversationlist_ratdom.json:ratdom_artefact_la_12
 msgid "I got a serious blow. These roundlings were too much. I feel my end coming ... "
@@ -82358,10 +82364,12 @@ msgstr ""
 #: questlist_lytwings.json:fallhaven_lytwings:101
 msgid "I could not take the absurd errands any more. I am no longer helping Arensia with her lytwing problem."
 msgstr ""
+"Nie byłem już w stanie dłużej zajmować się tak bezsensownymi zadaniami. Nie "
+"pomagam już Arensii w rozwiązaniu jej problemów z Lytwingami."
 
 #: questlist_lytwings.json:fallhaven_lytwings:102
 msgid "I lied to Arensia's and kept her mother's ring for myself."
-msgstr ""
+msgstr "Okłamałem Arensię i zatrzymałem pierścień jej matki dla siebie."
 
 #: questlist_lytwings.json:fallhaven_lytwings:103
 msgid "Arensia gave me her magical promise ring as reward for helping her."
@@ -82382,7 +82390,7 @@ msgstr "Lutnik"
 
 #: worldmap.xml:ratdom_level_5:ratdom_maze_skeleton_dance
 msgid "Skeleton dance"
-msgstr ""
+msgstr "Taniec szkieletów"
 
 #: worldmap.xml:ratdom_level_5:ratdom_maze_museum
 msgid "Museum"
