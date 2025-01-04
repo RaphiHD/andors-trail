@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-01 19:00+0000\n"
+"PO-Revision-Date: 2025-01-04 18:12+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -64464,23 +64464,24 @@ msgstr "没什么特别的，我该出发了。"
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_examine_1:1
 msgid "This well seems oddly intact compared to the rest of the village. I wonder what's at the bottom of it?"
-msgstr "与村里的其他地方相比，这口井似乎完好无损。我想知道它的底部是什么？"
+msgstr "与村里其他地方相比，这口井似乎太完好了。是不是井底藏有什么玄机？"
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_examine_2
 msgid "You notice some scattered items around the well, as if someone has been throwing things down. Do you want to throw something into the well?"
-msgstr "你注意到井周围有一些散落的东西，好像有人在扔东西。你想把什么东西扔进井里吗？"
+msgstr "你注意到井的周围散落着些许小物件，似乎是有人曾往井里扔过东西。你想也尝试一下"
+"，往里边扔点东西吗？"
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_examine_2:0
 msgid "No. Why would I want to play a kids game?"
-msgstr "不，我为什么要玩儿童游戏？"
+msgstr "不想，我为什么要搞得跟调皮的小孩子一样？"
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_examine_2:1
 msgid "I hope this doesn't come back to hurt me somehow..."
-msgstr "我希望这件事不会伤害到我。"
+msgstr "愿我不会因此而搞到最后真掉块肉……"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something
 msgid "You are thinking to yourself now. Trying to decide what you want to throw down into the well..."
-msgstr "你现在在自言自语。试着决定你想往井里扔什么。。。"
+msgstr "你正内心思索着，思索到底丢什么东西到井里……"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something:0
 msgid "[Throw a rock into the well]"
@@ -64488,34 +64489,34 @@ msgstr "[往井里扔块石头]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something:1
 msgid "[Throw an Oegyth Crystal]"
-msgstr "[投掷奥格斯晶体]"
+msgstr "[扔块奥格斯晶体]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something:2
 msgid "[Throw Glass gem]"
-msgstr "[投掷玻璃宝石]"
+msgstr "[扔块玻璃宝石]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something:3
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_2:3
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_3:3
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_4:1
 msgid "[Throw gold coin]"
-msgstr "[投掷金币]"
+msgstr "[扔枚金币]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something:4
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_2:4
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_3:4
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_4:2
 msgid "I have nothing else that I am willing to throw down there."
-msgstr "我没有别的东西愿意扔在那里。"
+msgstr "我可没别的什么东西愿意丢进去了。"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_rock
 msgid "Bah! Rock no good! Why throw rock at Gamjee?"
-msgstr "呸！破石头！为什么要向甘吉扔石头？"
+msgstr "啊！一块破石头！为什么要向甘吉扔石头？"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_oegyth
 #: _crystal
 msgid "Glowing thing... pretty, but useless! Gamjee no care for it!"
-msgstr "发光的东西。。。漂亮，但没用！甘吉不在乎！"
+msgstr "一块发光的石头……真漂亮，但也仅此而已！甘吉用不上它！"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_glass_gem
 #: conversationlist_feygard_1.json:wexlow_well_throw_psg
@@ -67136,7 +67137,7 @@ msgstr "石板监狱典狱长的项链"
 
 #: itemlist_quest.json:packhide
 msgid "Wolfpack's animal hide"
-msgstr "狼群的动物皮"
+msgstr "狼群的兽皮"
 
 #: itemlist_quest.json:sword_flagstone
 msgid "Flagstone's pride"
