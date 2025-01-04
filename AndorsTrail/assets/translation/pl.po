@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-03 21:01+0000\n"
+"PO-Revision-Date: 2025-01-04 18:12+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -53262,48 +53262,58 @@ msgstr "Clevred! Coś Ci się stało?"
 #: conversationlist_ratdom.json:ratdom_artefact_la_12
 msgid "I got a serious blow. These roundlings were too much. I feel my end coming ... "
 msgstr ""
+"Jestem ciężko ranny. Te kulostwory były jednak zbyt mocne. Czuję, że "
+"nadchodzi mój koniec ... "
 
 #: conversationlist_ratdom.json:ratdom_artefact_la_12:0
 msgid "No, I will give you a healing potion!"
-msgstr ""
+msgstr "Nie poddawaj się, zaraz podam Ci uzdrawiającą miksturę!"
 
 #: conversationlist_ratdom.json:ratdom_artefact_la_14
 msgid ""
 "Too late, I feel my end coming ... Take my artifact ... and use it wisely. Farewell ...\n"
 "[You get an item]"
 msgstr ""
+"Jest już za późno, czuję, że koniec jest już blisko... Weź mój artefakt... i "
+"użyj go mądrze. Żegnaj...\n"
+"[Zyskujesz przedmiot]"
 
 #: conversationlist_ratdom.json:ratdom_artefact_la_20
 msgid "A long time ago you asked me how to get out of here. Go home, take a nap and you will find out."
 msgstr ""
+"Kiedyś spytałeś mnie, jak się stąd wydostać. Idź do domu, zdrzemnij się, a "
+"wtedy znajdziesz wyjście."
 
 #: conversationlist_ratdom.json:ratdom_artefact_la_30
 msgid "Good bye, my friend."
-msgstr ""
+msgstr "Żegnaj przyjacielu."
 
 #: conversationlist_ratdom.json:ratdom_artefact_la_30:0
 msgid "Good bye. * Sob *"
-msgstr ""
+msgstr "Żegnaj. *szloch*"
 
 #: conversationlist_ratdom.json:ratdom_artefact_lc_10
 msgid "The big yellow cheese now weighs heavily in your bag. Small consolation for the loss of a friend, though."
 msgstr ""
+"Czujesz w torbie ciężar wielkiego, żółtego sera. Mała to pociecha po stracie "
+"przyjaciela."
 
 #: conversationlist_ratdom.json:ratdom_artefact_lc_10:0
 msgid "Sigh. Clevred, I will miss you."
-msgstr ""
+msgstr "Ech, żegnaj Clevred. Będzie mi Ciebie brakowało."
 
 #: conversationlist_ratdom.json:ratdom_artefact_ld_10
 msgid "The artifact was taken back obviously by the roundlings."
 msgstr ""
+"Artefakt został zabrany z powrotem, najprawdopodobniej przez kulostwory."
 
 #: conversationlist_ratdom.json:ratdom_artefact_ld_10:0
 msgid "Sigh. Back into the maze, I fear."
-msgstr ""
+msgstr "Ech. Coś czuję, że muszę wrócić do labiryntu."
 
 #: conversationlist_ratdom.json:ratdom_artefact_lk_10
 msgid "[singing] Oh my round, oh my yellow, greatest joy on earth!"
-msgstr ""
+msgstr "[śpiewa] Och jaki okrągły, och jaki żółty, największa radość na ziemi!"
 
 #: conversationlist_ratdom.json:ratdom_artefact_lk_10:0
 msgid "Do you think the roundlings will chase us anymore?"
@@ -82418,7 +82428,7 @@ msgstr "Cztery studnie"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_roundlings_area
 msgid "Roundlings"
-msgstr ""
+msgstr "Kulostwory"
 
 #: worldmap.xml:world1:crossglen
 msgid "Crossglen"
