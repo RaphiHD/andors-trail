@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-04 18:12+0000\n"
+"PO-Revision-Date: 2025-01-05 22:01+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -15927,7 +15927,7 @@ msgstr "嘿，我现在得跟着地图出发了。"
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:7
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:9
 msgid "I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical."
-msgstr "你看这些会发光的硬币，它们是我在维克斯罗的村井附近的一个坑道里找到的，上面似"
+msgstr "你看这些会发光的硬币，它们是我在维克斯罗的村井附近的一个大坑里找到的，上面似"
 "乎有魔法。"
 
 #: conversationlist_gylew.json:gylew:8
@@ -39795,7 +39795,7 @@ msgstr "没有必要。我一会儿就回来。"
 #: conversationlist_feygard_1.json:swamp_witch_20_24
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_2:0
 msgid "And?"
-msgstr "还有呢？"
+msgstr "嗯哼？"
 
 #: conversationlist_brimhaven2.json:brv_wh_boss_52:0
 msgid "I shall find them in the right order: Pair after pair."
@@ -50350,7 +50350,7 @@ msgstr "就你的回报而言，我现在愿意与你买卖和交易。请看一
 #: conversationlist_feygard_1.json:gamjee_well_osric_1:0
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_5:0
 msgid "Sounds good."
-msgstr "听起来不错。"
+msgstr "这听起来不错。"
 
 #: conversationlist_sullengard.json:script_sullengard_woods14_10
 msgid "Pick the poisonous mushroom?"
@@ -64521,85 +64521,87 @@ msgstr "一块发光的石头……真漂亮，但也仅此而已！甘吉用不
 #: conversationlist_feygard_1.json:wexlow_well_throw_glass_gem
 #: conversationlist_feygard_1.json:wexlow_well_throw_psg
 msgid "Very shiny! Sparkly! But still not make Gamjee happy!"
-msgstr "非常闪亮！闪闪发光！但仍然不能让甘吉高兴！"
+msgstr "好闪！好亮！但它还不能让甘吉高兴！"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_coin
 msgid "Shiny coin? Gamjee not need your shiny! Keep your gold!"
-msgstr "闪闪发亮的硬币?甘吉不需要你的闪亮！留着你的黄金吧！"
+msgstr "一枚闪闪发亮的硬币？甘吉不需要你的闪亮！你的金币自己留着吧！"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_2
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_3
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_4
 msgid "You are thinking to yourself now. Trying to decide what else you want to throw down into the well..."
-msgstr "你现在在自言自语。试着决定你还想往井里扔什么。。。"
+msgstr "你正内心思索着，思索要再丢什么东西到井里……"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_2:0
 msgid "[Throw a leather boot into the well]"
-msgstr "[把一只皮靴扔进井里]"
+msgstr "[往井里扔只皮靴]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_2:1
 msgid "[Throw an Ruby gem]"
-msgstr "[投掷红宝石]"
+msgstr "[扔块红宝石]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_2:2
 msgid "[Throw Polished gem]"
-msgstr "[投掷抛光宝石]"
+msgstr "[扔块抛光宝石]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_leather_boot
 msgid "A foot thing? What Gamjee do with this? You silly!"
-msgstr "脚上的东西？甘吉拿这个干什么？你这傻瓜！"
+msgstr "一只那种穿脚上的东西？甘吉要这个干什么？你这傻瓜！"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_ruby_gem
 msgid "Red glass thingy? Hmmm... pretty, but not impress Gamjee!"
-msgstr "红色玻璃？嗯……很漂亮，但并没有给甘吉留下深刻印象！"
+msgstr "一块红色的小玻璃？嗯……很漂亮，但甘吉看不上！"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_polished_gem
 msgid "Shiny gem! Nice, but not enough for Gamjee!"
-msgstr "闪闪发光的宝石！不错，但对甘吉来说还不够！"
+msgstr "一枚闪闪发亮的宝石！不错，但对甘吉来说还不够！"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_coin_2
 #: conversationlist_feygard_1.json:wexlow_well_throw_coin_3
 #: conversationlist_feygard_1.json:wexlow_well_throw_coin_4
 msgid "Again, shiny coin? Gamjee not need your shiny trash! Keep your gold!"
-msgstr "再次，闪亮的硬币？甘吉不需要你闪亮的垃圾！保留你的黄金！"
+msgstr "怎么又是硬币？甘吉不需要你那闪亮的垃圾！你的金币自己留着！"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_3:0
 msgid "[Throw a piece of rotten meat into the well]"
-msgstr "[把一块腐烂的肉扔进井里]"
+msgstr "[往井里扔片腐肉]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_3:1
 msgid "[Throw an Sharpened gem]"
-msgstr "[扔一颗磨尖的宝石]"
+msgstr "[扔块尖角宝石]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_3:2
 msgid "[Throw Polished sparkling gem]"
-msgstr "[投掷抛光闪闪发光的宝石]"
+msgstr "[扔块抛光闪亮宝石]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_rotten_meat
 msgid "Ugh! Stinky meat! Gamjee do want! But you rude!"
-msgstr "啊！臭肉！甘吉确实想要！但你太粗鲁了！"
+msgstr "啊！一块发臭的肉！这正是甘吉想要的！但你这行为太粗鲁了！"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something_4:0
 msgid "[Throw a bone into the well]"
-msgstr "[往井里扔一根骨头]"
+msgstr "[往井里扔根骨头]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_sharpened_gem
 msgid "Sharp gem? What Gamjee do with this? You no make sense!"
-msgstr "锋利的宝石?甘吉用这个做什么？你没道理！"
+msgstr "一块锋利的宝石？甘吉要这种东西做什么？你想啥呢！"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_bone
 msgid "Bone?! You mock Gamjee?! Me had enough! Die you will."
-msgstr "骨头？！你嘲笑甘吉？！我受够了！你会死的。"
+msgstr "一根骨头？！你是在戏耍甘吉吗？！我受够了！你的死期到了。"
 
 #: conversationlist_feygard_1.json:wexlow_well_map_change
 msgid "Suddenly, a powerful force grabs you and drags you down into the darkness of the well. You find yourself dazed, confused in a dank, underground cavern while bleeding from what feels like every part of your body."
-msgstr "突然，一股强大的力量抓住你，把你拖进黑暗的井里。你发现自己在潮湿的地下洞穴里"
-"头晕目眩，感到困惑，同时身体的每一个部位都在流血。"
+msgstr ""
+"突然，一股巨力拽住了你，一下把你拖进了那井底的阴影中。当你再次恢复意识时，你"
+"发现自己身处在一个湿漉漉的地下洞穴里。你的脑袋现在还是晕乎乎的，身上每个部件"
+"都仿佛在向外流血。"
 
 #: conversationlist_feygard_1.json:village_odilia_start:0
 #: conversationlist_feygard_1.json:wexlow_osric_start:0
 msgid "How did the troll manage to capture all of you without anyone noticing?"
-msgstr "巨魔是如何在没有人注意到的情况下抓住你们所有人的？"
+msgstr "那巨魔是如何在无人察觉的情况下抓住你们所有人的？"
 
 #: conversationlist_feygard_1.json:village_odilia_start:1
 msgid "What about you? How are you doing?"
@@ -64669,67 +64671,69 @@ msgstr "我想这是有道理的。"
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_1_1
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_1_2
 msgid "As you begin to traverse the tunnels, the dim light and damp air create an eerie atmosphere. Suddenly, you stop in your tracks."
-msgstr "当你开始穿越隧道时，昏暗的光线和潮湿的空气营造出一种诡异的氛围。突然，你停下"
-"了脚步。"
+msgstr "你正准备穿过身前的这条隧洞，黯淡的光丝透过水汽的映射后为此地诡秘的氛围再添一"
+"笔。突然，你停下了脚步。"
 
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_1_1:0
 msgid "[Thinking] Did I just hear... voices? No, it must be the concussion... or just the echoes playing tricks on me."
-msgstr "[思考]我刚才听到。。。声音？不，一定是脑震荡。。。或者只是回声在捉弄我。"
+msgstr "[思索]"
+"我刚才好像听到了……说话声？不对，应该是刚刚脑子震得出幻觉了……又或者只是某种回"
+"声的作用罢了。"
 
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_1_2:0
 msgid "[Thinking] Did I just hear... voices? No, it's just the echoes playing tricks on me."
-msgstr "[思考]我刚才听到。。。声音？不，只是回声在捉弄我。"
+msgstr "[思索]我刚才好像听到了……说话声？不对，应该是某种回声的作用罢了。"
 
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_2_1
 msgid "You press on, the voices you thought you heard earlier seem to be growing louder now. It's hard to tell if they're real or just a figment of your imagination."
-msgstr "你继续，你之前听到的声音现在似乎越来越大了。很难说它们是真的还是你想象中的虚"
-"构。"
+msgstr "你继续前行了一段路，而那先前仿佛之间所听到的说话声现在越来越清晰了，你很难确"
+"定这声音到底是真实存在的，还是仅仅为一阵幻听。"
 
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_2_1:0
 msgid "There it is again... I can't be imagining this, can I? I need to focus."
-msgstr "又来了。。。我无法想象，对吧？我需要集中注意力。"
+msgstr "又来了……这声音应该不是我幻想出来的吧，应该吧？我得再竖起耳朵屏气听听。"
 
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_2_2
 msgid "We have to find a way out... this can't be the end for us."
-msgstr "我们必须找到一条出路。。。这不可能是我们的结局。"
+msgstr "我们必须想个办法逃出去……我们可不能就玩完在这里了。"
 
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_2_3
 msgid "Stay calm, someone will come for us. We must have hope."
-msgstr "保持冷静，有人会来找我们的。我们必须有期望。"
+msgstr "冷静，会有人发现我们的，对此我们必须怀有希望。"
 
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_2_4
 msgid "Do you hear that? I think someone's coming..."
-msgstr "你听到了吗？我想有人要来了。。。"
+msgstr "等下你听到了吗？我想是有人 来了……"
 
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_2_4:0
 msgid "[Thinking] They're real! I must be getting closer to whoever these people are. I need to hurry."
-msgstr "[思考]它们是真实的！我一定越来越接近这些人了。我需要快点。"
+msgstr "[思索]那些声音是真实存在的！不管他们是谁，我都得继续前进，该出发了。"
 
 #: conversationlist_feygard_1.json:gamjee_well_discover_villagers_1
 msgid "You enter a larger cavern, the air thick with moisture and the scent of earth. The tunnel opens up to reveal a vast room, dimly lit by glowing fungi on the walls."
-msgstr "你进入一个更大的洞穴，空气中充满了水分和泥土的味道。隧道打开后，展现出一个巨"
-"大的房间，墙壁上发光的真菌昏暗地照亮了它。"
+msgstr "你进入了一个更大的洞穴，这里弥漫着水汽和泥土混杂的气息。离开隧道后，一片偌大"
+"的岩室一展无遗，岩壁上的荧光蘑菇散发着星星点点的莹莹微光。"
 
 #: conversationlist_feygard_1.json:gamjee_well_discover_villagers_1:0
 msgid "This must be it... the source of those voices."
-msgstr "这一定是…这些声音的来源。"
+msgstr "先前的交谈声……一定就是这里传出来的。"
 
 #: conversationlist_feygard_1.json:gamjee_well_discover_villagers_2
 msgid "As you step further into the room, you notice a large pit in the center, deep below the surface. The voices are clearer now, unmistakably human and filled with fear and hope."
-msgstr "当你进一步走进房间时，你会注意到中心有一个大坑，在表面之下很深。现在声音更清"
-"晰了，毫无疑问是人类的声音，充满了恐惧和希望。"
+msgstr "你向前跨了两步，这时你注意到岩室的中心有一个大坑，还具有一定的深度。现在那些"
+"声音更加清晰了，毫无疑问那是人类的声音，恐惧和希望参杂其中。"
 
 #: conversationlist_feygard_1.json:gamjee_well_discover_villagers_2:0
 msgid "What's this? There are people down there!"
-msgstr "这是什么？下面有人！"
+msgstr "这是什么情况？啊，下面有人！"
 
 #: conversationlist_feygard_1.json:gamjee_well_discover_villagers_3
 msgid "Look! Someone's here! Help us!"
-msgstr "看！有人来了！救救我们！"
+msgstr "看呐！有人来了！请救救我们！"
 
 #: conversationlist_feygard_1.json:gamjee_well_discover_villagers_4
 msgid "We're down here! Please, you have to get us out!"
-msgstr "我们在下面！求你了，你务必把我们救出来！"
+msgstr "我们在下面！拜托了，求你务必把我们救出来！"
 
 #: conversationlist_feygard_1.json:gamjee_well_discover_villagers_5
 msgid "Thank you Feygard, they have found us!"
@@ -64737,11 +64741,11 @@ msgstr "感谢费加德，他们找到我们了！"
 
 #: conversationlist_feygard_1.json:gamjee_well_discover_villagers_5:0
 msgid "[Thinking] I really need to talk to these people."
-msgstr "[思考]我真的需要和这些人谈谈。"
+msgstr "[思索]我最好得与这些人交流一下情况。"
 
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_1
 msgid "Please! We need your help."
-msgstr "拜托！我们需要你的帮助。"
+msgstr "拜托了！我们急需你的帮助。"
 
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_1:0
 msgid "I can see that."
@@ -64749,27 +64753,27 @@ msgstr "我看得出来。"
 
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_2
 msgid "Wait, you are not a Feygard soldier!"
-msgstr "等等，你不是费加德士兵！"
+msgstr "等等，你不是费加德的士兵！"
 
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_2:1
 msgid "No, I am better."
-msgstr "不，我好多了。"
+msgstr "当然不是，我比他们强多了。"
 
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_3
 msgid "No matter! We need you to find a way to free us."
-msgstr "没关系！我们需要你找到一种方法来解放我们。"
+msgstr "啊这不要紧！我们需要你想办法帮我们救出来。"
 
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_3:0
 msgid "How?"
-msgstr "如何?"
+msgstr "咋整?"
 
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_3:1
 msgid "Who are you people?"
-msgstr "你们是谁？"
+msgstr "话说你们是谁啊？"
 
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_3:2
 msgid "How did you guys get down here?"
-msgstr "你们是怎么下来的？"
+msgstr "你们是怎么跑到下面去的？"
 
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_3:3
 msgid "How long have you people been down here?"
@@ -64777,32 +64781,32 @@ msgstr "你们在这里多久了？"
 
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_4
 msgid "Go kill the giant troll that is holding us here. Then come back here to free us."
-msgstr "去杀了把我们关在这里的巨人巨魔。那就回来救我们吧。"
+msgstr "去杀了那个把我们关在这里的巨魔，如此之后你就能回来安稳地把我们救出来了。"
 
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_no
 msgid "What?! No, no, no. I will not talk details right now."
-msgstr "什么？！不，不，不。我现在不谈细节。"
+msgstr "什么？！不，不，不，现在不是讨论这种问题的时候。"
 
 #: conversationlist_feygard_1.json:gamjee_well_post_troll_1
 msgid "Did you find something to free us from this pit?"
-msgstr "你找到什么东西把我们从这个坑里救出来了吗？"
+msgstr "你找到把我们从这个坑里救出来的方法了吗？"
 
 #: conversationlist_feygard_1.json:gamjee_well_post_troll_1:0
 msgid "Matter of fact, I have. But what I have will require a lot of effort on you guys' end."
-msgstr "事实上，我有。但我得到的东西需要你们付出很多努力。"
+msgstr "事实上，我已经找到了，不过这个办法需要你们自己出把力。"
 
 #: conversationlist_feygard_1.json:gamjee_well_post_troll_1:1
 msgid "Not yet, but I'm working on it."
-msgstr "还没有，但我正在努力。"
+msgstr "还没有，但我正在努力中。"
 
 #: conversationlist_feygard_1.json:gamjee_well_post_troll_rescue_1:0
 msgid "It's a rope. I will tie one end to this rock here and throw down the other end to you. I hope you guys have the strength to do it."
-msgstr "这是一根绳子。我会把一端绑在这块石头上，把另一端扔给你。我希望你们有力量去做"
-"。"
+msgstr "这里有一根绳子，我现在把一端绑在这块石头上，然后把另一端抛给你。愿你们都有足"
+"够的力气攀上来。"
 
 #: conversationlist_feygard_1.json:gamjee_well_post_troll_rescue_2
 msgid "We'll do anything. Please go ahead and drop the rope."
-msgstr "我们什么都愿意做。请把绳子放下。"
+msgstr "完全没问题，快把绳子放下来吧。"
 
 #: conversationlist_feygard_1.json:gamjee_well_post_troll_rescue_2:0
 msgid "[Tie the rope to the rock]"
@@ -64815,103 +64819,107 @@ msgstr "我们终于自由了！"
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_1
 #: conversationlist_feygard_1.json:gamjee_villagers_known_1
 msgid "Human, why you come here? Gamjee no hurt you if you leave now."
-msgstr "人类，你为什么来这里？如果你现在离开，甘吉不会伤害你的。"
+msgstr "人类，你为什么来这里？如果你现在就离开，甘吉是不会伤害你的。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_1:0
 msgid "I'm just exploring. Who are you, and why are you here?"
-msgstr "我只是在探索。你是谁，你为什么在这里？"
+msgstr "我只是在四处探索罢了。你是谁，还有你为什么在这里？"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_known_1:0
 msgid "I've found the people you captured. You need to let them go."
-msgstr "我找到了你抓的人。你需要让他们走。"
+msgstr "我找到了那些你抓走的人，我要你现在就放他们走。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_known_1:1
 #: conversationlist_feygard_1.json:gamjee_player_left_after_agreeing_to_help:0
 msgid "I want to help you and the villagers."
-msgstr "我想帮助你和村民。"
+msgstr "我想要帮助你以及那些村民。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_2
 msgid "Gamjee guard well. Humans come, take Gamjee's well, build village. They no ask. They just take. Gamjee scared. Need protect well. You help Gamjee?"
-msgstr "甘吉防守得很好。人类来了，拿走甘吉的井，建造村庄。他们不问。他们只是采取。甘"
-"吉吓坏了。需要好好保护。你帮甘吉？"
+msgstr "甘吉守卫着井，有一天人类来了，把甘吉的井占有了，在四周建了村庄。他们都没有征"
+"求过意见，就直接把它占有了。甘吉害怕了，要保护井。你要帮甘吉？"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_2:0
 msgid "You're afraid they'll come back and take more?"
-msgstr "你担心他们会回来拿走更多吗？"
+msgstr "你是在担心他们回去后会进一步地占有井吗？"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_2:1
 msgid "I thought I heard somes voices earlier. Have you hurt anybody recently? "
-msgstr "我刚才好像听到了一些声音。你最近伤到人了吗？ "
+msgstr "我先前好像听到了什么声音，你是最近有伤害什么人了吗？ "
 
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_peace
 msgid "Yes! Humans take all if no stop. Gamjee alone. If you help, tell humans Gamjee no bad. Maybe they listen. Maybe they share well, no fight. You help, no need for hurt."
 msgstr ""
-"对！如果不停下来，人类会拿走一切。只有甘吉一个人。如果你帮忙，告诉人类甘吉没"
-"什么不好。也许他们在听。也许他们分享得很好，没有打架。你帮忙，不用受伤。"
+"对！如果不阻止他们，人类就会占有一切，而甘吉却没有援手。如果你要帮忙，那就去"
+"告诉那群人类甘吉没有恶意，也许你的话他们会听，也许他们就愿意共享井了，事情就"
+"和平解决了。你帮忙，然后没人受伤。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_peace:0
 msgid "I understand. I'll help you find a peaceful solution."
-msgstr "我理解。我会帮你找到一个和平的解决方案。"
+msgstr "我明白了，我会帮你找出一个和平解决方案的。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_attack
 #: conversationlist_feygard_1.json:gamjee_villagers_known_fight
 msgid "No! Gamjee protect! If humans come back, they take all. Gamjee alone, scared."
-msgstr "不！保护好甘吉！如果人类回来，他们会拿走一切。甘吉独自一人，很害怕。"
+msgstr "不！甘吉要守护好井！如果把人类放回去，他们就会占有一切。甘吉没有援手，甘吉害"
+"怕了。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_attack:0
 msgid "I don't believe you! I can't take that risk. This ends now"
-msgstr "我不相信你！我不能冒这个险。现在结束了"
+msgstr "我信你个鬼！我可不能冒这个险，现在一切该结束了"
 
 #: conversationlist_feygard_1.json:gamjee_killed_wo_villagers_known
 msgid "Gamjee has grasped his last breath when you realize that you really need to follow those voices."
-msgstr "当你意识到你真的需要跟随那些声音时，甘吉已经抓住了最后一口气。"
+msgstr "甘吉咽下了最后一口气后，你觉得你接下来还得去寻找那些声音的源头。"
 
 #: conversationlist_feygard_1.json:gamjee_killed_villagers_known
 msgid "Gamjee has grasped his last breath and now it's time to rescue those people."
-msgstr "甘吉已经抓住了最后一口气，现在是时候营救这些人了。"
+msgstr "甘吉已经咽下了最后一口气，现在是时候去营救这些人了。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_known_2
 msgid "Captured? No, no! Gamjee protect them! Humans take Gamjee's well, build village. They no ask. They just take. Gamjee keep them safe here. You see, they not hurt."
-msgstr "捕获？不，不！甘吉保护他们！人类占领了甘吉的井，建造了村庄。他们不问。他们只"
-"是采取。甘吉确保他们在这里的安全。你看，他们没有受伤。"
+msgstr ""
+"抓走？不是这样，不是这样的！甘吉是在保护他们！人类占走了甘吉的井，建造了村庄"
+"。他们根本没问过甘吉，就直接占有井了。甘吉把他们安全地留在这里，你也瞧见了，"
+"他们都没有受伤。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_known_2:0
 msgid "Keeping them in a pit isn't protecting them. It's imprisoning them."
-msgstr "把他们关在坑里并不能保护他们。它正在囚禁他们。"
+msgstr "把他们关在坑里并不是在保护他们，而是在囚禁他们。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_known_3
 msgid "No! Listen! Humans come, take Gamjee's well, leave Gamjee with nothing. Gamjee scared. If Gamjee let them go, they come back, take well again. They no understand, well is life for Gamjee. Please, you help. Tell humans Gamjee no bad. Maybe they listen. Maybe they share well, no fight. You help, no need for hurt."
 msgstr ""
-"不，听我说！人类来了，拿走了甘吉的井，什么也没给甘吉留下。甘吉吓坏了。如果甘"
-"吉放他们走，他们会回来，重新振作起来。他们不明白，这就是甘吉的生活。请你帮帮"
-"我。告诉人类甘吉没有坏。也许他们在听。也许他们分享得很好，没有打架。你帮忙，"
-"不用受伤。"
+"不，听我说！人类来了，占有了甘吉的井，什么也没给甘吉留下，甘吉吓坏了。如果甘"
+"吉放走他们，他们就会重新来过，又把井给占走了。他们不清楚这井就是甘吉的一切。"
+"请你帮帮我，告诉人类甘吉，也许你的话他们会听，也许他们就愿意共享井了，事情就"
+"和平解决了。你帮忙，然后没人受伤。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_known_3:0
 msgid "I see. You acted out of fear and desperation. I'll help you find a peaceful solution."
-msgstr "我懂了。你的行为是出于恐惧和绝望。我会帮你找到一个和平的解决方案。"
+msgstr "我明白了，你怎么做是出于内心的恐惧和绝望，我会帮你找出一个和平解决方案的。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_known_3:1
 msgid "It's time to make me righteous!"
-msgstr "给我以公正!"
+msgstr "是时候该为民除害了!"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_1
 msgid "You help Gamjee? Humans no hurt?"
-msgstr "你帮甘吉？人类没有受伤吗？"
+msgstr "你帮甘吉？和平解决？"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_1:0
 #: conversationlist_feygard_1.json:gamjee_compromise_1:1
 #: conversationlist_feygard_1.json:gamjee_compromise_1:2
 msgid "I'll do what I can. Let's talk to the villagers."
-msgstr "我会尽我所能。让我们和村民们谈谈。"
+msgstr "我会尽我所能的，让我们和那些村民们谈谈吧。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_2
 msgid "Let Gamjee call human with magic water."
-msgstr "让甘吉用魔法水召唤人类。"
+msgstr "甘吉现在就用魔水召个人类过来。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_2:0
 msgid "OK. Now that I have you two together, let's talk about how you guys can reach a compromise and share the well water."
-msgstr "好的。现在你们俩在一起了，让我们谈谈你们如何达成妥协，分享井水。"
+msgstr "嗯，现在你们俩面对面，完全可以谈谈你们双方怎么各让一步，共享井水。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_4
 msgid "Why should we trust him? He's been keeping us captive!"
@@ -64919,73 +64927,73 @@ msgstr "我们为什么要相信他？他一直在囚禁我们！"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_4:0
 msgid "Gamjee is afraid you'll take the well. He wants to protect it."
-msgstr "甘吉担心你会把井拿走。他想保护它。"
+msgstr "甘吉是在担心你们会把那口井给自己占走了，他是想保护它。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_5
 msgid "And what about us? We need water too."
-msgstr "那我们呢？我们也需要水。"
+msgstr "那我们呢？我们也需要水啊。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_6
 msgid "Gamjee not want hurt. Humans need water. Gamjee need too."
-msgstr "甘吉不想受伤。人类需要水。甘吉也需要。"
+msgstr "甘吉不想造成伤害。人类需要水，甘吉也需要。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_6:0
 msgid "Is there a way you can share the well? Maybe take turns using it?"
-msgstr "你有办法分享这口井吗？也许轮流使用它？"
+msgstr "这样的话你们能不能共享这口井？或许可以采取轮流使用的法子？"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_7
 msgid "We can agree to that. As long as Gamjee doesn't threaten us anymore."
-msgstr "我们可以同意这一点。只要甘吉不再威胁我们。"
+msgstr "这一点我们可以接受，只要甘吉不再威胁我们就行。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_8
 msgid "Gamjee promise. No hurt. Protect well. Humans share. No fight."
-msgstr "甘吉保证。没有受伤。好好保护。人类共享。不要打架。"
+msgstr "甘吉保证，不会伤害你们，井守好了，与人类共享，打架不要。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_8:0
 msgid "Alright. Let's make this work."
-msgstr "好吧。让我们把这件事做好。"
+msgstr "好，让我们把这件事做成吧。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_8:1
 #: conversationlist_feygard_1.json:gamjee_compromise_9:0
 #: conversationlist_feygard_1.json:gamjee_compromise_9:1
 msgid "So our business here is done?"
-msgstr "那么我们的生意就结束了？"
+msgstr "所以这件事就这样结束了？"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_9
 msgid "You human, go back village now."
-msgstr "你这个人类，现在回村去。"
+msgstr "人类，现在回村去吧。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_10_no_ac
 msgid "Not same. Take rope, use to free others from pit."
-msgstr "不一样。拿绳子，用来把别人从坑里救出来。"
+msgstr "还没，拿好这捆绳子，用它可以把别的人类从坑里放出来。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_2a:0
 msgid "Let's talk about how you guys can reach a compromise and share the well water."
-msgstr "让我们谈谈你们如何达成妥协，分享井水。"
+msgstr "想在让我们谈谈你们双方怎么各让一步，共享井水吧。"
 
 #: conversationlist_feygard_1.json:gamjee_no_business
 msgid "Why you still here? Leave now."
-msgstr "你为什么还在这里？现在离开。"
+msgstr "你为什么还在这里？快走。"
 
 #: conversationlist_feygard_1.json:gamjee_compromise_10_oc
 msgid "take shiny thing back."
-msgstr "把闪亮的东西拿回去。"
+msgstr "另外把这闪亮的东西拿回去吧。"
 
 #: conversationlist_feygard_1.json:gamjee_well_osric_1
 msgid "Please meet us back to Wexlow Village."
-msgstr "请在维克斯罗村接我们。"
+msgstr "请在维克斯罗村再和我们碰面吧。"
 
 #: conversationlist_feygard_1.json:gamjee_well_osric_1:1
 msgid "Wexlow Village? Where's that?"
-msgstr "维克斯罗村？在哪里？"
+msgstr "维克斯罗村？那是哪？"
 
 #: conversationlist_feygard_1.json:gamjee_well_osric_3
 msgid "Didn't you find us after visiting our village and our well?"
-msgstr "参观完我们的村庄和水井后，你没找到我们吗？"
+msgstr "你应该是在参观过我们的村子和水井后才找到我们的吧？"
 
 #: conversationlist_feygard_1.json:gamjee_well_osric_4
 msgid "Yes, that place. I am leaving now. I will see you there."
-msgstr "是的，那个地方。我现在要走了。我会在那里见你。"
+msgstr "没错，就是那儿。现在我要出发了，到了那里后再见。"
 
 #: conversationlist_feygard_1.json:gamjee_cave_key
 msgid "Too bad this tree is in the way."
@@ -65306,7 +65314,7 @@ msgstr "对不起，不是的。请稍后再来。"
 
 #: conversationlist_feygard_1.json:perciva_int_phrasel
 msgid "What are you doing? Help us!"
-msgstr "你在做什么？救救我们！"
+msgstr "你在做什么？帮帮我们！"
 
 #: conversationlist_feygard_1.json:village_godelieve_bed
 msgid "Of course. Just use the mat over there in the corner."
@@ -66946,7 +66954,7 @@ msgstr "抛光宝石"
 
 #: itemlist_junk.json:gem4
 msgid "Sharpened gem"
-msgstr "尖宝石"
+msgstr "尖角宝石"
 
 #: itemlist_junk.json:gem5
 msgid "Polished sparkling gem"
@@ -76361,7 +76369,7 @@ msgstr "狄奥多拉"
 
 #: monsterlist_feygard_1.json:well_voice
 msgid "Unknown well voice"
-msgstr "未知的井声"
+msgstr "未知井声"
 
 #: monsterlist_feygard_1.json:gamjee_well_unknown_male_voice
 msgid "Unknown male voice"
@@ -76377,7 +76385,7 @@ msgstr "罗斯马拉"
 
 #: monsterlist_feygard_1.json:rosmara_cat
 msgid "Mean cat"
-msgstr "卑鄙的猫"
+msgstr "恶猫"
 
 #: monsterlist_feygard_1.json:leofric
 msgid "Leofric"
@@ -76389,7 +76397,7 @@ msgstr "阿尔法狐"
 
 #: monsterlist_feygard_1.json:spotted_tentaslime
 msgid "Spotted tentaslime"
-msgstr "斑点触手黏液"
+msgstr "斑点触手史莱姆"
 
 #: monsterlist_feygard_1.json:hardershell_beetle
 msgid "Hardershell beetle"
@@ -76397,7 +76405,7 @@ msgstr "坚壳甲虫"
 
 #: monsterlist_feygard_1.json:burrowing_glow_worm
 msgid "Burrowing glow worm"
-msgstr "穴居萤火虫"
+msgstr "掘地荧光蠕虫"
 
 #: monsterlist_feygard_1.json:road_rondel_blocker
 #: monsterlist_feygard_1.json:road_rondel
