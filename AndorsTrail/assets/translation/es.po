@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-12-08 15:43+0000\n"
-"Last-Translator: Kanoero <Kanoero@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2025-01-05 22:01+0000\n"
+"Last-Translator: Ruben Rodriguez Martin <ruben.rguez.martin@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -917,22 +917,24 @@ msgstr ""
 #: conversationlist_crossglen.json:drunk1a:1
 msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
 msgstr ""
+"Bien, si realmente lo quieres. Pero yo tengo un nuevo y definitivo juego "
+"para tí. Aquí, bebe esto. [Da una botella con veneno débil]"
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
-msgstr ""
+msgstr "Ohh ... [glub glub]"
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
-msgstr ""
+msgstr "Que interesante... [glub]"
 
 #: conversationlist_crossglen.json:drunk1d
 msgid "... taste [falls over]"
-msgstr ""
+msgstr "... sabor [se cae]"
 
 #: conversationlist_crossglen.json:drunk1d:0
 msgid "Yes, really. A unique taste. And final - bye."
-msgstr ""
+msgstr "Si, de verdad. Un sabor único. Y definitivo - adios."
 
 #: conversationlist_crossglen_gruil.json:gruil1
 msgid ""
@@ -1868,7 +1870,7 @@ msgstr "Conozco tu cara. ¿Cómo te atreves a volver?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_40:0
 msgid "Are you sure you don't mix me with my brother?"
-msgstr ""
+msgstr "¿Estás seguro que no me mezclarás con mi hermano?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_42
 msgid "Andor? I know that boy all too well."
@@ -18898,7 +18900,7 @@ msgstr "En la pared, se ve una placa que dice: Tráeme lo que no puedo soportar,
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3_10
 #: conversationlist_v0612graves.json:
 msgid "You place the ladder below the tiny window."
-msgstr ""
+msgstr "Pones la escalera bajo la pequeña ventana."
 
 #: conversationlist_agthor.json:agthor0
 msgid "Hello there. Please move along. These things are property of Feygard, and you have no business here."
@@ -27953,7 +27955,7 @@ msgstr "Sí. Varios hombres ya se perdieron y nunca volvieron a aparecer. No hay
 
 #: conversationlist_guynmart2_npc.json:guynmart_roadguard_20:0
 msgid "But ... which fog?"
-msgstr ""
+msgstr "Pero... ¿qué niebla?"
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_14
 msgid "Welcome! Nice to see you again."
@@ -44219,6 +44221,8 @@ msgstr "Aquí, tengo 10 buenas piezas de carne para ti. Aunque, no puedo promete
 #: conversationlist_gison.json:gael_20_6:2
 msgid "Here, I have 10 nice pieces of lamb meat for you. Maybe not as good as snake though."
 msgstr ""
+"Aquí tengo 10 Buenos trozos de carne de cordero para tí. Quizá no tan buena "
+"como la de serpiente."
 
 #: conversationlist_gison.json:gael_20_6:3
 msgid "Here, I have 8 nice pieces of snake meat for you."
@@ -49643,11 +49647,11 @@ msgstr "¿Sabe algo o ha visto algo relacionado con el asalto y robo a la armer�
 
 #: conversationlist_sullengard.json:sullengard_stephanie_2
 msgid "Go talk to my husband, I'm exhausted and depressed."
-msgstr ""
+msgstr "Habla con mi marido, yo estoy exhausta y deprimida."
 
 #: conversationlist_sullengard.json:sullengard_ollie
 msgid "Coocoo."
-msgstr ""
+msgstr "Coocoo."
 
 #: conversationlist_sullengard.json:sullengard_ollie:0
 msgid "[Tickle Ollie's tummy]"
@@ -49663,18 +49667,20 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_mayor_1
 msgid "Welcome to Sullengard, kid. Happy 20th beer celebration!"
-msgstr ""
+msgstr "Bienvenido a Sullengard, niño. ¡Feliz fiesta de la cerveza número 20!"
 
 #: conversationlist_sullengard.json:sullengard_mayor_1:2
 #: conversationlist_sullengard.json:sullengard_mayor_beer_0:1
 #: conversationlist_sullengard.json:sullengard_mayor_no_letter_delivered:1
 #: conversationlist_sullengard.json:sullengard_mayor_letter_delivered:1
 msgid "We want to contribute gold coins for your financial loss."
-msgstr ""
+msgstr "Queremos contribuir con monedas de oro para tu pérdida financiera."
 
 #: conversationlist_sullengard.json:sullengard_mayor_2
 msgid "No. We still don't know where that traitor is. How can we ever sleep peacefully and live sufficiently with this tragic situation?"
 msgstr ""
+"No. Nosotros aún no sabemos donde está el traidor. ¿Cómo vamos nunca a "
+"dormir tranquilamente y vivir suficiente con esta trágica situación?"
 
 #: conversationlist_sullengard.json:sullengard_mayor_3
 msgid "But please talk to my fellow bootleg brewers. Maybe they know something."
@@ -49682,7 +49688,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_mayor_3:0
 msgid "I will. Stay strong."
-msgstr ""
+msgstr "Lo haré. Permanecer fuertes."
 
 #: conversationlist_sullengard.json:sullengard_mayor_3:1
 msgid "Bah! Useless mayor."
@@ -49691,37 +49697,38 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_mayor_4
 msgid "Finally, at least we can survive for a day with a beer and some bread."
 msgstr ""
+"Finalmente al menos podemos sobrevivir por un día con cerveza y algo de pan."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4:0
 msgid "Here's 50000 gold coins."
-msgstr ""
+msgstr "Aquí hay 50000 monedas de oro."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4:1
 msgid "Here's 20000 gold coins."
-msgstr ""
+msgstr "Aquí hay 20000 monedas de oro."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4:2
 msgid "Here's 10000 gold coins."
-msgstr ""
+msgstr "Aquí hay 10000 monedas de oro."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4:3
 msgid "Here's 5000 gold coins."
-msgstr ""
+msgstr "Aquí hay 5000 monedas de oro."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4:4
 msgid "I noticed that I'm running out of money. I'll be back."
-msgstr ""
+msgstr "Me he dado cuenta que me estoy quedando sin dinero. Volveré."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4a
 msgid "I have no words to express my gratitude."
-msgstr ""
+msgstr "No tengo palabras para expresar mi gratitud."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4a:0
 #: conversationlist_sullengard.json:sullengard_mayor_4b:0
 #: conversationlist_sullengard.json:sullengard_mayor_4c:0
 #: conversationlist_sullengard.json:sullengard_mayor_4d:0
 msgid "Oh wait. There's more."
-msgstr ""
+msgstr "Oh espera. Ahí hay más."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4a:1
 msgid "That's all of the coins we owe you and your people, Mayor Ale."
@@ -49735,32 +49742,36 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_mayor_4c:1
 #: conversationlist_sullengard.json:sullengard_mayor_4d:1
 msgid "That's all, mayor Ale."
-msgstr ""
+msgstr "Eso es todo, alcalde Ale."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4c
 msgid "We appreciate it. Thank you, kid."
-msgstr ""
+msgstr "Lo apreciamos. Gracias niño."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4d
 msgid "Small successes cometh before big ones."
-msgstr ""
+msgstr "Pequeños éxitos ocurren antes que los grandes."
 
 #: conversationlist_sullengard.json:sullengard_mayor_5
 msgid "Thank you so much again, kid. You are just like your brother Andor. After we are done speaking, you really should speak with my assistant, Maddalena."
 msgstr ""
+"De nuevo, muchas gracias niño. Tu eres justo como tu hermano Andor. Tras "
+"terminar de hablar, realmente debes hablar con mi asistente, Maddalena."
 
 #: conversationlist_sullengard.json:sullengard_mayor_5:0
 msgid "Of course, he is my brother."
-msgstr ""
+msgstr "Por supuesto, él es mi hermano."
 
 #: conversationlist_sullengard.json:sullengard_mayor_5:1
 #: conversationlist_sullengard.json:sullengard_mayor_letter_delivered:0
 msgid "How did you know?"
-msgstr ""
+msgstr "¿Cómo lo sabes?"
 
 #: conversationlist_sullengard.json:sullengard_mayor_6
 msgid "He is taller than you, of course, but you guys have a very similiar looking face. He is one of the most active members in your guild."
 msgstr ""
+"Él es más alto que tú, por supuesto,  pero los dos tenéis una cara muy "
+"parecida.  Él es uno de los miembros más activos de nuestro gremio."
 
 #: conversationlist_sullengard.json:sullengard_mayor_6:0
 msgid "Oh, is he?"
@@ -82146,4 +82157,3 @@ msgstr ""
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr ""
-
