@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
 "PO-Revision-Date: 2025-01-08 20:40+0000\n"
-"Last-Translator: Raphi <xxluckyxx1106@gmail.com>\n"
+"Last-Translator: Bob Idle <bob.idle@canthelpyou.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/de/>\n"
 "Language: de\n"
@@ -15881,7 +15881,7 @@ msgstr "Was ist mit den anderen Segen?"
 
 #: conversationlist_gylew.json:gylew
 msgid "Hey kid."
-msgstr "[OUTDATED]Hau ab, Kleiner. Du solltest nicht hier draußen sein."
+msgstr "Hallo Kind."
 
 #: conversationlist_gylew.json:gylew:0
 msgid "I'm not a kid anymore. Let's talk about the Korhald coins."
@@ -15923,7 +15923,7 @@ msgstr "[OUTDATED][OUTDATED]Ich hoffe, dass du mit diesen Münzen Frieden mit de
 #: conversationlist_gylew.json:gylew:8
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:8
 msgid "We have no more business to discuss. I'll see you later."
-msgstr "[OUTDATED][OUTDATED][Lüge] Ich habe diese Bronze- und Silbermünzen, die ich in einem Glücksspiel \"erworben\" habe. Ich würde gerne wissen, ob du daran interessiert bist."
+msgstr "Wir haben nichts mehr zu besprechen. Wir sehen uns später."
 
 #: conversationlist_gylew.json:gylew:10
 msgid "I was glad to help fulfill you and your father's dream, but I need to go now."
@@ -57083,7 +57083,7 @@ msgstr "Bitte geh weiter. Hier gibt es nichts zu sehen."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:0
 msgid "I've been wondering, do you have anything to sell?"
-msgstr "[OUTDATED]Ja, gnädige Frau."
+msgstr "Ich habe mich gefragt, hast du irgendetwas zu verkaufen?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:1
 msgid "Yes, ma'am."
@@ -59927,7 +59927,10 @@ msgstr "[OUTDATED]Ich bin seit unserer letzten Begegnung nicht mehr zu Gylew zur
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:5
 msgid "I have not gone back to see Gylew since our last encounter. Why am I wasting time talking to you when the job is not done yet?"
-msgstr "[OUTDATED]Wir haben nichts mehr zu besprechen. Wir sehen uns später."
+msgstr ""
+"Ich bin seit unserer letzten Begegnung nicht mehr zu Gylew zurückgekehrt. "
+"Warum verschwende ich Zeit damit, mit dir zu sprechen, wenn die Arbeit noch "
+"nicht erledigt ist?"
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:6
 msgid "Hey. I need to go now and follow this map."
@@ -59936,10 +59939,14 @@ msgstr ""
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:10
 msgid "I hope that these coins will enable you to make peace with your father. Take care."
 msgstr ""
+"Ich hoffe, dass du mit diesen Münzen Frieden mit deinem Vater schließen "
+"kannst. Pass auf dich auf."
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:11
 msgid "[Lie] I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them."
 msgstr ""
+"[Lüge] Ich habe diese Bronze- und Silbermünzen, die ich in einem Glücksspiel "
+"\"erworben\" habe. Ich würde gerne wissen, ob du daran interessiert bist."
 
 #: conversationlist_laeroth.json:forenza_brimhaven_10
 msgid "With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest."
@@ -59977,7 +59984,11 @@ msgstr "Ja, ich verstehe, was du meinst."
 
 #: conversationlist_laeroth.json:korhald_chest_examine_40
 msgid "But not all hope is lost. You see this map shows the great river that is just right over there [points northeast] behind those trees. Anyone who follows the map going east, should have no problem reaching wherever this map is leading to."
-msgstr "Aber nicht alle Hoffnung ist verloren. Sieh hier, diese Karte zeigt den großen Fluss, der genau dort drüben [zeigt nach Nordosten] hinter diesen Bäumen liegt. Jeder, der der Karte in Richtung Osten folgt, sollte kein Problem haben, dorthin zu gelangen, wo diese Karte hinführt."
+msgstr ""
+"Aber nicht alle Hoffnung ist verloren. Sieh hier, diese Karte zeigt den "
+"großen Fluss, der genau dort drüben [zeigt nach Nordosten] hinter diesen "
+"Bäumen liegt. Jeder, der dieser Karte in Richtung Osten folgt, sollte kein "
+"Problem haben, dorthin zu gelangen, wo diese Karte hinführt."
 
 #: conversationlist_laeroth.json:korhald_chest_examine_50
 msgid "Here, take the map and the pendant. If you need me, I'll be here for a little bit longer."
