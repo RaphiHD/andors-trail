@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
 "PO-Revision-Date: 2025-01-07 21:48+0000\n"
-"Last-Translator: Raphi <xxluckyxx1106@gmail.com>\n"
+"Last-Translator: Bob Idle <bob.idle@canthelpyou.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/de/>\n"
 "Language: de\n"
@@ -1804,7 +1804,7 @@ msgstr "[OUTDATED]Ich muss jetzt wirklich gehen."
 #: conversationlist_fallhaven.json:rigmor:2
 #: conversationlist_fallhaven.json:rigmor_1:0
 msgid "I really need to go."
-msgstr "Ich muß wirklich gehen."
+msgstr "Ich muss wirklich gehen."
 
 #: conversationlist_fallhaven.json:rigmor_1
 msgid "Your brother, you say? His name is Andor? No. I don't recall meeting anyone like that."
@@ -7347,12 +7347,15 @@ msgid ""
 "East: Nor City\n"
 "West: Vilegard"
 msgstr ""
-"[OUTDATED]Östlich: Nor City\n"
+"Nördlich: Leofric's Honey Haven\n"
+"Östlich: Nor City\n"
 "Westlich: Vilegard"
 
 #: conversationlist_maelveon.json:maelveon
 msgid "[You feel a tingling sensation in your body as the frightening figure begins to speak]"
-msgstr "[Dir läuft ein Schauer den Rücken hinunter, als die furchteinjagende Kreatur zu sprechen beginnt]"
+msgstr ""
+"[Dir läuft ein Schauer den Rücken hinunter, als die furchteinflößende "
+"Kreatur zu sprechen beginnt]"
 
 #: conversationlist_maelveon.json:maelveon_1
 msgid "Sssshadow take you."
@@ -15882,7 +15885,7 @@ msgstr "[OUTDATED]Hau ab, Kleiner. Du solltest nicht hier draußen sein."
 
 #: conversationlist_gylew.json:gylew:0
 msgid "I'm not a kid anymore. Let's talk about the Korhald coins."
-msgstr "Ich bin kein Kind mehr. Lass uns über die Korhald-Münze sprechen"
+msgstr "Ich bin kein Kind mehr. Lass uns über die Korhald-Münzen sprechen."
 
 #: conversationlist_gylew.json:gylew:1
 msgid "Hey old man."
@@ -15898,7 +15901,9 @@ msgstr "[OUTDATED][OUTDATED]Im Inneren der Gruft von Korhald fand ich eine versc
 #: conversationlist_gylew.json:gylew:4
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:3
 msgid "Inside the  Korhald tomb, I found a locked chest. Do you know where I can find its key?"
-msgstr "[OUTDATED][OUTDATED]Ich habe versucht, Gylews Schlüssel zu bekommen, aber..."
+msgstr ""
+"Im Inneren der Gruft von Korhald fand ich eine verschlossene Truhe. Weißt "
+"du, wo ich den Schlüssel finden kann?"
 
 #: conversationlist_gylew.json:gylew:5
 msgid "About that \"Coin of Prestige\"..."
@@ -15906,7 +15911,7 @@ msgstr "[OUTDATED]Hallöchen. Ich muss jetzt losgehen und diese Karte finden."
 
 #: conversationlist_gylew.json:gylew:6
 msgid "Hey. I need to go now and find this map."
-msgstr ""
+msgstr "Hallöchen. Ich muss jetzt losgehen und diese Karte finden."
 
 #: conversationlist_gylew.json:gylew:7
 #: conversationlist_gylew.json:gylew:9
@@ -15927,6 +15932,8 @@ msgstr ""
 #: conversationlist_gylew.json:gylew:11
 msgid "[Lie]I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them."
 msgstr ""
+"[Lüge] Ich habe diese Bronze- und Silbermünzen, die ich in einem Glücksspiel "
+"\"erworben\" habe. Ich würde gerne wissen, ob du daran interessiert bist."
 
 #: conversationlist_gylew.json:gylew_henchman
 msgid "Hey, I'm trying to admire the view here. Get out of my way."
@@ -18295,19 +18302,21 @@ msgid ""
 "West: Loneford\n"
 "East: Lake Laeroth\n"
 "Southeast: Brightport"
-msgstr "[OUTDATED]"
+msgstr ""
 "Südlich: Brimhaven\n"
 "Westlich: Loneford\n"
-"Östlich: Brightport, Laerothsee"
+"Östlich: Laerothsee\n"
+"Südöstlich: Brightport"
 
 #: conversationlist_signs_v0611.json:sign_waterway9
 msgid ""
 "West: Loneford\n"
 "East: Lake Laeroth\n"
 "South: Brightport"
-msgstr "[OUTDATED]"
+msgstr ""
 "Westlich: Loneford\n"
-"Östlich: Brightport, Laerothsee"
+"Östlich: Laerothsee\n"
+"Südlich: Brightport"
 
 #: conversationlist_signs_v0611.json:sign_waterway11
 msgid ""
@@ -30123,7 +30132,9 @@ msgstr "Du siehst wieder fröhlich aus."
 
 #: conversationlist_stoutford_combined.json:odirath_0:5
 msgid "Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you."
-msgstr "Hast du wirklich so eine hässliche Porzellanfigur bestellt? Ups, tut mir Leid, ich wollte dich nicht beleidigen"
+msgstr ""
+"Hast du wirklich so eine hässliche Porzellanfigur bestellt? Ups, tut mir "
+"Leid, ich wollte dich nicht beleidigen."
 
 #: conversationlist_stoutford_combined.json:odirath_1
 msgid "I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know more."
@@ -57076,7 +57087,7 @@ msgstr "[OUTDATED]Ja, gnädige Frau."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:1
 msgid "Yes, ma'am."
-msgstr ""
+msgstr "Ja, gnädige Frau."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20
 msgid "Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold."
@@ -57580,7 +57591,7 @@ msgstr "Ich würde nichts sehnlicher wünschen, als dass du für deine Verbreche
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:0
 msgid "Come and get it!"
-msgstr ""
+msgstr "Komm und hol ihn dir!"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:3
 msgid "What are you waiting for? Go take the fake key to Troublemaker."
@@ -59509,7 +59520,7 @@ msgstr "[REVIEW]Ich bin so nicht interessiert."
 
 #: conversationlist_laeroth.json:gylew5:4
 msgid "I am so not interested."
-msgstr ""
+msgstr "Ich bin so nicht interessiert."
 
 #: conversationlist_laeroth.json:gylew6
 msgid "Where did you get these coins?! [Gylew shows you a set of identical coins]"
@@ -60582,9 +60593,11 @@ msgid ""
 "\n"
 "[You take the oegyth crystal, but decide to leave the ring.]"
 msgstr ""
-"Ich kann nicht. Es ist nicht mein Zweig der Familie, der ihn gebunden hat. Du musst mit meinem Onkel Eyvipa sprechen. Jetzt lass mich mich ausruhen.\n"
+"Ich kann nicht. Es ist nicht mein Zweig der Familie, der ihn gebunden hat. "
+"Du musst mit meinem Onkel Eyvipa sprechen. Jetzt lass mich ausruhen.\n"
 "\n"
-"[Du nimmst den Oegythkristall, entscheidest dich aber, den Ring liegen zu lassen.]"
+"[Du nimmst den Oegythkristall, entscheidest dich aber, den Ring liegen zu "
+"lassen.]"
 
 #: conversationlist_laeroth.json:chest_search_1
 msgid "This chest looks like it is used to store important items."
