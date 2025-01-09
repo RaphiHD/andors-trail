@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-08 20:40+0000\n"
-"Last-Translator: Filip <filip987654321a@gmail.com>\n"
+"PO-Revision-Date: 2025-01-09 10:33+0000\n"
+"Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
 "Language: pl\n"
@@ -21908,7 +21908,9 @@ msgstr "Powietrze wokół dziury jest o wiele cieplejsze niż w pozostałej czę
 
 #: conversationlist_thukuzun.json:thukuzun
 msgid "Ah, another mortal that has come to bow before the might of Thukuzun."
-msgstr "Ach, kolejny śmiertelnik przyszedł pokłonić się przed potęgą Thukuzuna."
+msgstr ""
+"Ach, kolejny nędzny śmiertelnik przyszedł pokłonić się przed potęgą "
+"Thukuzuna."
 
 #: conversationlist_thukuzun.json:thukuzun_1
 msgid "You will be a fine specimen in my army of bones."
@@ -54025,193 +54027,216 @@ msgstr "Nie widzę potrzeby."
 #: conversationlist_ratdom.json:ratdom_rat_conv2_400:3
 msgid "I understood how the blue necklace works. Don't bother me with that anymore."
 msgstr ""
+"Już wiem jak działa niebieski naszyjnik. Nie musisz mi o tym przypominać."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_401
 #: conversationlist_ratdom.json:ratdom_rat_conv2_411
 msgid "It's okay. If you still want to hear it again, just ask me."
 msgstr ""
+"Dobrze już, dobrze. Ale jeśli chciałbyś posłuchać o tym raz jeszcze to po "
+"prostu zapytaj."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_402
 msgid "That's simple enough even for a simple mind: If worn they will mark the passage towards the mountain top with a blue shield."
 msgstr ""
+"To jest dość proste, więc nawet Ty to zrozumiesz: jeśli go założysz, to "
+"przejścia prowadzące na szczyt góry będą oznaczone niebieską tarczą."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_402:0
 msgid "Ah, OK."
-msgstr ""
+msgstr "Aha, zrozumiałem."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_410
 msgid "Why don't you wear that orange necklace you've got?"
-msgstr ""
+msgstr "Dlaczego nie założysz pomarańczowego naszyjnika?"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_410:3
 msgid "I understood how the orange necklace works. Don't bother me with that anymore."
 msgstr ""
+"Już wiem jak działa pomarańczowy naszyjnik. Nie musisz mi o tym przypominać."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_412
 msgid "That's simple enough even for a simple mind: If worn it will mark the passage towards the most interesting places here in the caves."
 msgstr ""
+"To jest dość proste, więc nawet Ty to zrozumiesz: jeśli go założysz, to "
+"zostaną oznaczone przejścia prowadzące do najbardziej interesujących miejsc "
+"w tych podziemiach."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_413
 msgid "You should not forget important things. The necklace works simple enough even for you: If worn it will mark the passage towards the most interesting places here in the caves."
 msgstr ""
+"Nie powinieneś zapominać o tak ważnych rzeczach. Naszyjnik działa na tyle "
+"prosto że nawet Ty to zrozumiesz: Jeśli go założysz, to zostaną oznaczone "
+"przejścia do najciekawszych miejsc w tych podziemiach."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_414
 msgid "The way might be somewhat longer, but you won't miss anything important of the cave's wonders."
 msgstr ""
+"Droga może i będzie nieco dłuższa, ale za to na pewno nie ominiesz żadnego z "
+"cudów znajdujących się w tych jaskiniach."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_416
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_10
 msgid "Should there be a branch, there will be an additional flag. The side trip is marked with a yellow shield."
 msgstr ""
+"Jeśli bedzie jakaś odnoga korytarza, to pojawi się dodatkowa flaga. Trasy "
+"poboczne są oznaczone żółtymi tarczami."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_417
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_20
 msgid "Sigh. If you see an orange shield together with a flag, then first look for another passage marked with a yellow shield."
 msgstr ""
+"Ech. Jeśli widzisz pomarańczową tarczę wraz z flagą, to najpierw poszukaj "
+"innego przejścia oznaczonego żółtą tarczą."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_417a
 msgid "Follow this passage to the end. We might find something important there. Then go back to the crossing and follow the orange shield again."
 msgstr ""
+"Podążaj tak oznaczonym korytarzem aż do końca. Tam możesz znaleźć coś "
+"ważnego. Następnie wróć do skrzyżowania i ponownie skieruj się do przejścia "
+"oznaczonego pomarańczową tarczą."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_417a:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_30:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_30:1
 msgid "Eh, OK. Got it."
-msgstr ""
+msgstr "Ech, w porządku. Zrozumiałem."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_418
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_40
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_41
 msgid "[muttering] I want to hope so, but I don't really believe it yet."
-msgstr ""
+msgstr "[Mamroczesz pod nosem] Też mam taką nadzieję ale jakoś w to nie wierzę."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_510
 msgid "[humming] Roads go ever on and on, over rock and under tree,"
-msgstr ""
+msgstr "[Nuci] Drogi biegną dalej i dalej, poprzez skały i pod drzewami,"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_510b
 msgid "By caves where never sun has shone, by streams that never find the sea."
 msgstr ""
+"Poprzez jaskinie, w których nigdy nie świeciło słońce, poprzez strumienie, "
+"które nigdy nie trafią do morza."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_510c
 msgid "Pursuing it with eager feet, until the proper way is found"
-msgstr ""
+msgstr "Chyżo dążymy do celu, idąc właściwą drogą"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_510d
 msgid "towards the yellow artifact, so wonderful and big and round."
-msgstr ""
+msgstr "na której końcu znajdziemy żółty artefakt, cudowny, duży i krągły."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_510d:0
 msgid "Nice song."
-msgstr ""
+msgstr "Ładna piosenka."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_520
 msgid "Are we there soon?"
-msgstr ""
+msgstr "Czy już niedługo tam będziemy?"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_530
 msgid "Is it still far?"
-msgstr ""
+msgstr "Daleko jeszcze?"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_530:0
 msgid "Do Not Annoy Me!"
-msgstr ""
+msgstr "Nie denerwuj mnie!"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_540
 msgid "Boring. We might play a game?"
-msgstr ""
+msgstr "Nudzę się. Może w coś zagramy?"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_540:0
 msgid "Why not? What about 'Rock Paper Scissors'?"
-msgstr ""
+msgstr "Czemu by nie? Może w 'Papier Nożyce Kamień'?"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542
 msgid "OK. I begin. Ready - Set - GO!"
-msgstr ""
+msgstr "Dobrze. Zaczynam. Gotowy - Raz - Dwa - Trzy!"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542:0
 msgid "Rock"
-msgstr ""
+msgstr "Kamień"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542:1
 msgid "Paper"
-msgstr ""
+msgstr "Papier"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542:2
 msgid "Scissors"
-msgstr ""
+msgstr "Nożyczki"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542rp
 msgid "Paper - I'll wrap your rock!"
-msgstr ""
+msgstr "Papier - owijam Twój kamień!"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542rp:0
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542ps:0
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542sr:0
 msgid "You win. Again?"
-msgstr ""
+msgstr "Wygrałeś. Gramy jeszcze raz?"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542rp:1
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542ps:1
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542sr:1
 msgid "I'll give up."
-msgstr ""
+msgstr "Nie mam ochoty."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542rs
 msgid "Scissors - oh dear."
-msgstr ""
+msgstr "Nożyce - ojej."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542rs:0
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542pr:0
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542sp:0
 msgid "I win. Another game?"
-msgstr ""
+msgstr "Wygrałem. Gramy dalej?"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542rr
 msgid "Rock - too."
-msgstr ""
+msgstr "Też kamień."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542rr:0
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542pp:0
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542ss:0
 msgid "Once more."
-msgstr ""
+msgstr "Jeszcze raz."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542ps
 msgid "Scissors - I'll cut your paper!"
-msgstr ""
+msgstr "Nożyce-tnę Twój papier!"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542pr
 msgid "Rock - oh dear, you'll wrap my rock."
-msgstr ""
+msgstr "Kamień - o rany, owijasz go."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542pp
 msgid "Paper - too."
-msgstr ""
+msgstr "Też papier."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542sr
 msgid "Rock - let's smash your scissors!"
-msgstr ""
+msgstr "Kamień-Twoje nożyce się łamią!"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542sp
 msgid "Paper - oh dear, you'll cut my paper."
-msgstr ""
+msgstr "Papier - jejku, przecinasz go."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542ss
 msgid "Scissors - too."
-msgstr ""
+msgstr "Też nożyce."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542k
 msgid "King!"
-msgstr ""
+msgstr "Król!"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542k:0
 msgid "King? What's that?"
-msgstr ""
+msgstr "Król? A co to?"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_544
 msgid "The king always wins of course."
-msgstr ""
+msgstr "Król zawsze wygrywa, to jasne."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_544:0
 msgid "Cheater! I don't play with you anymore!"
