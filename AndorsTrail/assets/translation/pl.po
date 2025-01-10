@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-10 19:40+0000\n"
-"Last-Translator: Filip <filip987654321a@gmail.com>\n"
+"PO-Revision-Date: 2025-01-11 01:04+0000\n"
+"Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
 "Language: pl\n"
@@ -41806,10 +41806,10 @@ msgstr "Ach, rozumiem. Te wielkie kości na ziemi też są pyszne."
 #: conversationlist_achievements.json:passive_achievement_grant_1
 msgid "Reflecting on your journey, you marvel at how you were able to go from a commoner in a small village to a wealthy adventurer. You realize that you've collected 100,000 gold, and decide to record this milestone in Mikhail's book of achievements."
 msgstr ""
-"Zastanawiając się nad swoją podróżą, dziwisz się jakim cudem z przeciętnego "
+"Rozmyślając nad swoją podróżą, dziwisz się jakim cudem ze zwykłego, szarego "
 "mieszkańca małej wioski stałeś się bogatym poszukiwaczem przygód. Zdajesz "
 "sobie sprawę, że zebrałeś 100 000 sztuk złota i postanawiasz zapisać te "
-"niezwykłe osiągnięcie w księdze którą dostałeś od Michaila."
+"niezwykłe osiągnięcie w księdze którą dostałeś od Mikhaila."
 
 #: conversationlist_achievements.json:passive_achievement_grant_2
 msgid "Phew, I dreamed about nightmares in a castle dungeon - although maybe it wasn't a nightmare at all! I never want to go through something like that again - neither in my dream nor in reality!"
@@ -54448,149 +54448,155 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_920
 msgid "Because it's there, of course."
-msgstr ""
+msgstr "Ponieważ jest tutaj, rzecz jasna."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_930
 msgid "Who knows? And even if - in every dream there is a grain of truth."
 msgstr ""
+"Kto to może wiedzieć? A nawet jeśli – to w każdym śnie jest ziarenko prawdy."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_932
 msgid "I'd better bite your toe hard one more time. Maybe then you will know?"
 msgstr ""
+"W takim razie ugryzę Cię jeszcze raz mocno w palec. Może wtedy się dowiesz?"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_932:0
 msgid "Eh ... no, it's not that important."
-msgstr ""
+msgstr "Ech... nic. To nie jest nic ważnego."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_940
 msgid "Of course. After all, you two-legged folk shouldn't find our realm too easily."
 msgstr ""
+"Oczywiście. W końcu wy, dwunożni ludzie, nie powinniście mieć możliwości "
+"łatwego odnalezienia naszego królestwa."
 
 #: conversationlist_ratdom.json:ratdom_rat_crossglen_02
 msgid "I remember your brother was sometimes up here with one or two other human beings."
 msgstr ""
+"Pamiętam, że twój brat bywał tu od czasu do czasu w towarzystwie jednej lub "
+"dwóch osób."
 
 #: conversationlist_ratdom.json:ratdom_rat_crossglen
 msgid "A beautiful view."
-msgstr ""
+msgstr "Przepiękny widok."
 
 #: conversationlist_ratdom.json:ratdom_rat_crossglen_10
 msgid "Do you need much longer?"
-msgstr ""
+msgstr "Potrzebujesz więcej czasu?"
 
 #: conversationlist_ratdom.json:ratdom_rat_crossglen_20
 msgid "Hey, wake up!"
-msgstr ""
+msgstr "Hej, pobudka!"
 
 #: conversationlist_ratdom.json:ratdom_rat_eatme_2
 msgid "An empty plate."
-msgstr ""
+msgstr "Pusty talerz."
 
 #: conversationlist_ratdom.json:ratdom_rat_eatme_4
 msgid "You hear a voice: \"Eat me!\""
-msgstr ""
+msgstr "Słyszysz głos mówiący: „Zjedz mnie!”"
 
 #: conversationlist_ratdom.json:ratdom_rat_eatme_4:0
 msgid "Oh that cake looks tasty. Let's try it."
-msgstr ""
+msgstr "Och, to ciasto wygląda przepysznie. Spróbujmy go."
 
 #: conversationlist_ratdom.json:ratdom_rat_eatme_10
 msgid "You gulp the cake down and wait."
-msgstr ""
+msgstr "Połykasz kęs ciasta i czekasz."
 
 #: conversationlist_ratdom.json:ratdom_rat_eatme_20
 #: conversationlist_ratdom.json:ratdom_rat_drinkme_20
 msgid "Nothing obvious happens."
-msgstr ""
+msgstr "Nic się nie dzieje."
 
 #: conversationlist_ratdom.json:ratdom_rat_eatme_30
 #: conversationlist_ratdom.json:ratdom_rat_drinkme_30
 msgid "You feel a pleasant warmth flowing through your body."
-msgstr ""
+msgstr "Czujesz jak przyjemne ciepło rozlewa się po całym Twoim ciele."
 
 #: conversationlist_ratdom.json:ratdom_rat_eatme_40
 msgid "You feel strange and suddenly icy cold."
-msgstr ""
+msgstr "Dziwnie się czujesz a Twoje ciało przeszywa nagły chłód."
 
 #: conversationlist_ratdom.json:ratdom_rat_drinkme_2
 msgid "An beautiful bottle - unfortunately empty."
-msgstr ""
+msgstr "Piękna butelka - niestety pusta."
 
 #: conversationlist_ratdom.json:ratdom_rat_drinkme_4
 msgid "You hear a voice: \"Drink me!\""
-msgstr ""
+msgstr "Słyszysz głos mówiący: 'Wypij mnie!'"
 
 #: conversationlist_ratdom.json:ratdom_rat_drinkme_4:0
 msgid "What a lovely color of the bottle. Let's try it."
-msgstr ""
+msgstr "Jaki piękny kolor ma ta butelka. Spróbujmy."
 
 #: conversationlist_ratdom.json:ratdom_rat_drinkme_10
 msgid "You swallow it down and wait."
-msgstr ""
+msgstr "Upijasz łyk z butelki i czekasz."
 
 #: conversationlist_ratdom.json:ratdom_rat_drinkme_40
 msgid "You feel dizzy and suddenly start to sweat heavily."
-msgstr ""
+msgstr "Zaczyna kręcić Ci się w głowie i nagle oblewasz się potem."
 
 #: conversationlist_ratdom.json:ratdom_rat_final_1
 msgid "Wait! Do you feel it too? We are very close!"
-msgstr ""
+msgstr "Poczekaj chwilę! Czy też to czujesz? Jesteśmy już bardzo blisko!"
 
 #: conversationlist_ratdom.json:ratdom_rat_final_2
 msgid "I am so excited!"
-msgstr ""
+msgstr "Już nie mogę się doczekać!"
 
 #: conversationlist_ratdom.json:ratdom_rat_final_2:0
 msgid "Hush!"
-msgstr ""
+msgstr "Siedź cicho!"
 
 #: conversationlist_ratdom.json:ratdom_rat_final_3
 msgid "Over there - look, the roundling!"
-msgstr ""
+msgstr "Spójrz tam, to kulostwór!"
 
 #: conversationlist_ratdom.json:ratdom_rat_final_3:0
 msgid "He hasn't noticed us yet."
-msgstr ""
+msgstr "Jeszcze nas nie zauważył."
 
 #: conversationlist_ratdom.json:ratdom_rat_final_3_10
 msgid "I am not so sure. Roundlings are a strange folk."
-msgstr ""
+msgstr "Nie jestem do końca pewien. Kulostwory są dziwne."
 
 #: conversationlist_ratdom.json:ratdom_rat_flora_10
 msgid "Why doesn't he ever do what he's told?"
-msgstr ""
+msgstr "Dlaczego on nigdy nie zrobi tego, co mu się każe?"
 
 #: conversationlist_ratdom.json:ratdom_rat_flora_10:0
 msgid "Hey, come in! It is cool and refreshing."
-msgstr ""
+msgstr "Hej, wskakuj tu! Woda jest chłodna i orzeźwiająca."
 
 #: conversationlist_ratdom.json:ratdom_rat_flora_warn_10
 msgid "Wait! I know this place - it is Flora's fountain. This could be a trap!"
-msgstr ""
+msgstr "Poczekaj! Znam to miejsce - to fontanna Flory. To może być pułapka!"
 
 #: conversationlist_ratdom.json:ratdom_rat_flora_warn_10:0
 msgid "Do you think? It looks so peaceful."
-msgstr ""
+msgstr "Tak myślisz? Wygląda na bezpieczną."
 
 #: conversationlist_ratdom.json:ratdom_rat_flora_warn_10:1
 msgid "Maybe you are right. We better leave."
-msgstr ""
+msgstr "Możesz mieć rację. Lepiej stąd chodźmy."
 
 #: conversationlist_ratdom.json:ratdom_rat_flora_warn_20
 msgid "Yeah. Let's better not go under the blue swirl."
-msgstr ""
+msgstr "Tak. Lepiej nie wchodźmy pod ten niebieski wir."
 
 #: conversationlist_ratdom.json:ratdom_rat_kriih_sign_1
 msgid "Visitors not wanted"
-msgstr ""
+msgstr "Goście nie są tu mile widziani"
 
 #: conversationlist_ratdom.json:ratdom_rat_museum_sign_1
 msgid "Here you can see the complete skeleton of King Rah."
-msgstr ""
+msgstr "Tutaj można zobaczyć kompletny szkielet króla Raha."
 
 #: conversationlist_ratdom.json:ratdom_rat_museum_sign_1:0
 msgid "I see nothing."
-msgstr ""
+msgstr "Nic nie widzę."
 
 #: conversationlist_ratdom.json:ratdom_rat_museum_sign_1:1
 msgid "Such a great sight! Wart has done a great job."
