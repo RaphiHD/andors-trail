@@ -157,7 +157,54 @@
 \n Vous pouvez visiter les forums du projet pour discuter avec les autres joueurs ou pour contribuer au projet (voir « À propos »). 
 \n 
 \n Merci pour les retours d\'utilisation !</string>
-    <string name="about_interface">&lt;div&gt;&lt;b&gt;Paramètres du jeu&lt;/b&gt; peuvent être trouvés en appuyant sur le bouton Menu de votre appareil.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Icônes de l\'interface&lt;/h1&gt; &lt;div&gt;&lt;b&gt;Le Coffre&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Emplacements rapides [Appuyez longuement sur les pochettes pour assigner des objets à utiliser instantanément]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Le Héros&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menu [Aperçu, Quêtes, Compétences &amp;amp; Inventaire *]&lt;/p&gt; &lt;p&gt;* (Dans l\'inventaire, appuyez sur un objet pour obtenir des informations et appuyez longuement pour plus d\'options)&lt;/p&gt; &lt;div&gt;&lt;b&gt;L\'Ennemi&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Informations [Apparaît pendant les combats]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combat&lt;/h1&gt; &lt;p&gt;Les actions effectuées pendant les combats coûtent des PA...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Attaquer&lt;/b&gt; - [3PA] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (L\'équipement et l\'utilisation d\'objets peuvent modifier les PA et le coût d\'utilisation)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Utiliser des objets&lt;/b&gt; - [5PA]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Fuir&lt;/b&gt; - [6PA]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combat avancé&lt;/h1&gt; &lt;div&gt;Pendant les combats, appuyez longuement sur une case adjacente au Héros...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Pour fuir&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(la case choisie est mise en évidence - Le bouton d\'attaque devient Déplacer)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[mode fuite activé - Appuyez longuement sur un ennemi pour réentrer en combat]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Pour changer de cible&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(le surlignage rouge de la cible se déplace entre les ennemis)&lt;/p&gt; &lt;p&gt;[la cible a été changée]&lt;/p&gt;</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>Paramètres du jeu</b> peuvent être trouvés en appuyant sur le bouton Menu de votre appareil.</div>
+
+<p>________________</p>
+<h1>Icônes de l'interface</h1>
+
+<div><b>Le Coffre</b><img alt="chest" src="chest.png" /></div>
+<p>Raccourcis [Appuyez longuement sur les pochettes pour assigner des objets à utiliser instantanément]</p>
+
+<div><b>Le Héros</b><img alt="hero" src="char_hero.png" /></div>
+<p>Menu [Aperçu, Quêtes, Compétences &amp; Inventaire *]</p>
+<p>* (Dans l'inventaire, appuyez sur un objet pour obtenir des informations et appuyez longuement pour plus d'options)</p>
+
+<div><b>L'Ennemi</b><img alt="monster" src="monster.png" /></div>
+<p>Informations [Apparaît pendant les combats]</p>
+
+
+
+<p>________________</p>
+<h1>Combat</h1>
+
+<p>Les actions effectuées pendant les combats coûtent des PA...</p>
+
+<div><b>Attaquer</b> - [3PA] *</div>
+<img alt="attacking" src="doubleattackexample.png" />
+<p>* (L'équipement et l'utilisation d'objets peuvent modifier les PA et le coût d'utilisation)</p>
+
+<div><b>Utiliser des objets</b> - [5PA]</div>
+<div><b>Fuir</b> - [6PA]</div>
+
+
+
+<p>________________</p>
+<h1>Combat avancé</h1>
+
+<div>Pendant les combats, appuyez longuement sur une case adjacente au Héros...</div>
+
+<div><b>Pour fuir</b></div>
+<p>(la case choisie est mise en évidence - Le bouton d'attaque devient Déplacer)</p>
+<img alt="flee" src="flee_example.png" />
+
+<p>[mode fuite activé - Appuyez longuement sur un ennemi pour ré-entrer en combat]</p>
+<div><b>Pour changer de cible</b></div>
+<p>(le surlignage rouge de la cible se déplace entre les ennemis)</p>
+<p>[la cible a été changée]</p>
+
+]]></string>
     <string name="questlog_includecompleted_prompt">Sélectionner les quêtes à afficher</string>
     <string name="questlog_includecompleted_hidecompleted">Quêtes en cours</string>
     <string name="questlog_includecompleted_includecompleted">Toutes les quêtes</string>
@@ -432,7 +479,7 @@
     <string name="skill_longdescription_armor_prof_shield">Augmente la résistance aux dégâts de %1$d par niveau de compétence en ayant un bouclier ou une arme de parade équipé.</string>
     <string name="skill_longdescription_armor_prof_unarmored">En combattant sans avoir une seule pièce d’armure équipée, gagne %1$d chances de parade par niveau de compétence. Les vêtements ne sont pas considérés comme étant des armures.</string>
     <string name="skill_longdescription_armor_prof_light">Pour chaque niveau de compétence, augmente les chances de parade de toute pièce d’armure légère portée de %1$d %% de leur chances de parade de base. Les armures légères incluent le cuir tanné, le métal léger et les armures en cuir.</string>
-    <string name="skill_longdescription_armor_prof_heavy">Pour chaque niveau de compétence, augmente les chances de parade de chaque pièce d’armure lourde portée de %1$d %% de leurs chances de parade de base. Les pièces d’armures lourdes ont leurs pénalités de mouvement réduites de %2$d %% par niveau de compétence et leurs pénalités de vitesse d’attaque réduites de %3$d %% par niveau de compétence. Les armures lourdes incluent les armures métalliques, les cottes de mailles et les armures de plates.</string>
+    <string name="skill_longdescription_armor_prof_heavy">Pour chaque niveau de compétence, augmente les chances de parade de chaque pièce d’armure lourde portée de %1$d %% de leurs chances de parade de base. Les pièces d’armures lourdes ont leurs pénalités de mouvement réduites de %2$d %% par niveau de compétence, leurs pénalités de vitesse d’attaque réduites de %3$d %% par niveau de compétence, et leur surcoût d’utilisation d\'objet réduit de %4$d %% par niveau de compétence. Les armures lourdes incluent les armures métalliques, les cottes de mailles et les armures de plates.</string>
     <string name="skill_longdescription_fightstyle_dualwield">Donne des avantages en combattant avec deux armes en même temps, une dans la main dominante et une dans la main non dominante.
 \n
 \nSans cette compétence, seulement %1$d %% des qualités d’une arme pourront être utilisées quand elle est équipée dans la main non dominante. Cela inclut les chances d’attaque, la compétence cruciale, les dégâts potentiels et les chances de parade. Sans cette compétence, le coût d’attaque (coût de PA) est la somme du coût d’attaque de l’arme principale et de celui de l’arme utilisée dans la main non dominante. Le plus bas des deux modificateurs de dégâts sera utilisé.
@@ -602,9 +649,7 @@
 \n
 \nLe jeu n\'accède en aucun cas à votre appareil pour une autre raison. Il n\'accède pas non plus à internet. Sur les traces d\'Andor est un logiciel libre et open source ; les sources sont disponibles sur github.</string>
     <string name="dialog_permission_information_title">Chargement et enregistrement des jeux</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nLe jeu va vous demander la permission d\'accéder à votre espace de stockage dans le but de sauvegarder ou charger vos parties (et uniquement dans cet objectif)."</string>
+    <string name="dialog_newversion_permission_information">\n\nLe jeu va vous demander la permission d\'accéder à votre espace de stockage dans le but de sauvegarder ou charger vos parties (et uniquement dans cet objectif).</string>
     <string name="skill_longdescription_fightstyle_unarmed_unarmored">Lors de combats sans aucun armure ni arme ni bouclier, gagne %1$d de chances d\'attaque, %2$d de chances de parer, %3$d de résistance aux dégâts et une augmentation des dégâts maximum de %4$d par niveau de compétence. La compétence donne aussi un multiplicateur critique de 1 plus 0.%5$d par niveau.
 \n
 \nLes objets en tissu ne sont pas considérés comme des armures.</string>
