@@ -163,7 +163,54 @@
     <string name="levelup_add_blockchance">Zvýšit šanci odvrácení útoku (+%1$d)</string>
     <string name="levelup_add_blockchance_description">Zvýší šanci odvrácení útoku o %1$d.</string>
     <string name="about_contents3">Tento program je svobodný. Můžeš jej za splnění podmínek licence GNU General Public License (verze 2 nebo novější) vydanou Free Software Foundation dále šířit a/nebo upravovat.&lt;br /&gt; &lt;br /&gt; Tento program je distribuován s vírou, že je dobrý, ale BEZ JAKÉKOLIV ZÁRUKY JAKÉHOKOLI DRUHU, AŤ VÝSLOVNÉ NEBO VYPLÝVAJÍCÍ, VČETNĚ, ALE NIKOLI JEN, ZÁRUK OBCHODOVATELNOSTI A VHODNOSTI PRO URČITÝ ÚČEL. Detaily najdeš v GNU General Public License.&lt;br /&gt; &lt;br /&gt; Společně s touto kopií jsi obdržel/a jeden exemplář GNU General Public License. Pokud tomu tak není, navštiv:&lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Zdrojový kód a/nebo požadavky na vylepšení můžeš stáhnout/najít/zadat na této stránce:&lt;a href=http://github.com/AndorsTrailRelease/andors-trail/&gt;http://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
-    <string name="about_interface">&lt;div&gt;&lt;b&gt;Nastavení&lt;/b&gt; lze změnit po stisknutí tlačítka \"Menu\" na tvém přístroji.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Herní ikony&lt;/h1&gt; &lt;div&gt;&lt;b&gt;Truhla&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Pozice okamžitého použití [Podržením prstu na vacích se zobrazí nabídka předmětů k okamžitému použití]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Hrdina&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menu [Přehled, Mise, Dovednosti a Inventář *]&lt;/p&gt; &lt;p&gt;* (Informace o předmětu zobrazíš tak, že v inventáři klikneš na daný předmět; podržením prstu na předmětu zobrazíš další možností)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Nepřítel&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Informace [Pouze během boje]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Boj&lt;/h1&gt; &lt;p&gt;Akce vykonané v boji stojí akční body (AB)...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Útok&lt;/b&gt; - [3 AB] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (Případná výstroj a výbava může změnit časovou náročnost provedení akce - útoku, použití předmětu apod.)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Použití předmětu&lt;/b&gt; - [5 AB]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Útěk&lt;/b&gt; - [6 AB]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Souboj detailněji&lt;/h1&gt; &lt;div&gt;Během souboje podrž prst na políčku vedle hrdiny...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Pro útěk&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(vybrané políčko se zvýrazní - tlačítko útoku se změní na tlačítko pohybu)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[aktivován mód útěku - podrž prst na nepříteli pro návrat k boji]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Pro změnu cíle útoku&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(červené zvýraznění cíle útoku se přesune na nového nepřítele)&lt;/p&gt; &lt;p&gt;[cíl útoku byl změněn]&lt;/p&gt;</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>Nastavení</b> lze změnit po stisknutí tlačítka "Menu" na tvém přístroji.</div>
+
+<p>________________</p>
+<h1>Herní ikony</h1>
+
+<div><b>Truhla</b><img alt="chest" src="chest.png" /></div>
+<p>Pozice okamžitého použití [Podržením prstu na vacích se zobrazí nabídka předmětů k okamžitému použití]</p>
+
+<div><b>Hrdina</b><img alt="hero" src="char_hero.png" /></div>
+<p>Menu [Přehled, Mise, Dovednosti a Inventář *]</p>
+<p>* (Informace o předmětu zobrazíš tak, že v inventáři klikneš na daný předmět; podržením prstu na předmětu zobrazíš další možností)</p>
+
+<div><b>Nepřítel</b><img alt="monster" src="monster.png" /></div>
+<p>Informace [Pouze během boje]</p>
+
+
+
+<p>________________</p>
+<h1>Boj</h1>
+
+<p>Akce vykonané v boji stojí akční body (AB)...</p>
+
+<div><b>Útok</b> - [3AB] *</div>
+<img alt="attacking" src="doubleattackexample.png" />
+<p>* (Případná výstroj a výbava může změnit časovou náročnost provedení akce - útoku, použití předmětu apod.)</p>
+
+<div><b>Použití předmětu</b> - [5AB]</div>
+<div><b>Útěk</b> - [6AB]</div>
+
+
+
+<p>________________</p>
+<h1>Souboj detailněji</h1>
+
+<div>Během souboje podrž prst na políčku vedle hrdiny...</div>
+
+<div><b>Pro útěk</b></div>
+<p>(vybrané políčko se zvýrazní - tlačítko útoku se změní na tlačítko pohybu)</p>
+<img alt="flee" src="flee_example.png" />
+<p>[aktivován mód útěku - podrž prst na nepříteli pro návrat k boji]</p>
+
+<div><b>Pro změnu cíle útoku</b></div>
+<p>(červené zvýraznění cíle útoku se přesune na nového nepřítele)</p>
+<p>[cíl útoku byl změněn]</p>
+
+]]></string>
     <string name="dialog_newversion_title">Vítej</string>
     <string name="dialog_newversion_message">Děkujeme za instalaci hry Andor\'s Trail!
 \n
@@ -564,9 +611,7 @@
 \n
 \nAndor\'s Trail nepoužívá přístup k tvým souborům z jiného důvodu a také nepoužívá přístup na internet. Andor\'s Trail je open source; zdrojový kód můžeš najít na github(u).</string>
     <string name="dialog_permission_information_title">Načítání a ukládání her</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nZ důvodu ukládání a načítání her (pouze z tohoto důvodu) Tě Andor\'s Trail požádá o přístup ke Tvým souborům."</string>
+    <string name="dialog_newversion_permission_information">\n\nZ důvodu ukládání a načítání her (pouze z tohoto důvodu) Tě Andor\'s Trail požádá o přístup ke Tvým souborům.</string>
     <string name="startscreen_mode_1_life">Náhlá smrt (1 smrt, 1 pozice uložení hry)</string>
     <string name="startscreen_mode_3_lives">Extrémní (3 smtri, 1 pozice uložení hry)</string>
     <string name="startscreen_mode_10_lives">Velmi těžký (10 smrtí, 1 pozice uložení)</string>
