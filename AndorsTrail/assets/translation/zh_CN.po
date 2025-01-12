@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-11 18:14+0000\n"
+"PO-Revision-Date: 2025-01-12 22:24+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -22522,7 +22522,7 @@ msgstr "它有所有的标记。但它不可能是？我不明白。"
 #: conversationlist_feygard_1.json:gamjee_well_post_troll_rescue_1
 #: conversationlist_feygard_1.json:rosmara_explain_3:1
 msgid "What is it?"
-msgstr "它是什么？"
+msgstr "是啥呀？"
 
 #: conversationlist_vilegard_v070.json:vilegard_smith_xul_3
 msgid "This thing that you have stumbled upon, my friend. This is the Xul'viir. A most foul item indeed."
@@ -64132,35 +64132,35 @@ msgstr "谢谢你早些时候救了我们！"
 
 #: conversationlist_feygard_1.json:village_philippa_initial_phrase:0
 msgid "You're welcome, but I was hoping for more than gratitude."
-msgstr "不客气，但我希望得到的不仅仅是感激。"
+msgstr "不客气，不过单单的感激之情这种虚言还是免了。"
 
 #: conversationlist_feygard_1.json:village_philippa_initial_phrase:1
 msgid "You're welcome, but I wanted to talk about the \"Feydelight\" again."
-msgstr "不客气，但我想再谈一次“Feydelight”。"
+msgstr "不客气，另外我想和你再讨论一下“费乐派”的事。"
 
 #: conversationlist_feygard_1.json:village_philippa_initial_phrase:2
 msgid "I am wondering, is my Feydelight ready yet?"
-msgstr "我想知道，我的Feytelight准备好了吗？"
+msgstr "话说那个，我的费乐派好了吗？"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_1
 msgid "If a reward is what your after, then a reward you shall have."
-msgstr "如果你追求的是回报，那么你将得到奖励。"
+msgstr "如果你是想要些实际点的奖励的话，那确实可以。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_1:0
 msgid "So exciting! I can't wait. Let me have it."
-msgstr "太激动人心了！我等不及了。给我吧。"
+msgstr "太好了！我都已经等不及了，快点拿出来给我吧。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_1:1
 msgid "Yes, ma'am. Please."
-msgstr "好的，女士。请。"
+msgstr "确实如此，女士，拜托了。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_2_rude
 msgid "Well, maybe with that attitude, you don't derserve one?"
-msgstr "当然,也许有这种态度,你不屈服吗?"
+msgstr "不过你要是这样的态度的话，你真的配得上被奖励吗？"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_2_rude:0
 msgid "I'm sorry. You see, I'm just in love with the new stuff."
-msgstr "我很抱歉。你看，我只是爱上了新东西。"
+msgstr "抱歉，你也瞧见了，我就是因为能拿到新东西而有点上头了。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_2_nice
 msgid "Oh, how polite."
@@ -64168,40 +64168,42 @@ msgstr "哦，真有礼貌。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_3
 msgid "Do you know what a \"Feydelight\" is?"
-msgstr "你知道什么是“Feydelight”吗？"
+msgstr "你知道什么是“费乐派”吗？"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_3:0
 msgid "No. Should I?"
-msgstr "不。我应该吗?"
+msgstr "不啊，我应该如此吗？"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_3:1
 msgid "Whatever happened to my reward? Thanks for nothing."
-msgstr "我的回报如何？谢谢你。"
+msgstr "我的奖励就这样？这可太谢谢您了。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_4
 msgid "Well, you see? I make them. Not to brag, but I am in fact, the best baker in Feygard."
-msgstr "好吧，你看到了吗？我做的。不是吹牛，但事实上，我是费加德最好的面包师。"
+msgstr "呃，你知道吗？我工作就是制作它们。不是我吹牛，我可以算是整个费加德数一数二的"
+"面包师了。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_4:0
 msgid "But we aren't in Feygard."
-msgstr "但我们不在费加德。"
+msgstr "不过这里好像也不是费加德。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_feygard_1
 msgid "[With a not so appreciative look on here face...] Oh, sometimes I miss that magnificent place so much. Though, I am happier here."
-msgstr "[脸上带着不太感激的表情……]"
-"哦，有时候我非常想念那个宏伟的地方。不过，我在这里更快乐。"
+msgstr "[脸上的光彩黯淡了不少……]"
+"哦，有时候我还挺怀念那座宏伟的大城市的，不过我还是待在这里更开心。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_feygard_1:0
 msgid "I've never been there, so tell me, is it as great as I've been told?"
-msgstr "我从来没有去过那里，所以告诉我，它和我听说的一样好吗？"
+msgstr "我还从来没有到过那里呢，那么你能不能告诉我一下，那个地方真的和传言中的一样繁"
+"华吗？"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_feygard_2
 msgid "I've not the words to begin to describe its magnificence."
-msgstr "我无法用言语来形容它的辉煌。"
+msgstr "它的宏伟我没法用言语来形容。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_5
 msgid "Let's get back to talking about those Feydelights."
-msgstr "让我回头谈谈这些Feydelight."
+msgstr "让我重新说回那些费乐派吧。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_5:0
 msgid "You said that you bake them, but what is a \"feydelight\"?"
@@ -64336,7 +64338,7 @@ msgstr "你杀人只是为了刺激？"
 
 #: conversationlist_feygard_1.json:village_theodora_fun_2:0
 msgid "Hah, that rhymes."
-msgstr "哈，那押韵。"
+msgstr "哈，那还挺押韵的。"
 
 #: conversationlist_feygard_1.json:village_theodora_fun_2:1
 msgid "Maybe, but as an adventurer, I like to help where I can."
@@ -65059,56 +65061,58 @@ msgstr "当然没问题，拿好，交给你了。"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_4:1
 msgid "What do you want to give me in exchange for your wife not \"killing you\"?"
-msgstr "你想给我什么来换取你妻子不“杀了你”？"
+msgstr "那你愿意拿出什么来换取你妻子不“宰了你”呢？"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_take_ring
 msgid "Thank you so much! Here take these coins."
-msgstr "非常感谢！拿着这些硬币。"
+msgstr "太谢谢你了！你就拿着这些金币吧。"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_5
 msgid "Give you? How about 2000 gold coins?"
-msgstr "给你？2000金币怎么样？"
+msgstr "拿出什么来？2000金币怎么样？"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_5:1
 msgid "Hey Godelieve, did you hear what happened to Godwin?"
-msgstr "嘿，哥德乌恩，你听说戈德温发生了什么事吗？"
+msgstr "嘿，戈德莉乌，你听说戈德温的事了吗？"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_godelieve
 msgid "No. What happened?"
-msgstr "不，发生什么事了？"
+msgstr "哦不，他咋了？"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_godelieve:0
 msgid "Well, he los..."
-msgstr "嗯，他失去了。。。"
+msgstr "嗯哼，他丢……"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_godelieve_2
 msgid "NEVER MIND! Godelieve, this kid is being silly. You can go back to whatever it is that you were doing."
-msgstr "不要介意！天哪，这孩子真傻。你可以回到你正在做的任何事情。"
+msgstr "没啥事！戈德莉乌，这孩子开始说胡话了，你回去忙你手上的事吧。"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_godelieve_2:0
 msgid "3000 gold or no ring."
-msgstr "3000金或没有戒指。"
+msgstr "3000金币，不然没得谈。"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_3k
 msgid "Fine! Take the coins you thief."
-msgstr "好的！拿走你偷的硬币。"
+msgstr "好吧！快拿去，快拿走你走你偷来的不义之财。"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_3k:0
 msgid "I will put them to good use."
-msgstr "我会好好利用它们。"
+msgstr "我会好好使用它们的。"
 
 #: conversationlist_feygard_1.json:prevent_walk_into_pit
 msgid "What good are you to these people if you're down there with them?"
-msgstr "如果你和这些人在一起，你对他们有什么好处？"
+msgstr "要是现在跳下去和这些人困在一起的话，想来是完全无济于事吧？"
 
 #: conversationlist_feygard_1.json:coin_collector_troll_coins
 msgid "Ah, these are Enchanted Coins, crafted by ancient wizards who once drew magic from the well's waters. The runes on these coins change patterns, a sign of their magical origin. Such artifacts are rare indeed."
-msgstr "啊，这些是魔法硬币，由曾经从井水中汲取魔法的古代巫师制作。这些硬币上的符文会"
-"改变图案，这是它们神奇起源的标志。这样的文物确实很罕见。"
+msgstr ""
+"啊，这些硬币上都有魔法，它们是由那些曾经从井水中汲取魔法的古代巫师所制作而成"
+"。这些硬币上的符文每时每刻都在变换着线条，彰显着它们来历的不凡，像这样的远古"
+"造物属实罕见。"
 
 #: conversationlist_feygard_1.json:coin_collector_troll_coins:0
 msgid "What can you tell me about their enchantment?"
-msgstr "你能告诉我他们的魅力吗？"
+msgstr "关于上面的附魔你还知道些什么吗？"
 
 #: conversationlist_feygard_1.json:coin_collector_troll_coins:1
 msgid "Boring."
@@ -65117,51 +65121,53 @@ msgstr "真无聊。"
 #: conversationlist_feygard_1.json:coin_collector_troll_coins_2
 msgid "The coins hold a faint echo of the well's enchantment. Though their magic is subtle, they carry the essence of the well's power. As a token of my gratitude for bringing these to me, I offer you this rare artifact in exchange for three of these coins. It is imbued with protective magic, much like these coins."
 msgstr ""
-"硬币上隐约透出井的魅力。虽然它们的魔力很微妙，但它们承载着井的力量的精髓。为"
-"了表达我对把这些带给我的感激之情，我向你提供这件罕见的艺术品，以换取其中的三"
-"枚硬币。它充满了保护魔法，就像这些硬币一样。"
+"这些硬币隐约散发着那种井之魔法的回响，虽然这些魔力孱弱而又难以把握，但它们确"
+"实承载着井中力量的精华。你愿意把这些硬币带来给我，我很感激，对此我愿意给你一"
+"件同样罕见的远古造物，来换取这些硬币中的三枚。它上面附着保护魔法，就像这些硬"
+"币一样。"
 
 #: conversationlist_feygard_1.json:coin_collector_troll_coins_2:0
 msgid "Without knowing more about this \"rare artifact\", I'm afraid that I will have to pass on your offer."
-msgstr "如果不了解更多关于这件“稀有文物”的信息，恐怕我不得不拒绝你的报价。"
+msgstr "如果就告诉我这些关于这件“罕见的远古造物”的信息，恐怕我不得不拒绝你的开价。"
 
 #: conversationlist_feygard_1.json:coin_collector_troll_coins_2:1
 msgid "Umm, I guess I can trust you now."
-msgstr "嗯，我想我现在可以信任你了。"
+msgstr "嗯…我想我可以信任你。"
 
 #: conversationlist_feygard_1.json:coin_collector_troll_coins_3a
 msgid "Well, if you change your mind, I will be here."
-msgstr "好吧，如果你改变主意，我会在这里。"
+msgstr "这件事由你自己决定，如果你回心转意的话，我仍然愿意如此交换。"
 
 #: conversationlist_feygard_1.json:coin_collector_troll_coins_3b
 msgid "For your effort in retrieving these valuable coins, take this rare artifact. It is a relic from the same era as the coins, crafted with similar enchantments. It will serve you well in your journeys, offering protection and a touch of ancient abilities."
 msgstr ""
-"为了你找回这些有价值的硬币，带上这件稀有的文物。这是与硬币同时代的遗物，用类"
-"似的魔法制作。它将在您的旅程中为您提供良好的服务，提供保护和古老的能力。"
+"为了奖励你找回这些珍贵硬币的辛劳，拿好这件罕见的造物吧。它与这些硬币属于同时"
+"代所制造出来的，上面所用的魔法也大相径庭。它可以在你的旅途上提供一些助力，既"
+"能提供坚实保护，又能一展远古伟力。"
 
 #: conversationlist_feygard_1.json:mean_cat
 msgid "Hsss!"
-msgstr "Hsss！"
+msgstr "嘶！"
 
 #: conversationlist_feygard_1.json:rosmara_initial_phrase
 msgid "How can I help you today?"
-msgstr "今天我能帮你什么吗？"
+msgstr "现在有什么能帮到你的吗？"
 
 #: conversationlist_feygard_1.json:rosmara_initial_phrase:0
 msgid "What is going on with that cat?"
-msgstr "那只猫怎么了？"
+msgstr "这只猫是什么情况？"
 
 #: conversationlist_feygard_1.json:rosmara_initial_phrase:2
 msgid "Do you know why the village of Wexlow is void of people?"
-msgstr "你知道为什么维克斯罗村空无一人吗？"
+msgstr "请问你知道为啥维克斯罗村里连一个人影都没有吗？"
 
 #: conversationlist_feygard_1.json:rosmara_initial_phrase:3
 msgid "I would like to make a purchase, please."
-msgstr "我想买东西。"
+msgstr "我想买点东西。"
 
 #: conversationlist_feygard_1.json:rosmara_cat_1
 msgid "Well, you see, he's my guard cat."
-msgstr "你看，他是我的守护猫。"
+msgstr "呃，他是我的护卫猫。"
 
 #: conversationlist_feygard_1.json:rosmara_cat_1:0
 msgid "Your guard cat?"
@@ -65169,137 +65175,137 @@ msgstr "你的护卫猫？"
 
 #: conversationlist_feygard_1.json:rosmara_cat_2
 msgid "Yes. If you attempt to rob me, he'll attack you. Hence he is my guard cat."
-msgstr "对。如果你想抢劫我，他会攻击你的。因此，他是我的守护猫。"
+msgstr "没错。如果你企图抢劫我的话，他会对你发起攻击的。总之，他是我的护卫猫。"
 
 #: conversationlist_feygard_1.json:rosmara_cat_2:1
 msgid "Seriously?"
-msgstr "说真的？"
+msgstr "你是认真的？"
 
 #: conversationlist_feygard_1.json:rosmara_cat_3
 msgid "No, not seroiusly. He guards my fruits and vegetables."
-msgstr "不，不是真的。他保护我的水果和蔬菜。"
+msgstr "当然不是，他就负责保护我的那些水果和蔬菜。"
 
 #: conversationlist_feygard_1.json:rosmara_cat_3:0
 msgid "Guards them from what?"
-msgstr "保护他们免受什么伤害？"
+msgstr "这咋保护啊？"
 
 #: conversationlist_feygard_1.json:rosmara_cat_4
 msgid "I have a business agreement with him. He guards my food from the rats in exchange for a place to sleep."
-msgstr "我和他有商业协议。他保护我的食物免受老鼠的侵扰，以换取一个睡觉的地方。"
+msgstr "我和他之间有个协定：他保护我的食物免受老鼠的糟蹋，我给予它一个安身之地。"
 
 #: conversationlist_feygard_1.json:rosmara_cat_4:0
 msgid "Oh, why didn't you just say so?"
-msgstr "哦，你为什么不直接说呢？"
+msgstr "哦，那你为啥不一开始就直截了当地说出来你？"
 
 #: conversationlist_feygard_1.json:rosmara_cat_4:1
 msgid "Well, he's not holding up his end of the deal, because there's a rat behind your tent right now."
-msgstr "好吧，他并没有拖延这笔交易，因为现在你的帐篷后面有只老鼠。"
+msgstr "嗯哼，那我想他并没有很好地履行这笔交易，因为现在你的帐篷后面就有只老鼠。"
 
 #: conversationlist_feygard_1.json:rosmara_cat_5
 msgid "I wanted to waste your time just as you are doing to my time. Walking up to my business counter asking about my cat! Get lost, kid."
-msgstr "我想浪费你的时间，就像你浪费我的时间一样。走到我的商务柜台，问起我的猫！走开"
-"，孩子。"
+msgstr "因为我想浪费你的时间，就像你在浪费我的时间一样，跑到我的货柜前问我猫的事！快"
+"滚，小鬼。"
 
 #: conversationlist_feygard_1.json:rosmara_explain
 msgid "This is my place of business. Right here on the side of Duleian Road."
-msgstr "这是我的工作场所。就在都杜莱恩路这一边。"
+msgstr "这里是我做生意的地方，就开在这条杜莱恩路的边上。"
 
 #: conversationlist_feygard_1.json:rosmara_explain:0
 msgid "Why here? There's nothing else here besides you."
-msgstr "为什么在这里？这里除了你什么都没有。"
+msgstr "话说你为啥把铺子开在这里啊？就孤零零的你一家店。"
 
 #: conversationlist_feygard_1.json:rosmara_explain_2
 msgid "Oh, you silly child. This is a very well traveled road. All the people coming and going from and to Feygard. It's a long road and they get hungry."
-msgstr "哦，你这个傻孩子。这是一条人迹罕至的路。所有进出费加德的人。路很长，他们很饿"
-"。"
+msgstr "哦，你这个傻孩子，这条路是可是条要道，所有进出费加德的人都要从这儿过。要知道"
+"路非常的长，他们经过的时候自然就很饿。"
 
 #: conversationlist_feygard_1.json:rosmara_explain_2:0
 msgid "I am not a child!"
-msgstr "我不是儿童!"
+msgstr "我不是孩子了！"
 
 #: conversationlist_feygard_1.json:rosmara_explain_2:1
 msgid "OK, you sell food. What kind of food?"
-msgstr "好吧，你卖食物。什么样的食物？"
+msgstr "好吧，你是做食物买卖的，那都卖些什么样的食物啊？"
 
 #: conversationlist_feygard_1.json:rosmara_explain_2:2
 msgid "And the fog? No one could take the path anymore."
-msgstr "雾呢？没有人能再走这条路了。"
+msgstr "那雾的影响呢？先前一段时间都没人能走过这条路了。"
 
 #: conversationlist_feygard_1.json:rosmara_explain_3
 msgid "I sell things that a child such as yourself is most likely not interested in."
-msgstr "我卖的东西，像你这样的孩子很可能不感兴趣。"
+msgstr "我卖的东西，像你这样的孩子多半是不感兴趣的。"
 
 #: conversationlist_feygard_1.json:rosmara_explain_3:0
 #: conversationlist_feygard_1.json:rosmara_explain_11:0
 #: conversationlist_feygard_1.json:rosmara_explain_11a:0
 #: conversationlist_feygard_1.json:rosmara_road_closed:0
 msgid "I am not a child anymore!!"
-msgstr "我不再是孩子了！！"
+msgstr "我已经不是孩子了！！"
 
 #: conversationlist_feygard_1.json:rosmara_explain_4
 msgid "I sell fruits and vegetables."
-msgstr "我卖水果和蔬菜。"
+msgstr "我卖些水果和蔬菜。"
 
 #: conversationlist_feygard_1.json:rosmara_explain_4:0
 msgid "As an adult, I am interested in seeing what you have."
-msgstr "作为一个成年人，我很想看看你有什么。"
+msgstr "作为一个大人，我很想瞧瞧你都卖什么。"
 
 #: conversationlist_feygard_1.json:rosmara_explain_4:1
 msgid "Where do you get these fruits and vegetables?"
-msgstr "你在哪里买这些水果和蔬菜的？"
+msgstr "你是从哪里购进这些水果和蔬菜的？"
 
 #: conversationlist_feygard_1.json:rosmara_explain_5
 msgid "From all over Dhayavar, but mostly from the great farmers in Loneford."
-msgstr "来自达亚瓦各地，但主要来自隆福德的伟大农民。"
+msgstr "这些水果蔬菜来自达亚瓦大陆的各地，不过主要是来自隆福德的农民之手。"
 
 #: conversationlist_feygard_1.json:rosmara_explain_5:0
 msgid "Oh, yeah. I've seen all of their great farms."
-msgstr "哦，是的。我看过他们所有的大农场。"
+msgstr "哦，是这样啊，我有目睹过他们那里的大片农场。"
 
 #: conversationlist_feygard_1.json:rosmara_explain_5:1
 msgid "Loneford, where's that?"
-msgstr "隆福德，那在哪里？"
+msgstr "隆福德，那是哪儿？"
 
 #: conversationlist_feygard_1.json:rosmara_explain_10
 msgid "What kind of fog are you talking about?"
-msgstr "你在说什么样的雾？"
+msgstr "你在说啥雾啊？"
 
 #: conversationlist_feygard_1.json:rosmara_explain_10:0
 msgid "The fog that the witch had created in the swamp, of course."
-msgstr "当然是女巫在沼泽里制造的雾。"
+msgstr "当然就是沼泽女巫制造出来的那片雾。"
 
 #: conversationlist_feygard_1.json:rosmara_explain_10:1
 msgid "The fog further down the road behind the kobolds, of course."
-msgstr "当然，在狗头人后面的路上，雾气更浓了。"
+msgstr "当然就是在穿过狗头人峡谷后面的那段路上的雾。"
 
 #: conversationlist_feygard_1.json:rosmara_explain_11
 msgid "Are you still afraid of witches or fog, child?"
-msgstr "孩子，你还害怕女巫或雾吗？"
+msgstr "你是那种还在害怕女巫或者迷雾之类故事的孩子吗？"
 
 #: conversationlist_feygard_1.json:rosmara_explain_11:1
 msgid "I was with the witch! Without me the fog would still be there!"
-msgstr "我和女巫在一起！没有我，雾还会在那里！"
+msgstr "我见到那女巫了！没有我，那雾到现在还不会散的！"
 
 #: conversationlist_feygard_1.json:rosmara_explain_11a
 msgid "Are you still afraid of kobolds or fog, child?"
-msgstr "孩子，你还害怕狗头人或雾吗？"
+msgstr "你是那种还在害怕狗头人或者迷雾之类故事的孩子吗？"
 
 #: conversationlist_feygard_1.json:rosmara_explain_11a:1
 msgid "I have mastered the fog and survived the kobolds!!"
-msgstr "我已经掌握了雾，并在狗头人中幸存下来！！"
+msgstr "我都已经成功穿过那片雾了，就算是狗头人也没能杀死我！！"
 
 #: conversationlist_feygard_1.json:rosmara_explain_12
 msgid "Yes, of course. Calm down, child."
-msgstr "是的，当然。冷静点，孩子。"
+msgstr "嗯，当然如此，冷静点，孩子。"
 
 #: conversationlist_feygard_1.json:rosmara_road_closed
 msgid "Hey, child! You can't go there. You're not ready for the big city of Feygard. Or is Feygard not ready for you?"
-msgstr "嘿，孩子！你不能去那里。你还没准备好去费加德这座大城市。还是费加德还没准备好"
-"？"
+msgstr "嘿，孩子！你还不能往那个方向去。你还没做好前去费加德这座大城市的准备，或者说"
+"费加德还没准备好迎接你的到来？"
 
 #: conversationlist_feygard_1.json:rosmara_road_closed_1
 msgid "Either way, the road is closed to you."
-msgstr "不管怎样，这条路对你来说都是封闭的。"
+msgstr "不管怎么说，你还不能走条路。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_all_items_1
 msgid "Great. I will take them now. But I want to warn you, making this pie will take me a while. Come back later and it will be ready."
