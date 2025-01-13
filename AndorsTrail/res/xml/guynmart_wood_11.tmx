@@ -189,22 +189,22 @@
  </tileset>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlEEKwyAQRYfs2nW7zbFzgkDjMmRV0wMEkl7BXqWR/AGxNgQbtRAXD3UUnzOK7YmoXeFWEDXgbvQ19XmJSSPWzzxnBMYC4zWHC9M1Wm6B2AS3hKPCnD7Xw8PpypndEvupYoHXVpbX12l72a2Qm7TmGsT6H/J01ZrRtX2htX2T551+c0tjf82lJLqWnz61k5PhuzQZA/q2nCemL5PJhKPbQEzXXt6QefyjL/ZbieE7ijP1Ow3ljPWvpKznURkSODt43zyljkQ=
+   eJztlEEOgyAQRSfu6rrdemxPYFJZGlfFHqCJ9gr0KpX4JyFIjaGCJrJ4AQbCYxhCcyFqFrhnRDV4GH1NlU8xacS6kfeIwFhgvORwYbp6yy0QG+CWcJSY0+d6ejhdObNbYj+VTfDa0vL6Om0vuxVyk9ZcjVj3R56uu2b03X7Q2r7Bs6a/3NLYX3MtiG7F3Kc2cjJcS5M+oG/NeWL6EolEONoVxHRt5Q2ZxxF9sd9KDN9ZnHu/01DOGH/KEep3Rl47OFt4vzSFjkA=
   </data>
  </layer>
  <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJydVstuwjAQjKL2A+xKSFz42X5Kf6Hi0N4JkdoLBxCor1NKCVyQkNpbvU1Mlsmu7XQki9hedjzrXduHcZbtXTsIvx57k11g6vofedd/dv0H17+7yVScbOtL4FhYxgXciC2s5SlvGuE9v5yj/ktAn7SW19ZHZbpvj8e8G3vLm0YcU7Ymisu9GcY5RU3jPjfafZr+vEcKJ8aZ+/bcV5Msu54037sA38x0OaLlkEfBYsM1ov9bQT/B7/Gytcfc4d/SOgpzqTEGzCmE95+61xylEHOJzzqN89a2htzq1arAxceObbyM7dc1we9DCXOlkjdaPxQD3GvMf4+vSE7heMnmKC9CayVbI9gM0SHZp6xdOwM0rp3iS/JZCn5CMaTcKqXYMj+rAT7FeVajeH7PWB/3Y2X6djFO0lKw/1Ujx5nQYtoq5tOPGaYLuepRlgTvy1p9f7mN1/YfLg6vcw5xJUj5UEW4Nm78O6FtA3nOkcr3A/MLK9sTtDwm0PukUvi4NuTjZ87Zd6ReMD+RU9KG9yvd/7x2cB3cthRiK3Fq2kJvBdSO+jyftJeecynkIHKchH3lMf7r23hdeM6jlfdOgzafUoNSbFPuETybz2dRpN4xf6RcJL/TgXdUoeQprw08fyWdtTAvcRtWk8ijYch7SLtD1qbRulF4Ut/2qW8Gvq91y5viax2I45C1kFaqnbn7/QVo7PED
+   eJyVVstOwzAQjAJ8gINUqZf+LJ/CHyDUA9zbRoJLDy1UvMQhlD4ulSrBjSzNNtPJ2nFGsho/uuPZh+1tP0k2Zdsav4qNS04wLPsfad1/LPt3Zf/6MvFin1W2DI5pBlzEzVjSXh7SQxO8p6dz0n8J6LP28lrZKFz9rbhP67G39NCEYwh7Er/cum6cQ9bUb3Lzui/XnFfEcLKf0bZynw+S5GJw+F4F+EauzhFfDinG4BvUyPavDP0CjfGsWs+5g9/WPsbuVGMbOKcYaj821ojc8LnFl5UaJ9XaNeVWo1YNLhzbVf5yWbOuBRqHnOZyT974+iEfcKw5/xXfLTnF4znMSV6E9iprnbGmiw5rfczefWeAj2vlsWXZzA07IR9KbuWWb8HOvINNcx5qlM/vEfQ5HnPXXNfGKVrG8L+iV3JGtDZtBdjUMQe6mGvdq8d7Rk3rmNrKMn98cY1qY645+XVG/U/aq+qckF/Vh5wPhaELsSjHfyLaMpDnli+Z78ad8v3S/JR0Inx5LJD3SQF8ZxAz1MZ8eOYcbbfUC+cna7S08f0q9z/WDu8D1+aGb5FT/LIIaAu9FVg761M+jOUTxFA4Z0YOMsfeiCv6+L+f+WtQoZy7zI6dD7555sJa15qzfBtzj1hns/QLTw2iRswfKxfFzrDjHTXuNXVhbQsfn7+WzrUxb3E7qEnm8aHLe8h3hzy7g9aFhyf2bR/7ZjjeMZVW4Y2x9RzwY5e9iFapnUn5+wfPK/dm
   </data>
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9l2EKwyAMhXuKwu5/isL+9Qb6t7vLKkzI5CV5idIHpVO3fHk2ane9tu1zX6MupV+q7Li/3v3n7+pqn3tM786oAnZjFMHt7SzzDfpPwC37/1hvM0zWM+JaY4y/yHxL1cEvihvJI8pDddfjr6ovjyeZF4iNWCxf4zUdSt1o7dk5QPl7rMPxLduan6wPNk7ET2Tci2/lfyj9mZiZPUZjWuMaZ6wBVpH5mqnlURZzxdrRZHnS6mGVnvDHsmcl6y2yNrLSYox5yO9m14S3R6K8ZvxF50fOcUbas1uRmyf2HJFrMZsD+j3yzu5/lrwzmMltxbuCxZ9lsv8n2HcGJsdorCfPkhX6AlcxOVs=
+   eJzFl2EKwyAMhXuKwu5/isL+9Qb6t7vLKkzI5CV5ibI9KJ068uXZqO312LbXfY26lH6psuP+evefn6ur/e4xvTujCtiNUQS3t7PMJ+g/Abfs32O9zTBZz4hrjTH+IvMtVQe/KG4kjygP1V2Pv6q+PJ5kXiA2YrF8jdd0KHWjtWfnAOXvsQ7Ht2xrfrI+2DgRP5FxL76V/6H0Z2Jm9hiNaY1rnLEGWEXma6aWR1nMFWtHk+VJq4dV+oU/lj0rWW+RtZGVFmPMQ/43uya8PRLlNeMvOj9yjjPSnt2K3Dyx58i4FjPPEtUi8s7uf5a8M5jJbcW7gsWfZbLfE+w7A5NjNNbMWfIP5hsB/kmF
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30">
+ <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9VVsOgDAI8xTe/wre0C9/DH1Q0CZLZmAtsIHXeRyXWA+qvTrDfDq6Hc5U863lcjr1cOuEOBAqW5JndR7pufapD8ql8qv2TCO9oz94FNJeefYJqnfDvpMaMG2Wq7JVsaJ80jxcnm4+rl3xqx5y3o3DiewulL+jmSCp1waY5kbvMF0nji/wZX6Kh/XWVK/TGynYnHnvp7XtxL1xj+msSHofzdat2Lr6Kq5JfdFbVPZ0frN83Nimc5zpT/8hak678y3l2VgolhvjUEBU
+   eJy9VVsOwCAI8xS7/xV2w33tZ6EPiq6JiQtIAaW7r7VusV5Ue3WG+XR4OzFTzi+XG9Pph9snFAOhsiV1VucRn2uf+qBaKr9qzzjSO/ojjkI6K+8+QfVu2HfSA8bNalW2KldUT1qHG6dbj2tX8dUMOe/GiYnsLpS/w5kg6dcOMM4ds8N4nTxO4GR9Kg6brSlfZzZSMJ357qe97eS94x5TrUhmH2nrrty6/Cqvib6ht6jsqX6zetzcpjrO+Kf/EKXTrr4xLTq9UC4PPZw9/w==
   </data>
  </layer>
  <layer name="Walkable_1" width="30" height="30" visible="0">
@@ -245,7 +245,7 @@
     <property name="place" value="east2"/>
    </properties>
   </object>
-  <object name="guynmart_s_hill1" type="script" x="736" y="64" width="32" height="32"/>
+  <object name="guynmart_s_hill1" type="script" x="736" y="64" width="64" height="64"/>
   <object name="guynmart_s_hill2" type="script" x="288" y="32" width="64" height="32"/>
   <object name="guynmart_s_hill3" type="script" x="448" y="160" width="32" height="32"/>
   <object name="guynmart_s_hill4" type="script" x="448" y="32" width="64" height="32"/>
@@ -262,8 +262,14 @@
    </properties>
   </object>
   <object name="chk_wild_berry" type="script" x="32" y="192" width="32" height="736"/>
+  <object name="south" type="mapchange" x="768" y="928" width="128" height="32">
+   <properties>
+    <property name="map" value="swamp1"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="forestboar4" type="spawn" x="448" y="704" width="384" height="160">
    <properties>
     <property name="quantity" value="3"/>

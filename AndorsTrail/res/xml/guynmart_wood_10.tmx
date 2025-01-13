@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="28">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="30">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -211,7 +211,7 @@
    eJy9ldENwCAIRJ2i+6/ghk0/TAxBueOgJKamkXuCiPMZYwbjs32esYhheapZHYaP5iLjq8TCaqj7u3G9/Fouuh+EG8V+0quKN/pfFS9zxp11lTnfSrvlk9Hwagi9T+i5MDqoD8KN/Ng4Va7VY/tWRd9F10X+mS+Tn6yvYlEPUmotu66zlzDaVfH/HY9X92ue0UbvyM2P5an76+ChfNRXMfQd6uBG797pTmd5uy7ybtm7p3I9PlL/FVyPpda9x/P4a7zj8OI2
   </data>
  </layer>
- <layer id="6" name="Walkable_1" width="30" height="30" visible="0">
+ <layer id="6" name="Walkable_1" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRMApGwSgYPmCjGATT0w5a2onNbGQxSuyG6SUG49NHjn2Uuo8W9hFrP7F6ybUTnSY1jCm1lxwzqGUvqeZQO5yJMY+SMEK3l1jzKE3H6Gxk/wIAy04+MQ==
   </data>
@@ -223,20 +223,22 @@
  </layer>
  <layer id="8" name="Walkable_3" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztkrENACAIBJ3C/VdwQwsbQ0BF0VjcJTSG5OAxJQAAAAD4lZJbzd5esuu29hiV7PX6drLT3Cd4Zo+6q5WflXHEvp6b9V5tBq93xSm9p2h/65Z3tKPMcnZfSQU4rTNP
+   eJxjYBgFo2AUjIJRMApGwSgYBYMVbBSDYEJilJhNDEbXR2v7iHEHJfaRqo8afiVVHzkAl52EwoKa/kUXw6WemvYSYye6vcg0OXaSki8otRdfesIVlujxi8teAFJPUmc=
   </data>
  </layer>
  <layer id="9" name="Walkable_4" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYBYMVbBSDYEJi9ATk2o3LH9gwunpy/Exu2KGroTSsSXEHteIWmx/whTVMDTJNLTtxqUVXQ410RSj8KLULl72EzKSlH9HDklBeQgcAZDo03Q==
+   eJxjYBgFo2AUjIJRMApGwSgYBYMVbBSDYEJilJhNDEbXR2v7iHEHJfaRqo8afsUmj08fOQCXncSEBbX8iy6GSz0+95JqLzF2otuLTJNjJyn5glJ7CcUbLjXE2AsAuf9TLg==
   </data>
  </layer>
  <layer id="10" name="Walkable_5" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGwSgYBYMVbBSDYEJi9ATk2k2Jm8nRO9DhhAvA3IWM6WUnITGYOK3sJOQeWtpJTXvIMZMW6R/Zv9jSFTHhAQAC4h5S
+   eJztkbsNACAIRJ3C/VdwQws7IvIRE4v3EpozcAe2BgAAAAC/MvoqS7uZ7SnZ99rPynDjF+3NYN1Pe6/03emaVnVrS9vlrPT1zJF7Zz2lbyRr1Fe71ekPvTknOCVQEg==
   </data>
  </layer>
  <objectgroup id="11" name="Mapevents" visible="0">
+  <object id="29" name="guynmart_s_hill1" type="script" x="224" y="640" width="32" height="288"/>
+  <object id="28" name="guynmart_s_hill1" type="script" x="224" y="608" width="608" height="32"/>
   <object id="1" name="guynmart_s_hill2" type="script" x="768" y="896" width="32" height="32"/>
   <object id="2" name="guynmart_s_hill4" type="script" x="704" y="864" width="32" height="32"/>
   <object id="3" name="guynmart_s_hill5" type="script" x="448" y="896" width="256" height="32"/>

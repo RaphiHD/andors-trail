@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="46">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="48">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -211,9 +211,9 @@
    eJztzUENACAMBLDxAgX494ISnEzGkdAaaNWf7sy8Y2XeszMvAADwrgasfQHL
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9VFsOgDAM2im8/xW8ofHDxDTrA2jXZD9LhUKZ97XWDZy3kP4I58OKqmsey6ViVntQXttjvZjkjXaAYHj93l2FN+LfaWSKyUukSXkXu7kqM58oRhebAyavHk6Gx+yG5fV6T+hVsljlZQvNQvSPyDCmeLvyP8HLeFSZv+u9/7Xt7pQ8e7hVvZF3E2+JrWznFS8VThXTeq5wKt6zeUe51Uxn2ezmtN6glX3buceO/Xdni9WPvF/2PIaLdr4=
+   eJy9VFsOgDAI8xTe/wre0PhhYsiAPpgk+9mwhVK8zuO4iPMEk1/hvFhVTNUTuVxMNIfljTlRi5281QwYjCw/u0N4K/5Vj0oofql6cvZiVRdS8x+h9KX6QPFrhtPhKbNRebPcP/p1vIjyqsF6ofpHdBi7eKf8j/Ki/J0G2TtS/9S+f3ta3Tl+znDRfivtduySGt3MES0dThczau5wOtqrfme5XU933pzmjNqw0X07OceJ+U97S+2f2V/13KFCdfc=
   </data>
  </layer>
  <layer id="9" name="ratdom_Top" width="30" height="30" visible="0">
@@ -290,7 +290,7 @@
   <object id="43" name="gal_chk_h1" type="script" x="256" y="896" width="64" height="32"/>
   <object id="45" name="gal_chk_h2" type="script" x="896" y="416" width="32" height="64"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn">
   <object id="10" name="crossglen_wasp" type="spawn" x="736" y="160" width="192" height="160">
    <properties>
     <property name="quantity" value="3"/>
@@ -368,13 +368,13 @@
     <property name="spawngroup" value="oromir_behind_haystack"/>
    </properties>
   </object>
-  <object id="27" name="ratdom_mara" type="spawn" x="352" y="96" width="192" height="128">
+  <object id="27" name="ratdom_mara" type="spawn" x="352" y="96" width="160" height="128">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="ratdom_mara"/>
    </properties>
   </object>
-  <object id="28" name="ratdom_tharal" type="spawn" x="352" y="96" width="192" height="128">
+  <object id="28" name="ratdom_tharal" type="spawn" x="352" y="96" width="160" height="128">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="ratdom_tharal"/>
@@ -392,8 +392,24 @@
     <property name="spawngroup" value="ratdom_rat_crossglen"/>
    </properties>
   </object>
+  <object id="46" name="reindeer" type="spawn" x="96" y="32" width="448" height="128">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="spawngroup" value="reindeer"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="11" name="keys"/>
+ <objectgroup id="11" name="keys">
+  <object id="47" name="dummy_key" type="key" x="544" y="512" width="32" height="32">
+   <properties>
+    <property name="phrase" value="dummy_key"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="12" name="ratdom_keys" visible="0">
   <properties>
    <property name="active" value="false"/>

@@ -186,9 +186,6 @@
  <tileset firstgid="7705" name="map_ratdom" tilewidth="32" tileheight="32" tilecount="108" columns="18">
   <image source="../drawable/map_ratdom.png" width="576" height="192"/>
  </tileset>
- <tileset firstgid="7813" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
- </tileset>
  <layer id="1" name="Ground" width="15" height="30">
   <data encoding="base64" compression="zlib">
    eJytlMENwyAMRTl3CMQOTTcoZISEEdKMQNm9oNiKZZlgokb6ByyeifHHwRozF31AS9EKql+wh+o6Fu11/TDGQ7zGvqBNyBNhXblc5OzBzhBzoCTk2WGdyT5k3yTmhDyZxZ/2rGUqejV4LspR9fgW1+N7XID673Aozi4DLD97G+R5rzZ7emn07DTARqFuDYueH2XR39yHWlbi7npDW+u/faXtjdQfraf4HEFPanvL7zkpzm55gr6H9YKTekvfA85PLcdnH9av5aQ3dcVVT7RmqBc43D+x++A5vMBp/Ir7Rj1L/+cHpZ6keQ==

@@ -8,6 +8,7 @@ import org.xmlpull.v1.XmlPullParserException;
 import android.content.res.Resources;
 import android.content.res.XmlResourceParser;
 
+import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
 import com.gpl.rpg.AndorsTrail.model.map.MapCollection;
 import com.gpl.rpg.AndorsTrail.model.map.WorldMapSegment;
 import com.gpl.rpg.AndorsTrail.model.map.WorldMapSegment.NamedWorldMapArea;
@@ -24,11 +25,13 @@ public final class WorldMapParser {
 	}
 
 	private static void read(XmlResourceParser xrp, final MapCollection maps, final TranslationLoader translationLoader) {
+		String s = "";
+		if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) L.log("WorldMapParser:");
 		try {
 			int eventType;
 			while ((eventType = xrp.next()) != XmlResourceParser.END_DOCUMENT) {
 				if (eventType == XmlResourceParser.START_TAG) {
-					String s = xrp.getName();
+					s = xrp.getName();
 					if (s.equals("segment")) {
 						WorldMapSegment segment = parseSegment(xrp, maps, translationLoader);
 						maps.worldMapSegments.put(segment.name, segment);
@@ -37,7 +40,7 @@ public final class WorldMapParser {
 			}
 			xrp.close();
 		} catch (Exception e) {
-			L.log("Error reading worldmap: " + e.toString());
+			L.log("Error reading worldmap: " + s + " " + e.toString());
 		}
 	}
 
@@ -46,11 +49,13 @@ public final class WorldMapParser {
 		final WorldMapSegment segment = new WorldMapSegment(segmentName);
 
 		final ArrayList<Pair<String, String>> mapsInNamedAreas = new ArrayList<Pair<String,String>>();
+		if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) L.log("segment: " + segmentName);
 		XmlResourceParserUtils.readCurrentTagUntilEnd(xrp, new XmlResourceParserUtils.TagHandler() {
 			@Override
 			public void handleTag(XmlResourceParser xrp, String tagName) throws XmlPullParserException, IOException {
 				if (tagName.equals("map")) {
 					String mapName = xrp.getAttributeValue(null, "id");
+					if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) L.log("  map: " + mapName);
 					if (maps.findPredefinedMap(mapName) == null) return;
 					Coord mapPosition = new Coord(
 							xrp.getAttributeIntValue(null, "x", -1),
@@ -65,6 +70,7 @@ public final class WorldMapParser {
 					String id = xrp.getAttributeValue(null, "id");
 					String name = translationLoader.translateWorldmapLocation(xrp.getAttributeValue(null, "name"));
 					String type = xrp.getAttributeValue(null, "type");
+					if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) L.log("  namedarea: id=" + id + " name=" + name + " type=" + type);
 					segment.namedAreas.put(id, new NamedWorldMapArea(id, name, type));
 				}
 			}

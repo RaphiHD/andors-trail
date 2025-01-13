@@ -9,6 +9,7 @@ import com.gpl.rpg.AndorsTrail.context.WorldContext;
 public final class ActorCondition {
 	public static final int MAGNITUDE_REMOVE_ALL = -99;
 	public static final int DURATION_FOREVER = 999;
+	public static final int DURATION_FOREVER_UNTIL_SLEEP = 998;
 	public static final int DURATION_NONE = 0;
 
 	public final ActorConditionType conditionType;
@@ -27,7 +28,12 @@ public final class ActorCondition {
 
 	public boolean isTemporaryEffect() { return isTemporaryEffect(duration); }
 	public static boolean isTemporaryEffect(int duration) {
-		return duration != DURATION_FOREVER;
+		return ( duration != DURATION_FOREVER && duration != DURATION_FOREVER_UNTIL_SLEEP );
+	}
+
+	public boolean isDurationForeverUntilSleep() { return isDurationForeverUntilSleep(duration); }
+	public static boolean isDurationForeverUntilSleep(int duration) {
+		return ( duration == DURATION_FOREVER_UNTIL_SLEEP );
 	}
 
 

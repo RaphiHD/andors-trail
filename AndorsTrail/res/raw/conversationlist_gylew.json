@@ -11,12 +11,38 @@
                         "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
                         "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":105,
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"Hey old man.",
-                "nextPhraseID":"gylew_old_man"
+                "nextPhraseID":"gylew_old_man",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":100,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":105,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"Hey. I found the Korhald tomb and it had two items that I think might interest you.",
@@ -29,6 +55,27 @@
                     },
                     {
                         "requireType":"inventoryKeep",
+                        "requireID":"shield_of_brave",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hero_coin",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Hey. I found the Korhald tomb and it had two items that I think might interest you.",
+                "nextPhraseID":"gylew_korhald_cop_0",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":66
+                    },
+                    {
+                        "requireType":"wear",
                         "requireID":"shield_of_brave",
                         "value":1
                     },
@@ -78,6 +125,22 @@
                 ]
             },
             {
+                "text":"I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical.",
+                "nextPhraseID":"coin_collector_troll_coins",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":100
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mysterious_coin",
+                        "value":3
+                    }
+                ]
+            },
+            {
                 "text":"We have no more business to discuss. I'll see you later.",
                 "nextPhraseID":"X",
                 "requires":[
@@ -85,6 +148,22 @@
                         "requireType":"questLatestProgress",
                         "requireID":"odd_coin_collector",
                         "value":100
+                    }
+                ]
+            },
+            {
+                "text":"I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical.",
+                "nextPhraseID":"coin_collector_troll_coins",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":105
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mysterious_coin",
+                        "value":3
                     }
                 ]
             },
@@ -136,5 +215,31 @@
     {
         "id":"gylew_henchman",
         "message":"Hey, I'm trying to admire the view here. Get out of my way."
+    },
+    {
+        "id":"gylew_bugfix_spawn",
+        "replies":[
+            {
+                "nextPhraseID":"gylew_bugfix_spawn_10",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"gylew",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"gylew_bugfix_spawn_10",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"gylew",
+                "mapName":"waterway5"
+            }
+        ]
     }
 ]

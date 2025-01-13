@@ -188,12 +188,12 @@
  </layer>
  <layer name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJyNU8FKw0AQDb3b7iY00JP+guin+Ef9qJ5VaIuiUgttTU/1IG1QDy2UXkRnsjvk7WwCDoSZ7My8eW82KQdJZXPyO3rKf/h96nomeZJsfDyl+JNyr2ld92NdrvC+6oFYTPKMx7a0Do+tHMT12mTeQmELnvC7ydx8qS8gvgd9T3T+C7mtdX2CNzS1Xql5adC1VWc479vE/PiMc3Olhed8wR4wd0b77rbcxxXpNXAft/TceZwH4NJLwz2K1/zYqvtIY63Y/9GwC+GHeAfSa7Ow9xF4aStUjvFkF4z33g/zGufN1wYzQAvyKyne5TFO0aKN7Rlmcd2R+tcaE7AWtpmveL4jxJz1a0z+R/JO+/+hsRnHgNaV1zHOQ57SMzax9qZ3fTbyOIx58vF1VtecE4cL+CYvsxhnBjxHsD+2P9uAorw=
+   eJyNU8FKA0EMXbyrOzt0oCf9BdFP8Y/8qJ6rUEWxUgttXU96kDqoBwXxIpp0Ju6bzCwYWCY7SV7eS3b9sNrYnM5nevw/zvcm1Jy7qnqI/gX5LxS7bbq8bxNibTw3NeCLSZzx2JYm4LH5YZ6vTfotFLbgCb9jG/pLfgv+Gei7pvsfiK1NqBO8k7rTKzk3BV1rdYf93uqc36ENsbnSwn1eYQ4Y26Z57/Tsg3vVsI8xPacR5xK47DbpHOUUfm5L7aMpruGv7qkwC+GHej9oBsamtVfAS1urYowns2C8x0Ea1zh3MTfpAVqE35jinufncpy2RxvbFHpx3ifV34Nm71KshSnzlZN3hJizQYfJ/wjvpe//0NjT+C2IraKOiUt5Ss2kzrWX3vXdKOIw5lf0j2yXs0cc9uGbPLA5zgx4jmB+bL88aqOq
   </data>
  </layer>
  <layer name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYGBguCnJwHALiKkBiDGHWPtchDHVw9ibJTHNIWTuHSx6KHUrNjmQPXcpCE+YnRuBeBMe/8H4+NyIz+2khsVjAQYGRjxxQo4d1DKHHLX7yEir2NyLLEbITGLDghi3IevZJkDYvfjE8LmFEnOIAYTMhuUnEB8AR/xQ/w==
+   eJxjYGBguCnJwHALiKkBiDGHWPtchDHVw9ibJTHNIWTuHSx6KHUrNjmQPXfJCM+baH7cCMSb8PgPxsfnRnxuJzUsHgswMDDiiRNy7KCWOeSo3UdGWsXmXmQxQmYSGxbEuA1ZzzYBwu7FJ4bPLZSYQwwgZDYsP4H4AEAYUfE=
   </data>
  </layer>
  <layer name="Top" width="20" height="15">
@@ -220,8 +220,14 @@
     <property name="place" value="north"/>
    </properties>
   </object>
+  <object name="east" type="mapchange" x="608" y="288" width="32" height="160">
+   <properties>
+    <property name="map" value="nor_city_road1"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="yellow_tooth_spawn1" type="spawn" x="96" y="32" width="288" height="64">
    <properties>
     <property name="quantity" value="2"/>

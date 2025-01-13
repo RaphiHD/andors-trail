@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Ground" width="40" height="14">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUD2mcJjTwbhjFoxgfRga8Mqj8gXYbuvsUuAaf+0bxKB7FmBgAk02M1Q==
+   eJzbyMnAsHEUDxpsyo1gm3ETpz5NiLZuIsYd2Nw/ikcxDCMDXhlU/kC7Dd19ClyDz32jeBSPYkwMAD5TinU=
   </data>
  </layer>
  <layer id="3" name="Objects" width="40" height="14">
@@ -200,7 +200,7 @@
  </layer>
  <layer id="4" name="Above" width="40" height="14">
   <data encoding="base64" compression="zlib">
-   eJy9Vr1OAzEMTrsAa1RVCuIhGKEwtkuPpeINOvB+wMrWN2C7a1p+NijiGXAUW+dLnZ+rgE+ynNiu/Z3ju9QapV5AXkEINawb4zVhrpUaaL9eoL5D2wXIJdomoCtcX50qdQ1yG+wlxHwhNwvrDcjOdONcjaluaxGPuW5jJrp9FgdXT6qb4kmgHm3Mvs8ye4O6Qn4LvR8/ZZzJX0H9mwwHgjuHJTuTGNeSPIQZyzdj9qWQvzSnBKl/hyJXqwT3wOch4PR21N2fDL0+H3n9Hvj/Gny+nB4cp+OHGf+htUvnitCcdfc17lfjbj4bea9CDqn6uRwSPoHPE/7G6Q/k9zz2tdamnOM3+kt52Eh8n+fYIcc+2Eb6KNV1tm3ie9d3Hv4Dv/l96YtYD3Pny++WmvU17G3qDnrM3EsScnNAfpf7K/h/0Ajnn5oLbit5p2K+H5b6hOU=
+   eJy9Vr1OAzEMTrsAa4QqBfEQjFAYy9JjqXiDDrwfsLLxBt3uSMvP1hbxDNiKrculzs9V0E+y7MSu/Z3ju9Qapd5BPkAYNdiNcZox1UoNtLNnpB9o7xLkivbGoCuyr8+UugG5D9YSYr6QmwV7CbI13TisMdFtLeYx1W3MWLfPgsB6Ut0UTwb3aGl2fdbbb0hXxG+md+MnHmf2V1D/LsOBgecw984kxrUkD/O5FWzEXMhfkjMGqX/7IlerBI/A5yng9HnUXZ8Mnb44dfor8P83/PlCPThOxw8z/n1rl84Voznvrmtav466+WzkvQo5pOrnckjYAJ8X+g3qNfFbjFytN1PO8Yf8pTxsJL7Pc2yJYx+sIn2U6uLeKvG96zsPh8Bffl/6ItbD3Pn6d0vt9TXsbeoOes7cSxJyc8B+zP0d/D9ohPNPzYW/V/JOxXy/83+FGQ==
   </data>
  </layer>
  <layer id="5" name="Top" width="40" height="14">
@@ -257,7 +257,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="8" name="poisonous_jitterfly_spawn1" type="spawn" x="768" y="160" width="224" height="64">
    <properties>
     <property name="quantity" value="3"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="8">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="9">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -193,12 +193,12 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJyVlLEKwjAQhs+CD5CClQ7tM/jOrs7VwVkQHXSpiOJYqi59BHPUI38vKcaDEJImX/77LylRXGzzvq8N0TojKlKiMu3nHiYSAnG0vMt3H/M4bnbunQ/7mFglwzHzngHWO5KHGlEfMl95P/5XW2ccrzWOeYj0sDNOy0vpk4j1T2uTeuwtr4FzYvxD1nFk3SXAjNGFscv8M5ZTx8SYJ44l/jbKZ/RO65b6CmeRhjVNSqKkdLzzLLyuC9QY68hR2/0VtA3cFVwvfZX57ZqFz9L5HgqbczFkog/aK/mGbHwbmIeMuZ1gvdShVWzRIjz2Wuf6zP1zxoLvWmP8t4H778Zn1T/eIfK0PpyTfPRavCvs5aAexmcyQ/aE/ND6db5ap85/jN2qf/PY2R83yaH6
+   eJyVlDFqw0AQRScCH2AFllEhnSF3TuvaceE6EOwiaRRCjEshxY2O4B3kj75mV3g9IBatZ9/8+bOySFocynFtnMh7IVLlInU+7l1cIoTi5Hk/93PK0/jze9dyvqbENpu/K6/3Z//LcWXmsxpZ37Hye9XIAvtZbYObeJ2b9B0TPRzueeiP9SFS/bPaMI9Pz2tNnf6Bf8w6LeSBzz6m6OL4KMIab6u4vk02seBva3xm76xuzBec1zyu6aUWyeqJ972O5w2RGfMcNRp/fkfPnu4K52PdFeHzW8Rr2X4xh97cZ/hgvcJvzAbP9oF3fb4oH3PoDBtawFOvba99GdZZCr1rrQu/DT5/diGrefAdMg8s9tHu2Vy+K+rlbB4u7FkZOBPzw+q3/XJt65/2v8TuzH/zUu0boDGieA==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJytU7ENgDAMyxVIDP1/gBPY+AAm2OASioSlEpLWULxUpLXjuFSEw9g8a0srsrb3lcEctSalx3Jz3oYKDcDyVgN4Q0YemPwYb1/uoDY3xhfTY7402PxLmp7OFkT2wPXQKN2jd/4tz0IXPffh+d5yOXh72g++WY/wYmmma+3cmv+HluVPz4N6+q9YWWrNUwMcqx/jP5efp83MinO6htnZd5HyD0WzbSY=
+   eJytlE0OQEAMhXsKiYX7LziCnRuwYsdJjESTetppG95GjOnn9c0PUUxT8x5bW6KtfT4jWgprBl60tuZtBEbfEQ1djqV5k8r6ZG+ckaVIfp63jD/JwtxQXo4RX/gPzedyMzyWxURZnL30ciT3BctbR2t+tk4TrwOet1oO1jf0w+9Rj9qe0O6Dr31j/R8smSOO4Vy5V7QsseeLwTVaHhH/tfwstudLzsMx7j16LmT9CRF+cdg=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="20" visible="0">
@@ -220,7 +220,7 @@
    </properties>
   </object>
   <object id="3" name="sign_wild7" type="sign" x="416" y="320" width="32" height="32"/>
-  <object id="7" name="east" type="mapchange" x="608" y="320" width="32" height="32">
+  <object id="4" name="east" type="mapchange" x="608" y="320" width="32" height="32">
    <properties>
     <property name="map" value="mywild18"/>
     <property name="place" value="west"/>
@@ -234,19 +234,19 @@
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn" visible="0">
-  <object id="4" name="forestwolf1" type="spawn" x="224" y="64" width="352" height="224">
+  <object id="6" name="forestwolf1" type="spawn" x="224" y="64" width="352" height="224">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="forestwolf1"/>
    </properties>
   </object>
-  <object id="5" name="forestbeetle" type="spawn" x="96" y="256" width="224" height="320">
+  <object id="7" name="forestbeetle" type="spawn" x="96" y="256" width="224" height="320">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="forestbeetle"/>
    </properties>
   </object>
-  <object id="6" name="forestserpent1" type="spawn" x="224" y="288" width="384" height="288">
+  <object id="8" name="forestserpent1" type="spawn" x="224" y="288" width="384" height="288">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="forestserpent1"/>

@@ -180,37 +180,37 @@
  <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="10" name="Base" width="30" height="30">
+ <layer id="1" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztzTERAAAIBKBf7Z/EhqZw8IQCJAAAwLauHye3DH7DAXU=
   </data>
  </layer>
- <layer id="1" name="Ground" width="30" height="30">
+ <layer id="2" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztlUEOgyAQRQ27Jl33Ur0iV8DGcADartyqV2h6jmo6JIhlYGCkGxcvIUZ58/kkdqem6Q4OEpDiS02nmn0tUNPbijW1nL5/Wd928ssf2TgzK7F2ycjerrs0syT0x5VZie29wfb038vNbDK9dv3I9A4injk0S2m/IW8ILq971neCtwQNZ22gqxEI9c7h1g6Le5p5AVjv1jtl+HWE5xnPzJHVchXbMzDQuYWj1xQGp/OR8V/gOkLPbeepe/ZA6UzU73oPrjOielP978s+Xsxd6sz12l5L7gvmxebwvdS5KV4q//Ji7g9GupSC
+   eJztlUEOgyAQRQ27Jl33Ur0iV1BjOIBtV27VK5ieo5JCQlEGhhnpxsXbaOTNn09id6mq7uQkASm+lHTWq69xKOVtxJYSzj1/e5Bb7uTizFyLX5eMnMuZWSJycGX272rsPP99buae6H1mekcRzxyahdpvyBuCy+vu+oHwUlBm19qtu5oMod453MpBu+eVxQD1br1zhl9FeF3hzBxZLXex3UFvOrdw9JrC6HQ+Mf4LXEfoue089czBQJ0J+93gwbUjrDfV/74d44XcVGeu1/ZKuS+QF5rD92Lnxnix/MsLuT89QZRu
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="30">
+ <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="30">
+ <layer id="4" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJy9VjtOxEAMjdIg0YVixSJRcQTapVpKLpDkBGyOwFEQ5+AAFFQ0S8sJOAWMdiy8j2ePByW8JpqMx8+/8bhp6nHZNk2//sPBGXCveKM2ROTm9sfSNxR4Nmt/XZL3MEDsSrbUoBS/xFUT44h9nr5rZ+/G2BN9j22dPg3mp/iCPmmdjDNhm2XeV4fvJhhHkZm+v2Mh716snwy7EOz8ZOjFmrW4xecIV2/EEvMWrStPhu3j+pb0qUgNaZ97ogO5ns/KOiP3/GX1m8dCtHfo/LM+lXzdGznWqOlbb93hjdhlmTsiu4cYD8b91DIJkVhbwHeL8aCfglfgTbmaco1bNSU9DnuPFz+sMZRNvA+Zd+vkgNUQ64toR4rRBDactj/52gV7UQRWrC3bPrvjdc37ORp+S51KbYyqbjGvJ3nmEl2am70JEkvk1me0DQwX58ecaL8F7Zel2wPjXAqR+WmOWalmTkMI99wzm+CjK8vUgvXdKJbyU+MKeiqb2f4Dck+X9hfB7lj69wWIt1b7
   </data>
  </layer>
- <layer id="4" name="Top" width="30" height="30">
+ <layer id="5" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AUjIJRAANzmQbaBSMH2EjS175IoH1RdLZzoMFI8+8oGAWjYBSMAtIBAEmVAk0=
   </data>
  </layer>
- <layer id="5" name="Walkable" width="30" height="30" visible="0">
+ <layer id="6" name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJytU1sKwDAI6yl2/yvshmMfhSKah1YorJ0mMa3vs9ZrrD+c/BtrBzu7gXueV4HymTaUMw2136o24ijYLj/TUmG6uth9I37E0+VEgXK7Pld5qEfEPZklxdO9z74rDEVfxKi4FZ2ZX8ob6/id1bH/MUd9i8gXds/qXu311KP0G3vIPKvykFalH1aj4KG348w1en9uHctjc6bguJzID4fTqY3/s5oJt6JN1e9oyGqcnqZ8yNMptxOOF64+lxtxKLzK3apaIl53ntBeDZfXxUVnzkwzLewddzk7K/Kc3B8NooZK
   </data>
  </layer>
- <objectgroup id="6" name="Mapevents">
+ <objectgroup id="7" name="Mapevents">
   <object id="1" name="north" type="mapchange" x="384" y="0" width="32" height="32">
    <properties>
     <property name="map" value="mywild19"/>
@@ -236,7 +236,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="5" name="forestwolf1" type="spawn" x="96" y="64" width="544" height="288">
    <properties>
     <property name="quantity" value="2"/>
@@ -313,7 +313,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Keys">
+ <objectgroup id="9" name="Keys">
   <object id="18" name="gison_cookbook:30" type="key" x="448" y="544" width="32" height="32">
    <properties>
     <property name="phrase" value="gison_cavekey"/>
@@ -323,5 +323,5 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Replace"/>
+ <objectgroup id="10" name="Replace"/>
 </map>

@@ -153,6 +153,12 @@ public final class DebugInterface {
 				showToast(mainActivity, "DEBUG: map=" + world.model.currentMaps.map.name , Toast.LENGTH_SHORT);
 			}
 		})
+				,new DebugButton("tim", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				world.model.worldData.tickWorldTime(10);
+			}
+		})
 		}));
 
 		tpButtons.addAll(Arrays.asList(new DebugButton[] {
@@ -313,6 +319,13 @@ public final class DebugInterface {
 			}
 		})
 
+				,new DebugButton("wx", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "wexlow_village", "north", 0, 0);
+			}
+		})
+
 				,new DebugButton("fey", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
@@ -345,14 +358,14 @@ public final class DebugInterface {
 				,new DebugButton("#1", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "waterway11_east", "west", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "swamp3", "north", 0, 0);
 			}
 		})
 
 				,new DebugButton("#2", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothtomb1", "north", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "beekeeper1", "south", 0, 0);
 			}
 		})
 
@@ -360,7 +373,7 @@ public final class DebugInterface {
 				,new DebugButton("#3", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "mountainlake8", "north", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "guynmart", "west2", 0, 0);
 			}
 		})
 

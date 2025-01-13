@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="20" height="19" tilewidth="32" tileheight="32" infinite="0" nextobjectid="15">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="16">
  <properties>
   <property name="colorfilter" value="none"/>
  </properties>
@@ -183,27 +183,27 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="20" height="19">
+ <layer id="1" name="Ground" width="20" height="19">
   <data encoding="base64" compression="zlib">
    eJzj42Jg4KMy3i5FHQwz7w4rBB+XIh+D9MPMO8lJOnYE6v/FicAgMUrMw4aJNQ8WHuhqn/EzMDznh9DkuA9ZLb74BckXijEwFIsh1KPz0c1Dj1sQgKUVctyHLY5B8seJNM8RS/hhs+8lJyY+iUXsJZbww2beZjHiMTHxQa55uPIbuebhig9yzcMVH5SEH6XmIadV9HQbxgoRI8U8UBiB9MHCD919x0k0D1uaRMcAGA8Gsg==
   </data>
  </layer>
- <layer name="Objects" width="20" height="19">
+ <layer id="2" name="Objects" width="20" height="19">
   <data encoding="base64" compression="zlib">
    eJxjYKAMdLLhl/8jw8BwlY+BQVoAwf7Ph2AjqwGBmQTM45FlYNjPimCXANmlrBA2shoYWInFvDesEGzIAuGfB7KnQs1sAdKtUPYUVlR9F8UgdLEARD8MHOLH7+aBANVobof5FRsfFh6kgBNQP5tDzbEA0ieRwqEdh3mguIfFNQyAzJgIDNvJYph8cxZMMwgBkFscseiDiSUR8OtioDp10q3FAOeR7DGnwBw7MsIAH/BDMg8cFxSm3zgquw8dUBIf+3HENbnxgRynR1khGFYukAuw6T9PYn4kFgAAGzUsOg==
   </data>
  </layer>
- <layer name="Above" width="20" height="19">
+ <layer id="3" name="Above" width="20" height="19">
   <data encoding="base64" compression="zlib">
    eJxjYKA+OCyGXVxUgLrmkQtg5l2kkrm0ch8lANlvpJhHjFpqmLddirrmIYNLZJq3n5V4fcSYRw0AMm8nP3XNoyYYSuZtZYVgaplHjbSDnFZJSbfkAgAlTxo1
   </data>
  </layer>
- <layer name="Walkable" width="20" height="19">
+ <layer id="4" name="Walkable" width="20" height="19">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEEYxDAx4YBdDY2cygFxJqFy158fiTVPFLCjBQ+MeGOKyyIdR8hPxNSR0qawWUvKfFDrl3D1TxS44NYN1LLXGxpiNruo2aYImMApbbbNw==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="entrance" type="mapchange" x="160" y="320" width="32" height="32">
    <properties>
     <property name="map" value="fallhaven_nw"/>
@@ -212,8 +212,9 @@
   </object>
   <object id="2" name="rest1" type="rest" x="576" y="320" width="32" height="32"/>
   <object id="3" name="rest2" type="rest" x="576" y="480" width="32" height="32"/>
+  <object id="15" name="gal_chk_h2" type="script" x="128" y="288" width="96" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup id="6" name="Spawn">
   <object id="4" name="drunk" type="spawn" x="64" y="128" width="224" height="128">
    <properties>
     <property name="quantity" value="2"/>
@@ -247,7 +248,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup id="7" name="Keys">
   <object id="9" name="fallhaventavern:20" type="key" x="448" y="288" width="32" height="32">
    <properties>
     <property name="phrase" value="fallhaven_tavern_room"/>
@@ -265,7 +266,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Restarea">
+ <objectgroup id="8" name="Restarea">
   <properties>
    <property name="active" value="false"/>
   </properties>
@@ -283,7 +284,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Restscript">
+ <objectgroup id="9" name="Restscript">
   <properties>
    <property name="active" value="false"/>
   </properties>

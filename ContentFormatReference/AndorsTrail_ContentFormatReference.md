@@ -203,7 +203,7 @@ If you intend to enable or disable map objects dynamically (through a quest/dial
 **"replace" and "key" areas need the properties of a requirement.**
 
 - A requirement is defined by the following properties:
-  - "**requireType**" with one of the following textual values: "questProgress", "questLatestProgress", "inventoryRemove", "inventoryKeep", "wear", "skillLevel", "killedMonster", "timerElapsed", "usedItem", "spentGold", "consumedBonemeals", "hasActorCondition".
+  - "**requireType**" with one of the following textual values: "**questProgress**", "**questLatestProgress**", "**inventoryRemove**", "**inventoryKeep**", "**wear**", "**skillLevel**", "**killedMonster**", "**timerElapsed**", "**usedItem**", "**spentGold**", "**consumedBonemeals**", "**hasActorCondition**", "**factionScore**, "**factionScoreEquals**", "**random**", "**date**", "**dateEquals**", "**time**", "**timeEquals**".
   - "**requireID**" with a textual value. The specifities of this property depends on the selected "requireType", and will be detailed below.
   - "**requireValue**" with a textual value. The specifities of this property depends on the selected "requireType", and will be detailed below.
   - "**requireNegation**" with the value true or false. false being the default, this property can be omitted completely in this case. When the value is true, the required is fulfilled only when it shouldn't be.
@@ -222,7 +222,7 @@ If you intend to enable or disable map objects dynamically (through a quest/dial
 
   - When "requireType" is "**timerElapsed**", the "requireID" property must be a textual value matching the ID of a timer started by a dialogue. The "requireValue" must be a numerical value indicating the number of game rounds that must have passed since the timer was last started.
 
-  - When "requireType" is "**factionScore**", the "requireID" property must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "requireValue" must be a numerical value (positive or negative) indicating the minimum score the player must have for this faction to fulfill this requirement.
+  - When "requireType" is "**factionScore**" or "**factionScoreEquals**", the "requireID" property must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "requireValue" must be a numerical value (positive or negative) indicating the minimum or exact score the player must have for this faction to fulfill this requirement.
 
   - When "requireType" is "**spentGold**", the "requireID" property is unused, and the "requireValue" must be a numerical value indicating the total amount of gold that the player must have spent overall.
 
@@ -804,7 +804,7 @@ A **dialogue** ***can*** have the following fields defined:
 
 
 - A **requirement** ***must*** have the following field defined:
-  - "**requireType**" with one of the following textual values: "**questProgress**", "**questLatestProgress**", "**inventoryRemove**", "**inventoryKeep**", "**wear**", "**skillLevel**", "**killedMonster**", "**timerElapsed**", "**usedItem**", "**spentGold**", "**consumedBonemeals**", "**hasActorCondition**", "**date**", "**dateEquals**", "**time**", "**timeEquals**".
+  - "**requireType**" with one of the following textual values: "**questProgress**", "**questLatestProgress**", "**inventoryRemove**", "**inventoryKeep**", "**wear**", "**skillLevel**", "**killedMonster**", "**timerElapsed**", "**usedItem**", "**spentGold**", "**consumedBonemeals**", "**hasActorCondition**", "**factionScore**, "**factionScoreEquals**", "**random**", "**date**", "**dateEquals**", "**time**", "**timeEquals**".
 
 - A **requirement** ***can*** have the following field defined:
     - "**requireID**" with a textual value. As it depends on the "**requireType**" selected, see below for details.
@@ -817,16 +817,17 @@ A **dialogue** ***can*** have the following fields defined:
   - When "requireType" is "**skillLevel**", the "requireID" property must have a value matching a skill ID, as found here: [url]https://github.com/Zukero/andors-trail/blob/master/AndorsTrail/src/com/gpl/rpg/AndorsTrail/model/ability/SkillCollection.java[/url]. The "value" field must have a numerical value that indicate the level of the skill that is needed to fulfill the requirement.
   - When "requireType" is "**killedMonster**", the "requireID" field must have a value matching a NPC ID, and the "value" field must be a numerical value that indicate the number of the given NPC that the player must have killed.
   - When "requireType" is "**timerElapsed**", the "requireID" field must be a textual value matching the ID of a timer started by a dialogue. The "value" must be a numerical value indicating the number of game rounds that must have passed since the timer was last started.
-  - When "requireType" is "**factionScore**", the "requireID" field must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "value" must be a numerical value (positive or negative) indicating the minimum score the player must have for this faction to fulfill this requirement.
+  - When "requireType" is "**factionScore**" or "**factionScoreEquals**", the "requireID" field must be a textual value matching the ID of a faction whose score was changed by a dialogue using the "alignmentChange" reward. The "value" must be a numerical value (positive or negative) indicating the minimum or exact score the player must have for this faction to fulfill this requirement.
   - When "requireType" is "**spentGold**", the "requireID" field is unused, and the "value" must be a numerical value indicating the total amount of gold that the player must have spent overall.
   - When "requireType" is "**consumedBonemeals**", the "requireID" field is unused, and the "value" must be a numerical value indicating the total amount of bonemeal potions (all kind of bonemeals, including Lodar's) that the player must have consumed overall.
   - When "requireType" is "**hasActorConditions**", the "requireID" field must have a value matching an actor condition ID. The "value" property is unused. The requirement is fulfilled when the player is afflicted by the selected actor condition.
+  - When "requireType" is "**random**", the "requireID" field must be a chance value. The requirement is fulfilled with this chance value. Use "100" for a sure drop, "50" for 50% chance, "0.1" for extraordinary items, and "0.01" for legendary items. Instead of percent values you may also use fractions like "1/3". 
   - When "requireType" is "**date**" or "**dateEquals**", the "requireID" field must be one of these format constants: YYYYMMDD, YYYYMM, YYYY, MMDD, MM, DD. The "value" property is a an integer in the length of the used format.
   - When "requireType" is "**time**" or "**timeEquals**", the "requireID" field must be one of these format constants: HHMMSS, HHMM, HH, MMSS, MM, SS. The "value" property is a an integer in the length of the used format.
 
 
 - A **reward** ***must*** have the following fields defined:
-  - "rewardType" with one of the following values: "**questProgress**", "**removeQuestProgress**", "**dropList**", "**skillIncrease**", "**actorCondition**", "**alignmentChange**", "**alignmentSet**", "**giveItem**", "**createTimer**", "**spawnAll**", "**removeSpawnArea**", "**deactivateSpawnArea**", "**activateMapObjectGroup**", "**deactivateMapObjectGroup**", "**changeMapFilter**". Explanation for all rewards type, and associated constraints on the other fields of a reply definition is below.
+  - "rewardType" with one of the following values: "**questProgress**", "**removeQuestProgress**", "**dropList**", "**skillIncrease**", "**actorCondition**", "**actorConditionImmunity**", "**alignmentChange**", "**alignmentSet**", "**giveItem**", "**createTimer**", "**spawnAll**", "**removeSpawnArea**", "**deactivateSpawnArea**", "**activateMapObjectGroup**", "**deactivateMapObjectGroup**", "**changeMapFilter**", "**mapchange**". Explanation for all rewards type, and associated constraints on the other fields of a reply definition is below.
 
   - "rewardID" with a textual value generally matching the ID of a game object. As it depends on the "**rewardType**" selected, see below for details.
 
@@ -838,14 +839,19 @@ A **dialogue** ***can*** have the following fields defined:
 When granted this reward, the player will receive all the items from the droplists, taking the variability of the droplist into account (some may have random quantities, or even random presence). 
   - When "rewardType" is "**skillIncrease**", the "rewardID" field must match a skill ID, as found here: [url]https://github.com/Zukero/andors-trail/blob/master/AndorsTrail/src/com/gpl/rpg/AndorsTrail/model/ability/SkillCollection.java[/url]. The "value" and "mapName" fields are unused. 
 When granted this reward, the player will see this skill's level incremented by one.
-  - When "rewardType" is "**actorCondition**", the "rewardID" field must match an actor condition's ID, and the "value" field will indicate the number of rounds this actor conditions last. The "mapName" field is unused. When granted this reward, the player will be afflicted by the actor condition for the selected number of rounds. Use a "value" of 999 to indicate that this actor condition lasts forever (rotworms anyone?). Another special case: when the "value" is -99, it means the player will be cleared of all active instances of this actor condition.
-When the "rewardType" is "**alignmentChange**" or "**alignmentSet**", the "rewardID" field must be an arbitrary textual value that will serve as the faction ID to use in "factionScore" requirements or NPCs' "faction" field, and the "value" field must be an integer indicating the score. In the case of "alignmentChange", the score set in "value" is added to the current score for that faction ID, while "alignmentSet" sets the value as the new score, regardless of the previous value.
+  - When "rewardType" is "**actorCondition**" or "**actorConditionImmunity**", the "rewardID" field must match an actor condition's ID, and the "value" field will indicate the number of rounds this actor conditions last. The "mapName" field is unused. 
+  In the case of "**actorCondition**", when granted this reward, the player will be afflicted by the actor condition for the selected number of rounds. In the case of "**actorConditionImmunity**", when granted this reward, the player will not be afflicted by the actor condition for the selected number of rounds. 
+  Special "value":
+	- 999 to indicate that this actor condition lasts forever (rotworms anyone?). 
+	- 998 to indicate that this actor condition lasts until next time you sleep.
+	- -99 means the player will be cleared of all active instances of this actor condition.
+  - When the "rewardType" is "**alignmentChange**" or "**alignmentSet**", the "rewardID" field must be an arbitrary textual value that will serve as the faction ID to use in "factionScore" requirements or NPCs' "faction" field, and the "value" field must be an integer indicating the score. In the case of "alignmentChange", the score set in "value" is added to the current score for that faction ID, while "alignmentSet" sets the value as the new score, regardless of the previous value.
   - When "rewardType" is "**giveItem**", the "rewardID" field must match an item's ID, and the "value" field indicate the quantity. The "mapName" field is unused. When granted this reward, the player will receive the selected quantity of the selected item. This is quite similar to the "droplist" reward type, but it is simpler (no variability possible), and avoids the burden of creating a droplist when you just want to give one or two items, or some gold.
   - When "rewardType" is "**createTimer**", the "rewardID" field must contain any textual value that will be this timer's ID. The "value" and "mapName" fields are unused. When granted this reward, the game will keep note of the game time (in game rounds elapsed since you started the game), and use this for comparison in requirements. Every time you *create* a timer, any previous note with the same timer ID will be overwritten.
   - When "rewardType" is "**spawnAll**", "**removeSpawnArea**", or "**deactivateSpawnArea**", the "mapName" field must match a map's ID, and the "rewardID" field must match a spawn area's ID within the selected map. The "value" field is unused. In the case of "**spawnAll**", when granted this reward, this spawn area will be activated (if it was inactive), and all included NPCs will be spawned immediately. In the case of "**removeSpawnArea**", when granted this reward, this spawn area will be deactivated, and all included NPCs will be removed immediately. In the case of "**deactivateSpawnArea**", when granted this reward, this spawn area will be deactivated, but all included NPCs will remain on the map until killed or removed by a dialogue reward.
-  - When "rewardType" id "**activateMapObjectGroup**", or "**deactivateMapObjectGroup**", the "mapName" field must match a map's ID, and the "rewardID" field must match an object group's ID within the selected map. The "value" field is unused. In the case of "**activateMapObjectGroup**", when granted this reward, all map objects (except spawn areas) within this object group will be made active. In the case of "**deactivateMapObjectGroup**", when granted this reward, all map objects (except spawn areas) within this object group will be made inactive (they have no effect on the game anymore).  :!: Beware though, as deactivating an object group containing a replace area that has already been triggered will NOT revert the map to its previous look.
-  - When "rewardType" id "**changeMapFilter**", the "mapName" field must match a map's ID, and the "rewardID" field must match a color filter's ID, as found here: [url]https://github.com/AndorsTrailRelease/ATCS/blob/master/src/com/gpl/rpg/atcontentstudio/model/maps/TMXMap.java[/url]. The "value" field is unused. When granted this reward, the selected map will have its "colorFilter" property changed to the value of the "rewardID" field. See the post about maps to know the effect of the different available color filters.
-  - When "rewardType" id "**mapchange**", the "mapName" field must match a map's ID, and the "rewardID" field must match a mapchange target within the selected map. The "value" field is unused.
+  - When "rewardType" is "**activateMapObjectGroup**", or "**deactivateMapObjectGroup**", the "mapName" field must match a map's ID, and the "rewardID" field must match an object group's ID within the selected map. The "value" field is unused. In the case of "**activateMapObjectGroup**", when granted this reward, all map objects (except spawn areas) within this object group will be made active. In the case of "**deactivateMapObjectGroup**", when granted this reward, all map objects (except spawn areas) within this object group will be made inactive (they have no effect on the game anymore).  :!: Beware though, as deactivating an object group containing a replace area that has already been triggered will NOT revert the map to its previous look.
+  - When "rewardType" is "**changeMapFilter**", the "mapName" field must match a map's ID, and the "rewardID" field must match a color filter's ID, as found here: [url]https://github.com/AndorsTrailRelease/ATCS/blob/master/src/com/gpl/rpg/atcontentstudio/model/maps/TMXMap.java[/url]. The "value" field is unused. When granted this reward, the selected map will have its "colorFilter" property changed to the value of the "rewardID" field. See the post about maps to know the effect of the different available color filters.
+  - When "rewardType" is "**mapchange**", the "mapName" field must match a map's ID, and the "rewardID" field must match a mapchange target within the selected map. The "value" field is unused.
 
 
 **The special case of selectors**
@@ -945,6 +951,30 @@ The game engine will evaluate the requirements of each reply, one after the othe
                 {
                     "requireType":"hasActorCondition",
                     "requireID":"chaotic_grip"
+                },
+                {
+                    "requireType":"random",
+                    "value":"20"
+                },
+                {
+                    "requireType":"date",
+                    "requireID":"YYYYMMDD",
+                    "value":20241231
+                },
+                {
+                    "requireType":"dateEquals",
+                    "requireID":"MMDD",
+                    "value":1231
+                },
+                {
+                    "requireType":"time",
+                    "requireID":"HHMMSS",
+                    "value":201500
+                },
+                {
+                    "requireType":"timeEquals",
+                    "requireID":"HHMM",
+                    "value":0830
                 }
             ]
         }
@@ -1016,6 +1046,11 @@ The game engine will evaluate the requirements of each reply, one after the othe
             "rewardType":"changeMapFilter",
             "rewardID":"black20",
             "mapName":"blackwater_mountain0"
+        },
+        {
+            "rewardType":"mapchange",
+            "rewardID":"north",
+            "mapName":"blackwater_mountain0"
         }
     ]
 }
@@ -1040,7 +1075,7 @@ Droplists, like all JSON-based content, is best created and edited using ATCS, b
 
 - A **dropped item** ***must*** have the following fields defined:
   - "**itemID**" with a textual value matching an item's ID.
-  - "**chance**" with a numerical value (can be decimal). It defines the percentage of chance that this item will be dropped in this droplist. Use "100" for a sure drop, "50" for 50% chance, "0.1" for extraordinary items, and "0.01" for legendary items.
+  - "**chance**" with a numerical value (can be decimal). It defines the percentage of chance that this item will be dropped in this droplist. Use "100" for a sure drop, "50" for 50% chance, "0.1" for extraordinary items, and "0.01" for legendary items. Instead of percent values you may also use fractions like "1/3". 
   - "**quantity**" with an object value, as defined in the **min-max values** definition below. The quantity actually dropped will be picked at random within this range each time this droplist is dropped.
 
 

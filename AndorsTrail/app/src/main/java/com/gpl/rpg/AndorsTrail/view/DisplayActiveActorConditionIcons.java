@@ -292,6 +292,8 @@ public final class DisplayActiveActorConditionIcons implements ActorConditionLis
 			}
 			if (condition.duration == ActorCondition.DURATION_FOREVER || condition.duration == ActorCondition.DURATION_NONE) {
 				duration = "\u221e";
+			} else if (condition.duration == ActorCondition.DURATION_FOREVER_UNTIL_SLEEP) {
+				duration = "";
 			} else {
 				duration = Integer.toString(condition.duration);
 			}

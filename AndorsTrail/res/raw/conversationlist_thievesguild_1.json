@@ -249,7 +249,26 @@
         "replies":[
             {
                 "text":"Do you mean like stealing?",
-                "nextPhraseID":"thievesguild_pickpocket_5"
+                "nextPhraseID":"thievesguild_pickpocket_5",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Isn't that stealing?",
+                "nextPhraseID":"thievesguild_pickpocket_5",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

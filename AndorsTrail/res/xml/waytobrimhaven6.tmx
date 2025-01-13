@@ -184,29 +184,14 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_plant_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7705" name="map_ground_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7833" name="map_tree_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="30" height="7">
-  <data encoding="base64" compression="zlib">
-   eJyTlGNgkBzFo3gUU4QBTnYtHw==
-  </data>
+  <data encoding="base64" compression="zlib">eJzbyMnAsHEUj+JRTBEGAI6TmJU=</data>
  </layer>
  <layer name="Objects" width="30" height="7">
-  <data encoding="base64" compression="zlib">
-   eJy1UkEOgzAMy2WwF3Arz99hhwEH+gK6F1DGc5ZqtbCiHJC2WbLcIMdNI269yKJ8KreqWRnr90QajTc5npVy4LkoG/IUxOrNpK3y6szS0tn2QKO5O/f+LMAYRIZw1Lb3Ho7sglnrifw2Y6U+rqF7+PgB+Ca6Z3Dy2YsZGY+aO1L+1om8lHsnPwPvgt9gZ8T+MCfv/9+aTnq9f+MbLXlvlzKPiw==
-  </data>
+  <data encoding="base64" compression="zlib">eJy1kkEKwjAQRf8VkkXBhdb7H8KFC9sumqW6MJ6gEY/gBDPkM0YQ1A/D75Q3P9PQ3Qq4SF2lbsWTVCjvI3kwbGwwC+Uos/bAxlcmKxQ2kffCbP3rLr2vz3ZGPZiz05tdVKMDBld7O7t3NTtrln4i3mYsNMe9+t09eZVyE50zNPKZ1R1Zh5I7Uv6xA05S5w4/E98Ff4PdUe9P9+T7/7fHD9nWv/GN57wHGFiarg==</data>
  </layer>
  <layer name="Above" width="30" height="7">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAuWCaHKXYEKHYUizg2cASH/sEESPEPuXrxqQOJEzIHJg9TewyIr8mh6sVGE1JHSB7Z/mODLN5oCQA1BCjP
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYKAu2CeJKXYHKHYXizg2cAeH/sEESPEPuXrxqQOJEzIHJg9Tew+I30mi6sVGE1JHSB7Z/nuDLN5oCQBE4Sw5</data>
  </layer>
  <layer name="Walkable" width="30" height="7">
   <data encoding="base64" compression="zlib">

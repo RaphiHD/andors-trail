@@ -181,28 +181,19 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="13" height="11">
   <data encoding="base64" compression="zlib">
    eJxbx8TAsA4JH0DC64jA64H4EhLej8cMGP8gED9BwhexmIFu9mUg3sKJitHNWAvVAxNDV48Nw/QQoxZZzzoS9SCHwxwiMEztJTLwEzLwU07SMQAE4W8d
   </data>
  </layer>
  <layer name="Objects" width="13" height="11">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgYIM7EwCDEBKHxgd2yDAzsYhD2IlYGhkdCEHo1VC8X1BxksBqoRxyoZw0es0HmrGZC1UMM4BEjXc9sAn4cqgAAlC8J9w==
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBgYIM7EwCDEBKHxgctiDAzsYhD2IlYGhkdCEHo1VC8X1BxkcBioXhyI1+AxG2TOaiZUPcQAHiR1xOqZTcCPQxUAAO0DCjs=</data>
  </layer>
  <layer name="Above" width="13" height="11">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAc7JYlXc9qMvTsIkMPLcFcpoF2wcACAPtvAxc=
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYKAcXBYjXc9hMvRcIkMPLcFcpoF2wcACAFWfA0o=</data>
  </layer>
  <layer name="Walkable" width="13" height="11" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJybKcvAMHMIYRAgRR0+gK6eWECqvoEOM1phAAjfUQ0=
-  </data>
+  <data encoding="base64" compression="zlib">eJzbKMbAsHEIYRAgRR0+gK6eWECqvoEOM1phAI3JWJ8=</data>
  </layer>
  <objectgroup name="Mapevents">
   <object name="entrance" type="mapchange" x="64" y="128" width="32" height="32">

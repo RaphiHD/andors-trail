@@ -5850,7 +5850,7 @@
     },
     {
         "id":"ortholion_conversation2_4a",
-        "message":"I'm... *stares at you* \n\n$playername! It's time to end with all of this!",
+        "message":"I'm... [stares at you] \n\n$playername! It's time to end with all of this!",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
@@ -5963,7 +5963,7 @@
     },
     {
         "id":"ortholion_conversation2_8a",
-        "message":"Ortholion! How much is your life worth? How many people?\n\nProve the honor of your glorious land. Come face me alone! No guards, no witnesses.\n\n[Ehrenfest leaps unnaturally high, passing above me, and disappears in the blink of an eye]",
+        "message":"Ortholion! How much is your life worth? How many people?\n\nProve the honor of your glorious land. Come face me alone! No guards, no witnesses.\n\n[Ehrenfest leaps unnaturally high, passing above you, and disappears in the blink of an eye]",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
@@ -6005,7 +6005,7 @@
     },
     {
         "id":"ortholion_conversation2_3b",
-        "message":"*unsheathes his sword* Well, enough talk. I won't ignore your threats, evil creature.",
+        "message":"[unsheathes his sword] Well, enough talk. I won't ignore your threats, evil creature.",
         "switchToNPC":"ortholion",
         "replies":[
             {
@@ -6020,7 +6020,7 @@
     },
     {
         "id":"ortholion_conversation2_4b",
-        "message":"[People from the tavern start looking at the place where Ortholion and Ehrenfest are about to have a fight]\n\n*looks around* No...Not yet. Argh! You kid, betrayer! You are about to discover how wrongly you have chosen!",
+        "message":"[People from the tavern start looking at the place where Ortholion and Ehrenfest are about to have a fight]\n\n[looks around] No...Not yet. Argh! You kid, betrayer! You are about to discover how wrongly you have chosen!",
         "switchToNPC":"ehrenfest",
         "replies":[
             {
@@ -6135,7 +6135,7 @@
     },
     {
         "id":"ortholion_4b",
-        "message":"*laughs quietly* Only simple minds would see things as black or white. Whether I believe or not, people do, and we in Feygard keep that in mind.",
+        "message":"[Laughs quietly] Only simple minds would see things as black or white. Whether I believe or not, people do, and we in Feygard keep that in mind.",
         "replies":[
             {
                 "text":"OK. Now that you're aware of the situation, I'd better leave.",
@@ -6223,7 +6223,7 @@
     },
     {
         "id":"ortholion_7a",
-        "message":"*The general effortlessly subdues you, and begins to laugh* \n\nLook, take this signet. With this, my soldiers stationed outside the mining tunnel entrance will believe your words. Tell them I went to the Elm mine.",
+        "message":"[The general effortlessly subdues you, and begins to laugh] \n\nLook, take this signet. With this, my soldiers stationed outside the mining tunnel entrance will believe your words. Tell them I went to the Elm mine.",
         "replies":[
             {
                 "text":"Hmpf...",
@@ -6401,7 +6401,7 @@
                 "nextPhraseID":"fms_2a"
             },
             {
-                "text":"*shows the signet* your general has gone to Elm mine. He could be in trouble.",
+                "text":"[Shows the signet] Your general has gone to Elm mine. He could be in trouble.",
                 "nextPhraseID":"fms_2b",
                 "requires":[
                     {
@@ -6418,7 +6418,7 @@
         "message":"Yeah, sure. We are here posted by command of General Orhtolion of Feygard. You have no business here.",
         "replies":[
             {
-                "text":"*shows the signet* Yeah, sure. Now hurry up! Your general is waiting for you in the Elm mine.",
+                "text":"[shows the signet] Yeah, sure. Now hurry up! Your general is waiting for you in the Elm mine.",
                 "nextPhraseID":"fms_2b",
                 "requires":[
                     {
@@ -6436,7 +6436,7 @@
     },
     {
         "id":"fms_2b",
-        "message":"*shouts* Hey, slackers! You're moving now. It's an order. Prepare yourselves, we are going to the Elm mine, our general needs us!",
+        "message":"[shouts] Hey, slackers! You're moving now. It's an order. Prepare yourselves, we are going to the Elm mine, our general needs us!",
         "replies":[
             {
                 "text":"N",
@@ -8369,7 +8369,7 @@
     },
     {
         "id":"ehrenfest_50a",
-        "message":"If only you were stronger...Maybe I could convince you to join us, *cough* but I have to admit my plan was blaming you for Ortholion's death.\n\nYou know, we're tired of you asking questions here and there, *cough* *cough*.",
+        "message":"If only you were stronger...Maybe I could convince you to join us, [cough] but I have to admit my plan was blaming you for Ortholion's death.\n\nYou know, we're tired of you asking questions here and there, [cough] [cough].",
         "replies":[
             {
                 "text":"N",
@@ -8399,7 +8399,7 @@
     },
     {
         "id":"ehrenfest_51",
-        "message":"Don't look at me that way, kid...*laughs*. This is too complicated for a young mind.",
+        "message":"Don't look at me that way, kid...[laughs]. This is too complicated for a young mind.",
         "replies":[
             {
                 "text":"Die!",
@@ -8991,7 +8991,7 @@
     },
     {
         "id":"ortholion_guard10_1",
-        "message":"*hic* Drink! *hic* \n\nDrink for those who've fallen!"
+        "message":"[hic] Drink! [hic] \n\nDrink for those who've fallen!"
     },
     {
         "id":"ortholion_guard3_5",
@@ -9094,10 +9094,10 @@
     },
     {
         "id":"ortholion_guard10_2",
-        "message":"No! *looks at you* This is my beeeeeer, kid! *hic*",
+        "message":"No! [looks at you] This is my beeeeeer, kid! [hic]",
         "replies":[
             {
-                "text":"Uh... How he did get drunk that fast?",
+                "text":"Uh... How did you get drunk that fast?",
                 "nextPhraseID":"X"
             },
             {
@@ -9112,7 +9112,7 @@
     },
     {
         "id":"ortholion_guard10_3",
-        "message":"H..Halt! *hic* Kids not allowed!",
+        "message":"H..Halt! [hic] Kids not allowed!",
         "replies":[
             {
                 "text":"I'll go where I please in this mine! Hmpf...",

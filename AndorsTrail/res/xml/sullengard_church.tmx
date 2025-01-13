@@ -181,43 +181,19 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_chair_table_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_chair_table_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7705" name="map_pillar_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7833" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7961" name="map_indoor_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8089" name="map_window_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_window_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8217" name="map_fence_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_fence_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="14" height="8">
   <data encoding="base64" compression="zlib">
    eJzbIM3AsIFMHEwihulLIhHD9MlwkYZh+nS4SMMgPUFk2BcC1JNIhn3JQD3vOLFjkDwuORAGAJk4M64=
   </data>
  </layer>
  <layer name="Objects" width="14" height="8">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAfPJRnYLAF4gdQGgQmQmlk8YfyqPo+APnZchDaF0g/kmVgeAzET4DYTw5VHh1UA8V3AnEsEH8Cqv8MxF+AOA4qDpIHgXBW3O5+xI/ApIBP/Ag8WAAAMMUcfQ==
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYCAfPJRhYLjKx8DwAEqDgCY/hEYWB6lDBh+AfGZBCP1UgIGhioWBoRqIa4D4mQCqPDoQBopfFGNg+ApU1wVU3w3EPUD8TQAiDpIHgXBW3O5+xI/ApIBP/Ag8WAAAkJwbdw==</data>
  </layer>
  <layer name="Above" width="14" height="8">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAfrJYbuvom89POvl1k6iMHAAAWfAVo
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYCAfHBYbuvom89POvktk6iMHAABzrAXI</data>
  </layer>
  <layer name="Walkable" width="14" height="8" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJybKcfAMHOIYBBApomVRwf45JDlqaWPECDGz7gwAFKyNww=
-  </data>
+  <data encoding="base64" compression="zlib">eJzbKMbAsHGIYBBApomVRwf45JDlqaWPECDGz7gwAEJlO9w=</data>
  </layer>
  <objectgroup name="Mapevents">
   <object name="door" type="mapchange" x="192" y="224" width="32" height="32">

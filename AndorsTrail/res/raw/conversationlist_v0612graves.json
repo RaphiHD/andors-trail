@@ -57,7 +57,20 @@
     },
     {
         "id":"sign_catacombs1_grave3",
-        "message":"Here lies Sir Karthanir of house Gellir. Son of Sir Anarogas, and the younger brother of Sir Eneryth."
+        "message":"Here lies Sir Karthanir of house Gellir. Son of Sir Anarogas, and the younger brother of Sir Eneryth.",
+        "replies":[
+            {
+                "text":"There is the ladder. [Fetch it]",
+                "nextPhraseID":"sign_catacombs1_grave3_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":71
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"sign_catacombs1_grave4",
@@ -242,5 +255,65 @@
     {
         "id":"sign_lh1_sign",
         "message":"On the wall, you see a plaque that reads: Bring unto me, that which I cannot bear, for it makes me stronger."
+    },
+    {
+        "id":"sign_catacombs1_grave3_selector",
+        "replies":[
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":72
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_nondisplayed",
+                        "value":73
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"sign_catacombs1_grave3"
+            }
+        ]
+    },
+    {
+        "id":"sign_catacombs1_grave3_10",
+        "message":"You place the ladder below the tiny window.",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":71
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":72
+            }
+        ]
+    },
+    {
+        "id":"",
+        "message":"You place the ladder below the tiny window.",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":71
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"feygard_nondisplayed",
+                "value":72
+            }
+        ]
     }
 ]

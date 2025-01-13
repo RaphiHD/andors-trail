@@ -56,7 +56,7 @@
         "replies":[
             {
                 "text":"No thanks.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"drunk1a"
             },
             {
                 "text":"Maybe some other time.",
@@ -155,6 +155,72 @@
             {
                 "text":"You mean, by killing you?",
                 "nextPhraseID":"F"
+            }
+        ]
+    },
+    {
+        "id":"drunk1a",
+        "message":"Heeeey - come on. Don't be such a spoilsport.",
+        "replies":[
+            {
+                "text":"Maybe some other time.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]",
+                "nextPhraseID":"drunk1b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"pot_poison_weak",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"drunk1b",
+        "message":"Ohh ... [glug glug]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"drunk1c"
+            }
+        ]
+    },
+    {
+        "id":"drunk1c",
+        "message":"What an interesting ... [glug]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"drunk1d"
+            }
+        ]
+    },
+    {
+        "id":"drunk1d",
+        "message":"... taste [falls over]",
+        "replies":[
+            {
+                "text":"Yes, really. A unique taste. And final - bye.",
+                "nextPhraseID":"drunk1e"
+            }
+        ]
+    },
+    {
+        "id":"drunk1e",
+        "replies":[
+            {
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"drunk1",
+                "value":1
             }
         ]
     }

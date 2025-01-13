@@ -180,23 +180,16 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_kitchen_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
- </tileset>
  <layer id="1" name="Ground" width="8" height="8">
   <data encoding="base64" compression="zlib">
    eJzbIM3AsIEADsaBYfJJODBMXoYLO4bJ63BhxyC5IDz6Q4ByiXj0JwPl3nFCMIgPYyNjALGnH1A=
   </data>
  </layer>
  <layer id="2" name="Objects" width="8" height="8">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgYsIyNNPW3ZFExtQAAmG0EiQ==
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBgYsIyNNPWf+FExtQAApXUEsQ==</data>
  </layer>
  <layer id="3" name="Above" width="8" height="8">
-  <data encoding="base64" compression="zlib">
-   eJxjYCACyEIoJjkE34gfIS0gi6ocxJ/GhuAfFsNvPEj+lCwqRpcHgRCgnaH8mPovETAfHwAAb4sJaA==
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYCACyEIoKQEE34gfIS0gi6ocxJ/GhuAfFsNvPEj+ET8qRpcHgRCgeCg/pv5LBMzHBwCJ6Qma</data>
  </layer>
  <layer id="9" name="Top" width="8" height="8">
   <data encoding="base64" compression="zlib">

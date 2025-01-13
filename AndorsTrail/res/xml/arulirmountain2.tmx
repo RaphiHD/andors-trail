@@ -180,9 +180,6 @@
  <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7449" name="map_rock_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_rock_2.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="15" height="15">
   <data encoding="base64" compression="zlib">
    eJyVkkEOgzAMBKE3Hs2TaJ4A5tRrmh54AA9pLNbS1nJRchghxUzWcbI9hmEDT5Aqb0epnKhL5Zh+6wu53ud9S+CutG+i/xmtvabL5fVc2dG/BJ5lRq7ycT32uHck8nrdebxQT7+Z5huxB7lGxnwFZ7nLFXIXzDQ3eMnlmtuCkGvn9G/vHwXugdy1w7Vsu5+WnsVls9vS6wn4XWjPX5Nuqok=

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="37">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="37">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -182,7 +182,7 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJyVVktSwlAQhMcKFy7ZudAb6B3kam48QsobQLA4QAgrtwGOkIP4pmTKTtPzEqzqKpPMm+758ro0m20DHADq++fiD3XG7orvjCbwE/GgXZtxAjSkw/18LYYwHR3Yo58N8aA+tztn9ICOdJzIt8frvjrhB7W7jWmpwU7loU9ayxlsMFb2g9r9nfOO1UBp4Xfon3Pb05mmwDulJ5Sex9Utr9JoNhW9Ny0fQvcYnlY6XgW0qYL/EW3BV0XnmhF77zezORd8qe/IwfPWBfY8a5FNpCnqK5+3LfFXSc8s519pwpje58NnnjfeYWMza9gJTTXFZLy8VzBW5p4yszsRX0s6jNef7U/FijtljNPrwPFZ/D/LfxgvPiN8RrH2B/Cv5sp7qKaa7ZfTeQ2Y4z4N93tUV5+bkl/j9TmrhC3m2PuuS8Me8LNee++9iFPVpw64+XcBewB7J/JhiPZYKT9qTnnmSzku9aL3xL1aeU7Zx5T9an3HvbcR9hFa6t1jfl4/DH3wLlOcrFftmNKcXq683oO47/oCZ/T7H4HPm0/jxbtRxMW8rtXyuJ7fD+fxvVLiwxyb1uM1j5WAz7A6vwccRR3U7sC9dAnmiFHivdB3vqe6fp/Ne+5KamdE9VT3yOeMl6Tvz2oO8fuU+vE+co7XjLd0u5N45rmfeWdHdY9i53uG++CZ5x6L7ijIEdXCd76q6y+HGpWd
+   eJyVVktSwlAQhMcKFy7ZudAb6B3kam48QsobQLA4QAgrtwGOkIP4pmTKTtPzEqzqKpPMm+758ro0m20DHADq++fiD3XG7orvjCbwE/GgXZtxAjSkw/18LYYwHR3Yo58N8aA+tztn9ICOdJzIt8frvjrhB7W7jWmpwU7loU9ayxlsMFb2g9r9nfOO1UBp4Xfon3Pb05mmwDulJ5Sex9Utr9JoNhW9Ny0fQvcYnlY6XgW0qYL/EW3BV0XnmhF77zezORd8qe/IwfPWBfY8a5FNpCnqK5+3LfFXSc8s519pwpje58NnnjfeYWMza9gJTTXFZLy8VzBW5p4yszsRX0s6jNef7U/FijtljNPrwPFZ/D/LfxgvPiN8RrH2B/Cv5sp7qKaa7ZfTeQ2Y4z4N93tUV5+bkl/j9TmrhC3m2PuuS8Me8LNee++9iFPVpw64+XcBewB7J/JhiPZYKT9qTnnmSzku9aL3xL1aeU7Zx5T9an3HvbcR9hFa6t1jfl4/DH3wLlOcrFftmNKcXq683oO47/oCZ/T7H4HPm0/jxbtRxMW8rtXyuJ7fD+fxvVLiwxyb1uM1j1UB6vwecBR1UOdxL12COWKUeC/0ne+pvoN8Nu+5K6mdEdVT3SOfM16Svj+rOcTvU+rH+8g5XjPe0u1O4pnnfuadHdU9ip3vGe6DZ557K7qjIEdUC9/5qq6/VeKViw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="30">
@@ -210,7 +210,7 @@
    eJxjYBgFIxlsFBtoF4yCwQRA6WEg0gQ17R3q7h8Fo2AUjIJRMApGwSigJwAAmgQGOQ==
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
+ <objectgroup id="7" name="Mapevents" visible="0">
   <object id="1" name="west2" type="mapchange" x="0" y="544" width="32" height="64">
    <properties>
     <property name="map" value="mountainlake5"/>
@@ -268,7 +268,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Spawn">
+ <objectgroup id="8" name="Spawn" visible="0">
   <object id="13" name="arulir_1" type="spawn" x="64" y="736" width="192" height="32">
    <properties>
     <property name="quantity" value="2"/>

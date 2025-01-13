@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="28">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="27">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,32 +186,32 @@
  <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
- <layer id="8" name="Base" width="30" height="30">
+ <layer id="1" name="Base" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJxjYECA5UwMVAMrqWjWqL20sZfS+J5Gpn5qpDNy/E0ve09wUm4POfZiU0PNPE0vew+KjSx7NxOZXgaTvUMV0NovuOJj1N5RMApGwSgYBYMZAAAHFBfX
   </data>
  </layer>
- <layer id="1" name="Ground" width="30" height="30">
+ <layer id="2" name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztlcEKgzAMQEtv4t0PGWz3MfwB/3R4Gp68CXa/4HHfsRYtZFkTG1rHBA8PBNu8kMQ4FEoNC9dSqXuRh5uN1YLYHA+tVGPPXzL4Jd7Reo2e/aluidcx6dmf6vZeT6zfuVP6Xdu7p5L3Uu9yzBlVb59XKJ8tvbAur+rzzJbzxZ1J7fHZ3u203Jta697W7xnpzdnjvqJndi9e17MGwM2dxAvPuGe/sz3dsksN2KmUt2b2Bo6JvSPyuDmZAGs7lfqOcEzsdUAP3LktyI2aA8obiom9MUi9oRh78uL5o2Zm7V+0lluoxyYAta+kcO5JfyP976f4ud790p/bGevf0ntw8A+8AVvXoO8=
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="30">
+ <layer id="3" name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9V81qE1EUvjPUQI0W7qQ0jTsXbqVQ0xfoz1Iotlmqi3StD+FzqdhF4kJbugikSVtQKKJJW/IA4jnce7hnTs5MZtLgB4c7M7lzv/OdvyHGBPxsGDMCuwGbJMacW2PGYL/E+tev/PrShnMerbt1q24KYb9qzHAlcCN6/twB2G+woQ3Pht6Xa8FL4LyjROc8Z+8hP3FflljHDXfOyF8X1XsRl+O+Bbtj9xwYtzbwHoE15+Avo3vsucmfIdhmNeimmJ4l7vkLxSeNW+rTODnouRbvrs8H8kv0bfAzTzfllbj47xcF8ozcTRaTfeEL1QtfeV413/LqayNxuhF5vn1gvYB+nYqa6tpp315VZ+uNImN22R7M8QN49kfpTU2fxHZ1thaEBY7jNWNqkbNVsBHjfO71tv16q+Sd0LGO9yrWeXEOdfzZT4FnSdizyP3WzdCcpxt5D+rpGGrAmfdlLW3NKL3nq8KPMeE9Rj2FvG3Ro3HNrT12zpV1e2iWYl9TTQ/8PqyTZTHXpG4E9dWmqKukNu23rL09f/0yTu9riHvOLWcIxlDL70NxhuTFmn7N9mCd4OxF9BN9riF4PjTeJ+JMyXvt3/+R8R1DSG45M7P6iM7s+Zjg/Z0Nceb45v0YMD2Ysw67p9xSrWm8WItY64feeM3v+GetevCLv0f+9tlM5d/3o8TlROOVXBp2mF+t+nTMJ/7+Y8WYT2CfK+maL/r9L+JDS5yFOf4OfCdgp5VQ81nzatH8CNL/GNaVJDuesdLL8/D3xCzDfBzkaNVmyLz80mbVzv/AG9D3tqDGs5x5URbvgPP9AmK7CBTRNSmpPes/wqJxn764D8r0xT+IzQF2
+   eJy9V91qE1EQnl00oNHC2UhjfAgRanwBq5eFYs2lepFe60P4XCp60Xihll4E0qQtKBTRxJY8gDjDOcOZncxudtPgB8PZ3Zw933zztwQg4kcHYIr2B22eARw7gBnaT7X+Dau8PnXxnFt3/fqoDZWw2wSYbERuwjCcO0b7hTZx8dkk+HKueBmSd5rZnMfiPeJn7tMa66zjz5mG66p6T9J63Bdol+JeguLWR959tO4K/HV0zwI3+zNB22pG3RzTo8w/f2j4ZHFrfRanBD+34j0I+SB+jZGLfpbp5rwyl/z9pEKeibsrYrKrfOF6kavMq+VbWX09yLxuQplvb0UvkF+HqqYGbtG3Z83lepME4InYQzm+js9+G71p6dN43FyuheCQ49MmQCvxdgdtKjjvB739sF4YeWccOM97ltq8NIcOxNnXkrwxBgWay3QT7147H0MLNPM+buatm+T3fDb4KSayx7iniLevejRt+XUozjlzfg/PUuprrulx2Ed1ckPNNa2bwH21peoqay36rWvvabjeSfP7OupecusZQjG08ntTnaF5qaZfiD1UJzR7CaPMnmsEmQ+L9546U/Oeh/e/F3zHCJpbz8yiPuIzhyEmdH/pYpwlvgQ/xkIP5Uz2BOeWa83ipVqkWn8eTNb8dnjWa0e/5Hvs70jMVPl93898TixezWVhW/jVay/GfB7u3zUA3qN9aORrvur3v4oPPXUW5fgr8n1DO2zEmi+aV+vmJ7D+27huZMXxTI1eXoV/qGYZ5WOvRKs1Q1bl17asdv4HXqK+VxU1HpXMi7p4jZxv1hDbdaCKrnlN7UX/EdaNq/TFVVCnL/4BDckBLg==
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="30">
+ <layer id="4" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzll0sKwkAMhttuXFfR0oWH8HEVPa/gDRRcVXTlRkWPYEI7EEtmkmmnWPWDMG0Z8uc1I0YRzzEv1wesT7Ab2N2xcmwnFucCqF3kfitinqnuYdosBo4T+D5bckWa5ith8qTvNJ5QulJ+ttjqrLJypb2RfBTCPtpvw96Rt20mfbDFFLrPm0pHqpVG11WTOtxM1bmkOt02NeG0MQ+Nz2H8/j6O+X1abdTcdXSOEXrGqLYm1xnkNgdbVLYEu6Z6bW6etX3DfdJdKvlyzbe5M3x9uvbYzq/mjGh0pTnhZqutT45kxH8P/fvgyy/rDpLP6FKyKoYu76tvwnaH/CMha4G++lJbTRxrz1hD/kfoIz69ewF9BF4r
+   eJzll0sKwjAQhls3rqto6cKFrwP4uIqeV/AGCq4qunKjokdwQhMYyyQzaQOW+sGQtoT555WIUURzzor1Besb7AH2dKwU+6HFOYPSzjO/VWGese5pVC0Gigv4vlpyVVTNl8Pkid9xPKF0ufxssZXZpMWKe8P5yJl9uN+GoyNv20z6YIspdJ93WoerlUTXVZMy1EyVuSUy3To1obRVHhKfvfj7fRDT+6TaSvPA6I5BYwI21TYDmwt18RnD2pJcF6CxBFtpW4PdE5mugppnad/UPu4u5Xy55tvcGb4+XXts51dyRiS63JxQs1XXJ0WnT38P/fvgS5t1u53f6GJSHUOVmWkjtjvkHwlZC+WrKbWVxLH1jDXkf4Qm4tO7D+5jXwM=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30">
+ <layer id="5" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztU8cNwDAI9BTZfwVvGOVnRSCuEPkRI/GiXMGe1xgzySeyWta/BjuX7WGD4azo7JpV5129Lrbbp74PZA6pI9idHFH+yj2r3e9axRH1k9HDcGR2urjK23LC1eLwYt9ahbvWor5ovuKE6mX+ROdexENWL6Mli4gL4zODkd2+wov8UTVXHDpv271XxWf8+1L/Tvwddzh58k95A2P6Cbg=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="north" type="mapchange" x="224" y="0" width="512" height="32">
    <properties>
     <property name="map" value="island2"/>
@@ -231,64 +231,63 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="9" name="lae_fc1_1" visible="0">
+ <objectgroup id="7" name="lae_fc1_1" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object id="6" name="lae_fc1_3e1" type="container" x="128" y="32" width="32" height="32"/>
-  <object id="7" name="lae_fc1_3g1" type="container" x="416" y="480" width="32" height="32"/>
-  <object id="8" name="lae_fc1_3x1" type="container" x="704" y="96" width="32" height="32"/>
-  <object id="9" name="lae_fc1_3y1" type="container" x="768" y="576" width="32" height="32"/>
+  <object id="4" name="lae_fc1_3e1" type="container" x="128" y="32" width="32" height="32"/>
+  <object id="5" name="lae_fc1_3g1" type="container" x="416" y="480" width="32" height="32"/>
+  <object id="6" name="lae_fc1_3x1" type="container" x="704" y="96" width="32" height="32"/>
+  <object id="7" name="lae_fc1_3y1" type="container" x="768" y="576" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="10" name="lae_fc1_2" visible="0">
+ <objectgroup id="8" name="lae_fc1_2" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object id="10" name="lae_fc1_3g2" type="container" x="128" y="32" width="32" height="32"/>
-  <object id="11" name="lae_fc1_3x2" type="container" x="416" y="480" width="32" height="32"/>
-  <object id="12" name="lae_fc1_3e2" type="container" x="704" y="96" width="32" height="32"/>
-  <object id="13" name="lae_fc1_3y2" type="container" x="768" y="576" width="32" height="32"/>
+  <object id="8" name="lae_fc1_3g2" type="container" x="128" y="32" width="32" height="32"/>
+  <object id="9" name="lae_fc1_3x2" type="container" x="416" y="480" width="32" height="32"/>
+  <object id="10" name="lae_fc1_3e2" type="container" x="704" y="96" width="32" height="32"/>
+  <object id="11" name="lae_fc1_3y2" type="container" x="768" y="576" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="11" name="lae_fc1_3" visible="0">
+ <objectgroup id="9" name="lae_fc1_3" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object id="14" name="lae_fc1_3x3" type="container" x="128" y="32" width="32" height="32"/>
-  <object id="15" name="lae_fc1_3e3" type="container" x="416" y="480" width="32" height="32"/>
-  <object id="16" name="lae_fc1_3y3" type="container" x="704" y="96" width="32" height="32"/>
-  <object id="17" name="lae_fc1_3g3" type="container" x="768" y="576" width="32" height="32"/>
+  <object id="12" name="lae_fc1_3x3" type="container" x="128" y="32" width="32" height="32"/>
+  <object id="13" name="lae_fc1_3e3" type="container" x="416" y="480" width="32" height="32"/>
+  <object id="14" name="lae_fc1_3y3" type="container" x="704" y="96" width="32" height="32"/>
+  <object id="15" name="lae_fc1_3g3" type="container" x="768" y="576" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="12" name="lae_fc1_4" visible="0">
+ <objectgroup id="10" name="lae_fc1_4" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object id="18" name="lae_fc1_3x4" type="container" x="128" y="32" width="32" height="32"/>
-  <object id="19" name="lae_fc1_3y4" type="container" x="416" y="480" width="32" height="32"/>
-  <object id="20" name="lae_fc1_3g4" type="container" x="704" y="96" width="32" height="32"/>
-  <object id="21" name="lae_fc1_3e4" type="container" x="768" y="576" width="32" height="32"/>
+  <object id="16" name="lae_fc1_3x4" type="container" x="128" y="32" width="32" height="32"/>
+  <object id="17" name="lae_fc1_3y4" type="container" x="416" y="480" width="32" height="32"/>
+  <object id="18" name="lae_fc1_3g4" type="container" x="704" y="96" width="32" height="32"/>
+  <object id="19" name="lae_fc1_3e4" type="container" x="768" y="576" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
-  <object id="4" name="beach_crawler" type="spawn" x="256" y="512" width="288" height="160">
+ <objectgroup id="11" name="Spawn">
+  <object id="20" name="beach_crawler" type="spawn" x="256" y="512" width="288" height="160">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="beach_crawler_1"/>
    </properties>
   </object>
-  <object id="26" name="lae_centaur" type="spawn" x="544" y="96" width="256" height="512">
+  <object id="21" name="lae_centaur" type="spawn" x="544" y="96" width="256" height="512">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="lae_centaur"/>
    </properties>
   </object>
-  <object id="27" name="lae_centaur3" type="spawn" x="224" y="160" width="576" height="320">
+  <object id="22" name="lae_centaur3" type="spawn" x="224" y="160" width="576" height="320">
    <properties>
-    <property name="quantity" value="1"/>
     <property name="spawngroup" value="lae_centaur3"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys">
-  <object id="22" name="lae_fc1_key1" type="key" x="704" y="96" width="32" height="32">
+ <objectgroup id="12" name="Keys">
+  <object id="23" name="lae_fc1_key1" type="key" x="704" y="96" width="32" height="32">
    <properties>
     <property name="phrase" value="lae_fc1_key"/>
     <property name="requireId" value="final_cave"/>
@@ -296,7 +295,7 @@
     <property name="requireValue" value="11"/>
    </properties>
   </object>
-  <object id="23" name="lae_fc1_key2" type="key" x="128" y="32" width="32" height="32">
+  <object id="24" name="lae_fc1_key2" type="key" x="128" y="32" width="32" height="32">
    <properties>
     <property name="phrase" value="lae_fc1_key"/>
     <property name="requireId" value="final_cave"/>
@@ -304,7 +303,7 @@
     <property name="requireValue" value="11"/>
    </properties>
   </object>
-  <object id="24" name="lae_fc1_key3" type="key" x="416" y="480" width="32" height="32">
+  <object id="25" name="lae_fc1_key3" type="key" x="416" y="480" width="32" height="32">
    <properties>
     <property name="phrase" value="lae_fc1_key"/>
     <property name="requireId" value="final_cave"/>
@@ -312,7 +311,7 @@
     <property name="requireValue" value="11"/>
    </properties>
   </object>
-  <object id="25" name="lae_fc1_key4" type="key" x="768" y="576" width="32" height="32">
+  <object id="26" name="lae_fc1_key4" type="key" x="768" y="576" width="32" height="32">
    <properties>
     <property name="phrase" value="lae_fc1_key"/>
     <property name="requireId" value="final_cave"/>

@@ -183,18 +183,13 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="20" height="8">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+IBwgA97nRB
   </data>
  </layer>
  <layer name="Objects" width="20" height="8">
-  <data encoding="base64" compression="zlib">
-   eJytUTEOwjAM9AR8oYP78D6hAy1CrDyhMwPNypKywcydEquWYSuWTj6fnZyjzI3IHZh/5JeKvLXwDCzAvhU5AA/o1zpLbv2lzj6B5Grmi66axeT6nveYPQOjljmv5+BjfeM80wGDrj7U6H+r2sn1GEPwidzu4I5dODu6emrkK3yfPn2tj2EX7rZrC0/uPVsjuf/YmvMf72L+ANJBadA=
-  </data>
+  <data encoding="base64" compression="zlib">eJytUcENwjAM9AIgJb9+oPs/OwCPPmgRohPQTJAiNgCfEqsn01+xdPLZ5+QcZW5Enop5Ix+iyDEWnhWL4qx1q/gEkUudBTd9qbMvRaIa+RHWnsVEOvNeZ++KMZQ57mfnY7pxnOkUQ1h90IP/u/ZupCEG5+O53YEdO3d2pHpq5CdYh09f66vbBbudYuGJ3rM3Ev3H3pz/eBfyF0nBaS4=</data>
  </layer>
  <layer name="Above" width="20" height="8">
   <data encoding="base64" compression="zlib">

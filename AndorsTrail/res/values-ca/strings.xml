@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Andor\'s Trail</string>
-    <string name="app_description">Joc RPG basat en missions</string>
+    <string name="app_description">RPG de fantasia basat en missions</string>
     <string name="exit_to_menu">Surt al menú</string>
     <string name="menu_settings">Preferències</string>
     <string name="menu_save">Desa</string>
@@ -467,7 +467,7 @@
     <string name="preferences_language_default">Idioma del sistema</string>
     <string name="preferences_display_scaling_factor_75_percent">75 %</string>
     <string name="preferences_display_scaling_factor_50_percent">50 %</string>
-    <string name="dialog_loading_failed_cheat">L\'Andor\'s Trail no ha pogut carregar la desada. Aquesta partida ja s\'ha continuat.</string>
+    <string name="dialog_loading_failed_cheat">L\'Andor\'s Trail no ha pogut carregar la partida desada. Aquesta partida ja s\'ha continuat.</string>
     <string name="dialog_game_over_text">Solteu el vostre últim alè i moriu.</string>
     <string name="dialog_permission_information_title">Càrrega i desada de les partides</string>
     <string name="dialog_newversion_permission_information">"

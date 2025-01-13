@@ -1219,6 +1219,11 @@
                 "rewardType":"changeMapFilter",
                 "rewardID":"invert",
                 "mapName":"guynmart_wood_6"
+            },
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"invert",
+                "mapName":"beekeeper2"
             }
         ]
     },
@@ -1239,6 +1244,11 @@
                 "rewardType":"changeMapFilter",
                 "rewardID":"none",
                 "mapName":"guynmart_wood_6"
+            },
+            {
+                "rewardType":"changeMapFilter",
+                "rewardID":"none",
+                "mapName":"beekeeper2"
             }
         ]
     },
@@ -1349,6 +1359,21 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"guynmart_nondisplay",
                 "value":42
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":43
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":44
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":45
             }
         ]
     },
@@ -1369,12 +1394,27 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"guynmart_nondisplay",
                 "value":43
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":44
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":45
             }
         ]
     },
     {
         "id":"guynmart_s_hill3",
         "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":41
+            },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"guynmart_nondisplay",
@@ -1389,12 +1429,27 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"guynmart_nondisplay",
                 "value":44
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":45
             }
         ]
     },
     {
         "id":"guynmart_s_hill4",
         "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":41
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":42
+            },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"guynmart_nondisplay",
@@ -1415,6 +1470,21 @@
     {
         "id":"guynmart_s_hill5",
         "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":41
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":42
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"guynmart_nondisplay",
+                "value":43
+            },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"guynmart_nondisplay",
@@ -1462,6 +1532,22 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"feygard_bridgeguard",
                 "mapName":"fields5"
+            }
+        ]
+    },
+    {
+        "id":"guynmart_sign_fog_10a_0",
+        "replies":[
+            {
+                "nextPhraseID":"guynmart_sign_fog_10a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_fog",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             }
         ]
     }
