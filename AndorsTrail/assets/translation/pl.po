@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-12 22:24+0000\n"
+"PO-Revision-Date: 2025-01-14 05:00+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -55025,19 +55025,19 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_wakeup_30
 msgid "... but you seem to sleep still!"
-msgstr ""
+msgstr "... ale wygląda na to że sen trwa nadal!"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_52
 msgid "Hey! Have you already done all my tasks?"
-msgstr ""
+msgstr "Hej! Czy już zrobiłeś już wszystko o co prosiłem?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_52:0
 msgid "Oh. Hello Gruiik."
-msgstr ""
+msgstr "Och. Cześć Gruiik."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_90
 msgid "You stumbled to the ground."
-msgstr ""
+msgstr "Upadasz na ziemię."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_92
 msgid ""
@@ -55046,86 +55046,103 @@ msgid ""
 "\n"
 "What a terrible dream. Or - was everything really just a dream?"
 msgstr ""
+"Nie posłałeś nawet łóżka - znowu. Mimo to udało Ci się na chwilkę zdrzemnąć."
+"\n"
+"Kiedy się obudziłeś, coś jednak się zmieniło. Szczury zniknęły!\n"
+"\n"
+"Co za okropny sen. Ale czy to naprawdę był tylko sen?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_92:0
 msgid "My head ..."
-msgstr ""
+msgstr "Moja głowa..."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_100
 msgid "$playername - do I have to worry about you?"
-msgstr ""
+msgstr "$playername - czy mam się już o Ciebie zacząć martwić?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_100:0
 msgid "Where is the big rat?"
-msgstr ""
+msgstr "Gdzie jest ogromny szczur?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_110
 msgid "You got rid of the rats long ago."
-msgstr ""
+msgstr "Przecież już dawno temu pozbyłeś się szczurów."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_110:0
 msgid "No. Yes, but ...  Have you seen Clevred?"
-msgstr ""
+msgstr "Nie. Tak, ale... Widziałeś może Clevreda?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_120
 msgid "I don't know anyone with that name. You must have had a bad dream. And better stay off the mead."
 msgstr ""
+"Nie znam nikogo o takim imieniu. Pewnie miałeś jakiś zły sen. I wiesz co - "
+"lepiej trzymaj się z daleka od miodu pitnego."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_120:0
 msgid "I didn't drink."
-msgstr ""
+msgstr "Nic nie piłem."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_130
 msgid "Yes that's what they all say. Better go and find Andor at last."
-msgstr ""
+msgstr "Tak, wszyscy mówią tak samo. Lepiej by było gdybyś odnalazł Andora."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_140
 msgid "When I think of drinking - Mara seems to have disappeared. So we're all going to stop drinking mead."
 msgstr ""
+"Przy okazji jak już mówimy o piciu - Mara gdzieś zniknęła. Więc zdaje się, "
+"że wkrótce wszyscy przestaniemy pić miód pitny."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_142
 msgid "Maybe she wanted to make her dream of opening a tavern in Brightport come true?"
 msgstr ""
+"Może w końcu postanowiła spełnić swoje marzenia o otwarciu karczmy w "
+"Brightport?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_146
 msgid "Tharal has also disappeared. But I don't think that has anything to do with each other. He often just roams through the forest and will definitely be back soon."
 msgstr ""
+"Tharal również zniknął bez śladu. Ale nie sądzę, by te sprawy miały ze sobą "
+"coś wspólnego. On często wędruje po okolicznych lasach i na pewno wkrótce "
+"wróci."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_146:0
 msgid "I hope so. But I have a bad feeling ..."
-msgstr ""
+msgstr "Mam taką nadzieję. Ale mam też złe przeczucia..."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_150
 msgid "By the way - Tharal seems to have disappeared. So he won't be able to cure your headache."
 msgstr ""
+"A tak przy okazji - Tharal zniknął. Więc nie będzie w stanie pomóc Ci "
+"uwolnić się od bólu głowy."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_152
 msgid "Maybe he needed some time of peace and roams through the forest?"
 msgstr ""
+"Może potrzebował chwili spokoju i wyruszył na wędrówkę po okolicznych lasach?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_152:0
 msgid "Eh, maybe. Sure."
-msgstr ""
+msgstr "Ech, może. Na pewno."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_154
 msgid "I hope he will be back soon."
-msgstr ""
+msgstr "Mam nadzieję że niebawem wróci."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_154:0
 msgid "I hope so too. But I have a bad feeling ..."
-msgstr ""
+msgstr "Ja też mam taką nadzieję. Ale mam złe przeczucia..."
 
 #: conversationlist_ratdom.json:ratdom_water_flag_10
 msgid "Go around the flag."
-msgstr ""
+msgstr "Okrąż flagę."
 
 #: conversationlist_ratdom.json:ratdom_water_flag_20
 msgid "One time around the flag is enough."
-msgstr ""
+msgstr "Wystarczy jedno okrążenie flagi."
 
 #: conversationlist_ratdom.json:ratdom_water_sign
 msgid "[unreadable signs]"
-msgstr ""
+msgstr "[nieczytelne znaki]"
 
 #: conversationlist_ratdom.json:ratdom_water_sign:0
 msgid "What is that scribble?"
