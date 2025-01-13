@@ -191,7 +191,7 @@
  </layer>
  <layer name="Objects" width="30" height="28">
   <data encoding="base64" compression="zlib">
-   eJy1VjFuwzAM9BcUoAb8/2dkt6RM7truQdruRrJVRMrmeiElp3YOEBJYMu9IUSd33XMw9113LuO9jM8yTmV89E8iW8h/Iv4jPLfGGr3KrwPjfpXxRvNnQ+8W9WKeC8TM4fq7293Xay33hd7fD9ffKdjr541zl5ws5AH+hxv3FrknyC07eVr6ts5dMYa2lv/mHsNtL7GmVt1xXoB14tzX5J8qeVp9h2eUNVg6JD7WkmNqvaPzHOe0TuwTNb/COHuqKQP3gXViDrLu+ONJj8Da59GpP2rVPUJO9Chdr/G5li3UeoA52aMseHuqOfHZEt26Vupe48ywrgU+Q6wP4XFm6j0rtucVE/WM8vC9xpyM1PCkydGo8HrV4pTaWOdEYqsOr2dxzutVvk81LtbK8hLeb+x3K8+lvSrgPmVP8/yVfUA5USufrUPDgxiWllbf4P5pbswr2tU7H4VyYv09zzk43zDs4Uu0pDL/+lJf83t/D/fPc7B9sqUF73iMy98K1nlnWO/retE2E3fq23Ej9Ruf3xH8IRpnWHs0Eu8f3bCedTO+ATzfB5I=
+   eJy1VkFuwkAMjPqDjdRI/P8HvXJPspzgREVP7QHR9h7BrWsRN5PB3tAmjLQCZRfPeOx1KIrHoKuK4pzWW1pfaZ3S+qweRHYn/4n4j/DcWnP0Kr8ujPud1oH2z4beJfxingvEjOH6WZa3fs3lvtDv16vr5zbY57uFc5ecLMQVfA8D9xK5t5BbdPK09C2du6IO01r+m3sThlqip5bvuC9Anzj3Ofm3mTytvsM7yhosHRIfveSY6nfjPMc99YnnRG5eYZw1ecrAOrBOzEHOHfuZ9BdYda4d/1Gr1gg5cUbpeY3PXk4h1wPMyTPKgldTzYnvlujWs+J7jjPCuSnwHWJ9COU8hDFnpN6zYnuzYks9ozz8XhPkvNX6TPF48xv93PdnX4PNKd5Y90Riqw6vZ3HP61V+n2pc9MqaJVxv7HfOs3q6v1cF3Kc807z5ynNAOVEr361NZgbtDV8tLdo3Xg2xfpob84p2nZ2Ij95T8VDxEsZ7yon+ezNn4/yH4RluaRGgJ23a3z3bPIrf9/fq9nkM9pzMaREf8B2Pcfm/gnXfGdbv9bxo68iHtpqO21C/8f2tYT40xh3WHm0S13s58I50w3nWzfgBOr4Q7Q==
   </data>
  </layer>
  <layer name="Above" width="30" height="28">
@@ -204,7 +204,7 @@
    eJztlskNACAIBKnC/luwQ/+G4MGxbuIk/IRZEh/0JtJ/lZdFlSfTr82scO/Mz/BHgPLe+Oe+1dwodyYor5XDesPCaVaG3RB/gnE2GobdGDJqVOT23BLRvOb15snsj7yJkAwe+a+v
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="south" type="mapchange" x="0" y="864" width="960" height="32">
    <properties>
     <property name="map" value="fields1"/>
@@ -230,7 +230,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="tinlyn" type="spawn" x="384" y="640" width="32" height="32">
    <properties>
     <property name="ignoreAreas" value="true"/>
@@ -270,7 +270,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup name="Keys" visible="0">
   <object name="stop_hero" type="key" x="32" y="416" width="768" height="448">
    <properties>
     <property name="phrase" value="brv_wait_patrol"/>

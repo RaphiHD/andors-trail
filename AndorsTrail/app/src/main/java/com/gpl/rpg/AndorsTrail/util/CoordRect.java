@@ -30,6 +30,18 @@ public final class CoordRect {
 		return true;
 	}
 
+	public static CoordRect union(CoordRect r1, CoordRect r2) {
+		int left = Math.min(r1.topLeft.x, r2.topLeft.x);
+		int top = Math.min(r1.topLeft.y, r2.topLeft.y);
+		int right = Math.max(r1.topLeft.x + r1.size.width, r2.topLeft.x + r2.size.width);
+		int bottom = Math.max(r1.topLeft.y + r1.size.height, r2.topLeft.y + r2.size.height);
+
+		int width = right - left;
+		int height = bottom - top;
+
+		return new CoordRect(new Coord(left, top), new Size(width, height));
+	}
+
 	/*
 	public static boolean contains(final int x, final int y, final Size size, final Coord p) {
 		if (p.x < x) return false;

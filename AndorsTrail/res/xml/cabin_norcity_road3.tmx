@@ -181,6 +181,12 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_tree_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7705" name="map_plant_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="20" height="15">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj2Ii8WYKMLXNw2YuLntI8RstwmvUPOqYBwBPG9pT
@@ -188,12 +194,12 @@
  </layer>
  <layer name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJylU8FKAzEQHXovdiMEcqj/4Ef5IX6aCtvSslooCLvVinqxRaun0t6cRzJsMgS3tQPD28lk3rxNJpOCqGH/dERf7E/szxl8ifaISfzNuRvGW/b7wudKxp9Qs2FfRoiaRdi3iXihY2iILozPTVXPUahZKs5Yy7igxGT9QXFVHfrAI/2uTFqLf6tC7t21ufIPfaXSdT3I65yG+4DPIs0aYXcqPjPpWV6eE33Y//vKtronjHX4flT/krNZZs864pWZi+3VpLHtdfd545qx9Xc1D/UNx7sjfWFTndCI2QTX3raz0LDmvvGItca161WIcWZbxQmNeEvgkhldcbx23Si9RopPzg/v71AuQZjw4T7BN3d+1sWO4aoz+upoTk/RhzkAH3K/Px3UhQ==
+   eJy7IsvAcBWIr0DpjUB8FImPiwYBGDtcjoFhJZBeBcTmQHYEEOvJIdRcA+JjSDRIjzNUPkwOYY4TkN0KxG1QOWM5VPv0oeLH0MxEdosBVA0MwMTN0cwyhboTl/tA5sDsSxVC1QvymylU7jRSmOjhcZ8emrsaBbC7E+RnJyi2kMMf/qvR+OVoYWkozMDwQox8/FIM4W4jIO0IZduh+cUejQ8CFkhizEwQ+hWSuU5QtyKDh0KofDEmTHOl0Ox6BNRzQgwSV6+h5t0C8n+QiG+LIcx8BXXjb1mIWT/FEGnhEFCsVA5C60NpmLgplA8Ks29oZoLceEQWYhYsjV4E8i/JEqZhdh0XQ4QJyDxY+IHyH7FmwWgQOA51Hyg+QebtloWkdRggxSxHOYR5MPcdREqnlLgP5GeQeSA5AMlVuX0=
   </data>
  </layer>
  <layer name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYCAd3JFkYLgrSbocMeqQxbGpuYNFDyFzyHUjPoDP/bjct1kSUx813EIvgM1vIwncBPr/liRhmppm0cJMQmAzCe4iZCayHKVmgdIfAPsKTqE=
+   eJxjYEAFR2QR9FFZBI2uBl2MGDli1CGL47IbHRAyh1w34gP43I/LfbOxhCc13EIvgM1vlIDbQ8TfMHAQ6N5DsoRpappFCzMJgdkkuIuQmchylJoFSn8AG3xNhA==
   </data>
  </layer>
  <layer name="Walkable" width="20" height="15" visible="0">
@@ -215,7 +221,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="duleian_hornet_sapwn1" type="spawn" x="32" y="0" width="96" height="192">
    <properties>
     <property name="quantity" value="3"/>

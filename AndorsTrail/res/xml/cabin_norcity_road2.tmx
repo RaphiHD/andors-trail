@@ -181,24 +181,45 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_ground_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7705" name="map_tree_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7833" name="map_rock_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_rock_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7961" name="map_plant_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="8089" name="map_trail_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="8217" name="map_outdoor_1" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_outdoor_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="8345" name="map_plant_2" tilewidth="32" tileheight="32">
+  <image source="../drawable/map_plant_2.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRjIE3U9ksapm3mYrmDTWzAL4k2hc=
+   eJybKcvAMHMUj+JRjIFnU9ksapk3m4rmDTWzAKAv1Wc=
   </data>
  </layer>
  <layer name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJyFVMtKA1EMzbYLpfcKF2ZVf8YPEvwBv0lQsHTRFpSxit1J3XUWMqXtB7iRJt6J9zST4oGQNpM5OXm0RETPgf7QxOxvh9k/JKJdRbSvileMOPcy9uPChzH8LHwW+nzZ6Xg98T7Gas5ZhMzXQv6UbebUtbUUTyGbAvUtIe5xiJ9XhacOfr//9aJzPIUzfnbOVnP+C/Pds41TqYe4AZ4a6uBOriFnzd+bqvTddn14mhujUfYkvDj/n9ifo80XiP9KZV96byvoaRPLboTP3hVqE65t6scfu3lZW0DuezjuEbk0/gY6vLkLcI/CMwddd4Mcm5h7/L2PWGbizV3roS7hE9vDO3gf1lap6LJc6y72mfLNj0FjG4691JCd4O/M0yVc3yn3O3H+OzxsYPYfMGPlurogOgD+wKun
+   eJx9UzFOA0EMXOURlOtIKAUgcVoRRLoIOiiiK4jgC3lA+AL8IF2Q4AfkBdCRIlIUyjQ0vAObW7ODz2Qka8/e9Zx37K0p/OA6hjCO4ReTbggnVOK31D5zz7EHJ66+XQUjCi3o/iDv9amdW+e9Kq8JeGo4f8B2GP07CY7Af+K8ubFn4B04tdr7Ye6C7cbo8Wh8TxPVEVGBP+XvO7bE51+gzuTUt+2W7xT9f88g75L9q9jUqVqmf2peGl/6JHWi/l9wb4s+xCRvRaVfk1z3OZxZc/yYCl+1Y9aEa0PtuNdj7ZXijP7eEbk0fgp1eLoLsI+qFXJJrGfmUfg+YtHE013/h1wXeR1DDs6Htdcddb3n2Bs1M78PNeq70zXlnuA7s9rvdRquT2ru24v+W7RYg/ZD4FMumY1vftJsLg==
   </data>
  </layer>
  <layer name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYICAO5IMDHclMdnYADZ5bPrxmQOT2wjEm/DYS8gtxABk92zGYha6HaT6BRfYSYZ6QvFwEci/RMAPxLiV3HBFji9iAL6wpcQ91DIHGWBLG6S4g1i7YepITR/kAJgdlMYbtQB6fiLFnptAdQB8DkjR
+   eJxjYGBgcJFjYHCVw6RxAWzyxOpFVy8JxFJyuM2VJsIsYu1ywWEWur3IfFL9hQwUyVCPzW5kYAnkW2ExF58+fPFFKkCOL2IAMW4hxz3UModSQCi+8OkhNX2QA2B2UBpv1AKkljXIwBGoDgCJLhvO
   </data>
  </layer>
  <layer name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJyllMsNACAIQ5nC/VdgQ09ejP1JEw6KqU8g9qpqEEconwbSK+/4MEblO5F6F6qfw8n8Uu5JPRI+5vPD6JxX64TH6aXjxebT3VP9YnzTuXbuTNhefOnfcHtt8bte1w==
+   eJytksENACAIA93Eud3W+ONh28NIQiIK9DCsOcYCfqyea0xdmdIhtYrF8VJTuYnL6RLONFeHP+movqpO8RA+p1P7k5lS3Pkvl/+ygynH3dG9uPF198P1c++U7Tffqd/1WlNh
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -214,8 +235,20 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object name="west" type="mapchange" x="0" y="128" width="32" height="64">
+   <properties>
+    <property name="map" value="waytobrightport8"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="north" type="mapchange" x="320" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="waytobrightport6"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object name="duleian_mountain_cat_spawn" type="spawn" x="64" y="96" width="96" height="96">
    <properties>
     <property name="spawngroup" value="duleian_hornet"/>

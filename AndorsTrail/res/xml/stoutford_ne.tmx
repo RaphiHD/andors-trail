@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="20">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="19">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,27 +183,27 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="20" height="20">
+ <layer id="1" name="Ground" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEU0wXvFsbElJh3WhgTU2JekDQDQzASDpHGVCPHBcG4/ISsNhGoPwkJJxNhHqX+QTcviIB/SDUvkYB/SDWPnDSDHM6kmoctzZzGYh4uTCjNoIczqeahpxn0cCbVPGLjY9Q88swDAPxH9xo=
   </data>
  </layer>
- <layer name="Objects" width="20" height="20">
+ <layer id="2" name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eJyVlM1Kw0AQx4dCaw+adoNNWdGrV/EBFF9A6dWDIHjyefQN1CcoaMFe/KAfGjzWthShB0uTgvQNdMadNZN+xoFhk83ub+f/380GGiDE/A0XoI/ZUAAB99u2qmf3B2J+IFrb54s5A/HsT8x9Eu+f3PeC49ewHseFpbGXBdhfkEdZw5frUzxg+2hrFd87uHaT6x1hdrWp8SIDcIlZyhq/yBMbpM9ybX8X25oYQ+GlAHbWATS2V8i6Zh6tdestz3vMujKcyTjLAzwrw6MapH6KcIbWO4/7Cug3Mj+wnhVsq5uGFzKPvEq7JumdvlGQFhu7ecNr4thVZBQxvzKmVh95OfaM5vdUnJcT+yy1VZDXZu0dzDH7KX21/lneKeu1OkgT1XOejvRa/aGDz5hDzJZjvCHeuzL/A/FozZoX6SBNW/h8w7zDBOfPF3oP8L2J81pCE/lCLfFo/a6K+6tTcb0jwTtZsK7lHacjxuTZoe91wZuXJcEjL8sF46/H58Zy6bsv9qOfgDdQkb+az01R8BoL6murOM/uP53RvGu0jcX9Q+O+E+qtzPkPX724fxRJ/Ruq6I4YqPh57PD/UdbT+ihbapqX5P7b3vjf/v7Vw/ffG98dVR3p/QGMHboP
   </data>
  </layer>
- <layer name="Above" width="20" height="20">
+ <layer id="3" name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eJxjYGBguCnJwHALiGEAmY+LvVkSUx+1wU0kO/ZA7dkIpDdB2XuwuAHdjc1sDAwtbLjt2EOB+2+SoPchO3bxRzjEYebfwuFXRg7sepiQxDeiue8lHvfuxCF3WAy3Hmx+AvnnIh49l5Dk0MMPm58iWVHVY0tvuOKwRABTDOQffO4jFcD844AjPmAggIA8NoArzYAAvnSDC+BKMyAASjeU5AV0gC/dkAJgcX4Ji3kZWOKXGLCPSv6Eue0cDctAYgEo/aHnD2R/kpP+0MFnoHlf0PwKALbTPTQ=
   </data>
  </layer>
- <layer name="Walkable" width="20" height="20" visible="0">
+ <layer id="4" name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNkskNACAIBK3C/lugQ30agjqwMZGEBx4DC1hvzaZ7s17z9a9nqdyTKUyltqgOpcaMkRnQc8ojWvz9KSa5M71Y46re23wjDdWdu+nJ8LL7UOn3S57nRnmiv4S36xOtj7xTeb/Ng/gAsRC2rg==
+   eJzNkssNACAIQ5nC/VdgQz0aUrGFmEjCwQ/PFvRh5itj+KjlXhtZXW4WHeZJG8NFOjoalWBmgPbjucJjvCB+laf2Yl9nfbh5yOaLPFT/3M2PwlP/Q6XfL3mRi95BtQzv1CdWH3Ovy/ttHkxOWsO1IA==
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="128" width="32" height="64">
    <properties>
     <property name="map" value="stoutford_gate"/>
@@ -246,52 +246,71 @@
     <property name="place" value="fieldnorth2"/>
    </properties>
   </object>
-  <object id="10" name="north" type="mapchange" x="64" y="0" width="128" height="32">
+  <object id="8" name="north" type="mapchange" x="64" y="0" width="128" height="32">
    <properties>
     <property name="map" value="wild19"/>
     <property name="place" value="south"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
-  <object id="8" name="stoutford_farmer_jen" type="spawn" x="64" y="416" width="160" height="160"/>
-  <object id="9" name="stoutford_commoner2" type="spawn" x="32" y="128" width="320" height="64"/>
-  <object id="19" name="stn_boralla" type="spawn" x="256" y="256" width="160" height="320"/>
-  <object id="13" name="stn_boralla1" type="spawn" x="256" y="64" width="64" height="32">
+ <objectgroup id="6" name="Spawn">
+  <object id="9" name="stoutford_farmer_jen" type="spawn" x="64" y="416" width="160" height="160">
    <properties>
-    <property name="active" value="false"/>
+    <property name="spawngroup" value="stoutford_farmer_jen"/>
    </properties>
   </object>
-  <object id="12" name="stn_boralla2" type="spawn" x="256" y="256" width="32" height="32">
+  <object id="10" name="stoutford_commoner2" type="spawn" x="32" y="128" width="320" height="64">
    <properties>
-    <property name="active" value="false"/>
+    <property name="spawngroup" value="stoutford_commoner2"/>
    </properties>
   </object>
-  <object id="11" name="stn_boralla3" type="spawn" x="544" y="512" width="32" height="32">
+  <object id="11" name="stn_boralla" type="spawn" x="256" y="256" width="160" height="320">
    <properties>
-    <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_boralla"/>
    </properties>
   </object>
-  <object id="14" name="stn_boralla4" type="spawn" x="128" y="96" width="32" height="32">
+  <object id="12" name="stn_boralla1" type="spawn" x="256" y="64" width="64" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_boralla1"/>
    </properties>
   </object>
-  <object id="15" name="stn_boralla5" type="spawn" x="320" y="192" width="32" height="32">
+  <object id="13" name="stn_boralla2" type="spawn" x="256" y="256" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_boralla2"/>
    </properties>
   </object>
-  <object id="16" name="stn_boralla6" type="spawn" x="96" y="192" width="32" height="32">
+  <object id="14" name="stn_boralla3" type="spawn" x="544" y="512" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_boralla3"/>
+   </properties>
+  </object>
+  <object id="15" name="stn_boralla4" type="spawn" x="128" y="96" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_boralla4"/>
+   </properties>
+  </object>
+  <object id="16" name="stn_boralla5" type="spawn" x="320" y="192" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_boralla5"/>
+   </properties>
+  </object>
+  <object id="17" name="stn_boralla6" type="spawn" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_boralla6"/>
    </properties>
   </object>
   <object id="18" name="stn_boralla7" type="spawn" x="96" y="288" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
+    <property name="spawngroup" value="stn_boralla7"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup id="7" name="Keys"/>
 </map>

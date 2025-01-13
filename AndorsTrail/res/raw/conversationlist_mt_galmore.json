@@ -263,6 +263,30 @@
         "switchToNPC":"thief_seraphina",
         "replies":[
             {
+                "text":"I've been wondering, do you have anything to sell?",
+                "nextPhraseID":"thief_seraphina_helmet_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sutdover_hidden",
+                        "value":3,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"armored_helmet",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"armored_helmet",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"Yes, ma'am.",
                 "nextPhraseID":"X"
             }
@@ -1172,6 +1196,17 @@
         "id":"aidem_base_defy_selector",
         "replies":[
             {
+                "text":"Come and get it!",
+                "nextPhraseID":"aidem_base_fight",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wanted_men",
+                        "value":75
+                    }
+                ]
+            },
+            {
                 "text":"N",
                 "nextPhraseID":"aidem_base_defy_help_10",
                 "requires":[
@@ -1208,17 +1243,6 @@
                         "requireType":"questProgress",
                         "requireID":"wanted_men",
                         "value":60
-                    }
-                ]
-            },
-            {
-                "text":"Come and get it!",
-                "nextPhraseID":"aidem_base_fight",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"wanted_men",
-                        "value":75
                     }
                 ]
             }
@@ -2657,7 +2681,7 @@
     },
     {
         "id":"captive_girl_55",
-        "message":"Well, I am not eactly sure about that as the witch would make it. Damn! I hate that smell. Damn! I love that taste however.",
+        "message":"Well, I am not exactly sure about that as the witch would make it. Damn! I hate that smell. Damn! I love that taste however.",
         "replies":[
             {
                 "text":"Can you help me out a little bit? Do you know anything about them?",
@@ -3250,6 +3274,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"sutdover_hidden",
                 "value":8
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
             }
         ]
     },
@@ -3265,6 +3294,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"sutdover_hidden",
                 "value":8
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
             }
         ]
     },
@@ -3280,6 +3314,11 @@
                 "rewardType":"removeQuestProgress",
                 "rewardID":"sutdover_hidden",
                 "value":8
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
             }
         ]
     },
@@ -3469,106 +3508,6 @@
         ]
     },
     {
-        "id":"captive_girl_selector",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"captive_girl_10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":90,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":95,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":96,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"captive_girl_50",
-                "requires":[
-                    {
-                        "requireType":"questLatestProgress",
-                        "requireID":"wicked_witch",
-                        "value":90
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"captive_girl_75",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":95
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"captive_girl_31"
-            }
-        ]
-    },
-    {
-        "id":"captive_girl_65",
-        "message":"Ah, YES. I remember her saying that an \"undead\" friend of her's east of here taught her how to make them.",
-        "replies":[
-            {
-                "text":"OK. Stay here. I will be back with more of them.",
-                "nextPhraseID":"X"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"wicked_witch",
-                "value":90
-            }
-        ]
-    },
-    {
-        "id":"wicked_witch_reveal_girl_selector",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"wicked_witch_reveal_girl_spawn",
-                "requires":[
-                    {
-                        "requireType":"timerElapsed",
-                        "requireID":"wicked_witch_despawn_timer",
-                        "value":72
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":96,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"wicked_witch",
-                        "value":95,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "id":"fix_stn_skeletons_10",
         "message":"What a beautiful view from here.",
         "replies":[
@@ -3662,6 +3601,66 @@
                 "rewardType":"deactivateMapObjectGroup",
                 "rewardID":"Keys_fix_stn_skeletons",
                 "mapName":"waytogalmore0"
+            }
+        ]
+    },
+    {
+        "id":"gal_chk_h3",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sutdover_hidden",
+                "value":7
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sutdover_hidden",
+                "value":8
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id":"gal_chk_h4",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sutdover_hidden",
+                "value":7
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"sutdover_hidden",
+                "value":8
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id":"gal_chk_h9",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sutdover_hidden",
+                "value":7
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"sutdover_hidden",
+                "value":8
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"reindeer",
+                "mapName":"crossglen"
             }
         ]
     }

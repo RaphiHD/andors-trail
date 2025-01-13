@@ -188,6 +188,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"gold",
                         "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":13,
+                        "negate":true
                     }
                 ]
             },
@@ -199,6 +205,17 @@
                         "requireType":"questProgress",
                         "requireID":"odd_coin_collector",
                         "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Yes, I know this already.",
+                "nextPhraseID":"gylew7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":11
                     }
                 ]
             },
@@ -325,6 +342,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"gold",
                         "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":13,
+                        "negate":true
                     }
                 ]
             },
@@ -359,7 +382,7 @@
         "message":"That was foolish of you. This is very valuable and you just gave it to me.",
         "replies":[
             {
-                "text":"N",
+                "text":"Well, what can I say? You caught me me wanting to be charitable.",
                 "nextPhraseID":"gylew8",
                 "requires":[
                     {
@@ -377,6 +400,12 @@
                         "requireType":"inventoryKeep",
                         "requireID":"gold",
                         "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":13,
+                        "negate":true
                     }
                 ]
             },
@@ -965,7 +994,7 @@
     },
     {
         "id":"forenza_island_100",
-        "message":"I was only allowed to go after mother instisted to father that I go too.",
+        "message":"I was only allowed to go after mother insisted to father that I go too.",
         "replies":[
             {
                 "text":"What happened to skipping the details?",
@@ -1144,6 +1173,27 @@
                 ]
             },
             {
+                "text":"Hey. I found the Korhald tomb and it had two items that I think might interest you.",
+                "nextPhraseID":"forenza_korhald_cop_0",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":65
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"shield_of_brave",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"hero_coin",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "text":"Inside the  Korhald tomb, I found a locked chest. Do you know where I can find its key?",
                 "nextPhraseID":"odd_coin_collector_ask_about_locked_chest",
                 "requires":[
@@ -1193,6 +1243,22 @@
                 ]
             },
             {
+                "text":"I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical.",
+                "nextPhraseID":"coin_collector_troll_coins",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":110
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mysterious_coin",
+                        "value":3
+                    }
+                ]
+            },
+            {
                 "text":"We have no more business to discuss. I'll see you later.",
                 "nextPhraseID":"X",
                 "requires":[
@@ -1204,7 +1270,23 @@
                 ]
             },
             {
-                "text":"I hope that having these coins will enable you to make peace with your father. Take care.",
+                "text":"I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical.",
+                "nextPhraseID":"coin_collector_troll_coins",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":115
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mysterious_coin",
+                        "value":3
+                    }
+                ]
+            },
+            {
+                "text":"I hope that these coins will enable you to make peace with your father. Take care.",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -1215,7 +1297,7 @@
                 ]
             },
             {
-                "text":"[Lie]I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them.",
+                "text":"[Lie] I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them.",
                 "nextPhraseID":"coin_collector_thief_coins_10",
                 "requires":[
                     {
@@ -1397,7 +1479,7 @@
                 ]
             },
             {
-                "text":"Yes and I already gave it to you.",
+                "text":"Yes and I already gave them to you.",
                 "nextPhraseID":"gylew_korhald_25",
                 "requires":[
                     {
@@ -1440,7 +1522,7 @@
     },
     {
         "id":"gylew_korhald_20",
-        "message":"Great! Let me have it.",
+        "message":"Great! Let me have them.",
         "replies":[
             {
                 "text":"Here you go.",
@@ -2155,7 +2237,7 @@
     },
     {
         "id":"laeroth_tower_south",
-        "message":"Looking to the south, you see the lakeshore you walked along. There is also a tower in the distance. You wonder if at one time the that tower and this one sent signals to each other."
+        "message":"Looking to the south, you see the lakeshore you walked along. There is also a tower in the distance. You wonder if at one time that tower and this one sent signals to each other."
     },
     {
         "id":"laeroth_tower_west",
@@ -2251,7 +2333,7 @@
     },
     {
         "id":"forenza_korhald_cop_20",
-        "message":"Well, for obvious reasons. Didn't you notice that the shield has the Korhald family crest engraved on its front side? This clearly belonged to Korhald himself. You should keep this item as i could aid you in your adventures.",
+        "message":"Well, for obvious reasons. Didn't you notice that the shield has the Korhald family crest engraved on its front side? This clearly belonged to Korhald himself. You should keep this item as it could aid you in your adventures.",
         "replies":[
             {
                 "text":"N",
@@ -2303,7 +2385,7 @@
     },
     {
         "id":"forenza_korhald_cop_35",
-        "message":"Oh, how very generous of you to just hand it over for free. I'll tell you what once you find your way to Brightport, seek out my family. They will help you reward you for all of your generosity and hard work.",
+        "message":"Oh, how very generous of you to just hand it over for free. I'll tell you what, once you find your way to Brightport, seek out my family. They will reward you for all of your generosity and hard work.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4244,7 +4326,7 @@
     },
     {
         "id":"jewelry_box_1",
-        "message":"This looks interesting. Could be a jewelry box. I has \"A\" inscribed on it. It is locked though, and too heavy to move to the tomb.",
+        "message":"This looks interesting. Could be a jewelry box. It has \"A\" inscribed on it. It is locked though, and too heavy to move to the tomb.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -5092,7 +5174,7 @@
     },
     {
         "id":"brute_fisherman_8",
-        "message":"You just came this path. Do you know why it's been used so little lately?",
+        "message":"You just came using this path. Do you know why it's been used so little lately?",
         "replies":[
             {
                 "text":"Well, yes, I think so.",
@@ -5472,7 +5554,7 @@
     },
     {
         "id":"brute_creator_sign_2",
-        "message":"Praise is the portal to the presence of Alythara"
+        "message":"Praise is the portal to the presence of Elythara"
     },
     {
         "id":"brute_creator_sign_3",
@@ -9807,7 +9889,7 @@
     },
     {
         "id":"lae_centaur9_12",
-        "message":"There is a foul creature that lurks in the cave to the east. It resembles a human but is far more savage.",
+        "message":"There is a foul creature that lurks in the cave to the west. It resembles a human but is far more savage.",
         "replies":[
             {
                 "text":"N",
@@ -10336,7 +10418,7 @@
         "message":"You did? Oh, yes, I remember now.",
         "replies":[
             {
-                "text":"Your a crazy old man.",
+                "text":"You're a crazy old man.",
                 "nextPhraseID":"gylew_korhald_27"
             }
         ]
@@ -10578,7 +10660,7 @@
     },
     {
         "id":"coin_collector_thief_coins_50",
-        "message":"[The collector pauses, his gaze lingering on the coins.] These pieces are not merely currency; they are artifacts of a hidden past,\na glimpse into the umderground world where alliances were forged in secrecy. I'd be willing to make you an offer for these intriguing\ntokens of history, should you be interested in parting with them.",
+        "message":"[The collector pauses, his gaze lingering on the coins.] These pieces are not merely currency; they are artifacts of a hidden past,\na glimpse into the underground world where alliances were forged in secrecy. I'd be willing to make you an offer for these intriguing\ntokens of history, should you be interested in parting with them.",
         "replies":[
             {
                 "text":"So you want to buy them all?",
@@ -10703,7 +10785,7 @@
     },
     {
         "id":"forenza_island_injured_need_help",
-        "message":"Nervermind that now. I am injured and I need your help!",
+        "message":"Nerver mind that now. I am injured and I need your help!",
         "replies":[
             {
                 "text":"What kind of help?",
@@ -12023,7 +12105,7 @@
     },
     {
         "id":"lae_torturer_11e",
-        "message":"Sure. We only want want the thruth. Nothing more. It is a very prestigious work.",
+        "message":"Sure. We only want the truth. Nothing more. It is a very prestigious work.",
         "replies":[
             {
                 "text":"If you say so.",
@@ -12124,7 +12206,7 @@
     },
     {
         "id":"lae_torturer_30",
-        "message":"Okay, then let's get started. This is a very important job, you know?",
+        "message":"OK, then let's get started. This is a very important job, you know?",
         "replies":[
             {
                 "text":"Why?",

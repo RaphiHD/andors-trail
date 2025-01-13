@@ -1,6 +1,134 @@
 I put both (release notes + forum announcement) into this source, so it will be easier to maintain them parallel:
 
 
+APK 79 (0.8.12.1)  Bugfix + translations
+
+Release notes
+=============
+* Fix of the freeze bug during combat
+* You can surprise the drunken guards in Fallhaven tavern a bit now.
+* Some minor map fixes
+* Translations
+
+
+Forum announcement  //2024-12-16
+==================
+Hello fellow adventurers,
+
+we have finally fixed that nasty bug which could freeze the game during combat (when you play with Animation=Off and Combat=Instant)
+
+There is no new content beside the tiny little thing with the drunken guards in the taverns of Crossglen or Fallhaven.
+
+Nevertheless please check this beta and try if it is working as expected: [url]https://andorstrail.com/static/AndorsTrail_v0.8.12.1beta.apk[/url]
+
+So long!
+---------------
+Here is is the link on our server: [url]https://andorstrail.com/static/AndorsTrail_v0.8.12.1.apk[/url]
+Google Play and Itch will follow soon - and F-droid too this time.
+
+Note: The first start might take long, maybe even minutes. Be patient, world map files are generated. This is only on first start.
+
+And now: Happy playing!  :D
+
+
+
+APK 78 (0.8.12)  "Towards Feygard" or "Of kobolds, fae, witch and troll"
+
+Release notes
+=============
+* 38 new maps mostly around the Guynmart castle area
+* 5 new quests: 
+	"It's Knot Funny" (from Wesley)
+	"Fog in the woods"
+	"Sobby's Trail"
+	"Echoes of Enchantment"
+	"A Feygard delicacy"
+* Missing Gylew fixed
+* Missing world map thumbnails are now automatically recreated when loading a savegame (thx to Jasp!).
+* Removal of unnecessary duplicate spritesheets (thx to OMGeeky).
+* Fix of flickering animations during combat
+* Fix of the glitch that made it  possible to remove a condition of some items
+* Many minor map fixes, typos and other little things
+* Translations
+---- shortened for Google:
+* 38 new maps mostly around the Guynmart castle area
+* 5 new quests: 
+	"It's Knot Funny" (from Wesley)
+	"Fog in the woods"
+	"Sobby's Trail"
+	"Echoes of Enchantment"
+	"A Feygard delicacy"
+* Missing world map thumbnails are now automatically recreated
+* Fix of flickering animations during combat
+* Fix of the glitch that made it possible to remove a condition of some items
+* Minor map fixes, translations
+
+
+Forum announcement  //2024-10-14
+==================
+Hello fellow adventurers,
+
+you won't reach Feygard, but you'll be able to travel quite a bit on the way there. And encounter some unusual creatures:
+
+Already near Fallhaven you will meet small cheeky Lytwings. They are driving Arensia from Fallhaven crazy. 
+Wesley surprised us with this quest. I would like to emphasize the excellent quality of the development, we were able to adopt it practically without corrections or rework. Thank you, Wesley :)
+
+You will finally solve the mystery of the fog in the northeast and make an interesting acquaintance in the process.
+
+What does a boy have to do with kobolds?
+
+And you will discover an abandoned village and its secret, and get another sweet quest as reward.
+
+
+[list]38 new maps mostly around the Guynmart castle area[/list]
+[list]5 new quests: 
+[list]"It's Knot Funny"
+ - A few lytwings are driving Arensia from Fallhaven crazy. (Wesley)[/list]
+[list]"Fog in the woods"
+ - The great Duleian road is now accessible further northwest.[/list]
+[list]"Sobby's Trail"
+ - Some things exist twice ...[/list]
+[list]"Echoes of Enchantment"
+ - A strange village and its secret.[/list]
+[list]"A Feygard delicacy"
+ - Antison is trying by all means to make Feygard attractive to you... [/list]
+[/list]
+[list]Gylew missing - fixed: If you don't find Gylew at his usual place (and before doing his quest), then seek in the bushes north west of his camp.[/list]
+[list]If for any reason some world maps are incomplete or missing at all, it is no longer necessary to visit these locations individually. Missing world map thumbnails are now automatically recreated when loading a savegame. Thanks to Jasp who had created this useful additions already years ago, it got into the game now.[/list]
+[list]Many maps had contained duplicate spritesheets unnecessarily. You didn't notice it, but it enlarged the APK size. OMGeeky has built a tool, so that we could merge these duplicates. 
+(If you happen to find missing tiles in any map, please tell us!)[/list]
+[list]Fix of flickering animations during combat[/list]
+[list]Fix of the glitch that made it  possible to remove a condition of some items[/list]
+[list]Many other minor map fixes, typos and other little things[/list]
+[list]And at last thanks to all translators for their work - we have included the current translations.[/list]
+
+
+Now here is is the link on our server: [url]https://andorstrail.com/static/AndorsTrail_v0.8.12.apk[/url]
+Google Play, F-Droid and Itch will follow soon.
+
+Note: The first start might take long, maybe even minutes. Be patient, world map files are generated. This is only on first start.
+
+And now: Happy playing!  :D
+--------------
+Are you now eager to dive into the story?
+As usual, we have prepared a beta for you. Try it out, enjoy the new quests! And pay attention to inconsistencies, errors or other opportunities for improvement.
+Please post your comments here in this thread or on Discord in the Beta testing channel.
+This helps us to create a release version in good quality again.
+
+A separate beta APK will be created so that you are independent of your productive game. Your saved games will remain untouched there.
+Tip: You can export a saved game and import it into the beta (but never the other way around).
+
+
+Here is is the link on our server: [url]https://andorstrail.com/static/AndorsTrail_v0.8.12_beta.apk[/url]
+And don’t forget to give us feedback about mistakes, what is good and what you don’t like.
+
+Happy playing!
+
+
+
+
+
+
 APK 77 (0.8.11)  Lake Laeroth
 
 Release notes

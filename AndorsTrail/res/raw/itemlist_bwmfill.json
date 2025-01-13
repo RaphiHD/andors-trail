@@ -102,7 +102,7 @@
             "increaseAttackCost":4,
             "increaseAttackChance":55,
             "increaseBlockChance":0,
-            "setNonWeaponDamageModifier":122,
+            "setNonWeaponDamageModifier":110,
             "addedConditions":[
                 {
                     "condition":"blackwater_misery",
@@ -267,6 +267,6 @@
         "hasManualPrice":1,
         "baseMarketCost":1,
         "category":"money",
-        "description":"A gold goin from Nor City."
+        "description":"A gold coin from Nor City."
     }
 ]

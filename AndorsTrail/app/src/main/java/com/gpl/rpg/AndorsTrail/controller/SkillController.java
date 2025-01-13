@@ -253,6 +253,7 @@ public final class SkillController {
 					addPercentBlockChance(player, itemType, SkillCollection.PER_SKILLPOINT_INCREASE_HEAVY_ARMOR_BC_PERCENT * skillLevelHeavyArmor, 0);
 					playerTraits.moveCost -= getPercentage(itemType.effects_equip.stats.increaseMoveCost, SkillCollection.PER_SKILLPOINT_INCREASE_HEAVY_ARMOR_MOVECOST_PERCENT * skillLevelHeavyArmor, 0);
 					playerTraits.attackCost -= getPercentage(itemType.effects_equip.stats.increaseAttackCost, SkillCollection.PER_SKILLPOINT_INCREASE_HEAVY_ARMOR_ATKCOST_PERCENT * skillLevelHeavyArmor, 0);
+					playerTraits.useItemCost -= getPercentage(itemType.effects_equip.stats.increaseUseItemCost, SkillCollection.PER_SKILLPOINT_INCREASE_HEAVY_ARMOR_USECOST_PERCENT * skillLevelHeavyArmor, 0);
 				}
 			}
 		}

@@ -25,6 +25,7 @@ import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
 import com.gpl.rpg.AndorsTrail.model.map.MapLayer;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
+import com.gpl.rpg.AndorsTrail.model.map.TMXMapTranslator;
 import com.gpl.rpg.AndorsTrail.model.map.WorldMapSegment;
 import com.gpl.rpg.AndorsTrail.model.map.WorldMapSegment.NamedWorldMapArea;
 import com.gpl.rpg.AndorsTrail.model.map.WorldMapSegment.WorldMapSegmentMap;
@@ -313,5 +314,33 @@ public final class WorldMapController {
 		context.startActivity(intent);
 
 		return true;
+	}
+
+	public static void populateWorldMap(Context context, WorldContext world, Resources res) throws IOException {
+		ensureWorldmapDirectoryExists(context);
+		File dir = getWorldmapDirectory(context);
+
+		File idFile = new File(dir, world.model.player.id);
+		if (idFile.exists()) return;
+		idFile.createNewFile();
+
+		for (PredefinedMap map : world.maps.getAllMaps()) {
+			if (!map.visited) continue;
+
+			String worldMapSegmentName = world.maps.getWorldMapSegmentNameForMap(map.name);
+			if (worldMapSegmentName == null) continue;
+
+			boolean mapFileExists = fileForMapExists(context, map);
+			File worldMapFile = getCombinedWorldMapFile(context, worldMapSegmentName);
+			if (mapFileExists && worldMapFile.exists()) continue;
+
+			LayeredTileMap mapTiles = TMXMapTranslator.readLayeredTileMap(res, world.tileManager.tileCache, map);
+			mapTiles.changeColorFilter(map.currentColorFilter);
+			TileCollection cachedTiles = world.tileManager.loadTilesFor(map, mapTiles, world, res);
+
+			MapRenderer renderer = new MapRenderer(world, map, mapTiles, cachedTiles);
+			updateCachedBitmap(context, map, renderer);
+			updateWorldMapSegment(context, res, world, worldMapSegmentName);
+		}
 	}
 }

@@ -76,14 +76,17 @@ public final class TileCache {
 			ResourceFileTile tile = resourceTiles[tileID];
 			if(tile == null && AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES){
 				L.log("could not find resourceTiles for id: " + tileID);
+				L.log("iconIDs: " + iconIDs);
 			}
-			SparseArray<ResourceFileTile> tiles = tilesToLoadPerSourceFile.get(tile.tileset);
-			if (tiles == null) {
-				tiles = new SparseArray<TileCache.ResourceFileTile>();
-				tilesToLoadPerSourceFile.put(tile.tileset, tiles);
+			if(tile != null || AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA){
+				SparseArray<ResourceFileTile> tiles = tilesToLoadPerSourceFile.get(tile.tileset);
+				if (tiles == null) {
+					tiles = new SparseArray<TileCache.ResourceFileTile>();
+					tilesToLoadPerSourceFile.put(tile.tileset, tiles);
+				}
+				tiles.put(tileID, tile);
+				maxTileID = Math.max(maxTileID, tileID);
 			}
-			tiles.put(tileID, tile);
-			maxTileID = Math.max(maxTileID, tileID);
 		}
 
 		boolean hasLoadedTiles = false;

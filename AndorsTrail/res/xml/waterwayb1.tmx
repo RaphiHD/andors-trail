@@ -183,23 +183,14 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="30" height="9">
-  <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPGLxNVnS9QAAc7PEZg==
-  </data>
+  <data encoding="base64" compression="zlib">eJzbyMnAsHEUj+JRPGLxO0nS9QAAd8fEeg==</data>
  </layer>
  <layer name="Objects" width="30" height="9">
-  <data encoding="base64" compression="zlib">
-   eJyNUzEOwjAMzBfcPYIn8GkGYO8L2ioS7dYyMSNg4gclJolycR0JS5WTk8++XpKVzC8Ga8zN5tzbgHcRW+Keo/XrOWIrhTVysd7RFuf6TqlPfa7Qk3Wc/HeO/XaNMfsma5G6pb4ZcE0rx522/8PrkUotUqfEO/BoFLxJmd1DvQzW5KjUz4GzNf+T78h7UOnHAp5qZ4beMvb0/Atwkz45p7WZ56js9aaMSS3avUoh+yCGs6VPqUbya3vMh6bU+RI1E5U6h4pvOMuJd+aip/+E5oG89ynX3qNWg3H0+w+FM6jxMH8BzmirCw==
-  </data>
+  <data encoding="base64" compression="zlib">eJyNU0EOwiAQ5AvbGyd9gv9PPKgXEtu+gPZo1LTGH1S2hTBsl8RNmoXJzu4wlIXMGqM15mNzHuyG+4jNcc/Rh/UUsYW2NXKx3tEe53qv1Kc+d+jJOi7hu8Z+h8aYY5O1SN1S3wS4pnU9I+3Pw+uWSi1Sp8Q9eNQKXqfMHqBeBmtyVOrnwNma/8l35D2o9GMGT7U7Q28Zewb+DbhJn5zT28xzVPZ6U8akFu2/SiH7IIazpU+pRvJre8ynptT5EjUdlTrHim84y4l35qKn/4TmgfzvU669R60G4xz2X9ruoMbD/APqjbab</data>
  </layer>
  <layer name="Above" width="30" height="9">
-  <data encoding="base64" compression="zlib">
-   eJylktsNwCAIRVmEwVv/nUQ7QuepTUtCELzansSQKMjrEhEVJqrtILbms0/4CZmfvz0kp5c7qsXGRNajmlqQP+KOPZzY1X9lpqgHuUuvtbl1b5n7u6gHj9HeIupkzi+geSK9oLf0o+ai+rYa8/Rpa472nnms84gZ3YnPqTS8ur8L+ExImw==
-  </data>
+  <data encoding="base64" compression="zlib">eJylktsNwCAIRVmD/Sdo/XcS7QidoTYtCUHwansSQ6Igr0tEVJiotoPYms8+4Sdkfv72kJxe7qgWGxNZj2pqQf6IO/ZwYlf/lZmiHuQuvdbm1r1l7u+iHjxGe4uokzm/gOaJ9ILe0o+ai+rbaszTp6052nvmsc4jZnQnPqfS8Or+LuP+Tys=</data>
  </layer>
  <layer name="Walkable" width="30" height="9">
   <data encoding="base64" compression="zlib">

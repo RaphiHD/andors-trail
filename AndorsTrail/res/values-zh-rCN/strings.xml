@@ -3,7 +3,7 @@
     <string name="localize_resources_from_mo_filename">zh_CN.mo</string>
     <string name="app_description">任务驱动型的奇幻 RPG</string>
     <string name="exit_to_menu">返回菜单</string>
-    <string name="menu_settings">设定</string>
+    <string name="menu_settings">设置</string>
     <string name="menu_save">保存</string>
     <string name="menu_save_gamesaved">游戏已经保存至存档%1$d</string>
     <string name="menu_save_failed">游戏保存失败！确认SD卡已挂载并且可以写入？</string>
@@ -22,7 +22,7 @@
     <string name="dialog_recenter">回到中央</string>
     <string name="dialog_close">关闭</string>
     <string name="dialog_more">更多</string>
-    <string name="app_name">安道尔的踪迹</string>
+    <string name="app_name">安道尔追踪</string>
     <string name="status_hp">体力：</string>
     <string name="heroinfo_char">总览</string>
     <string name="heroinfo_skill">技能</string>
@@ -92,11 +92,11 @@
     <string name="inventory_item_equipped">%1$s已装备。</string>
     <string name="levelup_title">等级提升</string>
     <string name="levelup_buttontext">等级提升</string>
-    <string name="skill_title_regeneration">再生</string>
+    <string name="skill_title_regeneration">自我愈合</string>
     <string name="skillinfo_action_levelup">等级提升</string>
-    <string name="skill_title_crit1">内出血附加</string>
-    <string name="skill_title_crit2">骨折附加</string>
-    <string name="skill_title_concussion">震荡</string>
+    <string name="skill_title_crit1">内伤附加</string>
+    <string name="skill_title_crit2">折伤附加</string>
+    <string name="skill_title_concussion">震荡附加</string>
     <string name="heroinfo_gamestats_name_and_qty">%1$s（%2$d）</string>
     <string name="inventory_equip">装备</string>
     <string name="inventory_unequip">卸下</string>
@@ -124,12 +124,12 @@
     <string name="actorinfo_health">生命值：</string>
     <string name="actorinfo_difficulty">难度：</string>
     <string name="actorinfo_class">职业：</string>
-    <string name="monster_difficulty_impossible">大师</string>
-    <string name="monster_difficulty_veryhard">专家</string>
+    <string name="monster_difficulty_impossible">炼狱</string>
+    <string name="monster_difficulty_veryhard">噩梦</string>
     <string name="monster_difficulty_hard">困难</string>
-    <string name="monster_difficulty_normal">正常</string>
+    <string name="monster_difficulty_normal">普通</string>
     <string name="monster_difficulty_easy">简单</string>
-    <string name="monster_difficulty_veryeasy">新手</string>
+    <string name="monster_difficulty_veryeasy">菜鸟</string>
     <string name="dialog_monsterloot_gainedexp">你获得了%1$d点经验。</string>
     <string name="dialog_monsterloot_message">你在战斗中幸存下来。</string>
     <string name="dialog_monsterloot_title">胜利</string>
@@ -147,9 +147,7 @@
     <string name="questlog_includecompleted_includecompleted">所有任务</string>
     <string name="questlog_includecompleted_prompt">选择要显示的任务</string>
     <string name="dialog_permission_information_title">加载和保存游戏</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nAndor\'s Trail将会向你申请储存设备的访问权限用于储存和加载游戏存档，不会用作他途。"</string>
+    <string name="dialog_newversion_permission_information">\n\nAndor\'s Trail将会向你申请储存设备的访问权限用于储存和加载游戏存档，不会用作他途。</string>
     <string name="about_button2">制作组</string>
     <string name="traitsinfo_defense_chance">格挡率：</string>
     <string name="dialog_rest_message">你已经休息，并恢复了生命值。</string>
@@ -181,7 +179,7 @@
     <string name="conversation_rewardexp">【你获得 %1$d 点经验值】</string>
     <string name="startscreen_mode_1_life">永久死亡（1次复活,单一存档）</string>
     <string name="startscreen_mode_3_lives">极限（3次复活,单一存档）</string>
-    <string name="startscreen_mode_10_lives">很难（10次复活,单一存档）</string>
+    <string name="startscreen_mode_10_lives">极难（10次复活,单一存档）</string>
     <string name="startscreen_mode_50_lives">困难（50次复活,单一存档）</string>
     <string name="startscreen_mode_unlimited_lives">中等（无限复活,单一存档）</string>
     <string name="startscreen_mode_unlimited_saves_and_lives">标准（无限复活 无限存档）</string>
@@ -228,17 +226,17 @@
 \n感谢大家的反馈！</string>
     <string name="skill_title_eater">尸骸掠食</string>
     <string name="skill_title_cleave">我还能打</string>
-    <string name="skill_title_more_exp">快速学习</string>
-    <string name="skill_title_coinfinder">宝藏猎人</string>
-    <string name="skill_title_speed">战斗速度</string>
-    <string name="skill_title_better_criticals">增强暴击</string>
-    <string name="skill_title_more_criticals">更多暴击</string>
-    <string name="skill_title_barkskin">硬化皮肤</string>
-    <string name="skill_title_dodge">闪避</string>
-    <string name="skill_title_barter">商人才智</string>
-    <string name="skill_title_weapon_dmg">重击</string>
+    <string name="skill_title_more_exp">超群悟性</string>
+    <string name="skill_title_coinfinder">宝藏嗅觉</string>
+    <string name="skill_title_speed">快刀斩麻</string>
+    <string name="skill_title_better_criticals">刚劲重击</string>
+    <string name="skill_title_more_criticals">唾手重击</string>
+    <string name="skill_title_barkskin">皮肤硬化</string>
+    <string name="skill_title_dodge">格挡闪避</string>
+    <string name="skill_title_barter">伶牙俐齿</string>
+    <string name="skill_title_weapon_dmg">奋力猛击</string>
     <string name="bulkselection_sell_confirmation">你确认要卖出%1$s吗？这个物品是%2$s的，你可能不会再次获得。</string>
-    <string name="skill_title_weapon_chance">武器精度</string>
+    <string name="skill_title_weapon_chance">手眼合一</string>
     <string name="bulkselection_sell_confirmation_title">确定吗？</string>
     <string name="bulkselection_select_all">全部</string>
     <string name="bulkselection_totalcost_sell">总计需要：%1$d 金币</string>
@@ -292,10 +290,10 @@
     <string name="iteminfo_effect_works_when_killing_target">每次击杀</string>
     <string name="iteminfo_effect_works_when_hitting_target">当命中目标时</string>
     <string name="iteminfo_effect_works_on_attacker">对攻击者</string>
-    <string name="iteminfo_effect_works_on_target">对目标</string>
-    <string name="iteminfo_effect_works_on_source">来源</string>
+    <string name="iteminfo_effect_works_on_target">目标获得</string>
+    <string name="iteminfo_effect_works_on_source">获得</string>
     <string name="iteminfo_effect_duration">（%1$d回合）</string>
-    <string name="iteminfo_effect_chance_of">%1$s%2$s的几率</string>
+    <string name="iteminfo_effect_chance_of">%1$s的几率获得%2$s</string>
     <string name="actorcondition_info_immunity">免疫%1$s</string>
     <string name="actorcondition_info_removes_all">移除所有%1$s</string>
     <string name="actorinfo_currentconditions">当前状态</string>
@@ -307,7 +305,7 @@
     <string name="preferences_attackspeed_slow">缓慢</string>
     <string name="preferences_attackspeed_normal">正常</string>
     <string name="preferences_attackspeed_fast">快速</string>
-    <string name="preferences_attackspeed_instant">即时（没有动画）</string>
+    <string name="preferences_attackspeed_instant">即刻（没有动画）</string>
     <string name="preferences_display_loot_never">不显示</string>
     <string name="preferences_display_loot_toast_on_items">仅在获得物品时显示通知</string>
     <string name="preferences_display_loot_toast">显示简短通知</string>
@@ -324,7 +322,7 @@
     <string name="questlog_queststatus_inprogress">进行中</string>
     <string name="questlog_includecompleted_onlycompleted">已完成的任务</string>
     <string name="questlog_includecompleted_hidecompleted">进行中的任务</string>
-    <string name="about_contents1">欢迎来到 Andor\'s Trail，一个安卓平台上的开源地牢型RPG。 &lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;你可以到我们的游戏论坛 andorstrail.com，提出问题和游玩的意见。 &lt;/a&gt;&lt;br /&gt; &lt;br /&gt;&lt;a href=http://andorstrail.com/wiki&gt;我们也有 wiki，提供你有关 Andor\'s Trail 的世界、任务、地图...等资讯。 &lt;/a&gt;&lt;br /&gt;&lt;br /&gt; &lt;a href=https://github.com/Zukero/andors-trail/&gt;若你是开发者，可在 github.com 上查看项目的源代码。 &lt;/a&gt;&lt;br /&gt; &lt;br /&gt;欢迎你到论坛上和其他玩家共同讨论。 &lt;br /&gt;</string>
+    <string name="about_contents1">欢迎游玩 Andor\'s Trail，这是一款基于安卓系统的开源肉鸽RPG。 &lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;我们的游戏论坛的网址是 andorstrail.com，在此可以提出属于你的问题和游玩意见。 &lt;/a&gt;&lt;br /&gt; &lt;br /&gt;&lt;a href=https://andorstrail.gitbook.io/docs&gt;我们也有自己的wiki，可以查看到有关 Andor\'s Trail 的各种游戏资讯。 &lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;若你想要基于本游戏开发的话，可以在github.com上获取到源代码&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;欢迎大家到论坛上各抒己见，互相交流。 &lt;br /&gt;</string>
     <string name="skill_longdescription_fightstyle_dualwield">当两个武器同时装备，一个在主手，另一个副手时，获得额外增益。
 \n
 \n如果没有这个技能，当武器装备在副手时，只有%1$d%%的数据可以使用。数据包括命中率、暴击等级、伤害和格挡率。没有这个技能，攻击时AP消耗就是主手武器和副手武器的AP消耗之和。伤害则是两者的较低值。
@@ -332,15 +330,15 @@
 \n技能等级1时，可使用%2$d%%副手武器的数据，攻击时AP消耗是装备的两个武器中的较高值加上%3$d%%的较低值。伤害是两者的平均值。
 \n
 \n技能等级2时，可使用%4$d%%副手武器的数据，攻击时AP消耗等于两个武器中的最高值。伤害是两者的较高值。</string>
-    <string name="skill_longdescription_armor_prof_heavy">每个技能等级，增加重甲的格挡率%1$d%%，减少重甲的移动消耗%2$d%%，减少重甲的攻击速度惩罚%3$d%%。重甲包括金属盔甲、链甲和板甲。</string>
+    <string name="skill_longdescription_armor_prof_heavy">每一技能等级可以增加重甲%1$d%%的格挡率，减轻重甲%2$d%%的移动AP消耗增加的惩罚，减轻重甲%3$d%%的攻击速度下降的惩罚，以及减轻重甲%4$d %%它们所致的使用物品AP消耗增加的惩罚。重甲包括重质金属甲、链甲及板甲。</string>
     <string name="preferences_display_theme_charcoal">黑曜石</string>
     <string name="preferences_display_theme_green">孔雀石</string>
     <string name="preferences_display_theme_blue">钴蓝色</string>
     <string name="preferences_display_theme_title">主题</string>
-    <string name="skill_sort_unlocked">已解锁</string>
-    <string name="skill_sort_points">点</string>
+    <string name="skill_sort_unlocked">解锁</string>
+    <string name="skill_sort_points">加点</string>
     <string name="skill_sort_name">名称</string>
-    <string name="skill_sort_unsorted">未分类</string>
+    <string name="skill_sort_unsorted">默认</string>
     <string name="skill_category_proficiency">精通</string>
     <string name="skill_category_speciality">专长</string>
     <string name="skill_category_utility">通用</string>
@@ -385,8 +383,8 @@
     <string name="preferences_quickslots_placement">快捷栏位置</string>
     <string name="skill_longdescription_weapon_prof_pole">当使用长柄武器时，每个技能等级提升%1$d%%装备的基础命中率，提升%2$d%%装备基础格挡率，提升%3$d%%装备的基础暴击等级。</string>
     <string name="skill_longdescription_specialization_weapon_shield">增加主手武器的命中率和伤害。增加原始命中率%1$d%%，增加原始伤害%2$d%%。</string>
-    <string name="skill_longdescription_specialization_2hand">在战斗风格技能的基础上，增加双手武器的原始伤害%1$d%%。增加双持武器的原始命中率%2$d%%。</string>
-    <string name="skill_longdescription_specialization_dualwield">在战斗风格技能的基础上，增加双持武器的原始命中率%1$d%%。增加双持武器的原始格挡率%2$d%%。</string>
+    <string name="skill_longdescription_specialization_2hand">在战斗风格技能的基础上，增加双手武器的原始伤害%1$d%%。增加双手武器的原始命中率%2$d%%。</string>
+    <string name="skill_longdescription_specialization_dualwield">在战斗风格技能的基础上，增加双持的武器的原始命中率%1$d%%。增加双持的武器的原始格挡率%2$d%%。</string>
     <string name="skill_longdescription_fightstyle_unarmed_unarmored">在没有装备任何盔甲且没有使用武器或盾牌的情况下战斗，每个技能等级命中率增加%1$d，格挡率增加%2$d，伤害减免增加%3$d，最大伤害增加%4$d。该技能还提供了1+0.%5$d*技能等级的暴击倍率。
 \n
 \n由布制成的装备不被认为是盔甲。</string>
@@ -396,8 +394,8 @@
     <string name="skill_longdescription_fightstyle_2hand">当使用双手武器时，比如双手剑、巨斧或巨锤时，获得额外增益。
 \n
 \n每个技能等级增加双手武器的原始伤害%1$d%%。</string>
-    <string name="skill_longdescription_armor_prof_light">每个技能等级，增加轻甲的格挡率%1$d%%。轻甲包括皮革、 轻金属和隐藏盔甲。</string>
-    <string name="skill_longdescription_armor_prof_unarmored">在没有装备盔甲的情况下战斗时，每个技能等级增加格挡率%1$d。用布做的物品不被认为是盔甲。</string>
+    <string name="skill_longdescription_armor_prof_light">每一技能等级可以增加轻甲%1$d%%的格挡率。轻甲包括皮革甲、 轻质金属甲和兽皮甲。</string>
+    <string name="skill_longdescription_armor_prof_unarmored">在没有装备护甲的情况下战斗时，每个技能等级增加格挡率%1$d。布制衣甲不被认为是护甲。</string>
     <string name="skill_longdescription_armor_prof_shield">装备盾牌时，每个技能等级增加伤害减免%1$d。</string>
     <string name="skill_longdescription_weapon_prof_unarmed">当没有装备武器和盾牌时，每个技能等级提升%1$d命中率，%2$d伤害和%3$d格挡率。</string>
     <string name="skill_longdescription_weapon_prof_blunt">当使用钝器时，每个技能等级提升%1$d%%装备的基础命中率，提升%2$d%%装备基础格挡率，提升%3$d%%装备的基础暴击等级。包括棍、长棍、狼牙棒、权杖、鞭子、战锤和巨锤。</string>
@@ -406,16 +404,16 @@
     <string name="skill_longdescription_weapon_prof_1hsword">当使用刺剑、长剑、阔剑时，每个技能等级提升%1$d%%装备的基础命中率，提升%2$d%%装备基础格挡率，提升%3$d%%装备的基础暴击等级。</string>
     <string name="skill_longdescription_weapon_prof_dagger">当使用匕首和短剑时，每个技能等级提升%1$d%%装备的基础命中率，提升%2$d%%装备基础命中率，提升%3$d%%装备的基础暴击等级。</string>
     <string name="skill_shortdescription_weapon_prof_pole">更擅长用长柄武器作战</string>
-    <string name="skill_shortdescription_specialization_weapon_shield">武器与盾牌专家</string>
+    <string name="skill_shortdescription_specialization_weapon_shield">武器和盾牌专家</string>
     <string name="skill_shortdescription_specialization_2hand">双手武器专家</string>
-    <string name="skill_shortdescription_specialization_dualwield">双持专家</string>
-    <string name="skill_shortdescription_fightstyle_unarmed_unarmored">更擅长徒手/无盔甲的战斗</string>
+    <string name="skill_shortdescription_specialization_dualwield">武器双持专家</string>
+    <string name="skill_shortdescription_fightstyle_unarmed_unarmored">更擅长徒手/无护甲的战斗</string>
     <string name="skill_shortdescription_fightstyle_weapon_shield">更擅长用武器和盾牌作战</string>
     <string name="skill_shortdescription_fightstyle_2hand">更擅长使用需要双手的武器</string>
     <string name="skill_shortdescription_fightstyle_dualwield">同时使用两种武器</string>
-    <string name="skill_shortdescription_armor_prof_heavy">更擅长使用重型盔甲</string>
-    <string name="skill_shortdescription_armor_prof_light">更擅长使用轻型盔甲</string>
-    <string name="skill_shortdescription_armor_prof_unarmored">更擅长不穿盔甲作战</string>
+    <string name="skill_shortdescription_armor_prof_heavy">更擅长使用重甲</string>
+    <string name="skill_shortdescription_armor_prof_light">更擅长使用轻甲</string>
+    <string name="skill_shortdescription_armor_prof_unarmored">更擅长不穿护甲作战</string>
     <string name="skill_shortdescription_armor_prof_shield">更擅长使用盾牌和格挡武器</string>
     <string name="skill_shortdescription_weapon_prof_unarmed">更擅长徒手作战</string>
     <string name="skill_shortdescription_weapon_prof_blunt">更擅长用钝器作战</string>
@@ -423,17 +421,17 @@
     <string name="skill_shortdescription_weapon_prof_2hsword">更擅长用双手剑作战</string>
     <string name="skill_shortdescription_weapon_prof_1hsword">更擅长用单手剑作战</string>
     <string name="skill_shortdescription_weapon_prof_dagger">更擅长用匕首作战</string>
-    <string name="skill_title_weapon_prof_pole">长柄类武器精通</string>
-    <string name="skill_title_specialization_weapon_shield">专精：武器和盾牌</string>
-    <string name="skill_title_specialization_2hand">专精：双手武器</string>
-    <string name="skill_title_specialization_dualwield">专精：双持</string>
+    <string name="skill_title_weapon_prof_pole">长柄武器精通</string>
+    <string name="skill_title_specialization_weapon_shield">特化：武器盾牌</string>
+    <string name="skill_title_specialization_2hand">特化：双手武器</string>
+    <string name="skill_title_specialization_dualwield">特化：武器双持</string>
     <string name="skill_title_fightstyle_unarmed_unarmored">战斗风格：武僧之路</string>
-    <string name="skill_title_fightstyle_weapon_shield">战斗风格：武器与盾牌</string>
+    <string name="skill_title_fightstyle_weapon_shield">战斗风格：武器盾牌</string>
     <string name="skill_title_fightstyle_2hand">战斗风格：双手武器</string>
-    <string name="skill_title_fightstyle_dualwield">战斗风格：双持</string>
+    <string name="skill_title_fightstyle_dualwield">战斗风格：武器双持</string>
     <string name="skill_title_armor_prof_heavy">重甲精通</string>
     <string name="skill_title_armor_prof_light">轻甲精通</string>
-    <string name="skill_title_armor_prof_unarmored">无装甲战斗</string>
+    <string name="skill_title_armor_prof_unarmored">无甲战斗</string>
     <string name="skill_title_armor_prof_shield">盾牌精通</string>
     <string name="skill_title_weapon_prof_unarmed">徒手战斗</string>
     <string name="skill_title_weapon_prof_blunt">钝器精通</string>
@@ -459,11 +457,11 @@
     <string name="skill_shortdescription_concussion">有概率附加震荡</string>
     <string name="skill_longdescription_taunt">攻击没有命中时，攻击者有%1$d%%概率失去%2$dAP。这适用于所有对你的近战攻击。</string>
     <string name="skill_shortdescription_taunt">攻击者在未命中时失去AP</string>
-    <string name="skill_title_taunt">嘲讽</string>
+    <string name="skill_title_taunt">挑衅激怒</string>
     <string name="skill_longdescription_rejuvenation">每回合（6秒），有%1$d%%几率使一个当前的负面状态被降低一级。这适用于影响身体的所有临时效果类型；精神状态如眩晕，物理状态如疲劳，血液状态如中毒。</string>
     <string name="skill_shortdescription_rejuvenation">有概率移除负面状态</string>
-    <string name="skill_title_rejuvenation">活力回复</string>
-    <string name="skill_longdescription_crit2">每一次成功的暴击都会有%1$d %% 几率给目标附加骨折状态。这会大大降低目标的防守性作战能力，使其在随后的攻击中防御能力下降。</string>
+    <string name="skill_title_rejuvenation">异常恢复</string>
+    <string name="skill_longdescription_crit2">每一次成功的暴击都会有%1$d %% 几率给目标附加折伤状态。这会大大降低目标的防守性作战能力，使其在随后的攻击中防御能力下降。</string>
     <string name="skill_shortdescription_crit2">有概率附加骨折</string>
     <string name="skill_longdescription_crit1">每一次成功的暴击都会有%1$d%% 几率给目标附加内出血状态。这会大大降低目标的攻击性性作战能力，使其更难攻击成功。</string>
     <string name="skill_shortdescription_crit1">有概率附加内出血</string>
@@ -475,7 +473,7 @@
     <string name="inventory_movetop">移到顶部</string>
     <string name="skill_longdescription_shadow_bless">降低受所有负面状态影响的概率%1$d%%。这包括怪物攻击造成的所有类型的状态, 如中毒、眩晕或疲劳。</string>
     <string name="skill_shortdescription_shadow_bless">抵抗所有类型的负面状态</string>
-    <string name="skill_title_shadow_bless">暗影的黑暗祝福</string>
+    <string name="skill_title_shadow_bless">暗影祝福</string>
     <string name="preferences_high_quality_filters">如果你在滤色地图上遇到性能问题（例如在暗洞中），请禁用此功能。启用此功能将使游戏使用高级滤色器，而不是纯色叠加。</string>
     <string name="preferences_high_quality_filters_title">高品质滤色</string>
     <string name="preferences_optimized_drawing">如果图形异常，请禁用此项。启用此选项将使游戏在每帧中只重绘的屏幕上更改的部分。</string>
@@ -488,7 +486,7 @@
     <string name="actorcondition_categories_blood">血液</string>
     <string name="actorcondition_categories_physical">物理</string>
     <string name="actorcondition_categories_mental">精神</string>
-    <string name="actorcondition_categories_spiritual">精神</string>
+    <string name="actorcondition_categories_spiritual">心灵</string>
     <string name="actorconditioninfo_category">状态类别：%1$s</string>
     <string name="iteminfo_displaytypes_rare">稀有</string>
     <string name="iteminfo_displaytypes_extraordinary">非凡</string>
@@ -505,12 +503,12 @@
     <string name="skill_current_level_with_maximum">当前等级：%1$d/%2$d</string>
     <string name="skill_current_level">当前等级：%1$d</string>
     <string name="skill_longdescription_resistance_blood_disorder">每一技能等级降低受血液负面状态影响的概率%1$d%%，直至最高%2$d%%。包括怪物攻击造成的状态, 如中毒、流血。</string>
-    <string name="skill_longdescription_resistance_physical_capacity">每一技能等级降低受物理负面状态影响的概率%1$d%%，直至最高%2$d%%。包括怪物攻击造成的状态, 如疲劳。</string>
-    <string name="skill_longdescription_resistance_mental">每一技能等级降低受精神负面状态影响的概率%1$d%%，直至最高%2$d%%。包括怪物攻击造成的状态, 如眩晕、武器虚弱。</string>
+    <string name="skill_longdescription_resistance_physical_capacity">每一技能等级降低受物理负面状态影响的概率%1$d%%，直至最高%2$d%%。包括怪物攻击造成的状态, 如疲劳等。</string>
+    <string name="skill_longdescription_resistance_mental">每一技能等级降低受精神负面状态影响的概率%1$d%%，直至最高%2$d%%。包括怪物攻击造成的状态, 如恍惚、武器弱化等。</string>
     <string name="skill_longdescription_magicfinder">每一技能等级增加发现非普通物品的概率%1$d%%。</string>
-    <string name="skill_longdescription_lower_exploss">每个技能等级，减少%1$d%%由死亡造成的经验损失。%2$d级将消除因死亡造成的所有经验损失。</string>
-    <string name="skill_longdescription_regeneration">每一技能等级，当没有怪物直接相邻时，每回合增加HP%1$d点。</string>
-    <string name="skill_longdescription_evasion">每一技能等级，减少逃跑失败的概率%1$d%%，减少相邻怪物的攻击概率%2$d%%。</string>
+    <string name="skill_longdescription_lower_exploss">每一技能等级可以减少%1$d%%由死亡造成的经验损失。技能升至%2$d级后会彻底不产生因死亡造成的经验损失。</string>
+    <string name="skill_longdescription_regeneration">每一技能等级，当没有直接接触怪物时，每回合增加HP%1$d点。</string>
+    <string name="skill_longdescription_evasion">每一技能等级可以减少逃跑失败%1$d%%的概率，减少相邻怪物%2$d%%的攻击概率。</string>
     <string name="skill_longdescription_fortitude">每一次人物等级提升，最大HP按技能等级增加%1$d。技能等级提升之前的HP不会变化，只有后续升级时才会增加。</string>
     <string name="skill_longdescription_eater">每一技能等级增加%1$d击杀后获得的HP点。</string>
     <string name="skill_longdescription_cleave">每一技能等级增加%1$d击杀后获得的AP点。</string>
@@ -521,7 +519,7 @@
     <string name="skill_longdescription_more_criticals">每一技能等级增加 %1$d%%装备赋予的暴击率。</string>
     <string name="skill_longdescription_barkskin">每一技能等级增加%1$d伤害抗性。</string>
     <string name="skill_longdescription_dodge">每一技能等级增加%1$d格挡率。</string>
-    <string name="skill_longdescription_barter">每一技能等级，买入和卖出的金币按%1$d百分比递减和递增。</string>
+    <string name="skill_longdescription_barter">每一技能等级可以使得买入所需和卖出所获的金币分别按%1$d百分比递减和递增。</string>
     <string name="skill_longdescription_weapon_dmg">每一技能等级增加%1$d最大伤害。</string>
     <string name="skill_longdescription_weapon_chance">每一技能等级增加%1$d命中率。</string>
     <string name="skill_shortdescription_resistance_blood_disorder">抵抗血液类负面状态</string>
@@ -539,18 +537,65 @@
     <string name="skill_shortdescription_speed">增加AP上限</string>
     <string name="skill_shortdescription_better_criticals">增加暴击伤害</string>
     <string name="skill_shortdescription_more_criticals">增加暴击等级</string>
-    <string name="skill_shortdescription_barkskin">伤害减免</string>
+    <string name="skill_shortdescription_barkskin">增加伤害减免</string>
     <string name="skill_shortdescription_dodge">增加格挡率</string>
-    <string name="skill_shortdescription_barter">伶牙俐齿</string>
+    <string name="skill_shortdescription_barter">更为善于砍价与抬价</string>
     <string name="skill_shortdescription_weapon_dmg">增加攻击伤害</string>
     <string name="skill_shortdescription_weapon_chance">增加命中率</string>
     <string name="skill_title_resistance_blood_disorder">血液净化</string>
     <string name="skill_title_resistance_physical_capacity">身强力壮</string>
     <string name="skill_title_resistance_mental">修心养性</string>
     <string name="skill_title_magicfinder">魔器寻索</string>
-    <string name="skill_title_lower_exploss">吸取教训</string>
-    <string name="skill_title_evasion">逃跑</string>
-    <string name="about_interface">&lt;div&gt;&lt;b&gt;游戏设置&lt;/b&gt;可通过按下设备的菜单按钮找到。&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;界面图标&lt;/h1&gt; &lt;div&gt;&lt;b&gt;宝箱&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;快捷栏 【长按快捷栏槽可分配快捷栏内容】&lt;/p&gt; &lt;div&gt;&lt;b&gt;英雄&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;菜单 【总览，任务，技能，背包 *】&lt;/p&gt; &lt;p&gt;* （在背包界面，点击物品可以看到信息，长按有更多选项）&lt;/p&gt; &lt;div&gt;&lt;b&gt;敌人&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;信息 【仅在战斗中出现】&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;战斗&lt;/h1&gt; &lt;p&gt;战斗时进行操作会消耗 AP...&lt;/p&gt; &lt;div&gt;&lt;b&gt;攻击&lt;/b&gt; - 【3AP】 *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* （装备或使用消耗品会影响AP上限或消耗的AP）&lt;/p&gt; &lt;div&gt;&lt;b&gt;使用物品&lt;/b&gt; - [5AP]&lt;/div&gt; &lt;div&gt;&lt;b&gt;逃跑&lt;/b&gt; - [6AP]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;战斗高级操作&lt;/h1&gt; &lt;div&gt;在战斗中，长按英雄附近的方格...&lt;/div&gt; &lt;div&gt;&lt;b&gt;逃跑&lt;/b&gt;&lt;/div&gt; &lt;p&gt;（选中的方块会高亮，攻击按钮字样会变成移动）&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;【逃跑模式激活- 长按敌人重新进入战斗模式】&lt;/p&gt; &lt;div&gt;&lt;b&gt;改变目标&lt;/b&gt;&lt;/div&gt; &lt;p&gt;（红色高亮表示你选中的敌人）&lt;/p&gt; &lt;p&gt;【目标已改变】&lt;/p&gt;</string>
+    <string name="skill_title_lower_exploss">卷土重来</string>
+    <string name="skill_title_evasion">脚底抹油</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>游戏设置</b>可通过按下设备上的菜单按钮找到。</div>
+
+<p>________________</p>
+<h1>界面图标</h1>
+
+<div><b>宝箱</b><img alt="chest" src="chest.png" /></div>
+<p>快捷栏 [长按快捷栏槽可分配快捷栏物品]</p>
+
+<div><b>英雄</b><img alt="hero" src="char_hero.png" /></div>
+<p>菜单 [总览，任务，技能，&amp; 背包 *]</p>
+<p>* (在背包界面，点击物品可以看到其对应信息&amp; 长按会显示更多操作选项)</p>
+
+<div><b>敌人</b><img alt="monster" src="monster.png" /></div>
+<p>对应信息 [在战斗中显示]</p>
+
+
+
+<p>________________</p>
+<h1>战斗</h1>
+
+<p>战斗时进行操作会消耗AP(行动点)...</p>
+
+<div><b>攻击</b> - [3AP] *</div>
+<img alt="attacking" src="doubleattackexample.png" />
+<p>* (装备的选择&amp;或者物品的使用可能会改变AP上限&amp;以及操作所需的AP)</p>
+
+<div><b>使用物品</b> - [5AP]</div>
+<div><b>逃跑</b> - [6AP]</div>
+
+
+
+<p>________________</p>
+<h1>战斗中的进阶操作</h1>
+
+<div>在战斗中，长按英雄附近的地块...</div>
+
+<div><b>逃跑</b></div>
+<p>(选中的地块会高亮，同时攻击按钮的字样会变成移动)</p>
+<img alt="flee" src="flee_example.png" />
+<p>[这样逃跑模式就激活了- 而此时可以通过长按敌人来切换回战斗模式]</p>
+
+<div><b>更改目标</b></div>
+<p>(红色高亮表示你目前正选中的是此敌人，同时其是可以通过长按更改的)</p>
+<p>[目标已更改]</p>
+
+]]></string>
     <string name="heroinfo_gamestats_bonemeals">使用骨粉药剂</string>
     <string name="heroinfo_gamestats_spent_gold">商店消费金币</string>
     <string name="heroinfo_gamestats_deaths">死亡次数</string>
@@ -584,7 +629,7 @@
     <string name="iteminfo_effect_decrease_damage_resistance">降低伤害减免%1$d</string>
     <string name="startscreen_non_release_version">这是Andor\'s Trail的预发布版本。这个版本的游戏存档与正式版不兼容。</string>
     <string name="startscreen_incompatible_savegames">这是Andor\'s Trail的开发版本。这个版本的游戏存档与正式版不兼容。</string>
-    <string name="skill_title_fortitude">增加坚韧</string>
+    <string name="skill_title_fortitude">毅力俱增</string>
     <string name="dialog_permission_information">Andor\'s Trail写入游戏存档到你设备上的内部存储。这可以让你很容易地备份你保存的游戏或转移到一个新的设备。请访问我们的论坛获取更多信息。
 \n
 \nAndor\'s Trail不使用访问您的设备用于任何其他目的，也不访问互联网。Andor’s Trail是开源的；源代码可以在github上找到。</string>
@@ -628,7 +673,7 @@
     <string name="loadsave_import_worldmap_successfull">世界地图导入成功</string>
     <string name="loadsave_import_worldmap_unsuccessfull">世界地图导入成功</string>
     <string name="loadsave_import_worldmap_wrong_directory">- 已废弃 -</string>
-    <string name="monsterinfo_killcount">历史杀戮</string>
+    <string name="monsterinfo_killcount">先前击杀</string>
     <string name="loadsave_import_file_exists_question">在目标槽中已经有一个保存游戏。你想保留现有的保存，用导入的保存覆盖它，还是把保存导入到一个插槽中？
 \n
 \n%1$s

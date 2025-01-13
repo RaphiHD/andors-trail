@@ -339,19 +339,84 @@
     },
     {
         "id":"arensia",
+        "message":"Hello, dear.",
         "replies":[
             {
-                "nextPhraseID":"arensia_done",
+                "text":"I have a letter for you.",
+                "nextPhraseID":"arensia_letter",
                 "requires":[
                     {
-                        "requireType":"questProgress",
-                        "requireID":"postman",
-                        "value":20
+                        "requireType":"inventoryKeep",
+                        "requireID":"gorwath_letter",
+                        "value":1
                     }
                 ]
             },
             {
-                "nextPhraseID":"arensia_1"
+                "text":"Hello. I am wondering if you could help me?",
+                "nextPhraseID":"arensia_witch_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"wicked_witch",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"You seem tired. Is everything alright?",
+                "nextPhraseID":"arensia_lytwing_select",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_lytwings",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About the lytwings ...",
+                "nextPhraseID":"arensia_lytwing_select",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_lytwings",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_lytwings",
+                        "value":102,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_lytwings",
+                        "value":103,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Have the lytwings honored their word?",
+                "nextPhraseID":"arensia_lytwing_34",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"fallhaven_lytwings",
+                        "value":100
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ring_of_promise",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Hello.",
+                "nextPhraseID":"arensia_done"
             }
         ]
     },

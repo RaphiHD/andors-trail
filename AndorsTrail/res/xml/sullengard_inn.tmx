@@ -181,42 +181,22 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_kitchen_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7705" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7833" name="map_chair_table_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_chair_table_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7961" name="map_chair_table_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_chair_table_2.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="14" height="8">
   <data encoding="base64" compression="zlib">
    eJzbIM3AsIFMHEwihulLIhHD9MlwkYZh+nS4SMMgPUFk2BcC1JNIhn3JQD3vOLFjkDwuORAGAJk4M64=
   </data>
  </layer>
  <layer name="Objects" width="14" height="8">
-  <data encoding="base64" compression="zlib">
-   eJxjYBg4wIRH7pQsA8NJWQgNA0JoNDJYxgahbwHV35SF0DCghEYfZ0fVqyWPnW0EpU1x6LMCqvWVR7BhwAlKu0Lp62j62JDUcsgzUAQAtTkMEw==
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBg4wIRH7hE/A8NDfggNA0JoNDJYxgahPwHVf+SH0DCghEYfZ0fVe4gFO9sISpvi0HcJqPYpC4INA05Q2hVKX0fTNw9J7QIWBooAAKPsD7o=</data>
  </layer>
  <layer name="Above" width="14" height="8">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAfaMtBaAVZCP2Wj4HhHR+aIjmEPLo+bGAaGyp/I5JefPrwAWz6rIkwC5s+ZLHlSOzjSGwrLPqwiVEDAABbcwhj
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYCAfHBaD0AqyEPotHwPDOz5UNRICCHl0fdjANDZU/kl+4vQR405kcJkIs7DpQxazZ0Gw45HYl7DowyZGDQAALU8Mgw==</data>
  </layer>
  <layer name="Top" width="14" height="8">
-  <data encoding="base64" compression="zlib">
-   eJxjYBicYKvsQLtgaAAA9HMA0w==
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBic4Cz/QLtgaAAAACAA3Q==</data>
  </layer>
  <layer name="Walkable" width="14" height="8" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJyTlGNgkBwiGB+AyROjjxizkPWi09jMoZZ92NyOTx4A/8EP5w==
-  </data>
+  <data encoding="base64" compression="zlib">eJzbKMbAsHGIYHwAJk+MPmLMQtaLTmMzh1r2YXM7PnkA98c5hw==</data>
  </layer>
  <objectgroup name="Mapevents">
   <object name="door" type="mapchange" x="192" y="224" width="32" height="32">

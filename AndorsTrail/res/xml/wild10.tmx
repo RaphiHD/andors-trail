@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="13">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="23">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,27 +183,27 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="20" height="20">
+ <layer id="1" name="Ground" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eJzbyMnAcE+SgWEjJ3H4nSREPYxGlyfFLGxmk6t3oDC13QwLW2q6j5I4GYruG+g0QUuM7D9K/Yoel+8ojFvksmGwpo9RTF0MAG2lKjw=
   </data>
  </layer>
- <layer name="Objects" width="20" height="20">
+ <layer id="2" name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eJyNVFsKwjAQzBVSUeiH3sOb6A30guoJCtIq+KOIhf5aH+AR7NIsnaybxIHSsNmdnX20xvR458a8cv/d2P5uOzHmYHu7BPrXdrDFQHwMzElgDrxjVHAuwA/5EDJe4mJ/bR+r8xXCV4sN5Qjp+xeyDuZL1YfzivmhvjvUdRQxdaTmRszjNA77Ej42ru/ccWzcs4Nz6kEumhntTPFH/2WtIV28H21nf8BdahYyB+7PPqFP7hp/m9r3qOWTuytRR7hSveO5a/Gv3O/L3fWuVPTIfkpO4tDisHc3hQNRWl8PnXF3ro6L+q3pYVsVyEH1NYleLzJjlpk/E4rRtLeuZno/AzlXHdc682038EdNNOeH+0+zj3zPRwPPXrmfdrlm2aDrC6sojTA=
   </data>
  </layer>
- <layer name="Above" width="20" height="20">
+ <layer id="3" name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
    eJy1VFsOgCAM8xq7/ylMjPfA4F2UD5I6O2QT+kXY2u4RyLIMQ1ZaW0D7BE6E79GfpVnmwHyse4xbmj3YJ/SG+FtfD3p37u013fkHcL52EfFgQB/9Prx+Wd7n6B7YLj2aep4aIzQ0WvNLJFb1Z/wjrPZag7evVj7el3PNZZxVnnNo1WcBOcxDe196pj+3
   </data>
  </layer>
- <layer name="Walkable" width="20" height="20" visible="0">
+ <layer id="4" name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJytlNENACEIQ53C/Vdww/syIZej9ME18UPFtqBy9lpHjAsVo85VcDTjnIB66eBv/i/PWR5Vft07ieczvirW5Z/4U5zUVxan1tVbJVwEpGbO/uTvRg3SD9y3TL2R/5D5cP109DNNVadJT31r0t7txD6k8mXW
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="480" width="32" height="64">
    <properties>
     <property name="map" value="wild9"/>
@@ -241,30 +241,64 @@
     <property name="place" value="west2"/>
    </properties>
   </object>
-  <object id="12" name="south" type="mapchange" x="288" y="608" width="64" height="32">
+  <object id="8" name="south" type="mapchange" x="288" y="608" width="64" height="32">
    <properties>
     <property name="map" value="mywild20"/>
     <property name="place" value="north"/>
    </properties>
   </object>
- </objectgroup>
- <objectgroup name="Spawn" visible="0">
-  <object id="8" name="fallhaven_bandit" type="spawn" x="576" y="544" width="32" height="32"/>
-  <object id="9" name="forestserpent1" type="spawn" x="64" y="224" width="288" height="384">
+  <object id="9" name="chk_lytwing_wildflowers" type="script" x="256" y="0" width="64" height="32">
    <properties>
-    <property name="quantity" value="1"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
-  <object id="10" name="forestwasp" type="spawn" x="96" y="96" width="384" height="192">
+  <object id="22" name="chk_lytwing_wildflowers" type="script" x="608" y="256" width="32" height="64">
    <properties>
-    <property name="quantity" value="2"/>
-   </properties>
-  </object>
-  <object id="11" name="forestboar2" type="spawn" x="384" y="224" width="192" height="192">
-   <properties>
-    <property name="quantity" value="2"/>
+    <property name="when" value="enter"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup id="6" name="Spawn">
+  <object id="10" name="fallhaven_bandit" type="spawn" x="576" y="544" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="fallhaven_bandit"/>
+   </properties>
+  </object>
+  <object id="11" name="forestserpent1" type="spawn" x="64" y="224" width="288" height="384">
+   <properties>
+    <property name="spawngroup" value="forestserpent1"/>
+   </properties>
+  </object>
+  <object id="12" name="forestwasp" type="spawn" x="96" y="96" width="384" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestwasp"/>
+   </properties>
+  </object>
+  <object id="13" name="forestboar2" type="spawn" x="384" y="224" width="192" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestboar2"/>
+   </properties>
+  </object>
+  <object id="14" name="wild_flowers" type="spawn" x="64" y="32" width="160" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="wild_flower"/>
+   </properties>
+  </object>
+  <object id="17" name="wild_flowers" type="spawn" x="576" y="288" width="32" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="wild_flower"/>
+   </properties>
+  </object>
+  <object id="15" name="wild_flowers" type="spawn" x="416" y="64" width="192" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="wild_flower"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Keys" visible="0"/>
 </map>

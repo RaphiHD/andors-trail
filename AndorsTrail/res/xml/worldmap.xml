@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
+  <segment id="gamjee_well" x="-631" y="-726">
+    <map id="gamjee_well_jail_cells" x="-599" y="-726"/>
+    <map id="gamjee_well_1_1" x="-630" y="-713"/>
+    <map id="gamjee_well_1" x="-631" y="-697"/>
+    <map id="gamjee_well_2_1" x="-605" y="-712"/>
+    <map id="gamjee_well_3_1" x="-615" y="-697"/>
+    <map id="gamjee_well_4_1" x="-575" y="-712"/>
+    <map id="gamjee_well_1_2" x="-558" y="-707"/>
+    <map id="gamjee_well_1_3" x="-545" y="-707"/>
+    <map id="gamjee_well_1_4" x="-536" y="-707"/>
+    <map id="gamjee_well_exit" x="-530" y="-707"/>
+    <map id="gamjee_well_exit_a" x="-521" y="-678"/>
+  </segment>
   <segment id="laeroth_caves" x="260" y="144">
     <map id="laerothcave1" x="281" y="219"/>
     <map id="laerothcave2" x="281" y="198"/>
@@ -388,7 +401,7 @@
     <map id="waytobrimhavencave3" x="442" y="270"/>
     <map id="waytobrimhavencave4" x="318" y="270"/>
   </segment>
-  <segment id="world1" x="1" y="-52">
+  <segment id="world1" x="-12" y="-52">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
     <map id="blackwater_mountain2" x="32" y="437"/>
@@ -482,7 +495,7 @@
     <map id="road2" x="382" y="455"/>
     <map id="road3" x="403" y="459"/>
     <map id="road4" x="429" y="454"/>
-    <map id="road4_gargoylecave" x="425" y="438"/>
+    <map id="road4_gargoylecave" x="429" y="438"/>
     <map id="road5" x="455" y="462"/>
     <map id="roadbeforecrossroads" x="210" y="309"/>
     <map id="roadbeforecrossroads1" x="232" y="322"/>
@@ -613,7 +626,13 @@
     <map id="guynmart_wood_11" x="117" y="222"/>
     <map id="guynmart_wood_12" x="86" y="237"/>
     <map id="guynmart_wood_13" x="70" y="222"/>
-    <map id="guynmart_wood_14" x="54" y="222"/>
+    <map id="guynmart_wood_14" x="55" y="222"/>
+    <map id="guynmart_wood_15" x="32" y="206"/>
+    <map id="guynmart_wood_16" x="39" y="191"/>
+    <map id="guynmart_wood_17" x="23" y="190"/>
+    <map id="guynmart_wood_17b" x="8" y="175"/>
+    <map id="guynmart_wood_18" x="8" y="144"/>
+    <map id="guynmart_wood_19" x="8" y="128"/>
     <map id="waytolake12" x="678" y="174"/>
     <map id="arulirmountain1" x="817" y="94"/>
     <map id="arulirmountain2" x="848" y="96"/>
@@ -755,12 +774,12 @@
     <map id="ratdom_bwm1" x="137" y="355"/>
     <map id="bwmfill1" x="148" y="321"/>
     <map id="bwmfill2" x="107" y="337"/>
+    <map id="bwmfill3" x="107" y="355"/>
     <map id="bwmfill4" x="107" y="386"/>
     <map id="bwmfill5" x="114" y="386"/>
     <map id="bwmfill6" x="137" y="386"/>
     <map id="bwmfill7" x="145" y="407"/>
     <map id="bwmfill8" x="145" y="428"/>
-    <map id="bwmfill3" x="107" y="355"/>
     <map id="laerothcave0" x="787" y="125"/>
     <map id="laerothisland0" x="743" y="52"/>
     <map id="laerothisland1" x="743" y="73"/>
@@ -775,6 +794,20 @@
     <map id="waterway_forest1" x="581" y="259"/>
     <map id="waterway_forest2" x="581" y="278"/>
     <map id="waterway_forest3" x="612" y="255"/>
+    <map id="swamp1" x="127" y="253"/>
+    <map id="swamp2" x="96" y="253"/>
+    <map id="swamp3" x="70" y="253"/>
+    <map id="swamp4" x="70" y="269"/>
+    <map id="swamp5" x="44" y="279"/>
+    <map id="swamp6" x="44" y="253"/>
+    <map id="wayto_feygard_duleian_1" x="8" y="112"/>
+    <map id="wayto_feygard_duleian_2" x="-12" y="96"/>
+    <map area="wexlow_village" id="wexlow_village" x="39" y="128"/>
+    <map id="beekeeper1" x="382" y="429"/>
+    <map id="beekeeper2" x="382" y="420"/>
+    <map id="way_to_wexlow1" x="19" y="96"/>
+    <map id="way_to_wexlow2" x="39" y="96"/>
+    <map id="way_to_wexlow3" x="55" y="109"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
@@ -791,5 +824,6 @@
     <namedarea id="sullengard" name="Sullengard" type="settlement"/>
     <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
     <namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
+    <namedarea id="wexlow_village" name="Wexlow Village" type="settlement"/>
   </segment>
 </worldmap>

@@ -181,18 +181,13 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="23" height="18">
   <data encoding="base64" compression="zlib">
    eJzNkzEOgCAMRQ2b91+9AtXBHT0CegW9hx0gqbWgJWgcXggmvJr2F0zTADIxoBIzsjBsBW+PrMjGqOUe2yt/d4M5++Zw93g6YcY5cv8+hN7HWl6YcQ4n1KBu3hs+4xye1KAZTLm1xBqWZPCpuzNXUlmgOblzp7IjZe1Lty10g9AnXjO+TfW4ZHf420n4JnG3Q5rd0KLZDS17+x4HB9k2sg==
   </data>
  </layer>
  <layer name="Objects" width="23" height="18">
-  <data encoding="base64" compression="zlib">
-   eJxjYBj6QJyJgUGIibpmrqGyecjAQIh2Zq+WReV/EKSdXcSYzUlCOMLCBRT2WzhR5cSRzIHFtSQTqjwXiXF2A+r+nVSMj5WCCLefFILgU0A8mwi3LWJF5SOnQVxp5hIJbq9GMh/ZPGqkx2pW7OLo6REGZvOTZ88fUdR0txuH+aNgcAMA2A4Uwg==
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBj6QJyJgUGIibpmrqGyecjAQIh2Zh8WQ+V/EKSdXcSYzUlCOMLCBRT2WzhR5cSRzIHFtSQTqjwXiXF2A+r+nVSMj5WCCLefFILgU0A8mwi3LWJF5SOnQVxp5hIJbq9GMh/ZPGqkx2pW7OLo6REGZvOTZ88fUdR0dxmH+aNgcAMAaCoU9Q==</data>
  </layer>
  <layer name="Objects_RemoveStatue" width="23" height="18" visible="0">
   <data encoding="base64" compression="zlib">
@@ -200,14 +195,10 @@
   </data>
  </layer>
  <layer name="Above" width="23" height="18">
-  <data encoding="base64" compression="zlib">
-   eJxjYBi6YLcs7cxeTQezZzMxMMxloq7Z6OZRO4xg5oHoXUC8moruh4ULcthTy3xsZoPATiGgP6CYoBlY3AILB2xmEwPQ4wvZDpRwIDMeccU/NczGpQ9ZnNrpG91OZPNnU9muUUA7AACazBsb
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYBi64LIY7cw+TAezZzMxMMxloq7Z6OZRO4xg5oHoS0C8moruh4ULcthTy3xsZoPATiEGhl1QTAhgcwssHLCZTQxAjy9kO5DNIzc94op/apiNSx+yOLXTN7qdyObPprJdo4B2AAC+zRyR</data>
  </layer>
  <layer name="Walkable" width="23" height="18">
-  <data encoding="base64" compression="zlib">
-   eJybKcvAMHMUY8XogNrmIvOp7e7hYDa1wxxbnJICSDWb3PRAiruJNRtdPTKfHD8TazYlbic2rCgxbxQPDAYAh17ybw==
-  </data>
+  <data encoding="base64" compression="zlib">eJzbKMbAsHEUY8XogNrmIvOp7e7hYDa1wxxbnJICSDWb3PRAiruJNRtdPTKfHD8TazYlbic2rCgxbxQPDAYAsp8JIw==</data>
  </layer>
  <objectgroup name="Replace" visible="0">
   <object name="replace_remove_statue" type="replace" x="160" y="288" width="32" height="32">

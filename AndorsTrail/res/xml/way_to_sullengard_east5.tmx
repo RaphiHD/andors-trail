@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="40" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="13">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="40" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="16">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,9 +183,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
- </tileset>
  <layer id="1" name="Ground" width="40" height="16">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JRPIpH8SgexaN4FI8YDAAd99EQ
@@ -193,12 +190,12 @@
  </layer>
  <layer id="2" name="Objects" width="40" height="16">
   <data encoding="base64" compression="zlib">
-   eJzFVb1uwjAYzMiaDJHM0r5A175Bu7dvEOgzloEJsnVCqpQgkDpQCQgF+grNF/vI+cOBSh16khXb8c99d5/tnYmiQRKd8Ex1QRGH+6+hqtfdGVtfxP4/aU/qf1Nj62VsvzyuVO0ntT+3VwFu2/i8j9cGjwXVc+O3P007Jnex5BSTxABdwAFt1pS5romXzIFO6wBf0b4iXtgjJ14TxRFf6HvikrS6gM++/n8w53UA3NjLEHh/8GHt3o0/Dp7L2Nf0d2Wc2jU+HE/mdFfHswxwvKn7bxNfI+YlZWrO80DKoN/2QZtQngGj1I47GstR6/flPOYx0LtQ/sE70a1UfvJ5kT7O80HSjtu7PcB9lLaxHN2+0j+Lfa6hXNB5JusXpFfWt3rhO6cYJNf03VHFPg/W72DCuch6sRclxS9clirnwJv1Y97AMPH31e1GP4pjQ/tq3zGPz/SM6hpaP0FBOdmFiuKCv13Qvl/CXO3L+cl5MDHtXQKPdVu+4hX7CzT3n9Kx+U86X7t79F2OwlqCF86KfksEwm9zRW8N5iY8cM4vAX6Jlpx/wIvjlqk7mv0NnY+o427SMYX0bDzg+a6u8y9THqMu899+eY//pYxJg1Xiv7+Zin+o3uUufZATrOnMvbV46zlHoV+hNBP/9Rn8rvseelF0/0/lsWd5IAeY39ad5x8Egy7N
+   eJzFVbtOwzAUzQLqmgyV3AV+gJU/gB3+IC3fSIdObTamSkhJRSWGIrVNacsEM76JT3N86z4kBo5kxc/43HOu7ZWJom4S7fBIdUEeh/tPobT/XZm6/hb7Y9Ie2rGRqetFXH95XqHaD2p/bs8C3Jbxfh//GzzeqJ4Zv/1hmjmZiyWjmCQG6AIOaLOmzHVOvGQNdJoH+Ir2JfHCHhnxGiqO+ELfHZek0QV81nZ8Y/brALixlyHw/uDD2r0afx48l7nP7fPKoF3/493xZE43Np5pgOOV7b9OfI2Yl5SR2c8DKd1O0wdtQnkG9Nv1vK2pOWr9Pp3HPAd658o/eCe6FcpPPi/Sx3neTZp5a7cHuPfbTSxbt6/0j2OfaygXdJ7J/3PSK+3UeuE7oRgk1/TdUcY+D9ZvY8K5yHqxFwXFL1ymKufAm/Vj3kAv8ffV7Uo/imNB+2rfsY7P9JjqGlo/QU45GUIZN/GNyN9D0L4fw0Tty/nJeTA0zV0Cj7n9bcd/nFfsL1Ddf0rHapx0PnX36LschbUEL5wVcLyw45dujvBbHNE7BOYmPHDOjwF+iZacf8CT45aqO5r9DZ2P6MDdpGMK6Vl5wOtdXedfqjxGXda/nHmP/6UMSINZ4r+/qYq/h7Z6nzWQE6zp2L21eOs5R6FfrjQT//UZ/LJ9d60ouv2nct+qeSAHmN/SnedfAcQwxQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="40" height="16">
   <data encoding="base64" compression="zlib">
-   eJzVlmEOwjAIhXcHf7Fb6UnVnsDeYmbuCJ7BEUdkFFpYjIsvMVPA9vNR5rrud0rQzvGaS6Xeq2Fe495YR3Lh5/Phw3AVbHjlcUvjnH9A+V6yeRhr+2bju1v8I07JVGOUTMRDcZ6j2Kkv9/SwaYwDrGswJ9dEpiS4bssrwzrG+a3fau1DeirxWo9pXa2/x/7tF115vaVRyXHWCfRcrRd58SfCbe1PivZ9ajBa3NI/rzxzzqX13Ss539H59fgi++6993Au9HOLl1FF7kFyjhOU50+T5ln0fEl5/PwHfeP/l6R5qj0PeM/j3qo9y0Rq9hTOxwvvaYKG
+   eJzVllEOgjAMhrmDT+NWelJ1Tz66W2CAI3gGaaSxlLZriZH4JwZt6/b5d0Wa5nfKqZ6jNRej3qtuWuNRWYdzwefz4cNwZWxwpXFN/ZQf0vo9Z/MwWvsW5btb/ENOzmQxcibkwTjNYezUrvf0sEmMXVrWQI6vCUyZcd3nV0nLGOXXfqu2D+opxK0e47pSf4/t2y+80npNvZCjrGOSc1YvyuxPhFvbHxXt+1hh1Li5f1555pxK6rtXfL5r83tTemiJ991776Fc4OcWL6OK3IP4HOe0Pn+SJM+i54vL4+c/6Bv/vyjJU+l5wHse95b1LBOp2VMwHy9vVINY
   </data>
  </layer>
  <layer id="4" name="Top" width="40" height="16">
@@ -206,9 +203,9 @@
    eJxjYBgFo4B2YKMkpligFP3dgQ9sRnNj4iBz3yigDAy29DYKRsEoGAWDAQAAPVgC6A==
   </data>
  </layer>
- <layer id="5" name="Walkable" width="40" height="16">
+ <layer id="5" name="Walkable" width="40" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzFlFEOwCAIQ3cK738Fb7iPxcQYWlrcHInZokAfDNfb9Yn19qzq+fA5abPeyjfeo71dTbcPiHN+In6kHXHMeZRakT+KrfSPaSj8UQzaY71R2FguxBtxZf4KA6tvrdGdhUrP3tBg5vQbMTlzzHqusDr3hjG7Go6xu+TEq/mVGOS3U6dqFc3KHGdzOvYqzFF89fueNveOZefO/9XJ+efK+G5w4KZb
+   eJzFlV0OgCAMgz0F978CN/TBkBCydu0UXEI0uK3fJj+9XVust2dUvw+fkzbrrXzjPZp7q+n2AXHOT8SPtCOOOY9SK/JHsZX+MQ2FP4pBc6w3ChvLhXgjrsxfYWD1rTW6a6HSsy80mDn9RkzOOmY9V1idfcOYXQ3H2F5S2NQ14cRUtZzcOzSrdbG5CnMUr/7fv805BxQ/53xVcmf3wYmR8d3KTql3
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -232,21 +229,19 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="Spawn" visible="0">
-  <object id="4" name="poisonous_jitterfly_spawn1" type="spawn" x="64" y="64" width="256" height="96">
+  <object id="4" name="poisonous_jitterfly_spawn1" type="spawn" x="64" y="64" width="192" height="96">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="poisonous_jitterfly"/>
    </properties>
   </object>
-  <object id="5" name="poisonous_jitterfly_spawn2" type="spawn" x="96" y="160" width="256" height="128">
+  <object id="5" name="poisonous_jitterfly_spawn2" type="spawn" x="96" y="160" width="96" height="160">
    <properties>
-    <property name="quantity" value="3"/>
     <property name="spawngroup" value="poisonous_jitterfly"/>
    </properties>
   </object>
-  <object id="6" name="poisonous_jitterfly_spawn3" type="spawn" x="64" y="320" width="448" height="160">
+  <object id="6" name="poisonous_jitterfly_spawn3" type="spawn" x="64" y="320" width="160" height="160">
    <properties>
-    <property name="quantity" value="4"/>
     <property name="spawngroup" value="poisonous_jitterfly"/>
    </properties>
   </object>
@@ -262,7 +257,7 @@
   </object>
   <object id="9" name="flying_tree_ant_spawn1" type="spawn" x="416" y="256" width="128" height="192">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
@@ -282,6 +277,21 @@
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="yellow_tooth"/>
+   </properties>
+  </object>
+  <object id="13" name="poisonous_jitterfly_spanw4" type="spawn" x="224" y="288" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object id="14" name="poisonous_jitterfly_spawn5" type="spawn" x="256" y="416" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="poisonous_jitterfly"/>
+   </properties>
+  </object>
+  <object id="15" name="flying_tree_ant_spawn4" type="spawn" x="320" y="192" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="flying_tree_ant"/>
    </properties>
   </object>
  </objectgroup>

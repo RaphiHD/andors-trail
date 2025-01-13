@@ -27,15 +27,27 @@ Latest version of APK available from:
 
 ## Authors
 
+**Created &amp; originally programmed by Oskar Wiksten**
+
 ### Development team
 
 * **Oskar Wiksten** - *Creator* [Github Profile](https://github.com/oskarwiksten/)
 * **Kevin (Zukero)** - *Lead Developer* [Github Profile](https://github.com/Zukero/)
-* **Scott Devaney** - *Community Advocate* [Game Forums](https://andorstrail.com)
-* **Richard Jackson** - *Lead Content Wrangler* 
+* **Scott Devaney** **\*** - *Community Advocate* [Game Forums](https://andorstrail.com)
+* **Richard Jackson** **\*** - *Lead Content Wrangler* 
 * **Ian Haase** - *Lead Cartographer* 
-* **Christian Berlage**
+* **Christian Berlage** **\***
 * **Christian Zink**
+* **Mike Gulisano**
+* **Daniel-Ømicrón Rodríguez García (Omicronrg9)** **\***
+* **Nathan Watson**
+* **Draze**
+* **Antison** **\***
+* **OMGeeky** **\***
+
+   (**\*** Currently active on team)
+
+
 
 ### Contributors List
 Additional contributors to the project are listed [here](/contributors.md).
@@ -49,7 +61,7 @@ Andor's Trail gameplay content is copyright by their respective authors and has 
 The graphics licenses and contributions can be found [here](/gfxcontrib.md).
 
 ## Wiki
-Here is our slightly out of date [Wiki](https://docs.andorstrail.com/).
+Here is our slightly out of date [Wiki](https://andorstrail.gitbook.io/docs).
 ## Acknowledgments
 Additional shout-outs.
 

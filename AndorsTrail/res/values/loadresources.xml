@@ -48,6 +48,8 @@
         <item>@raw/actorconditions_bwmfill</item>
         <!--Added by ATCS v0.6.20 for project laeroth-->
         <item>@raw/actorconditions_laeroth</item>
+        <!--Added by ATCS v0.6.20 for project feygard_1-->
+        <item>@raw/actorconditions_feygard_1</item>
     </array>
         
     <array name="loadresource_items">
@@ -115,6 +117,9 @@
         <item>@raw/itemlist_bwmfill</item>
         <!--Added by ATCS v0.6.20 for project laeroth-->
         <item>@raw/itemlist_laeroth</item>
+        <!--Added by ATCS v0.6.20 for project feygard_1-->
+        <item>@raw/itemlist_feygard_1</item>
+        <item>@raw/itemlist_lytwings</item>
     </array>
         
     <array name="loadresource_droplists">
@@ -175,6 +180,8 @@
         <item>@raw/droplists_bwmfill</item>
         <!--Added by ATCS v0.6.20 for project laeroth-->
         <item>@raw/droplists_laeroth</item>
+        <!--Added by ATCS v0.6.20 for project feygard_1-->
+        <item>@raw/droplists_feygard_1</item>
     </array>
         
     <array name="loadresource_quests">
@@ -231,6 +238,9 @@
         <item>@raw/questlist_bwmfill</item>
         <!--Added by ATCS v0.6.20 for project laeroth-->
         <item>@raw/questlist_laeroth</item>
+        <!--Added by ATCS v0.6.20 for project feygard_1-->
+        <item>@raw/questlist_feygard_1</item>
+        <item>@raw/questlist_lytwings</item>
     </array>
         
     <array name="loadresource_conversationlists">
@@ -441,6 +451,9 @@
         <item>@raw/conversationlist_bwmfill</item>
         <!--Added by ATCS v0.6.20 for project laeroth-->
         <item>@raw/conversationlist_laeroth</item>
+        <!--Added by ATCS v0.6.20 for project feygard_1-->
+        <item>@raw/conversationlist_feygard_1</item>
+        <item>@raw/conversationlist_lytwings</item>
     </array>
         
     <array name="loadresource_monsters">
@@ -508,6 +521,9 @@
         <item>@raw/monsterlist_bwmfill</item>
         <!--Added by ATCS v0.6.20 for project laeroth-->
         <item>@raw/monsterlist_laeroth</item>
+        <!--Added by ATCS v0.6.20 for project feygard_1-->
+        <item>@raw/monsterlist_feygard_1</item>
+        <item>@raw/monsterlist_lytwings</item>
     </array>
         
     <array name="loadresource_maps">
@@ -1505,6 +1521,45 @@
         <item>@xml/waterway_forest2</item>
         <item>@xml/waterway_forest2_house</item>
         <item>@xml/waterway_forest3</item>
+        <!--Added by ATCS v0.6.20 for project feygard_1-->
+        <item>@xml/beekeeper1</item>
+        <item>@xml/beekeeper2</item>
+        <item>@xml/gamjee_well_1</item>
+        <item>@xml/gamjee_well_1_1</item>
+        <item>@xml/gamjee_well_1_2</item>
+        <item>@xml/gamjee_well_1_3</item>
+        <item>@xml/gamjee_well_1_4</item>
+        <item>@xml/gamjee_well_2_1</item>
+        <item>@xml/gamjee_well_3_1</item>
+        <item>@xml/gamjee_well_4_1</item>
+        <item>@xml/gamjee_well_exit</item>
+        <item>@xml/gamjee_well_exit_a</item>
+        <item>@xml/gamjee_well_jail_cells</item>
+        <item>@xml/guynmart_wood_15</item>
+        <item>@xml/guynmart_wood_16</item>
+        <item>@xml/guynmart_wood_17</item>
+        <item>@xml/guynmart_wood_17b</item>
+        <item>@xml/guynmart_wood_18</item>
+        <item>@xml/guynmart_wood_18b</item>
+        <item>@xml/guynmart_wood_18c</item>
+        <item>@xml/guynmart_wood_19</item>
+        <item>@xml/swamp1</item>
+        <item>@xml/swamp2</item>
+        <item>@xml/swamp3</item>
+        <item>@xml/swamp4</item>
+        <item>@xml/swamp5</item>
+        <item>@xml/swamp6</item>
+        <item>@xml/swamp_hut</item>
+        <item>@xml/way_to_wexlow1</item>
+        <item>@xml/way_to_wexlow2</item>
+        <item>@xml/way_to_wexlow3</item>
+        <item>@xml/wayto_feygard_duleian_1</item>
+        <item>@xml/wayto_feygard_duleian_2</item>
+        <item>@xml/wexlow_village</item>
+        <item>@xml/wexlow_village_n_house</item>
+        <item>@xml/wexlow_village_nw_house</item>
+        <item>@xml/wexlow_village_se_house</item>
+        <item>@xml/wexlow_village_sw_house</item>
     </array>
         
 </resources>

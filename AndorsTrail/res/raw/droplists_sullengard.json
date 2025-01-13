@@ -750,27 +750,6 @@
         ]
     },
     {
-        "id":"gapfillerhole_drop",
-        "items":[
-            {
-                "itemID":"gold",
-                "chance":"100",
-                "quantity":{
-                    "min":10,
-                    "max":100
-                }
-            },
-            {
-                "itemID":"gem1",
-                "chance":"100",
-                "quantity":{
-                    "min":1,
-                    "max":2
-                }
-            }
-        ]
-    },
-    {
         "id":"lava_queen_dl",
         "items":[
             {

@@ -3070,7 +3070,7 @@
                 ]
             },
             {
-                "text":"Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you",
+                "text":"Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you.",
                 "nextPhraseID":"brv_wh_delivery_odirath",
                 "requires":[
                     {
@@ -11819,7 +11819,8 @@
         "message":"No, unfortunately not. Maybe try my colleague in Fallhaven?",
         "replies":[
             {
-                "text":"Sigh - well, thanks."
+                "text":"Sigh - well, thanks.",
+                "nextPhraseID":"X"
             }
         ]
     }

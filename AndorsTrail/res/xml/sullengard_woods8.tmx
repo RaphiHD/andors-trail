@@ -180,9 +180,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
  <layer id="1" name="Ground" width="20" height="30">
   <data encoding="base64" compression="zlib">
    eJzbyMnAsHEUj+JRPIpH8SgexaN4FFMNAwBJGbQA
@@ -194,19 +191,13 @@
   </data>
  </layer>
  <layer id="3" name="Objects" width="20" height="30">
-  <data encoding="base64" compression="zlib">
-   eJyNlk1uwkAMhaPeICwisuFOHKEH7QkaoUjZsWQHCgrqCRqLeeXLq5PW0mgy4/9ne2Bsq+o+r7Hs13nd5jXN64F7ncX/AM9133fVD/Xtc78VmTgfwXcd8j7rpYxiCDrBX9BoZ+oxvtgvuxevT3Jeyz1I313R453kFU+GzaP4z+Kdiuy5fuYXu/SJ/X9rNRasww75xK6Hf9K1XeYqIt6e69HqTpmgznxNCVaeo+t1KzHTX+TrmLhv+gpec3jx9D1afMREtD8sfV2AgWx5XTwf5iBiv9Cn7iNH9V/4dNvMYWtOOpwHw8zltvrsbvEJB+HruGV5ZufjLp9/+hTGxOaGmp7rl7+tGRVleWXvWCavGni+a/XkLLIHZVc4sk8U11/vWGCnOJvSp45j9G/gk81MhhGxHNrlzDM+xXIyO3zH/P2r35Z1aA7bMfk7Rnt7YKlvYcha0C5x8feiS/qEtijnuFGmR52/UFvWnjrUzbDg/WCxrOlk9n3+SO4v62V/Z7tEfmp/1zfDN6uP105xDe1Sl3PpNct+WyIG3sd/jsHyd/Le8Dv2wDcKHpfu
-  </data>
+  <data encoding="base64" compression="zlib">eJyNlk1uwkAMhaPeIOzCIRBX4Qg9aE/QCEXKjiU7oqCgnqCxmFe+vDppLY0mM/5/tgfGpqru8xrLfpvXMK9pXg/c6yz+B3iu+76rfqhrnvtQZOJ8At91yPuslzKKIegMf0GjnanH+GK/7l68Lsl5LfcgfbdFj3eSVzwZNo/iP4t3KrKX+plf7NIn9v+t1ViwDjvkE7sO/km3ZpmriHh7rierO2WCWvM1JVh5jq7XrsRMf5GvY+K+6St4h/2Lp+/R4iMmouN+6esKDGTL6+L5MAcR+4U+dR85qv/Cp9tmDltz0uLcG2Yut9Vnd4tPOAhfxy3LMzufdvn806cwJjYDanqpX/62ZlSU5ZW9Y5m8auD5rtWTs8gelF3hyD5RXH+9Y4Gd4jyUPnUco38Dn2xmMoyIZd8sZ57xKZaz2eE75u9f/basw2G/HZO/Y7R3BJb6FoasBe0SF38v2qRPaItyjhtlOtT5C7Vl7alD3QwL3vcWy5pOZt/nj+T+sl72d7ZN5Kfmd30zfLP6eO0UV98sdTmXXrPstyVi4H385+gtfyfvDb9jD3wD9L6ZQg==</data>
  </layer>
  <layer id="4" name="Above" width="20" height="30">
-  <data encoding="base64" compression="zlib">
-   eJyNlltugzAURPvVHaDIP+x/EShiG6GO4DdtI7ZQW2WUw3CNMpIV/LivuY92Sh87jGV/K2sq657+94TuzqA3c1lLWV9l/aa9bE5HXbfA1j3tdT7K+jH9+n1u77Wv0PeQXvp1lqFf3/qVvQX37u8M+avpWfBeZ6v57f7mhn8rdHk+yBVjFaZNPoqVGNPx/NvezAFXHmMF7Q8Nn92eczKYDG3Vu65/3ek7m3/kRLj0R1tE1SX5iE9ywrjk29NssmZY366bMUhGeaOOwfasE3/XqjPG7TUtfp03j7PeffbHPuEb6mCuxTHjnJDTFbrOetS5VFyPdD7H2F/KgcfLuFpzjDUovQJrJurjaI5VyM9uq1O/v8DmO3PsHTAXZ3Msmv200TV6qzXHqI9x6VscMhfRzHC+tY84YM1RLpppFWOQZ58/lKFsa87Qb+ezxZ/rj+YL/aG9qJY5Z9e054/96/kV+Dclyo/nTn6JP71jX/JcteLoMHNycB/Ba8PPBvOvwv+30D17K+o/l/sDs21t/Q==
-  </data>
+  <data encoding="base64" compression="zlib">eJyNlltqwzAURLsN+aM7MNk/iOBtxHWwf9M2eAuVqIccj69MBkSsx33NfbRj+thhKPtbWWNZ9/S/J3R3Br2Zy1rK+irrN+1lp3TUdQts3dNe56OsH9Ov3+f2XvsKfef00q+zCfr1rV/ZW3Dv/s6Qv5qeBe91tprf7u/U8G+FLs8HuWKswrjJR7ESQzqef9ubOeDKY6yg/dzw2e05J9lkaKve9d3rTt+T+UdOhEt3tEVUXZKP+CQnjEu+Pc0ma4b17boZg2SUN+rItmed+LtWnTFur2nx67x5nPXuszv2Cd9QB3MtjhnniJyu0HXWo86l4nqk8znG/lIOPF7G1ZpjrEHpFVgzUR9Hc6xCfvZbnfr9BTbfmWPvgLk4m2PR7KeNvtFbrTlGfYxL3+KQuYhmhvOtfcQBa45y0UyrGII8+/yhDGVbc4Z+O58t/lx/NF/oD+1Ftcw5u6Y9f+xfz6/AvylRfjx38kv86R37kueqFUePmTMF9xG8Nvwsm38V/r+F7tlbUf+53B9vP29l</data>
  </layer>
  <layer id="5" name="Top" width="20" height="30">
-  <data encoding="base64" compression="zlib">
-   eJytlmEKwyAMhf0lu4CU/vH+hxhj12hZ6W6wHWHKJguPJCa2HxTEakyeT9sQeB6z8MLJ8otzY+JtpG8v7Wd51vm79iasf1fyojm/Svt9sIYd5ks59eY1Fui3asxpx7GetGeVmEO4GuKhJpfMj0v5HzcKYyqoyUTGcvonJVZF02TE400Trobm4aNgnVbfNTA3rNNbN2qM/pb83qPVheeiofmEg6uL9vW8UqH+pXVp91hFynUS+rV7TMKrR4/UOVvavlKduDPP7YVXO2suCLfPHu285603Z+SewTn4rbQQBS+P5kTBb4OU06hnrf8DVs74HxjhAwTVQYQ=
-  </data>
+  <data encoding="base64" compression="zlib">eJytlmEKwyAMhb1G/SG7gPT+MMau0bLS3WA7wpRNFh5JTGw/KIjVmDyftiHwPCbhhZPlF+fGxNtI317az/Ks03ftTVj/ruRFc36V9vtgDTvMl3LqzWss0G/VmNOOYz1pzyophnA1xENNLpEfl+M/bhLGVFCTmYzl9M9KrIqmyYjHmyZcDc3DR8E6rb5rYG5Yp7du1Bj9Lfm9R6sLz0VD8wkHVxft63mlQv1L69LusYqU6yz0a/eYhFePHrlztrR9pTpxZ57bC6921lwQbp892nnPW2/OyD2Dc/BbaSEJXh7NiYLfBimnUc9a/wesnPE/MMIHrt1DZA==</data>
  </layer>
  <layer id="6" name="Walkable" width="20" height="30" visible="0">
   <data encoding="base64" compression="zlib">

@@ -216,7 +216,7 @@
 		&lt;br /&gt;
 		&lt;a href="http://andorstrail.com/"&gt;Game forums on andorstrail.com for questions and gameplay discussions.&lt;/a&gt;&lt;br /&gt;
 		&lt;br /&gt;
-		&lt;a href="http://docs.andorstrail.com/"&gt;Game wiki for info about the Andor\'s Trail world, among other things.&lt;/a&gt;&lt;br /&gt;
+		&lt;a href="https://andorstrail.gitbook.io/docs"&gt;Game wiki for info about the Andor\'s Trail world, among other things.&lt;/a&gt;&lt;br /&gt;
 		&lt;br /&gt;
 		&lt;a href="https://github.com/AndorsTrailRelease/andors-trail/"&gt;Project source code on github.com for developers.&lt;/a&gt;&lt;br /&gt;
 		&lt;br /&gt;
@@ -684,7 +684,7 @@
 	<string name="skill_longdescription_armor_prof_shield">Increase damage resistance by %1$d per skill level while having a shield or parrying weapon equipped.</string>
 	<string name="skill_longdescription_armor_prof_unarmored">While fighting without having any piece of armor equipped, gain %1$d block chance per skill level. Items made of cloth are not considered as being armor.</string>
 	<string name="skill_longdescription_armor_prof_light">For every skill level, increases the block chance of every piece of light armor being worn by %1$d %% of their original block chances. Light armors include leather, light metal and hide armors.</string>
-	<string name="skill_longdescription_armor_prof_heavy">For every skill level, increases the block chance of every piece of heavy armor being worn by %1$d %% of their original block chances. Pieces of heavy armor have their movement penalties reduced by %2$d %% per skill level, and their attack speed penalties reduced by %3$d %% per skill level. Heavy armors include metal armors, chain mail and plate mail.</string>
+	<string name="skill_longdescription_armor_prof_heavy">For every skill level, increases the block chance of every piece of heavy armor being worn by %1$d %% of their original block chances. Pieces of heavy armor have their movement penalties reduced by %2$d %% per skill level, their attack speed penalties reduced by %3$d %% per skill level, and their item use cost penalties reduced by %4$d %% per skill level. Heavy armors include metal armors, chain mail and plate mail.</string>
 	<string name="skill_longdescription_fightstyle_dualwield">"Gives benefits when fighting with two weapons at the same time, one in the main hand and one in the off-hand.
 
 Without this skill, only %1$d %% of a weapon\'s qualities may be used when equipped in the off-hand. This includes attack chance, critical skill, damage potential and block chance. Without this skill, attack cost (AP cost) of making an attack is the sum of the attack cost of the main weapon and that of the weapon used in the off-hand. The lower of both damage modifiers will be used.

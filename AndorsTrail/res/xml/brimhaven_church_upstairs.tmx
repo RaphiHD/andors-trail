@@ -184,18 +184,13 @@
  <tileset firstgid="7449" name="map_indoor_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_sign_ladder_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_sign_ladder_1.png" width="512" height="256"/>
- </tileset>
  <layer name="Ground" width="8" height="8">
   <data encoding="base64" compression="zlib">
    eJw7xsHAcIwA3iGOHcPkT4hjxzD5wzgwMfIge3DJ74Dag0seJPeUAz8GAG+WNME=
   </data>
  </layer>
  <layer name="Objects" width="8" height="8">
-  <data encoding="base64" compression="zlib">
-   eJxjYECA17IMWMFdVoT8H0kIOxWL2t9AMR4p7GaAALccgv0ESd0XNLMMpVHlsQFC8l8IyMMAANnIC1Y=
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYECAZmEGrOAuK0L+jySEnSqLqW4yUJ5HCrsZILAYyfwnSOp60Ow1lEaVxwYIyX8hIA8DANkAChs=</data>
  </layer>
  <layer name="Above" width="8" height="8">
   <data encoding="base64" compression="zlib">

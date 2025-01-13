@@ -250,7 +250,8 @@ public final class CombatController implements VisualEffectCompletedCallback {
 		if (!loot.hasItemsOrGold()) {
 			world.model.currentMaps.map.removeGroundLoot(loot);
 		} else if (world.model.uiSelections.isInCombat) {
-			killedMonsterBags.add(loot);
+			if(!killedMonsterBags.contains(loot))
+				killedMonsterBags.add(loot);
 		}
 
 		combatActionListeners.onPlayerKilledMonster(killedMonster);

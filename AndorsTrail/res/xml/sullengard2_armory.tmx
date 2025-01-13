@@ -180,9 +180,6 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_kitchen_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
- </tileset>
  <layer id="1" name="Ground" width="10" height="8">
   <data encoding="base64" compression="zlib">
    eJzbIM3AsIFIHEwAw9QlEcAwdTJc2LEOFMPU6XDhxyA1QUSYFwJUk0iEeclANe84UTFIHF0MhAFhNiZa
@@ -194,9 +191,7 @@
   </data>
  </layer>
  <layer id="3" name="Above" width="10" height="8">
-  <data encoding="base64" compression="zlib">
-   eJxjYEAFnWwMOMFhMSAhy8DAJIcmIYupTgBNDATQxcDmEQGwqdvHwsCwH4id+AmbF8iPyr9EpL3EAADvMQif
-  </data>
+  <data encoding="base64" compression="zlib">eJxjYEAFnWwMOMFhMSAhy8AgJYAmIYupTgBNDATQxcDmEQGwqdvHwsCwH4id+AmbF8iPyr9EpL3EAAD5twip</data>
  </layer>
  <layer id="4" name="Walkable" width="10" height="8" visible="0">
   <data encoding="base64" compression="zlib">

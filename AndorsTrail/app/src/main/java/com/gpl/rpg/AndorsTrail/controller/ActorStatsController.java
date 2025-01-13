@@ -76,8 +76,7 @@ public final class ActorStatsController {
 				c.magnitude -= magnitude;
 				actorConditionListeners.onActorConditionMagnitudeChanged(actor, c);
 			} else {
-				actor.conditions.remove(i);
-				actorConditionListeners.onActorConditionRemoved(actor, c);
+				actorConditionsRemove(actor, c, i);
 			}
 			break;
 		}
@@ -232,9 +231,9 @@ public final class ActorStatsController {
 	public void removeAllTemporaryConditions(final Actor actor) {
 		for(int i = actor.conditions.size() - 1; i >= 0; --i) {
 			ActorCondition c = actor.conditions.get(i);
-			if (!c.isTemporaryEffect()) continue;
-			actor.conditions.remove(i);
-			actorConditionListeners.onActorConditionRemoved(actor, c);
+			if (c.isTemporaryEffect() || c.isDurationForeverUntilSleep()) {
+				actorConditionsRemove(actor, c, i);
+			}
 		}
 	}
 
@@ -242,8 +241,7 @@ public final class ActorStatsController {
 		for(int i = actor.conditions.size() - 1; i >= 0; --i) {
 			ActorCondition c = actor.conditions.get(i);
 			if (!c.conditionType.conditionTypeID.equals(conditionTypeID)) continue;
-			actor.conditions.remove(i);
-			actorConditionListeners.onActorConditionRemoved(actor, c);
+			actorConditionsRemove(actor, c, i);
 		}
 	}
 
@@ -406,14 +404,14 @@ public final class ActorStatsController {
 			ActorCondition c = actor.conditions.get(i);
 			if (!c.isTemporaryEffect()) continue;
 			if (c.duration <= 1) {
-				actor.conditions.remove(i);
-				actorConditionListeners.onActorConditionRemoved(actor, c);
+				actorConditionsRemove(actor, c, i);
 				removedAnyConditions = true;
 			} else {
 				c.duration -= 1;
 				actorConditionListeners.onActorConditionDurationChanged(actor, c);
 			}
 		}
+		// Immunities
 		for(int i = actor.immunities.size() - 1; i >= 0; --i) {
 			ActorCondition c = actor.immunities.get(i);
 			if (!c.isTemporaryEffect()) continue;
@@ -455,6 +453,50 @@ public final class ActorStatsController {
 		if (removedAnyConditions) {
 			recalculateActorCombatTraits(actor);
 		}
+	}
+
+	int actorConditionsRemove(Actor actor, ActorCondition c, int i) {
+		int magnitude = 0;	//default: No condition from worn items
+
+		if (actor instanceof Player) {
+			Player player = (Player) actor;
+			magnitude = gotConditionFromWornItem(player, c);
+			if (magnitude > 0) {			//condition from worn items?
+				c.magnitude = magnitude;	// -> readd condition
+				actorConditionListeners.onActorConditionMagnitudeChanged(actor, c);
+				c.duration = ActorCondition.DURATION_FOREVER;
+				actorConditionListeners.onActorConditionDurationChanged(actor, c);
+			}
+		}
+		if (magnitude == 0) {
+			actor.conditions.remove(i);
+			actorConditionListeners.onActorConditionRemoved(actor, c);
+		}
+
+		return magnitude;
+	}
+
+	int gotConditionFromWornItem(Player player, ActorCondition c) {
+		int magnitude = 0;	//Default: No worn item with this condition
+
+		for (Inventory.WearSlot slot : Inventory.WearSlot.values()) {
+			ItemType t = player.inventory.getItemTypeInWearSlot(slot);
+			if (t == null) continue;
+			ItemTraits_OnEquip equipEffects = t.effects_equip;
+			if (equipEffects == null) continue;
+			if (equipEffects.addedConditions == null) continue;
+			for (ActorConditionEffect e : equipEffects.addedConditions) {
+				if (e.conditionType.conditionTypeID.equals(c.conditionType.conditionTypeID)) {
+					if (e.magnitude == ActorCondition.MAGNITUDE_REMOVE_ALL) {
+						return 0;	//On an item-based immunity the result is always 0
+					}
+					if (magnitude < e.magnitude) {
+						magnitude = e.magnitude;
+					}
+				}
+			}
+		}
+		return magnitude;
 	}
 
 	public void applyUseEffect(Actor source, Actor target, ItemTraits_OnUse effect) {

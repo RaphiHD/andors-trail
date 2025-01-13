@@ -256,7 +256,7 @@
     <property name="spawngroup" value="crossglen_caverat2"/>
    </properties>
   </object>
-  <object id="5" name="crossglen_caveboss" type="spawn" x="64" y="128" width="32" height="32">
+  <object id="5" name="crossglen_caveboss" type="spawn" x="64" y="129" width="34" height="32">
    <properties>
     <property name="spawngroup" value="crossglen_caveboss"/>
    </properties>
@@ -296,7 +296,7 @@
   <object id="9" name="ratdom_nondisplay_3" type="replace" x="0" y="32" width="64" height="160">
    <properties>
     <property name="Above" value="Top0"/>
-    <property name="Ground" value="ratdom_Ground"/>
+    <property name="Ground" value="ratdom_ground"/>
     <property name="Walkable" value="ratdom_Walkable"/>
     <property name="requireId" value="ratdom_nondisplay"/>
     <property name="requireType" value="questProgress"/>

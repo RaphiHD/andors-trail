@@ -1457,6 +1457,12 @@
                         "requireID":"sullengard_hidden",
                         "value":20,
                         "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"sullengard_hidden",
+                        "value":21,
+                        "negate":true
                     }
                 ]
             }
@@ -1495,6 +1501,26 @@
                     {
                         "requireType":"inventoryKeep",
                         "requireID":"nimael_soup",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gael_soup",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"soup_forest",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"gael_soup",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gloriosa_mushroom_soup",
                         "value":1
                     }
                 ]
@@ -1704,6 +1730,28 @@
                         "requireType":"inventoryRemove",
                         "requireID":"meat",
                         "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Here, I have 10 nice pieces of lamb meat for you. Maybe not as good as snake though.",
+                "nextPhraseID":"gael_20_7",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"lamb_meat_raw",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Here, I have 8 nice pieces of snake meat for you.",
+                "nextPhraseID":"gael_20_7",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"snake_meat",
+                        "value":8
                     }
                 ]
             }
