@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-14 05:00+0000\n"
+"PO-Revision-Date: 2025-01-15 02:33+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -446,7 +446,7 @@ msgstr "埃利萨拉之焕"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
-msgstr "晃眩"
+msgstr "天旋地转"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -458,7 +458,7 @@ msgstr "我在哪儿都找不到你哥哥安道尔，他昨天离开后就没再
 
 #: conversationlist_mikhail.json:mikhail3
 msgid "Never mind, he will probably be back soon."
-msgstr "别担心，他可能很快就会回来。"
+msgstr "别担心，他可能很快就会回来了。"
 
 #: conversationlist_mikhail.json:mikhail_default
 #: conversationlist_crossglen_leonid.json:leonid_continue
@@ -470,7 +470,7 @@ msgstr "我还有什么可以帮忙的吗？"
 #: conversationlist_mikhail.json:mikhail_default:1
 #: conversationlist_mikhail.json:mikhail_default:2
 msgid "Do you have any more tasks for me?"
-msgstr "你还有更多任务要我做吗？"
+msgstr "你还有什么任务要我做吗？"
 
 #: conversationlist_mikhail.json:mikhail_default:3
 #: conversationlist_umar.json:umar_return_1:0
@@ -64414,38 +64414,39 @@ msgstr "是这样吗？我愿闻其详。"
 
 #: conversationlist_feygard_1.json:village_theobald_4
 msgid "Well, I don't want to speak for everyone else, but for Theodora and I, we began to desire a quieter, more laid back lifestyle."
-msgstr "好吧，我不想代表其他人说话，但对于西奥多拉和我来说，我们开始渴望一种更安静、"
-"更悠闲的生活方式。"
+msgstr "事实上，虽然我并不能道出每个人的心声，但是就对于我和西奥多拉来说，我们当时开"
+"始渴望去过另一种更宁静、更悠闲的生活。"
 
 #: conversationlist_feygard_1.json:village_theobald_4:0
 msgid "That makes sense. But what about the others?"
-msgstr "这是有道理的。但其他人呢？"
+msgstr "挺好的，那其他人呢？"
 
 #: conversationlist_feygard_1.json:village_theobald_4:1
 msgid "But do you ever miss it? I mean, if Feygard is so glorious, then you must miss it?"
-msgstr "但是你曾经想念过吗？我的意思是，如果费加德是如此辉煌，那么你一定想念它吧？"
+msgstr "那你有想念它吗？我的意思是，既然费加德如此辉煌，那么你一定有想念过那地方吧？"
 
 #: conversationlist_feygard_1.json:village_theobald_5
 msgid "Well, like I said before, I don't want to talk for them, but Osric is my best friend, so I know he longed for the days he could raise a garden and live off the land."
-msgstr "好吧，就像我之前说的，我不想为他们说话，但奥斯里克是我最好的朋友，所以我知道"
-"他渴望有一天能种下花园，靠土地生活。"
+msgstr "呃，就像我之前说的，我并不能道出他们的心声，但奥斯里克是我的挚友，所以我知道"
+"他先前一直渴望着拥有一片小院子，就这样在土地上过活。"
 
 #: conversationlist_feygard_1.json:village_theobald_miss_feygard
 msgid "Oh, I do miss it a lot. Well, I miss most of it a lot. I miss my family. I miss my old customers coming into my market."
-msgstr "哦，我真的很想念它。嗯，我非常想念其中的大部分。我想念我的家人。我想念进入我"
-"市场的老客户。"
+msgstr "哦，我确实挺怀念那个地方的，或者说，那里大多数的人与物都挺令人怀念的，比方说"
+"我的家人，我过去的老主顾。"
 
 #: conversationlist_feygard_1.json:village_theobald_miss_feygard:0
 msgid "\"Most of it\"?"
-msgstr "“大部分”？"
+msgstr "“大多数”？"
 
 #: conversationlist_feygard_1.json:village_theobald_miss_feygard_2
 msgid "Yeah. I don't miss the noise and the hustle and bustle of the city at all hours of the day. It gets tiresome."
-msgstr "是啊。我一天中任何时候都不会错过城市的喧嚣和繁忙。这变得令人厌烦。"
+msgstr "是啊，我就不怀念这座城市的喧嚣和繁忙，那里的生活太容易让人厌倦了。"
 
 #: conversationlist_feygard_1.json:village_theobald_miss_feygard_2:0
 msgid "Thank you for that. It really helped to hear about Feygard from one of its citizens."
-msgstr "谢谢你。从一位市民那里听说费加德真的很有帮助。"
+msgstr "谢谢你和我聊了这么多，从像你这样一名费加德前居民的口中了解这座城市让我获益良"
+"多。"
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_examine
 msgid "Would you like to take a look around the well?"
@@ -64712,7 +64713,7 @@ msgstr "冷静，会有人发现我们的，对此我们必须怀有希望。"
 
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_2_4
 msgid "Do you hear that? I think someone's coming..."
-msgstr "等下你听到了吗？我想是有人 来了……"
+msgstr "等下你听到了吗？我想是有人来了……"
 
 #: conversationlist_feygard_1.json:gamjee_well_hear_voices_2_4:0
 msgid "[Thinking] They're real! I must be getting closer to whoever these people are. I need to hurry."
@@ -65312,20 +65313,20 @@ msgstr "不管怎么说，你还不能走条路。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_all_items_1
 msgid "Great. I will take them now. But I want to warn you, making this pie will take me a while. Come back later and it will be ready."
-msgstr "太棒了，我现在就把它们拿走。但我想提醒你，做这个馅饼需要一段时间。稍后回来，"
-"它会准备好的。"
+msgstr "太棒了，我这就把它们拿去开始制作了。不过我想提醒你一下，做成这个派是得花上一"
+"段时间的。请过上一会儿再回来吧，到时候派就能端上来了。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_all_items_1:0
 msgid "Here, take them all."
-msgstr "来，把它们都拿走。"
+msgstr "来，把这些都拿走吧。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_all_items_2
 msgid "Come back later and it will be ready."
-msgstr "稍后回来，它会准备好的。"
+msgstr "请过上一段时间再过来取吧，到时候派就好了。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_complete_no
 msgid "Sorry, no it is not. Please come back later."
-msgstr "对不起，不是的。请稍后再来。"
+msgstr "抱歉还没有，请稍后再来吧。"
 
 #: conversationlist_feygard_1.json:perciva_int_phrasel
 msgid "What are you doing? Help us!"
@@ -65333,59 +65334,62 @@ msgstr "你在做什么？帮帮我们！"
 
 #: conversationlist_feygard_1.json:village_godelieve_bed
 msgid "Of course. Just use the mat over there in the corner."
-msgstr "当然。用那边角落里的垫子就行了。"
+msgstr "当然没问题，那边角落里的席子随你使用。"
 
 #: conversationlist_feygard_1.json:wexlow_key_bed_not_allowed
 msgid "Oh, these sleeping quarters stink so terribly that you don't want to get any closer."
-msgstr "哦，这些卧室臭气熏天，你不想再靠近了。"
+msgstr "哦，这处睡觉的地方臭气熏天，你是不会想靠近的。"
 
 #: conversationlist_feygard_1.json:leofric_welcome
 msgid "Ah, greetings, traveler! What brings you to my humble apiary?"
-msgstr "啊，欢迎你，旅行者！你为什么来我简陋的养蜂场？"
+msgstr "啊，欢迎你，这位旅行者！是什么风把你吹到了我这处简陋的养蜂场？"
 
 #: conversationlist_feygard_1.json:leofric_welcome:0
 msgid "Hello. Who might you be?"
-msgstr "你好。你是谁？"
+msgstr "你好，请问你是？"
 
 #: conversationlist_feygard_1.json:leofric_intro
 msgid "I be Leofric, master of bees and their keeper. I tend the hives and harvest their golden treasures"
-msgstr "我是利奥夫里克，蜜蜂的主人和饲养员。我照料蜂箱，收获它们的黄金宝藏"
+msgstr "我叫利奥夫里克，是这里的蜜蜂的所有者兼饲养员。我的工作就是维护这些蜂箱，并收"
+"获它们的金色馈赠"
 
 #: conversationlist_feygard_1.json:leofric_intro:0
 #: conversationlist_feygard_1.json:leofric_explain:0
 msgid "What exactly do you do here, Leofric?"
-msgstr "你到底在这里做什么，利奥夫里克？"
+msgstr "你能把你在这儿的工作讲得更具体点吗，利奥夫里克？"
 
 #: conversationlist_feygard_1.json:leofric_intro:1
 msgid "If you're a master of bees, why do you wear a helmet and mask?"
-msgstr "如果你是蜜蜂大师，为什么要戴头盔和口罩？"
+msgstr "你说你是这些蜜蜂的主人，那你为什么还要戴着头盔和面罩？"
 
 #: conversationlist_feygard_1.json:leofric_job
 msgid "I care for the bees, gather their honey and wax, and craft fine goods from their toil. Bees be wondrous creatures, providing both sweet sustenance and warm light."
-msgstr "我关心蜜蜂，采集它们的蜂蜜和蜡，用它们的劳动制作精美的商品。蜜蜂是奇妙的生物"
-"，提供甜蜜的食物和温暖的光线。"
+msgstr "我平常饲养蜜蜂，采集它们的蜂蜜和蜂蜡，然后把它们的成果转变成优质的商品。蜜蜂"
+"确实是一种奇妙的生物，既能产出甜食，又是温馨的暖色调。"
 
 #: conversationlist_feygard_1.json:leofric_sell
 msgid "Aye, I have many wares to offer. Jars of honey, beeswax and some fine mead. But that's it for now as my supply is lower than normal. Take a look, and see what catches your fancy."
-msgstr "是的，我有很多商品可以提供。几罐蜂蜜、蜂蜡和一些优质蜂蜜酒。但就目前而言，我"
-"的供应量低于正常水平。看看，看看你喜欢什么。"
+msgstr "嗯，我这里卖的东西品种挺很多的，有蜂蜜、蜂蜡以及优质的蜂蜜酒。不过现在我这里"
+"的货要比一般时候少上不少。看看这些东西吧，看看你有什么喜欢的。"
 
 #: conversationlist_feygard_1.json:leofric_sell:0
 msgid "Sounds great."
-msgstr "听起来很棒。"
+msgstr "赞。"
 
 #: conversationlist_feygard_1.json:leofric_explain
 msgid "Ah, a keen eye you have! The helmet and mask protect me from more than just bee stings. The forest holds dangers aplenty, and it's wise to be prepared. You never know what you might encounter when tending to the hives deep in the woods."
-msgstr "啊，你的眼光真敏锐！头盔和面罩保护我的不仅仅是蜜蜂蜇伤。森林里有很多危险，做"
-"好准备是明智的。你永远不知道在树林深处照料蜂箱时会遇到什么。"
+msgstr ""
+"啊，你的眼光真是锐利！这副头盔和面罩保护我的不仅仅是蜜蜂蜇伤。要知道这森林里"
+"的危险不少，时刻做好应对才是明智之举。你永远不会知道在树林深处照料蜂箱时都会"
+"遇到些什么。"
 
 #: conversationlist_feygard_1.json:village_godwin_has_ring
 msgid "A crisis has been averted thanks to you."
-msgstr "多亏了你，危机得以避免。"
+msgstr "这场危机得以避免，可是多亏了你啊。"
 
 #: conversationlist_feygard_1.json:village_godwin_has_ring:0
 msgid "You should do a better job protecting that ring."
-msgstr "你应该更好地保护那枚戒指。"
+msgstr "你最好多用点心护好那枚戒指。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_12_bee
 msgid "I don't know, kid. Somewhere along the Duleian Road? Towards those savages, maybe?"
@@ -65397,48 +65401,48 @@ msgstr "怎么，我看起来像个商人吗？"
 
 #: conversationlist_feygard_1.json:thief_seraphina_helmet_2
 msgid "Well, I am not. But today is your lucky day."
-msgstr "好吧，我不是。但今天是你的幸运日。"
+msgstr "事实上我并不是，但今天看来你运气挺好的。"
 
 #: conversationlist_feygard_1.json:thief_seraphina_helmet_2:0
 msgid "It is?"
-msgstr "它是？"
+msgstr "是吗？"
 
 #: conversationlist_feygard_1.json:thief_seraphina_helmet_3
 msgid "Yes. You see, I recently \"acquired\" this \"beauty\" from a dumb guy trying to cross the bridge before you fixed it. Do you want to take a look"
-msgstr "对。你看，我最近从一个愚蠢的家伙那里“获得”了这种“美”，他试图在你修好桥之前过"
-"桥。你想看看吗"
+msgstr "嗯，我告诉你吧，在你修好这座桥不久前，有个蠢蛋想跨过这里，我从他的身上“搞到”"
+"了个“好东西”，你想看看吗"
 
 #: conversationlist_feygard_1.json:thief_seraphina_helmet_3:1
 msgid "No, thanks. I'm leaving."
-msgstr "不用了，谢谢。我要走了。"
+msgstr "不用了，谢谢，我先走了哈。"
 
 #: conversationlist_feygard_1.json:loneford_well_script_1
 msgid "Take a peak down the well?"
-msgstr "从井里往下走？"
+msgstr "你想往井底瞄一眼吗？"
 
 #: conversationlist_feygard_1.json:loneford_well_script_1:0
 msgid "Sure. Why not?"
-msgstr "当然。为什么不呢？"
+msgstr "当然啊，有何不可呢？"
 
 #: conversationlist_feygard_1.json:loneford_well_script_1:1
 msgid "That's boring. I need to go now."
-msgstr "太无聊了。我现在得走了。"
+msgstr "这太无聊了，我现在得出发了。"
 
 #: conversationlist_feygard_1.json:loneford_well_script_peak
 msgid "While staring down into the dark nothingness, you think to yourself..."
-msgstr "当你凝视着黑暗的虚无时，你心里想。。。"
+msgstr "你凝视着那望不见底的黑暗，内心想道……"
 
 #: conversationlist_feygard_1.json:loneford_well_script_peak:0
 msgid "What is Andor doing right now? I need to find him."
-msgstr "安道尔现在在做什么？我需要找到他。"
+msgstr "安道尔现在会在干什么呢？我必须要找到他才行。"
 
 #: conversationlist_feygard_1.json:loneford_well_script_peak:1
 msgid "How deep does this thing go? Let's throw something down there and see if I can hear it hit the bottom."
-msgstr "这东西有多深？让我们把东西扔到那里，看看我能不能听到它撞到底部的声音。"
+msgstr "这有多深啊？不妨往里面扔点东西吧，这样就能试试能不能听到其掉到底部的声响了。"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_selector
 msgid "What item can you live without?"
-msgstr "没有什么东西你可以生活？"
+msgstr "那你身上有什么东西是可以割舍的呢？"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_selector:0
 msgid "[Throw a small rock.]"
@@ -65446,44 +65450,44 @@ msgstr "[扔一块小石头。]"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_selector:1
 msgid "[Throw a piece of animal hair?]"
-msgstr "[扔一根动物毛？]"
+msgstr "[扔一簇动物毛发下去？]"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_selector:2
 msgid "[Toss in a piece of that gross rotten meat.]"
-msgstr "[把一块腐烂的肉扔进去。]"
+msgstr "[抛一块倒胃口的腐肉下去。]"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_selector:3
 msgid "[Lob down an insect shell.]"
-msgstr "[吞下一个昆虫的壳。]"
+msgstr "[投下一片昆虫外壳。]"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_selector:4
 msgid "[Whip an empty flask down there.]"
-msgstr "[用鞭子把空酒瓶抽下去。]"
+msgstr "[把一个空玻璃杯抽下去。]"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_selector:5
 msgid "I have nothing that I want to waste by throwing down there."
-msgstr "我没有任何东西想扔到那里浪费。"
+msgstr "我没什么东西要扔下去浪费掉。"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_object
 msgid "You are not sure if the faint sound that you think you heard can really tell you anything about determining the depth of the well."
-msgstr "你不确定你认为你听到的微弱声音是否真的能告诉你任何关于确定井深的信息。"
+msgstr "你仿佛间听到一丝回响，这让你根本就拿捏不准这井的深度。"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_object:0
 #: conversationlist_feygard_1.json:loneford_well_script_throw_hair:0
 msgid "Let's try and throw something else down there."
-msgstr "让我们试着往下面扔点别的东西。"
+msgstr "试着往底下扔点别的东西好了。"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_object:1
 msgid "This is stupid. I'm leaving now."
-msgstr "这太愚蠢了。我要走了。"
+msgstr "这太蠢了，我该出发了。"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_hair
 msgid "The hair fails to even come close to going down the well as it simply floats in the air and lands on your shoulder."
-msgstr "头发甚至没有接近到井，因为它只是漂浮在空中，落在你的肩膀上。"
+msgstr "那簇毛发甚至都没飘进井里，它先只是在半空中漂荡，然后被吹回到了你的肩膀上。"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_hair:1
 msgid "That's enough of the kid's games, I'm leaving."
-msgstr "孩子们玩够了，我要走了。"
+msgstr "这种小孩子才玩的游戏到头了，我要出发了。"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_flask
 msgid "You hear the flask shattering into a million pieces against what you can only presume are rocks."
@@ -76796,7 +76800,10 @@ msgstr "在石板监狱的深处，我遇到了一只强大的翼魔。如此看
 
 #: questlist.json:flagstone:60
 msgid "I found one prisoner, Narael, alive deep beneath Flagstone. Narael was once a citizen of Nor City. He is too weak to walk by himself, but if I can find his wife in Nor City, I would be handsomely rewarded."
-msgstr "我在石板监狱的深处遇见了一名叫纳雷尔的还活着的囚徒。纳雷尔曾是诺尔城的市民，但他现在太虚弱了，甚至无法独立行走，于是请求我前去诺尔城寻找他的妻子；如果我做到了，或许我将会得到丰厚的回报。"
+msgstr ""
+"我在石板监狱的深处遇见了一名叫纳雷尔的还活着的囚徒。纳雷尔曾是诺尔城的市民，"
+"但他现在太虚弱了，甚至都做不到独立行走，于是请求我前去诺尔城寻找他的妻子；如"
+"果我能实现他的愿望，说不定我会得到丰厚的回报。"
 
 #: questlist.json:flagstone:70
 msgid "I approached the sentry again and he was happy to hear the source of the undead is gone. I should talk to Yolgen, the priest of Stoutford, for a reward."
