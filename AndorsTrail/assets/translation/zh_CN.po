@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-15 06:22+0000\n"
+"PO-Revision-Date: 2025-01-15 13:04+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -65031,7 +65031,7 @@ msgstr "我可以在这里睡上一觉吗？我现在好累。"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_1
 msgid "Have you by any chance seen my wedding ring? Oh my, Godelieve is going to kill me when she sees it's missing."
-msgstr "话说你有没有看到我的结婚戒指？哦，天哪，如果戈德莉乌看到它不见了的话，她会宰"
+msgstr "话说你有没有看到我的结婚戒指？哦，天哪，如果戈德莉芙看到它不见了的话，她会宰"
 "了我的。"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_1:0
@@ -65077,7 +65077,7 @@ msgstr "拿出什么来？2000金币怎么样？"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_5:1
 msgid "Hey Godelieve, did you hear what happened to Godwin?"
-msgstr "嘿，戈德莉乌，你听说戈德温的事了吗？"
+msgstr "嘿，戈德莉芙，你听说戈德温的事了吗？"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_godelieve
 msgid "No. What happened?"
@@ -65089,7 +65089,7 @@ msgstr "嗯哼，他丢……"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_godelieve_2
 msgid "NEVER MIND! Godelieve, this kid is being silly. You can go back to whatever it is that you were doing."
-msgstr "没啥事！戈德莉乌，这孩子开始说胡话了，你回去忙你手上的事吧。"
+msgstr "没啥事！戈德莉芙，这孩子开始说胡话了，你回去忙你手上的事吧。"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_godelieve_2:0
 msgid "3000 gold or no ring."
@@ -65515,7 +65515,8 @@ msgstr "我说了“站住”！"
 
 #: conversationlist_feygard_1.json:road_rondel_blocker_halt:0
 msgid "Yes! I know you. But I am pretty damn sure that I killed you back there [pointing southeast] on the bridge."
-msgstr "对！我认识你。但我敢肯定，我在桥上（指着东南）杀了你。"
+msgstr "啊！我想起来了，见鬼，我可是千真万确在那边的桥上[抬手指向东南面]"
+"把你解决掉的。"
 
 #: conversationlist_feygard_1.json:road_rondel_blocker_brother_1
 msgid "You killed my brother?!"
@@ -65523,23 +65524,24 @@ msgstr "你杀了我哥哥？！"
 
 #: conversationlist_feygard_1.json:road_rondel_blocker_brother_1:0
 msgid "Yes, it appears so, but I had no choice. You see, he wouldn't get out of my way. Kind of like you."
-msgstr "是的，看起来是这样，但我别无选择。你看，他不会给我让路的。有点像你。"
+msgstr "呃，看来确实如此，但当时我也别无选择。你应该也知道的，他就是挡在那里做拦路虎"
+"，就像是现在的你一样。"
 
 #: conversationlist_feygard_1.json:road_rondel_blocker_brother_2
 msgid "I am disheartened and full of rage hearing of this."
-msgstr "听到这件事，我感到沮丧和愤怒。"
+msgstr "你的所作所为让我现在很是伤心，除此之外还有彻底的愤怒。"
 
 #: conversationlist_feygard_1.json:road_rondel_blocker_brother_2:0
 msgid "Well, if it's any consolation, you are about to join him."
-msgstr "好吧，如果这能安慰你的话，你将同他团聚。"
+msgstr "好吧，如果你需要安慰的话，你现在就送你去与他团聚。"
 
 #: conversationlist_feygard_1.json:road_rondel_blocker_brother_2:1
 msgid "Step aside before I am forced to reunite you two."
-msgstr "在我被迫让你们俩重聚之前，请靠边站。"
+msgstr "如果你不想让我被迫使你俩重聚的话，那就快闪开道。"
 
 #: conversationlist_feygard_1.json:road_rondel_ip
 msgid "I'm so saddened by the loss of my brother, all I can do is stand here starring at these flowers."
-msgstr "我为失去哥哥感到难过，我所能做的就是站在这里看着这些花。"
+msgstr "我哥离去的消息让我可谓是悲伤不已，而我所能做的却只是站在这里看这些花花草草。"
 
 #: conversationlist_feygard_1.json:road_rondel_ip:0
 msgid "Why'd you move so quickly?"
@@ -65547,15 +65549,15 @@ msgstr "你为什么走得这么快？"
 
 #: conversationlist_feygard_1.json:wexlow_mother_letter_prompt
 msgid "On the table, you notice a series of papers. Some appear to be letters. Do you want to be nosy and read them?"
-msgstr "在桌子上，你注意到一系列的文件。有些似乎是字母。你想多管闲事地读它们吗？"
+msgstr "你注意到桌子上有一叠纸，其中一部分似乎是书信。你想多事瞧上一眼吗？"
 
 #: conversationlist_feygard_1.json:wexlow_mother_letter_prompt:0
 msgid "I sure do."
-msgstr "我肯定会这样做."
+msgstr "当然。"
 
 #: conversationlist_feygard_1.json:wexlow_mother_letter_prompt:1
 msgid "I better not. It's none of my business."
-msgstr "我最好不要。这不关我的事。"
+msgstr "最好不要，这不我该管的事。"
 
 #: conversationlist_feygard_1.json:wexlow_mother_letter
 msgid ""
@@ -65572,31 +65574,33 @@ msgid ""
 msgstr ""
 "亲爱的西奥多拉， \n"
 "\n"
-"我今天又来看你了，但又一次，我发现你的家空无一人。我上次见到你已经快一个月了"
-"，我的心一天比一天重。 \n"
+"我今天又来找你了，但这一次你的家中还是空无一人。距上次我见到你已经快一个月时"
+"间了，最近我的内心可以说是一天比一天沉重。 \n"
 "\n"
-"亲爱的，你去哪里了？这个村子似乎很安静，好像所有的生命都被抽走了。我敲过你的"
-"门，透过窗户看了看，甚至问过我在杜莱安路上看到的几个人（你认识“水果女士”罗斯"
-"马拉吗），但没有人见过你，也没有人听到一句话。\n"
-" \n"
-"如果你找到这封信，请马上给我写信。一想到你身上发生了什么事，我就无法忍受。如"
-"果你只是离开了一段时间，我理解，但请告诉我你是安全的。一周后我会再次回来，祈"
-"祷能在这里找到你。 \n"
+"亲爱的，你到底去哪里了？整个村子都是静悄悄的，如同所有的生机都被抽走了一般。"
+"你家的门我敲过，透过窗子我也望过，甚至还有询问过我在杜莱恩路上遇见的几个人（"
+"你认识那个“水果女士”罗斯马拉吗），但他们都没见到过你，消息也是连一星半点都没"
+"有。\n"
 "\n"
-"带着我所有的爱， \n"
+"如果你见到了这封信，请马上给我写信。一想到你可能出了什么事，我就焦急得要命。"
+"如果你就单单是出远门了一段时间，这我可以理解，但请记得告知我你没有遇到危险。"
+"一周后我会再次过来的，愿到时候能见到你。 \n"
+"\n"
+"爱你的\n"
 "母亲"
 
 #: conversationlist_feygard_1.json:wexlow_godwin_journal_prompt
 msgid "As you walk by the table, in the corner of your eye, you catch a glimpse of someone's journal. Maybe you should read the current page?"
-msgstr "当你走过桌子时，你的眼角瞥见了某人的日记。也许你应该读一下当前的页面？"
+msgstr "当你路过这处桌子时，你的眼角瞥见了一本不知是何人的日记，也许你应该翻阅一下最"
+"近的几页？"
 
 #: conversationlist_feygard_1.json:wexlow_godwin_journal_prompt:0
 msgid "And violate someone's privacy? No way!"
-msgstr "侵犯别人的隐私？不行！"
+msgstr "这要侵犯别人的隐私？不行！"
 
 #: conversationlist_feygard_1.json:wexlow_godwin_journal_prompt:1
 msgid "I think I should."
-msgstr "我想我应该这么做。"
+msgstr "我想我确实应该如此。"
 
 #: conversationlist_feygard_1.json:wexlow_godwin_journal
 msgid ""
@@ -65608,22 +65612,24 @@ msgid ""
 "\n"
 "End Entry"
 msgstr ""
-"已经好几天没人见过奥迪莉亚了。起初，我们以为她可能去费加德看望了她的妹妹，但"
-"她从未提及离开。腓立比也是如此，现在也相信上帝了。就好像他们消失得无影无踪，"
-"都在睡梦中。我记得戈德利芙失踪的前一天晚上看起来很困扰，好像她在与某种无形的"
-"力量作斗争，但我忽略了它。我应该知道出了什么问题。 \n"
-"这\n"
-"个村庄现在感觉不一样了，更安静，更空旷。男人们很紧张，但我们无法理解发生了什"
-"么。夜晚是最糟糕的，充满了沉重的沉默，让骨头发冷。我为利夫温和西奥博尔德感到"
-"担忧，我不禁怀疑夜里是否有什么东西在召唤他们。 \n"
+"奥蒂莉娅已经失踪好几天了。起初，我们还以为她可能是去费加德看望她妹妹去了，虽"
+"然先前她从未提及过最近要出远门。然而现在费莉帕也不见了，戈德莉芙紧随其后，她"
+"们都是在睡梦中消失得无影无踪得。我记得戈德莉芙失踪前一天的晚上看起来很挣扎，"
+"仿佛她在抵抗某种无形之物一样，但我当时没有太在意，否则我现在也应该知道到底发"
+"生什么事了。 \n"
 "\n"
-"我们正在失去希望，我害怕接下来会发生什么。\n"
+"这个村子当前给人感觉都不一样了，好安静，好荒凉。我们这些男同胞们的神经现在都"
+"很紧绷，然而我们却完全不知道发生了什么。到了晚上情况更是难熬，厚重的空气中充"
+"斥着刺骨的沉默。我为利奥芬和西奥博德的处境感到担忧，我不禁胡想到夜里会不会有"
+"什么东西把他们召走。 \n"
 "\n"
-"绝笔"
+"希望正在离我们而去，接下来会发生什么真是令人恐惧。\n"
+"\n"
+"以上"
 
 #: conversationlist_feygard_1.json:wexlow_godwin_journal:0
 msgid "I wonder who these people are?"
-msgstr "我想知道这些人是谁？"
+msgstr "我很好奇这些人都是谁？"
 
 #: conversationlist_feygard_1.json:rosmara_cat_rat
 msgid "Oh, my!"
@@ -65631,8 +65637,10 @@ msgstr "哦，天哪！"
 
 #: conversationlist_feygard_1.json:village_percival_cleanup
 msgid "Can you believe it? It'll take weeks to clear out all the cobwebs. It's like the spiders moved in the moment we disappeared. And the food... oh, the smell of it all rotting away. It's a mess."
-msgstr "你能相信吗？清除所有的蜘蛛网需要数周时间。这就像蜘蛛在我们消失的那一刻移动了"
-"。还有食物。。。哦，这一切腐烂的味道。真是一团糟。"
+msgstr ""
+"你会相信吗？清除所有的蜘蛛网得花上数周时间才能解决，数量多得就像是我们不在的"
+"那段时间里那些蜘蛛全都搬进来了。另外还有食物的问题……哦，到处都是一股腐臭味，"
+"真是一团糟。"
 
 #: conversationlist_feygard_1.json:village_percival_cleanup:0
 msgid "Good luck with all that."
@@ -65641,27 +65649,29 @@ msgstr "祝你一切顺利。"
 #: conversationlist_feygard_1.json:village_theodora_garden
 msgid "Our poor garden! It's been choked by weeds, and what few crops are left are withered. It'll be a full season's work just to get it back to where it was. I've never seen it this bad before."
 msgstr ""
-"我们可怜的花园！它被杂草缠住了，而且很少有剩下的庄稼都枯萎了。要想有一个完整"
-"的收获季节，就得付出很多努力，它又回到了原来的位置。我以前从未见过它这么糟糕"
-"。"
+"哦，我们小院子现在的状态可太糟糕了！整个院子都是杂草丛生，个别还长着的作物现"
+"在也蔫掉了。这很可能需要一整个季度的辛勤打理才能让它复原，这院子在过去就没有"
+"像如今这般落败过。"
 
 #: conversationlist_feygard_1.json:village_theodora_garden:0
 msgid "Farming is in my blood, so I could help you, but I won't. It's time to find my brother, Andor. Have you seen him?"
-msgstr "务农是我的天性，所以我可以帮助你，但我不会。是时候找到我的兄弟安道尔了。你见"
-"过他吗？"
+msgstr "务农的本领我是刻在骨子里的，要不是我在寻找我的哥哥安道尔，我是非常愿意过来帮"
+"把手的。话说你有见过我哥哥吗？"
 
 #: conversationlist_feygard_1.json:village_theodora_garden_2
 msgid "I think we both know the answer to that. Now, leave me to tend to this mess."
-msgstr "我想我们都知道答案。现在，让我来处理这一团糟。"
+msgstr "我想我的回答不用说出口你就已经猜到了。好了，现在让我一个人继续收拾这里吧。"
 
 #: conversationlist_feygard_1.json:wexlow_osric_cleanup
 msgid "It's like the village itself fell into a deep sleep, just like us. Now, we have to wake it up again, clean out the overgrowth, and hope the roots haven't gone too deep. This'll take every bit of strength we've got."
-msgstr "这就像村庄本身陷入了沉睡，就像我们一样。现在，我们必须再次唤醒它，清理过度生"
-"长的植物，希望根没有扎得太深。这将消耗我们所有的力量。"
+msgstr ""
+"这座村庄本身就像是陷入了沉睡一般，我们自身也是如此。而现在，我们必须再次唤醒"
+"它，疯长的乱草荒芜必须拔除，但愿它们还没有扎根太深。而这需要我们每一丝的投入"
+"。"
 
 #: conversationlist_feygard_1.json:wexlow_osric_cleanup:0
 msgid "Oh, it most certainly will."
-msgstr "哦，肯定会的。"
+msgstr "哦，确实如此。"
 
 #: conversationlist_feygard_1.json:village_odilia_cleanup
 msgid "Everything's out of place, left exactly as it was when we... when we vanished. It's eerie, really. We'll need everyone's help to tidy up and get the village back to how it was. But first, we need to clear away the webs and rot."
@@ -76365,7 +76375,7 @@ msgstr "奥斯里克"
 #: monsterlist_feygard_1.json:troll_hollow_odilia
 #: monsterlist_feygard_1.json:village_odilia
 msgid "Odilia"
-msgstr "奥迪利亚"
+msgstr "奥蒂莉娅"
 
 #: monsterlist_feygard_1.json:troll_hollow_percival
 #: monsterlist_feygard_1.json:village_percival
@@ -76380,7 +76390,7 @@ msgstr "菲利帕"
 #: monsterlist_feygard_1.json:troll_hollow_theobald
 #: monsterlist_feygard_1.json:village_theobald
 msgid "Theobald"
-msgstr "西奥博尔德"
+msgstr "西奥博德"
 
 #: monsterlist_feygard_1.json:troll_hollow_theodora
 #: monsterlist_feygard_1.json:village_theodora
