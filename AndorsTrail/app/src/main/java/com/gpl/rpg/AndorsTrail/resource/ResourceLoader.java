@@ -263,6 +263,7 @@ public final class ResourceLoader {
 		final Size sz7x4 = new Size(7, 4);
 		final Size sz8x3 = new Size(8, 3);
 		final Size sz16x8 = new Size(16, 8);
+		final Size sz16x10 = new Size(16, 10);
 		final Size sz20x12 = new Size(20, 12);
 		final Size mapTileSize = new Size(16, 8);
 		final Size sz8x8 = new Size(8, 8);
@@ -386,7 +387,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_cats, "monsters_cats", new Size(10, 2), sz1x1, mTileSize);
 		/*INSERT_NPCS_TILESETS_HERE*/
 		
-		loader.prepareTileset(R.drawable.map_bed_1, "map_bed_1", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_bed_1, "map_bed_1", sz16x10, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_boats_1, "map_boats_1", new Size(16, 9), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_border_1, "map_border_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_bridge_1, "map_bridge_1", mapTileSize, sz1x1, mTileSize);
