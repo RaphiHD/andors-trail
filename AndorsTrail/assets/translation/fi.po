@@ -8,21 +8,21 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2014-11-26 19:42+0000\n"
-"Last-Translator: TheWaltsu <Unknown>\n"
-"Language-Team: Finnish <fi@li.org>\n"
+"PO-Revision-Date: 2025-01-17 19:00+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/andors-trail/"
+"game-content/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:25+0000\n"
-"X-Generator: Launchpad (build 17838)\n"
 
 #: [none]
 msgid "translator-credits"
-msgstr ""
-"Launchpad Contributions:\n"
-"  TheWaltsu https://launchpad.net/~thewaltsu"
+msgstr "kääntäjä-hyvitykset"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -4049,7 +4049,7 @@ msgstr ""
 
 #: conversationlist_fallhaven_south.json:alaun_4
 msgid "Ahh, you are here to earn some money, okay."
-msgstr ""
+msgstr "Ah, olet täällä ansaitaksesi rahaa, hyvä on."
 
 #: conversationlist_fallhaven_south.json:alaun_5
 msgid "I'll give you 10 gold if you do this little job for me: Bring me some of that delicious soup which Gison cooks using mushrooms and wild herbs."
@@ -35753,6 +35753,8 @@ msgstr ""
 #: conversationlist_burhczyd.json:burhczydx_11a_9:0
 msgid "Hm, that might be difficult. But the main thing is that she wants you. Then it will be okay with the parents."
 msgstr ""
+"Hmm, se voi olla vaikeaa. Mutta pääasia on, että hän haluaa sinut. Sitten se "
+"on kunnossa vanhempien kanssa."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_10:0
 msgid "Burhczyd - she really wants to marry you, doesn't she?"
@@ -43007,7 +43009,7 @@ msgstr ""
 
 #: conversationlist_gison.json:gison_firsttime_1:0
 msgid "Okay. Thanks for the description."
-msgstr ""
+msgstr "Hyvä on. Kiitos kuvauksesta."
 
 #: conversationlist_gison.json:gison_firsttime_1:1
 msgid "Are you Gison?"
@@ -45307,7 +45309,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_31b
 msgid "Okay, okay. Let's take a break. We'll talk later."
-msgstr ""
+msgstr "Hyvä on. Pidetään tauko. Puhumme myöhemmin."
 
 #: conversationlist_omi2.json:ehrenfest_32b
 msgid "I'm afraid not."
@@ -52828,7 +52830,7 @@ msgstr ""
 #: conversationlist_ratdom.json:ratdom_rat_conv2_401
 #: conversationlist_ratdom.json:ratdom_rat_conv2_411
 msgid "It's okay. If you still want to hear it again, just ask me."
-msgstr ""
+msgstr "Ei hätää. Jos haluat silti kuulla sen uudelleen, kysy minulta."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_402
 msgid "That's simple enough even for a simple mind: If worn they will mark the passage towards the mountain top with a blue shield."
@@ -57857,7 +57859,7 @@ msgstr ""
 
 #: conversationlist_omifix2.json:ortholion_guard_2e:1
 msgid "Okay, I give up. Let's try with someone else."
-msgstr ""
+msgstr "Hyvä on, luovutan. Kokeillaan jonkun muun kanssa."
 
 #: conversationlist_omifix2.json:ortholion_guard3_8
 msgid "I hate these escorting trips. It's not like the general really needs us for this."
@@ -58087,7 +58089,7 @@ msgstr ""
 
 #: conversationlist_bwmfill.json:tunlon_quest_4a:0
 msgid "Sigh, I have too good a heart. It's okay, I'll do it."
-msgstr ""
+msgstr "Huokaus, minulla on liian hyvä sydän. Ei hätää, teen sen."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4a:1
 msgid "No, forget it. I'm out."
@@ -61084,7 +61086,7 @@ msgstr ""
 #: conversationlist_laeroth.json:lae_centaur1_4:0
 #: conversationlist_laeroth.json:lae_centaur2_5:1
 msgid "It's okay, calm down. Where is this leader?"
-msgstr ""
+msgstr "Ei hätää, rauhoitu. Missä tämä johtaja on?"
 
 #: conversationlist_laeroth.json:lae_centaur1_5
 msgid "I have better things to do than play tour guide to useless intruders."
@@ -64810,7 +64812,7 @@ msgstr ""
 
 #: conversationlist_lytwings.json:arensia_lytwing_10
 msgid "Okay thanks for letting me know. Don't let them wait too long."
-msgstr ""
+msgstr "Selvä, kiitos kun kerroit minulle. Älä anna heidän odottaa liian kauan."
 
 #: conversationlist_lytwings.json:arensia_lytwing_11
 msgid "Oh wonderful! An odd request nonetheless."
@@ -64914,7 +64916,7 @@ msgstr ""
 
 #: conversationlist_lytwings.json:arensia_lytwing_25
 msgid "That is okay. I did not expect to get it back."
-msgstr ""
+msgstr "Ei se mitään. En odottanut saavani sitä takaisin."
 
 #: conversationlist_lytwings.json:arensia_lytwing_26
 msgid "After everything you have done for me ... I want you to keep it. Please, I insist!"
@@ -64978,7 +64980,7 @@ msgstr ""
 
 #: conversationlist_lytwings.json:arensia_lytwing_33:0
 msgid "Okay."
-msgstr ""
+msgstr "Hyvä on."
 
 #: conversationlist_lytwings.json:arensia_lytwing_34
 msgid "They have, I no longer wake up with fairy-locks."
@@ -65180,6 +65182,8 @@ msgstr ""
 #: conversationlist_lytwings.json:lytwing_fallhaven_17:1
 msgid "Okay, fine. I will get you the mead. But you better not change your mind again."
 msgstr ""
+"Hyvä on. Haen sinulle simaa. Mutta sinun on parempi olla muuttamatta "
+"mieltäsi uudelleen."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_18
 msgid "Do you have our mead?"
@@ -65227,7 +65231,7 @@ msgstr ""
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_22:1
 msgid "Okay fine. But this better be the last thing."
-msgstr ""
+msgstr "Hyvä on. Mutta tämä on parempi olla viimeinen asia."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_23
 msgid "Do you have our wild flowers?"
@@ -65268,7 +65272,7 @@ msgstr ""
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_26
 msgid "Okay so after carefully considering your request ..."
-msgstr ""
+msgstr "Selvä, pyyntösi huolellisen harkinnan jälkeen..."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_27
 msgid "We have decided what would make this right ..."
@@ -78267,6 +78271,8 @@ msgstr ""
 #: questlist_omicronrg9.json:Thieves02:40
 msgid "I have talked to Troublemaker about the place Umar believes it's okay to safely keep the hostage."
 msgstr ""
+"Olen puhunut häirinnäntekijän kanssa paikasta, jonka Umar uskoo, että on "
+"sopiva pitää panttivanki turvallisesti."
 
 #: questlist_omicronrg9.json:Thieves02:45
 msgid "Troublemaker has given me the key to the Guild brig. I should take Ambelie there and leave her to wake up."
@@ -81120,4 +81126,3 @@ msgstr ""
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr ""
-
