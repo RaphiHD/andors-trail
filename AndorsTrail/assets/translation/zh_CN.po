@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-15 13:04+0000\n"
+"PO-Revision-Date: 2025-01-17 19:00+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -5323,7 +5323,7 @@ msgstr "请问关于我的新任务你还有什么要说的吗？"
 
 #: conversationlist_umar.json:umar_return_1:26
 msgid "Troublemaker sent me. I have finished the job."
-msgstr "麻烦精让我来找你，我已经把任务给完成了。"
+msgstr "捣蛋鬼让我来找你，我已经把任务给完成了。"
 
 #: conversationlist_umar.json:umar_return_1:28
 #: conversationlist_umar.json:umar_return_2:1
@@ -5821,7 +5821,7 @@ msgstr "我？我就是个小人物，你可以权当作我们没见过面，也
 
 #: conversationlist_vilegard_tavern.json:dunla_1:0
 msgid "Troublemaker sent me to get your report."
-msgstr "麻烦精让你向我传递下情报。"
+msgstr "捣蛋鬼让你向我传递下情报。"
 
 #: conversationlist_vilegard_tavern.json:tharwyn_1
 msgid "Hello there. I heard you helped Jolnor in the chapel. You have my thanks, friend."
@@ -14297,7 +14297,7 @@ msgstr "当然，我很高兴在这次经历中学到的经验和这里的学到
 #: conversationlist_algangror.json:algangror_story11:0
 #: conversationlist_feygard_1.json:wulfric_ask_about_andor
 msgid "What then?"
-msgstr "下一步呢？"
+msgstr "然后呢？"
 
 #: conversationlist_algangror.json:algangror_story8
 msgid "As I got back home, I wanted to continue practicing what I had observed and learned while in Nor City."
@@ -57601,7 +57601,7 @@ msgstr "快来拿！"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:3
 msgid "What are you waiting for? Go take the fake key to Troublemaker."
-msgstr "你还在等啥？快去把钥匙带给麻烦精。"
+msgstr "你还在等啥？快去把钥匙带给捣蛋鬼。"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10
 #: conversationlist_mt_galmore.json:aidem_base_dont_help_defy_10
@@ -59453,7 +59453,7 @@ msgstr "呃…好吧。"
 
 #: conversationlist_laeroth.json:bridge_key
 msgid "The bridge is no longer passable."
-msgstr "这座桥已经无法通行了。"
+msgstr "这座桥早就无法通行了。"
 
 #: conversationlist_laeroth.json:arulir_secret_room_loot_1
 msgid "You found a corpse with a loot bag."
@@ -64122,7 +64122,7 @@ msgstr "为什么倒霉事总是撞上我？！"
 
 #: conversationlist_feygard_1.json:boat0_9a
 msgid "Phew, I almost drowned in that puddle!"
-msgstr "咻，我差点淹死在了那个水坑里！"
+msgstr "咻，我差点淹死在了那个水潭里！"
 
 #: conversationlist_feygard_1.json:village_philippa_initial_phrase
 #: conversationlist_feygard_1.json:village_theodora_start
@@ -64176,7 +64176,7 @@ msgstr "不啊，我应该如此吗？"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_3:1
 msgid "Whatever happened to my reward? Thanks for nothing."
-msgstr "我的奖励就这样？这可太谢谢您了。"
+msgstr "我的奖励就这样？这可太谢谢您嘞。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_4
 msgid "Well, you see? I make them. Not to brag, but I am in fact, the best baker in Feygard."
@@ -64414,7 +64414,7 @@ msgstr "是这样吗？我愿闻其详。"
 
 #: conversationlist_feygard_1.json:village_theobald_4
 msgid "Well, I don't want to speak for everyone else, but for Theodora and I, we began to desire a quieter, more laid back lifestyle."
-msgstr "事实上，虽然我并不能道出每个人的心声，但是就对于我和西奥多拉来说，我们当时开"
+msgstr "事实上，虽然我并不能道出每个人的心声，但仅仅对于我和西奥朵菈来说，我们当时开"
 "始渴望去过另一种更宁静、更悠闲的生活。"
 
 #: conversationlist_feygard_1.json:village_theobald_4:0
@@ -65572,7 +65572,7 @@ msgid ""
 "With all my love,\n"
 "Mother"
 msgstr ""
-"亲爱的西奥多拉， \n"
+"亲爱的西奥朵菈， \n"
 "\n"
 "我今天又来找你了，但这一次你的家中还是空无一人。距上次我见到你已经快一个月时"
 "间了，最近我的内心可以说是一天比一天沉重。 \n"
@@ -65675,17 +65675,19 @@ msgstr "哦，确实如此。"
 
 #: conversationlist_feygard_1.json:village_odilia_cleanup
 msgid "Everything's out of place, left exactly as it was when we... when we vanished. It's eerie, really. We'll need everyone's help to tidy up and get the village back to how it was. But first, we need to clear away the webs and rot."
-msgstr "一切都不对劲，就像我们。。。当我们消失的时候。真的很诡异。我们需要每个人的帮"
-"助来整理，让村庄恢复原样。但首先，我们需要清除网和腐烂。"
+msgstr ""
+"现在一切都百废待兴，在我们……在我们消失后，它们都如同被突然弃置了一般，说实话"
+"有种恍如隔世的感觉。而当前首要工作就是需要大家协力的打扫清理，这样才能让我们"
+"的村庄恢复先前的样子，而第一步就是清除那些蜘蛛网以及烂掉的东西。"
 
 #: conversationlist_feygard_1.json:road_rondel_move_hint
 msgid "[While scanning you up and down with his eyes...] There's something... about you... something warm. Ain't my place to stand in the way of that."
-msgstr "[当他上下打量你时……]"
-"你身上有某种东西……你身上有某种温暖的东西……我不应该妨碍你这样做。"
+msgstr "[他的视线在你全身上下扫了又扫……]"
+"你身上好像有某种东西……某种温暖的东西……我就不应该这般挡着你的道。"
 
 #: conversationlist_feygard_1.json:wexlow_village_hole
 msgid "There's a disgusting smell emanting from that hole in the wall. You think there must be a dead animal inside it."
-msgstr "墙上的那个洞散发出一股令人作呕的气味。你认为里面一定有动物尸体。"
+msgstr "墙上的洞向外散发出一股令人作呕的气，应该是有动物死在里面了。"
 
 #: conversationlist_feygard_1.json:wexlow_village_welcome
 msgid ""
@@ -65699,40 +65701,40 @@ msgstr ""
 
 #: conversationlist_feygard_1.json:wulfric_ip
 msgid "Hey there. I am \"Wulfric the Wonderful\"."
-msgstr "嘿。我是“奇妙的伍尔弗里克”。"
+msgstr "嘿你好，我是“出色的伍尔弗里克”。"
 
 #: conversationlist_feygard_1.json:wulfric_ip:0
 #: conversationlist_feygard_1.json:wulfric_andor:0
 msgid "I am wondering..."
-msgstr "我在想。。。"
+msgstr "那个，我很好奇……"
 
 #: conversationlist_feygard_1.json:wulfric_wonder
 msgid "Why I'm so wonderful?"
-msgstr "为什么我如此出色？"
+msgstr "我为什么如此出色？"
 
 #: conversationlist_feygard_1.json:wulfric_wonder:0
 msgid "Well, yeah, but no, not really."
-msgstr "嗯，是的，但不是真的。"
+msgstr "呃，也算是吧，不过我要说的不是这个。"
 
 #: conversationlist_feygard_1.json:wulfric_wonder:1
 msgid "Do you know where the residents of Wexlow Village are?"
-msgstr "你知道维克斯罗村的居民在哪里吗？"
+msgstr "你知道维克斯罗村的住户都去哪里了吗？"
 
 #: conversationlist_feygard_1.json:wulfric_wonder:2
 msgid "Yes, why are you so wonderful?"
-msgstr "是的，你为什么这么棒？"
+msgstr "是的，你为什么如此出色？"
 
 #: conversationlist_feygard_1.json:wulfric_ask_about_andor:0
 msgid "Whether you've seen my brother, Andor or not. You see, he looks like me, but not as good looking."
-msgstr "不管你是否见过我哥哥安道尔。你看，他长得像我，但没那么好看。"
+msgstr "我很好奇你有见过我哥哥安道尔吗？他长得和我很像，但要稍微差上一点。"
 
 #: conversationlist_feygard_1.json:wulfric_andor
 msgid "Nope. Sorry. Is there anything else?"
-msgstr "不。对不起。还有其他问题吗？"
+msgstr "并没有，抱歉。另外你还有什么要讲的吗？"
 
 #: conversationlist_feygard_1.json:wulfric_andor:1
 msgid "Nope."
-msgstr "不。"
+msgstr "没。"
 
 #: conversationlist_feygard_1.json:wulfric_wexlow
 msgid "Wexlow Village? Where is that?"
@@ -65740,103 +65742,105 @@ msgstr "维克斯罗村？那在哪里？"
 
 #: conversationlist_feygard_1.json:wulfric_wexlow:0
 msgid "Oh, nevermind."
-msgstr "哦，请别介意。"
+msgstr "哦，没事。"
 
 #: conversationlist_feygard_1.json:wulfric_wonder_answer
 msgid "Because all the ladies say that I am."
-msgstr "因为所有的女人都说我是。"
+msgstr "因为所有的女士都说我很出色。"
 
 #: conversationlist_feygard_1.json:rosmara_wexlow
 msgid "What?! There's nobody in the village?"
-msgstr "什么？！村子里没有人吗？"
+msgstr "你说啥？！维克斯罗村子里一个人影都没有？"
 
 #: conversationlist_feygard_1.json:rosmara_wexlow:0
 msgid "Nope. Not a single person, and it looks like there hasn't been for a while."
-msgstr "不。没有一个人，而且似乎已经有一段时间没有了。"
+msgstr "你没听错，那里半个人都见不着，而且这样的状态貌似已经持续上有一段时间了。"
 
 #: conversationlist_feygard_1.json:rosmara_wexlow2
 msgid "Hmm, I hope they are all right."
-msgstr "嗯，我希望他们没事。"
+msgstr "嗯……愿他们一切安好。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_known_fight:0
 msgid "This ends now for you!"
-msgstr "这对你来说就结束了！"
+msgstr "这一切是时候该结束了！"
 
 #: conversationlist_feygard_1.json:gamjee_player_left_after_agreeing_to_help
 msgid "Human, why you leave? Rude."
-msgstr "人类，你为什么离开？粗鲁。"
+msgstr "人类，你为什么要走？真是粗鲁。"
 
 #: conversationlist_feygard_1.json:village_philippa_try_fd
 msgid "Would you like to try a piece before you dig into yours?"
-msgstr "在深入了解你的作品之前，你想先尝尝吗？"
+msgstr "在你慢慢享用你的那份前，想先尝一片吗？"
 
 #: conversationlist_feygard_1.json:village_philippa_try_fd:0
 msgid "Nah, thanks anyway."
-msgstr "不，还是谢谢你。"
+msgstr "不了，不过还是谢谢你了。"
 
 #: conversationlist_feygard_1.json:village_philippa_try_fd:1
 msgid "Yes, please. That would be great."
-msgstr "是的，谢谢。那太好了。"
+msgstr "嗯，谢谢，那可太好了。"
 
 #: conversationlist_feygard_1.json:village_philippa_try_fd_1
 msgid "Here you go. Eat it up while it's hot."
-msgstr "干得好。趁热把它吃光。"
+msgstr "拿去吧，记得趁热吃哦。"
 
 #: conversationlist_feygard_1.json:village_philippa_try_fd_1:0
 msgid "Oh, man, that was nasty."
-msgstr "哦，天哪，太恶心了。"
+msgstr "哦，天哪，怎么这么恶心。"
 
 #: conversationlist_feygard_1.json:village_philippa_try_fd_1:1
 msgid "That was delicious! But what...is it...doing to me? I feel so funny."
-msgstr "真好吃！但是……它……对我有什么影响？我感觉好笑。"
+msgstr "真好吃！不过……它……对食用者是有什么效果吗？我怎么这么想笑。"
 
 #: conversationlist_feygard_1.json:village_philippa_try_fd_nasty
 msgid "What?! You ungrateful little brat."
-msgstr "什么？！你这忘恩负义的小家伙。"
+msgstr "你说什么？！你这不懂感恩的小混账。"
 
 #: conversationlist_feygard_1.json:village_philippa_try_fd_good
 msgid "Oh, that? That's nothing. Just some side effects of great cooking."
-msgstr "哦，那个？那没什么。只是烹饪的一些副作用。"
+msgstr "哦，你是说那种感觉吗？那没什么的，只不过是精湛厨艺所带来的一种衍生作用罢了。"
 
 #: conversationlist_feygard_1.json:village_philippa_try_fd_good:0
 msgid "Umm...OK."
-msgstr "嗯。。。好的。"
+msgstr "呃……好吧。"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_complete_no_impatient
 msgid "You know, my Feygard customers never pester me like this. They know to be patient and wait for this great delicacy."
-msgstr "你知道，我的费加德客户从来没有这样缠过我。他们知道要耐心等待这美味佳肴。"
+msgstr "你知道吗，我在费加德时所遇到的顾客中就没有一个像你这般纠缠我的，他们都知道美"
+"味佳肴是耐心等待出来的。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_3
 msgid "Me alone."
-msgstr "只有我一个人。"
+msgstr "这里就只有我啊。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_3:0
 msgid "Really? I'm not so sure about that, but I'll see about that."
-msgstr "真的？我对此不太确定，但我会看看的。"
+msgstr "真的？这我可说不准啊，我接下来会四处观察一下的。"
 
 #: conversationlist_feygard_1.json:gamjee_villagers_unknown_3:1
 msgid "I don't believe you! Prove it."
-msgstr "我不相信你！证明一下。"
+msgstr "我不信！你需要为此证明。"
 
 #: conversationlist_feygard_1.json:village_philippa_selector_has_ingredients
 msgid "Were you successful in finding all of the items that I've requested of you?"
-msgstr "你成功地找到了我要求你的所有物品吗？"
+msgstr "你成功找齐我所需要的所有物品了吗？"
 
 #: conversationlist_feygard_1.json:village_philippa_selector_has_ingredients:0
 msgid "Yes, I have everything that you asked for in order to bake the Feydelight."
-msgstr "是的，我有你要求的一切来烤费德尔莱特。"
+msgstr "是的，我把所有你制作费乐派所要求的材料都拿来了。"
 
 #: conversationlist_feygard_1.json:village_philippa_selector_not_all_ingredients
 msgid "Did you find all the ingredients?"
-msgstr "你找到所有的配料了吗？"
+msgstr "请问你找齐所有配料了吗？"
 
 #: conversationlist_feygard_1.json:village_philippa_selector_not_all_ingredients:0
 msgid "What do I need to do again to get my \"Feydelight\"?"
-msgstr "我需要再次做什么才能获得我的“费德尔莱特”？"
+msgstr "请问如果我想要再搞一些“费乐派”的话，我需要再做什么事吗？"
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_give_ring_free
 msgid "Thank you so much! I really appreciate you just giving it to me. Here are a few coins for your trouble."
-msgstr "非常感谢！我真的很感激你把它给我。这是给你的麻烦的几枚硬币。"
+msgstr "太谢谢你了！你能把直接交还给我，我真的很感动，这里有些许金币，希望它们能报答"
+"你的辛劳。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_1
 msgid "My sleep has been very restless lately."
@@ -71078,7 +71082,7 @@ msgstr "黑曜石匕首"
 
 #: itemlist_laeroth.json:pink_potion
 msgid "Pink potion of stomach calming"
-msgstr "粉色肠胃舒缓药水"
+msgstr "肠胃舒缓粉药水"
 
 #: itemlist_laeroth.json:pink_potion:description
 msgid "A thick, pink liquid"
@@ -71286,7 +71290,7 @@ msgstr "闪亮的蛋"
 
 #: itemlist_feygard_1.json:clear_egg:description
 msgid "Now, this is strange."
-msgstr "奇怪的东西。"
+msgstr "这真是个奇怪的玩意。"
 
 #: itemlist_feygard_1.json:honey
 msgid "Honey"
@@ -71331,8 +71335,8 @@ msgstr "风暴斗篷袍甲"
 
 #: itemlist_feygard_1.json:stormcloak_armor:description
 msgid "A masterfully crafted heavy armor from the glorious city of Feygard, adorned with a regal blue cape and designed to protect its wearer from the fiercest of battles."
-msgstr "来自辉煌城市费加德的精心制作的重型盔甲，装饰着华丽的蓝色斗篷，旨在保护佩戴者"
-"免受最激烈的战斗伤害。"
+msgstr "这件重甲乃是出自荣耀之城费加德的大师之作，饰配着华丽的蓝色斗篷，旨在于最激烈"
+"的战斗中保护穿戴者。"
 
 #: itemlist_feygard_1.json:mysterious_coin
 msgid "Mysterious coin"
@@ -71340,15 +71344,15 @@ msgstr "神秘硬币"
 
 #: itemlist_feygard_1.json:mysterious_coin:description
 msgid "Glows faintly in the dark and has runes that change patterns."
-msgstr "在黑暗中微弱发光，并有改变图案的符文。"
+msgstr "在暗中发着微光，上面的符文时刻都在自身变换着。"
 
 #: itemlist_feygard_1.json:circlet_clarity
 msgid "Circlet of clarity"
-msgstr "清醒圆环"
+msgstr "清醒之环"
 
 #: itemlist_feygard_1.json:circlet_clarity:description
 msgid "An ancient artifact that shields the wearer from mental afflictions, offering protection and peace of mind."
-msgstr "一种古老的神器，可以保护佩戴者免受精神痛苦，提供保护和安心。"
+msgstr "一件古老的造物，可以保护佩戴者免受精神上的痛苦，宁心而又养神。"
 
 #: itemlist_feygard_1.json:feydelight
 msgid "Feydelight"
@@ -71356,8 +71360,8 @@ msgstr "费德尔莱特"
 
 #: itemlist_feygard_1.json:feydelight:description
 msgid "A popular, but rare, holiday Feygardian treat filled with fig fruit. It provides a rush of sweetness and has been known to cause a burst of energy."
-msgstr "一种流行但罕见的节日费加德美食，里面装满了无花果。它提供了一种甜味，并且已知"
-"会引起能量的爆发。"
+msgstr "一种广受欢迎却又难得少见的费加德节日美食，里面塞满了无花果。食入口中后会有一"
+"股极致的甜味喷涌而现，从而引起一波能量的爆发。"
 
 #: itemlist_feygard_1.json:fig_fruit
 msgid "Fig"
@@ -71994,7 +71998,7 @@ msgstr "扒手"
 
 #: monsterlist_v068_npcs.json:troublemaker
 msgid "Troublemaker"
-msgstr "麻烦精"
+msgstr "捣蛋鬼"
 
 #: monsterlist_v068_npcs.json:farrik
 msgid "Farrik"
@@ -76284,31 +76288,31 @@ msgstr "扎克松战士头目"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster1
 msgid "Wobbling foggerlump"
-msgstr "抖颤喷雾怪"
+msgstr "抖颤喷雾魔"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster2
 msgid "Icy foggerlump"
-msgstr "刺骨喷雾怪"
+msgstr "刺骨喷雾魔"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster3
 msgid "Wet foggerlump"
-msgstr "潮湿喷雾怪"
+msgstr "湿漉喷雾魔"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster4
 msgid "Dizzy foggerlump"
-msgstr "眩目喷雾怪"
+msgstr "眩目喷雾魔"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster5
 msgid "Dense foggerlump"
-msgstr "厚实喷雾怪"
+msgstr "厚实喷雾魔"
 
 #: monsterlist_feygard_1.json:feygard_fogmonster9
 msgid "Shiny Foggerlump"
-msgstr "闪光喷雾怪"
+msgstr "闪光喷雾魔"
 
 #: monsterlist_feygard_1.json:feygard_offering_guard
 msgid "Honor Guard"
-msgstr "荣耀守卫"
+msgstr "仪卫"
 
 #: monsterlist_feygard_1.json:godoe1
 #: monsterlist_feygard_1.json:godoe2
@@ -76395,7 +76399,7 @@ msgstr "西奥博德"
 #: monsterlist_feygard_1.json:troll_hollow_theodora
 #: monsterlist_feygard_1.json:village_theodora
 msgid "Theodora"
-msgstr "狄奥多拉"
+msgstr "西奥朵菈"
 
 #: monsterlist_feygard_1.json:well_voice
 msgid "Unknown well voice"
@@ -82302,43 +82306,43 @@ msgstr "维克斯罗村的众人现在重返了家园，我也拜访了他们。
 
 #: questlist_feygard_1.json:feygard_delicacy
 msgid "A Feygard delicacy"
-msgstr "费加德美食"
+msgstr "费都美食"
 
 #: questlist_feygard_1.json:feygard_delicacy:1
 msgid "Philippa, one of the lovely Feygard loyalist ladies from Wexlow that I rescued from Gamjee the troll has informed me that she is a master baker."
-msgstr "菲利帕是我从巨魔甘吉手中救出的来自维克斯罗的可爱的费加德忠诚女士之一，她告诉"
-"我她是一位烘焙大师。"
+msgstr "我从巨魔甘吉手中拯救的众人中有一名叫做费莉帕的忠于费加德的优雅女士，她告诉我"
+"她是一位顶级面包师。"
 
 #: questlist_feygard_1.json:feygard_delicacy:2
 msgid "Philippa has educated me about what a \"Feydelight\" is."
-msgstr "菲利帕教会了我什么是“费德尔莱特”。"
+msgstr "费莉帕向我科普了“费乐派”是什么。"
 
 #: questlist_feygard_1.json:feygard_delicacy:3
 msgid "In return for my helping to rescue Philippa, she's stated that she could make a \"Feydelight\" for me if I provide her with all of the ingredients necessary to bake one."
-msgstr "作为对我帮助营救菲利帕的回报，她表示，如果我为她提供烘焙一个所需的所有食材，"
-"她可以为我制作一个“费德尔莱特”。"
+msgstr "为了回馈我救出她的帮助，费莉帕表示：如果我能为她找来所有所需的配料，她可以为"
+"我制作一个“费乐派”。"
 
 #: questlist_feygard_1.json:feygard_delicacy:4
 msgid "I need to find dough, two eggs, wine, butter, honey and five Feygard fig fruits. I can find the figs in Feygard, but maybe I could find some along the Duleian Road too?"
-msgstr "我需要找面团、两个鸡蛋、葡萄酒、黄油、蜂蜜和五个费加德无花果。我可以在费加德"
-"找到无花果，但也许我也可以在杜莱恩路上找到一些？"
+msgstr "我需要找齐面团、两个鸡蛋、葡萄酒、黄油、蜂蜜以及五个费加德无花果。我可以在费"
+"加德找到无花果，但杜莱恩路上或许也行？"
 
 #: questlist_feygard_1.json:feygard_delicacy:5
 msgid "She told me that I can find the dough in Brightport or Feygard, but I could find a baker in just about any town."
-msgstr "她告诉我，我可以在布莱特口岸或费加德找到面团，但我几乎可以在任何城镇找到面包"
-"师。"
+msgstr "她告诉我，我可以在布莱特口岸或者费加德找到面团，不过我也可以到某些城镇中的面"
+"包师那里去试试。"
 
 #: questlist_feygard_1.json:feygard_delicacy:6
 msgid "Philippa told me that I can get honey from a beekeeper. But where to find one?"
-msgstr "菲利帕告诉我，我可以从养蜂人那里得到蜂蜜。但是在哪里可以找到呢？"
+msgstr "费莉帕告诉我，我可以从养蜂人那里获取蜂蜜，但养蜂人又在哪里呢？"
 
 #: questlist_feygard_1.json:feygard_delicacy:7
 msgid "I gave Philippa all the ingredients needed to bake the Feydelight. Now I just need to come back later."
-msgstr "我给了菲利帕烤费德尔莱特所需的所有配料。现在我只需要稍后回来。"
+msgstr "我把制作费乐派所需的所有材料都带回给了费莉帕，现在我只需稍作等待就行。"
 
 #: questlist_feygard_1.json:feygard_delicacy:8
 msgid "I have received my Feydelight from Philippa. "
-msgstr "我收到了菲利帕的费德尔莱特。 "
+msgstr "我收到了费莉帕所烘烤的费乐派。 "
 
 #: questlist_lytwings.json:fallhaven_lytwings
 msgid "It's knot funny"
