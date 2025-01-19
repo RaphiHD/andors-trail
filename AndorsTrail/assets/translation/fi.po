@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-19 10:48+0000\n"
+"PO-Revision-Date: 2025-01-19 10:59+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/fi/>\n"
@@ -90,19 +90,19 @@ msgstr "Rakkuloittava iho"
 
 #: actorconditions_v0611.json:stunned
 msgid "Stunned"
-msgstr ""
+msgstr "Järkyttynyt"
 
 #: actorconditions_v0611.json:focus_dmg
 msgid "Focused damage"
-msgstr ""
+msgstr "Kohdistunut vahinko"
 
 #: actorconditions_v0611.json:focus_ac
 msgid "Focused accuracy"
-msgstr ""
+msgstr "Kohdistunut tarkkuus"
 
 #: actorconditions_v0611.json:poison_irdegh
 msgid "Irdegh poison"
-msgstr ""
+msgstr "Irdeghin myrkky"
 
 #: actorconditions_v0611_2.json:rotworm
 msgid "Kazaul rotworms"
@@ -110,7 +110,7 @@ msgstr ""
 
 #: actorconditions_v0611_2.json:shadowbless_str
 msgid "Blessing of Shadow strength"
-msgstr ""
+msgstr "Varjojen voiman siunaus"
 
 #: actorconditions_v0611_2.json:shadowbless_heal
 msgid "Blessing of Shadow regeneration"
@@ -126,19 +126,19 @@ msgstr ""
 
 #: actorconditions_v0611_2.json:crit1
 msgid "Internal bleeding"
-msgstr ""
+msgstr "Sisäinen verenvuoto"
 
 #: actorconditions_v0611_2.json:crit2
 msgid "Fracture"
-msgstr ""
+msgstr "Murtuma"
 
 #: actorconditions_v0611_2.json:concussion
 msgid "Concussion"
-msgstr ""
+msgstr "Aivotärähdys"
 
 #: actorconditions_v0612_2.json:food
 msgid "Sustenance"
-msgstr ""
+msgstr "Ravinto"
 
 #: actorconditions_v0612_2.json:foodp
 msgid "Food-poisoning"
@@ -70306,7 +70306,7 @@ msgstr "Oromir"
 
 #: monsterlist_crossglen_npcs.json:odair
 msgid "Odair"
-msgstr ""
+msgstr "Odair"
 
 #: monsterlist_crossglen_npcs.json:jan
 #: monsterlist_stoutford.json:stoutford_farmer_jan
