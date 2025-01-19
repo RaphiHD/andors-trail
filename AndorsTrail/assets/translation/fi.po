@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-19 11:00+0000\n"
+"PO-Revision-Date: 2025-01-20 09:20+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/fi/>\n"
@@ -150,11 +150,11 @@ msgstr "Syövyttävää limaa"
 
 #: actorconditions_v070.json:sense_1
 msgid "Heightened senses"
-msgstr ""
+msgstr "Kohonneet aistit"
 
 #: actorconditions_v070.json:courage
 msgid "Courage"
-msgstr ""
+msgstr "Rohkeus"
 
 #: actorconditions_v070.json:fear
 msgid "Fear"
@@ -162,11 +162,11 @@ msgstr "Pelko"
 
 #: actorconditions_v070.json:def
 msgid "Fortified defense"
-msgstr ""
+msgstr "Vahvistettu puolustus"
 
 #: actorconditions_v070.json:crit_aware
 msgid "Vulnerability awareness"
-msgstr ""
+msgstr "Haavoittuvuuden tietoisuus"
 
 #: actorconditions_v070.json:regen2
 msgid "Regeneration"
@@ -202,87 +202,87 @@ msgstr ""
 
 #: actorconditions_stoutford.json:confusion
 msgid "Confusion"
-msgstr ""
+msgstr "Hämmennys"
 
 #: actorconditions_stoutford.json:clumsiness
 msgid "Clumsiness"
-msgstr ""
+msgstr "Kömpelyys"
 
 #: actorconditions_stoutford.json:curse_undead
 msgid "Curse of the Undead"
-msgstr ""
+msgstr "Ei-kuolleen kirous"
 
 #: actorconditions_graveyard1.json:contagion2
 msgid "Spore contagion"
-msgstr ""
+msgstr "Itiötartunta"
 
 #: actorconditions_graveyard1.json:petrification
 msgid "Petrification"
-msgstr ""
+msgstr "Jäykistyminen"
 
 #: actorconditions_graveyard1.json:vulnerability
 msgid "Vulnerability"
-msgstr ""
+msgstr "Haavoittuvuus"
 
 #: actorconditions_graveyard1.json:flesh_rot
 msgid "Flesh rot"
-msgstr ""
+msgstr "Liha mätää"
 
 #: actorconditions_graveyard1.json:putrefaction
 msgid "Putrefaction"
-msgstr ""
+msgstr "Mätäneminen"
 
 #: actorconditions_guynmart.json:regenNeg
 msgid "Shadow Degeneration"
-msgstr ""
+msgstr "Varjojen rappeuma"
 
 #: actorconditions_guynmart.json:bone_fracture
 msgid "Bone fracture"
-msgstr ""
+msgstr "Luun murtuma"
 
 #: actorconditions_guynmart.json:shadow_awareness
 msgid "Shadow awareness"
-msgstr ""
+msgstr "Varjojen tietoisuus"
 
 #: actorconditions_trader_teksin.json:poison_irdegh_weak
 msgid "Weak irdegh poison"
-msgstr ""
+msgstr "Heikko irdeghin myrkky"
 
 #: actorconditions_trader_teksin.json:light_attack
 msgid "Lightning attack"
-msgstr ""
+msgstr "Salamahyökkäys"
 
 #: actorconditions_stoutford_combined.json:nausea
 msgid "Nausea"
-msgstr ""
+msgstr "Pahoinvointi"
 
 #: actorconditions_stoutford_combined.json:poison_blood
 msgid "Blood poisoning"
-msgstr ""
+msgstr "Verenmyrkytys"
 
 #: actorconditions_stoutford_combined.json:deftness
 msgid "Deftness"
-msgstr ""
+msgstr "Näppäryys"
 
 #: actorconditions_stoutford_combined.json:tight_grip
 msgid "Tight grip"
-msgstr ""
+msgstr "Tiukka ote"
 
 #: actorconditions_stoutford_combined.json:clairvoyance
 msgid "Clairvoyance"
-msgstr ""
+msgstr "Selvänäköisyys"
 
 #: actorconditions_stoutford_combined.json:mind_fog
 msgid "Mind fog"
-msgstr ""
+msgstr "Mielen sumu"
 
 #: actorconditions_omicronrg9.json:guild03_restingAC
 msgid "Resting"
-msgstr ""
+msgstr "Lepäämässä"
 
 #: actorconditions_omicronrg9.json:g03_concentration
 msgid "Concentration"
-msgstr ""
+msgstr "Keskittyminen"
 
 #: actorconditions_omicronrg9.json:g03_combo
 msgid "Combo"
@@ -294,258 +294,271 @@ msgstr ""
 
 #: actorconditions_arulir_mountain.json:crushed
 msgid "Crushed"
-msgstr ""
+msgstr "Murskattu"
 
 #: actorconditions_arulir_mountain.json:head_wound
 msgid "Head wound"
-msgstr ""
+msgstr "Pään haava"
 
 #: actorconditions_arulir_mountain.json:mermaid_scale
 msgid "Mermaid curse"
-msgstr ""
+msgstr "Merenneidon kirous"
 
 #: actorconditions_arulir_mountain.json:increased_defense
 msgid "Increased defense"
-msgstr ""
+msgstr "Lisääntynyt puolustus"
 
 #: actorconditions_brimhaven.json:drowning
 msgid "Drowning"
-msgstr ""
+msgstr "Hukkuminen"
 
 #: actorconditions_brimhaven.json:entanglement
 msgid "Entanglement"
-msgstr ""
+msgstr "Kietoutuminen"
 
 #: actorconditions_brimhaven.json:fatigue1
 #: actorconditions_brimhaven.json:fatigue2
 #: actorconditions_brimhaven.json:fatigue3
 #: actorconditions_brimhaven.json:fatigue4
 msgid "Fatigue"
-msgstr ""
+msgstr "Väsymys"
 
 #: actorconditions_brimhaven.json:turn_to_stone
 msgid "Turning to stone"
-msgstr ""
+msgstr "Kiveksi muuttuminen"
 
 #: actorconditions_brimhaven.json:stoneskin
 msgid "Stone skin"
-msgstr ""
+msgstr "Kivinen iho"
 
 #: actorconditions_brimhaven.json:overeating
 msgid "Overeating"
-msgstr ""
+msgstr "Liika syöminen"
 
 #: actorconditions_brimhaven.json:venom
 msgid "Venom"
-msgstr ""
+msgstr "Myrkky"
 
 #: actorconditions_fungi_panic.json:spore_poison
 msgid "Spore poisoning"
-msgstr ""
+msgstr "Itiömyrkytys"
 
 #: actorconditions_gison.json:reinvigorated
 msgid "Reinvigorated"
-msgstr ""
+msgstr "Elvytetty"
 
 #: actorconditions_gison.json:sated
 msgid "Sated"
-msgstr ""
+msgstr "Kylläinen"
 
 #: actorconditions_omi2.json:panic
 msgid "Panic"
-msgstr ""
+msgstr "Paniikki"
 
 #: actorconditions_omi2.json:satiety
 msgid "Satiety"
-msgstr ""
+msgstr "Kylläisyys"
 
 #: actorconditions_omi2.json:frozen1
 msgid "Minor freeze"
-msgstr ""
+msgstr "Pientä jäätymistä"
 
 #: actorconditions_omi2.json:frozen2
 msgid "Icy wounds"
-msgstr ""
+msgstr "Jäiset haavat"
 
 #: actorconditions_omi2.json:relax
 msgid "Requiescence"
-msgstr ""
+msgstr "Vaatimus"
 
 #: actorconditions_omi2.json:kazarite_misery
 msgid "Kazaul possession"
-msgstr ""
+msgstr "Kazaulin hallussa"
 
 #: actorconditions_haunted_forest.json:death_plague
 msgid "Death Plague"
-msgstr ""
+msgstr "Kuoleman rutto"
 
 #: actorconditions_haunted_forest.json:sleepwalking
 msgid "Sleepwalking"
-msgstr ""
+msgstr "Unissakävely"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "Feygardin uskollinen"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr ""
+msgstr "Juuren virveli"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "Raivotauti"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "Paha maku"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr ""
+msgstr "Jano"
 
 #: actorconditions_laeroth.json:swift_attack
 msgid "Swift attack"
-msgstr ""
+msgstr "Pikainen hyökkäys"
 
 #: actorconditions_laeroth.json:blindness
 msgid "Blindness"
-msgstr ""
+msgstr "Sokeus"
 
 #: actorconditions_laeroth.json:life_drain
 msgid "Life drain"
-msgstr ""
+msgstr "Elämän uupumus"
 
 #: actorconditions_laeroth.json:sting_major
 msgid "Major sting"
-msgstr ""
+msgstr "Merkittävä pisto"
 
 #: actorconditions_laeroth.json:spider_bite
 msgid "Spider bite"
-msgstr ""
+msgstr "Hämähäkin purema"
 
 #: actorconditions_laeroth.json:environmental_poisoning
 msgid "Environmental poisoning"
-msgstr ""
+msgstr "Ympäristömyrkytys"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
-msgstr ""
+msgstr "Makean hammas"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
-msgstr ""
+msgstr "Pientä lisätty puolustusta"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
-msgstr ""
+msgstr "Elytharan virvokkeita"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
-msgstr ""
+msgstr "Likoinen näkö"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
-msgstr ""
+msgstr "Voi hyvä, olet hereillä."
 
 #: conversationlist_mikhail.json:mikhail_visited
 msgid "I can't seem to find your brother Andor anywhere. He hasn't been back since he left yesterday."
 msgstr ""
+"En näytä löytävän veljeäsi Andoria mistään. Hän ei ole palannut eilisen "
+"lähdön jälkeen."
 
 #: conversationlist_mikhail.json:mikhail3
 msgid "Never mind, he will probably be back soon."
-msgstr ""
+msgstr "Älä välitä, hän tulee todennäköisesti takaisin pian."
 
 #: conversationlist_mikhail.json:mikhail_default
 #: conversationlist_crossglen_leonid.json:leonid_continue
 #: conversationlist_umar.json:umar_return_2
 msgid "Anything else I can help you with?"
-msgstr ""
+msgstr "Voinko auttaa sinua muussa?"
 
 #: conversationlist_mikhail.json:mikhail_default:0
 #: conversationlist_mikhail.json:mikhail_default:1
 #: conversationlist_mikhail.json:mikhail_default:2
 msgid "Do you have any more tasks for me?"
-msgstr ""
+msgstr "Onko sinulla minulle muita tehtäviä?"
 
 #: conversationlist_mikhail.json:mikhail_default:3
 #: conversationlist_umar.json:umar_return_1:0
 #: conversationlist_umar.json:umar_return_1:8
 msgid "Do you have any tasks for me?"
-msgstr ""
+msgstr "Onko sinulla minulle tehtäviä?"
 
 #: conversationlist_mikhail.json:mikhail_default:4
 msgid "Is there anything else you can tell me about Andor?"
-msgstr ""
+msgstr "Voitko kertoa Andorista vielä jotain?"
 
 #: conversationlist_mikhail.json:mikhail_default:5
 #: conversationlist_mikhail.json:mikhail_default:6
 msgid "I have a present for you."
-msgstr ""
+msgstr "Minulla on sinulle lahja."
 
 #: conversationlist_mikhail.json:mikhail_default:7
 msgid "I was searching for Andor."
-msgstr ""
+msgstr "Olin etsimässä Andoria."
 
 #: conversationlist_mikhail.json:mikhail_default:8
 msgid "What kind of book is it that you have in your hand?"
-msgstr ""
+msgstr "Millainen kirja sinulla on kädessäsi?"
 
 #: conversationlist_mikhail.json:mikhail_default:9
 msgid "Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?"
 msgstr ""
+"Kyllä, olen täällä toimittamaan \"Pehmotyynyn\" tilauksen. Mutta mitä varten?"
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
 msgstr ""
+"Voi kyllä, oli joitain asioita, joissa tarvitsen apua, leipä ja rotat. "
+"Kummasta haluaisit keskustella?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:0
 #: conversationlist_mikhail.json:mikhail_rats_done:0
 msgid "What about the bread?"
-msgstr ""
+msgstr "Entä leipä?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:1
 #: conversationlist_mikhail.json:mikhail_bread_done:0
 msgid "What about the rats?"
-msgstr ""
+msgstr "Entä rotat?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:2
 #: conversationlist_mikhail.json:mikhail_bread_done:1
 #: conversationlist_mikhail.json:mikhail_rats_done:1
 #: conversationlist_mikhail.json:mikhail_all_tasks_done:0
 msgid "Never mind, let's talk about the other things."
-msgstr ""
+msgstr "Ei se haittaa, puhutaanpa muista asioista."
 
 #: conversationlist_mikhail.json:mikhail_bread_done
 msgid "Thanks for getting me the bread. There are still the rats."
-msgstr ""
+msgstr "Kiitos, että hankit minulle leivän. Siellä on vielä rotat."
 
 #: conversationlist_mikhail.json:mikhail_rats_done
 msgid "Thanks for taking care of the rats. I'd still love some bread."
-msgstr ""
+msgstr "Kiitos rotista huolehtimisesta. Haluaisin silti leipää."
 
 #: conversationlist_mikhail.json:mikhail_all_tasks_done
 msgid "Not for now. Thanks for taking care of the bread and rats."
-msgstr ""
+msgstr "Ei toistaiseksi. Kiitos leivästä ja rotista huolehtimisesta."
 
 #: conversationlist_mikhail.json:mikhail_andor1
 msgid "As I said, Andor went out and hasn't been back since. I worry about him. Please go look for your brother. He said he would only be out for a short while."
 msgstr ""
+"Kuten sanoin, Andor meni ulos, eikä ole palannut sen jälkeen. Olen "
+"huolissani hänestä. Ole hyvä ja mene etsimään veljeäsi. Hän sanoi olevansa "
+"ulkona vain hetken."
 
 #: conversationlist_mikhail.json:mikhail_andor2
 msgid "Maybe he went into that supply cave again and got stuck. Or maybe he's in Leta's basement training with that wooden sword again. Please go look for him in town."
 msgstr ""
+"Ehkä hän meni uudelleen tuohon tarjontaluolaan ja jäi jumiin. Tai ehkä hän "
+"on taas Letan kellarissa harjoittelemassa tuon puumiekan kanssa. Ole hyvä ja "
+"mene etsimään häntä kaupungista."
 
 #: conversationlist_mikhail.json:mikhail_bread_start
 msgid "Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread."
 msgstr ""
+"Ai, melkein unohdin. Jos sinulla on aikaa, käy katsomassa Maraa "
+"kaupungintalolla ja osta minulle lisää leipää."
 
 #: conversationlist_mikhail.json:mikhail_bread_continue
 msgid "Did you get my bread from Mara at the town hall yet?"
-msgstr ""
+msgstr "Saitko vielä leiväni Maralta kaupungintalolla?"
 
 #: conversationlist_mikhail.json:mikhail_bread_continue:0
 msgid "Yes, here you go."
-msgstr ""
+msgstr "Kyllä, ole hyvä."
 
 #: conversationlist_mikhail.json:mikhail_bread_continue:1
 #: conversationlist_mikhail.json:mikhail_rats_continue:1
@@ -581,15 +594,17 @@ msgstr ""
 #: conversationlist_fungi_panic.json:zuul_khan_115:0
 #: conversationlist_bwmfill.json:tunlon_prog_12:0
 msgid "No, not yet."
-msgstr ""
+msgstr "Ei, ei vielä."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete
 msgid "Thanks a lot, now I can make my breakfast. Here, take these coins for your help."
 msgstr ""
+"Kiitos paljon, nyt voin valmistaa aamiaiseni. Tässä, ota nämä kolikot "
+"avuksesi."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete2
 msgid "Thanks for the bread earlier."
-msgstr ""
+msgstr "Kiitos leivästä etukäteen."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete2:0
 #: conversationlist_charwood1.json:khorailla1:2
@@ -603,43 +618,53 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_hadena_7:1
 #: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
-msgstr ""
+msgstr "Eipä kestä."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
 msgstr ""
+"Näin muutaman rotan puutarhassamme aiemmin. Voisitko ystävällisesti mennä "
+"tappamaan kaikki siellä näkemäsi rotat?"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
-msgstr ""
+msgstr "Olen jo ollut tekemisissä rottien kanssa."
 
 #: conversationlist_mikhail.json:mikhail_rats_start:1
 msgid "OK, I'll go check out in our garden."
-msgstr ""
+msgstr "Selvä, menen katsomaan puutarhaamme."
 
 #: conversationlist_mikhail.json:mikhail_rats_start2
 msgid "If you get hurt by the rats, come back here and rest in your bed. That way you can regain your strength."
 msgstr ""
+"Jos satut rotista, tule takaisin tänne ja lepää sängyssäsi. Näin voit saada "
+"voimasi takaisin."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3
 msgid "Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it."
 msgstr ""
+"Muista myös tarkistaa varastosi. Sinulla on luultavasti vieläkin se vanha "
+"sormus, jonka annoin sinulle. Varmista, että käytät sitä."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3:0
 msgid "OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items."
 msgstr ""
+"Hyvä on, ymmärrän. Voin levätä täällä, jos satun, ja minun pitäisi tarkistaa "
+"varastostani hyödyllisiä tavaroita."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
 msgstr ""
+"Vielä yksi asia: katso sitä koria lattialla. Se kuuluu Andorille ja hän on "
+"saattanut jättää jotain hyödyllistä sisälle."
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
-msgstr ""
+msgstr "Tapoitko nuo kaksi rottaa puutarhassamme?"
 
 #: conversationlist_mikhail.json:mikhail_rats_continue:0
 msgid "Yes, I have dealt with the rats now."
-msgstr ""
+msgstr "Kyllä, olen nyt ollut tekemisissä rottien kanssa."
 
 #: conversationlist_mikhail.json:mikhail_rats_complete
 msgid ""
@@ -647,6 +672,11 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
+"Ah teitkö? Vau, kiitos paljon avustasi! Ota Andorin harjoituskilpi - tulet "
+"tarvitsemaan sitä.\n"
+"\n"
+"Jos olet loukkaantunut, käytä sänkyäsi siellä lepäämään ja palauttamaan "
+"voimasi."
 
 #: conversationlist_mikhail.json:mikhail_rats_complete2
 msgid ""
@@ -654,48 +684,61 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
+"Kiitos avustanne rottien kanssa aikaisemmin.\n"
+"\n"
+"Jos olet loukkaantunut, käytä sänkyäsi siellä lepäämään ja palauttamaan "
+"voimasi."
 
 #: conversationlist_mikhail.json:mikhail_achievements_10
 msgid "Just like my father once did, I want to give you a book to take with you on your way."
 msgstr ""
+"Aivan kuten isäni kerran teki, haluan antaa sinulle kirjan ottaaksesi "
+"mukaasi matkallesi."
 
 #: conversationlist_mikhail.json:mikhail_achievements_20
 msgid "This book is some kind of diary, in which you can record unusual experiences and achievements that you may have on your way."
 msgstr ""
+"Tämä kirja on eräänlainen päiväkirja, johon voit tallentaa epätavallisia "
+"kokemuksia ja saavutuksia, joita sinulla saattaa olla matkallasi."
 
 #: conversationlist_mikhail.json:mikhail_achievements_30
 msgid "Would you like to have it?"
-msgstr ""
+msgstr "Haluatko saada sen?"
 
 #: conversationlist_mikhail.json:mikhail_achievements_30:0
 msgid "Yes, sounds great."
-msgstr ""
+msgstr "Kyllä, kuulostaa mahtavalta."
 
 #: conversationlist_mikhail.json:mikhail_achievements_30:1
 msgid "No, thanks."
-msgstr ""
+msgstr "Ei, kiitos."
 
 #: conversationlist_mikhail.json:mikhail_achievements_40
 msgid "No problem. I won't bother you with it again."
-msgstr ""
+msgstr "Ei hätää. En vaivaa sinua sillä enää."
 
 #: conversationlist_mikhail.json:mikhail_achievements_50
 #: conversationlist_stoutford_combined.json:stn_colonel_34
 #: conversationlist_ratdom_npc.json:ratdom_audir_2
 msgid "Here you are."
-msgstr ""
+msgstr "Tässä olet."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2a
 msgid "Another way to regain your strength is to eat some food. You can buy some for yourself from Mara at the town hall. But watch out - I hear that raw meat can sometimes give you food poisoning."
 msgstr ""
+"Toinen tapa saada voimasi takaisin on syödä jotain. Voit ostaa itsellesi "
+"Maralta kaupungintalolla. Mutta varo - olen kuullut, että raaka liha voi "
+"joskus aiheuttaa ruokamyrkytyksen."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
 msgstr ""
+"Jos näin tapahtuu, ehkä kaupungin pappi voi tehdä jotain auttaakseen sinua. "
+"Muussa tapauksessa lepää vain, kunnes tunnet olosi paremmaksi."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
-msgstr ""
+msgstr "Minulla ei ole varaa lihaan, joten pysyn vain leivässäni!"
 
 #: conversationlist_crossglen.json:audir1
 msgid ""
@@ -703,14 +746,17 @@ msgid ""
 "\n"
 "Please browse my selection of fine wares."
 msgstr ""
+"Tervetuloa myymälääni!\n"
+"\n"
+"Selaa hienovarastovalikoimaani."
 
 #: conversationlist_crossglen.json:audir1:0
 msgid "Please show me your wares."
-msgstr ""
+msgstr "Ole hyvä ja näytä minulle tavarasi."
 
 #: conversationlist_crossglen.json:audir1:1
 msgid "Do you have a pickaxe by chance?"
-msgstr ""
+msgstr "Onko sinulla sattumalta hakku?"
 
 #: conversationlist_crossglen.json:arambold1
 msgid ""
@@ -718,6 +764,10 @@ msgid ""
 "\n"
 "Someone should do something about them."
 msgstr ""
+"Voi voi, saanko koskaan nukuttua niiden juoppojen kanssa, jotka laulavat "
+"noin?\n"
+"\n"
+"Jonkun pitäisi tehdä niille jotain."
 
 #: conversationlist_crossglen.json:arambold1:0
 #: conversationlist_lodar.json:lodar_d1:9
@@ -725,7 +775,7 @@ msgstr ""
 #: conversationlist_maevalia.json:maevalia_h2:0
 #: conversationlist_maevalia.json:maevalia_d1:0
 msgid "Can I rest here?"
-msgstr ""
+msgstr "Voinko levätä täällä?"
 
 #: conversationlist_crossglen.json:arambold1:1
 #: conversationlist_crossglen.json:mara_default:0
@@ -762,7 +812,7 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:whootibarfag_24:1
 #: conversationlist_ratdom_npc.json:whootibarfag_74:1
 msgid "Do you have anything to trade?"
-msgstr ""
+msgstr "Onko sinulla jotain kauppaa?"
 
 #: conversationlist_crossglen.json:arambold2
 msgid ""
@@ -770,6 +820,9 @@ msgid ""
 "\n"
 "Pick any bed you want."
 msgstr ""
+"Toki poika, voit levätä täällä.\n"
+"\n"
+"Valitse mikä tahansa sänky, jonka haluat."
 
 #: conversationlist_crossglen.json:arambold2:0
 #: conversationlist_crossglen_gruil.json:gruil_andor3:0
@@ -781,7 +834,7 @@ msgstr ""
 #: conversationlist_vilegard_villagers.json:vilegard_villager_friend_1:0
 #: conversationlist_omi2.json:arghest_15:0
 msgid "Thanks, bye."
-msgstr ""
+msgstr "Kiitos, heippa."
 
 #: conversationlist_crossglen.json:drunk1
 msgid ""
@@ -790,6 +843,10 @@ msgid ""
 "\n"
 "Hey kid, wanna join us in our drinking game?"
 msgstr ""
+"Juo juo juo, juo lisää.\n"
+"Juo juo juo kunnes olet lattialla.\n"
+"\n"
+"Hei lapsi, haluatko liittyä juomapeliimme?"
 
 #: conversationlist_crossglen.json:drunk1:0
 #: conversationlist_crossglen_odair.json:odair4:2
@@ -799,14 +856,14 @@ msgstr ""
 #: conversationlist_guynmart2_npc.json:guynmart_rob6_10:1
 #: conversationlist_brimhaven.json:arlish_0:1
 msgid "No thanks."
-msgstr ""
+msgstr "Ei, kiitos."
 
 #: conversationlist_crossglen.json:drunk1:1
 #: conversationlist_crossglen.json:drunk1a:0
 #: conversationlist_rothses.json:rothses_c2:2
 #: conversationlist_omi2.json:ortholion_guard9_10b:1
 msgid "Maybe some other time."
-msgstr ""
+msgstr "Ehkä joku toinen kerta."
 
 #: conversationlist_crossglen.json:mara_default
 msgid ""
@@ -814,18 +871,23 @@ msgid ""
 "\n"
 "Want something to eat?"
 msgstr ""
+"Älä välitä noista humalaisista miehistä, he aiheuttavat aina häiriötä.\n"
+"\n"
+"Haluatko jotain syötävää?"
 
 #: conversationlist_crossglen.json:mara_thanks
 msgid "I heard you helped Odair clean out that old supply cave. Thanks a lot, we'll start using it soon."
 msgstr ""
+"Kuulin, että autoit Odairia siivoamaan vanhan tarjontaluolan. Kiitos paljon, "
+"alamme käyttää sitä pian."
 
 #: conversationlist_crossglen.json:mara_thanks:0
 msgid "It was my pleasure."
-msgstr ""
+msgstr "Se oli iloni."
 
 #: conversationlist_crossglen.json:farm1
 msgid "Please do not disturb me, I have work to do."
-msgstr ""
+msgstr "Älä häiritse minua, minulla on työtä tehtävänä."
 
 #: conversationlist_crossglen.json:farm1:0
 #: conversationlist_crossglen.json:farm2:0
@@ -840,15 +902,15 @@ msgstr ""
 #: conversationlist_stoutford.json:stoutford_gateguard_0:2
 #: conversationlist_stoutford.json:kayla_1:1
 msgid "Have you seen my brother Andor?"
-msgstr ""
+msgstr "Oletko nähnyt veljeni Andoria?"
 
 #: conversationlist_crossglen.json:farm2
 msgid "What?! Can't you see I'm busy? Go bother someone else."
-msgstr ""
+msgstr "Mitä?! Etkö näe, että olen kiireinen? Mene häiritsemään jotakuta muuta."
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
-msgstr ""
+msgstr "Andor? Ei, en ole nähnyt häntä lähiaikoina."
 
 #: conversationlist_crossglen.json:snakemaster
 msgid ""
@@ -856,57 +918,63 @@ msgid ""
 "\n"
 "Now prepare to die, puny creature."
 msgstr ""
+"No, mitä meillä täällä on? Vierailija, kuinka mukavaa. Olen vaikuttunut, "
+"että olet päässyt näin pitkälle kaikkien kätyrieni kautta.\n"
+"\n"
+"Valmistaudu nyt kuolemaan, pikku olento."
 
 #: conversationlist_crossglen.json:snakemaster:0
 msgid "Great, I have been waiting for a fight!"
-msgstr ""
+msgstr "Hienoa, olen odottanut taistelua!"
 
 #: conversationlist_crossglen.json:snakemaster:1
 msgid "Let's see who dies here."
-msgstr ""
+msgstr "Katsotaan kuka täällä kuolee."
 
 #: conversationlist_crossglen.json:snakemaster:2
 #: conversationlist_maelveon.json:maelveon_5:2
 #: conversationlist_loneford_2.json:landa_6
 #: conversationlist_lodarfg4.json:lodar_fg4_7:1
 msgid "Please don't hurt me!"
-msgstr ""
+msgstr "Ole kiltti, älä satuta minua!"
 
 #: conversationlist_crossglen.json:haunt
 msgid "Oh mortal, free me from this cursed world!"
-msgstr ""
+msgstr "Oi kuolevainen, vapauta minut tästä kirotuista maailmasta!"
 
 #: conversationlist_crossglen.json:haunt:0
 msgid "Oh, I'll free you from it alright."
-msgstr ""
+msgstr "Voi, minä vapautan sinut siitä, hyvä on."
 
 #: conversationlist_crossglen.json:haunt:1
 msgid "You mean, by killing you?"
-msgstr ""
+msgstr "Tarkoitatko tappamalla sinut?"
 
 #: conversationlist_crossglen.json:drunk1a
 msgid "Heeeey - come on. Don't be such a spoilsport."
-msgstr ""
+msgstr "Heeeey - tule. Älä ole niin pilattava-urheilu."
 
 #: conversationlist_crossglen.json:drunk1a:1
 msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
 msgstr ""
+"No jos todella haluat. Mutta minulla on sinulle uusi ja lopullinen peli. "
+"Tässä, juo tätä. [Anna pullo heikkoa myrkkyä]"
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
-msgstr ""
+msgstr "Oho… [glu glu]"
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
-msgstr ""
+msgstr "Mikä mielenkiintoinen... [glu]"
 
 #: conversationlist_crossglen.json:drunk1d
 msgid "... taste [falls over]"
-msgstr ""
+msgstr "... maku [kaatuu]"
 
 #: conversationlist_crossglen.json:drunk1d:0
 msgid "Yes, really. A unique taste. And final - bye."
-msgstr ""
+msgstr "Kyllä, todella. Ainutlaatuinen maku. Ja lopuksi - heippa."
 
 #: conversationlist_crossglen_gruil.json:gruil1
 msgid ""
@@ -914,46 +982,58 @@ msgid ""
 "\n"
 "Wanna trade?"
 msgstr ""
+"Pst, hei.\n"
+"\n"
+"Haluatko käydä kauppaa?"
 
 #: conversationlist_crossglen_gruil.json:gruil1:0
 msgid "Sure, let's trade."
-msgstr ""
+msgstr "Toki käydään kauppaa."
 
 #: conversationlist_crossglen_gruil.json:gruil1:1
 msgid "I heard that you talked to my brother a while ago."
-msgstr ""
+msgstr "Kuulin, että puhuit veljeni kanssa jokin aika sitten."
 
 #: conversationlist_crossglen_gruil.json:gruil2
 msgid "Your brother? Oh you mean Andor? I might know something, but that information will cost you. Bring me a poison gland from one of those poisonous snakes and maybe I'll tell you."
 msgstr ""
+"Sinun veljesi? Tarkoitatko Andoria? Saatan tietää jotain, mutta se tieto "
+"maksaa sinulle. Tuo minulle myrkkyrauhanen yhdeltä noista myrkyllisistä "
+"käärmeistä, niin ehkä kerron sinulle."
 
 #: conversationlist_crossglen_gruil.json:gruil2:0
 msgid "Here, I have a poison gland for you."
-msgstr ""
+msgstr "Tässä minulla on myrkkyrauhanen sinulle."
 
 #: conversationlist_crossglen_gruil.json:gruil2:1
 msgid "OK, I'll bring one."
-msgstr ""
+msgstr "Hyvä on, tuon yhden."
 
 #: conversationlist_crossglen_gruil.json:gruil_complete
 msgid "Thanks a lot kid. This will do just fine."
-msgstr ""
+msgstr "Kiitos paljon poika. Tämä pärjää hyvin."
 
 #: conversationlist_crossglen_gruil.json:gruil_return
 msgid "Look kid, I already told you."
-msgstr ""
+msgstr "Katso poika, sanoin jo sinulle."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor1
 msgid "I talked to him yesterday. He asked if I knew someone called Umar or something like that. I have no idea who he was talking about."
 msgstr ""
+"Puhuin hänen kanssaan eilen. Hän kysyi, tunsinko jonkun nimeltä Umar tai "
+"jotain vastaavaa. Minulla ei ole aavistustakaan kenestä hän puhui."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor2
 msgid "He seemed really upset about something and left in a hurry. Something about the Thieves' Guild in Fallhaven."
 msgstr ""
+"Hän näytti olevan todella järkyttynyt jostain ja lähti kiireessä. Jotain "
+"Varkaiden kiltasta Fallhavenissa."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor3
 msgid "That's all I know. Maybe you should ask around in Fallhaven. Look for my friend Gaela, he probably knows more."
 msgstr ""
+"Siinä kaikki mitä tiedän. Ehkä sinun pitäisi kysyä Fallhavenista. Etsi "
+"ystäväni Gaela, hän luultavasti tietää enemmän."
 
 #: conversationlist_crossglen_leonid.json:leonid1
 msgid ""
@@ -961,60 +1041,74 @@ msgid ""
 "\n"
 "I'm Leonid, steward of Crossglen village."
 msgstr ""
+"Hei poika. Sinä olet Mikhailin nuorin lapsi, eikö vain? Sen veljesi kanssa.\n"
+"\n"
+"Olen Leonid, Crossglenin kylän taloudenhoitaja."
 
 #: conversationlist_crossglen_leonid.json:leonid1:1
 #: conversationlist_crossglen_leonid.json:leonid_continue:1
 msgid "What can you tell me about Crossglen?"
-msgstr ""
+msgstr "Mitä voit kertoa minulle Crossglenista?"
 
 #: conversationlist_crossglen_leonid.json:leonid1:2
 #: conversationlist_crossglen_leonid.json:leonid_continue:2
 msgid "Never mind, see you later."
-msgstr ""
+msgstr "Ei hätää, nähdään myöhemmin."
 
 #: conversationlist_crossglen_leonid.json:leonid_andor
 msgid "Your brother? No, I haven't seen him here today. I think I saw him in here yesterday talking to Gruil. Maybe he knows more?"
 msgstr ""
+"Sinun veljesi? Ei, en ole nähnyt häntä täällä tänään. Luulen, että näin "
+"hänet täällä eilen puhumassa Gruilin kanssa. Ehkä hän tietää enemmän?"
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:0
 msgid "Thanks, I'll go talk to Gruil. There was something more I wanted to talk about."
-msgstr ""
+msgstr "Kiitos, menen puhumaan Gruilin kanssa. Halusin puhua vielä jostain."
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:1
 msgid "Thanks, I'll go talk to Gruil."
-msgstr ""
+msgstr "Kiitos, menen puhumaan Gruilin kanssa."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen
 msgid "As you know, this is Crossglen village. Mostly a farming community."
-msgstr ""
+msgstr "Kuten tiedät, tämä on Crossglenin kylä. Lähinnä maanviljelijäyhteisö."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen1
 msgid "We have Audir with his smithy to the southwest, Leta and her husband's cabin to the west, this town hall here and your father's cabin to the northwest."
 msgstr ""
+"Meillä on Audir hänen pajansa lounaassa, Leta ja hänen miehensä mökki "
+"lännessä, tämä kaupungintalo täällä ja isäsi mökki luoteessa."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2
 msgid "That's pretty much it. We try to live a peaceful life."
-msgstr ""
+msgstr "Siinä se aika pitkälti. Pyrimme elämään rauhallista elämää."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:0
 msgid "Has there been any recent activity in the village?"
-msgstr ""
+msgstr "Onko kylässä viime aikoina tapahtunut toimintaa?"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:1
 msgid "Let's go back to the other things we talked about."
-msgstr ""
+msgstr "Palataanpa muihin asioihin, joista puhuimme."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen3
 msgid "There were some recent disturbances some weeks ago that you may have noticed. Some villagers got into a fight over the new decree from Lord Geomyr."
 msgstr ""
+"Muutama viikko sitten tapahtui joitain häiriöitä, jotka olet ehkä huomannut. "
+"Jotkut kyläläiset joutuivat tappelemaan Herra Geomyrin uudesta määräyksestä."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4
 msgid "Lord Geomyr issued a statement regarding the unlawful use of bonemeal as healing substance. Some villagers argued that we should oppose Lord Geomyr's word and still use it."
 msgstr ""
+"Herra Geomyr antoi lausunnon luujauhon laittomasta käytöstä parantavana "
+"aineena. Jotkut kyläläiset väittivät, että meidän pitäisi vastustaa lordi "
+"Geomyrin sanaa ja silti käyttää sitä."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4_1
 msgid "Tharal, our priest, was particularly upset and suggested we do something about Lord Geomyr."
 msgstr ""
+"Pappimme Tharal oli erityisen järkyttynyt ja ehdotti, että tekisimme jotain "
+"Herra Geomyrille."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen5
 msgid ""
@@ -1022,33 +1116,44 @@ msgid ""
 "\n"
 "Personally, I haven't decided what my thoughts are."
 msgstr ""
+"Muut kyläläiset väittivät, että meidän pitäisi noudattaa Herra Geomyrin "
+"määräystä.\n"
+"\n"
+"Henkilökohtaisesti en ole päättänyt, mitä ajatukseni ovat."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen6
 msgid ""
 "On one hand, Lord Geomyr supports Crossglen with a lot of protection.\n"
 "[Points to the soldiers in the hall]"
 msgstr ""
+"Toisaalta Herra Geomyr tukee Crossglenia suurella suojalla.\n"
+"[osoittaa sotilaita salissa]"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen7
 msgid "But on the other hand, the tax and the recent changes of what's allowed are really taking a toll on Crossglen."
 msgstr ""
+"Mutta toisaalta vero ja äskettäiset muutokset sallituissa rajoissa todella "
+"rasittavat Crossgleniä."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen8
 msgid "Someone should go to Castle Geomyr and talk to the steward about our situation here in Crossglen."
 msgstr ""
+"Jonkun pitäisi mennä Geomyrin linnaan ja puhua taloudenhoitajan kanssa "
+"tilanteestamme täällä Crossglenissä."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen9
 msgid "In the meantime, we've banned all use of bonemeal as a healing substance."
 msgstr ""
+"Sillä välin olemme kieltäneet kaiken luujauhon käytön parantavana aineena."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen9:0
 msgid "Thank you for the information. There was something more I wanted to ask you."
-msgstr ""
+msgstr "Kiitos tiedosta. Halusin vielä kysyä sinulta jotain."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen9:1
 #: conversationlist_omicronrg9.json:umar_guild03_31a:1
 msgid "Thank you for the information. Bye."
-msgstr ""
+msgstr "Kiitos tiedosta. Heippa."
 
 #: conversationlist_crossglen_leonid.json:leonid_bye
 #: conversationlist_crossglen_leonid.json:leonid_bye:0
@@ -1084,35 +1189,37 @@ msgstr ""
 #: conversationlist_omifix2.json:capvjern_32c:0
 #: conversationlist_feygard_1.json:village_percival_shadow:0
 msgid "Shadow be with you."
-msgstr ""
+msgstr "Varjo olkoon kanssasi."
 
 #: conversationlist_crossglen_tharal.json:tharal1
 msgid "Walk in the glow of the Shadow, my child."
-msgstr ""
+msgstr "Kävele Varjon hehkussa, lapseni."
 
 #: conversationlist_crossglen_tharal.json:tharal1:1
 #: conversationlist_fallhaven_church.json:thoronir_tharal_1:0
 msgid "What can you tell me about bonemeal?"
-msgstr ""
+msgstr "Mitä voit kertoa minulle luujauhosta?"
 
 #: conversationlist_crossglen_tharal.json:tharal1:2
 #: conversationlist_fallhaven_potions.json:fallhaven_potions:1
 msgid "Do you have anything to help against food-poisoning?"
-msgstr ""
+msgstr "Onko sinulla jotain apua ruokamyrkytysten torjuntaan?"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1
 msgid "Bonemeal? We shouldn't talk about that. Lord Geomyr issued a decree. It's not allowed anymore."
 msgstr ""
+"Luujauho? Meidän ei pitäisi puhua siitä. Herra Geomyr antoi asetuksen. Se ei "
+"ole enää sallittua."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1:0
 #: conversationlist_prim_arghest.json:arghest_6:1
 #: conversationlist_prim_arghest.json:arghest_7:0
 msgid "Please?"
-msgstr ""
+msgstr "Ole kiltti?"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2_1
 msgid "No, we really shouldn't talk about that."
-msgstr ""
+msgstr "Ei, meidän ei todellakaan pitäisi puhua siitä."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2_1:0
 #: conversationlist_omi2.json:bwm_wellspring_1b:0
@@ -1122,104 +1229,124 @@ msgstr ""
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2
 msgid "Well if you really are that persistent. Bring me 5 insect wings that I can use for making potions and maybe we can talk more."
 msgstr ""
+"No jos olet todella niin sinnikäs. Tuo minulle viisi hyönteisen siipeä, "
+"joita voin käyttää juomien valmistukseen, ja ehkä voimme keskustella lisää."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2:0
 msgid "Here, I have the insect wings."
-msgstr ""
+msgstr "Tässä minulla on hyönteisten siivet."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2:1
 msgid "OK, I'll bring them."
-msgstr ""
+msgstr "Hyvä on, tuon ne."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal3
 msgid "Thanks kid. I knew I could count on you."
-msgstr ""
+msgstr "Kiitos poika. Tiesin voivani luottaa sinuun."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal4
 msgid "Oh yes, bonemeal. Mixed with the right components it can be one of the most effective healing agents around."
 msgstr ""
+"Ai niin, luujauhoa. Oikeiden komponenttien kanssa sekoitettuna se voi olla "
+"yksi tehokkaimmista parantavista aineista."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal5
 msgid "We used to use it extensively before. But now that bastard Lord Geomyr has banned all use of it."
 msgstr ""
+"Käytimme sitä ennen laajasti. Mutta nyt tuo paskiainen Herra Geomyr on "
+"kieltänyt sen kaiken käytön."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal6
 msgid "How am I supposed to heal people now? Using regular healing potions? Bah, they're so ineffective."
 msgstr ""
+"Miten minun pitäisi parantaa ihmisiä nyt? Käytätkö säännöllisiä parantavia "
+"juomia? Huh, ne ovat niin tehottomia."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal7
 msgid "I know someone that still has a supply of bonemeal if you are interested. Go talk to Thoronir, a fellow priest in Fallhaven. Tell him my password 'Glow of the Shadow'."
 msgstr ""
+"Tiedän jonkun, jolla on vielä luujauhoa, jos olet kiinnostunut. Mene "
+"puhumaan Thoronirille, pappitoverille Fallhavenissa. Kerro hänelle "
+"salasanani 'Varjon hehku'."
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp1
 msgid "No, sorry. I hear that the potion-maker in Fallhaven can create something to help against that though."
 msgstr ""
+"Ei, anteeksi. Olen kuullut, että Fallhavenin juomanvalmistaja voi kuitenkin "
+"luoda jotain auttamaan sitä vastaan."
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp2
 msgid "You should go see him and ask if he has anything to help against that. He can probably help you."
 msgstr ""
+"Sinun pitäisi mennä tapaamaan häntä ja kysyä, onko hänellä mitään apua "
+"siihen. Hän voi luultavasti auttaa sinua."
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp2:0
 #: conversationlist_fallhaven_unnmir.json:unnmir_13:0
 msgid "Thanks, I'll go see him."
-msgstr ""
+msgstr "Kiitos, menen tapaamaan häntä."
 
 #: conversationlist_crossglen_leta.json:leta1
 msgid "Hey, this is my house, get out of here!"
-msgstr ""
+msgstr "Hei, tämä on minun taloni, pois täältä!"
 
 #: conversationlist_crossglen_leta.json:leta1:0
 msgid "But I was just ..."
-msgstr ""
+msgstr "Mutta olin vain..."
 
 #: conversationlist_crossglen_leta.json:leta1:1
 #: conversationlist_crossglen_leta.json:leta2:0
 msgid "What about your husband Oromir?"
-msgstr ""
+msgstr "Entä aviomiehesi Oromir?"
 
 #: conversationlist_crossglen_leta.json:leta1:2
 #: conversationlist_crossglen_leta.json:leta1:3
 #: conversationlist_fallhaven_tavern.json:bela_room_1:2
 msgid "Umar sent me."
-msgstr ""
+msgstr "Umar lähetti minut."
 
 #: conversationlist_crossglen_leta.json:leta2
 msgid "Beat it kid, get out of my house!"
-msgstr ""
+msgstr "Lyö se poika, poistu kotoani!"
 
 #: conversationlist_crossglen_leta.json:leta_oromir1
 msgid ""
 "Do you know anything about my husband? He should be here helping me with the farm today, but he seems to be missing as usual.\n"
 "Sigh."
 msgstr ""
+"Tiedätkö mitään miehestäni? Hänen pitäisi olla täällä auttamassa minua "
+"maatilan kanssa tänään, mutta hän näyttää olevan poissa, kuten tavallista.\n"
+"Huokaus."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:0
 #: conversationlist_rogorn.json:rogorn_story_6:3
 #: conversationlist_rogorn.json:rogorn_story_7:4
 msgid "I have no idea."
-msgstr ""
+msgstr "Minulla ei ole aavistustakaan."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:1
 msgid "Yes, I found him. He is hiding among some trees to the east."
-msgstr ""
+msgstr "Kyllä, löysin hänet. Hän piileskelee joidenkin puiden keskellä itään."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:2
 #: conversationlist_crossglen_leta.json:leta_oromir1:3
 #: conversationlist_crossglen_leta.json:leta_oromir1:4
 msgid "[Lie] I have no idea."
-msgstr ""
+msgstr "[Valhe] Minulla ei ole aavistustakaan."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:5
 msgid "He's found a new hiding spot."
-msgstr ""
+msgstr "Hän on löytänyt uuden piilopaikan."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:6
 msgid "He's found another new hiding spot. Give him credit, he is great at avoiding work."
 msgstr ""
+"Hän on löytänyt uuden piilopaikan. Anna hänelle tunnustusta, hän on hyvä "
+"välttämään työtä."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:7
 msgid "He's in your basement."
-msgstr ""
+msgstr "Hän on kellarissasi."
 
 #: conversationlist_crossglen_leta.json:leta_oromir2
 #: conversationlist_brimhaven_2.json:leta_oromir1_trees_help
@@ -1229,22 +1356,32 @@ msgid ""
 "If you see him, tell him to hurry back here and help me with the housework.\n"
 "Now get out of here!"
 msgstr ""
+"Jos näet hänet, käske häntä kiirehtimään takaisin tänne ja auttamaan minua "
+"kotitöissä.\n"
+"Nyt pois täältä!"
 
 #: conversationlist_crossglen_leta.json:leta_oromir_complete
 msgid ""
 "Hiding is he? That's not surprising. I'll go let him know who's the boss around here.\n"
 "Thanks for letting me know though."
 msgstr ""
+"Piilossako hän on? Se ei ole yllättävää. Menen kertomaan hänelle, kuka "
+"täällä on pomo.\n"
+"Kiitos kuitenkin, että kerroit minulle."
 
 #: conversationlist_crossglen_leta.json:leta_oromir_complete2
 msgid "Thanks for telling me about Oromir earlier. I will go get him in just a minute."
 msgstr ""
+"Kiitos, että kerroit minulle Oromirista aiemmin. Menen hakemaan hänet hetken "
+"kuluttua."
 
 #: conversationlist_crossglen_leta.json:oromir1
 msgid ""
 "Oh you startled me.\n"
 "Hello."
 msgstr ""
+"Ai sinä sä hämmästytit minut.\n"
+"Hei."
 
 #: conversationlist_crossglen_leta.json:oromir1:0
 #: conversationlist_fallhaven_vacor.json:vacor_begin
@@ -1256,56 +1393,69 @@ msgstr ""
 #: conversationlist_gorwath.json:arensia:5
 #: conversationlist_gorwath.json:arensia_1:0
 msgid "Hello."
-msgstr ""
+msgstr "Hei."
 
 #: conversationlist_crossglen_leta.json:oromir2
 msgid "I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here."
 msgstr ""
+"Piilottelen täällä vaimoni Letalta. Hän on aina vihainen minulle, koska en "
+"auttanut maatilalla. Älä kerro hänelle, että olen täällä."
 
 #: conversationlist_crossglen_leta.json:oromir2:0
 #: conversationlist_algangror.json:algangror_remgard_5:1
 msgid "[Lie] OK."
-msgstr ""
+msgstr "[Valhe] Selvä."
 
 #: conversationlist_crossglen_leta.json:oromir2:1
 msgid "Your secret is safe with me."
-msgstr ""
+msgstr "Salaisuutesi on turvassa kanssani."
 
 #: conversationlist_crossglen_odair.json:odair1
 msgid "Oh, it's you. You with that brother of yours. Always causing trouble."
-msgstr ""
+msgstr "Oh, se olet sinä. Sinä sen veljesi kanssa. Aina aiheuttaa häiriötä."
 
 #: conversationlist_crossglen_odair.json:odair2
 msgid "Hmm, maybe you could be of use to me. Do you think you could help me with a small task?"
 msgstr ""
+"Hmm, ehkä sinä voisit olla hyödyksi minulle. Luuletko voivasi auttaa minua "
+"pienessä tehtävässä?"
 
 #: conversationlist_crossglen_odair.json:odair2:0
 msgid "Tell me more about this task."
-msgstr ""
+msgstr "Kerro lisää tästä tehtävästä."
 
 #: conversationlist_crossglen_odair.json:odair2:1
 msgid "Sure, if there is anything I can gain from it."
-msgstr ""
+msgstr "Tietysti, jos minulla on siitä jotain hyötyä."
 
 #: conversationlist_crossglen_odair.json:odair3
 msgid "I recently went in to that cave over there [points west], to check on our supplies. But apparently, the cave has been infested with rats."
 msgstr ""
+"Menin äskettäin tuohon luolaan [osoittaa länteen] tarkistaakseni "
+"tarvikkeemme. Mutta ilmeisesti luola on ollut rottien saastuttama."
 
 #: conversationlist_crossglen_odair.json:odair4
 msgid "In particular, I saw one rat that was larger than the other rats. Do you think you have what it takes to help eliminate them?"
 msgstr ""
+"Erityisesti näin yhden rotan, joka oli suurempi kuin muut rotat. Luuletko, "
+"että pystyt poistamaan ne?"
 
 #: conversationlist_crossglen_odair.json:odair4:0
 msgid "Sure, I'll help you so that Crossglen can use the supply cave again."
 msgstr ""
+"Toki, autan sinua, jotta Crossglen voi käyttää tarjontaluolaa uudelleen."
 
 #: conversationlist_crossglen_odair.json:odair4:1
 msgid "Sure, I'll help you. But only because there might be some gain for me in this."
 msgstr ""
+"Toki autan sinua. Mutta vain siksi, että tästä voisi olla minulle hyötyä."
 
 #: conversationlist_crossglen_odair.json:odair5
 msgid "I need you to get into that cave and kill the large rat, that way maybe we can stop the rat infestation in the cave and start using it as our old supply cave again."
 msgstr ""
+"Sinun täytyy mennä tuohon luolaan ja tappaa suuri rotta, jotta voimme ehkä "
+"lopettaa rottatartunnan luolassa ja alkaa käyttää sitä vanhana "
+"huoltoluolanamme."
 
 #: conversationlist_crossglen_odair.json:odair5:0
 #: conversationlist_fallhaven_arcir.json:arcir_elythara_1:0
@@ -1338,15 +1488,15 @@ msgstr ""
 #: conversationlist_feygard_1.json:gamjee_compromise_2a
 #: conversationlist_lytwings.json:bela_lytwing_strawberries:0
 msgid "OK."
-msgstr ""
+msgstr "Hyvä on."
 
 #: conversationlist_crossglen_odair.json:odair5:1
 msgid "On second thought, I don't think I will help you after all."
-msgstr ""
+msgstr "Jälkeenpäin ajateltuna en usko, että autan sinua."
 
 #: conversationlist_crossglen_odair.json:odair_cowards
 msgid "I didn't think so either. You and that brother of yours always were cowards."
-msgstr ""
+msgstr "En minäkään uskonut niin. Sinä ja tuo veljesi olitte aina pelkuria."
 
 #: conversationlist_crossglen_odair.json:odair_cowards:0
 #: conversationlist_crossglen_odair.json:odair_complete2:0
@@ -1373,15 +1523,15 @@ msgstr ""
 #: conversationlist_omifix2.json:capvjern_32c:2
 #: conversationlist_feygard_1.json:gamjee_well_osric_2
 msgid "Bye."
-msgstr ""
+msgstr "Heippa."
 
 #: conversationlist_crossglen_odair.json:odair_continue
 msgid "Did you kill that large rat in the cave west of here?"
-msgstr ""
+msgstr "Tapoitko sen suuren rotan luolassa täältä länteen?"
 
 #: conversationlist_crossglen_odair.json:odair_continue:0
 msgid "Yes, I have killed the large rat."
-msgstr ""
+msgstr "Kyllä, olen tappanut ison rotan."
 
 #: conversationlist_crossglen_odair.json:odair_continue:1
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue:0
@@ -1404,11 +1554,13 @@ msgstr ""
 #: conversationlist_lodar.json:lodar_find0:0
 #: conversationlist_maevalia.json:maevalia_r1:1
 msgid "What was I supposed to do again?"
-msgstr ""
+msgstr "Mitä minun piti taas tehdä?"
 
 #: conversationlist_crossglen_odair.json:odair_complete
 msgid "Thanks a lot for your help kid! Maybe you and that brother of yours aren't as cowardly as I thought. Here, take these coins for your help."
 msgstr ""
+"Kiitos paljon avustasi lapsi! Ehkä sinä ja tuo veljesi ette ole niin "
+"pelkurimaisia kuin luulin. Ota nämä kolikot avuksesi."
 
 #: conversationlist_crossglen_odair.json:odair_complete:0
 #: conversationlist_thievesguild_1.json:thievesguild_thief_4:0
@@ -1425,15 +1577,17 @@ msgstr ""
 #: conversationlist_sullengard.json:ravynne_20:0
 #: conversationlist_sullengard.json:sullengard_drinking_brother_30:0
 msgid "Thanks."
-msgstr ""
+msgstr "Kiitos."
 
 #: conversationlist_crossglen_odair.json:odair_complete2
 msgid "Thanks a lot for your help earlier. Now we might start using that cave as our old supply cave again."
 msgstr ""
+"Paljon kiitoksia avustasi etukäteen. Nyt saatamme alkaa käyttää sitä luolaa "
+"uudelleen vanhana huoltoluolanamme."
 
 #: conversationlist_jan.json:jan_default
 msgid "Hello kid. Please leave me to my mourning."
-msgstr ""
+msgstr "Hei poika. Ole kiltti ja jätä minut suruni."
 
 #: conversationlist_jan.json:jan_default:0
 msgid "What is the problem?"
@@ -18717,7 +18871,9 @@ msgstr ""
 msgid ""
 "Agthor. Talk to him.\n"
 "[Points at Agthor]"
-msgstr "[REVIEW]Aghthor. Puhu hänelle. *osoittaa Agthoria*"
+msgstr ""
+"Agthor. Puhu hänelle.\n"
+"[osoittaa Agthorista]"
 
 #: conversationlist_aulowenn.json:aulowenn_atk0
 msgid "For Feygard!"
@@ -71330,8 +71486,9 @@ msgid "Mienn"
 msgstr ""
 
 #: monsterlist_v0610_npcs1.json:minarra
+#, fuzzy
 msgid "Minarra"
-msgstr ""
+msgstr "Minarra"
 
 #: monsterlist_v0610_npcs1.json:puny_warehouserat
 msgid "Warehouse rat"
