@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-22 05:46+0000\n"
+"PO-Revision-Date: 2025-01-22 10:34+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -10282,7 +10282,7 @@ msgstr "我叫斯隆德纳，如果要我自我介绍的话，我想我可以说
 
 #: conversationlist_blackwater_throdna.json:throdna_8
 msgid "Kazaul, the Shadow spawn of red marrow."
-msgstr "就是卡扎尔，即暗影的红髓之子嗣。"
+msgstr "就是卡扎尔，即暗影的红髓之嗣。"
 
 #: conversationlist_blackwater_throdna.json:throdna_9
 msgid "We have been trying to read all we can on Kazaul, and the ritual. It seems we might be too late."
@@ -10291,7 +10291,8 @@ msgstr "我们现在已经几乎读光了这边关于卡扎尔的文献，还有
 
 #: conversationlist_blackwater_throdna.json:throdna_10
 msgid "The ritual. We believe that Kazaul will manifest in our presence soon."
-msgstr "只要完成了那个仪式，卡扎尔应该就能不久后在我们面前降临了。"
+msgstr "那个仪式的事要是就这样一直拖着，我想卡扎尔应该不久后就会注意到我们这边的存在"
+"了。"
 
 #: conversationlist_blackwater_throdna.json:throdna_11
 msgid "We must learn more about the Kazaul ritual, to gain its power and learn to use it for our purposes."
@@ -10326,7 +10327,7 @@ msgstr ""
 #: conversationlist_blackwater_throdna.json:throdna_15
 msgid "According to our sources, there should be five parts of the ritual scattered across the mountain. Three of them describing the ritual itself, and two describing the Kazaul chant used to summon the guardian."
 msgstr "而根据我们所了解的信息，散落在山间的仪式笔记有五个部分：其中三个部分是在描述"
-"仪式本身的事项，而另外两个部分记载了用于召唤御卫的卡扎尔咒语。"
+"仪式本身的事项，而另外两个部分记载了用于召唤守卫的卡扎尔咒语。"
 
 #: conversationlist_blackwater_throdna.json:throdna_16
 msgid "Hmm, maybe you could be of use here..."
@@ -10396,106 +10397,111 @@ msgstr "看来你还没有找齐全部的五件部分。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_4
 msgid "We have more pressing matters to focus on. As I briefly mentioned before, we believe that Kazaul will manifest in our presence soon."
-msgstr "我们有更紧迫的事情需要做。正如我之前简单提到的，我们相信卡扎尔很快就会在我们面前显灵。"
+msgstr "我们现在手头的工作非常紧迫，我先前就有简要地提到过，卡扎尔应该不久后就会注意"
+"到我们这边的存在了。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_5
 msgid "If that were to happen, we could not complete our research about the ritual or Kazaul itself, all our efforts would be lost."
-msgstr "如果发生这种情况，我们就无法完成对仪式或卡扎尔本身的研究，我们所有的努力都将付诸东流。"
+msgstr "要是这种事情真发生了，那我们就无法再完成对仪式或卡扎尔本身的研究了，而我们所"
+"有的努力都将付诸东流。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_6
 msgid "Therefore, we intend to delay the process as much as we can, until we have learned of its powers."
-msgstr "因此，我们打算尽可能地推迟这一过程，直到我们了解其威力。"
+msgstr "因此，我们要尽可能地推延这件事的发生，直到我们掌握它的力量为止。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_7
 msgid "You might be useful to us here again."
-msgstr "你可能又对我们有用了。"
+msgstr "而在这件工作上又有你可以出力的地方了。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_7:0
 msgid "I'm ready for anything."
-msgstr "我已经做好了一切准备。"
+msgstr "我没问题。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_7:1
 msgid "What do you need of me?"
-msgstr "你需要我做什么？"
+msgstr "那请问需要我做什么啊？"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_7:2
 msgid "I sure hope it involves more killing and looting."
-msgstr "我当然希望它涉及更多的杀戮和掠夺。"
+msgstr "我真希望这个工作有涉及到杀戮以及掠夺什么的。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_8
 msgid "We need you to do two things. First, you must find the shrine of Kazaul. Our scouts tell us that the shrine should be located somewhere near the base of Blackwater mountain."
-msgstr "我们需要你做两件事。第一，你必须找到卡扎尔的神殿。我们的侦察员告诉我们，神殿应该位于黑水山脚附近的某个地方。"
+msgstr "我们需要你做两件事：首先，你需要找到卡扎尔的神殿。我们的侦察员传回情报说，那"
+"处神殿应该就位于靠近黑水山山脚的某个地方。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_9
 msgid "However, all passageways to the shrine are 'clouded in Shadow' according to our scouts. I'm not sure what that means."
-msgstr "然而，据我们的侦察员说，通往神殿的所有通道都被 \"暗影所笼罩\"。我不确定那是什么意思。"
+msgstr "不过有一点需要注意，那就是据我们的侦察员所称，通往神殿的整条通道都被 "
+"\"暗影所笼罩\"，这句话具体是什么意思我也不清楚。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_10
 msgid "Second, we need you to take a vial of purifying spirit and apply it to the shrine."
-msgstr "第二，我们需要一管净化药水，并将其用在神社上。"
+msgstr "然后，我们需要你把一小瓶的净灵剂用到那个神殿上。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_11
 msgid "This vial is a vial of purifying spirit. It should delay the process well enough for us to be able to continue our research."
-msgstr "这个小瓶是一小瓶净化药水。它应该能很好地延迟这一过程，使我们能够继续我们的研究。"
+msgstr "我手里这一玻璃管里装的就是净灵剂，它足以推迟我之前提到的那件事的发生，这样就"
+"能将我们的研究继续下去了。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_11:0
 #: conversationlist_sullengard.json:ff_captain_beer_100:1
 msgid "Sounds easy. I'll do it."
-msgstr "听起来很容易。我来做吧。"
+msgstr "听起来挺简单的嘛，这件事我干了。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_11:1
 msgid "Sounds dangerous, but I will do it."
-msgstr "听起来很危险，但我会做的。"
+msgstr "这件事听起来还挺危险的，但我还是接下了。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_11:2
 msgid "This sounds like a trap. I won't agree to do your dirty work."
-msgstr "这听起来像是一个陷阱。我不原因做你的脏活。"
+msgstr "这听起来就像是个陷阱，你要干的脏活我可不做。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_12
 msgid "Good, here is the vial. Now hurry."
-msgstr "很好，这是那个小瓶。现在快点。"
+msgstr "很好，拿好这管药水吧，现在可以出发了。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_13
 msgid "Return to me as soon as you have completed your task."
-msgstr "完成任务后，请尽快回到我身边。"
+msgstr "另外任务完成后，记得尽快回我这里一趟。"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_1
 msgid "Hello again. I hope you are here to tell me you have purified the shrine of Kazaul?"
-msgstr "又见面了。我希望你是来告诉我，你已经净化了卡扎尔的神殿？"
+msgstr "又见面了，希望你来这里是为了告诉我你已经净化过卡扎尔的神殿了？"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_1:0
 #: conversationlist_ailshara.json:ailshara_deliver_1:0
 #: conversationlist_ulirfendor.json:ulirfendor_findparts_10:3
 msgid "Yes, it is done."
-msgstr "是的，已经完成了。"
+msgstr "嗯，搞定。"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_2
 msgid "Then hurry and go take the vial to the shrine! What are you standing around here for?"
-msgstr "那就赶快去把小瓶带到神社里去吧!你还站在这里干什么？"
+msgstr "那就赶快动身去把净灵剂带到神殿去啊！你现在还站在这里干什么呢？"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_3
 msgid "Good. We must hurry to continue our research on Kazaul."
-msgstr "好。我们必须赶紧继续研究卡扎尔。"
+msgstr "很好，那我们得继续加紧研究卡扎尔了。"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_4
 msgid "You should get out of here to allow us to concentrate on our work."
-msgstr "你应该离开这里，让我们集中精力工作。"
+msgstr "而你现在应该出去了，这样我们才能集中起精神来工作。"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_5
 msgid "...Kazaul, destroyer of bright dreams..."
-msgstr "…卡扎尔，光明之梦的毁灭者…"
+msgstr "……卡扎尔，光明之梦的毁灭者……"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_6
 msgid "...Kazaul ... Shadow..."
-msgstr "...卡扎尔...暗影。。。"
+msgstr "……卡扎尔……暗影……"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_7
 msgid "[Throdna continues to mumble on about Kazaul, but you cannot make out any other words]"
-msgstr "[甲虫继续喃喃自语地谈论卡扎尔，但你无法听懂任何话语]"
+msgstr "[斯隆德纳又开始喃喃起卡扎尔什么的了，但你根本听不清他嘴里到底在念什么内容]"
 
 #: conversationlist_blackwater_throdna.json:throdna_guard
 msgid "Keep your voice down while in the inner chamber."
-msgstr "在内室时要小声说话。"
+msgstr "在内室中请勿大声喧哗。"
 
 #: conversationlist_blackwater_throdna.json:blackwater_acolyte
 msgid "Are you also looking to become one with the Shadow?"
@@ -10511,7 +10517,7 @@ msgstr "卡扎尔，光明之梦的毁灭者。"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_1
 msgid "[The guardian looks completely unaware of your presence]"
-msgstr "[守护者看起来完全没有意识到你的存在]"
+msgstr "[这个守卫仿佛完全没有意识到你的存在]"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_2
 msgid "[The guardian looks down upon you with its burning eyes]"
@@ -66786,7 +66792,7 @@ msgstr "铁棒"
 
 #: itemlist_weapons.json:ironsword0
 msgid "Crude iron sword"
-msgstr "粗糙铁剑"
+msgstr "粗制铁剑"
 
 #: itemlist_weapons.json:hammer0
 msgid "Iron hammer"
@@ -66878,7 +66884,7 @@ msgstr "优质绿帽子"
 
 #: itemlist_armour.json:hat3
 msgid "Crude leather cap"
-msgstr "粗糙皮帽"
+msgstr "粗制皮帽"
 
 #: itemlist_armour.json:hat4
 msgid "Leather cap"
@@ -66910,7 +66916,7 @@ msgstr "强化木质圆盾"
 
 #: itemlist_armour.json:shield4
 msgid "Crude wooden shield"
-msgstr "粗糙木盾"
+msgstr "粗制木盾"
 
 #: itemlist_armour.json:shield5
 msgid "Superior wooden shield"
@@ -67193,7 +67199,7 @@ msgstr "恩泽尔的防守之靴"
 
 #: itemlist_quest.json:boots_vacor
 msgid "Vacor's boots of attack"
-msgstr "瓦克的进攻之靴"
+msgstr "瓦克的攻击之靴"
 
 #: itemlist_quest.json:necklace_flagstone
 msgid "Flagstone Warden's necklace"
@@ -67333,7 +67339,7 @@ msgstr "樵夫靴"
 
 #: itemlist_v069.json:heavy_club
 msgid "Heavy club"
-msgstr "重棒"
+msgstr "沉重棍棒"
 
 #: itemlist_v069.json:pot_speed_1
 msgid "Minor potion of speed"
@@ -67373,7 +67379,7 @@ msgstr "比约格尔家的祖传匕首"
 
 #: itemlist_v069_questitems.json:q_kazaul_vial
 msgid "Vial of purifying spirit"
-msgstr "小管净化药水"
+msgstr "净灵剂"
 
 #: itemlist_v069_questitems.json:guthbered_id
 msgid "Guthbered's ring"
@@ -67389,7 +67395,7 @@ msgstr "生锈铁剑"
 
 #: itemlist_v069_2.json:broken_buckler
 msgid "Broken wooden buckler"
-msgstr "破损的木盾"
+msgstr "破损木质圆盾"
 
 #: itemlist_v069_2.json:used_gloves
 msgid "Blood-stained gloves"
@@ -67441,7 +67447,7 @@ msgstr "优质钢阔剑"
 
 #: itemlist_v0610_1.json:sword_defenders
 msgid "Defender's blade"
-msgstr "防御者之刃"
+msgstr "防御之刃"
 
 #: itemlist_v0610_1.json:sword_villains
 msgid "Villain's blade"
@@ -67465,11 +67471,11 @@ msgstr "碎肠斧"
 
 #: itemlist_v0610_1.json:hammer_skullcrusher
 msgid "Skullcrusher"
-msgstr "碎颅者"
+msgstr "碎颅锤"
 
 #: itemlist_v0610_1.json:shield_crude_wooden
 msgid "Crude wooden buckler"
-msgstr "粗糙木质圆盾"
+msgstr "粗制木质圆盾"
 
 #: itemlist_v0610_1.json:shield_cracked_wooden
 msgid "Cracked wooden buckler"
@@ -67485,7 +67491,7 @@ msgstr "木盾"
 
 #: itemlist_v0610_1.json:shield_wooden_defender
 msgid "Wooden defender"
-msgstr "木制防御盾"
+msgstr "木质防御盾"
 
 #: itemlist_v0610_1.json:hat_hard_leather
 msgid "Hardened leather cap"
@@ -67501,7 +67507,7 @@ msgstr "挡眼皮帽"
 
 #: itemlist_v0610_1.json:helm_crude_iron
 msgid "Crude iron helmet"
-msgstr "粗糙铁头盔"
+msgstr "粗制铁头盔"
 
 #: itemlist_v0610_1.json:shirt_torn
 msgid "Torn shirt"
@@ -67517,7 +67523,7 @@ msgstr "补丁布衫"
 
 #: itemlist_v0610_1.json:armour_crude_leather
 msgid "Crude leather armor"
-msgstr "粗糙皮甲"
+msgstr "粗制皮甲"
 
 #: itemlist_v0610_1.json:armour_firm_leather
 msgid "Firm leather armor"
@@ -67549,27 +67555,28 @@ msgstr "不幸皮衫"
 
 #: itemlist_v0610_1.json:gloves_barbrawler
 msgid "Bar brawler's gloves"
-msgstr "酒吧争吵者的手套"
+msgstr "醉斗手套"
 
 #: itemlist_v0610_1.json:gloves_fumbling
 msgid "Gloves of fumbling"
-msgstr "摸索手套"
+msgstr "笨拙手套"
 
 #: itemlist_v0610_1.json:gloves_crude_cloth
 msgid "Crude cloth gloves"
-msgstr "粗糙的布手套"
+msgstr "粗制布手套"
 
 #: itemlist_v0610_1.json:gloves_crude_leather
 msgid "Crude leather gloves"
-msgstr "粗糙的皮手套"
+msgstr "粗制皮手套"
 
 #: itemlist_v0610_1.json:gloves_troublemaker
 msgid "Troublemaker's gloves"
-msgstr "麻烦制造者的手套"
+msgstr "捣蛋鬼手套"
 
 #: itemlist_v0610_1.json:gloves_troublemaker:description
 msgid "In Lower Fallhaven there is honor among thieves. Everyone else is a mark."
-msgstr "在法尔海文下区，这是盗贼们的荣誉。对于其他人，这只是个标记。"
+msgstr "在法尔海文的地下世界，这是盗贼们的荣耀之物。而在其他地方，它就是一种身份的暗"
+"号。"
 
 #: itemlist_v0610_1.json:gloves_guards
 msgid "Guard's gloves"
@@ -67577,35 +67584,35 @@ msgstr "守卫手套"
 
 #: itemlist_v0610_1.json:gloves_leather_attack
 msgid "Leather gloves of attack"
-msgstr "攻击皮手套"
+msgstr "作战皮手套"
 
 #: itemlist_v0610_1.json:gloves_woodcutter
 msgid "Woodcutter's gloves"
-msgstr "伐木者的手套"
+msgstr "樵夫手套"
 
 #: itemlist_v0610_1.json:boots_crude_leather
 msgid "Crude leather boots"
-msgstr "粗糙的皮靴"
+msgstr "粗制皮靴"
 
 #: itemlist_v0610_1.json:boots_sewn
 msgid "Sewn footwear"
-msgstr "缝制鞋"
+msgstr "缝制鞋履"
 
 #: itemlist_v0610_1.json:boots_coward
 msgid "Coward's boots"
-msgstr "懦夫的靴子"
+msgstr "懦夫之靴"
 
 #: itemlist_v0610_1.json:boots_hard_leather
 msgid "Hardened leather boots"
-msgstr "硬化的皮靴"
+msgstr "硬化皮靴"
 
 #: itemlist_v0610_1.json:boots_defender
 msgid "Defender's boots"
-msgstr "防守者的靴子"
+msgstr "防御之靴"
 
 #: itemlist_v0610_1.json:necklace_shield_0
 msgid "Lesser shielding necklace"
-msgstr "小额防护项链"
+msgstr "初级防护项链"
 
 #: itemlist_v0610_1.json:necklace_strike
 msgid "Necklace of strike"
@@ -67613,7 +67620,7 @@ msgstr "击打项链"
 
 #: itemlist_v0610_1.json:necklace_defender_stone
 msgid "Defender's stone"
-msgstr "防御者之石"
+msgstr "防御之石"
 
 #: itemlist_v0610_1.json:necklace_protector
 msgid "Necklace of the protector"
@@ -67621,19 +67628,19 @@ msgstr "保护者项链"
 
 #: itemlist_v0610_1.json:ring_crude_combat
 msgid "Crude combat ring"
-msgstr "粗糙的战斗之戒"
+msgstr "粗制作战之戒"
 
 #: itemlist_v0610_1.json:ring_crude_surehit
 msgid "Crude ring of surehit"
-msgstr "粗糙的命中戒指"
+msgstr "粗制命中之戒"
 
 #: itemlist_v0610_1.json:ring_crude_block
 msgid "Crude ring of block"
-msgstr "粗糙的格挡之戒"
+msgstr "粗制格挡之戒"
 
 #: itemlist_v0610_1.json:ring_rough_life
 msgid "Rough ring of life force"
-msgstr "生命之戒"
+msgstr "糙磨生命之戒"
 
 #: itemlist_v0610_1.json:ring_fumbling
 msgid "Ring of fumbling"
@@ -67641,11 +67648,11 @@ msgstr "笨拙之戒"
 
 #: itemlist_v0610_1.json:ring_rough_damage
 msgid "Rough ring of damage"
-msgstr "粗糙的伤害戒指"
+msgstr "糙磨伤害之戒"
 
 #: itemlist_v0610_1.json:ring_barbrawler
 msgid "Bar brawler's ring"
-msgstr "酒吧争吵者的戒指"
+msgstr "醉斗之戒"
 
 #: itemlist_v0610_1.json:ring_dmg_3
 msgid "Ring of damage +3"
@@ -67657,11 +67664,11 @@ msgstr "生命之戒"
 
 #: itemlist_v0610_1.json:ring_taverbrawler
 msgid "Tavern brawler's ring"
-msgstr "酒吧争吵者的戒指"
+msgstr "酒斗之戒"
 
 #: itemlist_v0610_1.json:ring_defender
 msgid "Defender's ring"
-msgstr "防御者之戒"
+msgstr "防御之戒"
 
 #: itemlist_v0610_1.json:ring_challenger
 msgid "Challenger's ring"
@@ -67673,7 +67680,7 @@ msgstr "伤害+4戒指"
 
 #: itemlist_v0610_1.json:ring_troublemaker
 msgid "Troublemaker's ring"
-msgstr "麻烦制造者的戒指"
+msgstr "捣蛋鬼之戒"
 
 #: itemlist_v0610_1.json:ring_guardian
 msgid "Ring of the guardian"
@@ -67689,15 +67696,15 @@ msgstr "反刺之戒"
 
 #: itemlist_v0610_1.json:ring_polished_combat
 msgid "Polished combat ring"
-msgstr "抛光的战斗戒指"
+msgstr "抛光作战戒指"
 
 #: itemlist_v0610_1.json:ring_villain
 msgid "Villain's ring"
-msgstr "恶棍的戒指"
+msgstr "恶棍之戒"
 
 #: itemlist_v0610_1.json:ring_polished_backstab
 msgid "Polished ring of backstabbing"
-msgstr "抛光的反刺之戒"
+msgstr "抛光反刺之戒"
 
 #: itemlist_v0610_1.json:ring_protector
 msgid "Ring of the protector"
@@ -67717,7 +67724,7 @@ msgstr "丁林的羊铃"
 
 #: itemlist_v0610_2.json:tinlyn_sheep_meat
 msgid "Meat from Tinlyn's sheep"
-msgstr "丁林羊的肉"
+msgstr "丁林所养之羊的肉"
 
 #: itemlist_v0610_2.json:rogorn_qitem
 msgid "Piece of painting"
@@ -67806,7 +67813,7 @@ msgstr "血腥之帽"
 
 #: itemlist_v0611_1.json:helm_defend1
 msgid "Defender's helmet"
-msgstr "防御者头盔"
+msgstr "防御之盔"
 
 #: itemlist_v0611_1.json:helm_protector0
 msgid "Strange looking helmet"
@@ -68051,11 +68058,11 @@ msgstr "大型双手剑"
 
 #: itemlist_v070.json:clmr_def1
 msgid "Defender's claymore"
-msgstr "防御者的大剑"
+msgstr "防御大剑"
 
 #: itemlist_v070.json:clmr_def2
 msgid "Superior defender's claymore"
-msgstr "高级守护者的大剑"
+msgstr "上好防御大剑"
 
 #: itemlist_v070.json:clmr_gnt
 msgid "Giant's claymore"
@@ -72258,7 +72265,7 @@ msgstr "卡扎尔小鬼"
 
 #: monsterlist_v069_monsters.json:kazaul_guardian
 msgid "Kazaul guardian"
-msgstr "卡扎尔御卫"
+msgstr "卡扎尔守卫"
 
 #: monsterlist_v069_monsters.json:graverobber
 msgid "Graverobber"
@@ -73738,7 +73745,7 @@ msgstr "莫金长老"
 
 #: monsterlist_v070_lodarmaze.json:lbridge
 msgid "Guardian of the bridge"
-msgstr "桥上的守卫"
+msgstr "桥上守卫"
 
 #: monsterlist_v070_lodarmaze.json:khakin1
 msgid "Khakin spawn"
