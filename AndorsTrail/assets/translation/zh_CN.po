@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-22 10:34+0000\n"
+"PO-Revision-Date: 2025-01-23 12:02+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -4381,7 +4381,7 @@ msgstr "你瞧见了一张撕下来的书页，可以看出它来自一本名为
 
 #: conversationlist_signs_pre067.json:arcir_basement_statue
 msgid "Elythara, mother of the light. Protect us from the curse of the Shadow."
-msgstr "众光之母  埃利萨拉。请保佑我们免受暗影之诅咒。"
+msgstr "众光之母 埃利萨拉。请保佑我们免受暗影之诅咒。"
 
 #: conversationlist_signs_pre067.json:fallhaven_tavern_room
 msgid "You are not allowed into the room unless you have rented it."
@@ -9124,11 +9124,11 @@ msgstr "你得先和那个人谈谈才行。"
 
 #: conversationlist_blackwater_signs.json:sign_blackwater50_left
 msgid "This leads out into the wilderness outside Prim."
-msgstr "这条路通向普里姆郊外的荒野。"
+msgstr "这边通向普里姆郊外的荒野。"
 
 #: conversationlist_blackwater_signs.json:sign_blackwater50_right
 msgid "This leads back into the Blackwater mountain settlement."
-msgstr "这条路通向黑水山定居点。"
+msgstr "这边通向黑水山定居点。"
 
 #: conversationlist_blackwater_signs.json:sign_blackwater29_qstarted
 msgid "You try to be as sneaky as possible, to not gain any attention from the guards while searching through the stack of papers."
@@ -10427,17 +10427,17 @@ msgstr "我真希望这个工作有涉及到杀戮以及掠夺什么的。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_8
 msgid "We need you to do two things. First, you must find the shrine of Kazaul. Our scouts tell us that the shrine should be located somewhere near the base of Blackwater mountain."
-msgstr "我们需要你做两件事：首先，你需要找到卡扎尔的神殿。我们的侦察员传回情报说，那"
-"处神殿应该就位于靠近黑水山山脚的某个地方。"
+msgstr "我们需要你做两件事：首先，你需要找到卡扎尔的神龛。我们的侦察员传回情报说，那"
+"处神龛应该就位于靠近黑水山山脚的某个地方。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_9
 msgid "However, all passageways to the shrine are 'clouded in Shadow' according to our scouts. I'm not sure what that means."
-msgstr "不过有一点需要注意，那就是据我们的侦察员所称，通往神殿的整条通道都被 "
+msgstr "不过有一点需要注意，那就是据我们的侦察员所称，通往神龛的整条通道都被 "
 "\"暗影所笼罩\"，这句话具体是什么意思我也不清楚。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_10
 msgid "Second, we need you to take a vial of purifying spirit and apply it to the shrine."
-msgstr "然后，我们需要你把一小瓶的净灵剂用到那个神殿上。"
+msgstr "然后，我们需要你把一小瓶的净灵剂用到那个神龛上。"
 
 #: conversationlist_blackwater_throdna.json:throdna_return_11
 msgid "This vial is a vial of purifying spirit. It should delay the process well enough for us to be able to continue our research."
@@ -10467,7 +10467,7 @@ msgstr "另外任务完成后，记得尽快回我这里一趟。"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_1
 msgid "Hello again. I hope you are here to tell me you have purified the shrine of Kazaul?"
-msgstr "又见面了，希望你来这里是为了告诉我你已经净化过卡扎尔的神殿了？"
+msgstr "又见面了，希望你来这里是为了告诉我你已经净化过卡扎尔的神龛了？"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_1:0
 #: conversationlist_ailshara.json:ailshara_deliver_1:0
@@ -10477,7 +10477,7 @@ msgstr "嗯，搞定。"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_2
 msgid "Then hurry and go take the vial to the shrine! What are you standing around here for?"
-msgstr "那就赶快动身去把净灵剂带到神殿去啊！你现在还站在这里干什么呢？"
+msgstr "那就赶快动身去把净灵剂带到神龛去啊！你现在还站在这里干什么呢？"
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_3
 msgid "Good. We must hurry to continue our research on Kazaul."
@@ -10521,7 +10521,7 @@ msgstr "[这个守卫仿佛完全没有意识到你的存在]"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_2
 msgid "[The guardian looks down upon you with its burning eyes]"
-msgstr "[守护者用它灼热的眼睛俯视着你]"
+msgstr "[守卫俯下了头，它那双冒着火的的眼睛盯向了你]"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_2:0
 msgid "Kazaul, defiler of the Elytharan Temple."
@@ -10529,63 +10529,65 @@ msgstr "卡扎尔，埃利萨拉神庙的亵渎者。"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_3
 msgid "[You see the burning eyes of the guardian instantly turn into a dark red haze]"
-msgstr "[你看到守护者燃烧的眼睛瞬间变成了暗红色的雾气]"
+msgstr "[你瞧见了这个守卫的那双燃烧着的眼睛瞬间变成了一片血色暗雾]"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_3:0
 msgid "A fight, I have been waiting for this!"
-msgstr "一场战斗，我等待这个机会很久了！"
+msgstr "一场期待已久的战斗！"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_3:1
 msgid "Please don't kill me!"
-msgstr "请不要杀我!"
+msgstr "请别下杀手啊！"
 
 #: conversationlist_blackwater_kazaul.json:sign_kazaul_1
 msgid "You see the shrine of Kazaul that you poured the vial of purifying spirit on."
-msgstr "你看到卡扎尔的神社，你把净化药水倒了上去。"
+msgstr "在你眼前的是卡扎尔的神龛，你先前在上面有倒过一瓶净灵剂。"
 
 #: conversationlist_blackwater_kazaul.json:sign_kazaul_2
 msgid "The previously glowing hot rock is now cold as any regular piece of rock."
-msgstr "之前发光的热岩现在就像一块普通的岩石一样冰冷。"
+msgstr "那时还散发着热浪的石柱现在冰冷就像是别处凡石一般。"
 
 #: conversationlist_blackwater_kazaul.json:sign_kazaul_3
 msgid "Before you stands a large cut out piece of rock, in what looks like a shrine."
-msgstr "在你站在一块大块被切开的岩石前，它看起来像一座神社。"
+msgstr "在你面前是一大块的经过裁修雕凿的石刻品，看外表挺像是一个神龛。"
 
 #: conversationlist_blackwater_kazaul.json:sign_kazaul_4
 msgid "You can feel an intense heat coming from the rock, almost like a burning fire."
-msgstr "你可以感受到来自岩石的强烈热量，就像燃烧的火焰。"
+msgstr "你感受到了这块石刻所散发的巨热，如同燃烧着的火焰一般。"
 
 #: conversationlist_blackwater_kazaul.json:sign_kazaul_4:0
 msgid "Leave the formation alone."
-msgstr "独自离开那个东西。"
+msgstr "离这块石头远点。"
 
 #: conversationlist_blackwater_kazaul.json:sign_kazaul_4:1
 msgid "Apply the vial of purifying spirit on the formation."
-msgstr "将小瓶净化药水撒在上面。"
+msgstr "将净灵剂淋在上面。"
 
 #: conversationlist_blackwater_kazaul.json:sign_kazaul_5
 msgid "You gently pour the contents of the vial onto the formation."
-msgstr "你将小瓶中的药水轻轻地倒在那东西上。"
+msgstr "你小心翼翼地将玻璃管中的液体倒在那石柱上。"
 
 #: conversationlist_blackwater_kazaul.json:sign_kazaul_6
 msgid "You hear a loud crackling noise from deep below the shrine. At first, the formation seems unaffected, but after a while you see the glowing of the rock decrease slightly."
-msgstr "你听到祠堂下面深处传来一声巨大的噼啪声。起初，那东西似乎没有受到影响，但过了一会儿，你看到岩石的发光程度略有下降。"
+msgstr ""
+"你听到神龛位置的地下深处传来一阵巨大的开裂声。那石柱在第一时间似乎并没有产生"
+"丝毫变化，但稍微过了一会儿，你发觉这石头所发出的热浪开始缓缓减弱了。"
 
 #: conversationlist_blackwater_kazaul.json:sign_kazaul_7
 msgid "The process continues more rapidly, while reducing the heat generated from the formation."
-msgstr "这个过程进行得更快，地层产生的热量不断减少。"
+msgstr "这个变化随着时间的推移越来越快，这块石柱所散发的热度不断减少。"
 
 #: conversationlist_blackwater_kazaul.json:sign_kazaul_8
 msgid "This must be the purification process of the Kazaul shrine."
-msgstr "这一定是卡扎尔神殿的净化过程。"
+msgstr "这样的转变一定是出于神龛被净化掉了。"
 
 #: conversationlist_erinith.json:erinith_complete_1
 msgid "Thank you for all your help earlier."
-msgstr "感谢您之前的所有帮助。"
+msgstr "感谢您先前的所有帮助。"
 
 #: conversationlist_erinith.json:erinith_1
 msgid "Please, you have to help me!"
-msgstr "请，你必须帮我！"
+msgstr "请你一定帮帮我啊！"
 
 #: conversationlist_erinith.json:erinith_1:0
 #: conversationlist_loneford_1.json:loneford_farmer0:0
@@ -10601,19 +10603,19 @@ msgstr "怎么了？"
 
 #: conversationlist_erinith.json:erinith_story_1
 msgid "I was setting up camp here during the night, and was attacked by some bandits while asleep."
-msgstr "我晚上在这里扎营，睡觉时被一些强盗袭击了。"
+msgstr "夜间我在这里扎营时，有一群强盗趁我睡着袭击了我。"
 
 #: conversationlist_erinith.json:erinith_story_2
 msgid "Ack, this wound doesn't seem to be healing itself."
-msgstr "咳，这个伤口看起来没办法自己愈合。"
+msgstr "咳咳，而这伤口现在看起来不会自己好了。"
 
 #: conversationlist_erinith.json:erinith_story_3
 msgid "At least I managed to keep them from getting my book. I'm sure they were after the book."
-msgstr "至少我设法让他们没有得到我的书。我确信他们是冲着书来的。"
+msgstr "不过至少我成功没让他们拿到我的书，我能确信他们就是冲着我这本书来的。"
 
 #: conversationlist_erinith.json:erinith_story_3:0
 msgid "Seems like a valuable book then. This sounds interesting, please go on."
-msgstr "那么似乎是一本有价值的书。这听起来很有趣，请继续。"
+msgstr "这挺起来像是本很珍贵的书啊。有意思，继续说下去吧。"
 
 #: conversationlist_erinith.json:erinith_story_3:1
 #: conversationlist_kantya.json:kantya3:0
@@ -10621,63 +10623,63 @@ msgstr "那么似乎是一本有价值的书。这听起来很有趣，请继续
 #: conversationlist_stoutford_combined.json:odirath_1_1:0
 #: conversationlist_gison.json:nimael_1:0
 msgid "What happened?"
-msgstr "发生了什么？"
+msgstr "发生什么了？"
 
 #: conversationlist_erinith.json:erinith_story_4
 msgid ""
 "I managed to throw the book in among the trees over there during the attack.\n"
 "[Points to the trees directly to the north]"
 msgstr ""
-"在攻击过程中，我设法把书扔到了那边的树丛中。\n"
-"[指着正北的树木]"
+"在遇袭的过程中，我成功把书扔到了那边的树丛中。\n"
+"[他指向北边的树林]"
 
 #: conversationlist_erinith.json:erinith_story_5
 msgid "I don't think they managed to get the book. It's probably still somewhere among those trees."
-msgstr "我认为他们没法拿到那本书。它可能还在那些树中的某个地方。"
+msgstr "我不太认为他们已经拿到了那本书，更大的可能就是那本书还在那片树林里的某处。"
 
 #: conversationlist_erinith.json:erinith_story_5:0
 msgid "What is in the book?"
-msgstr "书中有什么内容？"
+msgstr "这书中都有些啥啊？"
 
 #: conversationlist_erinith.json:erinith_story_6
 msgid "Oh, I can't say really."
-msgstr "这，我真的不能说。"
+msgstr "哦，这我真的不能说。"
 
 #: conversationlist_erinith.json:erinith_story_6:0
 msgid "I could help you find that book if you want."
-msgstr "如果需要，我可以帮助你找到这本书。"
+msgstr "如果你需要帮助的话，我可以前去帮你找到那本书。"
 
 #: conversationlist_erinith.json:erinith_story_6:1
 msgid "What would it be worth for you to get that book back?"
-msgstr "对你来说，拿回那本书值多少钱？"
+msgstr "如果我把书帮你找回来的话，你愿意开个什么价？"
 
 #: conversationlist_erinith.json:erinith_story_7
 msgid "You would? Oh thank you."
-msgstr "你真的要帮我？谢谢你。"
+msgstr "你决定了？哦太谢谢你了。"
 
 #: conversationlist_erinith.json:erinith_story_8
 msgid "Please go look for it among those trees to the northeast."
-msgstr "请去东北方向的那些树中寻找。"
+msgstr "寻找的方向就是在东北方向的那些树林里。"
 
 #: conversationlist_erinith.json:erinith_story_gold_1
 msgid "Worth? Well, I was hoping you would help me anyway, but I guess 200 gold could do."
-msgstr "价格吗？好吧，反正我希望你能帮助我，但我想200金币可以了。"
+msgstr "开个价吗？好吧，你要拿钱办事也不是不行，不过我想这件事200金币差不多了。"
 
 #: conversationlist_erinith.json:erinith_story_gold_1:0
 msgid "200 gold it is then. I'll go look for your book."
-msgstr "那就200金吧。我去找你的书。"
+msgstr "那就200金币吧，我这就去寻找你的书。"
 
 #: conversationlist_erinith.json:erinith_story_gold_1:1
 msgid "A lousy 200 gold, is that all you can do? Fine, I'll go look for your stupid book."
-msgstr "见鬼的200金币，你就能给这点吗？好吧，我去找你的破书。"
+msgstr "才200金币，你就愿意给这点钱吗？好吧，我会去找你的破书的。"
 
 #: conversationlist_erinith.json:erinith_story_gold_1:2
 msgid "Keep your gold, I'll return your book for you anyway."
-msgstr "留着你的金子吧，不管如何我都会把书给你的。"
+msgstr "这些金币你还是自己留着用吧，另外我会帮你找回那本书的。"
 
 #: conversationlist_erinith.json:erinith_story_gold_1:3
 msgid "No, I am not getting involved in this. Goodbye."
-msgstr "不，我不想参与其中。再见。"
+msgstr "算了，这件事我还是不干为好，再见。"
 
 #: conversationlist_erinith.json:erinith_story_gold_2
 msgid "Make it quick."
@@ -10685,101 +10687,102 @@ msgstr "请快一点。"
 
 #: conversationlist_erinith.json:erinith_needsbook_1
 msgid "Have you found that book yet?"
-msgstr "你找到那本书了吗？"
+msgstr "请问你找到那本书了吗？"
 
 #: conversationlist_erinith.json:erinith_needsbook_1:0
 msgid "Not yet, I am still looking."
-msgstr "还没有，我还在寻找。"
+msgstr "还没有，我还在寻找中。"
 
 #: conversationlist_erinith.json:erinith_needsbook_1:1
 msgid "Yes, here is your book."
-msgstr "是的，这是你的书。"
+msgstr "嗯，你的书在这。"
 
 #: conversationlist_erinith.json:erinith_needsbook_3_1
 msgid "You found it! Oh thank you so much. I was so worried that I had lost it."
-msgstr "你找到它了!哦，太感谢你了。我真担心我会失去了它。"
+msgstr "你真的找到它了！哦，太感谢您了，我刚才还在担心是不是要永远都见不到它了呢。"
 
 #: conversationlist_erinith.json:erinith_needsbook_3_2
 msgid "You found it! Oh thank you so much. In return, here is the gold I promised you."
-msgstr "你找到它了!哦，太感谢你了。作为回报，这是我答应给你的黄金。"
+msgstr "你真的找到它了！哦，太感谢您了，作为回报，请拿好这些我先前答应过的金币。"
 
 #: conversationlist_erinith.json:erinith_needspotions_1
 msgid "Thank you for helping me find my book earlier."
-msgstr "谢谢你早点帮我找到我的书。"
+msgstr "谢谢你早些时候帮我找回了我的书。"
 
 #: conversationlist_erinith.json:erinith_needspotions_2
 msgid "I am still hurt by this wound that I got from the attack during the night."
-msgstr "我还在为晚上的袭击所造成的这一伤口而痛苦。"
+msgstr "而我现在还在为那场夜袭中所受的伤而困扰。"
 
 #: conversationlist_erinith.json:erinith_needspotions_3
 msgid "Ack, it hurts so bad and it doesn't seem to be healing itself."
-msgstr "咳，疼得很厉害，而且似乎没有自己愈合的迹象。"
+msgstr "咳咳，那伤口疼得可真厉害，而且现在自我愈合的迹象似乎一点也看不到。"
 
 #: conversationlist_erinith.json:erinith_needspotions_4
 msgid "I am really in need of some stronger healing here. Maybe some potions would do."
-msgstr "我真的需要一些更强大的治疗手段。也许一些药水就可以了。"
+msgstr "说实话我现在急需一番治疗，也许一些药水什么的就可以了。"
 
 #: conversationlist_erinith.json:erinith_needspotions_5
 msgid "I have heard that the potion makers these days have major potions of health, and not just the regular potions of health."
-msgstr "我听说现在的药水制造者有大生命药水，而不只是普通的生命药水。"
+msgstr "据说当今的药剂师能够炼制出那种更为高阶的大瓶治疗药水，而非常见的那种中瓶治疗"
+"药水了。"
 
 #: conversationlist_erinith.json:erinith_needspotions_6
 msgid "One of those would surely do. Otherwise, I think four regular potions of health would be enough."
-msgstr "其中一个肯定会做。我想四个普通的生命药水就足够了。"
+msgstr "高阶药水对于现在的情况应该一瓶就够了，不过我想四剂中瓶治疗药水应该也行。"
 
 #: conversationlist_erinith.json:erinith_needspotions_6:0
 msgid "I'll go get those potions for you."
-msgstr "我去给你拿那些药水。"
+msgstr "我这就去帮你搞些药水过来。"
 
 #: conversationlist_erinith.json:erinith_needspotions_6:1
 msgid "Here, take this bonemeal potion instead. It's very potent in healing deep wounds."
-msgstr "给你，你可以试试把这个骨粉药水用作替代品。它对较深的伤口非常有效。"
+msgstr "给你，拿好这瓶作为替代的骨粉药水。这种药水对较深的伤口非常有效。"
 
 #: conversationlist_erinith.json:erinith_needspotions_6:2
 #: conversationlist_halvor_surprise.json:halvor_mlake_2:4
 msgid "Here, take this major potion of health."
-msgstr "这，服用这个大生命药水。"
+msgstr "给你，拿好这大瓶的治疗药水。"
 
 #: conversationlist_erinith.json:erinith_needspotions_6:3
 #: conversationlist_halvor_surprise.json:halvor_mlake_2:5
 msgid "Here, take this major flask of health."
-msgstr "在这里，拿着这个大生命药水瓶。"
+msgstr "给你，拿好这大杯的治疗药水。"
 
 #: conversationlist_erinith.json:erinith_needspotions_6:4
 msgid "Here, take these four regular potions of health."
-msgstr "在这里，服用这四种常规的生命药水。"
+msgstr "给你，拿好这四剂中瓶治疗药水。"
 
 #: conversationlist_erinith.json:erinith_needspotions_7
 msgid "Thank you my friend. Please hurry back."
-msgstr "谢谢你，我的朋友。请赶快回来。"
+msgstr "谢谢你，我的朋友，请快去快回啊。"
 
 #: conversationlist_erinith.json:erinith_gavepotion_bm_1
 msgid "Bonemeal potion? But ... but ... we are not allowed to use them since they are prohibited by Lord Geomyr."
-msgstr "骨粉药水？但是......但是……它已经被吉奥米尔大人禁止使用了。"
+msgstr "骨粉药水？但是......但是……它已经被吉奥米尔领主所禁止使用了。"
 
 #: conversationlist_erinith.json:erinith_gavepotion_bm_1:0
 msgid "Who will find out?"
-msgstr "谁会发现呢？"
+msgstr "那又有谁会发现呢？"
 
 #: conversationlist_erinith.json:erinith_gavepotion_bm_1:1
 msgid "I have tried them myself, it's perfectly safe to use them."
-msgstr "我自己也试过，使用它们是非常安全的。"
+msgstr "这种药水我也有在用，使用它们是没有隐患的。"
 
 #: conversationlist_erinith.json:erinith_gavepotion_bm_2
 msgid ""
 "Hmm, yes. I guess you have a point. Oh well, here goes.\n"
 "[Drinks potion]"
 msgstr ""
-"嗯， 是的。我想你说的有道理。哦，好吧，开始吧。\n"
-"[喝下药水]"
+"嗯…好吧。我想你说的有点道理。哦，那就来吧。\n"
+"[饮下了药水]"
 
 #: conversationlist_erinith.json:erinith_gavepotion_major_1
 msgid ""
 "Thank you for bringing me one.\n"
 "[Drinks potion]"
 msgstr ""
-"谢谢你给我带来一个。\n"
-"[喝下药水]"
+"谢谢你给我带来了这一药水。\n"
+"[饮下了药水]"
 
 #: conversationlist_erinith.json:erinith_gavepotion_reg_1
 msgid ""
@@ -10787,39 +10790,41 @@ msgid ""
 "[Drinks all four potions]"
 msgstr ""
 "谢谢你把它们带来给我。\n"
-"[喝下所有四瓶药水]"
+"[饮下了全部的四瓶药水]"
 
 #: conversationlist_erinith.json:erinith_gavepotion_1
 msgid "Wow, I feel slightly better already. I guess this healing really works."
-msgstr "哇，我感觉已经稍微好点了。我想这种治疗方法真的很有效。"
+msgstr "哇，我感觉已经稍微好点了，我想这种治疗方法确实很见效。"
 
 #: conversationlist_erinith.json:erinith_givenpotion_1
 msgid "Thank you my friend for your help. My book is safe and my wound is healing. I hope our paths will cross again."
-msgstr "谢谢你，我的朋友，谢谢你的帮助。我的书很安全，我的伤口正在愈合。我希望我们还能再相见。"
+msgstr "谢谢你，我的朋友，谢谢你的帮助。我的书现在安全了，同时我的伤口也开始愈合了，"
+"愿我们还能再相见。"
 
 #: conversationlist_hadracor.json:woodcutter_0
 msgid "Stupid wasps..."
-msgstr "愚蠢的黄蜂。。。"
+msgstr "那些破黄蜂……"
 
 #: conversationlist_hadracor.json:woodcutter_2
 msgid "Stay away from the road to the west, for it leads to Carn Tower. You most certainly do not want to go there."
-msgstr "远离西边的道路，因为它通向卡恩塔。你肯定不想去那里。"
+msgstr "请别沿着这条路往西边去，因为那里通向卡恩之塔，而你是肯定不想去那里的。"
 
 #: conversationlist_hadracor.json:woodcutter_1
 msgid "When travelling, keep to the roads. Veer off course and you might find yourself in danger."
-msgstr "旅行时，请保持在道路上行走。如果偏离路线，你可能会发现自己处于危险之中。"
+msgstr "在赶路时最好一直走在大路上，否则你可能会遭遇危险。"
 
 #: conversationlist_hadracor.json:woodcutter_3
 msgid "Maybe we shouldn't have cut down all the trees over there. Those wasps really seem upset."
-msgstr "也许我们不应该砍掉那边的所有树木。那些黄蜂似乎真的很不高兴。"
+msgstr "也许我们就不该砍掉这边所有的树的，那些黄蜂看起来是完全被惹怒了。"
 
 #: conversationlist_hadracor.json:woodcutter_4
 msgid "I can still feel the sting from those wasps in my legs. Good thing we are done with all the trees now."
-msgstr "我仍然能感觉到那些黄蜂在我腿上的刺痛。好在我们现在已经搞定了所有的树。"
+msgstr "到现在我仍然能感觉到那些黄蜂叮在我腿上的刺痛感。好在所有的树我们都已经搞定了"
+"。"
 
 #: conversationlist_hadracor.json:woodcutter_5
 msgid "Hello there, welcome to our encampment. You should talk to Hadracor over there."
-msgstr "你好，欢迎来到我们的营地。你应该和那边的哈德拉克谈谈。"
+msgstr "你好，欢迎来到我们的营地，想聊事情的话你可以去和那边的哈德拉克谈谈。"
 
 #: conversationlist_hadracor.json:hadracor_1
 msgid "Hello there, I am Hadracor."
@@ -10827,28 +10832,28 @@ msgstr "你好，我是哈德拉克。"
 
 #: conversationlist_hadracor.json:hadracor_1:1
 msgid "Have you seen my brother Andor around here? Looks somewhat like me."
-msgstr "你在这里看到过我的哥哥安道尔吗？看起来有点像我。"
+msgstr "你在这里有看到过我的哥哥安道尔吗？他长得有点像我。"
 
 #: conversationlist_hadracor.json:hadracor_1:2
 #: conversationlist_hadracor.json:hadracor_complete_3:2
 msgid "Do you by any chance have some spare wood to make fences out of?"
-msgstr "你能整出些造栅栏的额外木头吗？"
+msgstr "请问你这里可以腾出些那种可以用来造栅栏的木头吗？"
 
 #: conversationlist_hadracor.json:hadracor_1:3
 msgid "I'm $playername, running up and down Blackwater mountain for errands."
-msgstr "我叫$playername，现在正在黑水山做上下跑腿的差事。"
+msgstr "我叫$playername，现在正在黑水山上下跑腿。"
 
 #: conversationlist_hadracor.json:hadracor_andor_1
 msgid "Looks like you eh? No, I would have remembered."
-msgstr "看起来像你？不，我没印象。"
+msgstr "长得有点像你？没有，我想我的印象里并没有遇见过他。"
 
 #: conversationlist_hadracor.json:hadracor_story_1
 msgid "This is the encampment that we woodcutters set up while working on the trees here for the past few days."
-msgstr "这是我们伐木工过去几天在这里的树上工作时建立的营地。"
+msgstr "这里是我们的伐木营地，我们这些樵夫最近一段日子在这里完成工作。"
 
 #: conversationlist_hadracor.json:hadracor_story_1:0
 msgid "What have you been working on?"
-msgstr "你一直在做什么？"
+msgstr "你在干什么活啊？"
 
 #: conversationlist_hadracor.json:hadracor_story_1:1
 msgid "I noticed a lot of tree stumps around here."
@@ -10856,15 +10861,16 @@ msgstr "我注意到这附近有很多树桩。"
 
 #: conversationlist_hadracor.json:hadracor_story_2
 msgid "Our orders were to cut down all trees south of the Feygard bridge and north of this here road to Carn Tower."
-msgstr "我们的命令是砍掉费加德桥以南和这里通往卡恩塔的道路以北的所有树木。"
+msgstr "我们接到的命令是砍掉通往费加德的桥以南、通往卡恩之塔的道路以北的区域内的所有"
+"树木。"
 
 #: conversationlist_hadracor.json:hadracor_story_3
 msgid "I guess the nobles of Feygard have some plans for these lands."
-msgstr "我想费加德的贵族们对这些土地有一些计划。"
+msgstr "我想应该是费加德的那些贵族们对这块土地未来有什么规划。"
 
 #: conversationlist_hadracor.json:hadracor_story_4
 msgid "We, we just cut down them trees. No questions asked."
-msgstr "我们，我们只是砍掉了这些树。不问原因。"
+msgstr "我们，我们只负责砍树，从不问其原因。"
 
 #: conversationlist_hadracor.json:hadracor_story_5
 msgid "However, this time we encountered some trouble."
@@ -10872,63 +10878,69 @@ msgstr "然而，这一次我们遇到了一些麻烦。"
 
 #: conversationlist_hadracor.json:hadracor_story_6
 msgid "You see, there were these really nasty wasps in that forest we cut down."
-msgstr "你看，在我们砍掉的那片森林里有这些非常讨厌的黄蜂。"
+msgstr "是这样的，在我们砍掉的这片森林里原本栖息着一大群非常讨厌的黄蜂。"
 
 #: conversationlist_hadracor.json:hadracor_story_7
 msgid "Nothing like we've seen before, and I'll tell you, we have seen a lot of wildlife in our days."
-msgstr "它们不像我们过去见过的任何东西，我要告诉你，我们以前可是见过很多野生动物的。"
+msgstr "这种家伙我们可是第一次碰见，要知道，各种野生动物我们都是见过不少的。"
 
 #: conversationlist_hadracor.json:hadracor_story_8
 msgid "They almost got the best of us, and we were almost ready to quit it. But a job is a job and we need to get paid by Feygard for this job."
-msgstr "他们几乎得到了我们的青睐，我们几乎准备退出了。但工作就是工作，我们需要从费加德那里得到这份工作的报酬。"
+msgstr "它们可是把我们折腾得要死，我们当时几乎都要放弃了，但毕竟这是一份工作，我们还"
+"得从费加德手中拿到工钱呢。"
 
 #: conversationlist_hadracor.json:hadracor_story_9
 msgid "So we went ahead and finished all of them trees, trying to evade the wasps as much as we could."
-msgstr "因此，我们继续前进，砍完了所有这些树，尽可能地躲避黄蜂。"
+msgstr "于是乎我们咬咬牙继续了下去，终于把所有这些树给砍完了，那些黄蜂我们能避开就尽"
+"量避开。"
 
 #: conversationlist_hadracor.json:hadracor_story_10
 msgid "However, I bet that whatever plans the nobles of Feygard have for these lands, they surely don't include these nasty wasps still being around."
-msgstr "然而，我敢打赌，无论费加德贵族对这些土地有什么计划，他们肯定不知道这些讨厌的黄蜂仍然在身边。"
+msgstr "然而，我敢打赌，无论费加德的那些贵族对这片土地有怎么样的规划，他们都肯定没考"
+"虑到那些讨厌的黄蜂到现在还在这里徘徊。"
 
 #: conversationlist_hadracor.json:hadracor_story_11
 msgid "See this scratch here? And this abscess? Yep, those wasps."
-msgstr "看到这里的划痕吗？还有这个脓肿？对，都是黄蜂干的。"
+msgstr "看到我身上这些刮痕了吗？还有这些肿包？没有错，这些都是那群黄蜂造成的。"
 
 #: conversationlist_hadracor.json:hadracor_story_12
 msgid "I would love to get revenge on those wasps. We, we aren't good enough fighters to take on those wasps, they are really too quick for us."
-msgstr "我很想向那些黄蜂报仇。但是我们，我们不擅长对付那些黄蜂，它们对我们来说真的太快了。"
+msgstr "我很想向那些黄蜂报仇。但是我们，我们不擅长对付那些黄蜂，它们的速度对我们来说"
+"真的太快了。"
 
 #: conversationlist_hadracor.json:hadracor_story_12:0
 msgid "Tough luck, you seem like a bunch of weaklings anyway."
-msgstr "运气不好，反正你们看起来像一群弱者。"
+msgstr "真惨，不过你们感觉好弱啊。"
 
 #: conversationlist_hadracor.json:hadracor_story_12:1
 msgid "I could try to take on those wasps for you if you want."
-msgstr "如果你愿意，我可以尝试为你对付那些黄蜂。"
+msgstr "如果你愿意，我可以代为替你去试着对付一下那群黄蜂。"
 
 #: conversationlist_hadracor.json:hadracor_story_12:2
 msgid "Just a couple of wasps? That's no problem for me. I'll kill them for you."
-msgstr "只是几只黄蜂？这对我来说不是问题。我会为你杀死它们。"
+msgstr "就几只黄蜂而已？它们对我来说完全不是问题，我这就去为你解决掉它们。"
 
 #: conversationlist_hadracor.json:hadracor_decline_1
 msgid "I will pretend I didn't hear that."
-msgstr "我会假装我没有听到这些句话。"
+msgstr "你就当我没听到过你对我说的这些话好了。"
 
 #: conversationlist_hadracor.json:hadracor_accept_1
 msgid "You would? Sure, you have a try."
-msgstr "你能吗？当然，你可以试一试。"
+msgstr "是吗？那完全可以，放手去试吧。"
 
 #: conversationlist_hadracor.json:hadracor_accept_1_1
 msgid "I noticed that some of the wasps are larger than the other ones, and the other wasps tend to follow the larger ones around."
-msgstr "我注意到有些黄蜂比其他黄蜂大，而其他黄蜂往往跟着大黄蜂走。"
+msgstr "我注意到有几只黄蜂比其他黄蜂个头大上不少，而其他那些黄蜂往往都附在那几只大号"
+"的黄蜂周边。"
 
 #: conversationlist_hadracor.json:hadracor_accept_2
 msgid "If you could kill at least five of those giant ones and bring me back their wings as proof, I would be very grateful."
-msgstr "如果你能杀死至少五个这样的巨大黄蜂，并把它们的翅膀带回来作为证据，我将非常感激。"
+msgstr "如果你能解决掉至少五只这样的巨型黄蜂，并把它们的翅膀带回来作为证明的话，那我"
+"就得好好感谢一下你了。"
 
 #: conversationlist_hadracor.json:hadracor_accept_2:0
 msgid "Sure, I will be back with those giant wasp wings for you."
-msgstr "当然，我将带着那些巨大的黄蜂翅膀回来给你。"
+msgstr "没问题，我会把那些巨型黄蜂的翅膀带回给你的。"
 
 #: conversationlist_hadracor.json:hadracor_accept_2:2
 msgid "On second thought, I better stay out of this."
@@ -10936,43 +10948,44 @@ msgstr "转念一想，我最好不要插手此事。"
 
 #: conversationlist_hadracor.json:hadracor_decline_2
 msgid "Fine, I guess we can find someone else to help us get revenge on them."
-msgstr "好吧，我想我们可以找其他人来帮助我们向它们报仇。"
+msgstr "好吧，我想我们可以找其他人来帮助我们完成报仇的。"
 
 #: conversationlist_hadracor.json:hadracor_accept_3
 msgid "Good, hurry back once you are done."
-msgstr "很好，做完后赶快回来。"
+msgstr "很好，完事之后记得回来。"
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_1
 msgid "Hello again. Did you kill those wasps for us?"
-msgstr "又见面了。你为我们杀了那些黄蜂吗？"
+msgstr "又见面了，请问你帮我们解决掉那些黄蜂了吗？"
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:0
 msgid "Could you tell me your story again?"
-msgstr "你能再给我讲一遍你的故事吗？"
+msgstr "你能再向我讲一遍你的事吗？"
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:3
 msgid "Yes, I killed six of them."
-msgstr "是的，我杀了其中的六个。"
+msgstr "嗯，我解决了六只。"
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:4
 msgid "Yes, I killed five of them."
-msgstr "是的，我杀了其中五个。"
+msgstr "嗯，我解决了五只。"
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:5
 msgid "No, but I wanted to ask if you have some spare wood to make fences out of."
-msgstr "不，但我想问你是否能整出些造栅栏的额外木头。"
+msgstr "还没有，不过我想先问一下你这里可不可以腾出些那种可以造栅栏的木头来。"
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:6
 msgid "No, I'm too busy running up and down Blackwater mountain."
-msgstr "不，我正忙着上下黑水山跑腿呢。"
+msgstr "没有，我正忙着在黑水山上下跑腿呢。"
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_2
 msgid "Wow, you actually killed those things?"
-msgstr "哇，你真的杀了那些东西？"
+msgstr "哇，你真的解决掉了那些家伙了吗？"
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_3
 msgid "Wow, you actually killed six of those things? I thought there were only five, so I guess I should be even more grateful. Here, take these gloves as thanks."
-msgstr "哇，您实际上杀死了其中六个？我以为只有五个，所以我想我应该更加感激。所以，请戴上这些手套。"
+msgstr "哇，您解决掉了六只？我一直都以为只有五只呢，那我想我更应该感谢你了。所以嘛，"
+"你就拿走这双手套作为谢礼吧。"
 
 #: conversationlist_hadracor.json:hadracor_gaveitems_1
 msgid "Well done my friend. Thank you for getting revenge on those things."
@@ -10980,15 +10993,15 @@ msgstr "做得好，我的朋友。谢谢替我们报复了那些家伙。"
 
 #: conversationlist_hadracor.json:hadracor_complete_1
 msgid "Hello again. Thank you for your help with those wasps earlier."
-msgstr "又见面了。谢谢你之前的那些帮助。"
+msgstr "又见面了，谢谢你之前所提供的那些帮助。"
 
 #: conversationlist_hadracor.json:hadracor_complete_2
 msgid "As a token of our appreciation, we are willing to trade some of our equipment with you if you want."
-msgstr "为了表示感谢，如果你愿意，我们愿意与你交换一些设备。"
+msgstr "为了表示我们的感谢，如果你愿意的话，我们可以卖给你一些装备。"
 
 #: conversationlist_hadracor.json:hadracor_complete_3
 msgid "It's not much, but we do have some really sharp axes that you might be interested in."
-msgstr "虽然不贵重，但我们确实有一些非常锋利的斧头，你可能会感兴趣。"
+msgstr "虽然我们有的装备不多，但我们这里的斧头属实不钝，说不定你会感兴趣的。"
 
 #: conversationlist_hadracor.json:hadracor_complete_3:0
 #: conversationlist_gandoren.json:gandoren_completed_2:1
@@ -10998,7 +11011,7 @@ msgstr "不，谢谢。再见。"
 #: conversationlist_hadracor.json:hadracor_complete_3:1
 #: conversationlist_ailshara.json:ailshara_2:0
 msgid "OK, let me see what you have."
-msgstr "哦，让我看看你有什么。"
+msgstr "哦，让我看看你都有些啥。"
 
 #: conversationlist_hadracor.json:hadracor_complete_3:3
 msgid "No, thanks. I'm too busy running up and down Blackwater mountain."
@@ -18753,7 +18766,7 @@ msgstr "格里尔家族的卡萨尼尔爵士长眠于此。阿纳罗伽斯爵士
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3:0
 msgid "There is the ladder. [Fetch it]"
-msgstr "有梯子。[拿过来]"
+msgstr "这里有把梯子。[抓到手中]"
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave4
 msgid "Here lies Lady Gelythus of house Gellir. Wife of Sir Eneryth of house Gellir."
@@ -18790,7 +18803,7 @@ msgstr "墓碑上写着：与暗影共眠，我最亲爱的。"
 #: conversationlist_v0612graves.json:sign_catacombs2_papers1
 #: conversationlist_v0612graves.json:sign_bwm52_papers1
 msgid "On the floor is what looks like some torn out pages from a book."
-msgstr "地板上的东西看起来像是从书本上撕下来的。"
+msgstr "地板上的这张纸片看起来像是从某本书上撕下来的。"
 
 #: conversationlist_v0612graves.json:sign_catacombs2_papers2
 msgid "You find some crumpled papers on the floor, containing scribbled notes about the fine arts of pottery making. You decide to leave them be."
@@ -18830,35 +18843,37 @@ msgstr "墓碑上写有你不懂的语言。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave1
 msgid "The cross reads: Here lies Magnir the trader. Another casualty of those beasts."
-msgstr "十字架上写着：这里躺着商人马格纳。那些野兽的另一个牺牲品。"
+msgstr "十字架上写着：商人马格纳长眠于此，同样是死于那些野兽。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave2
 msgid "The grave looks like it has been recently dug."
-msgstr "这座坟墓看起来是最近才挖的。"
+msgstr "这处坟看起来是最近新挖的。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave3
 msgid "The cross reads: Here lies Torkurt, loyal servant of the Blackwater mountain settlement."
-msgstr "十字架上写着：托尔库特长眠于此，他是黑水定居点的忠实仆人。"
+msgstr "十字架上写着：托尔库特长眠于此，他是黑水定居点的一名忠实的仆从。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave4
 msgid "The cross reads: Here lies o'Rani, the most fierce warrior on this side of the mountain. May she rest in peace."
-msgstr "十字架上写着： 奥拉尼长眠于此，她是山这一侧最凶猛的战士。愿她安息。"
+msgstr "十字架上写着： 奥拉尼长眠于此，她是这座山上最勇猛的战士，愿她安息。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave5
 msgid "The cross reads: Unnamed traveller. Found on the cliff-side, killed by one of those beasts."
-msgstr "十字架上写着。无名的旅行者。在悬崖边被发现，被那些野兽杀死者之一。"
+msgstr "十字架上写着：这里埋葬着一位不知姓名的他乡之客，在悬崖边被发现，死于那些野兽"
+"的袭击。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave7
 msgid "The cross reads: Here lies Trombul, the famous potion maker."
-msgstr "十字架上写着：著名的药水制造商特隆布尔 长眠于此。"
+msgstr "十字架上写着：著名药剂师特隆布尔长眠于此。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave6
 msgid "The cross reads: Here lies the remains of Antagnart, loved by none but remembered by everyone."
-msgstr "十字架上写着：安塔格纳特的遗骸在这里，无人爱戴，却被所有人铭记。"
+msgstr "十字架上写着：安塔格纳特长眠于此，他很不讨喜，但无人不知他。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_papers2
 msgid "You find a crude drawing of one of the white wyrms, but you decide not to keep it since it must belong to someone."
-msgstr "你发现了一幅白巫师的粗略画像，但你决定不保留它，因为它一定属于某个人。"
+msgstr "你发现了一幅白种双足飞龙的简笔画，但你决定还是别带走它为好，毕竟它多半是件有"
+"主之物。"
 
 #: conversationlist_v0612graves.json:sign_pwcave1_grave
 msgid "The cross shows lots of small indentations, as if someone hit it repeatedly with a sharp object. You can barely make out the words: \"Rest with the Shadow, my friend. I will avenge your death by those beasts\"."
@@ -67363,7 +67378,7 @@ msgstr "疲劳回复药水"
 
 #: itemlist_v069.json:pot_blind_rage
 msgid "Potion of blind rage"
-msgstr "盲目狂怒药水"
+msgstr "躁动药水"
 
 #: itemlist_v069_questitems.json:bwm_claws
 msgid "White wyrm claw"
@@ -72495,7 +72510,7 @@ msgstr "斯隆德纳"
 
 #: monsterlist_v069_npcs.json:throdnas_guard
 msgid "Throdna's guard"
-msgstr "斯隆德纳的卫兵"
+msgstr "斯隆德纳的护卫"
 
 #: monsterlist_v069_npcs.json:blackwater_mage
 msgid "Blackwater mage"
@@ -72503,7 +72518,7 @@ msgstr "黑水法师"
 
 #: monsterlist_v0610_monsters1.json:young_larval_burrower
 msgid "Young larval burrower"
-msgstr "年轻的钻地幼虫"
+msgstr "幼小钻地幼虫"
 
 #: monsterlist_v0610_monsters1.json:larval_burrower
 msgid "Larval burrower"
@@ -72512,7 +72527,7 @@ msgstr "钻地幼虫"
 #: monsterlist_v0610_monsters1.json:larval_boss
 #: monsterlist_v0611_monsters1.json:burrower_3
 msgid "Strong larval burrower"
-msgstr "强壮的钻地幼虫"
+msgstr "强劲钻地幼虫"
 
 #: monsterlist_v0610_monsters1.json:rivertroll
 msgid "River troll"
@@ -72520,35 +72535,35 @@ msgstr "河边巨魔"
 
 #: monsterlist_v0610_monsters1.json:grass_ant
 msgid "Grasslands ant"
-msgstr "草原蚂蚁"
+msgstr "草地蚂蚁"
 
 #: monsterlist_v0610_monsters1.json:grass_ant2
 msgid "Tough grasslands ant"
-msgstr "结实的草原蚂蚁"
+msgstr "棘手草地蚂蚁"
 
 #: monsterlist_v0610_monsters1.json:grass_beetle
 msgid "Grasslands beetle"
-msgstr "草原甲虫"
+msgstr "草地甲虫"
 
 #: monsterlist_v0610_monsters1.json:grass_beetle2
 msgid "Tough grasslands beetle"
-msgstr "结实的草原甲虫"
+msgstr "棘手草地甲虫"
 
 #: monsterlist_v0610_monsters1.json:grass_snake
 msgid "Grasslands snake"
-msgstr "草原蛇"
+msgstr "草地蛇"
 
 #: monsterlist_v0610_monsters1.json:grass_snake2
 msgid "Tough grasslands snake"
-msgstr "结实的草原蛇"
+msgstr "棘手草地蛇"
 
 #: monsterlist_v0610_monsters1.json:grass_lizard
 msgid "Grasslands lizard"
-msgstr "草原蜥蜴"
+msgstr "草地蜥蜴"
 
 #: monsterlist_v0610_monsters1.json:grass_lizard2
 msgid "Black grasslands lizard"
-msgstr "黑草原蜥蜴"
+msgstr "黑种草地蜥蜴"
 
 #: monsterlist_v0610_monsters1.json:keknazar
 msgid "Keknazar"
@@ -72565,11 +72580,11 @@ msgstr "老鼠"
 #: monsterlist_v0610_monsters1.json:fieldwasp_2
 #: monsterlist_v0610_npcs1.json:fieldwasp_unique
 msgid "Frantic forest wasp"
-msgstr "疯狂的森林黄蜂"
+msgstr "发狂森林黄蜂"
 
 #: monsterlist_v0610_monsters1.json:izthiel_1
 msgid "Young izthiel"
-msgstr "年轻的伊泽尔"
+msgstr "幼小伊泽尔"
 
 #: monsterlist_v0610_monsters1.json:izthiel_2
 msgid "Izthiel"
@@ -72577,12 +72592,12 @@ msgstr "伊泽尔"
 
 #: monsterlist_v0610_monsters1.json:izthiel_3
 msgid "Strong izthiel"
-msgstr "强壮的伊泽尔"
+msgstr "强劲伊泽尔"
 
 #: monsterlist_v0610_monsters1.json:izthiel_4
 #: monsterlist_v0611_npcs2.json:izthiel_cr
 msgid "Izthiel guardian"
-msgstr "伊泽尔的守卫"
+msgstr "伊泽尔守卫"
 
 #: monsterlist_v0610_monsters1.json:frog_1
 msgid "River frog"
@@ -72590,11 +72605,11 @@ msgstr "河蛙"
 
 #: monsterlist_v0610_monsters1.json:frog_2
 msgid "Tough river frog"
-msgstr "结实的河蛙"
+msgstr "棘手河蛙"
 
 #: monsterlist_v0610_monsters1.json:frog_3
 msgid "Poisonous river frog"
-msgstr "有毒的河蛙"
+msgstr "带毒河蛙"
 
 #: monsterlist_v0610_npcs1.json:lostsheep1
 #: monsterlist_v0610_npcs1.json:lostsheep2
@@ -72628,7 +72643,7 @@ msgstr "康伦"
 
 #: monsterlist_v0610_npcs1.json:crossroads_guest
 msgid "Visitor"
-msgstr "游客"
+msgstr "访客"
 
 #: monsterlist_v0610_npcs1.json:erinith
 msgid "Erinith"
@@ -77339,63 +77354,75 @@ msgstr "影中点光"
 
 #: questlist_v069.json:kazaul:8
 msgid "I have made my way into the inner chamber in the Blackwater mountain settlement and found a group of mages led by a man named Throdna."
-msgstr "我已经进入了黑水定居点的内室，发现了一群法师，他们由一个叫甲虫的人领导。"
+msgstr "我进到了黑水定居点的内室中，那里面有一群法师，他们由一个叫斯隆德纳的人所领导"
+"。"
 
 #: questlist_v069.json:kazaul:9
 msgid "Throdna seems very interested in someone (or something) called Kazaul, and in particular a ritual performed in its name."
-msgstr "甲虫似乎对一个叫卡扎尔的人（或东西）非常感兴趣，特别是以其名义进行的一种仪式。"
+msgstr "斯隆德纳似乎对一种叫卡扎尔的家伙（或东西）非常感兴趣，特别是对一个以其名义的"
+"仪式感兴趣。"
 
 #: questlist_v069.json:kazaul:10
 msgid "I have agreed to help Throdna find out more about the ritual itself, by looking for pieces of the ritual that apparently are scattered across the mountain. I should go look for the parts of the Kazaul ritual on the mountain path down from Blackwater mountain to Prim."
-msgstr "我已经同意帮助甲虫找出更多关于仪式本身的信息，通过寻找显然散落在山上的仪式碎片。我应该去寻找从黑水下到普里姆的山路上的卡扎尔仪式的部分。"
+msgstr ""
+"我答应了帮助斯隆德纳了解关于仪式更多的知识，这需要我去收集这个仪式的笔记，而"
+"这个笔记的各部分现在应该散落在整座山上的好几个地方。所以我应该沿着登山道一路"
+"搜寻卡扎尔仪式的各份笔记，从黑水山山顶到普里姆村。"
 
 #: questlist_v069.json:kazaul:11
 msgid "I need to find the two parts of the chant and the three pieces describing the ritual itself, and return to Throdna once I have found them all."
-msgstr "我需要找到圣歌的两个部分和描述仪式本身的三个部分，一旦我找到它们，就会回到甲虫那。"
+msgstr "我需要找到两半咒语以及被拆成三份的仪式描述，待我找齐后我需要再回到斯隆德纳那"
+"里去。"
 
 #: questlist_v069.json:kazaul:21
 msgid "I have found the first half of the chant for the Kazaul ritual."
-msgstr "我已经找到了卡扎尔仪式的前半部分颂词。"
+msgstr "我已经找到了卡扎尔仪式的前半句咒语。"
 
 #: questlist_v069.json:kazaul:22
 msgid "I have found the second half of the chant for the Kazaul ritual."
-msgstr "我已经找到了卡扎尔仪式的后半段颂词。"
+msgstr "我已经找到了卡扎尔仪式的后半句咒语。"
 
 #: questlist_v069.json:kazaul:25
 msgid "I have found the first piece of the Kazaul ritual."
-msgstr "我已经找到了卡扎尔仪式的第一块拼图。"
+msgstr "我已经找到了描述卡扎尔仪式的第一部分。"
 
 #: questlist_v069.json:kazaul:26
 msgid "I have found the second piece of the Kazaul ritual."
-msgstr "我已经找到了卡扎尔仪式的第二块。"
+msgstr "我已经找到了描述卡扎尔仪式的第二部分。"
 
 #: questlist_v069.json:kazaul:27
 msgid "I have found the third piece of the Kazaul ritual."
-msgstr "我已经找到了卡扎尔仪式的第三块。"
+msgstr "我已经找到了描述卡扎尔仪式的第三部分。"
 
 #: questlist_v069.json:kazaul:30
 msgid "Throdna thanked me for finding all the pieces of the ritual."
-msgstr "甲虫感谢我找到了仪式的所有碎片。"
+msgstr "斯隆德纳感谢我找齐了全部的仪式笔记。"
 
 #: questlist_v069.json:kazaul:40
 msgid "Throdna wants me to put an end to the Kazaul spawn uprising that has taken place near the Blackwater mountain. There is a shrine at the base of the mountain that i should investigate closer."
-msgstr "甲虫想让我结束黑水附近发生的卡扎尔产卵暴动。在山脚下有一个神龛，我应该仔细调查。"
+msgstr "斯隆德纳希望我能帮忙终结黑水山附近卡扎尔子嗣的躁动，据说山脚附近的某处地方有"
+"一尊神龛，我应该去那里探寻一下。"
 
 #: questlist_v069.json:kazaul:41
 msgid "I have been given a vial of purifying spirit that Throdna wants me to apply to the shrine of Kazaul. I should return to Throdna when I have found and purified the shrine."
-msgstr "我得到了一小管净化药水，甲虫希望我把它涂在卡扎尔的神龛上。当我找到并净化了神龛后，我应该回到甲虫身边。"
+msgstr "斯隆德纳给了我一小瓶的净灵剂，他希望我能把它倒在卡扎尔的神龛上。我应该在净化"
+"完神龛后回去和斯隆德纳交代一下。"
 
 #: questlist_v069.json:kazaul:50
 msgid "In the shrine at the base of Blackwater mountain, I met a guardian of Kazaul. By reciting the verses of the ritual chant, I was able to make the guardian attack me."
-msgstr "在黑水脚下的神殿里，我遇到了卡扎尔的一个守护者。通过背诵仪式颂歌的诗句，我能够让守护者攻击我。"
+msgstr "在黑水山山脚下的神龛供堂里，我遇到了一个卡扎尔的守卫。在我念出仪式咒语的颂词"
+"后，我就能攻击到那个守卫了。"
 
 #: questlist_v069.json:kazaul:60
 msgid "I have purified the shrine of Kazaul."
-msgstr "我已经净化了卡扎尔的神殿。"
+msgstr "我成功净化了卡扎尔的神龛。"
 
 #: questlist_v069.json:kazaul:100
 msgid "I had expected some form of appreciation from Throdna for helping him learn more about the ritual and for purifying the shrine. But he seemed more occupied with rambling on about Kazaul. I could not make out anything sane from his ramblings."
-msgstr "我本以为甲虫会对他帮助他了解更多的仪式和净化神殿表示某种形式的赞赏。但他似乎更忙于对卡扎尔的喋喋不休。我无法从他的胡言乱语中看出任何正常的东西。"
+msgstr ""
+"我本以为斯隆德纳会对我帮助他获知更多仪式内容以及净化神龛的行为表示感激。但他"
+"的心思似乎彻底陷进了研究卡扎尔的工作中了，而我根本听不懂他嘴里在自言自语些什"
+"么。"
 
 #: questlist_v069.json:bwm_wyrms
 msgid "No weakness"
@@ -77411,7 +77438,8 @@ msgstr "我把5根白种双足飞龙之爪交给了赫雷克。"
 
 #: questlist_v069.json:bwm_wyrms:30
 msgid "Herec has finished making a potion of fatigue restoration that will be very useful when fighting against the wyrms in the future."
-msgstr "赫雷克炼制出了一种可以用来解除疲劳的药水，日后在与双足飞龙作战时肯定会大有脾益的。"
+msgstr "赫雷克炼制出了一种可以用来解除疲劳的药水，日后在与双足飞龙作战时肯定会大有裨"
+"益的。"
 
 #: questlist_v069.json:bjorgur_grave
 msgid "Awoken from slumber"
@@ -77457,67 +77485,76 @@ msgstr "我把比约格尔家的匕首交给了富卢斯。他很感谢我能把
 
 #: questlist_v0610.json:erinith
 msgid "Deep wound"
-msgstr "创伤"
+msgstr "皮开血淋"
 
 #: questlist_v0610.json:erinith:10
 msgid "Just northeast of Crossglen village, I met Erinith that has set up camp. Apparently, he was attacked during the night and lost a book."
-msgstr "在克罗斯谷村的东北方向，我遇到了已经扎营的艾里尼思。显然，他在夜里受到了攻击，丢了一本书。"
+msgstr "在克罗斯谷村的东北边不远的地方，我遇到了一位就地扎营的人，他叫艾里尼思。他在"
+"夜间遭到了袭击，在袭击中他丢了一本书。"
 
 #: questlist_v0610.json:erinith:20
 msgid "I have agreed to help Erinith find his book. He told me he threw it among some trees to the north of his camp."
-msgstr "我已经同意帮助艾里尼思找到他的书。他告诉我，他把书扔在营地北面的一些树上。"
+msgstr "我答应帮助艾里尼思去找到他的书。他告诉我，他把书扔到营地北面的树林里。"
 
 #: questlist_v0610.json:erinith:21
 msgid "I have agreed to help Erinith find his book in return for 200 gold. He told me he threw it among some trees to the north of his camp."
-msgstr "我已经同意帮助艾里尼思找到他的书，以换取200金币。他告诉我，他把书扔在营地北面的一些树上。"
+msgstr "我答应帮助艾里尼思去找到他的书，以此换取200金币。他告诉我，他把书扔到营地北面"
+"的树林里。"
 
 #: questlist_v0610.json:erinith:30
 msgid "I have returned the book to Erinith."
-msgstr "我已经把书还给了艾里尼思。"
+msgstr "我把书交还给了艾里尼思。"
 
 #: questlist_v0610.json:erinith:31
 msgid "He also needs help with his wound that doesn't seem to be healing. Either I should bring him one potion of major health, or four regular potions of health."
-msgstr "他的伤口似乎还没有愈合，他也需要帮助。我要么给他带一剂大生命药水，要么带四剂普通生命药水。"
+msgstr "他向我求助他身上的伤口似乎没办法自己好了，我可以给他一剂大瓶治疗药水，也可以"
+"是四剂中瓶治疗药水。"
 
 #: questlist_v0610.json:erinith:40
 msgid "I gave Erinith a bonemeal potion to heal his wound. He was a bit scared to use it since they are prohibited by Lord Geomyr."
-msgstr "我给了艾里尼思一瓶骨粉药水来治疗他的伤口。他有点害怕使用它，因为这些东西被吉奥米尔领主禁止使用。"
+msgstr "我给了艾里尼思一瓶骨粉药水来疗伤。不过他有点不敢使用，因为这东西被吉奥米尔领"
+"主所禁止使用了。"
 
 #: questlist_v0610.json:erinith:41
 msgid "I gave Erinith a potion of a major health to heal his wound."
-msgstr "我给了埃里尼斯一个大生命药水来治疗他的伤口。"
+msgstr "我给了艾里尼思一剂大瓶治疗药水来疗伤。"
 
 #: questlist_v0610.json:erinith:42
 msgid "I gave Erinith four regular potions of health to heal his wound."
-msgstr "我给了艾里尼思四个普通的生命药水来治疗他的伤口。"
+msgstr "我给了艾里尼思四剂中瓶治疗药水来疗伤。"
 
 #: questlist_v0610.json:erinith:50
 msgid "The wound healed completely and Erinith thanked me for all the help."
-msgstr "伤口完全愈合了，艾里尼思感谢我的帮助。"
+msgstr "艾里尼思身上的伤口已经完全愈合了，他非常感谢我的帮助。"
 
 #: questlist_v0610.json:hadracor
 msgid "Devastated land"
-msgstr "遭到破坏的土地"
+msgstr "残林覆巢"
 
 #: questlist_v0610.json:hadracor:10
 msgid "On the road to Carn Tower, west of the Crossroads guardhouse, I met a group of woodcutters led by Hadracor. Hadracor wants me to help him get revenge on some wasps that were attacking them while they were cutting down the forest. To help them get revenge, I should look for giant wasps near their encampment and bring him at least five giant wasp wings."
-msgstr "在通往卡恩塔的路上，岔道口岗哨的西边，我遇到了一群由哈德拉克带领的伐木工。哈德拉克希望我帮助他向一些黄蜂复仇，这些黄蜂在他们砍伐森林的时候袭击了他们。为了帮助他们报仇，我应该在他们的营地附近寻找巨蜂，并给他带来至少五只巨蜂的翅膀。"
+msgstr ""
+"在通往卡恩之塔的路上，就是在岔道口岗哨的西边，我遇到了一群由哈德拉克领头的樵"
+"夫。哈德拉克希望我帮助他向一群黄蜂复仇，因为这些黄蜂在他们砍树的时候袭击了他"
+"们。为此我应该到他们的营地附近去寻找几只巨型黄蜂，然后把至少五对巨蜂的翅膀带"
+"回去。"
 
 #: questlist_v0610.json:hadracor:20
 msgid "I have brought five giant wasp wings to Hadracor."
-msgstr "我给哈德拉克尔带来了五个巨大的黄蜂翅膀。"
+msgstr "我给哈德拉克带去了五对巨型黄蜂的翅膀。"
 
 #: questlist_v0610.json:hadracor:21
 msgid "I have brought six giant wasp wings to Hadracor. For helping him, he gave me a pair of gloves."
-msgstr "我给哈德拉克带来了六个巨大的黄蜂翅膀。因为了帮助他，他给了我一副手套。"
+msgstr "我给哈德拉克带去了六对巨型黄蜂的翅膀，对此他赠予了我一双手套。"
 
 #: questlist_v0610.json:hadracor:30
 msgid "Hadracor thanked me for helping him and the other woodcutters get revenge on the wasps. In return, he offered me to trade for some of his items."
-msgstr "哈德拉克感谢我帮助他和其他樵夫向黄蜂报仇。作为回报，他提出和我交易。"
+msgstr "哈德拉克对于我帮助他和其他樵夫向黄蜂进行报仇表达了感谢。作为回报，他提出可以"
+"和我做些交易。"
 
 #: questlist_v0610.json:tinlyn
 msgid "Lost sheep"
-msgstr "丢失的羊"
+msgstr "迷途羔羊"
 
 #: questlist_v0610.json:tinlyn:10
 msgid "On the road to Feygard, near the Feygard bridge, I met a shepherd named Tinlyn. Tinlyn told me that four of his sheep have wandered away and that he won't dare leave the remaining sheep to go look for them."
