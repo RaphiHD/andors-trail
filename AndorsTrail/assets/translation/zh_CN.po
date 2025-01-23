@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-23 12:02+0000\n"
+"PO-Revision-Date: 2025-01-24 10:23+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -11027,12 +11027,12 @@ msgstr "抱歉，不过你的兄弟让我来问一下，你是否知道哪里可
 
 #: conversationlist_tinlyn.json:tinlyn_complete_1
 msgid "Hello again. Thank you for helping me find my lost sheep."
-msgstr "再次向你问好。谢谢你帮我找到我丢失的羊。"
+msgstr "又见面了，谢谢你帮我找到了我那几只丢失的羊。"
 
 #: conversationlist_tinlyn.json:tinlyn_complete_1:0
 #: conversationlist_tinlyn.json:tinlyn_look_1:3
 msgid "I talked to Benbyr and heard the story about you two."
-msgstr "我和本比尔谈过了，听到了关于你们俩的故事。"
+msgstr "本比尔告诉了我关于你们俩之间的故事。"
 
 #: conversationlist_tinlyn.json:tinlyn_complete_1:1
 #: conversationlist_tinlyn.json:tinlyn_story_1:1
@@ -11041,23 +11041,24 @@ msgstr "你的兄弟让我来问哪里可以搞到栅栏，你或许知道？"
 
 #: conversationlist_tinlyn.json:tinlyn_story_1
 msgid "Hello there. You wouldn't happen to want to help an old shepherd would you?"
-msgstr "嗨，你好。你不会碰巧想帮助一个老牧羊人吧？"
+msgstr "嘿，你好，你愿意为我这么一名老牧羊人帮个小忙吗？"
 
 #: conversationlist_tinlyn.json:tinlyn_story_1:0
 msgid "What's the problem?"
-msgstr "有什么问题吗？"
+msgstr "咋了？"
 
 #: conversationlist_tinlyn.json:tinlyn_story_2
 msgid "You see, I tend my flock of sheep here. These fields are excellent pastures for them."
-msgstr "你看，我在这里照顾我的羊群。这些田地是它们的绝佳牧场。"
+msgstr "你也瞧见了，我正在这里放羊，这片草地可谓是一片绝佳牧场。"
 
 #: conversationlist_tinlyn.json:tinlyn_story_3
 msgid "The thing is, I have lost four of them. Now I won't dare leave the ones I still have in my sight to go look for the lost ones."
-msgstr "问题是，我已经失去了其中的四个。现在我不敢离开还在我视线中的那些，离开去寻找丢失的那些。"
+msgstr "但问题是，有四只羊不见了。而我目前并不能丢下这里还在的羊群不管去找走散的那几"
+"只。"
 
 #: conversationlist_tinlyn.json:tinlyn_story_4
 msgid "Would you be willing to help me find them?"
-msgstr "您愿意帮我找到他们吗？"
+msgstr "您愿意帮我去找到他们吗？"
 
 #: conversationlist_tinlyn.json:tinlyn_story_4:0
 #: conversationlist_tinlyn.json:tinlyn_story_4_1:0
@@ -11151,7 +11152,7 @@ msgstr "无论如何，我不想谈论这个。我已经把那种生活抛在脑
 #: conversationlist_guynmart2_npc.json:guynmart_sheep_10
 #: conversationlist_guynmart2_npc.json:guynmart_sheep_10:0
 msgid "Baah!"
-msgstr "呸！"
+msgstr "咩！"
 
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep1_n:0
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep2_n:0
@@ -68393,11 +68394,11 @@ msgstr "长袍上的光反射会使敌人误以为你在迅速移动。"
 
 #: itemlist_stoutford.json:feline_shoes
 msgid "Feline shoes"
-msgstr "猫鞋"
+msgstr "猫豹之鞋"
 
 #: itemlist_stoutford.json:feline_gloves
 msgid "Feline gloves"
-msgstr "猫手套"
+msgstr "猫豹手套"
 
 #: itemlist_stoutford.json:handsewn_gloves2
 msgid "Handsewn leather gloves"
@@ -71227,7 +71228,7 @@ msgstr "哇！它的气味几乎可以说是重得吓人，堪比浸在污水里
 
 #: itemlist_laeroth.json:feline_hat
 msgid "Feline hat"
-msgstr "猫帽"
+msgstr "猫豹之帽"
 
 #: itemlist_laeroth.json:mystery_laeroth_key
 msgid "Mystery Laeroth key"
@@ -71275,7 +71276,7 @@ msgstr "方形块"
 
 #: itemlist_laeroth.json:korhald_kettle
 msgid "Korhald's kettle"
-msgstr "科哈德的水壶盔"
+msgstr "科哈德水壶盔"
 
 #: itemlist_laeroth.json:korhald_kettle:description
 msgid "Korhald's helmet, adorned with intricate engravings, offering formidable protection while symbolizing the vallor and resilience to its wearer."
