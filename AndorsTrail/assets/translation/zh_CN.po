@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-24 10:23+0000\n"
+"PO-Revision-Date: 2025-01-25 18:11+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -11058,33 +11058,33 @@ msgstr "但问题是，有四只羊不见了。而我目前并不能丢下这里
 
 #: conversationlist_tinlyn.json:tinlyn_story_4
 msgid "Would you be willing to help me find them?"
-msgstr "您愿意帮我去找到他们吗？"
+msgstr "您愿意帮我去找到它们吗？"
 
 #: conversationlist_tinlyn.json:tinlyn_story_4:0
 #: conversationlist_tinlyn.json:tinlyn_story_4_1:0
 msgid "This doesn't sound like there will be any fighting involved. I only do things where there's fighting involved."
-msgstr "这听起来不会涉及任何战斗。我只做涉及战斗的事情。"
+msgstr "这件事似乎不涉及到战斗的环节嘛，我只接要干架的活。"
 
 #: conversationlist_tinlyn.json:tinlyn_story_4:1
 msgid "Absolutely, it would be my honor to assist you in locating your missing sheep."
-msgstr "当然，我很荣幸能协助你找到你失踪的羊群。"
+msgstr "当然，我很荣幸能协助你去寻找你那失踪的羊群。"
 
 #: conversationlist_tinlyn.json:tinlyn_story_4:2
 #: conversationlist_fungi_panic.json:zuul_khan_70_22:0
 msgid "What would I gain from this?"
-msgstr "我能从中得到什么？"
+msgstr "我能从中得到什么吗？"
 
 #: conversationlist_tinlyn.json:tinlyn_decline_1
 msgid "Oh well, it didn't hurt to ask."
-msgstr "哦，好吧，问问也无妨。"
+msgstr "哦，好吧，不过问问也无妨。"
 
 #: conversationlist_tinlyn.json:tinlyn_story_4_1
 msgid "Gain? Why, my thanks of course."
-msgstr "收益？什么，当然是我的感谢。"
+msgstr "得到什么？那当然是能得到我的感谢啊。"
 
 #: conversationlist_tinlyn.json:tinlyn_story_4_1:1
 msgid "Sure, I will help you find your sheep."
-msgstr "当然，我将帮助你找到你的羊。"
+msgstr "当然，我会帮助你找到你的羊的。"
 
 #: conversationlist_tinlyn.json:tinlyn_story_4_1:2
 msgid "No thanks, I better not get involved in this."
@@ -11092,15 +11092,16 @@ msgstr "算了，我最好不要参与其中。"
 
 #: conversationlist_tinlyn.json:tinlyn_story_5
 msgid "Good, thank you. Please put these bells around their necks so I can hear them."
-msgstr "很好，谢谢你。请把这些铃铛挂在他们的脖子上，这样我就能听到它们的声音。"
+msgstr "太好了，谢谢你啊。请把这些铃铛挂到它们的脖子上，这样我就能听声音辨别它们的位"
+"置了。"
 
 #: conversationlist_tinlyn.json:tinlyn_story_6
 msgid "Return to me once you have placed bells around the neck of each of the four missing sheep."
-msgstr "一旦你把铃铛挂在四只失踪羊的脖子上， 就回到我身边。"
+msgstr "待你把四个铃铛挂到那四只羊脖子上后，记得回来一下。"
 
 #: conversationlist_tinlyn.json:tinlyn_look_1
 msgid "Hello again. Did you find all four of my missing sheep?"
-msgstr "又见面了。你找到我失踪的四只羊了吗？"
+msgstr "又见面了，你找到我那失踪的四只羊了吗？"
 
 #: conversationlist_tinlyn.json:tinlyn_look_1:0
 msgid "Yes, I found all of them."
@@ -11108,7 +11109,7 @@ msgstr "是的，我都找到了。"
 
 #: conversationlist_tinlyn.json:tinlyn_look_1:1
 msgid "Not yet. I am still looking."
-msgstr "还没有。我还在找呢。"
+msgstr "还没有，我还在找呢。"
 
 #: conversationlist_tinlyn.json:tinlyn_look_1:2
 msgid "What was I supposed to do?"
@@ -11116,19 +11117,20 @@ msgstr "我应该怎么做呢？"
 
 #: conversationlist_tinlyn.json:tinlyn_found_1
 msgid "Yes, I can hear distant sounds of bells from the fields to the south. I am sure they will come back here now that they have the bells on them."
-msgstr "是的，我可以听到从田野到南方的远处的钟声。我确定他们现在已经摇铃，他们现在会回到这里。"
+msgstr "嗯，我已经听到从草地南边远处传来的叮当声了。既然铃铛都在它们身上了，那不久后"
+"的找回工作就不成问题了。"
 
 #: conversationlist_tinlyn.json:tinlyn_found_1:0
 msgid "I am happy to help."
-msgstr "我很乐意提供帮助。"
+msgstr "我很高兴我可以帮得上忙。"
 
 #: conversationlist_tinlyn.json:tinlyn_found_1:1
 msgid "That was some hard work. What about a reward?"
-msgstr "这是一项艰苦的工作。奖励呢？"
+msgstr "这件事还挺不轻松的，那奖励什么的？"
 
 #: conversationlist_tinlyn.json:tinlyn_found_2
 msgid "I am sorry, but I am a simple shepherd. I have no wealth or magical trinkets to give you."
-msgstr "我很抱歉，但我是一个简单的牧羊人。我没有财富或神奇的饰品可以给你。"
+msgstr "很抱歉，我就只是一名普通的牧羊人，并没有什么财富或奇物可以拿出手的。"
 
 #: conversationlist_tinlyn.json:tinlyn_found_3
 msgid "Thank you for helping me."
@@ -11136,11 +11138,11 @@ msgstr "谢谢你对我的帮助。"
 
 #: conversationlist_tinlyn.json:tinlyn_benbyr_1
 msgid "Is he still around? I thought the guards got the best of him."
-msgstr "他还在吗？我以为守卫者得到了他的好处。"
+msgstr "他还待在这附近啊？我想那些卫兵绝对拿了他的好处。"
 
 #: conversationlist_tinlyn.json:tinlyn_benbyr_2
 msgid "Anyway, I do not want to talk about that. I have left that kind of life behind me. Herding sheep is what I do now."
-msgstr "无论如何，我不想谈论这个。我已经把那种生活抛在脑后了。放牧羊群是我现在要做的。"
+msgstr "唉，这件事我真不想多谈，往事不堪回首，我现在唯一想做的就是安安静静放羊。"
 
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep1_n
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep2_n
@@ -11159,7 +11161,7 @@ msgstr "咩！"
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep3_n:0
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep4_n:0
 msgid "[Place Tinlyn's bell around the neck of the sheep]"
-msgstr "[将丁林的铃铛放在羊的脖子上]"
+msgstr "[将丁林给的铃铛挂到羊的脖子上]"
 
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep1_n:1
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep2_n:1
@@ -11176,47 +11178,49 @@ msgstr "[攻击]"
 
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep_placed_2
 msgid "[You place one of the bells around the neck of the sheep]"
-msgstr "[你把其中一个铃铛放在羊的脖子上]"
+msgstr "[你将其中一只铃铛挂到了羊的脖子上]"
 
 #: conversationlist_benbyr.json:benbyr_complete_1
 msgid "Hello again. We sure showed that bastard Tinlyn. That should teach him not to mess with me again."
-msgstr "又见面了。我们肯定给那个混蛋丁林看了。这应该让他知道不要再惹我了。"
+msgstr "又见面了，我们先前可真是给那个混账丁林瞧了瞧颜色，叫他好好得领教了一下搞我的"
+"代价。"
 
 #: conversationlist_benbyr.json:benbyr_declined
 msgid "I have nothing more to say to you. Leave me."
-msgstr "我对你无话可说。离开我吧。"
+msgstr "我对你无话可说，快走吧。"
 
 #: conversationlist_benbyr.json:benbyr_story_1
 msgid "Psst, hey. Over here."
-msgstr "嘘，嘿。在这里。"
+msgstr "嘿，嘘，靠近点。"
 
 #: conversationlist_benbyr.json:benbyr_story_2
 msgid "You look like an aspiring adventurer. Are you willing to do some ... [Benbyr pauses] ... adventuring? He he."
-msgstr "你看起来像一个有抱负的冒险家。您愿意做些……[本比尔停顿]……冒险吗？呵呵。"
+msgstr "你的外表告诉我你应该是个很有雄心的冒险者，那你想不想…[本比尔顿了一下]"
+"…进行一场冒险？嘿嘿。"
 
 #: conversationlist_benbyr.json:benbyr_story_2:0
 msgid "What are we talking about here?"
-msgstr "我们在这里谈论的是什么呢？"
+msgstr "你想说啥？"
 
 #: conversationlist_benbyr.json:benbyr_story_2:1
 msgid "Depends on what I get in return."
-msgstr "取决于我得到的回报。"
+msgstr "这取决于我能得到什么样的回报。"
 
 #: conversationlist_benbyr.json:benbyr_story_2:2
 msgid "I try to help people wherever they might need help."
-msgstr "我努力帮助人们，只要他们可能需要帮助。"
+msgstr "我很乐意帮助每一个需要帮助的人。"
 
 #: conversationlist_benbyr.json:benbyr_story_3_1
 msgid "Straight to the point eh? I like that."
-msgstr "直奔主题，是吗？我喜欢这样。"
+msgstr "单刀直入是吗？我就喜欢你这种人。"
 
 #: conversationlist_benbyr.json:benbyr_story_3_2
 msgid "Ah, the adventurer seeks compensation. Tell me, is the thrill of an adventure not reward enough?"
-msgstr "啊，冒险家寻求奖励。告诉我，难道冒险的快感还不够奖励吗？"
+msgstr "啊，我们的冒险家想要寻求到些奖励：告诉我，难道冒险的快感还不够奖励吗？"
 
 #: conversationlist_benbyr.json:benbyr_story_3_2:0
 msgid "Yes, you are right."
-msgstr "是的，你是对的。"
+msgstr "嗯，你说得对。"
 
 #: conversationlist_benbyr.json:benbyr_story_3_2:1
 #: conversationlist_crossroads_3.json:crossroads_backguard_5
@@ -11239,39 +11243,41 @@ msgstr "不。"
 
 #: conversationlist_benbyr.json:benbyr_story_3_4
 msgid "Then I will surely disappoint you. Return to me once you are ready for my task."
-msgstr "那么我一定会让你失望。一旦你准备好接受我的任务，请回到我身边。"
+msgstr "那你恐怕得失望了，待你想清楚了再来告诉我你的决定吧。"
 
 #: conversationlist_benbyr.json:benbyr_story_3_3
 msgid "The noble adventurer. He he, I like that. Yes, you will do fine."
-msgstr "高贵的冒险家，我喜欢那样。是的，你会做得很好的。"
+msgstr "啊，你是一名品行高贵的冒险家，这点我喜欢。嗯哼，我想这件事交给你没问题。"
 
 #: conversationlist_benbyr.json:benbyr_story_4
 msgid "A while ago, I did some business with a certain man called Tinlyn, over here at this Crossroads guardhouse."
-msgstr "前段时间，我和一个叫丁林的人在岔道口岗哨里做生意。"
+msgstr "先前有一阵子时间里，我和一个叫丁林的家伙之间达成了一些交易，地点就在这处岔道"
+"口岗哨。"
 
 #: conversationlist_benbyr.json:benbyr_story_5
 msgid "As to the nature of our business, I can't really tell you. Let's just say that our business was of the kind that was mutually beneficial and the guards did not know about it."
-msgstr "至于我们的业务性质，我真的不能告诉你。只能说我们的生意是互惠互利的，守卫不知道。"
+msgstr "至于我们之间做的是何种交易，我想我并不能告诉你。我只能说那是完全的互惠互利之"
+"事，而且那些卫兵根本就不晓得我们这生意。"
 
 #: conversationlist_benbyr.json:benbyr_story_6
 msgid "We were ready to finish the big deal, me and Tinlyn. That's when he decided to turn on me."
-msgstr "就在我和丁林即将完成这笔大交易时。就在这时，他决定背叛我。"
+msgstr "然而就在我和丁林之间的这交易快要完成时，他选择直接背刺了我。"
 
 #: conversationlist_benbyr.json:benbyr_story_7
 msgid "He reported me to the guards, and made me take the whole blame for our business."
-msgstr "他向卫兵报告了我，并让我为我们的生意承担全部责任。"
+msgstr "他向卫兵揭发了我，并让我一人承担了我们之间生意的全部责任。"
 
 #: conversationlist_benbyr.json:benbyr_story_8
 msgid "I was sent to Feygard prison, while he himself was set free for reporting me."
-msgstr "我被送进了费加德监狱，而他本人却因为举报我而被释放。"
+msgstr "然后我被送进了费加德的监狱，而他却因检举有功而被直接放掉了。"
 
 #: conversationlist_benbyr.json:benbyr_story_9
 msgid "Argh, that fool Tinlyn. I hope the Shadow never shows him any mercy."
-msgstr "啊，那个傻瓜丁林。我希望暗影永远不要对他手下留情。"
+msgstr "啊，丁林那个蠢货，愿暗影不要对他留情。"
 
 #: conversationlist_benbyr.json:benbyr_story_9:0
 msgid "Get to the point already."
-msgstr "那么要进入正题了。"
+msgstr "快说你要讲的正题吧。"
 
 #: conversationlist_benbyr.json:benbyr_story_9:1
 msgid "What do you need me to do?"
@@ -11279,7 +11285,7 @@ msgstr "你需要我干什么？"
 
 #: conversationlist_benbyr.json:benbyr_story_10
 msgid "I want to get revenge on that fool Tinlyn of course. Now, my plan is the following:"
-msgstr "我当然要向丁林那个傻瓜报仇。现在，我的计划是这样的："
+msgstr "当然是我要向丁林那个蠢货报仇。于是乎，我的计划是这样的："
 
 #: conversationlist_benbyr.json:benbyr_story_11
 msgid "I have heard that he is herding sheep these days. This is an excellent opportunity for ... shall we say ... an accident to happen to his sheep. He he."
