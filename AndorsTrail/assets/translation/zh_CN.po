@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-29 15:02+0000\n"
+"PO-Revision-Date: 2025-01-31 04:58+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -6460,7 +6460,7 @@ msgstr "没有，我从来没听说过。"
 
 #: conversationlist_ambelie.json:ambelie_4
 msgid "Pfft. That just proves everything I have heard of you savages here in the southern land. So uneducated."
-msgstr "哼，你和我听说的南边蛮族的形象完全一致，如此愚昧而又无知。"
+msgstr "哼，你和我听说的南边野蛮之徒的形象完全一致，如此愚昧而又无知。"
 
 #: conversationlist_ambelie.json:ambelie_5
 msgid "I, Ambelie, of the house of Laumwill in Feygard, am on an excursion to the southern Nor City."
@@ -7423,7 +7423,8 @@ msgstr "您可真会说笑，我是我们定居点派来向外界寻求帮助的
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_4
 msgid "The people of my settlement, the Blackwater mountain, are slowly being reduced in numbers by the monsters and the savage bandits."
-msgstr "我们黑水山定居点正在遭受一群怪物和匪徒们的长期进攻，我们之前的战斗可谓节节失利。"
+msgstr "我们黑水山定居点正在遭受一群怪物和野蛮匪徒们的长期进攻，我们之前的战斗可谓节"
+"节失利。"
 
 #: conversationlist_bwm_agent_1.json:bwm_agent_1_5
 msgid "The monsters are closing in on us, and we desperately need help by some able fighter."
@@ -11373,39 +11374,42 @@ msgstr "*唉*"
 
 #: conversationlist_crossroads_1.json:fanamor_4
 msgid "Oh, who am I kidding. OK, I was trying to get through the forest here and got ambushed by these anklebiters."
-msgstr "哦，我在开玩笑。好吧，我试图穿过这里的森林，却被这些脚踝咬伤者伏击了。"
+msgstr "哦，我只是在说笑罢了。好吧，真实的情况是我在试着穿越这片树林的半途上中了那些"
+"咬踝兽的埋伏。"
 
 #: conversationlist_crossroads_1.json:fanamor_5
 msgid "I won't leave until nightfall, when they can't see me anymore and I might be able to sneak back."
-msgstr "我要到天黑才离开，那时他们再也看不到我了，我也许可以偷偷溜回去。"
+msgstr "我准备等到天色暗下去后再起身，到那时它们就没啥视野了，我说不定就能乘机溜回去"
+"了。"
 
 #: conversationlist_crossroads_1.json:fanamor_6
 msgid "This is my hiding spot! Now leave me."
-msgstr "这是我的藏身之处！现在离开这。"
+msgstr "然后我就躲在这里了！你快走吧。"
 
 #: conversationlist_crossroads_1.json:fanamor_6:0
 msgid "Umar sent me with the words \"You are no one.No one knows you.No one has seen you.\" Now give me the journal please."
-msgstr "奥马尔派我来的时候说：\"你不是任何人，没有人认识你，没有人见过你。\"现在请把日记给我。"
+msgstr "是奥马尔派我的，他还告诉了我一句话：“你籍籍无名，你默默无闻，你来去无踪”，现"
+"在请把你所做的记录给我吧。"
 
 #: conversationlist_crossroads_1.json:crossroads_guard_r_1
 msgid "Did you hear? Some thieves down in Fallhaven were planning an escape for one of the imprisoned thieves in the prison there."
-msgstr "你听到了吗？ 法尔海文的一些小偷正计划让那里监狱中被监禁的一个小偷越狱。"
+msgstr "你听说了吗？ 法尔海文有一群盗贼先前计划着帮助一个关在狱中的同伙越狱。"
 
 #: conversationlist_crossroads_1.json:crossroads_guard_r_2
 msgid "Luckily, someone got wind of it and told the guard captain."
-msgstr "幸运的是，有人知道了，并告诉了警卫队长。"
+msgstr "而幸运的是，有人提前获悉到了风声，并将之告诉给了那里的卫队长。"
 
 #: conversationlist_crossroads_1.json:crossroads_guard_r_3
 msgid "It's good to know that there are at least a few decent people still around."
-msgstr "很高兴知道周围至少还有一些体面的人。"
+msgstr "那附近还能有些作风这么正派的人，着实是件好事。"
 
 #: conversationlist_crossroads_1.json:crossroads_guard_1
 msgid "Aren't you a bit young to be traveling around here all by yourself?"
-msgstr "你一个人在这里四处游荡是不是年轻了点？"
+msgstr "你是独自一个人在这儿周围四处奔波吗，你是不是有点太年轻了点？"
 
 #: conversationlist_crossroads_1.json:crossroads_guard_2
 msgid "I sure hope you are not another one of those types trying to sell me your cheap junk."
-msgstr "我当然希望你不是又一个试图卖给我廉价垃圾的人。"
+msgstr "愿你不是又一个来试图向我兜售廉价垃圾货的家伙。"
 
 #: conversationlist_crossroads_1.json:crossroads_guard_3
 #: conversationlist_guynmart_npc.json:guynmart_guard_10
@@ -11419,61 +11423,65 @@ msgstr "你没听说吗？他们都得了病。"
 
 #: conversationlist_crossroads_1.json:cr_loneford_st_2
 msgid "It all started a few days ago. As the story goes, someone found one of the farmers passed out in one of the fields, completely white faced and shivering."
-msgstr "这一切都始于几天前。故事是这样的，有人发现一个农民昏倒在一块田里，脸色全白，浑身发抖。"
+msgstr "这一切都始于几天之前，当时事情是这样的：最早有人发现一个农民昏倒在了田里，走"
+"进一瞧发现他面如白纸，浑身抽搐。"
 
 #: conversationlist_crossroads_1.json:cr_loneford_st_3
 msgid "A few days later, the same symptoms started to show on a lot more people."
-msgstr "几天后，同样的症状开始出现在更多人身上。"
+msgstr "几天之后，同样的症状开始出现在了更多人的身上。"
 
 #: conversationlist_crossroads_1.json:cr_loneford_st_4
 #: conversationlist_loneford_1.json:loneford_farmer_il_3
 msgid "Then, all people showed the symptoms in one way or another."
-msgstr "然后，所有的人都以这样或那样的方式表现出症状。"
+msgstr "再然后，这里所有的人都以这样或那样的形式染上了这种症状。"
 
 #: conversationlist_crossroads_1.json:cr_loneford_st_5
 msgid "Some old people even died."
-msgstr "一些老人甚至死亡了。"
+msgstr "甚至有些老者就直接没了。"
 
 #: conversationlist_crossroads_1.json:cr_loneford_st_6
 msgid "Everyone started investigating what could be the cause. Currently, the cause is still unknown."
-msgstr "大家开始调查可能是什么原因。但目前，原因仍然不明。"
+msgstr "于是乎大家都开始调查事情的源头，但截至目前还有什么进展。"
 
 #: conversationlist_crossroads_1.json:cr_loneford_st_7
 msgid "Luckily, now Feygard has sent patrols up there to help guard the village at least. The people are still suffering though."
-msgstr "幸运的是，至少现在费加德派了巡逻队到那里帮助守卫村庄。尽管如此，人们仍然在受苦。"
+msgstr "不过幸好，至少现在费加德派出的巡卫到达这里来帮助守卫村庄了。尽管如此，这里疫"
+"病的情况并没有好转什么的。"
 
 #: conversationlist_crossroads_1.json:cr_loneford_st_8
 msgid "Me, I am certain that this is the work of those savages from Nor City somehow. They probably sabotaged something up there."
-msgstr "我相信这是诺尔城的野蛮人干的。他们可能在上面破坏了什么。"
+msgstr "要我说的话，我很确信这就是诺尔城的那群野蛮之徒所干的，他们估计是在这里采取了"
+"某种破坏行动。"
 
 #: conversationlist_crossroads_1.json:cr_loneford_st_9
 msgid "What do they call it, the 'Shadow'? They are willing to do almost anything to upset the law and order around here."
-msgstr "他们怎么称呼它，\"暗影\"？他们几乎愿意做任何事情来破坏这里的法律和秩序。"
+msgstr "他们怎么称呼那东西的，好像叫“暗影”？要知道为了破坏这附近的法律和秩序，他们愿"
+"意做出几乎任何事情来。"
 
 #: conversationlist_crossroads_1.json:cr_loneford_st_10
 msgid "I tell you. Savages - that's what they are. No respect for the laws or authority."
-msgstr "我告诉你。野蛮人--这就是他们的特点。不尊重法律或权威。"
+msgstr "我告诉你：野蛮之徒——这个词形容他们正合适，他们完全不尊重法律或者权威。"
 
 #: conversationlist_minarra.json:minarra_first_1
 #: conversationlist_crossroads_3.json:crossroads_sleepguard_1
 #: conversationlist_norath.json:norath_1
 msgid "Hello there. Can I help you?"
-msgstr "你好。我能帮你吗？"
+msgstr "你好，需要什么帮助吗？"
 
 #: conversationlist_minarra.json:minarra_first_1:0
 msgid "You seem to have a lot of equipment around here. Do you have anything to trade?"
-msgstr "你这里似乎有很多装备。你有什么可以交易的吗？"
+msgstr "你这里似乎有很多装备嘛，能做些交易吗？"
 
 #: conversationlist_minarra.json:minarra_first_1:1
 #: conversationlist_minarra.json:minarra_return_1:2
 msgid "What do you do up here?"
-msgstr "你在这上面做什么？"
+msgstr "你在这上面做什么呢？"
 
 #: conversationlist_minarra.json:minarra_first_1:2
 #: conversationlist_minarra.json:minarra_completing_1:1
 #: conversationlist_minarra.json:minarra_completed_1:1
 msgid "You must have a good view of the surroundings up here. Have you seen anything interesting lately?"
-msgstr "你在这里一定能很好地看到周围的环境。你最近有看到什么有趣的东西吗？"
+msgstr "你在这里肯定对附近地区是一览无余吧，话说你最近有看到什么有趣的东西吗？"
 
 #: conversationlist_minarra.json:minarra_trade_rej
 msgid "I might, but you would have to clear it with Gandoren downstairs. We don't trade with just anyone."
@@ -32341,7 +32349,7 @@ msgid ""
 "The password is \"You are no one. No one knows you. No one has seen you.\" Good luck."
 msgstr ""
 "啊!我差点忘了。如果你想让他们给你日记，你必须说出密码。\n"
-"密码是“你不是一个人。没有人认识你。没有人见过你。”祝你好运。"
+"密码是“你籍籍无名，你默默无闻，你来去无踪。”祝你好运。"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_9:0
 msgid "I will keep that in mind. Bye."
@@ -32354,7 +32362,7 @@ msgstr "什么，我不知道你在说什么。"
 #: conversationlist_omicronrg9.json:dunla_guild_1:0
 #: conversationlist_omicronrg9.json:dunla_guild_1:1
 msgid "You are no one. No one knows you. No one has seen you."
-msgstr "你不是一个人。没有人认识你。没有人见过你。"
+msgstr "你籍籍无名，你默默无闻，你来去无踪。"
 
 #: conversationlist_omicronrg9.json:dunla_guild_2a
 msgid "So, you are one of us. Here, take my journal."
@@ -32434,7 +32442,7 @@ msgstr "你说奥马尔？我不认识任何奥马尔！"
 
 #: conversationlist_omicronrg9.json:leta_guild_1a:0
 msgid "(Whispering) You are no one. No one knows you. No one has seen you."
-msgstr "（低声）你不是一个人。没有人认识你。没有人见过你。"
+msgstr "(低声)你籍籍无名，你默默无闻，你来去无踪。"
 
 #: conversationlist_omicronrg9.json:leta_guild_2
 msgid "How do you ...? Whatever, you are one of us."
