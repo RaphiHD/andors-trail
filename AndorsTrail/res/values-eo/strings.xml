@@ -300,7 +300,7 @@
     <string name="preferences_movement_dpad_positions_upper_right">Supra dekstra angulo</string>
     <string name="preferences_movement_dpad_positions_center_top">Centro supre</string>
     <string name="actorconditioninfo_constant_effect">Kontinuaj efiko</string>
-    <string name="actorconditioninfo_effect_every_round">Ĉiuj rondo</string>
+    <string name="actorconditioninfo_effect_every_round">Ĉiuj rondoj</string>
     <string name="bulkselection_totalcost_buy">Tuta kosto: %1$d oro</string>
     <string name="bulkselection_sell_confirmation_title">Ĉu vi estas certa?</string>
     <string name="bulkselection_sell_confirmation">Ĉu vi estas certa, ke vi volas vendi %1$s? Ĉi tiu objekto estas %2$s kaj vi eble ne povos revenigi ĝin.</string>
@@ -340,4 +340,14 @@
     <string name="skill_shortdescription_magicfinder">Pli granda ŝanco trovi magiaĵoj</string>
     <string name="skill_shortdescription_evasion">Pli granda ŝanco por fuĝi</string>
     <string name="monsterinfo_killcount">Antaŭaj mortigoj</string>
+    <string name="dialog_newversion_permission_information">\n\nPor povi konservi kaj ŝargi viajn ludojn (kaj nur por ĉi tiu celo), La Vojeto de Andoro petos permeson aliri vian memoron.</string>
+    <string name="dialog_newversion_message">Dankon pro elŝuto de La Vojeto de Andoro!\n\nBonvolu noti, ke ĉi tiu versio de Andor\'s Trail estas LABORAĴO EN PROCESO, kio signifas, ke ĉiuj mapoj ankoraŭ ne estas kompletaj.\nBonvolu viziti la projektajn forumojn por diskuti la ludon kun aliaj ludantoj aŭ helpi plibonigi ĝin (vidu pri).\n\nDankon pro ĉiuj reagoj!</string>
+    <string name="dialog_permission_information">Andor\'s Trail skribas konservitajn ludojn en uzant-alirebla memoro en via aparato. Tio permesas al vi facile sekurkopii viajn konservitajn ludojn aŭ transdoni ilin al nova aparato. Bonvolu viziti niajn forumojn por pliaj informoj.\n\nAndor\'s Trail ne uzas aliron al via aparato por iu ajn alia celo kaj ne aliras la interreton. Andor\'s Trail estas malfermkoda; la fontoj troviĝas en github.</string>
+    <string name="preferences_display_fullscreen">Montras la ludon en plentekrana reĝimo. (Postulas rekomencigon)</string>
+    <string name="preferences_dialog_category">Dialoga konfirmo</string>
+    <string name="preferences_dialog_confirmrest">Donas demandon pri ĉu vi volas ripozi enirante liton. Alie, vi ĉiam aŭtomate ripozos.</string>
+    <string name="preferences_dialog_confirmattack">Ebligas la dialogujon \'Ĉu vi volas ataki..?\' kiam vi atakas monstron.</string>
+    <string name="skill_shortdescription_resistance_mental">Rezisto kontraŭ mensaj kondiĉoj</string>
+    <string name="skill_shortdescription_resistance_physical_capacity">Rezisto kontraŭ fizikakapablaj kondiĉoj</string>
+    <string name="skill_shortdescription_resistance_blood_disorder">Rezisto kontraŭ sangomalsanoj</string>
 </resources>
