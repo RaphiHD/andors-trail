@@ -4,10 +4,10 @@
     <string name="app_name">Andor\'s Trail</string>
     <string name="menu_settings">Asetukset</string>
     <string name="menu_save">Tallenna</string>
-    <string name="menu_save_gamesaved">Peli tallennettiin paikkaan %1$d</string>
+    <string name="menu_save_gamesaved">Peli tallennettiin liittimeen %1$d</string>
     <string name="loadsave_title_save">Tallenna peli</string>
     <string name="loadsave_title_load">Lataa tallennettu peli</string>
-    <string name="loadsave_selectslot">Valitse paikka</string>
+    <string name="loadsave_selectslot">Valitse liitin</string>
     <string name="dialog_loading_message">Ladataan resursseja…</string>
     <string name="dialog_loading_failed_title">Lataaminen epäonnistui</string>
     <string name="combat_flee">Pakene</string>
@@ -110,7 +110,7 @@
     <string name="startscreen_load_game">Lataa peli</string>
     <string name="startscreen_error_loading_game">Virhe ladattaessa peliä</string>
     <string name="startscreen_attention_slot_gets_delete_on_load">Huomio</string>
-    <string name="startscreen_attention_message_slot_gets_delete_on_load">Tämän pelin lataaminen poistaa sen tallennuspaikan. Sinun on tallennettava uudelleen ennen kuin vaihdat toiseen peliin.</string>
+    <string name="startscreen_attention_message_slot_gets_delete_on_load">Tämän pelin lataaminen poistaa sen tallennusliittimen. Sinun on tallennettava uudelleen ennen kuin vaihdat toiseen peliin.</string>
     <string name="startscreen_mode_unlimited_saves_and_lives">Vakio (rajattomasti elämiä ja pelastuksia)</string>
     <string name="startscreen_mode_50_lives">Vaikea (50 elämää, yksi pelastus)</string>
     <string name="startscreen_mode_unlimited_lives">Keskitaso (rajattomasti elämiä, yksi pelastus)</string>
@@ -188,4 +188,21 @@
     <string name="levelup_add_blockchance_description">Lisää %1$d peruseston mahdollisuuteesi.</string>
     <string name="shop_item_sold">%1$s myyty.</string>
     <string name="heroinfo_unlimited_lives">Rajattomasti elämiä, yksi pelastus</string>
+    <string name="loadsave_import_existing_description">Olemassa oleva tallennus: Liitin: %1$s:\n\t%2$s</string>
+    <string name="loadsave_import_imported_description">Tuotu tallennus: Liitin: %1$s:\n\t%2$s</string>
+    <string name="loadsave_save_overwrite_confirmation_slot">(liitin %1$d)</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Korvataanko olemassa oleva liitin?</string>
+    <string name="preferences_quickslots_placement">Pikaliittimen sijainti</string>
+    <string name="preferences_quickslots_placement_summary">Mihin pikaliittimet sijoitetaan</string>
+    <string name="preferences_ui_show_quickslots_when_toolbox_is_visible">Saa pikaliitinten painikkeet näkyviin heti, kun työkalulaatikko avataan</string>
+    <string name="startscreen_error_loading_empty_slot">Ei voi ladata tyhjästä liittimestä.</string>
+    <string name="inventory_assign">Määritä nopea liitin</string>
+    <string name="inventory_assign_slot1">Liitin 1</string>
+    <string name="inventory_assign_slot2">Liitin 2</string>
+    <string name="inventory_assign_slot3">Liitin 3</string>
+    <string name="inventory_unassign">Kumoa pikaliittimen määritys</string>
+    <string name="loadsave_save_to_new_slot">Luo uusi Savegame-liitin</string>
+    <string name="preferences_ui_show_quickslots_when_toolbox_is_visible_title">Näytä pikaliittimet, kun työkalulaatikko avataan</string>
+    <string name="loadsave_import_file_exists_question">Kohdeliittimessä on jo tallennuspeli. Haluatko säilyttää olemassa olevan tallennuksen, korvata sen tuodulla tallennuksella vai tuoda tallennuksen liittimeen?\n\n%1$s\n\n%2$s</string>
+    <string name="preferences_dialog_overwrite_savegame">Antaa kysymyksen siitä, haluatko ylikirjoittaa, kun tallennat savegame-liittimen, joka sisältää jo savegame.</string>
 </resources>
