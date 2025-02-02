@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-01 18:10+0000\n"
+"PO-Revision-Date: 2025-02-02 19:02+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -11580,8 +11580,8 @@ msgstr "至于现在的处理，若是在平时的话，我们很快就出发去
 
 #: conversationlist_minarra.json:minarra_story_6
 msgid "I am sure that those were the men. If we were to catch and kill them, the people of Feygard would be much safer."
-msgstr "我确信他们就是那群人。如果我们能抓住并解决掉他们的话，费加德的子民会生活得更"
-"加安全的。"
+msgstr "我确信他们就是那群人。如果我们能抓住并干掉他们的话，费加德的子民会生活得更加"
+"安全的。"
 
 #: conversationlist_minarra.json:minarra_story_6:0
 msgid "I could go look for them if you want."
@@ -11594,35 +11594,41 @@ msgstr "好吧，祝你好运。"
 
 #: conversationlist_minarra.json:minarra_story_7
 msgid "Thank you. Good luck yourself. Now, if you will excuse me, I need to keep my eyes on the road."
-msgstr "谢谢你。自求多福吧。现在，请你谅解，我需要上路了。"
+msgstr "谢了，祝你好运。现在抱歉我就先走一步了。"
 
 #: conversationlist_minarra.json:minarra_story_8
 msgid "Hey, that's a great idea. Are you sure you are up to it though? The people of Feygard would indeed be grateful if you were to find them."
-msgstr "嘿，真是个好主意。你确定你能做到这一点吗？如果你能找到他们，费加德人民确实会心存感激。"
+msgstr "嘿，这主意确实不错。不过你确定你能完成这件事吗？如果你能找到他们的话，费加德"
+"的子民们会对你心存感激的。"
 
 #: conversationlist_minarra.json:minarra_story_9
 msgid "Anyway, I saw them travelling the road west of here. You know that road that leads to Carn Tower? That's the last I saw of them. You might want to follow that road and see if you can spot them."
-msgstr "总之，我看到他们在这里以西的道路上前进。你知道那条通往卡恩塔的路吗？那是我最后一次看到他们。你沿着那条路走，看看是否能发现他们。"
+msgstr ""
+"还有一点，他们是在这里以西的道路上被我瞧见的，就是那条通往卡恩之塔的路你知道"
+"吗？我最后一眼瞧见他们就是在那里。你可以沿着那条路去搜索，看看是否能发现他们"
+"。"
 
 #: conversationlist_minarra.json:minarra_story_10
 msgid "They have stolen three pieces of a very valuable painting from Feygard, from the report that I have read. For their crimes and the savageness of their way, they are wanted dead by the Feygard patrol."
-msgstr "根据我读到的报告，他们从费加德偷了三幅非常有价值的画。由于他们的罪行和野蛮的方式，他们被费加德巡逻队通缉。"
+msgstr "我读到的那份告知里说，他们从费加德那边盗走了三幅非常珍贵的画作。鉴于他们的罪"
+"行以及野蛮行为，费加德巡卫队正在通缉他们。"
 
 #: conversationlist_minarra.json:minarra_story_10:0
 msgid "I will be back once they are dead. Anything else?"
-msgstr "一旦他们死了，我就会回来。还要别的什么吗？"
+msgstr "他们一死我就会回来告知你的，还有别的什么要点吗？"
 
 #: conversationlist_minarra.json:minarra_story_11
 msgid "Yes, I should also tell you that they most likely will try to persuade you into believing their story."
-msgstr "是的，我还应该告诉你，他们很可能会试图说服你相信他们的故事。"
+msgstr "嗯，我还应该提醒你一下，他们很可能会为了诱劝你而编一串故事。"
 
 #: conversationlist_minarra.json:minarra_story_12
 msgid "In particular, their leader, Rogorn, is a well known villain by Feygard. Nothing he says should be trusted."
-msgstr "尤其是他们的领袖罗戈恩，是费加德的一个众所周知的恶棍。他说的任何话都不应该被相信。"
+msgstr "尤其是他们的首领罗戈恩，他在费加德是一个家喻户晓的恶棍，他嘴里蹦出来的任何一"
+"个字都不能信。"
 
 #: conversationlist_minarra.json:minarra_story_13
 msgid "I urge you not to listen to their lies. Their crimes must be punished in order to uphold the law."
-msgstr "我劝你不要听他们的谎言。他们的罪行必须受到惩罚，以维护法律。"
+msgstr "我劝你不要听他们的那些谎言。为了维护法律的秩序，他们的罪行必须受到惩罚。"
 
 #: conversationlist_minarra.json:minarra_story_13:0
 msgid "I will return once the task is done."
@@ -11630,24 +11636,25 @@ msgstr "任务完成后我会回来的。"
 
 #: conversationlist_minarra.json:minarra_look_1
 msgid "You return. Did you find those men that we talked about?"
-msgstr "你回来了。你找到我们说过的那些人了吗？"
+msgstr "你回来了啊，请问你找到我说的那些人了吗？"
 
 #: conversationlist_minarra.json:minarra_look_1:1
 msgid "Yes, I killed them and recovered the three pieces of the painting."
-msgstr "是的，我杀了他们，并找回了那三幅画的碎片。"
+msgstr "是的，我解决掉他们了，那三幅画也找回来了。"
 
 #: conversationlist_minarra.json:minarra_look_1:2
 msgid "I travelled west and found a travelling group of men, but they did not match the men you described."
-msgstr "我向西走，发现了一队旅行的人，但他们与你描述的人不一致。"
+msgstr "我在西边确实遇见了一队赶路的人，但他们与你所描述的那群人并不一致。"
 
 #: conversationlist_minarra.json:minarra_look_1:3
 #: conversationlist_gandoren.json:gandoren_deliver_1:5
 msgid "I'd rather talk about the troubles in Loneford that you had mentioned."
-msgstr "我更希望谈谈你提到的隆福德的麻烦。"
+msgstr "我还是想了解一下你有提到过的那个隆福德出事的情况。"
 
 #: conversationlist_minarra.json:minarra_look_2
 msgid "Good. Return to me as soon as you have anything to report. We would really like to recover those three pieces of the painting they stole."
-msgstr "好的。一旦你有什么要报告的，就马上回来找我。我们真的很想找回他们偷走的那三块画。"
+msgstr "好，如果你有什么情况要报告的话，就马上回来找我。我们着实很想能找回他们所偷走"
+"的那三幅画。"
 
 #: conversationlist_minarra.json:minarra_look_3
 msgid "That is excellent news indeed! I knew that we could trust you."
@@ -11655,27 +11662,28 @@ msgstr "这确实是个好消息！我就知道我们可以相信你。"
 
 #: conversationlist_minarra.json:minarra_look_4
 msgid "Your services to Feygard will be greatly appreciated."
-msgstr "你对费加德的功劳将得到极大的赞誉。"
+msgstr "我们会记住你为费加德所作出的功劳的。"
 
 #: conversationlist_minarra.json:minarra_look_5
 msgid "Are you sure that they were not the ones? I have a keen eyesight, that's why I am up here. I was sure that they matched the description of the men."
-msgstr "你确定他们不是那些人吗？我有敏锐的视力，这就是我在在这里的原因。我确信他们符合那些人的描述。"
+msgstr "你确定他们不是那群人吗？要知道我的视力很不差的，要不然我也不会被安排在这顶上"
+"瞭望了。我很确信我瞧见的就是他们。"
 
 #: conversationlist_minarra.json:minarra_look_6
 msgid "I guess I will have to take your word for it."
-msgstr "我想我将不得不信守诺言。"
+msgstr "我想我现在只能相信你了。"
 
 #: conversationlist_minarra.json:minarra_completing_1
 msgid "Thank you for helping me investigate this matter."
-msgstr "谢谢你帮我调查这件事。"
+msgstr "谢谢你帮我调查了这件事。"
 
 #: conversationlist_minarra.json:minarra_completed_1
 msgid "Thank you for helping me investigate the men earlier."
-msgstr "谢谢你之前帮我调查这些人。"
+msgstr "谢谢你之前帮我调查了那群人。"
 
 #: conversationlist_minarra.json:minarra_trade_2
 msgid "Sure, take a look."
-msgstr "当然，看看。"
+msgstr "当然没问题，你就随便看看吧。"
 
 #: conversationlist_rogorn.json:rogorn_henchman_atk:0
 msgid "Fight"
@@ -11683,7 +11691,7 @@ msgstr "战斗"
 
 #: conversationlist_rogorn.json:rogorn_henchman_noatk
 msgid "Good to hear that there are at least a few people left out there willing to take a stand against Feygard."
-msgstr "很高兴听到至少有几个人离开那里，并站在反对费加德的立场。"
+msgstr "我很高兴知道这里至少还存在一些人愿意站出来对抗费加德。"
 
 #: conversationlist_rogorn.json:rogorn_henchman_1
 msgid "Should you really be out here all by yourself?"
