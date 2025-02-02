@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-01-31 22:02+0000\n"
+"PO-Revision-Date: 2025-02-03 20:02+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -56898,6 +56898,7 @@ msgstr ""
 "wykonania."
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling
+#, fuzzy
 msgid ""
 "If strangers come hither to gain \n"
 "our treasure, their hope is in vain. \n"
@@ -56905,18 +56906,25 @@ msgid ""
 "with our Yellow Round, \n"
 "their bones will forever remain."
 msgstr ""
+"Jeśli przyjdą tu obcy, by posiąść \n"
+"nasz skarb, ich nadzieja jest daremna. \n"
+"W najciemniejszej, głębokiej mogile, \n"
+"z naszym Żółtym Kręgiem, \n"
+"ich kości spoczną na zawsze."
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling:0
 msgid "What a nice poem. They are good, aren't they, Clevred?"
-msgstr ""
+msgstr "Jaki ładny wiersz. Są w tym dobre, prawda, Clevred?"
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling_10
 msgid "Really, they're good at poetry. But we'll take the artifact with us anyway."
 msgstr ""
+"Naprawdę, są dobrzy jeśli idzie o pisanie wierszy. Ale i tak zabierzemy ze "
+"sobą artefakt."
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling_10:0
 msgid "Of course. So now to work ..."
-msgstr ""
+msgstr "Oczywiście. A więc bierzmy się do roboty..."
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling2
 msgid ""
@@ -56926,34 +56934,41 @@ msgid ""
 "upon a strife, \n"
 "and all his stolen goods too."
 msgstr ""
+"Złodziej, który myśli, że ukradnie \n"
+"nasz skarb, zapłaci \n"
+"za to swym życiem \n"
+"w walce, \n"
+"a także wszystkim co skradł."
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling2:0
 msgid "Eh, let us think a minute."
-msgstr ""
+msgstr "Ech, daj mi się zastanowić."
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling2:1
 msgid "Well, OK. We have no chance against so many roundlings."
-msgstr ""
+msgstr "No cóż, w porządku. Nie mamy szans przeciwko tylu kulostworom."
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling2:2
 msgid "Never - attack!"
-msgstr ""
+msgstr "Nigdy - do ataku!"
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling2_10
 msgid "Coward! You didn't even try."
-msgstr ""
+msgstr "Tchórzu! Nawet nie spróbowałeś."
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling2_10:0
 msgid "Never call me coward! Attack!"
-msgstr ""
+msgstr "Nigdy mnie tak nie nazywaj! Do ataku!"
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling2_10:1
 msgid "They are too many for us, we would be killed. Let's give up the artifact."
 msgstr ""
+"Jest ich zbyt dużo jak na nasze możliwości, zginiemy marnie. Lepiej oddajmy "
+"artefakt."
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling2_12
 msgid "Never! I'd rather die!"
-msgstr ""
+msgstr "Nigdy! To już wolę umrzeć!"
 
 #: conversationlist_ratdom_npc.json:ratdom_roundling2_12:0
 msgid "If you think so, then let's attack!"
