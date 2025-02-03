@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-02 19:02+0000\n"
+"PO-Revision-Date: 2025-02-03 20:02+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -5768,7 +5768,8 @@ msgstr "于是现在我们就先一律默认外来者是可疑人员，然后只
 
 #: conversationlist_vilegard_erttu.json:erttu_distrust_3
 msgid "Also, other people generally look down upon us here in Vilegard for some reason. Especially those snobs from Feygard and the northern cities."
-msgstr "此外，出于一些原因，别处的人往往瞧不起我们维勒加德人，尤其是那些来自费加德和北方城市的自命高贵之徒。"
+msgstr "此外，出于一些原因，别处的人往往瞧不起我们维勒加德人，尤其是那些来自费加德和"
+"北方城市的自负之徒。"
 
 #: conversationlist_vilegard_erttu.json:erttu_distrust_3:0
 msgid "What else can you tell me about Vilegard?"
@@ -6432,7 +6433,7 @@ msgstr "你这么一位贵妇人来这种地方干什么？"
 
 #: conversationlist_ambelie.json:ambelie_1:2
 msgid "I would be glad to get away from a snob like you."
-msgstr "我很高兴能远离像你这样狗眼看人低的家伙。"
+msgstr "我很高兴能远离像你这样的自负之徒。"
 
 #: conversationlist_ambelie.json:ambelie_2
 msgid "I am Ambelie of the house of Laumwill in Feygard. I am sure you must have heard of me and my house."
@@ -6940,7 +6941,8 @@ msgstr ""
 
 #: conversationlist_wrye.json:wrye_mourn_5
 msgid "My son is dead, I know it! And it's those damn guards fault. Those guards with their snobby Feygard attitude."
-msgstr "我儿子很可能已经死了！全是因为那些该死的卫兵，那些带着费加德城腔调的混蛋。"
+msgstr "我儿子很可能已经死了！全是因为那些该死的卫兵，那些拿着费加德城自负腔调的混蛋"
+"。"
 
 #: conversationlist_wrye.json:wrye_mourn_6
 msgid "At first they come with promises of protection and power. But then you really start to see them for what they are."
@@ -7005,7 +7007,7 @@ msgstr "但几天后我的儿子林塞尔他就突然不见了，肯定是那群
 
 #: conversationlist_wrye.json:wrye_story_8
 msgid "Oh how I despise those evil and snobby Feygard bastards."
-msgstr "哦，那群可恨、邪恶、势利又卑鄙的费加德混蛋。"
+msgstr "哦，那群可恨、邪恶、自负而又卑鄙的费加德混蛋。"
 
 #: conversationlist_wrye.json:wrye_story_8:0
 #: conversationlist_algangror.json:algangror_story19:0
@@ -7149,7 +7151,7 @@ msgstr "哦，我可怜的孩子啊，我都做了什么？"
 
 #: conversationlist_wrye.json:wrye_resolved_8
 msgid "I always thought he shared my view of those Feygard snobs."
-msgstr "我一直以为他跟我一样，厌恶那些费加德混蛋。"
+msgstr "我一直以为他跟我一样，厌恶那些费加德的自负之徒。"
 
 #: conversationlist_wrye.json:wrye_resolved_9
 msgid "And now he is not with us anymore."
@@ -11188,7 +11190,7 @@ msgstr "又见面了，我们先前可真是给那个混账丁林瞧了瞧颜色
 
 #: conversationlist_benbyr.json:benbyr_declined
 msgid "I have nothing more to say to you. Leave me."
-msgstr "我对你无话可说，快走吧。"
+msgstr "我和你没什么好说的，快走吧。"
 
 #: conversationlist_benbyr.json:benbyr_story_1
 msgid "Psst, hey. Over here."
@@ -11691,19 +11693,19 @@ msgstr "战斗"
 
 #: conversationlist_rogorn.json:rogorn_henchman_noatk
 msgid "Good to hear that there are at least a few people left out there willing to take a stand against Feygard."
-msgstr "我很高兴知道这里至少还存在一些人愿意站出来对抗费加德。"
+msgstr "原来这里至少还存在着一些愿意站出来对抗费加德的人，这确实是件好事。"
 
 #: conversationlist_rogorn.json:rogorn_henchman_1
 msgid "Should you really be out here all by yourself?"
-msgstr "你真的应该一个人在这里吗？"
+msgstr "你真的是单走来到这里的吗？"
 
 #: conversationlist_rogorn.json:rogorn_first_1
 msgid "Look fellas, a kid! Out strolling here in the wilderness!"
-msgstr "看，伙计们，一个孩子！在这里的旷野上漫步！"
+msgstr "看啊，伙计们，来了一个孩子！他是从野外一路晃荡过来的！"
 
 #: conversationlist_rogorn.json:rogorn_first_2
 msgid "Should you really be out here kid? These areas are dangerous."
-msgstr "你真的应该到这里来吗，孩子？这些地区很危险。"
+msgstr "你真的该到这里来吗，孩子？这片区域很危险的。"
 
 #: conversationlist_rogorn.json:rogorn_first_2:0
 #: conversationlist_lodar.json:lodar_andor36:1
@@ -11715,71 +11717,72 @@ msgstr "你真的应该到这里来吗，孩子？这些地区很危险。"
 #: conversationlist_omi2.json:ortholion_guard3_2:2
 #: conversationlist_sullengard.json:alynndir_16:1
 msgid "I can handle myself."
-msgstr "我可以自己处理。"
+msgstr "我把握得住。"
 
 #: conversationlist_rogorn.json:rogorn_first_2:1
 msgid "Why? What is out here?"
-msgstr "为什么？什么在这里？"
+msgstr "为啥啊？这片区域怎么了？"
 
 #: conversationlist_rogorn.json:rogorn_first_2:2
 msgid "You are right, I better leave."
-msgstr "你说得对，我最好离开。"
+msgstr "你说得对，我还是离开为妙。"
 
 #: conversationlist_rogorn.json:rogorn_first_3
 msgid "I bet you can."
-msgstr "我打赌你可以。"
+msgstr "我信你可以。"
 
 #: conversationlist_rogorn.json:rogorn_first_4
 msgid "Well, west of here is not much. No towns for quite a while, only the harsh and dangerous wilderness."
-msgstr "嗯，这里的西部没有什么。长期以来都没有城镇，只有严酷而危险的荒野。"
+msgstr "是这样的，这里的西边就是一片不毛之地，长期以来都没有过什么城镇，那里只有严酷"
+"而又危险的野地。"
 
 #: conversationlist_rogorn.json:rogorn_first_5
 msgid "Of course, there is Carn Tower if you travel really far west, but you really do not want to head there."
-msgstr "当然，如果你真的往西走，还有卡恩塔，但你不会想去那里的。"
+msgstr "当然，在极远的西边还有一座卡恩之塔，但你是不会想去那里的。"
 
 #: conversationlist_rogorn.json:rogorn_first_6
 msgid "So, what brings you to these parts of the land?"
-msgstr "那么，是什么让你来到这些地方的？"
+msgstr "那么，你来这里又是为了什么呢？"
 
 #: conversationlist_rogorn.json:rogorn_first_6:0
 msgid "I am looking for a group of men led by someone by the name of Rogorn. Are you him?"
-msgstr "我正在寻找由一个名叫 罗戈恩的人领导的一群人。你是吗？"
+msgstr "我正在寻找一队人，他们的首领叫罗戈恩，那是你吗？"
 
 #: conversationlist_rogorn.json:rogorn_first_6:1
 msgid "Just looking for any treasure that might reveal itself here."
-msgstr "只是在寻找可能在这里出现的任何宝藏。"
+msgstr "我就只是在四处寻找可能出现的好东西而已。"
 
 #: conversationlist_rogorn.json:rogorn_first_6:2
 msgid "I am just exploring."
-msgstr "我只是在探索。"
+msgstr "我就只是四处逛逛而已。"
 
 #: conversationlist_rogorn.json:rogorn_first_7
 msgid "Well, keep on looking then."
-msgstr "好吧，那就继续找吧。"
+msgstr "好吧，那你就继续吧。"
 
 #: conversationlist_rogorn.json:rogorn_story_1
 msgid "That depends, why do you want to know?"
-msgstr "那要看情况了，你为什么想知道？"
+msgstr "这可说不定，那你又是为什么要问这件事呢？"
 
 #: conversationlist_rogorn.json:rogorn_story_1:0
 msgid "You are wanted by the Feygard patrol for the crimes you have committed."
-msgstr "你因所犯的罪行被费加德巡逻队通缉。"
+msgstr "你因所犯的罪行而被费加德巡卫队通缉了。"
 
 #: conversationlist_rogorn.json:rogorn_story_1:1
 msgid "I am seeking to deal justice wherever I can, and I heard that you are in need of being shown some justice."
-msgstr "我正在尽我所能寻求伸张正义，而且我听说你需要被伸张正义。"
+msgstr "我正在尽我所能寻求伸张正义的机会，而我听说你这里需要被伸张正义一下。"
 
 #: conversationlist_rogorn.json:rogorn_story_1:2
 msgid "I am sent by some guards over at the Crossroads guardhouse to look for you."
-msgstr "我被岔道口岗哨的卫兵派去找你。"
+msgstr "岔道口岗哨的卫兵派我来搜寻你。"
 
 #: conversationlist_rogorn.json:rogorn_story_1:3
 msgid "The guards from Feygard are looking for you, and I came to warn you."
-msgstr "费加德的守卫在找你，我是来警告你的。"
+msgstr "费加德的卫兵们正要搜寻你，我是来提醒你的。"
 
 #: conversationlist_rogorn.json:rogorn_story_2
 msgid "Hah! We? Crimes?"
-msgstr "哈！我们？犯罪？"
+msgstr "哈！你是说我们？我们犯了罪？"
 
 #: conversationlist_rogorn.json:rogorn_story_3
 msgid "Justice? What would you know of justice, kid?"
@@ -11787,62 +11790,64 @@ msgstr "正义？你知道什么是正义吗，孩子？"
 
 #: conversationlist_rogorn.json:rogorn_story_4
 msgid "If there is someone that deserves punishment, it surely isn't us. By the Shadow, it's those snobs from Feygard that should be taught a lesson."
-msgstr "如果有什么人应该受到惩罚，那肯定不是我们。按照暗影的说法，应该教训的是费加德的那些势利小人。"
+msgstr "如果说有什么人必须受到惩罚的话，那肯定不是我们。暗影在上，应该得到教训的是费"
+"加德的那群自负之徒才对。"
 
 #: conversationlist_rogorn.json:rogorn_story_4:0
 #: conversationlist_rogorn.json:rogorn_story_7:0
 #: conversationlist_rogorn.json:rogorn_story_r_6:1
 #: conversationlist_rogorn.json:rogorn_story_r_7:0
 msgid "I will not listen to your lies! For Feygard!"
-msgstr "我不会听信你的谎言！为了费加德!"
+msgstr "我是不会听信你的鬼话的！为了费加德！"
 
 #: conversationlist_rogorn.json:rogorn_story_4:1
 msgid "Talk all you want, I happen to know that you have stolen from Feygard, which is not acceptable."
-msgstr "随你怎么说，我知道你偷了费加德的东西，这是不可以的。"
+msgstr "随你怎么说吧，不过我知道你们盗取了费加德的东西，而这是绝不被容许的。"
 
 #: conversationlist_rogorn.json:rogorn_story_4:2
 msgid "What's your side of the story then?"
-msgstr "那么你的说法是什么呢？"
+msgstr "那你的说法是？"
 
 #: conversationlist_rogorn.json:rogorn_story_5
 msgid "I tell you, we did not steal anything from those snobs."
-msgstr "我告诉你，我们没有从那些势利小人那里偷任何东西。"
+msgstr "我告诉你，我们没有从那群自负之徒那里偷走任何东西。"
 
 #: conversationlist_rogorn.json:rogorn_story_5:0
 msgid "You are still wanted dead by the Feygard patrol. For Feygard!"
-msgstr "但你仍然被费加德巡逻队通缉。为了费加德！"
+msgstr "然而事实是你被费加德巡卫队通缉了。为了费加德！"
 
 #: conversationlist_rogorn.json:rogorn_story_5:1
 msgid "Why are they looking for you then?"
-msgstr "那他们为什么要找你？"
+msgstr "那他们又为什么要搜寻你呢？"
 
 #: conversationlist_rogorn.json:rogorn_attack_1
 msgid "I had hoped it would not come to this. For the Shadow!"
-msgstr "我曾希望它不会变成这样。为了暗影！"
+msgstr "事已至此并非我本意。为了暗影！"
 
 #: conversationlist_rogorn.json:rogorn_story_6
 msgid "Talked to those guards from Feygard eh? Tell me, what is your opinion of Feygard?"
-msgstr "跟费加德的警卫谈过了？告诉我，你对费加德有什么看法？"
+msgstr "你跟费加德的那些卫兵交流过了？那请告诉我，你对费加德的看法是什么？"
 
 #: conversationlist_rogorn.json:rogorn_story_6:0
 msgid "They seem to have honorable ideals of law and order, and I respect that."
-msgstr "他们似乎有光荣的法律和秩序的理想，我尊重这一点。"
+msgstr "他们似乎遵从着维护法律和秩序的光荣理想，对此我表示尊重。"
 
 #: conversationlist_rogorn.json:rogorn_story_6:1
 msgid "Their ideals seem to be a bit oppressive of the people, which I do not like."
-msgstr "他们的理想似乎有点压迫人民，这一点我不喜欢。"
+msgstr "他们的理念似乎有点压迫到老百姓了，这一点我不喜欢。"
 
 #: conversationlist_rogorn.json:rogorn_story_6:2
 msgid "I have no opinion, I try not to get involved in their business."
-msgstr "我没有意见，我尽量不参与他们的事。"
+msgstr "对此我并不想发表什么意见，他们的事我一直都是尽量不掺和。"
 
 #: conversationlist_rogorn.json:rogorn_story_7
 msgid "Interesting. But now that you are part of their business by coming here to look for me on their behalf, how does that fit into your unwillingness to take sides?"
-msgstr "有趣。但是现在你是他们的一员，代表他们来这里找我，这不符合你不站边的立场呢？"
+msgstr "有意思，但你现在正在与他们为伍，还代表他们来这里找我，这是否并不符合你不选择"
+"站边的立场呢？"
 
 #: conversationlist_rogorn.json:rogorn_story_7:1
 msgid "I was told that you have stolen from Feygard, which is not acceptable."
-msgstr "有人告诉我，你偷了费加德的东西，这是不允许的。"
+msgstr "我被告知你们盗取了费加德的东西，而这是绝不被容许的。"
 
 #: conversationlist_rogorn.json:rogorn_story_7:2
 msgid "I want to hear your side of the story."
@@ -11850,74 +11855,84 @@ msgstr "我想听听你的说法。"
 
 #: conversationlist_rogorn.json:rogorn_story_7:3
 msgid "I am just looking to see if there is some treasure to be gained from this."
-msgstr "我只是想看看是否可以从中获得一些财富。"
+msgstr "我就只是想看看能否从中获点利来而已。"
 
 #: conversationlist_rogorn.json:rogorn_story_8
 msgid "You should make up your mind about what your priorities are. Tell your Feygard friends that we will not be oppressed by them. Shadow be with you, child."
-msgstr "你应该决定你的优先事项是什么。告诉你的费加德朋友，我们不会受到他们的压迫。愿暗影与你同在，孩子。"
+msgstr "事情的轻重你应该思考清楚。告诉你的那些费加德朋友们吧，我们是不会屈服于他们的"
+"压迫的。愿暗影与你同在，孩子。"
 
 #: conversationlist_rogorn.json:rogorn_story_9
 msgid "You have got that right. They are always trying to make life hard for us little people. Let me tell you my side of the story."
-msgstr "你说得很对。他们总是试图让我们这些小人物的生活变得艰难。让我告诉你我的故事。"
+msgstr "你说得很对，他们总是试图践踏我们这些小老百姓的生活。就让我告诉你我的故事吧。"
 
 #: conversationlist_rogorn.json:rogorn_story_10
 msgid "Law and order? What use do we have of that if we are always persecuted by them and do not even have the freedom to live our lives the way we want?"
-msgstr "法律和秩序？如果我们总是受到他们的迫害，甚至没有自由以我们想要的方式生活，那我们有什么用呢？"
+msgstr "法律和秩序？如果这需要我们总是忍受他们的迫害，甚至连自由自在生活的权利都没有"
+"，那这样的法律和秩序又有什么用呢？"
 
 #: conversationlist_rogorn.json:rogorn_story_11
 msgid "They are always looking for us, trying to oppress us in some way. Always trying to make our lives a little bit harder."
-msgstr "他们总是在找我们，试图以某种方式压迫我们。总是试图让我们的生活更艰难一点。"
+msgstr "他们总是在找我们麻烦，通过各种方式压迫我们，还一直试着践踏我们的生活。"
 
 #: conversationlist_rogorn.json:rogorn_story_12
 msgid "Good to hear that there still are some people willing to make a stand against Feygard. Let me tell you my side of the story."
-msgstr "很高兴听到仍有一些人愿意站出来反对费加德。让我告诉你我的故事。"
+msgstr "能知道还有一些人愿意站住来对抗费加德我很高兴，就让我告诉你我的故事吧。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_1
 msgid "Me and my boys here travelled from our home in Nor City to these northern lands a few days ago."
-msgstr "几天前，我和我的孩子们从我们在诺尔城的家来到这些北方的土地。"
+msgstr "就在几天以前，我和我的伙计们从老家诺尔城出发，来到了这片北方地区。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_2
 msgid "We had never been here ourselves. We had only heard stories about how tough the guards from Feygard were, and how they held their precious law above all."
-msgstr "我们自己从来没有来过这里。我们只听说过费加德的守卫有多强硬，以及他们如何将宝贵的法律置于首位的故事。"
+msgstr "这是我们第一次来到这里，在此之前我们只在传言中听说过那些费加德卫兵的态度非常"
+"强硬，以及他们如何将他们的宝贝法律高高捧起的故事。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_3
 msgid "Anyway, we got wind of a certain business opportunity here up north. One where we would be on the receiving end of a very profitable deal."
-msgstr "总之，我们得到了北方的某个交易机会的消息。在这个机会中，我们将作为接收方，并得到非常有利的报酬。"
+msgstr "言归正传，我们获悉到在北方存在着一个特定的商机。在这笔生意中，我们将作为接收"
+"方得到一笔非常不错的报酬。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_4
 msgid "So we went here to conduct our business. Shortly thereafter, I guess the guards from Feygard must have been tipped off about us, since we noticed that we were being followed by the guards after a while."
-msgstr "所以我们来这里做生意。不久之后，我想来自费加德的卫兵一定是被发现了我们，因为我们注意到过了一会儿，我们被警卫跟踪了。"
+msgstr "于是乎我们就来这里做这笔生意了。然而没过多久，我们的事应该是被泄密了，因为我"
+"们察觉到我们被那群费加德卫兵给跟踪了。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_5
 msgid "Not willing to risk anything, considering the rumors we had heard about the guards from there, we did the only reasonable thing we could do - we abandoned the plan right away and left, before we could conduct the business we had planned."
-msgstr "考虑到我们从那里听到的关于守卫的传言，我们不愿意冒任何风险，我们做了唯一合理的事情--我们马上放弃了计划，离开了，在我们能够进行我们计划的业务之前。"
+msgstr ""
+"鉴于那些我们先前听说过的这里卫兵的事迹，我们并不愿意冒任何一丝的风险，所以我"
+"们就做出了唯一可行的明智之举——直接放弃原本完成生意的计划并离开那处是非之地。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_6
 msgid "However, something must have upset the guards there anyway. Now we hear that we are accused of murder and theft in Feygard, without even being there ourselves."
-msgstr "然而，无论如何，一定有什么事情让那里的守卫感到不安。现在我们听说我们在费加德被指控犯有谋杀和盗窃罪，甚至我们自己都不在场。"
+msgstr "然而不知什么原因把那些卫兵给恼怒了，然后现在我们就听说我们在费加德被指控犯有"
+"谋杀和盗窃罪，然而甚至我们都没去过那儿。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_6:0
 msgid "What was your business there?"
-msgstr "你在那里的交易是什么？"
+msgstr "请问你在那里的那个生意的内容是什么啊？"
 
 #: conversationlist_rogorn.json:rogorn_story_r_6:2
 #: conversationlist_rogorn.json:rogorn_story_r_7:1
 msgid "Your story does not add up."
-msgstr "你的故事并不符合事实。"
+msgstr "你的故事说服不了我。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_6:3
 #: conversationlist_rogorn.json:rogorn_story_r_7:2
 #: conversationlist_rogorn.json:rogorn_toldstory_1:2
 msgid "I believe your story. How can I help you?"
-msgstr "我相信你的故事。我怎样才能帮助你？"
+msgstr "我相信你所言非虚，那我又该怎样才能帮到你呢？"
 
 #: conversationlist_rogorn.json:rogorn_story_r_7
 msgid "I can't really say. We do our business on behalf of Nor City, and our business is our own."
-msgstr "我真不能说。我们代表诺尔城开展业务，并且这个交易是我们自己的事。"
+msgstr "这我真不能说，在这笔生意中我们代表着诺尔城方面的意思，况且这交易是我们内部的"
+"事。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_8
 msgid "What are you, a spy for Feygard? I told you, the accusations against us are false."
-msgstr "你是什么人，费加德的间谍？我告诉过你，对我们的指控是假的。"
+msgstr "你是何方神圣啊，莫不是费加德方面的探子？我告诉过你的，那些对我们的指控都是假"
+"的。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_9
 #: conversationlist_rogorn.json:rogorn_completed_1
@@ -11926,11 +11941,11 @@ msgstr "谢谢你倾听我们的故事。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_9:0
 msgid "What now? I was sent here to find you by some guards in the Crossroads guardhouse."
-msgstr "现在怎么办？我是被岔道口岗哨的一些守卫派到这里来找你的。"
+msgstr "那现在怎么办？我是被岔道口岗哨的那群卫兵派来找你们的。"
 
 #: conversationlist_rogorn.json:rogorn_story_r_10
 msgid "You tell those guards that you searched for us, but did not find anyone."
-msgstr "你告诉那些守卫，你找过我们，但没有找到任何人。"
+msgstr "那你就告诉那些守卫，这些地方你找过了，但并没有找到我们。"
 
 #: conversationlist_rogorn.json:rogorn_toldstory_1
 msgid "You are back."
@@ -11938,15 +11953,15 @@ msgstr "你回来了。"
 
 #: conversationlist_rogorn.json:rogorn_toldstory_1:0
 msgid "Can you tell me your side of the story again?"
-msgstr "你能再告诉我一遍你的故事吗？"
+msgstr "你能再告诉我一遍你的事吗？"
 
 #: conversationlist_rogorn.json:rogorn_toldstory_1:1
 msgid "I will not listen to your lies! You must be held accountable for your crimes against Feygard!"
-msgstr "我不会听你的谎言！你必须为你对费加德的罪行负责！"
+msgstr "我是不会听信你的鬼话的！你必须为你在费加德所作的罪行伏法！"
 
 #: conversationlist_gandoren.json:gandoren_1
 msgid "Hello there. Welcome to the Crossroads guardhouse. How may I help you?"
-msgstr "你好呀。欢迎来到岔道口岗哨。请问有什么可以帮你？"
+msgstr "你好呀，欢迎来到岔道口岗哨。请问有什么可以帮你的吗？"
 
 #: conversationlist_gandoren.json:gandoren_1:0
 #: conversationlist_gandoren.json:gandoren_deliver_1:0
@@ -77657,43 +77672,53 @@ msgstr "道清路明"
 
 #: questlist_v0610.json:rogorn:10
 msgid "Minarra up in the tower at the Crossroads guardhouse has seen a band of rogues heading west from the guardhouse, towards Carn Tower. Minarra was sure they matched the description of some men whose heads have a bounty on them from the Feygard patrol. If these are the men that Minarra thinks, they are supposedly led by particularly ruthless savage named Rogorn."
-msgstr "米娜拉在岔道口岗哨的塔楼上看到一队流氓从看守所向西走，朝卡恩塔走去。米娜拉确信他们符合一些人的描述，这些人的头被费加德巡逻队悬赏了。如果这些人是米娜拉认为的那些人，据说他们是由特别无情的野蛮人领导的，名叫罗戈恩。"
+msgstr ""
+"待在岔道口岗哨塔楼上的米娜拉看到有一队流氓团伙在岗哨的西边路过并朝卡恩之塔的"
+"方向走去。米娜拉很确信他们正是费加德巡卫队在悬赏着的一帮人。如果米娜拉没弄错"
+"的话，他们的首领叫做罗戈恩，他乃是一个穷凶极恶的野蛮之徒。"
 
 #: questlist_v0610.json:rogorn:20
 msgid "I am helping Minarra find the band of rogues. I should travel the road west from the Crossroads guardhouse towards Carn Tower and look for them. They have supposedly stolen three pieces of a valuable painting and are wanted dead for their crimes."
-msgstr "我正在帮助米娜拉寻找那群流氓。我应该从岔道口岗哨向西的道路上往卡恩塔方向走，寻找他们。他们据说偷了三幅价值连城的画，并被通缉。"
+msgstr ""
+"我同意帮助米娜拉去搜寻那个流氓团伙。我应该从岔道口岗哨向西的道路上开始寻找，"
+"并往卡恩之塔的方向前进。据说他们偷取了三幅价值不菲的画并受到了通缉。"
 
 #: questlist_v0610.json:rogorn:21
 msgid "Minarra also tells me that I should not trust anything I hear from them. In particular, anything from Rogorn should be viewed with great suspicion."
-msgstr "米娜拉还告诉我，我不要相信从他们那里听到的任何消息。特别是来自罗戈恩的任何东西都别信。"
+msgstr "米娜拉还告诉我，我不应相信他们所说任何东西，特别是罗戈恩嘴里的话最不能信。"
 
 #: questlist_v0610.json:rogorn:30
 msgid "I have found the band of rogues on the road west towards Carn Tower, led by Rogorn."
-msgstr "我已经在西方通往卡恩塔的路上找到了由罗戈恩带领的那群流氓。"
+msgstr "在向西通往卡恩之塔的路上我找到了那群由罗戈恩所带领的流氓团伙。"
 
 #: questlist_v0610.json:rogorn:35
 msgid "Rogorn tells me that they are wrongly accused of murder and theft in Feygard, while they themselves have never even been to Feygard."
-msgstr "罗戈恩告诉我，他们在费加德被错误地指控为谋杀和盗窃，而他们自己甚至从未去过费加德。"
+msgstr "罗戈恩告诉我，他们被费加德指控为杀人犯及盗窃犯这件事是被陷害的，他们甚至都从"
+"未去过费加德。"
 
 #: questlist_v0610.json:rogorn:40
 msgid "I have decided to attack Rogorn and his band of rogues. I should return to Minarra with the three pieces of the painting once they are dead."
-msgstr "我已经决定攻击罗戈恩和他的流氓团伙。一旦他们死了，我应该带着那三块画回到米娜拉。"
+msgstr "我决定与罗戈恩以及他带领的流氓团伙开打了。在解决掉他们后我应该带着那三幅画回"
+"到米娜拉那里去。"
 
 #: questlist_v0610.json:rogorn:45
 msgid "I have decided not to attack Rogorn and his band of rogues, but instead report back to Minarra that she must have mistaken the men she saw for someone else."
-msgstr "我决定不攻击罗戈恩和他的流氓团伙，而是向米娜拉报告，她一定是把她看到的人误认为是其他人。"
+msgstr "我决定并不与罗戈恩以及他带领的流氓团伙开打，而是回去告知米娜拉她应该是瞧叉了"
+"。"
 
 #: questlist_v0610.json:rogorn:50
 msgid "Minarra thanked me for dealing with the thieves, and told me that my services to Feygard will be appreciated."
-msgstr "米娜拉感谢我处理了这些小偷，并告诉我，我对费加德的服务将受到赞扬。"
+msgstr "米娜拉感谢我帮忙处理了这群小偷，她还告诉我，我对费加德所作的付出会得到赞赏的"
+"。"
 
 #: questlist_v0610.json:rogorn:55
 msgid "After telling Minarra that she must have mistaken the men for someone else, she seemed a bit suspicious, but thanked me for helping her look into the matter."
-msgstr "在告诉米娜拉她一定是把那个男人误认为别人之后，她似乎有点怀疑，但感谢我帮助她调查此事。"
+msgstr "我告诉米娜拉她应该是弄错了，但她似乎有点怀疑，不过她还是感谢了我帮她调查了这"
+"件事。"
 
 #: questlist_v0610.json:rogorn:60
 msgid "I have helped Minarra with her task."
-msgstr "我帮助米娜拉完成了她的任务。"
+msgstr "我帮助米娜拉完成了她交给我的任务。"
 
 #: questlist_v0610.json:feygard_shipment
 msgid "Feygard errands"
@@ -77761,7 +77786,7 @@ msgstr "我已经向艾尔沙拉汇报了。"
 
 #: questlist_v0610.json:loneford
 msgid "Flows through the veins"
-msgstr "背 景"
+msgstr "暗涌脉流"
 
 #: questlist_v0610.json:loneford:10
 msgid "I heard a story about Loneford. Apparently, a lot of people have become ill there recently, and some have even died. The cause is still unknown."
