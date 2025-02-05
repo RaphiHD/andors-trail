@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-05 06:02+0000\n"
+"PO-Revision-Date: 2025-02-06 12:02+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -11847,7 +11847,7 @@ msgstr "有意思，但你现在正在与他们为伍，还代表他们来这里
 
 #: conversationlist_rogorn.json:rogorn_story_7:1
 msgid "I was told that you have stolen from Feygard, which is not acceptable."
-msgstr "我被告知你们盗取了费加德的东西，而这是绝不被容许的。"
+msgstr "我获悉到你们盗取了费加德的东西，而这是绝不被容许的。"
 
 #: conversationlist_rogorn.json:rogorn_story_7:2
 msgid "I want to hear your side of the story."
@@ -11989,23 +11989,26 @@ msgstr "杜莱恩路？"
 
 #: conversationlist_gandoren.json:gandoren_dr_1
 msgid "Noticed the large road outside? That's the Duleian road. It goes all the way from the glorious city of Feygard up in the northwest down to the wretched Nor City in the southeast."
-msgstr "注意到外面的大路了吗？那是杜莱恩路。它一直从西北部的光荣的费加德城一直到东南部的可恶的诺尔城。"
+msgstr "注意到外面的那条大路了吗？那就是杜莱恩路，从西北部的荣耀之都费加德城一路通到"
+"东南部那座可恶的诺尔城。"
 
 #: conversationlist_gandoren.json:gandoren_3
 msgid "Oh sure. Recently, we have had to focus our attention to the troubles up in Loneford."
-msgstr "哦， 当然。最近，我们不得不把注意力集中在隆福德的麻烦上。"
+msgstr "哦， 当然。要知道最近我们不得不把主要精力都放在隆福德的麻烦上。"
 
 #: conversationlist_gandoren.json:gandoren_4
 msgid "That situation has forced us to be more alert than usual, and we have had to send some guards up there to help them."
-msgstr "这种情况迫使我们比平时更加警惕，我们不得不派一些警卫上去帮助他们。"
+msgstr "这样的情况迫使我们要比平常时期更加戒备警惕，同时还要分出一部分的卫兵来帮助他"
+"们。"
 
 #: conversationlist_gandoren.json:gandoren_5
 msgid "This also means that we cannot focus as much on our usual tasks as we normally do, but instead need help with doing basic tasks just to hold our grounds."
-msgstr "这也意味着，为了坚守阵地，我们不能像平时那样专注于日常工作，而是需要别人帮助来完成基本任务。"
+msgstr "而这也意味着，为了保持住基本的人手来扼守这处岗哨，平日里的一些杂碎工作我们就"
+"不能亲力而为了，对应地我需要些帮手来解决这些事。"
 
 #: conversationlist_gandoren.json:gandoren_5:0
 msgid "What troubles in Loneford are you referring to?"
-msgstr "你说的隆福德有什么麻烦？"
+msgstr "什么隆福德的麻烦你说？"
 
 #: conversationlist_gandoren.json:gandoren_5:1
 #: conversationlist_aulowenn.json:aulowenn14:0
@@ -12015,41 +12018,45 @@ msgstr "有什么我可以帮忙的吗？"
 #: conversationlist_gandoren.json:gandoren_noguards_1
 #: conversationlist_gandoren.json:gandoren_wantshelp_1
 msgid "Hello again. Welcome to the Crossroads guardhouse. How may I help you?"
-msgstr "又见面了。欢迎来到岔道口岗哨。有什么可以帮助您的吗？"
+msgstr "又见面了，欢迎来到岔道口岗哨，有什么可以帮助您的吗？"
 
 #: conversationlist_gandoren.json:gandoren_noguards_1:0
 msgid "Can you tell me again what you told me before about recent events?"
-msgstr "你能不能再告诉我你以前告诉我的关于最近的事件？"
+msgstr "你能不能再告诉我一遍你先前讲过的近况？"
 
 #: conversationlist_gandoren.json:gandoren_6
 msgid "Well, we usually do not employ just any civilian. Our tasks are important for Feygard - and by extension, important for the people. Our tasks are usually not suited for commoners like you."
-msgstr "嗯，我们通常不会随便雇用平民。我们的任务对费加德很重要--推而广之，对人民也很重要。我们的任务通常不适合像你这样的平民。"
+msgstr ""
+"嗯哼，在平常情况下我们是不会随便雇外人办事的，要知道我们的工作对于费加德是很"
+"重要的——推而广之地说，对人民也同样重要。而我们的任务通常是不适合像你这样的平"
+"民百姓的。"
 
 #: conversationlist_gandoren.json:gandoren_7
 msgid "But I guess the recent situation really leaves us no choice. We need to keep the guards in Loneford, and we also need to deliver this shipment. At the moment, we cannot do both."
-msgstr "但我想最近的情况确实让我们别无选择。我们需要把守卫留在隆福德，我们还需要运送这批货物。目前，我们无法同时做到这两点。"
+msgstr "然而我想最近的事态确实让我们别无选择：驻守隆福德以及运送物资这两份活都有待处"
+"理，但是目前看来我们无法并行完成了。"
 
 #: conversationlist_gandoren.json:gandoren_8
 msgid "Tell you what, you might be able to help us after all if you are willing to work."
-msgstr "告诉你吧，如果你愿意的话，也许能帮到我们。"
+msgstr "这么说吧，如果你愿意的话，这里确实有件事你也许可以帮得上我们。"
 
 #: conversationlist_gandoren.json:gandoren_8:0
 msgid "What is the task?"
-msgstr "任务是什么？"
+msgstr "什么任务啊？"
 
 #: conversationlist_gandoren.json:gandoren_8:1
 msgid "Anything for the glory of Feygard."
-msgstr "为了费加德的荣耀不惜一切代价。"
+msgstr "一切为了费加德的荣耀。"
 
 #: conversationlist_gandoren.json:gandoren_8:2
 msgid "If the pay is sufficient, I guess I can help."
-msgstr "如果报酬足够，我想我可以帮忙。"
+msgstr "如果报酬值当的话，我想我可以帮忙。"
 
 #: conversationlist_gandoren.json:gandoren_8:3
 #: conversationlist_gandoren.json:gandoren_13:3
 #: conversationlist_gandoren.json:gandoren_16:2
 msgid "I had better not get involved in your Feygard business."
-msgstr "我最好不要插手你的费加德事务。"
+msgstr "我还是不插手你们费加德的事情为妙。"
 
 #: conversationlist_gandoren.json:gandoren_9
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n1
