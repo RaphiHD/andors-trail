@@ -105,7 +105,7 @@
     <string name="dialog_more">Pli</string>
     <string name="dialog_close">Fermi</string>
     <string name="dialog_recenter">Recentrigi</string>
-    <string name="savegame_currenthero_displayinfo">nivelo %1$d, %2$d sperto, %3$d oroj</string>
+    <string name="savegame_currenthero_displayinfo">nivelo %1$d, %2$d sperto, %3$d oro</string>
     <string name="loadsave_title_load">Enlegi konservitan ludon</string>
     <string name="loadsave_title_save">Konservi ludon</string>
     <string name="menu_save">Konservi</string>
@@ -126,10 +126,10 @@
     <string name="dialog_monsterencounter_title">Renkonto</string>
     <string name="app_description">Movita-serĉo fantazio Rolludo</string>
     <string name="traitsinfo_defense_chance">Blokŝanco:</string>
-    <string name="menu_save_gamesaved">Ludo estis savita al ero %1$d</string>
+    <string name="menu_save_gamesaved">Ludo estis konservita al ingo %1$d</string>
     <string name="dialog_loading_failed_title">Ŝarĝo Malsukcesis</string>
     <string name="dialog_loading_failed_incorrectversion">La Vojeto de Andor ne povis ŝargi la konservan luddosieron. Ĉi tiu konserva luddosiero estas kreita kun pli nova versio ol tio, kio nun funkcias.</string>
-    <string name="loadsave_selectslot">Elektu fendo</string>
+    <string name="loadsave_selectslot">Elektu ingo</string>
     <string name="dialog_game_over_text">Vi prenas vian lastan spiron kaj mortas.</string>
     <string name="heroinfo_levelup">Nivelo supren</string>
     <string name="status_ap">AP:</string>
@@ -211,7 +211,7 @@
     <string name="startscreen_mode_1_life">Permanenta morto (1 vivo, 1 konservado)</string>
     <string name="startscreen_mode_3_lives">Ekstrema (3 vivoj, 1 konservado)</string>
     <string name="levelup_add_attackdamage">Pligrandigi atakdamaĝo (+%1$d)</string>
-    <string name="about_contents1">Bonvenon al La Vojeto</string>
+    <string name="about_contents1">Bonvenon ala Vojeto de Andoro, malfermfonta roguelike rolludo por Android.&lt;br /&gt;&lt;br /&gt;&lt;a href=http://andorstrail.com/&gt;Ludaj forumoj ĉe andorstrail.com por demandoj kaj diskutoj pri la ludo.&lt;/a&gt;&lt;br /&gt;&lt;a href=https://andorstrail.gitbook.io/docs&gt;Vikio de la ludo por informoj pri la mondo de Andor\'s Trail kaj aliaj aferoj.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Fontkodo de la projekto ĉe github.com por programistoj.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Bonvolu viziti la forumojn por diskuti la ludon kun aliaj ludantoj.&lt;br /&gt;</string>
     <string name="levelup_add_attackchance">Pligrandigi atakŝancon (+%1$d)</string>
     <string name="iteminfo_effect_decrease_current_ap">Drenas %1$s AP</string>
     <string name="preferences_movement_dpad_position_title">Virtuala d-pad</string>
@@ -242,8 +242,8 @@
     <string name="startscreen_migration_text">Transigi konservludajn datumojn.</string>
     <string name="startscreen_migration_failure">Malsukcesis transigi konservludajn datumojn.</string>
     <string name="startscreen_load_game_confirm">La aktuala ludo ne estas konservita, kaj vi perdos vian karakteron.</string>
-    <string name="startscreen_error_loading_empty_slot">Ne eblas ŝarĝi el malplej fako.</string>
-    <string name="startscreen_attention_message_slot_gets_delete_on_load">Ŝargado de ĉi tiu ludo forigas ĝian konservfakon. Vi devos konservi denove antaŭ ol ŝanĝi al alia ludo.</string>
+    <string name="startscreen_error_loading_empty_slot">Ne eblas ŝarĝi el malplej ingo.</string>
+    <string name="startscreen_attention_message_slot_gets_delete_on_load">Ŝargado de ĉi tiu ludo forigas ĝian konservingon. Vi devos konservi denove antaŭ ol ŝanĝi al alia ludo.</string>
     <string name="startscreen_mode_unlimited_saves_and_lives">Normala (Senlimaj vivoj kaj konservadon)</string>
     <string name="startscreen_mode_unlimited_lives">Meza (Senlimaj vivoj, 1 konservado)</string>
     <string name="startscreen_mode_10_lives">Tre malfacila (10 vivoj, 1 konservado)</string>
@@ -291,12 +291,12 @@
     <string name="preferences_display_scaling_factor_75_percent">0.75x grando</string>
     <string name="preferences_display_scaling_factor_normal">Normala grando</string>
     <string name="preferences_display_scaling_factor_50_percent_larger">1.5x grando</string>
-    <string name="inventory_assign">Atribui rapidan fendon</string>
+    <string name="inventory_assign">Atribui rapidan ingon</string>
     <string name="inventory_selectitem">Elektu objekton por atribui</string>
-    <string name="inventory_assign_slot1">Fendo 1</string>
-    <string name="inventory_assign_slot2">Fendo 2</string>
-    <string name="inventory_assign_slot3">Fendo 3</string>
-    <string name="inventory_unassign">Malattribui rapidan fendon</string>
+    <string name="inventory_assign_slot1">Ingo 1</string>
+    <string name="inventory_assign_slot2">Ingo 2</string>
+    <string name="inventory_assign_slot3">Ingo 3</string>
+    <string name="inventory_unassign">Malattribui rapidan ingon</string>
     <string name="preferences_movement_dpad_positions_upper_right">Supra dekstra angulo</string>
     <string name="preferences_movement_dpad_positions_center_top">Centro supre</string>
     <string name="actorconditioninfo_constant_effect">Kontinuaj efiko</string>
@@ -372,8 +372,23 @@
     <string name="levelup_adds_new_skillpoint">Ĉi tiu nivelo ankaŭ donas al vi novan kapablopunkton por elspezi!</string>
     <string name="iteminfo_displaytypes_ordinary">Ordinara</string>
     <string name="menu_save_switch_character_title">Ŝanĝi karakteron</string>
-    <string name="loadsave_import_save_unsuccessfull">Enportado malsukcese</string>
+    <string name="loadsave_import_save_unsuccessfull">Enporto malsukcese</string>
     <string name="loadsave_export_info">Bonvolu elekti la dosierujon por eksporti ĉiujn dosierojn.</string>
     <string name="loadsave_export_error_unknown">Okazis nekonata eraro dum eksportado.</string>
-    <string name="loadsave_import_save_successfull">Enportado sukcese</string>
+    <string name="loadsave_import_save_successfull">Enporto sukcese</string>
+    <string name="menu_button_worldmap">Mapo</string>
+    <string name="preferences_display_theme_blue">Kobalto</string>
+    <string name="loadsave_import_imported_description">Emportis konservo: Ingo: %1$s:\n\t%2$s</string>
+    <string name="display_worldmap_title">Mapo</string>
+    <string name="heroinfo_gamestats_spent_gold">Oro elspezita en butikoj</string>
+    <string name="heroinfo_gamestats_name_and_qty">%1$s (%2$d)</string>
+    <string name="about_button4">Pri</string>
+    <string name="loadsave_save_overwrite_confirmation_slot">(ingo %1$d)</string>
+    <string name="preferences_movement_dpad_transparency_title">Travidebleco de D-pad</string>
+    <string name="preferences_display_theme_green">Malakito</string>
+    <string name="preferences_display_theme_charcoal">Obsidiano</string>
+    <string name="loadsave_exporting_worldmap">Eksportas Mondmapon</string>
+    <string name="loadsave_exporting_savegames">Eksportas Konservludojn</string>
+    <string name="loadsave_importing_savegames">Emportas Konservludojn</string>
+    <string name="loadsave_import_save">Emporti Konservludojn</string>
 </resources>
