@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-07 21:02+0000\n"
+"PO-Revision-Date: 2025-02-08 18:10+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -10726,12 +10726,12 @@ msgstr "说实话我现在急需一番治疗，也许一些药水什么的就可
 
 #: conversationlist_erinith.json:erinith_needspotions_5
 msgid "I have heard that the potion makers these days have major potions of health, and not just the regular potions of health."
-msgstr "据说当今的药剂师能够炼制出那种更为高阶的大瓶治疗药水，而非常见的那种中瓶治疗"
-"药水了。"
+msgstr "据说当今的药剂师能够炼制出那种强效治疗药水，而非常见的普通治疗药水了。"
 
 #: conversationlist_erinith.json:erinith_needspotions_6
 msgid "One of those would surely do. Otherwise, I think four regular potions of health would be enough."
-msgstr "高阶药水对于现在的情况应该一瓶就够了，不过我想四剂中瓶治疗药水应该也行。"
+msgstr "如果是强效药水的话就现在的情况应该一瓶就够了，不过我想四瓶剂普通治疗药水应该"
+"也行。"
 
 #: conversationlist_erinith.json:erinith_needspotions_6:0
 msgid "I'll go get those potions for you."
@@ -10744,16 +10744,16 @@ msgstr "给你，拿好这瓶作为替代的骨粉药水。这种药水对较深
 #: conversationlist_erinith.json:erinith_needspotions_6:2
 #: conversationlist_halvor_surprise.json:halvor_mlake_2:4
 msgid "Here, take this major potion of health."
-msgstr "给你，拿好这大瓶的治疗药水。"
+msgstr "给你，拿好这瓶强效治疗药水。"
 
 #: conversationlist_erinith.json:erinith_needspotions_6:3
 #: conversationlist_halvor_surprise.json:halvor_mlake_2:5
 msgid "Here, take this major flask of health."
-msgstr "给你，拿好这大杯的治疗药水。"
+msgstr "给你，拿好这杯强效治疗药水。"
 
 #: conversationlist_erinith.json:erinith_needspotions_6:4
 msgid "Here, take these four regular potions of health."
-msgstr "给你，拿好这四剂中瓶治疗药水。"
+msgstr "给你，拿好这四瓶普通治疗药水。"
 
 #: conversationlist_erinith.json:erinith_needspotions_7
 msgid "Thank you my friend. Please hurry back."
@@ -12074,19 +12074,21 @@ msgstr "我需要你移送走一批装备，请把它们运到我们另一处在
 
 #: conversationlist_gandoren.json:gandoren_12
 msgid "Those outposts further down south are in greater need of equipment than us, them being closer to that wretched Nor City and all."
-msgstr "那些在南方的前哨基地比我们更需要装备，他们离那个可恶的诺尔城和其他东西更近。"
+msgstr "那些更南方的前哨据点比我们更需要这些装备，毕竟他们离那座可恶的诺尔城要更近。"
 
 #: conversationlist_gandoren.json:gandoren_13
 msgid "Take this shipment of 10 iron swords to the guard captain stationed in a tavern called 'The Foaming Flask', near a village called Vilegard."
-msgstr "把这批10把铁剑交给驻扎在一个叫 \"泡沫瓶酒馆 \"的酒馆里的警卫队长，这个酒馆靠近一个叫维尔加德的村庄。"
+msgstr "你需要前往一处叫作“泡沫瓶 "
+"”的酒馆，然后把这批10把铁剑交给驻留在那里的卫队长。这处酒馆坐落于一个叫维尔加"
+"德的村庄附近。"
 
 #: conversationlist_gandoren.json:gandoren_13:0
 msgid "No problem. Anything for the glory of Feygard."
-msgstr "没问题。为了费加德的荣耀，什么都可以。"
+msgstr "没问题，一切为了费加德的荣耀。"
 
 #: conversationlist_gandoren.json:gandoren_13:1
 msgid "You did not mention any amount that I would be paid."
-msgstr "你没有提到我会得到的任何酬谢。"
+msgstr "你还没有提这件事的报酬呢。"
 
 #: conversationlist_gandoren.json:gandoren_13:2
 msgid "Why should I help you people? I have only heard bad things about Feygard."
@@ -23594,15 +23596,15 @@ msgstr "没有，我并没有任何治疗药水。"
 
 #: conversationlist_halvor_surprise.json:halvor_mlake_2:1
 msgid "Here, take this minor potion of health."
-msgstr "给你，拿好这小瓶的治疗药水。"
+msgstr "给你，拿好这瓶弱效治疗药水。"
 
 #: conversationlist_halvor_surprise.json:halvor_mlake_2:2
 msgid "Here, take this minor vial of health."
-msgstr "给你，拿好这小管的治疗药水。"
+msgstr "给你，拿好这管弱效治疗药水。"
 
 #: conversationlist_halvor_surprise.json:halvor_mlake_2:3
 msgid "Here, take this regular potion of health."
-msgstr "给你，拿好这中瓶的治疗药水。"
+msgstr "给你，拿好这瓶普通治疗药水。"
 
 #: conversationlist_halvor_surprise.json:halvor_mlake_2:6
 msgid "Here, take this bonemeal potion."
@@ -62763,11 +62765,11 @@ msgstr "这瓶极为特殊的治疗药水来自于一位特别智慧的老人，
 
 #: conversationlist_laeroth.json:forenza_island_injured_help:4
 msgid "I have an ordinary potion of health for you. Take it!"
-msgstr "这里有一中瓶治疗药水，请拿好！"
+msgstr "这里有一瓶寻常的治疗药水，请拿好！"
 
 #: conversationlist_laeroth.json:forenza_island_injured_help:5
 msgid "I have an little health potion for you. It's all I have. Take it!"
-msgstr "这里有一小瓶治疗药水，请拿好！"
+msgstr "这里有一瓶弱效的治疗药水，请拿好！"
 
 #: conversationlist_laeroth.json:forenza_island_injured_help:6
 msgid "I'm so sorry, but I have nothing that can help you."
@@ -67158,23 +67160,23 @@ msgstr "空药水瓶"
 
 #: itemlist_potions.json:health_minor
 msgid "Minor vial of health"
-msgstr "小管治疗药水"
+msgstr "管装弱效治疗药水"
 
 #: itemlist_potions.json:health_minor2
 msgid "Minor potion of health"
-msgstr "小瓶治疗药水"
+msgstr "弱效治疗药水"
 
 #: itemlist_potions.json:health
 msgid "Regular potion of health"
-msgstr "中瓶治疗药水"
+msgstr "普通治疗药水"
 
 #: itemlist_potions.json:health_major
 msgid "Major flask of health"
-msgstr "大杯治疗药水"
+msgstr "杯装强效治疗药水"
 
 #: itemlist_potions.json:health_major2
 msgid "Major potion of health"
-msgstr "大瓶治疗药水"
+msgstr "强效治疗药水"
 
 #: itemlist_potions.json:mead
 msgid "Mead"
@@ -77566,8 +77568,8 @@ msgstr "我把书交还给了艾里尼思。"
 
 #: questlist_v0610.json:erinith:31
 msgid "He also needs help with his wound that doesn't seem to be healing. Either I should bring him one potion of major health, or four regular potions of health."
-msgstr "他向我求助他身上的伤口似乎没办法自己好了，我可以给他一剂大瓶治疗药水，也可以"
-"是四剂中瓶治疗药水。"
+msgstr "他向我求助他身上的伤口似乎没办法自己好了，我可以给他一瓶强效治疗药水，也可以"
+"是四瓶普通治疗药水。"
 
 #: questlist_v0610.json:erinith:40
 msgid "I gave Erinith a bonemeal potion to heal his wound. He was a bit scared to use it since they are prohibited by Lord Geomyr."
@@ -77576,11 +77578,11 @@ msgstr "我给了艾里尼思一瓶骨粉药水来疗伤。不过他有点不敢
 
 #: questlist_v0610.json:erinith:41
 msgid "I gave Erinith a potion of a major health to heal his wound."
-msgstr "我给了艾里尼思一剂大瓶治疗药水来疗伤。"
+msgstr "我给了艾里尼思一瓶强效治疗药水来疗伤。"
 
 #: questlist_v0610.json:erinith:42
 msgid "I gave Erinith four regular potions of health to heal his wound."
-msgstr "我给了艾里尼思四剂中瓶治疗药水来疗伤。"
+msgstr "我给了艾里尼思四瓶普通治疗药水来疗伤。"
 
 #: questlist_v0610.json:erinith:50
 msgid "The wound healed completely and Erinith thanked me for all the help."
@@ -81953,7 +81955,7 @@ msgstr "在莱洛斯庄园的地下室，我给了佛伦萨一瓶骨粉药水作
 
 #: questlist_laeroth.json:odd_coin_collector:44
 msgid "In the Laeroth basement, I was able to help out Forenza by giving him a major health potion."
-msgstr "在莱洛斯庄园的地下室，我给了佛伦萨一大瓶治疗药水作为帮助。"
+msgstr "在莱洛斯庄园的地下室，我给了佛伦萨一瓶强效治疗药水作为帮助。"
 
 #: questlist_laeroth.json:odd_coin_collector:46
 msgid "In the Laeroth basement, I was able to help out Forenza by giving him a potion of health from Lodar."
@@ -81961,11 +81963,11 @@ msgstr "在莱洛斯庄园的地下室，我给了佛伦萨一瓶洛达尔的治
 
 #: questlist_laeroth.json:odd_coin_collector:47
 msgid "In the Laeroth basement, I was able to help out Forenza by giving him a regular health potion."
-msgstr "在莱洛斯庄园的地下室，我给了佛伦萨一中瓶治疗药水作为帮助。"
+msgstr "在莱洛斯庄园的地下室，我给了佛伦萨一瓶普通治疗药水作为帮助。"
 
 #: questlist_laeroth.json:odd_coin_collector:48
 msgid "In the Laeroth basement, I was able to help out Forenza by giving him a minor health potion."
-msgstr "在莱洛斯庄园的地下室，我给了佛伦萨一小瓶治疗药水作为帮助。"
+msgstr "在莱洛斯庄园的地下室，我给了佛伦萨一瓶弱效治疗药水作为帮助。"
 
 #: questlist_laeroth.json:odd_coin_collector:50
 msgid "I've decided to help Forenza by agreeing to get the second key from Gylew. I should go back to Gylew now. Forenza has left the Manor island and has asked that I meet him outside of Brimhaven after my \"business\" with Gylew is complete."
@@ -82013,7 +82015,7 @@ msgstr "我把荣誉之币给了佛伦萨，他让我去找他在布莱特口岸
 
 #: questlist_laeroth.json:laeroth_caretaker
 msgid "Take care of the caretaker"
-msgstr "关护庄园关护者"
+msgstr "照护庄园照护者"
 
 #: questlist_laeroth.json:laeroth_caretaker:10
 msgid "I met a caretaker at Laeroth manor. He said he cannot leave because he is bound by an oath, but not one he ever gave."
