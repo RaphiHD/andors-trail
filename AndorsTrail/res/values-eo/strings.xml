@@ -391,4 +391,102 @@
     <string name="loadsave_exporting_savegames">Eksportas Konservludojn</string>
     <string name="loadsave_importing_savegames">Emportas Konservludojn</string>
     <string name="loadsave_import_save">Emporti Konservludojn</string>
+    <string name="skill_longdescription_barkskin">Pliigas la damaĝreziston per %1$d por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_better_criticals">Pliigas ajnan ekzistantan ekipaĵo-donitan kritikmultiplikon per %1$d %% por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_speed">Pliigas la maksimumajn ago-punktojn (AP) per %1$d por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_magicfinder">Pliigas la ŝancon trovi neordinarajn objektojn per %1$d %% por ĉiu kapablo-nivelo.</string>
+    <string name="loadsave_import_option_keep_existing">Konservi ekzistantan konservludon</string>
+    <string name="loadsave_import_option_add_as_new">Aldoni kiel novan Konservludon</string>
+    <string name="loadsave_import_existing_description">Ekzistanta konservludo: Konservingo: %1$s:\n\t%2$s</string>
+    <string name="loadsave_import_save_error_unknown">- obsoleta -</string>
+    <string name="loadsave_import_error_unknown">Okazis nekonata eraro dum importado.</string>
+    <string name="loadsave_import_option_keep_imported">Konservi importitan konservludon</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- obsoleta -</string>
+    <string name="iteminfo_displaytypes_rare">Rara</string>
+    <string name="actorconditioninfo_category">Kondiĉa kategorio: %1$s</string>
+    <string name="actorcondition_categories_spiritual">Spirita</string>
+    <string name="actorcondition_categories_physical">Fizika Kapablo</string>
+    <string name="actorcondition_categories_blood">Sanga Malsano</string>
+    <string name="traitsinfo_base_max_hp">Maksimuma HP:</string>
+    <string name="actorcondition_categories_mental">Menta</string>
+    <string name="traitsinfo_base_max_ap">Maksimuma AP:</string>
+    <string name="skill_longdescription_weapon_chance">Pliigas la atakŝancon per %1$d procentaj poentoj por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_weapon_dmg">Pliigas la maksimuman damaĝon per %1$d por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_barter">Por ĉiu kapablo-nivelo, malpliigas la orpenalon pri aĉetado kaj vendado per %1$d procentaj poentoj.</string>
+    <string name="skill_longdescription_dodge">Pliigas la blokŝancon per %1$d procentaj poentoj por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_more_criticals">Pliigas ajnan ekzistantan ekipaĵo-donitan kritikŝancon per %1$d %% por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_coinfinder">Pliigas la ŝancon trovi oron en monstraj faloj per %1$d %% kaj pliigas la kvanton de oro en faloj per %2$d %% por ĉiu kapablo-nivelo (ĝis la maksimuma kvanto kiun la monstro falas).</string>
+    <string name="skill_longdescription_more_exp">Pliigas la kvanton de spertopunktoj donitaj per venkado de monstrojn per %1$d %% por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_cleave">Donas +%1$d ago-punktojn (AP) por ĉiu mortigo por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_evasion">Por ĉiu kapablo-nivelo, malpliigas la ŝancon de malsukcesaj forkuraĵprovoj per %1$d %% kaj la ŝancon, ke apudaj monstraroj atakos, per %2$d %%.</string>
+    <string name="skill_longdescription_regeneration">Gajnas +%1$d sanpunktojn (HP) ĉe ĉiu ronda por ĉiu kapablo-nivelo kiam neniu monstro estas rekte apud.</string>
+    <string name="skill_longdescription_resistance_physical_capacity">Malfaciligas la ŝancon esti afliktita de kondiĉoj influantaj viajn fizikajn kapablojn per %1$d %% por ĉiu kapablo-nivelo, ĝis maksimumo de %2$d %% . Tio inkluzivas kondiĉojn kaŭzitajn de monstraj atakoj kiel Laciĝo.</string>
+    <string name="skill_current_level">Aktuala nivelo: %1$d</string>
+    <string name="skill_current_level_with_maximum">Aktuala nivelo: %1$d / %2$d</string>
+    <string name="skill_prerequisite_other_skill">Por levii ĉi tiun kapablon, vi bezonas almenaŭ nivelon %1$d de la %2$s kapablo .</string>
+    <string name="skill_prerequisite_level">Por levii ĉi tiun kapablon, vi bezonas almenaŭ spert-nivelo %1$d.</string>
+    <string name="skill_prerequisite_stat">Por levii ĉi tiun kapablon, vi bezonas almenaŭ %1$d %2$s (bazaj statistikoj).</string>
+    <string name="skill_number_of_increases_several">Vi povas elekti %1$d kapablojn por plibonigi.</string>
+    <string name="loadsave_save_to_new_slot">Krei novan Konservludingo</string>
+    <string name="iteminfo_displaytypes_legendary">Legenda</string>
+    <string name="iteminfo_displaytypes_extraordinary">Eksterordinara</string>
+    <string name="loadsave_export">Ekporti Konservludoj</string>
+    <string name="loadsave_import_save_info">Bonvolu elekti ĉiujn Konservludojn, kiujn vi volas importi.</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>Ludaj Agordoj</b> vi povas trovi premante la Menuan Butonon de via aparato.</div>
+
+<p>________________</p>
+<h1>Interfacaj Ikonoj</h1>
+
+<div><b>La Kesto</b><img alt="chest" src="chest.png" /></div>
+<p>Rapidingoj [Premu longe la saketojn interne por atribui objecktojn por tuja uzo]</p>
+
+<div><b>La Heroo</b><img alt="hero" src="char_hero.png" /></div>
+<p>Menuo [Superrigardo, Misioj, Kapabloj &amp; Inventaro *]</p>
+<p>* (Dum vi estas en la invenaro, “premu” objekton por informoj &amp; "premu longe” por pli da opcioj)</p>
+
+<div><b>La Malamiko</b><img alt="monster" src="monster.png" /></div>
+<p>Informo [Aperas dum Batalo]</p>
+
+
+
+<p>________________</p>
+<h1>Batalo</h1>
+
+<p>Agoj faritaj dum batalo kostas AP…</p>
+
+<div><b>Atakado</b> - [3AP] *</div>
+<img alt="attacking" src="doubleattackexample.png" />
+<p>* (Ekipiĝado de ekipaĵo &amp; Uzado de objektoj povas ŝanĝi AP &amp; kostoj de uzo)</p>
+
+<div><b>Uzado de Objektoj</b> - [5AP]</div>
+<div><b>Forkuro</b> - [6AP]</div>
+
+
+
+<p>________________</p>
+<h1>Avancita Batalo</h1>
+
+<div>Dum batalo, premu longe kampo apud la Heroo...</div>
+
+<div><b>Forkuri</b></div>
+<p>(Elektita kampo estas lumigita - Ataka Butono ŝanĝiĝas al Movo )</p>
+<img alt="flee" src="flee_example.png" />
+<p>[forkura reĝimo aktivigita - Premu longe la malamikon por reiri en batalon]</p>
+
+<div><b>Por Ŝanĝi Celojn</b></div>
+<p>(La ruĝa celindiko ŝanĝiĝas inter malamikoj)</p>
+<p>[La celo estis ŝanĝita]</p>
+
+]]></string>
+    <string name="skill_longdescription_eater">Donas +%1$d sanpunktojn (HP) por ĉiu mortigo por ĉiu kapablo-nivelo.</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Skribi super Konservludingo?</string>
+    <string name="skill_longdescription_fortitude">Je ĉiu sekvanta nivelo-leviĝo, la maksimumaj sanpunktoj (HP) estos altiĝintaj per %1$d por ĉiu kapablo-nivelo. Ĉi tio ne estas aplikebla retroaktive; nur sekvantaj nivelo-leviĝoj estos influataj.</string>
+    <string name="skill_longdescription_lower_exploss">Por ĉiu kapablo-nivelo, malpliigas la kvanton de perdita spertopunkto pro morto per %1$d %% (procento de la ekzistanta spertoperdo, ne procentaj poentoj). %2$d niveloj forigos ĉiujn spertoperdojn pro morto.</string>
+    <string name="skill_longdescription_resistance_mental">Malfaciligas la ŝancon esti afliktita de mensaj kondiĉoj per %1$d %% por ĉiu kapablo-nivelo, ĝis maksimumo de %2$d %% . Tio inkluzivas kondiĉojn kaŭzitajn de monstraj atakoj kiel Embriiĝo aŭ Arma Malforteco.</string>
+    <string name="skill_longdescription_resistance_blood_disorder">Malfaciligas la ŝancon esti afliktita de sangoferoj per %1$d %% por ĉiu kapablo-nivelo, ĝis maksimumo de %2$d %% . Tio inkluzivas kondiĉojn kaŭzitajn de monstraj atakoj kiel Venenoj aŭ sangaj vundoj.</string>
+    <string name="loadsave_save_overwrite_confirmation">Ĉi tiu Konservludo enhavas malsaman ludanton-nomon (%1$s) ol via aktuala ludanto-nomo (%2$s). Ĉu vi certe volas skribi super ĉi tiun konservludon?</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Skribi super ekzistantan Konservludingon?</string>
+    <string name="loadsave_import_file_exists_question">**\"Jam estas konservludo en la celita konservingo. Ĉu vi volas konservi la ekzistantan konservludon, skribi super ĝin per la importita konservludo, aŭ importi la konservludon al alia konservingo?\n\n%1$s\n\n%2$s\"**</string>
 </resources>
