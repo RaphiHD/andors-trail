@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-09 10:19+0000\n"
+"PO-Revision-Date: 2025-02-10 15:01+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -12109,19 +12109,21 @@ msgstr "负面消息？谁告诉你的？你最好自己去费加德转转，独
 
 #: conversationlist_gandoren.json:gandoren_15
 msgid "Personally, I cannot think of a greater place to be than in Feygard. Order is kept and people are friendly."
-msgstr "就我个人而言，我想不出有什么地方比费加德更合适。秩序得以维持，人们也很友好。"
+msgstr "就说说我个人的看法吧，我实在想不出有什么地方能比费加德还要好了：那里可谓是秩"
+"序井然，居民友善。"
 
 #: conversationlist_gandoren.json:gandoren_16
 msgid "As to why you would help us, I can only say that Feygard would be grateful for your services if you help us."
-msgstr "至于你为什么要帮助我们，我只能说，如果你帮助我们，费加德会感谢你的帮助。"
+msgstr "至于你为什么凭帮助我们的问题，对此我只能说，如果你帮助我们的话，费加德会感谢"
+"你为其做出的义举的。"
 
 #: conversationlist_gandoren.json:gandoren_16:0
 msgid "Fine, whatever. I will carry your stupid swords. I still hope there will be some reward for this."
-msgstr "好吧，不管怎样我会运送你那把愚蠢的剑，但我仍然希望会有一些奖励。"
+msgstr "好吧，就这样吧，我会做运剑这个蠢任务的，但我还是想要得到一些奖励。"
 
 #: conversationlist_gandoren.json:gandoren_16:1
 msgid "Sounds good to me. Anything for the glory of Feygard."
-msgstr "听起来不错。一切为了费加德的荣耀。"
+msgstr "这件事我感觉不错，一切为了费加德的荣耀。"
 
 #: conversationlist_gandoren.json:gandoren_17
 #: conversationlist_fallhaven_potions.json:fallhaven_pot_antifoodp6
@@ -12130,7 +12132,7 @@ msgstr "很好。"
 
 #: conversationlist_gandoren.json:gandoren_18
 msgid "I cannot promise you any amount on a reward."
-msgstr "我不能答应给你任何报酬。"
+msgstr "我并不能答应给你报酬。"
 
 #: conversationlist_gandoren.json:gandoren_19
 msgid "OK then."
@@ -12138,31 +12140,35 @@ msgstr "那么好吧。"
 
 #: conversationlist_gandoren.json:gandoren_20
 msgid "Here is the shipment that I want you to transport."
-msgstr "这是我要你运送的货物。"
+msgstr "请拿好你需要运送的这批货。"
 
 #: conversationlist_gandoren.json:gandoren_21
 msgid "As I said, you should deliver those 10 iron swords to the guard captain stationed in a tavern called 'The Foaming Flask', near a village called Vilegard."
-msgstr "正如我所说，你应该把那10把铁剑交给驻扎在一个叫 \"泡沫瓶酒馆 \"的酒馆里的警卫队长，就在一个叫维勒加德的村庄附近。"
+msgstr "正如我先前所说，你需要前往一处叫作“泡沫瓶 "
+"”的酒馆，然后把那10把铁剑交给驻留在那里的卫队长。这处酒馆坐落于一个叫维尔加德"
+"的村庄附近。"
 
 #: conversationlist_gandoren.json:gandoren_22
 msgid "Return to me once you are done."
-msgstr "做完就回来找我。"
+msgstr "完成之后记得回来一趟。"
 
 #: conversationlist_gandoren.json:gandoren_23
 msgid "I feel that I should warn you about something also. See that fellow over there in the corner? Ailshara. She seems very interested in our dealings for some reason."
-msgstr "我觉得我也应该提醒你一些事情。看到角落里的那个家伙了吗？艾尔沙拉。出于某种原因，她似乎对我们的交易非常感兴趣。"
+msgstr "另外我觉得还有一件事我还要提醒你一下：看到角落里的那个家伙了吗？她叫艾尔沙拉"
+"。不知是出于什么原因，她似乎对我交给你的这件事非常感兴趣。"
 
 #: conversationlist_gandoren.json:gandoren_24
 msgid "I would urge you to stay away from her at all costs. Whatever you do, do not speak to her about your mission with the shipment."
-msgstr "我劝你不惜一切代价离她远一点。无论你做什么，都不要和她谈论你的任务和货物。"
+msgstr "我劝你尽可能地离她远一点，无论如何都不要和她谈论交给你的那个任务以及那批货的"
+"事。"
 
 #: conversationlist_gandoren.json:gandoren_deliver_1
 msgid "You return. Good news about the shipment I hope?"
-msgstr "你回来了。我希望有关于货物的好消息？"
+msgstr "你回来了，话说有关于那批货的好消息吗？"
 
 #: conversationlist_gandoren.json:gandoren_deliver_1:1
 msgid "I am still working on transporting that shipment."
-msgstr "我仍然在努力运输那批货物。"
+msgstr "我仍在努力运输那批货中。"
 
 #: conversationlist_gandoren.json:gandoren_deliver_1:3
 msgid "Yes. I have delivered them as you ordered."
@@ -12170,32 +12176,33 @@ msgstr "是的，我已经按照你的要求给他们了。"
 
 #: conversationlist_gandoren.json:gandoren_deliver_1:4
 msgid "Yes. I have delivered them."
-msgstr "是的，我已经把它们送出去了。"
+msgstr "是的，我已经把它们送到了。"
 
 #: conversationlist_gandoren.json:gandoren_tr_2
 msgid "I'm sorry, we only trade with allies of Feygard. Help me with the task I gave you and we might be able to work something out."
-msgstr "很抱歉，我们只和费加德的盟友进行贸易。帮我完成我给你的任务，我们也许能解决一些问题。"
+msgstr "对不起，我们只和费加德关系密切的朋友之间做交易，不过如果你能帮我完成交给你的"
+"任务的话，那情况说不定会有所改观。"
 
 #: conversationlist_gandoren.json:gandoren_deliver_y_1
 #: conversationlist_gandoren.json:gandoren_deliver_n_1
 msgid "Splendid! Feygard is in debt to you."
-msgstr "好极了!费加德欠你的。"
+msgstr "好极了！费加德欠你一个人情。"
 
 #: conversationlist_gandoren.json:gandoren_delivered_1
 msgid "I hope you managed to stay away from the savages of Nor City as much as possible while being over there."
-msgstr "我希望你尽可能设法远离诺尔城那里的野蛮人。"
+msgstr "我希望你能尽可能地远离诺尔城的那群野蛮之徒。"
 
 #: conversationlist_gandoren.json:gandoren_delivered_2
 msgid "From what I hear, things are rough down south."
-msgstr "据我所知，南方的情况很糟糕。"
+msgstr "据我所知，南方的境况很糟糕。"
 
 #: conversationlist_gandoren.json:gandoren_delivered_3
 msgid "As for you, you have both my and the rest of the Feygard patrol's gratitude for helping us with this."
-msgstr "至于你，我和费加德巡逻队的其他成员都很感谢你帮助我们处理此事。"
+msgstr "至于你的贡献，我代表整个费加德巡卫队向你表达感谢，感谢你帮助我们解决此事。"
 
 #: conversationlist_gandoren.json:gandoren_completed_1
 msgid "You return. Thank you for helping with the shipment earlier."
-msgstr "你回来了，感谢您之前帮助处理该批货物。"
+msgstr "你回来了，感谢您之前帮助我们运掉那批货。"
 
 #: conversationlist_gandoren.json:gandoren_completed_2
 msgid "Is there anything I can do for you?"
@@ -12203,39 +12210,40 @@ msgstr "有什么我可以为你做的吗？"
 
 #: conversationlist_gandoren.json:gandoren_tr_4
 msgid "Absolutely, as thanks for the help you provided earlier to both Minarra and me, we could agree to trade with you."
-msgstr "当然，为了感谢你之前对米娜拉和我的帮助，我们可以与你交易了。"
+msgstr "当然，处于对你之前帮助我和米娜拉的感谢，我们想与你做交易没有问题。"
 
 #: conversationlist_gandoren.json:gandoren_tr_5
 msgid "Go up in the lookout tower over there and talk to Minarra about equipment. She has our supply."
-msgstr "到那边的瞭望塔去，和米娜拉谈谈装备的事。她负责我们的补给。"
+msgstr "你可以到瞭望塔楼上去和米娜拉谈谈装备的事，是她负责我们的军需的。"
 
 #: conversationlist_gandoren.json:gandoren_tr_6
 msgid "I hear that Minarra up in the lookout tower over there wants help with something. Why don't you go up to her and ask her about it, and we might be able to work something out after that."
-msgstr "我听说那边瞭望塔上的米娜拉需要帮忙。你为什么不去找问问她呢，然后我们也许可以解决一些问题。"
+msgstr "我听说楼上瞭望塔里的米娜拉需要帮忙，你为什么不去找到并问问她呢，然后交易的事"
+"说不定就没问题了。"
 
 #: conversationlist_ailshara.json:ailshara_completed_y_1
 msgid "Hello again my Shadow friend. How may I help you?"
-msgstr "又见面了，我的暗影朋友。我有什么能帮到你的？"
+msgstr "又见面了，我的暗影朋友。我有什么能帮到你的吗？"
 
 #: conversationlist_ailshara.json:ailshara_completed_y_1:0
 #: conversationlist_ailshara.json:ailshara_completed_n_1:0
 #: conversationlist_arghes.json:arghes_6:0
 #: conversationlist_ervelyn.json:ervelyn_d:0
 msgid "Let me see what you have to trade."
-msgstr "让我看看你想要交易啥。"
+msgstr "请让我看看你都卖些啥。"
 
 #: conversationlist_ailshara.json:ailshara_completed_n_1
 msgid "Sigh, it's you. What do you want?"
-msgstr "嘿，是你啊。你想要啥？"
+msgstr "唉，是你啊。你想干嘛？"
 
 #: conversationlist_ailshara.json:ailshara_1
 msgid "Psst, hey. Interested in doing some trading? I am always looking for acquiring ... well, items of others..."
-msgstr "嘘……嘿。对谈成交易感兴趣？我一直致力于得到……咳，别人的东西……"
+msgstr "嘘……嘿，想做笔交易吗？我一直在找机会得到……咳，别人的东西……"
 
 #: conversationlist_ailshara.json:ailshara_1:0
 #: conversationlist_charwood1.json:khorailla2:0
 msgid "Sure, let me see what you have."
-msgstr "好啊，让我看看你有什么。"
+msgstr "好啊，让我看看你都有什么吧。"
 
 #: conversationlist_ailshara.json:ailshara_1:1
 msgid "Items of others?"
@@ -12243,60 +12251,66 @@ msgstr "别人的东西？"
 
 #: conversationlist_ailshara.json:ailshara_2
 msgid "Oh yes. You see, these Feygard patrol guards carry some really interesting things. They don't seem to care much if some of their shipments ... well, disappear."
-msgstr "对。你看，这些费加德警卫经常带着一些非常有趣的东西。他们似乎并不在意他们运输的货物……咳，消失不见。"
+msgstr "哦没错，这些费加德巡卫队的卫兵经常负责运送一些非常有意思的东西，另外他们似乎"
+"并不在意他们运输的货有可能……咳，会消失不见。"
 
 #: conversationlist_ailshara.json:ailshara_2:1
 msgid "I should really not get involved in this. Goodbye."
-msgstr "我真的不想为此受到牵连。再见。"
+msgstr "这种事情真不是我该掺和的，再见。"
 
 #: conversationlist_ailshara.json:ailshara_interested_1
 msgid "Psst, hey you! I saw you talking to Gandoren over there, and I happened to notice that you exchanged some items. Anything interesting?"
-msgstr "嘘……哟！你在和甘多伦讲话的时候，我注意到你交换了一些东西。有啥有趣的？"
+msgstr "嘘……嘿！你先前在和甘多伦交流的时候，我注意到他交给了你什么东西，是啥好家伙吗"
+"？"
 
 #: conversationlist_ailshara.json:ailshara_interested_1:0
 #: conversationlist_ailshara.json:ailshara_deliver_1:1
 msgid "Never mind that, let me see what you have to trade."
-msgstr "不去管它，让我看看你有啥要交易的。"
+msgstr "先不谈这件事，让我看看你都卖些啥吧。"
 
 #: conversationlist_ailshara.json:ailshara_interested_1:1
 msgid "I better not talk about it."
-msgstr "我不太想说。"
+msgstr "恕我无可奉告。"
 
 #: conversationlist_ailshara.json:ailshara_interested_1:2
 msgid "Gandoren specifically asked me not to talk to you about it."
-msgstr "甘多伦特地叫我不要跟你提起它。"
+msgstr "甘多伦有特地告诫过我不要跟你提起这件事。"
 
 #: conversationlist_ailshara.json:ailshara_interested_1:3
 msgid "Yes, Gandoren wants me to deliver some equipment for Feygard. Do you want a part of the deal?"
-msgstr "是的，甘多伦想叫我给费加德送点装备。你想搭一把手吗？"
+msgstr "是的，甘多伦想叫我为费加德运送点武器装备，对此你有参与到里头的想法吗？"
 
 #: conversationlist_ailshara.json:ailshara_interested_2
 msgid "Hah, of course. Gandoren would not like it if I were to get a glimpse into his business. I assume you are helping him deliver those items somewhere. Tell me this, what did he promise you in return? Gold? Honor? No?"
-msgstr "哈，当然啦。就算我朝他的生意瞥一眼甘多伦也不会喜欢的。我猜你在帮他把那些东西送到啥地方啦。告诉我，他有没有承诺给你回报？金子？荣誉？还是啥都没有？"
+msgstr ""
+"哈，当然啦。要知道就算我只是朝甘多伦那里瞥上一眼看看他在干嘛，他也会皱眉的。"
+"我猜你是要帮他把那些东西给送到某个地方。告诉我，他有没有承诺给你回报？是金币"
+"呢？还是荣誉？还是啥都没有？"
 
 #: conversationlist_ailshara.json:ailshara_interested_2:0
 msgid "Now that you mention it, he didn't actually say there would be a reward."
-msgstr "你倒是给我提了个醒，他确实没有说过有奖励。"
+msgstr "你倒是给我提了个醒，他确实没有说过回报的事。"
 
 #: conversationlist_ailshara.json:ailshara_interested_2:1
 msgid "I am doing this for the glory of Feygard."
-msgstr "我是为了费加德的荣誉做这件事的。"
+msgstr "我是为了费加德的荣耀才接这件事的。"
 
 #: conversationlist_ailshara.json:ailshara_interested_2:2
 msgid "Helping Feygard seems like the right thing to do."
-msgstr "帮助费加德看上去像是一件正确的事。"
+msgstr "我帮助费加德似乎没啥毛病吧。"
 
 #: conversationlist_ailshara.json:ailshara_interested_2:3
 msgid "What would you propose instead?"
-msgstr "那你有什么另外的建议吗？"
+msgstr "那你有什么另行的建议吗？"
 
 #: conversationlist_ailshara.json:ailshara_interested_3
 msgid "As usual, Feygard keeps all its riches to itself. What if I were to tell you there was a way for you to gain from all this as well?"
-msgstr "像往常一样，费加德把所有的财富都留给了自己。如果我告诉你有一种方法可以让你从这一切中获益呢?"
+msgstr "每次都是这样，费加德把所有的好处都留给了自己。但如果我告诉你我有一种方法可以"
+"让你从这中获益呢？"
 
 #: conversationlist_ailshara.json:ailshara_interested_3:0
 msgid "Sounds interesting, please go on."
-msgstr "听起来很有趣，请继续。"
+msgstr "有意思，请继续讲下去吧。"
 
 #: conversationlist_ailshara.json:ailshara_interested_3:1
 msgid "I have no problem helping Feygard without any personal gain."
@@ -12304,52 +12318,55 @@ msgstr "对于无偿帮助费加德我个人毫无怨言。"
 
 #: conversationlist_ailshara.json:ailshara_interested_3:2
 msgid "I better not get involved in this, goodbye."
-msgstr "我还是不要牵扯上这个了，再见。"
+msgstr "这种事我还是不要牵扯上为妙，再见。"
 
 #: conversationlist_ailshara.json:ailshara_fg_1
 msgid "By the Shadow, you sound like one of those deceptive snobs from Feygard."
-msgstr "暗影在上，你听起来就像来自费加德那些势利小人。"
+msgstr "暗影在上，你这话听起来就和那群费加德的自负之徒的言辞一模一样。"
 
 #: conversationlist_ailshara.json:ailshara_fg_2
 msgid "Shadow help you, child. You should question yourself whether you really are making the right choice here."
-msgstr "孩子，暗影会帮助你的。你应该询问自己是否在这里真的做出了正确的抉择。"
+msgstr "孩子，暗影会保佑你的，而你则应该扪心自问一下你对此做出的选择到底正不正确。"
 
 #: conversationlist_ailshara.json:ailshara_interested_4
 msgid "Let me tell you my plan. As you might know, everyone believes there will be some coming conflict between the deceptive snobs of Feygard and the glorious people of Nor City."
-msgstr "让我告诉你我的计划。正如你所知，每个人都认为在费加德的势利小人和诺尔城的荣耀市民间将会有一场冲突。"
+msgstr "就让我告诉你我的盘算吧。你多半也知道的，现在众人皆认为将来在虚伪自负的费加德"
+"与光荣的诺尔城之间会必然地爆发冲突。"
 
 #: conversationlist_ailshara.json:ailshara_interested_5
 msgid "Any help we can bring to Nor City in this matter is welcome. These items that Gandoren gave you would be useful to our people in the southern lands."
-msgstr "在这个问题上，我们能给诺尔城带来的任何帮助都是受欢迎的。甘多伦给你的这些东西将会对我们这些南部的人民有用。"
+msgstr "在这个问题上，诺尔城欢迎我们为它做出任何形式的帮助。而现在甘多伦给你的那些东"
+"西将可以帮助到我们在南边的人民。"
 
 #: conversationlist_ailshara.json:ailshara_interested_6
 msgid "These items, if you were to deliver them to our allies down in Vilegard, then the Shadow would look favorably upon you."
-msgstr "如果你把这些东西交给我们在维尔加德的盟友，暗影将会很感激你的。"
+msgstr "如果你能把这些东西交给我们在维尔加德的朋友，暗影会垂青于你的。"
 
 #: conversationlist_ailshara.json:ailshara_interested_7
 msgid "This way, the people could get back some piece of the riches that Feygard has stolen from all of us."
-msgstr "这样的话，人们就可以取回一些我们被费加德窃取的财富。"
+msgstr "如此的话，人民就可以取回些许被费加德窃走的财富。"
 
 #: conversationlist_ailshara.json:ailshara_interested_8
 msgid "If you indeed are walking in the Shadow, then deliver these items to the smith in Vilegard. He will be able to make good use of them. He might also have some other task for you."
-msgstr "如果你真的下暗影行者，那就把这些东西送到维尔加德的铁匠那里。他会很好的利用它们，并且可能有别的任务给你。"
+msgstr "如果你真的行于暗影之中，那就把这些东西送到维尔加德的铁匠那里。他会好好地将它"
+"们物尽其用的，并且还有可能交给你什么别的任务。"
 
 #: conversationlist_ailshara.json:ailshara_interested_8:0
 msgid "I will see what I can do."
-msgstr "我会看看我能做些什么。"
+msgstr "我会尽力而为的。"
 
 #: conversationlist_ailshara.json:ailshara_interested_8:1
 #: conversationlist_ailshara.json:ailshara_deliver_1:2
 msgid "No. I will help Feygard instead."
-msgstr "不，我将帮助费加德。"
+msgstr "不，我更倾向于帮助费加德。"
 
 #: conversationlist_ailshara.json:ailshara_interested_8:2
 msgid "Whatever, I choose my own path."
-msgstr "无论如何，我选择自己的路。"
+msgstr "不管怎么说，我走什么路由我自己来决定。"
 
 #: conversationlist_ailshara.json:ailshara_interested_9
 msgid "Shadow be with you. May the Shadow guide you on the clouded paths that you walk."
-msgstr "愿暗影与你同在。愿暗影指引你前进的道路。"
+msgstr "愿暗影与你同在，祝暗影指引你前进的道路。"
 
 #: conversationlist_ailshara.json:ailshara_deliver_1
 msgid "Hello again. Did you deliver those items to the smith in Vilegard?"
@@ -12366,65 +12383,69 @@ msgstr "又见面了。你把那些东西送到维尔加德的铁匠那了吗？
 #: conversationlist_sullengard.json:sullengard_nanette_7:0
 #: conversationlist_sullengard.json:ff_captain_selector:0
 msgid "Not yet."
-msgstr "还没到时候。"
+msgstr "还没。"
 
 #: conversationlist_ailshara.json:ailshara_deliver_2
 msgid "Good. You should also try to convince Gandoren into thinking that you helped him."
-msgstr "好。你还应该试着说服甘多伦，让他认为你帮过他了。"
+msgstr "很好，另外你还需要应付一下甘多伦，让他以为你帮他了。"
 
 #: conversationlist_ailshara.json:ailshara_deliver_3
 msgid "Excellent! You do indeed walk with the Shadow my friend. I am glad to hear that there are at least a few decent folk still around."
-msgstr "太好了！你确实是行走在暗影中的人，我的朋友。我很高兴知道这里还是有那么几个好人的。"
+msgstr "太好了！暗影确实在与你同行，我的朋友。这附近还能有你这般像样的伙计着实不易。"
 
 #: conversationlist_ailshara.json:ailshara_delivered_1
 msgid "Your help will be most appreciated by the people of Nor City, and you will be welcome among us."
-msgstr "诺尔城的城里人最会感谢您的帮助，而且您也会在我们当中受到欢迎。"
+msgstr "诺尔城的人民会感谢您做出的帮助的，我们也会时刻欢迎你的。"
 
 #: conversationlist_vilegard_v0610.json:vilegard_smith_fg_1
 msgid "Oh, this is most unexpected but very welcome. I will not question how you acquired these items, but instead express my gratitude for bringing them to me."
-msgstr "哦，这是最出乎意料但非常受欢迎的。我不会质疑您是如何获得这些物品的，而是感谢您将它们带给我。"
+msgstr "哦，这可真是出乎意料的大好事，你是怎么搞到这些物品的我绝不过问，相反我很感激"
+"你能它们带来给我。"
 
 #: conversationlist_vilegard_v0610.json:vilegard_smith_fg_2
 msgid "Thank you for bringing me these items, they will be most useful to us here in the southern lands, and Vilegard in particular. We rarely get our hands on Feygard items, so these are really welcome."
-msgstr "谢谢你给我带来的这些东西，它们对我们南方来说很实用，尤其是维尔加德。我们很少接触到费加德物品，所以这些物品真的很受欢迎。"
+msgstr ""
+"谢谢你给我带来了这些东西，它们对于我们南方来说非常能帮得上忙，尤其是对于维尔"
+"加德。要知道我们很少能接触到费加德的物件，所以这些家伙我们真的很需要。"
 
 #: conversationlist_vilegard_v0610.json:vilegard_smith_fg_2:0
 msgid "I was sent to deliver these items to a Feygard patrol stationed in the Foaming Flask tavern."
-msgstr "我被派去给驻扎在泡沫瓶酒馆的费加德巡逻队送这些东西。"
+msgstr "它们是被交给我来运送到驻留在泡沫瓶酒馆的费加德巡卫队手里的。"
 
 #: conversationlist_vilegard_v0610.json:vilegard_smith_fg_3
 msgid "Instead, you brought them to me. You have my thanks."
-msgstr "相反，你却把它们带给了我。谢谢你。"
+msgstr "而恰恰相反的是，你却把它们带给了我，对此我很是感谢。"
 
 #: conversationlist_vilegard_v0610.json:vilegard_smith_fg_4
 msgid "Hah, this means that we have another opportunity here. What if you were to deliver some other items to the Feygard patrol instead? Hah, this will really make my day."
-msgstr "哈，这意味着我们又多了一个机会。如果您要向费加德巡逻队运送一些其他物品会怎么样？哈哈，想想就开心。"
+msgstr "哈，这样的话我们说不定可以再把握一下这次机会：比方说你为费加德巡卫队送到的物"
+"品是被偷换掉的呢？哈哈，我想想就激动。"
 
 #: conversationlist_vilegard_v0610.json:vilegard_smith_fg_5
 msgid "I might have something that will do just fine... Let me just find them."
-msgstr "我可能有一些适合的东西…让我来找找看。"
+msgstr "我应该正好有一些适合的家伙……让我找找。"
 
 #: conversationlist_vilegard_v0610.json:vilegard_smith_fg_6
 msgid "Here they are. Ha ha, these will do just fine for those deceiving Feygard snobs."
-msgstr "在这呢。哈哈，这些对于费加德那些骗人的势利小人来说是再好不过了。"
+msgstr "在这呢。哈哈，那些虚伪的费加德自负之徒就该配上这些家伙。"
 
 #: conversationlist_vilegard_v0610.json:vilegard_smith_fg_7
 msgid "Take these items and deliver them to wherever you were supposed to deliver the items you gave me."
-msgstr "把你给我的这些东西送到它们本该送去的地方。"
+msgstr "把这些家伙送到你给我的那批货本该送去的地方吧。"
 
 #: conversationlist_vilegard_v0610.json:ff_captain_items_1
 msgid "Excellent, I have been waiting for these. Thank you for bringing them to me."
-msgstr "好极了，我一直在等待这些。谢谢你把它们带给我。"
+msgstr "好极了，这些物件我总算是等上了，谢谢你把它们带给了我。"
 
 #: conversationlist_crossroads_2.json:gallain
 msgid "Welcome to the Crossroads guardhouse. I am Gallain, the proprietor of this place."
-msgstr "欢迎来到岔道口岗哨。我是加尔兰，这里的主人。"
+msgstr "欢迎来到岔道口岗哨。我是加尔兰，这处建筑的所有者。"
 
 #: conversationlist_crossroads_2.json:gallain_1
 #: conversationlist_ingus.json:ingus_speak1
 #: conversationlist_sullengard.json:sullengard_hadena_1:0
 msgid "How may I help you?"
-msgstr "我能为您做什么？"
+msgstr "我能为您做什么吗？"
 
 #: conversationlist_crossroads_2.json:gallain_1:0
 #: conversationlist_loneford_4.json:grimion:0
@@ -12433,19 +12454,19 @@ msgstr "你在这附近有什么吃的吗？"
 
 #: conversationlist_crossroads_2.json:gallain_1:1
 msgid "Is there any place I can rest here?"
-msgstr "这里有什么地方可以让我休息吗？"
+msgstr "这里有什么地方可以让我休息的吗？"
 
 #: conversationlist_crossroads_2.json:gallain_cr_1
 msgid "As I said, this is the Crossroads guardhouse. The guards from Feygard are using this place as a place to rest and gear up."
-msgstr "正如我所说，这里是岔道口岗哨。费加德的卫兵们把这里作为休息和准备的地方。"
+msgstr "正如我先前所说，这里是岔道口岗哨，费加德的卫兵们在此休整。"
 
 #: conversationlist_crossroads_2.json:gallain_cr_2
 msgid "Because of this, it is also a safe haven for merchants travelling through here. We get a lot of those."
-msgstr "正因为如此，它也是经过这里的商人们的安全港。我们有很多这样的人。"
+msgstr "也正因如此，这里同样是途经此处的商人们的安全歇脚地，我们这里的商人可不少。"
 
 #: conversationlist_crossroads_2.json:gallain_trade_1
 msgid "Here, have a look."
-msgstr "来，看看。"
+msgstr "这儿呢，你就看看吧。"
 
 #: conversationlist_crossroads_2.json:gallain_trade_1:0
 #: conversationlist_agthor.json:agthor_y4:0
@@ -12454,23 +12475,25 @@ msgstr "交易"
 
 #: conversationlist_crossroads_2.json:gallain_rest_1
 msgid "The guards have set up some beds downstairs. Go check with them."
-msgstr "警卫在楼下搭了一些床。去找他们看看。"
+msgstr "卫兵们在楼下设了一些床铺，你可以去与他们谈谈。"
 
 #: conversationlist_crossroads_2.json:celdar
 msgid "And who might you be? Come to sell me one of those trinkets that you people sell, eh?"
-msgstr "你是谁呢？是来向我推销你们这些人卖的小玩意的吗？"
+msgstr "你是来干什么的？是来向我兜售你们这些人卖的那些小玩意的吗？"
 
 #: conversationlist_crossroads_2.json:celdar_1
 msgid "No, let me guess - you want to know if I have any items to trade?"
-msgstr "不，让我猜猜——你想知道我是否有任何物品要交易吗？"
+msgstr "不对，那就让我猜猜看——你是来问我卖不卖你点东西的？"
 
 #: conversationlist_crossroads_2.json:celdar_2
 msgid "Let me tell you something. I do not want to buy anything from you, nor do I want to sell you anything. I just want to be left alone here, now that I have made it all the way to this safe haven."
-msgstr "让我告诉你一些事情。我不想从你那里买任何东西，也不想卖给你任何东西。我只想一个人呆在这里，我好不容易来到这个避风港。"
+msgstr "就这样说吧，我既不想从你那里买任何东西，也不想卖给你任何东西，我只想一个人在"
+"这里清静清静，要知道我是走了好远才来到这处歇脚地的。"
 
 #: conversationlist_crossroads_2.json:celdar_3
 msgid "I have travelled all the way from my home town of Sullengard, and on my way to Brimhaven, I have stopped at this place to get a break from all the commoners that always bother me with their trinkets and whatnots."
-msgstr "我从我的家乡苏伦加德到布林海文的路上一路走来，以及在这个地方停了下来，我总是避开那些拿着饰品和什么东西来烦我的平民。"
+msgstr "我是从我的家乡苏伦加德风尘仆仆赶过来的，正要前往布林海文；这一路上尽是些向我"
+"来推销小玩意什么的市井人等，我好不容易到了这里才偷得这片刻清闲。"
 
 #: conversationlist_crossroads_2.json:celdar_4
 msgid "So, if you will excuse me, I really need my well deserved rest here. Without you bothering me."
@@ -65448,7 +65471,7 @@ msgstr "哦，这处睡觉的地方臭气熏天，你是不会想靠近的。"
 
 #: conversationlist_feygard_1.json:leofric_welcome
 msgid "Ah, greetings, traveler! What brings you to my humble apiary?"
-msgstr "啊，欢迎你，这位旅行者！是什么风把你吹到了我这处简陋的养蜂场？"
+msgstr "啊，欢迎你，这位过路者！是什么风把你吹到了我这处简陋的养蜂场？"
 
 #: conversationlist_feygard_1.json:leofric_welcome:0
 msgid "Hello. Who might you be?"
@@ -72685,7 +72708,7 @@ msgstr "羊"
 
 #: monsterlist_v0610_npcs1.json:ailshara
 msgid "Ailshara"
-msgstr "艾尔沙拉"
+msgstr "艾尔莎拉"
 
 #: monsterlist_v0610_npcs1.json:arngyr
 msgid "Arngyr"
@@ -72697,7 +72720,7 @@ msgstr "本比尔"
 
 #: monsterlist_v0610_npcs1.json:celdar
 msgid "Celdar"
-msgstr "塞尔达"
+msgstr "思尔达"
 
 #: monsterlist_v0610_npcs1.json:conren
 msgid "Conren"
