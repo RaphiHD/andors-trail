@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-11 02:01+0000\n"
+"PO-Revision-Date: 2025-02-12 08:01+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -57624,59 +57624,66 @@ msgstr "Sam piekę swoje mięso, bardzo dziękuję!"
 
 #: conversationlist_ratdom_npc.json:gael_cook:0
 msgid "I've been looking for a way to cook my meat."
-msgstr ""
+msgstr "Szukam sposobu na upieczenie mięsa."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10
 msgid "I could use some extra gold. So I can cook them for you for let's say 30 gold a piece."
 msgstr ""
+"W sumie to pieniądz nie śmierdzi. Mogę dla Ciebie upiec jedną sztukę za "
+"powiedzmy 30 złotych monet."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:0
 msgid "Well, here is 1 piece and 30 gold."
-msgstr ""
+msgstr "Dobrze, oto 1 sztuka mięsa i 30 złotych monet."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:1
 msgid "OK, I have 5 pieces and 150 gold."
-msgstr ""
+msgstr "Dobrze, oto 5 sztuk mięsa i 150 złotych monet."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:2
 msgid "Here, I have 10 pieces that I would like cooked. Here are 300 gold pieces too."
-msgstr ""
+msgstr "Tutaj mam 10 sztuk mięsa które chciałbym upiec a oto 300 złotych monet."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:3
 msgid "I'm hungry! Here are 20 pieces and 600 gold."
-msgstr ""
+msgstr "Jestem niesamowicie głodny! Oto 20 sztuk mięsa i 600 złotych monet."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:4
 msgid "Oh, my mistake, I forgot that I have no meat."
-msgstr ""
+msgstr "Och, mój błąd. Zapomniałem że nie mam mięsa."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:5
 msgid "Oops, I'm still poor. I can't afford to pay your price."
 msgstr ""
+"Ups, słabo to wygląda. Nie stać mnie na zapłacenie kwoty, której żądasz."
 
 #: conversationlist_ratdom_npc.json:get_one_cooked_meat
 msgid "Only one? That's no problem. Here's your cooked meat."
-msgstr ""
+msgstr "Tylko jedna? To nie problem. Oto Twoje upieczone mięso."
 
 #: conversationlist_ratdom_npc.json:get_five_cooked_meat
 msgid "Just five? That's no problem. Here's all your cooked meat."
-msgstr ""
+msgstr "Tylko pięć? To nie problem. Oto Twoje upieczone mięso."
 
 #: conversationlist_ratdom_npc.json:get_ten_cooked_meat
 msgid "10 meat at once? That's no problem. Here's all your cooked meat."
-msgstr ""
+msgstr "Od razu dziesięć? Nie ma problemu, oto Twoje upieczone mięso."
 
 #: conversationlist_ratdom_npc.json:get_twenty_cooked_meat
 msgid "20 meat at once?! You may even love this stuff more than I do. Here's all your cooked meat."
 msgstr ""
+"Dwadzieścia sztuk mięsa na raz?! Chyba lubisz je nawet bardziej niż ja. Oto "
+"Twoje upieczone mięso."
 
 #: conversationlist_ratdom_npc.json:kendelow_meat
 msgid "No, sorry. I can't let you use my kitchen. But..."
-msgstr ""
+msgstr "Niestety nie. Nie mogę pozwolić Ci korzystać z mojej kuchni. Ale..."
 
 #: conversationlist_mt_galmore.json:galmore_68_blocked_door
 msgid "You try to push the door open, but it's blocked from the inside. Best to try the other door."
 msgstr ""
+"Próbujesz otworzyć drzwi, ale są zablokowane od środka. Może lepiej poszukaj "
+"innego wejścia."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0
 msgid "With all that gold that you helped us get back, we plan to fix the bridge so we will be able to ship our beer to the west."
