@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-12 08:01+0000\n"
+"PO-Revision-Date: 2025-02-13 17:01+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.10-rc\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -57688,70 +57688,78 @@ msgstr ""
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0
 msgid "With all that gold that you helped us get back, we plan to fix the bridge so we will be able to ship our beer to the west."
 msgstr ""
+"Mając złoto, które pomogłeś nam odzyskać, planujemy w końcu naprawić most, "
+"abyśmy mogli wysyłać nasze piwo bezpośrednio na zachód."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0:0
 msgid "\"Bridge\"? What bridge? To the west?"
-msgstr ""
+msgstr "'Most'? Jaki most? Jak to na zachód?"
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0:1
 msgid "Oh, that's great news indeed! It's going to make my life easier."
-msgstr ""
+msgstr "Och, to naprawdę świetna wiadomość! To niesamowicie ułatwi mi życie."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_10
 msgid "Don't you know? The bridge that crosses over the Sutdover River that flows between here and Stoutford. It's been broken for a while now."
 msgstr ""
+"Naprawdę nie wiesz? Chodzi o most nad rzeką Sutdover, płynącą pomiędzy nami "
+"a Stoutford. Jest nieprzejezdny od jakiegoś czasu."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_20
 msgid "It should be ready by the time you get there."
-msgstr ""
+msgstr "Kiedy do niego dotrzesz, to powinien być już naprawiony."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5
 msgid "The bridge that crosses over the Sutdover River has been repaired thanks to you."
-msgstr ""
+msgstr "Dzięki Tobie udało się naprawić most nad rzeką Sutdover."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5:0
 msgid "Yes. I am aware. In fact, I've already used it."
-msgstr ""
+msgstr "Tak. Wiem o jego istnieniu. Właściwie, to już z niego skorzystałem."
 
 #: conversationlist_mt_galmore.json:sutdover_river_bridge_broken_script
 msgid "You can't continue over the broken boards. It's time to turn around and find another way across."
 msgstr ""
+"Nie możesz kontynuować podróży z uwagi na powyłamywane deski. Czas zawrócić "
+"i znaleźć inną drogę na drugą stronę."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10
 msgid "Hey, kid! Just where do you think you're going?"
-msgstr ""
+msgstr "Hej, młody! Czy ty właściwie wiesz dokąd idziesz?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10:0
 msgid "Across the bridge, of course. After all, I can't swim."
-msgstr ""
+msgstr "Idę przez most, rzecz jasna. W końcu nie umiem pływać."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10:1
 msgid "Nowhere...I guess."
-msgstr ""
+msgstr "Nigdzie...chyba."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_20
 msgid "The bridge is broken. You're going nowhere."
-msgstr ""
+msgstr "Ten most to ruina. Nie przejdziesz tędy."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_10
 msgid "Let me guess, you're wondering if I know how to cross the river?"
 msgstr ""
+"Zgaduję, że pewnie zastanawiasz się, czy wiem w jaki sposób przeprawić się "
+"na drugą stronę rzeki?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_10:0
 msgid "Well, do you?"
-msgstr ""
+msgstr "Nieprawdaż?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed
 msgid "Please move along. There's nothing to see here."
-msgstr ""
+msgstr "Proszę iść dalej. Nie ma tu nic do oglądania."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:0
 msgid "I've been wondering, do you have anything to sell?"
-msgstr ""
+msgstr "Zastanawiam się, czy masz może coś na sprzedaż?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:1
 msgid "Yes, ma'am."
-msgstr ""
+msgstr "Tak proszę Pani."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20
 msgid "Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold."
