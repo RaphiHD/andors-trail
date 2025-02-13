@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-13 17:01+0000\n"
+"PO-Revision-Date: 2025-02-14 08:18+0000\n"
 "Last-Translator: Burak Hüseyin Ekseli <burakekseli@yandex.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/tr/>\n"
@@ -18701,10 +18701,14 @@ msgstr "Haç der ki: huzur içinde yat, arkadaşım."
 #: conversationlist_v0612graves.json:sign_wild6_stump
 msgid "You notice that the tree-stump is partially hollow, and looks like an excellent hiding place. It is empty now."
 msgstr ""
+"Ağaç kovuğunun kısmen oyuk olduğunu fark ettin, güzel bir saklanma yeri gibi "
+"duruyor. Şu anda boş."
 
 #: conversationlist_v0612graves.json:sign_snakecave3_grave
 msgid "The ground around the grave is full of small holes, probably by something that has slithered its way to its nest down there. The cross has some writing on it, but you cannot understand what it says."
 msgstr ""
+"Mezarlığın etrafı sanki birisi aşağıda bir yerlerdeki yuvasına gitmişçesine "
+"deliklerle dolu. Haçın üstünde bazı yazılar var ama ne dediğini anlamıyorsun."
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave1
 msgid "Here lies Kargir the merchant."
@@ -18713,10 +18717,14 @@ msgstr "Burada tacir Kargir yatıyor."
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave2
 msgid "The stone is covered with a thin layer of green moss. The writing on the stone has eroded and is completely unreadable."
 msgstr ""
+"Taş ince bir yosun katmanıyla kaptı. Taşın üstündeki yazı çok aşınmış ve "
+"okunamaz halde."
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave3
 msgid "Rest with the Shadow, one-legged Berth. She lived a full life, but in the end she could not stand up to the illness that befell her."
 msgstr ""
+"Gölge ile yat, tek-bacaklı Berth. Hayatını doya doya yaşadı, ta ki üzerine "
+"çöken hastalığa dayanamayana dek."
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave4
 msgid "The remains of Kigrim lies here, after he was killed by wolves south of Fallhaven."
@@ -18725,6 +18733,8 @@ msgstr "Fallhaven'in güneyindeki kurtların öldürdüğü Kigrim'in kalınıla
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave5
 msgid "Gimlont the corpulent lies here. May we finally be free from his fat hands being part of all of our businesses."
 msgstr ""
+"Şişman Gimlont burada yatıyor. Dileriz ki şişko parmakları artık işimizden "
+"uzak kalır."
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave6
 msgid "Here lies Terdar the smith. May he forever be embraced by the comfort of the Shadow."
@@ -18733,34 +18743,42 @@ msgstr "Burada demirci Terdar yatıyor. İnşallah Gölge'nin huzuru onu kuşat�
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave7
 msgid "Here lies O'llath, praised by her fellow citizens of Fallhaven for her delicious cakes."
 msgstr ""
+"Burada lezzetli kekleri için Fallhavendeki yurttaşlar tarafından övgüyle "
+"anılan O'llath yatıyor."
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave8
 msgid "Sidari the woodcutter lies here. We all told him to be careful with that axe of his, but he never listened."
 msgstr ""
+"Oduncu Sidari burada yatıyor. Hepimiz o baltasına hakim olması gerektiğini "
+"söyledik ama hiç dinlemedi."
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave9
 msgid "Tyngose the noble lies here. May her legacy never be forgotten."
-msgstr ""
+msgstr "Soygu Tyngose burada yatıyor. Dileriz mirası asla unutulmaz."
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave1
 msgid "Here lies the remains of Sir Eneryth's horse, Shadowsteed."
-msgstr ""
+msgstr "Burada Efendi Eneryth'in atı, Shadowsteed'in kalıntıları yatıyor."
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave2
 msgid "Here lies Sir Eneryth of house Gellir. Son of Sir Anarogas, and the elder brother of Sir Karthanir."
 msgstr ""
+"Gellir hanesinden Efendi Anagoras'ın oğlu, Efendi Karthanir'in abisi, Efendi "
+"Eneryth yatıyor."
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3
 msgid "Here lies Sir Karthanir of house Gellir. Son of Sir Anarogas, and the younger brother of Sir Eneryth."
 msgstr ""
+"Burada Gellir hanesinden Efendi Anagoras'ın oğlu, Efendi Eneryth'in küçük "
+"kardeşi Efendi Karthanir yatıyor."
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3:0
 msgid "There is the ladder. [Fetch it]"
-msgstr ""
+msgstr "Merdiven burada. [Merdiveni al]"
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave4
 msgid "Here lies Lady Gelythus of house Gellir. Wife of Sir Eneryth of house Gellir."
-msgstr ""
+msgstr "Burada Gellir hanesinden Efendi Eneryth'in eşi Leydi Gelythus yatıyor."
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave1
 msgid "Here lies ta'Draiden, servant of the Shadow in the chapel of Fallhaven."
@@ -18772,11 +18790,13 @@ msgstr "Burada, Fallhaven şapelindeki Gölge kulu ta'Tembas yatıyor."
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave3
 msgid "Here lies Elodam, servant of Sir Eneryth of house Gellir."
-msgstr ""
+msgstr "Burada Gellir hanesinden Efendi Eneryth'in kahyası Elodam yatıyor."
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave4
 msgid "Here lies the remains of one-eyed Tragdas, servant of Sir Eneryth of house Gellir."
 msgstr ""
+"Burada Gellir hanesinden Efendi Eneryth'in kahyası tek gözlü Tragdas'ın "
+"kalıntıları bulunuyor."
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave5
 msgid "Here lies Lerythal the kind. May she rest with the Shadow."
@@ -18784,7 +18804,7 @@ msgstr "Burada nazik Lerythal yatıyor. Gölge içinde yatsın."
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave6
 msgid "Here lies Kragnis the second, steward of the chapel of Fallhaven."
-msgstr ""
+msgstr "Burada Fallhaven şapelinin kahyası ikinci Kragnis yatıyor."
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave7
 msgid "The writing on the grave reads: Rest with the Shadow, my dearest."
@@ -18793,27 +18813,37 @@ msgstr ""
 #: conversationlist_v0612graves.json:sign_catacombs2_papers1
 #: conversationlist_v0612graves.json:sign_bwm52_papers1
 msgid "On the floor is what looks like some torn out pages from a book."
-msgstr ""
+msgstr "Yerde bir kitaptan koparılmışa benzeyen sayfalar var."
 
 #: conversationlist_v0612graves.json:sign_catacombs2_papers2
 msgid "You find some crumpled papers on the floor, containing scribbled notes about the fine arts of pottery making. You decide to leave them be."
 msgstr ""
+"Yerde, içerisinde çömlek yapma sanatıyla ilgili karalamalar olan buruşuk "
+"notlar buldun. Olduğu gibi bırakmaya karar verdin."
 
 #: conversationlist_v0612graves.json:sign_catacombs3_grave1
 msgid "The grave reads: Here lies Sir Anarogas of house Gellir, son of Gellir the brave."
 msgstr ""
+"Mezarda şöyle yazıyor: Burada Gellir hanesinden cesur Gellir'in oğlu Efendi "
+"Anagoras yatıyor."
 
 #: conversationlist_v0612graves.json:sign_catacombs3_grave2
 msgid "The stench coming from the grave is unbearable. Something must have disturbed the grave recently."
 msgstr ""
+"Mezardan dayanılmaz bir koku geliyor. Buna yakın zamanlarda olan bir şey "
+"sebep olmuş olmalı."
 
 #: conversationlist_v0612graves.json:sign_catacombs4_grave1
 msgid "The cross reads: ta'Dreg lies here, advisor of the Shadow to king Luthor."
 msgstr ""
+"Haçta şöyle yazıyor: Burada kral Luthor'a olan Gölge'nin danışmanı ta'Dreg "
+"yatıyor."
 
 #: conversationlist_v0612graves.json:sign_catacombs4_grave2
 msgid "The grave reads: King Luthor, our savior and leader. The grave is also adorned with the golden seal of house Luthor."
 msgstr ""
+"Mezarda şöyle yazıyor: Kral Luthor, kurtarıcımız ve liderimiz. Bu mezar "
+"Luthor hanedanının altın mührü ile süslenmiştir."
 
 #: conversationlist_v0612graves.json:sign_hh3_papers
 msgid "Perched under the statue, you find some papers with drawings of what looks like skeletons. The drawings look like they were made by a child, and you start to wonder how they could have ended up in a place such as this."
