@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-14 08:18+0000\n"
+"PO-Revision-Date: 2025-02-14 20:09+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10-rc\n"
+"X-Generator: Weblate 5.10\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -57849,15 +57849,17 @@ msgstr "Chciwy! Dosyć tego! Daj sobie siana. Jesteśmy tutaj bezpieczni."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_25:0
 msgid "Wait a minute, I recognize those guys."
-msgstr ""
+msgstr "Chwileczkę, przecież ja ich znam."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_35
 msgid "Ugh. Whatever."
-msgstr ""
+msgstr "Uch. Nieważne zresztą."
 
 #: conversationlist_mt_galmore.json:easedropping_required_key
 msgid "You should get a better understanding of who these men are before you crash the party."
 msgstr ""
+"Powinieneś najpierw dowiedzieć się, kim są ci ludzie, zanim popsujesz im "
+"zabawę."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_10
 msgid "Lookie what we have here! Sullengard's five most wanted men, all in one location. This is my lucky day."
