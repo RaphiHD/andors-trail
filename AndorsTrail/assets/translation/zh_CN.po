@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-12 08:02+0000\n"
+"PO-Revision-Date: 2025-02-14 08:18+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.10-rc\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -12771,7 +12771,8 @@ msgstr "就在最近，这里的庄稼微微歉收了，然后那群卫兵就认
 
 #: conversationlist_loneford_1.json:rolwynn_5
 msgid "I am sure that they did something to us as punishment for not following their *rules*. They are always talking about how the laws and rules are so precious to them."
-msgstr "我确信他们对我们做了一些事情作为惩罚，因为我们没有遵守他们的“规矩”。他们总是在说法律和规矩对他们来说是多么珍贵。"
+msgstr "他们觉得我们没有遵守他们的“规则”，就在暗地里用阴谋惩戒我们，我确信这是完全有"
+"可能的。要知道他们言必称秩序，一直把他们的宝贝律法挂在嘴边。"
 
 #: conversationlist_loneford_1.json:loneford_ill_c_n
 msgid "That's what I think anyway."
@@ -12779,7 +12780,8 @@ msgstr "反正我是这么想的。"
 
 #: conversationlist_loneford_1.json:loneford_ill_c_5
 msgid "There's something else also. I talked to that drunk, Landa, in the tavern earlier today. He said he saw something but didn't dare tell me what it was."
-msgstr "还有一些其他的东西。我今天早些时候在酒馆和那个醉鬼兰达谈过。他说他看见了什么，但不敢告诉我是什么。"
+msgstr "还有一件事，我今天早些时候在酒馆同醉鬼兰达聊天聊了几句。他说他不久前目睹了什"
+"么情况，却不敢告诉我具体内容。"
 
 #: conversationlist_loneford_1.json:loneford_ill_c_5:0
 msgid "Thank you, I will go talk to him."
@@ -12787,32 +12789,33 @@ msgstr "谢谢，我去和他谈谈。"
 
 #: conversationlist_loneford_1.json:loneford_ill_c_5:1
 msgid "Great, another drunk that I have to talk to."
-msgstr "太好了，又一个我要找的酒鬼。"
+msgstr "太好了，我又要去和一个酒鬼闲扯了。"
 
 #: conversationlist_loneford_2.json:loneford_guard0
 msgid "We keep the order around here. I wonder what the people of Loneford would do without us guards from Feygard. Poor things."
-msgstr "我们维持这里的秩序。我想知道如果没有我们费加德的守卫，隆福德的人该怎么办。可怜的东西。"
+msgstr "我们在此维持当地的秩序。真不知道要是没有我们这些卫兵的话隆福德现在的情况会有"
+"多糟糕，那他们就太可怜了。"
 
 #: conversationlist_loneford_2.json:loneford_villager0
 msgid "*cough* Please help us, soon there won't be many left of us!"
-msgstr "请帮帮我们，很快我们就所剩无几了!"
+msgstr "*咳咳* 请帮帮我们吧，我们很快就要没命可活了！"
 
 #: conversationlist_loneford_2.json:loneford_villager1
 msgid "I can't feel my face anymore, please help us!"
-msgstr "我的脸没知觉了，请帮帮我们!"
+msgstr "我的脸都没知觉了，请帮帮我们吧！"
 
 #: conversationlist_loneford_2.json:loneford_villager2
 msgid "Don't disturb me, I need to finish chopping this wood. Go bother someone else."
-msgstr "别打扰我，我得把木头砍完。去找别人吧。"
+msgstr "请别打扰我，我还得把这些木头锯完，要烦就去烦别人。"
 
 #: conversationlist_loneford_2.json:loneford_villager2:0
 #: conversationlist_loneford_2.json:loneford_villager2:1
 msgid "Do you by any chance have some fences?"
-msgstr "你有栅栏吗？"
+msgstr "请问你能搞出些栅栏吗？"
 
 #: conversationlist_loneford_2.json:loneford_villager2:2
 msgid "Unfortunately the fences you gave me are not tall enough. Do you have others?"
-msgstr "不幸的是你给我的那些栅栏不够高，请问你是不是还有别的栅栏？"
+msgstr "抱歉你给我的那些栅栏不够高，请问你还有别的栅栏吗？"
 
 #: conversationlist_loneford_2.json:loneford_villager2:3
 msgid "The Craftsman told me that I should get some wood from you."
@@ -12820,15 +12823,15 @@ msgstr "那名木匠让我来你这儿拿些木头。"
 
 #: conversationlist_loneford_2.json:loneford_villager3
 msgid "I fear for our survival. It seems we are getting worse every day that passes. It's a good thing Feygard helps us at least."
-msgstr "我担心我们的生存。似乎我们一天比一天糟糕。至少费加德帮了我们，这是件好事。"
+msgstr "我们能不能活下来真成问题，这里的情况堪称每况愈下…所幸费加德来帮助我们了。"
 
 #: conversationlist_loneford_2.json:loneford_villager4
 msgid "Don't I know you from somewhere? You look familiar somehow."
-msgstr "我是不是在哪儿见过你?你看起来很眼熟。"
+msgstr "我是不是在哪儿见过你？不知怎的你可真眼熟。"
 
 #: conversationlist_loneford_2.json:landa_1
 msgid "Wha? You!? No, get away from me!"
-msgstr "什么？你！？不，离我远点！"
+msgstr "等等？是你！？啊不，离我远点！"
 
 #: conversationlist_loneford_2.json:landa_1:0
 msgid "I heard that you saw something that you won't talk about."
