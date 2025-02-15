@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-15 19:47+0000\n"
+"PO-Revision-Date: 2025-02-16 04:05+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -29919,7 +29919,8 @@ msgstr "Hmm, tak. Jak mógłbyś to udowodnić? Niech pomyślę..."
 
 #: conversationlist_stoutford_combined.json:blornvale_s1_6
 msgid "I know - sometimes there is a great dark wolf behind the house. Kill him!"
-msgstr "Wiem - niekiedy za moim domem pojawia się wielki czarny wilk. Zabij go!"
+msgstr ""
+"Wiem już - niekiedy za moim domem pojawia się wielki czarny wilk. Zabij go!"
 
 #: conversationlist_stoutford_combined.json:blornvale_s1_6:0
 msgid "Oops - I must go now. See you."
@@ -57930,50 +57931,66 @@ msgstr "Proszę. Tylko mnie wysłuchaj."
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45
 msgid "We have knowledge of this vast repository of gold and other treasures, but it is well secured under lock and key."
 msgstr ""
+"Wiemy o istnieniu pewnego ogromnego skarbca ze złotem i innych "
+"kosztownościami, ale jest on dobrze zabezpieczony i zamknięty na klucz."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45:0
 msgid "OK. You had me at \"treasures\". Please go on."
-msgstr ""
+msgstr "No dobra. Zainteresowałeś mnie tym 'skarbem'. Mów dalej."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45:1
 msgid "And you want me to help you return it to its rightful owners?"
-msgstr ""
+msgstr "I zapewne chcesz, abym pomógł Wam zwrócić go prawowitym właścicielom?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_50
 msgid "The problem of needing the key is where your \"skills\" come in."
 msgstr ""
+"Twoje 'umiejętności' są niezbędne do rozwiązania problemu związanego z "
+"koniecznością posiadania klucza."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_50:0
 msgid "These \"skills\" that you keep mentioning, what are they?"
-msgstr ""
+msgstr "Co to mają być za 'umiejętności', o których to ciągle wspominasz?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_46
 msgid "[Laughing loudly]. Kid, you are certainly as funny as you are funny looking, I'll tell you that right now. Now, back on topic..."
 msgstr ""
+"[Śmieje się głośno]. Młody - od razu Ci to powiem - jesteś na pewno tak "
+"zabawny, jak zabawnie wyglądasz. A teraz wracając do sedna..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55
 msgid "I was just getting to that. If you would stop interrupting me, I could get to the plan quicker and how you play a major role in it."
 msgstr ""
+"Właśnie do tego zmierzałem. Gdybyś łaskawie przestał mi w końcu co chwilę "
+"przerywać, to mógłbym szybciej przejść do planu oraz tego, jak ważną "
+"odgrywasz w nim rolę."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55:0
 msgid "A \"major\" role you said. So what, I get fifty percent of the loot?"
 msgstr ""
+"'Ważna' rola, powiadasz. A zatem czy mogę liczyć na to, że dostanę połowę "
+"zdobyczy?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55:1
 msgid "Oh, sorry. Please continue."
-msgstr ""
+msgstr "Och, przepraszam. Mów dalej."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_56
 msgid "Again with the humor. No, you will not be getting fifty percent. Anyways..."
-msgstr ""
+msgstr "I znowu żarcik. Nie, na pewno nie dostaniesz połowy. W każdym razie..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_60
 msgid "Well, before I get into any more details. Hey Alaric [the lost traveler's real name], do we trust this kid enough to tell him the details?"
 msgstr ""
+"No cóż, jeszcze jedno zanim przejdę do konkretów. Hej, Alaric "
+"[jest to jak się okazuje prawdziwe imię zagubionego podróżnika], czy ufamy "
+"temu dzieciakowi na tyle, by móc przedstawić mu szczegóły?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_alaric_10
 msgid "Well Defy, $playername did let me go after discovering my crime."
 msgstr ""
+"Jak widzisz, Defy, $playername pozwolił mi swobodnie odejść po wykryciu "
+"mojego występku."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_alaric_10:0
 msgid "[Keep quiet about the facts and agree, for now] That's true."
@@ -59016,6 +59033,7 @@ msgstr ""
 #: conversationlist_mt_galmore.json:crystal_teleportation_disabled
 msgid "There is nothing to see here except for that wolf dung over there. Gross!"
 msgstr ""
+"Nie ma tu nic ciekawego, poza ogromnym wilczym kupskiem nieco dalej. Bleee!"
 
 #: conversationlist_mt_galmore.json:witch_playing_kid
 msgid "Look what I have found here - bewitched crystals! They are really fun!"
@@ -72391,7 +72409,7 @@ msgstr "Wściekły wilk"
 
 #: monsterlist_wilderness.json:fledgling_wolf
 msgid "Fledgling wolf"
-msgstr "Raczkujący wilk"
+msgstr "Wilcze szczenię"
 
 #: monsterlist_wilderness.json:young_wolf
 msgid "Young wolf"
@@ -76117,7 +76135,7 @@ msgstr ""
 
 #: monsterlist_ratdom.json:ratdom_m9c
 msgid "Cave wolf"
-msgstr ""
+msgstr "Wilk jaskiniowy"
 
 #: monsterlist_ratdom.json:ratdom_m10a
 msgid "Poisonous caterpillar"
@@ -76462,7 +76480,7 @@ msgstr ""
 
 #: monsterlist_bwmfill.json:mountain_wolf_4
 msgid "Reckless mountain wolf"
-msgstr ""
+msgstr "Nierozważny wilk górski"
 
 #: monsterlist_bwmfill.json:gornaud_boss
 msgid "Gornaud leader"
@@ -79082,11 +79100,18 @@ msgstr "Rozmawiałem z Naczelnikiem. Nie udało mi się go przekonać, ale porad
 
 #: questlist_pathway_fallhaven.json:pathway_fallhaven:30
 msgid "I talked to Jakrar the woodcutter. He will only clear the trees away if I do him a favor. I should search for his favorite axe east of the Crossroads Guardhouse, located to the north of Fallhaven. I should keep my eyes open for an evil wolf pack."
-msgstr "Rozmawiałem z drwalem Jakrarem. Oczyści ścieżkę tylko wtedy, gdy zrobię mu przysługę. Powinienem poszukać jego ulubionej siekiery w miejscu na wschód o Strażnicy na Rozdrożu, która z kolei jest położona na północ od Fallhaven. Powinienem się rozglądać za watahą wilków."
+msgstr ""
+"Porozmawiałem z drwalem Jakrarem. Oczyści ścieżkę tylko wtedy, gdy "
+"wyświadczę mu pewną przysługę. Mianowicie, powinienem poszukać jego "
+"ulubionej siekiery zagubionej gdzieś na wschód od Strażnicy na Rozdrożu, "
+"która z kolei jest położona na północ od Fallhaven. Powinienem się rozglądać "
+"za watahą wilków."
 
 #: questlist_pathway_fallhaven.json:pathway_fallhaven:40
 msgid "I have found a wolf pack and slain their leader. Beneath its remains I found Jakrar's axe. I should take it back to him."
-msgstr "Znalazłem sforę wilków i zgładziłem ich przywódcę. Wśród jego szczątek znalazłem siekierę Jakrara. Powinienem ją zabrać z powrotem."
+msgstr ""
+"Napotkałem watahę wilków i zabiłem jej lidera. Przy jego ścierwie znalazłem "
+"siekierę. Powinienem zabrać ją i zanieść do Jakrara."
 
 #: questlist_pathway_fallhaven.json:pathway_fallhaven:40
 msgid "I showed Jakrar the axe I found and he recognized it immediately."
