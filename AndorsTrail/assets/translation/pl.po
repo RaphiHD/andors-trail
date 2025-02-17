@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-16 20:47+0000\n"
+"PO-Revision-Date: 2025-02-17 23:33+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -58103,18 +58103,21 @@ msgstr "Och, zaufaj mi. Na pewno tam jest."
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83:0
 msgid "Trust you? You want me to trust you? A dishonorable thief? Where is it then?"
 msgstr ""
+"Zaufać ci? Chcesz, abym Ci zaufał? Niehonorowemu złodziejowi? Gdzie to jest?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83:1
 msgid "Tell me. I want to know."
-msgstr ""
+msgstr "Powiedz mi. Chcę to wiedzieć."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_84
 msgid "Are you familiar with that vacant house southwest of Fallhaven? The one next to the cliffside?"
 msgstr ""
+"Kojarzysz może pusty dom na południowy zachód od Fallhaven? Ten niedaleko "
+"urwiska?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_84:1
 msgid "[Lie] Yes, yes I am."
-msgstr ""
+msgstr "[Kłamiesz] Tak, wiem o który chodzi."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85
 msgid "The entrance to it is found inside that house. It's hidden and secured. You will need to find the passage that leads underground in order to gain access."
