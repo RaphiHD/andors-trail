@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-14 13:04+0000\n"
+"PO-Revision-Date: 2025-02-17 19:07+0000\n"
 "Last-Translator: Burak Hüseyin Ekseli <burakekseli@yandex.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -18848,22 +18848,29 @@ msgstr ""
 #: conversationlist_v0612graves.json:sign_hh3_papers
 msgid "Perched under the statue, you find some papers with drawings of what looks like skeletons. The drawings look like they were made by a child, and you start to wonder how they could have ended up in a place such as this."
 msgstr ""
+"Heykelin altında iskelete benzeyen çizimler olan kağıtlar buldun. Çizimler "
+"bir çocuğunkine benziyor ve kendisinin nasıl böyle bir yere düştüğünü merak "
+"ediyorsun."
 
 #: conversationlist_v0612graves.json:sign_hh3_grave
 msgid "Someone has written the words 'Rest' and 'Shadow' on the cross, in what looks like dried blood."
 msgstr ""
+"Birileri haçın üzerine kanla 'Dinlen' ve 'Gölge' sözcükleri yazmış gibi "
+"görünüyor."
 
 #: conversationlist_v0612graves.json:sign_bwm30_grave
 msgid "The cross reads: Rest with the Shadow, my dear."
-msgstr ""
+msgstr "Haçta şöyle yazıyor: Gölge içinde yat, sevgilim."
 
 #: conversationlist_v0612graves.json:sign_bwm33_grave
 msgid "The tombstone contains writing in a language that you do not understand."
-msgstr ""
+msgstr "Mezartaşı anlamadığın bir dilde yazılmış."
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave1
 msgid "The cross reads: Here lies Magnir the trader. Another casualty of those beasts."
 msgstr ""
+"Haçta şöyle yazıyor: Burada o canavarlara giden bir başka kurban olan tüccar "
+"Magnir yatıyor."
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave2
 msgid "The grave looks like it has been recently dug."
@@ -18872,86 +18879,125 @@ msgstr "Mezar daha yeni kazılmış gibi gözüküyor."
 #: conversationlist_v0612graves.json:sign_bwm52_grave3
 msgid "The cross reads: Here lies Torkurt, loyal servant of the Blackwater mountain settlement."
 msgstr ""
+"Haçta şöyle yazıyor: Burada Karasu dağı yerleşkesinin sadık hizmetkarı "
+"Torkurt yatıyor."
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave4
 msgid "The cross reads: Here lies o'Rani, the most fierce warrior on this side of the mountain. May she rest in peace."
 msgstr ""
+"Haçta şöyle yazıyor: Burada, dağın bu tarafındaki en vahşi savaşçı o'rani "
+"yatıyor. Huzur içinde yatsın."
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave5
 msgid "The cross reads: Unnamed traveller. Found on the cliff-side, killed by one of those beasts."
 msgstr ""
+"Haçta şöyle yazıyor: Adı bilinmeyen gezgin. O canavarlardan biri tarafından "
+"öldürülmüş şekilde dağ yamacında bulundu."
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave7
 msgid "The cross reads: Here lies Trombul, the famous potion maker."
-msgstr ""
+msgstr "Haçta şöyle yazıyor: Burada ünlü iksirci Trombul yatıyor."
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave6
 msgid "The cross reads: Here lies the remains of Antagnart, loved by none but remembered by everyone."
 msgstr ""
+"Haçta şöyle yazıyor:Burada kimse tarafından sevilmeyen fakat herkes "
+"tarafından hatırlanna Antagnart'ın kalıntıları bulunuyor."
 
 #: conversationlist_v0612graves.json:sign_bwm52_papers2
 msgid "You find a crude drawing of one of the white wyrms, but you decide not to keep it since it must belong to someone."
 msgstr ""
+"Beyaz ejderlerden birini andıran kabataslak bir çizim buldun fakat başkasına "
+"ait olduğu için almamayı tercih ediyorsun."
 
 #: conversationlist_v0612graves.json:sign_pwcave1_grave
 msgid "The cross shows lots of small indentations, as if someone hit it repeatedly with a sharp object. You can barely make out the words: \"Rest with the Shadow, my friend. I will avenge your death by those beasts\"."
 msgstr ""
+"Haç üzerinde sanki birisi keskin bir nesne ile tekrar tekrar vurmuş gibi "
+"girikler var. Sözcükleri zar zor anlıyorsun: Gölge ile yat, arkadaşım. "
+"\"Senin öcünü o yaratıkların canıyla alacağım\""
 
 #: conversationlist_v0612graves.json:sign_pwcave2a_grave
 msgid "The cross contains symbols that you cannot understand."
-msgstr ""
+msgstr "Haçın üzerinde anlamadığın semboller bulunuyor."
 
 #: conversationlist_v0612graves.json:sign_pwcave4_grave1
 msgid "The cross contains symbols that you cannot understand. It looks like someone started digging up this grave recently, but stopped halfway."
 msgstr ""
+"Haçın üzerinde anlamadığın semboller bulunuyor. Sanki birisi bu mezarı "
+"yakınlarda kazmış da yarıda bırakmış gibi."
 
 #: conversationlist_v0612graves.json:sign_pwcave4_grave2
 msgid "The cross contains symbols that you cannot understand, in addition to a crude drawing of what you think should resemble an Izthiel beast."
 msgstr ""
+"Haçın üzerinde anlamadığın semboller bulunuyor ve bir Izthiel canavarını "
+"temsil ettiğini düşündüğün kaba taslak bir çizim var."
 
 #: conversationlist_v0612graves.json:sign_pwcave4_grave3
 msgid "The cross contains symbols that you cannot understand, in addition to a crude drawing of what you think should resemble a frog."
 msgstr ""
+"Haçın üzerinde anlamadığın semboller bulunuyor ve bir kurbağayı temsil "
+"ettiğini düşündüğün kaba taslak bir çizim var."
 
 #: conversationlist_v0612graves.json:sign_pwcave4_grave4
 msgid "The cross contains symbols that you cannot understand, but you recognize the word 'Iqhan'."
 msgstr ""
+"Haçın üzerinde anlamadığın semboller bulunuyor, fakat 'Iqhan' yazdığını fark "
+"ediyorsun."
 
 #: conversationlist_v0612graves.json:sign_pwcave4_grave5
 msgid "The cross contains symbols that you cannot understand, in addition to a crude drawing of what you think should resemble a sword."
 msgstr ""
+"Haçın üzerinde anlamadığın semboller bulunuyor ve bir kılıcı temsil ettiğini "
+"düşündüğün kaba taslak bir çizim var."
 
 #: conversationlist_v0612graves.json:sign_pwcave4_grave6
 msgid "The cross contains symbols that you cannot understand, in addition to a crude drawing of something that you cannot make out what it should resemble."
 msgstr ""
+"Haçın üzerinde anlamadığın semboller bulunuyor ve ne olduğunu anlamadığın "
+"bir şeyi temsil eden kaba taslak bir çizim var."
 
 #: conversationlist_v0612graves.json:sign_pwcave4_grave7
 msgid "The cross contains symbols that you cannot understand, in addition to an elaborate drawing of a skull."
 msgstr ""
+"Haçın üzerinde anlamadığın semboller ile bir kuru kafa çizimi bulunuyor."
 
 #: conversationlist_v0612graves.json:sign_waterway14_hole
 msgid "You stop to notice a hole in the wall near the ground, large enough to fit something in. The ground here shows recent shoe-prints, which could indicate that the hole in the wall is a hiding place of some sort. However, it seems to be empty now."
 msgstr ""
+"Duvarda bir şey saklayabilecek kadar büyük bir delik olduğunu görünce "
+"duruyorsun. Yerde ise bu duvarın halen saklanma yeri olarak kullanılıyor "
+"olabileceğini düşündüren taze ayakkabı izleri var. Fakat şu anda boş "
+"görünüyor."
 
 #: conversationlist_v0612graves.json:sign_waterway11e_grave
 msgid "The cross reads: Here lies Telban. A beloved friend of many, and a dreaded foe for those that did not pay up."
 msgstr ""
+"Haçta şöyle yazıyor: Burada borçlarını ödemeyenlerin korkulu rüyası fakat "
+"pek çok insanın dostu Telban yatıyor."
 
 #: conversationlist_v0612graves.json:sign_mountaincave0_grave
 msgid "The cross reads: Tengil the needy lies here, after having succumbed to the nastiest of poisons. Rest with the Shadow, my friend."
 msgstr ""
+"Haçta şöyle yazıyor: Burada müstehcen zehirlerden birine yenik düşmüş, "
+"muhtaç Tengil yatıyor. Gölge ile yat, arkadaşım."
 
 #: conversationlist_v0612graves.json:sign_mountainlake1_grave
 msgid "The ground around the grave looks like it has been partially dug up by animals. They don't seem to have gotten anywhere yet though."
 msgstr ""
+"Mezarın etrafı sanki hayvanlar tarafından kısmen kazılmış gibi. Yine de pek "
+"kazabilmiş gibi de değiller."
 
 #: conversationlist_v0612graves.json:sign_waytobrim3_grave1
 msgid "Here lies the remains of Ilirathos, mother of two."
-msgstr ""
+msgstr "Burada iki çocuk annesi Ilirathos yatıyor."
 
 #: conversationlist_v0612graves.json:sign_waytobrim3_grave2
 msgid "Ke'roos lies here. No one knew him in life since he always kept to himself, but we all thank him for the generous gifts he left behind for Brimhaven."
 msgstr ""
+"Burada Ke'roos yatıyor. Yaşamı boyunca kendini geri plana attığı için kimse "
+"tam anlamıyla tanımıyordu ama hepimiz Brimhaven'e bıraktığı cömert hediye "
+"için ona minnettarız."
 
 #: conversationlist_v0612graves.json:sign_waytobrim3_grave3
 msgid "Here lies Lawellyn the weak."
@@ -18960,19 +19006,25 @@ msgstr "Burada zayıf Lawellyn yatıyor."
 #: conversationlist_v0612graves.json:sign_waytolake2_grave
 msgid "The cross is covered with a thick layer of web. You wonder why anyone would choose this place as a grave for their fallen."
 msgstr ""
+"Haç kalın bir ağ örtüsü ile kaplanmış. Neden birisinin burayı bir mezar "
+"olarak kullanacağını merak ediyorsun."
 
 #: conversationlist_v0612graves.json:sign_lh1_grave
 msgid "Even though the wood on the cross looks like it was cut recently, you see no signs of anything being buried here."
 msgstr ""
+"Tahta haç daha yeni yapılmış gibi gözüküyor olsa da burada gömülü birisinin "
+"varlığına işaret eden hiçbir şey yok."
 
 #: conversationlist_v0612graves.json:sign_lh1_sign
 msgid "On the wall, you see a plaque that reads: Bring unto me, that which I cannot bear, for it makes me stronger."
 msgstr ""
+"Duvarda şöyle yazan bir tabela görüyorsun: Beni öldürmeyen şey, beni "
+"güçlendirir."
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3_10
 #: conversationlist_v0612graves.json:
 msgid "You place the ladder below the tiny window."
-msgstr ""
+msgstr "Küçük pencerenin altına merdiveni yerleştiriyorsun."
 
 #: conversationlist_agthor.json:agthor0
 msgid "Hello there. Please move along. These things are property of Feygard, and you have no business here."
@@ -19443,39 +19495,41 @@ msgstr "Anladım. Gitsem iyi olur."
 
 #: conversationlist_esfiume.json:erethori0
 msgid "I hope you're not here to ask for help, like all those other people that have come by."
-msgstr ""
+msgstr "Umarım diğerleri gibi yardım istemeye gelmemişsindir."
 
 #: conversationlist_esfiume.json:erethori0:0
 msgid "What people?"
-msgstr ""
+msgstr "Diğerleri?"
 
 #: conversationlist_esfiume.json:erethori1
 msgid "I'm no one. You did not see me, or any of my friends here."
-msgstr ""
+msgstr "Ben kimse değilim. Ne beni ne de arkadaşlarımı burada gördün."
 
 #: conversationlist_esfiume.json:erethori1:0
 msgid "Sure thing."
-msgstr ""
+msgstr "Elbette ki."
 
 #: conversationlist_esfiume.json:erethori1:1
 msgid "You guys seem to be up to something."
-msgstr ""
+msgstr "Sanki bir şey yapacaksınız da böldüm gibi."
 
 #: conversationlist_esfiume.json:erethori2
 msgid "Really? I think you had better leave."
-msgstr ""
+msgstr "Öyle mi dersin? Uzasan iyi olur."
 
 #: conversationlist_esfiume.json:erethori3
 msgid "It seems something must have happened up in the Charwood mining town recently."
-msgstr ""
+msgstr "Charwood maden kasabasında yakın zamanlarda bir şey olmuş gibi."
 
 #: conversationlist_esfiume.json:erethori4
 msgid "There have been quite a few people coming by here and asking us for help."
-msgstr ""
+msgstr "Oradan buraya insanlar yardım istemeye gelir oldu."
 
 #: conversationlist_esfiume.json:erethori5
 msgid "Don't know what happened over there though. Maybe you should go ask the people in the Charwood cabin."
 msgstr ""
+"Fakat ne olduğunu bilmiyorun. Belki de Charwood'a gidip insanlara sorsan "
+"daha iyi olabilir."
 
 #: conversationlist_esfiume.json:erethori5:0
 msgid "Charwood, where is that?"
@@ -19484,10 +19538,12 @@ msgstr "Charwood mu, orası nerede?"
 #: conversationlist_esfiume.json:erethori6
 msgid "It's just north of here. Take the path west of our camp here, and head straight north. It's just around the bend there [points]."
 msgstr ""
+"Buranın tam kuzeyinde. Kampın batısından çık, doğrudan kuzeye ilerle, "
+"dönüşün ötesinde [eliyle işaret eder]."
 
 #: conversationlist_esfiume.json:erethori6:0
 msgid "Thanks, I'll go check it out."
-msgstr ""
+msgstr "Teşekkürler, bir bakacağım."
 
 #: conversationlist_esfiume.json:erethori6:1
 msgid "I have better things to do."
@@ -19496,77 +19552,90 @@ msgstr "Yapacak daha önemli işlerim var."
 #: conversationlist_falothen.json:falothen1_1
 msgid "Hello again. Thank you for saving me from captivity up in the Charwood heights!"
 msgstr ""
+"Tekrar merhaba. Beni Charwood tepelerinde esaretten kurtardığın için "
+"teşekkür ederim!"
 
 #: conversationlist_falothen.json:falothen1_2
 msgid "I won't dare to think about what those monsters would have done to me, had you not freed me!"
 msgstr ""
+"Eğer beni kurtarmasaydın o canavarların bana ne yapabileceğini hayal bile "
+"edemiyorum!"
 
 #: conversationlist_falothen.json:falothen1_3
 msgid "In return, I am willing to teach you the things I know. I used to be a weapons trainer for the Charwood heights, before all of this started."
 msgstr ""
+"Karşılığında sana bildiklerimi öğretebilirim. Bütün bunlar başlamadan önce "
+"Charwood tepelerinde silah eğitmeniydim."
 
 #: conversationlist_falothen.json:falothen1_3:0
 #: conversationlist_fayvara.json:fayvara1_3:0
 msgid "What can you teach me?"
-msgstr ""
+msgstr "Bana ne öğretebilirsin?"
 
 #: conversationlist_falothen.json:falothen1_4
 msgid "I can teach you how to better handle most types of weapons, so that you can get even more proficient in them."
 msgstr ""
+"Sana pek çok silahı nasıl daha iyi kullanabileceğini öğretebilirim. Böylece "
+"hepsinde daha yetkin olursun."
 
 #: conversationlist_falothen.json:falothen1_4:0
 msgid "What weapon types can you teach me?"
-msgstr ""
+msgstr "Hangi silah türlerini öğretebilirsin?"
 
 #: conversationlist_falothen.json:falothen1_5
 msgid "I can teach you about swords, either one-handed or two-handed ones. I know a bit about daggers, axes, polearms, and blunt weapons. I also know a fair deal about fighting with your bare fists."
 msgstr ""
+"Sana tek elli veya çift elli kılıçları kullanmayı öğretebilirim. Aynı "
+"şekilde hançerler, baltalar, gönderli ve ezici silahlar hakkında da bilgim "
+"var. Yumruk yumruğa nasıl dövüşüleceğini de gösterebilirim."
 
 #: conversationlist_falothen.json:falothen1_6
 msgid "I only have time to teach you about one type of weapon, so make sure you pick the one that suits you best."
 msgstr ""
+"Sana sadece bir silah türünü öğretecek kadar vaktim var. Sana en uygun "
+"olanını seçmeni öneririm."
 
 #: conversationlist_falothen.json:falothen1_6:0
 #: conversationlist_falothen.json:falothen1_14:0
 msgid "Tell me more about fighting with your bare fists."
-msgstr ""
+msgstr "Bana yumruk yumruğa dövüşmek hakkında bahset."
 
 #: conversationlist_falothen.json:falothen1_6:1
 #: conversationlist_falothen.json:falothen1_14:1
 msgid "Tell me more about two-handed swords."
-msgstr ""
+msgstr "Bana iki elli kılıçlar hakkında bahset."
 
 #: conversationlist_falothen.json:falothen1_6:2
 #: conversationlist_falothen.json:falothen1_14:2
 msgid "Tell me more about one-handed swords."
-msgstr ""
+msgstr "Bana tek elli kılıçlar hakkında bahset."
 
 #: conversationlist_falothen.json:falothen1_6:3
 #: conversationlist_falothen.json:falothen1_14:3
 msgid "Tell me more about daggers."
-msgstr ""
+msgstr "Bana hançerler hakkında bahset."
 
 #: conversationlist_falothen.json:falothen1_6:4
 #: conversationlist_falothen.json:falothen1_14:4
 msgid "Tell me more about axes."
-msgstr ""
+msgstr "Bana baltalar hakkında bahset."
 
 #: conversationlist_falothen.json:falothen1_6:5
 #: conversationlist_falothen.json:falothen1_14:5
 msgid "Tell me more about blunt weapons."
-msgstr ""
+msgstr "Bana ezici silahlar hakkında bahset."
 
 #: conversationlist_falothen.json:falothen1_6:6
 #: conversationlist_falothen.json:falothen1_14:6
 msgid "Tell me more about polearms."
-msgstr ""
+msgstr "Bana gönderli silahlar hakkında bahset."
 
 #: conversationlist_falothen.json:falothen1_6:7
 #: conversationlist_falothen.json:falothen1_14:7
 #: conversationlist_fayvara.json:fayvara1_6:4
 #: conversationlist_fayvara.json:fayvara1_14:4
 msgid "I'll be right back."
-msgstr ""
+msgstr "Geri döneceğim."
 
 #: conversationlist_falothen.json:falothen1_7_2hs
 #: conversationlist_falothen.json:falothen1_2nd_2hs0
