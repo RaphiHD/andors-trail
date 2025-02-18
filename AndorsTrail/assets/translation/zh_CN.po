@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-18 00:56+0000\n"
+"PO-Revision-Date: 2025-02-18 06:51+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -12959,116 +12959,122 @@ msgstr "又是你啊，谢谢你之前给我的那些金币。"
 
 #: conversationlist_buceth.json:buceth_follow_1
 msgid "Welcome back my friend. Walk with the Shadow."
-msgstr "欢迎回来，我的朋友。与暗影同行。"
+msgstr "欢迎回来，我的朋友，愿你与暗影同行。"
 
 #: conversationlist_buceth.json:buceth_1:0
 msgid "I know of your business at the well the night after the illness broke out."
-msgstr "疾病爆发后的那个晚上，我知道你在井里搞了什么鬼。"
+msgstr "你在疫情爆发的那天晚上到井边捣了鬼这件事我已经知道了。"
 
 #: conversationlist_buceth.json:buceth_2
 msgid "Oh, I am sure you do. But what proof do you have, eh? Anything the guards would believe?"
-msgstr "哦，我相信你会的。但你有什么证据呢?卫兵会相信你说的什么?"
+msgstr "哦，你知道就知道吧，但你要怎么证明这件事呢，嗯？那些卫兵会相信你的一言之词吗"
+"？"
 
 #: conversationlist_buceth.json:buceth_3
 msgid "Let me ask you something first, and we might talk after that."
-msgstr "我先问你点事，然后我们再谈。"
+msgstr "这件事我们待会儿再谈，就让我先和你聊点别的吧。"
 
 #: conversationlist_buceth.json:buceth_3:0
 msgid "OK, what?"
-msgstr "好的，什么？"
+msgstr "没问题，你想说啥？"
 
 #: conversationlist_buceth.json:buceth_3:1
 msgid "How about some gold, would that make you talk?"
-msgstr "来点黄金怎么样，能让你开口说话吗?"
+msgstr "你想要些金币吗？它们能撬开你的嘴吗？"
 
 #: conversationlist_buceth.json:buceth_4
 msgid "Let me start by telling you a story."
-msgstr "让我先给你讲个故事。"
+msgstr "就让我先给你讲个故事吧。"
 
 #: conversationlist_buceth.json:buceth_4:0
 #: conversationlist_stoutford.json:glasforn_rumblings60_0:1
 msgid "Go ahead."
-msgstr "去做吧。"
+msgstr "来吧。"
 
 #: conversationlist_buceth.json:buceth_4:1
 msgid "Let me guess, this story is going to take forever to listen to. How about I give you some gold, and instead we can discuss what you were doing at the well."
-msgstr "让我猜猜，这个故事要听很长时间了。不如我给你一些金子，然后我们讨论下你在井里做了什么。"
+msgstr "我猜你这故事要讲好久了吧。那还不如让我给你一些金币如何，我们再聊聊你在井边做"
+"了什么。"
 
 #: conversationlist_buceth.json:buceth_gold_1
 msgid "Hmm, that might be an interesting proposal. How much gold are you suggesting?"
-msgstr "这可能是个有趣的建议。你想要多少钱?"
+msgstr "嗯…这确实是个不错的建议，你会出多少钱啊?"
 
 #: conversationlist_buceth.json:buceth_gold_1:0
 msgid "Here's 10 gold, take it."
-msgstr "这里有10个金币，拿去吧。"
+msgstr "这里有10金币，拿去吧。"
 
 #: conversationlist_buceth.json:buceth_gold_1:1
 msgid "Here's 100 gold, take it."
-msgstr "这是100枚金币，拿去吧。"
+msgstr "这里有100金币，拿去吧。"
 
 #: conversationlist_buceth.json:buceth_gold_1:2
 msgid "Here's 250 gold, take it."
-msgstr "这是250枚金币，拿去吧。"
+msgstr "这里有250金币，拿去吧。"
 
 #: conversationlist_buceth.json:buceth_gold_1:3
 msgid "Here's 500 gold, take it."
-msgstr "这是500枚金币，拿去吧。"
+msgstr "这里有500金币，拿去吧。"
 
 #: conversationlist_buceth.json:buceth_gold_1:4
 msgid "Here's 1000 gold, take it."
-msgstr "这是1000金币，拿去吧。"
+msgstr "这里有1000金币，拿去吧。"
 
 #: conversationlist_buceth.json:buceth_gold_1:5
 msgid "Here's 2000 gold, take it."
-msgstr "这是2000金币，拿去吧。"
+msgstr "这里有2000金币，拿去吧。"
 
 #: conversationlist_buceth.json:buceth_gold_no
 msgid "Hrmpf. Thanks for the gold, but I am not interested in talking to you. Now, please leave."
-msgstr "哦。谢谢你的金子，但我没兴趣和你说话。现在,请离开。"
+msgstr "嗬，这些金币我就笑纳了，但交流的事我想不行，你现在可以走了。"
 
 #: conversationlist_buceth.json:buceth_gold_yes
 msgid "You seem to realize the true value of the Shadow. Yes, this will do fine, thank you."
-msgstr "你似乎意识到了暗影的真正价值。好的，这就行了，谢谢。"
+msgstr "看来你意识到了暗影的分量了嘛。嗯，这些就行了，我就笑纳了哈。"
 
 #: conversationlist_buceth.json:buceth_5
 msgid "Let's assume you live in a village that, for the most part, keeps to itself. Your village is self-sustainable and the crops have been good for some years."
-msgstr "让我们假设你住在一个村庄里，这个村庄在很大程度上是与世隔绝的。你的村庄自给自足且庄稼很多年长势都很好。"
+msgstr "现在让我们想象一下你住在一个村庄里，而这个村庄在几乎是与世隔绝的，同时这里的"
+"收成常年来都很好，这让你的村子完全能做到自给自足。"
 
 #: conversationlist_buceth.json:buceth_6
 msgid "With the few exceptions of some fights here and there between villagers because of misunderstandings, on the whole, your village is a friendly, peaceful village."
-msgstr "除了偶尔会因为误解而发生一些村民之间的冲突外，总的来说，你们的村庄是一个友好、和平的村庄。"
+msgstr "虽然这里偶尔依旧会有些因误解而引起的邻里斗殴，但总体来说你的村子是一副欣欣向"
+"荣的模样。"
 
 #: conversationlist_buceth.json:buceth_7
 msgid "You work in the same profession as your parents, which in turn worked in the same professions as their parents."
-msgstr "你和你的父母从事同样的职业，而他们的父母也从事同样的职业。"
+msgstr "这里子承父业，父承祖业，而你也是如此。"
 
 #: conversationlist_buceth.json:buceth_8
 msgid "Let's also assume that the way you conduct your business is the same way that the people in the village have been conducting their business for generations past."
-msgstr "我们还假设你做生意的方式和村子里过去几代人做生意的方式是一样的。"
+msgstr "另外我们还得假设这里的风土人情从古至今未曾变过。"
 
 #: conversationlist_buceth.json:buceth_9
 msgid "Everyone respects one another in the village, and your appointed leader does a good job at keeping everyone's interests satisfied, while at the same time being reasonably fair."
-msgstr "村里的每个人都互相尊重，而你任命的领袖很好地满足了每个人的利益，同时又相当公平。"
+msgstr "村里每个人都互相尊重，同时由你们所选出的领袖能够很好地让所有人满意却又不失公"
+"平。"
 
 #: conversationlist_buceth.json:buceth_10
 msgid "Then, one day, a group of men come walking into the village. Shining armor, white teeth, combed hair, trimmed beards."
-msgstr "然后，有一天，一群人走进了村子。闪亮的盔甲，洁白的牙齿，梳理过的头发，修剪过的胡子。"
+msgstr "然后有一天，一伙人进了这个村子。他们穿着闪亮的盔甲，露着洁白的牙齿，头发是精"
+"心打理过的，胡子也是如此。"
 
 #: conversationlist_buceth.json:buceth_11
 msgid "The men claim that their lord owns this land, including your village."
-msgstr "这些人声称他们的领主拥有这片土地，包括你们的村庄。"
+msgstr "这群人宣称这片土地属于他们的主子，而你们的村子也包括其中。"
 
 #: conversationlist_buceth.json:buceth_12
 msgid "They claim that they keep the land safe of wrongdoers and evil creatures."
-msgstr "他们声称他们保护了土地的安全，不让不法分子和邪恶生物进入。"
+msgstr "他们还宣称他们是来保护这片土地免受不法分子以及邪恶生物的侵扰的。"
 
 #: conversationlist_buceth.json:buceth_13
 msgid "For their help in protecting your village, they ask that the village compensate them with a share of the harvest."
-msgstr "由于他们帮助保护了你的村庄，他们要求村庄补偿他们一份收成。"
+msgstr "既然他们帮助你们保护了村庄，他们就要求你们上缴一定的收成作为税赋。"
 
 #: conversationlist_buceth.json:buceth_14
 msgid "Now, tell me. Would you support those men by agreeing to their terms?"
-msgstr "现在,告诉我。你会同意他们的条件来支持他们吗?"
+msgstr "现在，告诉我：你会同意他们的条件并支持他们吗？"
 
 #: conversationlist_buceth.json:buceth_14:2
 #: conversationlist_omicronrg9.json:umar_guild04_15:0
@@ -13078,11 +13084,12 @@ msgstr "我不知道。"
 
 #: conversationlist_buceth.json:buceth_dontknow
 msgid "I am sorry to hear that. You should make up your mind and return to me once you have done so. Then we might be able to talk more."
-msgstr "我很难过于听到这个消息。你应该下定决心，一旦决定了就回来找我。那我们也许可以多谈谈。"
+msgstr "是这样吗…你应该把这个问题想明白才行，然后再回来告诉我你的回答，然后我们才有可"
+"能继续聊下去。"
 
 #: conversationlist_buceth.json:buceth_dontknow:1
 msgid "How about I give you some gold instead?"
-msgstr "不如我给你点金子吧?"
+msgstr "我还是给你一些金币好了，如何？"
 
 #: conversationlist_buceth.json:buceth_15
 #: conversationlist_buceth.json:buceth_21_1
@@ -32425,7 +32432,8 @@ msgstr ""
 "很好。我们有三个人在工作。\n"
 "第一个是克罗斯山谷的一个间谍，莉塔。我相信你认识她。\n"
 "我们的一个老间谍，邓拉，伪装成维尔加德酒馆的一个小贩。\n"
-"最后我们还有法纳莫尔，在观察交叉路口警卫室周围发生的事情。按照这个顺序搜索他们。"
+"最后我们还有法娜默，在观察交叉路口警卫室周围发生的事情。按照这个顺序搜索他们"
+"。"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_8b
 msgid "Hmpf. Go kill some beetles with your strength!"
@@ -32478,7 +32486,7 @@ msgstr "站住，你被抓住了!"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_3
 msgid "In the blink of an eye, Fanamor starts attacking the scout."
-msgstr "眨眼间，法纳莫尔开始攻击侦察兵。"
+msgstr "眨眼间，法娜默开始攻击侦察兵。"
 
 #: conversationlist_omicronrg9.json:feygard_scout_2
 msgid ""
@@ -32486,7 +32494,7 @@ msgid ""
 "(His sword swings quickly, and severely wounds Fanamor)"
 msgstr ""
 "啊......该死的垃圾，拿着这个!\n"
-"(他的剑迅速挥动，重伤了法纳摩尔)"
+"(他的剑迅速挥动，重伤了法娜默)"
 
 #: conversationlist_omicronrg9.json:feygard_scout_3
 msgid ""
@@ -32616,7 +32624,7 @@ msgstr "快点!我没有太多的时间..."
 
 #: conversationlist_omicronrg9.json:fanamor_guild_0
 msgid "(You look away when you see the corpse of Fanamor. Anklebiters probably had something to do with this horrible event.)"
-msgstr "（当你看到法纳莫尔的尸体时，你把目光移开。脚踝咬伤者可能与这一可怕事件有关。)"
+msgstr "（当你看到法娜默的尸体时，你把目光移开。脚踝咬伤者可能与这一可怕事件有关。)"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_0:0
 msgid "[Bury the corpse.]"
@@ -32632,7 +32640,7 @@ msgstr "呃......。我父亲被斧头砍伤了，而我们没有任何绷带！
 
 #: conversationlist_omicronrg9.json:thoronir_guild_1:1
 msgid "Fanamor, a member of Thieves' Guild, is severely wounded. Please give me a bandage for her!"
-msgstr "盗贼公会的成员法纳莫尔受了重伤。请给我一个绷带给她!"
+msgstr "盗贼公会的成员法娜默受了重伤。请给我一个绷带给她!"
 
 #: conversationlist_omicronrg9.json:thoronir_guild_2a
 msgid "Let me see ..."
@@ -32656,7 +32664,7 @@ msgid ""
 "\n"
 "... I think I will be able ... to move in a few minutes. See you at the Guild. Thank you kid."
 msgstr ""
-"(你帮助法纳莫尔把绷带放在伤口上)\n"
+"(你帮助法娜默把绷带放在伤口上)\n"
 "\n"
 "...我想我将能够......在几分钟内移动。在公会见。谢谢你，孩子。"
 
@@ -32678,7 +32686,7 @@ msgstr "我已经带来了所有的日记本。"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_10:1
 msgid "I have the journals, but one of your spies, Fanamor, was killed by a Feygard scout."
-msgstr "我有日记，但你的一个间谍，法纳莫尔，被一个费加德侦察员杀死了。"
+msgstr "我有日记，但你的一个间谍，法娜默，被一个费加德侦察员杀死了。"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_10:2
 msgid "I gave you the journals, so where's my reward?"
@@ -32740,7 +32748,8 @@ msgstr ""
 "你必须从我们的间谍那里取回信息。\n"
 "第一个是克罗斯山谷的一个间谍，莉塔。我相信你认识她。\n"
 "我们的一个老间谍，邓拉，伪装成维利加德酒馆的一个小贩。\n"
-"最后我们还有法纳莫尔，在观察交叉路口警卫室周围发生的事情。按照这个顺序搜索他们。"
+"最后我们还有法娜默，在观察交叉路口警卫室周围发生的事情。按照这个顺序搜索他们"
+"。"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13b
 msgid "And don't forget the password: You are no one. No one knows you. No one has seen you."
@@ -32898,7 +32907,7 @@ msgstr "你说的对。这不会再发生了。"
 
 #: conversationlist_omicronrg9.json:umar_guild02_5b
 msgid "Yes, you mentioned Fanamor's membership to Thoronir."
-msgstr "是的，你提到了法纳莫尔是索罗尼尔的成员。"
+msgstr "是的，你提到了法娜默是索罗尼尔的成员。"
 
 #: conversationlist_omicronrg9.json:umar_guild02_5c
 msgid "Fortunately, Thoronir will keep quiet, as he certainly does not want to give up our donations."
@@ -68007,7 +68016,7 @@ msgstr "酒吧争吵者的靴子"
 
 #: itemlist_v0611_1.json:marrowtaint
 msgid "Marrowtaint"
-msgstr "马罗坦特"
+msgstr "亵髓"
 
 #: itemlist_v0611_1.json:valugha_gown
 msgid "Silk robe of Valugha"
@@ -68959,7 +68968,7 @@ msgstr "邓拉的日志"
 
 #: itemlist_omicronrg9.json:Fanamor_journal
 msgid "Fanamor's Journal"
-msgstr "法纳莫尔的日志"
+msgstr "法娜默的日志"
 
 #: itemlist_omicronrg9.json:Leta_journal
 msgid "Leta's Journal"
@@ -72758,11 +72767,11 @@ msgstr "艾里尼思"
 
 #: monsterlist_v0610_npcs1.json:fanamor
 msgid "Fanamor"
-msgstr "法纳莫尔"
+msgstr "法娜默"
 
 #: monsterlist_v0610_npcs1.json:feygard_bridgeguard
 msgid "Feygard bridge guard"
-msgstr "费加德桥的守卫"
+msgstr "费加德桥守卫"
 
 #: monsterlist_v0610_npcs1.json:gallain
 msgid "Gallain"
@@ -79757,7 +79766,9 @@ msgstr "奥马尔让我和麻烦制造者谈谈我在行会的第一个任务。
 
 #: questlist_omicronrg9.json:Thieves01:15
 msgid "Troublemaker told me to bring him three journals from spies of the guild. First I have to talk with Leta in my village, then with Dunla in Vilegard's tavern, and finally with Fanamor somewhere around Crossroads guardhouse."
-msgstr "麻烦制造者让我给他带来三本公会间谍的日记。首先我得在我的村子里和莉塔谈谈，然后在维尔加德的酒馆里和邓拉谈谈，最后在岔道口岗哨附近的某个地方和法纳莫尔谈谈。"
+msgstr ""
+"麻烦制造者让我给他带来三本公会间谍的日记。首先我得在我的村子里和莉塔谈谈，然"
+"后在维尔加德的酒馆里和邓拉谈谈，最后在岔道口岗哨附近的某个地方和法娜默谈谈。"
 
 #: questlist_omicronrg9.json:Thieves01:20
 msgid "I have to remember to tell them the password \"You are no one. No one knows you. No one has seen you.\""
@@ -79773,27 +79784,28 @@ msgstr "我顺利拿到了邓拉的日记。我已经着手拿到了最后一本
 
 #: questlist_omicronrg9.json:Thieves01:35
 msgid "Fanamor gave me her journal."
-msgstr "法纳莫尔把她的日记本给了我。"
+msgstr "法娜默把她的日记本给了我。"
 
 #: questlist_omicronrg9.json:Thieves01:40
 msgid "Fanamor has been gravely wounded, and the Feygard Scout grabbed the journal."
-msgstr "法纳莫尔受了重伤，费加德的侦查兵抢走了日记本。"
+msgstr "法娜默受了重伤，费加德的侦查兵抢走了日记本。"
 
 #: questlist_omicronrg9.json:Thieves01:45
 msgid "After I had killed the Feygard scout I talked again with Fanamor. She's losing blood quickly, so I have to bring her a bandage. I need to find a trustworthy priest."
-msgstr "在我杀了费加德斥候之后，我又和法纳莫尔聊了起来。她失血很快，所以我得给她带个绷带。我需要找一个值得信赖的牧师。"
+msgstr "在我杀了费加德斥候之后，我又和法娜默聊了起来。她失血很快，所以我得给她带个绷"
+"带。我需要找一个值得信赖的牧师。"
 
 #: questlist_omicronrg9.json:Thieves01:50
 msgid "Thoronir gave me a bandage. I have to return to Fanamor as soon as possible."
-msgstr "索罗尼尔给了我一个绷带。我必须尽快去找法纳莫尔。"
+msgstr "索罗尼尔给了我一个绷带。我必须尽快去找法娜默。"
 
 #: questlist_omicronrg9.json:Thieves01:51
 msgid "Unfortunately, I was not able to save Fanamor's life. However, I did get her journal."
-msgstr "不幸的是，我没能救回法纳莫尔的生命。不过，我得到了她的日记。"
+msgstr "不幸的是，我没能救回法娜默的生命。不过，我得到了她的日记。"
 
 #: questlist_omicronrg9.json:Thieves01:55
 msgid "Fanamor is alive and will find her own way to return."
-msgstr "法纳莫尔还活着，她会找到自己的归途。"
+msgstr "法娜默还活着，她会找到自己的归途。"
 
 #: questlist_omicronrg9.json:Thieves01:60
 msgid "I returned to Troublemaker and gave him the journals. He told me to talk with Umar, maybe he has another task for me."
