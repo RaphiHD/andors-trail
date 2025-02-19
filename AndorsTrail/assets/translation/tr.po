@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-19 17:09+0000\n"
+"PO-Revision-Date: 2025-02-19 17:15+0000\n"
 "Last-Translator: Burak Hüseyin Ekseli <burakekseli@yandex.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/tr/>\n"
@@ -20351,49 +20351,53 @@ msgstr "Fark eder mi? Ben seni tanımıyorum sen de beni."
 
 #: conversationlist_lethenlor.json:lethenlor4:0
 msgid "Wow, you're not very friendly, are you?"
-msgstr ""
+msgstr "Vay, çok da arkadaş canlısı değilsin galiba?"
 
 #: conversationlist_lethenlor.json:lethenlor5
 msgid "He he. Interesting. Let's just say our line of work is ... interesting."
-msgstr ""
+msgstr "He he. İlginç. İşimiz biraz ... ilginç diyelim."
 
 #: conversationlist_lethenlor.json:lethenlor6
 msgid "But never mind that. I heard there were some troubles up by the Charwood mining town recently."
 msgstr ""
+"Fakat her neyse. Duyduğuma göre Charwood madeninde yakın zamanlarda birtakım "
+"sorunlar olmuş."
 
 #: conversationlist_lethenlor.json:lethenlor6:0
 msgid "Charwood, where's that?"
-msgstr ""
+msgstr "Charwood, orası nerede?"
 
 #: conversationlist_lethenlor.json:lethenlor7
 msgid "It's just northeast of here. Look for the Charwood cabin north of here."
-msgstr ""
+msgstr "Buranın kuzeydoğusunda. Buranın kuzeyinde Charwood kamarasını bul."
 
 #: conversationlist_lleglaris.json:lleglaris0
 msgid "Are you sure you should be here? Maybe you should go play with ... your toys or something?"
 msgstr ""
+"Burada olman gerektiğine emin misin? Gidip ... oyuncaklarla falan oynaman "
+"gerekmiyor mu senin?"
 
 #: conversationlist_lleglaris.json:lleglaris0:0
 #: conversationlist_lleglaris.json:lleglaris1:1
 #: conversationlist_lleglaris.json:lleglaris_rej:0
 msgid "Watch it. Do you even know who you're talking to?"
-msgstr ""
+msgstr "Dikkat et. Kimle konuştuğunu biliyor musun sen?"
 
 #: conversationlist_lleglaris.json:lleglaris0:1
 msgid "Fine. I'll leave."
-msgstr ""
+msgstr "İyi. Gidiyorum."
 
 #: conversationlist_lleglaris.json:lleglaris0:2
 msgid "Hey, no need to be rude."
-msgstr ""
+msgstr "Hey, kabalığa gerek yok."
 
 #: conversationlist_lleglaris.json:lleglaris0:3
 msgid "Hey, those look like some nice items you have there. Care to trade?"
-msgstr ""
+msgstr "Hey, görünüşe göre sende güzel eşyalar var. Biraz ticarete ne dersin?"
 
 #: conversationlist_lleglaris.json:lleglaris1
 msgid "Ha ha. I can be as rude as I want!"
-msgstr ""
+msgstr "Hah. İstediğim kadar kaba olurum!"
 
 #: conversationlist_lleglaris.json:lleglaris1:0
 #: conversationlist_stoutford.json:stoutford_widow_0:1
@@ -20406,23 +20410,23 @@ msgstr "Her neyse."
 
 #: conversationlist_lleglaris.json:lleglaris2
 msgid "Hah! Please enlighten me."
-msgstr ""
+msgstr "Hah! Lütfen aydınlat beni."
 
 #: conversationlist_lleglaris.json:lleglaris2:0
 msgid "I was the one who slew the lich Toszylae between Loneford and Brimhaven."
-msgstr ""
+msgstr "Loneford ve Brimhaven arasında lich Toszylae'yi öldüren kişi benim."
 
 #: conversationlist_lleglaris.json:lleglaris2:1
 msgid "See this amulet that I'm wearing? This is Marrowtaint."
-msgstr ""
+msgstr "Bu tılsımı görüyor musun? Bu Marrowtaint."
 
 #: conversationlist_lleglaris.json:lleglaris2:2
 msgid "See this ring that I am wearing? This is the Ring of lesser Shadow."
-msgstr ""
+msgstr "Bu yüzüğü görüyor musun? Bu küçük Gölge'nin yüzüğü."
 
 #: conversationlist_lleglaris.json:lleglaris2:3
 msgid "I was the one who helped solve the mystery in Loneford."
-msgstr ""
+msgstr "Loneford gizemini çözmeye yardımcı olan kişi benim."
 
 #: conversationlist_lleglaris.json:lleglaris2:4
 msgid "I saved the settlement of Prim from the attacks from Blackwater mountain."
@@ -20430,7 +20434,7 @@ msgstr "Prim yerleşimini Karasu dağının saldırılarından kurtardım."
 
 #: conversationlist_lleglaris.json:lleglaris2:5
 msgid "I helped the Blackwater mountain settlement make the attacks from Prim stop."
-msgstr ""
+msgstr "Blackwater dağ köyüne Prim'den yapılan saldırılarda yardım ettim."
 
 #: conversationlist_lleglaris.json:lleglaris2:6
 msgid "I am the son of an ordinary farmer in a minor settlement called Crossglen, not far west from here! I've even killed a rat or two!"
