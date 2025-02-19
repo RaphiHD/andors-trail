@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-19 02:36+0000\n"
+"PO-Revision-Date: 2025-02-19 03:11+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -13162,7 +13162,8 @@ msgstr "好吧。那我改成给你些金币如何，它们能撬开你的嘴吗
 
 #: conversationlist_buceth.json:buceth_25
 msgid "Your views match those that I and the other priests from Nor City believe in. Tell me, would you be interested in following the glow of the Shadow?"
-msgstr "你的观点和我以及诺尔城的其他牧师的观点一致。请告诉我，你有兴趣追随暗影之光吗?"
+msgstr "你的这个观点与我以及与诺尔城的牧师们的观点很吻合。告诉我，你是否有意愿追随暗"
+"影之光吗？"
 
 #: conversationlist_buceth.json:buceth_25:0
 #: conversationlist_buceth.json:buceth_26:0
@@ -13171,50 +13172,51 @@ msgstr "我已经准备好投入暗影的怀抱了。"
 
 #: conversationlist_buceth.json:buceth_25:1
 msgid "How can I agree to something without knowing what it entails?"
-msgstr "我怎么能在不知道后果的情况下同意一件事呢?"
+msgstr "我怎么能在不知道后果的情况下随便同意一件事呢？"
 
 #: conversationlist_buceth.json:buceth_25:2
 #: conversationlist_buceth.json:buceth_26:1
 msgid "No, I will go my own way."
-msgstr "不，我要走我自己的路。"
+msgstr "不，我要走什么路由我自己决定。"
 
 #: conversationlist_buceth.json:buceth_25:3
 #: conversationlist_buceth.json:buceth_26:2
 msgid "No, I will go my own way. Your stupid Shadow is nothing but talk and fancy words."
-msgstr "不，我会走我自己的路。你那愚蠢的暗影只会空谈和花言巧语。"
+msgstr "不，我要走什么路由我自己决定。你口中的那个破暗影就是些惑众的妖言罢了。"
 
 #: conversationlist_buceth.json:buceth_25:4
 #: conversationlist_buceth.json:buceth_26:3
 msgid "(Lie) I am ready to follow the Shadow."
-msgstr "（撒谎）我已经准备好追随暗影了。"
+msgstr "(撒谎)我已经准备好投入暗影的怀抱了。"
 
 #: conversationlist_buceth.json:buceth_26
 msgid "If the answers you gave previously were indeed your views, then I can assure you that the path that is guided by the Shadow is the right one."
-msgstr "如果你之前给出的答案确实是你的观点，那么我可以向你保证，由暗影引导的道路是正确的。"
+msgstr "如果之前的回答是你发自内心给出的话，那么我可以向你保证，这条由暗影所指引的道"
+"路乃是正道。"
 
 #: conversationlist_buceth.json:buceth_decline
 msgid "I am sorry to hear that. I guess we do not share views after all."
-msgstr "听到这个消息我很难过。我想我们的观点毕竟不一致。"
+msgstr "是这样吗，看来我们的观点是碰不到一起了。"
 
 #: conversationlist_buceth.json:buceth_27
 msgid "I am glad to hear that, but then again, I had a feeling all along that you would say that."
-msgstr "听你这么说我很高兴，但话说回来，我一直觉得你会这么说。"
+msgstr "你会这么说我很高兴，话说回来我也一直有预感你会这么说的。"
 
 #: conversationlist_buceth.json:buceth_story_1
 msgid "You wanted to ask me something?"
-msgstr "你想问我什么?"
+msgstr "你想问我什么吗？"
 
 #: conversationlist_buceth.json:buceth_story_1:0
 msgid "What were you doing at the well during the night?"
-msgstr "那天晚上你在井里干什么?"
+msgstr "那天晚上你在井边是在干啥？"
 
 #: conversationlist_buceth.json:buceth_story_2
 msgid "Let me first tell you my background."
-msgstr "让我先告诉你我的背景。"
+msgstr "这件事得从我这里的情况谈起。"
 
 #: conversationlist_buceth.json:buceth_story_2:0
 msgid "Great. Another endless story."
-msgstr "太好了。另一个无尽的故事。"
+msgstr "太好了，另一个讲不到头的故事。"
 
 #: conversationlist_buceth.json:buceth_story_2:1
 msgid "Please go ahead."
@@ -13222,7 +13224,8 @@ msgstr "请讲吧。"
 
 #: conversationlist_buceth.json:buceth_story_3
 msgid "I am appointed by the priests of Nor City to help guide the people of Loneford towards the Shadow. Our mission is to see that the Shadow casts its glow over Loneford as well as other settlements around here."
-msgstr "诺尔城的牧师们指派我来带领隆福德的人们去追随暗影。我们的任务就是让暗影的光芒耀及隆福德，就像周边其他地方一样。"
+msgstr "我受诺尔城的指派来到隆福德带领这里的人们去追随暗影，而我们的任务就是让暗影的"
+"黯淡之光照至隆福德以及这周边的其他地方。"
 
 #: conversationlist_buceth.json:buceth_story_4
 msgid "Most folk in these northern parts seem too occupied with obeying the will of Feygard and Lord Geomyr. We want to help people see the light of the wrongdoings that Feygard advocates, and to point out the errors in their ways."
