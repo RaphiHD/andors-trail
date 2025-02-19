@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-19 06:20+0000\n"
+"PO-Revision-Date: 2025-02-19 06:31+0000\n"
 "Last-Translator: Burak Hüseyin Ekseli <burakekseli@yandex.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/tr/>\n"
@@ -19724,7 +19724,7 @@ msgstr "Kulağa güzel geliyor. Bana tek elli kılıç ile dövüşmeyi öğret.
 #: conversationlist_falothen.json:falothen1_7_1hs2
 #: conversationlist_falothen.json:falothen1_2nd_1hs3
 msgid "[Falothen teaches you the one-handed sword skill]"
-msgstr "[Falothen sana tek elli kılıçla dövüşmeyi öğretir]"
+msgstr "[Falothen sana tek elli kılıçlarla dövüşmeyi öğretir]"
 
 #: conversationlist_falothen.json:falothen1_7_d
 #: conversationlist_falothen.json:falothen1_2nd_d0
@@ -19741,7 +19741,7 @@ msgstr "Kulağa güzel geliyor. Bana hançerler ile dövüşmeyi öğret."
 #: conversationlist_falothen.json:falothen1_7_d2
 #: conversationlist_falothen.json:falothen1_2nd_d3
 msgid "[Falothen teaches you the dagger skill]"
-msgstr "[Falothen sana hançer ile dövüşmeyi öğretir]"
+msgstr "[Falothen sana hançerlerle dövüşmeyi öğretir]"
 
 #: conversationlist_falothen.json:falothen1_7_a
 #: conversationlist_falothen.json:falothen1_2nd_a0
@@ -19753,41 +19753,51 @@ msgstr ""
 #: conversationlist_falothen.json:falothen1_7_a1
 msgid "I can teach you how to get better at fighting with all types of axes, from the small hatchet up to the larger two-handed greataxes. Even a scythe, although not designed for combat, can do a lot of damage if you know how to use it. That way, you can be very versatile in your choice of weapons."
 msgstr ""
+"Sana nacak kullanmaktan iki elli büyük baltalara kadar bütün balta "
+"tipleriyle nasıl daha iyi dövüşebileceğini öğretebilirim. Nasıl "
+"kullanacağını bilirsen bir tırpanla bile çok büyük hasarlar verebilirsin. "
+"Hangi silah ile yapacağın ise sana kalmış."
 
 #: conversationlist_falothen.json:falothen1_7_a1:0
 msgid "Sounds good. Teach me how to fight with axes."
-msgstr ""
+msgstr "Kulağa güzel geliyor. Bana baltalarla dövüşmeyi öğret."
 
 #: conversationlist_falothen.json:falothen1_7_a2
 #: conversationlist_falothen.json:falothen1_2nd_a3
 msgid "[Falothen teaches you the axe skill]"
-msgstr ""
+msgstr "[Falothen sana baltalar ile dövüşmeyi öğretir]"
 
 #: conversationlist_falothen.json:falothen1_7_b
 msgid "Now, blunt weapons is my way of categorizing everything from the simple club, to maces up to quarterstaves, and even whips. The technique for using them well is mostly the same, although whips are obviously somewhat different."
 msgstr ""
+"Şimdi, benim için ezici silah demenin pek çok anlamı vardır. Basit "
+"topuzlardan, değneklere hatta kırbaçlar dahi benim gözümde birdir. Her ne "
+"kadar kırbaçlar biraz farklı olsa da hepsini benzer bir teknik ile "
+"kullanabilmek mümkün."
 
 #: conversationlist_falothen.json:falothen1_7_b1
 #: conversationlist_falothen.json:falothen1_2nd_b1
 msgid "I can teach you how to better land your blows with all blunt weapons."
-msgstr ""
+msgstr "Sana ezici silahlar ile nasıl daha iyi olabilirsin öğretebilirim."
 
 #: conversationlist_falothen.json:falothen1_7_b1:0
 msgid "Sounds good. Teach me how to fight with blunt weapons."
-msgstr ""
+msgstr "Kulağa güzel geliyor. Bana ezici silahlarla dövüşmeyi öğret."
 
 #: conversationlist_falothen.json:falothen1_7_b2
 #: conversationlist_falothen.json:falothen1_2nd_b3
 msgid "[Falothen teaches you the blunt weapons skill]"
-msgstr ""
+msgstr "[Falothen sana ezici silahlarla dövüşmeyi öğretir]"
 
 #: conversationlist_falothen.json:falothen1_8
 msgid "There. That wasn't so hard once you get the hang of it, now was it?"
-msgstr ""
+msgstr "İşte. Eline bir kere aldın mı gerisi geliyor, değil mi?"
 
 #: conversationlist_falothen.json:falothen1_9
 msgid "I can help you get better in the other types of weapons as well, of course, if you want. But for that, I will have to require some form of payment."
 msgstr ""
+"Eğer istersen sana diğer silah tipleriyle nasıl daha iyi olabileceğini de "
+"öğretebilirim elbette ki. Fakat onun için biraz ödeme yapman gerekir."
 
 #: conversationlist_falothen.json:falothen1_9:0
 #: conversationlist_fayvara.json:fayvara1_9:0
@@ -19796,69 +19806,82 @@ msgstr "Ne tür bir ödeme?"
 
 #: conversationlist_falothen.json:falothen1_0
 msgid "Hello again, my friend. I hope you've been using what I taught you."
-msgstr ""
+msgstr "Tekrardan merhabalar dostum. Umarım sana öğrettiklerimi yapıyorsundur."
 
 #: conversationlist_falothen.json:falothen1_10
 msgid "We usually don't teach anyone outside our settlement. Last time I did, I was given five Oegyth crystals and 5000 gold in return for my services."
 msgstr ""
+"Köyümüz dışındakilere genellikle öğretmeyiz. En son öğrettiğimde, karşığında "
+"beş Oegyth kristali ve 5000 altın almıştım."
 
 #: conversationlist_falothen.json:falothen1_11
 msgid "Seeing as you saved me, I think it's reasonable to only require two of those crystals from you. I still have expenses to pay, mind you, so I will require that gold."
 msgstr ""
+"Beni kurtarmış olduğunu da göz önünde bulundurursak, senden beş yerine iki "
+"kristal almam daha makul olacaktır daha fazlasını yapamam çünkü yine de "
+"giderlerim var."
 
 #: conversationlist_falothen.json:falothen1_11:0
 #: conversationlist_fayvara.json:fayvara1_11:0
 msgid "I don't have that on me right now. I'll be back."
-msgstr ""
+msgstr "Şu anda ondan yanımda yok. Geri geleceğim."
 
 #: conversationlist_falothen.json:falothen1_11:1
 #: conversationlist_fayvara.json:fayvara1_11:1
 msgid "I'm not interested right now."
-msgstr ""
+msgstr "Şu anda ilgilenmiyorum."
 
 #: conversationlist_falothen.json:falothen1_11:2
 #: conversationlist_fayvara.json:fayvara1_11:2
 msgid "I think I should hold on to those crystals some more."
-msgstr ""
+msgstr "Kristaller biraz daha bende kalsa daha iyi olabilir."
 
 #: conversationlist_falothen.json:falothen1_11:3
 #: conversationlist_fayvara.json:fayvara1_11:3
 msgid "I might be interested."
-msgstr ""
+msgstr "İlgilenebilirim."
 
 #: conversationlist_falothen.json:falothen1_12
 #: conversationlist_fayvara.json:fayvara1_12
 msgid "Yes, those things sure are valuable."
-msgstr ""
+msgstr "Evet, kesinlikle değerli şeyler."
 
 #: conversationlist_falothen.json:falothen1_13q
 msgid "It seems you do not have the gold required for it."
-msgstr ""
+msgstr "Görünüşe bakılırsa yeterli altının yok."
 
 #: conversationlist_falothen.json:falothen1_14
 msgid "Which weapon type would you be interested in?"
-msgstr ""
+msgstr "Hangi silah tipiyle ilgilenirsin?"
 
 #: conversationlist_falothen.json:falothen1_2nd_no
 #: conversationlist_fayvara.json:fayvara1_2nd_no
 msgid "I've already taught you that skill."
-msgstr ""
+msgstr "Sana onu zaten öğrettim."
 
 #: conversationlist_falothen.json:falothen1_2nd_2hs1:0
 msgid "Sounds good. Teach me two-handed sword fighting. Here are two Oegyth crystals and 5000 gold as payment."
 msgstr ""
+"Kulağa güzel geliyor. Bana iki elli silahlarla dövüşmeyi öğret. İşte ödeme "
+"olarak iki Oegyth kristali ve 5000 altın."
 
 #: conversationlist_falothen.json:falothen1_2nd_f1:0
 msgid "Sounds good. Teach me how to be better at unarmed fighting. Here are two Oegyth crystals and 5000 gold as payment."
 msgstr ""
+"Kulağa güzel geliyor. Bana silahsız dövüşmeyi öğret. İşte ödeme olarak iki "
+"Oegyth kristali ve 5000 altın."
 
 #: conversationlist_falothen.json:falothen1_2nd_1hs1:0
 msgid "Sounds good. Teach me how to fight with one-handed swords. Here are two Oegyth crystals and 5000 gold as payment."
 msgstr ""
+"Kulağa güzel geliyor. Bana tek elli silahlarla dövüşmeyi öğret. İşte ödeme "
+"olarak iki Oegyth kristali ve 5000 altın."
 
 #: conversationlist_falothen.json:falothen1_2nd_d1:0
 msgid "Sounds good. Teach me how to fight with daggers. Here are two Oegyth crystals and 5000 gold as payment."
 msgstr ""
+"Kulağa güzel geliyor. Bana hançerlerle dövüşmeyi öğret. İşte ödeme olarak "
+"iki Oegyth kristali ve 5000 altın."
 
 #: conversationlist_falothen.json:falothen1_2nd_a1
 msgid "I can teach you how to get better at fighting with all types of axes, from the small hatchet up to the larger two-handed greataxes. That way, you can be very versatile in your choice of weapons."
