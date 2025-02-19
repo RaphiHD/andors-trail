@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-19 07:08+0000\n"
+"PO-Revision-Date: 2025-02-19 08:51+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -12914,12 +12914,12 @@ msgstr ""
 
 #: conversationlist_loneford_2.json:landa_15
 msgid "I am sure it was Buceth, from the chapel. I have a good eye for people, and a good memory. Yes, I am sure it was Buceth."
-msgstr "我敢肯定那个身影就是教堂里供职的布凯斯，要知道我自觉不太会认错人的，记性应该"
-"也不算差的。没错，我敢肯定那就是布凯斯。"
+msgstr "我敢肯定那个身影就是教堂里供职的布色斯，要知道我自觉不太会认错人的，记性应该"
+"也不算差的。没错，我敢肯定那就是布色斯。"
 
 #: conversationlist_loneford_2.json:landa_16
 msgid "Also, isn't it strange how Buceth has not gotten ill, while all the others in the village have gotten ill?"
-msgstr "而且现在村里的其他人都病了，布凯斯却一点症状也没有，这不是很奇怪吗？"
+msgstr "而且现在村里的其他人都病了，布色斯却一点症状也没有，这不是很奇怪吗？"
 
 #: conversationlist_loneford_2.json:landa_17
 msgid "He must be up to something. He and that boy that looked like you. Are you sure it wasn't you?"
@@ -13031,7 +13031,7 @@ msgstr "嗬，这些金币我就笑纳了，但交流的事我想不行，你现
 
 #: conversationlist_buceth.json:buceth_gold_yes
 msgid "You seem to realize the true value of the Shadow. Yes, this will do fine, thank you."
-msgstr "看来你意识到了暗影的分量了嘛。嗯，这些就行了，我就笑纳了哈。"
+msgstr "看来你意识到了暗影的分量了嘛。嗯，这些就行了，我就笑纳了。"
 
 #: conversationlist_buceth.json:buceth_5
 msgid "Let's assume you live in a village that, for the most part, keeps to itself. Your village is self-sustainable and the crops have been good for some years."
@@ -13375,35 +13375,45 @@ msgstr "请问关于疾病你有什么了解吗？"
 
 #: conversationlist_taevinn.json:taevinn_1
 msgid "I'll tell you what I know. We try to follow the law around here. Without rules and laws, how would we be any different from the savages that roam the southern lands?"
-msgstr "我来告诉你我知道的。我们尽量遵守法律。没有规则和法律，我们和那些在南方土地上游荡的野蛮人又有什么不同呢?"
+msgstr "就让我来说说我所了解的吧：我们这里的人都尽可能地去遵循律法。如果没有规则和律"
+"法的话，我们又和那些恣意的南方野蛮之徒有什么不同呢？"
 
 #: conversationlist_taevinn.json:taevinn_2
 msgid "But even if we here in Loneford keep as peaceful as possible, there's always someone that has a desire to cause mischief."
-msgstr "我来告诉你我知道的。我们尽量遵守法律。没有规则和法律，我们和那些在南方土地上游荡的野蛮人又有什么不同呢。"
+msgstr "不过就算我们这些隆福德人尽可能地保持和平安定，这里还是会有什么人冒出来想要搞"
+"破坏。"
 
 #: conversationlist_taevinn.json:taevinn_3
 msgid "Have you seen him? That fool Sienn. Him and his 'pet' are always trying to cause some trouble. We can't have that around here in our friendly village. Especially not in times like these when we are trying to show our good side to those magnificent guards from Feygard that are here."
-msgstr "你见过他吗?傻瓜西恩。他和他的“宠物”总是想制造些麻烦。我们友好的村子里可不能有这种事。尤其是现在，当我们试图向那些来自费加德的伟大护卫展示我们好的一面的时候。"
+msgstr ""
+"你见过那个傻子西恩吗？他和他的“宠物”总是想惹出些事来，我们这样安稳的村子是容"
+"不得他这样的行为的，跟别说是在如今的这种非常时期了，正是在这种时候我们必须向"
+"来到这里的费加德卫兵展示出我们最好的一面。"
 
 #: conversationlist_taevinn.json:taevinn_4
 msgid "Did you know I tried to talk to him on several occasions about his so called 'pet'? I couldn't really make out what he was trying to tell me, but that thing of his nearly tried to kill me, it did!"
-msgstr "你知道吗，我好几次试着跟他谈他所谓的“宠物”?我不知道他到底想告诉我什么，但他那家伙差点要杀了我，真的!"
+msgstr "你知道吗，我有好几次试着去和他聊他那只所谓的“宠物”的事，每一次我都搞不明白他"
+"在讲些什么，而他的那“宠物”有一次差点杀了我，真的！"
 
 #: conversationlist_taevinn.json:taevinn_5
 msgid "I tell you, there's mischief all around him and that thing he keeps around. I am sure they are up to something. They probably caused this illness somehow. Maybe we caught something contagious from that thing of his that he keeps around?"
-msgstr "我告诉你，他周围到处都是恶作剧还有他身边的那个东西。我敢肯定他们在搞什么鬼。他们可能在某种程度上导致了这种疾病。也许我们被他的东西传染了?"
+msgstr ""
+"要我说的话，这次的事情很有可能有他的一份，毕竟他以及他那家伙总是在四周搞破坏"
+"。他们很可能通过某种方式造成了这场疾病，说不定就是他的那只家伙的身上传染出来"
+"的呢？"
 
 #: conversationlist_loneford_kuldan.json:kuldan_1
 msgid "Please report any suspicious behavior you might see."
-msgstr "报告你可能看到的任何可疑行为。"
+msgstr "如果你瞧见了任何的可疑行为，请记得告知我。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_1:0
 msgid "I know what the cause of the illness is. Have a look at this vial that Buceth had on him."
-msgstr "我知道这种病的病因。看看布凯斯身上的这个小瓶。"
+msgstr "我知道这种病的源头了：你看看我从布色斯身上拿到的这个玻璃管。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_2
 msgid "I am Kuldan, captain of this here detachment of guards in Loneford. Now, if you will excuse me, I have work to do."
-msgstr "我叫库尔丹，隆福德守卫，这里的分遣队队长。请原谅，我有工作要做。"
+msgstr "我叫库尔丹，是被分遣到隆福德这里的卫兵队队长。我现在还有工作要做，请恕我无法"
+"奉陪。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_c_1
 msgid "Feygard is grateful for your assistance in solving the mystery of the illness here in Loneford."
@@ -13411,23 +13421,24 @@ msgstr "费加德非常感谢你帮助我们解开了隆福德的疾病之谜。
 
 #: conversationlist_loneford_kuldan.json:kuldan_c_2
 msgid "We are trying to help the last few people that are still ill here now. Loneford might require our assistance from Feygard for quite some time."
-msgstr "我们正在努力帮助最后几个还在生病的人。隆福德可能需要费加德一段时间的帮助。"
+msgstr "现在我们正在努力救助最后几个病人，隆福德可能还得需要费加德一段时间的帮助。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_1
 msgid "What is this? This smells like Narwood poison. You say you retrieved this from Buceth?"
-msgstr "这是什么?这闻起来像纳木制的毒药。你说你从布凯斯那里拿到的?"
+msgstr "这是什么东西？闻起来像是纳木制的毒药。你说你是从布色斯那里拿到的？"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_1:0
 msgid "Buceth was part of a mission by the Nor City priests to poison the water well here in Loneford."
-msgstr "布凯斯参与了诺尔城牧师的一项任务——在隆福德的水井里下毒。"
+msgstr "布色斯参与了一项由诺尔城的牧师所赋予的任务——往隆福德的水井里下毒。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_2
 msgid "But this means ... it is the water that the people are getting ill from? This explains a lot of things."
-msgstr "但这意味着……人们生病是因为水吗?这就解释了很多事情。"
+msgstr "这就意味着……人们生病是因为喝了这里的水吗？这样的话很多事情都解释得通了。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_3
 msgid "You my friend have done Loneford a great service by finding this, and by extension, Feygard as well. We should go catch Buceth for what he has done."
-msgstr "我的朋友，你找到了这个，帮了隆福德大忙，也帮了费加德大忙。我们应该去把布凯斯抓起来。"
+msgstr "我的朋友，你能找到这个着实帮了隆福德一个大忙，也帮了费加德一个大忙。我们这就"
+"去把布色斯抓起来。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_3:0
 msgid "He is already dead."
@@ -13435,64 +13446,66 @@ msgstr "他已经死了。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_4
 msgid "Dead you say? Hmm, not quite the way we do things in Feygard, but I guess this is an exceptional case."
-msgstr "你说死了?这和费加德的规矩不太一样，但我想这是个特例。"
+msgstr "你说死了？嗯…虽然这不太合费加德的办事原则，但我想现在特事特办是没问题的。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_5
 msgid "I always suspected that those savages from Nor City were behind this all along."
-msgstr "我一直怀疑诺尔城的那些野蛮人是幕后黑手。"
+msgstr "我先前一直都在怀疑诺尔城的那些野蛮之徒就是这件事的幕后黑手。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_6
 msgid "It's good to know that we now at least have some evidence to back up our claims."
-msgstr "我们现在至少有一些证据支持我们的说法，这很好。"
+msgstr "而如今我们至少掌握了一些能支持我们这个说法的证据，这很好。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_7
 msgid "As for Loneford, I guess we will have to start bringing in water from Feygard to help the people here. Good thing they have us around, what would they do otherwise?"
-msgstr "至于隆福德，我想我们必须开始从费加德运水来帮助这里的人们。幸好他们有我们在，不然他们会怎么做?"
+msgstr "至于隆福德的事态，我想我们接下来不得不从费加德运水过来帮助这里的人们了。幸好"
+"他们有我们在，不然这里的情况会是什么样啊？"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_8
 msgid "And you, my friend - you should of course be sufficiently rewarded for your assistance in this matter. You should travel to the glorious city of Feygard to the northwest and report to the castle steward there for further instructions."
-msgstr "至于你，我的朋友，你在这件事上的协助当然应该得到足够的奖赏。你应该去西北部的费加德城向城堡管理员报告，得到进一步指示。"
+msgstr "至于你，我的朋友——你在这件事上所作出的协助当然应该得到相称的奖赏。你可以到西"
+"北部的费加德城去向城堡事务官报告，他会给你下一步指示的。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_9
 msgid "I happen to know the castle steward personally, and I will send word to him about your help here."
-msgstr "我碰巧认识城堡的管家，我会转告他你在这里的帮助。"
+msgstr "而我碰巧私底下认识城堡事务官，我会向他转告你在这里所做出的帮助的。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_10
 msgid "For the glory of Feygard, the people of Loneford may live on thanks to your help."
-msgstr "为了费加德的荣耀，由于你的帮助，隆福德的人们可以继续生存。"
+msgstr "为了费加德的荣耀。正是因为你的出手相助，现在隆福德的人民终于能活下来了。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_guard
 msgid "What? Talk to the boss."
-msgstr "什么？和老板谈谈。"
+msgstr "什么？要谈事情的话去找我们老大。"
 
 #: conversationlist_loneford_3.json:sienn
 msgid "Ha! You look funny. You small."
-msgstr "哈!你看起来很滑稽。你太小了。"
+msgstr "哈！你这样子真滑稽，小个子。"
 
 #: conversationlist_loneford_3.json:sienn:1
 #: conversationlist_loneford_3.json:sienn_who_1:0
 msgid "What is that thing you are keeping around?"
-msgstr "你放在身边的是什么东西？"
+msgstr "你身边的是什么家伙啊？"
 
 #: conversationlist_loneford_3.json:sienn_who_1
 msgid "Me, Sienn. I strong!"
-msgstr "我，西恩。我很强壮!"
+msgstr "我，西恩，我强大！"
 
 #: conversationlist_loneford_3.json:sienn_pet_1
 msgid ""
 "Pet, cute!\n"
 "[Sienn makes cuddly sounds while scratching the pet under its chin]"
 msgstr ""
-"好可爱的宠物!\n"
-"[西恩发出可爱的声音，同时抓挠宠物的下巴]"
+"宠物，可爱！\n"
+"[西恩夹着嗓子说到，一只手挠了挠他那只宠物的下巴]"
 
 #: conversationlist_loneford_3.json:sienn_pet_1:1
 msgid "Did you know that Taevinn thinks you caused the illness here in Loneford?"
-msgstr "你知道泰温认为是你在隆福德造成了疾病吗？"
+msgstr "泰温认为是你造成了隆福德这里的疾病，这件事你知道吗？"
 
 #: conversationlist_loneford_3.json:sienn_pet_2
 msgid "Sienn not ill! Sienn strong!"
-msgstr "西恩没有生病!西恩很强壮!"
+msgstr "西恩没病！西恩强大！"
 
 #: conversationlist_loneford_3.json:sienn_pet
 msgid ""
@@ -13500,19 +13513,19 @@ msgid ""
 "[The creature looks up at you, showing all its teeth, while making a high-pitched piercing sound]"
 msgstr ""
 "啊啊啊!\n"
-"[怪物抬头看着你，露出它所有的牙齿，同时发出高亢刺耳的声音]"
+"[那只怪物抬头看向你，嘴里的牙齿一下就亮了出来，高亢刺耳的叫声瞬间充斥了这里]"
 
 #: conversationlist_loneford_3.json:sienn_pet:0
 msgid "There, there. Easy now."
-msgstr "好了。放轻松。"
+msgstr "好了，好了，放轻松啦。"
 
 #: conversationlist_loneford_3.json:sienn_pet:1
 msgid "[Slowly back away]"
-msgstr "[慢慢后退]"
+msgstr "[慢慢挪步后退]"
 
 #: conversationlist_loneford_3.json:siola
 msgid "Hello there. Have you come to browse my selection of items?"
-msgstr "你好呀。你是来浏览我的精选商品的吗？"
+msgstr "你好呀，你是来挑选我所精选过的商品的吗？"
 
 #: conversationlist_loneford_3.json:siola:0
 msgid "Yes, let's trade."
@@ -72902,7 +72915,7 @@ msgstr "罗戈恩的亲信"
 
 #: monsterlist_v0610_npcs1.json:buceth
 msgid "Buceth"
-msgstr "布凯斯"
+msgstr "布色斯"
 
 #: monsterlist_v0610_npcs1.json:gauward
 msgid "Gauward"
