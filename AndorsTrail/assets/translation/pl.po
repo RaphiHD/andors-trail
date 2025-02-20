@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-20 01:36+0000\n"
+"PO-Revision-Date: 2025-02-20 20:59+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -58371,97 +58371,115 @@ msgstr "Na co czekasz? Bierz fałszywy klucz i w te pędy leć do Mąciwody."
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10
 #: conversationlist_mt_galmore.json:aidem_base_dont_help_defy_10
 msgid "Do you have the key? Hand it over."
-msgstr ""
+msgstr "Masz już klucz? Podaj mi go."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10:0
 msgid "Oops. I forgot to bring it with me. I'll be back soon."
-msgstr ""
+msgstr "Ups. Zapomniałem zabrać go ze sobą. Zaraz wracam."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10:2
 msgid "Yes, but you are not having it. I will loot the vault myself and keep everything I find."
 msgstr ""
+"Tak, ale go nie dostaniesz. Sam splądruję skarbiec i wezmę wszystko, co "
+"tylko znajdę."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_20
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_tg_10
 msgid "Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet us at the vault to collect your share of the loot."
 msgstr ""
+"Dziękuję bardzo. Teraz weź fałszywy klucz, który zrobił Zachłanny i zwróć go "
+"Mąciwodzie, zanim ten zacznie cokolwiek podejrzewać. Potem udaj się do "
+"skarbca, tam się spotkamy i wtedy odbierzesz swoją część łupu."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_fake_key_10
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_real_key_10
 msgid "Thank you very much!"
-msgstr ""
+msgstr "Bardzo dziękuję!"
 
 #: conversationlist_mt_galmore.json:alaric_wild6house
 msgid "I'm rich. I'm finally rich!"
-msgstr ""
+msgstr "Jestem bogaty. W końcu jestem bogaty!"
 
 #: conversationlist_mt_galmore.json:alaric_wild6house:0
 msgid "Only in gold. You have no friends."
-msgstr ""
+msgstr "Jedyne co masz to złoto. Nie masz przyjaciół."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_10
 msgid "Here is your reward for your role in our success."
-msgstr ""
+msgstr "Oto obiecana nagroda za Twój udział w naszym sukcesie."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_10:0
 msgid "It was nice doing business with you."
-msgstr ""
+msgstr "Miło było robić z Tobą interesy."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_20
 msgid "We are leaving now. Too close to Fallhaven for my liking."
 msgstr ""
+"Znikamy stąd. Teraz, moim skromnym zdaniem to jesteśmy nieco zbyt blisko "
+"Fallhaven."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10
 msgid "Come again?"
-msgstr ""
+msgstr "Możesz powtórzyć?"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10:0
 msgid "I said, \"here it is\"."
-msgstr ""
+msgstr "Powiedziałem przecież 'tu jest'."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10:1
 msgid "You heard me the first time. I'm keeping the key and looting the vault myself."
-msgstr ""
+msgstr "Nie przesłyszałeś się. Zatrzymam klucz i sam splądruję skarbiec."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_20
 msgid "I will be taking that key now!"
-msgstr ""
+msgstr "Zabiorę Ci ten klucz!"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_20:0
 msgid "Come and try!"
-msgstr ""
+msgstr "To chodź i spróbuj!"
 
 #: conversationlist_mt_galmore.json:aidem_base_thieves_killed
 msgid "I have killed Defy, his three helpers and Alaric. I really should go back to Fallhaven and talk to Troublemaker again."
 msgstr ""
+"Zabiłem Defy'ego, jego trzech pomocników i Alarica. Powinienem natychmiast "
+"wrócić do Fallhaven i ponownie porozmawiać z Mąciwodą."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_10:0
 msgid "Your never going to believe this, but they were inside that vacant house when I walked in."
 msgstr ""
+"Pewnie w to nie uwierzysz, ale oni byli w środku pustego domu, gdy do niego "
+"wszedłem."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_20
 msgid "Then what happened?"
-msgstr ""
+msgstr "I co się wtedy stało?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_20:0
 msgid "They looked up to no good, so I questioned them. Then the next thing I know, I'm enthralled in the heat of battle and they are dead."
 msgstr ""
+"Wyglądali jakby coś knuli, więc zadałem im kilka pytań. Następną rzeczą "
+"którą pamiętam była walka zakończona ich śmiercią."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30
 msgid "Can you prove this? Can you show me something that proves that all 4 are dead?"
 msgstr ""
+"Czy możesz to udowodnić? Czy możesz pokazać mi jakiś dowód na to, że wszyscy "
+"czterej nie żyją?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30:0
 msgid "Yes. I looted their rings. [Shows them to Troublemaker]"
-msgstr ""
+msgstr "Tak. Zabrałem im pierścienie. [Pokazujesz je Mąciwodzie]"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30:1
 msgid "Yes. I looted their rings, but I forgot to bring them with me. I'll come back."
 msgstr ""
+"Tak. Zabrałem im pierścienie, ale zapomniałem wziąć ich ze sobą. Pójdę po "
+"nie."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_40
 msgid "Well, this is great news indeed. We however would like to have them alive."
 msgstr ""
+"Cóż, to rzeczywiście świetna wiadomość. Woleliśmy jednak wziąć ich żywcem."
 
 #: conversationlist_mt_galmore.json:thief_rennik_10
 msgid "Ah, $playername has finally returned. Please, take this crystal and some gold as our thanks to you."
