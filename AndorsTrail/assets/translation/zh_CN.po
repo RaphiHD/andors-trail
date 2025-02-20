@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-20 07:52+0000\n"
+"PO-Revision-Date: 2025-02-20 09:25+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -13641,19 +13641,20 @@ msgstr "幸好我们能得到费加德的帮助。"
 
 #: conversationlist_loneford_4.json:telund
 msgid "Who are you? Have you seen my father Selgan? They all tell me he will be back shortly, but they are all lying! I know it, I know it! He wasn't home yesterday, and he isn't home today."
-msgstr "你是谁？你见过我父亲赛尔甘吗？他们都告诉我他很快就会回来，但他们都在撒谎！我知道，我就知道！他昨天不在家，今天也不在家。"
+msgstr "你是什么人？你见过我父亲赛尔甘吗？他们告诉我他很快就会回来的，但他们都在撒谎"
+"！我没搞错，他们就是在撒谎！父亲昨天就不在家，今天也还没回来。"
 
 #: conversationlist_loneford_4.json:loneford_tavern_patron
 msgid "This is no place for a kid like you. I think you had better leave now."
-msgstr "这里不适合像你这样的孩子。我想你最好现在就离开。"
+msgstr "这里不是像你这样的孩子该来的地方，我觉得你还是现在就离开为好。"
 
 #: conversationlist_loneford_4.json:loneford_tavern_patron:0
 msgid "I met a man named Forlin who recommended that I speak with you in regards to a possible murder investigation that I am conducting."
-msgstr "我遇到一个叫弗林的人，他建议我和你谈谈我正在进行的一项可能的谋杀调查。"
+msgstr "我遇到一个叫弗林的人，他让我和你来谈谈一场我正在调查的谋杀案。"
 
 #: conversationlist_loneford_4.json:loneford_tavern_patron:1
 msgid "I did as you suggested and found the scene of a murder and I found this glove."
-msgstr "我按照你的建议，找到了一个谋杀案的现场，我发现了这个手套。"
+msgstr "我按你说的找到谋杀现场了，另外我还找到了这只手套。"
 
 #: conversationlist_pwcave.json:iqhan_greeter
 msgid "Get away! No! Turn back while you still can!"
@@ -13683,7 +13684,7 @@ msgid ""
 msgstr ""
 "南：隆福德\n"
 "东：布林海文\n"
-"【你看到在指向西方的箭头上也有字，但你看不懂】"
+"[你看到在指向西方的箭头上也有字，但你看不懂这种语言]"
 
 #: conversationlist_pwcave.json:sign_waterway3
 msgid "The sign contains writing in a language you cannot understand."
@@ -13691,35 +13692,36 @@ msgstr "这块路牌所使用的语言你并不认识。"
 
 #: conversationlist_pwcave.json:gauward
 msgid "What... Oh, a visitor!"
-msgstr "什么。。。喔，一个访客！"
+msgstr "什么……喔，是一位客人啊！"
 
 #: conversationlist_pwcave.json:gauward:1
 msgid "I have some izthiel claws to sell you."
-msgstr "我有一些伊泽尔的爪子可以卖给你。"
+msgstr "我有一些伊泽尔之爪要卖给你。"
 
 #: conversationlist_pwcave.json:gauward_1
 msgid "This place used to be a safe house for travelers between Loneford and Brimhaven, before they had finished the path between them."
-msgstr "在道路打通之前，这个地方曾经是隆福德和布林海文之间旅行者的安全屋。"
+msgstr "在隆福德与布林海文之间的林中道路被打通以前，这个地方曾是两地之间穿行的避险之"
+"所。"
 
 #: conversationlist_pwcave.json:gauward_2
 msgid "However, nowadays, hardly anyone comes here - because of those cursed creatures from the river."
-msgstr "然而，如今因为那些来自河流中被诅咒的怪物，几乎没有人来到这里。"
+msgstr "然而因为那些从河里爬出来的该死怪物的缘故，如今来这里的人已经寥寥无几了。"
 
 #: conversationlist_pwcave.json:gauward_3
 msgid "Izthiel, they call them."
-msgstr "他们被称之为伊泽尔。"
+msgstr "那些怪物被称之为伊泽尔。"
 
 #: conversationlist_pwcave.json:gauward_4
 msgid "Ack, if it wasn't for those things out there, I am sure a lot of people would come by here more often."
-msgstr "哎呀，如果不是因为那些东西，我相信很多人会更经常来这里。"
+msgstr "唉，如果不是因为那些家伙的话，我敢保证结果这里的人肯定络绎不绝。"
 
 #: conversationlist_pwcave.json:gauward_4:0
 msgid "Would you like me to kill the creatures for you?"
-msgstr "你想让我杀死这些怪物吗？"
+msgstr "你想让我帮你杀死掉这些怪物吗？"
 
 #: conversationlist_pwcave.json:gauward_5
 msgid "Oh sure. I have tried that. But they just keep coming back."
-msgstr "哦，当然。我已经试过了。但他们不断地卷土重来。"
+msgstr "哦当然，但我已经试过了，结果是它们每次都会不断地死灰复燃。"
 
 #: conversationlist_pwcave.json:gauward_6
 msgid "Tell you what though. Bring me those claws of theirs, and I'll buy them from you for a good price."
@@ -77997,7 +77999,7 @@ msgstr ""
 
 #: questlist_v0611.json:thorin
 msgid "Bits and pieces"
-msgstr "琐碎的事情"
+msgstr "处理杂碎"
 
 #: questlist_v0611.json:thorin:20
 msgid "In a cave to the east, I found a man called Thorin, that wants me to help him find the remains of his former travelling companions. I should find the remains of all six of them and return them to him."
