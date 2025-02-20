@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-19 08:51+0000\n"
+"PO-Revision-Date: 2025-02-20 05:58+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -13090,7 +13090,7 @@ msgstr "是这样吗…你应该把这个问题想明白才行，然后再回来
 
 #: conversationlist_buceth.json:buceth_dontknow:1
 msgid "How about I give you some gold instead?"
-msgstr "我还是给你一些金币好了，如何？"
+msgstr "我干脆还是给你一些金币好了，怎么样？"
 
 #: conversationlist_buceth.json:buceth_15
 #: conversationlist_buceth.json:buceth_21_1
@@ -13489,7 +13489,7 @@ msgstr "你身边的是什么家伙啊？"
 
 #: conversationlist_loneford_3.json:sienn_who_1
 msgid "Me, Sienn. I strong!"
-msgstr "我，西恩，我强大！"
+msgstr "我，西恩，我强壮！"
 
 #: conversationlist_loneford_3.json:sienn_pet_1
 msgid ""
@@ -13505,7 +13505,7 @@ msgstr "泰温认为是你造成了隆福德这里的疾病，这件事你知道
 
 #: conversationlist_loneford_3.json:sienn_pet_2
 msgid "Sienn not ill! Sienn strong!"
-msgstr "西恩没病！西恩强大！"
+msgstr "西恩没病！西恩强壮！"
 
 #: conversationlist_loneford_3.json:sienn_pet
 msgid ""
@@ -13529,7 +13529,7 @@ msgstr "你好呀，你是来挑选我所精选过的商品的吗？"
 
 #: conversationlist_loneford_3.json:siola:0
 msgid "Yes, let's trade."
-msgstr "当然, 我们作笔交易吧。"
+msgstr "当然, 我们来作笔交易吧。"
 
 #: conversationlist_loneford_3.json:siola:1
 msgid "What's the deal with Sienn over there with his pet?"
@@ -13537,11 +13537,15 @@ msgstr "西恩和他的宠物在那里是怎么回事？"
 
 #: conversationlist_loneford_3.json:siola_sienn_1
 msgid "I don't know where he got it from. Anyway, they don't harm anyone, so I'm fine with them being in here. I figured someone should help them have some place to stay, and no one else wanted to help them, so I let them stay here."
-msgstr "我不知道他从哪里得到的。总之，他们没有伤害任何人，所以我对他们在这里没有意见。我想应该有人帮助他们有地方住，而且没有人愿意帮助他们，所以我让他们留在这里。"
+msgstr ""
+"我不知道他是从哪里搞到那只宠物的。不过总的来说他们并不会伤害任何人，所以我就"
+"放任他们待在这里了。我觉得他们怎么说都得有个住的地方吧，而除了我之外也没有人"
+"愿意帮助他们了，所以我就允许他们留在这里了。"
 
 #: conversationlist_loneford_3.json:siola_sienn_2
 msgid "Sienn may be a bit thick, but he sure can be funny when you get to know him and he trusts you. He can do a lot of those hilarious facial expressions."
-msgstr "西恩可能有点笨，但当你了解他并且他信任你时，他肯定会很有趣。他可以做很多那种搞笑的面部表情。"
+msgstr "西恩可能有点憨憨的，但如果你足够了解他并且他信任你的话，他还挺讨喜的：他很多"
+"时候的表情都挺好玩的。"
 
 #: conversationlist_loneford_4.json:grimion
 msgid "Hello and welcome to Loneford. Please have a seat, I'll be right there."
@@ -13549,15 +13553,16 @@ msgstr "您好，欢迎来到隆福德。请坐，我马上过来。"
 
 #: conversationlist_loneford_4.json:grimion:1
 msgid "Is there a place where I can get some rest around here?"
-msgstr "这附近有可以休息的地方吗？"
+msgstr "这附近有什么可以休息的地方吗？"
 
 #: conversationlist_loneford_4.json:grimion_trade_1
 msgid "Sure, have a look."
-msgstr "当然，看看吧。"
+msgstr "当然，你就看看吧。"
 
 #: conversationlist_loneford_4.json:grimion_rest_1
 msgid "Sure, the guards have set up some beds downstairs. Go talk to Arngyr down there, he might be able to help you."
-msgstr "当然，守卫已经在楼下安置了一些床位。去和那里的阿格尔谈谈，他也许能帮到你。"
+msgstr "当然有的，卫兵们在楼底下布置了一些床铺，你可以去和待在那里的阿格尔谈谈，他也"
+"许能帮到你。"
 
 #: conversationlist_loneford_4.json:loneford_tavern_room
 msgid ""
