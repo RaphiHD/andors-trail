@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-20 09:25+0000\n"
+"PO-Revision-Date: 2025-02-21 09:29+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -13725,19 +13725,20 @@ msgstr "哦当然，但我已经试过了，结果是它们每次都会不断地
 
 #: conversationlist_pwcave.json:gauward_6
 msgid "Tell you what though. Bring me those claws of theirs, and I'll buy them from you for a good price."
-msgstr "不过告诉你吧。把他们的那些爪子拿给我，我会以一个好价钱从你那里买下它们。"
+msgstr "不过这样说吧，如果你可以把他们的爪子拿给我的话，我会出一个好价钱从你那里买下"
+"它们的。"
 
 #: conversationlist_pwcave.json:gauward_6:0
 msgid "OK, I will return with some of their claws."
-msgstr "好的，我将带着他们的一些爪子回来。"
+msgstr "没问题，我会带一些它们的爪子过来的。"
 
 #: conversationlist_pwcave.json:gauward_7
 msgid "Good. Please do. I like knowing that their numbers are reduced at least."
-msgstr "很好。我会非常高兴知道他们的数量至少有所减少。"
+msgstr "很好，去干吧，我很乐意看到至少它们的数量在减少。"
 
 #: conversationlist_pwcave.json:gauward_sell_1
 msgid "Great. How many would you like to sell?"
-msgstr "很好。你想卖多少？"
+msgstr "很好，话说你想卖多少？"
 
 #: conversationlist_pwcave.json:gauward_sell_1:0
 msgid "Here's one."
@@ -13757,28 +13758,29 @@ msgstr "这里有二十个。"
 
 #: conversationlist_pwcave.json:gauward_sell_1:4
 msgid "Never mind. I will be back with more izthiel claws to sell you."
-msgstr "不要紧。我将带着更多的伊泽尔爪子回来卖给你。"
+msgstr "算了，当我没讲。我再去多搞些伊泽尔之爪来交给你。"
 
 #: conversationlist_pwcave.json:gauward_sold_1
 msgid "Good, thank you. Here's some gold for your troubles."
-msgstr "很好，谢谢你。这是给你的一些奖励。"
+msgstr "很好，辛苦你了，这些金币是给你的奖励。"
 
 #: conversationlist_pwcave.json:gauward_sold_5
 #: conversationlist_pwcave.json:gauward_sold_10
 msgid "Excellent, thank you! Here's some gold for your troubles."
-msgstr "太棒了，谢谢你。这是给你的一些奖励。"
+msgstr "太棒了，辛苦你了，这些金币是给你的奖励。"
 
 #: conversationlist_pwcave.json:gauward_sold_20
 msgid "Oh wow, you managed to get twenty of those claws? That's excellent, thank you! Here's some gold and some extra health potions for your troubles."
-msgstr "哇喔，你得到了20个这样的爪子？太棒了，谢谢你！这里有一些金币和一些额外的治疗药水，以作为补偿。"
+msgstr "哦哇，你攒到了二十根爪子？太棒了，辛苦你了！拿好这些金币以及这几瓶额外的治疗"
+"药水吧。"
 
 #: conversationlist_thorin.json:thorin_1
 msgid "What's this, a visitor? How unexpected."
-msgstr "这是什么，一个访客？多么出乎意料。"
+msgstr "什么情况，这是来了一位客人？这真是令人意外啊。"
 
 #: conversationlist_thorin.json:thorin_2
 msgid "Tell me, what can Thorin do for you?"
-msgstr "告诉我，索林能为你做什么？"
+msgstr "你说吧，我，索林，有什么能帮到你的吗？"
 
 #: conversationlist_thorin.json:thorin_2:0
 #: conversationlist_thorin.json:thorin_who_1:0
@@ -13792,57 +13794,59 @@ msgstr "告诉我，索林能为你做什么？"
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden:2
 #: conversationlist_laeroth.json:moriath_history_1:0
 msgid "What are you doing here?"
-msgstr "你在那干嘛？"
+msgstr "你在干嘛？"
 
 #: conversationlist_thorin.json:thorin_2:2
 #: conversationlist_thorin.json:thorin_search_1:2
 #: conversationlist_thorin.json:thorin_return_1:0
 msgid "Mind if I use your bed over there to rest?"
-msgstr "介意我用你那边的床休息吗？"
+msgstr "请问你介意我用你那边的床休息下吗？"
 
 #: conversationlist_thorin.json:thorin_what_1
 msgid "Oh, not much. Well actually, I am waiting for someone - or rather, some people."
-msgstr "哦，不多。好吧，实际上，我在等一个人--或者说，一些人。"
+msgstr "哦，没在干啥。好吧，实际上我在等人——或者说，我在等好几个人。"
 
 #: conversationlist_thorin.json:thorin_story_1
 msgid "You see, me and my fellow gatherers were out investigating the poisonous nature of the irdegh."
-msgstr "你看，我和我的同伴们在外面调查伊尔德格的毒性。"
+msgstr "是这样的，我和我的几个同伴们不久前还在野外考察伊尔德格的毒性。"
 
 #: conversationlist_thorin.json:thorin_story_2
 msgid "Apparently, I was the only one that was careful enough when handling our wares."
-msgstr "显然，我是唯一在处理我们的货物时足够小心的人。"
+msgstr "结果在我们处理研究成果的时候，我成了唯一因足够谨慎而幸免遇难的人。"
 
 #: conversationlist_thorin.json:thorin_story_3
 msgid "The others got ill quite quick, and we hid in this cave to rest up. However, we had not anticipated these bugs in here."
-msgstr "其他人很快就生病了，我们躲在这个山洞里休息。然而，我们没有料到这里有虫子。"
+msgstr "而其他人的身体很快就出症状了，于是我们就躲进这个山洞里来缓一缓。然而，我们都"
+"没有料到这里会有这些虫子。"
 
 #: conversationlist_thorin.json:thorin_story_4
 msgid "Those 'scaradon' things are tough! They did not even seem to take any damage when I hit them."
-msgstr "那些“圣甲虫”一样的东西很难缠！当我击中它们时，它们甚至没有受到任何伤害。"
+msgstr "那些“金龟圣甲虫”很是棘手！我击中它们后它们就像是一点都没事一样。"
 
 #: conversationlist_thorin.json:thorin_story_5
 msgid "So, that's where I am now. The people that sent us to investigate told us to set up camp if we encountered any problems, and they would come help us."
-msgstr "所以，这就是我现在所在的地方。派我们去调查的人说，如果遇到任何问题，可以扎营，他们会来帮助我们。"
+msgstr "然后，然后就是我现在这里的情况了。那些派我们来调查的人有说过，如果我们遇到了"
+"什么问题，那就直接扎起营来别离开，他们会来帮助我们的。"
 
 #: conversationlist_thorin.json:thorin_story_6
 msgid "So far, you are the first visitor here for quite a while."
-msgstr "到目前为止，你是相当长一段时间以来第一个来这里的访客。"
+msgstr "然而到目前为止的这么长时间以来，你是来到我这里的第一个人。"
 
 #: conversationlist_thorin.json:thorin_story_6:0
 msgid "You don't seem all that upset that your friends died."
-msgstr "你似乎并没有因为朋友死了而感到难过。"
+msgstr "你的几个朋友去世了，你似乎一点也不伤心嘛。"
 
 #: conversationlist_thorin.json:thorin_story_6:1
 msgid "Anything I can do to help you meanwhile?"
-msgstr "在此期间，我有什么可以帮助你的吗？"
+msgstr "现在的话我有什么能帮到你的吗？"
 
 #: conversationlist_thorin.json:thorin_story_6:2
 msgid "Tough luck. I bet help will be here any day now. Goodbye."
-msgstr "倒霉。我打赌随时都会有人来帮忙。再见。"
+msgstr "这可真惨啊，我打赌那些来帮你的人不久后就会来了，我就先走了哈。"
 
 #: conversationlist_thorin.json:thorin_story_6_1
 msgid "Nah, it's just business. Just business."
-msgstr "不， 这只是生意。只是生意而已。"
+msgstr "啊我不伤心， 我们之间只是合租关系，只是合作关系而已。"
 
 #: conversationlist_thorin.json:thorin_story_6_1:0
 msgid "Anything I can do to help you?"
@@ -13850,19 +13854,20 @@ msgstr "有什么我可以帮你的吗？"
 
 #: conversationlist_thorin.json:thorin_story_6_1:1
 msgid "Tough luck. I bet your rescue will be here any day now. Goodbye."
-msgstr "倒霉。我打赌随时都会有人来帮忙。再见。"
+msgstr "这可真惨啊，我打赌那些来救助你的人不久后就会来了，我就先走了哈。"
 
 #: conversationlist_thorin.json:thorin_story_7
 msgid "Hmm. Yes, actually there is something that you could do for me."
-msgstr "嗯。是的，实际上你可以为我做些事情。"
+msgstr "嗯……确实有的，实际上你可以为我做件事。"
 
 #: conversationlist_thorin.json:thorin_story_8
 msgid "The others that I was travelling with, they did not make it this far into the cave, but got attacked by those bugs closer to the entrance."
-msgstr "和我一起旅行的其他人，他们没有进入洞穴那么远，而是被靠近入口的那些虫子袭击了。"
+msgstr "和我同行的那些其他人，他们并没有进入洞穴那么深的地方，而是在靠近入口的地方就"
+"被那些虫子袭击了。"
 
 #: conversationlist_thorin.json:thorin_story_9
 msgid "Considering how they died, I would be very interested in seeing what effects both the irdegh and the scaradons had on them."
-msgstr "考虑到他们的死法，我很想知道伊尔德格和圣甲虫对他们有什么影响。"
+msgstr "毕竟他们是这样死的，我对他们身上所受的伊尔德格和金龟圣甲虫的影响挺感兴趣的。"
 
 #: conversationlist_thorin.json:thorin_story_10
 msgid "If you could find me their remains, I would be most grateful. Maybe I could continue my investigation based on their remains. Hmm, yes that would be great."
@@ -67952,7 +67957,7 @@ msgstr "强效专注瞄准药水"
 
 #: itemlist_v0611_1.json:pot_scaradon
 msgid "Scaradon extract"
-msgstr "圣甲虫提取物"
+msgstr "金龟圣甲虫提取液"
 
 #: itemlist_v0611_1.json:remgard_shield_1
 msgid "Remgard shield"
@@ -72956,7 +72961,7 @@ msgstr "伊坎奴隶战士"
 #: monsterlist_v0610_monsters2.json:iqhan_4a
 #: monsterlist_v0610_monsters2.json:iqhan_4b
 msgid "Iqhan master"
-msgstr "伊坎奴隶驭者"
+msgstr "伊坎奴隶驭主"
 
 #: monsterlist_v0610_monsters2.json:iqhan_ch_1a
 #: monsterlist_v0610_monsters2.json:iqhan_ch_1b
@@ -72971,7 +72976,7 @@ msgstr "伊坎混沌仆从"
 #: monsterlist_v0610_monsters2.json:iqhan_ch_3a
 #: monsterlist_v0610_monsters2.json:iqhan_ch_3b
 msgid "Iqhan chaos master"
-msgstr "伊坎混沌奴者"
+msgstr "伊坎混沌驭主"
 
 #: monsterlist_v0610_monsters2.json:iqhan_chb_1a
 #: monsterlist_v0610_monsters2.json:iqhan_chb_1b
@@ -72988,31 +72993,31 @@ msgstr "伊坎混沌奴隶主"
 
 #: monsterlist_v0611_monsters1.json:cbeetle_1
 msgid "Young carrion beetle"
-msgstr "年轻的腐肉甲虫"
+msgstr "幼小食腐甲虫"
 
 #: monsterlist_v0611_monsters1.json:cbeetle_2
 msgid "Carrion beetle"
-msgstr "腐肉甲虫"
+msgstr "食腐甲虫"
 
 #: monsterlist_v0611_monsters1.json:scaradon_1
 msgid "Young scaradon"
-msgstr "年轻的圣甲虫"
+msgstr "幼小金龟圣甲虫"
 
 #: monsterlist_v0611_monsters1.json:scaradon_2
 msgid "Small scaradon"
-msgstr "小圣甲虫"
+msgstr "小型金龟圣甲虫"
 
 #: monsterlist_v0611_monsters1.json:scaradon_3
 msgid "Scaradon"
-msgstr "圣甲虫"
+msgstr "金龟圣甲虫"
 
 #: monsterlist_v0611_monsters1.json:scaradon_4
 msgid "Tough scaradon"
-msgstr "结实的圣甲虫"
+msgstr "棘手金龟圣甲虫"
 
 #: monsterlist_v0611_monsters1.json:scaradon_5
 msgid "Hardshell scaradon"
-msgstr "硬壳圣甲虫"
+msgstr "硬壳金龟圣甲虫"
 
 #: monsterlist_v0611_monsters1.json:mwolf_1
 msgid "Mountain wolf pup"
@@ -73020,32 +73025,32 @@ msgstr "山狼幼崽"
 
 #: monsterlist_v0611_monsters1.json:mwolf_2
 msgid "Young mountain wolf"
-msgstr "年轻的山狼"
+msgstr "幼小山狼"
 
 #: monsterlist_v0611_monsters1.json:mwolf_3
 msgid "Young mountain fox"
-msgstr "年轻的山狐"
+msgstr "幼小山狐"
 
 #: monsterlist_v0611_monsters1.json:mwolf_4
 msgid "Mountain fox"
-msgstr "山狐狸"
+msgstr "山狐"
 
 #: monsterlist_v0611_monsters1.json:mwolf_5
 msgid "Ferocious mountain fox"
-msgstr "凶猛的山狐"
+msgstr "凶猛山狐"
 
 #: monsterlist_v0611_monsters1.json:mwolf_6
 msgid "Rabid mountain wolf"
-msgstr "狂野的山狼"
+msgstr "狂暴山狼"
 
 #: monsterlist_v0611_monsters1.json:mwolf_7
 #: monsterlist_bwmfill.json:mountain_wolf_3
 msgid "Strong mountain wolf"
-msgstr "强壮的山狼"
+msgstr "强劲山狼"
 
 #: monsterlist_v0611_monsters1.json:mwolf_8
 msgid "Ferocious mountain wolf"
-msgstr "凶猛的山狼"
+msgstr "凶猛山狼"
 
 #: monsterlist_v0611_monsters1.json:mbrute_1
 msgid "Young mountain brute"
@@ -73194,7 +73199,7 @@ msgstr "棘手阿拉塞普"
 
 #: monsterlist_v0611_monsters1.json:allaceph_5
 msgid "Radiant allaceph"
-msgstr "闪光阿拉塞普"
+msgstr "烁光阿拉塞普"
 
 #: monsterlist_v0611_monsters1.json:allaceph_6
 #: monsterlist_v0611_npcs2.json:allaceph_cr
@@ -73216,7 +73221,7 @@ msgstr "伊尔德格"
 
 #: monsterlist_v0611_monsters1.json:irdegh_2
 msgid "Venomous irdegh"
-msgstr "带毒伊尔德格"
+msgstr "剧毒伊尔德格"
 
 #: monsterlist_v0611_monsters1.json:irdegh_3
 msgid "Piercing irdegh"
@@ -73232,24 +73237,24 @@ msgstr "莫尼特巨魔"
 
 #: monsterlist_v0611_monsters1.json:maonit_2
 msgid "Giant maonit troll"
-msgstr "巨型莫尼特巨魔"
+msgstr "健硕莫尼特巨魔"
 
 #: monsterlist_v0611_monsters1.json:maonit_3
 msgid "Strong maonit troll"
-msgstr "强大的莫尼特巨魔"
+msgstr "强劲莫尼特巨魔"
 
 #: monsterlist_v0611_monsters1.json:maonit_4
 msgid "Maonit brute"
-msgstr "莫尼特兽"
+msgstr "莫尼特猛魔"
 
 #: monsterlist_v0611_monsters1.json:maonit_5
 msgid "Tough maonit brute"
-msgstr "结实的莫尼特兽"
+msgstr "棘手莫尼特猛魔"
 
 #: monsterlist_v0611_monsters1.json:maonit_6
 #: monsterlist_v0611_npcs2.json:maonit_cr
 msgid "Strong maonit brute"
-msgstr "强壮的莫尼特野蛮人"
+msgstr "强劲莫尼特猛魔"
 
 #: monsterlist_v0611_monsters1.json:arulir_1
 msgid "Arulir"
@@ -73270,7 +73275,7 @@ msgstr "洞穴钻地虫"
 #: monsterlist_v0611_monsters1.json:burrower_4
 #: monsterlist_v0611_npcs2.json:burrower_cr
 msgid "Giant larval burrower"
-msgstr "巨大的钻地虫"
+msgstr "巨型钻地幼虫"
 
 #: monsterlist_v0611_npcs1.json:ulirfendor
 msgid "Ulirfendor"
@@ -73291,7 +73296,7 @@ msgstr "托斯拉"
 
 #: monsterlist_v0611_npcs1.json:toszylae_guard
 msgid "Radiant guardian"
-msgstr "容光焕发的守护者"
+msgstr "烁光守卫"
 
 #: monsterlist_v0611_npcs1.json:thorin
 msgid "Thorin"
@@ -77999,7 +78004,7 @@ msgstr ""
 
 #: questlist_v0611.json:thorin
 msgid "Bits and pieces"
-msgstr "处理杂碎"
+msgstr "处杂理碎"
 
 #: questlist_v0611.json:thorin:20
 msgid "In a cave to the east, I found a man called Thorin, that wants me to help him find the remains of his former travelling companions. I should find the remains of all six of them and return them to him."
