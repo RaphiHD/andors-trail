@@ -54,12 +54,12 @@
     <string name="combat_result_herohitcritical">Вы наносите крит. удар, %1$s теряет %2$d ОЗ!</string>
     <string name="combat_result_herokillsmonster">%1$s умирает!</string>
     <string name="combat_not_enough_ap">Недостаточно ОД в раунде.</string>
-    <string name="combat_hero_dies">Вы падаете без сознания, но очнулись живым, в замешательстве и усталости. Вы потеряли %1$d опыта.</string>
+    <string name="combat_hero_dies">Вы потеряли сознание. Потеряно %1$d опыта.</string>
     <string name="combat_miss_animation_message">ПРОМАХ</string>
     <string name="inventory_info">Инфо</string>
     <string name="inventory_equip">Надеть</string>
     <string name="inventory_unequip">Снять</string>
-    <string name="inventory_use">Исп-ть</string>
+    <string name="inventory_use">Использовать</string>
     <string name="inventory_drop">Выбросить</string>
     <string name="inventory_item_used">Вы использовали %1$s.</string>
     <string name="inventory_item_dropped">%1$s выброшен.</string>
@@ -108,7 +108,7 @@
     <string name="traitsinfo_criticalhit_skill">Навык критического удара:</string>
     <string name="traitsinfo_criticalhit_multiplier">Крит. множитель:</string>
     <string name="iteminfo_category">Категория:</string>
-    <string name="startscreen_newgame_confirm">Текущий прогресс будут утерян. Начать новую игру?</string>
+    <string name="startscreen_newgame_confirm">Текущий прогресс будет утерян. Начать новую игру?</string>
     <string name="conversation_rewardexp">[Получено %1$d опыта]</string>
     <string name="conversation_rewardgold">[Получено %1$d золота]</string>
     <string name="conversation_lostgold">[Потеряно %1$d золота]</string>
@@ -121,7 +121,7 @@
     <string name="shop_infoitem">Инфо</string>
     <string name="shop_buyitem">Купить (%1$d золота)</string>
     <string name="shop_sellitem">Продать (%1$d золота)</string>
-    <string name="shop_yourgold">Золото: %1$d</string>
+    <string name="shop_yourgold">Ваше золото: %1$d</string>
     <string name="shop_item_bought">Куплено - %1$s.</string>
     <string name="shop_item_sold">Продано - %1$s.</string>
     <string name="levelup_title">Новый уровень</string>
@@ -165,7 +165,7 @@
     <string name="preferences_dialog_confirmattack_title">Подтверждение атаки</string>
     <string name="preferences_dialog_confirmattack">Показывать диалог \'Хотите напасть...\?\' при атаке монстра.</string>
     <string name="preferences_dialog_monsterloot_title">Показ добычи</string>
-    <string name="preferences_dialog_monsterloot">Выберите способ показа результатов встречи (золото, опыт, предметы).</string>
+    <string name="preferences_dialog_monsterloot">Выберите способ показа результатов сражения (золото, опыт, предметы).</string>
     <string name="preferences_combat_category">Бой</string>
     <string name="preferences_combat_speed_title">Скорость сражения</string>
     <string name="preferences_combat_speed">Выбор скорости атаки монстров.</string>
@@ -236,7 +236,7 @@
     <string name="bulkselection_sell_confirmation_title">Вы уверены?</string>
     <string name="bulkselection_sell_confirmation">Вы уверены, что хотите продать %1$s\? Это %2$s предмет, и Вы, возможно, не сможете его восстановить.</string>
     <string name="skill_title_weapon_chance">Точность оружия</string>
-    <string name="about_contents1">Добро пожаловать в След Эндора, ролевую игру-рогалик с открытым исходным кодом на Android.&lt;br /&gt; &lt;br /&gt; &lt;a href=https://andorstrail.com/&gt;Форум игры andorstrail.com для вопросов и обсуждения геймплея.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://andorstrail.gitbook.io/docs/&gt;Вики по миру След Эндора и не только.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Страница проекта на github.com для разработчиков.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Пожалуйста, посетите форум, чтобы обсудить игру с другими игроками.&lt;br /&gt;</string>
+    <string name="about_contents1">Добро пожаловать в След Эндора, ролевую игру-рогалик с открытым исходным кодом на Android.&lt;br /&gt; &lt;br /&gt; &lt;a href=https://andorstrail.com/&gt;Форум игры andorstrail.com для вопросов и обсуждения геймплея.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://andorstrail.gitbook.io/docs/&gt;Вики по миру След Эндора и многое другое./&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Исходный код проекта на github.com для разработчиков.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Пожалуйста, посетите форум, чтобы обсудить игру с другими игроками.&lt;br /&gt;</string>
     <string name="about_interface"><![CDATA[
 
 <div><b>Настройки игры</b> можно найти, нажав кнопку меню на вашем устройстве.</div>
@@ -532,7 +532,7 @@
     <string name="heroinfo_healthpoints">Очков здоровья (ОЗ):</string>
     <string name="heroinfo_experiencepoints">Очков опыта (ОО):</string>
     <string name="combat_taunt_monster">Вы насмехаетесь над %1$s!</string>
-    <string name="combat_condition_player_apply">Вы под воздействием: %1$s.</string>
+    <string name="combat_condition_player_apply">Вы под воздействием %1$s.</string>
     <string name="combat_condition_player_clear">Вы очищены от %1$s.</string>
     <string name="combat_condition_player_immune">Вы получили иммунитет к %1$s.</string>
     <string name="startscreen_newgame_start">Начать игру</string>
