@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-23 09:37+0000\n"
+"PO-Revision-Date: 2025-02-24 05:07+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -13298,7 +13298,7 @@ msgstr "我劝你重新考虑一下，要知道暗影之道是公义之道。"
 
 #: conversationlist_buceth.json:buceth_story_13:0
 msgid "Very well. I promise not to tell anyone."
-msgstr "嗯哼，我保证不告诉任何人。"
+msgstr "嗯，我保证不告诉任何人的。"
 
 #: conversationlist_buceth.json:buceth_story_13:1
 msgid "No. Your crimes will be punished!"
@@ -13367,7 +13367,7 @@ msgstr "所以我感觉这场疾病就是由暗影所降下的，这是对我们
 
 #: conversationlist_taevinn.json:taevinn
 msgid "Please, you must help us!"
-msgstr "求你了，你要帮我们啊！"
+msgstr "求你了，求你帮帮我们啊！"
 
 #: conversationlist_taevinn.json:taevinn:0
 msgid "Do you know anything about the illness?"
@@ -13804,7 +13804,7 @@ msgstr "请问你介意我用你那边的床休息下吗？"
 
 #: conversationlist_thorin.json:thorin_what_1
 msgid "Oh, not much. Well actually, I am waiting for someone - or rather, some people."
-msgstr "哦，没在干啥。好吧，实际上我在等人——或者说，我在等好几个人。"
+msgstr "哦，没在干啥。好吧，实际上我在等人——或者说，我在等一群人。"
 
 #: conversationlist_thorin.json:thorin_story_1
 msgid "You see, me and my fellow gatherers were out investigating the poisonous nature of the irdegh."
@@ -13846,7 +13846,7 @@ msgstr "这可真惨啊，我打赌那些来帮你的人不久后就会来了，
 
 #: conversationlist_thorin.json:thorin_story_6_1
 msgid "Nah, it's just business. Just business."
-msgstr "啊我不伤心， 我们之间只是合租关系，只是合作关系而已。"
+msgstr "啊我不伤心， 我们之间只是合作关系，只是合作关系而已。"
 
 #: conversationlist_thorin.json:thorin_story_6_1:0
 msgid "Anything I can do to help you?"
@@ -13871,97 +13871,102 @@ msgstr "毕竟他们是这样死的，我对他们身上所受的伊尔德格和
 
 #: conversationlist_thorin.json:thorin_story_10
 msgid "If you could find me their remains, I would be most grateful. Maybe I could continue my investigation based on their remains. Hmm, yes that would be great."
-msgstr "如果你能找到他们的遗体，我将非常感激。也许我可以根据他们的遗体继续调查。嗯，是的，那就太好了。"
+msgstr "如果你能帮我找到他们的遗骸的话，我会非常感激你的，也许这样我就可以根据他们的"
+"遗骸继续我的研究。嗯……这个主意确实可以。"
 
 #: conversationlist_thorin.json:thorin_story_10:0
 msgid "Sure, find their remains. Sounds easy enough, I'll do it."
-msgstr "当然，找到他们的遗体。听起来很容易，我会做的。"
+msgstr "没问题，找遗骸这种事情简单，这个忙我帮了。"
 
 #: conversationlist_thorin.json:thorin_story_10:1
 msgid "I'm all for finding dead things. I'll do it."
-msgstr "我很喜欢找死人的东西。我会做的。"
+msgstr "找尸体的事我尽力，这忙我帮了。"
 
 #: conversationlist_thorin.json:thorin_story_10:2
 msgid "Hmm, this sounds a bit shady to me. I'm not sure I should do this."
-msgstr "嗯，这对我来说听起来有点阴暗。我不确定我是否应该这样做。"
+msgstr "嗯……我感觉这件事有点上不了台面了，至于帮不帮你说实话我还没想好。"
 
 #: conversationlist_thorin.json:thorin_story_11
 msgid "Excellent. Bring me back the remains of all six of them. I would go search myself if those nasty bugs weren't there."
-msgstr "非常好。把他们六个人的遗体都带回来。如果那些讨厌的虫子不在那里，我会自己去搜索。"
+msgstr "非常好，请记得把他们全部六个人的遗骸都带回来。要不是那些讨厌的虫子在，我就自"
+"己去找了。"
 
 #: conversationlist_thorin.json:thorin_who_1
 msgid "Oh, I did not introduce me, my apologies. I am Thorin."
-msgstr "哦，我没有介绍我自己，很抱歉。我是索林。"
+msgstr "哦，我还没有自我介绍，很抱歉，我叫索林。"
 
 #: conversationlist_thorin.json:thorin_decline
 msgid "Too bad. Good day to you then."
-msgstr "太糟糕了。那就祝你今天愉快。"
+msgstr "你这的情况可太糟糕了，就祝你接下来平安无事吧。"
 
 #: conversationlist_thorin.json:thorin_search_1
 msgid "Welcome back. Did you find all six of them?"
-msgstr "欢迎回来。你找到了所有的六具遗体了吗？"
+msgstr "欢迎回来，请问你找齐六具遗骸了吗？"
 
 #: conversationlist_thorin.json:thorin_search_1:0
 msgid "No, not yet. I am still looking."
-msgstr "不，还没有。我还在寻找。"
+msgstr "没，还没有呢，我还在寻找中。"
 
 #: conversationlist_thorin.json:thorin_search_1:1
 msgid "Yes, this is what I found."
-msgstr "是的，这就是我找到的。"
+msgstr "嗯，我都找到了这些。"
 
 #: conversationlist_thorin.json:thorin_search_2
 msgid "OK then. Please return when you have found them all. I would go search myself if those nasty bugs weren't there."
-msgstr "那就好。当你找到它们时，请回来。如果那些讨厌的虫子不在那里，我就自己去找。"
+msgstr "好吧，你找齐后记得回来就行。要不是那些讨厌的虫子在，我就自己去找了。"
 
 #: conversationlist_thorin.json:thorin_rest_y
 msgid "Please, go ahead. You may rest here as much as you like."
-msgstr "请继续。您可以随意在这里休息。"
+msgstr "去吧，这张床你想怎么躺就怎么躺吧。"
 
 #: conversationlist_thorin.json:thorin_rest_n
 msgid "My bed? No, that's mine. Maybe I will let you use it if you help me with a small task."
-msgstr "“我的床？”不，那是我的。如果你帮我做一件小事，也许我会让你使用它。"
+msgstr "你说我的那张床？不行，这是我的床。不过如果你能帮我做一件小事的话，我可以考虑"
+"考虑。"
 
 #: conversationlist_thorin.json:thorin_rest_n:0
 #: conversationlist_thorin.json:thorin_trade_n:0
 #: conversationlist_elythom_1.json:krell_4:0
 msgid "What's that?"
-msgstr "什么？"
+msgstr "什么啊？"
 
 #: conversationlist_thorin.json:thorin_trade_y
 msgid "Oh yes. The upside of this cave is that it literally is crawling with dead bodies of those scaradon bugs."
-msgstr "哦，对了。这个洞穴的上面实际上爬满了那些圣甲虫的尸体。"
+msgstr "哦，没问题。我告诉你吧，这个洞穴的顶部实际上爬满了那些金龟圣甲虫的尸体。"
 
 #: conversationlist_thorin.json:thorin_trade_y2
 msgid "By chance, I happened to find out that with the right mixture, they can be made into a healing substance."
-msgstr "一个偶然的机会，我碰巧发现只要混合正确，它们就可以制成治疗药物。"
+msgstr "有一次我偶然间碰巧发现其只要通过特定的炼制就能起到疗伤的作用。"
 
 #: conversationlist_thorin.json:thorin_trade_y2:0
 msgid "Let's see what you have to trade."
-msgstr "让我们看看你有什么可交易的。"
+msgstr "就让我们看看有什么可交易的吧。"
 
 #: conversationlist_thorin.json:thorin_trade_n
 msgid "No. I might have something to trade if you help me with a small task."
-msgstr "不，如果你帮我完成一个小任务，我们就可以交易。"
+msgstr "抱歉不行，不过如果你能帮我做一件小事的话，我倒是可以考虑考虑与你做下交易。"
 
 #: conversationlist_thorin.json:thorin_search_c_1
 msgid "Thank you. I would have gone myself if those nasty bugs weren't there. This turned out to be much easier though."
-msgstr "非常感谢。如果那些讨厌的虫子不在的话，我会自己去的。但事实证明，这要容易得多。"
+msgstr "非常感谢。要不是那些讨厌的虫子，我早就自己跑去找了，不过现在事后来看也不难嘛"
+"。"
 
 #: conversationlist_thorin.json:thorin_search_c_2
 msgid "As a token of my appreciation, you are welcome to use the bed over there to rest. Also, if you are interested in healing, I might be able to provide some help."
-msgstr "为了表示我的感谢，欢迎您使用那边的床休息。另外，如果你对治疗感兴趣，我可能会提供一些帮助。"
+msgstr "为了表示我的感谢，我很欢迎你使用那边的床休息。另外，如果你对治疗物品什么的感"
+"兴趣的话，我或许能提供一些帮助。"
 
 #: conversationlist_thorin.json:thorin_search_c_2:0
 msgid "I think I should use the bed to rest right now. Thank you."
-msgstr "我想我现在应该用这张床休息。非常感谢。"
+msgstr "我想我现在就要去那张床上休息一下了，谢过。"
 
 #: conversationlist_thorin.json:thorin_return_1
 msgid "My friend returns. What can Thorin do for you?"
-msgstr "我的朋友回来了。索林能为你做什么？"
+msgstr "你回来了我的朋友。我，索林，有什么能帮到你的吗？"
 
 #: conversationlist_thorinbone.json:mountaincave_sleep
 msgid "Thorin shouts at you: Hey, get away from there! That's my bed."
-msgstr "索林对你喊道：嘿，离开那里！那是我的床。"
+msgstr "索林对你喊道：“嘿，别躺下啊！那是我的床。”"
 
 #: conversationlist_thorinbone.json:remains_mcave_1b
 #: conversationlist_thorinbone.json:remains_mcave_2b
@@ -13970,7 +13975,7 @@ msgstr "索林对你喊道：嘿，离开那里！那是我的床。"
 #: conversationlist_thorinbone.json:remains_mcave_5b
 #: conversationlist_thorinbone.json:remains_mcave_6b
 msgid "You see a pile of skeletal remains. This must be one of Thorin's former companions."
-msgstr "你看到一堆遗骸。这一定是索林以前的同伴之一。"
+msgstr "你瞧见了一堆遗骸，他生前应该就是索林的同伴之一。"
 
 #: conversationlist_thorinbone.json:remains_mcave_1b:0
 #: conversationlist_thorinbone.json:remains_mcave_2b:0
@@ -13988,7 +13993,7 @@ msgstr "别管它。"
 #: conversationlist_thorinbone.json:remains_mcave_5b:1
 #: conversationlist_thorinbone.json:remains_mcave_6b:1
 msgid "Pick up one of the bones."
-msgstr "捡起一块骨头。"
+msgstr "捡起一根骨头。"
 
 #: conversationlist_thorinbone.json:remains_mcave_1d
 #: conversationlist_thorinbone.json:remains_mcave_2d
@@ -13997,19 +14002,19 @@ msgstr "捡起一块骨头。"
 #: conversationlist_thorinbone.json:remains_mcave_5d
 #: conversationlist_thorinbone.json:remains_mcave_6d
 msgid "You pick up one of the bones. It seems to have been severely damaged by something corrosive."
-msgstr "你捡起一块骨头。它似乎被腐蚀性的东西严重损坏了。"
+msgstr "你捡起了一根骨头，它似乎被什么家伙腐蚀地很是严重。"
 
 #: conversationlist_thorinbone.json:remains_mcave_a
 msgid "You see a pile of skeletal remains, from where you removed some pieces earlier."
-msgstr "你看到了一堆遗骸，你之前从那里取出了一些碎片。"
+msgstr "你瞧见了一堆遗骸，先前有从中收集过些许残片了。"
 
 #: conversationlist_thorinbone.json:remains_mcave_c
 msgid "You see a pile of skeletal remains."
-msgstr "你看到一堆遗骸。"
+msgstr "你瞧见了一堆遗骸。"
 
 #: conversationlist_algangror.json:algangror_1
 msgid "Oh my, a child. He he, how nice. Tell me, what brings you here?"
-msgstr "哦，一个孩子，呵呵，很好。告诉我 ，什么风把你吹来了？"
+msgstr "哦，一个小鬼，嘿嘿，很好。告诉我 ，什么风把你吹来了？"
 
 #: conversationlist_algangror.json:algangror_1:0
 msgid "I am looking for my brother."
@@ -14025,7 +14030,7 @@ msgstr "我是一名冒险家，以四处帮助需要帮助的人为己任。"
 
 #: conversationlist_algangror.json:algangror_1:3
 msgid "I'd rather not tell."
-msgstr "我不想告诉你。"
+msgstr "恕我无可奉告。"
 
 #: conversationlist_algangror.json:algangror_1:4
 #: conversationlist_algangror.json:algangror_return_1:4
@@ -14034,11 +14039,11 @@ msgstr "我是贾尔德派来阻止你对瑞姆加德人的胡作非为的。"
 
 #: conversationlist_algangror.json:algangror_2a
 msgid "Run away, has he? He he."
-msgstr "他离家出走是吗？呵呵。"
+msgstr "他离家出走了是吗？嘿嘿。"
 
 #: conversationlist_algangror.json:algangror_2b
 msgid "Oh sure, you think you can just pick up anything and claim it as yours?"
-msgstr "哦，你认为你可以随便拿起一件东西，然后声称它是你的吗?"
+msgstr "哦，你认为你可以随便拿起一件东西，然后声称它是你的吗？"
 
 #: conversationlist_algangror.json:algangror_2c
 msgid "How noble. Maybe you can be of use to me."
@@ -14070,52 +14075,53 @@ msgstr "没门，你给我的感觉就是四个字——毛骨悚然。"
 
 #: conversationlist_algangror.json:algangror_3c
 msgid "Reward? No, no, I don't have anything to give you, unfortunately."
-msgstr "奖励？不不不，抱歉，我没有任何东西可以给你。"
+msgstr "奖励？不不不，真是可惜，我没有任何东西可以给你。"
 
 #: conversationlist_algangror.json:algangror_3c:0
 msgid "I guess you won't get any help either then."
-msgstr "那么我想我就不会帮你了。"
+msgstr "那么我想我就不帮你了。"
 
 #: conversationlist_algangror.json:algangror_3c:1
 msgid "Fine, what's the problem you want help with?"
-msgstr "好吧，你有什么麻烦要我帮你解决的？"
+msgstr "好吧，那你那个要我帮你解决的麻烦是啥啊？"
 
 #: conversationlist_algangror.json:algangror_3c:2
 #: conversationlist_algangror.json:algangror_8:2
 msgid "Something feels wrong here. I better not get involved in this."
-msgstr "这件事好像不太对头，我最好还是不要置身其中。"
+msgstr "这件事好像不太对头，我还是不要置身其中为妙。"
 
 #: conversationlist_algangror.json:algangror_4
 msgid "You see, I have this slight problem with ... ahem ... vermin."
-msgstr "你看，我有个小小的麻烦，是关于……嗯哼……害虫的。"
+msgstr "是这样的，我这边有个小小的麻烦，是关于……嗯哼……那一窝祸害的。"
 
 #: conversationlist_algangror.json:algangror_5
 msgid "Always sneaking around, always trying to cause mischief."
-msgstr "总是鬼鬼祟祟的，总是想搞恶作剧。"
+msgstr "它们总是在这附近悄悄地窜动，总是要惹出些事端来。"
 
 #: conversationlist_algangror.json:algangror_6
 msgid "Fortunately, I managed to capture some of them, and locked them in my basement."
-msgstr "幸运的是，我设法抓住了一些，把它们锁在了我的地下室里。"
+msgstr "所幸，我成功设法抓住了其中几个，并将其锁在了我的地下室里了。"
 
 #: conversationlist_algangror.json:algangror_7
 msgid "Now, I can't handle them myself because of certain ... issues."
-msgstr "现在，由于某些……原因，我无法亲自处理它们。"
+msgstr "而现在，出于某些特定的……原因，我无法对其亲自处理。"
 
 #: conversationlist_algangror.json:algangror_8
 msgid "That's where you come in. Would you be willing to ... ahem ... handle those rodents for me?"
-msgstr "这就是你的切入点。你愿意…嗯哼. .帮我处理那些老鼠吗?"
+msgstr "然后这里就是需要你帮忙的点了。你愿意帮我……嗯哼……对付那些啮齿动物吗？"
 
 #: conversationlist_algangror.json:algangror_8:0
 msgid "Sure, some rodents, I can handle that."
-msgstr "当然，一些啮齿动物，我能对付的。"
+msgstr "当然没问题，一群啮齿动物而已，我能对付的。"
 
 #: conversationlist_algangror.json:algangror_8:1
 msgid "No problem, I'll be right back once I have killed them."
-msgstr "没问题 ，一旦杀光它们我就马上回来。"
+msgstr "没问题 ，我干掉它们后再来找你。"
 
 #: conversationlist_algangror.json:algangror_decline_1
 msgid "Ah yes. After all, you are just a child and I can understand such a task would be too much for you. He he."
-msgstr "哦，没问题。毕竟你只是个孩子，我能理解这样的任务对你来说太过分了，呵呵。"
+msgstr "哦，好吧。毕竟你只是个孩子，这样的任务对你来说太强人所难了，这我能理解。嘿嘿"
+"。"
 
 #: conversationlist_algangror.json:algangror_9
 msgid "Splendid. Return to me with some proof that they have been dealt with."
@@ -67973,11 +67979,11 @@ msgstr "战斗头盔"
 
 #: itemlist_v0611_1.json:helm_combat2
 msgid "Enhanced combat helmet"
-msgstr "增强型战斗头盔"
+msgstr "改良战斗头盔"
 
 #: itemlist_v0611_1.json:helm_combat3
 msgid "Remgard combat helmet"
-msgstr "瑞姆加德作战头盔"
+msgstr "瑞姆加德战斗头盔"
 
 #: itemlist_v0611_1.json:helm_redeye1
 msgid "Cap of red eyes"
@@ -67985,7 +67991,7 @@ msgstr "红眼之帽"
 
 #: itemlist_v0611_1.json:helm_redeye2
 msgid "Cap of bloody eyes"
-msgstr "血腥之帽"
+msgstr "血眼之帽"
 
 #: itemlist_v0611_1.json:helm_defend1
 msgid "Defender's helmet"
@@ -67993,7 +67999,7 @@ msgstr "防御之盔"
 
 #: itemlist_v0611_1.json:helm_protector0
 msgid "Strange looking helmet"
-msgstr "奇怪的头盔"
+msgstr "奇怪样式的头盔"
 
 #: itemlist_v0611_1.json:helm_protector
 msgid "Dark protector"
@@ -68077,7 +68083,7 @@ msgstr "樵夫羽帽"
 
 #: itemlist_v0611_2.json:thorin_bone
 msgid "Chewed bone"
-msgstr "嚼过的骨"
+msgstr "被啃蚀过的骨头"
 
 #: itemlist_v0611_2.json:spider
 msgid "Dead spider"
@@ -77911,7 +77917,7 @@ msgstr "我向艾尔莎拉汇报了一下结果。"
 
 #: questlist_v0610.json:loneford
 msgid "Flows through the veins"
-msgstr "暗涌脉流"
+msgstr "暗流脉涌"
 
 #: questlist_v0610.json:loneford:10
 msgid "I heard a story about Loneford. Apparently, a lot of people have become ill there recently, and some have even died. The cause is still unknown."
