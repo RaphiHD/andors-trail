@@ -12,6 +12,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import java.security.DigestException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -79,11 +80,11 @@ public final class Savegames {
 			}
 
 			return true;
-		} catch (IOException e) {
+		} catch (IOException | DigestException e) {
 			L.log("Error saving world: " + e.toString());
 			return false;
 		}
-	}
+    }
 
 	private static void writeBackup(Context androidContext, byte[] savegame, String playerId) throws IOException {
 		File cheatDetectionFolder = AndroidStorage.getStorageDirectory(androidContext, Constants.CHEAT_DETECTION_FOLDER);
@@ -116,7 +117,7 @@ public final class Savegames {
 				writeCheatCheck(androidContext, DENY_LOADING_BECAUSE_GAME_IS_CURRENTLY_PLAYED, fh.playerId);
 			}
 			return result;
-		} catch (IOException e) {
+		} catch (IOException | DigestException e) {
 			if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) {
 				L.log("Error loading world: " + e.toString());
 				StringWriter sw = new StringWriter();
@@ -126,7 +127,7 @@ public final class Savegames {
 			}
 			return LoadSavegameResult.unknownError;
 		}
-	}
+    }
 
     private static boolean triedToCheat(Context androidContext, FileHeader fh) throws IOException {
         long savedVersionToCheck = 0;
@@ -211,20 +212,25 @@ public final class Savegames {
     }
 
 
-	public static void saveWorld(WorldContext world, OutputStream outStream, String displayInfo) throws IOException {
+	public static void saveWorld(WorldContext world, OutputStream outStream, String displayInfo) throws IOException, DigestException {
 		DataOutputStream dest = new DataOutputStream(outStream);
 		FileHeader.writeToParcel(dest, world.model.player.getName(),
 				displayInfo, world.model.player.iconID,
 				world.model.statistics.isDead(),
 				world.model.statistics.hasUnlimitedSaves(),
 				world.model.player.id,
-				world.model.player.savedVersion);
+				world.model.player.savedVersion,
+				world.model.statistics.getIsAlteredSavegame());
+
+		byte[] checksum = world.getChecksum();
+		world.model.statistics.setChecksum(checksum);
+
 		world.maps.writeToParcel(dest, world);
 		world.model.writeToParcel(dest);
 		dest.close();
 	}
 
-    public static LoadSavegameResult loadWorld(Resources res, WorldContext world, ControllerContext controllers, Context androidContext, InputStream inState, FileHeader fh) throws IOException {
+    public static LoadSavegameResult loadWorld(Resources res, WorldContext world, ControllerContext controllers, Context androidContext, InputStream inState, FileHeader fh) throws IOException, DigestException {
         DataInputStream src = new DataInputStream(inState);
         final FileHeader header = new FileHeader(src, fh.skipIcon);
         if (header.fileversion > AndorsTrailApplication.CURRENT_VERSION)
@@ -232,9 +238,12 @@ public final class Savegames {
 
 		world.maps.readFromParcel(src, world, controllers, header.fileversion);
 		world.model = new ModelContainer(src, world, controllers, header.fileversion);
-		WorldMapController.populateWorldMap(androidContext, world, controllers.getResources());
 		src.close();
-		
+		if (header.fileversion >= 81) {
+			checkChecksum(world);
+		}
+		WorldMapController.populateWorldMap(androidContext, world, controllers.getResources());
+
 		if (header.fileversion < 45) {
 			LegacySavegamesContentAdaptations.adaptToNewContentForVersion45(world, controllers, res);
 		}
@@ -242,6 +251,13 @@ public final class Savegames {
 		onWorldLoaded(res, world, controllers);
 
 		return LoadSavegameResult.success;
+	}
+
+	private static void checkChecksum(WorldContext world) throws DigestException {
+		byte[] checksum = world.getChecksum();
+		if (!world.model.statistics.compareChecksum(checksum)) {
+			world.model.statistics.markAsAlteredSavegame();
+		}
 	}
 
 	private static void onWorldLoaded(Resources res, WorldContext world, ControllerContext controllers) {
@@ -331,7 +347,8 @@ public final class Savegames {
         public final String playerName;
         public final String displayInfo;
         public final int iconID;
-        public boolean skipIcon = false;
+		public final boolean isAlteredSavegame;
+		public boolean skipIcon = false;
         public final boolean isDead;
         public final boolean hasUnlimitedSaves;
         public final String playerId;
@@ -380,9 +397,14 @@ public final class Savegames {
 				this.playerId = "";
 				this.savedVersion = 0;
 			}
+			if(fileversion >= 81){
+				this.isAlteredSavegame = src.readBoolean();
+			}else{
+				this.isAlteredSavegame = false;
+			}
 		}
 
-		public static void writeToParcel(DataOutputStream dest, String playerName, String displayInfo, int iconID, boolean isDead, boolean hasUnlimitedSaves, String playerId, long savedVersion) throws IOException {
+		public static void writeToParcel(DataOutputStream dest, String playerName, String displayInfo, int iconID, boolean isDead, boolean hasUnlimitedSaves, String playerId, long savedVersion, boolean isAlteredSavegame) throws IOException {
 			dest.writeInt(AndorsTrailApplication.CURRENT_VERSION);
 			dest.writeUTF(playerName);
 			dest.writeUTF(displayInfo);
@@ -391,6 +413,7 @@ public final class Savegames {
 			dest.writeBoolean(hasUnlimitedSaves);
 			dest.writeUTF(playerId);
 			dest.writeLong(savedVersion);
+			dest.writeBoolean(isAlteredSavegame);
 		}
 	}
 }
