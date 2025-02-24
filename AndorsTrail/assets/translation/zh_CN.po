@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-24 05:07+0000\n"
+"PO-Revision-Date: 2025-02-24 20:21+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.1-dev\n"
+"X-Generator: Weblate 5.10.2-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -14108,11 +14108,11 @@ msgstr "而现在，出于某些特定的……原因，我无法对其亲自处
 
 #: conversationlist_algangror.json:algangror_8
 msgid "That's where you come in. Would you be willing to ... ahem ... handle those rodents for me?"
-msgstr "然后这里就是需要你帮忙的点了。你愿意帮我……嗯哼……对付那些啮齿动物吗？"
+msgstr "然后这里就是需要你帮忙的点了。你愿意帮我……嗯哼……对付那些鼠类吗？"
 
 #: conversationlist_algangror.json:algangror_8:0
 msgid "Sure, some rodents, I can handle that."
-msgstr "当然没问题，一群啮齿动物而已，我能对付的。"
+msgstr "当然没问题，一群鼠类而已，我能对付的。"
 
 #: conversationlist_algangror.json:algangror_8:1
 msgid "No problem, I'll be right back once I have killed them."
@@ -14125,39 +14125,39 @@ msgstr "哦，好吧。毕竟你只是个孩子，这样的任务对你来说太
 
 #: conversationlist_algangror.json:algangror_9
 msgid "Splendid. Return to me with some proof that they have been dealt with."
-msgstr "好极了。回来的时候带上处理了它们的证据。"
+msgstr "好极了。记得回来的时候带上你将其处理掉了的证据。"
 
 #: conversationlist_algangror.json:algangror_return_1
 msgid "You return. Did you handle all those ... ahem ... rodents in my basement?"
-msgstr "你回来了。你把那些在我地下室的……嗯哼……啮齿动物都处理好了吗？"
+msgstr "你回来了。你把那些在我地下室的……嗯哼……鼠类都处理掉了吗？"
 
 #: conversationlist_algangror.json:algangror_return_1:0
 msgid "Yes, they are all dead."
-msgstr "是的，它们都死了。"
+msgstr "是的，现在它们都死了。"
 
 #: conversationlist_algangror.json:algangror_return_1:1
 msgid "I am still working on it. Goodbye."
-msgstr "我还在处理当中。再见。"
+msgstr "我还在处理当中，再见。"
 
 #: conversationlist_algangror.json:algangror_return_1:2
 msgid "I won't do your stupid task, count me out."
-msgstr "我不会做你愚蠢的任务，别把我算在内。"
+msgstr "我不会做你那个蠢任务的，我不干了。"
 
 #: conversationlist_algangror.json:algangror_return_1:3
 msgid "I have decided not to help you with your rodents."
-msgstr "我决定不帮你对付你那些啮齿动物了。"
+msgstr "我想了想还是决定不帮你去对付那些鼠类了。"
 
 #: conversationlist_algangror.json:algangror_return_2
 msgid "He he. I bet you sure showed them. Excellent. Thank you for ... ahem ... helping me."
-msgstr "呵呵。我猜你一定给他们看过。太好了。谢谢你. .嗯哼. .帮助我。"
+msgstr "嘿嘿。我猜你一定很利落得将其解决了。这可太好了，谢谢你过来……嗯哼……帮助我。"
 
 #: conversationlist_algangror.json:algangror_return_3
 msgid "Those rodents have really been bothering me. Good thing I managed to catch some of them. He he."
-msgstr "那些啮齿类动物真让我心烦。幸好我设法抓住了他们中的一些。呵呵。"
+msgstr "那些鼠类对于我来说着实是个心头大患，幸好我抓住了其中一些，嘿嘿。"
 
 #: conversationlist_algangror.json:algangror_return_4
 msgid "Now, there was something else I wanted to talk to you about. Have you been to the city of Remgard in your travels?"
-msgstr "现在，我还想跟你谈谈别的事情。你在旅行中去过瑞姆加德吗?"
+msgstr "现在我想跟你再谈谈别的一件事情：你有去过瑞姆加德吗？"
 
 #: conversationlist_algangror.json:algangror_return_4:0
 msgid "Yes, I have been there."
@@ -14165,54 +14165,57 @@ msgstr "是的，我去过那里。"
 
 #: conversationlist_algangror.json:algangror_return_4:1
 msgid "No, where is that?"
-msgstr "没有哦，在哪里的？"
+msgstr "并没有，那在哪里？"
 
 #: conversationlist_algangror.json:algangror_return_c1
 msgid "You return. Thank you for helping me with my ... ahem ... rodent problem earlier."
-msgstr "你回来了，谢谢你帮我解决之前的……嗯哼……那些老鼠。"
+msgstr "你回来了，谢谢你之前帮我解决掉了……嗯哼……那些鼠类。"
 
 #: conversationlist_algangror.json:algangror_return_c3
 msgid "I hope that will teach those *other* rats."
-msgstr "我希望那能给*其它*老鼠一些教训。"
+msgstr "我希望能给*其它*的老鼠一些教训。"
 
 #: conversationlist_algangror.json:algangror_return_c4
 msgid "Say, you seem like a resourceful person. Would you be interested in helping me with yet another ... task?"
-msgstr "说，你看起来是个足智多谋的人。你有兴趣再帮我一个……忙吗?"
+msgstr "说吧，像你这样有本领的人，有兴趣再帮我一个……忙吗？"
 
 #: conversationlist_algangror.json:algangror_return_c4:0
 msgid "Depends on the task."
-msgstr "取决于任务。"
+msgstr "这取决于任务的内容是什么。"
 
 #: conversationlist_algangror.json:algangror_return_c4:2
 #: conversationlist_brimhaven.json:quiet_thief_1_0:2
 #: conversationlist_brimhaven.json:quiet_thief_0_0:1
 #: conversationlist_mt_galmore.json:wild6_house_hatch_10:1
 msgid "Not right now."
-msgstr "不是现在。"
+msgstr "现在不行。"
 
 #: conversationlist_algangror.json:algangror_remgard_1
 msgid "Oh, it's not far from here. Doesn't matter really."
-msgstr "噢，离这儿不远。真的并不重要。"
+msgstr "噢，那里离这儿不远，不过这并不重要。"
 
 #: conversationlist_algangror.json:algangror_remgard_2
 msgid "You see, I used to live there. To make a long story short, there were some ... ahem ... misunderstandings."
-msgstr "你看，我以前住在那里。长话短说，有一些……嗯哼. .误解。"
+msgstr "是这样的，我在过去就住在那里，然后发生了一些事，长话短说就是那里对我……嗯哼.……"
+"有些误解。"
 
 #: conversationlist_algangror.json:algangror_remgard_3
 msgid "These days, I think they are looking for me, for some reason. Can't think of any reason why really. But I believe they are."
-msgstr "这些天来，我觉得他们在找我，不知为什么。我想不出任何理由。但我相信他们就是来找我的。"
+msgstr "这些日子里，我觉得他们一直在找我，我完全想不出这是为什么，但我相信他们就是来"
+"找我的。"
 
 #: conversationlist_algangror.json:algangror_remgard_4
 msgid "Because of our previous ... misunderstanding, I think it's best they don't find out that I'm here."
-msgstr "因为我们之前的…误解，我认为最好他们没有发现我在这里。"
+msgstr "鉴于先前他们对我的……误解，我认为他们还是找不到我这里为好。"
 
 #: conversationlist_algangror.json:algangror_remgard_5
 msgid "Therefore, I ask of you not to reveal my whereabouts to them."
-msgstr "因此，我要求你不要向他们透露我的下落。"
+msgstr "因此，我敦促你不要向他们透露我在这里。"
 
 #: conversationlist_algangror.json:algangror_remgard_6
 msgid "Thank you. Under no circumstances should you tell them where I am. They will most likely try to persuade you into revealing my location."
-msgstr "谢谢你！在任何情况下你都不应该告诉他们我在哪里。他们很可能会试图说服你透露我的位置。"
+msgstr "总之谢谢你了，请记得在任何情况下都不应该告诉他们我在哪里，要特别注意他们很可"
+"能会试图说服你透露我的位置。"
 
 #: conversationlist_algangror.json:algangror_remgard_7
 msgid "Under no circumstances."
@@ -14222,11 +14225,11 @@ msgstr "在任何情况下。"
 #: conversationlist_lodarfg.json:lodar_fg1_r1
 #: conversationlist_lodarfg.json:lodar_fg1_r2
 msgid "Oh, it's you again."
-msgstr "噢，又是你。"
+msgstr "噢，又是你啊。"
 
 #: conversationlist_algangror.json:algangror_return_d2
 msgid "You should probably leave before you tip something over that might ... ahem ... break. He he."
-msgstr "在你打碎什么东西之前你最好先离开。呵呵。"
+msgstr "你最好在可能把什么东西揭开…嗯哼…弄破前离开这里。嘿嘿。"
 
 #: conversationlist_algangror.json:algangror_return_d2:0
 msgid "I was sent by Jhaeld to end whatever it is you are doing to the people of Remgard."
@@ -14234,112 +14237,117 @@ msgstr "我是贾尔德派来阻止你正在对瑞姆加德人所进行的胡作
 
 #: conversationlist_algangror.json:algangror_return_d2:1
 msgid "Watch your tongue, witch."
-msgstr "小心说话，女巫。"
+msgstr "说话小心点，女巫。"
 
 #: conversationlist_algangror.json:algangror_return_d2:2
 msgid "You are right, I had better leave."
-msgstr "你是对的，我最好离开。"
+msgstr "你说得没错，我这就离开。"
 
 #: conversationlist_algangror.json:algangror_fight_3
 msgid "Jhaeld, the fool. He hides behind his guards and his stone walls. Such a pitiful man he is. Yes, I made those people disappear, but they were all worth it. I will have my revenge!"
-msgstr "贾尔德,傻瓜。他躲在警卫和他的石墙后面。他真是个可怜的人。是的，我让那些人消失了，但他们都是罪有应得。我要报仇!"
+msgstr "贾尔德那个蠢货，他就这样躲在他的守卫以及他那石墙后面，真是胆小如鼠啊。没有错"
+"，是我让那些人消失了，但那都是他们罪有应得，而我是要报仇！"
 
 #: conversationlist_algangror.json:algangror_fight_4
 msgid "And you, what are you trying to accomplish by running his errands? How fortunate that you entered my house. He he."
-msgstr "而你，你想通过跑腿来完成什么?来到我这里你真是幸运。呵呵。"
+msgstr "而你，你受他的驱使跑过来是想干嘛？不过你都进我这屋了也算是走运，嘿嘿。"
 
 #: conversationlist_algangror.json:algangror_fight_5
 msgid "Do you really think you can defeat *me*? Ha ha, this will be fun!"
-msgstr "你真的认为你能打败*我*吗?哈哈，这会很有趣的!"
+msgstr "你真的认为你能打败*我*吗？哈哈，真是有趣！"
 
 #: conversationlist_algangror.json:algangror_told_2
 msgid "Say, despite my previous urging to you to keep my location a secret to the people of Remgard, I have this feeling that this trust has been broken. Please tell me it isn't so."
-msgstr "说吧，尽管我之前敦促你对瑞姆加德的人保密我的位置，但我感觉这种信任已经被打破了。请告诉我不是这样的。"
+msgstr "说吧，尽管我之前敦促过你要向瑞姆加德的人对我的位置进行保密，但我有感觉到这种"
+"信任已经被打破了。请告诉我不是这样的。"
 
 #: conversationlist_algangror.json:algangror_told_2:0
 msgid "Yes, I have told Jhaeld where you are."
-msgstr "是的，我已经告诉贾尔德你在哪里。"
+msgstr "你说得没错，我已经把你的位置告诉贾尔德了。"
 
 #: conversationlist_algangror.json:algangror_told_2:1
 msgid "[Lie] No, I have not told anyone."
-msgstr "[谎言]不，我没有告诉任何人。"
+msgstr "[撒谎] 不是这样的，我并没有把它告诉任何人。"
 
 #: conversationlist_algangror.json:algangror_told_3
 msgid "I can feel it in me."
-msgstr "我能感觉到。"
+msgstr "这我能感觉得到。"
 
 #: conversationlist_algangror.json:algangror_task2_d
 msgid "Very well, return to me once you are ready."
-msgstr "很好，准备好了就回来找我。"
+msgstr "行吧，如果你准备好了的话就回来找我。"
 
 #: conversationlist_algangror.json:algangror_task2_1
 msgid "Now, I can't tell you what task I have in mind before I am confident that you will actually help me. Granted, you have already shown some level of respect for my need of discretion."
-msgstr "现在，在我相信你会帮助我之前，我无法告诉你要完成的任务。当然，我对你已经有一定程度的认同了。"
+msgstr "目前我还不能彻底完全信任你会真的帮助我，所以我还不能告诉你我的全盘计划。当然"
+"，你先前的所作所为已经一定程度向我展示你值得信任了。"
 
 #: conversationlist_algangror.json:algangror_task2_2
 msgid "Nor can I describe my reasoning behind this task before you are done with it."
-msgstr "在你完成这项任务之前，我也无法描述我的理由。"
+msgstr "另外在你完成这项任务之前，也请恕我无法告诉我这样做的理由。"
 
 #: conversationlist_algangror.json:algangror_task2_3
 msgid "Rest assured, you will be sufficiently rewarded by helping me. In fact, you see this necklace here? It has some peculiar powers that many people seek."
-msgstr "请放心，你帮助我会得到足够的回报。事实上，你看到这条项链了吗？它有一些许多人所寻求的特殊能力。"
+msgstr "请放心，事情完成之后你会得到优厚回报的。话说你瞧见这条项链了吗？它所蕴含的非"
+"凡力量可是不知多少人所梦寐以求而不得的。"
 
 #: conversationlist_algangror.json:algangror_task2_4
 msgid "The world around you seems to move a bit slower when you wear it."
-msgstr "当你戴上它时，你周围的世界似乎移动得有点慢。"
+msgstr "在你戴上它后，连周围世界的移动速度都似乎会慢上一点。"
 
 #: conversationlist_algangror.json:algangror_task2_4:0
 msgid "OK. I will help you with your task."
-msgstr "好啊。我将帮助你完成任务。"
+msgstr "好，我会帮助你完成任务的。"
 
 #: conversationlist_algangror.json:algangror_task2_4:1
 #: conversationlist_algangror.json:algangror_task2_5:1
 msgid "OK, I'll help. I'm always interested in new items."
-msgstr "好的，我会帮忙的。我总是对新鲜东西感兴趣。"
+msgstr "好，我会帮忙的，能搞到新的物件的活总是不错的。"
 
 #: conversationlist_algangror.json:algangror_task2_4:2
 msgid "It all depends on what you want me to do."
-msgstr "这完全取决于你想让我做什么。"
+msgstr "这完全取决于你想让我干的事的内容。"
 
 #: conversationlist_algangror.json:algangror_task2_4:3
 msgid "Something feels wrong here. I don't think I should help you."
-msgstr "这里感觉有点不对劲。我想我不应该帮助你。"
+msgstr "这件事好像不太对头，我想还是算了。"
 
 #: conversationlist_algangror.json:algangror_task2_5
 msgid "As I said, I cannot tell you what task I have in mind, or my reasoning behind it until you are done. I would need your total ... cooperation with this."
-msgstr "正如我所说的，在你们完成之前，我无法告诉你们我在想什么任务，或者我背后的理由。我需要你的全部。。。与此合作。"
+msgstr "正如我之前所说的，在你把任务完成之前，我无法告诉你我的全盘打算，我这样做的理"
+"由也是如此。对此我需要你彻底地……合作到这件事中来。"
 
 #: conversationlist_algangror.json:algangror_task2_5:0
 msgid "OK. I will agree to help you with your task."
-msgstr "好啊。我同意帮助你完成任务。"
+msgstr "好吧，我会帮助你完成任务的。"
 
 #: conversationlist_algangror.json:algangror_task2_5:2
 msgid "No. I will not help you unless you tell me what you want me to do."
-msgstr "不，除非你告诉我你要我做什么，否则我不会帮你。"
+msgstr "不行，除非你告诉我到底你要我做什么，否则我是不会帮助你的。"
 
 #: conversationlist_algangror.json:algangror_task2_5:3
 msgid "No, I would never help someone like you."
-msgstr "不，我永远不会帮助像你这样的人。"
+msgstr "不，我是永远都不会帮助像你这样的人的。"
 
 #: conversationlist_algangror.json:algangror_task2_n
 msgid "Ah yes. After all, you are just a child and I can understand that all of this must be too much for you. Hee hee."
-msgstr "啊,对。毕竟，你只是一个孩子，我能理解这一切对你来说一定是太多了。嘿嘿。"
+msgstr "啊行吧。毕竟你只是一个孩子，理解这一切对你来说确实是强人所难了。嘿嘿。"
 
 #: conversationlist_algangror.json:algangror_task2_n2
 msgid "Can I at least urge you not to disclose my location to the people of Remgard?"
-msgstr "我能不能至少敦促你不要向瑞姆加德的人透露我的位置？"
+msgstr "那我至少还得敦促一下你不要向瑞姆加德的人透露我的位置，行吗？"
 
 #: conversationlist_algangror.json:algangror_task2_n2:0
 msgid "I will keep your location secret. Goodbye."
-msgstr "我会保密你的所在。再见。"
+msgstr "我会对你在这里这件事保密的，再见。"
 
 #: conversationlist_algangror.json:algangror_task2_n2:1
 msgid "We'll see. Goodbye."
-msgstr "我们拭目以待。再见。"
+msgstr "你就瞧着好了，再见。"
 
 #: conversationlist_algangror.json:algangror_task2_n2:2
 msgid "Don't tell me what to do! Goodbye."
-msgstr "别告诉我该怎么办！再见。"
+msgstr "你别教我做事！再见。"
 
 #: conversationlist_algangror.json:algangror_task2_6
 msgid "Good, good."
@@ -14347,15 +14355,16 @@ msgstr "好，好。"
 
 #: conversationlist_algangror.json:algangror_task2_7
 msgid "You will tell no one of this task that I am about to give you, and you must be as discreet as possible."
-msgstr "你不会告诉任何人我将要给你的任务，你必须尽可能谨慎。"
+msgstr "我要交给你的任务你不要告诉任何人，另外你还得尽可能地保持谨慎。"
 
 #: conversationlist_algangror.json:algangror_task2_8
 msgid "I have in my possession five idols. Five idols with very unique ... qualities. What I want you to do is ... deliver these idols to various people in the town of Remgard."
-msgstr "我有五个神像。五个神像非常独特。。。品质。我要你做的是。。。把这些神像交给瑞姆加德镇的不同的人。"
+msgstr "我这里有五尊神像。这五尊神像有着非常独特的……品质。而我要你做的就是把这些神像…"
+"…运至瑞姆加德镇上的几个人那里。"
 
 #: conversationlist_algangror.json:algangror_task2_9
 msgid "You will place them by the beds of five particular persons, and you must hide it well so that the person does not find the idol itself."
-msgstr "你要把它们放在五个人的床边，你必须把它藏好，以免那个人发现神像本身。"
+msgstr "你需要把它们放到五个特定的人的床边，同时还得将这些神像藏好不被发现。"
 
 #: conversationlist_algangror.json:algangror_task2_10
 msgid "Remember, it is of utmost importance that you be as discreet as possible about this. The idols must not be found once you have placed them, and no one must notice that you place the idols."
@@ -67766,7 +67775,7 @@ msgstr "守卫手套"
 
 #: itemlist_v0610_1.json:gloves_leather_attack
 msgid "Leather gloves of attack"
-msgstr "作战皮手套"
+msgstr "战斗皮手套"
 
 #: itemlist_v0610_1.json:gloves_woodcutter
 msgid "Woodcutter's gloves"
@@ -67878,7 +67887,7 @@ msgstr "反刺之戒"
 
 #: itemlist_v0610_1.json:ring_polished_combat
 msgid "Polished combat ring"
-msgstr "抛光作战戒指"
+msgstr "抛光作战之戒"
 
 #: itemlist_v0610_1.json:ring_villain
 msgid "Villain's ring"
@@ -67971,19 +67980,19 @@ msgstr "瑞姆加德盾牌"
 
 #: itemlist_v0611_1.json:remgard_shield_2
 msgid "Remgard combat shield"
-msgstr "瑞姆加德战斗盾牌"
+msgstr "瑞姆加德战盾"
 
 #: itemlist_v0611_1.json:helm_combat1
 msgid "Combat helm"
-msgstr "战斗头盔"
+msgstr "战盔"
 
 #: itemlist_v0611_1.json:helm_combat2
 msgid "Enhanced combat helmet"
-msgstr "改良战斗头盔"
+msgstr "改良战盔"
 
 #: itemlist_v0611_1.json:helm_combat3
 msgid "Remgard combat helmet"
-msgstr "瑞姆加德战斗头盔"
+msgstr "瑞姆加德战盔"
 
 #: itemlist_v0611_1.json:helm_redeye1
 msgid "Cap of red eyes"
