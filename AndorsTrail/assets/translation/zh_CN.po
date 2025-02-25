@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-25 06:14+0000\n"
+"PO-Revision-Date: 2025-02-25 07:47+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -14467,47 +14467,52 @@ msgstr "请告诉我有没有人看见了塑像或者你放置时的动作？"
 
 #: conversationlist_algangror.json:algangror_task2_done2:0
 msgid "No, I hid the idols as you instructed."
-msgstr "不，我按照你的指示把神像藏起来了。"
+msgstr "没有，我完全按你说的那样把塑像藏起来了。"
 
 #: conversationlist_algangror.json:algangror_task2_done3
 msgid "Good. Thank you again for helping me."
-msgstr "好的再次感谢你帮助我。"
+msgstr "很好，我要对帮助再次说声感谢。"
 
 #: conversationlist_algangror.json:algangror_story
 msgid "Let me tell you my story."
-msgstr "让我告诉你我的故事。"
+msgstr "就让我告诉你我的故事吧。"
 
 #: conversationlist_algangror.json:algangror_story:1
 msgid "Can we just skip to the end?"
-msgstr "我们能直接跳到最后吗？"
+msgstr "你能直接跳到结尾来讲吗？"
 
 #: conversationlist_algangror.json:algangror_story1
 msgid "You see, I used to live in the city of Remgard. The times were good, and the city prospered."
-msgstr "你看，我曾经住在瑞姆加德，那时候很美好，城市繁荣昌盛。"
+msgstr "是这样的，我曾经就生活在瑞姆加德，那时候的日子很美好，城里也是一派欣欣向荣的"
+"样子。"
 
 #: conversationlist_algangror.json:algangror_story2
 msgid "Our crops grew well, and some people had very fortunate trading agreements with other cities, making the life for most of us living in Remgard very easy."
-msgstr "我们的庄稼长得很好，有些人与其他城市签订了非常幸运的贸易协定，使我们大多数在瑞姆加德的人们生活变得很舒适。"
+msgstr "那时我们的庄稼收成很好，许多人都很走运地与别的城市的人之间有些贸易往来的渠道"
+"，这也造就那时我们这些瑞姆加德人大多数的生活都过得很舒坦。"
 
 #: conversationlist_algangror.json:algangror_story3
 msgid "I even sold some of the baskets that I used to make to a wealthy merchant that visited us from Nor City."
-msgstr "我甚至卖掉了一些我以前给一个有钱商人买的篮子, 这是从城市来的。"
+msgstr "我甚至有过把自己编的篮子卖给过一位来自诺尔城的富商。"
 
 #: conversationlist_algangror.json:algangror_story4
 msgid "However, even the easy life gets boring after a while. I believe it is in our nature to strive for new and better things, to free us from the boredom of day-to-day life."
-msgstr "但是，即使轻松的生活也会在一段时间后变得无聊。我相信我们的本性就是追求更新更美好的事物，从单调的日常生活解脱出来。"
+msgstr "然而，就算是舒坦的生活最终也会变得无聊。我觉得这就是人性：人总是渴望摆脱日复"
+"一日的乏味现状，而去追求更新跟好的事物。"
 
 #: conversationlist_algangror.json:algangror_story5
 msgid "I wanted to learn more of things that I knew nothing about, and wanted to explore things I had only read of in books before."
-msgstr "我想学习更多我不知道的东西，探索以前只在书中读到过的内容。"
+msgstr "所以我就想去学习更多我所不了解的东西，并渴望将那些已在书中读过的东西在现实中"
+"加以探索。"
 
 #: conversationlist_algangror.json:algangror_story6
 msgid "So I went to Nor City myself, and visited many ... interesting people and ... dark corners."
-msgstr "所以我自己去了诺尔城，参观了很多。。。有趣的人和。。。黑暗的角落。"
+msgstr "所以我就独身一人去了诺尔城，在那里我拜访了许多……有趣的人以及那些……黑暗的角落"
+"。"
 
 #: conversationlist_algangror.json:algangror_story7
 msgid "Naturally, I was thrilled of the knowledge I gained from the experience, and from what I learned while there."
-msgstr "当然，我很高兴在这次经历中学到的经验和这里的学到的知识。"
+msgstr "自然而然地，我在那趟旅途中学到了很多，其中所了解到的知识让我欣喜若狂。"
 
 #: conversationlist_algangror.json:algangror_story7:0
 #: conversationlist_algangror.json:algangror_story11:0
@@ -14517,11 +14522,13 @@ msgstr "然后呢？"
 
 #: conversationlist_algangror.json:algangror_story8
 msgid "As I got back home, I wanted to continue practicing what I had observed and learned while in Nor City."
-msgstr "当我回到家后，我想继续练习在诺尔城观察和学习到的东西。"
+msgstr "待我回到家后，我就想着继续练习那些我在诺尔城所遇见并学到的知识。"
 
 #: conversationlist_algangror.json:algangror_story9
 msgid "You could say I got obsessed with learning more. I guess the others living in Remgard did not ... share my enthusiasm. Some of them even questioned the fact that I wanted to learn more."
-msgstr "你可以说我痴迷于学习更多。我猜住在瑞姆加德的其他人没有。。。分享我的热情。他们中的一些人甚至质疑我想了解更多的事实。"
+msgstr ""
+"如果说我当时对学习是一种痴迷的状态那也没错。我想那些生活在瑞姆加德的其他人估"
+"计是没能……理解我的学习热情，其中一些人甚至质疑我为何而如此学习那些东西。"
 
 #: conversationlist_algangror.json:algangror_story10
 msgid "So I told myself that others would not hinder me in my curiosity to better myself."
