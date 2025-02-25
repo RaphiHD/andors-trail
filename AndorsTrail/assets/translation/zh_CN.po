@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-25 02:15+0000\n"
+"PO-Revision-Date: 2025-02-25 03:15+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -14368,7 +14368,8 @@ msgstr "你需要把它们放到五个特定的人的床边，同时还得将这
 
 #: conversationlist_algangror.json:algangror_task2_10
 msgid "Remember, it is of utmost importance that you be as discreet as possible about this. The idols must not be found once you have placed them, and no one must notice that you place the idols."
-msgstr "记住，这件事你必须非常谨慎，娃娃一旦被放置就不能被发现，而且也不会有人发现你放置了它。"
+msgstr "请时刻牢记，在进行这件事时你一定要谨慎再谨慎，这些神像一旦放好之后就绝不能被"
+"发现，你放置的动作也绝不能被察觉。"
 
 #: conversationlist_algangror.json:algangror_task2_10:0
 #: conversationlist_stoutford.json:yolgen_rumblings10_2:1
@@ -14377,32 +14378,35 @@ msgstr "继续。"
 
 #: conversationlist_algangror.json:algangror_task2_11
 msgid "So, the first person that I want you to visit is Jhaeld. I hear that he spends most of his time in the Remgard tavern these days."
-msgstr "那么，首先我希望你去拜访贾尔德。我听说他在瑞姆加德住了一段时间。"
+msgstr "那么，第一个我希望你去拜访一下的人是贾尔德，我听说他这些天里基本上都待在瑞姆"
+"加德酒馆里。"
 
 #: conversationlist_algangror.json:algangror_task2_12
 msgid "Secondly, I want you to visit one of the farmers named Larni. He lives with his wife Caeda here in Remgard in one of the northern cabins."
-msgstr "其次，我希望你拜访一名叫拉尔尼的农夫，他与妻子卡埃达住在瑞姆加德的一间北部小屋中。"
+msgstr "第二个我希望你拜访的人是一名叫拉尔尼的农夫，他与他的妻子卡埃达一起住在瑞姆加"
+"德北部的一间小屋里。"
 
 #: conversationlist_algangror.json:algangror_task2_13
 #: questlist_v0611_3.json:fiveidols:33
 msgid "The third person is Arnal the weapon-smith, that lives in the northwest of Remgard."
-msgstr "第三个人是居住在瑞姆加德西北部的武器匠阿娜尔。"
+msgstr "第三个是居住在瑞姆加德西北部的武器匠阿娜尔。"
 
 #: conversationlist_algangror.json:algangror_task2_14
 msgid "Fourth is Emerei, that can probably be found in his house to the southeast of Remgard."
-msgstr "第四个是埃默伊，可能在他位于瑞姆加德东南部的房子里可以找到。"
+msgstr "第四个是埃默伊，他多半待在瑞姆加德东南边的家里。"
 
 #: conversationlist_algangror.json:algangror_task2_15
 msgid "The fifth person is the farmer Carthe. Carthe lives on the eastern shore of Remgard, near the tavern."
-msgstr "第五个人是农夫卡尔特。卡尔特住在瑞姆加德的东岸，靠近酒馆。"
+msgstr "第五个人是农夫卡思，他住在瑞姆加德的东岸附近，就在靠近酒馆的地方。"
 
 #: conversationlist_algangror.json:algangror_task2_16
 msgid "Once you have placed these five idols by the beds of these five people, return to me as soon as possible."
-msgstr "一旦你把这五个神像放在这五个人的床边，请尽快回到我身边。"
+msgstr "在你把这五尊神像放到这五个人的床边后，请尽快回到我这里来告知我。"
 
 #: conversationlist_algangror.json:algangror_task2_17
 msgid "Again, I cannot stress this enough - you must not tell anyone about these idols, and you must not be seen while placing them."
-msgstr "我再次强调，这一点再强调也不为过——你不能告诉任何人关于这些神像的事，也不能在放置它们时让人看到你。"
+msgstr "我要再次强调一下，事实上这一点再强调也不为过——你绝不能告诉任何人关于这些神像"
+"的事，也不能在放置它们时让人看到。"
 
 #: conversationlist_algangror.json:algangror_task2_17:0
 #: conversationlist_stoutford_combined.json:stoutford_widow_roots4045_3:1
@@ -14411,15 +14415,15 @@ msgstr "我明白了。"
 
 #: conversationlist_algangror.json:algangror_task2_18
 msgid "Here are the idols."
-msgstr "给你神像。"
+msgstr "神像在这儿，给你。"
 
 #: conversationlist_algangror.json:algangror_task2_18:0
 msgid "I will be back shortly."
-msgstr "我很快就回来。"
+msgstr "我很快回来。"
 
 #: conversationlist_algangror.json:algangror_task2_18:1
 msgid "This should be easy."
-msgstr "这应该很容易。"
+msgstr "小事一桩。"
 
 #: conversationlist_algangror.json:algangror_task2_19
 msgid "Now go, and please hurry, we might not have much time."
@@ -14727,7 +14731,9 @@ msgstr "听好了，你沿着莱洛斯湖北岸向东走，在中途有一个延
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_3
 msgid "We have reason to believe that this cabin is inhabited by someone, since we have seen candlelight coming from there during the night across the lake. We are not certain though, it could just be the moonlight on the water."
-msgstr "我们怀疑目前有人居住在那个小屋里，因为最近晚上我们从这里隔湖而望，可以望见到那里隐约有烛光。但我们不是太确定，说不定那实际上只是水面上的一丝月光罢了。"
+msgstr ""
+"我们怀疑目前有人居住在那个小屋里，因为最近晚上我们从这里隔湖而望，可以望见到"
+"那里隐约有烛光。但我们不是太确定，说不定那实际上只是月亮的浮光掠影罢了。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_4
 msgid "That's where you come in, and might be able to help us."
@@ -18510,7 +18516,7 @@ msgstr "你看到一张床和床头柜。这一定是埃默伊的床。"
 
 #: conversationlist_remgard_idolsigns.json:carthe_bed_3
 msgid "You see a bed and nightstand. This must be Carthe's bed."
-msgstr "你看到一张床和床头柜。这一定是卡尔特的床。"
+msgstr "你看到一张床和床头柜。这一定是卡思的床。"
 
 #: conversationlist_signs_v0611.json:remgard_tavern_room
 msgid "You are not allowed to enter this room until you have rented it."
@@ -73435,7 +73441,7 @@ msgstr "卡埃达"
 
 #: monsterlist_v0611_npcs2.json:carthe
 msgid "Carthe"
-msgstr "卡尔特"
+msgstr "卡思"
 
 #: monsterlist_v0611_npcs2.json:chael
 msgid "Chael"
@@ -78052,11 +78058,12 @@ msgstr "在东北边的山区之中，在位于莱洛斯湖北岸的半岛上的
 
 #: questlist_v0611.json:algangror:11
 msgid "She has a rodent problem and needs help dealing with some of them that she has trapped in her basement."
-msgstr "她有啮齿动物问题，需要帮助处理她被困在地下室中的一些问题。"
+msgstr "她这里有一个鼠类的问题，需要我帮助她处理掉已经被困在地下室中的其中几个。"
 
 #: questlist_v0611.json:algangror:15
 msgid "I have agreed to help Algangror deal with her rodent problem. I should return to her when I have killed all six rodents in her basement."
-msgstr "我已经同意帮助阿尔冈格罗处理她的啮齿动物问题。当我把她地下室里的六只老鼠全部杀死后，我应该再去找她。"
+msgstr "我答应了帮助阿尔冈格罗去处理掉麻烦她的那些鼠类。我应该在解决掉全部六个在她房"
+"子地下室的鼠类后再向她交代一下。"
 
 #: questlist_v0611.json:algangror:20
 msgid "Algangror thanked me for helping her with her problem."
@@ -78064,15 +78071,18 @@ msgstr "阿尔冈格罗感谢我帮助她解决了问题。"
 
 #: questlist_v0611.json:algangror:21
 msgid "She also told me not to talk to anyone in Remgard about her whereabouts. Apparently, they are looking for her for some reason that she would not say. Under no circumstances should I tell anyone where she is."
-msgstr "她还告诉我，不要和瑞姆加德的任何人谈起她的下落。显然，他们正在寻找她，因为某些原因，她不愿意说。在任何情况下，我都不应该告诉任何人她在哪里。"
+msgstr ""
+"她还告诉我绝不要和瑞姆加德的任何人谈起她的下落。很显然瑞姆加德的众人正在寻找"
+"她，至于这是出于什么原因，她不愿意告诉我。在任何情况下，我都不应该告诉任何人"
+"她在哪里。"
 
 #: questlist_v0611.json:algangror:100
 msgid "I will not help Algangror with her task."
-msgstr "我不会帮助阿尔冈格罗完成她的任务。"
+msgstr "我拒绝帮助阿尔冈格罗完成她的任务。"
 
 #: questlist_v0611.json:algangror:101
 msgid "Algangror won't talk to me, and I will be unable to help her with her task."
-msgstr "阿尔冈格罗不会和我说话，而我将无法帮助她完成任务。"
+msgstr "阿尔冈格罗直接拒绝和我交流了，而我也就不能帮助她完成她的任务了。"
 
 #: questlist_v0611_2.json:toszylae
 msgid "An involuntary carrier"
@@ -78463,7 +78473,7 @@ msgstr "第四是埃默伊，可以在瑞姆加德的东南方找到。"
 
 #: questlist_v0611_3.json:fiveidols:35
 msgid "The fifth person is Carthe. Carthe lives on the eastern shore of Remgard, near the tavern."
-msgstr "第五个人是卡尔特。卡尔特住在瑞姆加德的东岸，靠近酒馆。"
+msgstr "第五个人是卡思，他住在瑞姆加德的东岸附近，就在靠近酒馆的地方。"
 
 #: questlist_v0611_3.json:fiveidols:37
 msgid "I must not tell anyone of my task, or of the placement of the idols."
@@ -78487,7 +78497,7 @@ msgstr "我在埃默里的床边放置了一个神像。"
 
 #: questlist_v0611_3.json:fiveidols:45
 msgid "I have placed an idol by Carthe's bed."
-msgstr "我在卡特的床边放置了一个神像。"
+msgstr "我在卡思的床边放置了一个神像。"
 
 #: questlist_v0611_3.json:fiveidols:50
 msgid "All the idols have been placed by the beds of the people that Algangror told me to visit. I should return to Algangror."
