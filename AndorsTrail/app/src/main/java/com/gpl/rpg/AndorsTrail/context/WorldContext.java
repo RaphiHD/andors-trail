@@ -70,6 +70,6 @@ public final class WorldContext {
 		ChecksumBuilder checksumBuilder = new ChecksumBuilder();
 		model.addToChecksum(checksumBuilder);
 		maps.addToChecksum(checksumBuilder, this);
-        return checksumBuilder.build();
+		return checksumBuilder.build();
 	}
 }
