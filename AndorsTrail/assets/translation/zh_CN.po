@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-26 05:51+0000\n"
+"PO-Revision-Date: 2025-02-26 08:05+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -127,7 +127,7 @@ msgstr "暗影命中祝福"
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
-msgstr "暗影守护祝福"
+msgstr "暗影护卫祝福"
 
 #: actorconditions_v0611_2.json:crit1
 msgid "Internal bleeding"
@@ -3801,11 +3801,13 @@ msgstr "又见面了，你进过石板监狱了吗？说实话我很惊讶你能
 
 #: conversationlist_flagstone.json:flagstone_sentry_return1:1
 msgid "There is a guardian in the lower levels of Flagstone that cannot be approached and the former prisoners are undead now."
-msgstr "我在石板监狱的下层遇到了一个没办法接近的守卫，另外那些过去的囚犯现在都变成亡灵了。"
+msgstr "我在石板监狱的下层遇到了一个没办法接近的护卫，另外那些过去的囚犯现在都变成亡"
+"灵了。"
 
 #: conversationlist_flagstone.json:flagstone_sentry_20
 msgid "A guardian and undead prisoners you say? This is troubling news, since it means there is some larger force behind all this."
-msgstr "你是说你遇到了一个守卫以及一些囚犯变的亡灵？这真是一个糟糕的消息，看来其背后还存在某种更为强大的家伙。"
+msgstr "你是说你遇到了一个护卫以及一些囚犯变的亡灵？这真是一个糟糕的消息，看来其背后"
+"还存在某种更为强大的家伙。"
 
 #: conversationlist_flagstone.json:flagstone_sentry_21
 msgid "You should look for the former warden. Maybe he has something to do with all of this. If you find him you should return here with any important news."
@@ -3845,7 +3847,7 @@ msgstr "嗯，让我瞧下这一处；啊，没错，我猜得没错，项链上
 
 #: conversationlist_flagstone.json:flagstone_sentry_42
 msgid "'Daylight Shadow'. That must be it. You should try to approach the guardian with this password."
-msgstr "“白日暗影”，应该没有问题，我想你可以用这个口令接近那个守卫。"
+msgstr "“白日暗影”，应该没有问题，我想你可以用这个口令接近那个护卫。"
 
 #: conversationlist_flagstone.json:flagstone_sentry_return3
 msgid "Hello again. How is the investigation of the undead in Flagstone going?"
@@ -10333,7 +10335,7 @@ msgstr ""
 #: conversationlist_blackwater_throdna.json:throdna_15
 msgid "According to our sources, there should be five parts of the ritual scattered across the mountain. Three of them describing the ritual itself, and two describing the Kazaul chant used to summon the guardian."
 msgstr "而根据我们所了解的信息，散落在山间的仪式笔记有五个部分：其中三个部分是在描述"
-"仪式本身的事项，而另外两个部分记载了用于召唤守卫的卡扎尔咒语。"
+"仪式本身的事项，而另外两个部分记载了用于召唤护卫的卡扎尔咒语。"
 
 #: conversationlist_blackwater_throdna.json:throdna_16
 msgid "Hmm, maybe you could be of use here..."
@@ -10523,11 +10525,11 @@ msgstr "卡扎尔，光明之梦的毁灭者。"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_1
 msgid "[The guardian looks completely unaware of your presence]"
-msgstr "[这个守卫仿佛完全没有意识到你的存在]"
+msgstr "[这个护卫仿佛完全没有意识到你的存在]"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_2
 msgid "[The guardian looks down upon you with its burning eyes]"
-msgstr "[守卫俯下了头，它那双冒着火的的眼睛盯向了你]"
+msgstr "[护卫俯下了头，它那双冒着火的的眼睛盯向了你]"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_2:0
 msgid "Kazaul, defiler of the Elytharan Temple."
@@ -10535,7 +10537,7 @@ msgstr "卡扎尔，埃利萨拉神庙的亵渎者。"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_3
 msgid "[You see the burning eyes of the guardian instantly turn into a dark red haze]"
-msgstr "[你瞧见了这个守卫的那双燃烧着的眼睛瞬间变成了一片血色暗雾]"
+msgstr "[你瞧见了这个护卫的那双燃烧着的眼睛瞬间变成了一片血色暗雾]"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_3:0
 msgid "A fight, I have been waiting for this!"
@@ -14035,7 +14037,7 @@ msgstr "恕我无可奉告。"
 #: conversationlist_algangror.json:algangror_1:4
 #: conversationlist_algangror.json:algangror_return_1:4
 msgid "I am sent by Jhaeld to end whatever it is you do to the people of Remgard."
-msgstr "我是贾尔德派来阻止你对瑞姆加德人的胡作非为的。"
+msgstr "我是贾尔德派来阻止你对瑞姆加德众人的胡作非为的。"
 
 #: conversationlist_algangror.json:algangror_2a
 msgid "Run away, has he? He he."
@@ -14233,7 +14235,7 @@ msgstr "你最好在可能把什么东西揭开…嗯哼…弄破前离开这里
 
 #: conversationlist_algangror.json:algangror_return_d2:0
 msgid "I was sent by Jhaeld to end whatever it is you are doing to the people of Remgard."
-msgstr "我是贾尔德派来阻止你正在对瑞姆加德人所进行的胡作非为的。"
+msgstr "我是贾尔德派来阻止你正在对瑞姆加德众人所进行的胡作非为的。"
 
 #: conversationlist_algangror.json:algangror_return_d2:1
 msgid "Watch your tongue, witch."
@@ -14646,19 +14648,21 @@ msgstr "你的所作所为就是在作恶！"
 
 #: conversationlist_algangror.json:algangror_story29a
 msgid "Thank you. It is good to know there are more people interested in learning more."
-msgstr "谢谢你！知道有更多的人对学习有兴趣是件好事。"
+msgstr "谢谢你，能还有人也愿意学习探索更多知识我很高兴。"
 
 #: conversationlist_algangror.json:algangror_story29b
 msgid "I never expected you to understand it. No one else seems to understand me either. Oh well, your loss, I guess."
-msgstr "我从没想过你会理解。没有人会理解我。哦，真是遗憾。"
+msgstr "我早就料到你不能理解我的，别的所有人大概也不会。哦好吧，我想你没能理解我真是"
+"可惜。"
 
 #: conversationlist_algangror.json:algangror_cmp1
 msgid "So, for helping me with the idols, I believe I promised you my enchanted necklace, 'Marrowtaint'."
-msgstr "所以，为了帮助我和神像，我相信我向你许诺了我的魔法项链，“亵髓”。"
+msgstr "总而言之，既然你成功帮我摆放了那些塑像，那我也应实现我先前的允诺，给予你我的"
+"附魔项链——“亵髓”。"
 
 #: conversationlist_algangror.json:algangror_cmp2
 msgid "Wear it well, my friend. Do not let others get hold of the power that Marrowtaint provides."
-msgstr "戴好它，我的朋友。不要让别人掌握了“亵髓”所拥有的力量。"
+msgstr "请戴好它，我的朋友。另外千万不要让别的什么人得到了“亵髓”所拥有的力量。"
 
 #: conversationlist_algangror.json:algangror_cmp3
 #: conversationlist_talion_2.json:talion_bone_1:0
@@ -14673,15 +14677,15 @@ msgstr "给你。"
 
 #: conversationlist_algangror.json:algangror_cmp3:1
 msgid "That's all? One lousy necklace for all this trouble I went through?"
-msgstr "这就是全部吗?我经历了这么多麻烦，只有一条蹩脚的项链吗?"
+msgstr "这就完了？我一路处理了这么多麻烦，结果只有一条破项链吗？"
 
 #: conversationlist_algangror.json:algangror_cmp4
 msgid "Do not underestimate it, my friend."
-msgstr "不要低估它，我的朋友。"
+msgstr "请不要轻视它的力量，我的朋友。"
 
 #: conversationlist_algangror.json:algangror_cmp5
 msgid "Again, thank you for helping me. You will always be welcome here, friend."
-msgstr "再次感谢你的帮助。你在这里永远是受欢迎的，朋友。"
+msgstr "我要再次感谢一下你的帮助，这里也随时欢迎你的回来，朋友。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_1
 msgid "Halt! No one is allowed to enter or exit Remgard."
@@ -14736,7 +14740,8 @@ msgstr "我就是进去做点买卖，非常快，我保证。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_7
 msgid "No. As I said, no one except us guards are allowed to enter or exit town until our investigation is completed. I suggest you leave now."
-msgstr "不行，我刚刚说过了，在调查完成之前，只有我们卫兵可以进出城镇。我建议你现在就可以离开了。"
+msgstr "不行，我刚刚说过了，在调查完成之前，只有我们这些守卫可以进出城镇。我建议你现"
+"在就可以离开了。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_1
 msgid "Hmm, yes, that might be a good idea actually. Considering you made it up here, you must have some knowledge of the surroundings."
@@ -14786,7 +14791,7 @@ msgstr "当然，我很乐意帮忙。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_9:1
 msgid "I'll do it. I sure hope there will be some reward for this though."
-msgstr "我会做的，当然我希望这会有一些回报。"
+msgstr "我会去干的，另外我也希望这能有所回报。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_9:2
 msgid "No way, this sounds way too dangerous for me."
@@ -14794,11 +14799,11 @@ msgstr "不行，这似乎对我来说太危险了。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_9:3
 msgid "Actually, I have already been there. There is a woman called Algangror in the cabin."
-msgstr "我其实已经去过那里了，小屋里有一个叫阿尔冈格罗的女人。"
+msgstr "事实上我已经去过那里了，小屋里有一个叫阿尔冈格罗的女子。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_9:4
 msgid "Actually, I have already been there, but the cabin was empty."
-msgstr "我其实已经去过那里了，但是小屋里没人。"
+msgstr "事实上我已经去过那里了，但是小屋里没人。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_9d
 msgid "I don't blame you for declining. After all, it could be a dangerous task. Didn't hurt to ask though."
@@ -14806,11 +14811,11 @@ msgstr "你的拒绝无可指摘。毕竟这个任务可能很危险，只是说
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_10
 msgid "Excellent. Report back as soon as possible."
-msgstr "好极了，完成之后请你尽快返回并告知我情况。"
+msgstr "好极了，记得完成之后请你尽快返回并告知我情况。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_return
 msgid "Did you find anything in that abandoned house?"
-msgstr "你在那个废弃的房子里发现了什么？"
+msgstr "你在那个废弃的房子里发现了什么吗？"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_return:0
 msgid "Not yet. What was I supposed to do again?"
@@ -14822,7 +14827,7 @@ msgstr "还没呢，事情正在进行中。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_return:2
 msgid "There is a woman called Algangror in the cabin."
-msgstr "小屋里有个叫阿尔冈格罗的女人。"
+msgstr "小屋里有个叫阿尔冈格罗的女子。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_return:3
 msgid "Yes, I have been there, but the cabin was empty."
@@ -14834,7 +14839,8 @@ msgstr "阿尔甘格罗，唉，这正是我们所担心的，这个消息可太
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_helped_1
 msgid "You should go visit our village elder, Jhaeld, and talk to him about what we should do next. I will let you enter Remgard to speak to him."
-msgstr "你应该去拜访一下镇长贾尔德，和他谈谈我们下一步怎么办，你进到瑞姆加德里去找他吧。"
+msgstr "你应该去拜访一下镇里的长老贾尔德，和他谈谈我们下一步怎么办，你进到瑞姆加德里"
+"去找他吧。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_helped_2
 msgid "You can probably find him in the tavern to the southeast, since that's where he spends most of his time."
@@ -14846,31 +14852,33 @@ msgstr "我会去拜访他的。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_helped_n
 msgid "Thank you for scouting that cabin. It's a relief to hear that it is empty. Our fears might not be true then after all."
-msgstr "谢谢你探查那间小屋。听到它是空的，这是一种解脱。毕竟，我们的恐惧可能不是真的。"
+msgstr "谢谢你帮我们探查了那间小屋，听闻到它是空的真是 "
+"叫人心情舒畅，现在看来或许是我们猜测错了也说不准呢。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_helped_n:0
 msgid "You are welcome. Anything else I can help you with?"
-msgstr "不客气。还有什么我能帮你的吗？"
+msgstr "不客气，另外还有什么我能帮你的吗？"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_helped_n:1
 msgid "You are welcome. Now, about that reward?"
-msgstr "不客气。现在聊聊关于奖励的事情？"
+msgstr "不客气，现在可以聊聊关于奖励的事情了吗？"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_helped_n_2
 msgid "I guess you have proven yourself to be useful. We might have more work for you if you are interested."
-msgstr "我想你已经证明自己是有用的。如果你有兴趣，我们可能有更多的工作给你。"
+msgstr "我想你已经证明自己的能力，如果你愿意的话，我们可能会有更多的工作可以交给你。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_helped_n_3
 msgid "No no, we did not discuss any reward. But there might be one for you if you are willing to help us further."
-msgstr "不不，我们没有讨论任何奖励。但如果你愿意进一步帮助我们，可能会有一个奖励。"
+msgstr "不对不对，我们并没有讨论过关于什么奖励地事，但如果你愿意进一步帮助我们的话，"
+"我们会给你一份奖励的。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_1
 msgid "No! Stay away! You shall not defeat me!"
-msgstr "不，别过来！你不可能打败我！"
+msgstr "站住！不要过来！你打不败我的！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_2
 msgid "Oh wait, you are not one of them. You ... you are not one of those spawns."
-msgstr "哦等等，你不是他们中的一员。你……你不是这些后裔中的一员。"
+msgstr "哦等等，你不是他们那些家伙，你……你不是那些子嗣。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_2:0
 msgid "Relax, I am not here to hurt you."
@@ -14878,45 +14886,48 @@ msgstr "别紧张，我不是来伤害你的。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_2:1
 msgid "What's going on here?"
-msgstr "这里发生了什么事？"
+msgstr "这里是什么情况啊？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_4
 msgid "Oh, how long have I been down here? I can't remember."
-msgstr "哦，我在这下面多久了？我记不得了。"
+msgstr "哦，我在这下面多久了？我都回忆不起来了。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_5
 msgid "No matter. I must finish my work here. You see this shrine here?"
-msgstr "没有关系。我必须在这里完成我的工作。你看到这里的神龛了吗？"
+msgstr "不过这无足轻重，我还得在这里完成我的工作。你看到这里的神龛了吗？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_5_1
 msgid "If my understanding is correct, this shrine is a remnant of Kazaul."
-msgstr "如果我的理解是正确的，这个祠堂是卡扎尔的遗迹。"
+msgstr "如果我没搞错的话，这个神龛是属于卡扎尔的残余。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_6
 msgid "The writings on it have almost vanished, but I have managed to read parts of it. It speaks in an ancient Kazaul tongue, so all parts are not clear to me."
-msgstr "上面的文字几乎消失了，但我还是设法读出了其中的一部分。它用一种古老的卡扎尔语言，所以我不清楚所有的部分。"
+msgstr "上面的文字大多都湮灭了，但我还是设法成功读出了其中的一部分。它是用一种古老的"
+"卡扎尔语所写成的，所以我还没能弄清这部分的全部意思。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_7
 msgid "I am sure that this shrine is part of the cause for these ... these ... things ... that lurk in this cave. I will do anything in my power to defeat whatever mischief that comes from it."
-msgstr "我确定这座神殿是造成这些...这些...这些东西潜伏在这个山洞里的原因。我会尽我所能去战胜任何恶意。"
+msgstr "我可敢说那些潜伏在这个洞穴里的…呃…东西，很大程度上就是因为这个神龛而出现的。"
+"而我将会尽我所能地去铲除它所造成的麻烦。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_7:0
 #: conversationlist_ulirfendor.json:ulirfendor_11:0
 msgid "What are these creatures?"
-msgstr "这些生物是什么？"
+msgstr "所以那些怪物都是些什么啊？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_7:1
 #: conversationlist_ulirfendor.json:ulirfendor_9:0
 msgid "How come these creatures do not attack you?"
-msgstr "为什么这些生物不攻击你？"
+msgstr "话说为什么这些怪物都不攻击你啊？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_7:2
 msgid "What have you translated so far?"
-msgstr "到目前为止你翻译了什么？"
+msgstr "请问到目前为止你都翻译出什么结果了吗？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_8
 msgid "Ah, the allaceph. I had not seen one for many years until I entered this cave. They are a remnant of the guardians of Kazaul."
-msgstr "啊，阿拉塞普。在我进入这个洞穴之前，我已经很多年没有见过一个了。他们是卡扎尔守护者的残党。"
+msgstr "啊，那些怪物叫阿拉塞普。在我进入这个洞穴之前，我都已经很多年没有见过它们了，"
+"它们是残存的卡扎尔护卫。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_9
 msgid "Have you noticed how they seem to feed upon whoever tries to fight them? Cursed things, almost got a hold of me, they did."
@@ -16055,7 +16066,7 @@ msgstr "是的。好吧......当然是有偿的。"
 
 #: conversationlist_talion_2.json:talion_bless_1
 msgid "I am able to bless you with either the Shadow's strength, regeneration, accuracy, or even the blessing of the Shadow guardian."
-msgstr "我可以给你暗影力量、再生、命中祝福之一，甚至可以换成暗影守护祝福。"
+msgstr "我可以给你暗影力量、再生、命中祝福之一，甚至可以换成暗影护卫祝福。"
 
 #: conversationlist_talion_2.json:talion_bless_1:0
 msgid "I'm interested in the blessing of Shadow strength."
@@ -16071,7 +16082,7 @@ msgstr "我对暗影命中祝福很感兴趣。"
 
 #: conversationlist_talion_2.json:talion_bless_1:3
 msgid "I'm interested in the Shadow guardian blessing."
-msgstr "我对暗影守护者的祝福很感兴趣。"
+msgstr "我对暗影护卫祝福很感兴趣。"
 
 #: conversationlist_talion_2.json:talion_bless_1:4
 #: conversationlist_lleglaris.json:lleglaris2:7
@@ -72173,7 +72184,7 @@ msgstr "亡灵典狱长"
 
 #: monsterlist_wilderness.json:cave_guardian
 msgid "Cave guardian"
-msgstr "洞穴守卫"
+msgstr "洞穴护卫"
 
 #: monsterlist_wilderness.json:winged_demon
 msgid "Winged demon"
@@ -72484,7 +72495,7 @@ msgstr "卡扎尔小鬼"
 
 #: monsterlist_v069_monsters.json:kazaul_guardian
 msgid "Kazaul guardian"
-msgstr "卡扎尔守卫"
+msgstr "卡扎尔护卫"
 
 #: monsterlist_v069_monsters.json:graverobber
 msgid "Graverobber"
@@ -72801,7 +72812,7 @@ msgstr "强劲伊泽尔"
 #: monsterlist_v0610_monsters1.json:izthiel_4
 #: monsterlist_v0611_npcs2.json:izthiel_cr
 msgid "Izthiel guardian"
-msgstr "伊泽尔守卫"
+msgstr "伊泽尔护卫"
 
 #: monsterlist_v0610_monsters1.json:frog_1
 msgid "River frog"
@@ -73338,7 +73349,7 @@ msgstr "托斯拉"
 
 #: monsterlist_v0611_npcs1.json:toszylae_guard
 msgid "Radiant guardian"
-msgstr "烁光守卫"
+msgstr "烁光护卫"
 
 #: monsterlist_v0611_npcs1.json:thorin
 msgid "Thorin"
@@ -77620,8 +77631,8 @@ msgstr "斯隆德纳给了我一小瓶的净灵剂，他希望我能把它倒在
 
 #: questlist_v069.json:kazaul:50
 msgid "In the shrine at the base of Blackwater mountain, I met a guardian of Kazaul. By reciting the verses of the ritual chant, I was able to make the guardian attack me."
-msgstr "在黑水山山脚下的神龛供堂里，我遇到了一个卡扎尔的守卫。在我念出仪式咒语的颂词"
-"后，我就能攻击到那个守卫了。"
+msgstr "在黑水山山脚下的神龛供堂里，我遇到了一个卡扎尔的护卫。在我念出仪式咒语的颂词"
+"后，我就能攻击到那个护卫了。"
 
 #: questlist_v069.json:kazaul:60
 msgid "I have purified the shrine of Kazaul."
@@ -78466,31 +78477,36 @@ msgstr "瑞姆加德的裁缝埃尔维林给了我一顶羽毛帽，以感谢我
 
 #: questlist_v0611_3.json:fiveidols
 msgid "The five idols"
-msgstr "五个人偶"
+msgstr "五尊塑像"
 
 #: questlist_v0611_3.json:fiveidols:10
 msgid "Algangror wants me to help her with a task. She cannot describe the nature of the task, or the reasoning behind it. If I help her, she has promised to give me her enchanted necklace, that apparently is worth a lot."
-msgstr "阿尔冈格罗想让我帮她完成一项任务。她无法描述这个任务的性质，也无法解释背后的原因。如果我帮助她，她答应把她的魔法项链给我，那条项链显然价值不菲。"
+msgstr ""
+"阿尔冈格罗想让我帮她完成一项任务，而她不愿将这个任务的目的以及缘由告诉我。她"
+"答应如果我愿意帮助她的话，她可以把自己的附魔项链给我，而那条项链显然价值不菲"
+"。"
 
 #: questlist_v0611_3.json:fiveidols:20
 msgid "I have agreed to help Algangror with her task."
-msgstr "我同意帮助阿尔冈格罗完成她的任务。"
+msgstr "我答应了帮助阿尔冈格罗去完成她的任务。"
 
 #: questlist_v0611_3.json:fiveidols:30
 msgid "Algangror wants me to place five idols near five different people in Remgard. The idols should be placed near the beds of these five people, and must be hidden so that they are not found easily."
-msgstr "阿尔冈格罗要我在瑞姆加德的五个不同的人身边放置五个神像。这些神像应该放在这五个人的床边，而且必须隐藏起来，以便不容易被发现。"
+msgstr "阿尔冈格罗要我将五尊塑像放置到生活在瑞姆加德的特定五个人的身边，具体来说就是"
+"这五个人的床边，而且塑像必须被隐藏起来而不能被发现。"
 
 #: questlist_v0611_3.json:fiveidols:31
 msgid "The first person is Jhaeld, the village elder that can be found in the Remgard tavern."
-msgstr "第一个人是贾尔德，在瑞姆加德酒馆可以找到的村里的长老。"
+msgstr "第一个人是镇里的长老贾尔德，他可以在瑞姆加德小酒馆里被找到。"
 
 #: questlist_v0611_3.json:fiveidols:32
 msgid "Second, I should place an idol by the bed of Larni the farmer, that lives in one of the northern cabins in Remgard."
-msgstr "其次，我应该在农民拉尔尼的床边放一个神像，他住在瑞姆加德的一个北方小屋里。"
+msgstr "第二个我需要在床边拜访塑像的人是一名叫拉尔尼的农夫，他住在瑞姆加德北部的一间"
+"小屋里。"
 
 #: questlist_v0611_3.json:fiveidols:34
 msgid "Fourth is Emerei, that can be found to the southeast of Remgard."
-msgstr "第四是埃默伊，可以在瑞姆加德的东南方找到。"
+msgstr "第四个是埃默伊，我可以在瑞姆加德的东南边找到他。"
 
 #: questlist_v0611_3.json:fiveidols:35
 msgid "The fifth person is Carthe. Carthe lives on the eastern shore of Remgard, near the tavern."
@@ -78498,51 +78514,54 @@ msgstr "第五个人是卡思，他住在瑞姆加德的东岸附近，就在靠
 
 #: questlist_v0611_3.json:fiveidols:37
 msgid "I must not tell anyone of my task, or of the placement of the idols."
-msgstr "我不能告诉任何人我的任务，或神像的位置。"
+msgstr "我不能告诉任何人我的任务以及摆放的塑像的事。"
 
 #: questlist_v0611_3.json:fiveidols:41
 msgid "I have placed an idol by Jhaeld's bed."
-msgstr "我在杰尔德的床边放了一个神像。"
+msgstr "我在贾尔德的床边放置了一尊塑像。"
 
 #: questlist_v0611_3.json:fiveidols:42
 msgid "I have placed an idol by Larni the farmer's bed."
-msgstr "我在农夫拉尼的床边放了一个神像。"
+msgstr "我在农夫拉尔尼的床边放置了一尊塑像。"
 
 #: questlist_v0611_3.json:fiveidols:43
 msgid "I have placed an idol by Arnal's bed."
-msgstr "我在阿娜尔的床边放置了一个神像。"
+msgstr "我在阿娜尔的床边放置了一尊塑像。"
 
 #: questlist_v0611_3.json:fiveidols:44
 msgid "I have placed an idol by Emerei's bed."
-msgstr "我在埃默里的床边放置了一个神像。"
+msgstr "我在埃默伊的床边放置了一尊塑像。"
 
 #: questlist_v0611_3.json:fiveidols:45
 msgid "I have placed an idol by Carthe's bed."
-msgstr "我在卡思的床边放置了一个神像。"
+msgstr "我在卡思的床边放置了一尊塑像。"
 
 #: questlist_v0611_3.json:fiveidols:50
 msgid "All the idols have been placed by the beds of the people that Algangror told me to visit. I should return to Algangror."
-msgstr "所有的神像都放在阿尔冈罗尔叫我去拜访的人的床边。我应该回到阿尔冈格罗身边。"
+msgstr "所有的塑像都已经放置在了那些阿尔冈格罗叫我去拜访的人的床边。接下来我应该回到"
+"阿尔冈格罗那里去。"
 
 #: questlist_v0611_3.json:fiveidols:51
 msgid "Algangror thanked me for helping her."
-msgstr "阿尔冈格罗感谢我对她的帮助。"
+msgstr "阿尔冈格罗感谢了我对她做出的帮助。"
 
 #: questlist_v0611_3.json:fiveidols:60
 msgid "She told me her story, with how she used to live in the city, but was persecuted for her beliefs. According to her, the persecution was totally unjustified since she does no harm to people."
-msgstr "她告诉我她的故事，说她曾经住在这个城市，但是因为她的信仰而受到迫害。据她说，这种迫害是完全没有道理的，因为她没有对人造成伤害。"
+msgstr "她向我讲述了她的故事：她曾经就住在那座城中，却因自身的观念而受到苛待。据她所"
+"说，，那些苛待是完全不正当的，毕竟她没有对他人造成什么伤害。"
 
 #: questlist_v0611_3.json:fiveidols:61
 msgid "To take revenge on the city of Remgard, she managed to lure some people into her cabin and turn them into rats."
-msgstr "为了向瑞姆加德市复仇，她设法把一些人引到她的小屋，把他们变成了老鼠。"
+msgstr "为了向瑞姆加德城复仇，她设法把一些人引到她的小屋，并把他们变成了老鼠。"
 
 #: questlist_v0611_3.json:fiveidols:70
 msgid "For helping her with the tasks that she could not perform herself, Algangror gave me her enchanted necklace, 'Marrowtaint'."
-msgstr "为了帮助她完成自己无法完成的任务，阿尔冈格勒给了我她的魔法项链\"亵髓\"。"
+msgstr "鉴于我帮助她完成了她自己无法完成的任务，阿尔冈格罗将她的附魔项链“亵髓”交给了"
+"我。"
 
 #: questlist_v0611_3.json:fiveidols:100
 msgid "I have decided not to help Algangror with her task."
-msgstr "我决定不帮助阿尔冈格罗完成她的任务。"
+msgstr "我决定不去帮助阿尔冈格罗完成她的任务。"
 
 #: questlist_v0611_3.json:kaverin
 msgid "Old friends?"
