@@ -304,10 +304,10 @@
     <string name="skill_title_resistance_mental">Сильный разум</string>
     <string name="skill_title_resistance_physical_capacity">Несокрушимое тело</string>
     <string name="skill_title_resistance_blood_disorder">Чистая кровь</string>
-    <string name="skill_shortdescription_weapon_chance">Увеличение шанса атаки</string>
-    <string name="skill_shortdescription_weapon_dmg">Увеличение силы атаки</string>
+    <string name="skill_shortdescription_weapon_chance">Увеличенный шанс атаки</string>
+    <string name="skill_shortdescription_weapon_dmg">Увеличенная сила атаки</string>
     <string name="skill_shortdescription_barter">Лучшие цены в магазинах</string>
-    <string name="skill_shortdescription_dodge">Увеличение шанса блока</string>
+    <string name="skill_shortdescription_dodge">Увеличенный шанс блока</string>
     <string name="skill_shortdescription_barkskin">Сопротивление урону</string>
     <string name="skill_shortdescription_more_criticals">Увеличение навыка крит. удара</string>
     <string name="skill_shortdescription_better_criticals">Увеличение крит. урона</string>
@@ -319,10 +319,10 @@
     <string name="skill_shortdescription_cleave">Восстановление ОД за каждое убийство</string>
     <string name="skill_shortdescription_eater">Восстановление ОЗ за каждое убийство</string>
     <string name="skill_shortdescription_fortitude">Увеличение макс. ОЗ при каждом повышении уровня</string>
-    <string name="skill_shortdescription_evasion">Увеличение шанса сбежать</string>
+    <string name="skill_shortdescription_evasion">Увеличенный шанс бегства</string>
     <string name="skill_shortdescription_regeneration">Восстановление ОЗ каждый раунд</string>
     <string name="skill_shortdescription_lower_exploss">Сокращение потери опыта при смерти</string>
-    <string name="skill_shortdescription_magicfinder">Увеличение шансов найти магические предметы</string>
+    <string name="skill_shortdescription_magicfinder">Увеличенный шанс нахождения магических предметов</string>
     <string name="skill_shortdescription_resistance_mental">Устойчивость к психическим воздействиям</string>
     <string name="skill_shortdescription_resistance_physical_capacity">Устойчивость к физическим воздействиям</string>
     <string name="skill_shortdescription_resistance_blood_disorder">Устойчивость к воздействиям на кровь</string>
@@ -334,7 +334,7 @@
     <string name="skill_longdescription_more_criticals">Каждый уровень навыка увеличивает любой существующий критический навык, предоставляемый снаряжением на %1$d %%.</string>
     <string name="skill_longdescription_better_criticals">Каждый уровень навыка увеличивает любой существующий критический множитель на %1$d %%.</string>
     <string name="skill_longdescription_speed">Каждый уровень навыка увеличивает максимальное количество очков действий (ОД) на %1$d.</string>
-    <string name="skill_longdescription_coinfinder">Каждый уровень навыка увеличивает шанс найти золото в останках монстра на %1$d %% и увеличивает количество найденного золота на %2$d %% (до максимального количества, характерного для каждого монстра).</string>
+    <string name="skill_longdescription_coinfinder">Каждый уровень навыка увеличивает шанс найти золото в останках монстра на %1$d %% и увеличивает количество найденного золота на %2$d %% (до максимального количества, которое может выпасть с монстра).</string>
     <string name="skill_longdescription_more_exp">Каждый уровень навыка увеличивает количество опыта, полученных при убийстве монстра, на %1$d %%.</string>
     <string name="skill_longdescription_cleave">Каждый уровень навыка дает %1$d очков действий (ОД) за каждого убитого монстра.</string>
     <string name="skill_longdescription_eater">Каждый уровень навыка дает %1$d очков здоровья (ОЗ) за каждого убитого монстра.</string>
