@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-27 03:45+0000\n"
+"PO-Revision-Date: 2025-02-27 06:50+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -15018,7 +15018,7 @@ msgstr "我已经将这组洞穴的西部彻底搜索过了，但是没能找到
 msgid "Also, I should warn you that I believe the shrine talks of a powerful creature somewhere in this cave. Maybe if you find that creature, it will provide some clue as to what the missing parts are? You need to be careful though."
 msgstr ""
 "另外我还要提醒你一件事：神龛上记载的文字似乎谈及了在这个洞穴的某处存在着一个"
-"强大的生物。如果你遇到了那个生物的话，说不定它可以提供一些缺失文字的线索？不"
+"强大的怪物。如果你遇到了那个怪物的话，说不定它可以提供一些缺失文字的线索？不"
 "过你在面对它的时候一定要时刻当心。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_22:0
@@ -15039,27 +15039,27 @@ msgstr "你能再告诉我一遍你所翻出来的那个神龛上所记述之内
 
 #: conversationlist_ulirfendor.json:ulirfendor_findparts_1:2
 msgid "Yes, I encountered a creature to the east that spoke the words you told me."
-msgstr "是的，我在东方遇到了一个生物，它说了你告诉我的那些。"
+msgstr "是的，我在东边遇到了一只怪物，它向我说了一些语句。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_findparts_2
 msgid "If you really want to help, then please go look for any other clues you might find."
-msgstr "如果你真的想帮忙，那么请去寻找你可能找到的任何其他线索。"
+msgstr "如果你真想帮忙的话，那么请去尽可能地寻找你能找到的线索吧。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_findparts_3
 msgid "Oh good, tell me, did you find any more clues?"
-msgstr "哦，很好，告诉我，你找到更多的线索了吗？"
+msgstr "哦很好，快告诉我，你找到啥线索了吗？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_findparts_3:0
 msgid "Yes, the creature also spoke the words 'Kazaul hamat urul', maybe that is part of the missing piece?"
-msgstr "是的，这个生物也会说“卡扎尔 哈马特 乌鲁尔”这个词，也许那是丢失的部分？"
+msgstr "嗯，那只怪物还说了“Kazaul hamat urul”，或许这就是缺失的那部分话？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_findparts_4
 msgid "Hmm ... 'hamat urul' ... yes of course! That's what it says on the eroded parts of the shrine!"
-msgstr "嗯…'哈马特 乌鲁尔。。。当然可以！神殿被侵蚀的部分就是这么写的！"
+msgstr "嗯…“hamat urul”…没有错！这就是神龛上缺失掉的那句话！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_findparts_5
 msgid "Excellent work my friend! Now I just need to translate it."
-msgstr "干得好，我的朋友！现在我只需要翻译一下。"
+msgstr "干得好，我的朋友！现在我只需要能翻译出来就行了。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_findparts_6
 msgid "I wonder what this whole piece means. 'Kulauil hamar urum Kazaul'te. Kazaul hamat urul' - that's the part you heard the creature speak."
@@ -15550,36 +15550,36 @@ msgstr "你能再告诉我一次你对这个头盔的看法吗？"
 
 #: conversationlist_toszylae_guard.json:toszylae_guard_1
 msgid "[The horrifying creature looks down on you with its burning eyes, and speaks in a wheezing voice]"
-msgstr "[可怕的生物用燃烧的眼睛低头看着你，用喘息的声音说话]"
+msgstr "[这只可怕的怪物用它冒着火的眼睛低头看向了你，呼哧着说道]"
 
 #: conversationlist_toszylae_guard.json:toszylae_guard_1_1
 #: conversationlist_toszylae_guard.json:toszylae_guard_2_1
 #: conversationlist_toszylae_guard.json:toszylae_guard_3_1
 msgid "Kulauil hamar urum Kazaul'te. Kazaul hamat urul."
-msgstr "克劳伊尔·哈马尔·乌鲁姆·卡扎尔特。卡扎尔 哈马特 乌鲁尔。"
+msgstr "Kulauil hamar urum Kazaul'te. Kazaul hamat urul."
 
 #: conversationlist_toszylae_guard.json:toszylae_guard_1_1:1
 msgid "Kazaul something?"
-msgstr "卡扎尔什么的？"
+msgstr "你在讲卡扎尔什么的吗？"
 
 #: conversationlist_toszylae_guard.json:toszylae_guard_1_n
 #: conversationlist_toszylae_guard.json:toszylae_guard_2_n
 msgid "[The creature turns away]"
-msgstr "这个生物转身离开了"
+msgstr "[那只怪物不让你再前进了]"
 
 #: conversationlist_toszylae_guard.json:toszylae_guard_1_n:1
 #: conversationlist_toszylae_guard.json:toszylae_guard_2_n:1
 msgid "[Leave the creature]"
-msgstr "[离开这个生物]"
+msgstr "[离开这只怪物走了]"
 
 #: conversationlist_toszylae_guard.json:toszylae_guard_1_n2
 #: conversationlist_toszylae_guard.json:toszylae_guard_2_n2
 msgid "[As you try to make your attack against the guardian, your arms are held back by an enormous force]"
-msgstr "[当你试图攻击守护者时，你的武器被巨大的力量挡住]"
+msgstr "[你试着对这只护卫发起攻击，但一股巨大的力量直接把你的臂膀压了回去]"
 
 #: conversationlist_toszylae_guard.json:toszylae_guard_2_1:0
 msgid "This must be the phrase that Ulirfendor was looking for."
-msgstr "这一定是乌利芬多想要的短语。"
+msgstr "这一定就是乌利芬多想知道的那句话了。"
 
 #: conversationlist_toszylae_guard.json:toszylae_guard_3_1:0
 msgid "Klaatu varmun ur Kazaul'te"
