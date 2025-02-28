@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-28 01:59+0000\n"
+"PO-Revision-Date: 2025-02-28 03:41+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -15185,48 +15185,53 @@ msgstr "我该如何才能摆脱这痛苦啊？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_8:2
 msgid "You better have a plan for how you should repay me for this trickery!"
-msgstr "你最好考虑一下该怎么补偿我!"
+msgstr "你最好考虑一下该怎么补偿我！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_8:3
 msgid "I at least defeated the lich that infected me with this thing."
-msgstr "我至少打败了感染我的巫妖。"
+msgstr "至少我打败了那个感染我的巫妖。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_8:4
 msgid "I found a strange looking helmet among the remains of the lich that I defeated. Do you know anything about it?"
-msgstr "我在我击败的巫妖的遗骸中发现了一顶奇怪的头盔。你知道任何关于它的东西吗？"
+msgstr "我在我所击败的那个巫妖的遗骸附近发现了一顶样式奇怪的头盔。你知道什么有关的消"
+"息吗？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_9
 msgid "Let me have a look at you."
-msgstr "让我看看你。"
+msgstr "请让我端详一下你现在的状态。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_10
 msgid "No ... can it be? Are they actually real?"
-msgstr "不会吗？它们是真的吗？"
+msgstr "不…不会吗？我没看错吧？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_10:0
 msgid "What is?"
-msgstr "什么是？"
+msgstr "咋了？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_11
 msgid "You show all the signs. If this is true, then you are in great danger."
-msgstr "你显露出的所有征兆。如果这是真的，那么你就处于极大的危险之中。"
+msgstr "你的症状与那情况完全相符，如果没搞错的话，那么你现在的状态岌岌可危。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_12
 msgid "Long ago, I read a book on Kazaul rituals. The first part of one particular ritual I read about talks about 'the carrier', that supposedly is infected with Kazaul rotworms."
-msgstr "很久以前，我读过一本关于卡扎尔仪式的书。我读到的一个特定仪式的第一部分谈到了“携带者”，据说它感染了卡扎尔腐虫。"
+msgstr "很久以前，我读到过一本关于卡扎尔仪式的书，那本书中记载了一个特定的仪式，仪式"
+"的第一部分谈到了一种感染了卡扎尔腐虫的“载体”。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_13
 msgid "The Kazaul rotworms need a living being to feed upon, before their eggs can hatch. Their eggs can slowly kill a person from the inside, and the worms themselves cause the carrier to become weak during the whole process."
-msgstr "卡扎尔腐虫在卵孵化之前需要一个有生命的生物来喂养。它们的卵会慢慢地从体内杀死一个人，而蠕虫本身会导致携带者在整个过程中变得虚弱。"
+msgstr "卡扎尔腐虫的虫卵需要一个活物的给养才能得以孵化。它们的卵能够慢慢地在体内杀死"
+"一个人，而蠕虫的寄生也会致使载体在整个感染过程中逐步憔悴。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_14
 #: conversationlist_ulirfendor.json:ulirfendor_infected_16
 msgid "The ritual proceeds with the carrier being eaten from the inside by the rotworms and their eggs, in effect, giving birth to the creatures within. Also, the process can have ... shall we say ... unusual effects on the carrier before that."
-msgstr "仪式继续进行，载体从内部被腐虫和它们的卵吃掉，以此诞生新腐虫。此外，在此之前该过程对载体有…可以说是…不寻常的影响。"
+msgstr ""
+"随着仪式的推进，载体最终会被腐虫和它们的卵从身体内部所分食，然后新的腐虫就诞"
+"生了。此外，在载体死亡之前，该仪式可能对载体有……怎么说呢……不寻常的影响。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_15
 msgid "Needless to say, you are in great danger, and you should seek help immediately."
-msgstr "不要说其它的了，你处于极大的危险之中，你应该立即寻求帮助。"
+msgstr "毋庸置疑的是你现在正处于极大的危险之中，而你应该立即去寻求帮助。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_17
 msgid "You should hurry and seek help from one of the priests of the Shadow as quickly as possible. My dear friend Talion in the temple of Loneford should be able to help you."
@@ -68070,7 +68075,7 @@ msgstr "防御之盔"
 
 #: itemlist_v0611_1.json:helm_protector0
 msgid "Strange looking helmet"
-msgstr "奇怪样式的头盔"
+msgstr "样式奇怪的头盔"
 
 #: itemlist_v0611_1.json:helm_protector
 msgid "Dark protector"
