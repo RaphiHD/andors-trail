@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-28 03:46+0000\n"
+"PO-Revision-Date: 2025-02-28 14:08+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.2-rc\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -14961,12 +14961,12 @@ msgstr "那上面讲了些“在追随者中重生”之类的话。我不能保
 
 #: conversationlist_ulirfendor.json:ulirfendor_14
 msgid "It also speaks of someone or some ... thing called the 'Dark protector'. Most parts of the text for that is missing from the shrine however."
-msgstr "它上面还谈及一个叫“黑暗庇护”的什么家伙或者什么…东西，然而神龛上关于其的内容大"
+msgstr "它上面还谈及一个叫“黑暗护卫”的什么家伙或者什么…东西，然而神龛上关于其的内容大"
 "多都已磨灭了。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_15
 msgid "Whatever it means, it seems important. It is also obvious that the 'Dark protector' brings power to Kazaul, and misery to any opposition."
-msgstr "不管其到底是指什么，它似乎对卡扎尔来说很重要。很明显“黑暗庇护”壮实了卡扎尔的"
+msgstr "不管其到底是指什么，它似乎对卡扎尔来说很重要。很明显“黑暗护卫”壮实了卡扎尔的"
 "力量，对反抗者的恐怖打压很大程度上也是它所带来的。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_16
@@ -15248,49 +15248,51 @@ msgstr "好的，我这就到隆福德的小教堂去找塔里昂，再见。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_19
 msgid "I should also tell you that it is of great importance that you first destroy whatever creature that infected you with this."
-msgstr "我应该提醒你，消灭感染这种病毒的生物是非常重要的。"
+msgstr "另外我还要告诉你一件事，现在的首要之事是把那个让你感染的家伙解决掉，这一点非"
+"常关键。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_19:0
 msgid "OK, I will defeat the lich first. Goodbye."
-msgstr "好的，我先打败巫妖。再见。"
+msgstr "好的，我会先去打败那个巫妖的，再见。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_19:1
 #: conversationlist_ulirfendor.json:ulirfendor_cured_2:0
 msgid "I defeated the lich in the depths of the eastern cave."
-msgstr "我在东部洞穴深处打败了巫妖。"
+msgstr "我把东边的洞穴深处里的巫妖给打败了。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_demon_1
 msgid "Yes, you told me that you killed the lich. Excellent work."
-msgstr "真的吗，你告诉我你杀了巫妖。干得不错。"
+msgstr "很好，你把那个巫妖干掉了，做得不错。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_demon_2
 msgid "The people of the surrounding towns will have you to thank."
-msgstr "周围城镇的人们会感谢你的。"
+msgstr "我想这周边城镇里的人都需要对你说声谢谢。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_demon_2:0
 msgid "No problem. Goodbye."
-msgstr "没关系。再见。"
+msgstr "没问题，再见。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_demon_2:1
 #: conversationlist_ulirfendor.json:ulirfendor_cured_2:1
 msgid "I found a strange looking helmet among the remains of that lich. Do you know anything about it?"
-msgstr "我在那个巫妖的遗骸中发现了一顶奇怪的头盔。你知道任何关于它的东西吗？"
+msgstr "我在那个巫妖的遗骸附近发现了一顶样式奇怪的头盔。你知道什么有关的消息吗？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_demon_d1
 msgid "Oh, that is good news indeed. A lich you say? With your help, the people of the surrounding towns should be safe from whatever mischief the lich could have caused now."
-msgstr "哦，这确实是个好消息。一个巫妖？在你的帮助下，周围城镇的人们应该不会受到巫妖任何伤害了。"
+msgstr "哦，这确实是个好消息，那里有一个巫妖你说？我想在你的帮助下，周围城镇的人们应"
+"该不会受到这巫妖的影响与侵害了。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_demon_d2
 msgid "Thank you so much for your help!"
-msgstr "非常感谢你的帮助！"
+msgstr "非常感谢你的出手相助！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_d1
 msgid "That is most interesting, but you seem to have more pressing matters to attend to."
-msgstr "这很有趣，但你似乎有更紧迫的事情要处理。"
+msgstr "这非常有意思，但我想现在你应该有更要紧的麻烦亟待解决。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_cured_1
 msgid "I am glad to see that you are looking better than before. I assume you got the help you needed from Talion in Loneford?"
-msgstr "我很高兴看到你看起来比以前好多了。我想你从隆福德的塔里昂那里得到了你需要的帮助？"
+msgstr "我很高兴看到你的情况有所好转了，我猜你一定是隆福德的塔里昂帮到你了吧？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_cured_1:0
 msgid "Yes, Talion cured me of that thing."
@@ -15298,71 +15300,76 @@ msgstr "是的，塔里昂治好了我。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_cured_2
 msgid "That's good to hear. I hope that ... thing ... didn't have any permanent side-effects on you."
-msgstr "很高兴听到这个消息。我希望。。。这事情没有对你造成任何永久性的副作用。"
+msgstr "这真是一个好消息。愿…那东西…没有对你造成什么后遗症就好。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_1
 msgid "Could it be? Hmm. Let me look at that thing."
-msgstr "可能吗？嗯，让我看看那个东西。"
+msgstr "是吗？嗯……请让我看看那个东西。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_2
 msgid "Those markings on it are most peculiar. It was found by the lich that you spoke of?"
-msgstr "上面的那些标记非常奇特。是你提到的巫妖发现的？"
+msgstr "这上面的花纹确实非常奇特，它是在你提到的那个巫妖附近发现的？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_3
 msgid "Hmm. You know what, this could actually be connected to what the shrine speaks of - The Dark Protector."
-msgstr "嗯，你知道吗，这实际上可能与神殿所说的--黑暗保护者--有关."
+msgstr "嗯……你知道吗，它很有可能与这处神龛上所记载的那东西——黑暗护卫有所关联。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_4
 msgid "I am not certain of what the term 'The Dark Protector' refers to. At first I thought it might be some creature protecting something, but this helmet seems to better fit what the shrine speaks of."
-msgstr "我不确定“黑暗保护者”这个词指的是什么。起初我以为可能是某种生物在保护什么东西，但这顶头盔似乎更符合神殿所说的。"
+msgstr "我一直不太确定那个“黑暗护卫”究竟是在指代什么。一开始我还以为它是某种在护卫什"
+"么东西的存在，但现在看来这顶头盔更符合神龛上的描述。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_5
 msgid "It could either be the helmet itself, or that the helmet has some effect on whoever wears it, meaning that the wearer will become the Dark Protector."
-msgstr "它可以是头盔本身，也可以是头盔对戴头盔的人有影响，这意味着戴头盔的人将成为黑暗保护者。"
+msgstr "它应该既可以指代这头盔本身，也可以指那个因戴上它而获得头盔的影响的人，换句话"
+"说它的穿戴者将会成为黑暗护卫。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_6
 msgid "Nevertheless, I am almost certain that this artifact is connected to what this shrine speaks of, and that the artifact is rich with Kazaul influence."
-msgstr "尽管如此，我几乎可以肯定，这件文物与这座神殿所说的有关，而且这件文物深受卡扎尔影响。"
+msgstr "然而有一点我要告诉你：几乎可以肯定这件远古造物与神龛上所描述的东西息息相关，"
+"而且其上应该附有着很强的卡扎尔的影响。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_7
 msgid "As such, it would most certainly bring misery to the surroundings of whoever carries it. Directly or indirectly, I do not know."
-msgstr "因此，它肯定会给携带它的人的周围环境带来痛苦。直接或间接，我不知道。"
+msgstr "所以来说，任何携带着它的人肯定会给周边的事物带来直接或间接的不幸，具体是什么"
+"效果我也不知道。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_8
 msgid "I say, we must destroy that item immediately to make sure that the Kazaul taint is forever cleansed from this place and to make sure it does not fall into the wrong hands."
-msgstr "我说，我们必须立即销毁该物品，以确保卡扎尔的污染永远从这里清除，并确保它不会落入坏人之手。"
+msgstr "要我说的话，我们必须立即销毁这件物品，这样才能确保此处卡扎尔的亵渎从此往后被"
+"彻底清除掉，并确保它永远不会落入坏人之手。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_8:0
 msgid "He he, a powerful item you say? How much would you think it is worth?"
-msgstr "呵呵，你说的一个强大的东西？你认为它值多少钱？"
+msgstr "嘿嘿，你说这东西具有着很强的力量？你觉得它可以卖出多少钱？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_8:1
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_worth:1
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_power:1
 msgid "What should we do in order to destroy it?"
-msgstr "我们应该怎么做才能摧毁它？"
+msgstr "我们该怎么做才能销毁掉它啊？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_8:2
 msgid "Absolutely. I will do anything to protect the people from this thing."
-msgstr "绝对地，我会尽一切努力保护人民不受这件事的伤害。"
+msgstr "完全没问题，我会尽一切努力保护人们不受其伤害的。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_8:3
 msgid "Interesting. How powerful could someone become by wearing this thing?"
-msgstr "有趣，一个人穿上这件东西能有多强大？"
+msgstr "有意思，话说戴上它的人会得到怎么样的力量啊？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_worth
 msgid "Worth!? What difference would that make? We need to destroy it immediately!"
-msgstr "值得吗！？那会有什么不同呢？我们必须马上摧毁它！"
+msgstr "卖出多少钱！？它是贵是贱有什么意义吗？我们必须马上销毁掉它！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_worth:0
 msgid "How powerful could someone become by wearing this thing?"
-msgstr "一个人穿上这件东西能有多强大？"
+msgstr "话说戴上它的人会得到怎么样的力量啊？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_worth:2
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_power:2
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n7:2
 msgid "No. I will keep this item for myself instead."
-msgstr "不，我将保留这件物品。"
+msgstr "不行，这东西我要自己留着了。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_power
 msgid "I don't even want to think about that. It would surely bring misery to the surroundings of whoever wears it. We must destroy it immediately!"
@@ -15370,15 +15377,15 @@ msgstr "我甚至不想去想那件事。它肯定会给戴着它的人的周围
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_power:0
 msgid "He he, sounds powerful. How much would you think it is worth?"
-msgstr "呵呵，听起来很强大。你认为它值多少钱？"
+msgstr "嘿嘿，这东西应该挺强的，你觉得它可以卖出多少钱？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n2
 msgid "To destroy it, I think it will suffice to use what we normally use when removing the taint of Kazaul - a vial of purifying spirit."
-msgstr "为了消灭它，我认为只要使用我们通常用来去除卡扎尔污染的东西就足够了，一个净化精神的小瓶。"
+msgstr "要销毁它的话，我认为用净化卡扎尔的亵渎的一般操作就足够了——一瓶净灵剂即可。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n3
 msgid "Fortunately, I always carry some on me, so that won't be a problem."
-msgstr "幸运的是，我总是随身携带一些，所以这不会是一个问题。"
+msgstr "所幸我身边总是带着不少，所以这一点倒不会造成什么困难。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n4
 msgid "What could be a problem however, is the other thing we will need. This artifact is most likely connected to that lich you encountered."
@@ -78200,7 +78207,7 @@ msgstr "乌利芬多听到我成功击败了巫师，非常高兴。随着巫师
 
 #: questlist_v0611_2.json:darkprotector
 msgid "The dark protector"
-msgstr "黑暗庇护"
+msgstr "黑暗护卫"
 
 #: questlist_v0611_2.json:darkprotector:10
 msgid "I have found a strange looking helmet from the lich 'Toszylae' that I defeated. I should go ask Ulirfendor if he knows anything about it."
