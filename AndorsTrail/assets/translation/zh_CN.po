@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-27 14:31+0000\n"
+"PO-Revision-Date: 2025-02-28 01:42+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.2-dev\n"
+"X-Generator: Weblate 5.10.2-rc\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -15157,19 +15157,22 @@ msgstr "不——！我都做了什么啊？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_5
 msgid "You see, while you were away, I managed to translate the words that we spoke about before."
-msgstr "你看，当你不在的时候，我设法翻译了我们以前说过的文字。"
+msgstr "你不在的时候，我翻译出了之前讨论过的那几段语句。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_6
 msgid "The part that the creature spoke basically means 'No offering is worthy for Kazaul'."
-msgstr "这个生物说的基本意思是“没有值得奉献给卡扎尔的东西”。"
+msgstr "那只怪物所说的话大概的意思是“没有什么祭品能配得上献给卡扎尔”('No offering is "
+"worthy for Kazaul')。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_7
 msgid "Furthermore, the last part, that I made you speak to the creature, 'Klatam ur turum Kazaul'te', means 'My body for Kazaul'."
-msgstr "此外，我让你对这个生物说的最后一部分，“克拉塔姆·乌尔·图鲁姆·卡扎尔”的意思是“我的身体适合卡扎尔”。"
+msgstr ""
+"而最后一段，就是我先前让你对那只怪物讲出的那段话，即“Klatam ur turum "
+"Kazaul'te”的意思是“我可以把躯体献上给卡扎尔”('My body for Kazaul')。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_8
 msgid "Oh, what have I done? I made you say it, and now you are touched by its vile essence."
-msgstr "哦，我做了什么？我让你说的，现在你被它邪恶的精神所触及。"
+msgstr "哦，我都做了什么啊？我让你说出了那句话，结果你现在就沾染了它污秽的东西。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_8:0
 #: conversationlist_talion_2.json:talion_infect_3:1
