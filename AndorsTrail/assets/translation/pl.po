@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-28 01:42+0000\n"
+"PO-Revision-Date: 2025-02-28 23:19+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10.2-rc\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -59271,75 +59271,89 @@ msgstr "Miau."
 
 #: conversationlist_mt_galmore.json:blue_cat_1
 msgid "Hello, my name is \"Old Blue\"."
-msgstr ""
+msgstr "Cześć, mam na imię 'Stary Smutas'."
 
 #: conversationlist_mt_galmore.json:blue_cat_1:0
 msgid "What! You can talk?"
-msgstr ""
+msgstr "Ej! Ty potrafisz mówić?"
 
 #: conversationlist_mt_galmore.json:blue_cat_1:1
 msgid "You are an unusual color. Why are you blue?"
-msgstr ""
+msgstr "Masz nietypowy kolor. Dlaczego jesteś niebieski?"
 
 #: conversationlist_mt_galmore.json:blue_cat_talk
 msgid "Talk? Well, let me ask you this: Why don't my friends up there talk?"
 msgstr ""
+"Mówić? A więc odpowiem pytaniem na pytanie: Dlaczego moi przyjaciele tam na "
+"górze nie potrafią mówić?"
 
 #: conversationlist_mt_galmore.json:blue_cat_talk:0
 msgid "Well, I guess you've got me there."
-msgstr ""
+msgstr "No cóż, zatkałeś mnie tym pytaniem."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue
 msgid "It was Bonicksa, that wicked witch, she did this to me."
-msgstr ""
+msgstr "To sprawka Bonicksy, złej wiedźmy. To ona mnie tak urządziła."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue2
 msgid "Well, you see those rats over there? The ones in the cage?"
-msgstr ""
+msgstr "A widzisz te szczury, o tam? Te w klatce?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue2:0
 msgid "Yeah."
-msgstr ""
+msgstr "Taaa."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue3
 msgid "You see, those things are delicious."
-msgstr ""
+msgstr "Rozumiesz, że one są pyszne."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue3:0
 msgid "Um, OK, but what does that have to do with Bonicksa?"
-msgstr ""
+msgstr "No dobrze, ale co z tym wspólnego ma Bonicksa?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue4
 msgid "Oh, you don't know? Those are Bonicksa's rats and she doesn't appreciate anything happening to them."
 msgstr ""
+"Och, nie domyślasz się? To są szczury Bonicksy i ona raczej nie byłaby "
+"zadowolona, gdyby coś im się stało."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue5
 msgid "She caught me killing her favorite one day. I got away that day, but she was relentless in her attempts to hurt me."
 msgstr ""
+"Pewnego dnia przyłapała mnie przy zwłokach jednego z jej ulubieńców. Tamtego "
+"dnia udało mi się uciec, ale ona poprzysięgła mi zemstę."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue5:0
 msgid "What happened next?"
-msgstr ""
+msgstr "I co stało się potem?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue6
 msgid "Well, after many months of trying, she was lucky one day and was able to capture me."
 msgstr ""
+"Można się tego domyślić. Po wielu miesiącach bezowocnych prób, pewnego dnia "
+"niestety miała szczęście i mnie złapała."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue6:0
 msgid "Then?"
-msgstr ""
+msgstr "No i co dalej?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue7
 msgid "She used her black magic to turn my beautiful white fur to this awful color I am now."
 msgstr ""
+"Użyła tej swojej czarnej magii, aby zmienić moje piękne białe futro na ten "
+"okropny kolor, który teraz oglądasz."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue7:0
 msgid "Oh, I am so sorry for you."
-msgstr ""
+msgstr "Och, współczuję Ci bardzo."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5_alt
 msgid "Oh, yes. I was asking you what you said to Defy after learning that they wanted to hire you to rob us. Then you so rudely left the conversation. So I will ask you again. What did you say?"
 msgstr ""
+"Ach, tak. Ostatnio pytałem Cię, co odpowiedziałeś Defy'emu, gdy zaproponował "
+"Ci współudział w jego próbie obrabowania naszego skarbca. Wtedy dosyć "
+"niegrzecznie zakończyłeś rozmowę. A więc ponawiam pytanie. Co mu wtedy "
+"powiedziałeś?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_45
 msgid "Seriously? Man, it is so hard to get good help nowadays! I instructed you to go with them to the vault as we may need your help there."
