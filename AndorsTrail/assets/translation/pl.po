@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-03 04:55+0000\n"
+"PO-Revision-Date: 2025-03-03 18:11+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -17820,7 +17820,7 @@ msgstr "Witaj w .. *kaszel* .. moim sklepie. Czy chcesz .. *kaszel* .. zobaczyć
 
 #: conversationlist_remgard_villagers1.json:arnal_3:2
 msgid "Are you all right?"
-msgstr "Wszystko w porządku?"
+msgstr "Nic Ci nie jest?"
 
 #: conversationlist_remgard_villagers1.json:arnal_3:3
 msgid "Get away from me, I don't want to catch whatever it is you are infected with!"
@@ -46372,7 +46372,7 @@ msgstr "Wyglądasz na zmęczonego. Porozmawiamy później."
 #: conversationlist_sullengard.json:sullengard_nanette_0:0
 #: conversationlist_laeroth.json:hungry_pig_sick:0
 msgid "Are you OK?"
-msgstr "Wszystko w porządku?"
+msgstr "Czy wszystko w porządku?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_14a
 msgid "[The muscular man is still tired and drunk, next to an unfinished jar of mead]"
@@ -59595,11 +59595,14 @@ msgid ""
 "\n"
 " *looks at the captain* I'll be going."
 msgstr ""
+"Dziękuję jeszcze raz. \n"
+"\n"
+"*patrząc na kapitana* Już idę."
 
 #: conversationlist_omifix2.json:capvjern_32a:1
 #: conversationlist_omifix2.json:capvjern_32c:1
 msgid "Good luck in your shift."
-msgstr ""
+msgstr "Miłego patrolu."
 
 #: conversationlist_omifix2.json:capvjern_30d
 msgid ""
@@ -59607,34 +59610,40 @@ msgid ""
 "\n"
 "Jern, let Feygard folks take care of the mine for a while, we have a lot to do here."
 msgstr ""
+"Mogę w to uwierzyć.\n"
+"\n"
+"Jern, pozwól ludziom z Feygard zająć się kopalnią, przynajmniej przez jakiś "
+"czas. My mamy tu jeszcze dużo do zrobienia."
 
 #: conversationlist_omifix2.json:capvjern_31b
 msgid "[staring at the cloak] I have never seen this before. Not even when I used to work there. What in the world is this?"
 msgstr ""
+"[Patrzy na płaszcz] Nigdy wcześniej czegoś takiego nie widziałem. Nawet "
+"kiedy tam pracowałe. Co to w ogóle jest?"
 
 #: conversationlist_omifix2.json:capvjern_32b
 msgid "[looks at you]"
-msgstr ""
+msgstr "[Spogląda na Ciebie]"
 
 #: conversationlist_omifix2.json:capvjern_33
 msgid "[stares at the cloak again]"
-msgstr ""
+msgstr "[Ponownie spogląda na płaszcz]"
 
 #: conversationlist_omifix2.json:capvjern_34
 msgid "[stares at you again]"
-msgstr ""
+msgstr "[Ponownie spogląda na Ciebie]"
 
 #: conversationlist_omifix2.json:capvjern_34:1
 msgid "You alright?"
-msgstr ""
+msgstr "Dobrze się czujesz?"
 
 #: conversationlist_omifix2.json:capvjern_35
 msgid "[puts his hand over the captain's shoulder] Hey, captain, wake up."
-msgstr ""
+msgstr "[Kładzie rękę na ramieniu kapitana] Hej, kapitanie, pobudka."
 
 #: conversationlist_omifix2.json:capvjern_35:0
 msgid "[Put the cloak away]"
-msgstr ""
+msgstr "[Odkładasz płaszcz]"
 
 #: conversationlist_omifix2.json:capvjern_36
 msgid ""
@@ -59642,6 +59651,9 @@ msgid ""
 "\n"
 "It is un...unbearable."
 msgstr ""
+"... \n"
+"\n"
+"To jest nie...nie do zniesienia."
 
 #: conversationlist_omifix2.json:capvjern_37
 msgid ""
@@ -59649,46 +59661,56 @@ msgid ""
 "\n"
 "$playername, you must destroy the cloak!"
 msgstr ""
+"[Ciężko oddycha] To... ta substancja jest niebezpieczna!\n"
+"\n"
+"$playername, musisz zniszczyć ten płaszcz!"
 
 #: conversationlist_omifix2.json:capvjern_37:0
 msgid "The mine is full of it! Do you believe me now?"
-msgstr ""
+msgstr "W kopalni jest pełno tego czegoś! Czy teraz mi wierzycie?"
 
 #: conversationlist_omifix2.json:capvjern_38
 msgid "I do. [looks at Jern] I do believe in what the kid says."
-msgstr ""
+msgstr "Ja tak. [Patrzy na Jerna] Wierzę w to, co mówi dzieciak."
 
 #: conversationlist_omifix2.json:capvjern_39
 msgid "Grgh ... Let's go to the mine, then. We must take Kamelio's corpse from there and give it a proper burial!"
 msgstr ""
+"Grgh... A zatem chodźmy do kopalni. Musimy zabrać stamtąd ciało Kamelio i "
+"zapewnić mu godny pochówek!"
 
 #: conversationlist_omifix2.json:capvjern_39:0
 msgid "It is too dangerous, you mustn't go."
-msgstr ""
+msgstr "To jest zbyt niebezpieczne, nie możesz tam iść."
 
 #: conversationlist_omifix2.json:capvjern_39:1
 msgid "Trained soldiers were lost down there. Let General's men handle this."
 msgstr ""
+"Tam w dole zginęli dobrze wyszkoleni żołnierze. Lepiej będzie jak zajmą się "
+"tym ludzie generała."
 
 #: conversationlist_omifix2.json:capvjern_40
 msgid "So you suggest what? Staying here doing nothing!? I am NOT leaving my friend's corpse there."
 msgstr ""
+"Więc co proponujesz? Zostać tutaj i siedzieć bezczynnie na tyłku!? Ja NIE "
+"zostawię tam ciała mojego przyjaciela."
 
 #: conversationlist_omifix2.json:capvjern_40:0
 msgid "What about those who are alive here?"
-msgstr ""
+msgstr "A co z tymi którzy są tutaj?"
 
 #: conversationlist_omifix2.json:capvjern_40:1
 msgid "Do not lose your life for a bunch of dead bones. You must live for your friends."
 msgstr ""
+"Nie trać życia dla sterty martwych kości. Musisz żyć dla swoich przyjaciół."
 
 #: conversationlist_omifix2.json:capvjern_41
 msgid "I'll wait here. Farewell, $playername."
-msgstr ""
+msgstr "Poczekam tutaj. Bywaj zdrów, $playername."
 
 #: conversationlist_omifix2.json:capvjern_41:2
 msgid "As useful as always, captain."
-msgstr ""
+msgstr "Do usług jak zwykle, kapitanie."
 
 #: conversationlist_omifix2.json:capvjern_32c
 msgid ""
@@ -59696,14 +59718,19 @@ msgid ""
 "\n"
 "[looks at the captain] I'll be going."
 msgstr ""
+"Dziękuję jeszcze raz.\n"
+"\n"
+"[Patrzy na kapitana] Muszę już iść."
 
 #: conversationlist_omifix2.json:ortholion_guard_0e
 msgid "No, kid, I don't have anything to trade right now. I am tired of this place. Mountains are not my thing, you know?"
 msgstr ""
+"Niestety, młody, ale nie mam teraz nic na sprzedaż. Mam już dość tego "
+"miejsca. Góry to nie moja bajka, rozumiesz?"
 
 #: conversationlist_omifix2.json:ortholion_guard_0e:0
 msgid "I have a very important message fr..."
-msgstr ""
+msgstr "Mam bardzo ważną wiadomość od..."
 
 #: conversationlist_omifix2.json:ortholion_guard_1e
 msgid "I prefer the great plains of calm, always calm Loneford ... Yes, always quiet and peaceful ..."
