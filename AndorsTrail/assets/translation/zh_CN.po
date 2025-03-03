@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-01 07:04+0000\n"
+"PO-Revision-Date: 2025-03-03 07:32+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -1813,7 +1813,7 @@ msgstr "嗯你好！你真是个可爱的小家伙。"
 
 #: conversationlist_fallhaven.json:rigmor:1
 msgid "Can you tell me about the lytwings?"
-msgstr "你能跟我讲讲森灵吗？"
+msgstr "你能跟我讲讲轻灵吗？"
 
 #: conversationlist_fallhaven.json:rigmor:2
 #: conversationlist_fallhaven.json:rigmor_1:0
@@ -15389,64 +15389,68 @@ msgstr "所幸我身边总是带着不少，所以这一点倒不会造成什么
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n4
 msgid "What could be a problem however, is the other thing we will need. This artifact is most likely connected to that lich you encountered."
-msgstr "然而，可能存在的问题是另一件事需要我们。这个神器很可能与你遇到的巫妖有关。"
+msgstr "然而这里存在着另一个大麻烦需要我们去面对：这件法器很可能与你遇到过的那个巫妖"
+"之间有所关联。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n5
 msgid "We would need to use the vial of purifying spirit on something powerful from that lich as well."
-msgstr "我们也需要在巫妖身上的某种强大的东西上使用净化灵瓶。"
+msgstr "所以我们还需要对某件来自那个巫妖的、具有一定力量的物件也使用上一小瓶的净灵剂"
+"。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n5:0
 msgid "I managed to get the heart of the lich, would that do?"
-msgstr "我设法得到了巫妖的心脏，这样行吗？"
+msgstr "我身上有那个巫妖的心脏，这行吗？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n6
 msgid "The heart? Oh yes, that would surely do."
-msgstr "心脏？哦，是的，那当然可以。"
+msgstr "心脏？哦好，它当然行了。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n7
 msgid "Quickly now, give me the helmet and the heart of the lich, and I will begin the procedure."
-msgstr "快点，把巫妖的头盔和心脏给我，我就开始这个步骤。"
+msgstr "请麻利点，快把头盔和巫妖的心脏拿给我，然后我直接开始净化的程序。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n7:0
 msgid "Here is the helmet and the heart."
-msgstr "这是头盔和心脏。"
+msgstr "头盔与心脏在这里，请拿好。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n7:1
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_keep1:2
 msgid "I think I should give this a second thought before we begin."
-msgstr "我想在开始之前我应该再考虑一下。"
+msgstr "请允许我在正式开始前再思量一下。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_n8
 msgid "Think all you want, but please hurry. We need to destroy this thing as soon as possible!"
-msgstr "你可以想一下，但请快点。我们需要尽快摧毁这个东西！"
+msgstr "这随你，不过请迅速点，我们还得尽快摧毁这个东西！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_2
 msgid "Excellent. I will begin the procedure immediately."
-msgstr "干得不错，我马上就开始这个仪式。"
+msgstr "很好，我这就开始净化的仪式。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_3
 msgid "[Ulirfendor places the helmet and the lich's heart on the ground before him, and opens his backpack of items]"
-msgstr "[乌利尔芬多将头盔和巫妖之心放在他面前的地上，打开他的背包]"
+msgstr "[乌利尔芬多将头盔和巫妖之心放在他面前的地上，并打开了他的背包]"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_4
 msgid "[He pulls out a leathery potion case from his backpack, and takes out a vial of clear but almost shining liquid]"
-msgstr "[他从背包里拿出一个坚韧的药箱，拿出一小瓶清澈但几乎闪亮的液体]"
+msgstr "[他从背包里掏出了一个皮革制的药水盒，从中抽出来了一小管透着光却又闪着亮的液体"
+"]"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_5
 msgid "[Ulirfendor pours the contents of the vial on the helmet and the heart in circling motions, taking good care to not spill any on the ground]"
-msgstr "[乌利芬多将药瓶的内容物以旋转的方式倒在头盔和心脏上，注意不将任何东西溅到地上]"
+msgstr "[乌利芬多打着圈儿地将玻璃管里的液体倒在了头盔以及心脏上，这个过程中他十足地小"
+"心，以至于一滴都没溅到地上]"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_6
 msgid "It should be as simple as that really. Powerful stuff this."
-msgstr "它就是这么简单。强大的东西。"
+msgstr "这过程没什么难的，这东西的效果也不差。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_7
 msgid "[The surface of the helmet seems to freeze, almost like it had a layer of ice on it]"
-msgstr "[头盔的表面似乎冻结了，就像上面有一层冰]"
+msgstr "[头盔的表面像是开始结霜了的样子，上面仿佛就覆着一层冰一样]"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_8
 msgid "[After a while, small cracks appear on the surface, making tiny sounds as they appear]"
-msgstr "[过了一会儿，表面出现了小裂缝，发出微小的声音]"
+msgstr "[片刻之后，头盔的表面裂开一条小缝，轻微的嘎吱声随之作响]"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_9
 msgid "[The cracks start to get larger and more dense along the surface, until the helmet is completely covered by them]"
@@ -45007,11 +45011,11 @@ msgstr "你脸色似乎不太好嘛，是不是遇到什么事了啊？"
 
 #: conversationlist_gorwath.json:arensia:3
 msgid "About the lytwings ..."
-msgstr "那个，关于那群森灵…"
+msgstr "那个，关于那群轻灵…"
 
 #: conversationlist_gorwath.json:arensia:4
 msgid "Have the lytwings honored their word?"
-msgstr "话说那群森灵们没食言吧？"
+msgstr "话说那群轻灵们没食言吧？"
 
 #: conversationlist_gorwath.json:arensia_done
 msgid "What a beautiful day, isn't it?"
@@ -66146,7 +66150,10 @@ msgstr "哦，那你又为何会睡不好呢？"
 
 #: conversationlist_lytwings.json:arensia_lytwing_2
 msgid "I am being taunted by naughty lytwings at night. At least that is what Rigmor tells me. They play with my hair while I sleep, and tangle it into fairy-lock knots. Every morning I wake up tired, and I spend an hour brushing out the knots. I don't know what to do!"
-msgstr "最近半夜老是有顽皮的森灵跑来整我，至少里格莫尔是这样告诉我的。它们趁我睡着就玩弄我的头发，在上面打仙子结；每天早上我迷糊着醒来后，还要花一个小时来梳开这些结。我该咋办才好啊！"
+msgstr ""
+"最近半夜老是有顽皮的轻灵跑来戏耍我，至少里格莫尔是这样告诉我的。它们趁我睡着"
+"就玩弄我的头发，在上面打仙子结；每天早上我迷糊着醒来后，还要花一个小时来梳开"
+"这些结。我该咋办才好啊！"
 
 #: conversationlist_lytwings.json:arensia_lytwing_2:0
 msgid "I am sorry to hear that, but I cannot help you right now."
@@ -66190,7 +66197,8 @@ msgstr "它们接受礼物并愿意和我交流了。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:1
 msgid "The lytwings are upset that you took their mushrooms. I pleaded with them, and am now waiting on their decision."
-msgstr "那群森灵对你摘走它们的蘑菇的行为很是不满，我向它们求了情，现在还在等它们的回复。"
+msgstr "那群轻灵对你摘走它们的蘑菇的行为很是不满，我向它们求了情，现在还在等它们的回"
+"复。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:2
 msgid "I have, and they agreed to stop pestering you if I help cut down a tree for them."
@@ -66198,7 +66206,7 @@ msgstr "是的，它们答应在我帮忙砍倒一棵树后就不再来纠缠你
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:3
 msgid "The lytwings changed their minds, and are now thinking of something else they want instead."
-msgstr "那群森灵改主意了，现在它们在思考别的替代的事情要我做。"
+msgstr "那群轻灵改主意了，现在它们在思考别的替代的事情要我做。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:4
 msgid "They now want four bottles of mead. They sure are giving me the run around today!"
@@ -66218,7 +66226,7 @@ msgstr "它们收下了那些野花…"
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:8
 msgid "The lytwings ask that you make a promise to never pick mushrooms from their fairy ring again."
-msgstr "那群森灵要你立誓不再去采它们的仙女环内那些蘑菇。"
+msgstr "那群轻灵要你立誓不再去采它们的仙女环内那些蘑菇。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:9
 msgid "I will take your ring to them at once!"
@@ -66238,7 +66246,7 @@ msgstr "请记得常来告知我最新信息哈。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_9
 msgid "Thank you so much for helping me with the lytwings!"
-msgstr "谢谢你为我处理森灵的事出了这么多力！"
+msgstr "谢谢你为我处理轻灵的事出了这么多力！"
 
 #: conversationlist_lytwings.json:arensia_lytwing_9:0
 msgid "You are welcome!"
@@ -66282,7 +66290,7 @@ msgstr "我想要有始有终把这件事帮到底。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_15:1
 msgid "The lytwings are driving me insane. I thought about this, and I can't help you any more. I am sorry."
-msgstr "那群森灵都快把我逼疯了。在我再三纠结后，怕是没办法帮忙帮到底了，非常抱歉。"
+msgstr "那群轻灵都快把我逼疯了。在我再三纠结后，怕是没办法帮忙帮到底了，非常抱歉。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_16
 msgid "You are too kind!"
@@ -66311,7 +66319,7 @@ msgstr "你需要对着一件珠宝发誓，然后我需要再回去把其交给
 #: conversationlist_lytwings.json:arensia_lytwing_20
 msgid "I know, I will promise on this ring I'm wearing. It belonged to my mother, and it's dear to me, but I will do anything to stop the lytwings!"
 msgstr "我明白了，我这就对着这枚我随身带着的戒指发誓。这枚戒指曾属于我的母亲，对我来"
-"说非常珍重；不过为了让那群森灵停止捣蛋，我没什么不可放弃的！"
+"说非常珍重；不过为了让那群轻灵停止捣蛋，我没什么不可放弃的！"
 
 #: conversationlist_lytwings.json:arensia_lytwing_20:0
 msgid "I hope this works."
@@ -66319,7 +66327,7 @@ msgstr "希望其能起作用吧。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_21
 msgid "I made a promise to the ring, here take it to the lytwings!"
-msgstr "我对戒指发好誓了，请拿它交给那群森灵吧！"
+msgstr "我对戒指发好誓了，请拿它交给那群轻灵吧！"
 
 #: conversationlist_lytwings.json:arensia_lytwing_21:0
 msgid "I will, right away!"
@@ -66327,7 +66335,7 @@ msgstr "我会的，现在就去！"
 
 #: conversationlist_lytwings.json:arensia_lytwing_22
 msgid "There is nothing else to be done, and I will have to live with the lytwings tormenting me until my last day."
-msgstr "一切都于事无补了，我余生怕是得在森灵的折磨下度过了啊。"
+msgstr "一切都于事无补了，我余生怕是得在轻灵的折磨下度过了啊。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_23
 msgid "So ... what did they say?"
@@ -66335,7 +66343,7 @@ msgstr "所以…它们怎么说？"
 
 #: conversationlist_lytwings.json:arensia_lytwing_23:0
 msgid "The lytwings finally agreed to leave you in peace."
-msgstr "森灵最终同意放过你了。"
+msgstr "轻灵最终同意放过你了。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_24
 msgid "I cannot thank you enough, $playername. You have saved my sanity!"
@@ -66396,7 +66404,7 @@ msgstr "我找到了一些野花，但数量上还是缺一点。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_30:2
 msgid "I have found a dozen wild flowers. I will take them to the lytwings."
-msgstr "我集齐一打野花了，过会儿我就把这些花带给森灵。"
+msgstr "我集齐一打野花了，过会儿我就把这些花带给轻灵。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_30:3
 msgid "Will this ever end?"
@@ -66412,7 +66420,8 @@ msgstr "哦我希望它们能把它收下，然后结束这场闹剧。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_33
 msgid "You should talk to Rigmor, as she knows more about the lytwings than I do. She lives here in Fallhaven, just go north past the tavern."
-msgstr "你应该去与里格莫尔聊聊，关于森灵的东西她知道的比我多。她就住在法尔海文本地，就在比酒馆更北面的地方。"
+msgstr "你应该去与里格莫尔聊聊，关于轻灵的东西她知道的比我多。她就住在法尔海文本地，"
+"就在比酒馆更北面的地方。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_33:0
 msgid "Okay."
@@ -66429,7 +66438,7 @@ msgstr "很好。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_35
 msgid "But I see you have the ring I gave them. You told me they kept it, which can only mean that you lied to me. You are just a common thief. Shame on you."
-msgstr "然而我看见你正戴着我交给它们的戒指，而你之前告诉我过那些森灵把它给收走了。这"
+msgstr "然而我看见你正戴着我交给它们的戒指，而你之前告诉我过那些轻灵把它给收走了。这"
 "只能说明一件事：你对我撒了谎。你这个偷鸡摸狗的家伙真是太可耻了。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_35:0
@@ -66462,11 +66471,11 @@ msgstr "你想知道什么？"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_2:0
 msgid "What do you know about lytwings?"
-msgstr "请问关于森灵你都知道些什么呢？"
+msgstr "请问关于轻灵你都知道些什么呢？"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_2:1
 msgid "Where can I find lytwings?"
-msgstr "请问我该去哪寻找森灵呢？"
+msgstr "请问我该去哪寻找轻灵呢？"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_2:2
 msgid "Thank you. I really need to go now."
@@ -66474,7 +66483,8 @@ msgstr "谢谢你，我现在得出发了。"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_3
 msgid "Lytwings are small magical beings that are also known as the guardians of the forest, and they are known to take revenge on us when we intrude on them, or on nature."
-msgstr "森灵是一种小个头的魔法生物，它们也被称为森林守卫者，因为它们以会报复侵扰森林以及森灵自身者而闻名。"
+msgstr "轻灵是一种小个头的魔法生物，它们也被称为森林守卫者，因为它们以会报复侵扰森林"
+"以及轻灵自身者而闻名。"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_4
 msgid "They are also very mischievous, and love causing trouble. They probably eat too many fermented berries, if you ask me."
@@ -66482,11 +66492,13 @@ msgstr "另外它们还很是顽劣，喜欢惹是生非；要我说，它们准
 
 #: conversationlist_lytwings.json:rigmor_lytwing_5
 msgid "Lytwings gather near fairy rings. I suggest that you look for large mushroom patches in the woodland surrounding Fallhaven."
-msgstr "森灵会在仙女环附近聚集，我建议你可以在法尔海文附近的林地间去寻找寻找那种大块的蘑菇圈。"
+msgstr "轻灵会在仙女环附近聚集，我建议你可以在法尔海文附近的林地间去寻找寻找那种大块"
+"的蘑菇圈。"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_6
 msgid "The poor girl. She looks exhausted, and her hair is absolutely tousled. Will those lytwings never leave her alone?"
-msgstr "那个可怜的女孩，她现在就是一副无精打采的样子，头发更是乱成一团。那群森灵怎么就一直不放过她呢？"
+msgstr "那个可怜的女孩，她现在就是一副无精打采的样子，头发更是乱成一团。那群轻灵怎么"
+"就一直不放过她呢？"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_1
 msgid "Hello there, stranger!"
@@ -66514,7 +66526,7 @@ msgstr "抱歉并没有。"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_4
 msgid "Bring us two red apples and two strawberries. Since you came without a gift, we cast on you a mystical Lytwing spell!"
-msgstr "请为我们带两红苹果及两草莓。另外既然你空手而来，那么就接好这一击森灵秘法吧！"
+msgstr "请为我们带两红苹果及两草莓。另外既然你空手而来，那么就接好这一击轻灵秘法吧！"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_4:0
 msgid "I feel so ... tired."
@@ -66602,7 +66614,7 @@ msgstr "没问题，我会把它砍倒的。"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_15
 msgid "Hmm, this must be the tree the lytwings want chopped down. I need to get an iron axe."
-msgstr "嗯…这颗应该就是森灵们想要我砍倒的树了，我得先搞到把铁斧。"
+msgstr "嗯…这颗应该就是轻灵们想要我砍倒的树了，我得先搞到把铁斧。"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_16
 msgid "Hey wait! We changed our minds. We like that tree and want to keep it."
@@ -66683,7 +66695,7 @@ msgstr "嗯，这些野花给你们。"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_23a
 msgid "No, you don't have enough flowers. A dozen means 12, not one less. Do you think lytwings can't count?"
-msgstr "不行，这些花还不够。一打的意思是十二枝，一枝不少。你是觉得森灵不会数数吗？"
+msgstr "不行，这些花还不够。一打的意思是十二枝，一枝不少。你是觉得轻灵不会数数吗？"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_23a:0
 msgid "I have collected enough for you. Take it or leave it."
@@ -66784,7 +66796,7 @@ msgstr "请转告艾伦希雅我们同意并接受了她的承诺，之后的晚
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_36:0
 msgid "Oh how wonderful. Thank you forest lytwings!"
-msgstr "哦太好了，谢谢你们，小森灵！"
+msgstr "哦太好了，谢谢你们，小轻灵！"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_37
 msgid "However, we have no need for a human ring. We embued it with our magical powers. Please take this ring back to Arensia."
@@ -71720,7 +71732,7 @@ msgstr "艾伦希雅起誓戒指"
 #: itemlist_lytwings.json:ring_of_promise_quest:description
 #: itemlist_lytwings.json:ring_of_promise:description
 msgid "A ring embued with Arensia's promise to the lytwings of the forest."
-msgstr "这枚戒指上附着艾伦希雅对森灵的起誓。"
+msgstr "这枚戒指上附着艾伦希雅对轻灵的起誓。"
 
 #: monsterlist_crossglen_animals.json:tiny_rat
 #: monsterlist_ratdom.json:ratdom_maze_rat1
@@ -76765,7 +76777,7 @@ msgstr "草蛛"
 
 #: monsterlist_lytwings.json:lytwing_fallhaven
 msgid "Lytwing"
-msgstr "森灵"
+msgstr "轻灵"
 
 #: monsterlist_lytwings.json:wild_flower
 msgid "Wild flower"
@@ -82743,35 +82755,44 @@ msgstr "结不好玩"
 
 #: questlist_lytwings.json:fallhaven_lytwings:1
 msgid "I met Arensia in Fallhaven. She is being taunted by lytwings while she slumbers. I agreed to help get rid of the mischevious creatures. I should talk to Rigmor to find out more, she lives north of the tavern."
-msgstr "我在法尔海文碰见了艾伦希雅，近来有森灵趁她睡觉时对她恶作剧。我答应了去帮她想办法拜托这群顽皮的小家伙。我应该前去询问里格莫尔，去了解更多信息情况，她就住在酒馆的北面。"
+msgstr ""
+"我在法尔海文碰见了艾伦希雅，近来有轻灵趁她睡觉时对她恶作剧。我答应了去帮她想"
+"办法拜托这群顽皮的小家伙。我应该前去询问里格莫尔，去了解更多信息情况，她就住"
+"在酒馆的北面。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:10
 msgid "Rigmor told me that lytwings live near large rings of mushroom growth, I should look for these in the forest surrounding Fallhaven."
-msgstr "里格莫尔告诉我森灵生活在那种长有一大圈蘑菇的地块附近，我应该在法尔海文周围的森林里寻找这样的蘑菇环。"
+msgstr "里格莫尔告诉我轻灵生活在那种长有一大圈蘑菇的地块附近，我应该在法尔海文周围的"
+"森林里寻找这样的蘑菇环。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:11
 msgid "I have to take a gift of two red apples and two strawberries before I can talk to the lytwings. They cast some kind of spell on me for not bringing them these fruit, it made me feel very tired."
-msgstr "森灵要我带去两颗红苹果及两颗草莓作为礼物，如此之后才愿意与我交流。要是没准备好那些水果，它们就会对我施上某种疲劳咒语。"
+msgstr "轻灵要我带去两颗红苹果及两颗草莓作为礼物，如此之后才愿意与我交流。要是没准备"
+"好那些水果，它们就会对我施上某种疲劳咒语。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:12
 msgid "The lytwings accepted my gift, and I can now talk with them."
-msgstr "森灵们接受了我的礼物，现在我可以与它们交流了。"
+msgstr "轻灵们接受了我的礼物，现在我可以与它们交流了。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:13
 msgid "I offered my help to the lytwings in exchange for leaving Arensia alone. They are considering my request. I should check in with them shortly, to hear their decision."
-msgstr "我提出自己来给那群森灵帮忙，以此作为条件来换取它们放过艾伦希雅。它们正在考虑我的建议，我应该短暂等待后再去找一下它们，听听它们会做出怎样的决定。"
+msgstr ""
+"我提出自己来给那群轻灵帮忙，以此作为条件来换取它们放过艾伦希雅。它们正在考虑"
+"我的建议，我应该短暂等待后再去找一下它们，听听它们会做出怎样的决定。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:20
 msgid "The lytwings asked that I chop down a gnarly old tree that is inside their mushroom ring. They insisted that I use an iron axe because the cursed bark of the tree cannot be cut by other tools."
-msgstr "森灵们要我砍掉一颗位于它们蘑菇环内的嶙峋老树。它们坚持让我要使用铁斧来砍，因为那颗树的树皮受了诅咒，用别的工具伤不到它。"
+msgstr "轻灵们要我砍掉一颗位于它们蘑菇环内的嶙峋老树。它们坚持让我要使用铁斧来砍，因"
+"为那颗树的树皮受了诅咒，用别的工具伤不到它。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:21
 msgid "I was about to swing my axe, when the lytwings stopped me. They have changed their minds about chopping down the tree. I am beginnning to think they are indecisive on purpose."
-msgstr "我正要挥斧时，森灵叫住了我，他们改主意不再想移除这颗树了。我开始有点觉得它们太反复无常了。"
+msgstr "我正要挥斧时，轻灵叫住了我，他们改主意不再想移除这颗树了。我开始有点觉得它们"
+"太反复无常了。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:30
 msgid "The lytwings want four bottles of mead. I can probably find some at the Fallhaven tavern."
-msgstr "森灵们想要四瓶蜂蜜酒，我估计能在法尔海文酒馆里买到些。"
+msgstr "轻灵们想要四瓶蜂蜜酒，我估计能在法尔海文酒馆里买到些。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:31
 msgid "They took the mead, and turned around saying they want something else. I can now see why Rigmor said they are full of mischief! But I have no other choice but to continue this fool's errand if I want to help Arensia."
@@ -82779,7 +82800,7 @@ msgstr "它们接受了那些蜂蜜酒，但还是声称想要一些别的东西
 
 #: questlist_lytwings.json:fallhaven_lytwings:40
 msgid "I have to find twelve wild flowers for the lytwings. I wonder where I could find those. Perhaps Arensia will know."
-msgstr "我需要为那群森灵收集十二朵野花，而其可以在哪里找到我并不太清楚，或许艾伦希雅"
+msgstr "我需要为那群轻灵收集十二朵野花，而其可以在哪里找到我并不太清楚，或许艾伦希雅"
 "会知道可以采到它们的地方。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:41
@@ -82789,30 +82810,30 @@ msgstr "它们接受了那些花，之后正如先前预料的那般，它们还
 
 #: questlist_lytwings.json:fallhaven_lytwings:90
 msgid "The lytwings want a token of Arensia's promise that she will not to pick their mushrooms again. I sense they are not playing another prank this time, they seemed intent about this task."
-msgstr "那群森灵想要一个能承载有艾伦希雅不再摘走它们蘑菇的承诺的象征物。我有感觉这回"
+msgstr "那群轻灵想要一个能承载有艾伦希雅不再摘走它们蘑菇的承诺的象征物。我有感觉这回"
 "不再是它们的恶作剧了，这次它们的态度挺有目的性的。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:91
 msgid "Arensia made a promise to her mother's ring, and then she gave it to me. I should take it to the lytwings at once."
-msgstr "艾伦希雅对着她母亲的戒指发了誓，并将戒指交给了我，我应该将它立刻带给那群森灵"
+msgstr "艾伦希雅对着她母亲的戒指发了誓，并将戒指交给了我，我应该将它立刻带给那群轻灵"
 "。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:92
 msgid "I gave Arensia's ring to the lytwings. Just when I thought it was done, they said they need something else! I am waiting on their decision."
-msgstr "我把艾伦希雅的戒指带给了森灵。就当我以为一切都结束了的时候，它们竟说还要别的"
+msgstr "我把艾伦希雅的戒指带给了轻灵。就当我以为一切都结束了的时候，它们竟说还要别的"
 "东西！我还得等它们做出决定。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:99
 msgid "The lytwings have agreed to stop taunting Arensia. I should go tell her."
-msgstr "森灵们同意不再捉弄艾伦希雅了，我应该把这条消息告知给她。"
+msgstr "轻灵们同意不再捉弄艾伦希雅了，我应该把这条消息告知给她。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:100
 msgid "Arensia was elated to hear that the lytwings will no longer taunt her."
-msgstr "艾伦希雅很高兴那群森灵答应不再捉弄她了。"
+msgstr "艾伦希雅很高兴那群轻灵答应不再捉弄她了。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:101
 msgid "I could not take the absurd errands any more. I am no longer helping Arensia with her lytwing problem."
-msgstr "这件荒唐的差事我再也做不下去了，于是乎我就不再继续帮助艾伦希雅解决森灵的问题"
+msgstr "这件荒唐的差事我再也做不下去了，于是乎我就不再继续帮助艾伦希雅解决轻灵的问题"
 "了。"
 
 #: questlist_lytwings.json:fallhaven_lytwings:102
