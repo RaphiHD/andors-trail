@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-03 18:11+0000\n"
+"PO-Revision-Date: 2025-03-04 21:55+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -59735,10 +59735,12 @@ msgstr "Mam bardzo ważną wiadomość od..."
 #: conversationlist_omifix2.json:ortholion_guard_1e
 msgid "I prefer the great plains of calm, always calm Loneford ... Yes, always quiet and peaceful ..."
 msgstr ""
+"Wolę rozległe i ciche równiny, zwłaszcza zaciszne Loneford... Tak, zawsze "
+"ciche i spokojne..."
 
 #: conversationlist_omifix2.json:ortholion_guard_1e:0
 msgid "But General Orth..."
-msgstr ""
+msgstr "Ale Generał Orth..."
 
 #: conversationlist_omifix2.json:ortholion_guard_2e
 msgid ""
@@ -59746,50 +59748,61 @@ msgid ""
 "\n"
 "[The soldier continues lamenting and completely ignores your presence]"
 msgstr ""
+"Ach! Łagodna morska bryza, barwne życie portu Feygard... \n"
+"\n"
+"[Żołnierz lamentuje dalej całkowicie Ciebie ignorując]"
 
 #: conversationlist_omifix2.json:ortholion_guard_2e:0
 msgid "Hey, pay attention!"
-msgstr ""
+msgstr "Hej, posłuchaj!"
 
 #: conversationlist_omifix2.json:ortholion_guard_2e:1
 msgid "Okay, I give up. Let's try with someone else."
-msgstr ""
+msgstr "Dobra, poddaję się. Spróbujmy z kimś innym."
 
 #: conversationlist_omifix2.json:ortholion_guard3_8
 msgid "I hate these escorting trips. It's not like the general really needs us for this."
 msgstr ""
+"Nienawidzę służyć jako eskorta. To nie jest tak, że generał naprawdę nas "
+"potrzebuje."
 
 #: conversationlist_omifix2.json:ortholion_guard3_9
 msgid "The trip here was anything but safe. I miss my former post in Crossglen."
 msgstr ""
+"Droga tutaj była daleka od bezpiecznej. Tęsknię za moim poprzednim "
+"posterunkiem w Crossglen."
 
 #: conversationlist_omifix2.json:ortholion_guard3_9:0
 msgid "Oh, so you are one of those good for nothing, always drunk, soldiers?"
 msgstr ""
+"Ach, a więc jesteś jednym z tych nic nie wartych, wiecznie pijanych "
+"żołnierzy?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10
 msgid "Yes sir, I w... Hey! What did you just say?"
-msgstr ""
+msgstr "Tak jest, ja... Hej! Coś ty powiedział?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10:0
 msgid "I have important information to deliver!"
-msgstr ""
+msgstr "Mam ważne informacje do przekazania!"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10:1
 msgid "I am proud of you, drunkard. Where's your boss?"
-msgstr ""
+msgstr "Jestem z ciebie dumny, opoju. Gdzie jest twój dowódca?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a
 msgid "Whatever it is, it is none of my concern. Go talk with our mountain scout, she's the one in charge, *hic*."
 msgstr ""
+"Cokolwiek by to nie było, mnie to nie dotyczy. Idź porozmawiać z naszą "
+"górską zwiadowczynią, ona tu dowodzi, *czka*."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a:0
 msgid "Blackwater brew, eh? Truly disappointing. Goodbye."
-msgstr ""
+msgstr "Piwo z Blackwater, ech? To żałosne. Żegnaj."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a:1
 msgid "OK sir, many thanks."
-msgstr ""
+msgstr "Tak jest, dziękuję bardzo."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b
 msgid ""
@@ -59797,14 +59810,17 @@ msgid ""
 "\n"
 "*points at the mountain scout*"
 msgstr ""
+"[Patrzy na ciebie zdezorientowany] Uhh... *czka* To ta, o tam. \n"
+"\n"
+"*wkazuje na górską zwiadowczynię*"
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b:0
 msgid "Finally, bye."
-msgstr ""
+msgstr "No, wreszcie. Cześć."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b:1
 msgid "Thanks, and sleep it off... Sigh."
-msgstr ""
+msgstr "Dziękuję, ja idę się zdrzemnąć... Ech."
 
 #: conversationlist_bwmfill.json:sign_bwmfill3
 msgid ""
@@ -59812,22 +59828,26 @@ msgid ""
 "\n"
 "Please do not feed any animals."
 msgstr ""
+"Tutaj mieszka Tunlon z Crossglen - hodowca owiec\n"
+"\n"
+"Prosimy nie karmić żadnych zwierząt."
 
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue
 msgid "Baa!"
-msgstr ""
+msgstr "Bee!"
 
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue:0
+#, fuzzy
 msgid "[Pet]"
-msgstr ""
+msgstr "[Głaszczesz]"
 
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue:1
 msgid "You look tasty - attack!"
-msgstr ""
+msgstr "Wyglądasz smakowicie - no to ciach!"
 
 #: conversationlist_bwmfill.json:bwmfill_killsheep_20
 msgid "You filthy MURDERER!!"
-msgstr ""
+msgstr "Ty podły MORDERCO!!"
 
 #: conversationlist_bwmfill.json:bwmfill_killsheep_22
 msgid "My poor sheep! What have you done?!"
