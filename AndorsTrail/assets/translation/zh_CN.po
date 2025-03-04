@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-04 01:23+0000\n"
+"PO-Revision-Date: 2025-03-04 08:36+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -15131,7 +15131,8 @@ msgstr "没有，什么事也没有发生。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_findparts_13
 msgid "Well, you should probably investigate that area some more. I am sure there are more clues in there about what this shrine speaks of."
-msgstr "嗯，你可能应该进一步调查那个地区。我相信还有更多的关于这座神殿的线索。"
+msgstr "嗯，那你可能还需要进一步调查一下那个地区，我相信那里还有更多关于这座神龛的线"
+"索。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_1
 msgid "[Ulirfendor gives you a terrified look]"
@@ -15161,14 +15162,13 @@ msgstr "你不在的时候，我翻译出了之前讨论过的那几段语句。
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_6
 msgid "The part that the creature spoke basically means 'No offering is worthy for Kazaul'."
-msgstr "那只怪物所说的话大概的意思是“没有什么祭品能配得上献给卡扎尔”('No offering is "
-"worthy for Kazaul')。"
+msgstr "那只怪物所说的话大概的意思是“没有什么祭品能配得上献给卡扎尔”。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_7
 msgid "Furthermore, the last part, that I made you speak to the creature, 'Klatam ur turum Kazaul'te', means 'My body for Kazaul'."
 msgstr ""
 "而最后一段，就是我先前让你对那只怪物讲出的那段话，即“Klatam ur turum "
-"Kazaul'te”的意思是“我可以把躯体献上给卡扎尔”('My body for Kazaul')。"
+"Kazaul'te”的意思是“我的躯体可以献上给卡扎尔”。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_infected_8
 msgid "Oh, what have I done? I made you say it, and now you are touched by its vile essence."
@@ -15474,7 +15474,7 @@ msgstr "哈哈！瞧见了吧！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_14
 msgid "[He does the same with the heart that also seems to have completely frozen and gotten covered with cracks]"
-msgstr "[他对似乎已经完全冻结并布满裂纹的心脏也做了同样的处理]"
+msgstr "[接下来他又对那枚同样冻出裂缝来的的心脏也做了一致的处理]"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_15
 msgid "Ah, that sure felt good."
@@ -15482,73 +15482,77 @@ msgstr "啊，干完之后心情真是舒畅。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_16
 msgid "You, my friend, have done a great deed here today. This thing would have brought great misery if it would have fallen into the wrong hands."
-msgstr "我的朋友，你今天在这里做了一件大事。如果这件东西落入坏人之手，将会带来极大的痛苦。"
+msgstr "而你，我的朋友，你今天于此解决了一桩大事。要知道若是让这物品落入了危险人物之"
+"手，它会制造出极大的不幸之事来。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_17
 msgid "The people of the surrounding towns are now safe from whatever misery that helmet would have brought. All thanks to you!"
-msgstr "周围城镇的人们现在安全了，免受头盔可能带来的任何痛苦。谢谢你！"
+msgstr "而现在这周围城镇的人们算是安全了，这顶头盔的潜在危险殃及不到他们了，这全归功"
+"于你！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_18
 msgid "As a token of my appreciation, I am willing to grant upon you a blessing of the Shadow."
-msgstr "为了表示我的感激，我愿意给予你暗影的祝福。"
+msgstr "为了表示我的感激之情，我愿意给予你暗影的祝福。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_18:0
 msgid "What would the blessing do?"
-msgstr "祝福了会怎样？"
+msgstr "请问祝福了是什么效果啊？"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_18:1
 #: conversationlist_ulirfendor.json:ulirfendor_dp_bless_2:0
 msgid "Thank you, but that will not be necessary. I am just happy to help."
-msgstr "谢谢你，但那没有必要。我很乐意帮忙。"
+msgstr "谢谢你，但是回报什么的没有必要，我纯粹是乐意帮忙。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_18:2
 #: conversationlist_ulirfendor.json:ulirfendor_dp_bless_2:1
 msgid "Thank you, please go ahead."
-msgstr "谢谢，请开始做。"
+msgstr "谢谢你，那就来吧。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_bless_1
 msgid "You truly have a large heart."
-msgstr "你真的有一颗宽阔的心。"
+msgstr "你真是位豪爽仗义的人啊。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_bless_2
 msgid "The blessing will grant you the aid of the Shadow while in combat, protecting you from harmful effects that your opponent might inflict upon you."
-msgstr "祝福会在战斗中给予你暗影的帮助，保护你免受对手可能对你造成的伤害。"
+msgstr "这个祝福可以在战斗中给予你暗影的帮助，保护你少受对手的伤害。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_bless_3
 msgid "Very well, I will give you the dark blessing of the Shadow."
-msgstr "很好，我会给你暗影的黑暗祝福。"
+msgstr "很好，我这就给予你暗影的黑暗祝福。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_bless_4
 msgid "[Ulirfendor starts chanting in a tongue that you do not recognize]"
-msgstr "[乌利芬多开始用你不认识的语言吟诵]"
+msgstr "[乌利芬多开始用一种你听不懂的语言吟诵了起来]"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_bless_5
 msgid "There. You now have the dark blessing of the Shadow upon you."
-msgstr "在那里，你现在拥有暗影的黑暗祝福。"
+msgstr "好了，现在暗影的黑暗祝福已经加护于你了。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_bless_6
 msgid "Thank you yet again for all you have done here."
-msgstr "再次感谢你在这里所做的一切。"
+msgstr "我要对你在这里的一切付出再次说声感谢。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_keep1
 msgid "What!? Keep it!? Have you gone mad? We need to destroy it to protect the people!"
-msgstr "什么留着它！？你疯了吗？我们需要摧毁它来保护人民！"
+msgstr "什么！？你要留着它！？你是疯了吗？我们需要销毁掉它才能消除人们受其殃及的危险"
+"！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_keep1:0
 msgid "Who knows what power I could gain from it? I will keep this for myself."
-msgstr "谁知道我能从中获得什么力量？这个我自己留着。"
+msgstr "谁知道我能从中获得怎么样的力量呢？这东西我就是要自己留着。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_keep1:1
 msgid "It could be worth a lot. I will keep this for myself."
-msgstr "它可能很值钱。这个我自己留着。"
+msgstr "这玩意估计能值不少钱，我要自己留着。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_keep2
 msgid "What is this!? I knew there was something wrong about you the first time I saw you."
-msgstr "这算什么！？我第一次见到你就知道你有点不对劲。"
+msgstr "你这是什么情况！？我就知道你这个人不是什么好东西，我第一眼瞧见你时就有点感觉"
+"了。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_keep3
 msgid "By the Shadow, I will stop you. Whatever it takes. You will not live to see the next day!"
-msgstr "在暗影下，我会阻止你。不惜一切代价。你活不到第二天了！"
+msgstr "暗影在上，我会不惜一切代价阻止你的。你看不到明天的太阳了！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_keep3:0
 #: conversationlist_aulowenn.json:aulowenn_atk0:0
@@ -15560,7 +15564,7 @@ msgstr "在暗影下，我会阻止你。不惜一切代价。你活不到第二
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue:2
 #: conversationlist_feygard_1.json:swamp_witch_20_214:0
 msgid "Attack!"
-msgstr "攻击!"
+msgstr "接招！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_return1
 msgid "Hello again. Have you made up your mind about what we talked about before?"
