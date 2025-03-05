@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-05 02:40+0000\n"
+"PO-Revision-Date: 2025-03-05 05:01+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -15669,55 +15669,58 @@ msgstr "Klatam ku turum Kazaul'te."
 
 #: conversationlist_toszylae.json:toszylae_6
 msgid "[As if having swallowed a thousand needles, you are suddenly stricken with a cascading series of spikes of pain throughout your stomach]"
-msgstr "【就好像吞了一千针一样，你的胃里突然传来一连串的疼痛刺痛】"
+msgstr "[你的胃里突然传来一连串的刺痛，如同吞了千根针一般]"
 
 #: conversationlist_toszylae.json:toszylae_7
 msgid "[You start to feel nauseous, and your stomach turns and twists - as if it has a life of its own]"
-msgstr "[你开始感到恶心，你的胃开始翻腾——仿佛它有了自己的生命]"
+msgstr "[剧烈的恶心感涌了心头，你的胃开始一阵翻腾——它仿佛自己活了过来]"
 
 #: conversationlist_toszylae.json:toszylae_8
 msgid "[The pain increases slightly, and you start to realize that something is moving inside of you]"
-msgstr "[疼痛稍微加重，你开始意识到有什么东西在你里面移动]"
+msgstr "[那股疼痛感愈演愈烈，你意识到是有什么东西在你的体内移动]"
 
 #: conversationlist_toszylae.json:toszylae_9
 msgid "[The lich must have infected you with something]"
-msgstr "[巫妖一定是让你感染了什么东西]"
+msgstr "[这个巫妖多半是让你感染了什么东西]"
 
 #: conversationlist_toszylae.json:toszylae_9:0
 msgid "What is happening to me!?"
-msgstr "我是怎么了！？"
+msgstr "我这是是怎么了！？"
 
 #: conversationlist_toszylae.json:toszylae_10
 msgid "[The lich seems to enjoy seeing you in pain]"
-msgstr "[巫师似乎很喜欢看到你痛苦的样子]"
+msgstr "[那巫妖似乎对你受苦的样子很是享用]"
 
 #: conversationlist_toszylae.json:toszylae_10:0
 msgid "You will pay for what you did to me!"
-msgstr "你要让你对我所做的一切付出代价!"
+msgstr "我会让你为你对我的所作所为付出代价的！"
 
 #: conversationlist_toszylae.json:sign_toszylae_1
 msgid "[On the shrine that was behind the lich 'Toszylae' that you defeated, you find a strange looking helmet]"
-msgstr "[在你击败的巫师'托斯拉'背后的神龛上，你发现了一个看起来很奇怪的头盔]"
+msgstr "[在你所击败的那个巫妖“托斯拉”的背后有一座神龛，在那顶上你发现了一顶样式奇怪的"
+"头盔]"
 
 #: conversationlist_toszylae.json:sign_toszylae_2
 msgid "[You see an empty shrine where you found the strange looking helmet]"
-msgstr "[你看到一个空的神龛，你在那里发现了奇怪的头盔]"
+msgstr "[你看到一个空的神龛，先前你从这里发现过一顶样式很奇怪的头盔]"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_1
 msgid "In front of the shrine, you find a book laying in the sand. 'Reflections on Kazaul rituals'."
-msgstr "在神社前，你会发现一本书躺在沙子里。\"对卡扎尔仪式的反思\" 。"
+msgstr "在神龛前的沙子了，你发现了一本叫《对卡扎尔仪式的思索》的书。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_2
 msgid "You quickly look through the book, and find several chants and rituals of Kazaul."
-msgstr "你迅速翻阅这本书，发现了卡扎尔的几个咒语和仪式。"
+msgstr "你草草翻阅了一下这本书，从中读到了几个卡扎尔的咒语和仪式。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_3
 msgid "There is one in particular that you spot, that talks of imbuing ancient artifacts with the power of Kazaul."
-msgstr "你会特别看到一个，它谈到将卡扎尔的力量注入古代文物。"
+msgstr "其中有一个仪式特别地引起了你的注意，据书中所说它可以给那些古代法器灌注卡扎尔"
+"的力量。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_4
 msgid "The ritual itself would require the heart of a lich, and from the text surrounding the ritual in the book, it could surely restore the helmet to its former glory."
-msgstr "仪式本身需要巫妖之心，从书中有关仪式的文字来看，它肯定可以使头盔恢复昔日的辉煌。"
+msgstr "这个仪式需要一颗巫妖之心，从书中所描述的有关文字来看，执行完成后应该就可以使"
+"头盔恢复昔日的风采了。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_4:0
 msgid "Begin the ritual."
@@ -15725,31 +15728,31 @@ msgstr "开始仪式。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_4:1
 msgid "Leave the shrine alone."
-msgstr "不要去管那个祠堂。"
+msgstr "离开这处神龛。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_5
 msgid "You place yourself in front of the shrine, kneeling like the drawings in the book show."
-msgstr "你站在神社前，像书展中的图画一样跪下。"
+msgstr "你走到了在神龛前，并按书中插画中的姿势跪了下来。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_5:0
 msgid "Place the helmet in front of the shrine"
-msgstr "将头盔放在神社前"
+msgstr "将头盔放到神龛前"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_6
 msgid "You place the helmet on the ground in front of you, leaning it slightly against the shrine."
-msgstr "你把头盔放在你面前的地上， 稍微靠在神社上。"
+msgstr "你把头盔放到了你面前的地上，微微靠在神龛边。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_6:0
 msgid "Place the heart of the lich in front of the shrine"
-msgstr "将巫妖之心放在神殿前"
+msgstr "将巫妖之心放到神龛前"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_7
 msgid "You place the heart of the lich beside the helmet in front of the shrine."
-msgstr "你将巫妖的心脏放在神殿前的头盔旁边。"
+msgstr "你将巫妖之心放在了神龛前的头盔旁边。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_7:0
 msgid "Speak the words of the ritual from the book"
-msgstr "说出书中仪式的话语"
+msgstr "念出书中所记载的仪式的咒语"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_8
 msgid "You start reciting the words of the Kazaul tongue from the book, taking great care of saying the words exactly as the book states them."
