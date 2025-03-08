@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-05 05:58+0000\n"
+"PO-Revision-Date: 2025-03-08 14:14+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -15778,7 +15778,8 @@ msgstr "在你念完仪式咒语的最后一个词的瞬间，神龛前的地面
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_13
 msgid "As you pull it out and dust off the sand, you notice a change in texture on the part that was submerged in the sand."
-msgstr "当您将其拉出并清除沙子上的灰尘时，您会注意到淹没在沙子中的部分的质地发生了变化。"
+msgstr "你从沙地中拔出了头盔并拍落了其上的沙土，这时你注意到先前没进沙子的那部分的质"
+"地发生了变化。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_13:0
 msgid "Take the helmet"
@@ -15786,75 +15787,78 @@ msgstr "拿起头盔"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_14
 msgid "You take the helmet, and examine it more closely."
-msgstr "你拿起头盔，更仔细地检查它。"
+msgstr "你拿起了头盔，仔细端详了起来。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_15
 msgid "Along the side, you notice some ornaments that were not there before. The helmet also gives a slight tingling feeling in the hands as you hold it."
-msgstr "沿着侧面，你注意到一些以前没有的装饰物。当你拿着头盔时，手也会有轻微的刺痛感。"
+msgstr "你注意到头盔的侧面新增了一些纹路，而你拿着头盔的手此时也感受到了一丝刺痛。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_16
 msgid "Completing the ritual must have restored the helmet to its former glory."
-msgstr "完成仪式后，一定会让头盔恢复到以前的光辉。"
+msgstr "肯定是这个业已完成的仪式使得这顶头盔重新焕发它昔日的风采了。"
 
 #: conversationlist_sign_ulirfendor.json:sign_ulirfendor_r
 msgid "You see the shrine of Kazaul, where you performed the Kazaul ritual."
-msgstr "您会看到卡扎尔神殿，在那里您进行了卡扎尔 仪式。"
+msgstr "你看到了一个卡扎尔的神龛，之前你在这里举行过卡扎尔仪式。"
 
 #: conversationlist_talion_2.json:talion_infect_1
 msgid "Oh my, what has happened to you? You don't look too well."
-msgstr "哦，天哪，你怎么了？你看起来不是很好。"
+msgstr "哦天哪，你怎么了？你看起来状态很不好。"
 
 #: conversationlist_talion_2.json:talion_infect_1:0
 msgid "I was infected with something by a lich of Kazaul."
-msgstr "我被卡扎尔的一个巫师感染了什么。"
+msgstr "我被一个卡扎尔巫妖给感染了。"
 
 #: conversationlist_talion_2.json:talion_infect_1:1
 msgid "A man called Ulirfendor told me he thought I might be infected with Kazaul rotworms."
-msgstr "一个叫乌利芬多的人告诉我，他认为我可能感染了卡扎尔腐虫。"
+msgstr "一个叫乌利芬多的人认为我可能被卡扎尔腐虫给寄生了。"
 
 #: conversationlist_talion_2.json:talion_infect_1:2
 msgid "I was told to find you, and that you might be able to help me."
-msgstr "有人告诉我来找你，你也许能帮助我。"
+msgstr "我被告知我可以来找你，据说你或许能帮到我。"
 
 #: conversationlist_talion_2.json:talion_infect_2
 msgid "Ah, my old friend Ulirfendor. It's good to hear that he is still alive. Wait! What was that? Rotworms you say, eh?"
-msgstr "啊，我的老朋友乌利芬多。很高兴听到他还活着。等等，那是什么？你说那是腐虫，嗯？"
+msgstr "啊，我的老朋友乌利芬多啊，听说他现在还活着我很高兴。等等，你说啥？你说你被腐"
+"虫寄生了，是这样吗？"
 
 #: conversationlist_talion_2.json:talion_infect_3
 msgid "Nasty things, they are. I have seen people going mad from the stomach pains, and I have seen people being eaten alive from the inside."
-msgstr "讨厌的东西，是它们。我见过有人因为胃痛而发疯，也见过有人从里面被活活吃掉。"
+msgstr "这些虫子很是叫人恶心，我有见识过有人被因它们所引起的胃疼给活活痛死了，还有人"
+"干脆体内的血肉叫它们给吃空了。"
 
 #: conversationlist_talion_2.json:talion_infect_3:0
 msgid "Are you able to help me?"
-msgstr "你能帮我吗？"
+msgstr "请问你能有办法帮到我吗？"
 
 #: conversationlist_talion_2.json:talion_infect_4
 msgid "It's good that you came to see me. I might be able to help you."
-msgstr "你能来见我是件好事。我也许能帮助你。"
+msgstr "所幸你来找到我了，我应该有办法帮到你。"
 
 #: conversationlist_talion_2.json:talion_infect_5
 msgid "A lich of Kazaul eh? Then I am sure that whatever ails you are those cursed rotworms."
-msgstr "卡扎尔的巫师，是吗？那么我敢肯定，不管你有什么病，都是那些被诅咒的腐虫。"
+msgstr "卡扎尔巫妖？这样的话我就敢保证你这病不管什么症状，那绝对都是那见鬼的腐虫所引"
+"起的。"
 
 #: conversationlist_talion_2.json:talion_demon_1
 msgid "Just to be sure, you did kill whatever creature that infected you with this, right?"
-msgstr "可以肯定的是， 你确实杀了任何感染了你的生物， 对吗？"
+msgstr "不过你需要确保一点：你解决掉那个叫你染上这病的家伙了，有吧？"
 
 #: conversationlist_talion_2.json:talion_demon_1:0
 msgid "Yes, I killed that lich."
-msgstr "是的，我杀了那个巫妖。"
+msgstr "是的，我已经解决掉那个巫妖了。"
 
 #: conversationlist_talion_2.json:talion_demon_1:1
 msgid "No, I have not killed it yet."
-msgstr "不，我还没有杀死它。"
+msgstr "没有，我还没杀掉它。"
 
 #: conversationlist_talion_2.json:talion_demon_2
 msgid "Good. Then I am able to help you."
-msgstr "很好。那么我就能帮助你了。"
+msgstr "很好，这样我就能进行我所能及的帮助了。"
 
 #: conversationlist_talion_2.json:talion_demon_3
 msgid "Then you better go take care of that first!"
-msgstr "那你最好先去解决这个问题!"
+msgstr "那你最好先去解决掉它再说！"
 
 #: conversationlist_talion_2.json:talion_demon_3:0
 msgid "OK, I will be back once the lich is defeated."
