@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-08 14:14+0000\n"
+"PO-Revision-Date: 2025-03-09 06:03+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -1079,7 +1079,7 @@ msgstr "但另一方面，税收和最近政策的变化确实对克罗斯谷造
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen8
 msgid "Someone should go to Castle Geomyr and talk to the steward about our situation here in Crossglen."
-msgstr "需要有人去吉奥米尔城堡找那里的事务官谈谈克罗斯谷现在的处境。"
+msgstr "需要有人去吉奥米尔城堡找那里的总管谈谈克罗斯谷现在的处境。"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen9
 msgid "In the meantime, we've banned all use of bonemeal as a healing substance."
@@ -13465,12 +13465,13 @@ msgstr "至于隆福德的事态，我想我们接下来不得不从费加德运
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_8
 msgid "And you, my friend - you should of course be sufficiently rewarded for your assistance in this matter. You should travel to the glorious city of Feygard to the northwest and report to the castle steward there for further instructions."
-msgstr "至于你，我的朋友——你在这件事上所作出的协助当然应该得到相称的奖赏。你可以到西"
-"北部的费加德城去向城堡事务官报告，他会给你下一步指示的。"
+msgstr ""
+"至于你，我的朋友——你在这件事上所作出的协助当然应该得到相称的奖赏。你可以到西"
+"北部的费加德城去向城堡总管汇报一下你的义举，他会给你下一步指示的。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_9
 msgid "I happen to know the castle steward personally, and I will send word to him about your help here."
-msgstr "而我碰巧私底下认识城堡事务官，我会向他转告你在这里所做出的帮助的。"
+msgstr "而我碰巧私底下认识城堡总管，我会向他转告你在这里所做出的帮助的。"
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_10
 msgid "For the glory of Feygard, the people of Loneford may live on thanks to your help."
@@ -14961,12 +14962,12 @@ msgstr "那上面讲了些“在追随者中重生”之类的话。我不能保
 
 #: conversationlist_ulirfendor.json:ulirfendor_14
 msgid "It also speaks of someone or some ... thing called the 'Dark protector'. Most parts of the text for that is missing from the shrine however."
-msgstr "它上面还谈及一个叫“黑暗护卫”的什么家伙或者什么…东西，然而神龛上关于其的内容大"
+msgstr "它上面还谈及一个叫“黑暗守卫”的什么家伙或者什么…东西，然而神龛上关于其的内容大"
 "多都已磨灭了。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_15
 msgid "Whatever it means, it seems important. It is also obvious that the 'Dark protector' brings power to Kazaul, and misery to any opposition."
-msgstr "不管其到底是指什么，它似乎对卡扎尔来说很重要。很明显“黑暗护卫”壮实了卡扎尔的"
+msgstr "不管其到底是指什么，它似乎对卡扎尔来说很重要。很明显“黑暗守卫”壮实了卡扎尔的"
 "力量，对反抗者的恐怖打压很大程度上也是它所带来的。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_16
@@ -15312,17 +15313,17 @@ msgstr "这上面的花纹确实非常奇特，它是在你提到的那个巫妖
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_3
 msgid "Hmm. You know what, this could actually be connected to what the shrine speaks of - The Dark Protector."
-msgstr "嗯……你知道吗，它很有可能与这处神龛上所记载的那东西——黑暗护卫有所关联。"
+msgstr "嗯……你知道吗，它很有可能与这处神龛上所记载的那东西——黑暗守卫有所关联。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_4
 msgid "I am not certain of what the term 'The Dark Protector' refers to. At first I thought it might be some creature protecting something, but this helmet seems to better fit what the shrine speaks of."
-msgstr "我一直不太确定那个“黑暗护卫”究竟是在指代什么。一开始我还以为它是某种在护卫什"
+msgstr "我一直不太确定那个“黑暗守卫”究竟是在指代什么。一开始我还以为它是某种在守卫什"
 "么东西的存在，但现在看来这顶头盔更符合神龛上的描述。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_5
 msgid "It could either be the helmet itself, or that the helmet has some effect on whoever wears it, meaning that the wearer will become the Dark Protector."
 msgstr "它应该既可以指代这头盔本身，也可以指那个因戴上它而获得头盔的影响的人，换句话"
-"说它的穿戴者将会成为黑暗护卫。"
+"说它的穿戴者将会成为黑暗守卫。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_6
 msgid "Nevertheless, I am almost certain that this artifact is connected to what this shrine speaks of, and that the artifact is rich with Kazaul influence."
@@ -67698,7 +67699,7 @@ msgstr "刺客手套"
 
 #: itemlist_v0610_1.json:robe_protector
 msgid "Robe of the protector"
-msgstr "保护者长袍"
+msgstr "守卫长袍"
 
 #: itemlist_v0610_1.json:dagger_shadow_priests
 msgid "Dagger of the Shadow priests"
@@ -67915,7 +67916,7 @@ msgstr "防御之石"
 
 #: itemlist_v0610_1.json:necklace_protector
 msgid "Necklace of the protector"
-msgstr "保护者项链"
+msgstr "守卫项链"
 
 #: itemlist_v0610_1.json:ring_crude_combat
 msgid "Crude combat ring"
@@ -67999,7 +68000,7 @@ msgstr "抛光反刺之戒"
 
 #: itemlist_v0610_1.json:ring_protector
 msgid "Ring of the protector"
-msgstr "保护者之戒"
+msgstr "守卫之戒"
 
 #: itemlist_v0610_2.json:erinith_book
 msgid "Erinith's book"
@@ -68112,7 +68113,7 @@ msgstr "样式奇怪的头盔"
 
 #: itemlist_v0611_1.json:helm_protector
 msgid "Dark protector"
-msgstr "黑暗保护者"
+msgstr "黑暗守卫"
 
 #: itemlist_v0611_1.json:armour_chain_remg
 msgid "Remgard chain mail"
@@ -68932,7 +68933,7 @@ msgstr "吸血项链"
 
 #: itemlist_stoutford_combined.json:necklace_protector2
 msgid "Superior necklace of the protector"
-msgstr "上好保护者项链"
+msgstr "上好守卫项链"
 
 #: itemlist_stoutford_combined.json:shield_leather
 msgid "Reinforced leather buckler"
@@ -70551,7 +70552,7 @@ msgstr "粘稠，但美味。这就像零食和饮料合二为一。"
 
 #: itemlist_sullengard.json:hat_of_protector
 msgid "Hat of the protector"
-msgstr "保护者之帽"
+msgstr "守卫之帽"
 
 #: itemlist_sullengard.json:sullengrad_bandit_brew
 msgid "Bandit's Brew"
@@ -70743,7 +70744,7 @@ msgstr "市长艾尔写给基尔韦亚的信。"
 
 #: itemlist_sullengard.json:blade_protector
 msgid "Blade of the protector"
-msgstr "保护者之刃"
+msgstr "守卫之刃"
 
 #: itemlist_sullengard.json:blade_protector:description
 msgid "This blade has been wielded by one that went before you."
@@ -70931,7 +70932,7 @@ msgstr "儿童戒指"
 
 #: itemlist_ratdom.json:polished_ring_protector
 msgid "Polished ring of the protector"
-msgstr "抛光保护者之戒"
+msgstr "抛光守卫之戒"
 
 #: itemlist_ratdom.json:ratdom_parchment
 msgid "Parchment from Flora's fountain"
@@ -76870,7 +76871,7 @@ msgstr "安道尔与斯托福德教堂下方的恶魔有关联。"
 
 #: questlist.json:andor:90
 msgid "At Castle Guynmart I learned from Steward Unkorh that some time ago Andor was also there as a guest."
-msgstr "在盖恩玛特城堡，我从事务官乌克尔那里得知，不久前安道尔也曾拜访过这里。"
+msgstr "在盖恩玛特城堡，我从总管乌克尔那里得知，不久前安道尔也曾拜访过这里。"
 
 #: questlist.json:andor:92
 msgid "Unkorh gave me the bonemeal potion box that Andor had given him for safekeeping."
@@ -78108,7 +78109,7 @@ msgid "Kuldan thanked me for solving the mystery of the illness in Loneford. The
 msgstr ""
 "库尔丹感谢我解开了隆福德的疾病之谜。而他们接下来将在费加德的帮助下开始从外面"
 "运水过来代替井水来喝。库尔丹还告诉我，如果想进一步帮助费加德的话，我可以去拜"
-"访一下费加德的城堡事务官。"
+"访一下费加德的城堡总管。"
 
 #: questlist_v0610.json:loneford:60
 msgid "I have promised to keep Buceth's story a secret. If Andor was indeed here, he must have had a good reason for doing what he did. Buceth also told me to visit the chapel custodian in Nor City if I want to learn more about the Shadow."
@@ -78232,7 +78233,7 @@ msgstr "乌利芬多听到我成功击败了巫师，非常高兴。随着巫师
 
 #: questlist_v0611_2.json:darkprotector
 msgid "The dark protector"
-msgstr "黑暗护卫"
+msgstr "黑暗守卫"
 
 #: questlist_v0611_2.json:darkprotector:10
 msgid "I have found a strange looking helmet from the lich 'Toszylae' that I defeated. I should go ask Ulirfendor if he knows anything about it."
@@ -78296,7 +78297,7 @@ msgstr "仪式已经完成，我已经恢复了头盔的力量，恢复了昔日
 
 #: questlist_v0611_2.json:maggots
 msgid "I have it in me"
-msgstr "我里面有它"
+msgstr "于我之内"
 
 #: questlist_v0611_2.json:maggots:10
 msgid "Deep inside a cavern, I encountered a lich of Kazaul. Somehow the lich managed to infect me with things that crawl around in my stomach! I must find some way to get rid of these things inside of me. I should go talk to Ulirfendor, or seek help in one of the chapels."
