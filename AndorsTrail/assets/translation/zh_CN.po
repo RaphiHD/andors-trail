@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-10 03:22+0000\n"
+"PO-Revision-Date: 2025-03-10 09:45+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -14953,7 +14953,7 @@ msgstr "它们似乎对这处施加了祝福的岛洲非常避讳。到目前为
 #: conversationlist_ulirfendor.json:ulirfendor_12
 msgid "It speaks of Kazaul and of the misery that comes to anyone that opposes the will of Kazaul."
 msgstr "它所谈的都是些关于卡扎尔的事，以及描述了那些反抗卡扎尔的意志的人下场会有多么"
-"凄惨。"
+"伤痛。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_13
 msgid "Something about 're-birth from within the followers'. Not sure I have translated that part correctly, but I think that is what it says. Definitely something about re-birth or birth."
@@ -14968,7 +14968,7 @@ msgstr "它上面还谈及一个叫“黑暗守卫”的什么家伙或者什么
 #: conversationlist_ulirfendor.json:ulirfendor_15
 msgid "Whatever it means, it seems important. It is also obvious that the 'Dark protector' brings power to Kazaul, and misery to any opposition."
 msgstr "不管其到底是指什么，它似乎对卡扎尔来说很重要。很明显“黑暗守卫”壮实了卡扎尔的"
-"力量，对反抗者的恐怖打压很大程度上也是它所带来的。"
+"力量，反抗者的伤痛很大程度上也是它所带来的。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_16
 msgid "Regardless, it must be stopped, whatever it means. Maybe it refers to something deeper down this cave? I have not ventured further into the cave to the east since I could not get past those ... things."
@@ -15332,7 +15332,7 @@ msgstr "然而有一点我要告诉你：几乎可以肯定这件远古造物与
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_7
 msgid "As such, it would most certainly bring misery to the surroundings of whoever carries it. Directly or indirectly, I do not know."
-msgstr "所以来说，任何携带着它的人肯定会给周边的事物带来直接或间接的不幸，具体是什么"
+msgstr "所以来说，任何携带着它的人肯定会给周边的事物带来直接或间接的伤痛，具体是什么"
 "效果我也不知道。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_8
@@ -15374,7 +15374,8 @@ msgstr "不行，这东西我要自己留着了。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_power
 msgid "I don't even want to think about that. It would surely bring misery to the surroundings of whoever wears it. We must destroy it immediately!"
-msgstr "我甚至不想去想那件事。它肯定会给戴着它的人的周围带来痛苦。我们必须马上摧毁它！"
+msgstr "我甚至不想去想那件事。它肯定会给戴着它的人的周围带来伤痛。我们必须马上摧毁它"
+"！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_power:0
 msgid "He he, sounds powerful. How much would you think it is worth?"
@@ -15484,12 +15485,12 @@ msgstr "啊，干完之后心情真是舒畅。"
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_16
 msgid "You, my friend, have done a great deed here today. This thing would have brought great misery if it would have fallen into the wrong hands."
 msgstr "而你，我的朋友，你今天于此解决了一桩大事。要知道若是让这物品落入了危险人物之"
-"手，它会制造出极大的不幸之事来。"
+"手，它会制造出极大的伤痛来。"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_17
 msgid "The people of the surrounding towns are now safe from whatever misery that helmet would have brought. All thanks to you!"
-msgstr "而现在这周围城镇的人们算是安全了，这顶头盔的潜在危险殃及不到他们了，这全归功"
-"于你！"
+msgstr "而现在这周围城镇的人们算是安全了，这顶头盔所潜在的伤痛殃及不到他们了，这全归"
+"功于你！"
 
 #: conversationlist_ulirfendor.json:ulirfendor_dp_proc_18
 msgid "As a token of my appreciation, I am willing to grant upon you a blessing of the Shadow."
@@ -78219,47 +78220,62 @@ msgstr ""
 
 #: questlist_v0611_2.json:toszylae:11
 msgid "Ulirfendor needs help with figuring out what some of the missing parts on the shrine says. The inscription reads 'Kulauil hamar urum Kazaul'te', but the next parts have been completely eroded from the rock."
-msgstr "乌利芬多需要帮助，以弄清楚神龛上一些缺失的部分写着什么。碑文上写着'Kulauil hamar urum Kazaul'te'，但接下来的部分已经完全从岩石上被侵蚀。"
+msgstr ""
+"乌利芬多需要个能帮他搞明白神龛上的缺失内容是什么的援手。那碑文上写道“Kulauil "
+"hamar urum Kazaul'te”，后面石上的内容就已经漫失掉了。"
 
 #: questlist_v0611_2.json:toszylae:15
 msgid "I have agreed to help Ulirfendor find out what the missing parts of the inscription might be. Ulirfendor believes the shrine speaks of a powerful creature that lives deeper inside the dungeon. Maybe that could provide some clue as to what the missing parts are."
-msgstr "我已经同意帮助乌利芬多找出碑文中缺失的部分可能是什么。乌利芬多认为神龛上说的是一个住在地牢深处的强大生物。也许这可以提供一些线索，说明缺失的部分是什么。"
+msgstr ""
+"我答应了去帮助乌利芬多调查出碑文中所缺失的部分可能的内容。乌利芬多认为神龛上"
+"谈及了一个待在这处地穴深处的强大怪物，也许这是一条线索，我能通过寻找那只怪物"
+"的过程中搞明白缺失部分的内容。"
 
 #: questlist_v0611_2.json:toszylae:20
 msgid "Deep inside the dungeon, I encountered a radiant guardian, guarding some other being. The guardian uttered the phrases 'Kulauil hamar urum Kazaul'te. Kazaul hamat urul'. This must be what Ulirfendor was looking for. I should return to him at once."
-msgstr "在地牢深处，我遇到了一个光芒四射的守护者，守护着其他的生命。守护者说了一句话：\"Kulauil hamar urum Kazaul'te。Kazaul hamat urul'。这一定是乌里芬多在寻找的东西。我应该马上回到他身边。"
+msgstr ""
+"在地穴深处，我遇到了一个烁着光的护卫，它正守着别的什么存在。那护卫说了一句话"
+"：“Kulauil hamar urum Kazaul'te. Kazaul hamat "
+"urul”。这估计就是乌利芬多想知道的那句话，我得马上回去告诉他。"
 
 #: questlist_v0611_2.json:toszylae:21
 msgid "I tried to attack the guardian, but was unable to even reach it. Some powerful force held me back. Maybe Ulirfendor knows more."
-msgstr "我试图攻击守护者，但甚至无法靠近它。某种强大的力量把我挡住了。也许乌里芬多知道更多。"
+msgstr "我试图去攻击了护卫，但我甚至无法靠近它：某种强大的力量把我给挡住了。也许乌里"
+"芬多知道更多的消息与办法。"
 
 #: questlist_v0611_2.json:toszylae:30
 msgid "Ulirfendor was very pleased to hear that I uncovered the missing parts of the inscription."
-msgstr "乌利芬多听说我发现了碑文的缺失部分，非常高兴。"
+msgstr "乌利芬多很高兴听闻到我获知了碑文的缺失部分。"
 
 #: questlist_v0611_2.json:toszylae:32
 msgid "He also told me the continuation of the inscription, but did not know what it means. I should go back to the guardian and speak the words that Ulirfendor told me."
-msgstr "他还告诉我铭文的续篇，但不知道它是什么意思。我应该回到守护者那里，说出乌里芬多告诉我的话。"
+msgstr "他又告诉了我那碑文接下的语句，但他也还不知道这话到底是什么意思。接下来我应该"
+"回到护卫那里，去向他讲出乌利芬多告诉我的那句话。"
 
 #: questlist_v0611_2.json:toszylae:42
 msgid "I have spoken the words to the guardian."
-msgstr "我已经把话告诉了守护者。"
+msgstr "我把那句话讲给护卫了。"
 
 #: questlist_v0611_2.json:toszylae:45
 msgid "The guardian gave off a chilling laughter, and started attacking me."
-msgstr "守护者冷笑一声，开始攻击我。"
+msgstr "护卫毛骨悚然地笑了起来，并向我发起了攻击。"
 
 #: questlist_v0611_2.json:toszylae:50
 msgid "I defeated the guardian and reached the lich 'Toszylae'. The lich managed to infect me with something. I must kill the lich and return to Ulirfendor."
-msgstr "我打败了守护者，到达了巫师'托斯拉'。巫师设法让我感染了一些东西。我必须杀了这个巫师，然后回去找乌利芬多。"
+msgstr "我打败了护卫，走到了巫妖“托斯拉”的身前，而这巫妖让我感染了什么东西。我最好得"
+"先杀掉这个巫妖后，然后再回去找一下乌利芬多。"
 
 #: questlist_v0611_2.json:toszylae:60
 msgid "Ulirfendor told me that he had managed to translate the parts of the inscription that I told the guardian. Apparently, what I told the guardian roughly means 'My body for Kazaul'. Ulirfendor was very concerned about what this means for me, and was very regretful that he had made me speak the words."
-msgstr "乌里芬多告诉我，他已经设法翻译了我告诉守护者的部分铭文。显然，我告诉卫报的大致意思是\"我的身体为卡扎尔\"。乌里芬多非常关心这对我意味着什么，并且非常后悔他让我说出这些话。"
+msgstr ""
+"乌里芬多告诉我，他成功翻译出了我先前讲给护卫的那部分碑文：其大致意思是“我的躯"
+"体可以献上给卡扎尔”。乌里芬多非常关心这句话对我造成了什么影响，同时很后悔让我"
+"讲出了那句话。"
 
 #: questlist_v0611_2.json:toszylae:70
 msgid "Ulirfendor was very happy to hear that I managed to defeat the lich. With the lich defeated, the people in the surrounding areas should be safe now."
-msgstr "乌利芬多听到我成功击败了巫师，非常高兴。随着巫师被打败，周围地区的人们现在应该是安全的。"
+msgstr "乌利芬多听闻到我成功击败了那巫妖后非常高兴。那巫妖被打败后这周边地区的人们现"
+"在应该安全了。"
 
 #: questlist_v0611_2.json:darkprotector
 msgid "The dark protector"
@@ -78267,15 +78283,17 @@ msgstr "黑暗守卫"
 
 #: questlist_v0611_2.json:darkprotector:10
 msgid "I have found a strange looking helmet from the lich 'Toszylae' that I defeated. I should go ask Ulirfendor if he knows anything about it."
-msgstr "我从被我打败的巫师'托斯拉'身上找到了一个造型奇怪的头盔。我应该去问问乌里芬多，看他是否知道些什么。"
+msgstr "我从被我先前打败的巫妖“托斯拉”的附近找到了一顶样式很奇怪的头盔。我应该去问问"
+"乌里芬多他是否知道些什么。"
 
 #: questlist_v0611_2.json:darkprotector:15
 msgid "Ulirfendor in the same dungeon thinks this artifact is what the shrine speaks of, and that it will bring misery to the surroundings of whoever carries it. He wants me to help him destroy it immediately."
-msgstr "在同一个地牢里的乌里芬多认为这个神器就是神龛上所说的东西，它将给携带它的人的周围带来痛苦。他想让我帮助他立即销毁它。"
+msgstr "待在同一地穴里的乌里芬多认为这个法器就是神龛上所描述说的东西，而它将会给携带"
+"它的人的周围带来伤痛。乌里芬多想让我帮助他立即销毁掉它。"
 
 #: questlist_v0611_2.json:darkprotector:26
 msgid "To destroy the artifact, I would need give the helmet and the heart of the lich to Ulirfendor."
-msgstr "要摧毁神器，我需要把头盔和巫师的心脏交给乌利芬多。"
+msgstr "想要摧毁这个法器的话，我需要把头盔和巫妖之心交给乌利芬多。"
 
 #: questlist_v0611_2.json:darkprotector:30
 msgid "I have given the helmet to Ulirfendor."
@@ -78283,11 +78301,12 @@ msgstr "我把头盔交给了乌里芬多。"
 
 #: questlist_v0611_2.json:darkprotector:31
 msgid "I have given the heart of the lich to Ulirfendor."
-msgstr "我把巫妖的心给了乌里芬多。"
+msgstr "我把巫妖之心给了乌里芬多。"
 
 #: questlist_v0611_2.json:darkprotector:35
 msgid "Ulirfendor has destroyed the artifact. The people of the surrounding towns are safe from whatever misery the helmet would have brought."
-msgstr "乌里芬多已经摧毁了这件神器。周围城镇的人们可以免受头盔带来的任何痛苦。"
+msgstr "乌里芬多销毁掉了这件法器，这样周围城镇的人们就没有遭受这顶头盔所带来伤痛的可"
+"能了。"
 
 #: questlist_v0611_2.json:darkprotector:40
 msgid "For helping with both the lich and the helmet, Ulirfendor has given me the dark blessing of the Shadow."
