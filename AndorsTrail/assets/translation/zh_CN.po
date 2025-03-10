@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-10 02:03+0000\n"
+"PO-Revision-Date: 2025-03-10 03:22+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -16192,11 +16192,12 @@ msgstr "暗影命中祝福可以让你更加机敏地发觉能打击到对手的
 
 #: conversationlist_talion_2.json:talion_bless_guard_1
 msgid "Ah yes, the blessing of the Shadow guardian. The Shadow protects you in dark places, and keeps you safe where others might not see. I can give you the blessing for 400 gold."
-msgstr "啊，是的，暗影守护者的祝福。影子在黑暗的地方保护你，在别人可能看不到的地方保护你。你可以用400金币获得这个祝福。"
+msgstr "啊没有错，是暗影护卫祝福。暗影会在暗中守护你免受他者所不能见的危险。你可以用4"
+"00金币获得这个祝福。"
 
 #: conversationlist_talion_2.json:talion_bless_guard_1:0
 msgid "OK, I'll take it for 400 gold."
-msgstr "好吧，我以400金币买下它。"
+msgstr "没问题，我这就400金币换取它。"
 
 #: conversationlist_talion_2.json:talion_bless_str_2
 #: conversationlist_talion_2.json:talion_bless_heal_2
@@ -16207,11 +16208,11 @@ msgstr "很好。*开始吟唱*"
 
 #: conversationlist_talion_2.json:talion_bless_2
 msgid "There. I hope you will find it useful on your travels."
-msgstr "好啦。我希望你会发现它在你的旅行中很有用。"
+msgstr "好啦，愿它可以在旅途中帮到你。"
 
 #: conversationlist_talion_2.json:talion_bless_2:1
 msgid "How about some of those other blessings?"
-msgstr "那其他的一些祝福呢？"
+msgstr "那其他的祝福呢？"
 
 #: conversationlist_gylew.json:gylew
 msgid "Hey kid."
@@ -16294,7 +16295,7 @@ msgstr "城镇周围有发生什么吗？"
 
 #: conversationlist_ingus.json:ingus_2
 msgid "Oh, there's not much happening around here. We try to keep the town as peaceful as possible."
-msgstr "哦，我想这里平常并没什么事，这里是个众人一起维持的和平城镇。"
+msgstr "哦，我想这里平常并没什么事，这里是个众人一起维持的安宁城镇。"
 
 #: conversationlist_ingus.json:ingus_3
 msgid "We don't get many visitors up here in the mountains."
@@ -16318,11 +16319,12 @@ msgstr "不客气。还有什么事吗？"
 
 #: conversationlist_ingus.json:ingus_t1
 msgid "Oh, I don't know much about it. The guards say they have seen strange signs outside town, and some people have gone missing."
-msgstr "哦，我对此了解不多。卫兵声称他们在城外看到了某种可疑的端倪，同时一些失踪案件出现了。"
+msgstr "哦，我对此了解不多。卫兵声称他们在城外看到了某种可疑的端倪，同时一些失踪案件"
+"发生了。"
 
 #: conversationlist_ingus.json:ingus_t2
 msgid "I try to keep out of it though. Sounds like trouble to me."
-msgstr "对此我尽量置身事外，这件事对于我来说只是单纯的危险。"
+msgstr "对此我尽量置身事外，这件事对于我来说只是纯粹的危险。"
 
 #: conversationlist_ingus.json:ingus_t3
 msgid "Well, there's always the Elwille sisters, fighting as always."
@@ -16361,7 +16363,7 @@ msgid ""
 "Shop? Oh yes, of course. There's Rothses' and Arnal's shops right there.\n"
 "[Ingus points to the two nearby houses to the west]"
 msgstr ""
-"商店？哦，当然是有的 。那边是罗斯与阿娜尔分别所开的两家商店。\n"
+"商店？哦，当然是有的 。那边是罗瑟斯与阿娜尔分别所开的两家商店。\n"
 "[英格斯指了指西边的两栋房子]"
 
 #: conversationlist_ingus.json:ingus_s2
@@ -16374,15 +16376,17 @@ msgstr "谢谢你，请问镇上有发生什么吗？"
 
 #: conversationlist_ingus.json:ingus_q1
 msgid "Unfortunately, for whatever reason, people that live in their neighborhood have been reporting the situation between the two of them has recently become more ... shall we say ... 'noticeable'."
-msgstr "不幸的是，无论出于什么原因，住在他们附近的人都报告说，他们两人之间的情况最近变得更加......我们可以说...... \"引人注目\"。"
+msgstr "很不幸也不知是出于什么原因，住在她们附近的人都说她俩之间的关系现在变得更加的…"
+"怎么说呢…“显著”了。"
 
 #: conversationlist_ingus.json:ingus_q2
 msgid "I'm afraid that if they don't resolve their differences soon on their own, that the city council will have to act and resolve the matter for them."
-msgstr "我担心，如果他们不尽快自行解决他们的分歧，市议会将不得不采取行动，为他们解决这个问题。"
+msgstr "我很担心如果她们没法自行尽快解决她们之间的分歧的话，镇里的议事会将不得不采取"
+"行动去解决她们的这个问题。"
 
 #: conversationlist_ingus.json:ingus_q3
 msgid "It wouldn't be the first time the city council had to intervene in private matters that got out of hand."
-msgstr "这并不是市议会第一次不得不干预失控的私人事务。"
+msgstr "议事会出手干预干预私人事务的情况也不是第一次了。"
 
 #: conversationlist_elwyl.json:elwel_1
 msgid "Go away, I don't want to talk to you!"
@@ -16703,7 +16707,7 @@ msgstr "嗯，我给你带来了莱森髓液。"
 
 #: conversationlist_hjaldar.json:hjaldar_r1:1
 msgid "What was that you were saying about those potions of accuracy focus?"
-msgstr "你说专注瞄准药水怎么了？"
+msgstr "你说专注瞄准药水什么来着？"
 
 #: conversationlist_hjaldar.json:hjaldar_r1:2
 msgid "What made you stop making potions?"
@@ -16719,7 +16723,7 @@ msgstr "哦，没错，这确实是髓液，干得不错！"
 
 #: conversationlist_hjaldar.json:hjaldar_r3
 msgid "Thanks for bringing me some of that marrow extract. Nice work finding it!"
-msgstr "谢谢你给我带了一些骨髓提取物。干得不错！"
+msgstr "谢谢你给我带来了一些髓液，干得不错！"
 
 #: conversationlist_hjaldar.json:hjaldar_r4
 msgid "Tell me, did you find Mazeg or did you get it from somewhere else?"
@@ -16735,7 +16739,8 @@ msgstr "这一小瓶液体可是让我一路跑到了黑水山，我希望它值
 
 #: conversationlist_hjaldar.json:hjaldar_r5
 msgid "Blackwater mountain? I'm afraid I don't know where that is. Never mind, I hope that all is well with my old friend."
-msgstr "黑水山？抱歉我并不知道那个地方在哪里。对了，我想问一下我的老朋友是否还一切安好。"
+msgstr "黑水山？抱歉我并不知道那是什么地方。对了，我想问一下我的老朋友是否还一切安好"
+"。"
 
 #: conversationlist_hjaldar.json:hjaldar_r5:0
 msgid "He told me to send you his warmest greetings."
@@ -16775,7 +16780,7 @@ msgstr "还有这个，稍稍取一点加到管子里去..."
 
 #: conversationlist_hjaldar.json:hjaldar_r12
 msgid "Finally, the Lyson marrow extract..."
-msgstr "最后还有，莱森髓液..."
+msgstr "最后还有，莱森髓液…"
 
 #: conversationlist_hjaldar.json:hjaldar_r13
 msgid "There. Now we just need to give them a good shake."
@@ -16799,7 +16804,7 @@ msgstr "谢谢你之前为我联系到了马泽格，有了你带给我的这份
 
 #: conversationlist_hjaldar.json:hjaldar_pots_1:0
 msgid "Let me see what potions you have."
-msgstr "让我看看你有什么药水。"
+msgstr "让我看看你有什么药水吧。"
 
 #: conversationlist_hjaldar.json:hjaldar_pots_1:1
 msgid "You are welcome, goodbye."
@@ -16808,7 +16813,7 @@ msgstr "不客气，再见。"
 #: conversationlist_mazeg.json:mazeg_1:1
 #: conversationlist_mazeg.json:mazeg_2:1
 msgid "I am looking for some Lyson marrow extract, for Hjaldar in Remgard."
-msgstr "我正在为瑞姆加德的哈尔达尔寻求一些莱森骨髓提取物。"
+msgstr "我正在为瑞姆加德的哈尔达尔寻求一些莱森髓液。"
 
 #: conversationlist_mazeg.json:mazeg_2:0
 msgid "Yes. Please show me what you have."
@@ -16840,7 +16845,7 @@ msgstr "这可真糟糕。在我的印象，他的形象一直都是位坚挺的
 
 #: conversationlist_mazeg.json:mazeg_e_5
 msgid "You asked for some Lyson marrow extract."
-msgstr "对了，你是想要一些莱森骨髓提取物。"
+msgstr "对了，你是想要一些莱森髓液。"
 
 #: conversationlist_mazeg.json:mazeg_e_5b
 msgid "Sure, I have it."
@@ -16848,7 +16853,8 @@ msgstr "当然，我有。"
 
 #: conversationlist_mazeg.json:mazeg_e_7a
 msgid "Since you helped us up here in the Blackwater mountain settlement earlier, I am willing to give you a discount on the price for some Lyson marrow extract. For 400 gold, I am willing to sell you some of it for my old friend Hjaldar."
-msgstr "出于你之前对黑水山定居点的帮助，我可以把骨髓提取物便宜点卖给你，只要400金币。我可是看在它是拿给我的老朋友哈尔达尔的份上才愿意卖的。"
+msgstr "鉴于你之前对黑水山定居点的帮助，我可以把髓液便宜点卖给你，只要400金币。我可是"
+"看在它是拿给我的老朋友哈尔达尔的份上才愿意卖的。"
 
 #: conversationlist_mazeg.json:mazeg_e_7a:0
 #: conversationlist_mazeg.json:mazeg_e_8a:0
@@ -16886,7 +16892,7 @@ msgstr "不，就800金币，这个价格已经很便宜了，毕竟这种东西
 
 #: conversationlist_mazeg.json:mazeg_e_9
 msgid "Thanks. Here's some of the Lyson marrow extract."
-msgstr "谢了，请拿好这份莱森骨髓提取物。"
+msgstr "谢了，请拿好这份莱森髓液。"
 
 #: conversationlist_mazeg.json:mazeg_e_10
 msgid "Please give my warmest greetings to my good friend Hjaldar. Tell him that I am well."
@@ -16902,11 +16908,11 @@ msgstr "或许吧，再见。"
 
 #: conversationlist_sign_waterwaycave.json:sign_waterwaycave
 msgid "You notice a slight draft blowing across your ankles as you stand admiring the quality of this woven coil of rope."
-msgstr "当你站在这里称赞这卷绳索的质量时，你注意到一股轻微的气流吹过你的脚踝。"
+msgstr "当你站于此地赞叹这条绳索的经久耐受时，你察觉到有一股轻微的气流拂过你的脚踝。"
 
 #: conversationlist_sign_waterwaycave.json:sign_waterwaycave:0
 msgid "[Take the rope]"
-msgstr "[拿起绳子]"
+msgstr "[抄起绳子]"
 
 #: conversationlist_sign_waterwaycave.json:sign_waterwaycave:1
 #: conversationlist_charwood2.json:morenavia:1
@@ -16916,7 +16922,8 @@ msgstr "[不要管它]"
 
 #: conversationlist_sign_waterwaycave.json:sign_waterwaycave2
 msgid "Despite your efforts to collect the rope, you find that it runs into what appears to be a crack in the stone wall before you. Unfortunately, this seems to be an adventure for another day."
-msgstr "尽管你努力收集绳子，你发现它遇到了你面前的石墙裂缝。不幸的是，这似乎是另一天的冒险。"
+msgstr "尽管你努力地试着收起绳子，但你发现它的末端跑进了你面前的石缝里。很不幸的是，"
+"那里面似乎并不是你当前所能探索到的地方。"
 
 #: conversationlist_sign_waterwaycave.json:sign_bwm31
 msgid "You notice some torn papers on the floor. From the looks of it, these pages seem to have been torn from a larger journal."
@@ -17163,7 +17170,8 @@ msgstr "第三，考虑到她的经历，老妇人杜埃娜可以分享…… �
 
 #: conversationlist_jhaeld.json:jhaeld_18
 msgid "Lastly, you should go talk to Rothses, the armorer in town. He meets most people now and then, and might have picked up something that he won't dare tell us guards. His house is on the western side of town."
-msgstr "最后，你应该去和罗斯谈谈，罗斯，城里的军械师。他经常和很多人接触，可能会知道一些他不敢告诉我们警卫的东西。他的房子在城的西边。"
+msgstr "最后，你应该去和罗瑟斯谈谈，罗瑟斯，城里的军械师。他经常和很多人接触，可能会"
+"知道一些他不敢告诉我们警卫的东西。他的房子在城的西边。"
 
 #: conversationlist_jhaeld.json:jhaeld_19
 msgid "Please be as swift as possible."
@@ -17560,7 +17568,7 @@ msgstr "我会认为整个城镇都欠你的，但他们可能不知道。"
 
 #: conversationlist_jhaeld.json:jhaeld_killalg_6
 msgid "Go talk to Rothses over at the west side of town. He should be able to help you improve some of your equipment."
-msgstr "去镇上西边和罗斯聊聊。他应该能够帮你改造装备。"
+msgstr "去镇上西边和罗瑟斯聊聊。他应该能够帮你改造装备。"
 
 #: conversationlist_jhaeld.json:jhaeld_completed
 msgid "Again, thank you for all your help."
@@ -17925,7 +17933,7 @@ msgid ""
 "[Rothses gives you a suspicious look]"
 msgstr ""
 "哦，我对这一点了解不多。你问得真好。\n"
-"[罗斯给你一个可疑的眼神]"
+"[罗瑟斯给你一个可疑的眼神]"
 
 #: conversationlist_rothses.json:rothses_3:0
 msgid "Are you sure? Anything you know or might have seen may be of interest."
@@ -73473,7 +73481,7 @@ msgstr "诺拉斯"
 
 #: monsterlist_v0611_npcs2.json:rothses
 msgid "Rothses"
-msgstr "罗斯"
+msgstr "罗瑟斯"
 
 #: monsterlist_v0611_npcs2.json:duaina
 msgid "Duaina"
@@ -78203,7 +78211,11 @@ msgstr "所载非愿"
 
 #: questlist_v0611_2.json:toszylae:10
 msgid "On the road between Loneford and Brimhaven, I found a dried up lake-bed with a major cavern below. Deep inside the cavern, I met Ulirfendor - a priest of the Shadow from Brimhaven. Ulirfendor is trying to translate the inscriptions on a shrine of Kazaul, and has determined that it speaks of the 'Dark protector', but he is unsure what that refers to. Whatever it means, he is determined that it must be stopped."
-msgstr "在隆福德和布林海文之间的路上，我发现了一个干涸的湖床，下面有一个主要的洞穴。在洞穴深处，我遇到了乌利芬多 - 一位来自布林海文的暗影祭司。乌利芬多正试图翻译卡扎尔神殿上的铭文，并确定它提到 \"黑暗保护者\"，但他不确定那是指什么。无论它是什么意思，他都决定必须阻止它。"
+msgstr ""
+"在隆福德和布林海文之间的路上，就在干涸的湖床边，我发现了一个通往地下的洞穴入"
+"口。在洞穴深处，我遇到了乌利芬多——一位来自布林海文的暗影牧师。乌利芬多正在试"
+"图翻译出刻在卡扎尔神龛上的铭文，同时他还提及了其上有记载着一个叫作“黑暗守卫”"
+"的东西或家伙。不论它究竟是在指什么，乌利芬多都认为其的影响必须被中止了。"
 
 #: questlist_v0611_2.json:toszylae:11
 msgid "Ulirfendor needs help with figuring out what some of the missing parts on the shrine says. The inscription reads 'Kulauil hamar urum Kazaul'te', but the next parts have been completely eroded from the rock."
@@ -78478,7 +78490,7 @@ msgstr "第三，我应该去南边的老太太杜埃娜的房子里和她谈谈
 
 #: questlist_v0611_3.json:remgard:54
 msgid "Lastly, I should talk to Rothses, the armorer. He lives on the west side of town."
-msgstr "最后，我应该和军械师罗斯谈谈。他住在镇子的西边。"
+msgstr "最后，我应该和军械师罗瑟斯谈谈。他住在镇子的西边。"
 
 #: questlist_v0611_3.json:remgard:59
 msgid "I tried to tell Jhaeld about Algangror, but he dismissed me as he had not heard me."
@@ -78498,7 +78510,8 @@ msgstr "杜埃娜在她的幻觉中见过我。我不明白她所说的一切，
 
 #: questlist_v0611_3.json:remgard:64
 msgid "Rothses told me that Bethir visited him the night before she disappeared, to sell some equipment. He did not see where she went after that."
-msgstr "罗斯告诉我，贝希尔在失踪的前一天晚上去找过他，要卖一些装备。他没有看到她之后去了哪里。"
+msgstr "罗瑟斯告诉我，贝希尔在失踪的前一天晚上去找过他，要卖一些装备。他没有看到她之"
+"后去了哪里。"
 
 #: questlist_v0611_3.json:remgard:70
 msgid "I have talked to all of the people that Jhaeld wanted me to talk to, but did not get any information from any of them about what may have happened to the missing people. I should go back to Jhaeld and ask what his plans are next."
@@ -78550,7 +78563,8 @@ msgstr "贾尔德听到这个好消息非常高兴。瑞姆加德的人民现在
 
 #: questlist_v0611_3.json:remgard2:45
 msgid "For helping the people of Remgard find the cause of the disappearing people, Jhaeld told me to talk to Rothses. He might be able to improve some of my equipment."
-msgstr "为了帮助瑞姆加德的人们找到消失的原因，贾尔德让我和罗斯谈谈。他也许能改进我的一些装备。"
+msgstr "为了帮助瑞姆加德的人们找到消失的原因，贾尔德让我和罗瑟斯谈谈。他也许能改进我"
+"的一些装备。"
 
 #: questlist_v0611_3.json:remgard2:46
 msgid "Ervelyn, the Remgard tailor, gave me a feathered hat as thanks for helping the people of Remgard find out what happened to the missing people."
