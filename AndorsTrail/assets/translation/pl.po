@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-12 03:08+0000\n"
+"PO-Revision-Date: 2025-03-12 19:33+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -60426,18 +60426,21 @@ msgstr "[Śmieje się] Haha! Tak, tym się zajmuję."
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence1a
 msgid "But I'm afraid I haven't got enough wood right now. Please go back to Loneford's woodcutter. We have a deal that he supplies me with wood."
 msgstr ""
+"Ale obawiam się, że nie mam teraz wystarczająco dużo drewna. Proszę, idź do "
+"drwala w Loneford po więcej. Mamy zawartą umowę i cały materiał biorę od "
+"niego."
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence1a:0
 msgid "Fine, I'm on my way."
-msgstr ""
+msgstr "Świetnie, w takim razie zadzieram kiecę i lecę."
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence4
 msgid "[pointing to a pile of wood] There."
-msgstr ""
+msgstr "[Pokazuje na stos drewna] Tam."
 
 #: conversationlist_bwmfill.json:loneford_villager2_fence4:0
 msgid "Thank you ... I guess."
-msgstr ""
+msgstr "Dziękuję Ci... chyba."
 
 #: conversationlist_bwmfill.json:brv_woodcraftsman_fence2
 msgid "Perfect! Thank you for helping out, kid. Just wait a few minutes."
