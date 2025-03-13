@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-13 02:06+0000\n"
+"PO-Revision-Date: 2025-03-13 17:04+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+"X-Generator: Weblate 5.11-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -60496,59 +60496,65 @@ msgstr "Cóż...No dobrze."
 
 #: conversationlist_laeroth.json:bridge_key
 msgid "The bridge is no longer passable."
-msgstr ""
+msgstr "Ten most nie jest już przejezdny."
 
 #: conversationlist_laeroth.json:arulir_secret_room_loot_1
 msgid "You found a corpse with a loot bag."
-msgstr ""
+msgstr "Znajdujesz zwłoki a przy nich wypełnioną różnymi przedmiotami torbę."
 
 #: conversationlist_laeroth.json:arulir_secret_room_loot_1:0
 msgid "[Plunder the loot]"
-msgstr ""
+msgstr "[Przeszukaj torbę]"
 
 #: conversationlist_laeroth.json:arulir_secret_room_loot_1:1
 msgid "[Leave the loot alone]"
-msgstr ""
+msgstr "[Zostaw torbę w spokoju]"
 
 #: conversationlist_laeroth.json:arulir_secret_room_loot_2
 msgid "You have 'acquired' some gold and other valuable gems!"
-msgstr ""
+msgstr "'Zdobywasz' trochę złota i cennych klejnotów!"
 
 #: conversationlist_laeroth.json:arulir_secret_room_loot_3
 msgid "You've been here before and have already plundered the man's valuables."
 msgstr ""
+"Byłeś tu już wcześniej i zabrałeś stąd wszystkie cenne rzeczy należące do "
+"tego nieszczęśnika."
 
 #: conversationlist_laeroth.json:gylew2
 msgid "Great! Let me see."
-msgstr ""
+msgstr "Świetnie! Niech no zobaczę."
 
 #: conversationlist_laeroth.json:gylew3
 msgid "I am a rare coin collector. Have you ever noticed how some of your gold is more unique or older looking than others?"
 msgstr ""
+"Jestem numizmatykiem. Czy zauważyłeś może kiedyś, że niektóre z Twoich "
+"złotych monet są bardziej wyjątkowe od innych lub wyglądają na starsze niż "
+"pozostałe?"
 
 #: conversationlist_laeroth.json:gylew3:0
 msgid "Yes, I have."
-msgstr ""
+msgstr "Tak, oczywiście."
 
 #: conversationlist_laeroth.json:gylew3:1
 msgid "[Lie] Yes, yes I have."
-msgstr ""
+msgstr "[Kłamstwo] Tak, oczywiście."
 
 #: conversationlist_laeroth.json:gylew3:2
 msgid "Honestly, I just use it to buy bonemeal."
 msgstr ""
+"Szczerze mówiąc, to używam ich tylko do kupowania mikstury z kostnego prochu."
 
 #: conversationlist_laeroth.json:gylew3:3
 msgid "No and I don't care."
-msgstr ""
+msgstr "Nie i mam to gdzieś."
 
 #: conversationlist_laeroth.json:gylew4
 msgid "Great. Please let me see...agh, interesting."
-msgstr ""
+msgstr "Świetnie. Proszę, pozwól mi zobaczyć... ooo, a to ciekawe."
 
 #: conversationlist_laeroth.json:gylew4:0
 msgid "What? What do you see?"
-msgstr ""
+msgstr "Co? O co chodzi?"
 
 #: conversationlist_laeroth.json:gylew5
 msgid "This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves."
@@ -60556,7 +60562,7 @@ msgstr ""
 
 #: conversationlist_laeroth.json:gylew5:0
 msgid "Oh, I see."
-msgstr ""
+msgstr "Och, rozumiem."
 
 #: conversationlist_laeroth.json:gylew5:1
 msgid "[While pointing at a few of the coins in Gylew's hand, you ask:] What about those?"
