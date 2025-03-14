@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-14 04:41+0000\n"
+"PO-Revision-Date: 2025-03-14 07:45+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -442,7 +442,7 @@ msgstr "初级防御提升"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
-msgstr "埃利萨拉之焕"
+msgstr "艾黎萨菈之焕"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
@@ -1893,7 +1893,7 @@ msgstr "你好。我是阿西尔。"
 #: conversationlist_fallhaven_arcir.json:arcir_start:0
 #: conversationlist_fallhaven_arcir.json:arcir_anythingelse:0
 msgid "I noticed your statue of Elythara downstairs."
-msgstr "我瞧见你家底下有一尊埃利萨拉的雕像。"
+msgstr "我瞧见你家底下有一尊艾黎萨菈的雕像。"
 
 #: conversationlist_fallhaven_arcir.json:arcir_start:1
 #: conversationlist_fallhaven_arcir.json:arcir_anythingelse:1
@@ -1916,7 +1916,7 @@ msgid ""
 msgstr ""
 "你在地下室看到我的雕像了? \n"
 "\n"
-"嗯，埃利萨拉是我的守护神。"
+"没错，艾黎萨菈是我所信仰的神明。"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1
 msgid "I find great pleasure in my books. They contain the accumulated knowledge of past generations."
@@ -4386,7 +4386,7 @@ msgstr "你瞧见了一张撕下来的书页，可以看出它来自一本名为
 
 #: conversationlist_signs_pre067.json:arcir_basement_statue
 msgid "Elythara, mother of the light. Protect us from the curse of the Shadow."
-msgstr "众光之母 埃利萨拉。请保佑我们免受暗影之诅咒。"
+msgstr "众光之母 艾黎萨菈。请保佑我们免受暗影之诅咒。"
 
 #: conversationlist_signs_pre067.json:fallhaven_tavern_room
 msgid "You are not allowed into the room unless you have rented it."
@@ -9077,7 +9077,8 @@ msgstr ""
 
 #: conversationlist_blackwater_signs.json:sign_blackwater30_notstarted
 msgid "You find a piece of paper partially frozen in the snow. You can barely make out the phrase 'Kazaul, defiler of the Elytharan Temple' from the wet paper."
-msgstr "你在雪堆中发现了一张些许被冻硬的纸。从这张湿皱的纸上，你勉强辨认出了“卡扎尔，埃利萨拉神庙的亵渎者”这句话。"
+msgstr "你在雪堆中发现了一张些许被冻硬的纸。从这张湿皱的纸上，你勉强辨认出了“卡扎尔，"
+"艾黎萨菈神庙的亵渎者”这句话。"
 
 #: conversationlist_blackwater_signs.json:sign_blackwater32
 msgid "The sign is severely damaged from what looks as bite marks from something with really sharp teeth. You cannot make out any readable words."
@@ -10534,7 +10535,7 @@ msgstr "[护卫俯下了头，它那双冒着火的的眼睛盯向了你]"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_2:0
 msgid "Kazaul, defiler of the Elytharan Temple."
-msgstr "卡扎尔，埃利萨拉神庙的亵渎者。"
+msgstr "卡扎尔，艾黎萨菈神庙的亵渎者。"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_3
 msgid "[You see the burning eyes of the guardian instantly turn into a dark red haze]"
@@ -17179,7 +17180,7 @@ msgstr "首先是诺拉斯，他和他的妻子贝希尔住在西南岸边的农
 #: conversationlist_jhaeld.json:jhaeld_16
 msgid "Secondly, as you might have heard, we have been blessed by a visit from a delegation of the Knights of Elythom here in Remgard. Unfortunately, one of the knights has vanished, which is most embarrassing for us. They can be found here in the tavern."
 msgstr ""
-"第二，也许你也听说了，伊利索姆骑士团的代表们近日里惠临了瑞姆加德，但不幸的是"
+"第二，也许你也听说了，艾黎索姆骑士团的代表们近日里惠临了瑞姆加德，但不幸的是"
 "他们之中的一名骑士消失了，这让我们很是尴尬。而你可以在酒馆里找到他们。"
 
 #: conversationlist_jhaeld.json:jhaeld_17
@@ -17241,8 +17242,8 @@ msgstr "那个，到底……"
 
 #: conversationlist_jhaeld.json:jhaeld_23
 msgid "Are you still talking? I knew you were nothing but trouble the moment I saw you. Now, can you please hurry up and go talk to those people?"
-msgstr "你怎么这么啰嗦？我看到你的第一眼就知道你就只是个纯粹的麻烦。现在你可以赶快去"
-"和哪些人问事了吧？"
+msgstr "你怎么这么啰嗦？我看到你的第一眼就知道你纯粹就是个麻烦。现在你可以赶快去和哪"
+"些人问事了吧？"
 
 #: conversationlist_jhaeld.json:jhaeld_23:0
 msgid "Fine. I'll go ask them."
@@ -17292,11 +17293,11 @@ msgstr "这是你第一次听进了我在讲什么。"
 
 #: conversationlist_jhaeld.json:jhaeld_return3:2
 msgid "Maybe you should have sent me to ask other people than these losers you sent me to."
-msgstr "也许你应该让我去问其他的人，而不是你派给我的这些失败者。"
+msgstr "也许你就该让我去询问别的什么人而不是这群窝囊废。"
 
 #: conversationlist_jhaeld.json:jhaeld_return4
 msgid "Oh, I knew you were nothing but trouble the moment I saw you."
-msgstr "哦，我一看到你就知道你只是个麻烦。"
+msgstr "哦，我看到你的第一眼就知道你就纯粹是个麻烦。"
 
 #: conversationlist_jhaeld.json:jhaeld_return5
 msgid "I sent you to do a simple task, and you return with ... nothing!"
@@ -39485,7 +39486,7 @@ msgstr "他们相信她的虚假承诺，被误导了。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_45
 msgid "Then Elytharan cultists arrived on the shore of the northern sea, which is also known as the Sea of Tears."
-msgstr "然后，信奉埃利萨拉的异端来到了北部海岸，也就是泪海。"
+msgstr "然后，信奉艾黎萨菈的异端来到了北部海岸，也就是泪海。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_46
 msgid "The cultists worshipped the blinding and cleansing light of Elythara. Clever and sneaky as they were, they gained people's trust."
@@ -63722,7 +63723,7 @@ msgstr "好啊，既然如此，你就等在这儿吧，我马上就回来。"
 
 #: conversationlist_feygard_1.json:feygard_offering
 msgid "\"Pay homage to Elythara, radiant queen of the world!\""
-msgstr "\"向照耀全宇的光辉女王 埃利萨拉致敬！\""
+msgstr "\"向照耀全宇的光辉女王 艾黎萨菈致敬！\""
 
 #: conversationlist_feygard_1.json:feygard_offering:0
 msgid "Homage - and above all gold ..."
@@ -63786,19 +63787,19 @@ msgstr "你的献礼会取得垂青的。"
 
 #: conversationlist_feygard_1.json:feygard_offering_34_2
 msgid "Thank you, in the name of Elythara."
-msgstr "感谢您，以埃利萨拉的名义."
+msgstr "感谢您，以艾黎萨菈的名义."
 
 #: conversationlist_feygard_1.json:feygard_offering_34_3
 msgid "Let your name be praised in the halls of Elythara!"
-msgstr "你的名字应在埃利萨拉之殿上所颂扬！"
+msgstr "你的名字应在艾黎萨菈之殿上所颂扬！"
 
 #: conversationlist_feygard_1.json:feygard_offering_34_4
 msgid "For the greatness of Elythara, our Godess!"
-msgstr "为了我们伟大的女神埃利萨拉！"
+msgstr "为了我们伟大的女神艾黎萨菈！"
 
 #: conversationlist_feygard_1.json:feygard_offering_34_5
 msgid "Long live Elythara!"
-msgstr "埃利萨拉万岁！"
+msgstr "艾黎萨菈万岁！"
 
 #: conversationlist_feygard_1.json:feygard_offering_36
 msgid "You can not undo your evil theft."
@@ -63809,7 +63810,7 @@ msgstr "你过去的盗窃勾当已是覆水难收。"
 #: conversationlist_feygard_1.json:feygard_offering_40_100a
 #: conversationlist_feygard_1.json:feygard_offering_40_1000a
 msgid "Stealing from the goddess Elythara - are you sure?"
-msgstr "从埃利萨拉女神那里偷东西——你确定吗？"
+msgstr "从艾黎萨菈女神那里偷东西——你确定吗？"
 
 #: conversationlist_feygard_1.json:feygard_offering_40_1a:1
 #: conversationlist_feygard_1.json:feygard_offering_40_10a:1
