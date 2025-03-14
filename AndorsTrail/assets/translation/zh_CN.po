@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-14 03:03+0000\n"
+"PO-Revision-Date: 2025-03-14 04:13+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -2060,7 +2060,8 @@ msgstr "什，什么？不, 我啥都不知道。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_umar_1
 msgid "OK kid. You've proven yourself to me. Yes, I saw some other kid by that description running around here a few days ago."
-msgstr "好吧，孩子。你向我证明了你自己。是的，我在几天前看到过符合你描述的别的孩子在这附近跑来跑去。"
+msgstr "好吧，孩子。你向我证明了你自己。是的，我在几天前看到过符合你描述的别的孩子在"
+"这附近出现过。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_umar_2
 msgid "I don't know what he was up to though. He kept asking a lot of questions. Kind of like you do. *snicker*"
@@ -17015,7 +17016,7 @@ msgstr "[这日记没有更多的内容了]"
 
 #: conversationlist_jhaeld.json:jhaeld_1
 msgid "What, who are you? Don't bother me, child. We don't want kids running around in here."
-msgstr "等等，你是谁啊？孩子你别打扰我，我们可不喜欢有孩子在这里到处乱跑。"
+msgstr "等等，你是谁啊？孩子你别打扰我，我们可不喜欢有孩子在这里四处乱跑。"
 
 #: conversationlist_jhaeld.json:jhaeld_1:0
 msgid "Are you Jhaeld? I was sent here to help you investigate the missing people."
@@ -17213,48 +17214,52 @@ msgstr "你还要说啥啊？怎么还不走？我都说了快去吧。"
 
 #: conversationlist_jhaeld.json:jhaeld_21:0
 msgid "What about her? The bridge guard sent me to investigate that house, and seemed very upset when I mentioned that she's there."
-msgstr "她怎么了？守桥人派我去调查那所房子，当我提到她在那里时，她似乎很不高兴。"
+msgstr "她到底是什么情况？守桥人派我去调查她在的那所房子，我回告他那个女士待在里面后"
+"，守桥人的脸色似乎突然变得很差。"
 
 #: conversationlist_jhaeld.json:jhaeld_21:1
 #: conversationlist_jhaeld.json:jhaeld_22:3
 msgid "I'll go ask those people you mentioned."
-msgstr "我去问问你提到的那些人。"
+msgstr "我这就去询问你提到的那些人。"
 
 #: conversationlist_jhaeld.json:jhaeld_22
 msgid "Did you not hear me? I told you to be as quick as possible! That means you should go talk to those people instead of standing around here blabbing."
-msgstr "你没听到我的话吗？我告诉你要尽可能快！意思是你应该去和那些人谈谈，而不是站在这里吹牛。"
+msgstr "你是没听懂我的话吗？我让你快走！我对你说，你现在应该出发去和那些人谈话了，而"
+"不是站在这里叽叽喳喳地叨叨个不停。"
 
 #: conversationlist_jhaeld.json:jhaeld_22:0
 msgid "But the bridge guard seemed..."
-msgstr "但是护桥的人似乎..."
+msgstr "但是守桥人似乎……"
 
 #: conversationlist_jhaeld.json:jhaeld_22:1
 msgid "But I thought that..."
-msgstr "可是我认为……"
+msgstr "可是我觉得……"
 
 #: conversationlist_jhaeld.json:jhaeld_22:2
 msgid "What about the..."
-msgstr "那么，..."
+msgstr "那个，到底……"
 
 #: conversationlist_jhaeld.json:jhaeld_23
 msgid "Are you still talking? I knew you were nothing but trouble the moment I saw you. Now, can you please hurry up and go talk to those people?"
-msgstr "你还在说吗？我一看到你就知道你只是个麻烦。现在，你能快点和那些人谈谈吗？"
+msgstr "你怎么这么啰嗦？我看到你的第一眼就知道你就只是个纯粹的麻烦。现在你可以赶快去"
+"和哪些人问事了吧？"
 
 #: conversationlist_jhaeld.json:jhaeld_23:0
 msgid "Fine. I'll go ask them."
-msgstr "好。我会去问他们。"
+msgstr "好吧，我会去找他们谈谈的。"
 
 #: conversationlist_jhaeld.json:jhaeld_rejected
 msgid "What now? Look, we don't want kids like you running around here, messing with our things."
-msgstr "现在怎么办？听着，我们不希望你像孩子一样在这里乱跑，乱动我们的东西。"
+msgstr "现在又想说啥了？听好了，我们并不欢迎像你这样的小鬼在这里四处乱跑，把我们的东"
+"西给搞乱碰坏。"
 
 #: conversationlist_jhaeld.json:jhaeld_return1
 msgid "Did you talk to those people that I sent you to ask about the missing people?"
-msgstr "你跟那些人谈过了吗？"
+msgstr "我先前告诉过你的那些人，你跟他们都交流过了吗？"
 
 #: conversationlist_jhaeld.json:jhaeld_return1:0
 msgid "Yes, I have talked to all of them."
-msgstr "是的，我已经和他们所有人谈过了。"
+msgstr "是的，我已经和他们所有人都聊过了。"
 
 #: conversationlist_jhaeld.json:jhaeld_return1:1
 msgid "Can you repeat the names of those that you wanted me to ask?"
@@ -17262,15 +17267,15 @@ msgstr "你能重复一下你要我问的那些人的名字吗？"
 
 #: conversationlist_jhaeld.json:jhaeld_return1:4
 msgid "Not yet, but I will."
-msgstr "还没有，但我会的。"
+msgstr "还没有，但我会去干的。"
 
 #: conversationlist_jhaeld.json:jhaeld_return2
 msgid "Well, what did you find out?"
-msgstr "那么，你发现了什么？"
+msgstr "嗯哼，那你有什么收获吗？"
 
 #: conversationlist_jhaeld.json:jhaeld_return2:0
 msgid "Nothing. None of them told me anything new about the missing people."
-msgstr "没有。他们没有告诉我关于失踪人员的任何新消息。"
+msgstr "并没有，他们都没有讲出什么关于失踪人员的新东西来。"
 
 #: conversationlist_jhaeld.json:jhaeld_return3
 msgid "So ... let me get things straight. You went and asked them about the missing people, and they didn't tell you anything new?"
