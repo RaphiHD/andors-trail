@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-14 07:45+0000\n"
+"PO-Revision-Date: 2025-03-14 11:07+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -442,7 +442,7 @@ msgstr "初级防御提升"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
-msgstr "艾黎萨菈之焕"
+msgstr "伊黎萨菈之焕"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
@@ -1893,7 +1893,7 @@ msgstr "你好。我是阿西尔。"
 #: conversationlist_fallhaven_arcir.json:arcir_start:0
 #: conversationlist_fallhaven_arcir.json:arcir_anythingelse:0
 msgid "I noticed your statue of Elythara downstairs."
-msgstr "我瞧见你家底下有一尊艾黎萨菈的雕像。"
+msgstr "我瞧见你家底下有一尊伊黎萨菈的雕像。"
 
 #: conversationlist_fallhaven_arcir.json:arcir_start:1
 #: conversationlist_fallhaven_arcir.json:arcir_anythingelse:1
@@ -1916,7 +1916,7 @@ msgid ""
 msgstr ""
 "你在地下室看到我的雕像了? \n"
 "\n"
-"没错，艾黎萨菈是我所信仰的神明。"
+"没错，伊黎萨菈是我所信仰的神明。"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1
 msgid "I find great pleasure in my books. They contain the accumulated knowledge of past generations."
@@ -4386,7 +4386,7 @@ msgstr "你瞧见了一张撕下来的书页，可以看出它来自一本名为
 
 #: conversationlist_signs_pre067.json:arcir_basement_statue
 msgid "Elythara, mother of the light. Protect us from the curse of the Shadow."
-msgstr "众光之母 艾黎萨菈。请保佑我们免受暗影之诅咒。"
+msgstr "众光之母 伊黎萨菈。请保佑我们免受暗影之诅咒。"
 
 #: conversationlist_signs_pre067.json:fallhaven_tavern_room
 msgid "You are not allowed into the room unless you have rented it."
@@ -9072,13 +9072,14 @@ msgid ""
 "You find a piece of paper partially frozen in the snow. You can barely make out the phrase 'Kazaul, defiler of the Elytharan Temple' from the wet paper.\n"
 "This must be the first half of the chant for the Kazaul ritual."
 msgstr ""
-"你在雪堆中发现了一张些许被冻硬的纸。从这张湿皱的纸上，你勉强辨认出了“卡扎尔，埃利萨拉神庙的亵渎者”这句话。\n"
+"你在雪堆中发现了一张些许被冻硬的纸。从这张湿皱的纸上，你勉强辨认出了“卡扎尔，"
+"伊黎萨菈神庙的亵渎者”这句话。\n"
 "这估计是卡扎尔仪式咒语的前半部分。"
 
 #: conversationlist_blackwater_signs.json:sign_blackwater30_notstarted
 msgid "You find a piece of paper partially frozen in the snow. You can barely make out the phrase 'Kazaul, defiler of the Elytharan Temple' from the wet paper."
 msgstr "你在雪堆中发现了一张些许被冻硬的纸。从这张湿皱的纸上，你勉强辨认出了“卡扎尔，"
-"艾黎萨菈神庙的亵渎者”这句话。"
+"伊黎萨菈神庙的亵渎者”这句话。"
 
 #: conversationlist_blackwater_signs.json:sign_blackwater32
 msgid "The sign is severely damaged from what looks as bite marks from something with really sharp teeth. You cannot make out any readable words."
@@ -10535,7 +10536,7 @@ msgstr "[护卫俯下了头，它那双冒着火的的眼睛盯向了你]"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_2:0
 msgid "Kazaul, defiler of the Elytharan Temple."
-msgstr "卡扎尔，艾黎萨菈神庙的亵渎者。"
+msgstr "卡扎尔，伊黎萨菈神庙的亵渎者。"
 
 #: conversationlist_blackwater_kazaul.json:kazaul_guardian_3
 msgid "[You see the burning eyes of the guardian instantly turn into a dark red haze]"
@@ -17180,7 +17181,7 @@ msgstr "首先是诺拉斯，他和他的妻子贝希尔住在西南岸边的农
 #: conversationlist_jhaeld.json:jhaeld_16
 msgid "Secondly, as you might have heard, we have been blessed by a visit from a delegation of the Knights of Elythom here in Remgard. Unfortunately, one of the knights has vanished, which is most embarrassing for us. They can be found here in the tavern."
 msgstr ""
-"第二，也许你也听说了，艾黎索姆骑士团的代表们近日里惠临了瑞姆加德，但不幸的是"
+"第二，也许你也听说了，伊黎索姆骑士团的代表们近日里惠临了瑞姆加德，但不幸的是"
 "他们之中的一名骑士消失了，这让我们很是尴尬。而你可以在酒馆里找到他们。"
 
 #: conversationlist_jhaeld.json:jhaeld_17
@@ -17464,7 +17465,8 @@ msgstr "是的，她回来了，她就解释那些失踪的人去哪里了。她
 
 #: conversationlist_jhaeld.json:jhaeld_alg_18
 msgid "Considering the people that have disappeared, I frankly don't know what to do. As you know, even one of the Knights of Elythom has disappeared."
-msgstr "考虑到那些已经失踪的人，坦率地说，我不知道该怎么办。如你所知，甚至其中一个伊利索姆骑士团员也失踪了。"
+msgstr "考虑到那些已经失踪的人，坦率地说，我不知道该怎么办。如你所知，甚至其中一个伊"
+"黎索姆骑士团员也失踪了。"
 
 #: conversationlist_jhaeld.json:jhaeld_alg_19
 msgid "Someone that can do that is dangerous indeed. I am not sure I would even risk sending the guards out there for her, in fear of what she might do."
@@ -17675,12 +17677,12 @@ msgstr "现在，请原谅，我有事情要做。"
 
 #: conversationlist_elythom_1.json:krell_1
 msgid "Hey there. I am master Krell of the Knights of Elythom. How may we be of service?"
-msgstr "嘿。我是伊利索姆骑士团的团长克雷尔。有什么可以效劳的？"
+msgstr "嘿。我是伊黎索姆骑士团的团长克雷尔。有什么可以效劳的？"
 
 #: conversationlist_elythom_1.json:krell_1:0
 #: conversationlist_elythom_1.json:elythom_knight1:0
 msgid "Knights of Elythom? What's that?"
-msgstr "伊利索姆骑士团？那是什么？"
+msgstr "伊黎索姆骑士团？那是什么？"
 
 #: conversationlist_elythom_1.json:krell_1:1
 msgid "I was sent by Jhaeld to ask about the missing people."
@@ -17696,7 +17698,7 @@ msgstr "至于我们在这里干什么，恕不奉告。"
 
 #: conversationlist_elythom_1.json:krell_4
 msgid "We serve the order of Elythom."
-msgstr "我们听从伊利索姆的命令。"
+msgstr "我们听从伊黎索姆的命令。"
 
 #: conversationlist_elythom_1.json:krell_4:1
 msgid "Jhaeld sent me to ask about the missing people."
@@ -17781,11 +17783,12 @@ msgstr "不幸的是，除了知道她失踪，我们没有任何头绪。我们
 
 #: conversationlist_elythom_1.json:krell_jhaeld10
 msgid "For the sake of our order's reputation, please keep this to yourself if possible. We wouldn't want people to get the perception that the Knights of Elythom can be weakened in any way."
-msgstr "为了我们骑士团的声誉，如果可能的话，请不要把这件事说出去。我们不希望人们认为伊利索姆骑士团会变弱。"
+msgstr "为了我们骑士团的声誉，如果可能的话，请不要把这件事说出去。我们不希望人们认为"
+"伊黎索姆骑士团会变弱。"
 
 #: conversationlist_elythom_1.json:elythom_knight1
 msgid "Hello there. What can the Knights of Elythom do for you?"
-msgstr "嗨，你好。伊利索姆骑士团能为你做些什么？"
+msgstr "嗨，你好。伊黎索姆骑士团能为你做些什么？"
 
 #: conversationlist_elythom_1.json:elythom_knight1:1
 #: conversationlist_elythom_1.json:elythom_knight2:1
@@ -18318,7 +18321,8 @@ msgstr "此外，我们通常会在小酒馆里接待很多游客。最近，这
 
 #: conversationlist_kendelow.json:kendelow_5
 msgid "On your way in, maybe you noticed that we even have a visit from the Knights of Elythom here in the tavern? It seems that more and more people are becoming aware of the hospitality of Remgard."
-msgstr "在你来的时候，也许你注意到我们这里的酒馆里甚至有伊利索姆骑士的来？看来，越来越多的人开始意识到瑞姆加德的好客。"
+msgstr "在你来的时候，也许你注意到我们这里的酒馆里甚至有伊黎索姆骑士的来？看来，越来"
+"越多的人开始意识到瑞姆加德的好客。"
 
 #: conversationlist_kendelow.json:kendelow_5:0
 msgid "Thank you. I had some other questions."
@@ -36450,7 +36454,7 @@ msgstr "在我离开之前，我在这里有一些事情要做。"
 
 #: conversationlist_burhczyd.json:burhczydx_10a
 msgid "Who art thou that disturbeth the peace of an Elythom knight?"
-msgstr "谁能扰乱伊利多姆骑士的安宁？"
+msgstr "谁能扰乱伊黎索姆骑士的安宁？"
 
 #: conversationlist_burhczyd.json:burhczydx_10a:0
 msgid "Oh, sorry. I'm already gone again."
@@ -36470,7 +36474,7 @@ msgstr "你是怎么知道我的名字的？"
 
 #: conversationlist_burhczyd.json:burhczydx_10a_3
 msgid "Oops. Eh, well, we Elythom knights know many things."
-msgstr "哎呀。呃，好吧，我们伊利索姆骑士知道很多事情。"
+msgstr "哎呀。呃，好吧，我们伊黎索姆骑士团知道很多事情。"
 
 #: conversationlist_burhczyd.json:burhczydx_10a_3:0
 msgid "That's not the whole truth. Now?"
@@ -36482,7 +36486,7 @@ msgstr "好吧，$playername。我当然很了解你。我是伯赫奇德。"
 
 #: conversationlist_burhczyd.json:burhczydx_10a_4:0
 msgid "Burhczyd? You - a Knight of Elythom?"
-msgstr "伯赫奇德？你-伊利索姆的骑士？"
+msgstr "伯赫奇德？你-伊黎索姆的骑士？"
 
 #: conversationlist_burhczyd.json:burhczydx_10a_5
 msgid "One should have that impression. But not everything is as it seems."
@@ -36490,7 +36494,8 @@ msgstr "人们应该有这种印象。但并非一切都像看起来那样。"
 
 #: conversationlist_burhczyd.json:burhczydx_10a_6
 msgid "You know, once I feasted with the Lord Commander of the Order of Elythom. A very pleasant man."
-msgstr "[REVIEW]你知道，有一次我和伊利瑟姆的指挥官一起参加宴会。他是一个非常令人愉快的人。"
+msgstr "[REVIEW]"
+"你知道，有一次我和伊黎索姆的指挥官一起参加宴会。他是一个非常令人愉快的人。"
 
 #: conversationlist_burhczyd.json:burhczydx_10a_6a
 msgid "We got merry, and in high spirits I 'borrowed' a few little things from him."
@@ -36538,7 +36543,7 @@ msgstr "嗯……什么？"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_2:0
 msgid "When we last met you were dressed like a knight of the Elythom."
-msgstr "我们上次见面时，你打扮得像个伊利索姆骑士。"
+msgstr "我们上次见面时，你打扮得像个伊黎索姆骑士。"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_3
 msgid "Eh ... yes, right."
@@ -39478,7 +39483,8 @@ msgstr "我希望你有生之年能看到它。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_43
 msgid "But one dark day, this treacherous liar, Elythara, appeared. Many men were betrayed by her blinding light."
-msgstr "但在一个黑暗的日子里，这个背信弃义的骗子伊利萨拉出现了。许多人被她刺眼的光芒出卖了。"
+msgstr "但在一个黑暗的日子里，这个背信弃义的骗子伊黎萨菈出现了。许多人被她刺眼的光芒"
+"出卖了。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_44
 msgid "They believed in her false promises and were misled."
@@ -39486,11 +39492,11 @@ msgstr "他们相信她的虚假承诺，被误导了。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_45
 msgid "Then Elytharan cultists arrived on the shore of the northern sea, which is also known as the Sea of Tears."
-msgstr "然后，信奉艾黎萨菈的异端来到了北部海岸，也就是泪海。"
+msgstr "然后，信奉伊黎萨菈的异端来到了北部海岸，也就是泪海。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_46
 msgid "The cultists worshipped the blinding and cleansing light of Elythara. Clever and sneaky as they were, they gained people's trust."
-msgstr "崇拜者们崇拜伊利萨拉的刺眼和洁净之光。他们聪明而狡猾，获得了人们的信任。"
+msgstr "崇拜者们崇拜伊黎萨菈的刺眼和洁净之光。他们聪明而狡猾，获得了人们的信任。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_47
 msgid "Partly with gold, partly with cunning and violence, they attracted more and more people to their side. Those who still wanted to walk the old ways often found their house burning."
@@ -39518,7 +39524,9 @@ msgstr "是的，对不起。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_60
 msgid "However Elythara and her cultists failed to completely annihilate the old ways. Many true men managed to hide in remote places in the total darkness, unknown to the Elytharans. Also, Elythara's power is diminished underground."
-msgstr "然而埃利萨拉和信奉她的邪教徒们没能彻底湮灭旧日之道。许多好汉设法躲在了完全黑暗的偏远地区，不为埃利萨拉人所知。同时，埃利萨拉的力量在暗中减弱了。"
+msgstr ""
+"然而伊黎萨菈和信奉她的邪教徒们没能彻底湮灭旧日之道。许多好汉设法躲在了完全黑"
+"暗的偏远地区，不为伊黎萨菈人所知。同时，伊黎萨菈的力量在暗中减弱了。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_60:0
 msgid "[whispering to Golin] What's up?"
@@ -39526,15 +39534,16 @@ msgstr "[对戈林耳语]怎么了？"
 
 #: conversationlist_brimhaven2.json:brv_school_history_70
 msgid "Each city was ruled by one or two houses who closely collaborated with the Elytharan priests. People were mainly influenced by the Elytharan priests."
-msgstr "每个城市都由一两个与埃利萨拉牧师密切合作的家族统治，而埃利萨拉牧师往往更有影响力。"
+msgstr "每个城市都由一两个与伊黎萨菈牧师密切合作的家族统治，而伊黎萨菈牧师往往更有影"
+"响力。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_71
 msgid "The Elytharans built several towns and cities, dedicated to their goddess. Several aristocratic houses were formed at that time."
-msgstr "埃利萨拉人建立了好几个城镇，以此供奉他们的女神。这时有几个贵族世家就形成了。"
+msgstr "伊黎萨菈建立了好几个城镇，以此供奉他们的女神。这时有几个贵族世家就形成了。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_72
 msgid "First the Elytharans erected the city of Feygard on the shore of the Sea of Tears. It became a center of trade for the realm due to its access to the sea."
-msgstr "埃利萨拉人首先在泪海之滨建立了费加德城。由于临海，该城成为王国的贸易中心。"
+msgstr "伊黎萨菈信徒首先在泪海之滨建立了费加德城。由于临海，该城成为王国的贸易中心。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_73
 msgid "The town of Loneford was founded and it soon became famous for its fertile fields and healthy vegetables which fed the northern parts of the Forgotten Kingdom."
@@ -39542,7 +39551,7 @@ msgstr "隆福德镇成立了，它很快就因其肥沃的田地和健康的蔬
 
 #: conversationlist_brimhaven2.json:brv_school_history_74
 msgid "Blackwater Mountain was explored, and on its summit a large sanctuary for the Elytharan priests was erected."
-msgstr "黑水山被开发探索，而埃利萨拉牧师们在山顶上建立了一个大型的圣所。"
+msgstr "黑水山被开发探索，而伊黎萨菈牧师们在山顶上建立了一个大型的圣所。"
 
 #: conversationlist_brimhaven2.json:brv_school_history_75
 msgid "The mining colony of Prim was also founded after pioneers found rich sources of iron and coal under the mountain."
@@ -39610,7 +39619,7 @@ msgstr "现在好了。有谁有问题吗？"
 
 #: conversationlist_brimhaven2.json:brv_school_history_100:0
 msgid "Yes, please. Who was Elythara?"
-msgstr "是的，请问埃利萨拉是谁？"
+msgstr "是的，请问伊黎萨菈是谁？"
 
 #: conversationlist_brimhaven2.json:brv_school_history_110
 msgid "Oh dear. Didn't you listen? Well, because you are new, I will tell you again."
@@ -59872,7 +59881,10 @@ msgstr "啥呀？你发现了啥？"
 
 #: conversationlist_laeroth.json:gylew5
 msgid "This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves."
-msgstr "这一枚是在埃利萨拉势力崛起时期所压制的，十分的稀有与珍贵。不过这儿别的都是些吉奥米尔治下铸造的普通硬币。而这一枚来自于非常遥远的的大陆，是一个大型系列中的一枚，这个系列很早之前就被些海贼与大盗给弄散了。"
+msgstr ""
+"这一枚是在伊黎萨菈势力崛起时期所印制的，十分的稀有与珍贵。不过这儿别的都是些"
+"吉奥米尔治下铸造的普通硬币。而这一枚来自于非常遥远的的大陆，是一个大型系列中"
+"的一枚，这个系列很早之前就被些海贼与大盗给弄散了。"
 
 #: conversationlist_laeroth.json:gylew5:0
 msgid "Oh, I see."
@@ -61732,7 +61744,7 @@ msgstr "科学所要问的问题并不是“为什么”，而是“为什么不
 
 #: conversationlist_laeroth.json:brute_creator_sign_2
 msgid "Praise is the portal to the presence of Elythara"
-msgstr "传送门本身就是对埃利萨拉女神显圣的赞美"
+msgstr "传送门本身就是对伊黎萨菈女神显圣的赞美"
 
 #: conversationlist_laeroth.json:brute_creator_sign_3
 msgid "Your dream is a portal to your destiny."
@@ -63723,7 +63735,7 @@ msgstr "好啊，既然如此，你就等在这儿吧，我马上就回来。"
 
 #: conversationlist_feygard_1.json:feygard_offering
 msgid "\"Pay homage to Elythara, radiant queen of the world!\""
-msgstr "\"向照耀全宇的光辉女王 艾黎萨菈致敬！\""
+msgstr "\"向照耀全宇的光辉女王 伊黎萨菈致敬！\""
 
 #: conversationlist_feygard_1.json:feygard_offering:0
 msgid "Homage - and above all gold ..."
@@ -63787,19 +63799,19 @@ msgstr "你的献礼会取得垂青的。"
 
 #: conversationlist_feygard_1.json:feygard_offering_34_2
 msgid "Thank you, in the name of Elythara."
-msgstr "感谢您，以艾黎萨菈的名义."
+msgstr "感谢您，以伊黎萨菈的名义."
 
 #: conversationlist_feygard_1.json:feygard_offering_34_3
 msgid "Let your name be praised in the halls of Elythara!"
-msgstr "你的名字应在艾黎萨菈之殿上所颂扬！"
+msgstr "你的名字应在伊黎萨菈之殿上所颂扬！"
 
 #: conversationlist_feygard_1.json:feygard_offering_34_4
 msgid "For the greatness of Elythara, our Godess!"
-msgstr "为了我们伟大的女神艾黎萨菈！"
+msgstr "为了我们伟大的女神伊黎萨菈！"
 
 #: conversationlist_feygard_1.json:feygard_offering_34_5
 msgid "Long live Elythara!"
-msgstr "艾黎萨菈万岁！"
+msgstr "伊黎萨菈万岁！"
 
 #: conversationlist_feygard_1.json:feygard_offering_36
 msgid "You can not undo your evil theft."
@@ -63810,7 +63822,7 @@ msgstr "你过去的盗窃勾当已是覆水难收。"
 #: conversationlist_feygard_1.json:feygard_offering_40_100a
 #: conversationlist_feygard_1.json:feygard_offering_40_1000a
 msgid "Stealing from the goddess Elythara - are you sure?"
-msgstr "从艾黎萨菈女神那里偷东西——你确定吗？"
+msgstr "从伊黎萨菈女神那里偷东西——你确定吗？"
 
 #: conversationlist_feygard_1.json:feygard_offering_40_1a:1
 #: conversationlist_feygard_1.json:feygard_offering_40_10a:1
@@ -63821,7 +63833,7 @@ msgstr "呃…最好不要。"
 
 #: conversationlist_feygard_1.json:feygard_offering_44
 msgid "Elythara is known for her thirst for revenge. Fear her wrath!"
-msgstr "埃利萨拉的一大知名脾性就是有仇必报，在她的威怒前颤抖吧！"
+msgstr "伊黎萨菈的一大特质就是有仇必报，在她的威怒前颤抖吧！"
 
 #: conversationlist_feygard_1.json:feygard_swamp_sign
 msgid "Go away - while you still can!"
@@ -67630,7 +67642,7 @@ msgstr "带刺匕首"
 
 #: itemlist_v069.json:elytharan_redeemer
 msgid "Elytharan redeemer"
-msgstr "埃利萨拉匡世宝剑"
+msgstr "伊黎萨菈匡世宝剑"
 
 #: itemlist_v069.json:clouded_rage
 msgid "Sword of Shadow's rage"
