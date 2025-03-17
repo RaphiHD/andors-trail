@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-16 08:36+0000\n"
+"PO-Revision-Date: 2025-03-17 01:14+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -17302,7 +17302,7 @@ msgstr "哦，我看到你的第一眼就知道你就纯粹是个麻烦。"
 
 #: conversationlist_jhaeld.json:jhaeld_return5
 msgid "I sent you to do a simple task, and you return with ... nothing!"
-msgstr "我派你去做一个简单的任务，而你回来的时候却......什么都没有做好！"
+msgstr "我就只是派你去做一件轻而易举的小事，结果你…啥有用的消息都没带回来！"
 
 #: conversationlist_jhaeld.json:jhaeld_return6
 msgid "[Jhaeld mumbles] Stupid kids..."
@@ -17310,19 +17310,20 @@ msgstr "[贾尔德喃喃自语道]小孩子可真蠢……"
 
 #: conversationlist_jhaeld.json:jhaeld_return7
 msgid "Fine then."
-msgstr "那就好。"
+msgstr "那好吧。"
 
 #: conversationlist_jhaeld.json:jhaeld_return8
 msgid "I suggest you go look in other places if you really want to help us."
-msgstr "如果你真的想帮助我们，我建议你去其他地方看看。"
+msgstr "如果你真心想帮助我们的话，我建议你去其他地方看看。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_f
 msgid "Maybe someone else knows something that we haven't taken into account yet. Also, I seem to recall you saying something about Algangror before, is that right?"
-msgstr "也许还有人知道一些我们还没有考虑过的事情。另外，我似乎记得你以前说过一些关于阿尔冈格罗的事情，是吗？"
+msgstr "也许还有什么人会知道一些我们还未知晓的情况。另外，我似乎记得你之前有提到过关"
+"于阿尔冈格罗的什么事情，没错吧？"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_f:0
 msgid "Yes. As I tried to tell you, Algangror is hiding in that abandoned house outside town."
-msgstr "是的。正如我告诉你的那样，阿尔冈格罗躲在镇外那座废弃的房子里。"
+msgstr "没错，正如我之前所说的，阿尔冈格罗目前正隐蔽在镇外的那处废弃小屋里。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_y
 #: conversationlist_jhaeld.json:jhaeld_task2
@@ -73490,7 +73491,7 @@ msgstr "地下室老鼠"
 #: monsterlist_laeroth.json:lae_algangror2
 #: monsterlist_laeroth.json:lae_algangror3
 msgid "Algangror"
-msgstr "阿尔冈格罗"
+msgstr "阿尔冈萝"
 
 #: monsterlist_v0611_npcs1.json:remgard_bridge
 msgid "Bridge lookout"
