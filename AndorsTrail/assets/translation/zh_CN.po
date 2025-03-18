@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-17 01:14+0000\n"
+"PO-Revision-Date: 2025-03-18 01:26+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -14803,7 +14803,7 @@ msgstr "不行，这似乎对我来说太危险了。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_9:3
 msgid "Actually, I have already been there. There is a woman called Algangror in the cabin."
-msgstr "事实上我已经去过那里了，小屋里有一个叫阿尔冈格罗的女子。"
+msgstr "事实上我已经去过那里了，小屋里有一名叫奥冈萝的女子。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_9:4
 msgid "Actually, I have already been there, but the cabin was empty."
@@ -14831,7 +14831,7 @@ msgstr "还没呢，事情正在进行中。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_return:2
 msgid "There is a woman called Algangror in the cabin."
-msgstr "小屋里有个叫阿尔冈格罗的女子。"
+msgstr "小屋里有名叫奥冈萝的女子。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_help_return:3
 msgid "Yes, I have been there, but the cabin was empty."
@@ -14839,7 +14839,7 @@ msgstr "嗯，我去了那里，但小屋是空的。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_helped_y
 msgid "Algangror, sigh. Then it is as we feared. This is terrible news."
-msgstr "阿尔甘格罗，唉，这正是我们所担心的，这个消息可太糟了。"
+msgstr "奥冈萝，唉，这正是我们所担心的，这个消息可太糟了。"
 
 #: conversationlist_remgard_bridgeguard.json:remgardb_helped_1
 msgid "You should go visit our village elder, Jhaeld, and talk to him about what we should do next. I will let you enter Remgard to speak to him."
@@ -17200,7 +17200,7 @@ msgstr "请尽快出发吧。"
 
 #: conversationlist_jhaeld.json:jhaeld_19:0
 msgid "What about that Algangror woman that lives outside town?"
-msgstr "有个叫阿尔冈格罗的女人最近连日驻留在镇外，至于这件事？"
+msgstr "有名叫奥冈萝的女子最近连日驻留在镇外，至于这件事？"
 
 #: conversationlist_jhaeld.json:jhaeld_19:1
 msgid "I'll go ask them."
@@ -17319,54 +17319,54 @@ msgstr "如果你真心想帮助我们的话，我建议你去其他地方看看
 #: conversationlist_jhaeld.json:jhaeld_task2_f
 msgid "Maybe someone else knows something that we haven't taken into account yet. Also, I seem to recall you saying something about Algangror before, is that right?"
 msgstr "也许还有什么人会知道一些我们还未知晓的情况。另外，我似乎记得你之前有提到过关"
-"于阿尔冈格罗的什么事情，没错吧？"
+"于奥冈萝的什么事情，没错吧？"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_f:0
 msgid "Yes. As I tried to tell you, Algangror is hiding in that abandoned house outside town."
-msgstr "没错，正如我之前所说的，阿尔冈格罗目前正隐蔽在镇外的那处废弃小屋里。"
+msgstr "没错，正如我之前所说的，奥冈萝目前正隐蔽在镇外的那处废弃小屋里。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_y
 #: conversationlist_jhaeld.json:jhaeld_task2
 msgid "Maybe someone else knows something that we haven't taken into account yet."
-msgstr "也许还有人知道一些我们还没有考虑过的事情。"
+msgstr "或许有别的什么人知道些我们所未考虑到的事情。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_y:0
 #: conversationlist_jhaeld.json:jhaeld_task2:0
 #: conversationlist_jhaeld.json:jhaeld_task2_1:0
 msgid "The bridge guard sent me to scout an abandoned house outside town."
-msgstr "守桥人派我去侦查镇外的一个废弃房屋。"
+msgstr "守桥人有派我去侦查过一处镇外的废弃房屋。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_y:1
 msgid "Does the name 'Algangror' mean anything to you?"
-msgstr "\"阿尔冈格罗\"这个名字对你来说意味着什么？"
+msgstr "“奥冈萝”这个名字对于你们是有什么特殊的意味吗？"
 
 #: conversationlist_jhaeld.json:jhaeld_task2:1
 msgid "I might know something, but I have promised not to tell anyone."
-msgstr "我可能知道一些事情，但我已经答应不会告诉任何人。"
+msgstr "我似乎有获悉过一些相关情况，但我也发过誓要将其作为秘密不告诉任何人。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2:2
 msgid "I don't know anything else."
-msgstr "我不知道别的了。"
+msgstr "别的什么我就不知道了。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2:3
 msgid "I'll go ask around."
-msgstr "我会四处打听的。"
+msgstr "我会去四处打听一下的。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_1
 msgid "A secret, eh? You would do well to tell me what you know. Lives may be at stake here."
-msgstr "一个秘密，嗯？你最好告诉我你知道什么。这可能会危及生命。"
+msgstr "一个秘密，是吗？我想你还是将你所知道的告诉我为好，毕竟这件事性命攸关。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_1:1
 msgid "No, I will keep my word and not tell."
-msgstr "不，我会信守承诺，不说出去的。"
+msgstr "我想不行，我已允诺不将半句话吐露出去。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_1:2
 msgid "Never mind, it was nothing."
-msgstr "没关系，这没什么。"
+msgstr "算了，当我没说。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_1:3
 msgid "Never mind, I'll go ask around if anyone else knows anything."
-msgstr "没关系，我会去问问周围是否有其他人知道什么。"
+msgstr "当我没说，我这就去四处打听一下有没有什么潜在的线索。"
 
 #: conversationlist_jhaeld.json:jhaeld_task2_2
 msgid "Ah, someone with honor. I respect that, and will not ask any more."
@@ -62787,7 +62787,7 @@ msgstr "唉，我们半人马会永远感激你的。"
 
 #: conversationlist_laeroth.json:lae_centaur9_392
 msgid "You are free to roam our island as you please. And know that you will always have a friend in the centaurs."
-msgstr "你可以随意在我们的岛上漫步，并请记住，半人马是你永远可以依靠的朋友。"
+msgstr "你可以随意在我们的岛上四处逛逛，并请记住，半人马是你永远可以依靠的朋友。"
 
 #: conversationlist_laeroth.json:gylew4a
 msgid "You know that stuff is illegal and that you can get in serious trouble just for possessing it?"
@@ -68302,7 +68302,7 @@ msgstr "小塑像"
 
 #: itemlist_v0611_3.json:algangror_ring
 msgid "Algangror's ring"
-msgstr "阿尔冈格罗的戒指"
+msgstr "奥冈萝的戒指"
 
 #: itemlist_v0611_3.json:kaverin_message
 msgid "Kaverin's sealed message"
@@ -73491,7 +73491,7 @@ msgstr "地下室老鼠"
 #: monsterlist_laeroth.json:lae_algangror2
 #: monsterlist_laeroth.json:lae_algangror3
 msgid "Algangror"
-msgstr "阿尔冈萝"
+msgstr "奥冈萝"
 
 #: monsterlist_v0611_npcs1.json:remgard_bridge
 msgid "Bridge lookout"
@@ -78213,7 +78213,7 @@ msgstr "人鼠之间"
 #: questlist_v0611.json:algangror:10
 msgid "In a lonely house on a peninsula at the northern shore of lake Laeroth up in the mountains to the north-east, I met a woman called Algangror."
 msgstr "在东北边的山区之中，在位于莱洛斯湖北岸的半岛上的一座孤零零的房子里，我遇到了"
-"一个叫阿尔冈格罗的女士。"
+"一名叫奥冈萝的女士。"
 
 #: questlist_v0611.json:algangror:11
 msgid "She has a rodent problem and needs help dealing with some of them that she has trapped in her basement."
@@ -78221,12 +78221,12 @@ msgstr "她这里有一个鼠类的问题，需要我帮助她处理掉已经被
 
 #: questlist_v0611.json:algangror:15
 msgid "I have agreed to help Algangror deal with her rodent problem. I should return to her when I have killed all six rodents in her basement."
-msgstr "我答应了帮助阿尔冈格罗去处理掉麻烦她的那些鼠类。我应该在解决掉全部六个在她房"
-"子地下室的鼠类后再向她交代一下。"
+msgstr "我答应了帮助奥冈萝去处理掉麻烦她的那些鼠类。我应该在解决掉全部六个在她房子地"
+"下室的鼠类后再向她交代一下。"
 
 #: questlist_v0611.json:algangror:20
 msgid "Algangror thanked me for helping her with her problem."
-msgstr "阿尔冈格罗感谢我帮助她解决了问题。"
+msgstr "奥冈萝感谢我帮助她解决了问题。"
 
 #: questlist_v0611.json:algangror:21
 msgid "She also told me not to talk to anyone in Remgard about her whereabouts. Apparently, they are looking for her for some reason that she would not say. Under no circumstances should I tell anyone where she is."
@@ -78237,11 +78237,11 @@ msgstr ""
 
 #: questlist_v0611.json:algangror:100
 msgid "I will not help Algangror with her task."
-msgstr "我拒绝帮助阿尔冈格罗完成她的任务。"
+msgstr "我拒绝帮助奥冈萝完成她的任务。"
 
 #: questlist_v0611.json:algangror:101
 msgid "Algangror won't talk to me, and I will be unable to help her with her task."
-msgstr "阿尔冈格罗直接拒绝和我交流了，而我也就不能帮助她完成她的任务了。"
+msgstr "奥冈萝拒绝和我再讲什么话了，而我也就不能帮助她完成她的任务了。"
 
 #: questlist_v0611_2.json:toszylae
 msgid "An involuntary carrier"
@@ -78532,7 +78532,7 @@ msgstr "守桥人让我去调查湖北岸东边的一座废弃的房子。我应
 
 #: questlist_v0611_3.json:remgard:30
 msgid "I have reported back to the bridge guard that I met Algangror in the abandoned house."
-msgstr "我已经向守桥人报告，我在废弃的房子里遇到了阿尔冈罗尔。"
+msgstr "我已经向守桥人报告，我在废弃的房子里遇到了奥冈萝。"
 
 #: questlist_v0611_3.json:remgard:31
 msgid "I have reported back to the bridge guard that the abandoned house was empty."
@@ -78651,18 +78651,17 @@ msgstr "五尊塑像"
 #: questlist_v0611_3.json:fiveidols:10
 msgid "Algangror wants me to help her with a task. She cannot describe the nature of the task, or the reasoning behind it. If I help her, she has promised to give me her enchanted necklace, that apparently is worth a lot."
 msgstr ""
-"阿尔冈格罗想让我帮她完成一项任务，而她不愿将这个任务的目的以及缘由告诉我。她"
-"答应如果我愿意帮助她的话，她可以把自己的附魔项链给我，而那条项链显然价值不菲"
-"。"
+"奥冈萝想让我帮她完成一项任务，而她不愿将这个任务的目的以及缘由告诉我。她答应"
+"如果我愿意帮助她的话，她可以把自己的附魔项链给我，而那条项链显然价值不菲。"
 
 #: questlist_v0611_3.json:fiveidols:20
 msgid "I have agreed to help Algangror with her task."
-msgstr "我答应了帮助阿尔冈格罗去完成她的任务。"
+msgstr "我答应了帮助奥冈萝去完成她的任务。"
 
 #: questlist_v0611_3.json:fiveidols:30
 msgid "Algangror wants me to place five idols near five different people in Remgard. The idols should be placed near the beds of these five people, and must be hidden so that they are not found easily."
-msgstr "阿尔冈格罗要我将五尊塑像放置到生活在瑞姆加德的特定五个人的身边，具体来说就是"
-"这五个人的床边，而且塑像必须被隐藏起来而不能被发现。"
+msgstr "奥冈萝要我将五尊塑像放置到生活在瑞姆加德的特定五个人的身边，具体来说就是这五"
+"个人的床边，而且塑像必须被隐藏起来而不能被发现。"
 
 #: questlist_v0611_3.json:fiveidols:31
 msgid "The first person is Jhaeld, the village elder that can be found in the Remgard tavern."
@@ -78707,12 +78706,12 @@ msgstr "我在卡思的床边放置了一尊塑像。"
 
 #: questlist_v0611_3.json:fiveidols:50
 msgid "All the idols have been placed by the beds of the people that Algangror told me to visit. I should return to Algangror."
-msgstr "所有的塑像都已经放置在了那些阿尔冈格罗叫我去拜访的人的床边。接下来我应该回到"
-"阿尔冈格罗那里去。"
+msgstr "所有的塑像都已经放置在了那些奥冈萝叫我去拜访的人的床边。接下来我应该回到阿尔"
+"冈格罗那里去。"
 
 #: questlist_v0611_3.json:fiveidols:51
 msgid "Algangror thanked me for helping her."
-msgstr "阿尔冈格罗感谢了我对她做出的帮助。"
+msgstr "奥冈萝感谢了我对她做出的帮助。"
 
 #: questlist_v0611_3.json:fiveidols:60
 msgid "She told me her story, with how she used to live in the city, but was persecuted for her beliefs. According to her, the persecution was totally unjustified since she does no harm to people."
@@ -78725,12 +78724,11 @@ msgstr "为了向瑞姆加德城复仇，她设法把一些人引到她的小屋
 
 #: questlist_v0611_3.json:fiveidols:70
 msgid "For helping her with the tasks that she could not perform herself, Algangror gave me her enchanted necklace, 'Marrowtaint'."
-msgstr "鉴于我帮助她完成了她自己无法完成的任务，阿尔冈格罗将她的附魔项链“亵髓”交给了"
-"我。"
+msgstr "鉴于我帮助她完成了她自己无法完成的任务，奥冈萝将她的附魔项链“亵髓”交给了我。"
 
 #: questlist_v0611_3.json:fiveidols:100
 msgid "I have decided not to help Algangror with her task."
-msgstr "我决定不去帮助阿尔冈格罗完成她的任务。"
+msgstr "我决定不去帮助奥冈萝完成她的任务。"
 
 #: questlist_v0611_3.json:kaverin
 msgid "Old friends?"
@@ -82631,7 +82629,7 @@ msgstr "他让我去解决掉一只隐藏在半马人无法进入的洞穴中的
 
 #: questlist_laeroth.json:lae_centaurs:110
 msgid "In the cave entrance I have met Algangror, who asked for help."
-msgstr "在洞穴入口我遇到了阿尔冈格罗，她向我请求帮助。"
+msgstr "在洞穴入口我遇到了奥冈萝，她有事要向我求助。"
 
 #: questlist_laeroth.json:lae_centaurs:112
 msgid "In a cave entrance I have met Jhaeld of Remgard, who asked for help."
