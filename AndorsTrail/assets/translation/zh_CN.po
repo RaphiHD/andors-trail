@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-20 02:13+0000\n"
+"PO-Revision-Date: 2025-03-20 08:00+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -17605,15 +17605,15 @@ msgstr "那可是场硬仗，现在让我们谈谈报酬吧。"
 
 #: conversationlist_jhaeld.json:jhaeld_killalg_4:2
 msgid "Just another body behind me."
-msgstr "只是我身后的另一具尸体。"
+msgstr "只不过又是身后一具尸体罢了。"
 
 #: conversationlist_jhaeld.json:jhaeld_killalg_5
 msgid "I would think that the whole town is in your debt, but they may not know it."
-msgstr "我会认为整个城镇都欠你的，但他们可能不知道。"
+msgstr "我想全镇人都欠你一个人情，虽然他们应该都没意识到。"
 
 #: conversationlist_jhaeld.json:jhaeld_killalg_6
 msgid "Go talk to Rothses over at the west side of town. He should be able to help you improve some of your equipment."
-msgstr "去镇上西边和罗瑟斯聊聊。他应该能够帮你改造装备。"
+msgstr "去镇的西边和罗瑟斯聊聊吧，他应该能够帮你改良一些特定的装备。"
 
 #: conversationlist_jhaeld.json:jhaeld_completed
 msgid "Again, thank you for all your help."
@@ -17621,42 +17621,42 @@ msgstr "再次感谢您的帮助。"
 
 #: conversationlist_jhaeld.json:jhaeld_idol_1
 msgid "Please leave me be, child. I just had a sudden attack of nausea. I should probably lie down."
-msgstr "不用管我，孩子。我只是突然感到恶心。我也许应该躺一下。"
+msgstr "孩子，别让我静一静吧。我刚刚突然感到一阵恶心，或许得卧床休息一下才行。"
 
 #: conversationlist_norath.json:norath_1:0
 #: conversationlist_norath.json:norath_2:0
 msgid "I was sent by Jhaeld to ask about your missing wife."
-msgstr "是贾尔德派我来的，询问有关你失踪妻子的事情。"
+msgstr "是贾尔德派我来的，他让我来询问一下有关你妻子失踪的情况。"
 
 #: conversationlist_norath.json:norath_2
 msgid "Me? No, I don't have anything to sell you. Does this look like a shop to you?"
-msgstr "不，我没有东西可以卖给你。你觉得这里看起来像个商店吗？"
+msgstr "我吗？不，我没有东西可以卖给你，你觉得这里看起来像个商店吗？"
 
 #: conversationlist_norath.json:norath_3
 msgid "Well, usually I tend to the crops that we grow here. Now, I can't find the strength to do that though."
-msgstr "嗯，通常我会照料我们在这里种植的庄稼。但现在，我没功夫做这些。"
+msgstr "呃，如果是平常的话我现在正在干农活，但我最近卯不出劲来。"
 
 #: conversationlist_norath.json:norath_3:0
 msgid "Why, what's wrong?"
-msgstr "为什么，怎么了？"
+msgstr "为什么啊，是怎么了吗？"
 
 #: conversationlist_norath.json:norath_4
 msgid "My wife, Bethir. She is gone, and no one seems to know where she is."
-msgstr "我的妻子，贝希尔。她走了，没人知道她在哪里。"
+msgstr "我的妻子贝希尔她不见了，没人知道她去了哪里。"
 
 #: conversationlist_norath.json:norath_5
 msgid "I even went so far as to ask the guards to look for her, but she is nowhere to be found."
-msgstr "我甚至要求警卫去找她，但还是无处可寻。"
+msgstr "我甚至有赶去求卫兵帮忙搜寻她的踪迹，但到目前四处都怎么也找不到她。"
 
 #: conversationlist_norath.json:norath_5:0
 #: conversationlist_norath.json:norath_7:0
 msgid "Are you sure she isn't just out of town running some errands?"
-msgstr "你确定她不是出城办事去了吗？"
+msgstr "你确定她不是出镇办事去了吗？"
 
 #: conversationlist_norath.json:norath_5:1
 #: conversationlist_norath.json:norath_6:0
 msgid "Where do you think she has gone?"
-msgstr "你认为她去过哪儿？"
+msgstr "那你认为她会去了哪里啊？"
 
 #: conversationlist_norath.json:norath_5:2
 #: conversationlist_norath.json:norath_6:1
@@ -17666,93 +17666,96 @@ msgstr "我是贾尔德派来问你关于她的事的。"
 
 #: conversationlist_norath.json:norath_6
 msgid "If that were the case, I would have hoped she would have told me first. No, I can feel it - I am sure something bad has happened to her."
-msgstr "如果是这样的话，我希望她会先告诉我。不，我能感觉到--她身上发生了不好的事情。"
+msgstr "如果是这样的话，她应该最好会事先告知我一下的。恐怕她不是出镇办事去了，而是出"
+"事了。"
 
 #: conversationlist_norath.json:norath_7
 msgid "To be quite honest, I have no idea."
-msgstr "说实话，我也不知道。"
+msgstr "说实话，我实在想不出来。"
 
 #: conversationlist_norath.json:norath_jhaeld1
 msgid "What do you want me to say? She is missing."
-msgstr "你想让我说什么？她失踪了。"
+msgstr "你想让我告诉你什么？她现在失踪了。"
 
 #: conversationlist_norath.json:norath_jhaeld1:0
 #: conversationlist_elythom_1.json:krell_jhaeld7:1
 msgid "Is there anything else you have found out that you didn't tell the guards earlier?"
-msgstr "你还有什么没有告诉警卫的吗？"
+msgstr "你有什么情况没有向卫兵反映过的吗？"
 
 #: conversationlist_norath.json:norath_jhaeld2
 msgid "No. I told those guards the whole story. If I were to find out more, I would immediately tell them of course."
-msgstr "不，我把整件事都告诉了那些守卫。如果我知道更多，我当然会立即告诉他们。"
+msgstr "没有，我已经把我所知道的都告诉过那些卫兵了。而且要是我了解到了什么新情况的话"
+"，我肯定会第一时间去将其告知给他们的。"
 
 #: conversationlist_norath.json:norath_jhaeld3
 msgid "We did have a minor argument just the night before she went missing. But it was just a minor thing, nothing serious."
-msgstr "就在她失踪的前一天晚上，我们确实争吵了一下。但这只是一件小事，没什么大不了的。"
+msgstr "在她失踪的前一天晚上，我们俩确实稍微吵了一阵。但那只是关乎些无足轻重的小事，"
+"鸡毛蒜皮之类的而已。"
 
 #: conversationlist_norath.json:norath_jhaeld4
 msgid "Now, if you'll excuse me, I have things to tend to."
-msgstr "现在，请原谅，我有事情要做。"
+msgstr "现在还请你谅解我一下，我手头还有一点事要干。"
 
 #: conversationlist_elythom_1.json:krell_1
 msgid "Hey there. I am master Krell of the Knights of Elythom. How may we be of service?"
-msgstr "嘿。我是伊黎索姆骑士团的团长克雷尔。有什么可以效劳的？"
+msgstr "嘿你好，我是伊黎索姆骑士团的领队克雷尔。有什么可以效劳的吗？"
 
 #: conversationlist_elythom_1.json:krell_1:0
 #: conversationlist_elythom_1.json:elythom_knight1:0
 msgid "Knights of Elythom? What's that?"
-msgstr "伊黎索姆骑士团？那是什么？"
+msgstr "伊黎索姆骑士团？那是什么组织啊？"
 
 #: conversationlist_elythom_1.json:krell_1:1
 msgid "I was sent by Jhaeld to ask about the missing people."
-msgstr "我是贾尔德派来询问失踪人员情况的。"
+msgstr "我是贾尔德派来询问关于失踪人员的事的。"
 
 #: conversationlist_elythom_1.json:krell_2
 msgid "Me and my band of knights are just visiting Remgard in ... shall we say ... unfinished business."
-msgstr "我和我的骑士团正在访问瑞姆加德 ......可以说......还未结束。"
+msgstr "我和我手下的这帮骑士目前正在瑞姆加德进行……呃……未完成的工作。"
 
 #: conversationlist_elythom_1.json:krell_3
 msgid "As to the nature of our business here, that is something I would rather not disclose."
-msgstr "至于我们在这里干什么，恕不奉告。"
+msgstr "至于到底是工作，请恕我无可奉告。"
 
 #: conversationlist_elythom_1.json:krell_4
 msgid "We serve the order of Elythom."
-msgstr "我们听从伊黎索姆的命令。"
+msgstr "我们效力于伊黎索姆。"
 
 #: conversationlist_elythom_1.json:krell_4:1
 msgid "Jhaeld sent me to ask about the missing people."
-msgstr "贾尔德派我来询问失踪人员的情况。"
+msgstr "贾尔德派我来询问关于失踪人员的事。"
 
 #: conversationlist_elythom_1.json:krell_knights_1
 msgid "We are an order of knights that hail from Brimhaven."
-msgstr "我们是一个来自布林海文的骑士团。"
+msgstr "我们是来自个布林海文的骑士团。"
 
 #: conversationlist_elythom_1.json:krell_knights_2
 msgid "You should visit our compound in Brimhaven, if you ever make your way there."
-msgstr "如果你曾经到过布林海文，你应该看过我们的房子。"
+msgstr "如果你曾经去过布林海文的话，那你应该到访过我们的据点。"
 
 #: conversationlist_elythom_1.json:krell_knights_3
 msgid "We serve all types of clients, from the wealthiest to even the poorest of poor."
-msgstr "我们为所有人提供服务，从最富有的人到最贫穷的人。"
+msgstr "各种各样的人，不论他们有没有钱，都会来找我们帮忙办事。"
 
 #: conversationlist_elythom_1.json:krell_knights_4
 msgid "Regardless, we always get the job done."
-msgstr "无论怎样，我们总是能完成任务。"
+msgstr "不管情况如何，我们向来能把我们的工作搞定。"
 
 #: conversationlist_elythom_1.json:krell_knights_4:0
 msgid "What types of work do you do?"
-msgstr "你从事什么类型的工作？"
+msgstr "你们一般从事什么样的工作呀？"
 
 #: conversationlist_elythom_1.json:krell_knights_5
 msgid "Mostly, we help people get back gold that other people owe them."
-msgstr "通常，我们会帮助人们取回其他人欠他们的黄金（追债？）。"
+msgstr "大多数情况下，我们是帮别人追债，去要回他者所欠的金币。"
 
 #: conversationlist_elythom_1.json:krell_knights_6
 msgid "We also help people find ... erm ... people that have gone missing."
-msgstr "我们还帮助人们寻找......呃......失踪的人。"
+msgstr "我们有时还会帮忙去寻找……呃……失踪者。"
 
 #: conversationlist_elythom_1.json:krell_knights_6:0
 msgid "About that, Jhaeld sent me to ask about the missing people."
-msgstr "关于这一点，贾尔德派我来询问失踪人员的情况。"
+msgstr "关于这一点，贾尔德正好派我来询问关于失踪人员的事。"
 
 #: conversationlist_elythom_1.json:krell_knights_6:1
 #: conversationlist_sullengard.json:sullengard_valhorn_10:0
@@ -17761,7 +17764,7 @@ msgstr "祝你好运。"
 
 #: conversationlist_elythom_1.json:krell_jhaeld1
 msgid "Shh, not so loud!"
-msgstr "嘘，别那么大声!"
+msgstr "嘘，别讲那么大声！"
 
 #: conversationlist_elythom_1.json:krell_jhaeld2
 msgid "Yes, we have heard the reports that people have gone missing here in Remgard. Most ... unfortunate."
