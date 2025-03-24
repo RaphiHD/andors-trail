@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-03-23 20:34+0000\n"
+"PO-Revision-Date: 2025-03-24 21:56+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -61072,44 +61072,55 @@ msgstr "Próbowałem zdobyć klucz Gylewa, ale..."
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:5
 msgid "I have not gone back to see Gylew since our last encounter. Why am I wasting time talking to you when the job is not done yet?"
 msgstr ""
+"Nie widziałem Gylewa od czasu naszego ostatniego spotkania. Po co więc "
+"tracimy czas na rozmowy, skoro zadanie jeszcze nie jest wykonane?"
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:6
 msgid "Hey. I need to go now and follow this map."
-msgstr ""
+msgstr "Hej. Muszę już iść w miejsce oznaczone na tej mapie."
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:10
 msgid "I hope that these coins will enable you to make peace with your father. Take care."
 msgstr ""
+"Mam nadzieję, że te monety pozwolą Ci pogodzić się z ojcem. Trzymaj się."
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:11
 msgid "[Lie] I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them."
 msgstr ""
+"[Kłamiesz] Mam takie oto brązowe i srebrne monety, które 'wygrałem' na "
+"loterii. Chciałbym wiedzieć, czy jesteś nimi zainteresowany."
 
 #: conversationlist_laeroth.json:forenza_brimhaven_10
 msgid "With an ever growing smile upon his face, Forenza inserts the first key and then the second. He then proceeds to slowly open the chest."
 msgstr ""
+"Z coraz szerszym uśmiechem na twarzy Forenza wkłada do dziurki pierwszy "
+"klucz, a potem drugi. Następnie powoli otwiera skrzynię."
 
 #: conversationlist_laeroth.json:forenza_brimhaven_15
 msgid "Well, go get it and bring me back both the key and the chest."
-msgstr ""
+msgstr "A zatem idź i przynieś mi klucz jak i skrzynię."
 
 #: conversationlist_laeroth.json:forenza_brimhaven_15:0
 msgid "Yes sir!"
-msgstr ""
+msgstr "Tak jest!"
 
 #: conversationlist_laeroth.json:korhald_chest_examine_10
 msgid "He then begins to feverlessly sift through the coins, transferring each one to his bag. When to his surpirse, he finds something..."
 msgstr ""
+"Następnie zaczyna bez pośpiechu oglądać monety, przekładając każdą po kolei "
+"do swojej torby. Kiedy nagle ku swojemu zdziwieniu znajduje coś..."
 
 #: conversationlist_laeroth.json:korhald_chest_examine_20
 #: conversationlist_laeroth.json:korhald_chest_examine_20_gylew
 msgid "Look at what I found at the bottom of the chest. A pendant and a map. [Shows item to you]"
 msgstr ""
+"Spójrz, co znalazłem na dnie skrzyni. To jakiś wisiorek i mapa. "
+"[Pokazuje Ci te przedmioty]"
 
 #: conversationlist_laeroth.json:korhald_chest_examine_20:0
 #: conversationlist_laeroth.json:korhald_chest_examine_20_gylew:0
 msgid "A map? Really? Where does it point to?"
-msgstr ""
+msgstr "Mapa? Naprawdę? A co na niej jest?"
 
 #: conversationlist_laeroth.json:korhald_chest_examine_30
 msgid "Well, that is really hard to say. You see [he shows you the map], it is really old and a lot of the landmarks no longer exist in Dhayavar."
