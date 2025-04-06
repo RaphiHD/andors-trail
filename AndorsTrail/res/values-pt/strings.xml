@@ -144,7 +144,7 @@
     <string name="about_button1">Ajuda</string>
     <string name="about_button2">Autores</string>
     <string name="about_button3">Licença</string>
-    <string name="about_contents1">Bem-vindo(a) ao Andor\'s Trail, um RPG de código-fonte aberto, do tipo rogue, para Android.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Fóruns do jogo em andorstrail.com para perguntas e conversas sobre o jogo.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://docs.andorstrail.com/&gt;Wiki do jogo para saber informações sobre o mundo do Andor\'s Trail, entre outras coisas.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Página do projeto em code.google.com, para programadores.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Para falar do jogo com outros jogadores, visita os fóruns de discussão.&lt;br /&gt;</string>
+    <string name="about_contents1">Bem-vindo ao Trilha de Andor, um RPG roguelike de código aberto no Android.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Fórum do jogo no andorstrail.com para perguntas e discussões sobre jogabilidade.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://andorstrail.gitbook.io/docs&gt;Documentação do jogo para informações sobre o mundo de Andor\'s Trail, entre outras coisas.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Código fonte do projeto no github.com para programadores.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Por favor, visite os fóruns para discutir o jogo com outros jogadores.&lt;br /&gt;</string>
     <!--
 		This is the GNU GPL v2 text, originally from
 			http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -316,9 +316,9 @@
     <string name="skill_number_of_increases_one">Você pode selecionar uma habilidade para melhorar. Os pontos de habilidade são mantidos até serem usados.</string>
     <string name="skill_number_of_increases_several">Podes selecionar %1$d habilidades para aumentar.</string>
     <string name="levelup_adds_new_skillpoint">Este nível também te dá um novo ponto de habilidade para gastar!</string>
-    <string name="loadsave_save_to_new_slot">Criar nova posição para guardar o jogo</string>
-    <string name="loadsave_save_overwrite_confirmation_title">Substituir o jogo guardado\?</string>
-    <string name="loadsave_save_overwrite_confirmation">Este jogo guardado contém um nome de jogador diferente (%1$s) do nome do jogador atual (%2$s). Tens a certeza que queres substituir este jogo guardado\?</string>
+    <string name="loadsave_save_to_new_slot">Criar posição para guardar jogo</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Sobrescrever jogo gravado?</string>
+    <string name="loadsave_save_overwrite_confirmation">Este jogo gravado contém um nome de jogador diferente (%1$s) do que o seu nome de jogador atual (%2$s). Tem certeza de que deseja sobrescrever este jogo gravado?</string>
     <string name="iteminfo_displaytypes_ordinary">Ordinário</string>
     <string name="iteminfo_displaytypes_quest">Item de missão</string>
     <string name="iteminfo_displaytypes_legendary">Lendário</string>
@@ -354,7 +354,7 @@
     <string name="startscreen_newgame_start">Iniciar jogo</string>
     <string name="startscreen_selectherosprite">Escolhe o teu herói</string>
     <string name="shop_item_sort">Ordenar</string>
-    <string name="about_interface">&lt;div&gt;As &lt;b&gt;Preferências do jogo&lt;/b&gt; podem ser acedidas pressionando o botão Menu do aparelho.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Ícones da interface&lt;/h1&gt; &lt;div&gt;&lt;b&gt;A cesta&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Botões de acesso rápido [pressionar longo atribui itens para usá-los]&lt;/p&gt; &lt;div&gt;&lt;b&gt;O herói&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menu [visão geral, missões, habilidades e inventário*]&lt;/p&gt; &lt;p&gt;* (ao ver o inventário, pressiona num item para saber mais sobre ele; pressiona prolongado para ver mais opções)&lt;/p&gt; &lt;div&gt;&lt;b&gt;O inimigo&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Informação [aparece durante o combate]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combate&lt;/h1&gt; &lt;p&gt;As ações durante uma batalha custam pontos de ação (PA)...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Ataque&lt;/b&gt; - [3 pontos de ação] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;*(equipar itens e usar itens pode alterar o custo de utilização e pontos de ação (PA)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Utilizar itens&lt;/b&gt; - [5 pontos de ação]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Fugir&lt;/b&gt; - [6 pontos de ação]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combate avançado&lt;/h1&gt; &lt;div&gt;Durante um combate, premir longo numa casa adjacente ao herói...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Para fugir&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(a casa escolhida é destacada - o botão de Ataque muda para Mover)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[com o modo de fugir ativado - premir longo no inimigo para retomar o combate]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Para alterar os alvos&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(o destaque avermelhado do alvo muda para outros inimigos)&lt;/p&gt; &lt;p&gt;[o alvo foi alterado]&lt;/p&gt;</string>
+    <string name="about_interface">&lt;div&gt;As &lt;b&gt;Preferências do jogo&lt;/b&gt; podem ser acedidas pressionando o botão Menu do aparelho.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Ícones da interface&lt;/h1&gt; &lt;div&gt;&lt;b&gt;A cesta&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Botões de acesso rápido [pressionar longo atribui elementos para usá-los]&lt;/p&gt; &lt;div&gt;&lt;b&gt;O herói&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menu [visão geral, missões, habilidades e inventário*]&lt;/p&gt; &lt;p&gt;* (ao ver o inventário, pressiona num elemento para saber mais sobre ele; pressiona prolongado para ver mais opções)&lt;/p&gt; &lt;div&gt;&lt;b&gt;O inimigo&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Informação [aparece durante o combate]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combate&lt;/h1&gt; &lt;p&gt;As ações durante uma batalha custam pontos de ação (PA)...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Ataque&lt;/b&gt; - [3 pontos de ação] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;*(equipar elementos e usar elementos pode alterar o custo de utilização e pontos de ação (PA)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Utilizar elementos&lt;/b&gt; - [5 pontos de ação]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Fugir&lt;/b&gt; - [6 pontos de ação]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combate avançado&lt;/h1&gt; &lt;div&gt;Durante um combate, premir longo numa casa adjacente ao herói...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Para fugir&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(a casa escolhida é destacada - o botão de Ataque muda para Mover)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[com o modo de fugir ativado - premir longo no inimigo para retomar o combate]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Para alterar os alvos&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(o destaque avermelhado do alvo muda para outros inimigos)&lt;/p&gt; &lt;p&gt;[o alvo foi alterado]&lt;/p&gt;</string>
     <string name="preferences_display_loot_dialog_on_items">Mostrar janela só ao encontrar itens</string>
     <string name="preferences_display_loot_dialog_on_items_or_toast">Janela só para itens, notificação para o resto</string>
     <string name="preferences_display_loot_toast_on_items">Mostrar notificação apenas quando encontrar itens</string>
@@ -625,4 +625,33 @@
     <string name="startscreen_migration_title">Migração de dados</string>
     <string name="startscreen_migration_failure">Falhou a migração dos dados de jogos guardados.</string>
     <string name="startscreen_migration_text">A migrar os dados de jogos guardados.</string>
+    <string name="loadsave_export">Exportar jogos gravados</string>
+    <string name="loadsave_export_unsuccessfull">Exportação falhou</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Sobrescrever espaço existente?</string>
+    <string name="loadsave_import_worldmap">Importar mapa do mundo</string>
+    <string name="loadsave_exporting_worldmap">A exportar mapa do mundo</string>
+    <string name="loadsave_export_successfull">Exportado com sucesso</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Sobrescrever ficheiros existentes?</string>
+    <string name="loadsave_export_overwrite_confirmation">A pasta selecionada contém ficheiros com o mesmo nome de alguns ficheiros que devem ser exportados. Tem certeza que quer sobrescrever esses ficheiros?</string>
+    <string name="loadsave_export_error_unknown">Um erro desconhecido ocorreu durante a exportação.</string>
+    <string name="loadsave_import_save_info">Por favor selecione todos os jogos gravados que quer importar.</string>
+    <string name="loadsave_import_save">Importar jogos gravados</string>
+    <string name="loadsave_importing_savegames">A importar jogos gravados</string>
+    <string name="loadsave_import_save_successfull">Importação concluída</string>
+    <string name="loadsave_import_save_unsuccessfull">Importação falhou</string>
+    <string name="loadsave_import_save_error_unknown">- obsoleta -</string>
+    <string name="loadsave_import_error_unknown">Um erro desconhecido ocorreu durante a importação.</string>
+    <string name="loadsave_import_file_exists_question">Já existe um jogo gravado no espaço selecionado. Deseja manter o jogo gravado existente, sobrescrever ele com o jogo gravado importado ou importar o jogo gravado em outro espaço? \n \n%1$s \n \n%2$s</string>
+    <string name="loadsave_import_option_keep_existing">Manter jogo gravado existente</string>
+    <string name="loadsave_import_option_keep_imported">Manter jogo gravado importado</string>
+    <string name="loadsave_import_option_add_as_new">Adicionar como novo jogo gravado</string>
+    <string name="loadsave_import_worldmap_info">Por favor selecione o ficheiro zip do mapa do mundo.</string>
+    <string name="loadsave_importing_worldmap">A importar mapa do mundo</string>
+    <string name="loadsave_import_worldmap_successfull">Importação do mapa do mundo concluída</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Importação do mapa do mundo falhou</string>
+    <string name="loadsave_import_worldmap_wrong_file">Tem certeza que selecionou um mapa do mundo? Por favor selecione o ficheiro zip chamado \'worldmap zip\' que foi exportado para o seu local de exportação.</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- obsoleto -</string>
+    <string name="monsterinfo_killcount">Mortes anteriores</string>
+    <string name="loadsave_export_info">Por favor selecione a pasta para exportar todos os ficheiros.</string>
+    <string name="loadsave_exporting_savegames">A exportar jogos gravadosos</string>
 </resources>
