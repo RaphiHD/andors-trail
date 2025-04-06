@@ -415,7 +415,7 @@ public final class DebugInterface {
 				,new DebugButton("#9", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "elm_2f_2", "west", 5, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "galmore_58", "north", 0, 0);
 			}
 		})
 
