@@ -10,7 +10,7 @@
     <string name="dialog_loading_failed_message">Tsy voaray ny lalaonao.\n\n:(\n\nMety simba na tsy ampy ilay lalao voasoratra.</string>
     <string name="dialog_loading_failed_cheat">Tsy voaray ny lalaonao. Efa notohizana izay voarakitra ao aminy.</string>
     <string name="dialog_monsterencounter_message">Hiady ve ianao?\nFahasarotana: %1$s</string>
-    <string name="dialog_monsterencounter_info">Mombamomba</string>
+    <string name="dialog_monsterencounter_info">Fanazavana</string>
     <string name="status_ap">H:</string>
     <string name="status_exp">T:</string>
     <string name="heroinfo_char">Ankapobeny</string>
@@ -189,4 +189,7 @@
     <string name="shop_sell">Hivarotra</string>
     <string name="about_contents1">Misaotra anao nilalao an\'i Dian\'i Andor, open source RPG roguelike amin\'ny Android.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Forum hiresadresahana ny lalao ao amin\'ny tranonkala andorstrail.com .&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://andorstrail.gitbook.io/docs&gt; Game Wiki, raha mila fanazavana fanampiny. &lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Code source ao amin\'ny github.com ho an\'ny développeurs.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Afaka mandalo ao amin\'ny forum ianao reha te hiresadresaka amin\'ny mpilalao hafa sy ny namanao.&lt;br /&gt;</string>
     <string name="dialog_permission_information">Dian\'i Andor dia manoratra ny lalaonao ao amin\'ny \"espace de stockage\" omen\'ny findainao. Izany dia manamora ny fanoratana sy fandefasana ny lalao amin\'ny finday hafa. Manasa anao hitsidika ny forum raha mila fanazavana fanampiny.\n\nIreo antony voalaza eo ambony ireo ihany no hampiasain\'i Dian\'i Andor ny findainao. Torak\'izany koa, tsy mampiasa \"internet\" ity lalao ity. Dian\'i Andor dia open source, ny code source rehetra dia hitanao ao amin\'ny github.</string>
+    <string name="questlog_includecompleted_prompt">Safidio ny iraka tianao aseho</string>
+    <string name="questlog_includecompleted_hidecompleted">Iraka andalam-pahavitana</string>
+    <string name="questlog_includecompleted_includecompleted">Ny iraka rehetra</string>
 </resources>
