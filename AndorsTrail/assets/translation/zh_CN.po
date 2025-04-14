@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-04-02 17:44+0000\n"
+"PO-Revision-Date: 2025-04-14 17:41+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -17811,29 +17811,29 @@ msgstr "遗憾的是，除了她失踪这一事实外，我们尚无任何头绪
 
 #: conversationlist_elythom_1.json:krell_jhaeld10
 msgid "For the sake of our order's reputation, please keep this to yourself if possible. We wouldn't want people to get the perception that the Knights of Elythom can be weakened in any way."
-msgstr "为了我们骑士团的声誉，如果可能的话，请不要把这件事说出去。我们不希望人们认为"
-"伊黎索姆骑士团会变弱。"
+msgstr "毕竟这关乎到我们骑士团的声誉，所以也请你不要把这件事说出去，我们可不想让外人"
+"觉得艾利索姆骑士团也会如此有所式微。"
 
 #: conversationlist_elythom_1.json:elythom_knight1
 msgid "Hello there. What can the Knights of Elythom do for you?"
-msgstr "嗨，你好。伊黎索姆骑士团能为你做些什么？"
+msgstr "你好，伊黎索姆骑士团能为你做些什么吗？"
 
 #: conversationlist_elythom_1.json:elythom_knight1:1
 #: conversationlist_elythom_1.json:elythom_knight2:1
 msgid "That's a very nice suit of armor you have there."
-msgstr "你的这套盔甲非常漂亮。"
+msgstr "你这身盔甲真赞啊。"
 
 #: conversationlist_elythom_1.json:elythom_knight1_2
 msgid "Talk to master Krell over there, he can tell you all about us."
-msgstr "在那边和克雷尔团长谈谈，他可以告诉你关于我们的一切。"
+msgstr "谈事的话你可以去找那边的克雷尔领队，关于我们的事他会和你讲的。"
 
 #: conversationlist_elythom_1.json:elythom_knight1_3
 msgid "Thank you, it's our standard set of armor that we use in the order. It takes a lot of scrubbing and polishing to make it this clean though."
-msgstr "谢谢，这是我们在任务中使用的一套标准盔甲。虽然需要大量的擦洗和抛光才能使它变得如此干净。"
+msgstr "谢谢，这是我们骑士团的制式凯甲，它能这么锃亮可是费不少功夫去擦拭和打磨呢。"
 
 #: conversationlist_elythom_1.json:elythom_knight2
 msgid "Hello. *cough*"
-msgstr "你好。*咳嗽*"
+msgstr "你好。*咳咳*"
 
 #: conversationlist_duaina.json:duaina_0
 msgid "You! I have seen you."
@@ -17843,43 +17843,45 @@ msgstr "你！我见过你。"
 #: conversationlist_rothses.json:rothses_1:1
 #: conversationlist_rothses.json:rothses_2:1
 msgid "Jhaeld sent me to ask you about the people that have gone missing."
-msgstr "贾尔德派我来问你关于失踪的人的情况。"
+msgstr "贾尔德派我来问问你关于失踪者的事情。"
 
 #: conversationlist_duaina.json:duaina_0:1
 msgid "I don't think so, I've never been here before."
-msgstr "我不这么认为，我以前从未来过这里。"
+msgstr "不对吧，我想我们之前并没有碰过面。"
 
 #: conversationlist_duaina.json:duaina_0:2
 msgid "Yes, I was just here, remember?"
-msgstr "是的，我刚刚就在这里，记得吗？"
+msgstr "嗯，当时我也是在这儿，彻底回想起来了吗？"
 
 #: conversationlist_duaina.json:duaina_1
 msgid ""
 "The dreams and the visions. It is you! The child that challenges the beast.\n"
 "[Duaina gives you a terrified look]"
 msgstr ""
-"梦想和幻觉。是你!那个挑战野兽的孩子。\n"
-"[杜埃娜惊恐的看向你]"
+"梦境与虚景……是你！那个挑战野兽的孩子。\n"
+"[杜埃娜看向你的神态面露惊恐了起来]"
 
 #: conversationlist_duaina.json:duaina_1:0
 msgid "So you have seen me in your visions?"
-msgstr "所以你在你的幻觉中看到了我？"
+msgstr "所以你是在你所见的虚景中看到了我？"
 
 #: conversationlist_duaina.json:duaina_2
 msgid "The sleeping beast. No, no. The blinding light. Oh, why have you come here? Have you come for me?"
-msgstr "沉睡的野兽。不，不。刺眼的光。哦，你为什么来这里？你是为我而来吗？"
+msgstr "沉睡的野兽……不，不，那刺眼的光芒…… "
+"哦，你来到这里是为了什么目的？你是因我而来的吗？"
 
 #: conversationlist_duaina.json:duaina_3
 msgid "Nooo, please spare me!"
-msgstr "不，请饶了我吧!"
+msgstr "不——请饶过我吧！"
 
 #: conversationlist_duaina.json:duaina_3:0
 msgid "I'm not here to get you, if that's what you are afraid of."
-msgstr "我不是来找你的，你可以放心。"
+msgstr "我到这里不是来伤害你的，对此你大可以宽心。"
 
 #: conversationlist_duaina.json:duaina_4
 msgid "I can see it in you. You have the gift. The gift that will destroy the beast. My visions were true."
-msgstr "我可以在你身上看到它。你有这个天赋。能毁灭野兽的天赋。我的幻觉是真的。"
+msgstr "我可以从你身上能感觉的到，你拥有那份才赋 "
+"——那份足以摧毁那只野兽的才赋。我所见的虚景并非妄言。"
 
 #: conversationlist_duaina.json:duaina_4:0
 msgid "Maybe you are confusing me with my brother Andor?"
@@ -17887,59 +17889,59 @@ msgstr "也许你把我和我的哥哥安道尔搞混了？"
 
 #: conversationlist_duaina.json:duaina_5
 msgid "A brother? Yes, that must be what I saw in my visions. It is all becoming clearer."
-msgstr "哥哥？是的，他一定是我在幻觉中看到的。一切都变得越来越清晰。"
+msgstr "哥哥？哦没错，我在虚景中看到的一定是他，那现在一切都变得更加明了了。"
 
 #: conversationlist_duaina.json:duaina_6
 msgid "The black hand sweeps over the land. The beast that hunts. Nooo! Leave this place!"
-msgstr "黑手扫过大地。狩猎的野兽。不！快离开这个地方！"
+msgstr "黑手席卷整片大地。狩猎的野兽。不！快走！"
 
 #: conversationlist_duaina.json:duaina_6:0
 msgid "I'm not here to hurt you!"
-msgstr "我不是来伤害你的!"
+msgstr "我不是来伤害你的！"
 
 #: conversationlist_duaina.json:duaina_7
 msgid "The child and the brother. The unsuspecting people. The beast casts its shadow."
-msgstr "那个孩子和那个兄弟。毫无戒心的人们。野兽投下了它的暗影。"
+msgstr "那个孩子和他的兄弟。毫无戒心的人们。野兽投下了它的暗影。"
 
 #: conversationlist_duaina.json:duaina_s_0
 msgid "I have seen you in my visions."
-msgstr "我在我的幻觉中看到了你。"
+msgstr "我在我的虚景中看到了你。"
 
 #: conversationlist_duaina.json:duaina_s_1a
 msgid "Slaying the beast beneath the prison of Flagstone."
-msgstr "杀死石板监狱下的野兽。"
+msgstr "消灭了石板监狱底下的野兽。"
 
 #: conversationlist_duaina.json:duaina_s_2a
 msgid "Cooperating with the thieves in Fallhaven."
-msgstr "与法尔海文的盗贼合作。"
+msgstr "与法尔海文的盗贼们合作。"
 
 #: conversationlist_duaina.json:duaina_s_2b
 msgid "Working against the thieves in Fallhaven."
-msgstr "在法尔海文与小偷作战。"
+msgstr "与法尔海文的盗贼们作对。"
 
 #: conversationlist_duaina.json:duaina_s_3a
 msgid "Something about a dagger returned to an ancestor in a tomb."
-msgstr "将匕首归还给坟墓中的祖先。"
+msgstr "将匕首归还给了坟墓中的前辈。"
 
 #: conversationlist_duaina.json:duaina_s_3b
 msgid "Something about stealing a dagger in a dark tomb."
-msgstr "将黑暗的坟墓中的匕首偷走."
+msgstr "将黑暗坟墓中的匕首给偷走了。"
 
 #: conversationlist_duaina.json:duaina_s_4a
 msgid "Killing innocent sheep."
-msgstr "杀害无辜的绵羊。"
+msgstr "胡乱宰杀他人绵羊。"
 
 #: conversationlist_duaina.json:duaina_8
 msgid "[Duaina stares at you in silence while holding her hand over her mouth]"
-msgstr "[杜埃娜默默地盯着你，同时用手捂住嘴巴]"
+msgstr "[杜埃娜用手捂住了嘴巴，就这样静静地盯着你]"
 
 #: conversationlist_duaina.json:duaina_8:0
 msgid "What else have you seen in your visions?"
-msgstr "你在幻觉中还看到了什么？"
+msgstr "你在虚像中还看到了什么吗？"
 
 #: conversationlist_duaina.json:duaina_stop
 msgid "[Duaina stares at you in silence]"
-msgstr "[杜埃娜默默地盯着你]"
+msgstr "[杜埃娜就这样静静地盯着你]"
 
 #: conversationlist_rothses.json:rothses_c1
 msgid "Our hero enters my shop. I am honored. How may I help you? A new set of boots perhaps, or some new gloves?"
@@ -18319,7 +18321,7 @@ msgstr "嘿，这是我的家。在我叫守卫之前离开这里！"
 
 #: conversationlist_kendelow.json:kendelow_1
 msgid "I heard that you helped us get rid of that witch Algangror. Thank you."
-msgstr "听说你帮我们干掉了那个女巫阿尔冈格罗。谢谢你。"
+msgstr "听说你帮我们干掉了那个女巫奥冈萝。谢谢你。"
 
 #: conversationlist_kendelow.json:kendelow_2
 msgid "Welcome to my tavern. I hope you will find your stay a pleasant one."
@@ -18398,7 +18400,7 @@ msgstr "不行。不打折。另外，只要你愿意，你可以住多久都可
 
 #: conversationlist_kendelow.json:kendelow_room_6b
 msgid "Since you helped us here in Remgard with that witch Algangror, I am prepared to offer you a discount. How about we say 400 gold for it instead?"
-msgstr "既然你在瑞姆加德帮助我们对付那个女巫阿尔冈格罗，我准备给你打个折。400金币可以吗？"
+msgstr "既然你在瑞姆加德帮助我们对付那个女巫奥冈萝，我准备给你打个折。400金币可以吗？"
 
 #: conversationlist_kendelow.json:kendelow_room_7
 msgid "You are welcome to return once you have the gold, if you are still interested."
@@ -18524,7 +18526,7 @@ msgstr "没关系。再见。"
 
 #: conversationlist_ervelyn.json:ervelyn_give1
 msgid "It is you! I heard what you did, helping us with that witch Algangror. You have my thanks, friend!"
-msgstr "是你！我听说你做了什么，帮助我们对付那个女巫阿尔冈格罗。感谢你，朋友！"
+msgstr "是你！我听说你做了什么，帮助我们对付那个女巫奥冈萝。感谢你，朋友！"
 
 #: conversationlist_ervelyn.json:ervelyn_give2
 msgid "As a token of my appreciation, please accept this hat that I made. May it guide you through the blinding light."
@@ -78596,7 +78598,7 @@ msgstr "最后，我应该和军械师罗瑟斯谈谈。他住在镇子的西边
 
 #: questlist_v0611_3.json:remgard:59
 msgid "I tried to tell Jhaeld about Algangror, but he dismissed me as he had not heard me."
-msgstr "我想把阿尔冈格罗的事告诉杰尔德，但他以没有听到为由拒绝了我。"
+msgstr "我想把奥冈萝的事告诉杰尔德，但他以没有听到为由拒绝了我。"
 
 #: questlist_v0611_3.json:remgard:61
 msgid "I have talked to Norath. He and his wife had been fighting recently, but he has no idea on what may have happened to her."
@@ -78637,7 +78639,8 @@ msgstr "那是什么臭味？"
 
 #: questlist_v0611_3.json:remgard2:10
 msgid "I have told Jhaeld, the village elder in Remgard, about the woman named Algangror that lives in the abandoned house to the east along the northern shore of the lake outside Remgard."
-msgstr "我已经告诉了瑞姆加德的村长贾尔德，关于住在瑞姆加德外湖北岸东边的废弃房子里的那个叫阿尔冈格罗的女人。"
+msgstr "我已经告诉了瑞姆加德的村长贾尔德，关于住在瑞姆加德外湖北岸东边的废弃房子里的"
+"那个叫奥冈萝的女人。"
 
 #: questlist_v0611_3.json:remgard2:20
 msgid "Jhaeld told me that he would rather not deal with her, since he believes she is very dangerous. For the sake of his guards, he will not risk going against her since he is afraid of what might happen to all of them."
@@ -78645,15 +78648,16 @@ msgstr "杰尔德告诉我，他宁愿不和她打交道，因为他认为她非
 
 #: questlist_v0611_3.json:remgard2:21
 msgid "If I want to help Jhaeld and the people of Remgard, I should find a way to make Algangror disappear. He also warns me to be extremely careful."
-msgstr "如果我想帮助贾尔德和瑞姆加德的人民，我应该想办法让阿尔冈格罗消失。他还警告我一定要非常小心。"
+msgstr "如果我想帮助贾尔德和瑞姆加德的人民，我应该想办法让奥冈萝消失。他还警告我一定"
+"要非常小心。"
 
 #: questlist_v0611_3.json:remgard2:30
 msgid "Algangror admitted to me that she had made some people disappear from Remgard. She would not tell me what happened to them though."
-msgstr "阿尔冈格罗尔向我承认，她让一些人从瑞姆加德消失了。但她不愿意告诉我他们发生了什么。"
+msgstr "奥冈萝向我承认，她让一些人从瑞姆加德消失了。但她不愿意告诉我他们发生了什么。"
 
 #: questlist_v0611_3.json:remgard2:35
 msgid "I have started attacking Algangror. I should return to Jhaeld with proof of defeating her when she is dead."
-msgstr "我已经开始攻打阿尔冈格罗。当她死后，我应该带着击败她的证据回到杰尔德身边。"
+msgstr "我已经开始攻打奥冈萝。当她死后，我应该带着击败她的证据回到杰尔德身边。"
 
 #: questlist_v0611_3.json:remgard2:40
 msgid "I have told Jhaeld that I defeated Algangror."
@@ -78734,8 +78738,8 @@ msgstr "我在卡思的床边放置了一尊塑像。"
 
 #: questlist_v0611_3.json:fiveidols:50
 msgid "All the idols have been placed by the beds of the people that Algangror told me to visit. I should return to Algangror."
-msgstr "所有的塑像都已经放置在了那些奥冈萝叫我去拜访的人的床边。接下来我应该回到阿尔"
-"冈格罗那里去。"
+msgstr "所有的塑像都已经放置在了那些奥冈萝叫我去拜访的人的床边。接下来我应该回到奥冈"
+"萝那里去。"
 
 #: questlist_v0611_3.json:fiveidols:51
 msgid "Algangror thanked me for helping her."
