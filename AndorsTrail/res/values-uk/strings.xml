@@ -289,12 +289,12 @@
     <string name="skill_prerequisite_other_skill">Щоб підвищити рівень цієї навички, ви повинні мати хоча б %1$d рівень навичок %2$s.</string>
     <string name="skill_prerequisite_level">Щоб підвищити рівень цієї навички, ви повинні мати хоча б %1$d рівень досвіду.</string>
     <string name="skill_prerequisite_stat">Щоб підвищити рівень цієї навички, ви повинні мати хоча б %1$d %2$s (базова характеристика).</string>
-    <string name="skill_number_of_increases_one">Ви можете обрати одну навичку для покращення.</string>
+    <string name="skill_number_of_increases_one">Ви можете вибрати одну навичку для вдосконалення. Очки навичок зберігаються до використання.</string>
     <string name="skill_number_of_increases_several">Ви можете обрати %1$d навичок для покращення.</string>
     <string name="levelup_adds_new_skillpoint">Цей рівень також дає вам нову одиницю навичок для їх покращення!</string>
-    <string name="loadsave_save_to_new_slot">Створити новий слот для збереження гри</string>
-    <string name="loadsave_save_overwrite_confirmation_title">Перезаписати збережену гру\?</string>
-    <string name="loadsave_save_overwrite_confirmation">Ім\'я гравця у цій збереженій грі (%1$s) відрізняється від імені поточного гравця (%2$s). Ви впевнені, що хочете перезаписати цю збережену гру\?</string>
+    <string name="loadsave_save_to_new_slot">Створіть новий слот для збереження гри</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Перезаписати збереження гри?</string>
+    <string name="loadsave_save_overwrite_confirmation">Ця збережена гра містить інше ім’я гравця (%1$s), ніж ваше поточне ім’я (%2$s). Ви впевнені, що бажаєте перезаписати цю збережену гру?</string>
     <string name="iteminfo_displaytypes_ordinary">Звичайний</string>
     <string name="iteminfo_displaytypes_quest">Квестовий предмет</string>
     <string name="iteminfo_displaytypes_legendary">Легендарний</string>
@@ -436,7 +436,7 @@
     <string name="combat_log_noentries">Поки немає записів.</string>
     <string name="preferences_high_quality_filters_title">Фільтри високої якості</string>
     <string name="preferences_high_quality_filters">Вимкніть це, якщо виникли проблеми зі швидкодією на фільтрованих мапах (наприклад, темні печери). Увімкнення цієї опції дозволить грі використовувати покращені фільтри кольорів замість суцільного накладання кольорів.</string>
-    <string name="about_contents1">Ласкаво просимо до Andor\'s Trail, рогалик-RPG для Android з відкритим початковим кодом.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Ігрові форуми на andorstrail.com для питань та обговорень геймплею.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/wiki&gt;Вікі з інформацією про світ Andor\'s Trail.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; Початковий код проєкту на github.com для розробників.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;Будь ласка, відвідайте форуми, щоб обговорити гру з іншими гравцями.&lt;br /&gt;</string>
+    <string name="about_contents1">Ласкаво просимо до Andor\'s Trail, рогалик-RPG для Android з відкритим початковим кодом.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Ігрові форуми на andorstrail.com для питань та обговорень геймплею.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://docs.andorstrail.com/gitbook.io/docs&gt; з інформацією про світ Andor\'s Trail.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; Початковий код проєкту на github.com для розробників.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;Будь ласка, відвідайте форуми, щоб обговорити гру з іншими гравцями.&lt;br /&gt;</string>
     <string name="about_contents3">Ця програма є вільним програмним забезпеченням; ви можете розповсюджувати його та/або змінювати його відповідно до умов загальної публічної ліцензії GNU, опублікованих Фондом вільного програмного забезпечення; або версії 2 цієї ліцензії, або (за вашим бажанням) будь-якої пізнішої версії. &lt;br /&gt; &lt;br /&gt; Ця програма поширюється з надією, що вона стане корисною, але БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ; навіть не маючи на увазі гарантії ТОРГОВОЇ ПРИДАТНОСТІ або ПРИДАТНОСТІ ДЛЯ ПЕВНОЇ МЕТИ. Детальнішу інформацію див. у загальній публічній ліцензії GNU. &lt;br /&gt; &lt;br /&gt; Ви повинні були отримати копію загальної публічної ліцензії GNU разом із цією програмою; якщо ні, див. &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Для вихідного коду та запитів про нові можливості, відвідайте сторінку проєкту за адресою &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt; &lt;br /&gt;</string>
     <string name="dialog_newversion_message">Дякуємо за завантаження Andor\'s Trail!
 \n
@@ -463,7 +463,7 @@
     <string name="inventory_equip_offhand">Надягнути (нашвидкуруч)</string>
     <string name="skill_longdescription_armor_prof_unarmored">При боротьбі без жодного обладунку на тілі додається %1$d до шансу блоку на кожний рівень навичок. Предмети з тканини обладунками не вважаються.</string>
     <string name="skill_longdescription_armor_prof_light">Кожен рівень навичок збільшує шанс блокування кожного із вдягнутих легких обладунків на %1$d %% від їхніх базових шансів блокування. До легких обладунків належать шкіряні, легкі металеві обладунки та обладунки схову.</string>
-    <string name="skill_longdescription_armor_prof_heavy">Кожен рівень навички збільшує шанс блокування кожного із вдягнутих важких обладунків на %1$d %% від їхніх базових шансів блокування. Штраф на рух у важких обладунках зменшується на %2$d %% за кожен рівень навички, на швидкість атаки - на %3$d %% за кожен рівень навички. До важких обладунків належать металеві обладунки, кольчуги і лати.</string>
+    <string name="skill_longdescription_armor_prof_heavy">З кожним рівнем вміння збільшує шанс блокування кожного предмета важкої броні на %1$d %% від початкового шансу блокування. Штрафи до пересування важких обладунків зменшуються на %2$d %% за рівень вміння, штрафи до швидкості атаки зменшуються на %3$d %% за рівень вміння, а штрафи до вартості використання предметів зменшуються на %4$d %% за рівень вміння. До важких обладунків відносяться металеві обладунки, кольчуги та пластинчасті обладунки.</string>
     <string name="skill_longdescription_fightstyle_dualwield">Дає переваги під час бою двома предметами зброї одночасно в обох руках.
 \n
 \nБез цього уміння може бути використано лише %1$d %% якостей зброї у лівій руці. Сюди входять шанс атаки, уміння критичного удару, потенціал пошкодження і шанс блоку. Без цього уміння швидкість атаки (вартість у ОД) визначається як сума швидкостей атаки обидвох предметів зброї.
@@ -584,12 +584,57 @@
     <string name="dialog_permission_information">Andor\'s Trail записує збережені ігри в доступне для користувача сховище на вашому пристрої. Це дозволяє легко створити резервну копію збережених ігор або перенести їх на новий пристрій. Будь ласка, відвідайте наш форум для отримання додаткової інформації.
 \n
 \nAndor\'s Trail не використовує доступ до вашого пристрою ні для яких інших цілей та не має доступу до Інтернету. Andor\'s Trail - проєкт з відкритим кодом; джерело можна знайти на github.</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nЗ метою збереження та завантаження ваших ігор (і лише для цієї мети) Andor\'s Trail запитає у вас дозволу на доступ до вашого сховища."</string>
+    <string name="dialog_newversion_permission_information">\n\nЗ метою збереження та завантаження ваших ігор (і лише для цієї мети) Andor\'s Trail запитає у вас дозволу на доступ до вашого сховища.</string>
     <string name="preferences_language_default">Мова системи</string>
     <string name="preferences_display_scaling_factor_50_percent">Половина</string>
-    <string name="about_interface">&lt;div&gt;&lt;b&gt;Налаштування гри&lt;/b&gt; можна знайти, натиснувши кнопку Меню пристрою.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Піктограми інтерфейсу&lt;/h1&gt; &lt;div&gt;&lt;b&gt;Скриня&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Слоти швидкого доступу [Довге натискання на мішечки всередині для призначення предметів для миттєвого використання]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Герой&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Меню [Огляд, Квести, Навички і Інвентар *]&lt;/p&gt; &lt;p&gt;* (В меню Інвентаря натискання на предмет відобразить інформацію про нього, довге натискання - додаткові опції)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Ворог&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Інформація [з\'являється під час бою]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Бій&lt;/h1&gt; &lt;p&gt;Кожна дія під час бою коштує ОК...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Напад&lt;/b&gt; - [3 ОК] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (Одягання спорядження, використання предметів може змінювати ОК і вартість використання)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Використання предметів&lt;/b&gt; - [5 ОК]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Втеча&lt;/b&gt; - [6 ОК]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Додаткові можливості в бою&lt;/h1&gt; &lt;div&gt;Під час бою виконайте довге натискання на клітинку поряд з Героєм...&lt;/div&gt; &lt;div&gt;&lt;b&gt;... щоб втекти&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(обрана клітинка підсвічується, Кнопка Атаки змінюється на Рух)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[активовано режим втечі, довге натискання на ворога поверне Героя до бою]&lt;/p&gt; &lt;div&gt;&lt;b&gt;... щоб змінити цілі&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(червоне підсвічування цілі переміщується з одного ворога на іншого)&lt;/p&gt; &lt;p&gt;[ціль було змінено]&lt;/p&gt;</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>Налаштування гри</b> можна знайти, натиснувши кнопку меню на пристрої.</div>
+
+<p>________________</p>
+<h1>Значки інтерфейсу</h1>
+
+<div><b>Скриня</b><img alt="chest" src="chest.png" /></div>
+<p>Швидкі слоти [Довго натисніть на пакети всередині, щоб призначити предмети для миттєвого використання]</p>
+
+<div><b>Герой</b><img alt="hero" src="char_hero.png" /></div>
+<p>Меню [Огляд, квести, навички &amp; Інвентар *]</p>
+<p>* (Перебуваючи в інвентар, "натисніть" елемент, щоб отримати інформацію, і "довго натисніть", щоб отримати додаткові параметри)</p>
+
+<div><b>Ворог</b><img alt="monster" src="monster.png" /></div>
+<p>Інформація [з’являється під час бою]</p>
+
+
+
+<p>________________</p>
+<h1>Бій</h1>
+
+<p>Дії, вжиті під час бою, коштували AP...</p>
+
+<div><b>Атака</b> - [3AP] *</div>
+<img alt="атака" src="doubleattackexample.png" />
+<p>* (Екіпірування спорядження та використання предметів може змінити AP і вартість використання)</p>
+
+<div><b>Використання елементів</b> - [5AP]</div>
+<div><b>Втеча</b> - [6AP]</div>
+
+
+
+<p>________________</p>
+<h1>Advanced Combat</h1>
+
+<div>Під час бою натисніть і утримуйте плитку поруч із героєм...</div>
+
+<div><b>Втікати</b></div>
+<p>(вибрану плитку виділено – кнопка «Атака» змінюється на «Переміщення»)</p>
+<img alt="flee" src="flee_example.png" />
+<p>[активовано режим втечі - утримуйте ворога, щоб знову вступити в бій]</p>
+
+<div><b>Щоб змінити цілі</b></div>
+<p>(червоне виділення цілі зміщується між ворогами)</p>
+<p>[ціль змінено]</p>
+
+]]></string>
     <string name="preferences_movement_dpad_transparency_70_pct">70%</string>
     <string name="preferences_movement_dpad_transparency_60_pct">60%</string>
     <string name="preferences_movement_dpad_transparency_50_pct">50%</string>
@@ -614,7 +659,7 @@
     <string name="loadsave_import_save">Імпорт збережених ігор</string>
     <string name="loadsave_import_save_successfull">Успішний імпорт</string>
     <string name="loadsave_import_save_unsuccessfull">Невдалий імпорт</string>
-    <string name="loadsave_import_save_error_unknown">Під час імпортування сталася невідома помилка.</string>
+    <string name="loadsave_import_save_error_unknown">- застарілий -</string>
     <string name="loadsave_import_overwrite_confirmation_title">Перезаписати наявний слот\?</string>
     <string name="loadsave_import_option_keep_imported">Зберегти імпортоване збереження</string>
     <string name="loadsave_import_option_add_as_new">Додати нове Збереження</string>
@@ -633,6 +678,16 @@
 \n\t%2$s</string>
     <string name="loadsave_import_imported_description">Імпортоване збереження: Слот: %1$s:
 \n\t%2$s</string>
-    <string name="loadsave_import_worldmap_wrong_directory">Ви впевнені, що в цій папці є карта світу\? Виберіть папку під назвою \'worldmap\' у вашому місці експорту.</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- застарілий -</string>
     <string name="monsterinfo_killcount">Попередні вбивства</string>
+    <string name="loadsave_importing_savegames">Імпортування збережених ігор</string>
+    <string name="loadsave_import_worldmap_wrong_file">Ви впевнені, що вибрали карту світу? Будь ласка, виберіть zip-файл під назвою «worldmap.zip», який було експортовано у ваше місце експорту.</string>
+    <string name="loadsave_import_error_unknown">Під час імпортування сталася невідома помилка.</string>
+    <string name="loadsave_import_worldmap_info">Будь ласка, виберіть zip-файл карти світу.</string>
+    <string name="loadsave_importing_worldmap">Імпорт мапи світу</string>
+    <string name="loadsave_export_info">Будь ласка, виберіть каталог для експорту всіх файлів.</string>
+    <string name="loadsave_exporting_savegames">Експортування збережених ігор</string>
+    <string name="loadsave_exporting_worldmap">Експорт мапи світу</string>
+    <string name="loadsave_export_error_unknown">Під час експорту сталася невідома помилка.</string>
+    <string name="loadsave_import_save_info">Виберіть усі збережені ігри, які ви хочете імпортувати.</string>
 </resources>

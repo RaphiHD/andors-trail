@@ -136,7 +136,7 @@
     <string name="about_button1">Ayuda</string>
     <string name="about_button2">Autores</string>
     <string name="about_button3">Licencia</string>
-    <string name="about_contents1">Bienvenidos al Sendero de Andor. Este es un juego de rol de código abierto con elementos pícaros y de fantasía para Android.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Foro de Andorstrail.com para hacer preguntas y discutir la juego.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://docs.andorstrail.com/&gt;Wiki del Sendero de Andor donde puedes encontrar información más detallada sobre el mundo del Sendero de Andor. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=http://github.com/AndorsTrailRelease/andors-trail/&gt;Proyecto en github.com para desarrolladores.&lt;/a&gt;&lt;br /&gt; &lt;br / &gt; Si tiene Si tienes preguntas sobre el juego, visita el foro del juego.&lt;br /&gt;</string>
+    <string name="about_contents1">Bienvenidos al Sendero de Andor. Este es un juego de rol de código abierto con elementos pícaros y de fantasía para Android.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Foro de Andorstrail.com para hacer preguntas y discutir la juego.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://andorstrail.gitbook.com/&gt;Wiki del Sendero de Andor donde puedes encontrar información más detallada sobre el mundo del Sendero de Andor. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=http://github.com/AndorsTrailRelease/andors-trail/&gt;Proyecto en github.com para desarrolladores.&lt;/a&gt;&lt;br /&gt; &lt;br / &gt; Si tiene Si tienes preguntas sobre el juego, visita el foro del juego.&lt;br /&gt;</string>
     <string name="about_contents3">
 		Este programa es software libre; puedes redistribuirlo y / o modificarlo bajo los términos de la Licencia Pública General GNU publicada por la Fundación para el Software Libre; . ya sea la versión 2 de la Licencia, o (a su elección) cualquier versión posterior &lt;br /&gt; &lt;br /&gt; Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; ni siquiera la garantía implícita de COMERCIALIZACIÓN o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Vea la Licencia Pública General GNU para más detalles &lt;br /&gt; &lt;br /&gt; Usted debería haber recibido una copia de la Licencia Pública General de GNU junto con este programa.; si no, ver &lt;a href=http://www.gnu.org/licenses&gt; http://www.gnu.org/licenses &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; Para las solicitudes de código fuente y de la característica, por favor visite la página del proyecto en &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; https://github.com/AndorsTrailRelease/andors-trail/ &lt;/a&gt; &lt;br /&gt;
 	</string>
@@ -274,7 +274,54 @@
     <string name="skill_shortdescription_resistance_physical_capacity">Resistencia contra condiciones de capacidad física</string>
     <string name="skill_shortdescription_resistance_blood_disorder">Resistencia contra desórdenes en la sangre</string>
     <string name="skill_longdescription_weapon_chance">Incrementa la probabilidad de ataque en %1$d por cada nivel de habilidad.</string>
-    <string name="about_interface">&lt;div&gt;&lt;b&gt;Los ajustes del juego&lt;/b&gt; pueden encontrase pulsando el botón de Menú del dispositivo.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Iconos de interfaz&lt;/h1&gt; &lt;div&gt;&lt;b&gt;El cofre&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Ranuras rápidas [Manten pulsada una de las bolsas para asignar objetos para su uso instantáneo]&lt;/p&gt; &lt;div&gt;&lt;b&gt;El héroe&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menú [Visión general, Misiones, Habilidades e Inventario *]&lt;/p&gt;&lt;p&gt;* (En el inventario, pulsa un objeto para ver información y mantenlo pulsado para más opciones)&lt;/p&gt; &lt;div&gt;&lt;b&gt;El enemigo&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Información [Aparece durante el combate]&lt;/p&gt;&lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Combate&lt;/h1&gt;&lt;p&gt;Toda acción de combate cuesta PA.&lt;/p&gt; &lt;div&gt;&lt;b&gt;Atacar&lt;/b&gt; - [3PA] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (Equiparse con objetos y usar objetos puede alterar el coste de PA y coste de uso)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Usar objetos&lt;/b&gt; - [5PA]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Huir&lt;/b&gt; - [6PA]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Combate avanzado&lt;/h1&gt; &lt;div&gt;Durante el combate, mantén pulsado un espacio adyacente al héroe...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Para Huir&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(El espacio adyacente se resalta - El botón de \"Atacar\" cambia a \"Mover\")&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt;&lt;p&gt;[modo de huida activado - Mantén pulsado al enemigo para reanudar el combate]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Para cambiar de objetivo&lt;/b&gt;&lt;/div&gt;&lt;p&gt;(El sombreado rojo cambia entre los enemigos)&lt;/p&gt;&lt;p&gt;[El objetivo ha sido cambiado]&lt;/p&gt;</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>Puedes encontrar la configuración del juego</b> presionando el botón de menú de tu dispositivo.</div>
+
+<p>________________</p>
+<h1>Iconos de la interfaz</h1>
+
+<div><b>El cofre</b><img alt="chest" src="chest.png" /></div>
+<p>Ranuras rápidas [Mantén presionadas las bolsas internas para asignar elementos para uso instantáneo]</p>
+
+<div><b>El héroe</b><img alt="hero" src="char_hero.png" /></div>
+<p>Menú [Descripción general, misiones, habilidades y Inventario *]</p>
+<p>* (Mientras estás en el inventario, "presiona" un objeto para obtener información y "presiona prolongadamente" para obtener más opciones)</p>
+
+<div><b>El enemigo</b><img alt="monster" src="monster.png" /></div>
+<p>Información [Aparece durante el combate]</p>
+
+
+
+<p>________________</p>
+<h1>Combate</h1>
+
+<p>Las acciones realizadas durante la batalla cuestan AP...</p>
+
+<div><b>Ataque</b> - [3 AP] *</div>
+<img alt="ataque" src="doubleattackexample.png" />
+<p>* (Equipar equipo y usar objetos puede alterar el costo de AP y uso)</p>
+
+<div><b>Uso de objetos</b> - [5AP]</div>
+<div><b>Huir</b> - [6AP]</div>
+
+
+
+<p>________________</p>
+<h1>Combate avanzado</h1>
+
+<div>Durante el combate, mantén presionada una casilla adyacente al héroe...</div>
+
+<div><b>Para huir</b></div>
+<p>(la casilla seleccionada se resalta; el botón de ataque cambia a Mover)</p>
+<img alt="huir" src="huir_example.png" />
+<p>[modo de huida activado; mantén presionada al enemigo para volver a entrar en combate]</p>
+
+<div><b>Para cambiar de objetivo</b></div>
+<p>(el objetivo rojo resaltado cambia entre enemigos)</p>
+<p>[el objetivo ha cambiado]</p>
+
+]]></string>
     <string name="skill_longdescription_weapon_dmg">Incrementa el daño máximo en %1$d por cada nivel de habilidad.</string>
     <string name="change_locale_requires_restart">Cambiar de localización requiere reiniciar. Se ha cerrado el Camino de Andor.</string>
     <string name="skill_longdescription_barter">Por cada nivel de habilidad, disminuye la penalización de oro al comprar y vender un %1$d por ciento.</string>
@@ -430,7 +477,7 @@
     <string name="skill_longdescription_armor_prof_shield">Aumenta la resistencia al daño en %1$d punto/s por cada nivel de habilidad, siempre y cuando haya un escudo o arma defensiva equipada.</string>
     <string name="skill_longdescription_armor_prof_unarmored">Luchando sin armadura, gana %1$d puntos de defensa (probabilidad de bloqueo) por cada nivel de habilidad.La ropa de tela no es considerada armadura.</string>
     <string name="skill_longdescription_armor_prof_light">Aumenta tu defensa (probabilidad de bloqueo) de cada una de las piezas de armadura ligera que lleves puestas en un %1$d%% sobre el nivel original.Las armaduras hechas de cuero, metales ligeros y la ropa de camuflaje son ligeras.</string>
-    <string name="skill_longdescription_armor_prof_heavy">Cada nivel de habilidad aumenta la probabilidad de bloqueo (defensa) en un %1$d%% sobre el nivel base de cada pieza de armadura pesada que lleves puesta.Las penalizaciones de movimiento serán reducidas en un %2$d%% por nivel de habilidad, a demás de las penalizaciones de velocidad de ataque (reducidas en un %3$d%% por nivel).Las armaduras pesadas son metálicas, incluyendo cotas de mallas y armaduras de placas.</string>
+    <string name="skill_longdescription_armor_prof_heavy">Por cada nivel de habilidad, aumenta la probabilidad de bloqueo de cada pieza de armadura pesada que se use en un %1$d %% de sus probabilidades de bloqueo originales. Las penalizaciones de movimiento de las piezas de armadura pesada se reducen en un %2$d %% por nivel de habilidad, las penalizaciones de velocidad de ataque se reducen en un %3$d %% por nivel de habilidad y las penalizaciones de costo de uso de objetos se reducen en un %4$d %% por nivel de habilidad. Las armaduras pesadas incluyen armaduras de metal, cota de malla y cota de malla.</string>
     <string name="skill_longdescription_fightstyle_dualwield">Otorga beneficios al luchar con dos armas a la vez (una de ellas en la mano principal y otra en la secundaria).
 \n
 \nSin esta habilidad, solamente un %1$d%% de los atributos del arma serán usados al estar equipada en la mano secundaria. Esto incluye la probabilidad de ataque, la habilidad para asestar golpes críticos, la potencial de daño del arma e la incluso defensa. Sin la habilidad, el coste de ataque (los PA) necesarios para lanzar un ataque serán la suma de los PA necesarios de cada arma (la principal y la de la mano secundaria). Sera utilizado el modificador de daño mas bajo.
@@ -578,9 +625,7 @@
     <string name="preferences_language_default">Idioma del sistema</string>
     <string name="preferences_display_scaling_factor_50_percent">Mitad de tamaño</string>
     <string name="dialog_permission_information_title">Cargando y guardando partidas</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nPara poder guardar y cargar tus partidas (y sólo para ese propósito) El Sendero de Andor te preguntará por el permiso para acceder al almacenamiento del móvil."</string>
+    <string name="dialog_newversion_permission_information">\n\nPara poder guardar y cargar tus partidas (y sólo para ese propósito) El Sendero de Andor te preguntará por el permiso para acceder al almacenamiento del móvil.</string>
     <string name="startscreen_mode_unlimited_lives">Medio (vidas infinitas, guardar 1 partida)</string>
     <string name="startscreen_mode_1_life">Muerte permanente (1 vida, guardar 1 partida)</string>
     <string name="startscreen_mode_3_lives">Extremo (3 vidas, guardar 1 partida)</string>

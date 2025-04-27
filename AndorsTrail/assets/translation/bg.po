@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "POT-Creation-Date: Sun Nov 10 11:14:56 CET 2013\n"
-"PO-Revision-Date: 2024-01-15 21:06+0000\n"
-"Last-Translator: Ilian Iliev <nemirco@gmail.com>\n"
+"PO-Revision-Date: 2024-12-27 21:20+0000\n"
+"Last-Translator: Miroslav Iliev <iliev.mb@gmail.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/bg/>\n"
 "Language: bg\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: [none]
 msgid "translator-credits"
@@ -243,11 +243,11 @@ msgstr ""
 
 #: actorconditions_trader_teksin.json:light_attack
 msgid "Lightning attack"
-msgstr ""
+msgstr "Мълниеносна атака"
 
 #: actorconditions_stoutford_combined.json:nausea
 msgid "Nausea"
-msgstr ""
+msgstr "Наусий"
 
 #: actorconditions_stoutford_combined.json:poison_blood
 msgid "Blood poisoning"
@@ -267,7 +267,7 @@ msgstr "Ясновидство"
 
 #: actorconditions_stoutford_combined.json:mind_fog
 msgid "Mind fog"
-msgstr ""
+msgstr "Замъглено съзнание"
 
 #: actorconditions_omicronrg9.json:guild03_restingAC
 msgid "Resting"
@@ -366,7 +366,7 @@ msgstr ""
 
 #: actorconditions_omi2.json:kazarite_misery
 msgid "Kazaul possession"
-msgstr ""
+msgstr "Казаулско владение"
 
 #: actorconditions_haunted_forest.json:death_plague
 msgid "Death Plague"
@@ -378,59 +378,59 @@ msgstr "Ходене на сън"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "Фейгард Лоялист"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr ""
+msgstr "Земна примка"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "Бяс"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "Лош вкус"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr ""
+msgstr "Жажда"
 
 #: actorconditions_laeroth.json:swift_attack
 msgid "Swift attack"
-msgstr ""
+msgstr "Светкавична атака"
 
 #: actorconditions_laeroth.json:blindness
 msgid "Blindness"
-msgstr ""
+msgstr "Слепота"
 
 #: actorconditions_laeroth.json:life_drain
 msgid "Life drain"
-msgstr ""
+msgstr "Изсмукване на живота"
 
 #: actorconditions_laeroth.json:sting_major
 msgid "Major sting"
-msgstr ""
+msgstr "Силно ужилване"
 
 #: actorconditions_laeroth.json:spider_bite
 msgid "Spider bite"
-msgstr ""
+msgstr "Ухапване от паяк"
 
 #: actorconditions_laeroth.json:environmental_poisoning
 msgid "Environmental poisoning"
-msgstr ""
+msgstr "Природно отравяне"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
-msgstr ""
+msgstr "Сладък зъб"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
-msgstr ""
+msgstr "Леко увеличение на защитата"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
-msgstr ""
+msgstr "Ободряване на Елитара"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
@@ -596,7 +596,7 @@ msgstr "Благодаря ти за хляба, който ми донесе п
 #: conversationlist_sullengard.json:sullengard_hadena_7:1
 #: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
-msgstr ""
+msgstr "Заповядайте отново."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
@@ -613,26 +613,35 @@ msgstr "Добре, ще отида да проверя в градината."
 #: conversationlist_mikhail.json:mikhail_rats_start2
 msgid "If you get hurt by the rats, come back here and rest in your bed. That way you can regain your strength."
 msgstr ""
+"Ако бъдеш наранен от плъховете, върни се тук за да си починеш на леглото ти. "
+"По този начин си възвръщаш силата."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3
 msgid "Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it."
 msgstr ""
+"Също така, не забравяй да си провериш инвентарът. Вероятно старият пръстен, "
+"който ти дадох все още е там. Като го намериш, непременно го сложи на пръста "
+"си."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3:0
 msgid "OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items."
 msgstr ""
+"Добре, разбрах. Мога да си почина тук на леглото и трябва да проверя "
+"раницата си за някои предмети."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
 msgstr ""
+"Още нещо: Провери онази кошница ей там. Беше на брат ти Андор, може да има "
+"нещо в нея, което ще ти е от полза."
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
-msgstr ""
+msgstr "Уби ли двата плъха, които бяха в градината?"
 
 #: conversationlist_mikhail.json:mikhail_rats_continue:0
 msgid "Yes, I have dealt with the rats now."
-msgstr ""
+msgstr "Да, аз се разправих с плъховете."
 
 #: conversationlist_mikhail.json:mikhail_rats_complete
 msgid ""
@@ -640,6 +649,10 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
+"О, направи ли го? Браво, благодаря ти много за помощта! Вземи за награда "
+"този стар щит с който тренираше брат ти.\n"
+"\n"
+"Ако си ранен, използвай твоето легло за да си починеш и възвърнеш силите си."
 
 #: conversationlist_mikhail.json:mikhail_rats_complete2
 msgid ""
@@ -647,48 +660,60 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
+"Благодаря ти за оказаната по-рано помощ в борбата с плъховете.\n"
+"\n"
+"Ако си ранен, използвай твоето легло за да си починеш и възвърнеш силите си."
 
 #: conversationlist_mikhail.json:mikhail_achievements_10
 msgid "Just like my father once did, I want to give you a book to take with you on your way."
 msgstr ""
+"Също като моят баща, ще ти дам книга, която да носиш със себе си през цялото "
+"време на твоето приключение."
 
 #: conversationlist_mikhail.json:mikhail_achievements_20
 msgid "This book is some kind of diary, in which you can record unusual experiences and achievements that you may have on your way."
 msgstr ""
+"Тази книга е нещо като дневник, в който можеш да записваш необичайни "
+"преживявания и постижения, които може да срещнеш по пътя си."
 
 #: conversationlist_mikhail.json:mikhail_achievements_30
 msgid "Would you like to have it?"
-msgstr ""
+msgstr "Би ли искал да го имаш?"
 
 #: conversationlist_mikhail.json:mikhail_achievements_30:0
 msgid "Yes, sounds great."
-msgstr ""
+msgstr "Да, звучи прекрасно."
 
 #: conversationlist_mikhail.json:mikhail_achievements_30:1
 msgid "No, thanks."
-msgstr ""
+msgstr "Не, благодаря."
 
 #: conversationlist_mikhail.json:mikhail_achievements_40
 msgid "No problem. I won't bother you with it again."
-msgstr ""
+msgstr "Няма проблем. Няма да ви притеснявам повече с това."
 
 #: conversationlist_mikhail.json:mikhail_achievements_50
 #: conversationlist_stoutford_combined.json:stn_colonel_34
 #: conversationlist_ratdom_npc.json:ratdom_audir_2
 msgid "Here you are."
-msgstr ""
+msgstr "Заповядайте."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2a
 msgid "Another way to regain your strength is to eat some food. You can buy some for yourself from Mara at the town hall. But watch out - I hear that raw meat can sometimes give you food poisoning."
 msgstr ""
+"Друг начин за възвръщане на силата ти е като ядеш храна. Можеш да си купиш "
+"храна от Мара, която се намира в сграда в центъра на селото. Но трябва да "
+"внимаваш със суровото месо, защото понякога причинява хранително отравяне."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
 msgstr ""
+"Ако това се случи, единствено градският свещеник може да ти помогне.  В "
+"противен случай, просто изчакай за да ти мине."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
-msgstr ""
+msgstr "Аз, не обичам месо, затова ще си хапна само хляб!"
 
 #: conversationlist_crossglen.json:audir1
 msgid ""
@@ -696,14 +721,17 @@ msgid ""
 "\n"
 "Please browse my selection of fine wares."
 msgstr ""
+"Добре дошъл в моя магазин!\n"
+"\n"
+"Моля разгледайте моите прекрасни стоки."
 
 #: conversationlist_crossglen.json:audir1:0
 msgid "Please show me your wares."
-msgstr ""
+msgstr "Моля покажете ми какво имате за продан."
 
 #: conversationlist_crossglen.json:audir1:1
 msgid "Do you have a pickaxe by chance?"
-msgstr ""
+msgstr "Случайно да имате кирка?"
 
 #: conversationlist_crossglen.json:arambold1
 msgid ""
@@ -711,6 +739,9 @@ msgid ""
 "\n"
 "Someone should do something about them."
 msgstr ""
+"О миличък, мислиш ли, че можеш да поспиш, докато тези пияници пеят \n"
+"\n"
+"Някой трябва да направи нещо."
 
 #: conversationlist_crossglen.json:arambold1:0
 #: conversationlist_lodar.json:lodar_d1:9
@@ -718,7 +749,7 @@ msgstr ""
 #: conversationlist_maevalia.json:maevalia_h2:0
 #: conversationlist_maevalia.json:maevalia_d1:0
 msgid "Can I rest here?"
-msgstr ""
+msgstr "Мога ли да си легна тук?"
 
 #: conversationlist_crossglen.json:arambold1:1
 #: conversationlist_crossglen.json:mara_default:0
@@ -755,7 +786,7 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:whootibarfag_24:1
 #: conversationlist_ratdom_npc.json:whootibarfag_74:1
 msgid "Do you have anything to trade?"
-msgstr ""
+msgstr "Имате ли нещо за продан?"
 
 #: conversationlist_crossglen.json:arambold2
 msgid ""
@@ -763,6 +794,9 @@ msgid ""
 "\n"
 "Pick any bed you want."
 msgstr ""
+"Разбира се малко, можеш да си отдъхнеш тук.\n"
+"\n"
+"Избери си само легло."
 
 #: conversationlist_crossglen.json:arambold2:0
 #: conversationlist_crossglen_gruil.json:gruil_andor3:0
@@ -774,7 +808,7 @@ msgstr ""
 #: conversationlist_vilegard_villagers.json:vilegard_villager_friend_1:0
 #: conversationlist_omi2.json:arghest_15:0
 msgid "Thanks, bye."
-msgstr ""
+msgstr "Благодаря, чао."
 
 #: conversationlist_crossglen.json:drunk1
 msgid ""
@@ -783,6 +817,10 @@ msgid ""
 "\n"
 "Hey kid, wanna join us in our drinking game?"
 msgstr ""
+"Пий пий пий, пийни си още малко.\n"
+"Пий пий пий, докато не паднеш на земята.\n"
+"\n"
+"Ей малкия, искаш ли да се присъединиш към нашата игра?"
 
 #: conversationlist_crossglen.json:drunk1:0
 #: conversationlist_crossglen_odair.json:odair4:2
@@ -792,14 +830,14 @@ msgstr ""
 #: conversationlist_guynmart2_npc.json:guynmart_rob6_10:1
 #: conversationlist_brimhaven.json:arlish_0:1
 msgid "No thanks."
-msgstr ""
+msgstr "Не благодаря."
 
 #: conversationlist_crossglen.json:drunk1:1
 #: conversationlist_crossglen.json:drunk1a:0
 #: conversationlist_rothses.json:rothses_c2:2
 #: conversationlist_omi2.json:ortholion_guard9_10b:1
 msgid "Maybe some other time."
-msgstr ""
+msgstr "Може би някой друг път."
 
 #: conversationlist_crossglen.json:mara_default
 msgid ""
@@ -807,18 +845,23 @@ msgid ""
 "\n"
 "Want something to eat?"
 msgstr ""
+"Няма смисъл, тези пияни приятели винаги правят бели.\n"
+"\n"
+"Искам нещо да хапна?"
 
 #: conversationlist_crossglen.json:mara_thanks
 msgid "I heard you helped Odair clean out that old supply cave. Thanks a lot, we'll start using it soon."
 msgstr ""
+"Чух, че си помогнал на Одаир да почисти старата пещера със запаси. Благодаря "
+"много, скоро ще започнем да я използваме."
 
 #: conversationlist_crossglen.json:mara_thanks:0
 msgid "It was my pleasure."
-msgstr ""
+msgstr "За мен беше удоволствие."
 
 #: conversationlist_crossglen.json:farm1
 msgid "Please do not disturb me, I have work to do."
-msgstr ""
+msgstr "Моля, не ме безпокойте, имам работа."
 
 #: conversationlist_crossglen.json:farm1:0
 #: conversationlist_crossglen.json:farm2:0
@@ -833,15 +876,15 @@ msgstr ""
 #: conversationlist_stoutford.json:stoutford_gateguard_0:2
 #: conversationlist_stoutford.json:kayla_1:1
 msgid "Have you seen my brother Andor?"
-msgstr ""
+msgstr "Виждал ли си брат ми Андор?"
 
 #: conversationlist_crossglen.json:farm2
 msgid "What?! Can't you see I'm busy? Go bother someone else."
-msgstr ""
+msgstr "Какво?! Не виждаш ли, че съм зает? Върви да притесняваш някой друг."
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
-msgstr ""
+msgstr "Андор? Не, напоследък не съм го виждал."
 
 #: conversationlist_crossglen.json:snakemaster
 msgid ""
@@ -849,57 +892,63 @@ msgid ""
 "\n"
 "Now prepare to die, puny creature."
 msgstr ""
+"Е, добре, какво имаме тук? Посетител, колко хубаво. Впечатлен съм, че "
+"стигнахте толкова далеч през всичките мои слуги.\n"
+"\n"
+"Сега се приготви да умреш, дребнаво същество."
 
 #: conversationlist_crossglen.json:snakemaster:0
 msgid "Great, I have been waiting for a fight!"
-msgstr ""
+msgstr "Страхотно, откога чакам да натупам някой!"
 
 #: conversationlist_crossglen.json:snakemaster:1
 msgid "Let's see who dies here."
-msgstr ""
+msgstr "Да видим кой ще умре тук."
 
 #: conversationlist_crossglen.json:snakemaster:2
 #: conversationlist_maelveon.json:maelveon_5:2
 #: conversationlist_loneford_2.json:landa_6
 #: conversationlist_lodarfg4.json:lodar_fg4_7:1
 msgid "Please don't hurt me!"
-msgstr ""
+msgstr "Моля те, не ме наранявай!"
 
 #: conversationlist_crossglen.json:haunt
 msgid "Oh mortal, free me from this cursed world!"
-msgstr ""
+msgstr "О, смъртнико, освободи ме от този прокълнат свят!"
 
 #: conversationlist_crossglen.json:haunt:0
 msgid "Oh, I'll free you from it alright."
-msgstr ""
+msgstr "О, ще те освободя на момента."
 
 #: conversationlist_crossglen.json:haunt:1
 msgid "You mean, by killing you?"
-msgstr ""
+msgstr "Искаш да кажеш, като те убия?"
 
 #: conversationlist_crossglen.json:drunk1a
 msgid "Heeeey - come on. Don't be such a spoilsport."
-msgstr ""
+msgstr "Хеееей - хайде. Не бъди такъв страхливец."
 
 #: conversationlist_crossglen.json:drunk1a:1
 msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
 msgstr ""
+"Е, ако наистина искате. Но има една игра, която искам да поиграя с вас. Ето, "
+"изпийте това. [Дава ви бутилка със слаба отрова]"
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
-msgstr ""
+msgstr "Ох ... [глюг глюг]"
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
-msgstr ""
+msgstr "Какъв интересен ... [глюг]"
 
 #: conversationlist_crossglen.json:drunk1d
 msgid "... taste [falls over]"
-msgstr ""
+msgstr "... вкус [пада]"
 
 #: conversationlist_crossglen.json:drunk1d:0
 msgid "Yes, really. A unique taste. And final - bye."
-msgstr ""
+msgstr "Да наистина. Уникален вкус. И накрая - чао."
 
 #: conversationlist_crossglen_gruil.json:gruil1
 msgid ""
@@ -907,42 +956,52 @@ msgid ""
 "\n"
 "Wanna trade?"
 msgstr ""
+"Псст, хей.\n"
+"\n"
+"Искаш ли да си купиш нещо от мен?"
 
 #: conversationlist_crossglen_gruil.json:gruil1:0
 msgid "Sure, let's trade."
-msgstr ""
+msgstr "Разбира се, дай да видя какво предлагаш."
 
 #: conversationlist_crossglen_gruil.json:gruil1:1
 msgid "I heard that you talked to my brother a while ago."
-msgstr ""
+msgstr "Чух, че си говорил с брат ми преди малко."
 
 #: conversationlist_crossglen_gruil.json:gruil2
 msgid "Your brother? Oh you mean Andor? I might know something, but that information will cost you. Bring me a poison gland from one of those poisonous snakes and maybe I'll tell you."
 msgstr ""
+"Брат ти? Имаш предвид Андор? Може и да знам нещо, но тази информация не е "
+"безплатна. Донеси ми отровна жлеза от една от онези отровни змии и може би "
+"ще ти кажа нещичко."
 
 #: conversationlist_crossglen_gruil.json:gruil2:0
 msgid "Here, I have a poison gland for you."
-msgstr ""
+msgstr "Ето, вземи тази отровна жлеза."
 
 #: conversationlist_crossglen_gruil.json:gruil2:1
 msgid "OK, I'll bring one."
-msgstr ""
+msgstr "Добре, ще донеса една."
 
 #: conversationlist_crossglen_gruil.json:gruil_complete
 msgid "Thanks a lot kid. This will do just fine."
-msgstr ""
+msgstr "Благодаря много малчо. Това ще е достатъчно."
 
 #: conversationlist_crossglen_gruil.json:gruil_return
 msgid "Look kid, I already told you."
-msgstr ""
+msgstr "Виж малкия, вече ти казах."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor1
 msgid "I talked to him yesterday. He asked if I knew someone called Umar or something like that. I have no idea who he was talking about."
 msgstr ""
+"Вчера говорих с него. Попита ме дали познавам някой си на име Умар или нещо "
+"подобно. Нямам представа за кого говореше."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor2
 msgid "He seemed really upset about something and left in a hurry. Something about the Thieves' Guild in Fallhaven."
 msgstr ""
+"Той изглеждаше много разстроен и си тръгна много бързо. Нещо отнасящо се за "
+"Гилдията на крадците във Фолхевън."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor3
 msgid "That's all I know. Maybe you should ask around in Fallhaven. Look for my friend Gaela, he probably knows more."
@@ -12041,7 +12100,7 @@ msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_8:0
 msgid "I will see what I can do."
-msgstr ""
+msgstr "Ще видя какво мога да направя."
 
 #: conversationlist_ailshara.json:ailshara_interested_8:1
 #: conversationlist_ailshara.json:ailshara_deliver_1:2
@@ -12050,7 +12109,7 @@ msgstr "Не. Aз ще помогнa нa Фeигapд вместо теб."
 
 #: conversationlist_ailshara.json:ailshara_interested_8:2
 msgid "Whatever, I choose my own path."
-msgstr ""
+msgstr "Няма значение, Аз избрах свой собствен път."
 
 #: conversationlist_ailshara.json:ailshara_interested_9
 msgid "Shadow be with you. May the Shadow guide you on the clouded paths that you walk."
@@ -13599,7 +13658,7 @@ msgstr ""
 
 #: conversationlist_algangror.json:algangror_1:0
 msgid "I am looking for my brother."
-msgstr ""
+msgstr "Търся брат си."
 
 #: conversationlist_algangror.json:algangror_1:1
 msgid "I just entered to see if there's any loot to be found here."
@@ -13620,7 +13679,7 @@ msgstr ""
 
 #: conversationlist_algangror.json:algangror_2a
 msgid "Run away, has he? He he."
-msgstr ""
+msgstr "Аз съм приключенец, търся хора, които имат нужда от помощ."
 
 #: conversationlist_algangror.json:algangror_2b
 msgid "Oh sure, you think you can just pick up anything and claim it as yours?"
@@ -13628,11 +13687,11 @@ msgstr ""
 
 #: conversationlist_algangror.json:algangror_2c
 msgid "How noble. Maybe you can be of use to me."
-msgstr ""
+msgstr "Колко благородно. Може би ще ми бъдете от полза."
 
 #: conversationlist_algangror.json:algangror_2d
 msgid "Clever. I like that."
-msgstr ""
+msgstr "Умно. Харесвам това."
 
 #: conversationlist_algangror.json:algangror_3
 msgid "Tell me, now that you have entered this house, would you be willing to help me with a small ... problem?"
@@ -13640,23 +13699,23 @@ msgstr ""
 
 #: conversationlist_algangror.json:algangror_3:0
 msgid "Sure, what's the problem?"
-msgstr ""
+msgstr "Разбира се, какъв е проблема?"
 
 #: conversationlist_algangror.json:algangror_3:1
 msgid "Maybe, it depends on what the problem is."
-msgstr ""
+msgstr "Може би, зависи какъв е проблема."
 
 #: conversationlist_algangror.json:algangror_3:2
 msgid "Maybe, it depends on what type of reward we are talking about."
-msgstr ""
+msgstr "Може би, зависи каква награда ще получа."
 
 #: conversationlist_algangror.json:algangror_3:3
 msgid "No way. You are acting way too creepy for me."
-msgstr ""
+msgstr "Няма начин. Вие се държите много долно спрямо мен."
 
 #: conversationlist_algangror.json:algangror_3c
 msgid "Reward? No, no, I don't have anything to give you, unfortunately."
-msgstr ""
+msgstr "Награда? Не, не, Нямам нищо, което да ви дам, съжалявам."
 
 #: conversationlist_algangror.json:algangror_3c:0
 msgid "I guess you won't get any help either then."
@@ -13664,12 +13723,12 @@ msgstr ""
 
 #: conversationlist_algangror.json:algangror_3c:1
 msgid "Fine, what's the problem you want help with?"
-msgstr ""
+msgstr "Прекрасно, какъв е проблема?"
 
 #: conversationlist_algangror.json:algangror_3c:2
 #: conversationlist_algangror.json:algangror_8:2
 msgid "Something feels wrong here. I better not get involved in this."
-msgstr ""
+msgstr "Чувствам, че нещо не е наред. Не искам да се замесвам в това."
 
 #: conversationlist_algangror.json:algangror_4
 msgid "You see, I have this slight problem with ... ahem ... vermin."
@@ -13681,7 +13740,7 @@ msgstr ""
 
 #: conversationlist_algangror.json:algangror_6
 msgid "Fortunately, I managed to capture some of them, and locked them in my basement."
-msgstr ""
+msgstr "За щастие, успях да хвана някои от тях и ги заключих в мазето."
 
 #: conversationlist_algangror.json:algangror_7
 msgid "Now, I can't handle them myself because of certain ... issues."
@@ -13693,11 +13752,11 @@ msgstr ""
 
 #: conversationlist_algangror.json:algangror_8:0
 msgid "Sure, some rodents, I can handle that."
-msgstr ""
+msgstr "Разбира се, че мога да се справя с някакви гризачи."
 
 #: conversationlist_algangror.json:algangror_8:1
 msgid "No problem, I'll be right back once I have killed them."
-msgstr ""
+msgstr "Няма проблем, Ще се върна веднага след като се разправя с тях."
 
 #: conversationlist_algangror.json:algangror_decline_1
 msgid "Ah yes. After all, you are just a child and I can understand such a task would be too much for you. He he."
@@ -13706,6 +13765,7 @@ msgstr ""
 #: conversationlist_algangror.json:algangror_9
 msgid "Splendid. Return to me with some proof that they have been dealt with."
 msgstr ""
+"Великолепно. Върнете се при мен с доказателство, че сте се изправил с тях."
 
 #: conversationlist_algangror.json:algangror_return_1
 msgid "You return. Did you handle all those ... ahem ... rodents in my basement?"
@@ -48130,7 +48190,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard10_2:0
 msgid "Uh... How did you get drunk that fast?"
-msgstr ""
+msgstr "Ъъ... Как успя да се напиеш толкова бързо?"
 
 #: conversationlist_omi2.json:ortholion_guard10_2:1
 msgid "Mead isn't my cup of tea, goodbye."
@@ -48142,7 +48202,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_guard10_3
 msgid "H..Halt! [hic] Kids not allowed!"
-msgstr ""
+msgstr "Ст.....ой![хлъц]Забранено е за деца!"
 
 #: conversationlist_omi2.json:ortholion_guard10_3:0
 msgid "I'll go where I please in this mine! Hmpf..."
@@ -61606,7 +61666,7 @@ msgstr ""
 
 #: conversationlist_laeroth.json:forenza_island_injured_need_help
 msgid "Nerver mind that now. I am injured and I need your help!"
-msgstr ""
+msgstr "Сега това няма значение. Аз съм ранен и имам нужда от вашата помощ!"
 
 #: conversationlist_laeroth.json:forenza_island_injured_explained
 msgid "Seriously?! Can't you see that I am bleeding and weak?"
@@ -81118,4 +81178,3 @@ msgstr ""
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr ""
-

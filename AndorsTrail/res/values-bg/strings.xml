@@ -7,7 +7,7 @@
 \n
 \nФайлът може да е повреден или непълен.</string>
     <string name="dialog_loading_failed_incorrectversion">Cледата на Андор не успя да зареди файла със запазената игра. Този файл е създаден с по-нова версия от това, което се изпълнява в момента.</string>
-    <string name="about_contents1">Добре дошли в Cледата на Андор, ролева игра за Android с отворен код. &lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt; Форуми на играта за въпроси и дискусии. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=http://docs.andorstrail.com/&gt;Интернет енциклопедия за играта. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; Изходен код на играта в github.com. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; Моля, посетете форумите, за да обсъдите играта с други играчи. &lt;br /&gt;</string>
+    <string name="about_contents1">Добре дошли в Cледата на Андор, ролева игра за Android с отворен код. &lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt; Форуми на играта за въпроси и дискусии. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=https://andorstrail.gitbook.io/docs&gt;Интернет енциклопедия за играта. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; Изходен код на играта в github.com. &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; Моля, посетете форумите, за да обсъдите играта с други играчи. &lt;br /&gt;</string>
     <string name="localize_resources_from_mo_filename">bg.mo</string>
     <string name="preferences_display_category">Покажи</string>
     <string name="questlog_queststatus_completed">Завършени</string>
@@ -20,9 +20,7 @@
     <string name="heroinfo_actionpoints">Точки действие (ТД):</string>
     <string name="dialog_monsterloot_gainedexp">Вие получихте %1$d точки опит.</string>
     <string name="heroinfo_healthpoints">Точки здраве (ТЗ):</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nЗа да можете да запазвате и зареждате съответно вашите игри, (единствено поради тази причина) Следата на Андор ще изиска от вас разрешение за достъп до вътрешната памет на устройството ви."</string>
+    <string name="dialog_newversion_permission_information">\n\nЗа да можете да запазвате и зареждате съответно вашите игри, (единствено поради тази причина) Следата на Андор ще изиска от вас разрешение за достъп до вътрешната памет на устройството ви.</string>
     <string name="monster_difficulty_impossible">Невъзможно</string>
     <string name="heroinfo_inventory_sort">Подреди по</string>
     <string name="inventory_item_used">Вие използвахте %1$s.</string>
@@ -406,7 +404,7 @@
     <string name="skill_category_offense">Нападение</string>
     <string name="skill_longdescription_dodge">Увеличава шанса за блок с %1$d процента за всяко ниво на умението.</string>
     <string name="skill_longdescription_barkskin">Увеличава устойчивостта към физическа атака с %1$d за всяко ниво на умението.</string>
-    <string name="skillinfo_action_levelup">Вдигна ниво</string>
+    <string name="skillinfo_action_levelup">Вдигни ниво</string>
     <string name="skill_current_level">Текущо ниво: %1$d</string>
     <string name="skill_current_level_with_maximum">Текущо ниво: %1$d / %2$d</string>
     <string name="levelup_adds_new_skillpoint">Това ниво ви дава точка за усъвършенстване на уменията!</string>
@@ -463,4 +461,152 @@
     <string name="skill_longdescription_speed">Увеличава максималните точки действие (ТД) с %1$d за всяко ниво на умението.</string>
     <string name="change_theme_requires_restart">Смяна на темата на потребителкия интерфейс изисква рестарт. Следата на Андор бе затворена.</string>
     <string name="skill_longdescription_evasion">Всяко ниво на умението намалява шанса за неуспешно бягство с %1$d %% и шансът за възможна атака на намиращите се до вас противници с %2$d %%.</string>
+    <string name="startscreen_attention_message_slot_gets_delete_on_load">Зареждането на тази игра изтрива нейния слот за запазване. Ще трябва да запазите отново, преди да преминете към друга игра.</string>
+    <string name="about_contents3">Тази програма е безплатен софтуер; можете да го разпространявате и/или да го модифицирате съгласно условията на GNU General Public License, публикуван от Free Software Foundation; или версия 2 на Лиценза, или (по ваш избор) която и да е по-късна версия.&lt;br /&gt; &lt;br /&gt; Тази програма се разпространява с надеждата, че ще бъде полезна, но БЕЗ НИКАКВИ ГАРАНЦИИ; дори без подразбиращата се гаранция за ПРОДАВАЕМОСТ или ГОДНОСТ ЗА ОПРЕДЕЛЕНА ЦЕЛ. Вижте GNU General Public License за повече подробности.&lt;br /&gt; &lt;br /&gt; Трябва да сте получили копие от GNU General Public License заедно с тази програма; ако не, вижте &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; За изходен код и заявки за функции, моля, посетете страницата на проекта на &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>Настройки на играта</b> могат да бъдат намерени чрез натискане на бутона за меню на вашето устройство.</div>
+
+<p>________________</p>
+<h1>Икони на интерфейс</h1>
+
+<div><b>Сандъкът</b><img alt="chest" src="chest.png" /></div>
+<p>Бързи слотове [Натиснете продължително върху нея е на торбичките, за да присвоите елементи за незабавна употреба]</p>
+
+<div><b>Героят</b><img alt="hero" src="char_hero.png" /></div>
+<p>Меню [Общ преглед, мисии, умения и усилвател; Инвентар *]</p>
+<p>* (Докато сте в инвентара, „натиснете“ елемент за информация и „продължително натискане“ за повече опции)</p>
+
+<div><b>Врагът</b><img alt="monster" src="monster.png" /></div>
+<p>Информация [Появява се по време на битка]</p>
+
+
+
+<p>________________</p>
+<h1>Борба</h1>
+
+<p>Действията, предприети по време на битка, струват AP...</p>
+
+<div><b>Атакуващ</b> - [3AP] *</div>
+<img alt="атакуващ" src="doubleattackexample.png" />
+<p>* (Екипирането на оборудване и използването на артикули може да промени AP и разходите за използване)</p>
+
+<div><b>Използване на елементи</b> - [5AP]</div>
+<div><b>Бягство</b> - [6AP]</div>
+
+
+
+<p>________________</p>
+<h1>Разширена битка</h1>
+
+<div>По време на битка натиснете дълго плочка до героя...</div>
+
+<div><b>Да избягаш</b></div>
+<p>(избраната плочка е маркирана - Бутонът за атака се променя на Преместване)</p>
+<img alt="flee" src="flee_example.png" />
+<p>[режимът на бягство е активиран - натиснете продължително враг, за да влезете отново в битка]</p>
+
+<div><b>За промяна на цели</b></div>
+<p>(червеното осветяване на целта се измества между враговете)</p>
+<p>[целта е променена]</p>
+
+]]></string>
+    <string name="skill_longdescription_coinfinder">Увеличава шанса за получаване на злато от убито чудовище с %1$d %% и увеличава количеството злато, което може да се получи с %2$d %% за всяко ниво на умението (до максималното количество, което чудовището може да даде).</string>
+    <string name="skill_longdescription_barter">За всяко ниво на умението, намалява негативния ефект при покупка и продажба с %1$d процента.</string>
+    <string name="skill_longdescription_more_criticals">Увеличава всяко съществуващо умение за нанасяне на критичен удар, от екипировката, с %1$d %% за всяко ниво на това умение.</string>
+    <string name="skill_longdescription_fortitude">При всяко следващо достигнато ниво на героя, максималните точки здраве (ТЗ) ще се увеличават с %1$d за всяко ниво на умението. Това не се прилага за предишни нива на героя.</string>
+    <string name="skill_longdescription_regeneration">Получавате +%1$d точки здраве (ТЗ) на всеки рунд за всяко ниво на умението, когато няма чудовища в непосредствена близост.</string>
+    <string name="preferences_movement_dpad_minimizeable">Ако виртуалният d-pad е активиран, тази настройка позволява d-pad да бъде минимизиран чрез натискане на центъра му.</string>
+    <string name="skill_longdescription_lower_exploss">За всяко ниво на умението се намалява количеството загубен опит, причинено от смърт, с %1$d %% (процент от съществуващата стойност на загуба на опит, а не процентни точки). %2$d нива премахват загубата на опит, причинена от смърт.</string>
+    <string name="skill_longdescription_magicfinder">Увеличава шанса за намиране на необичайни предмети с %1$d %% за всяко ниво на умението.</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Презаписване на съществуващ слот?</string>
+    <string name="loadsave_import_save_error_unknown">- остаряло -</string>
+    <string name="skill_longdescription_resistance_blood_disorder">Намалява шанса да бъдете засегнати от заболявания на кръвта с %1$d %% за всяко ниво на умението, до максимум %2$d %%. Това включва състояния, причинени от атаки на притивника, като Отрова или Кървящи рани.</string>
+    <string name="skill_prerequisite_other_skill">За да вдигнете нивото на това умение, имате нужда от поне ниво %1$d от умението %2$s.</string>
+    <string name="skill_prerequisite_level">За да вдигнете нивото на това умение, трябва да сте достигнали минимум ниво на опит %1$d.</string>
+    <string name="skill_prerequisite_stat">За да вдигнете нивото на това умение, имате нужда от поне %1$d %2$s (базова характеристика).</string>
+    <string name="skill_longdescription_resistance_physical_capacity">Намалява шанса да бъдете засегнати от състояния, засягащи физическото ви състояние, с %1$d %% за всяко ниво на умението, до максимум %2$d %%. Това включва състояния, причинени от противникови атаки, като Умора например.</string>
+    <string name="skill_number_of_increases_one">Можете да изберете едно умение, което да подобрите. Точките за умения се запазват, докато не бъдат използвани.</string>
+    <string name="loadsave_export_unsuccessfull">Екпортирането е неуспешно</string>
+    <string name="loadsave_import_save_unsuccessfull">Импортирането е неуспешно</string>
+    <string name="loadsave_import_error_unknown">Възникна неизвестна грешка при импортирането.</string>
+    <string name="loadsave_import_file_exists_question">Вече има запазена игра в целевия слот. Искате ли да запазите съществуващото записване, да го презапишете с импортираното записване или да импортирате записа в слот??\n\n%1$s\n\n%2$s</string>
+    <string name="skill_number_of_increases_several">Можете да изберете %1$d умениея, което да подобрите.</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Искате ли да презапишете запазената игра в този слот?</string>
+    <string name="skill_longdescription_resistance_mental">Намалява шанса да бъдете засегнати от психични заболявания с %1$d %% за всяко ниво на умението, до максимум %2$d %%. Това включва състояния, причинени от противникови атаки като Замаян или Weapon Feebleness.</string>
+    <string name="loadsave_export_successfull">Екпортирането е успешно</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Искате ли да презапишете съществуващите файлове?</string>
+    <string name="loadsave_export_overwrite_confirmation">Целевата папка съдържа съществуващи файлове със същото име като някои файлове, които трябва да бъдат експортирани. Сигурни ли сте, че искате да презапишете тези файлове?</string>
+    <string name="loadsave_save_to_new_slot">Създайте нов слот за запазване на играта</string>
+    <string name="loadsave_export">Експортирайте запазванията на играта</string>
+    <string name="loadsave_export_info">Моля изберете директория, в която да бъдат експортирани запазванията на играта.</string>
+    <string name="loadsave_exporting_savegames">Експортиране запазванията на играта</string>
+    <string name="loadsave_exporting_worldmap">Експортиране Картата на игровия свят</string>
+    <string name="loadsave_export_error_unknown">Възникна неизвестна грешка при експортирането.</string>
+    <string name="loadsave_import_save">Импортирайте запазванията на играта</string>
+    <string name="loadsave_import_save_info">Моля, изберете всички запазвания на играта, които искате да импортирате.</string>
+    <string name="loadsave_importing_savegames">Импортиране на запазвания на игри</string>
+    <string name="loadsave_import_save_successfull">Импортирането е успешно</string>
+    <string name="loadsave_import_option_keep_existing">Запазване на съществуващият запис</string>
+    <string name="loadsave_import_option_keep_imported">Запазване на импортирания запис</string>
+    <string name="loadsave_import_existing_description">Съществуващ запис: Слот: %1$s:\n\t%2$s</string>
+    <string name="skill_shortdescription_taunt">Нападателят губи ТД при неуспешна атака</string>
+    <string name="skill_title_concussion">Сътресение</string>
+    <string name="inventory_equip_offhand">Екипирайте (на другата ръка)</string>
+    <string name="iteminfo_effect_weapon_attack_cost">Стойност на атака: %1$d ТД</string>
+    <string name="iteminfo_effect_weapon_attack_damage_minmax">Нанасяни щети: %1$d-%2$d</string>
+    <string name="iteminfo_effect_increase_damage_resistance">Увеличава резистентността към физически атаки с %1$d</string>
+    <string name="loadsave_import_worldmap">Импортирай карта на игровият свят</string>
+    <string name="loadsave_importing_worldmap">Импортиране карта на игровият свят</string>
+    <string name="loadsave_import_worldmap_successfull">Успешно импортиране картата на игровият свят</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- отпаднало -</string>
+    <string name="preferences_optimized_drawing_title">Оптимизиран чертеж</string>
+    <string name="skill_shortdescription_rejuvenation">Възможност за премахване на ефекта</string>
+    <string name="skill_title_taunt">Подигравка</string>
+    <string name="iteminfo_effect_decrease_damage_resistance">Намалява резистентността към физически атаки с %1$d</string>
+    <string name="iteminfo_displaytypes_ordinary">Обикновен</string>
+    <string name="iteminfo_effect_weapon_attack_damage">Нанасяни щети: %1$d</string>
+    <string name="loadsave_save_overwrite_confirmation_slot">(слот %1$d)</string>
+    <string name="display_worldmap_not_available">Картата не може да се покаже от това местоположение.</string>
+    <string name="iteminfo_effect_increase_attack_cost">Увеличава стойността за атака с %1$d ТД</string>
+    <string name="iteminfo_effect_increase_attack_damage">Увеличава нанасяните щети с %1$d</string>
+    <string name="iteminfo_effect_set_damage_modifier">Модификатор на щетите: %1$d%%</string>
+    <string name="iteminfo_effect_increase_attack_damage_minmax">Увеличава нанасяните щети с %1$d-%2$d</string>
+    <string name="iteminfo_effect_decrease_attack_damage">Намалява нанасяните щети с %1$d</string>
+    <string name="iteminfo_effect_increase_critical_skill">Увеличава умението за нанасяне на критичен удар с %1$d</string>
+    <string name="iteminfo_effect_increase_block_chance">Увеличава шанса за блок с %1$d</string>
+    <string name="iteminfo_effect_decrease_block_chance">Намалявава шанса за блок с %1$d</string>
+    <string name="iteminfo_effect_decrease_use_cost">Намалява необходимите ТД за използване на предмети по време на битка с %1$d ТД</string>
+    <string name="loadsave_save_overwrite_confirmation_all">Сигурни ли сте, че искате да презапишете това запазване на играта?</string>
+    <string name="loadsave_empty_slot">%1$d.&lt;празно&gt;</string>
+    <string name="loadsave_import_worldmap_info">Моля изберете архива съдържащ картата на игровия свят.</string>
+    <string name="skill_longdescription_shadow_bless">Намалява шанса да бъдете засегнати от всички видове състояния с %1$d %%. Това включва всички видове състояния, причинени от противникови атаки, като отрова, замаяност или умора.</string>
+    <string name="loadsave_import_option_add_as_new">Добавяне като нов Запис</string>
+    <string name="preferences_dialog_overwrite_savegame_title">Потвърждаване при презаписване на запазени игри</string>
+    <string name="loadsave_import_worldmap_wrong_file">Сигурни ли сте, че сте избрали карта на игровият свят? Моля, изберете архива, наречен „worldmap.zip“, който беше експортиран в местоположението ви за експортиране.</string>
+    <string name="skill_longdescription_crit1">За всеки нанесен критичен удар има %1$d %% шанс да причини вътрешен кръвоизлив на целта, причинявайки състоянието „Вътрешно кървене“. Вътрешното кървене значително понижава офанзивните бойни способности, правейки целта по-малко способна да извършва успешни атаки.</string>
+    <string name="skill_longdescription_crit2">За всеки нанесен критичен удар има %1$d %% шанс да бъде счупена някоя от костите на целта, причинявайки състоянието „Счупване“. Това сериозно ще намали дефанзивните бойни способности на целта, правейки я по-малко способна да се защитава при следващи атаки.</string>
+    <string name="skill_shortdescription_concussion">Шанс за сътресение</string>
+    <string name="skill_longdescription_concussion">Когато извършите атака срещу цел, чийто шанс за блокиране (ШБ) е поне %1$d по-нисък от вашия шанс за атака (ША), има %2$d %% шанс попадението да причини сътресение на целта. Сътресението сериозно ще намали офанзивните бойни способности на целта, правейки целта по-малко способна да извършва успешни атаки.</string>
+    <string name="iteminfo_effect_decrease_attack_chance">Намалява шанса за атака с %1$d</string>
+    <string name="skill_longdescription_taunt">Когато нападател извърши атака, която пропусне, има %1$d %% шанс нападателят да загуби %2$d точки за действие (ТД). Това се отнася за всички видове близки атаки срещу вас.</string>
+    <string name="loadsave_save_overwrite_confirmation">Тази запазена игра съдържа различно име на играч (%1$s) от текущото ви име на играч (%2$s). Сигурни ли сте, че искате да презапишете тази запазена игра?</string>
+    <string name="iteminfo_effect_increase_attack_chance">Увеличава шанса за атака с %1$d</string>
+    <string name="loadsave_import_imported_description">Импортиран запис: Слот: %1$s:\n\t%2$s</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Неуспешно импортиране картата на игровият свят</string>
+    <string name="menu_save_switch_character">Запазването на играта ви позволява да превключите към друг герой и по-късно да продължите текущата игра. Искате ли да запазите и излезете от текущата игра?</string>
+    <string name="preferences_optimized_drawing">Деактивирайте това, ако видите графични неточности. Активирането на тази опция ще накара играта да преначертава само променените графични елементи от екрана на всеки кадър.</string>
+    <string name="skill_longdescription_rejuvenation">Всеки рунд (6 секунди) има %1$d %% шанс едно от негативните състочния на героят ви да бъде намалено с една величина. Това се отнася за всички видове временни ефекти, които засягат тялото; като Замаяност, Умора, Отрова и др.</string>
+    <string name="iteminfo_effect_weapon_attack_chance">Шанс за атака: %1$d</string>
+    <string name="iteminfo_effect_increase_use_cost">Увеличава необходимите ТД за използване на предмети по време на битка с %1$d ТД</string>
+    <string name="preferences_ui_enable_animations">Показвай анимации за различни елементи от интерфейса, като например лентата с предмети.</string>
+    <string name="iteminfo_effect_decrease_attack_damage_minmax">Намалява нанасяните щети с %1$d-%2$d</string>
+    <string name="iteminfo_effect_increase_reequip_cost">Увеличава необходимите ТД за поставяне на екипировка по време на битка с %1$d ТД</string>
+    <string name="iteminfo_effect_decrease_reequip_cost">Намалява необходимите ТД за поставяне на екипировка по време на битка с %1$d ТД</string>
+    <string name="iteminfo_effect_decrease_attack_cost">Намалява стойността за атака с %1$d ТД</string>
+    <string name="iteminfo_effect_decrease_critical_skill">Намаллява умението за нанасяне на критичен удар с %1$d</string>
+    <string name="iteminfo_effect_critical_multiplier">Позволява критични удари с множител от x%1$.1f</string>
+    <string name="preferences_display_overwrite_savegame_entries_always_confirm">Винаги показвай диалогова кутия за потвърждаване</string>
+    <string name="preferences_display_overwrite_savegame_entries_confirm_overwrite">Показване само при презаписване с друго име на играч</string>
+    <string name="preferences_display_overwrite_savegame_entries_never_confirm">Никога не поакзвай диалоговата кутия за потвърждение</string>
 </resources>

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-09-15 00:10+0000\n"
-"Last-Translator: Nut Andor <nut.andor@posteo.de>\n"
+"PO-Revision-Date: 2025-01-09 10:33+0000\n"
+"Last-Translator: Ludvík Remešek <ludvikremesekwork@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/cs/>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:25+0000\n"
 
 #: [none]
@@ -393,55 +393,55 @@ msgstr ""
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "Vzteklina"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "Špatná chuť"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr ""
+msgstr "Žízeň"
 
 #: actorconditions_laeroth.json:swift_attack
 msgid "Swift attack"
-msgstr ""
+msgstr "Rychlý útok"
 
 #: actorconditions_laeroth.json:blindness
 msgid "Blindness"
-msgstr ""
+msgstr "Slepota"
 
 #: actorconditions_laeroth.json:life_drain
 msgid "Life drain"
-msgstr ""
+msgstr "Odtok života"
 
 #: actorconditions_laeroth.json:sting_major
 msgid "Major sting"
-msgstr ""
+msgstr "Hlavní bodnutí"
 
 #: actorconditions_laeroth.json:spider_bite
 msgid "Spider bite"
-msgstr ""
+msgstr "Pavoučí kousnutí"
 
 #: actorconditions_laeroth.json:environmental_poisoning
 msgid "Environmental poisoning"
-msgstr ""
+msgstr "Otrava životního prostředí"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
-msgstr ""
+msgstr "Chuť na sladké"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
-msgstr ""
+msgstr "Menší zvýšená obrana"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
-msgstr ""
+msgstr "Elythařino osvěžení"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
-msgstr ""
+msgstr "Promočený zrak"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -911,27 +911,29 @@ msgstr "Myslíš tím, že tě mám zabít?"
 
 #: conversationlist_crossglen.json:drunk1a
 msgid "Heeeey - come on. Don't be such a spoilsport."
-msgstr ""
+msgstr "Heeeey - no tak. Nebuď takový kazitel sportu."
 
 #: conversationlist_crossglen.json:drunk1a:1
 msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
 msgstr ""
+"No, pokud opravdu chcete. Ale mám pro vás novou a definitivní hru. Tady, "
+"vypij to. [Dejte láhev slabého jedu]"
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
-msgstr ""
+msgstr "Ohh ... [glo glo]"
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
-msgstr ""
+msgstr "Jaké zajímavé... [glug]"
 
 #: conversationlist_crossglen.json:drunk1d
 msgid "... taste [falls over]"
-msgstr ""
+msgstr "...chuť [spadne]"
 
 #: conversationlist_crossglen.json:drunk1d:0
 msgid "Yes, really. A unique taste. And final - bye."
-msgstr ""
+msgstr "Ano, opravdu. Jedinečná chuť. A na závěr - ahoj."
 
 #: conversationlist_crossglen_gruil.json:gruil1
 msgid ""
@@ -1809,7 +1811,7 @@ msgstr "[OUTDATED]Už musím jít."
 #: conversationlist_fallhaven.json:rigmor:2
 #: conversationlist_fallhaven.json:rigmor_1:0
 msgid "I really need to go."
-msgstr ""
+msgstr "Opravdu musím jít"
 
 #: conversationlist_fallhaven.json:rigmor_1
 msgid "Your brother, you say? His name is Andor? No. I don't recall meeting anyone like that."
@@ -1843,39 +1845,39 @@ msgstr "Ukaž mi, co nabízíš."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_10
 msgid "Hey! What are you doing here? How did you get in?"
-msgstr ""
+msgstr "Hej! co tady děláš? Jak jsi se tady dostal?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_10:0
 msgid "By the door. Why?"
-msgstr ""
+msgstr "U dveří. Proč?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_20
 msgid "Nonsense. I would have noticed."
-msgstr ""
+msgstr "Nesmysl. Všiml bych si toho."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_30
 msgid "Leave immediatly, or I'll call the guards!"
-msgstr ""
+msgstr "Okamžitě odejděte, nebo zavolám stráže!"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_32
 msgid "And don't dare to enter my house again!"
-msgstr ""
+msgstr "A neopovažuj se znovu vstoupit do mého domu!"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_40
 msgid "I know your face. How dare you to come back?"
-msgstr ""
+msgstr "Znám tvou tvář. Jak se opovažuješ vrátit?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_40:0
 msgid "Are you sure you don't mix me with my brother?"
-msgstr ""
+msgstr "Jsi si jistý, že si mě nepleteš s mým bratrem?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_42
 msgid "Andor? I know that boy all too well."
-msgstr ""
+msgstr "Andor? Znám toho kluka až moc dobře."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_44
 msgid "You wear the stolen valuable necklace and dare lie to my face?"
-msgstr ""
+msgstr "Nosíš ten ukradený cenný náhrdelník a opovažuješ se mi lhát do očí?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_start
 msgid "Hello. I'm Arcir."
@@ -1919,15 +1921,15 @@ msgstr "Máš knihu 'Calomyranská tajemství'?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:2
 msgid "I have found some valuable looking map. Want to have a look?"
-msgstr ""
+msgstr "Našel jsem nějakou vzácně vypadající mapu.Chcete se podívat?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:3
 msgid "I have found a strange book about slavery. Interested?"
-msgstr ""
+msgstr "Našel jsem zvláštní knihu o otroctví. Máte zájem?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:4
 msgid "I have got a book about world history. Interested?"
-msgstr ""
+msgstr "Mám knihu o světových dějinách.Máte zájem?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_1
 msgid "'Calomyran Secrets'? Hmm, yes I think I have one of those in my basement."
@@ -1966,58 +1968,67 @@ msgstr ""
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map
 msgid "Oh, an ancient map of the area! This would fit well into my collection of old maps. I offer you 500 gold pieces for it."
 msgstr ""
+"Oh, prastará mapa oblasti! To by se hodilo do mé sbírky starých map. Nabízím "
+"ti za to 500 zlatých."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:0
 msgid "Thanks, I'd rather keep it."
-msgstr ""
+msgstr "Díky, radši si to nechám."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:1
 msgid "OK. Here is Ewmondold's map."
-msgstr ""
+msgstr "OK. Zde je Ewmondoldova mapa."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1
 msgid "And here are 500 shining gold pieces. Use them wisely."
-msgstr ""
+msgstr "A tady je 500 zářících zlaťáků. Používejte je moudře."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:0
 msgid "Thanks, I have to go now."
-msgstr ""
+msgstr "Díky, už musím jít."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:1
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:1
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:1
 msgid "Let's talk about other things."
-msgstr ""
+msgstr "Pojďme se bavit o jiných věcech."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1
 msgid "Let's have a look. Oh, what the ... Well, this is no book for little ones as you. Give it to me, you get 200 pieces of gold for it."
 msgstr ""
+"Pojďme se na to podívat. Oh, co to... No, tohle není žádná kniha pro malé, "
+"jako jste vy. Dejte mi to, dostanete za to 200 zlatých."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:1
 msgid "OK. Here is the book about slavery."
-msgstr ""
+msgstr "OK. Zde je kniha o otroctví."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1
 msgid "And here are 200 shining gold pieces. Be happy that I'm freeing you from this terrible work."
 msgstr ""
+"A tady je 200 zářících zlaťáků. Buďte rádi, že vás osvobozuji od této hrozné "
+"práce."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2
 msgid "Ah, a history textbook."
-msgstr ""
+msgstr "Ach, učebnice dějepisu."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1
 msgid "But there are a lot of pages missing. Did you rip them out? You should be ashamed of yourself!"
 msgstr ""
+"Ale chybí tam spousta stránek. Vytrhl jsi je? Měli byste se za sebe stydět!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1:0
 msgid "No, that wasn't me!"
-msgstr ""
+msgstr "Ne, to jsem nebyl já!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2
 msgid "Such a beautiful book, completely broken! You dare to offer this to me and think I won't notice?!"
 msgstr ""
+"Tak krásná kniha ale, úplně rozbitá! Odvažuješ se mi to nabídnout a myslíš "
+"si, že si toho nevšimnu?!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:0
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_no:0
@@ -2027,7 +2038,7 @@ msgstr "[Běž]"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_3
 msgid "Yes, just run away, you book murderer!"
-msgstr ""
+msgstr "Ano, jen uteč, ty knižní vrahu!"
 
 #: conversationlist_fallhaven_bucus.json:bucus_welcome
 msgid "Hi again, welcome back to the ... Oh wait, I thought you were someone else."
@@ -2287,26 +2298,27 @@ msgstr "Byl jsi dole v katakombách?"
 #: conversationlist_fallhaven_athamyr.json:athamyr:1
 msgid "May I ask you a question? Do you know a way to climb over the graveyard fence to the south?"
 msgstr ""
+"Můžu se tě na něco zeptat? Znáte způsob, jak přelézt plot hřbitova na jih?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:2
 msgid "What about the ladder?"
-msgstr ""
+msgstr "A co žebřík?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:3
 msgid "I will go and find your ladder."
-msgstr ""
+msgstr "Půjdu a najdu tvůj žebřík."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:4
 msgid "I tried the ladder, but the window is locked."
-msgstr ""
+msgstr "Zkusil jsem žebřík, ale okno je zamčené."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:5
 msgid "The ladder is gone and the window shut."
-msgstr ""
+msgstr "Žebřík je pryč a okno zavřené."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:6
 msgid "The catacombs were interesting."
-msgstr ""
+msgstr "Zajímavé byly katakomby."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_1
 msgid "Yes, I have been in the catacombs beneath Fallhaven Church."
@@ -2346,55 +2358,55 @@ msgstr "Díky, to si pochutnám."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_complete_12
 msgid "I hope you behaved well there."
-msgstr ""
+msgstr "Doufám, že jsi se tam choval dobře."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_10
 msgid "No, there is no way over the fence."
-msgstr ""
+msgstr "Ne, přes plot není cesta."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_11
 msgid "Why do you ask?"
-msgstr ""
+msgstr "Proč se ptáš?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_11:0
 msgid "Oh, nothing."
-msgstr ""
+msgstr "Oh, nic."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_12
 msgid "You can tell me."
-msgstr ""
+msgstr "Můžete mi to říct."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_12:0
 msgid "Well, behind the fence is the shop of the tailor."
-msgstr ""
+msgstr "No, za plotem je krejčovský obchod."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_14
 msgid "That's right."
-msgstr ""
+msgstr "Je to tak."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_14:0
 msgid "And there is always a window open."
-msgstr ""
+msgstr "A vždy je otevřené okno."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_16
 msgid "Ah, I understand. You want to surprise your friend, the tailor."
-msgstr ""
+msgstr "Aha, rozumím. Chcete překvapit svého přítele, krejčího."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_16:0
 msgid "Eh, yes. Exactly."
-msgstr ""
+msgstr "Eh, ano. Přesně."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_18
 msgid "Then I have a better idea. I am your man."
-msgstr ""
+msgstr "Pak mám lepší nápad. Jsem tvůj muž."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_18:0
 msgid "Great! I will thank you with a delicious piece of cooked meat."
-msgstr ""
+msgstr "Velký! Poděkuji vám výborným kouskem vařeného masa."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_20
 msgid "Ten."
-msgstr ""
+msgstr "Deset. (10)"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_20:0
 #: conversationlist_ogam.json:ogam_1:0
@@ -2433,29 +2445,32 @@ msgstr "Co?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_22
 msgid "Make it ten. Ten cooked meat."
-msgstr ""
+msgstr "Udělejte 10. 10 vařeného masa."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_22:0
 msgid "Are you crazy?"
-msgstr ""
+msgstr "Jsi blázen?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_23
 msgid "I have to smuggle a ladder into the basement of the church, which is very risky for me."
 msgstr ""
+"Do sklepa kostela musím propašovat žebřík, což je pro mě velmi riskantní."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24
 msgid "Then you can climb through a window and reach a path right to the back of the tailor's house."
 msgstr ""
+"Pak můžete prolézt oknem a dostat se na cestu přímo do zadní části "
+"krejčovského domu."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24:0
 msgid "OK. I have ten deliciously cooked pieces of meat now."
-msgstr ""
+msgstr "OK. Teď mám 10 skvěle uvařených kousků masa."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24:1
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24a:1
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_34:1
 msgid "I will go for it now."
-msgstr ""
+msgstr "Teď do toho půjdu."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24:2
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_34:2
@@ -2472,7 +2487,7 @@ msgstr "Zapomeň na to."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24a
 msgid "What about the cooked meat?"
-msgstr ""
+msgstr "A co vařené maso?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24a:0
 msgid "I have ten deliciously cooked pieces of meat now."
@@ -82159,4 +82174,3 @@ msgstr ""
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr ""
-

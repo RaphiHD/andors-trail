@@ -147,7 +147,54 @@
 			http://www.gnu.org/licenses/old-licenses/gpl-2.0-translations.html
 	-->
     <string name="about_contents3">Niniejszy program jest wolnym oprogramowaniem; możesz go rozprowadzać dalej i/lub modyfikować na warunkach Powszechnej Licencji Publicznej GNU, wydanej przez Fundację Wolnego Oprogramowania - według wersji 2-giej tej Licencji lub którejś z późniejszych wersji.&lt;br /&gt; &lt;br /&gt; Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on użyteczny - jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej gwarancji PRZYDATNOŚCI HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH ZASTOSOWAŃ. W celu uzyskania bliższych informacji -patrz Powszechna Licencja Publiczna GNU&lt;br /&gt; &lt;br /&gt; Z pewnością wraz z niniejszym programem otrzymałeś też egzemplarz Powszechnej Licencji Publicznej GNU (GNU General Public License);jeśli nie to patrz &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt; &lt;br /&gt; &lt;br /&gt; W celu pobrania kodu źródłowego i opisu gry odwiedź stronę projektu: &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
-    <string name="about_interface">&lt;div&gt;&lt;b&gt;Opcje Gry&lt;/b&gt; uzyskasz, gdy wciśniesz klawisz menu.&lt;/div&gt; \n\n&lt;p&gt;________________&lt;/p&gt;\n&lt;h1&gt;Ikony interfejsu&lt;/h1&gt; \n\n&lt;div&gt;&lt;b&gt;Skrzynia&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; \n\n&lt;p&gt;Slot ekwipunku [Przytrzymaj dłużej palec na slocie, aby przypisać mu przedmiot]&lt;/p&gt;\n\n &lt;div&gt;&lt;b&gt;Bohater&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; \n\n&lt;p&gt;Menu [Przegląd, Zadania, Umiejętności oraz Inwentarz *]&lt;/p&gt; \n\n&lt;p&gt;* (Gdy jesteś w inwentarzu kliknij przedmiot, żeby otrzymać informacje lub przytrzymaj dłużej palec na przedmiocie aby uzyskać więcej opcji)&lt;/p&gt; \n\n&lt;div&gt;&lt;b&gt;Przeciwnik&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; \n\n&lt;p&gt;Informacja [Wyświetlana podczas walki]&lt;/p&gt;\n\n\n\n&lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Walka&lt;/h1&gt;\n\n&lt;p&gt;Akcje wykonane podczas walki kosztują Punkty Akcji (PA)...&lt;/p&gt; \n\n&lt;div&gt;&lt;b&gt;Atak&lt;/b&gt; - [3PA] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; \n\n&lt;p&gt;* (Ekwipunek oraz użycie przedmiotów może wpłynąć na ilość PA i(lub) koszt użycia)&lt;/p&gt; \n\n&lt;div&gt;&lt;b&gt;Użycie Przedmiotu&lt;/b&gt; - [5PA]&lt;/div&gt; \n\n&lt;div&gt;&lt;b&gt;Ucieczka&lt;/b&gt; - [6PA]&lt;/div&gt; \n\n\n\n&lt;p&gt;________________&lt;/p&gt; \n\n&lt;h1&gt;Zaawansowana Walka&lt;/h1&gt; \n\n&lt;div&gt;Podczas walki przytrzymaj dłużej palec na polu sąsiadującym z Bohaterem...&lt;/div&gt; \n\n&lt;div&gt;&lt;b&gt;Aby uciec&lt;/b&gt;&lt;/div&gt; \n\n&lt;p&gt;(Wybrana podświetlona ikona zamienia koszt ataku na koszt ruchu)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; \n\n&lt;p&gt;[Tryb ucieczki aktywowany - Przytrzymaj dłużej palec na wrogu by powrócić do trybu walki]&lt;/p&gt; \n\n&lt;div&gt;&lt;b&gt;Aby zmienić cel&lt;/b&gt;&lt;/div&gt; \n\n&lt;p&gt;(przełącz czerwone podświetlenie celu między poszczególnymi przeciwnikami)&lt;/p&gt; \n\n&lt;p&gt;[Cel został zmieniony]&lt;/p&gt;</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>Opcje Gry</b> uzyskasz, gdy wciśniesz przycisk menu.</div>
+
+<p>________________</p>
+<h1>Ikony interfejsu</h1>
+
+<div><b>Skrzynia</b><img alt="chest" src="chest.png" /></div>
+<p>Sloty ekwipunku [Przytrzymaj dłużej palec na slocie, aby przypisać mu przedmiot]</p>
+
+<div><b>Bohater</b><img alt="hero" src="char_hero.png" /></div>
+<p>Menu [Przegląd, Zadania, Umiejętności oraz Ekwipunek *]</p>
+<p>* (Gdy jesteś w zakładce ekwipunku kliknij przedmiot, żeby otrzymać informacje lub przytrzymaj dłużej palec na przedmiocie aby uzyskać więcej opcji)</p>
+
+<div><b>Przeciwnik</b><img alt="monster" src="monster.png" /></div>
+<p>Informacja [Wyświetlana podczas walki]</p>
+
+
+
+<p>________________</p>
+<h1>Walka</h1>
+
+<p>Działania wykonywane podczas walki kosztują Punkty Akcji (PA)....</p>
+
+<div><b>Atak</b> - [3PA] *</div>
+<img alt="attacking" src="doubleattackexample.png" />
+<p>* (Ekwipunek oraz użyte przedmioty mogą zmienić ilość PA potrzebnych do wykonania akcji)</p>
+
+<div><b>Użycie przedmiotu</b> - [5PA]</div>
+<div><b>Ucieczka</b> - [6PA]</div>
+
+
+
+<p>________________</p>
+<h1>Zaawansowana Walka</h1>
+
+<div>Podczas walki przytrzymaj dłużej palec na polu sąsiadującym z Bohaterem...</div>
+
+<div><b>Aby uciec</b></div>
+<p>(wybrane pole podświetla się - atak zamienia się w ruch)</p>
+<img alt="flee" src="flee_example.png" />
+<p>[Gdy jest aktywny tryb ucieczki - przytrzymaj dłużej palec na przeciwniku aby powrócić do trybu walki]</p>
+
+<div><b>Aby zmienić cel</b></div>
+<p>(przełącza czerwone podświetlenie celu między poszczególnymi przeciwnikami)</p>
+<p>[Cel został zmieniony]</p>
+
+]]></string>
     <string name="dialog_newversion_title">Witaj</string>
     <string name="dialog_newversion_message">Dziękujemy za instalację Andor\'s Trail! 
 \n 
@@ -448,7 +495,7 @@
     <string name="skill_longdescription_armor_prof_shield">Jeśli używasz tarczy lub lewaka, to z każdym poziomem umiejętności o %1$d zwiększa się odporność na obrażenia.</string>
     <string name="skill_longdescription_armor_prof_unarmored">Kiedy walczysz bez jakiegokolwiek elementu zbroi, to z każdym poziomem tej umiejętności o %1$d zwiększa się szansa bloku. Rzeczy wykonane z tkaniny nie są uważane za zbroję.</string>
     <string name="skill_longdescription_armor_prof_light">Z każdym poziomem tej umiejętności,o %1$d %% zwiększa się szansa bloku za każdy element ekwipunku należący do kategorii zbroi lekkich (w odniesieniu do wartości bazowej szansy bloku używanego ekwipunku). Kategoria lekkie zbroje obejmuje pancerze skórzane, lekkie pancerze metalowe oraz pancerze z futra.</string>
-    <string name="skill_longdescription_armor_prof_heavy">Z każdym poziomem tej umiejętności,o %1$d %% zwiększa się szansa bloku za każdy element ekwipunku należący do kategorii zbroi ciężkich (w odniesieniu do wartości bazowej szansy bloku używanego ekwipunku). Ponadto redukcji ulegają kary naliczane za używanie tychże elementów ekwipunku: kara dla ruchu o %2$d %% na poziom umiejętności oraz kara dla kosztu ataku o %3$d %% na poziom umiejętności. Kategoria ciężkie zbroje obejmuje pancerze metalowe, kolczugi i zbroje płytowe.</string>
+    <string name="skill_longdescription_armor_prof_heavy">Z każdym poziomem tej umiejętności,o %1$d %% zwiększa się szansa bloku za każdy element ekwipunku należący do kategorii zbroi ciężkich (w odniesieniu do wartości bazowej szansy bloku używanego ekwipunku). Ponadto redukcji na każdy poziom umiejętności ulegają kary naliczane przy używaniu tychże elementów ekwipunku: kara dla kosztów ruchu o %2$d %% , kara dla kosztów ataku o %3$d %% oraz kara za użycie przedmiotów o %4$d%%. Kategoria ciężkie zbroje obejmuje pancerze metalowe, kolczugi i zbroje płytowe.</string>
     <string name="skill_longdescription_fightstyle_dualwield">Daje korzyści w przypadku walki dwoma broniami równocześnie (gdy w każdej ręce znajduje się broń).
 \n
 \nBez tej umiejętności, tylko %1$d %% wartości cech broni jest wykorzystywane, gdy broń znajduje się w lewej ręce. Dotyczy to szansy trafienia, szansy trafienia krytycznego, zadawanych obrażeń oraz szansy bloku. Ponadto, koszt ataku (liczony w PA) jest sumą kosztów ataku obu broni znajdujących się w rękach bohatera. Zostanie użyta niższa wartość modyfikatorów obrażeń obu broni.
@@ -499,7 +546,7 @@ Każdy poziom umiejętności podnosi obrażenia zadawane każdą broń dwuręczn
     <string name="dialog_recenter">Wyśrodkuj ponownie</string>
     <string name="dialog_more">Więcej</string>
     <string name="dialog_monsterencounter_conditions">Warunki</string>
-    <string name="heroinfo_skill_categories">Kategorie</string>
+    <string name="heroinfo_skill_categories">Kategoria</string>
     <string name="heroinfo_skill_sort">Sortowanie</string>
     <string name="heroinfo_inventory_categories">Kategorie</string>
     <string name="heroinfo_inventory_sort">Sortuj według</string>
@@ -601,9 +648,7 @@ Każdy poziom umiejętności podnosi obrażenia zadawane każdą broń dwuręczn
 \n
 \nAndor\'s Trail nie wykorzystuje dostępu do Twojego urządzenia w żadnym innym celu i nie potrzebuje dostępu do Internetu. Jest to aplikacja open source; kod źródłowy można znaleźć na github.</string>
     <string name="dialog_permission_information_title">Ładowanie i zapisywanie gry</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nAby zapisać i załadować grę (i tylko w tym celu), Andor\'s Trail poprosi Cię o zgodę na dostęp do pamięci Twojego urządzenia."</string>
+    <string name="dialog_newversion_permission_information">\n\nAby zapisać i załadować grę (i tylko w tym celu), Andor\'s Trail poprosi Cię o zgodę na dostęp do pamięci Twojego urządzenia.</string>
     <string name="skill_longdescription_fightstyle_unarmed_unarmored">Podczas walki bez nałożonej zbroi oraz bez użycia broni lub tarczy każdy poziom umiejętności podnosi: szansę trafienia o %1$d; szansę bloku o %2$d; odporność na obrażenia o %3$d; zadawane obrażenia o %4$d. Obrażenia zadawane przez ciosy krytyczne są zwiększane o mnożnik 1 plus 0.%5$d na każdy poziom.
 \n
 \nPrzedmioty wykonane z tkaniny nie są uważane za zbroję.</string>
@@ -626,7 +671,7 @@ Każdy poziom umiejętności podnosi obrażenia zadawane każdą broń dwuręczn
     <string name="startscreen_migration_title">Przenoszenie danych</string>
     <string name="startscreen_migration_text">Przeniesienie zapisów gry.</string>
     <string name="startscreen_migration_failure">Przeniesienie danych nieudane.</string>
-    <string name="monsterinfo_killcount">Zabitych do tej pory</string>
+    <string name="monsterinfo_killcount">Zabito do tej pory</string>
     <string name="loadsave_export">Eksportuj zapisy gry</string>
     <string name="loadsave_export_successfull">Eksportowanie plików zakończone sukcesem</string>
     <string name="loadsave_export_unsuccessfull">Eksportowanie plików nie powiodło się</string>

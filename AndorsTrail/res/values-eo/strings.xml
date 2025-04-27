@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Amdora Spuro</string>
+    <string name="app_name">La Vojeto de Andoro</string>
     <string name="heroinfo_gamestats_top_boss">Plej forta mortigita monstro</string>
     <string name="combat_result_monstermoved">%1$s movas.</string>
     <string name="preferences_dialog_monsterloot_title">Montri monstran militakiron</string>
@@ -10,8 +10,8 @@
     <string name="monster_difficulty_normal">Normala</string>
     <string name="monster_difficulty_easy">Facila</string>
     <string name="monster_difficulty_veryeasy">Tre facila</string>
-    <string name="dialog_monsterloot_gainedexp">Vi gajnis %1$d spertajn poentojn.</string>
-    <string name="dialog_monsterloot_message">Vi transvivis la renkonton.</string>
+    <string name="dialog_monsterloot_gainedexp">Vi gajnis %1$d sperton.</string>
+    <string name="dialog_monsterloot_message">Vi postvivis la renkonton.</string>
     <string name="dialog_monsterloot_title">Venko</string>
     <string name="heroinfo_gamestats_num_killed_monsters">Mortigitaj monstroj</string>
     <string name="inventory_category_favorites">Plej ŝatataj</string>
@@ -27,7 +27,7 @@
     <string name="skill_category_all">Ĉiuj</string>
     <string name="skill_category_immunity">Imuneco</string>
     <string name="skill_sort_name">Nomo</string>
-    <string name="skill_sort_points">Poentoj</string>
+    <string name="skill_sort_points">Punktoj</string>
     <string name="skill_sort_unlocked">Malŝlosita</string>
     <string name="preferences_display_theme_title">Etoso</string>
     <string name="actorcondition_info_immunity">Imuneco kontraŭ %1$s</string>
@@ -44,11 +44,11 @@
     <string name="preferences_display_category">Ekrano</string>
     <string name="questlog_queststatus">Statuso: %1$s</string>
     <string name="dialog_newversion_title">Bonvenon</string>
-    <string name="about_button3">Permesilo</string>
+    <string name="about_button3">Licenco</string>
     <string name="about_button2">Aŭtoroj</string>
     <string name="about_button1">Helpo</string>
-    <string name="dialog_rest_confirm_message">Ĉu vi volas resti ĉi tie\?</string>
-    <string name="dialog_rest_title">Resto</string>
+    <string name="dialog_rest_confirm_message">Ĉu vi volas repozi ĉi tie?</string>
+    <string name="dialog_rest_title">Ripozo</string>
     <string name="levelup_description">Bonvenon al nivelo %1$d!</string>
     <string name="shop_item_sold">Vendis %1$s.</string>
     <string name="shop_item_bought">Aĉetis %1$s.</string>
@@ -58,18 +58,18 @@
     <string name="shop_infoitem">Informo</string>
     <string name="shop_sell">Vendi</string>
     <string name="shop_buy">Aĉeti</string>
-    <string name="conversation_leave">Foriri</string>
+    <string name="conversation_leave">Forlasi</string>
     <string name="conversation_rewarditems">[Vi gajnis %1$d aĵojn]</string>
     <string name="conversation_rewarditem">[Vi gajnis aĵon]</string>
-    <string name="conversation_lostgold">[Vi perdis %1$d oro(j)n]</string>
-    <string name="conversation_rewardgold">[Vi gajnis %1$d oro(j)n]</string>
-    <string name="conversation_rewardexp">[Vi gajnis %1$d sperta(j)n poento(j)n]</string>
+    <string name="conversation_lostgold">[Vi perdis %1$d oron]</string>
+    <string name="conversation_rewardgold">[Vi gajnis %1$d oron]</string>
+    <string name="conversation_rewardexp">[Vi gajnis %1$d sperton]</string>
     <string name="startscreen_attention_slot_gets_delete_on_load">Averto</string>
-    <string name="startscreen_error_loading_game">Eraro dum enlegado de ludo</string>
-    <string name="startscreen_load_game">Enlegi ludon</string>
+    <string name="startscreen_error_loading_game">Eraro dum ŝargado de la ludo</string>
+    <string name="startscreen_load_game">Ŝarĝi ludon</string>
     <string name="startscreen_game_mode">Ludreĝimo</string>
-    <string name="startscreen_load">Enlegi</string>
-    <string name="startscreen_enterheroname">Enigu heroan nomon</string>
+    <string name="startscreen_load">Ŝargi</string>
+    <string name="startscreen_enterheroname">Enigu nomon de la heroo</string>
     <string name="startscreen_selectherosprite">Elektu vian heroon</string>
     <string name="startscreen_about">Pri/Helpo</string>
     <string name="startscreen_newgame_start">Komenci ludon</string>
@@ -78,14 +78,14 @@
     <string name="iteminfo_action_use">Uzi</string>
     <string name="iteminfo_category">Kategorio:</string>
     <string name="combat_result_herokillsmonster">%1$s mortas!</string>
-    <string name="combat_result_monsterhit">%1$s trafas vin - vi perdas %2$d VP-o(j)n!</string>
-    <string name="combat_result_herohit">Vi trafas %1$s - %1$s perdas %2$d VP-o(j)n!</string>
+    <string name="combat_result_monsterhit">%1$s batas vin por %2$d HP!</string>
+    <string name="combat_result_herohit">Vi batas %1$s por %2$d HP!</string>
     <string name="combat_result_heromiss">Via atako maltrafas.</string>
-    <string name="combat_result_monstermiss">%1$s maltrafas!</string>
+    <string name="combat_result_monstermiss">%1$s maltrafoj!</string>
     <string name="combat_monsteraction">%1$s atakas.</string>
     <string name="combat_use">Uzi aĵon</string>
     <string name="heroinfo_inventory_sort">Ordigi laŭ</string>
-    <string name="combat_miss_animation_message">MALTRAF\'</string>
+    <string name="combat_miss_animation_message">MALTRAFO</string>
     <string name="heroinfo_gold">Oro: %1$d</string>
     <string name="heroinfo_inventory_categories">Kategorio</string>
     <string name="heroinfo_totalexperience">Tuta sperto</string>
@@ -95,7 +95,7 @@
     <string name="heroinfo_skill_categories">Kategorio</string>
     <string name="heroinfo_skill">Kapabloj</string>
     <string name="heroinfo_inv">Aĵoj</string>
-    <string name="status_hp">PV:</string>
+    <string name="status_hp">HP:</string>
     <string name="dialog_monsterencounter_conditions">Kondiĉoj</string>
     <string name="dialog_monsterencounter_info">Informo</string>
     <string name="dialog_monsterencounter_message">Ĉu vi volas ataki\?
@@ -105,24 +105,388 @@
     <string name="dialog_more">Pli</string>
     <string name="dialog_close">Fermi</string>
     <string name="dialog_recenter">Recentrigi</string>
-    <string name="savegame_currenthero_displayinfo">Nivelo: %1$d, Sperto: %2$d, Oro: %3$d</string>
+    <string name="savegame_currenthero_displayinfo">nivelo %1$d, %2$d sperto, %3$d oro</string>
     <string name="loadsave_title_load">Enlegi konservitan ludon</string>
     <string name="loadsave_title_save">Konservi ludon</string>
     <string name="menu_save">Konservi</string>
     <string name="menu_settings">Agordoj</string>
     <string name="exit_to_menu">Eliri al menuo</string>
-    <string name="dialog_groundloot_message">Vi trovis iom da aĵoj.</string>
+    <string name="dialog_groundloot_message">Vi trovis iujn aĵoj.</string>
     <string name="dialog_loot_foundgold">Vi trovis %1$d orojn.</string>
     <string name="combat_log_item_plural">Vi trovis %1$d aĵojn:</string>
     <string name="combat_log_item_single">Vi trovis aĵon:</string>
     <string name="inventory_item_used">Vi uzis %1$s.</string>
     <string name="inventory_use">Uzi</string>
-    <string name="combat_flee_failed">Vi malsukcesis eskapadi!</string>
-    <string name="combat_flee">Eskapi</string>
-    <string name="heroinfo_quests">Petoj</string>
+    <string name="combat_flee_failed">Vi malsukcesis forkuri!</string>
+    <string name="combat_flee">Forkuri</string>
+    <string name="heroinfo_quests">Serĉoj</string>
     <string name="heroinfo_inventory">Inventaro</string>
     <string name="heroinfo_char">Superrigardo</string>
-    <string name="status_exp">SP:</string>
+    <string name="status_exp">XP:</string>
     <string name="dialog_monsterencounter_title">Renkonto</string>
-    <string name="app_description">Quest-driven fantasy RPG</string>
+    <string name="app_description">Movita-serĉo fantazio Rolludo</string>
+    <string name="traitsinfo_defense_chance">Blokŝanco:</string>
+    <string name="menu_save_gamesaved">Ludo estis konservita al ingo %1$d</string>
+    <string name="dialog_loading_failed_title">Ŝarĝo Malsukcesis</string>
+    <string name="dialog_loading_failed_incorrectversion">La Vojeto de Andor ne povis ŝargi la konservan luddosieron. Ĉi tiu konserva luddosiero estas kreita kun pli nova versio ol tio, kio nun funkcias.</string>
+    <string name="loadsave_selectslot">Elektu ingo</string>
+    <string name="dialog_game_over_text">Vi prenas vian lastan spiron kaj mortas.</string>
+    <string name="heroinfo_levelup">Nivelo supren</string>
+    <string name="status_ap">AP:</string>
+    <string name="heroinfo_experiencepoints">Spertpunktoj (XP):</string>
+    <string name="heroinfo_healthpoints">Sanpunktoj (HP):</string>
+    <string name="heroinfo_actionpoints">Agpunktoj (AP):</string>
+    <string name="heroinfo_unlimited_lives">Senlimaj vivoj, 1 ŝparadoj</string>
+    <string name="heroinfo_wornequipment">Ekipita ekipaĵo</string>
+    <string name="heroinfo_one_life">Konstantmorto (1 vivo)</string>
+    <string name="combat_endturn">Finturno</string>
+    <string name="heroinfo_limited_lives">Limigitaj vivoj (%1$d/%2$d restanta)</string>
+    <string name="combat_attack">Atako (%1$d AP)</string>
+    <string name="combat_move">Movo (%1$d AP)</string>
+    <string name="combat_status_ap">AP: %1$d</string>
+    <string name="combat_monsterhealth">HP:</string>
+    <string name="combat_result_herohitcritical">Vi faris kritikan baton al %1$s por %2$d HP!</string>
+    <string name="combat_result_monsterhitcritical">%1$s ricevas kritikan baton por %2$d HP!</string>
+    <string name="combat_not_enough_ap">Ne sufiĉe AP restas ĉi-rondon.</string>
+    <string name="combat_hero_dies">Vi falas senkonscie, sed feliĉe vekiĝas vivanta, konfuzita kaj laca. Vi perdis %1$d de sperto.</string>
+    <string name="combat_taunt_monster">Vi mokas %1$s!</string>
+    <string name="combat_condition_player_clear">Vi estas liberigita de %1$s.</string>
+    <string name="combat_condition_player_immune">Vi nun estas imunigita kontraŭ %1$s.</string>
+    <string name="combat_condition_player_apply">Vi estas afekta de %1$s.</string>
+    <string name="combat_condition_monster_apply">%1$s estas afekta de %2$s.</string>
+    <string name="inventory_equip">Ekipi</string>
+    <string name="inventory_unequip">Malekipi</string>
+    <string name="combat_condition_monster_clear">%1$s estas liberigita de %2$s.</string>
+    <string name="combat_condition_monster_immune">%1$s estas nun imunigita kontraŭ %2$s.</string>
+    <string name="inventory_drop">Faligi</string>
+    <string name="inventory_item_equipped">Vi ekipis %1$s.</string>
+    <string name="dialog_loot_pickall">Prenu ĉion</string>
+    <string name="dialog_loot_pickedupitems">Vi prenis %1$d aĵojn.</string>
+    <string name="dialog_loot_pickedupitem">Vi prenis aĵon.</string>
+    <string name="dialog_groundloot_title">Aĵoj</string>
+    <string name="actorinfo_difficulty">Malfacileco:</string>
+    <string name="actorinfo_attack">Atako:</string>
+    <string name="actorinfo_defense">Defendo:</string>
+    <string name="actorinfo_class">Klaso:</string>
+    <string name="actorinfo_movecost">Movkosto (AP):</string>
+    <string name="actorinfo_basetraits">Bazo de kombataj statistikoj (sen ekipaĵo kaj kapabloj)</string>
+    <string name="actorinfo_currenttraits">Kombataj statistikoj (aktuala)</string>
+    <string name="traitsinfo_attack_chance">Atakŝanco:</string>
+    <string name="iteminfo_action_equip">Ekipi</string>
+    <string name="iteminfo_action_unequip">Malekipi</string>
+    <string name="iteminfo_action_use_ap">Uzi (%1$d AP)</string>
+    <string name="iteminfo_action_equip_ap">Ekipi (%1$d AP)</string>
+    <string name="traitsinfo_attack_damage">Atakdamaĝo:</string>
+    <string name="traitsinfo_criticalhit_skill">Kritika bato kapablo:</string>
+    <string name="shop_item_sort">Ordiĝi</string>
+    <string name="levelup_title">Levi nivelon</string>
+    <string name="levelup_buttontext">Levi nivelon</string>
+    <string name="levelup_add_attackdamage_description">Aldonas %1$d al via baza atakdamaĝo.</string>
+    <string name="dialog_rest_message">Vi ripozis kaj rekaptis vian plenan sanon.</string>
+    <string name="questlog_queststatus_completed">Kompletita</string>
+    <string name="skill_shortdescription_barter">Pli bonaj butikaj prezoj</string>
+    <string name="preferences_movement_dpad_transparency_60_pct">60%</string>
+    <string name="preferences_movement_dpad_transparency_70_pct">70%</string>
+    <string name="preferences_movement_dpad_transparency_30_pct">30%</string>
+    <string name="preferences_movement_dpad_transparency_40_pct">40%</string>
+    <string name="preferences_movement_dpad_transparency_50_pct">50%</string>
+    <string name="actorinfo_health">Sano:</string>
+    <string name="heroinfo_unlimited_lives_and_saves">Normo\n(Senlimaj vivoj kaj ŝparadoj)</string>
+    <string name="inventory_item_dropped">%1$s faligis.</string>
+    <string name="inventory_info">Informo</string>
+    <string name="dialog_loading_failed_cheat">La Vojeto de Andor ne povis ŝargi la konservan luddosieron. Ĉi tiu konserva luddosiero jam estis daŭrigita.</string>
+    <string name="menu_save_failed">Malsukcesis konservi ludon! Ĉu la SD-karto estas muntita kaj skribebla?</string>
+    <string name="dialog_loading_message">Ŝarĝante rimedojn…</string>
+    <string name="iteminfo_action_unequip_ap">Malekipi (%1$d AP)</string>
+    <string name="combat_begin_flee">Vi nun povas fuĝi de batalo klakante en la direkton, en kiu vi volas moviĝi.</string>
+    <string name="traitsinfo_attack_cost">Atakokosto (AP):</string>
+    <string name="traitsinfo_defense_damageresist">Damaĝorezisto:</string>
+    <string name="startscreen_newgame_confirm">Vi perdos vian aktualan ludon kaj vian aktualan karakteron. Ĉu vi certas, ke vi volas komenci novan ludon?</string>
+    <string name="dialog_loading_failed_message">La Vojeto de Andor ne povis ŝargi la konservan luddosieron.\n\n:(\n\nLa dosiero estus difektita aŭ nekompleta.</string>
+    <string name="about_contents3">Ĉi tiu programo estas libera programaro; vi povas redistribui ĝin kaj/aŭ modifi ĝin laŭ la kondiĉoj de la GNU Ĝenerala Publika Licenco kiel publikigita de la Free Software Foundation; ĉu versio 2 de la Licenco, aŭ (laŭ via elekto) iu ajn posta versio.&lt;br /&gt; &lt;br /&gt; Ĉi tiu programo estas dissendita en la espero, ke ĝi estos utila, sed SEN IA GARANTIO; eĉ sen la implicita garantio de KOMERCAVALORO aŭ TAŭGECO POR KONKRETA CELA UZO. Vidu la GNU Ĝeneralan Publikan Licencon por pliaj detaloj.&lt;br /&gt; &lt;br /&gt; Vi devus havi riceviton kopion de la GNU Ĝenerala Publika Licenco kune kun ĉi tiu programo; se ne, vidu &lt;a href=http://www.gnu.org/license&gt;http://gun.org/licenses&lt;a/&gt;&lt;br /&gt; &lt;br /&gt; Por fontkodo kaj funkciecaj petoj, bonvolu viziti la projekton paĝon ĉe &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
+    <string name="traitsinfo_criticalhit_multiplier">Kritika multipliko:</string>
+    <string name="levelup_add_health_description">Aldonas %1$d al via maksimuma sano.</string>
+    <string name="startscreen_mode_50_lives">Malfacila (50 vivoj, 1 konservado)</string>
+    <string name="levelup_add_attackchance_description">Aldonas %1$d al via baza atakŝanco.</string>
+    <string name="startscreen_mode_1_life">Permanenta morto (1 vivo, 1 konservado)</string>
+    <string name="startscreen_mode_3_lives">Ekstrema (3 vivoj, 1 konservado)</string>
+    <string name="levelup_add_attackdamage">Pligrandigi atakdamaĝo (+%1$d)</string>
+    <string name="about_contents1">Bonvenon ala Vojeto de Andoro, malfermfonta roguelike rolludo por Android.&lt;br /&gt;&lt;br /&gt;&lt;a href=http://andorstrail.com/&gt;Ludaj forumoj ĉe andorstrail.com por demandoj kaj diskutoj pri la ludo.&lt;/a&gt;&lt;br /&gt;&lt;a href=https://andorstrail.gitbook.io/docs&gt;Vikio de la ludo por informoj pri la mondo de Andor\'s Trail kaj aliaj aferoj.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Fontkodo de la projekto ĉe github.com por programistoj.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Bonvolu viziti la forumojn por diskuti la ludon kun aliaj ludantoj.&lt;br /&gt;</string>
+    <string name="levelup_add_attackchance">Pligrandigi atakŝancon (+%1$d)</string>
+    <string name="iteminfo_effect_decrease_current_ap">Drenas %1$s AP</string>
+    <string name="preferences_movement_dpad_position_title">Virtuala d-pad</string>
+    <string name="bulkselection_select_all">Ĉiuj</string>
+    <string name="iteminfo_effect_chance_of">%1$s ŝanco por %2$s</string>
+    <string name="iteminfo_effect_increase_current_ap">Restarigas %1$s AP</string>
+    <string name="iteminfo_effect_decrease_max_hp">Malaltigas maksiman HP per %1$d</string>
+    <string name="iteminfo_effect_decrease_movecost">Malaltigas movkoston %1$d AP</string>
+    <string name="preferences_movement_dpad_positions_lower_right">Maljuna dekstra angulo</string>
+    <string name="preferences_display_scaling_factor_double">Duobla grando</string>
+    <string name="preferences_language_default">Sistema lingvo</string>
+    <string name="preferences_movement_dpad_positions_center_left">Centro maldekstre</string>
+    <string name="preferences_language">Lingvo</string>
+    <string name="preferences_language_description">Elektu la lingvon. La angla estas uzata se la sistema lingvo ne estas disponebla aŭ se enhavo ne estis tradukita. (Postulas rekomencigon)</string>
+    <string name="preferences_movement_dpad_minimizeable_title">Minimumebla d-pad</string>
+    <string name="iteminfo_effect_increase_max_hp">Levigas maksiman HP +%1$d</string>
+    <string name="preferences_movement_dpad_position">Ebligas virtualan ekrano-d-pad por gvidi movadon.</string>
+    <string name="preferences_movement_dpad_positions_center_bottom">Centro malsupre</string>
+    <string name="skill_title_fortitude">Pliiĝinta Fortikeco</string>
+    <string name="preferences_movement_dpad_minimizeable">Se la virtuala d-pad estas ebligita, ĉi tiu agordo permesas la d-pad esti minimigita per premado de ĝia centro.</string>
+    <string name="preferences_movement_dpad_positions_disabled">Malaktivigita</string>
+    <string name="preferences_movement_dpad_positions_lower_left">Maljuna maldekstra angulo</string>
+    <string name="bulkselection_totalcost_sell">Tuta kosto: %1$d oro</string>
+    <string name="preferences_movement_dpad_positions_center_right">Centro dekstre</string>
+    <string name="preferences_movement_dpad_positions_upper_left">Supra maldekstra angulo</string>
+    <string name="actorconditioninfo_effect_every_full_round">Ĉiu plena rondo</string>
+    <string name="startscreen_migration_title">Datumtransigo</string>
+    <string name="startscreen_migration_text">Transigi konservludajn datumojn.</string>
+    <string name="startscreen_migration_failure">Malsukcesis transigi konservludajn datumojn.</string>
+    <string name="startscreen_load_game_confirm">La aktuala ludo ne estas konservita, kaj vi perdos vian karakteron.</string>
+    <string name="startscreen_error_loading_empty_slot">Ne eblas ŝarĝi el malplej ingo.</string>
+    <string name="startscreen_attention_message_slot_gets_delete_on_load">Ŝargado de ĉi tiu ludo forigas ĝian konservingon. Vi devos konservi denove antaŭ ol ŝanĝi al alia ludo.</string>
+    <string name="startscreen_mode_unlimited_saves_and_lives">Normala (Senlimaj vivoj kaj konservadon)</string>
+    <string name="startscreen_mode_unlimited_lives">Meza (Senlimaj vivoj, 1 konservado)</string>
+    <string name="startscreen_mode_10_lives">Tre malfacila (10 vivoj, 1 konservado)</string>
+    <string name="conversation_next">Sekva</string>
+    <string name="levelup_add_health">Pligrandigi sanon (+%1$d HP)</string>
+    <string name="levelup_add_blockchance">Pligrandigi blokŝancon (+%1$d)</string>
+    <string name="levelup_add_blockchance_description">Aldonas %1$d al via baza blokŝanco.</string>
+    <string name="dialog_permission_information_title">Ŝarĝi kaj konservi ludojn</string>
+    <string name="questlog_includecompleted_prompt">Selekti misiojn por montri</string>
+    <string name="questlog_includecompleted_hidecompleted">Aktivaj misioj</string>
+    <string name="questlog_includecompleted_includecompleted">Ĉiuj misioj</string>
+    <string name="questlog_includecompleted_onlycompleted">Kompletaj misioj</string>
+    <string name="questlog_queststatus_inprogress">En progreso</string>
+    <string name="preferences_dialog_confirmrest_title">Konfirmi nuligon</string>
+    <string name="preferences_dialog_confirmattack_title">Konfirmi atakon</string>
+    <string name="preferences_dialog_monsterloot">Elektu kiel vi volas montri la rezultojn de batalo (oro, sperto, aĵoj).</string>
+    <string name="preferences_combat_speed">Determinas kiom rapide monstroj atakas.</string>
+    <string name="preferences_display_loot_dialog">Ĉiam montri la dialogan fenestron pri trofeoj</string>
+    <string name="preferences_display_loot_dialog_on_items">Montri la dialogan fenestron pri trofeoj kiam vi trovas aĵojn</string>
+    <string name="preferences_display_loot_toast_on_items">Montri notifikon nur kiam vi trovas aĵojn</string>
+    <string name="preferences_movement_category">Movado</string>
+    <string name="preferences_movementmethod_title">Movada metodo</string>
+    <string name="preferences_movementmethod">Tipo de movada metodo kaj traktado de obstakloj.</string>
+    <string name="preferences_movementmethods_straight">Rekta (originala)</string>
+    <string name="preferences_movementmethods_avoid">Evitado de obstakloj</string>
+    <string name="actorinfo_currentconditions">Aktivaj kondiĉoj</string>
+    <string name="iteminfo_effect_duration">(%1$d rondoj)</string>
+    <string name="iteminfo_effect_works_on_source">Sur fonto</string>
+    <string name="iteminfo_effect_works_on_target">Sur celo</string>
+    <string name="iteminfo_effect_works_on_attacker">Sur atakanto</string>
+    <string name="iteminfo_effect_works_when_hitting_target">Kiom trafante celon</string>
+    <string name="iteminfo_effect_works_when_killing_target">Sur ĉiu mortigo</string>
+    <string name="iteminfo_effect_works_when_used">Kiam uzate</string>
+    <string name="iteminfo_effect_works_when_equipped">Kiam ekipite</string>
+    <string name="iteminfo_effect_works_when_hit_by_attacker">Kiam batite de atakanto</string>
+    <string name="iteminfo_effect_works_when_killed_by_attacker">Kiam mortigita de atakanto</string>
+    <string name="iteminfo_effect_decrease_current_hp">Drenas %1$s HP</string>
+    <string name="iteminfo_effect_increase_current_hp">Restarigas %1$s HP</string>
+    <string name="iteminfo_effect_increase_max_ap">Levigas maksiman AP +%1$d</string>
+    <string name="iteminfo_effect_decrease_max_ap">Malaltigas maksiman AP per %1$d</string>
+    <string name="iteminfo_effect_increase_movecost">Movkosto penalizo +%1$d AP</string>
+    <string name="preferences_display_scaling_factor_title">Skaliga faktoro</string>
+    <string name="preferences_display_scaling_factor">Faras la ludadpanoron montri ĉion pli grandan aŭ pli malgrandan.</string>
+    <string name="preferences_display_scaling_factor_50_percent">Duongrando</string>
+    <string name="preferences_display_scaling_factor_75_percent">0.75x grando</string>
+    <string name="preferences_display_scaling_factor_normal">Normala grando</string>
+    <string name="preferences_display_scaling_factor_50_percent_larger">1.5x grando</string>
+    <string name="inventory_assign">Atribui rapidan ingon</string>
+    <string name="inventory_selectitem">Elektu objekton por atribui</string>
+    <string name="inventory_assign_slot1">Ingo 1</string>
+    <string name="inventory_assign_slot2">Ingo 2</string>
+    <string name="inventory_assign_slot3">Ingo 3</string>
+    <string name="inventory_unassign">Malattribui rapidan ingon</string>
+    <string name="preferences_movement_dpad_positions_upper_right">Supra dekstra angulo</string>
+    <string name="preferences_movement_dpad_positions_center_top">Centro supre</string>
+    <string name="actorconditioninfo_constant_effect">Kontinuaj efiko</string>
+    <string name="actorconditioninfo_effect_every_round">Ĉiuj rondoj</string>
+    <string name="bulkselection_totalcost_buy">Tuta kosto: %1$d oro</string>
+    <string name="bulkselection_sell_confirmation_title">Ĉu vi estas certa?</string>
+    <string name="bulkselection_sell_confirmation">Ĉu vi estas certa, ke vi volas vendi %1$s? Ĉi tiu objekto estas %2$s kaj vi eble ne povos revenigi ĝin.</string>
+    <string name="skill_title_weapon_chance">Armeo Asembleco</string>
+    <string name="skill_title_weapon_dmg">Fortega Bato</string>
+    <string name="skill_title_barter">Komercisto</string>
+    <string name="skill_title_dodge">Eviti</string>
+    <string name="skill_title_barkskin">Barka Haŭto</string>
+    <string name="skill_title_more_criticals">Pli da Kritikoj</string>
+    <string name="skill_title_better_criticals">Pli bonaj kritikoj</string>
+    <string name="skill_title_speed">Batalrapideco</string>
+    <string name="skill_title_coinfinder">Trezorĉasisto</string>
+    <string name="skill_title_more_exp">Rapida Lernanto</string>
+    <string name="skill_title_cleave">Disiri</string>
+    <string name="skill_title_eater">Korposidlanto</string>
+    <string name="skill_title_evasion">Evito</string>
+    <string name="skill_title_regeneration">Regenerado</string>
+    <string name="skill_title_lower_exploss">Malsukcesa Mastrumo</string>
+    <string name="skill_title_magicfinder">Magia Trovano</string>
+    <string name="skill_title_resistance_mental">Forta Menso</string>
+    <string name="skill_title_resistance_physical_capacity">Daŭra Korpo</string>
+    <string name="skill_title_resistance_blood_disorder">Pura Sanĝo</string>
+    <string name="skill_shortdescription_weapon_dmg">Pliigita atakdamaĝo</string>
+    <string name="skill_shortdescription_weapon_chance">Pliigita atakŝanco</string>
+    <string name="skill_shortdescription_dodge">Pliigita bloka ŝanco</string>
+    <string name="skill_shortdescription_barkskin">Damaĝa rezisto</string>
+    <string name="skill_shortdescription_more_criticals">Pliigita kritika kapablo</string>
+    <string name="skill_shortdescription_better_criticals">Pliigita kritika damaĝo</string>
+    <string name="skill_shortdescription_coinfinder">Pli alta ŝanco trovi oron</string>
+    <string name="skill_shortdescription_cleave">Rekapti agopunktojn ĉe ĉiu mortigo</string>
+    <string name="skill_shortdescription_speed">Pliigita maksimuma agopunktoj</string>
+    <string name="skill_shortdescription_more_exp">Pli da sperto de monstraj mortigoj</string>
+    <string name="skill_shortdescription_eater">Rekapti sanpunktojn ĉe ĉiu mortigo</string>
+    <string name="skill_shortdescription_fortitude">Akiri sanon ĉe ĉiu nivelingo</string>
+    <string name="skill_shortdescription_regeneration">Akiri sanon ĉiun rondon</string>
+    <string name="skill_shortdescription_lower_exploss">Malaltigi la kvanton de perditaj spertoj kiam mortante</string>
+    <string name="skill_shortdescription_magicfinder">Pli granda ŝanco trovi magiaĵoj</string>
+    <string name="skill_shortdescription_evasion">Pli granda ŝanco por fuĝi</string>
+    <string name="monsterinfo_killcount">Antaŭaj mortigoj</string>
+    <string name="dialog_newversion_permission_information">\n\nPor povi konservi kaj ŝargi viajn ludojn (kaj nur por ĉi tiu celo), La Vojeto de Andoro petos permeson aliri vian memoron.</string>
+    <string name="dialog_newversion_message">Dankon pro elŝuto de La Vojeto de Andoro!\n\nBonvolu noti, ke ĉi tiu versio de Andor\'s Trail estas LABORAĴO EN PROCESO, kio signifas, ke ĉiuj mapoj ankoraŭ ne estas kompletaj.\nBonvolu viziti la projektajn forumojn por diskuti la ludon kun aliaj ludantoj aŭ helpi plibonigi ĝin (vidu pri).\n\nDankon pro ĉiuj reagoj!</string>
+    <string name="dialog_permission_information">Andor\'s Trail skribas konservitajn ludojn en uzant-alirebla memoro en via aparato. Tio permesas al vi facile sekurkopii viajn konservitajn ludojn aŭ transdoni ilin al nova aparato. Bonvolu viziti niajn forumojn por pliaj informoj.\n\nAndor\'s Trail ne uzas aliron al via aparato por iu ajn alia celo kaj ne aliras la interreton. Andor\'s Trail estas malfermkoda; la fontoj troviĝas en github.</string>
+    <string name="preferences_display_fullscreen">Montras la ludon en plentekrana reĝimo. (Postulas rekomencigon)</string>
+    <string name="preferences_dialog_category">Dialoga konfirmo</string>
+    <string name="preferences_dialog_confirmrest">Donas demandon pri ĉu vi volas ripozi enirante liton. Alie, vi ĉiam aŭtomate ripozos.</string>
+    <string name="preferences_dialog_confirmattack">Ebligas la dialogujon \'Ĉu vi volas ataki..?\' kiam vi atakas monstron.</string>
+    <string name="skill_shortdescription_resistance_mental">Rezisto kontraŭ mensaj kondiĉoj</string>
+    <string name="skill_shortdescription_resistance_physical_capacity">Rezisto kontraŭ fizikakapablaj kondiĉoj</string>
+    <string name="skill_shortdescription_resistance_blood_disorder">Rezisto kontraŭ sangomalsanoj</string>
+    <string name="loadsave_export_successfull">Eksporto sukcesis</string>
+    <string name="loadsave_export_unsuccessfull">Eksporto malsukcesis</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Superdoni ekzistantajn dosierojn?</string>
+    <string name="loadsave_import_worldmap">Enporti mondmapon</string>
+    <string name="loadsave_import_worldmap_info">Bonvolu elekti la Mondmapan zip-dosieron.</string>
+    <string name="loadsave_importing_worldmap">Enportante mondmapon</string>
+    <string name="loadsave_import_worldmap_successfull">Importo de mondmapo sukcesis</string>
+    <string name="loadsave_import_worldmap_unsuccessfull">Importo de mondmapo malsukcesis</string>
+    <string name="loadsave_import_worldmap_wrong_file">Ĉu vi certe elektis mondmapon? Bonvolu selekti la zip-dosieron nomatan \'worldmap.zip\', kiu estis eksportita al via eksportloko.</string>
+    <string name="menu_save_saving_not_allowed_in_combat">Ne eblas konservi la ludon dum batalo.</string>
+    <string name="preferences_optimized_drawing_title">Optimigita desegnado</string>
+    <string name="preferences_high_quality_filters_title">Alta kvalito filtriloj</string>
+    <string name="preferences_optimized_drawing">Malŝaltu ĉi tion se vi vidas grafikan artefakton. Aktivigi ĉi tiun opcion igos la ludon nur re-dizajni la partojn de la ekrano, kiuj ŝanĝiĝis ĉiu kadro.</string>
+    <string name="skill_number_of_increases_one">Vi povas elekti unu kapablon por plibonigi. Kapablopunktoj estas tenataj ĝis uzataj.</string>
+    <string name="preferences_high_quality_filters">Malaktivigu ĉi tion se vi spertas agadajn problemojn en filtritaj mapoj (ekzemplo: mallumaj kavernoj). Aktivigi ĉi tiun opcion devigos la ludon uzi plibonigitajn kolorajn filtrilojn anstataŭ solida koloro kovroj.</string>
+    <string name="menu_save_switch_character">Savigi permesas al vi ŝanĝi al alia karaktero kaj poste daŭrigi la nunan ludon. Ĉu vi volas savi kaj eliri el la nuna ludo?</string>
+    <string name="loadsave_export_overwrite_confirmation">La celfoliero enhavas ekzistantajn dosierojn kun la sama nomo de iuj dosieroj, kiuj devus esti eksportitaj. Ĉu vi certas, ke vi volas superdoni tiujn dosierojn?</string>
+    <string name="preferences_display_loot_dialog_on_items_or_toast">Dialogo por objektoj, notifoj por aliaj kazoj</string>
+    <string name="skillinfo_action_levelup">Leveliĝi</string>
+    <string name="levelup_adds_new_skillpoint">Ĉi tiu nivelo ankaŭ donas al vi novan kapablopunkton por elspezi!</string>
+    <string name="iteminfo_displaytypes_ordinary">Ordinara</string>
+    <string name="menu_save_switch_character_title">Ŝanĝi karakteron</string>
+    <string name="loadsave_import_save_unsuccessfull">Enporto malsukcese</string>
+    <string name="loadsave_export_info">Bonvolu elekti la dosierujon por eksporti ĉiujn dosierojn.</string>
+    <string name="loadsave_export_error_unknown">Okazis nekonata eraro dum eksportado.</string>
+    <string name="loadsave_import_save_successfull">Enporto sukcese</string>
+    <string name="menu_button_worldmap">Mapo</string>
+    <string name="preferences_display_theme_blue">Kobalto</string>
+    <string name="loadsave_import_imported_description">Emportis konservo: Ingo: %1$s:\n\t%2$s</string>
+    <string name="display_worldmap_title">Mapo</string>
+    <string name="heroinfo_gamestats_spent_gold">Oro elspezita en butikoj</string>
+    <string name="heroinfo_gamestats_name_and_qty">%1$s (%2$d)</string>
+    <string name="about_button4">Pri</string>
+    <string name="loadsave_save_overwrite_confirmation_slot">(ingo %1$d)</string>
+    <string name="preferences_movement_dpad_transparency_title">Travidebleco de D-pad</string>
+    <string name="preferences_display_theme_green">Malakito</string>
+    <string name="preferences_display_theme_charcoal">Obsidiano</string>
+    <string name="loadsave_exporting_worldmap">Eksportas Mondmapon</string>
+    <string name="loadsave_exporting_savegames">Eksportas Konservludojn</string>
+    <string name="loadsave_importing_savegames">Emportas Konservludojn</string>
+    <string name="loadsave_import_save">Emporti Konservludojn</string>
+    <string name="skill_longdescription_barkskin">Pliigas la damaĝreziston per %1$d por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_better_criticals">Pliigas ajnan ekzistantan ekipaĵo-donitan kritikmultiplikon per %1$d %% por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_speed">Pliigas la maksimumajn ago-punktojn (AP) per %1$d por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_magicfinder">Pliigas la ŝancon trovi neordinarajn objektojn per %1$d %% por ĉiu kapablo-nivelo.</string>
+    <string name="loadsave_import_option_keep_existing">Konservi ekzistantan konservludon</string>
+    <string name="loadsave_import_option_add_as_new">Aldoni kiel novan Konservludon</string>
+    <string name="loadsave_import_existing_description">Ekzistanta konservludo: Konservingo: %1$s:\n\t%2$s</string>
+    <string name="loadsave_import_save_error_unknown">- obsoleta -</string>
+    <string name="loadsave_import_error_unknown">Okazis nekonata eraro dum importado.</string>
+    <string name="loadsave_import_option_keep_imported">Konservi importitan konservludon</string>
+    <string name="loadsave_import_worldmap_wrong_directory">- obsoleta -</string>
+    <string name="iteminfo_displaytypes_rare">Rara</string>
+    <string name="actorconditioninfo_category">Kondiĉa kategorio: %1$s</string>
+    <string name="actorcondition_categories_spiritual">Spirita</string>
+    <string name="actorcondition_categories_physical">Fizika Kapablo</string>
+    <string name="actorcondition_categories_blood">Sanga Malsano</string>
+    <string name="traitsinfo_base_max_hp">Maksimuma HP:</string>
+    <string name="actorcondition_categories_mental">Menta</string>
+    <string name="traitsinfo_base_max_ap">Maksimuma AP:</string>
+    <string name="skill_longdescription_weapon_chance">Pliigas la atakŝancon per %1$d procentaj poentoj por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_weapon_dmg">Pliigas la maksimuman damaĝon per %1$d por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_barter">Por ĉiu kapablo-nivelo, malpliigas la orpenalon pri aĉetado kaj vendado per %1$d procentaj poentoj.</string>
+    <string name="skill_longdescription_dodge">Pliigas la blokŝancon per %1$d procentaj poentoj por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_more_criticals">Pliigas ajnan ekzistantan ekipaĵo-donitan kritikŝancon per %1$d %% por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_coinfinder">Pliigas la ŝancon trovi oron en monstraj faloj per %1$d %% kaj pliigas la kvanton de oro en faloj per %2$d %% por ĉiu kapablo-nivelo (ĝis la maksimuma kvanto kiun la monstro falas).</string>
+    <string name="skill_longdescription_more_exp">Pliigas la kvanton de spertopunktoj donitaj per venkado de monstrojn per %1$d %% por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_cleave">Donas +%1$d ago-punktojn (AP) por ĉiu mortigo por ĉiu kapablo-nivelo.</string>
+    <string name="skill_longdescription_evasion">Por ĉiu kapablo-nivelo, malpliigas la ŝancon de malsukcesaj forkuraĵprovoj per %1$d %% kaj la ŝancon, ke apudaj monstraroj atakos, per %2$d %%.</string>
+    <string name="skill_longdescription_regeneration">Gajnas +%1$d sanpunktojn (HP) ĉe ĉiu ronda por ĉiu kapablo-nivelo kiam neniu monstro estas rekte apud.</string>
+    <string name="skill_longdescription_resistance_physical_capacity">Malfaciligas la ŝancon esti afliktita de kondiĉoj influantaj viajn fizikajn kapablojn per %1$d %% por ĉiu kapablo-nivelo, ĝis maksimumo de %2$d %% . Tio inkluzivas kondiĉojn kaŭzitajn de monstraj atakoj kiel Laciĝo.</string>
+    <string name="skill_current_level">Aktuala nivelo: %1$d</string>
+    <string name="skill_current_level_with_maximum">Aktuala nivelo: %1$d / %2$d</string>
+    <string name="skill_prerequisite_other_skill">Por levii ĉi tiun kapablon, vi bezonas almenaŭ nivelon %1$d de la %2$s kapablo .</string>
+    <string name="skill_prerequisite_level">Por levii ĉi tiun kapablon, vi bezonas almenaŭ spert-nivelo %1$d.</string>
+    <string name="skill_prerequisite_stat">Por levii ĉi tiun kapablon, vi bezonas almenaŭ %1$d %2$s (bazaj statistikoj).</string>
+    <string name="skill_number_of_increases_several">Vi povas elekti %1$d kapablojn por plibonigi.</string>
+    <string name="loadsave_save_to_new_slot">Krei novan Konservludingo</string>
+    <string name="iteminfo_displaytypes_legendary">Legenda</string>
+    <string name="iteminfo_displaytypes_extraordinary">Eksterordinara</string>
+    <string name="loadsave_export">Ekporti Konservludoj</string>
+    <string name="loadsave_import_save_info">Bonvolu elekti ĉiujn Konservludojn, kiujn vi volas importi.</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>Ludaj Agordoj</b> vi povas trovi premante la Menuan Butonon de via aparato.</div>
+
+<p>________________</p>
+<h1>Interfacaj Ikonoj</h1>
+
+<div><b>La Kesto</b><img alt="chest" src="chest.png" /></div>
+<p>Rapidingoj [Premu longe la saketojn interne por atribui objecktojn por tuja uzo]</p>
+
+<div><b>La Heroo</b><img alt="hero" src="char_hero.png" /></div>
+<p>Menuo [Superrigardo, Misioj, Kapabloj &amp; Inventaro *]</p>
+<p>* (Dum vi estas en la invenaro, “premu” objekton por informoj &amp; "premu longe” por pli da opcioj)</p>
+
+<div><b>La Malamiko</b><img alt="monster" src="monster.png" /></div>
+<p>Informo [Aperas dum Batalo]</p>
+
+
+
+<p>________________</p>
+<h1>Batalo</h1>
+
+<p>Agoj faritaj dum batalo kostas AP…</p>
+
+<div><b>Atakado</b> - [3AP] *</div>
+<img alt="attacking" src="doubleattackexample.png" />
+<p>* (Ekipiĝado de ekipaĵo &amp; Uzado de objektoj povas ŝanĝi AP &amp; kostoj de uzo)</p>
+
+<div><b>Uzado de Objektoj</b> - [5AP]</div>
+<div><b>Forkuro</b> - [6AP]</div>
+
+
+
+<p>________________</p>
+<h1>Avancita Batalo</h1>
+
+<div>Dum batalo, premu longe kampo apud la Heroo...</div>
+
+<div><b>Forkuri</b></div>
+<p>(Elektita kampo estas lumigita - Ataka Butono ŝanĝiĝas al Movo )</p>
+<img alt="flee" src="flee_example.png" />
+<p>[forkura reĝimo aktivigita - Premu longe la malamikon por reiri en batalon]</p>
+
+<div><b>Por Ŝanĝi Celojn</b></div>
+<p>(La ruĝa celindiko ŝanĝiĝas inter malamikoj)</p>
+<p>[La celo estis ŝanĝita]</p>
+
+]]></string>
+    <string name="skill_longdescription_eater">Donas +%1$d sanpunktojn (HP) por ĉiu mortigo por ĉiu kapablo-nivelo.</string>
+    <string name="loadsave_save_overwrite_confirmation_title">Skribi super Konservludingo?</string>
+    <string name="skill_longdescription_fortitude">Je ĉiu sekvanta nivelo-leviĝo, la maksimumaj sanpunktoj (HP) estos altiĝintaj per %1$d por ĉiu kapablo-nivelo. Ĉi tio ne estas aplikebla retroaktive; nur sekvantaj nivelo-leviĝoj estos influataj.</string>
+    <string name="skill_longdescription_lower_exploss">Por ĉiu kapablo-nivelo, malpliigas la kvanton de perdita spertopunkto pro morto per %1$d %% (procento de la ekzistanta spertoperdo, ne procentaj poentoj). %2$d niveloj forigos ĉiujn spertoperdojn pro morto.</string>
+    <string name="skill_longdescription_resistance_mental">Malfaciligas la ŝancon esti afliktita de mensaj kondiĉoj per %1$d %% por ĉiu kapablo-nivelo, ĝis maksimumo de %2$d %% . Tio inkluzivas kondiĉojn kaŭzitajn de monstraj atakoj kiel Embriiĝo aŭ Arma Malforteco.</string>
+    <string name="skill_longdescription_resistance_blood_disorder">Malfaciligas la ŝancon esti afliktita de sangoferoj per %1$d %% por ĉiu kapablo-nivelo, ĝis maksimumo de %2$d %% . Tio inkluzivas kondiĉojn kaŭzitajn de monstraj atakoj kiel Venenoj aŭ sangaj vundoj.</string>
+    <string name="loadsave_save_overwrite_confirmation">Ĉi tiu Konservludo enhavas malsaman ludanton-nomon (%1$s) ol via aktuala ludanto-nomo (%2$s). Ĉu vi certe volas skribi super ĉi tiun konservludon?</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Skribi super ekzistantan Konservludingon?</string>
+    <string name="loadsave_import_file_exists_question">**\"Jam estas konservludo en la celita konservingo. Ĉu vi volas konservi la ekzistantan konservludon, skribi super ĝin per la importita konservludo, aŭ importi la konservludon al alia konservingo?\n\n%1$s\n\n%2$s\"**</string>
 </resources>
