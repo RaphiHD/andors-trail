@@ -624,9 +624,7 @@ msgstr "Si te lastiman las ratas, vuelve aquí y descansa en tu cama. De esa man
 
 #: conversationlist_mikhail.json:mikhail_rats_start3
 msgid "Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it."
-msgstr ""
-"Además, no olvides revisar tu inventario. Probablemente todavía tengas ese "
-"viejo anillo que te di. Asegúrate de usarlo."
+msgstr "Además, no olvides revisar tu inventario. Probablemente todavía tengas ese viejo anillo que te di. Asegúrate de usarlo."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3:0
 msgid "OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items."
@@ -634,9 +632,7 @@ msgstr "Vale, entiendo. Puedo descansar aquí si me lastimo, y debería revisar 
 
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
-msgstr ""
-"Una cosa más. Mira esa canasta que está allí en el suelo. Pertenece a Andor "
-"y puede que haya dejado algo útil dentro."
+msgstr "Una cosa más. Mira esa canasta que está allí en el suelo. Pertenece a Andor y puede que haya dejado algo útil dentro."
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
@@ -698,10 +694,7 @@ msgstr "Aquí tienes."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2a
 msgid "Another way to regain your strength is to eat some food. You can buy some for yourself from Mara at the town hall. But watch out - I hear that raw meat can sometimes give you food poisoning."
-msgstr ""
-"Otra forma de recuperar tu fuerza es comer algo. Puedes comprar algo de Mara "
-"en el ayuntamiento. Pero ten cuidado - He escuchado que la carne cruda a "
-"veces puede intoxicarte."
+msgstr "Otra forma de recuperar tu fuerza es comer algo. Puedes comprar algo de Mara en el ayuntamiento. Pero ten cuidado - He escuchado que la carne cruda a veces puede intoxicarte."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
@@ -709,9 +702,7 @@ msgstr "Si eso sucede, quizás el sacerdote del pueblo pueda hacer algo para ayu
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
-msgstr ""
-"Yo, realmente no puedo costearme un poco de carne, ¡así que solo me quedo "
-"con mi pan!"
+msgstr "Yo, realmente no puedo costearme un poco de carne, ¡así que solo me quedo con mi pan!"
 
 #: conversationlist_crossglen.json:audir1
 msgid ""
@@ -925,9 +916,7 @@ msgstr "¡Heeeey! ¡Vamos! No seas tan aguafiestas."
 
 #: conversationlist_crossglen.json:drunk1a:1
 msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
-msgstr ""
-"Bien, si realmente lo quieres. Pero yo tengo un nuevo y definitivo juego "
-"para tí. Aquí, bebe esto. [Da una botella con veneno débil]"
+msgstr "Bien, si realmente lo quieres. Pero yo tengo un nuevo y definitivo juego para tí. Aquí, bebe esto. [Da una botella con veneno débil]"
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
@@ -1393,6 +1382,9 @@ msgstr "Necesito que entres en la cueva y mates a la rata grande. De esa manera 
 #: conversationlist_feygard_1.json:swamp_witch_t2
 #: conversationlist_feygard_1.json:gamjee_compromise_2a
 #: conversationlist_lytwings.json:bela_lytwing_strawberries:0
+#: conversationlist_troubling_times.json:nanath_170:0
+#: conversationlist_troubling_times.json:nanath_182:0
+#: conversationlist_troubling_times.json:tt_sly_254:0
 msgid "OK."
 msgstr "Esta bien."
 
@@ -2440,6 +2432,8 @@ msgstr "Diez."
 #: conversationlist_feygard_1.json:swamp_witch_20_42
 #: conversationlist_feygard_1.json:tobby_1:0
 #: conversationlist_feygard_1.json:village_philippa_fd_9:0
+#: conversationlist_troubling_times.json:tt_sly_100:0
+#: conversationlist_troubling_times.json:tt_talion_310:0
 msgid "What?"
 msgstr "¿Qué?"
 
@@ -2479,6 +2473,7 @@ msgstr "Iré a por ello ahora."
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_70:1
 #: conversationlist_bwmfill.json:loneford_villager2_fence1a:1
 #: conversationlist_feygard_1.json:godoe_4:1
+#: conversationlist_troubling_times.json:tt_sly_58:2
 msgid "Forget it."
 msgstr "Olvídalo."
 
@@ -2561,6 +2556,7 @@ msgstr "Sabía que lo harías, amigo mío. Así que ya he escondido la escalera 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_76:0
 #: conversationlist_feygard_1.json:swamp_witch_20_134:0
 #: conversationlist_lytwings.json:arensia_lytwing_13:0
+#: conversationlist_troubling_times.json:nanath_308:0
 msgid "Thank you."
 msgstr "Gracias."
 
@@ -2945,9 +2941,7 @@ msgstr "¿Hay alguna habitación disponible?"
 #: conversationlist_fallhaven_tavern.json:bela:2
 #: conversationlist_vilegard_tavern.json:tharwyn_2:1
 msgid "Torilo suggested that I ask other tavern owners such as yourself about a 'business agreement' that you may have with a group of 'distributors'."
-msgstr ""
-"Torilo sugirió que preguntara a otros dueños de tabernas, como usted sobre "
-"un \"acuerdo comercial\" que pueda tener con un grupo de \"distribuidores\"."
+msgstr "Torilo sugirió que preguntara a otros dueños de tabernas, como usted sobre un \"acuerdo comercial\" que pueda tener con un grupo de \"distribuidores\"."
 
 #: conversationlist_fallhaven_tavern.json:bela:3
 msgid "Do you have strawberries?"
@@ -4756,6 +4750,38 @@ msgstr "De acuerdo, gracias de todos modos. Adiós."
 msgid "Bah, you're useless. Goodbye."
 msgstr "Bah, eres un inútil. Adiós."
 
+#: conversationlist_thievesguild_1.json:fallhaven_tunnel1
+msgid "Hey, kid! Don't be so nosy!"
+msgstr ""
+
+#: conversationlist_thievesguild_1.json:fallhaven_tunnel2a
+msgid ""
+"A sign says 'Jail'\n"
+"The exit above is blocked though."
+msgstr ""
+
+#: conversationlist_thievesguild_1.json:fallhaven_tunnel2b
+msgid ""
+"A sign says 'Arcir'\n"
+"The exit above is blocked though."
+msgstr ""
+
+#: conversationlist_thievesguild_1.json:fallhaven_tunnel2c
+msgid "Attention - the catacombs. Keep silent!"
+msgstr ""
+
+#: conversationlist_thievesguild_1.json:fallhaven_tunnel3
+msgid "Looks like the tunnel isn't quite finished yet."
+msgstr ""
+
+#: conversationlist_thievesguild_1.json:fallhaven_tunnel3:0
+msgid "Typical Troublemaker - can't finish anything."
+msgstr ""
+
+#: conversationlist_thievesguild_1.json:fallhaven_tunnel3:1
+msgid "So I have to go back the way I came."
+msgstr ""
+
 #: conversationlist_farrik.json:farrik_1
 msgid "Hello. I heard that you helped us find the key of Luthor. Good work, it will really come in handy."
 msgstr "Hola. Escuché que nos ayudaste a encontrar la llave de Luthor. Buen trabajo, será muy útil."
@@ -4788,9 +4814,7 @@ msgstr "¿Algún evento reciente?"
 #: conversationlist_farrik.json:farrik_return_2:1
 #: conversationlist_sullengard.json:farrik_inquery:1
 msgid "I asked Dunla about the beer distribution operation and the 'business agreement'. He sent me to you."
-msgstr ""
-"Le pregunté a Dunla acerca de la operación de distribución de cerveza y el "
-"\"acuerdo comercial\". Él me envió con usted."
+msgstr "Le pregunté a Dunla acerca de la operación de distribución de cerveza y el \"acuerdo comercial\". Él me envió con usted."
 
 #: conversationlist_farrik.json:farrik_5
 msgid "Well, there was one thing a few weeks ago. One of our guild members got arrested for trespassing."
@@ -5881,6 +5905,14 @@ msgstr "Necesito que me curen. ¿Puedo ver qué artículos tienen disponibles?"
 msgid "Walk with the Shadow my friend."
 msgstr "Camina con la Sombra, amigo mío."
 
+#: conversationlist_jolnor.json:jolnor_default_3:2
+#: conversationlist_talion.json:talion_0:3
+#: conversationlist_stoutford.json:yolgen_initial_0:7
+#: conversationlist_stoutford.json:tahalendor_rumblings10x_0:5
+#: conversationlist_thoronir_faction_check.json:thoronir_start:4
+msgid "I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable."
+msgstr ""
+
 #: conversationlist_jolnor.json:jolnor_chapel_1
 msgid "This is Vilegard's place of worship for the Shadow. We praise the Shadow in all its might and glory."
 msgstr "Este es el lugar de adoración de Vilegard para la Sombra. Alabamos a la Sombra en toda su fuerza y gloria."
@@ -6966,6 +6998,7 @@ msgstr "¿Puede decirme qué pasó?"
 #: conversationlist_stoutford.json:tahalendor_erwyn_1
 #: conversationlist_omicronrg9.json:guild03_hideout3_exit_2:0
 #: conversationlist_burhczyd.json:burhczydx_1a_4
+#: conversationlist_troubling_times.json:tt_talion_300
 msgid "What are you talking about?"
 msgstr "¿De qué estás hablando?"
 
@@ -7118,6 +7151,7 @@ msgstr "Había anhelado secretamente ir a Feygard, pero no se atrevió a decírt
 #: conversationlist_brimhaven_2.json:kizzo_asd_50:0
 #: conversationlist_gison.json:gael_20_6
 #: conversationlist_laeroth.json:brute_fisherman_4:0
+#: conversationlist_troubling_times.json:tt_sly5_3:0
 msgid "Really?"
 msgstr "¿De veras?"
 
@@ -7479,6 +7513,7 @@ msgstr "Sí, puedo arreglármelas por mí mismo."
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_9:0
 #: conversationlist_hadracor.json:hadracor_accept_2:1
 #: conversationlist_stoutford_combined.json:caeda_60:1
+#: conversationlist_troubling_times.json:tt_sly_213:0
 msgid "No problem."
 msgstr "No hay problema."
 
@@ -11198,6 +11233,8 @@ msgstr "Sí, tienes razón."
 #: conversationlist_gison.json:gison_p2_10_7:1
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_40:0
 #: conversationlist_laeroth.json:gylew7a:1
+#: conversationlist_troubling_times.json:nanath_190:0
+#: conversationlist_troubling_times.json:tt_sly_58:0
 msgid "No."
 msgstr "No"
 
@@ -13182,6 +13219,26 @@ msgstr "¿Sabe algo sobre la enfermedad aquí en Loneford?"
 #: conversationlist_talion_2.json:talion_cured_10:0
 msgid "What blessings can you provide?"
 msgstr "¿Qué bendiciones pueden proporcionar?"
+
+#: conversationlist_talion.json:talion_0:4
+msgid "Sorry, we were interrupted. You were just talking about the Striking Spectacle Shadow spell."
+msgstr ""
+
+#: conversationlist_talion.json:talion_0:5
+msgid "Here I've brought you the things that you require for the dispelling."
+msgstr ""
+
+#: conversationlist_talion.json:talion_0:6
+msgid "Do you know the whereabouts of Sly Seraphina?"
+msgstr ""
+
+#: conversationlist_talion.json:talion_0:7
+msgid "I've brought you the things you had required for dispelling."
+msgstr ""
+
+#: conversationlist_talion.json:talion_0:8
+msgid "Haven't you forgotten something?"
+msgstr ""
 
 #: conversationlist_talion.json:talion_1
 msgid "The people of Loneford are very keen on following the will of Feygard, whatever it may be."
@@ -15842,6 +15899,9 @@ msgstr "Estoy interesado en la bendición del guardián de las Sombras."
 
 #: conversationlist_talion_2.json:talion_bless_1:4
 #: conversationlist_lleglaris.json:lleglaris2:7
+#: conversationlist_troubling_times.json:tt_jolnor_10:0
+#: conversationlist_troubling_times.json:tt_thoronir_10:0
+#: conversationlist_troubling_times.json:tt_yolgen_10:0
 msgid "Never mind."
 msgstr "No importa."
 
@@ -15913,9 +15973,7 @@ msgstr "Oye viejo."
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:1
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:2
 msgid "Hey. I found the Korhald tomb and it had two items that I think might interest you."
-msgstr ""
-"Hola. Encontré la tumba de Korhald y tenía dos objetos que creo que podrían "
-"interesarte."
+msgstr "Hola. Encontré la tumba de Korhald y tenía dos objetos que creo que podrían interesarte."
 
 #: conversationlist_gylew.json:gylew:4
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:3
@@ -17167,6 +17225,7 @@ msgid "However, if you were to find a way to make her disappear, we would of cou
 msgstr "Sin embargo, si encontraras una forma de hacerla desaparecer, por supuesto estaríamos siempre en deuda contigo."
 
 #: conversationlist_jhaeld.json:jhaeld_alg_25:0
+#: conversationlist_troubling_times.json:nanath_44:0
 msgid "I'll see what I can do."
 msgstr "Veré qué puedo hacer."
 
@@ -20579,6 +20638,8 @@ msgid "You should go see the smith in Vile ... haven? Vile ... fall? Argh, I'm n
 msgstr "Deberías ir a ver al herrero de ¿Vile... Haven? ¿Viles.... caer? Argh, no soy muy bueno con los nombres."
 
 #: conversationlist_lodar.json:lodar_xul2:0
+#: conversationlist_troubling_times.json:fanamor_tt_30:0
+#: conversationlist_troubling_times.json:fanamor_tt_30:1
 msgid "Vilegard?"
 msgstr "¿Vilegard?"
 
@@ -22889,6 +22950,7 @@ msgstr "Entonces necesitas una cura contra los hongos gigantes, ¿verdad?"
 #: conversationlist_feygard_1.json:feygard_offering_40_10a:0
 #: conversationlist_feygard_1.json:feygard_offering_40_100a:0
 #: conversationlist_feygard_1.json:feygard_offering_40_1000a:0
+#: conversationlist_troubling_times.json:nanath_152:0
 msgid "Yes."
 msgstr "Sí."
 
@@ -23420,6 +23482,8 @@ msgstr "Más trabajo significa más dinero! Volveré en seguida."
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_77a:0
 #: conversationlist_laeroth.json:gylew_korhald_70:0
 #: conversationlist_feygard_1.json:road_rondel_blocker_brother_3
+#: conversationlist_troubling_times.json:nanath_34
+#: conversationlist_troubling_times.json:nanath_192a:0
 msgid "Of course."
 msgstr "Por supuesto."
 
@@ -24004,6 +24068,7 @@ msgstr "Te dije todo lo que sé. Tal vez otros en la ciudad lo hayan visto."
 
 #: conversationlist_stoutford.json:yolgen_rumblings10_6:0
 #: conversationlist_arulir_mountain.json:tjure_100
+#: conversationlist_troubling_times.json:fanamor_tt_40:0
 msgid "Thank you for your help."
 msgstr "Gracias por tu ayuda."
 
@@ -24108,6 +24173,8 @@ msgstr "Vale, puedo creer que seas el hermano de Andor. ¡Deberías habérmelo d
 #: conversationlist_laeroth.json:lae_centaur1_2:0
 #: conversationlist_laeroth.json:lae_torturer_30:0
 #: conversationlist_laeroth.json:lae_torturer_64:0
+#: conversationlist_troubling_times.json:nanath_10:0
+#: conversationlist_troubling_times.json:nanath_12:0
 msgid "Why?"
 msgstr "Por qué?"
 
@@ -25912,6 +25979,7 @@ msgstr "Nada. Parece que no tienes suficiente dinero. Olvídalo."
 #: conversationlist_ratdom.json:ratdom_fraedro_key_20:0
 #: conversationlist_ratdom.json:ratdom_wakeup_142:0
 #: conversationlist_ratdom.json:ratdom_wakeup_150:0
+#: conversationlist_troubling_times.json:tt_sly5_8:0
 msgid "Oh."
 msgstr "Oh."
 
@@ -28601,6 +28669,8 @@ msgstr "¡Dos rebanadas de pan! Mmmmm."
 #: conversationlist_ratdom.json:ratdom_wells_chest_52:1
 #: conversationlist_ratdom_npc.json:ratdom_rat_220:1
 #: conversationlist_bwmfill.json:tunlon_prog_1:0
+#: conversationlist_troubling_times.json:nanath_150:1
+#: conversationlist_troubling_times.json:tt_sly_300:0
 msgid "Well ..."
 msgstr "Bueno..."
 
@@ -28614,6 +28684,7 @@ msgstr "Y el queso, ¡cómo lo echaba de menos!"
 #: conversationlist_ratdom.json:ratdom_wakeup_130:0
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_12:0
 #: conversationlist_bwmfill.json:tunlon_prog_17a
+#: conversationlist_troubling_times.json:tt_talion_84:0
 msgid "But ..."
 msgstr "Pero..."
 
@@ -30147,9 +30218,7 @@ msgstr "Te ves feliz de nuevo."
 
 #: conversationlist_stoutford_combined.json:odirath_0:5
 msgid "Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you."
-msgstr ""
-"¿De verdad pediste una figura de porcelana tan fea? Ups, lo siento, no quise "
-"ofenderte."
+msgstr "¿De verdad pediste una figura de porcelana tan fea? Ups, lo siento, no quise ofenderte."
 
 #: conversationlist_stoutford_combined.json:odirath_1
 msgid "I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know more."
@@ -30947,6 +31016,7 @@ msgid "Gyra? My dearest and most eager listener?"
 msgstr "¿Gyra? Mi mas querida y más ansiosa oyente?"
 
 #: conversationlist_stoutford_combined.json:berbane_20:0
+#: conversationlist_troubling_times.json:nanath_120:0
 msgid "Seems so."
 msgstr "Eso parece."
 
@@ -32060,7 +32130,7 @@ msgid "The two women eventually separate and walk away from each other. You can'
 msgstr "Las dos mujeres finalmente se separan y se alejan una de la otra. No puedes ver sus caras desde aquí, pero sabes quiénes son probablemente."
 
 #: conversationlist_bugfix_0_7_4.json:lookout_down
-msgid "You see the montain top you are standing on."
+msgid "You see the mountain top you are standing on."
 msgstr "Ves la cima de la montaña sobre la que estás parado."
 
 #: conversationlist_bugfix_0_7_4.json:lookout_down:0
@@ -32563,6 +32633,7 @@ msgstr "¡Bien hecho chico! Ahora puedes considerarte lo suficientemente hábil 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_54a
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_13:0
 #: conversationlist_bwmfill.json:tinlyn_fence_1a:0
+#: conversationlist_troubling_times.json:tt_sly_310:0
 msgid "Thank you!"
 msgstr "¡Gracias!"
 
@@ -32679,6 +32750,10 @@ msgstr "No fue nada. Adiós."
 msgid "It's my job. Nice to see you survived those anklebiters ..."
 msgstr "Es mi trabajo. Es bueno ver que sobreviviste a esos mordedores de tobillos ..."
 
+#: conversationlist_omicronrg9.json:fanamor_guild_10:2
+msgid "Hmm, maybe you can help me?"
+msgstr ""
+
 #: conversationlist_omicronrg9.json:umar_guild_4b
 msgid "What have you decided?"
 msgstr "¿Qué has decidido?"
@@ -32740,7 +32815,7 @@ msgid "OK, in that case tell me what it is."
 msgstr "OK, en ese caso dime qué es."
 
 #: conversationlist_omicronrg9.json:umar_guild02_5a
-msgid "But first I have to clarify something. You need to be more careful not to give information to outsiders about the Thieves Guild."
+msgid "But first I have to clarify something. You need to be more careful not to give information to outsiders about the Thieves' Guild."
 msgstr "Pero primero tengo que aclarar algo. Debes tener más cuidado de no dar información a forasteros sobre el gremio de ladrones."
 
 #: conversationlist_omicronrg9.json:umar_guild02_5a:0
@@ -34329,7 +34404,7 @@ msgstr "¡Hmm! Y ahora a los negocios. Aquí tienes tu recompensa por un trabajo
 #: conversationlist_omicronrg9.json:umar_guild03_30
 msgid ""
 "Take 4000 gold coins, and some bottles of my favorite mead.\n"
-"Now you deserve a good rest, my friend. You have earned the trust of the Thieves Guild."
+"Now you deserve a good rest, my friend. You have earned the trust of the Thieves' Guild."
 msgstr ""
 "Toma 4,000 monedas de oro, y algunas botellas de mi aguamiel favorita.\n"
 "Te mereces un buen descanso, amigo mío. Te has ganado la confianza del Gremio de los Ladrones."
@@ -34741,7 +34816,7 @@ msgid "Sweet justice with small information?"
 msgstr "¿Dulce justicia con poca información?"
 
 #: conversationlist_omicronrg9.json:umar_guild04_22
-msgid "He said that they will no longer be a part of the thieves guild. They are now referring to themselves as 'Aidem'."
+msgid "He said that they will no longer be a part of the Thieves' Guild. They are now referring to themselves as 'Aidem'."
 msgstr "Dijo que ya no serán parte del gremio de ladrones. Ahora se refieren a sí mismos como 'Aidem'."
 
 #: conversationlist_omicronrg9.json:umar_guild04_22:0
@@ -34863,8 +34938,7 @@ msgstr "En efecto. Siempre hace preguntas como lo haría un niño curioso. Dime,
 
 #: conversationlist_omicronrg9.json:guild04_defy_3:0
 msgid "Umar told me that it is time to give their share to the bootleg brewers."
-msgstr ""
-"Umar me dijo que es hora de entregar su parte a los cerveceros clandestinos."
+msgstr "Umar me dijo que es hora de entregar su parte a los cerveceros clandestinos."
 
 #: conversationlist_omicronrg9.json:guild04_defy_3:1
 msgid "Umar sent me for our business."
@@ -34872,8 +34946,7 @@ msgstr "Umar me envió por nuestro negocio."
 
 #: conversationlist_omicronrg9.json:guild04_defy_4
 msgid "The time of sharing? If that's so, then tell him that there will be a delay."
-msgstr ""
-"Si se trata del momento de compartir, entonces dile que habrá un retraso."
+msgstr "Si se trata del momento de compartir, entonces dile que habrá un retraso."
 
 #: conversationlist_omicronrg9.json:guild04_defy_4:1
 msgid "A delay of what?"
@@ -34881,9 +34954,7 @@ msgstr "¿Un retraso de qué?"
 
 #: conversationlist_omicronrg9.json:guild04_defy_5
 msgid "Just mind your own business, kid. Now, get out of here or I'll kick you out."
-msgstr ""
-"Ocúpate de tus propios asuntos, muchacho. Ahora, largo de aquí o te saco a "
-"patadas."
+msgstr "Ocúpate de tus propios asuntos, muchacho. Ahora, largo de aquí o te saco a patadas."
 
 #: conversationlist_omicronrg9.json:guild04_defy_5:0
 msgid "You will be the one who's kicked out of here."
@@ -34895,9 +34966,7 @@ msgstr "Tú serás el único culpable aquí."
 
 #: conversationlist_omicronrg9.json:guild04_defy_gone_script_grant
 msgid "Strange. Defy and his men are gone. Maybe they talked with the bootleg brewers here and reported back to Umar?"
-msgstr ""
-"Qué extraño. Defy y sus hombres se han ido. ¿Tal vez hablaron con los "
-"cerveceros clandestinos aquí e informaron a Umar?"
+msgstr "Qué extraño. Defy y sus hombres se han ido. ¿Tal vez hablaron con los cerveceros clandestinos aquí e informaron a Umar?"
 
 #: conversationlist_arulir_mountain.json:arulirmountain_entrance
 msgid "You have a gut feeling that it would be better to not go any further unprepared."
@@ -36201,9 +36270,7 @@ msgstr "Ahora tengo mucha curiosidad por la historia. Cuéntame cómo te ha ido 
 
 #: conversationlist_burhczyd.json:burhczydx_11a_4
 msgid "Oh that. I got bored playing Knight of the Elythom. I then spread the word that I was walking around dressed as one."
-msgstr ""
-"Ah, eso. Me aburrí de jugar a Knight of the Elythom. Entonces hice correr la "
-"voz de que andaba por ahí vestido como uno de ellos."
+msgstr "Ah, eso. Me aburrí de jugar a Knight of the Elythom. Entonces hice correr la voz de que andaba por ahí vestido como uno de ellos."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_5
 msgid "They are still searching and now suspect each other! Extremely amusing!"
@@ -39810,6 +39877,7 @@ msgstr "No es necesario. Regreso en un minuto."
 #: conversationlist_ratdom.json:ratdom_rat_conv2_20d:2
 #: conversationlist_feygard_1.json:swamp_witch_20_24
 #: conversationlist_feygard_1.json:troll_hollow_godelieve_2:0
+#: conversationlist_troubling_times.json:nanath_72
 msgid "And?"
 msgstr "¿Y?"
 
@@ -42017,6 +42085,7 @@ msgid "No?"
 msgstr "¿No?"
 
 #: conversationlist_fungi_panic.json:bogsten_52_12:1
+#: conversationlist_troubling_times.json:tt_sly_12:0
 msgid "You are right."
 msgstr "Tienes razón."
 
@@ -44135,6 +44204,7 @@ msgstr "Alaun me dijo que también haces una sopa muy rica."
 
 #: conversationlist_gison.json:nimael_busy:1
 #: conversationlist_gorwath.json:gorwath_exit:0
+#: conversationlist_troubling_times.json:umar_tt_132:2
 msgid "OK. Bye."
 msgstr "Bueno. Adiós."
 
@@ -44248,9 +44318,7 @@ msgstr "Aquí, tengo 10 buenas piezas de carne para ti. Aunque, no puedo promete
 
 #: conversationlist_gison.json:gael_20_6:2
 msgid "Here, I have 10 nice pieces of lamb meat for you. Maybe not as good as snake though."
-msgstr ""
-"Aquí tengo 10 Buenos trozos de carne de cordero para tí. Quizá no tan buena "
-"como la de serpiente."
+msgstr "Aquí tengo 10 Buenos trozos de carne de cordero para tí. Quizá no tan buena como la de serpiente."
 
 #: conversationlist_gison.json:gael_20_6:3
 msgid "Here, I have 8 nice pieces of snake meat for you."
@@ -49658,7 +49726,7 @@ msgid "Calm down. I will find a way to help you."
 msgstr "Tranquilízate. Encontraré la forma de ayudarte."
 
 #: conversationlist_sullengard.json:sullengard_matpat_6
-msgid "Thank you. You are my only hope here. I don't trust those unlawful Feygard soldiers. You should talk to the head of the Thieves Guild about this."
+msgid "Thank you. You are my only hope here. I don't trust those unlawful Feygard soldiers. You should talk to the head of the Thieves' Guild about this."
 msgstr "Gracias. Eres mi única esperanza aquí. No confío en esos soldados ilegales de Feygard. Deberías hablar con el jefe del Gremio de Ladrones sobre esto."
 
 #: conversationlist_sullengard.json:sullengard_matpat_6:0
@@ -49706,15 +49774,11 @@ msgstr "Queremos contribuir con monedas de oro para tu pérdida financiera."
 
 #: conversationlist_sullengard.json:sullengard_mayor_2
 msgid "No. We still don't know where that traitor is. How can we ever sleep peacefully and live sufficiently with this tragic situation?"
-msgstr ""
-"No. Nosotros aún no sabemos donde está el traidor. ¿Cómo vamos nunca a "
-"dormir tranquilamente y vivir suficiente con esta trágica situación?"
+msgstr "No. Nosotros aún no sabemos donde está el traidor. ¿Cómo vamos nunca a dormir tranquilamente y vivir suficiente con esta trágica situación?"
 
 #: conversationlist_sullengard.json:sullengard_mayor_3
 msgid "But please talk to my fellow bootleg brewers. Maybe they know something."
-msgstr ""
-"Pero, por favor, habla con mis colegas cerveceros clandestinos. Tal vez "
-"sepan algo."
+msgstr "Pero, por favor, habla con mis colegas cerveceros clandestinos. Tal vez sepan algo."
 
 #: conversationlist_sullengard.json:sullengard_mayor_3:0
 msgid "I will. Stay strong."
@@ -49726,8 +49790,7 @@ msgstr "¡Bah! Alcalde inútil."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4
 msgid "Finally, at least we can survive for a day with a beer and some bread."
-msgstr ""
-"Finalmente al menos podemos sobrevivir por un día con cerveza y algo de pan."
+msgstr "Finalmente al menos podemos sobrevivir por un día con cerveza y algo de pan."
 
 #: conversationlist_sullengard.json:sullengard_mayor_4:0
 msgid "Here's 50000 gold coins."
@@ -49784,9 +49847,7 @@ msgstr "Pequeños éxitos ocurren antes que los grandes."
 
 #: conversationlist_sullengard.json:sullengard_mayor_5
 msgid "Thank you so much again, kid. You are just like your brother Andor. After we are done speaking, you really should speak with my assistant, Maddalena."
-msgstr ""
-"De nuevo, muchas gracias niño. Tu eres justo como tu hermano Andor. Tras "
-"terminar de hablar, realmente debes hablar con mi asistente, Maddalena."
+msgstr "De nuevo, muchas gracias niño. Tu eres justo como tu hermano Andor. Tras terminar de hablar, realmente debes hablar con mi asistente, Maddalena."
 
 #: conversationlist_sullengard.json:sullengard_mayor_5:0
 msgid "Of course, he is my brother."
@@ -49799,9 +49860,7 @@ msgstr "¿Cómo lo sabes?"
 
 #: conversationlist_sullengard.json:sullengard_mayor_6
 msgid "He is taller than you, of course, but you guys have a very similiar looking face. He is one of the most active members in your guild."
-msgstr ""
-"Él es más alto que tú, por supuesto, pero los dos tienen una cara muy "
-"parecida. Él es uno de los miembros más activos de nuestro gremio."
+msgstr "Él es más alto que tú, por supuesto, pero los dos tienen una cara muy parecida. Él es uno de los miembros más activos de nuestro gremio."
 
 #: conversationlist_sullengard.json:sullengard_mayor_6:0
 msgid "Oh, is he?"
@@ -49832,7 +49891,7 @@ msgid "I need somewhere to relax and refresh. Do you have a bed available?"
 msgstr "Necesito un lugar donde relajarme y refrescarme. ¿Tiene una cama disponible?"
 
 #: conversationlist_sullengard.json:sullengard_godrey_10:2
-msgid "Do you know by chance where this lost travelor is?"
+msgid "Do you know by chance where this lost traveler is?"
 msgstr "¿Sabe por casualidad dónde está este viajero perdido?"
 
 #: conversationlist_sullengard.json:sullengard_godrey_20
@@ -49848,10 +49907,8 @@ msgid "Well, it will cost you 700 gold! Beds are always in high demand before an
 msgstr "Pues te costará 700 de oro. Las camas siempre están muy solicitadas antes y durante El Festival de la Cerveza."
 
 #: conversationlist_sullengard.json:sullengard_godrey_30:1
-msgid "I'll take it, but I have to say that you really should join the thieves guild with that attitude!"
-msgstr ""
-"Lo tomaré, pero tengo que decir que ¡realmente deberías unirte al gremio de "
-"ladrones con esa actitud!"
+msgid "I'll take it, but I have to say that you really should join the Thieves' Guild with that attitude!"
+msgstr "Lo tomaré, pero tengo que decir que ¡realmente deberías unirte al gremio de ladrones con esa actitud!"
 
 #: conversationlist_sullengard.json:sullengard_godrey_40
 msgid "Thank you! It pays to be the owner. You can use any available bed."
@@ -49895,30 +49952,19 @@ msgstr "Solía ir allí cuando era un joven discípulo."
 
 #: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_3
 msgid "One time, I was sitting on the bench thinking about how the Feygard soldiers can sleep at night with all of their unlawful taxes placed on the citizens of Sullengard causing all this financial trouble on the people."
-msgstr ""
-"Una vez, estaba sentado en el banco pensando en cómo los soldados de Feygard "
-"pueden dormir por la noche con todos sus impuestos ilegales impuestos a los "
-"ciudadanos de Sullengard, causando todos estos problemas financieros a la "
-"gente."
+msgstr "Una vez, estaba sentado en el banco pensando en cómo los soldados de Feygard pueden dormir por la noche con todos sus impuestos ilegales impuestos a los ciudadanos de Sullengard, causando todos estos problemas financieros a la gente."
 
 #: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_4
 msgid "My anger arose to the point that I lifted up a large rock and threw it in the pond."
-msgstr ""
-"Mi ira llegó al punto de que levanté una gran roca y la arrojé al estanque."
+msgstr "Mi ira llegó al punto de que levanté una gran roca y la arrojé al estanque."
 
 #: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_5
 msgid "After that, I saw some snappers emerge from the pond and attack me before I even realized what had happened. Good thing they are too slow to catch me as I quickly composed myself and limped home."
-msgstr ""
-"Después de eso, vi a algunos snapping turtles salir del estanque y atacarme "
-"antes de que me diera cuenta de lo que había pasado. Menos mal que son "
-"demasiado lentos para atraparme, ya que rápidamente me recompuse y cojeé "
-"hacia casa."
+msgstr "Después de eso, vi a algunos snapping turtles salir del estanque y atacarme antes de que me diera cuenta de lo que había pasado. Menos mal que son demasiado lentos para atraparme, ya que rápidamente me recompuse y cojeé hacia casa."
 
 #: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_6
 msgid "The moral of my story is to never again to throw rocks there, be it small or large. Thank you for listening. Please talk to Nanette about this."
-msgstr ""
-"La moraleja de mi historia es no volver a lanzar piedras allí, sean pequeñas "
-"o grandes. Gracias por escuchar. Por favor, habla con Nanette sobre esto."
+msgstr "La moraleja de mi historia es no volver a lanzar piedras allí, sean pequeñas o grandes. Gracias por escuchar. Por favor, habla con Nanette sobre esto."
 
 #: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_6:0
 msgid "Oh, I understand now. I have to tell her about this one. Bye"
@@ -49926,9 +49972,7 @@ msgstr "Oh, ahora entiendo. Tengo que contarle sobre esto. Adiós"
 
 #: conversationlist_sullengard.json:sullengard_kealwea_pond_safety_6:1
 msgid "Oh, good thing it's not a long story. I'm about to start snoring here. Bye."
-msgstr ""
-"Oh, menos mal que no es una historia larga. Estoy a punto de empezar a "
-"roncar aquí. Adiós."
+msgstr "Oh, menos mal que no es una historia larga. Estoy a punto de empezar a roncar aquí. Adiós."
 
 #: conversationlist_sullengard.json:sullengard_highwayman
 msgid "I've been looking for someone who fits your description."
@@ -49941,9 +49985,7 @@ msgstr "¿Tienes? ¿Por qué?"
 #: conversationlist_sullengard.json:sullengard_highwayman_2a
 #: conversationlist_sullengard.json:sullengard_highwayman_2b
 msgid "Yes! You are the one that has killed my fellow \"road travellers\" and now you must pay!"
-msgstr ""
-"¡Sí! ¡Eres tú quien ha matado a mis compañeros \"viajeros de la carretera\" "
-"y ahora debes pagar!"
+msgstr "¡Sí! ¡Eres tú quien ha matado a mis compañeros \"viajeros de la carretera\" y ahora debes pagar!"
 
 #: conversationlist_sullengard.json:sullengard_highwayman_2a:0
 #: conversationlist_sullengard.json:sullengard_highwayman_2b:0
@@ -49953,9 +49995,7 @@ msgstr "¡Que venga!"
 
 #: conversationlist_sullengard.json:sullengard_highwayman_3
 msgid "Yes, you do look like him. He is the one who helped Sullengard financially on many occasions."
-msgstr ""
-"Sí, sí te pareces a él. Él es quien ayudó a Sullengard financieramente en "
-"muchas ocasiones."
+msgstr "Sí, sí te pareces a él. Él es quien ayudó a Sullengard financieramente en muchas ocasiones."
 
 #: conversationlist_sullengard.json:sullengard_highwayman_3:0
 msgid "Hey, it must be my brother Andor! Tell me more about him. "
@@ -49963,9 +50003,7 @@ msgstr "¡Hola, debe ser mi hermano Andor! Cuéntame más sobre él. "
 
 #: conversationlist_sullengard.json:sullengard_highwayman_4
 msgid "Pay me 750 gold coins first or I'll rob you and then the Sullengard for my living!"
-msgstr ""
-"¡Págame primero 750 monedas de oro o te robaré a ti y luego al Sullengard "
-"para ganarme la vida!"
+msgstr "¡Págame primero 750 monedas de oro o te robaré a ti y luego al Sullengard para ganarme la vida!"
 
 #: conversationlist_sullengard.json:sullengard_highwayman_4:0
 msgid "Fine. Here's 750 gold coins. Now, tell me about him. "
@@ -50029,27 +50067,19 @@ msgstr "Bienvenido a la casa de la familia Bruyere, ganadora en cinco ocasiones 
 
 #: conversationlist_sullengard.json:sullengard_briwerra_family_sign
 msgid "Welcome to the Briwerra family home, three-time winners of the 'Best beer in festival' competition."
-msgstr ""
-"Bienvenidos a la casa de la familia Briwerra, tres veces ganadores del "
-"concurso 'Mejor cerveza del festival'."
+msgstr "Bienvenidos a la casa de la familia Briwerra, tres veces ganadores del concurso 'Mejor cerveza del festival'."
 
 #: conversationlist_sullengard.json:sullengard_brueria_family_sign
 msgid "Welcome to the Brueria family home, four-time winners of the 'Best beer in festival' competition."
-msgstr ""
-"Bienvenidos a la casa de la familia Brueria, cuatro veces ganadores del "
-"concurso 'Mejor cerveza del festival'."
+msgstr "Bienvenidos a la casa de la familia Brueria, cuatro veces ganadores del concurso 'Mejor cerveza del festival'."
 
 #: conversationlist_sullengard.json:sullengard_brewere_family_sign
 msgid "Welcome to the Brewere family home, five-time winners of the 'Best beer in festival' competition."
-msgstr ""
-"Bienvenidos a la casa de la familia Brewere, cinco veces ganadores del "
-"concurso 'Mejor cerveza del festival'."
+msgstr "Bienvenidos a la casa de la familia Brewere, cinco veces ganadores del concurso 'Mejor cerveza del festival'."
 
 #: conversationlist_sullengard.json:sullengard_biermann_family_sign
 msgid "Welcome to the Biermann family home, two-time winners of the 'Best beer in festival' competition."
-msgstr ""
-"Bienvenidos a la casa de la familia Biermann, dos veces ganadores del "
-"concurso 'Mejor cerveza del festival'."
+msgstr "Bienvenidos a la casa de la familia Biermann, dos veces ganadores del concurso 'Mejor cerveza del festival'."
 
 #: conversationlist_sullengard.json:sullengard_bierington_family_sign
 msgid "Welcome to the Bierington family home."
@@ -50057,9 +50087,7 @@ msgstr "Bienvenidos a la casa de la familia Bierington."
 
 #: conversationlist_sullengard.json:sullengard_drinking_brother_0
 msgid "Hey there kid. Us three here are brothers from Stoutford, but we travel all the way here for the vast greatness of brews! [burp]"
-msgstr ""
-"Hola, chico. Nosotros tres aquí somos hermanos de Stoutford, ¡pero viajamos "
-"hasta aquí por la inmensa grandeza de las cervezas! [eructo]"
+msgstr "Hola, chico. Nosotros tres aquí somos hermanos de Stoutford, ¡pero viajamos hasta aquí por la inmensa grandeza de las cervezas! [eructo]"
 
 #: conversationlist_sullengard.json:sullengard_drinking_brother_0:0
 msgid "Stoutford? Where's that?"
@@ -50248,6 +50276,7 @@ msgstr ""
 #: conversationlist_ratdom.json:ratdom_rat_conv2_417:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_20:0
 #: conversationlist_bwmfill.json:tunlon_andor_5:0
+#: conversationlist_troubling_times.json:tt_sly_76:0
 msgid "And then?"
 msgstr ""
 
@@ -51713,7 +51742,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_10
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_33
-msgid "The thieves guild? Are you sure?"
+msgid "The Thieves' Guild? Are you sure?"
 msgstr ""
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_10:0
@@ -52473,7 +52502,7 @@ msgid "What else can you tell me?"
 msgstr ""
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_32:0
-msgid "I know that the thieves guild are the ones helping the people of Sullengard distribute their beer."
+msgid "I know that the Thieves' Guild are the ones helping the people of Sullengard distribute their beer."
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_generic
@@ -52601,7 +52630,7 @@ msgid "If you are here about a tax complaint or a land dispute, then please sign
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_godrey_10a
-msgid "Sure. Look at the table over there. He is my best customer at he moment."
+msgid "Sure. Look at the table over there. He is my best customer at the moment."
 msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_ravine_ledge_10b
@@ -53029,6 +53058,8 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_artefact_la_10
 #: conversationlist_ratdom_npc.json:ratdom_rat_240:1
+#: conversationlist_troubling_times.json:umar_tt:0
+#: conversationlist_troubling_times.json:tt_sly5_30:0
 msgid "Wait ..."
 msgstr ""
 
@@ -54831,6 +54862,7 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_16:0
 #: conversationlist_mt_galmore.json:bela_witch_20:0
+#: conversationlist_troubling_times.json:nanath_22:0
 msgid "So?"
 msgstr ""
 
@@ -57085,6 +57117,14 @@ msgstr ""
 msgid "Yes, ma'am."
 msgstr ""
 
+#: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:2
+msgid "The Guild needs you. Umar ..."
+msgstr ""
+
+#: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:3
+msgid "Hi Seraphina, you were away so quickly after you gave me Luthor's ring."
+msgstr ""
+
 #: conversationlist_mt_galmore.json:thief_seraphina_20
 msgid "Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold."
 msgstr ""
@@ -57306,7 +57346,7 @@ msgid "Feygard? Nor City?"
 msgstr ""
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:2
-msgid "The Thieves Guild?"
+msgid "The Thieves' Guild?"
 msgstr ""
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76
@@ -57314,7 +57354,7 @@ msgid "Well, yes. But not right now. Those adventures are too big for us right n
 msgstr ""
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76a
-msgid "I'm talking about the Thieves Guild."
+msgid "I'm talking about the Thieves' Guild."
 msgstr ""
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76a:0
@@ -57810,8 +57850,12 @@ msgstr ""
 msgid "Oh, you want to play dumb? Umar will hear about this!"
 msgstr ""
 
+#: conversationlist_mt_galmore.json:thief_seraphina_81:1
+msgid "No time to joke - the Guild needs you. Umar ..."
+msgstr ""
+
 #: conversationlist_mt_galmore.json:wild6_house_hatch_defy_killed_no_key
-msgid "I should come back with the Thieves Guild key."
+msgid "I should come back with the Thieves' Guild key."
 msgstr ""
 
 #: conversationlist_mt_galmore.json:bela_witch_10
@@ -59470,12 +59514,7 @@ msgstr ""
 
 #: conversationlist_laeroth.json:gylew5
 msgid "This one here was cut during the rise of Elythara and is quite rare and valuable. But this other one here is a more common coin as it was cut during Geomyr's rule. While this one here is from a far off land and is a part of a larger collection that has long been broken up by past pirates and thieves."
-msgstr ""
-"Esta moneda se acuñó durante el ascenso de Elythara y es bastante rara y "
-"valiosa. Pero esta otra es una moneda más común, ya que se acuñó durante el "
-"gobierno de Geomyr. Mientras que esta es de una tierra lejana y forma parte "
-"de una colección más grande que hace mucho tiempo fue desmembrada por "
-"piratas y ladrones del pasado."
+msgstr "Esta moneda se acuñó durante el ascenso de Elythara y es bastante rara y valiosa. Pero esta otra es una moneda más común, ya que se acuñó durante el gobierno de Geomyr. Mientras que esta es de una tierra lejana y forma parte de una colección más grande que hace mucho tiempo fue desmembrada por piratas y ladrones del pasado."
 
 #: conversationlist_laeroth.json:gylew5:0
 msgid "Oh, I see."
@@ -59899,9 +59938,7 @@ msgstr ""
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:5
 msgid "I have not gone back to see Gylew since our last encounter. Why am I wasting time talking to you when the job is not done yet?"
-msgstr ""
-"No he vuelto a ver a Gylew desde nuestro último encuentro. Por qué pierdo el "
-"tiempo hablando contigo cuando el trabajo aún no está hecho?"
+msgstr "No he vuelto a ver a Gylew desde nuestro último encuentro. Por qué pierdo el tiempo hablando contigo cuando el trabajo aún no está hecho?"
 
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:6
 msgid "Hey. I need to go now and follow this map."
@@ -60373,13 +60410,9 @@ msgid ""
 "\n"
 "Always remember the chant \"estray inyay eacepay\". This chant will only work if you are the one that raised the spirit, but then it is very effective. Unless it is especially angry this will send it back to its rest on the other side.\""
 msgstr ""
-"\"Para empezar, hay que recalcar que resucitar a los espíritus de los "
-"muertos es peligroso. No les gusta que los molesten.\n"
+"\"Para empezar, hay que recalcar que resucitar a los espíritus de los muertos es peligroso. No les gusta que los molesten.\n"
 "\n"
-"Recuerda siempre el cántico \"estray inyay eacepay\". Este cántico solo "
-"funcionará si eres tú quien resucita al espíritu, pero en ese caso es muy "
-"efectivo. A menos que esté especialmente enfadado, esto lo enviará de vuelta "
-"a su lugar de descanso en el otro lado.\""
+"Recuerda siempre el cántico \"estray inyay eacepay\". Este cántico solo funcionará si eres tú quien resucita al espíritu, pero en ese caso es muy efectivo. A menos que esté especialmente enfadado, esto lo enviará de vuelta a su lugar de descanso en el otro lado.\""
 
 #: conversationlist_laeroth.json:book_found_5
 msgid "\"The spirit's natural state is one of rest, therefore raising a spirit is much more difficult than sending one back to its rest on the other side.\""
@@ -60682,12 +60715,7 @@ msgstr ""
 
 #: conversationlist_laeroth.json:cuned_3:0
 msgid "Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I ask you to release him from the oath. Verigil said he cannot, because it is not his branch of the family. Eyvipa refused, because he was not made Lord."
-msgstr ""
-"Tu familia ha abandonado Laeroth y ahora está abandonada. Pero el cuidador "
-"sigue aquí. Está obligado por un juramento que hizo su tatarabuelo. Como "
-"aquí no vive nadie más que él, te pido que lo liberes de ese juramento. "
-"Verigil dijo que no puede, porque no es su rama de la familia. Eyvipa se "
-"negó, porque no fue nombrado Señor."
+msgstr "Tu familia ha abandonado Laeroth y ahora está abandonada. Pero el cuidador sigue aquí. Está obligado por un juramento que hizo su tatarabuelo. Como aquí no vive nadie más que él, te pido que lo liberes de ese juramento. Verigil dijo que no puede, porque no es su rama de la familia. Eyvipa se negó, porque no fue nombrado Señor."
 
 #: conversationlist_laeroth.json:cuned_4
 msgid ""
@@ -60818,13 +60846,7 @@ msgstr ""
 
 #: conversationlist_laeroth.json:audela_1:0
 msgid "Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I asked Jerelin to release him from the oath. Verigil and Cuned cannot, because it is not their branch of the family. Eyvipa refused, because he was not made Lord. Jerelin just ignored me. Cuned suggested I talk to you about that."
-msgstr ""
-"Tu familia ha abandonado Laeroth y ahora está abandonada. Pero el cuidador "
-"sigue aquí. Está obligado por un juramento que hizo su tatarabuelo. Como "
-"aquí no vive nadie más que él, le pedí a Jerelin que lo liberara del "
-"juramento. Verigil y Cuned no pueden, porque no es su rama de la familia. "
-"Eyvipa se negó, porque no fue nombrado Señor. Jerelin simplemente me ignoró. "
-"Cuned sugirió que hablara contigo sobre eso."
+msgstr "Tu familia ha abandonado Laeroth y ahora está abandonada. Pero el cuidador sigue aquí. Está obligado por un juramento que hizo su tatarabuelo. Como aquí no vive nadie más que él, le pedí a Jerelin que lo liberara del juramento. Verigil y Cuned no pueden, porque no es su rama de la familia. Eyvipa se negó, porque no fue nombrado Señor. Jerelin simplemente me ignoró. Cuned sugirió que hablara contigo sobre eso."
 
 #: conversationlist_laeroth.json:audela_2
 msgid ""
@@ -60832,13 +60854,7 @@ msgid ""
 "\n"
 "[You take the oegyth crystal. There is almost no gleam left in it.]"
 msgstr ""
-"¡Qué típico de mi marido! Siempre encontraba excusas para hacer algo "
-"distinto a lo que yo le pedía. O eso, o simplemente se escondía en algún "
-"lugar de la mansión para que yo ni siquiera pudiera encontrarlo. Siempre "
-"daba la excusa de que estaba haciendo \"algo importante\". ¿Qué es más "
-"importante que hacer lo que tu esposa te dice que hagas? Esto debe hacerse, "
-"y tú le dices que yo le estoy diciendo que lo haga. ¡Si no lo hace, sentirá "
-"mi presencia en su tumba!\n"
+"¡Qué típico de mi marido! Siempre encontraba excusas para hacer algo distinto a lo que yo le pedía. O eso, o simplemente se escondía en algún lugar de la mansión para que yo ni siquiera pudiera encontrarlo. Siempre daba la excusa de que estaba haciendo \"algo importante\". ¿Qué es más importante que hacer lo que tu esposa te dice que hagas? Esto debe hacerse, y tú le dices que yo le estoy diciendo que lo haga. ¡Si no lo hace, sentirá mi presencia en su tumba!\n"
 "\n"
 "[Tomas el cristal de oegyth. Casi no queda brillo en él.]"
 
@@ -60984,17 +61000,11 @@ msgid ""
 "I wish you the best,\n"
 "Adakin.\""
 msgstr ""
-"Aquí hay un cofre que contiene lo que el cuidador dejó atrás. Tal vez haya "
-"algo aquí sobre el último señor.\n"
+"Aquí hay un cofre que contiene lo que el cuidador dejó atrás. Tal vez haya algo aquí sobre el último señor.\n"
 "\n"
 "Hay una carta que dice:\n"
 "\"Querido Moriath.\n"
-"Muchas gracias por tu servicio a lo largo de los años. Lamentablemente, he "
-"decidido que es hora de dejar la mansión. Necesito encontrar mi futuro y no "
-"creo que esté aquí. Iré al sur y veré qué me depara el destino. Sé que el "
-"camino será duro, pero me entrenaron bien en el manejo de armas. No puedo "
-"llevarme todo conmigo, así que he puesto las cosas que me importan, incluido "
-"mi diario, en un cofre en la planta baja. Volveré por ellas cuando pueda.\n"
+"Muchas gracias por tu servicio a lo largo de los años. Lamentablemente, he decidido que es hora de dejar la mansión. Necesito encontrar mi futuro y no creo que esté aquí. Iré al sur y veré qué me depara el destino. Sé que el camino será duro, pero me entrenaron bien en el manejo de armas. No puedo llevarme todo conmigo, así que he puesto las cosas que me importan, incluido mi diario, en un cofre en la planta baja. Volveré por ellas cuando pueda.\n"
 "Te deseo lo mejor,\n"
 "Adakin.\""
 
@@ -61038,12 +61048,7 @@ msgid ""
 msgstr ""
 "Dice:\n"
 "\n"
-"\"Necesito ir a buscar mi destino. No está aquí, en la mansión, así que debo "
-"ponerme en marcha y encontrar lo que me espera. Iré al sur, al legendario "
-"camino de Duleian. ¿Qué haré entonces? Tomaré una decisión cuando llegue "
-"allí. ¿Hacia el noroeste, a Feygard, o hacia el sureste, a la ciudad de Nor? "
-"Tal vez visite ambas ciudades y tome una decisión final solo entonces. "
-"Espero que el destino me muestre el camino correcto.\n"
+"\"Necesito ir a buscar mi destino. No está aquí, en la mansión, así que debo ponerme en marcha y encontrar lo que me espera. Iré al sur, al legendario camino de Duleian. ¿Qué haré entonces? Tomaré una decisión cuando llegue allí. ¿Hacia el noroeste, a Feygard, o hacia el sureste, a la ciudad de Nor? Tal vez visite ambas ciudades y tome una decisión final solo entonces. Espero que el destino me muestre el camino correcto.\n"
 "Adiós Laeroth.\""
 
 #: conversationlist_laeroth.json:last_lord_final_0b:0
@@ -61769,6 +61774,7 @@ msgid "Did it? You must have dreamed that."
 msgstr ""
 
 #: conversationlist_laeroth.json:lae_algangror2_32:1
+#: conversationlist_troubling_times.json:nanath_42:0
 msgid "Hmm ..."
 msgstr ""
 
@@ -62495,7 +62501,7 @@ msgid "Ah, these coins tell a tale of clandestine dealings and shadowy alliances
 msgstr ""
 
 #: conversationlist_laeroth.json:coin_collector_thief_coins_35
-msgid "These bronze pieces bear the mark of the Lunar Whispe, an infamous thieves' guild that once ruled the underground markets. Legend has it, these coins were minted in secret, their alloy infused with fragments of moonstone to enhance the guild's stealthy endeavors"
+msgid "These bronze pieces bear the mark of the Lunar Whisper, an infamous thieves' guild that once ruled the underground markets. Legend has it, these coins were minted in secret, their alloy infused with fragments of moonstone to enhance the guild's stealthy endeavors"
 msgstr ""
 
 #: conversationlist_laeroth.json:coin_collector_thief_coins_40
@@ -62504,13 +62510,7 @@ msgstr ""
 
 #: conversationlist_laeroth.json:coin_collector_thief_coins_45
 msgid "The silver pieces depict a mighty ship sailing under the moonlit sky, capturing the essence of the Ocean Nomads' freedom and unity. Legends speak of these coins being crafted during the tribe's grand gatherings, where sailors from various corners of the seas exchanged not only goods but also these tokens, forging connections that transcended the vastness of the ocean."
-msgstr ""
-"Las piezas de plata representan un poderoso barco navegando bajo el cielo "
-"iluminado por la luna, capturando la esencia de la libertad y la unidad de "
-"los Nómadas del Océano. Las leyendas hablan de que estas monedas se crearon "
-"durante las grandes reuniones de la tribu, donde los marineros de varios "
-"rincones de los mares intercambiaban no solo bienes sino también estos "
-"símbolos, forjando conexiones que trascendían la inmensidad del océano."
+msgstr "Las piezas de plata representan un poderoso barco navegando bajo el cielo iluminado por la luna, capturando la esencia de la libertad y la unidad de los Nómadas del Océano. Las leyendas hablan de que estas monedas se crearon durante las grandes reuniones de la tribu, donde los marineros de varios rincones de los mares intercambiaban no solo bienes sino también estos símbolos, forjando conexiones que trascendían la inmensidad del océano."
 
 #: conversationlist_laeroth.json:coin_collector_thief_coins_45:0
 msgid "So they are priceless?"
@@ -65018,11 +65018,7 @@ msgstr ""
 
 #: conversationlist_feygard_1.json:coin_collector_troll_coins_2
 msgid "The coins hold a faint echo of the well's enchantment. Though their magic is subtle, they carry the essence of the well's power. As a token of my gratitude for bringing these to me, I offer you this rare artifact in exchange for three of these coins. It is imbued with protective magic, much like these coins."
-msgstr ""
-"Las monedas tienen un leve eco del encanto del pozo. Aunque su magia es "
-"sutil, contienen la esencia del poder del pozo. Como muestra de mi gratitud "
-"por haberme traído estas monedas, te ofrezco este raro artefacto a cambio de "
-"tres de ellas. Está imbuido de magia protectora, al igual que estas monedas."
+msgstr "Las monedas tienen un leve eco del encanto del pozo. Aunque su magia es sutil, contienen la esencia del poder del pozo. Como muestra de mi gratitud por haberme traído estas monedas, te ofrezco este raro artefacto a cambio de tres de ellas. Está imbuido de magia protectora, al igual que estas monedas."
 
 #: conversationlist_feygard_1.json:coin_collector_troll_coins_2:0
 msgid "Without knowing more about this \"rare artifact\", I'm afraid that I will have to pass on your offer."
@@ -65452,20 +65448,11 @@ msgid ""
 msgstr ""
 "Querida Theodora:\n"
 "\n"
-"Hoy he venido a visitarte de nuevo, pero una vez más encuentro tu casa "
-"vacía. Ha pasado casi un mes desde la última vez que te vi y mi corazón se "
-"vuelve más pesado cada día que pasa.\n"
+"Hoy he venido a visitarte de nuevo, pero una vez más encuentro tu casa vacía. Ha pasado casi un mes desde la última vez que te vi y mi corazón se vuelve más pesado cada día que pasa.\n"
 "\n"
-"¿Adónde has ido, querida? El pueblo parece tan tranquilo, como si toda la "
-"vida se hubiera ido. He llamado a tu puerta, he mirado por las ventanas e "
-"incluso he preguntado a las pocas personas que vi en Duleian Road (¿conoces "
-"a Rosmara, la \"señora de la fruta\"), pero nadie te ha visto ni ha oído una "
-"palabra.\n"
+"¿Adónde has ido, querida? El pueblo parece tan tranquilo, como si toda la vida se hubiera ido. He llamado a tu puerta, he mirado por las ventanas e incluso he preguntado a las pocas personas que vi en Duleian Road (¿conoces a Rosmara, la \"señora de la fruta\"), pero nadie te ha visto ni ha oído una palabra.\n"
 "\n"
-"Por favor, si encuentras esta carta, mándame un mensaje de inmediato. No "
-"soporto la idea de que te haya pasado algo. Si simplemente te has ido por un "
-"tiempo, lo entiendo, pero avísame de que estás a salvo. Volveré de nuevo en "
-"una semana, rezando para encontrarte aquí.\n"
+"Por favor, si encuentras esta carta, mándame un mensaje de inmediato. No soporto la idea de que te haya pasado algo. Si simplemente te has ido por un tiempo, lo entiendo, pero avísame de que estás a salvo. Volveré de nuevo en una semana, rezando para encontrarte aquí.\n"
 "\n"
 "Con todo mi amor,\n"
 "Madre"
@@ -65492,22 +65479,11 @@ msgid ""
 "\n"
 "End Entry"
 msgstr ""
-"Han pasado días desde que alguien vio a Odilia. Al principio, pensamos que "
-"podría haber ido a visitar a su hermana en Feygard, pero nunca mencionó que "
-"se fuera. Lo mismo sucedió con Philippa, y ahora también con Godelieve. Es "
-"como si hubieran desaparecido sin dejar rastro, todos mientras dormían. "
-"Recuerdo que Godelieve parecía preocupada la noche antes de desaparecer, "
-"como si estuviera luchando contra una fuerza invisible, pero no le di "
-"importancia. Debería haber sabido que algo andaba mal.\n"
+"Han pasado días desde que alguien vio a Odilia. Al principio, pensamos que podría haber ido a visitar a su hermana en Feygard, pero nunca mencionó que se fuera. Lo mismo sucedió con Philippa, y ahora también con Godelieve. Es como si hubieran desaparecido sin dejar rastro, todos mientras dormían. Recuerdo que Godelieve parecía preocupada la noche antes de desaparecer, como si estuviera luchando contra una fuerza invisible, pero no le di importancia. Debería haber sabido que algo andaba mal.\n"
 "\n"
-"El pueblo se siente diferente ahora, más tranquilo, más vacío. Los hombres "
-"están nerviosos, pero no podemos entender lo que está sucediendo. Las noches "
-"son las peores, llenas de un silencio pesado que hiela los huesos. Temo por "
-"Leofwyn y Theobald, y no puedo evitar preguntarme si algo en la noche los "
-"está llamando.\n"
+"El pueblo se siente diferente ahora, más tranquilo, más vacío. Los hombres están nerviosos, pero no podemos entender lo que está sucediendo. Las noches son las peores, llenas de un silencio pesado que hiela los huesos. Temo por Leofwyn y Theobald, y no puedo evitar preguntarme si algo en la noche los está llamando.\n"
 "\n"
-"Estamos perdiendo la esperanza y me aterroriza lo que pueda suceder a "
-"continuación.\n"
+"Estamos perdiendo la esperanza y me aterroriza lo que pueda suceder a continuación.\n"
 "\n"
 "Fin de la entrada"
 
@@ -65705,6 +65681,22 @@ msgstr ""
 
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_give_ring_free
 msgid "Thank you so much! I really appreciate you just giving it to me. Here are a few coins for your trouble."
+msgstr ""
+
+#: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_10
+msgid "Do you want to jump inside?"
+msgstr ""
+
+#: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_10:0
+msgid "No way! I remember How badly I was hurt the last time."
+msgstr ""
+
+#: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_10:1
+msgid "Yes. What choice do I have?"
+msgstr ""
+
+#: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_20
+msgid "You jumped down into the darkness of the well. At the bottom of the well, you find yourself dazed and bleeding from what feels like every part of your body."
 msgstr ""
 
 #: conversationlist_lytwings.json:arensia_lytwing_1
@@ -66371,6 +66363,1438 @@ msgstr ""
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_39:0
 msgid "OK, I understand."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt
+msgid "Sure. I heard you're looking for Sly Seraphina."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt:0
+msgid "Eavesdropping is not nice."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt:1
+msgid "Yes. Do you have any idea where she might be hiding?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_10
+msgid "We are thieves - already forgotten?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_10:0
+msgid "So can you help me?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_10:1
+msgid "Nevertheless, one can still maintain one's good manners."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_12
+msgid "Phh."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_20
+msgid "Of course. In fact, I know exactly where she's hiding right now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_20:0
+msgid "Great. That will save me a lot of running around."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_22
+msgid "Here's how we do it: You can guess, and I'll tell you whether it's true or not."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_24
+msgid "And each tip only costs you 100 gold pieces."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_24:0
+msgid "I should have known."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_26
+msgid "You already know that she is near a town."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_26:0
+msgid "But which one?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_30
+msgid "Guess!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_30:2
+#: conversationlist_troubling_times.json:fanamor_tt_30:3
+msgid "Brimhaven?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_30:4
+#: conversationlist_troubling_times.json:fanamor_tt_30:5
+msgid "Prim?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_30:6
+#: conversationlist_troubling_times.json:fanamor_tt_30:7
+msgid "Loneford?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_30:8
+#: conversationlist_troubling_times.json:fanamor_tt_30:9
+msgid "Stoutford?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_30:10
+#: conversationlist_troubling_times.json:fanamor_tt_30:11
+msgid "Sullengard?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_30:12
+msgid "Oh, I'm running out of gold."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_30:13
+msgid "Enough. I think you don't know yourself."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_32
+msgid "You are so smart. I'm sorry I tried."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_34
+msgid "No problem. I can wait."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_40
+msgid "Hey, that's right!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_50
+msgid "Nope - 100 gold. Try again ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:fanamor_tt_60
+msgid "Thanks for the gold. But don't tell her that I betrayed her."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_10
+#: conversationlist_troubling_times.json:nanath_12
+msgid "You? How dare you show your face?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_18
+msgid "You betrayed the Guild over the task with Defy. Get out!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_20
+msgid "Hi there. I am Nanath, the oldest and most experienced man in the guild. No need to introduce yourself, I know who you are, $playername."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_20:0
+msgid "Oh. Hi Nanath. You look scared."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_22
+msgid "Well, one of our ex-clients, Lady Dameni, has put an adverse Shadow spell on us."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_24
+msgid "It makes us noticeable, and thus vulnerable to being caught - paralyzing our honest bread and butter work."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_24:0
+msgid "Oh. Sounds awful."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_26
+msgid "Umar wants me to handle it. He wants me to get it dispelled, so that the Thieves' Guild can work again."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_26:0
+msgid "Ah, OK then."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_28
+msgid "The thing is I don't know much about the Shadow or any other so-called powers. My life has been being an honest thief, a score here, a score there - I don't tangle with the supernatural stuff."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_30
+msgid "Can't anyone help?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_30:0
+msgid "I can help. I've had some dealings with the Shadow."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_32
+msgid "Really? Like what?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_32:0
+msgid "Sorry, hush-hush stuff around Loneford and Vilegard."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_34:0
+msgid "You want my help?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_40
+msgid "First things first, how can we know the nature of the spell?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_42
+msgid "Or its name?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_44
+msgid "Maybe talking to a Shadow priest may help?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_70
+msgid "Oh, back again? I hope you bring good news."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_70:0
+msgid "Maybe. Talion, a Shadow priest, has put the Striking Spectacle Shadow spell on us."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_70:1
+msgid "I have been looking for the things for Talion."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_70:2
+msgid "About Luthor's ring ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_70:3
+msgid "I am still looking for Seraphina."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_72:0
+msgid "And ... I think I have to talk to Talion again."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_72:1
+msgid "Talion said he can help dispel it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_80
+msgid "What a relief."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_82
+msgid "What does he want in return?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_82:0
+msgid "Lady Dameni paid him. Talion wants 50000 gold to dispel us."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_84
+msgid "That's a lot, but it was to be expected. It's good that he doesn't want more."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_84:0
+msgid "Well ... he also wants the following items: The Villain's ring, Troublemaker's ring, the Ring of backstabbing and the Tears of the Shadow potion."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_86
+msgid "That's fine with me."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_86:0
+msgid "And - most important - Luthor's ring."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_90
+msgid "What?! He must be crazy!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_92
+msgid "Do you already have all of the items?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_92:0
+#: conversationlist_troubling_times.json:tt_talion_72:1
+msgid "I don't have Troublemaker's ring yet."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_92:1
+#: conversationlist_troubling_times.json:tt_talion_72:2
+msgid "I don't have the Ring of backstabbing yet."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_92:2
+#: conversationlist_troubling_times.json:tt_talion_72:3
+msgid "I don't have the Villain's ring yet."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_92:3
+#: conversationlist_troubling_times.json:tt_talion_72:4
+msgid "I don't have the Tears of the Shadow yet."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_92:4
+msgid "I have already brought the 4 easier things."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_94
+msgid "Well, then go and find it. Hurry now!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_100
+#: conversationlist_troubling_times.json:tt_talion_76
+msgid "Good, that's a start."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_100:0
+msgid "I expect to be reimbursed of course."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_100:1
+#: conversationlist_troubling_times.json:tt_talion_76:1
+msgid "I am glad you approve."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_102
+msgid "Umar will refund you, but only if you succeed."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_110
+msgid "Have you found Luthor's ring yet?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_110:0
+msgid "I am looking for it now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_110:1
+msgid "I have no idea where to look any more."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_120
+msgid "Looks like it ended up being kept somewhere dangerous."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_122
+msgid "Then ... only one person may know: Fanamor's friend Sly Seraphina."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_122:0
+msgid "Sly Seraphina? Where can she be found?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_122:1
+msgid "On no! Not Seraphina! I refuse to talk to her."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_130
+msgid "She's the thief near the Sutdover bridge."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_130:0
+msgid "Sutdover bridge? So I'll look for her to the south."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_132
+msgid "You must. For the Guild!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_132:0
+msgid "All right, I hate to, but for the greater good I'll go."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_136
+msgid "Then it's all settled. Go and find her, now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_140
+msgid "Then go and find her, now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_150
+msgid "How progresses the task? I hope you've done it? We're in a pickle here, kid. No time to dawdle."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_150:0
+msgid "Dawdle! Do it yourself if you know everything better!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_152
+msgid "Calm down. I'm just nervous. Did you make any progress?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_160
+msgid "Tell me."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_160:0
+msgid "Seraphina doesn't trust me."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_160:1
+msgid "Seraphina has disappeared. She's scared to unleash some monsters which she says Umar and her sealed up."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_160:2
+msgid "About Seraphina ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_170
+msgid "She must. Go to Umar. He's the only one she'll listen to."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_180
+msgid "So, that's what Umar is hush-hush about."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_180:0
+msgid "He could really be more talkative sometimes."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_181
+msgid "Anyway, we must find her. I know some of her usual hidings."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_181a
+msgid "She prefers to be close to a town so she can easily stock up."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_181a:0
+#: conversationlist_troubling_times.json:nanath_183:0
+msgid "Makes sense."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_182
+msgid "Let me think: Fallhaven would be too near. Sullengard, Stoutford, Vilegard and Prim come to my mind. And Loneford or Brimhaven, of course."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_183
+msgid "So look for her near one of these towns."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_183:1
+msgid "Which towns did you say again?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_183a
+msgid "Sometimes I could despair. It's so hard to find good workers these days."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_184
+msgid "She must be found. By any means."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_184:0
+msgid "Yes, sir"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_190
+msgid "Have you found Seraphina yet?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_190:1
+#: conversationlist_troubling_times.json:nanath_190:2
+msgid "Yes. She told me I would need Luthor's key."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_192
+msgid "I spoke to Umar. He already suspected that you would need this key."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_192a
+msgid "Here you have it, handle it carefully."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_193
+msgid "I have given it to you already, forgotten?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_193:0
+msgid "Oh, right. I'm ashamed of myself for trying to trick you."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_194
+msgid "I truly hope you are."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_200
+msgid "Hi kid."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_200:0
+msgid "I have got Luthor's ring."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_272
+msgid "Then take it to Talion. Quickly."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_290
+msgid "You were obviously successful. We seem to be inconspicuous again."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_300
+msgid "Good job! I didn't think you could do it. But you did."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_300:0
+msgid "Yes. The search was a nice change."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_302
+msgid "Sly Seraphina has already been here and returned Luthor's key to Umar. So the room with those dangerous creatures is sealed again."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_302:0
+msgid "So quick?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_304
+msgid "Sure. You should know her by now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_308
+msgid "Umar asked me to reimburse you for your expenses. And something as a thank you. So here are 75000 shining pieces of gold."
+msgstr ""
+
+#: conversationlist_troubling_times.json:nanath_310
+msgid "Stay safe, kid."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt
+msgid "Hello $playername, good that you are here. Please talk to Nanath, I am really busy right now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt:1
+msgid "OK, I'll go find Nanath."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_100
+msgid "$playername, didn't I make it clear that I didn't want to be disturbed?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_100:0
+msgid "Yes, I'm sorry too. But we need your help."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_102
+msgid "[Muttering to himself] Tu quoque, mi fili? Sigh."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_102:0
+msgid "To break the spell, we need King Luthor's ring. Sly is the only one who knows where it is. But she refuses to cooperate."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_110
+msgid "She must. Tell her this password [whispering something]. It means you have direct order from me, Umar. Let no one else hear it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_110:0
+msgid "OK. She will listen to you."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_120
+msgid "My head is so full. I can hardly concentrate on the important things."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_120:0
+msgid "I won't bother you any further."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_120:1
+msgid "The spell will be broken."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_120:2
+msgid "Thoroughness is the key to success."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_130
+msgid "Key? To success? Don't talk nonsense."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_132
+msgid "There's something else I should think about. But it just doesn't occur to me right now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_132:0
+msgid "I better leave you alone now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:umar_tt_132:1
+msgid "I'm sure you'll remember it again."
+msgstr ""
+
+#: conversationlist_troubling_times.json:t_guild03_hideout3_lock_10
+msgid "The lock is sealed again."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_jolnor_10
+msgid "Excuse me? I don't know what you want from me."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_10
+msgid "Umar? Who's that?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_10:0
+msgid "Oh well: I am nothing. You don't see me."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_12
+msgid "That's better, little child. Get used to it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_12:1
+msgid "I'm not a little child anymore!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_14
+msgid "Then stop stomping on the ground."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_30
+#: conversationlist_troubling_times.json:tt_sly_40
+#: conversationlist_troubling_times.json:tt_sly_50
+msgid "Now what does Umar want?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_30:0
+msgid "We have to remove the Striking Spectacle Shadow spell from members of the Thieves' Guild. Or the Guild may as well cease to exist."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_32
+msgid "And what do I have to do with it?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_32:0
+msgid "We need Luthor's ring, and you know ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_34
+msgid "Likely story, kid. Buzz off!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_40:0
+msgid "We have to remove the Striking Spectacle Shadow spell from ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_42
+msgid "Yes, you've said already. Stop repeating yourself."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_42:0
+#: conversationlist_troubling_times.json:tt_sly_44:0
+msgid "Sure. We need Luthor's ring, and ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_44
+msgid "Forget it, kid. Buzz off!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_46
+msgid "And please, stop repeating yourself."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_50:0
+msgid "Listen ... [whispering the password] Now you believe me? We have to remove the Striking Spectacle ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_52
+msgid "You are still repeating yourself."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_52:0
+msgid "Stop that game now and answer me!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_54
+msgid "All right. Umar wants me to give you Luthor's ring? And unleash evil on all of Dhayavar?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_54:0
+msgid "Why would that ring unleash evil?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_56
+msgid "Not the ring itself. But the cave does, if the door is opened."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_56:0
+msgid "That makes even less sense. Explain."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_58
+msgid "Say 'please'."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_58:1
+msgid "Never."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_58:3
+msgid "[With rolling eyes] OK - please."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_60
+msgid "You might remember Crackshot's hideout, do you?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_60:0
+msgid "Of course. Behind the many ugly larvals."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_62
+msgid "Good. Do you know why that cave in the back was sealed?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_62:0
+msgid "No, tell me."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_70
+msgid "A while back, when the Thieves' Guild got successful, we managed to acquire many items of value, including magical items."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_72
+msgid "A place was needed to keep them safely. We heard of this deep cave where you met and bested Crackshot."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_72:0
+msgid "That was no easy fight."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_72:1
+msgid "Phh, child's stuff."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_74
+msgid "So, when we created that deep cave hideout for our most precious items, we never imagined that the cave held such terrible monsters. While we were exploring, they came and attacked us!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_76
+msgid "Seraphina suddenly shivers."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_80
+msgid "We're thieves, not warriors. We tried to escape from there. Lost a few members ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_82
+msgid "Lost Luthor's ring in the cave in the scramble to get out."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_84
+msgid "Still, we managed to hold off the cave monsters, and we managed to seal it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_84:0
+msgid "Using Luthor's items?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_90
+msgid "That's right!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_92
+msgid "We used Luthor's Key and his gloves to seal it, by creating a magical, impermeable door."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_94
+msgid "Umar and I decided to separate the key and the gloves. And the two of us never meet, to keep that door permanently sealed."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_94:0
+msgid "So that the door may never be opened."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_96
+msgid "Exactly."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_96:0
+msgid "But we need to retrieve Luthor's ring now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_100
+msgid "Even Umar's current plea will not change my mind. Whatever ails the Guild - find another solution."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_120
+msgid "Even us thieves are not so callous as to put Dhayavar in danger. You'll never find me."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_120:0
+msgid "Hey, don't run away!!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_202
+msgid "Watch out, kid. Behind you!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_210
+msgid "OK, you're tough, even if not smart, kid."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_210:0
+msgid "Thank you?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_211
+msgid "Smart enough to find me, and tough enough to beat my friends. You convinced me that we can do it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_212
+msgid "As we discussed, Luthor's Ring can be found in the secret room which Crackshot tried to open with Luthor's key from Umar."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_213
+msgid "So you have to go and ask Umar for Luthor's key."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_214
+msgid "However, that door can only be opened if you also wear Luthor's gloves, which breaks the spell on it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_214:0
+msgid "And the evil you mentioned are monsters, nothing more?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_216
+msgid "In fact, I didn't take the time to look at them more closely. But they seemed terrible and deadly to me."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_220
+msgid "When the door opens, and these strong monsters escape into the open, they will attack Dhayavar, which we must avoid at all costs."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_222
+msgid "Which reminds me: Another kid was looking for information to open it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_222:0
+msgid "That kid, did he look just like me, but older?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_240
+msgid "Come to think of it, he did."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_240:0
+msgid "[to self] What was Andor trying to do now?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_250
+msgid "Looking at your strength, kid, you may just be able to beat those monsters. We might give it a try."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_250:0
+#: conversationlist_troubling_times.json:tt_sly_250:1
+msgid "Thanks again."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_252
+msgid "By the way, here's your money back. 1000 gold."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_252:0
+msgid "Hmm, OK."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_254
+msgid "Meet me at the door to the secret room, and bring Luthor's key. Together with Luthor's gloves the door will open."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_300
+msgid "What did you expect?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_310
+msgid "OK, I admit that you are quite good."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_320
+msgid "I would actually do a job with you again if the opportunity came up."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_320:0
+msgid "Yes, that would be nice."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_330
+msgid "And now buzz off, kid. ... $playername."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_330:0
+msgid "[Grinning] See you."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_350
+msgid "See you."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly2
+msgid "At last! Did you sleep all the way here?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly2:0
+msgid "Polite as ever."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly2_10
+msgid "Give me Luthor's key now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly2_10:0
+msgid "Haha, funny. I forgot to bring it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly2_10:1
+msgid "Here it is. Let's do it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly2_12
+msgid "Seraphina stares at you in disbelief."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly2_12:0
+msgid "Eh, I'm getting it, I'm running. Just a minute ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly2_14
+msgid "Don't you dare to come back without it!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly2_20
+msgid "Seraphina takes the key and easily unlocks the door. As quick as a weasel, she slips into the dark corridor."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly2_20:0
+msgid "I had better follow immediately."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack0b
+msgid "Hey kid, stay close behind me! It's going to be dangerous."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack1_10
+msgid "Ha! Take that, skeleton!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack1_20
+msgid "Just one more hit ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack1_90
+msgid "Finished. Take a quick breather and then move on to the next one ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack1_92
+msgid "And keep staying close behind me!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack2_10
+msgid "Bang!!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack2_20
+msgid "Bang again!!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack2_90
+msgid "Pew, it's getting warm. Oh, now there are three of them ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack2_92
+msgid "Stay close to me!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack3_10
+msgid "Ha! Move, you lazy bones!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack3_20
+msgid "Ouch! That has hurt."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack3_30
+msgid "Aaargh!!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack3_80
+msgid "Noo! I can't ... Help! I'm wounded ... Run!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack3_90
+msgid "With her last bit of strength, Seraphina leapt past you and fell to the ground."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly_attack4_10
+msgid "I'm OK again! I'll help in the search."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly3
+msgid "Don't push me. I need to concentrate."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_key
+msgid "Help ... don't let me die here ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4
+msgid "It's good to ... see you are alive, kid."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4:0
+msgid "You look terrible."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4:1
+#: conversationlist_troubling_times.json:tt_sly4_2:0
+msgid "You are severely wounded."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4:2
+msgid "You look better now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4:3
+msgid "Hey, I'm back. Don't be alarmed, I'll squeeze past you."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_2
+msgid "Nice compliment, kid. Ooouw ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_4
+msgid "Yes, thanks to you. Just give me a few seconds ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_10
+msgid "Give me some healing potion ... please ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_10:0
+#: conversationlist_troubling_times.json:tt_sly4_10:1
+msgid "Here, have a minor vial of health."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_10:2
+msgid "Here, have a potion of health."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_10:3
+msgid "Here, have a major potion of health."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_10:4
+msgid "Here, have a major flask of health."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_10:5
+msgid "Here, have a bonemeal potion."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_10:6
+msgid "Here, have a bonemeal potion from Lodar."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_10:7
+msgid "Here, have this nice potion. [give her a poison potion]"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_12
+msgid "That didn't work. My wounds are too deep."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_12:0
+msgid "Oh dear, wait, I'll get something different."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_20
+msgid "Ahh, that's good. Thank you, kid ... $playername."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_20:0
+msgid "[Embarrassed] Sure thing."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_22
+msgid "[Spits] What is this stuff?! Throw it away before you drink it yourself. It's rotten."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_22:0
+msgid "So - sorry."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_24
+msgid "You hope that she doesn't notice your guilty conscience."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_24:0
+msgid "You are tough."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_30
+msgid "Now don't just stand around here. Look lively and find Luthor's ring."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly4_30:0
+msgid "Ah, you're back to your old self already."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5
+msgid "Suits me, this place. Don't you think?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5:0
+msgid "Better help me search."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5:1
+msgid "[Sarcastic] Truly royal."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5:2
+msgid "This throne looks familiar to me."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_2
+msgid "Royal, yes."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_3
+msgid "In fact, I am King Luthor's heir. He's my ancestor."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_4
+msgid "How else would I be able to wear his gloves without getting hurt?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_4:0
+msgid "True."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_6
+msgid "Nothing to be proud of though. Forget it, child. I should have kept quiet about it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_8
+msgid "So you've been to King Luthor's tomb. Yes, we have ... borrowed ... his throne."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_10
+msgid "Of course I'll help you. What are you looking for?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_10:0
+msgid "Luthor's ring, of course. I just can't find it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_12
+msgid "Ah - you are looking for this ring here, am I right?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_12:0
+msgid "What? And I've been searching here for hours!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_20
+msgid "Well, you were so engrossed in the matter that I didn't want to disturb you."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_20:0
+msgid "[Grumble]"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_22
+msgid "Okay, we're done here. We should get out of here now."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_24
+msgid "The monsters will come back. Then the door should be closed and sealed. From the outside."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_24:0
+msgid "And all the riches?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_26
+msgid "Don't leave anything here you want to keep. We'll never go back in here."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_30
+msgid "Here, catch the ring! Keep it safe and take it to Talion. I'm off."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_sly5_32
+msgid "A light breeze remains where Seraphina had just been sitting."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_start_10
+msgid "You enter the Thieves' Guild looking for things to do."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_start_10:0
+msgid "I am sure that there is another job for me today."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_start_20
+msgid "Happy and expectant, you move on."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_10
+msgid "Oh, that lovely spell! The Striking Spectacle Shadow spell!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_12
+msgid "One of my specials! I just had an opportunity to use it again recently. It went great!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_12:0
+msgid "Why did you do that? People can get hurt!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_20
+msgid "Nonsense! How can it hurt to be more noticeable? It makes one stand out more, makes one more popular."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_20:0
+msgid "Not if you want to be a thief or similar."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_30
+msgid "Why would these so-called thieves approach you?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_30:0
+msgid "I'm a kid. No one notices me ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_40
+msgid "That's debatable in your case, but I see the point."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_40:0
+msgid "Thanks! So, why did you do it?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_50
+msgid "Because of the gold! Why else?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_52
+msgid "Of course I use it for the church ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_52:0
+msgid "Well, what will it take to remove the spell?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_60
+msgid "Around 50000 gold, of which a large portion will go back to the mysterious Lady Dameni, who had me do the spell. I would need to pacify her, otherwise her toughs will kill me."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_60:0
+msgid "50000 gold! I hope the guild can reimburse me!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_62
+msgid "I also need a few more items ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_62:0
+msgid "Which items?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_64
+msgid "Indeed? We'll see. I need the following things:"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_70
+msgid "Oh, just a few little things, easy to get."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_72
+msgid "Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of the Shadow potion. And most important, Luthor's ring. Together with 50000 gold."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_72:0
+msgid "You don't ask for much! Where do I find all that?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_72:5
+msgid "I don't have Luthor's ring yet."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_72:6
+msgid "I don't have the 50000 gold yet."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_72:7
+msgid "I have everthing other than Luthor's ring"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_72:8
+msgid "Here's all you have asked for."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_74
+msgid "Well, then go and find it."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_75
+msgid "By the way, don't come to me with polished rings. The counterspell works with the unmeddled ones only. Hurry now!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_76:0
+msgid "Now I am going to find Luthor's ring."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_80
+msgid "Check with your thief friends, they should know. All these rings form part of your thievery business."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_80:0
+msgid "Luthor's ring ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_82
+msgid "Yes, this ring might be a little harder to find. I trust in you."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_82:0
+msgid "Don't you have any idea where it could be?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_84
+msgid "No. Ask your thief friends."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_86
+msgid "I said no. Go now, child."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_90
+msgid "I don't know anybody with that name. Sorry."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_92
+msgid "Did you find the things I asked? Especially Luthor's Ring?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_92:0
+msgid "That is hard to get. No one knows where it is."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_94
+msgid "Good thieves don't have to search for the things they want. They know where they are."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_94:0
+msgid "Can't you cast the counterspell without the ring?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_96
+msgid "No ring - no help, sorry."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_98
+msgid "Find it or your friends may have to retire or go into another honest business. He he!"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_98:0
+msgid "Very funny."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_100
+msgid "Behold - Luthor's ring! And this much gold! I didn't expect that you would manage this so soon."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_100:0
+msgid "An easy thing for me."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_110
+msgid "[muttering] With all that gold and rings I could start a new and wealthy life in Nor City. Hmm ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_110:0
+msgid "You know that I can hear you?"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_112
+msgid "Eh, well. Now it's time to keep my promise and dispell your friends."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_112:0
+msgid "That sounds better."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_120
+msgid "[muttering strange words]"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_122
+msgid "[muttering more strange words]"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_124
+msgid "[muttering even more strange words]"
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_130
+msgid "Done. Go back to your friends, everything is as it was before."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_130:0
+msgid "Great! Thank you."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_300:0
+msgid "The rings. I need them back of course."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_310
+msgid "Oh no, you don't. And it's not possible."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_320
+msgid "I said you don't need the rings. Also it's not possible ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_320:0
+msgid "OK, it was just a question. Bye."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_320:1
+msgid "I'll show you what's possible ..."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_330
+msgid "[Hasty] Now here is Luthor's ring. It is the only one that was powerfull enough to survive the spell. The others are broken."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_330:0
+msgid "Hmm, thanks."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_talion_132
+msgid "[to himself] I hope."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_tahalendor_10
+msgid "Eh, what? Better ask Yolgen."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_thoronir_10
+msgid "You must be confusing me with someone else."
+msgstr ""
+
+#: conversationlist_troubling_times.json:tt_yolgen_10
+msgid "I don't understand ... What are you talking about?"
 msgstr ""
 
 #: itemcategories_1.json:dagger
@@ -70042,7 +71466,7 @@ msgid "A must have tool for every farmer."
 msgstr ""
 
 #: itemlist_sullengard.json:deebo_apples
-msgid "Orchard apples"
+msgid "Orchard apple"
 msgstr ""
 
 #: itemlist_sullengard.json:deebo_apples:description
@@ -70472,11 +71896,11 @@ msgid ""
 msgstr ""
 
 #: itemlist_mt_galmore.json:thieves_vault_key
-msgid "Thieve's vault key"
+msgid "Thieves' vault key"
 msgstr ""
 
 #: itemlist_mt_galmore.json:thieves_vault_key:description
-msgid "A key to the Thieves Guild's vault of gold and other treasures."
+msgid "A key to the Thieves' Guild's vault of gold and other treasures."
 msgstr ""
 
 #: itemlist_mt_galmore.json:thieves_vault_key_fake
@@ -70484,7 +71908,7 @@ msgid "Fake Thieve's Guild vault key"
 msgstr ""
 
 #: itemlist_mt_galmore.json:thieves_vault_key_fake:description
-msgid "The fake key made by the Thieves Guild to trick Aidem."
+msgid "The fake key made by the Thieves' Guild to trick Aidem."
 msgstr ""
 
 #: itemlist_mt_galmore.json:aidem_fake_vault_key
@@ -70994,14 +72418,7 @@ msgstr ""
 
 #: itemlist_laeroth.json:adakin_letter:description
 msgid "My dear Moriath. I wish to thank you for your service over the years. However, I realize there is no future for me here at the manor, so I must leave to find my path in life. I wish you all the best, and perhaps we will meet again somewhere. I have secured the things that are valuable to me but I cannot carry, including my diary, in a chest downstairs. Perhaps one day I will be able to collect them. Signed, Adakin."
-msgstr ""
-"Mi querido Moriath, deseo agradecerte por tus servicios a lo largo de los "
-"años. Sin embargo, me doy cuenta de que no hay futuro para mí aquí en la "
-"mansión, así que debo irme para encontrar mi camino en la vida. Te deseo "
-"todo lo mejor y tal vez nos volvamos a encontrar en algún lugar. He guardado "
-"las cosas que son valiosas para mí pero que no puedo llevar, incluido mi "
-"diario, en un cofre en el piso de abajo. Tal vez algún día pueda recogerlas. "
-"Firmado, Adakin."
+msgstr "Mi querido Moriath, deseo agradecerte por tus servicios a lo largo de los años. Sin embargo, me doy cuenta de que no hay futuro para mí aquí en la mansión, así que debo irme para encontrar mi camino en la vida. Te deseo todo lo mejor y tal vez nos volvamos a encontrar en algún lugar. He guardado las cosas que son valiosas para mí pero que no puedo llevar, incluido mi diario, en un cofre en el piso de abajo. Tal vez algún día pueda recogerlas. Firmado, Adakin."
 
 #: itemlist_laeroth.json:adakin_chest_key
 msgid "Key for Adakin's chest"
@@ -71098,32 +72515,14 @@ msgid ""
 "\n"
 "[With each passing paragraph, you bear witness to the indomitable spirit of a man who forged his own destiny, shaping the world around him with the hammer blows of fate. And as you close the tome, the echoes of Korhald's journey linger in your mind, a testament to the enduring power of courage, determination, and the bonds of family that transcend the ages.]"
 msgstr ""
-"«En los anales del tiempo», [comienza el texto], «vivió un hombre cuya "
-"leyenda arde con tanta intensidad como el fuego de la fragua que él cuidaba. "
-"Korhald, maestro herrero y guerrero incomparable, surgió de unos orígenes "
-"humildes para grabar su nombre en el tapiz del destino».\n"
-"[Con cada vuelta de página, el relato se despliega ante ti como un mapa de "
-"pergamino que se despliega a lo largo de la extensión de la memoria.]\n"
-"«Nacido de una familia humilde», continúan las palabras, «Korhald heredó no "
-"solo el nombre de su padre, sino también su legado de trabajo duro y "
-"determinación inquebrantable».\n"
-"[A medida que profundizas en los pasajes, aprendes sobre el ascenso de "
-"Korhald de aprendiz a artesano, sus manos moldeando acero con la precisión "
-"de un escultor y la fuerza de un titán.]\n"
-"\"En el corazón de la forja\", susurra el tomo, \"Korhald encontró no solo "
-"su oficio sino también su vocación, ya que sus creaciones no eran "
-"simplemente armas y armaduras, sino la encarnación misma de su espíritu\".\n"
-"[Pero el legado de Korhald se extiende más allá del yunque y el campo de "
-"batalla.] \"Un líder entre los hombres\", declaran las páginas, \"el valor y "
-"la sabiduría de Korhald guiaron a su pueblo en tiempos de conflicto e "
-"incertidumbre, colocando la piedra angular sobre la que se alzaría la ciudad "
-"de Remgard\".\n"
+"«En los anales del tiempo», [comienza el texto], «vivió un hombre cuya leyenda arde con tanta intensidad como el fuego de la fragua que él cuidaba. Korhald, maestro herrero y guerrero incomparable, surgió de unos orígenes humildes para grabar su nombre en el tapiz del destino».\n"
+"[Con cada vuelta de página, el relato se despliega ante ti como un mapa de pergamino que se despliega a lo largo de la extensión de la memoria.]\n"
+"«Nacido de una familia humilde», continúan las palabras, «Korhald heredó no solo el nombre de su padre, sino también su legado de trabajo duro y determinación inquebrantable».\n"
+"[A medida que profundizas en los pasajes, aprendes sobre el ascenso de Korhald de aprendiz a artesano, sus manos moldeando acero con la precisión de un escultor y la fuerza de un titán.]\n"
+"\"En el corazón de la forja\", susurra el tomo, \"Korhald encontró no solo su oficio sino también su vocación, ya que sus creaciones no eran simplemente armas y armaduras, sino la encarnación misma de su espíritu\".\n"
+"[Pero el legado de Korhald se extiende más allá del yunque y el campo de batalla.] \"Un líder entre los hombres\", declaran las páginas, \"el valor y la sabiduría de Korhald guiaron a su pueblo en tiempos de conflicto e incertidumbre, colocando la piedra angular sobre la que se alzaría la ciudad de Remgard\".\n"
 "\n"
-"[Con cada párrafo que pasa, eres testigo del espíritu indomable de un hombre "
-"que forjó su propio destino, dando forma al mundo que lo rodeaba con los "
-"golpes de martillo del destino. Y al cerrar el tomo, los ecos del viaje de "
-"Korhald permanecen en tu mente, un testimonio del poder perdurable del "
-"coraje, la determinación y los lazos familiares que trascienden los siglos.]"
+"[Con cada párrafo que pasa, eres testigo del espíritu indomable de un hombre que forjó su propio destino, dando forma al mundo que lo rodeaba con los golpes de martillo del destino. Y al cerrar el tomo, los ecos del viaje de Korhald permanecen en tu mente, un testimonio del poder perdurable del coraje, la determinación y los lazos familiares que trascienden los siglos.]"
 
 #: itemlist_laeroth.json:lae_prison_key
 msgid "Laeroth prison key"
@@ -71285,6 +72684,14 @@ msgstr ""
 #: itemlist_lytwings.json:ring_of_promise_quest:description
 #: itemlist_lytwings.json:ring_of_promise:description
 msgid "A ring embued with Arensia's promise to the lytwings of the forest."
+msgstr ""
+
+#: itemlist_troubling_times.json:ring_luthor
+msgid "Luthor's Ring"
+msgstr ""
+
+#: itemlist_troubling_times.json:tiny_knife
+msgid "Tiny knife"
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:tiny_rat
@@ -74070,7 +75477,7 @@ msgid "Torturer"
 msgstr "Torturador"
 
 #: monsterlist_guynmart.json:guynmart_tort2
-msgid "Assistent torturer"
+msgid "Assistant torturer"
 msgstr "Asistente del torturador"
 
 #: monsterlist_guynmart.json:guynmart
@@ -75758,6 +77165,12 @@ msgid "Laska Blizz"
 msgstr ""
 
 #: monsterlist_mt_galmore.json:thief_seraphina
+#: monsterlist_troubling_times.json:tt_seraphina
+#: monsterlist_troubling_times.json:tt_seraphina2
+#: monsterlist_troubling_times.json:tt_seraphina3
+#: monsterlist_troubling_times.json:tt_seraphina3b
+#: monsterlist_troubling_times.json:tt_seraphina4
+#: monsterlist_troubling_times.json:tt_seraphina5
 msgid "Sly Seraphina"
 msgstr ""
 
@@ -76336,6 +77749,28 @@ msgstr ""
 msgid "Wild flower"
 msgstr ""
 
+#: monsterlist_troubling_times.json:nanath
+msgid "Nanath"
+msgstr ""
+
+#: monsterlist_troubling_times.json:tt_monster1
+#: monsterlist_troubling_times.json:tt_monster2
+#: monsterlist_troubling_times.json:tt_monster3
+msgid "Luthor's skeleton guard"
+msgstr ""
+
+#: monsterlist_troubling_times.json:tt_guys
+msgid "Seraphina's bodyguard"
+msgstr ""
+
+#: monsterlist_troubling_times.json:spearborn_thrall
+msgid "Spearborn thrall"
+msgstr ""
+
+#: monsterlist_troubling_times.json:young_spearborn_thrall
+msgid "Young spearborn thrall"
+msgstr ""
+
 #: questlist.json:andor
 msgid "Search for Andor"
 msgstr "La búsqueda de Andor"
@@ -76421,11 +77856,8 @@ msgid "While exploring the town of Sullengard, I so happened to stumble upon my 
 msgstr "Mientras exploraba la ciudad de Sullengard, me topé con mi madre y mi tía a quienes nunca había conocido. Mi madre ha insistido en que regrese a casa para que podamos hablar."
 
 #: questlist.json:andor:110
-msgid ""
-"After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do.\n"
-"\n"
-"[Quest is not completable at this time.]"
-msgstr ""
+msgid "After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do."
+msgstr "[OUTDATED]"
 "Después de hablar con mamá en casa, ella y yo intentamos pensar en dónde podría estar Andor. Ella me recordó al amigo de Andor, Stanwick, que vive en Brightport. Estuvimos de acuerdo en que ir a hablar con él podría ser lo siguiente lógico que hacer.\n"
 "\n"
 "[La misión no se puede completar en este momento.]"
@@ -76433,6 +77865,16 @@ msgstr ""
 #: questlist.json:andor:120
 msgid "In the dungeons of Laeroth manor, Kotheses, the torturer, mentioned that he had taught Andor the basics of torturing."
 msgstr "En los calabozos de la mansión de Laeroth, Kotheses, el torturador, mencionó que había enseñado a Andor los conceptos básicos de la tortura."
+
+#: questlist.json:andor:130
+msgid "Andor was trying to find out from Seraphina about terrible monsters in the hideout near the place with the larval burrowers."
+msgstr ""
+
+#: questlist.json:andor:999
+msgid ""
+"\n"
+"[Quest is not completable at this time.]"
+msgstr ""
 
 #: questlist.json:mikhail_bread
 msgid "Breakfast bread"
@@ -81399,11 +82841,11 @@ msgid "The sketchy looking men with familiar voices turned out to be the Aidem t
 msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men:20
-msgid "While speaking with Defy, I've learned the he and his men have a grudge against the Thieves Guild and they want to \"hit them where it really hurts\". Whatever that means."
+msgid "While speaking with Defy, I've learned the he and his men have a grudge against the Thieves' Guild and they want to \"hit them where it really hurts\". Whatever that means."
 msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men:25
-msgid "Defy has revealed the location of the Thieves Guild's vault of treasure - an underground storage unit accessible from the vacant house south of Fallhaven."
+msgid "Defy has revealed the location of the Thieves' Guild's vault of treasure - an underground storage unit accessible from the vacant house south of Fallhaven."
 msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men:30
@@ -81411,7 +82853,7 @@ msgid "Defy has asked me to convince Troublemaker to let me borrow the key long 
 msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men:35
-msgid "Defy has agreed to pay me 20 percent of the looted Thieves Guild treasure if I get the key from Troublemaker and hand it over to him."
+msgid "Defy has agreed to pay me 20 percent of the looted Thieves' Guild treasure if I get the key from Troublemaker and hand it over to him."
 msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men:40
@@ -81419,11 +82861,11 @@ msgid "Defy has instructed me to bring Troublemaker's key to him at their new hi
 msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men:45
-msgid "I have talked my way into acquiring the Thieves Guild's vault key from Troublemaker, but I must return it to him quickly after I am done with it."
+msgid "I have talked my way into acquiring the Thieves' Guild's vault key from Troublemaker, but I must return it to him quickly after I am done with it."
 msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men:50
-msgid "I told Troublemaker all that I knew about Defy, his men, and the \"Lost Traveler\" Alaric and how they hired me to help rob the Thieves Guild."
+msgid "I told Troublemaker all that I knew about Defy, his men, and the \"Lost Traveler\" Alaric and how they hired me to help rob the Thieves' Guild."
 msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men:55
@@ -81435,14 +82877,11 @@ msgid ""
 "I gave Defy the fake version of the vault key that Troublemaker gave me. In return, Defy has given me a fake version of Troublemaker's vault key and has instructed me to return it to Troublemaker.\n"
 "Defy then told me to report back to the vault in order to collect my share of the gold. He has no idea that the key I gave him is a fake."
 msgstr ""
-"Le di a Defy la versión falsa de la llave de la bóveda que me dio "
-"Troublemaker. A cambio, Defy me dio una versión falsa de la llave de la "
-"bóveda de Troublemaker y me ordenó que se la devolviera.\n"
-"o, Defy me dijo que volviera a la bóveda para cobrar mi parte del oro. No "
-"tiene idea de que la llave que le di es falsa."
+"Le di a Defy la versión falsa de la llave de la bóveda que me dio Troublemaker. A cambio, Defy me dio una versión falsa de la llave de la bóveda de Troublemaker y me ordenó que se la devolviera.\n"
+"o, Defy me dijo que volviera a la bóveda para cobrar mi parte del oro. No tiene idea de que la llave que le di es falsa."
 
 #: questlist_mt_galmore.json:wanted_men:57
-msgid "I have reported back to the vacant house and I met Rennik there. He informed me that the Thieves Guild has apprehended all five men and that they are now in the Guild jail."
+msgid "I have reported back to the vacant house and I met Rennik there. He informed me that the Thieves' Guild has apprehended all five men and that they are now in the Guild jail."
 msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men:60
@@ -81458,7 +82897,7 @@ msgid "I reported back to Defy and he rewarded me with 25000 gold."
 msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men:75
-msgid "I told Defy that I was keeping the key for myself and plan to loot the Thieves Guild's vault myself. A fight ensued."
+msgid "I told Defy that I was keeping the key for myself and plan to loot the Thieves' Guild's vault myself. A fight ensued."
 msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men:76
@@ -81614,11 +83053,11 @@ msgid "I foolishly gave 5 of my 'mermaid coins' to Gylew."
 msgstr ""
 
 #: questlist_laeroth.json:odd_coin_collector:20
-msgid "I have agreed to set off to Laeroth Manor in persuit of the Korhald coins and to bring them back to Gylew."
+msgid "I have agreed to set off to Laeroth Manor in pursuit of the Korhald coins and to bring them back to Gylew."
 msgstr ""
 
 #: questlist_laeroth.json:odd_coin_collector:12
-msgid "I  sold the 10 coins that I looted from the Arulir secret room to Gylew."
+msgid "I sold the 10 coins that I looted from the Arulir secret room to Gylew."
 msgstr ""
 
 #: questlist_laeroth.json:odd_coin_collector:13
@@ -81626,7 +83065,7 @@ msgid "I gave Gylew the 10 coins that I looted from the Arulir secret room."
 msgstr ""
 
 #: questlist_laeroth.json:odd_coin_collector:30
-msgid "In the Laeroth basement, I noticted a sign on the wall that i could not read in its entirety, but I was able make out the name 'Korhald'. This makes me wonder if this is a clue?"
+msgid "In the Laeroth basement, I noticed a sign on the wall that i could not read in its entirety, but I was able make out the name 'Korhald'. This makes me wonder if this is a clue?"
 msgstr ""
 
 #: questlist_laeroth.json:odd_coin_collector:40
@@ -81786,7 +83225,7 @@ msgid "Audela told me to talk to Jerelin again, but tell him Audela wants this d
 msgstr ""
 
 #: questlist_laeroth.json:laeroth_caretaker:170
-msgid "I spoke to Jerelin again, and told him of Audela's wishes. He told me he will reease the caretaker, but with a condition. The caretakers last act must be to move his grave away from that of his nagging wife."
+msgid "I spoke to Jerelin again, and told him of Audela's wishes. He told me he will release the caretaker, but with a condition. The caretakers last act must be to move his grave away from that of his nagging wife."
 msgstr ""
 
 #: questlist_laeroth.json:laeroth_caretaker:180
@@ -82077,7 +83516,7 @@ msgid "Echoes of enchantment"
 msgstr ""
 
 #: questlist_feygard_1.json:echoes_of_enchantment:1
-msgid "At the Wexlow well, I angered something evil and powerful (named Gamjee, I think) to the point that it pulled me down into the well. I've landed at the well's bottom severly injured, but alive."
+msgid "At the Wexlow well, I angered something evil and powerful (named Gamjee, I think) to the point that it pulled me down into the well. I've landed at the well's bottom severely injured, but alive."
 msgstr ""
 
 #: questlist_feygard_1.json:echoes_of_enchantment:2
@@ -82197,7 +83636,7 @@ msgid "The lytwings asked that I chop down a gnarly old tree that is inside thei
 msgstr ""
 
 #: questlist_lytwings.json:fallhaven_lytwings:21
-msgid "I was about to swing my axe, when the lytwings stopped me. They have changed their minds about chopping down the tree. I am beginnning to think they are indecisive on purpose."
+msgid "I was about to swing my axe, when the lytwings stopped me. They have changed their minds about chopping down the tree. I am beginning to think they are indecisive on purpose."
 msgstr ""
 
 #: questlist_lytwings.json:fallhaven_lytwings:30
@@ -82246,6 +83685,178 @@ msgstr ""
 
 #: questlist_lytwings.json:fallhaven_lytwings:103
 msgid "Arensia gave me her magical promise ring as reward for helping her."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times
+msgid "Troubling times"
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:10
+msgid "I went to the Thieves' Guild in Fallhaven looking for things to do."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:20
+msgid "Since I had helped Defy, Umar and Nanath threw me out. I cannot enter the basement again."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:30
+msgid "Since I had looted the Thieves' Guild vault after killing Defy, Umar and Nanath threw me out. I cannot enter the basement again."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:40
+msgid "I met Nanath, who's scared and upset, because someone put a spell on all members of the Thieves' Guild. This spell made all thieves noticeable. He asked me if I could help dispel the spell."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:50
+msgid "Nanath told me to find the Shadow priest who had cast the spell on the Guild."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:60
+msgid "I set out interviewing Shadow priests to find who had cast the spell."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:70
+msgid "Talion, Shadow priest of Loneford, had cast the Striking Spectacle Shadow spell on the Guild, on payment from Dameni, a mysterious lady leading a band of toughs"
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:80
+msgid "Talion could dispel the spell, using a few items - Villain's ring, Troublemaker's ring, ring of backstabbing, Tears of the Shadow potion, Luthor's ring.  He also wanted 50000 gold."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:82
+msgid "I have informed Nanath about the Striking Spectacle Shadow spell and Talion's demands."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:90
+msgid "Nanath told me Thieves' Guild would give me the 50000 gold back when I have got the spell dispelled."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:95
+msgid "Nanath asked if I had already found Luthor's ring."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:100
+msgid "I went back to Nanath as I couldn't find Luthor's ring anywhere."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:105
+msgid "He told me to seek out Fanamor's friend Sly Seraphina near the Sutdover bridge."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:110
+msgid "Seraphina didn't believe me. She told me to go away."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:115
+msgid "Nanath sent me to Umar. He should make sure Sly carries out the order."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:120
+msgid "Umar told me one of his secret passwords to convince Seraphina."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:130
+msgid "Sly Seraphina said that Luthor's ring was to be found in the cave which Crackshot tried to open. The door was sealed by Umar and Seraphina to prevent monsters in that cave from devastating Dhayavar. The sealing was done by using Luthor's items. She and Umar decided to separate them, and keep them separate."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:140
+msgid "Seraphina felt that the danger was too high to open that door. So she disappeared."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:150
+msgid "I had to find Sly Seraphina again."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:160
+msgid "Nanath told me to look for her in her usual hiding places: Near one of the towns Sullengard, Stoutford, Vilegard, Prim, Loneford, or Brimhaven."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:170
+msgid "Talion said that without the items he asked for he couldn't help. I had to find Seraphina."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:180
+msgid "After beating the tough guys protecting Seraphina, she was convinced that I was strong enough to help her beat the monsters in the cave."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:190
+msgid "Seraphina gave me back the money she had stolen from me earlier."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:192
+msgid "I have to ask Umar for Luthor's key."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:193
+msgid "I have got the key."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:195
+msgid "Seraphina agreed to help me and told me to meet her at the locked door in the cave where Crackshot was defeated."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:200
+msgid "I met Seraphina at the cave door where Crackshot was defeated."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:210
+msgid "Seraphina could open the door with Luthor's key wearing also his gloves. She entered the cave behind the door."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:220
+msgid "I followed her."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:230
+msgid "Seraphina got injured attacking one of the monsters."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:240
+msgid "I have killed the monsters blocking the entrance."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:250
+msgid "I healed Seraphina using potions."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:252
+msgid "I tried to poison Seraphina, but she noticed in time. At least she didn't notice that I did it on purpose."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:255
+msgid "Seraphina already started the search for the ring."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:260
+msgid "I searched the cave for Luthor's ring. I couldn't find it."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:270
+msgid "Sly Seraphina had found the ring. She gave it to me and told me to keep it safe. She disappeared again, probably back to Sutdover bridge. I had to go to Talion."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:280
+msgid "I gave 50000 gold, Villain's ring, Troublemaker's ring, ring of backstabbing, Tears of the Shadow potion, and Luthor's ring to Talion."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:290
+msgid "Talion used them to undo the spell."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:300
+msgid "Talion returned Luthor's ring. The other rings were broken in the process though and the Tears of the Shadow potion was used up of course."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:302
+msgid "The room with the dangerous creatures has been locked and sealed again."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:310
+msgid "Nanath gave me 75000 gold as a reward for a job well done."
+msgstr ""
+
+#: questlist_troubling_times.json:troubling_times:320
+msgid "Sly Seraphina was friendly to me - for now."
 msgstr ""
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_bloskelt_area
@@ -82359,3 +83970,4 @@ msgstr "Lago Laeroth"
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr "Aldea Wexlow"
+
