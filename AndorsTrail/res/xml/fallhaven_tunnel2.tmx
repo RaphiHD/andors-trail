@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="32" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="13">
- <properties>
-  <property name="outdoors" value="1"/>
- </properties>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="8" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="17">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -183,72 +180,63 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7609" name="map_tree_4" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_4.png" width="512" height="256"/>
- </tileset>
- <layer id="1" name="Ground" width="32" height="23">
+ <layer id="1" name="Ground" width="8" height="25">
   <data encoding="base64" compression="zlib">
-   eJyz42JgsMOBL3LSHuOyG2Y/PnlS8UDY74uE6WU/ITupab8vFkxO/OMyB5s4uXZhw9QyZxSPYnKw7QCnPVDesyUTU8t+cjE13ETN+gXdTYTs/idJfftJcQufFPlxT620Qkn6Gw72D/bwp0f5N5D2DzQGADEruoo=
+   eJw7x8TAcA4LfoBDHITPA/EnID6LR56FGbf8QyC+woldHqT3MwF5kByt5M8RIX8ej/uoIY8vfB7iCR9kOXR5dDlkeWxyIExI7hwBuXME5NDl8cUFrrQIksOXVinFAJM3paQ=
   </data>
  </layer>
- <layer id="2" name="Objects" width="32" height="23">
+ <layer id="2" name="Objects" width="8" height="25">
   <data encoding="base64" compression="zlib">
-   eJytVkFuwjAQXHHiEFDDIVJy5wE8oZ/gB/QHlJ8WVb3Tuoceg4KgwqswYrNaG4dkpVGUxd6ZHRs7qwnRcmFjXxBtp0TrkfDmkVVEMw+E5lxNuvyvtxw/h2I3vfP+l0Rzr+OYt1xNbvcv5/NYq24TyFv8f2XrAXOzhpD3Fr/EOZFzI/x/93B+3iG/a7B44Ynmj/UJb3iM5uSoff4np05kAX7ARfq3+tOcVnwrDUtDcx8wl66Jdzz1nueAF7E6iIOR115ynALzY/FRhNEU7Zg6MY/fWFutxn4WXd6XRduXPBusfk/KS4R8x3jLEydylr+s8WvAOce6a1XX9ViHuffhN7IGMYR0w0v0K/2Ue5H9Yn4JPmt1LgRLt9Yk1xUh9+kjjsbQmKrJ0uLUXulb38JR1YCHWsvO8CJUw0KftdHYK/6sSvN/LGh+aHimL7lmobnaT8l/9vfupYz3n7IeKYA+8DM3vj1Yw9C9FvNGwt345bfHrHpc99l7MXRXcqB/y3+t3/rPDAlwo/8UzdKzMZ9c9wquEfZ0
+   eJxjYCAPKIrhlzckIO+IRz5CEL/eM0z45SkFe2lsPq0BrvABhSu+sEOWW8lEHblHYrjlkAE+uWRJ3HKPCKQzSgEAs3wM/g==
   </data>
  </layer>
- <layer id="3" name="Above" width="32" height="23">
+ <layer id="3" name="Above" width="8" height="25">
   <data encoding="base64" compression="zlib">
-   eJxjYKAv4JGC0H8kGRj+AnGHAH3tvycJsZtS0E7A3eT4i5CZyGA6DcKNFmYOBgBLa6NgFAw0GA5pkZRyihaAWuUUtnqAXn7DVQfRsgzeKcvAsAuId8vSzg584CTQ3lNAfJpE+6kdJ6TmQWrGCczu4VAOkAOQ0z2x/kcPM0poXG4ZCAByEwAu+Dbt
+   eJxjYCAPPBajnfxnoNwnPPK0tJsYeRD4PMBuwBc+9AbJkrjlzjDhl38kRlh+JRNueXxy1AAAqNYTZQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="32" height="23" visible="0">
+ <layer id="10" name="Top" width="8" height="25">
   <data encoding="base64" compression="zlib">
-   eJztlcsNACAIQ53C/VdyI6/GIAX5aKIk3NTXFhJbLWy1Gt8zj9LgURzbwpBqRt6tzNW5lV9J9lqmxqPHXCU7tfvGzv5y7yP2i3WL/8j5I26EbnQe3bf41uQT+ZdItHjzESuLTWnxmruFf0oDlX+mhpFPZZKZ/+97ugM/EHol
+   eJxjYBgF6GAv00C7YGiBT6ID7QLaAQBsHwHH
+  </data>
+ </layer>
+ <layer id="4" name="Walkable" width="8" height="25" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJy7KMbAcJEMDAKDVR4GyJUfaPcPZPiQI4cMqGkfMf6kNQYADNaZZw==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="992" y="160" width="32" height="448">
+  <object id="2" name="up" type="mapchange" x="192" y="32" width="32" height="32">
    <properties>
-    <property name="map" value="waytobrimhaven1"/>
-    <property name="place" value="west"/>
+    <property name="map" value="guildbrig1"/>
+    <property name="place" value="down"/>
    </properties>
   </object>
-  <object id="2" name="west" type="mapchange" x="0" y="256" width="32" height="32">
+  <object id="16" name="west" type="mapchange" x="0" y="640" width="32" height="64">
    <properties>
-    <property name="map" value="loneford2"/>
+    <property name="map" value="catacombs3"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="5" name="north" type="mapchange" x="32" y="0" width="224" height="32">
-   <properties>
-    <property name="map" value="loneford11"/>
-    <property name="place" value="south2"/>
-   </properties>
-  </object>
-  <object id="6" name="west2" type="mapchange" x="0" y="64" width="32" height="160">
-   <properties>
-    <property name="map" value="loneford2"/>
-    <property name="place" value="east2"/>
-   </properties>
-  </object>
-  <object id="12" name="west3" type="mapchange" x="0" y="320" width="32" height="32">
-   <properties>
-    <property name="map" value="loneford2"/>
-    <property name="place" value="east3"/>
-   </properties>
-  </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
-  <object id="3" name="fieldcritter_0" type="spawn" x="288" y="192" width="352" height="160">
+ <objectgroup id="6" name="Spawn rats" visible="0">
+  <object id="5" name="catacombrat1" type="spawn" x="96" y="160" width="128" height="480">
    <properties>
     <property name="quantity" value="2"/>
-   </properties>
-  </object>
-  <object id="4" name="fieldcritter_1" type="spawn" x="640" y="192" width="320" height="192">
-   <properties>
-    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="catacombrat1"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys" visible="0"/>
+ <objectgroup id="7" name="Spawn guards" visible="0"/>
+ <objectgroup id="9" name="Keys" visible="0">
+  <object id="12" name="fallhaven_tunnel2c" type="key" x="32" y="576" width="32" height="32">
+   <properties>
+    <property name="phrase" value="fallhaven_tunnel2c"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

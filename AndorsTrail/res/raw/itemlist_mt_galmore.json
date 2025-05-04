@@ -2,10 +2,10 @@
     {
         "id":"thieves_vault_key",
         "iconID":"items_japozero:399",
-        "name":"Thieve's vault key",
+        "name":"Thieves' vault key",
         "displaytype":"quest",
         "category":"other",
-        "description":"A key to the Thieves Guild's vault of gold and other treasures."
+        "description":"A key to the Thieves' Guild's vault of gold and other treasures."
     },
     {
         "id":"thieves_vault_key_fake",
@@ -13,7 +13,7 @@
         "name":"Fake Thieve's Guild vault key",
         "displaytype":"quest",
         "category":"other",
-        "description":"The fake key made by the Thieves Guild to trick Aidem."
+        "description":"The fake key made by the Thieves' Guild to trick Aidem."
     },
     {
         "id":"aidem_fake_vault_key",
@@ -55,6 +55,8 @@
         "iconID":"items_necklaces_1:25",
         "name":"Necklace of Feygard's Glory",
         "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":3118,
         "category":"neck",
         "description":"A Feygardian soldier's medal of honor. To possess is to honor the glorious city of Feygard.",
         "equipEffect":{
@@ -62,8 +64,8 @@
                 "min":1,
                 "max":3
             },
-            "increaseAttackChance":11,
-            "increaseBlockChance":15,
+            "increaseAttackChance":8,
+            "increaseBlockChance":11,
             "addedConditions":[
                 {
                     "condition":"loyalist",

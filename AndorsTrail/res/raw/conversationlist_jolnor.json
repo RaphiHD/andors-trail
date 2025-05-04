@@ -77,6 +77,23 @@
             {
                 "text":"I require healing. Can I see what items you have available?",
                 "nextPhraseID":"jolnor_shop_1"
+            },
+            {
+                "text":"I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable.",
+                "nextPhraseID":"tt_jolnor_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

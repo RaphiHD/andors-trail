@@ -3,6 +3,58 @@
         "id":"umar_select_1",
         "replies":[
             {
+                "nextPhraseID":"nanath_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"nanath_12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"umar_tt_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":115
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"umar_tt",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":57
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"umar_return_1",
                 "requires":[
                     {

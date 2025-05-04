@@ -86,6 +86,108 @@
                         "value":51
                     }
                 ]
+            },
+            {
+                "text":"I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable.",
+                "nextPhraseID":"tt_talion_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Sorry, we were interrupted. You were just talking about the Striking Spectacle Shadow spell.",
+                "nextPhraseID":"tt_talion_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Here I've brought you the things that you require for the dispelling.",
+                "nextPhraseID":"tt_talion_64",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":80
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":280,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Do you know the whereabouts of Sly Seraphina?",
+                "nextPhraseID":"tt_talion_90",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":140
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":180,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I've brought you the things you had required for dispelling.",
+                "nextPhraseID":"tt_talion_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":280
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":290,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Haven't you forgotten something?",
+                "nextPhraseID":"tt_talion_300",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":290
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":300,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

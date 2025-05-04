@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="17" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="5">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,58 +180,86 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="17" height="11">
+ <layer id="1" name="Ground" width="25" height="19">
   <data encoding="base64" compression="zlib">
-   eJyVkcENgCAMRY23emCA7j9DwwTERTx4dQJTY+VTIMjhJdDQV/IbtmUJEySq0bpwDda9I3LGHIlrBM7mM8fOGXNcVKO9dhbwPvMpg46140Jfemf3HCN0hoL9Iwf+y958mf50BOco9uIcwm2HuEylk2nkMn/8P9Zx5z5TvZ80x9HgBv8EiN0=
+   eJzj42Jg4KMD3i5FHiZGL8yO41KoOIQVgtHF0TFILy51MHGYHZ84UXEKKwSji6NjkF5c6mDiuOwgFhOjl5i4opYd+OLSCOhnQxzhgcs92NyKHsfI6QCX+SCM7jZs4sh2IMcdsXGEnpawicPsAJmfBrUDZB8l6QBfeKKLIasrFGNgKBYj3Z/ocY4elpfxxAOhNIhNDltYEnIbtnIDX5yTE8a3gP68DcQ3WSF+BrmrjpuBoYEb4c6LrNjtcCQiznHJzwOav4AbwX+IZIcRK34zsMX5RyLKM+RwRRbzZsUUw5b3kPmGQPuNxXCrxRa/hOKckDy62pectMcAARhbrg==
   </data>
  </layer>
- <layer id="2" name="Objects" width="17" height="11">
+ <layer id="2" name="Objects" width="25" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYKAekGRiYPjMxsDgw4QQk2HCoVYWU0wcqpaZnYEhBsouwqEfF1jEimB/4WdgyAHyPwCxmzADww4+iHgykpmN/PjN+yAIZbBBqBNAM3ZwQMyFgdNCEPPhaoHglyiqOSB5ZDNPcEDYm4F6twBxqDCqGhC4ATVPVICBQYyIcACZAXLLRyS7q6DufMSCqR4WHsgApD9dGGIWMeAEFjNgfgJhZIAcZsjxhA0cBuo9AsXUAgD7KyC1
+   eJxjYKAfYBOD0Ff5UMVx8cPYMM14DpRT48dthxjUDk4mhFgJKwNDKSuEbcqCEAex07DYga4fHewUwxRrAZrfCrXDFWjuRaCaJhYIu5oVoe6hEANDB5DPCOWj0+SCYKgdSawQu0FAkAE7TS5IZiWsBuQ/YsBhqBsvooVlEhF24AK70fReAprtyIppBwygpztCIAdo1mmoHVOA9FQgVuZgYFAHYhUgVoViNagYDJjh8BM2cWS32rFgymMDVkBz3ND8uRRqthuB8IxDsuMINF9ZEmkvDHChhe8UJDuRwxhk7kSg2sk44oNYgBzPMtB8+hjN/zA/EBuG6GXKaTzpBh34EWnHNjLSNswfsHh6BTTjNRC/ZMX0MwgcI5CmsJl9Ek95Sgx4xA/BjAIIMVi4o8c5rCxkZIO4ywkoL4rF/sVAcXUk/id+BK6AmgEKE1h5g5xmp2AJg0CgXcFQN0QghZs5ST6lDAAAKiA+LA==
   </data>
  </layer>
- <layer id="3" name="Above" width="17" height="11">
+ <layer id="3" name="Above" width="25" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYKAOOCyGYPsxYRfHpR6bWBwOM3CxCdl3iQpmXEQSv4SDTcgMUgDMjGP8uNVcFsPOJtcdpIQHPjM2CzEwbBFCiMHC6CKaWY/xxNdhoP4jQtjlyQEAWlMcRg==
+   eJxjYKAPOCxGe70DacdFPPphciC9uNQhi9PDH5QASsIKJvaNnXZugYkJczAwiAOxCAdCTgwqRow56HKUxtElAnagp43BFJekmIduJi3sQA9LfGGLyw3ExDmp7kIHhOKcGnaQqp6QGYPRDuRwhOUTQnFOSJ7eAADs1yvl
   </data>
  </layer>
- <layer id="4" name="Walkable" width="17" height="11">
+ <layer id="4" name="Walkable" width="25" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGQYRCgVD8MEDITl1p0QMhdxJiBzTxccuhmEuMmXGLoZlDDL6TGEzY3YOPTEgMA/XVkSA==
+   eJzdk8sNACEIRK1i+2/BDjd7I2QgD8TLknBQcD6K+1lr/yi/uI1vI+KPdNi6xbD9ncg0ZnqJR3+2ouX0Pm3P1JsprFMOgkE4fJ2E6o1mUGmIcCqzSH1M3VXmI9PV4ah6pxwKo8pB+nw94+3MHfXuz6g1xSZvHu3RvzidL5Mn7d8=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="ladder" type="mapchange" x="32" y="160" width="32" height="32">
+  <object id="1" name="up" type="mapchange" x="64" y="64" width="32" height="32">
    <properties>
-    <property name="map" value="fallhaven_gravedigger"/>
-    <property name="place" value="hatchway"/>
+    <property name="map" value="fallhaven_derelict"/>
+    <property name="place" value="down"/>
    </properties>
   </object>
-  <object id="2" name="door" type="mapchange" x="96" y="64" width="32" height="32">
+  <object id="9" name="down" type="mapchange" x="736" y="320" width="32" height="32">
    <properties>
-    <property name="map" value="guildbrig2"/>
-    <property name="place" value="south"/>
-   </properties>
-  </object>
-  <object id="3" name="guildbrig_1" type="container" x="32" y="224" width="32" height="32"/>
-  <object id="4" name="down" type="mapchange" x="480" y="192" width="32" height="32">
-   <properties>
-    <property name="map" value="fallhaven_tunnel2"/>
+    <property name="map" value="fallhaven_tunnel1"/>
     <property name="place" value="up"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="9" name="Keys" visible="0">
-  <object id="12" name="fallhaven_tunnel3" type="key" x="384" y="160" width="32" height="32">
+ <objectgroup id="6" name="Spawn">
+  <object id="2" name="tg_thief" type="spawn" x="288" y="128" width="160" height="96">
    <properties>
-    <property name="phrase" value="fallhaven_tunnel3"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="spawngroup" value="tg_thief"/>
+   </properties>
+  </object>
+  <object id="3" name="tg_cook" type="spawn" x="32" y="448" width="128" height="64">
+   <properties>
+    <property name="spawngroup" value="tg_cook"/>
+   </properties>
+  </object>
+  <object id="4" name="troublemaker" type="spawn" x="544" y="96" width="224" height="96">
+   <properties>
+    <property name="spawngroup" value="troublemaker"/>
+   </properties>
+  </object>
+  <object id="5" name="pickpocket" type="spawn" x="224" y="288" width="160" height="192">
+   <properties>
+    <property name="spawngroup" value="pickpocket"/>
+   </properties>
+  </object>
+  <object id="6" name="farrik" type="spawn" x="384" y="480" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="farrik"/>
+   </properties>
+  </object>
+  <object id="7" name="umar" type="spawn" x="608" y="480" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="umar"/>
+   </properties>
+  </object>
+  <object id="8" name="fanamor" type="spawn" x="96" y="288" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="fanamor"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="8" name="Keys">
+  <object id="10" name="Thieves03:40" type="key" x="736" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="fallhaven_tunnel1"/>
+    <property name="requireId" value="Thieves03"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="40"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

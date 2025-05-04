@@ -376,5 +376,44 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"fallhaven_tunnel1",
+        "message":"Hey, kid! Don't be so nosy!",
+        "switchToNPC":"troublemaker"
+    },
+    {
+        "id":"fallhaven_tunnel2a",
+        "message":"A sign says 'Jail'\nThe exit above is blocked though."
+    },
+    {
+        "id":"fallhaven_tunnel2b",
+        "message":"A sign says 'Arcir'\nThe exit above is blocked though."
+    },
+    {
+        "id":"fallhaven_tunnel2c",
+        "message":"Attention - the catacombs. Keep silent!"
+    },
+    {
+        "id":"fallhaven_tunnel3",
+        "message":"Looks like the tunnel isn't quite finished yet.",
+        "replies":[
+            {
+                "text":"Typical Troublemaker - can't finish anything.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":45,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"So I have to go back the way I came.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

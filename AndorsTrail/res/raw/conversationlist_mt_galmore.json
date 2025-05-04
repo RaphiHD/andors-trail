@@ -231,6 +231,17 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"thief_seraphina_bridge_fixed",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":75
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"thief_seraphina_80",
                 "requires":[
                     {
@@ -239,10 +250,6 @@
                         "value":38
                     }
                 ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"thief_seraphina_bridge_fixed"
             }
         ]
     },
@@ -289,6 +296,40 @@
             {
                 "text":"Yes, ma'am.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"The Guild needs you. Umar ...",
+                "nextPhraseID":"tt_sly_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":140,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Hi Seraphina, you were away so quickly after you gave me Luthor's ring.",
+                "nextPhraseID":"tt_sly_300",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":270
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":320,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -735,7 +776,7 @@
                 "nextPhraseID":"aidem_camp_defy_76"
             },
             {
-                "text":"The Thieves Guild?",
+                "text":"The Thieves' Guild?",
                 "nextPhraseID":"aidem_camp_defy_77"
             }
         ]
@@ -752,7 +793,7 @@
     },
     {
         "id":"aidem_camp_defy_76a",
-        "message":"I'm talking about the Thieves Guild.",
+        "message":"I'm talking about the Thieves' Guild.",
         "replies":[
             {
                 "text":"Why would you want to do that?",
@@ -1952,12 +1993,29 @@
             {
                 "text":"Oh, you want to play dumb? Umar will hear about this!",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"No time to joke - the Guild needs you. Umar ...",
+                "nextPhraseID":"tt_sly_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":140,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
         "id":"wild6_house_hatch_defy_killed_no_key",
-        "message":"I should come back with the Thieves Guild key."
+        "message":"I should come back with the Thieves' Guild key."
     },
     {
         "id":"troublemaker_wm_return_real_key_10",

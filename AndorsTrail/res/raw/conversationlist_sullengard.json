@@ -317,7 +317,7 @@
     },
     {
         "id":"sullengard_matpat_6",
-        "message":"Thank you. You are my only hope here. I don't trust those unlawful Feygard soldiers. You should talk to the head of the Thieves Guild about this.",
+        "message":"Thank you. You are my only hope here. I don't trust those unlawful Feygard soldiers. You should talk to the head of the Thieves' Guild about this.",
         "replies":[
             {
                 "text":"I'm going now. Stay strong.",
@@ -848,7 +848,7 @@
                 "nextPhraseID":"sullengard_godrey_sell"
             },
             {
-                "text":"Do you know by chance where this lost travelor is?",
+                "text":"Do you know by chance where this lost traveler is?",
                 "nextPhraseID":"sullengard_godrey_10a",
                 "requires":[
                     {
@@ -885,7 +885,7 @@
                 "nextPhraseID":"sullengard_godrey_10"
             },
             {
-                "text":"I'll take it, but I have to say that you really should join the thieves guild with that attitude!",
+                "text":"I'll take it, but I have to say that you really should join the Thieves' Guild with that attitude!",
                 "nextPhraseID":"sullengard_godrey_40",
                 "requires":[
                     {
@@ -1755,7 +1755,7 @@
                     {
                         "requireType":"killedMonster",
                         "requireID":"sullengard_snapper",
-                        "value":30,
+                        "value":26,
                         "negate":true
                     }
                 ]
@@ -5098,7 +5098,7 @@
     },
     {
         "id":"ff_captain_beer_tell_sull_10",
-        "message":"The thieves guild? Are you sure?",
+        "message":"The Thieves' Guild? Are you sure?",
         "replies":[
             {
                 "text":"Oh yeah. I heard it directly from them.",
@@ -6669,14 +6669,14 @@
         "message":"What else can you tell me?",
         "replies":[
             {
-                "text":"I know that the thieves guild are the ones helping the people of Sullengard distribute their beer.",
+                "text":"I know that the Thieves' Guild are the ones helping the people of Sullengard distribute their beer.",
                 "nextPhraseID":"ff_captain_beer_tell_everything_33"
             }
         ]
     },
     {
         "id":"ff_captain_beer_tell_everything_33",
-        "message":"The thieves guild? Are you sure?",
+        "message":"The Thieves' Guild? Are you sure?",
         "replies":[
             {
                 "text":"Oh yeah. I heard it directly from them.",
@@ -6875,7 +6875,7 @@
     },
     {
         "id":"sullengard_godrey_10a",
-        "message":"Sure. Look at the table over there. He is my best customer at he moment.",
+        "message":"Sure. Look at the table over there. He is my best customer at the moment.",
         "rewards":[
             {
                 "rewardType":"spawnAll",
