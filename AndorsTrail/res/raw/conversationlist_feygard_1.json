@@ -4785,6 +4785,44 @@
                         "requireID":"echoes_of_enchantment",
                         "value":13,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":9,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"wexlow_well_ask_to_jump_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":13,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":9
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"wexlow_well_ask_to_jump_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":13,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"echoes_of_enchantment",
+                        "value":11
                     }
                 ]
             }
@@ -7919,6 +7957,41 @@
                 "rewardType":"questProgress",
                 "rewardID":"feygard_nondisplayed",
                 "value":13
+            }
+        ]
+    },
+    {
+        "id":"wexlow_well_ask_to_jump_10",
+        "message":"Do you want to jump inside?",
+        "replies":[
+            {
+                "text":"No way! I remember How badly I was hurt the last time.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes. What choice do I have?",
+                "nextPhraseID":"wexlow_well_ask_to_jump_20"
+            }
+        ]
+    },
+    {
+        "id":"wexlow_well_ask_to_jump_20",
+        "message":"You jumped down into the darkness of the well. At the bottom of the well, you find yourself dazed and bleeding from what feels like every part of your body.",
+        "rewards":[
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"concussion",
+                "value":10
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"bleeding_wound",
+                "value":15
+            },
+            {
+                "rewardType":"mapchange",
+                "rewardID":"down",
+                "mapName":"gamjee_well_1"
             }
         ]
     }

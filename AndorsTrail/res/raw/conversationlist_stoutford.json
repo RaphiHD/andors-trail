@@ -522,6 +522,23 @@
                         "value":190
                     }
                 ]
+            },
+            {
+                "text":"I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable.",
+                "nextPhraseID":"tt_yolgen_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -1479,6 +1496,23 @@
             {
                 "text":"Do you have anything to trade?",
                 "nextPhraseID":"tahalendor_rumblings10x_1"
+            },
+            {
+                "text":"I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable.",
+                "nextPhraseID":"tt_tahalendor_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"troubling_times",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

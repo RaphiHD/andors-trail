@@ -185,12 +185,12 @@
         "name":"Gloves of life force",
         "displaytype":"extraordinary",
         "hasManualPrice":1,
-        "baseMarketCost":390,
+        "baseMarketCost":685,
         "category":"hnd_lthr",
         "equipEffect":{
-            "increaseMaxHP":9,
+            "increaseMaxHP":13,
             "increaseAttackChance":5,
-            "increaseBlockChance":3
+            "increaseBlockChance":6
         }
     }
 ]

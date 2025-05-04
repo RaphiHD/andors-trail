@@ -356,6 +356,7 @@
             },
             "increaseMoveCost":0,
             "increaseAttackCost":4,
+            "increaseAttackChance":15,
             "increaseCriticalSkill":10,
             "setCriticalMultiplier":3.0,
             "setNonWeaponDamageModifier":104
@@ -364,7 +365,7 @@
             "conditionsTarget":[
                 {
                     "condition":"bleeding_wound",
-                    "magnitude":2,
+                    "magnitude":3,
                     "duration":5,
                     "chance":"20"
                 }

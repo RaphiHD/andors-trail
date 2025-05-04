@@ -120,6 +120,8 @@
         <!--Added by ATCS v0.6.20 for project feygard_1-->
         <item>@raw/itemlist_feygard_1</item>
         <item>@raw/itemlist_lytwings</item>
+        <!--Added by ATCS v0.6.21 for project troubling_times-->
+        <item>@raw/itemlist_troubling_times</item>
     </array>
         
     <array name="loadresource_droplists">
@@ -182,6 +184,8 @@
         <item>@raw/droplists_laeroth</item>
         <!--Added by ATCS v0.6.20 for project feygard_1-->
         <item>@raw/droplists_feygard_1</item>
+        <!--Added by ATCS v0.6.21 for project troubling_times-->
+        <item>@raw/droplists_troubling_times</item>
     </array>
         
     <array name="loadresource_quests">
@@ -241,6 +245,8 @@
         <!--Added by ATCS v0.6.20 for project feygard_1-->
         <item>@raw/questlist_feygard_1</item>
         <item>@raw/questlist_lytwings</item>
+        <!--Added by ATCS v0.6.21 for project troubling_times-->
+        <item>@raw/questlist_troubling_times</item>
     </array>
         
     <array name="loadresource_conversationlists">
@@ -454,6 +460,8 @@
         <!--Added by ATCS v0.6.20 for project feygard_1-->
         <item>@raw/conversationlist_feygard_1</item>
         <item>@raw/conversationlist_lytwings</item>
+        <!--Added by ATCS v0.6.21 for project troubling_times-->
+        <item>@raw/conversationlist_troubling_times</item>
     </array>
         
     <array name="loadresource_monsters">
@@ -524,6 +532,8 @@
         <!--Added by ATCS v0.6.20 for project feygard_1-->
         <item>@raw/monsterlist_feygard_1</item>
         <item>@raw/monsterlist_lytwings</item>
+        <!--Added by ATCS v0.6.21 for project troubling_times-->
+        <item>@raw/monsterlist_troubling_times</item>
     </array>
         
     <array name="loadresource_maps">
@@ -1560,6 +1570,11 @@
         <item>@xml/wexlow_village_nw_house</item>
         <item>@xml/wexlow_village_se_house</item>
         <item>@xml/wexlow_village_sw_house</item>
+        <!--Added by ATCS v0.6.21 for project troubling_times-->
+        <item>@xml/crackshot_hideout4</item>
+        <item>@xml/fallhaven_derelict2_t</item>
+        <item>@xml/fallhaven_tunnel1</item>
+        <item>@xml/fallhaven_tunnel2</item>
     </array>
         
 </resources>

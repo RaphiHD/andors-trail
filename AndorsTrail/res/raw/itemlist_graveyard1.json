@@ -24,11 +24,11 @@
                 "max":7
             },
             "increaseAttackCost":4,
-			"setNonWeaponDamageModifier":104,
             "increaseAttackChance":30,
             "increaseCriticalSkill":0,
             "increaseBlockChance":0,
-            "setCriticalMultiplier":0.0
+            "setCriticalMultiplier":0.0,
+            "setNonWeaponDamageModifier":104
         },
         "hitEffect":{
             "conditionsTarget":[
@@ -42,7 +42,7 @@
                     "condition":"stunned",
                     "magnitude":1,
                     "duration":1,
-                    "chance":"5"
+                    "chance":"15"
                 }
             ]
         }
@@ -121,8 +121,8 @@
                 "max":8
             },
             "increaseAttackCost":7,
-            "setNonWeaponDamageModifier":195,
-            "increaseAttackChance":12
+            "increaseAttackChance":12,
+            "setNonWeaponDamageModifier":195
         },
         "hitEffect":{
             "conditionsTarget":[

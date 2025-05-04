@@ -227,11 +227,11 @@
     <string name="skill_title_eater">尸骸掠食</string>
     <string name="skill_title_cleave">我还能打</string>
     <string name="skill_title_more_exp">超群悟性</string>
-    <string name="skill_title_coinfinder">宝藏嗅觉</string>
+    <string name="skill_title_coinfinder">慧眼识金</string>
     <string name="skill_title_speed">快刀斩麻</string>
     <string name="skill_title_better_criticals">刚劲重击</string>
     <string name="skill_title_more_criticals">唾手重击</string>
-    <string name="skill_title_barkskin">皮肤硬化</string>
+    <string name="skill_title_barkskin">坚如磐石</string>
     <string name="skill_title_dodge">格挡闪避</string>
     <string name="skill_title_barter">伶牙俐齿</string>
     <string name="skill_title_weapon_dmg">奋力猛击</string>
@@ -293,7 +293,7 @@
     <string name="iteminfo_effect_works_on_target">目标获得</string>
     <string name="iteminfo_effect_works_on_source">获得</string>
     <string name="iteminfo_effect_duration">（%1$d回合）</string>
-    <string name="iteminfo_effect_chance_of">%1$s的几率获得%2$s</string>
+    <string name="iteminfo_effect_chance_of">%1$s机率的%2$s</string>
     <string name="actorcondition_info_immunity">免疫%1$s</string>
     <string name="actorcondition_info_removes_all">移除所有%1$s</string>
     <string name="actorinfo_currentconditions">当前状态</string>
@@ -362,7 +362,7 @@
     <string name="inventory_category_other">其它</string>
     <string name="inventory_category_quest">任务物品</string>
     <string name="inventory_category_usable">消耗品</string>
-    <string name="inventory_category_armor">盔甲</string>
+    <string name="inventory_category_armor">防具</string>
     <string name="inventory_category_weapons">武器</string>
     <string name="inventory_category_favorites">最爱</string>
     <string name="inventory_category_all">全部</string>
@@ -395,7 +395,7 @@
 \n
 \n每个技能等级增加双手武器的原始伤害%1$d%%。</string>
     <string name="skill_longdescription_armor_prof_light">每一技能等级可以增加轻甲%1$d%%的格挡率。轻甲包括皮革甲、 轻质金属甲和兽皮甲。</string>
-    <string name="skill_longdescription_armor_prof_unarmored">在没有装备护甲的情况下战斗时，每个技能等级增加格挡率%1$d。布制衣甲不被认为是护甲。</string>
+    <string name="skill_longdescription_armor_prof_unarmored">在没有装备护甲的情况下战斗时，每个技能等级增加格挡率%1$d。布制衣甲不被视作护甲。</string>
     <string name="skill_longdescription_armor_prof_shield">装备盾牌时，每个技能等级增加伤害减免%1$d。</string>
     <string name="skill_longdescription_weapon_prof_unarmed">当没有装备武器和盾牌时，每个技能等级提升%1$d命中率，%2$d伤害和%3$d格挡率。</string>
     <string name="skill_longdescription_weapon_prof_blunt">当使用钝器时，每个技能等级提升%1$d%%装备的基础命中率，提升%2$d%%装备基础格挡率，提升%3$d%%装备的基础暴击等级。包括棍、长棍、狼牙棒、权杖、鞭子、战锤和巨锤。</string>
@@ -455,15 +455,15 @@
     <string name="about_button4">关于</string>
     <string name="skill_longdescription_concussion">当敌人的格挡低于你的命中至少%1$d时，有%2$d%%概率对敌人造成震荡。震荡会严重降低目标的进攻作战能力，使目标无法成功地发动攻击。</string>
     <string name="skill_shortdescription_concussion">有概率附加震荡</string>
-    <string name="skill_longdescription_taunt">攻击没有命中时，攻击者有%1$d%%概率失去%2$dAP。这适用于所有对你的近战攻击。</string>
+    <string name="skill_longdescription_taunt">攻击没有命中时，攻击者有%1$d%%概率失去%2$dAP。这适用于所有对你的混战攻击。</string>
     <string name="skill_shortdescription_taunt">攻击者在未命中时失去AP</string>
-    <string name="skill_title_taunt">挑衅激怒</string>
-    <string name="skill_longdescription_rejuvenation">每回合（6秒），有%1$d%%几率使一个当前的负面状态被降低一级。这适用于影响身体的所有临时效果类型；精神状态如眩晕，物理状态如疲劳，血液状态如中毒。</string>
+    <string name="skill_title_taunt">寻衅引怒</string>
+    <string name="skill_longdescription_rejuvenation">每回合（6秒），有%1$d%%的机率使一个当前的负面状态被降低一级。这适用于影响身体的所有临时效果类型；精神状态如眩晕，物理状态如疲劳，血液状态如中毒。</string>
     <string name="skill_shortdescription_rejuvenation">有概率移除负面状态</string>
-    <string name="skill_title_rejuvenation">异常恢复</string>
-    <string name="skill_longdescription_crit2">每一次成功的暴击都会有%1$d %% 几率给目标附加折伤状态。这会大大降低目标的防守性作战能力，使其在随后的攻击中防御能力下降。</string>
+    <string name="skill_title_rejuvenation">脱然焕发</string>
+    <string name="skill_longdescription_crit2">每一次成功的暴击都会有%1$d %%的机率给目标附加折伤状态。这会大大降低目标的防守性作战能力，使其在随后的攻击中防御能力下降。</string>
     <string name="skill_shortdescription_crit2">有概率附加骨折</string>
-    <string name="skill_longdescription_crit1">每一次成功的暴击都会有%1$d%% 几率给目标附加内出血状态。这会大大降低目标的攻击性性作战能力，使其更难攻击成功。</string>
+    <string name="skill_longdescription_crit1">每一次成功的暴击都会有%1$d%%的机率给目标附加内出血状态。这会大大降低目标的攻击性性作战能力，使其更难攻击成功。</string>
     <string name="skill_shortdescription_crit1">有概率附加内出血</string>
     <string name="loadsave_save_overwrite_confirmation_title">覆盖存档？</string>
     <string name="loadsave_save_to_new_slot">创建新的存档槽</string>
@@ -525,10 +525,10 @@
     <string name="skill_shortdescription_resistance_blood_disorder">抵抗血液类负面状态</string>
     <string name="skill_shortdescription_resistance_physical_capacity">抵抗物理类负面状态</string>
     <string name="skill_shortdescription_resistance_mental">抵抗精神类负面状态</string>
-    <string name="skill_shortdescription_magicfinder">增加找到魔法物品的几率</string>
+    <string name="skill_shortdescription_magicfinder">增加找到魔法物品的机率</string>
     <string name="skill_shortdescription_lower_exploss">减少死亡时经验值损失</string>
     <string name="skill_shortdescription_regeneration">每回合恢复生命值</string>
-    <string name="skill_shortdescription_evasion">增加逃跑几率</string>
+    <string name="skill_shortdescription_evasion">增加逃跑机率</string>
     <string name="skill_shortdescription_fortitude">每次等级提升后增加更多生命值</string>
     <string name="skill_shortdescription_eater">每次击杀敌人后恢复HP</string>
     <string name="skill_shortdescription_cleave">每次击杀敌人后恢复AP</string>
@@ -542,15 +542,15 @@
     <string name="skill_shortdescription_barter">更为善于砍价与抬价</string>
     <string name="skill_shortdescription_weapon_dmg">增加攻击伤害</string>
     <string name="skill_shortdescription_weapon_chance">增加命中率</string>
-    <string name="skill_title_resistance_blood_disorder">血液净化</string>
-    <string name="skill_title_resistance_physical_capacity">身强力壮</string>
+    <string name="skill_title_resistance_blood_disorder">血液净涤</string>
+    <string name="skill_title_resistance_physical_capacity">强身健体</string>
     <string name="skill_title_resistance_mental">修心养性</string>
     <string name="skill_title_magicfinder">魔器寻索</string>
     <string name="skill_title_lower_exploss">卷土重来</string>
     <string name="skill_title_evasion">脚底抹油</string>
     <string name="about_interface"><![CDATA[
 
-<div><b>游戏设置</b>可通过按下设备上的菜单按钮找到。</div>
+<div>按下运行设备上的菜单按钮即可找到并进入<b>游戏设置</b>界面。</div>
 
 <p>________________</p>
 <h1>界面图标</h1>
@@ -559,8 +559,8 @@
 <p>快捷栏 [长按快捷栏槽可分配快捷栏物品]</p>
 
 <div><b>英雄</b><img alt="hero" src="char_hero.png" /></div>
-<p>菜单 [总览，任务，技能，&amp; 背包 *]</p>
-<p>* (在背包界面，点击物品可以看到其对应信息&amp; 长按会显示更多操作选项)</p>
+<p>菜单 [总览，任务，技能，背包 *]</p>
+<p>* (在背包界面，点击物品可以看到其对应信息，而长按会显示更多操作选项)</p>
 
 <div><b>敌人</b><img alt="monster" src="monster.png" /></div>
 <p>对应信息 [在战斗中显示]</p>
@@ -574,7 +574,7 @@
 
 <div><b>攻击</b> - [3AP] *</div>
 <img alt="attacking" src="doubleattackexample.png" />
-<p>* (装备的选择&amp;或者物品的使用可能会改变AP上限&amp;以及操作所需的AP)</p>
+<p>* (装备的选择或者物品的使用可能会改变AP上限以及操作所需的AP)</p>
 
 <div><b>使用物品</b> - [5AP]</div>
 <div><b>逃跑</b> - [6AP]</div>
@@ -629,7 +629,7 @@
     <string name="iteminfo_effect_decrease_damage_resistance">降低伤害减免%1$d</string>
     <string name="startscreen_non_release_version">这是Andor\'s Trail的预发布版本。这个版本的游戏存档与正式版不兼容。</string>
     <string name="startscreen_incompatible_savegames">这是Andor\'s Trail的开发版本。这个版本的游戏存档与正式版不兼容。</string>
-    <string name="skill_title_fortitude">毅力俱增</string>
+    <string name="skill_title_fortitude">坚毅愈增</string>
     <string name="dialog_permission_information">Andor\'s Trail写入游戏存档到你设备上的内部存储。这可以让你很容易地备份你保存的游戏或转移到一个新的设备。请访问我们的论坛获取更多信息。
 \n
 \nAndor\'s Trail不使用访问您的设备用于任何其他目的，也不访问互联网。Andor’s Trail是开源的；源代码可以在github上找到。</string>
