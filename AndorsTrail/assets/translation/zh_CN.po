@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-04-14 17:41+0000\n"
+"PO-Revision-Date: 2025-05-06 06:06+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -78033,10 +78033,10 @@ msgstr "在探索苏伦加德镇的时候，我偶然遇见了我的母亲和我
 
 #: questlist.json:andor:110
 msgid "After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do."
-msgstr "[OUTDATED]"
-"在与母亲回家交谈后，我和她试着通过头脑风暴法，来思考安道尔可能在哪里。她提醒我说，安道尔的朋友斯坦威克住在布莱特口岸。我们认为，按逻辑讲下一件要做的是就是去找斯坦威克谈谈。\n"
-"\n"
-"[本任务当前版本无法完成。]"
+msgstr ""
+"在与母亲回家交谈后，我和她试着通过头脑风暴思考安道尔可能在哪里。她提醒我说，"
+"安道尔的朋友斯坦威克住在布莱特口岸。我们认为，按逻辑讲下一件要做的是就是去找"
+"斯坦威克谈谈。"
 
 #: questlist.json:andor:120
 msgid "In the dungeons of Laeroth manor, Kotheses, the torturer, mentioned that he had taught Andor the basics of torturing."
@@ -78051,6 +78051,8 @@ msgid ""
 "\n"
 "[Quest is not completable at this time.]"
 msgstr ""
+"\n"
+"[本任务当前版本无法完成。]"
 
 #: questlist.json:mikhail_bread
 msgid "Breakfast bread"
@@ -84154,4 +84156,3 @@ msgstr "莱洛斯湖"
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr "维克斯罗村"
-
