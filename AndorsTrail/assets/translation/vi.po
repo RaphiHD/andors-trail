@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-20 17:34+0200\n"
-"PO-Revision-Date: 2024-11-25 20:00+0000\n"
-"Last-Translator: Than <sstp13guildmaster@gmail.com>\n"
+"PO-Revision-Date: 2025-05-06 06:06+0000\n"
+"Last-Translator: Hong Quan <keokiet@yahoo.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/vi/>\n"
 "Language: vi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -901,27 +901,29 @@ msgstr "Ý bạn là giết bạn?"
 
 #: conversationlist_crossglen.json:drunk1a
 msgid "Heeeey - come on. Don't be such a spoilsport."
-msgstr ""
+msgstr "Ê ê ê - thôi nào. Đừng có phá đám thế chứ."
 
 #: conversationlist_crossglen.json:drunk1a:1
 msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
 msgstr ""
+"Chà, nếu bạn thực sự muốn vậy. Nhưng tôi có một trò chơi mới và \"chắc chắn\""
+" dành cho bạn đây. Uống cái này nhé. [Đưa cho một chai thuốc độc loãng]"
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
-msgstr ""
+msgstr "Ực ực... [Tiếng uống ừng ực]"
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
-msgstr ""
+msgstr "Thật là thú vị... [ực]"
 
 #: conversationlist_crossglen.json:drunk1d
 msgid "... taste [falls over]"
-msgstr ""
+msgstr "... vị [ngã xuống]"
 
 #: conversationlist_crossglen.json:drunk1d:0
 msgid "Yes, really. A unique taste. And final - bye."
-msgstr ""
+msgstr "Vâng, thật sự. Một vị độc đáo. Và cuối cùng - tạm biệt."
 
 #: conversationlist_crossglen_gruil.json:gruil1
 msgid ""
@@ -1905,46 +1907,60 @@ msgstr ""
 #: conversationlist_fallhaven_arcir.json:arcir_books_1
 msgid "I find great pleasure in my books. They contain the accumulated knowledge of past generations."
 msgstr ""
+"Tôi hoàn toàn hiểu được niềm vui bạn tìm thấy trong những cuốn sách. Chúng "
+"thực sự là kho tàng kiến thức được tích lũy qua bao thế hệ."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:0
 msgid "Do you have a book called 'Calomyran Secrets'?"
-msgstr ""
+msgstr "Bạn có cuốn sách nào tên là 'Calomyran Secrets' không?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:2
 msgid "I have found some valuable looking map. Want to have a look?"
-msgstr ""
+msgstr "Tôi đã tìm thấy một tấm bản đồ trông có vẻ giá trị. Muốn xem thử không?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:3
 msgid "I have found a strange book about slavery. Interested?"
-msgstr ""
+msgstr "Tôi đã tìm thấy một cuốn sách kỳ lạ về chế độ nô lệ. Quan tâm không?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:4
 msgid "I have got a book about world history. Interested?"
-msgstr ""
+msgstr "Tôi có một cuốn sách về lịch sử thế giới. Quan tâm không?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_1
 msgid "'Calomyran Secrets'? Hmm, yes I think I have one of those in my basement."
 msgstr ""
+"'Calomyran Secrets'? Ừm, phải, tôi nghĩ tôi có một cái trong tầng hầm nhà "
+"mình."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_2
 msgid "Old man Benradas came by last week, wanting to sell me that book. Since it's not really my kind of book, I declined."
 msgstr ""
+"Ông già Benradas đến vào tuần trước, muốn bán cho tôi cuốn sách đó. Vì nó "
+"không thực sự là loại sách tôi thích, nên tôi đã từ chối."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_3
 msgid "He seemed upset that I didn't like his book, and threw it at me while storming out of the house."
 msgstr ""
+"Anh ta có vẻ khó chịu vì tôi không thích cuốn sách của anh ta, và đã ném nó "
+"vào tôi rồi bỏ ra khỏi nhà trong cơn giận dữ."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_4
 msgid "Poor old man Benradas, he probably forgot that he left it here. He tends to forget things."
 msgstr ""
+"Ông già Benradas tội nghiệp, chắc ông ấy quên là đã để nó ở đây rồi. Ông ấy "
+"hay quên lắm."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_5
 msgid "You looked downstairs but didn't find it? And a note you say? I guess there must have been someone in my house."
 msgstr ""
+"Bạn nhìn xuống dưới nhà nhưng không thấy nó à? Và một tờ giấy nhắn nữa? Tôi "
+"đoán chắc hẳn đã có ai đó trong nhà tôi rồi."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_complete
 msgid "I heard you found it and gave it back to old man Benradas. Thank you. He tends to forget things."
 msgstr ""
+"Tôi nghe nói cậu đã tìm thấy nó và trả lại cho ông già Benradas. Cảm ơn cậu. "
+"Ông ấy hay quên lắm."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_6
 msgid ""
@@ -1952,104 +1968,128 @@ msgid ""
 "\n"
 "Larcal ... I know of him. Always causing trouble. He is usually in the barn to the east of here."
 msgstr ""
+"Bản ghi chú viết gì vậy?\n"
+"\n"
+"Larcal... Ta biết hắn. Luôn gây rắc rối. Hắn thường ở trong chuồng phía đông "
+"chỗ này."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map
 msgid "Oh, an ancient map of the area! This would fit well into my collection of old maps. I offer you 500 gold pieces for it."
 msgstr ""
+"Ồ, một tấm bản đồ cổ của khu vực này! Nó sẽ rất hợp với bộ sưu tập bản đồ cổ "
+"của ta. Ta trả ngươi 500 đồng vàng cho nó."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:0
 msgid "Thanks, I'd rather keep it."
-msgstr ""
+msgstr "Cảm ơn, tôi thích giữ nó."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:1
 msgid "OK. Here is Ewmondold's map."
-msgstr ""
+msgstr "Được rồi. Đây là bản đồ của Ewmondold."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1
 msgid "And here are 500 shining gold pieces. Use them wisely."
 msgstr ""
+"Và đây là 500 đồng vàng lấp lánh. Hãy sử dụng chúng một cách khôn ngoan."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:0
 msgid "Thanks, I have to go now."
-msgstr ""
+msgstr "Cảm ơn, giờ tôi phải đi rồi."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:1
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:1
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:1
 msgid "Let's talk about other things."
-msgstr ""
+msgstr "Hãy nói về những chuyện khác."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1
 msgid "Let's have a look. Oh, what the ... Well, this is no book for little ones as you. Give it to me, you get 200 pieces of gold for it."
 msgstr ""
+"Để xem nào. Ồ, cái quái gì thế... Chà, đây không phải là cuốn sách dành cho "
+"trẻ con như cô đâu. Đưa nó cho tôi, cô sẽ nhận được 200 đồng vàng."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:1
 msgid "OK. Here is the book about slavery."
-msgstr ""
+msgstr "Được rồi. Đây là cuốn sách về chế độ nô lệ."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1
 msgid "And here are 200 shining gold pieces. Be happy that I'm freeing you from this terrible work."
 msgstr ""
+"Và đây là 200 đồng vàng sáng loáng. Vui vẻ lên vì ta đang giải thoát ngươi "
+"khỏi công việc kinh khủng này."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2
 msgid "Ah, a history textbook."
-msgstr ""
+msgstr "A, một cuốn sách giáo khoa lịch sử."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1
 msgid "But there are a lot of pages missing. Did you rip them out? You should be ashamed of yourself!"
 msgstr ""
+"Nhưng còn thiếu rất nhiều trang. Mày xé chúng ra à? Mày nên thấy xấu hổ về "
+"bản thân mình đi!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1:0
 msgid "No, that wasn't me!"
-msgstr ""
+msgstr "Không, không phải tôi!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2
 msgid "Such a beautiful book, completely broken! You dare to offer this to me and think I won't notice?!"
 msgstr ""
+"Một cuốn sách đẹp như vậy, lại hoàn toàn bị phá hỏng! Ngươi dám đưa cái này "
+"cho ta mà nghĩ ta không nhận ra sao?!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:0
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_no:0
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_yes_1:0
 msgid "[Run]"
-msgstr ""
+msgstr "[Chạy]"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_3
+#, fuzzy
 msgid "Yes, just run away, you book murderer!"
-msgstr ""
+msgstr "Đúng, cứ chạy trốn đi, kẻ giết sách!"
 
 #: conversationlist_fallhaven_bucus.json:bucus_welcome
 msgid "Hi again, welcome back to the ... Oh wait, I thought you were someone else."
-msgstr ""
+msgstr "Chào mừng trở lại, lại gặp nhau... Ồ khoan, tôi tưởng là người khác."
 
 #: conversationlist_fallhaven_bucus.json:bucus_welcome:1
 msgid "What do you know about the Thieves' Guild?"
-msgstr ""
+msgstr "Bạn biết gì về Hội Trộm cắp?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_andor_no_1
 msgid "How interesting that you should ask. What if I had seen him? Why would I tell you?"
 msgstr ""
+"Thật thú vị khi anh hỏi. Nếu tôi đã nhìn thấy anh ta thì sao? Tại sao tôi "
+"phải nói với anh?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_andor_no_2
 msgid "No, I can't tell you. Now please leave."
-msgstr ""
+msgstr "Không, tôi không thể nói cho anh biết. Giờ thì xin hãy đi đi."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_no
 msgid "Wh, what? No, I don't know anything about that."
-msgstr ""
+msgstr "Ca, cái gì? Không, tôi không biết gì về chuyện đó cả."
 
 #: conversationlist_fallhaven_bucus.json:bucus_umar_1
 msgid "OK kid. You've proven yourself to me. Yes, I saw some other kid by that description running around here a few days ago."
 msgstr ""
+"Được rồi, nhóc. Con đã chứng minh được bản thân với ta rồi. Phải, ta có thấy "
+"một thằng nhóc khác có vẻ ngoài như vậy chạy loanh quanh đây vài ngày trước."
 
 #: conversationlist_fallhaven_bucus.json:bucus_umar_2
 msgid "I don't know what he was up to though. He kept asking a lot of questions. Kind of like you do. *snicker*"
 msgstr ""
+"Tôi không biết anh ta định làm gì. Anh ta cứ hỏi rất nhiều câu hỏi. Giống "
+"như cô vậy. *cười khẩy*"
 
 #: conversationlist_fallhaven_bucus.json:bucus_umar_3
 msgid "Anyway, that's all I know. You should go talk to Umar, he probably knows more. Down that hatch over there."
 msgstr ""
+"Dù sao thì, đó là tất cả những gì tôi biết. Cậu nên đi nói chuyện với Umar, "
+"anh ta có lẽ biết nhiều hơn. Xuống cái cửa sập đằng kia."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_1
 msgid ""
@@ -2057,6 +2097,9 @@ msgid ""
 "\n"
 "OK so you found us. Now what?"
 msgstr ""
+"Ai nói với mày thế? Argh.\n"
+"\n"
+"Được rồi, vậy là mày tìm thấy bọn tao rồi. Giờ thì sao?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_1:0
 msgid "Can I join the Thieves' Guild?"
@@ -82940,4 +82983,3 @@ msgstr ""
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr ""
-
