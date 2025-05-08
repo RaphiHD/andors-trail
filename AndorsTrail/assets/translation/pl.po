@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-04-11 15:01+0000\n"
+"PO-Revision-Date: 2025-05-08 15:13+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -11018,7 +11018,10 @@ msgstr "Zaatakowałeś moje owce! Odejdź stąd ty plugawy morderco!"
 
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1:0
 msgid "I am sorry. But your brother sent me to ask if you knew where I could get fences for his sheep."
-msgstr "Przepraszam. Ale to Twój brat wysłał mnie, abym zapytał Cię, czy przypadkiem nie wiesz, gdzie i jak mogę zdobyć materiał na ogrodzenie dla jego owiec."
+msgstr ""
+"Przepraszam. Ale to Twój brat przysłał mnie tu, abym zapytał Cię, czy "
+"przypadkiem nie wiesz, gdzie i jak mogę zdobyć materiał na ogrodzenie dla "
+"jego owiec."
 
 #: conversationlist_tinlyn.json:tinlyn_complete_1
 msgid "Hello again. Thank you for helping me find my lost sheep."
@@ -19418,7 +19421,7 @@ msgstr "To nie są nawet nasze rzeczy. My tylko .. uch .. stoimy sobie tu."
 
 #: conversationlist_esfiume.json:esfiume1:0
 msgid "I didn't see anything."
-msgstr "Nic nie widzę."
+msgstr "Nic nie widziałem."
 
 #: conversationlist_esfiume.json:esfiume2
 msgid "That's right you didn't."
@@ -23727,7 +23730,7 @@ msgstr "Mam przeczucie że spotkamy się tu, gdziekolwiek by to nie było."
 #: conversationlist_fungi_panic.json:fungi_rescued_110:0
 #: conversationlist_feygard_1.json:tobby5_10:0
 msgid "Good luck!"
-msgstr "Powodzenia!"
+msgstr "Życzę Ci powodzenia!"
 
 #: conversationlist_halvor_surprise.json:halvor_chwood_0
 msgid "The world is such a small place. We keep meeting in the most unusual places."
@@ -50417,7 +50420,7 @@ msgid ""
 "Ah yes, this is indeed proof it is dead."
 msgstr ""
 "Wyśmienicie. Pozwól, że to wezmę [Podajesz mu futro Złotego Szakala]\n"
-"No tak, to jest zdecydowanie dowód tego, że jest martwy."
+"No tak, to jest zdecydowanie dowód na to, że jest martwy."
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_85
 msgid "Return to me once you have the proof that it is dead."
@@ -84020,4 +84023,3 @@ msgstr "Jezioro Laeroth"
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr "Osada Wexlow"
-
