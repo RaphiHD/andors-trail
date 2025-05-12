@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-11 14:03+0000\n"
+"PO-Revision-Date: 2025-05-12 10:58+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -2115,7 +2115,8 @@ msgstr "只要有财宝在前头，我就干！"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_4
 msgid "Bring me the key of Luthor and we can talk more. I don't know anything about the key itself, but rumor has it that it is located somewhere in the catacombs beneath Fallhaven Church."
-msgstr "如果你能给我路德的钥匙，我们可以多谈谈。我对那钥匙本身一无所知，但有传言说它位于法尔海文教堂的地下墓穴里。"
+msgstr "如果你能给我搞到路德之匙，那我们可以多谈谈。虽然我对那钥匙本身一无所知，但有"
+"传言说它位于法尔海文教堂的地下墓穴里。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_4:0
 msgid "OK, sounds easy enough."
@@ -2123,11 +2124,11 @@ msgstr "好的，听起来很简单。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue
 msgid "How is the search for the key of Luthor going?"
-msgstr "寻找路德的钥匙进展如何?"
+msgstr "寻找路德之匙进展如何?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue:1
 msgid "Here, I have it. The key of Luthor."
-msgstr "这里，我找到了。路德的钥匙。"
+msgstr "这里，我找到了。路德之匙。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue:2
 msgid "I'm still looking for it. Bye."
@@ -2135,7 +2136,7 @@ msgstr "我还在找呢。再见。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_complete_1
 msgid "Wow, you actually got the key of Luthor? I didn't think you would make it out of there."
-msgstr "哇，你真的拿到了路德的钥匙？我没想到你会成功。"
+msgstr "哇，你真的拿到了路德之匙？我都没想到你能成功。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_complete_2
 msgid "Well done kid."
@@ -4792,7 +4793,7 @@ msgstr "看来我只能原路返回了。"
 
 #: conversationlist_farrik.json:farrik_1
 msgid "Hello. I heard that you helped us find the key of Luthor. Good work, it will really come in handy."
-msgstr "你好，我听说你帮我们找到了路德的钥匙。干得好，它真的会派上用场的。"
+msgstr "你好，我听说你帮我们找到了路德之匙。干得好，它确实会派上用场的。"
 
 #: conversationlist_farrik.json:farrik_1:1
 #: conversationlist_farrik.json:farrik_2:1
@@ -5507,7 +5508,7 @@ msgstr "我不能告诉你，找到他的方法是我们公会的核心机密之
 
 #: conversationlist_umar.json:umar_lodar_2
 msgid "However, I heard that you helped us find the key of Luthor. This is something we have been trying to get for a long time."
-msgstr "不过，我听说你帮我们找到了路德的钥匙，它是我们公会的梦寐以求之物。"
+msgstr "不过，我听说你帮我们找到了路德之匙，它是我们公会的梦寐以求之物。"
 
 #: conversationlist_umar.json:umar_lodar_3
 msgid "OK, I'll tell you how to get to Lodar's Hideaway. But you have to promise to keep it a secret. Do not tell anyone. Not even those that appear to be members of the Thieves' Guild."
@@ -5919,7 +5920,8 @@ msgstr "愿暗影与你同行，我的朋友。"
 #: conversationlist_stoutford.json:tahalendor_rumblings10x_0:5
 #: conversationlist_thoronir_faction_check.json:thoronir_start:4
 msgid "I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable."
-msgstr ""
+msgstr "有人施展了一道能让人变得格外引人注目的暗影咒语，我想要搞清楚施咒的人究竟是谁"
+"，你想问问你能不能提供些什么帮助。"
 
 #: conversationlist_jolnor.json:jolnor_chapel_1
 msgid "This is Vilegard's place of worship for the Shadow. We praise the Shadow in all its might and glory."
@@ -32760,7 +32762,7 @@ msgstr "这是我的工作。很高兴看到你从那些脚踝伤者中幸存下
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10:2
 msgid "Hmm, maybe you can help me?"
-msgstr ""
+msgstr "呃…或许我能帮到你？"
 
 #: conversationlist_omicronrg9.json:umar_guild_4b
 msgid "What have you decided?"
@@ -57195,7 +57197,7 @@ msgstr "嗯，女士。"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:2
 msgid "The Guild needs you. Umar ..."
-msgstr ""
+msgstr "公会需要你。奥马尔……"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:3
 msgid "Hi Seraphina, you were away so quickly after you gave me Luthor's ring."
@@ -57928,7 +57930,7 @@ msgstr "你想装傻吗?奥马尔会听到的!"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_81:1
 msgid "No time to joke - the Guild needs you. Umar ..."
-msgstr ""
+msgstr "现在不是开玩笑是时候——公会需要你。奥马尔……"
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_defy_killed_no_key
 msgid "I should come back with the Thieves' Guild key."
@@ -64682,7 +64684,10 @@ msgstr "一根骨头？！你是在戏耍甘吉吗？！我受够了！你的死
 
 #: conversationlist_feygard_1.json:wexlow_well_map_change
 msgid "Suddenly, a powerful force grabs you and drags you down into the darkness of the well. You find yourself dazed, confused in a dank, underground cavern while bleeding from what feels like every part of your body."
-msgstr "突然，一股巨力拽住了你，一下把你拖进了那井底的阴影中。当你再次恢复意识时，你发现自己身处在一个湿漉漉的地下洞穴里。你的脑袋现在还是晕乎乎的，身上每个部件都仿佛在向外流血。"
+msgstr ""
+"突然，一股巨力拽住了你，一下把你拖进了那井里的阴影中。当你再次恢复意识时，你"
+"发现自己身处在一个湿漉漉的地下洞穴里。你的脑袋现在还是晕乎乎的，身上每个部件"
+"都仿佛在向外流血。"
 
 #: conversationlist_feygard_1.json:village_odilia_start:0
 #: conversationlist_feygard_1.json:wexlow_osric_start:0
@@ -65845,19 +65850,20 @@ msgstr "太谢谢你了！你能把直接交还给我，我真的很感动，这
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_10
 msgid "Do you want to jump inside?"
-msgstr ""
+msgstr "你想要跳进去吗？"
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_10:0
 msgid "No way! I remember How badly I was hurt the last time."
-msgstr ""
+msgstr "绝不！我可还记得上次伤得有多重呢。"
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_10:1
 msgid "Yes. What choice do I have?"
-msgstr ""
+msgstr "嗯，不然我还能怎么选？"
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_20
 msgid "You jumped down into the darkness of the well. At the bottom of the well, you find yourself dazed and bleeding from what feels like every part of your body."
-msgstr ""
+msgstr "你跳入了那井里的阴影中。等你摔到井底的时候，你感到你的脑袋晃得不停，身上每个"
+"部件都仿佛在向外流血。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_1
 msgid "My sleep has been very restless lately."
@@ -66527,133 +66533,135 @@ msgstr "嗯，我明白了。"
 
 #: conversationlist_troubling_times.json:fanamor_tt
 msgid "Sure. I heard you're looking for Sly Seraphina."
-msgstr ""
+msgstr "嗯，我有听说你在寻找塞拉菲娜。"
 
 #: conversationlist_troubling_times.json:fanamor_tt:0
 msgid "Eavesdropping is not nice."
-msgstr ""
+msgstr "偷听别人说话可不是一件礼貌的事。"
 
 #: conversationlist_troubling_times.json:fanamor_tt:1
 msgid "Yes. Do you have any idea where she might be hiding?"
-msgstr ""
+msgstr "没错，请问你知道她可能躲在哪儿吗？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_10
 msgid "We are thieves - already forgotten?"
-msgstr ""
+msgstr "我们可是盗贼啊——难道你忘了吗？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_10:0
 msgid "So can you help me?"
-msgstr ""
+msgstr "所以你能帮到我吗？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_10:1
 msgid "Nevertheless, one can still maintain one's good manners."
-msgstr ""
+msgstr "就算如此，任何人都得有点不低的教养才行。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_12
 msgid "Phh."
-msgstr ""
+msgstr "噗。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_20
 msgid "Of course. In fact, I know exactly where she's hiding right now."
-msgstr ""
+msgstr "那可当然。实话告诉你，她现在躲哪儿我心里门儿清。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_20:0
 msgid "Great. That will save me a lot of running around."
-msgstr ""
+msgstr "太好了，这可要节省我大把的工夫了。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_22
 msgid "Here's how we do it: You can guess, and I'll tell you whether it's true or not."
-msgstr ""
+msgstr "咱们这么搞吧：你猜一个地点，然后我告诉你猜得对不对。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_24
 msgid "And each tip only costs you 100 gold pieces."
-msgstr ""
+msgstr "这样的每句回复只收你100金币好了。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_24:0
 msgid "I should have known."
-msgstr ""
+msgstr "我早该料到的。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_26
 msgid "You already know that she is near a town."
-msgstr ""
+msgstr "要知道你可是已经了解到她是待在某个镇子的周边了。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_26:0
 msgid "But which one?"
-msgstr ""
+msgstr "不过至于到底哪个呢？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30
 msgid "Guess!"
-msgstr ""
+msgstr "你猜！"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:2
 #: conversationlist_troubling_times.json:fanamor_tt_30:3
 msgid "Brimhaven?"
-msgstr ""
+msgstr "布林海文？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:4
 #: conversationlist_troubling_times.json:fanamor_tt_30:5
 msgid "Prim?"
-msgstr ""
+msgstr "普里姆？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:6
 #: conversationlist_troubling_times.json:fanamor_tt_30:7
 msgid "Loneford?"
-msgstr ""
+msgstr "隆福德？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:8
 #: conversationlist_troubling_times.json:fanamor_tt_30:9
 msgid "Stoutford?"
-msgstr ""
+msgstr "斯托福德？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:10
 #: conversationlist_troubling_times.json:fanamor_tt_30:11
 msgid "Sullengard?"
-msgstr ""
+msgstr "苏伦加德？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:12
 msgid "Oh, I'm running out of gold."
-msgstr ""
+msgstr "哦，我身上的金币都用完了。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:13
 msgid "Enough. I think you don't know yourself."
-msgstr ""
+msgstr "够了，我想你自己根本就不知道吧。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_32
 msgid "You are so smart. I'm sorry I tried."
-msgstr ""
+msgstr "你也太聪明了，算我多嘴了可以吧。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_34
 msgid "No problem. I can wait."
-msgstr ""
+msgstr "没关系，我可以等。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_40
 msgid "Hey, that's right!"
-msgstr ""
+msgstr "嘿，是了！"
 
 #: conversationlist_troubling_times.json:fanamor_tt_50
 msgid "Nope - 100 gold. Try again ..."
-msgstr ""
+msgstr "不对——100金币。你可以再试试……"
 
 #: conversationlist_troubling_times.json:fanamor_tt_60
 msgid "Thanks for the gold. But don't tell her that I betrayed her."
-msgstr ""
+msgstr "感谢你的这些金币，不过记得别告诉她，背叛她的人是我哦。"
 
 #: conversationlist_troubling_times.json:nanath_10
 #: conversationlist_troubling_times.json:nanath_12
 msgid "You? How dare you show your face?"
-msgstr ""
+msgstr "是你？你怎么还有脸来的？"
 
 #: conversationlist_troubling_times.json:nanath_18
 msgid "You betrayed the Guild over the task with Defy. Get out!"
-msgstr ""
+msgstr "你可是在对付德菲的任务里背叛了公会啊。滚！"
 
 #: conversationlist_troubling_times.json:nanath_20
 msgid "Hi there. I am Nanath, the oldest and most experienced man in the guild. No need to introduce yourself, I know who you are, $playername."
 msgstr ""
+"你好，我叫纳纳斯，应该可以算是这个公会里资历最老、经验最丰富的人了吧。至于你"
+"是谁的问题就不劳你多言了，我知道你的名字， $playername。"
 
 #: conversationlist_troubling_times.json:nanath_20:0
 msgid "Oh. Hi Nanath. You look scared."
-msgstr ""
+msgstr "哦，纳纳斯你好，话说你的脸色似乎不太好呀。"
 
 #: conversationlist_troubling_times.json:nanath_22
 msgid "Well, one of our ex-clients, Lady Dameni, has put an adverse Shadow spell on us."
@@ -66665,7 +66673,7 @@ msgstr ""
 
 #: conversationlist_troubling_times.json:nanath_24:0
 msgid "Oh. Sounds awful."
-msgstr ""
+msgstr "哦，这可真是糟糕。"
 
 #: conversationlist_troubling_times.json:nanath_26
 msgid "Umar wants me to handle it. He wants me to get it dispelled, so that the Thieves' Guild can work again."
@@ -72868,11 +72876,11 @@ msgstr "这枚戒指上附着艾伦希雅对轻灵的起誓。"
 
 #: itemlist_troubling_times.json:ring_luthor
 msgid "Luthor's Ring"
-msgstr ""
+msgstr "路德之戒"
 
 #: itemlist_troubling_times.json:tiny_knife
 msgid "Tiny knife"
-msgstr ""
+msgstr "袖珍小刀"
 
 #: monsterlist_crossglen_animals.json:tiny_rat
 #: monsterlist_ratdom.json:ratdom_maze_rat1
@@ -77931,17 +77939,17 @@ msgstr "野花"
 
 #: monsterlist_troubling_times.json:nanath
 msgid "Nanath"
-msgstr ""
+msgstr "纳纳斯"
 
 #: monsterlist_troubling_times.json:tt_monster1
 #: monsterlist_troubling_times.json:tt_monster2
 #: monsterlist_troubling_times.json:tt_monster3
 msgid "Luthor's skeleton guard"
-msgstr ""
+msgstr "路德的骷髅守卫"
 
 #: monsterlist_troubling_times.json:tt_guys
 msgid "Seraphina's bodyguard"
-msgstr ""
+msgstr "塞拉菲娜的护卫"
 
 #: monsterlist_troubling_times.json:spearborn_thrall
 msgid "Spearborn thrall"
@@ -78196,7 +78204,8 @@ msgstr "伊洛戈图已经死了。我给简带来了甘迪尔的戒指，并为
 
 #: questlist.json:bucus:10
 msgid "Bucus in Fallhaven might know something about Andor. He wants me to bring him the key of Luthor from the catacombs beneath Fallhaven church."
-msgstr "法尔海文的布库斯可能知道一些关于安道尔的事情。他想让我把路德的钥匙从法尔海文教堂的地下墓穴里带给他。"
+msgstr "法尔海文的布库斯可能知道一些关于安道尔的事情。他想让我把路德之匙从法尔海文教"
+"堂的地下墓穴里带给他。"
 
 #: questlist.json:bucus:20
 msgid "The catacombs beneath Fallhaven church are closed off. Athamyr is the only one with both permission and the bravery to enter them. I should go see him in his house southwest of the church."
@@ -78216,7 +78225,7 @@ msgstr "阿萨米尔已经准许我进入法尔海文教堂的地下墓穴了。
 
 #: questlist.json:bucus:100
 msgid "I brought Bucus the key of Luthor."
-msgstr "我给布库斯带来了路德的钥匙。"
+msgstr "我给布库斯带来了路德之匙。"
 
 #: questlist.json:fallhavendrunk
 msgid "Drunken tale"
@@ -81015,7 +81024,8 @@ msgid ""
 "After giving him the key of Luthor and talking with Umar about Andor, I needed to ask him about Thieves' Guild itself.\n"
 "I want to join them to see what kind of jobs they do."
 msgstr ""
-"给了他路德的钥匙，和奥马尔谈了安道尔的事情之后，我需要向他询问盗贼公会本身的情况。\n"
+"给了他路德之匙，和奥马尔谈了安道尔的事情之后，我需要向他询问盗贼公会本身的情"
+"况。\n"
 "我想加入他们，看看他们是做什么工作的。"
 
 #: questlist_omicronrg9.json:Thieves01:10
@@ -83879,7 +83889,7 @@ msgstr "艾伦希雅把她的魔法誓约戒指送给了我，作为帮助她的
 
 #: questlist_troubling_times.json:troubling_times
 msgid "Troubling times"
-msgstr ""
+msgstr "妙手难施"
 
 #: questlist_troubling_times.json:troubling_times:10
 msgid "I went to the Thieves' Guild in Fallhaven looking for things to do."
