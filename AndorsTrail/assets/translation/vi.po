@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-20 17:34+0200\n"
-"PO-Revision-Date: 2025-05-11 14:03+0000\n"
+"PO-Revision-Date: 2025-05-13 13:02+0000\n"
 "Last-Translator: Hong Quan <keokiet@yahoo.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/vi/>\n"
@@ -3293,54 +3293,64 @@ msgstr "Ông già say xỉn ở quán rượu đã kể chuyện cho anh rồi �
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_2
 msgid "Same old story. We used to travel together a few years back."
-msgstr ""
+msgstr "Chuyện cũ rích. Chúng ta đã từng đi cùng nhau vài năm trước."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_3
 msgid "Real adventuring you know, swords and spells."
-msgstr ""
+msgstr "Phiêu lưu thực thụ, bạn biết đấy, kiếm và phép thuật."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_4
 msgid "Then, after a while, we stopped. I can't really say why, I guess we got tired of life on the road. We settled down here in Fallhaven."
 msgstr ""
+"Sau đó, một lúc sau, chúng tôi dừng lại. Tôi không thể thực sự nói tại sao, "
+"tôi đoán chúng tôi đã mệt mỏi với cuộc sống trên đường. Chúng tôi định cư ở "
+"đây, tại Fallhaven."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_5
 msgid "Nice little town here. A lot of thieves around, but they don't bother me."
 msgstr ""
+"Thị trấn nhỏ nhắn đây. Có nhiều kẻ trộm vặt, nhưng chúng không làm phiền ta."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_6
 msgid "So what's your story, kid? How did you end up here in Fallhaven?"
 msgstr ""
+"Vậy câu chuyện của cậu là gì, nhóc? Sao cậu lại kết thúc ở đây, Fallhaven?"
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_6:0
 #: conversationlist_agthor.json:agthor_y2:1
 msgid "I'm looking for my brother."
-msgstr ""
+msgstr "Tôi đang tìm anh trai tôi."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_7
 msgid ""
 "Yeah yeah, I get it. Your brother has probably run off to some dungeon, trying to go adventuring.\n"
 "[Rolls eyes]"
 msgstr ""
+"Ừ ừ, tôi hiểu rồi. Chắc anh trai cô đã chạy đến một ngục tối nào đó, cố gắng "
+"đi phiêu lưu.\n"
+"[Liếc mắt]"
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_8
 msgid "Or maybe he has gone to one of the bigger cities to the north."
-msgstr ""
+msgstr "Hoặc có lẽ anh ta đã đến một trong những thành phố lớn hơn ở phía bắc."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_9
 msgid "Can't say I blame him for wanting to see the world."
-msgstr ""
+msgstr "Không thể nói là tôi trách anh ta vì muốn nhìn ngắm thế giới."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_10
 msgid "Hey, by the way, are you looking to be an adventurer?"
-msgstr ""
+msgstr "Này, tiện thể, cậu có muốn trở thành một nhà thám hiểm không?"
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_10:1
 msgid "No, not really."
-msgstr ""
+msgstr "Không, không hẳn."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_11
 msgid "Nice. I'll give you a hint, kid. *snickering* Go see Nocmar over by the west side of town. Tell him I sent you."
 msgstr ""
+"Tuyệt. Ta sẽ cho nhóc một gợi ý này. *cười khẩy* Đến gặp Nocmar ở phía tây "
+"thị trấn đi. Cứ bảo là ta phái nhóc đến."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_12
 msgid "Smart move. Adventuring leads to a lot of scars. If you know what I mean."
@@ -3362,11 +3372,11 @@ msgstr "Tốc độ là lưỡi kiếm của ta. Lưỡi ta nhiễm độc. Hay 
 
 #: conversationlist_fallhaven_gaela.json:gaela_0:0
 msgid "There seems to be a lot of thieves here in Fallhaven."
-msgstr ""
+msgstr "Có vẻ như ở Fallhaven có rất nhiều kẻ trộm."
 
 #: conversationlist_fallhaven_gaela.json:gaela_1
 msgid "Yes, we thieves have a strong presence here."
-msgstr ""
+msgstr "Vâng, chúng ta, những tên trộm, có một sự hiện diện mạnh mẽ ở đây."
 
 #: conversationlist_fallhaven_gaela.json:gaela_1:0
 #: conversationlist_omicronrg9.json:umar_guild03_19d:0
@@ -3374,35 +3384,39 @@ msgstr ""
 #: conversationlist_omi2.json:prim_commoner3_2:0
 #: conversationlist_omi2.json:prim_commoner4_5b:0
 msgid "Anything more?"
-msgstr ""
+msgstr "Còn gì nữa không?"
 
 #: conversationlist_fallhaven_gaela.json:gaela_2
 msgid "I heard that you helped Gruil, a fellow thief in Crossglen village."
-msgstr ""
+msgstr "Tôi nghe nói anh đã giúp Gruil, một tên trộm ở làng Crossglen."
 
 #: conversationlist_fallhaven_gaela.json:gaela_3
 msgid "Word has also reached me that you are looking for someone. I might be able to help you."
-msgstr ""
+msgstr "Tôi cũng nghe nói rằng ngài đang tìm người. Tôi có thể giúp ngài."
 
 #: conversationlist_fallhaven_gaela.json:gaela_4
 msgid "You should go talk to Bucus in the derelict house a bit southwest of here. Tell him you want to know more about the Thieves' Guild."
 msgstr ""
+"Bạn nên đi nói chuyện với Bucus trong căn nhà đổ nát, cách đây một chút về "
+"phía tây nam. Hãy nói với hắn rằng bạn muốn biết thêm về Hội Trộm Cắp."
 
 #: conversationlist_fallhaven_gaela.json:gaela_4:0
 msgid "Thanks, I'll go talk to him."
-msgstr ""
+msgstr "Cảm ơn, tôi sẽ đi nói chuyện với anh ấy."
 
 #: conversationlist_fallhaven_gaela.json:gaela_5
 msgid "Consider it a favor done in return for helping Gruil."
-msgstr ""
+msgstr "Cứ coi như là một ân huệ để trả ơn vì đã giúp Gruil."
 
 #: conversationlist_fallhaven_vacor.json:vacor_2
 msgid "What are you, some kind of adventurer? Hmm. Maybe you can be of use to me."
 msgstr ""
+"Ngươi là cái gì, một loại nhà thám hiểm sao? Hmm. Có lẽ ngươi có thể giúp "
+"ích cho ta."
 
 #: conversationlist_fallhaven_vacor.json:vacor_3
 msgid "Are you willing to help me?"
-msgstr ""
+msgstr "Bạn có sẵn lòng giúp tôi không?"
 
 #: conversationlist_fallhaven_vacor.json:vacor_3:1
 msgid "No, why should I help you?"
