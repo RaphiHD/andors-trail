@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-14 16:01+0000\n"
+"PO-Revision-Date: 2025-05-15 09:57+0000\n"
 "Last-Translator: Hodex99 <anonymoushodex@proton.me>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/id/>\n"
@@ -50,7 +50,7 @@ msgstr "Kelelahan ringan"
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
-msgstr "Senjata dilemahkan ringan"
+msgstr "Kelemahan senjata ringan"
 
 #: actorconditions_v069_bwm.json:bleeding_wound
 msgid "Bleeding wound"
@@ -429,7 +429,7 @@ msgstr "Keracunan lingkungan"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
-msgstr ""
+msgstr "Sweet tooth"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
@@ -437,11 +437,11 @@ msgstr "Peningkatan pertahanan kecil"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
-msgstr ""
+msgstr "Penyegaran Elythara"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
-msgstr ""
+msgstr "Penglihatan buram"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -884,7 +884,7 @@ msgstr "Apa kau melihat kakakku Andor?"
 
 #: conversationlist_crossglen.json:farm2
 msgid "What?! Can't you see I'm busy? Go bother someone else."
-msgstr "Apa?! Kau tidak lihat aku sedang sibuk? Pergi sana."
+msgstr "Apa?! Kau tidak lihat aku sedang sibuk? Ganggu yang lain saja sana."
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
@@ -907,7 +907,7 @@ msgstr "Bagus, Aku sudah menantikan pertarungan ini!"
 
 #: conversationlist_crossglen.json:snakemaster:1
 msgid "Let's see who dies here."
-msgstr "Mari kita lihat siapa yang akan mati."
+msgstr "Mari kita lihat siapa yang akan mati di sini."
 
 #: conversationlist_crossglen.json:snakemaster:2
 #: conversationlist_maelveon.json:maelveon_5:2
@@ -3617,7 +3617,7 @@ msgstr "Sekarang tinggalkan aku, ada pekerjaan yang harus dilakukan sebelum aku 
 #: conversationlist_fallhaven_vacor.json:vacor_return_complete
 msgid "Hello again, my assassin friend. I will soon have my rift spell ready."
 msgstr ""
-"Halo lagi, temanku pembunuh. Aku akan segera menyiapkan mantra keretakanku."
+"Halo lagi, teman pembunuhku. Aku akan segera menyiapkan mantra keretakanku."
 
 #: conversationlist_fallhaven_vacor.json:vacor_70
 msgid "What? He told you his story? You actually believed it?"
@@ -3639,7 +3639,9 @@ msgstr "Oke, akan kupikirkan lagi."
 
 #: conversationlist_fallhaven_vacor.json:vacor_72
 msgid "Bah, lowly creature. I knew I shouldn't have trusted you. Now you will die along with your precious Shadow."
-msgstr "Bah, makhluk rendahan. Aku tahu aku seharusnya tidak mempercayaimu. Sekarang kau akan mati bersama dengan Sang Bayanganmu yang berharga."
+msgstr ""
+"Cuih, makhluk rendahan. Aku tahu aku seharusnya tidak mempercayaimu. "
+"Sekarang kau akan mati bersama dengan Sang Bayanganmu yang berharga."
 
 #: conversationlist_fallhaven_vacor.json:vacor_72:0
 #: conversationlist_foamingflask_outsideguard.json:ff_outsideguard_shadow_4:1
@@ -4830,7 +4832,7 @@ msgstr "Maksudmu mencuri?"
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_4:1
 msgid "Isn't that stealing?"
-msgstr ""
+msgstr "Bukankah itu mencuri?"
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_5
 msgid "No no. I wouldn't call it stealing. It's more of a transfer of ownership. To me, that is."
@@ -4906,7 +4908,7 @@ msgstr "Ya, mungkin."
 
 #: conversationlist_thievesguild_1.json:thievesguild_troublemaker_4:0
 msgid "Have you seen my brother around here? He looks somewhat like me."
-msgstr "Pernahkah kau melihat kakakku di sekitar sini? Dia terlihat sepertiku."
+msgstr "Pernahkah kau melihat kakakku di sekitar sini? Dia mirip denganku."
 
 #: conversationlist_thievesguild_1.json:thievesguild_troublemaker_5
 msgid "Oh yes, now that you mention it. There was that kid running around here, asking a lot of questions."
@@ -4926,39 +4928,43 @@ msgstr "Oke, terima kasih. Selamat tinggal."
 
 #: conversationlist_thievesguild_1.json:thievesguild_troublemaker_6:1
 msgid "Bah, you're useless. Goodbye."
-msgstr "Bah, kau gak guna. Dah."
+msgstr "Cuih, beban. Selamat tinggal."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel1
 msgid "Hey, kid! Don't be so nosy!"
-msgstr ""
+msgstr "Hei, nak! Jangan terlalu kepo!"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2a
 msgid ""
 "A sign says 'Jail'\n"
 "The exit above is blocked though."
 msgstr ""
+"Papannya bertuliskan 'Penjara'\n"
+"Tapi pintu keluar di atas diblokir."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2b
 msgid ""
 "A sign says 'Arcir'\n"
 "The exit above is blocked though."
 msgstr ""
+"Papannya bertuliskan 'Arcir'\n"
+"Tapi pintu keluar di atas diblokir."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2c
 msgid "Attention - the catacombs. Keep silent!"
-msgstr ""
+msgstr "Perhatian - katakombe. Diamlah!"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3
 msgid "Looks like the tunnel isn't quite finished yet."
-msgstr ""
+msgstr "Sepertinya terowongan itu belum selesai."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:0
 msgid "Typical Troublemaker - can't finish anything."
-msgstr ""
+msgstr "Tipe Pembuat Onar - tidak bisa menyelesaikan apa pun."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:1
 msgid "So I have to go back the way I came."
-msgstr ""
+msgstr "Jadi, aku harus kembali ke jalur yang sama."
 
 #: conversationlist_farrik.json:farrik_1
 msgid "Hello. I heard that you helped us find the key of Luthor. Good work, it will really come in handy."
@@ -6090,6 +6096,8 @@ msgstr "Berjalan dengan Sang Bayangan temanku."
 #: conversationlist_thoronir_faction_check.json:thoronir_start:4
 msgid "I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable."
 msgstr ""
+"Aku butuh bantuan untuk mencari tahu dalang dibalik Mantra Bayangan yang "
+"menyebabkan seseorang menjadi terlihat."
 
 #: conversationlist_jolnor.json:jolnor_chapel_1
 msgid "This is Vilegard's place of worship for the Shadow. We praise the Shadow in all its might and glory."
@@ -13247,7 +13255,7 @@ msgstr "Tidak, aku akan pergi dengan caraku sendiri. Bayangan bodohmu hanyalah o
 #: conversationlist_buceth.json:buceth_25:4
 #: conversationlist_buceth.json:buceth_26:3
 msgid "(Lie) I am ready to follow the Shadow."
-msgstr ""
+msgstr "(Bohong) Aku siap mengikuti Sang Bayangan."
 
 #: conversationlist_buceth.json:buceth_26
 msgid "If the answers you gave previously were indeed your views, then I can assure you that the path that is guided by the Shadow is the right one."
@@ -44956,7 +44964,7 @@ msgstr "Sekali lagi terima kasih atas bantuan Anda yang luar biasa!"
 
 #: conversationlist_gorwath.json:arensia
 msgid "Hello, dear."
-msgstr ""
+msgstr "Halo, sayang."
 
 #: conversationlist_gorwath.json:arensia:0
 #: conversationlist_gorwath.json:arensia_1:1
@@ -44970,15 +44978,15 @@ msgstr "Halo. Aku mau bertanya apa kamu bisa membantuku?"
 
 #: conversationlist_gorwath.json:arensia:2
 msgid "You seem tired. Is everything alright?"
-msgstr ""
+msgstr "Kau tampak lelah. Apa semuanya baik-baik saja?"
 
 #: conversationlist_gorwath.json:arensia:3
 msgid "About the lytwings ..."
-msgstr ""
+msgstr "Tentang peri-peri itu ..."
 
 #: conversationlist_gorwath.json:arensia:4
 msgid "Have the lytwings honored their word?"
-msgstr ""
+msgstr "Apakah para peri menepati janjinya?"
 
 #: conversationlist_gorwath.json:arensia_done
 msgid "What a beautiful day, isn't it?"
@@ -65907,657 +65915,741 @@ msgstr ""
 
 #: conversationlist_lytwings.json:arensia_lytwing_1
 msgid "My sleep has been very restless lately."
-msgstr ""
+msgstr "Tidurku akhir-akhir ini sangat tidak nyenyak."
 
 #: conversationlist_lytwings.json:arensia_lytwing_1:0
 msgid "Oh no, why are you not sleeping well?"
-msgstr ""
+msgstr "Oh tidak, mengapa tidurmu tidak nyenyak?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_2
 msgid "I am being taunted by naughty lytwings at night. At least that is what Rigmor tells me. They play with my hair while I sleep, and tangle it into fairy-lock knots. Every morning I wake up tired, and I spend an hour brushing out the knots. I don't know what to do!"
 msgstr ""
+"Aku diganggu para peri nakal di malam hari. Setidaknya itulah yang Rigmor "
+"katakan. Mereka memainkan rambutku saat tidur, dan mengacaukannya. Setiap "
+"pagi aku bangun dalam keadaan lelah, dan menghabiskan satu jam untuk "
+"menyisir rambutku. Aku tak tahu harus berbuat apa!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_2:0
 msgid "I am sorry to hear that, but I cannot help you right now."
-msgstr ""
+msgstr "Maaf, aku belum bisa membantumu sekarang."
 
 #: conversationlist_lytwings.json:arensia_lytwing_2:1
 msgid "That sounds awful, can I help in any way?"
-msgstr ""
+msgstr "Kedengarannya mengerikan. Bisa kubantu?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_3
 msgid "I understand. I guess I will just have to live with their mischief, and hope that I don't lose my hair, or my sanity!"
 msgstr ""
+"Aku mengerti. Kurasa aku harus hidup dengan kenakalan mereka, dan berharap "
+"aku tidak kehilangan rambutku, atau kewarasanku!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_4
 msgid "You would be willing to help me? I would be so grateful if you could make them leave me alone."
 msgstr ""
+"Kau mau membantuku? Aku akan sangat berterima kasih jika kau bisa membuat "
+"mereka menjauhiku."
 
 #: conversationlist_lytwings.json:arensia_lytwing_5
 msgid "Have you found them yet?"
-msgstr ""
+msgstr "Kau sudah menemukannya?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_5:0
 msgid "Not yet. I still need to go talk with Rigmor to find out more."
 msgstr ""
+"Belum, aku masih harus berbicara ke Rigmor untuk mencari tahu lebih banyak."
 
 #: conversationlist_lytwings.json:arensia_lytwing_5:1
 msgid "Not yet. I am still looking for their mushroom patch. You wouldn't know where it is, perhaps?"
 msgstr ""
+"Belum, Aku masih mencari ladang jamur mereka. Kau mungkin tahu di mana itu?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_5:2
 msgid "I did, they asked that I bring them a gift of apples and strawberries."
-msgstr ""
+msgstr "Sudah, mereka memintaku membawakan apel dan stroberi."
 
 #: conversationlist_lytwings.json:arensia_lytwing_6
 msgid "Please tell me you have good news?"
-msgstr ""
+msgstr "Apa kau mempunyai kabar baik?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:0
 msgid "They accepted the gift and will allow me to talk to them."
-msgstr ""
+msgstr "Mereka menerimanya dan mengizinkanku berbicara."
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:1
 msgid "The lytwings are upset that you took their mushrooms. I pleaded with them, and am now waiting on their decision."
 msgstr ""
+"Para peri jengkel karena kau mengambil jamur mereka. Aku memohon pada "
+"mereka, dan aku sedang menunggu keputusan mereka."
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:2
 msgid "I have, and they agreed to stop pestering you if I help cut down a tree for them."
 msgstr ""
+"Benar, dan mereka sepakat untuk berhenti mengganggumu jika aku menebang "
+"pohon untuk mereka."
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:3
 msgid "The lytwings changed their minds, and are now thinking of something else they want instead."
 msgstr ""
+"Para peri berubah pikiran, dan kini memikirkan hal lain yang mereka inginkan."
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:4
 msgid "They now want four bottles of mead. They sure are giving me the run around today!"
 msgstr ""
+"Sekarang mereka minta empat botol mead. Mereka benar-benar membuatku bingung!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:5
 msgid "They took the mead, but said they need something else."
-msgstr ""
+msgstr "Mereka menerimanya, tapi sekarang minta sesuatu yang lain."
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:6
 msgid "They want a dozen wild flowers."
-msgstr ""
+msgstr "Mereka ingin selusin bunga liar."
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:7
 msgid "They took the wild flowers ..."
-msgstr ""
+msgstr "Mereka menerima bunga itu ..."
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:8
 msgid "The lytwings ask that you make a promise to never pick mushrooms from their fairy ring again."
 msgstr ""
+"Para peri memintamu berjanji untuk tidak memetik jamur dari wilayah mereka "
+"lagi."
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:9
 msgid "I will take your ring to them at once!"
-msgstr ""
+msgstr "Aku akan segera memberikannya!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_6:10
 msgid "I gave them your ring, they are busy discussing it now."
-msgstr ""
+msgstr "Aku memberikan cincin itu, sekarang mereka sibuk berdiskusi."
 
 #: conversationlist_lytwings.json:arensia_lytwing_7
 msgid "Oh that is great news! If you need an axe, check with Jakrar, my father, over there."
 msgstr ""
+"Oh kabar bagus! Jika kau butuh kapak, tanyakan pada Jakrar, ayahku, di sana."
 
 #: conversationlist_lytwings.json:arensia_lytwing_8
 msgid "Please keep me updated."
-msgstr ""
+msgstr "Tolong kabari aku."
 
 #: conversationlist_lytwings.json:arensia_lytwing_9
 msgid "Thank you so much for helping me with the lytwings!"
-msgstr ""
+msgstr "Terima kasih banyak, kau benar-benar telah membantuku!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_9:0
 msgid "You are welcome!"
-msgstr ""
+msgstr "Sama-sama!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_10
 msgid "Okay thanks for letting me know. Don't let them wait too long."
-msgstr ""
+msgstr "Oke terima kasih untuk kabarnya. Jangan membuat mereka menunggu."
 
 #: conversationlist_lytwings.json:arensia_lytwing_11
 msgid "Oh wonderful! An odd request nonetheless."
-msgstr ""
+msgstr "Wah hebat! Tapi permintaan itu aneh sekali."
 
 #: conversationlist_lytwings.json:arensia_lytwing_11:0
 msgid "I better go and find those fruit."
-msgstr ""
+msgstr "Aku akan pergi mencari buah itu."
 
 #: conversationlist_lytwings.json:arensia_lytwing_11:1
 msgid "Where can I find apples and strawberries?"
-msgstr ""
+msgstr "Dimana aku bisa menemukan apel dan stroberi?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_12
 msgid "You can buy apples at the Fallhaven tavern. Not sure about strawberries though."
 msgstr ""
+"Kau bisa menemukan apel di kedai Fallhaven. Aku tidak yakin kalau "
+"stroberinya."
 
 #: conversationlist_lytwings.json:arensia_lytwing_13
 msgid "Oh no, they sound very difficult to deal with. I hope it gets better."
 msgstr ""
+"Oh tidak, sepertinya sangat sulit mengatasi mereka. Kuharap segera membaik."
 
 #: conversationlist_lytwings.json:arensia_lytwing_14
 msgid "I am so sorry."
-msgstr ""
+msgstr "Aku sungguh minta maaf."
 
 #: conversationlist_lytwings.json:arensia_lytwing_15
 msgid "You have done so much for me already. I will understand if you want to quit, I won't blame you."
 msgstr ""
+"Kau sudah melakukan banyak hal untukku. Aku paham kalau kau ingin berhenti, "
+"aku tidak akan menyalahkanmu."
 
 #: conversationlist_lytwings.json:arensia_lytwing_15:0
 msgid "I want to see this through."
-msgstr ""
+msgstr "Aku ingin menyelesaikannya."
 
 #: conversationlist_lytwings.json:arensia_lytwing_15:1
 msgid "The lytwings are driving me insane. I thought about this, and I can't help you any more. I am sorry."
 msgstr ""
+"Para peri itu membuatku gila. Aku sudah memikirkan ini, dan aku tidak bisa "
+"membantumu lagi. Maaf."
 
 #: conversationlist_lytwings.json:arensia_lytwing_16
 msgid "You are too kind!"
-msgstr ""
+msgstr "Kau sangat baik!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_17
 msgid "I appreciate your help either way."
-msgstr ""
+msgstr "Aku menghargai bantuanmu."
 
 #: conversationlist_lytwings.json:arensia_lytwing_18
 msgid "Oh please tell me that is the end of it?"
-msgstr ""
+msgstr "Oh tolong katakan apakah ini sudah berakhir?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_18:0
 msgid "I'm afraid not, they still want more."
-msgstr ""
+msgstr "Kurasa belum, mereka masih meminta lebih."
 
 #: conversationlist_lytwings.json:arensia_lytwing_19
 msgid "Of course! anything!"
-msgstr ""
+msgstr "Tentu saja! Apapun!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_19:0
 msgid "You have to make this promise to a piece of jewellery, which I will take back to them."
 msgstr ""
+"Aku harus membuat perjanjian dengan sebuah perhiasan, yang akan kubawakan "
+"pada mereka."
 
 #: conversationlist_lytwings.json:arensia_lytwing_20
 msgid "I know, I will promise on this ring I'm wearing. It belonged to my mother, and it's dear to me, but I will do anything to stop the lytwings!"
 msgstr ""
+"Aku mengerti, aku berjanji pada cincin ini. Ini milik ibuku, dan sangat "
+"berharga bagiku, tapi aku akan melakukan apapun untuk menghentikan para peri "
+"itu!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_20:0
 msgid "I hope this works."
-msgstr ""
+msgstr "Kuharap ini berhasil."
 
 #: conversationlist_lytwings.json:arensia_lytwing_21
 msgid "I made a promise to the ring, here take it to the lytwings!"
-msgstr ""
+msgstr "Aku sudah berjanji atas cincin ini, tolong berikan pada peri itu!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_21:0
 msgid "I will, right away!"
-msgstr ""
+msgstr "Baiklah, akan kuberikan!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_22
 msgid "There is nothing else to be done, and I will have to live with the lytwings tormenting me until my last day."
 msgstr ""
+"Tak ada lagi yang dapat kulakukan dan aku harus hidup dengan peri-peri itu "
+"yang akan terus menyiksaku hingga akhir hayatku."
 
 #: conversationlist_lytwings.json:arensia_lytwing_23
 msgid "So ... what did they say?"
-msgstr ""
+msgstr "Jadi ... bagaimana kata mereka?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_23:0
 msgid "The lytwings finally agreed to leave you in peace."
-msgstr ""
+msgstr "Para peri itu setuju untuk menjauhimu."
 
 #: conversationlist_lytwings.json:arensia_lytwing_24
 msgid "I cannot thank you enough, $playername. You have saved my sanity!"
-msgstr ""
+msgstr "Oh terima kasih banyak, $playername. Kau menyelamatkan kewarasanku!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_24:0
 msgid "Unfortunately they kept your mother's ring (Lie)."
-msgstr ""
+msgstr "Sayangnya mereka mengambil cincinmu (Bohong)."
 
 #: conversationlist_lytwings.json:arensia_lytwing_24:1
 msgid "They used their magic on your ring, and asked that I give it back to you."
 msgstr ""
+"Mereka menggunakan sihir mereka pada cincinmu, dan memintaku "
+"mengembalikannya padamu."
 
 #: conversationlist_lytwings.json:arensia_lytwing_25
 msgid "That is okay. I did not expect to get it back."
-msgstr ""
+msgstr "Tidak apa-apa. Aku sudah merelakannya."
 
 #: conversationlist_lytwings.json:arensia_lytwing_26
 msgid "After everything you have done for me ... I want you to keep it. Please, I insist!"
 msgstr ""
+"Setelah apa yang sudah kau lakukan padaku ... aku mau kau menyimpannya. "
+"Kumohon, aku memaksamu!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_26:0
 msgid "That is very generous, I won't forget it."
-msgstr ""
+msgstr "Kau sangat murah hati. Aku tak akan melupakannya."
 
 #: conversationlist_lytwings.json:arensia_lytwing_27
 msgid "I can't say that I have noticed it. A few days ago I was picking mushrooms to the west of here."
 msgstr ""
+"Aku tidak bisa mengatakan bahwa aku memperhatikannya. Kemarin lalu aku "
+"sedang memetik jamur di sebelah barat sini."
 
 #: conversationlist_lytwings.json:arensia_lytwing_28
 msgid "They sure are a greedy bunch!"
-msgstr ""
+msgstr "Mereka benar-benar rakus!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_29
 msgid "Are you sure that you want to quit?"
-msgstr ""
+msgstr "Apa kau yakin kau akan keluar?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_29:0
 msgid "Yes, I want to quit."
-msgstr ""
+msgstr "Ya, aku akan keluar."
 
 #: conversationlist_lytwings.json:arensia_lytwing_29:1
 msgid "On second thought, I want to see this through."
-msgstr ""
+msgstr "Kalau dipikir-pikir, aku akan membereskannya."
 
 #: conversationlist_lytwings.json:arensia_lytwing_30
 msgid "How can I help?"
-msgstr ""
+msgstr "Apa yang bisa kubantu?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_30:0
 msgid "Where can I find wild flowers?"
-msgstr ""
+msgstr "Dimana aku dapat menemukan bunga liar?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_30:1
 msgid "I found some wild flowers, I just need a few more."
-msgstr ""
+msgstr "Aku menemukan bunga itu, masih butuh beberapa lagi."
 
 #: conversationlist_lytwings.json:arensia_lytwing_30:2
 msgid "I have found a dozen wild flowers. I will take them to the lytwings."
-msgstr ""
+msgstr "Aku sudah menemukan selusin. Aku akan memberikannya ke peri-peri itu."
 
 #: conversationlist_lytwings.json:arensia_lytwing_30:3
 msgid "Will this ever end?"
-msgstr ""
+msgstr "Kapankah ini berakhir?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_31
 msgid "Look to the south, and southeast from here. You will see the wild flowers growing next to the trees. "
 msgstr ""
+"Pergi ke selatan, lalu ke tenggara dari sini. Di sana kau melihat bunga liar "
+"bermunculan di antara pepohonan. "
 
 #: conversationlist_lytwings.json:arensia_lytwing_32
 msgid "Oh I hope they accept it, and I hope they are done with their silly errands."
 msgstr ""
+"Oh kuharap mereka menerimanya, dan kuharap mereka selesai dengan tugas "
+"konyolnya."
 
 #: conversationlist_lytwings.json:arensia_lytwing_33
 msgid "You should talk to Rigmor, as she knows more about the lytwings than I do. She lives here in Fallhaven, just go north past the tavern."
 msgstr ""
+"Tanyakan pada Rigmor, agar lebih tahu tentang para peri. Dia tinggal di "
+"Fallhaven, pergilah ke utara melewati kedai."
 
 #: conversationlist_lytwings.json:arensia_lytwing_33:0
 msgid "Okay."
-msgstr ""
+msgstr "Baiklah."
 
 #: conversationlist_lytwings.json:arensia_lytwing_34
 msgid "They have, I no longer wake up with fairy-locks."
-msgstr ""
+msgstr "Mereka sudah melakukannya, sekarang rambutku tidak kusut lagi.."
 
 #: conversationlist_lytwings.json:arensia_lytwing_34:0
 #: conversationlist_lytwings.json:arensia_lytwing_34:1
 msgid "I am happy to hear that."
-msgstr ""
+msgstr "Aku senang mendengarnya."
 
 #: conversationlist_lytwings.json:arensia_lytwing_35
 msgid "But I see you have the ring I gave them. You told me they kept it, which can only mean that you lied to me. You are just a common thief. Shame on you."
 msgstr ""
+"Tapi kulihat kau menyimpan cincin itu. Kau bilang mereka mengambilnya, yang "
+"berarti kau berbohong padaku. Dasar pencuri tak tahu malu."
 
 #: conversationlist_lytwings.json:arensia_lytwing_35:0
 msgid "But, I ... um ...."
-msgstr ""
+msgstr "Tapi, aku ...."
 
 #: conversationlist_lytwings.json:arensia_lytwing_36
 msgid "I see you have my magical ring. I hope it serves you well, you deserve it."
 msgstr ""
+"Aku melihat cincin ajaib itu. Kuharap itu berguna, kau pantas mendapatkannya."
 
 #: conversationlist_lytwings.json:arensia_lytwing_36:0
 msgid "I keep it safe, and it keeps me safe in return."
-msgstr ""
+msgstr "Aku mengamankannya, dan sebagai balasannya, aku juga aman."
 
 #: conversationlist_lytwings.json:arensia_lytwing_37
 msgid "Those flowers look perfect."
-msgstr ""
+msgstr "Bunga itu terlihat sempurna."
 
 #: conversationlist_lytwings.json:bela_lytwing_strawberries
 msgid "I don't, but I believe the potion merchant here in Fallhaven has some."
-msgstr ""
+msgstr "Tidak, tapi aku yakin pedagang ramuan di Fallhaven punya beberapa."
 
 #: conversationlist_lytwings.json:rigmor_lytwing_1
 msgid "I take it you spoke to Arensia?"
-msgstr ""
+msgstr "Kukira kau berbicara dengan Arensia?"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_2
 msgid "What do you want to know?"
-msgstr ""
+msgstr "Apa yang perlu kau tahu?"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_2:0
 msgid "What do you know about lytwings?"
-msgstr ""
+msgstr "Kau tahu sesuatu tentang para peri?"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_2:1
 msgid "Where can I find lytwings?"
-msgstr ""
+msgstr "Dimana aku bisa menemukan para peri?"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_2:2
 msgid "Thank you. I really need to go now."
-msgstr ""
+msgstr "Terima kasih, aku harus segera pergi."
 
 #: conversationlist_lytwings.json:rigmor_lytwing_3
 msgid "Lytwings are small magical beings that are also known as the guardians of the forest, and they are known to take revenge on us when we intrude on them, or on nature."
 msgstr ""
+"Para peri adalah makhluk ajaib kecil yang juga dikenal sebagai penjaga "
+"hutan, dan mereka diketahui akan membalas dendam pada saat kita mengganggu "
+"mereka, atau pada alam."
 
 #: conversationlist_lytwings.json:rigmor_lytwing_4
 msgid "They are also very mischievous, and love causing trouble. They probably eat too many fermented berries, if you ask me."
 msgstr ""
+"Mereka juga sangat nakal dan suka membuat masalah. Menurutku, mereka mungkin "
+"makan terlalu banyak buah beri yang difermentasi."
 
 #: conversationlist_lytwings.json:rigmor_lytwing_5
 msgid "Lytwings gather near fairy rings. I suggest that you look for large mushroom patches in the woodland surrounding Fallhaven."
 msgstr ""
+"Para peri itu berkumpul di lingkaran peri. Kusarankan kau mencari kumpulan "
+"jamur besar di sekitaran hutan Fallhaven."
 
 #: conversationlist_lytwings.json:rigmor_lytwing_6
 msgid "The poor girl. She looks exhausted, and her hair is absolutely tousled. Will those lytwings never leave her alone?"
 msgstr ""
+"Gadis yang malang. Dia tampak kelelahan, dan rambutnya benar-benar kusut. "
+"Apakah para peri itu tidak akan pernah meninggalkanya sendirian?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_1
 msgid "Hello there, stranger!"
-msgstr ""
+msgstr "Hai, orang asing!"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_1:0
 msgid "Oh, hi. My name is $playername. Who are you?"
-msgstr ""
+msgstr "Oh, hai. Namaku $playername. Siapa kau?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_2
 msgid "Well met, $playername. I won't tell you my name, it is forbidden for otherkinds to know our names."
 msgstr ""
+"Salam kenal, $playername. Aku tak akan memberitahukan namaku, orang lain "
+"tidak boleh tahu nama kami."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_3
 msgid "Did you bring us a gift?"
-msgstr ""
+msgstr "Apa kau membawa sesajen untuk kami?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_3:0
 msgid "Yes, here are two red apples and two strawberries."
-msgstr ""
+msgstr "Ya, ini dia dua apel merah dan dua stroberi."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_3:1
 msgid "I did not, sorry."
-msgstr ""
+msgstr "Belum, maaf."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_4
 msgid "Bring us two red apples and two strawberries. Since you came without a gift, we cast on you a mystical Lytwing spell!"
 msgstr ""
+"Bawakan kami dua apel merah dan dua stroberi. Karena kau datang tanpa "
+"sesajen, aku memberimu sihir peri yang mistis!"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_4:0
 msgid "I feel so ... tired."
-msgstr ""
+msgstr "Aku merasa ... lelah."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_5
 msgid "Wonderful! These strawberries are so sweet. You may stay!"
-msgstr ""
+msgstr "Bagus! Stroberinya sangat manis. Kau boleh tinggal!"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_6
 msgid "Hi $playername! Want to play with us?"
-msgstr ""
+msgstr "Hi $playername! Mau bermain dengan kami?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_6:0
 msgid "I'm here on behalf of Arensia. She is very upset."
-msgstr ""
+msgstr "Aku kesini atas nama Arensia. Dia sangat sedih."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_7
 msgid "She should be sorry! She stole our mushrooms."
-msgstr ""
+msgstr "Dia pantas mendapatkannya! Dia mencuri jamur kami."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_7:0
 msgid "I'm sure she did not mean to steal them. She was probably just gathering mushrooms for a stew."
 msgstr ""
+"Aku yakin dia tidak bermaskud mencuri. Dia hanya mengumpulkan jamur untuk "
+"direbus."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_8
 msgid "A STEW? That is unacceptable. She must be punished."
-msgstr ""
+msgstr "DIREBUS? Itu keterlaluan. Dia harus dihukum."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_8:0
 msgid "Don't be mad, I am just trying to help. Is there anything I can do to make this right?"
 msgstr ""
+"Santailah, aku hanya mencoba membantu. Apa ada yang harus kulakukan untuk "
+"memperbaikinya?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_9
 msgid "Hmmm, let us discuss this amongst ourselves. Can you give us a minute alone?"
-msgstr ""
+msgstr "Hmmm, mari kita diskusikan dulu. Bisakah kau menunggu sebentar?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_9:0
 msgid "OK, I will wait nearby."
-msgstr ""
+msgstr "OK, aku akan menunggu disini."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_10
 msgid "We are busy discussing the matter. Please wait a little bit longer."
-msgstr ""
+msgstr "Kita masih berdiskusi. Sabarlah."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_11
 msgid "We have decided to entertain your request."
-msgstr ""
+msgstr "Kami memutuskan untuk menanggapi permintaanmu."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_11:0
 msgid "Thank you, Arensia will be happy to hear that!"
-msgstr ""
+msgstr "Terima kasih, Arensia akan bahagia mendengar ini!"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_12
 msgid "But you have to do something for us first [giggle]."
-msgstr ""
+msgstr "Tapi kau harus melakukan sesuatu untuk kami [cekikikan]."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_12:0
 msgid "Oh please just let Arensia be, she meant no ill will."
-msgstr ""
+msgstr "Oh kumohon bebaskan Arensia, dia tidak bermaksud jahat."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_12:1
 msgid "Please just forgive her mistake. There is no need to prolong her suffering."
-msgstr ""
+msgstr "Tolong maafkan saja. Tidak perlu memperpanjang penderitaanya."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_12:2
 msgid "Yes of course. What do you need?"
-msgstr ""
+msgstr "Boleh. Apa yang kau butuhkan?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_13
 msgid "Suit yourself. If you won't help us, we won't help Arensia. Goodbye!"
 msgstr ""
+"Terserah. Jika kau tidak membantu kami, kami tidak akan membantu Arensia. "
+"Selamat tinggal!"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_14
 msgid "Please chop down this gnarly old tree inside our fairy circle. Can you do that for us?"
 msgstr ""
+"Tolong tebang pohon tua mengerikan di dalam lingkaran peri kami ini. Bisakah "
+"kau melakukannya?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_14:0
 msgid "No, I am not willing to do that."
-msgstr ""
+msgstr "Tidak, aku tidak sudi melakukannya."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_14:1
 msgid "OK, I will chop it down."
-msgstr ""
+msgstr "Baiklah, akan kutebang."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_15
 msgid "Hmm, this must be the tree the lytwings want chopped down. I need to get an iron axe."
 msgstr ""
+"Hmm, ini pasti pohon yang ingin ditebang para peri. Aku perlu Kapak Besi."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_16
 msgid "Hey wait! We changed our minds. We like that tree and want to keep it."
 msgstr ""
+"Hei tunggu, kami berubah pikiran. Kami suka pohon itu dan ingin "
+"mempertahankannya."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_17
 msgid "We are having a celebration, please get us four bottles of mead. [giggle]"
 msgstr ""
+"Kami sedang mengadakan perayaan, tolong ambilkan kami empat botol mead. "
+"[cekikikan]"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_17:0
 msgid "I don't think so. Your demands are getting ridiculous."
-msgstr ""
+msgstr "Kurasa tidak. Permintaanmu semakin aneh."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_17:1
 msgid "Okay, fine. I will get you the mead. But you better not change your mind again."
-msgstr ""
+msgstr "Oke, baik. Akan kubawakan. Tapi jangan berubah pikiran lagi."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_18
 msgid "Do you have our mead?"
-msgstr ""
+msgstr "Apa kau sudah membawakan mead-nya?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_18:1
 msgid "Yes, here is your mead."
-msgstr ""
+msgstr "Ya, ini dia."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_19
 msgid "Wonderful!"
-msgstr ""
+msgstr "Hebat!"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_19:0
 msgid "Will you leave Arensia alone now?"
-msgstr ""
+msgstr "Apa urusan Arensia sudah selesai sekarang?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_20
 msgid "Yes, of course we will."
-msgstr ""
+msgstr "Ya, tentu saja."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_20:0
 msgid "Arensia wil be very happy to hear this."
-msgstr ""
+msgstr "Arensia akan bahagia mendengar ini."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_21
 msgid "We just need you to do one more thing for us ..."
-msgstr ""
+msgstr "Kami hanya ingin satu permintaan lagi ..."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_21:0
 msgid "More? No I don't think so. This is absurd."
-msgstr ""
+msgstr "Apa? Tidak akan. Kau tampak menyebalkan."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_21:1
 msgid "What do you want now?"
-msgstr ""
+msgstr "Apa lagi sekarang?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_22
 msgid "For our celebrations, we would like a dozen wild flowers."
-msgstr ""
+msgstr "Untuk perayaan kami, kami butuh selusin bunga liar."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_22:0
 msgid "This is getting silly. I don't want to collect flowers for you."
-msgstr ""
+msgstr "Ini semakin konyol. Aku tidak akan mengumpulkan bunga itu."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_22:1
 msgid "Okay fine. But this better be the last thing."
-msgstr ""
+msgstr "Oke baiklah. Tapi hanya sekali ini saja."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_23
 msgid "Do you have our wild flowers?"
-msgstr ""
+msgstr "Apa kau sudah membawakannya?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_23:0
 msgid "No I don't."
-msgstr ""
+msgstr "Belum."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_23:1
 #: conversationlist_lytwings.json:lytwing_fallhaven_23:2
 msgid "Yes, here are your flowers."
-msgstr ""
+msgstr "Ya, ini dia."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_23a
 msgid "No, you don't have enough flowers. A dozen means 12, not one less. Do you think lytwings can't count?"
 msgstr ""
+"Hei, ini belum cukup. Selusin berarti berjumlah 12. Kau pikir peri tidak "
+"pandai berhitung?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_23a:0
 msgid "I have collected enough for you. Take it or leave it."
-msgstr ""
+msgstr "Ini dia selusin bunganya. Ambillah."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_23a:1
 msgid "Sorry, I'm going to look for the missing wild flowers now."
-msgstr ""
+msgstr "Maaf, belum. aku masih mencarinya."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_24
 msgid "These are perfect. Thank you!"
-msgstr ""
+msgstr "Ini sempurna. Terima kasih!"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_24:0
 msgid "Is that everything? Will you leave Arensia be?"
-msgstr ""
+msgstr "Sudahkah sampai disini? Akankah kalian tinggalkan Arensia?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_25
 msgid "Give us a minute to think about it."
-msgstr ""
+msgstr "Biarkan kami berpikir semenit saja."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_26
 msgid "Okay so after carefully considering your request ..."
-msgstr ""
+msgstr "Oke setelah mempertimbangkan permintaanmu dengan cermat ..."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_27
 msgid "We have decided what would make this right ..."
-msgstr ""
+msgstr "Kami memutuskan untuk memperbaiki hal ini ..."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_27:0
 msgid "OK?"
-msgstr ""
+msgstr "Baiklah?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_28
 msgid "We want Arensia to promise not to pick our mushrooms again. And we want proof!"
 msgstr ""
+"Kami ingin Arensia berjanji tidak mengambil jamur kami lagi. Dan kami perlu "
+"pembuktian!"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_28:0
 msgid "I can ask her, but how can I provide proof?"
-msgstr ""
+msgstr "Aku bisa memintanya, apa pembuktiannya?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_29
 msgid "She must give a piece of jewelry as proof of her promise. Her word would be bound to it."
 msgstr ""
+"Dia harus memberikan sebuah perhiasaan sebagai bukti. Janjinya akan terikat "
+"padanya."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_29:0
 msgid "This sounds very silly."
-msgstr ""
+msgstr "Ini sangatlah konyol."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_29:1
 msgid "Very well. I will go talk to Arensia."
-msgstr ""
+msgstr "Baiklah. Aku akan menemui Arensia."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_30
 msgid "Good. And remember, she has to make her promise to the jewelry."
-msgstr ""
+msgstr "Bagus. Dan ingat, ia harus berjanji pada perhiasannya."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_31
 msgid "Did you bring us Arensia's promise?"
-msgstr ""
+msgstr "Apa kau membawakan janji Arensia?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_31:0
 msgid "No, I have not."
-msgstr ""
+msgstr "Belum."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_31:1
 msgid "Yes, here is her promise ring."
-msgstr ""
+msgstr "Ya, ini dia perhiasannya."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_32
 msgid "This will do just fine, thank you $playername."
-msgstr ""
+msgstr "Ini sudah cukup. Terima kasih $playername."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_32:0
 msgid "I hope this settles the matter?"
-msgstr ""
+msgstr "Apakah ini akan menyelesaikan masalahnya?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_33
 msgid "Well, I think you know what I will say next ..."
-msgstr ""
+msgstr "Yah, kau tahu apa yang akan kukatakan ..."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_33:0
 msgid "Oh no, not again!"
-msgstr ""
+msgstr "Oh, ayolah!"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_35
 msgid "We have discussed this matter and made a final decision ..."
-msgstr ""
+msgstr "Kami telah membahas ini dan membuat keputusan akhir ..."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_35:0
 msgid "OK, I hope this turns out well."
-msgstr ""
+msgstr "Baiklah, kuharap ini berjalan dengan baik."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_36
 msgid "Please tell Arensia that we have accepted her promise. We will no longer taunt her at night."
 msgstr ""
+"Tolong katakan Arensia kita menyetujui perjanjiannya. Kita tidak akan "
+"mengganggunya lagi."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_36:0
 msgid "Oh how wonderful. Thank you forest lytwings!"
-msgstr ""
+msgstr "Oh lega sekali. Terima kasih peri hutan!"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_37
 msgid "However, we have no need for a human ring. We embued it with our magical powers. Please take this ring back to Arensia."
 msgstr ""
+"Namun, kita tidak memerlukan cincin ini lagi. Kami telah mengisinya dengan "
+"kekuatan sihir kami. Tolong bawa kembali ke Arensia."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_37:0
 msgid "I will give Arensia her ring back. She will appreciate this gesture very much."
-msgstr ""
+msgstr "Aku akan mengembalikannya. Arensia pasti akan menghargainya."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_38
 msgid "Hello $playername. We hope you are staying out of trouble."
@@ -73274,7 +73366,7 @@ msgstr "Arciir"
 
 #: monsterlist_fallhaven_npcs.json:athamyr
 msgid "Athamyr"
-msgstr "Atthamyr"
+msgstr "Athamyr"
 
 #: monsterlist_fallhaven_npcs.json:thoronir
 msgid "Thoronir"
