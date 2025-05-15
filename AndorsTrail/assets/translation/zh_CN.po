@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-12 10:58+0000\n"
+"PO-Revision-Date: 2025-05-15 09:57+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -66665,11 +66665,12 @@ msgstr "哦，纳纳斯你好，话说你的脸色似乎不太好呀。"
 
 #: conversationlist_troubling_times.json:nanath_22
 msgid "Well, one of our ex-clients, Lady Dameni, has put an adverse Shadow spell on us."
-msgstr ""
+msgstr "是这样的，我们的一位前客户——达梅尼女士，对我们施了一道负面的暗影咒语。"
 
 #: conversationlist_troubling_times.json:nanath_24
 msgid "It makes us noticeable, and thus vulnerable to being caught - paralyzing our honest bread and butter work."
-msgstr ""
+msgstr "那道咒语让我们都成了显眼包，搞得现在我们特容易被抓到——这可把我们的生计给断了"
+"啊。"
 
 #: conversationlist_troubling_times.json:nanath_24:0
 msgid "Oh. Sounds awful."
@@ -66677,51 +66678,55 @@ msgstr "哦，这可真是糟糕。"
 
 #: conversationlist_troubling_times.json:nanath_26
 msgid "Umar wants me to handle it. He wants me to get it dispelled, so that the Thieves' Guild can work again."
-msgstr ""
+msgstr "于是乎奥马尔就让我来处理这件事，他希望我能找到办法破解这道咒语，这样之后盗贼"
+"公会才能继续正常运转。"
 
 #: conversationlist_troubling_times.json:nanath_26:0
 msgid "Ah, OK then."
-msgstr ""
+msgstr "啊，好吧。"
 
 #: conversationlist_troubling_times.json:nanath_28
 msgid "The thing is I don't know much about the Shadow or any other so-called powers. My life has been being an honest thief, a score here, a score there - I don't tangle with the supernatural stuff."
 msgstr ""
+"可那玩意关系到了暗影还是别的什么的力量，对于这个领域我可以说是一窍不通啊。我"
+"干了一辈子的本职盗贼，平常在做的无非是东边一活西边一票——可从来没有接触过这种"
+"涉及超自然力量的事情啊。"
 
 #: conversationlist_troubling_times.json:nanath_30
 msgid "Can't anyone help?"
-msgstr ""
+msgstr "有什么人能帮到我的吗？"
 
 #: conversationlist_troubling_times.json:nanath_30:0
 msgid "I can help. I've had some dealings with the Shadow."
-msgstr ""
+msgstr "这件事我就可以帮，和暗影有关的事务我还是有解决过几件的。"
 
 #: conversationlist_troubling_times.json:nanath_32
 msgid "Really? Like what?"
-msgstr ""
+msgstr "真的吗？比方说？"
 
 #: conversationlist_troubling_times.json:nanath_32:0
 msgid "Sorry, hush-hush stuff around Loneford and Vilegard."
-msgstr ""
+msgstr "抱歉，这些事请允许我保密，总之隆福德以及维尔加德那些方向上发生的都有。"
 
 #: conversationlist_troubling_times.json:nanath_34:0
 msgid "You want my help?"
-msgstr ""
+msgstr "你要我帮忙吗？"
 
 #: conversationlist_troubling_times.json:nanath_40
 msgid "First things first, how can we know the nature of the spell?"
-msgstr ""
+msgstr "现在最核心的问题就是，我们得先搞清楚这咒到底是啥来头？"
 
 #: conversationlist_troubling_times.json:nanath_42
 msgid "Or its name?"
-msgstr ""
+msgstr "或者它的名字也行？"
 
 #: conversationlist_troubling_times.json:nanath_44
 msgid "Maybe talking to a Shadow priest may help?"
-msgstr ""
+msgstr "或许去和一位暗影牧师交流一下对此会有所帮助？"
 
 #: conversationlist_troubling_times.json:nanath_70
 msgid "Oh, back again? I hope you bring good news."
-msgstr ""
+msgstr "哦，你又回来了？希望你带回来什么好消息了。"
 
 #: conversationlist_troubling_times.json:nanath_70:0
 msgid "Maybe. Talion, a Shadow priest, has put the Striking Spectacle Shadow spell on us."
@@ -83889,7 +83894,7 @@ msgstr "艾伦希雅把她的魔法誓约戒指送给了我，作为帮助她的
 
 #: questlist_troubling_times.json:troubling_times
 msgid "Troubling times"
-msgstr "妙手难施"
+msgstr "技穷时艰"
 
 #: questlist_troubling_times.json:troubling_times:10
 msgid "I went to the Thieves' Guild in Fallhaven looking for things to do."
