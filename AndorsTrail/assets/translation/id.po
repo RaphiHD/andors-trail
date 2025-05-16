@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-15 09:57+0000\n"
+"PO-Revision-Date: 2025-05-16 10:38+0000\n"
 "Last-Translator: Hodex99 <anonymoushodex@proton.me>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/id/>\n"
@@ -210,7 +210,7 @@ msgstr "Kikuk"
 
 #: actorconditions_stoutford.json:curse_undead
 msgid "Curse of the Undead"
-msgstr "Kutukan Mayat Hidup"
+msgstr "Kutukan Undead"
 
 #: actorconditions_graveyard1.json:contagion2
 msgid "Spore contagion"
@@ -2298,8 +2298,8 @@ msgstr "Ini tulangnya."
 #: conversationlist_fallhaven_church.json:thoronir_tharal_5
 msgid "Thank you, please come back soon. I heard there were some undead near an old abandoned house just north of Fallhaven. Maybe you can check for bones there?"
 msgstr ""
-"Terima kasih, harap segera kembali. Kudengar ada beberapa mayat hidup di "
-"dekat rumah kosong tua di utara Fallhaven. Mungkin kau bisa mencari tulang "
+"Terima kasih, harap segera kembali. Kudengar ada beberapa undead di dekat "
+"rumah kosong tua di utara Fallhaven. Mungkin kau bisa mencari tulang "
 "belulang di sana?"
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_5:0
@@ -3869,7 +3869,8 @@ msgstr "Tenanglah sialan, aku hanya..."
 
 #: conversationlist_flagstone.json:flagstone_guard0
 msgid "Ah, another mortal. Prepare to become part of my undead army!"
-msgstr "Ah, manusia lain. Bersiaplah untuk menjadi bagian dari pasukan mayatku!"
+msgstr ""
+"Ah, manusia lain. Bersiaplah untuk menjadi bagian dari pasukan undeadku!"
 
 #: conversationlist_flagstone.json:flagstone_guard0:0
 #: conversationlist_flagstone.json:flagstone_guard1:0
@@ -3894,11 +3895,13 @@ msgstr "Apa, ada manusia di sini yang tidak ditandai oleh sentuhanku?"
 
 #: conversationlist_flagstone.json:flagstone_guard2_2
 msgid "You seem delicious and soft, will you be part of the feast?"
-msgstr "Kau tampak lezat dan lembut, maukah kau menjadi bagian dari pesta?"
+msgstr "Kau tampak lezat dan lembut, maukah kau menjadi bagian dari pesta ini?"
 
 #: conversationlist_flagstone.json:flagstone_guard2_3
 msgid "Yes, I think you will. My undead army will spread far outside of Flagstone once I am done with you."
-msgstr "Ya, aku yakin begitu. Pasukan undeadku akan menyebar jauh di luar Flagstone setelah aku selesai denganmu."
+msgstr ""
+"Ya, aku yakin begitu. Pasukan undeadku akan menyebar jauh di luar Flagstone "
+"setelah aku selesai denganmu."
 
 #: conversationlist_flagstone.json:flagstone_guard2_3:0
 msgid "By the Shadow, you must be stopped!"
@@ -3910,7 +3913,7 @@ msgstr "Tidak! Negeri ini harus dilindungi dari para undead!"
 
 #: conversationlist_flagstone.json:flagstone_sentry_1
 msgid "Halt! Who's there? No one is allowed to approach Flagstone."
-msgstr "Berhenti! Siapa disana? Tidak ada yang diizinkan mendekati Flagstone."
+msgstr "Stop! Siapa kamu? Tidak ada yang diizinkan mendekati Flagstone."
 
 #: conversationlist_flagstone.json:flagstone_sentry_2
 msgid "You should turn back while you still can."
@@ -3922,15 +3925,22 @@ msgstr "Flagstone telah dikuasai oleh undead, dan kami berjaga di sini untuk mem
 
 #: conversationlist_flagstone.json:flagstone_sentry_3:0
 msgid "Can you tell me the story about Flagstone?"
-msgstr "Bisakah Kau ceritakan kisah tentang Flagstone?"
+msgstr "Bisa kau ceritakan kisah tentang Flagstone?"
 
 #: conversationlist_flagstone.json:flagstone_sentry_4
 msgid "Flagstone Prison was built a few hundred years ago by house Gorland of Stoutford and used until the Noble Wars, when the house was vanquished. This dreadful place has been abandoned ever since."
-msgstr "Penjara Flagstone dibangun beberapa ratus tahun yang lalu oleh rumah Gorland of Stoutford dan digunakan sampai Perang Bangsawan, ketika rumah itu ditaklukkan. Tempat yang mengerikan ini telah ditinggalkan sejak saat itu."
+msgstr ""
+"Penjara Flagstone dibangun ratusan tahun yang lalu oleh keluarga bangsawan "
+"Gorland of Stoutford dan digunakan hingga Perang Bangsawan, ketika keluarga "
+"itu ditaklukkan. Tempat yang mengerikan ini telah ditinggalkan sejak saat "
+"itu."
 
 #: conversationlist_flagstone.json:flagstone_sentry_8
 msgid "For years, no one took notice of Flagstone, although there were occasional reports from travelers of terrible screams coming from the camp."
-msgstr "Selama bertahun-tahun, tidak ada yang memperhatikan Flagstone, meskipun sesekali ada laporan dari para penjelajah tentang teriakan mengerikan yang datang dari kamp."
+msgstr ""
+"Selama bertahun-tahun, tak ada seorang pun yang memperhatikan Flagstone, "
+"meskipun sesekali ada laporan dari para penjelajah tentang teriakan "
+"mengerikan yang datang dari kamp tersebut."
 
 #: conversationlist_flagstone.json:flagstone_sentry_9
 msgid "But recently, undead started pouring out of Flagstone and started to threaten Stoutford and the trade routes nearby."
@@ -3938,23 +3948,26 @@ msgstr "Tapi baru-baru ini, undead mulai keluar dari Flagstone dan mulai menganc
 
 #: conversationlist_flagstone.json:flagstone_sentry_10
 msgid "So, here we are. I have to guard the road from undead, so that they do not spread farther than Flagstone."
-msgstr "Jadi, disinilah kami. Aku harus menjaga jalan dari undead, agar mereka tidak menyebar lebih jauh dari Flagstone."
+msgstr ""
+"Jadi, disinilah kami. Aku harus menjaga jalan ini dari undead, agar mereka "
+"tidak menyebar lebih jauh."
 
 #: conversationlist_flagstone.json:flagstone_sentry_11
 msgid "So, I would advise you to leave unless you want to be overrun by undead."
-msgstr "Jadi, aku sarankan kau untuk pergi kecuali jika kau ingin dikuasai oleh undead."
+msgstr ""
+"Jadi, kusarankan untuk pergi saja kecuali dirimu ingin dikuasai oleh undead."
 
 #: conversationlist_flagstone.json:flagstone_sentry_11:0
 msgid "Can I investigate the Flagstone ruins?"
-msgstr "Bisakah aku menyelidiki reruntuhan Flagstone?"
+msgstr "Bisa ku selidiki reruntuhan Flagstone itu?"
 
 #: conversationlist_flagstone.json:flagstone_sentry_11:1
 msgid "Yes, I should leave."
-msgstr "Ya, aku harus pergi."
+msgstr "Benar, aku harus pergi."
 
 #: conversationlist_flagstone.json:flagstone_sentry_12
 msgid "Are you really sure you want to head in there? Well, OK, fine by me."
-msgstr "Apakah kau benar-benar yakin ingin masuk ke sana? Baiklah, tidak masalah bagiku."
+msgstr "Apakah kau yakin ingin masuk ke sana? Baiklah, tidak masalah bagiku."
 
 #: conversationlist_flagstone.json:flagstone_sentry_13
 msgid "I won't stop you, and I won't mourn you if you never return."
@@ -3962,7 +3975,7 @@ msgstr "Aku tidak akan menghentikanmu, dan aku tidak akan meratapimu jika kau ti
 
 #: conversationlist_flagstone.json:flagstone_sentry_14
 msgid "Go ahead. Let me know if there's anything I can tell you that would help."
-msgstr "Silakan. Katakan jika ada yang bisa kuberi tahu yang bisa membantu."
+msgstr "Silakan. Katakan jika ada yang bisa kusampaikan yang bisa membantu."
 
 #: conversationlist_flagstone.json:flagstone_sentry_15
 msgid "Return here if you need my advice."
@@ -3978,39 +3991,50 @@ msgstr "Halo lagi. Apakah kau memasuki Flagstone? Aku terkejut kau benar-benar k
 
 #: conversationlist_flagstone.json:flagstone_sentry_return1:1
 msgid "There is a guardian in the lower levels of Flagstone that cannot be approached and the former prisoners are undead now."
-msgstr "Ada penjaga di bawah Flagstone yang tidak bisa didekati dan mantan tahanan sekarang adalah undead."
+msgstr ""
+"Ada penjaga di bawah Flagstone yang tidak dapat didekati dan para mantan "
+"tahanan sekarang menjadi undead."
 
 #: conversationlist_flagstone.json:flagstone_sentry_20
 msgid "A guardian and undead prisoners you say? This is troubling news, since it means there is some larger force behind all this."
-msgstr "Seorang penjaga dan tahanan undead, katamu? Ini adalah berita yang meresahkan, karena ini berarti ada kekuatan yang lebih besar di balik semua ini."
+msgstr ""
+"Seorang penjaga dan tahanan undead, katamu? Gawat, berarti ada suatu "
+"kekuatan yang lebih besar di balik ini semua."
 
 #: conversationlist_flagstone.json:flagstone_sentry_21
 msgid "You should look for the former warden. Maybe he has something to do with all of this. If you find him you should return here with any important news."
-msgstr "Kau harus mencari mantan sipir. Mungkin dia ada hubungannya dengan semua ini. Jika kau menemukannya, kau harus kembali ke sini dengan membawa berita penting."
+msgstr ""
+"Kau harus mencari mantan sipirnya. Mungkin dia ada hubungannya dengan semua "
+"ini. Jika kau menemukannya, kau harus kembali ke sini dengan membawa kabar "
+"penting."
 
 #: conversationlist_flagstone.json:flagstone_sentry_21:0
 msgid "OK, I will go and look for the former warden."
-msgstr "Siap, aku akan pergi dan mencari mantan sipir."
+msgstr "Siap, aku akan pergi dan mencari mantan sipir itu."
 
 #: conversationlist_flagstone.json:flagstone_sentry_23
 msgid "Oh this looks most interesting. Let's take a look. Hmm. It has got some weird inscriptions on it that say 'Daylight Shadow'. Maybe you could try these words on the demon? So perhaps the warden did have something to do with the demon after all?"
-msgstr "Oh, ini terlihat paling menarik. Mari lihat. Hmm. Ada tulisan aneh di atasnya yang bertuliskan 'Bayangan Siang Hari'. Mungkin kau bisa mencoba kata-kata ini pada iblis itu? Jadi mungkin sipir memang ada hubungannya dengan iblis itu?"
+msgstr ""
+"Oh, ini terlihat menarik sekali. Mari kita lihat. Hmm. Ada tulisan aneh di "
+"atasnya yang bertuliskan 'Bayangan Siang Hari'. Mungkin kau bisa mencoba "
+"kata-kata ini pada iblisnya? Jadi barangkali sipir itu memang ada "
+"hubungannya dengan iblis itu?"
 
 #: conversationlist_flagstone.json:flagstone_sentry_23:0
 msgid "That might work. Thank you."
-msgstr "Itu mungkin berhasil. Terima kasih."
+msgstr "Sepertinya bisa. Terima kasih."
 
 #: conversationlist_flagstone.json:flagstone_sentry_return2
 msgid "Hello again. Have you found the former warden in Flagstone yet?"
-msgstr "Halo lagi. Apa kau sudah menemukan mantan sipir di Flagstone?"
+msgstr "Halo lagi. Apa kau menemukan mantan sipir di Flagstone itu?"
 
 #: conversationlist_flagstone.json:flagstone_sentry_return2:0
 msgid "I slew the former warden and found a peculiar necklace among his remains."
-msgstr "Aku membunuh mantan sipir dan menemukan kalung aneh di antara jenazahnya."
+msgstr "Sudah, aku membunuhnya dan menemukan kalung aneh di mayatnya."
 
 #: conversationlist_flagstone.json:flagstone_sentry_return2:2
 msgid "Not yet. I have to keep looking."
-msgstr "Belum Pak. Aku harus terus mencari."
+msgstr "Belum. Aku masih mencarinya."
 
 #: conversationlist_flagstone.json:flagstone_sentry_40
 msgid "You found the necklace? Good. Here, give it to me."
@@ -4018,11 +4042,13 @@ msgstr "Kau menemukan kalung itu? Bagus. Sini, berikan padaku."
 
 #: conversationlist_flagstone.json:flagstone_sentry_41
 msgid "Now, let's see here. Ah yes, it is as I thought. The necklace contains a password."
-msgstr "Sekarang mari kita lihat di sini. Ah ya, seperti yang kupikirkan. Kalung itu berisi kata sandi."
+msgstr "Mari kita lihat. Ah ya, seperti dugaanku. Kalung itu berisi kata sandi."
 
 #: conversationlist_flagstone.json:flagstone_sentry_42
 msgid "'Daylight Shadow'. That must be it. You should try to approach the guardian with this password."
-msgstr "'Bayangan Siang Hari'. Pasti itu. Kau harus mencoba mendekati si penjaga dengan kata sandi ini."
+msgstr ""
+"'Bayangan Siang Hari'. Pasti itu. Coba kamu dekati si penjaganya dengan kata "
+"sandi ini."
 
 #: conversationlist_flagstone.json:flagstone_sentry_return3
 msgid "Hello again. How is the investigation of the undead in Flagstone going?"
@@ -4034,15 +4060,20 @@ msgstr "Belum ada kemajuan Pak."
 
 #: conversationlist_flagstone.json:flagstone_sentry_43
 msgid "Well, keep looking. Return to me if you need my advice."
-msgstr "Teruslah mencari. Kembalilah kepadaku jika membutuhkan saran dariku."
+msgstr "Teruslah mencari. Kembalilah padaku jika kau membutuhkan saran."
 
 #: conversationlist_flagstone.json:flagstone_sentry_return4
 msgid "Hello again. It seems something happened inside Flagstone that made the undead weaker. I'm sure we have you to thank for it."
-msgstr "Halo lagi. Sepertinya sesuatu terjadi di dalam Flagstone yang membuat undead semakin lemah. Aku yakin kami harus berterima kasih padamu."
+msgstr ""
+"Halo lagi. Sepertinya sesuatu terjadi dari dalam Flagstone yang membuat "
+"undead semakin lemah. Aku yakin itu pasti karenamu."
 
 #: conversationlist_flagstone.json:flagstone_sentry_return4:0
 msgid "In the depths of Flagstone, I had to fight a winged demon and found a prisoner called Narael. He told me that he has been there for a very long time, and is too weak to leave."
-msgstr "Di kedalaman Flagstone, aku harus melawan iblis berakup dan menemukan seorang tahanan bernama Narael. Dia mengatakan bahwa dia telah berada di sana untuk waktu yang sangat lama, dan terlalu lemah untuk pergi."
+msgstr ""
+"Di kedalaman Flagstone, aku harus melawan iblis bersayap dan menemukan "
+"seorang tahanan bernama Narael. Dia mengatakan bahwa dia telah berada di "
+"sana untuk waktu yang sangat lama, dan terlalu lemah untuk pergi."
 
 #: conversationlist_flagstone.json:narael
 msgid "Thank you, thank you for freeing me from that monster."
@@ -4050,7 +4081,7 @@ msgstr "Terima kasih, terima kasih telah membebaskanku dari monster itu."
 
 #: conversationlist_flagstone.json:narael_1
 msgid "I have been a captive here for what seems to be an eternity."
-msgstr "Aku telah menjadi tawanan di sini untuk waktu yang terasa seperti selamanya."
+msgstr "Aku telah menjadi tawanan di sini entah berapa lama rasanya."
 
 #: conversationlist_flagstone.json:narael_2
 msgid "Oh, the things they did to me. Thank you so much for freeing me."
@@ -4058,39 +4089,53 @@ msgstr "Oh, hal-hal yang mereka lakukan padaku. Terima kasih banyak telah membeb
 
 #: conversationlist_flagstone.json:narael_3
 msgid "I was once a citizen in Nor City, and worked on the excavation of Mount Galmore."
-msgstr "Aku pernah menjadi warga di Kota Nor, dan bekerja di penggalian Gunung Galmore."
+msgstr ""
+"Dulu aku adalah warga di Kota Nor, dan bekerja di penggalian Gunung Galmore."
 
 #: conversationlist_flagstone.json:narael_4
 msgid "After a while, the day came when I wanted to quit the assignment and return to my wife."
-msgstr "Setelah beberapa lama, tibalah saatnya aku ingin berhenti dari tugas dan kembali kepada istriku."
+msgstr ""
+"Setelah beberapa lama, tiba saatnya aku ingin berhenti bertugas dan kembali "
+"ke istriku."
 
 #: conversationlist_flagstone.json:narael_5
 msgid "The officer in charge would not let me, and I was sent to Flagstone as a prisoner for disobeying orders."
-msgstr "Petugas yang bertanggung jawab tidak mengizinkan, dan aku dikirim ke Flagstone sebagai tahanan karena tidak mematuhi perintah."
+msgstr ""
+"Petugas yang bertanggung jawab tidak mengizinkannya, dan aku malah dikirim "
+"ke Flagstone sebagai tahanan karena tidak mematuhi perintah."
 
 #: conversationlist_flagstone.json:narael_6
 msgid "If only I could see my wife once more. I have hardly any life left in me, and I don't even have enough strength to leave this place."
-msgstr "Kalau saja aku bisa melihat istriku sekali lagi. Aku hampir tidak memiliki kehidupan yang tersisa dalam diriku, dan aku bahkan tidak memiliki cukup kekuatan untuk meninggalkan tempat ini."
+msgstr ""
+"Andai saja aku bisa melihat istriku sekali lagi. Aku hampir tidak memiliki "
+"kehidupan sama sekali, dan aku bahkan tidak cukup kuat untuk meninggalkan "
+"tempat ini."
 
 #: conversationlist_flagstone.json:narael_7
 msgid "I guess my fate is to perish here, but now as a free man at least."
-msgstr "Kurasa takdirku adalah binasa di sini, tapi setidaknya sekarang sebagai orang bebas."
+msgstr ""
+"Kurasa takdirku memang mati di sini, tapi setidaknya sekarang sebagai orang "
+"bebas."
 
 #: conversationlist_flagstone.json:narael_8
 msgid "Now leave me to my fate. I do not have the strength to leave this place."
-msgstr "Sekarang serahkan aku pada takdirku. Aku tidak memiliki kekuatan untuk meninggalkan tempat ini."
+msgstr ""
+"Sekarang biarkan aku menerima takdirku. Aku tidak punya kekuatan untuk "
+"meninggalkan tempat ini."
 
 #: conversationlist_flagstone.json:narael_9
 msgid "If you find my wife Taurum in Nor City, please tell her I'm alive and that I haven't forgotten about her."
-msgstr "Jika kau menemukan istriku Taurum di Nor City, tolong katakan padanya bahwa aku masih hidup dan belum melupakannya."
+msgstr ""
+"Jika kau menemui istriku Taurum di Kota Nor, tolong katakan padanya bahwa "
+"aku masih hidup dan aku tak akan melupakannya."
 
 #: conversationlist_flagstone.json:narael_9:0
 msgid "I will. Goodbye."
-msgstr "Akan kulakukan. Selamat tinggal."
+msgstr "Baiklah. Selamat tinggal."
 
 #: conversationlist_flagstone.json:narael_9:1
 msgid "I will. Shadow be with you."
-msgstr "Jangan khawatir. Sang Bayangan bersamamu."
+msgstr "Baiklah. Sang Bayangan menyertaimu."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_1
 msgid "Hi, I'm Jakrar."
@@ -4098,39 +4143,42 @@ msgstr "Hai, namaku Jakrar."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_1:0
 msgid "Are you a woodcutter?"
-msgstr "Apakah kau seorang penebang kayu?"
+msgstr "Kau penebang kayu, kan?"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_1:1
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15:3
 msgid "Tunlon has sent me to ask for some wood for fences."
-msgstr "Tunlon mengirimku untuk meminta beberapa kayu untuk pagar."
+msgstr "Tunlon mengirimku untuk meminta beberapa kayu untuk membuat pagar."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_2
 msgid "Yes, I'm Fallhaven's woodcutter. Need anything done in the finest of woods? I have probably got it."
-msgstr "Ya, aku penebang kayu Fallhaven. Butuh sesuatu dilakukan dengan kayu terbaik? Aku mungkin bisa melakukannya."
+msgstr ""
+"Ya, aku penebang kayu Fallhaven. Butuh sesuatu yang berhubangan dengan kayu "
+"terbaik? Aku mungkin memilikinya."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_2:0
 msgid "I'd like to talk with you about Fallhaven's passage to the Duleian Road."
-msgstr "Aku ingin berbicara tentang jalur Fallhaven ke Jalan Duleian."
+msgstr ""
+"Aku ingin berbicara tentang jalan pintas Fallhaven menuju Jalan Duleian."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_2:1
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15:2
 msgid "Never mind. I don't need your services for now."
-msgstr "Lupakan. Aku tidak membutuhkan layananmu untuk saat ini."
+msgstr "Lupakan. Aku tidak membutuhkanmu saat ini."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_2:2
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15:1
 msgid "What have you got for sale?"
-msgstr "Apa yang kau punya untuk dijual?"
+msgstr "Apa kau punya sesuatu untuk dijual?"
 
 #: conversationlist_fallhaven_south.json:alaun
 msgid "Hello. I'm Alaun. How can I help you?"
-msgstr "Halo. Aku Alaun. Apa yang bisa kubantu?"
+msgstr "Halo. Aku Alaun. Ada yang bisa kubantu?"
 
 #: conversationlist_fallhaven_south.json:alaun:0
 #: conversationlist_fungi_panic.json:alaun_complete:0
 msgid "Have you seen my brother Andor? He looks similar to me."
-msgstr "Pernahkah kau melihat kakakku Andor? Dia terlihat mirip denganku."
+msgstr "Apa kau melihat kakakku Andor? Dia terlihat mirip denganku."
 
 #: conversationlist_fallhaven_south.json:alaun:1
 msgid "Do you have a job for me?"
@@ -4151,38 +4199,44 @@ msgstr "Kau mencari kakakmu? Dan mirip denganmu? Hmm."
 
 #: conversationlist_fallhaven_south.json:alaun_3
 msgid "No, I cannot recall seeing anyone by that description. Maybe you should try in Crossglen village west of here."
-msgstr "Tidak, aku tidak ingat pernah melihat siapa pun dengan deskripsi itu. Mungkin kau harus mencoba di desa Crossglen di sebelah barat sini."
+msgstr ""
+"Tidak, aku tidak ingat pernah melihat siapa pun dengan ciri-ciri itu. "
+"Mungkin coba cari di desa Crossglen di sebelah barat sini."
 
 #: conversationlist_fallhaven_south.json:fallhaven_farmer1
 #: conversationlist_stoutford_combined.json:stoutford_farmer2
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_10
 msgid "Hello there. Please do not bother me, I have a lot of work to do."
-msgstr "Halo yang disana. Tolong jangan menggangguku, aku punya banyak pekerjaan yang harus dilakukan."
+msgstr ""
+"Halo. Tolong jangan ganggu dulu ya, aku masih memiliki banyak pekerjaan."
 
 #: conversationlist_fallhaven_south.json:fallhaven_farmer2
 #: conversationlist_stoutford_combined.json:stoutford_farmer3
 msgid "Hello. Could you please move out of the way? I am trying to work here."
-msgstr "Halo. Bisakah kau menyingkir? Aku mencoba bekerja di sini."
+msgstr "Halo. Bisakah kau menyingkir? Aku berusaha bekerja di sini."
 
 #: conversationlist_fallhaven_south.json:khorand
 msgid "Hey you, don't even think of touching any of the crates. I am watching you!"
-msgstr "Hei kamu, jangan pernah berpikir untuk menyentuh peti apa pun. Aku memperhatikanmu!"
+msgstr "Hei kau, Jangan coba-coba sentuh peti-peti itu ya. Aku mengawasimu!"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_3
 msgid "Oh no. Not again. I won't start cutting the trees unless I have received a payment beforehand. Go away!"
-msgstr "Oh tidak. Jangan lagi. Aku tidak akan mulai menebang pohon kecuali telah menerima pembayaran sebelumnya. Pergi!"
+msgstr ""
+"Ya ampun. Jangan lagi. Aku tidak akan mulai menebang pohon jika belum ada "
+"pembayaran di muka. Pergi sana!"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_3:0
 msgid "Is there anything that would change your mind?"
-msgstr "Ada yang bisa merubah pikiranmu?"
+msgstr "Ada sesuatu yang bisa merubah pikiranmu?"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_3:1
 msgid "Seems like nobody wants to open the road again. Great."
-msgstr "Sepertinya tidak ada yang mau membuka jalan lagi. Hebat."
+msgstr "Sepertinya tak ada yang mau membuka jalan itu lagi. Hebat."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_4
 msgid "Hmm. Well if you would do me a great favor I would start to cut the trees away."
-msgstr "Hmm. Yah jika kau mau membantuku, aku akan mulai menebang pohon."
+msgstr ""
+"Hmm. Yah jika kau mau membantuku, aku akan mulai menebang pohon-pohon itu."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_4:0
 msgid "Sure! What is it?"
@@ -4190,27 +4244,41 @@ msgstr "Tentu! Apa itu?"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_5
 msgid "Let me tell you a story. Long ago, I was cutting in the woods to the north of Fallhaven. I used to cut the trees with great speed with my favorite axe. It was made of fine steel and probably worth more than my hut."
-msgstr "Biar kuceritakan sebuah kisah. Dulu, aku menebang di hutan di utara Fallhaven. Aku biasa menebang pohon dengan sangat cepat dengan kapak favoritku. Itu terbuat dari baja halus dan mungkin lebih berharga dari gubuk ini."
+msgstr ""
+"Biar kuceritakan sebuah kisah. Dulu, aku menebang di hutan sebelah utara "
+"Fallhaven. Aku biasa menebang pohon dengan sangat cepat menggunakan kapak "
+"favoritku. Itu terbuat dari baja halus dan mungkin lebih berharga dari gubuk "
+"ini."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_6
 msgid "But then, I got attacked by a pack of wolves and I had to flee immediately. I barely saved my life, but during the escape I lost my precious axe."
-msgstr "Tapi kemudian, aku diserang oleh sekelompok serigala dan aku harus segera melarikan diri. Aku hampir tidak menyelamatkan hidupku, tetapi selama pelarian aku kehilangan kapak berhargaku."
+msgstr ""
+"Tapi kemudian, aku diserang segerombolan serigala dan aku harus segera "
+"melarikan diri. Aku nyaris tidak selamat, tetapi selama pelarian aku "
+"kehilangan kapak berharga itu."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_7
 msgid "I'm afraid of travelling to that place again because I'm not a trained fighter and the wolves, especially their leader, were really powerful."
-msgstr "Aku takut bepergian ke tempat itu lagi karena aku bukan petarung terlatih dan para serigala, terutama pemimpin mereka, sangat kuat."
+msgstr ""
+"Aku takut kembali ke tempat itu lagi karena aku bukan petarung terlatih dan "
+"para serigala itu, terutama pemimpin mereka, kuat sekali."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_7:0
 msgid "So I guess you want me to retrieve your axe?"
-msgstr "Jadi kau ingin aku mengembalikan kapakmu?"
+msgstr "Jadi kau ingin aku mengambil kembali kapakmu?"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_8
 msgid "Yes exactly. If you would do me that favor I will gladly cut away the trees and receive payment afterwards. Just head north to the Crossroads guardhouse and then head eastwards down the Duleian Road. That's where I lost my axe. And look out for that wolf pack!"
-msgstr "Iya tepat sekali. Jika kau mau membantuku, aku dengan senang hati akan menebang pohon dan menerima pembayaran setelahnya. Pergilah ke utara ke Pos Jaga Persimpangan dan kemudian menuju ke timur menyusuri Jalan Duleian. Di situlah aku kehilangan kapak. Dan waspadalah terhadap kawanan serigala itu!"
+msgstr ""
+"Iya tepat sekali. Jika kau mau membantuku, aku dengan senang hati akan "
+"menebang pohon itu dengan pembayaran setelahnya. Langsung saja ke utara ke "
+"Pos Jaga Persimpangan dan kemudian menuju ke timur menyusuri Jalan Duleian. "
+"Di situlah aku kehilangan kapaknya. Dan waspadalah terhadap kawanan serigala "
+"itu!"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_8:0
 msgid "Sounds simple enough. On my way."
-msgstr "Cukup sederhana. Aku segera berangkat."
+msgstr "Kedengarannya sederhana. Aku segera berangkat."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_8:1
 msgid "No way! That is far too dangerous!"
@@ -4218,7 +4286,7 @@ msgstr "Tidak mungkin! Itu terlalu berbahaya dasar orang gila!"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_9
 msgid "Have you made any progress in finding my axe?"
-msgstr "Apa sudah ada kemajuan dalam menemukan kapakku?"
+msgstr "Apa ada kemajuan dalam mencari kapakku?"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_10
 msgid "Let me see... Oh yes! This is my axe! I cannot thank you enough!"
@@ -4227,7 +4295,7 @@ msgstr "Biar kulihat... Ya! Ini kapakku! Aku tidak bisa cukup berterima kasih!"
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_10:0
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_16:0
 msgid "So will you cut away those trees that block the old pathway?"
-msgstr "Jadi kau akan menebang pohon yang menghalangi jalan?"
+msgstr "Jadi kau akan menebang pohon yang menghalangi jalan itu?"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_11
 msgid "Sure! Already on my way! The work will be finished soon."
@@ -4235,7 +4303,9 @@ msgstr "Tentu! Sudah dalam perjalanan! Pekerjaan akan segera selesai."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_11:0
 msgid "That sounds great! Remember to ask the stupid guard captain for a decent payment."
-msgstr "Kedengarannya bagus! Ingatlah untuk meminta pembayaran yang layak kepada sipir yang bodoh itu."
+msgstr ""
+"Kedengarannya bagus! Ingatlah untuk meminta bayaran yang pantas kepada sipir "
+"bodoh itu."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_12
 msgid "Sure. Will do that. He he."
@@ -4255,11 +4325,15 @@ msgstr "Tentu. Akan kulakukan. He he."
 #: conversationlist_fungi_panic.json:bogsten_200_10:0
 #: conversationlist_lytwings.json:arensia_lytwing_17:0
 msgid "Goodbye."
-msgstr "Dah."
+msgstr "Sampai jumpa."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_13
 msgid "You're welcome. But you're not the only one who is happy. There are more people resting for a night in Fallhaven, which helps our economy. Some even bought items at my store! By the way, I was surprised, but I even got paid well by the guard captain."
-msgstr "Sama-sama. Tapi kau bukan satu-satunya yang senang. Ada lebih banyak orang yang beristirahat semalam di Fallhaven, yang membantu perekonomian kita. Beberapa bahkan membeli barang di tokoku! Ngomong-ngomong, aku terkejut, tapi aku bahkan dibayar tinggi oleh sipir."
+msgstr ""
+"Sama-sama. Tapi bukan aku saja yang senang. Ada lebih banyak orang yang "
+"menginap semalam di Fallhaven, ini membantu perekonomian kita. Beberapa "
+"bahkan ada yang membeli barang di tokoku! Ngomong-ngomong, aku terkejut, "
+"tapi aku malah dibayar tinggi oleh sipir itu."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_13:0
 msgid "Great. Now everything is much better than it was before!"
@@ -4279,15 +4353,17 @@ msgstr "Halo lagi! Aku akhirnya menemukan kapakmu!"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_14:1
 msgid "No I haven't. But I'm working on it."
-msgstr "Belum. Tapi aku sedang mengusahakannya."
+msgstr "Belum. Tapi aku akan berusaha."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15
 msgid "Hello again my friend."
-msgstr "Halo lagi temanku."
+msgstr "Hai lagi temanku."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15:0
 msgid "I cannot thank you enough for cutting away those trees! Finally I've got a shortcut!"
-msgstr "Aku tidak bisa cukup berterima kasih karena telah menebang pohon-pohon itu! Akhirnya aku punya jalan pintas!"
+msgstr ""
+"Aku tidak bisa berterima kasih banyak karena telah menebang pohon-pohon itu! "
+"Akhirnya aku punya jalan pintas!"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_16
 msgid "Thank you for bringing me back my axe!"
@@ -4295,7 +4371,9 @@ msgstr "Terima kasih sudah membawakan kembali kapakku!"
 
 #: conversationlist_fallhaven_south.json:alaun_1
 msgid "Oh, how surprising. How nice of you. Indeed there is something you could do for me."
-msgstr "Oh, betapa mengejutkan. Betapa baiknya dirimu. Memang ada sesuatu yang bisa kau lakukan untukku."
+msgstr ""
+"Oh, Betapa baiknya dirimu. Memang ada sih sesuatu yang bisa kau lakukan "
+"untukku."
 
 #: conversationlist_fallhaven_south.json:alaun_1:0
 msgid "Tell me what it is."
@@ -4313,11 +4391,14 @@ msgstr "Mari kita bicara tentang pembayaran dulu."
 
 #: conversationlist_fallhaven_south.json:alaun_4
 msgid "Ahh, you are here to earn some money, okay."
-msgstr "Ahh, kau di sini untuk mencari uang, oke."
+msgstr "Ahh, kau mencari uang rupanya, oke."
 
 #: conversationlist_fallhaven_south.json:alaun_5
 msgid "I'll give you 10 gold if you do this little job for me: Bring me some of that delicious soup which Gison cooks using mushrooms and wild herbs."
-msgstr "Aku akan memberimu 10 emas jika kau melakukan pekerjaan kecil ini untukku: Bawakan aku sup lezat yang dimasak Gison menggunakan jamur dan tumbuhan liar."
+msgstr ""
+"Aku akan memberimu 10 emas jika kau melakukan pekerjaan kecil ini untukku: "
+"Bawakan aku sup lezat yang dimasak Gison, yang menggunakan jamur dan "
+"tumbuhan liar itu."
 
 #: conversationlist_fallhaven_south.json:alaun_5:0
 msgid "Sounds easy, I'll do it!"
@@ -4333,11 +4414,11 @@ msgstr "Beri aku 20 dan aku akan melakukannya."
 
 #: conversationlist_fallhaven_south.json:alaun_5:3
 msgid "No way, I'm not your gopher."
-msgstr "Tidak bisa."
+msgstr "Tidak mau, aku bukanlah pesuruhmu."
 
 #: conversationlist_fallhaven_south.json:alaun_startquest10
 msgid "That's really nice of you."
-msgstr "Kau sangat baik."
+msgstr "Wah, kau baik sekali."
 
 #: conversationlist_fallhaven_south.json:alaun_more1
 msgid ""
@@ -4345,19 +4426,19 @@ msgid ""
 "\n"
 "OK, I'll give you 15."
 msgstr ""
-"15? Biar kupikir ... erm ... \n"
+"15? Biar kupikirkan ... erm ... \n"
 "\n"
 "Oke, aku akan memberimu 15."
 
 #: conversationlist_fallhaven_south.json:alaun_more1:0
 #: conversationlist_fallhaven_south.json:alaun_more2:0
 msgid "Sounds good. I will do it."
-msgstr "Kedengaran bagus. Akan kulakukan."
+msgstr "Baik kalau begitu. Akan kulakukan."
 
 #: conversationlist_fallhaven_south.json:alaun_more1:1
 #: conversationlist_fallhaven_south.json:alaun_more2:1
 msgid "I changed my mind."
-msgstr "Aku merubah pikiranku."
+msgstr "Aku berubah pikiran."
 
 #: conversationlist_fallhaven_south.json:alaun_more2
 msgid ""
@@ -4365,13 +4446,14 @@ msgid ""
 "\n"
 "OK. I'll give you 20. But please, bring it hot or I won't pay you."
 msgstr ""
-"20? Biar kupikir ... erm ... \n"
+"20? Biar kupikirkan ... erm ... \n"
 "\n"
-"Baik. Aku akan memberimu 20. Tapi tolong, bawakan selagi panas atau aku tidak akan membayarmu."
+"Baik. Aku akan memberimu 20. Tapi tolong, bawakan selagi panas atau aku "
+"tidak akan membayarmu."
 
 #: conversationlist_fallhaven_south.json:alaun_startquest15
 msgid "That's nice of you."
-msgstr "Kau baik."
+msgstr "Kau baik sekali."
 
 #: conversationlist_fallhaven_south.json:alaun_startquest20
 msgid "OK, please bring it hot!"
@@ -4379,7 +4461,10 @@ msgstr "Oke, tolong bawa selagi panas!"
 
 #: conversationlist_fallhaven_south.json:alaun_startquest_go
 msgid "You can find Gison and his wife Nimael south of here. Cross the path and head into the woods. You will find their house soon."
-msgstr "Kau dapat menemukan Gison dan istrinya Nimael di selatan dari sini. Seberangi jalan setapak dan pergilah ke hutan. Kau akan segera menemukan rumah mereka."
+msgstr ""
+"Kau bisa cari Gison dan istrinya Nimael di selatan dari sini. Seberangi "
+"jalan setapak ini dan masuklah ke hutan. Kau akan segera menemukan rumah "
+"mereka."
 
 #: conversationlist_fallhaven_south.json:alaun_startquest_go:0
 msgid "OK. See you later."
@@ -4422,7 +4507,9 @@ msgstr ""
 
 #: conversationlist_fallhaven_south.json:alaun_return_end
 msgid "Thanks again. And remember to take the bottle back to Gison. Now go please. I want to eat."
-msgstr "Terima kasih lagi. Dan ingatlah untuk membawa botol itu kembali ke Gison. Sekarang pergilah. Aku mau makan."
+msgstr ""
+"Terima kasih lagi. Dan jangan lupa kembalikan botol itu kembali ke Gison. "
+"Sekarang pergilah. Aku mau makan."
 
 #: conversationlist_fallhaven_south.json:alaun_return_end:0
 msgid "Enjoy your meal."
@@ -4454,11 +4541,11 @@ msgstr "Iya. Aku memintamu untuk membawakanku sup jamur lezat dari Gison."
 
 #: conversationlist_fallhaven_south.json:alaun_return_blindstart:0
 msgid "Can you explain the way again?"
-msgstr "Bisa menjelaskan jalannya lagi?"
+msgstr "Bisa jelaskan jalannya lagi?"
 
 #: conversationlist_fallhaven_south.json:alaun_return_blindstart:1
 msgid "Yes, I'm on my way."
-msgstr "Ya, aku dalam perjalanan."
+msgstr "Ya, aku kesana."
 
 #: conversationlist_fallhaven_south.json:alaun_return_blindstart:2
 msgid "I was not able to bring you the soup."
@@ -4504,15 +4591,19 @@ msgstr "Dengar..."
 
 #: conversationlist_signs_pre067.json:keyarea_andor1
 msgid "You should talk to Mikhail first."
-msgstr "Kamu harus bicara pada Mikhail."
+msgstr "Kamu harus bicara pada Mikhail dulu."
 
 #: conversationlist_signs_pre067.json:note_lodars
 msgid "On the ground, you find a piece of paper with a lot of strange symbols. You can barely make out the words 'meet me at Lodar's hideaway', but you are not sure what it means."
-msgstr "Di tanah, kamu menemukan sepotong kertas yang berisi banyak simbol aneh. Kamu hanya bisa membaca kata-kata 'temui aku di persembunyian Lodar', tetapi kamu tidak yakin apa artinya."
+msgstr ""
+"Di tanah, kamu menemukan selembar kertas yang berisi banyak simbol aneh. "
+"Kamu hanya bisa membaca kata-kata 'temui aku di persembunyian Lodar', tetapi "
+"kamu tidak yakin apa artinya."
 
 #: conversationlist_signs_pre067.json:keyarea_crossglen_smith
 msgid "Audir shouts: Hey you, get away! You are not allowed back there."
-msgstr "Audir berteriak: Hei kau, pergi! Kau tidak dibolehkan ke belakang sana."
+msgstr ""
+"Audir berteriak: Hei kau, pergi! Kau tidak boleh pergi ke belakang sana."
 
 #: conversationlist_signs_pre067.json:sign_crossglen_cave
 msgid "The sign on the wall is cracked in several places. You cannot make out anything comprehensible from the writing."
@@ -4544,7 +4635,9 @@ msgstr ""
 
 #: conversationlist_signs_pre067.json:sign_pitcave2
 msgid "The ground is littered with bloodstained scraps of paper, seemingly torn from a journal in a fight."
-msgstr "Lantai dipenuhi carikan kertas yang berlumuran darah, seakan-akan dicabut dari sebuah jurnal di tengah-tengah sebuah perkelahian."
+msgstr ""
+"Lantainya penuh sobekan kertas yang berlumuran darah, seakan-akan dicabut "
+"dari sebuah jurnal saat sedang bertengkar."
 
 #: conversationlist_signs_pre067.json:sign_fallhaven1
 msgid "Welcome to Fallhaven. Watch out for pickpockets!"
@@ -4552,11 +4645,14 @@ msgstr "Selamat datang di Fallhaven. Waspada terhadap copet!"
 
 #: conversationlist_signs_pre067.json:key_fallhavenchurch
 msgid "You are not allowed to enter the catacombs of Fallhaven Church without permission."
-msgstr "Kamu tidak boleh masuk ke katakomba Gereja Fallhaven tanpa izin."
+msgstr "Kamu tidak boleh masuk ke katakombe Gereja Fallhaven tanpa izin."
 
 #: conversationlist_signs_pre067.json:arcir_basement_tornpage
 msgid "You see a torn page from a book titled 'Calomyran Secrets'. Blood stains its edges, and someone has scribbled the words 'Larcal' with the blood."
-msgstr "Kamu melihat halaman yang robek dari sebuah buku berjudul 'Calomyran Secrets'. Darah melumuri tepinya, dan seseorang telah menuliskan kata 'Larcal' dengan darah."
+msgstr ""
+"Kamu melihat halaman yang robek dari sebuah buku berjudul 'Rahasia "
+"Calomyran'. Darah melumuri tepinya, dan seseorang telah menuliskan kata "
+"'Larcal' dengan darah."
 
 #: conversationlist_signs_pre067.json:arcir_basement_statue
 msgid "Elythara, mother of the light. Protect us from the curse of the Shadow."
@@ -4564,7 +4660,8 @@ msgstr "Elythara, ibu dari cahaya. Lindungi kami dari kutukan Sang Bayangan."
 
 #: conversationlist_signs_pre067.json:fallhaven_tavern_room
 msgid "You are not allowed into the room unless you have rented it."
-msgstr "Kamu tidak dibolehkan masuk ke dalam ruangan kecuali kamu telah menyewanya."
+msgstr ""
+"Kamu tidak dibolehkan masuk ke ruangan ini kecuali kamu telah menyewanya."
 
 #: conversationlist_signs_pre067.json:fallhaven_derelict1
 msgid "Bucus shouts: Hey you, get away from there!"
@@ -4586,8 +4683,9 @@ msgid ""
 "North: Fallhaven\n"
 "South: Sutdover River and Sullengard"
 msgstr ""
-"[OUTDATED]Barat: Stoutford\n"
-"Utara: Fallhaven"
+"Barat: Stoutford\n"
+"Utara: Fallhaven\n"
+"Selatan: Sungai Sutdover dan Sullengard"
 
 #: conversationlist_signs_pre067.json:sign_wild10
 msgid ""
@@ -4690,7 +4788,7 @@ msgstr "Bisakah aku melihat makanan apa yang kau jual?"
 
 #: conversationlist_thievesguild_1.json:thievesguild_cook_1:2
 msgid "Farrik said you can prepare me a round of special mead."
-msgstr "Farrik bilang kau bisa menyiapkanku satu gelas madu spesial."
+msgstr "Farrik bilang kau bisa menyiapkanku satu gelas mead spesial."
 
 #: conversationlist_thievesguild_1.json:thievesguild_cook_2
 msgid "That's right. Someone has to keep these ruffians fed."
@@ -4709,7 +4807,7 @@ msgstr "Rebusan itu terlihat menjijikkan."
 #: conversationlist_omi2.json:ortholion_guard_1c:0
 #: conversationlist_omi2.json:ortholion_guard_6d2:0
 msgid "Never mind, bye."
-msgstr "Lupakan, dah."
+msgstr "Lupakan, selamat tinggal."
 
 #: conversationlist_thievesguild_1.json:thievesguild_cook_3
 msgid "Thanks. This stew is coming along nicely."
@@ -4844,7 +4942,7 @@ msgstr "Itu benar-benar terdengar seperti mencuri."
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_5:1
 msgid "That sounds like a good justification."
-msgstr "Kedengarannya seperti pembenaran yang bagus."
+msgstr "Pembenaranmu bagus juga."
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_6
 msgid "After all, we are the Thieves' Guild. What did you expect?"
@@ -4912,7 +5010,9 @@ msgstr "Pernahkah kau melihat kakakku di sekitar sini? Dia mirip denganku."
 
 #: conversationlist_thievesguild_1.json:thievesguild_troublemaker_5
 msgid "Oh yes, now that you mention it. There was that kid running around here, asking a lot of questions."
-msgstr "Oh ya, sekarang setelah kau menyebutkannya. Ada anak yang berlarian di sekitar sini, menanyakan banyak pertanyaan."
+msgstr ""
+"Oh ya, sekarang baru ingat. Ada anak yang berlarian di sekitar sini, "
+"menanyakan banyak pertanyaan."
 
 #: conversationlist_thievesguild_1.json:thievesguild_troublemaker_5:0
 msgid "Do you know what he was looking for, or what he was doing?"
@@ -4960,7 +5060,7 @@ msgstr "Sepertinya terowongan itu belum selesai."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:0
 msgid "Typical Troublemaker - can't finish anything."
-msgstr "Tipe Pembuat Onar - tidak bisa menyelesaikan apa pun."
+msgstr "Kebiasaan Si Pembuat Onar - tidak bisa menyelesaikan apa pun."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:1
 msgid "So I have to go back the way I came."
@@ -4982,17 +5082,21 @@ msgstr "Aku Farrik, adik Umar."
 
 #: conversationlist_farrik.json:farrik_3
 msgid "I mostly manage our trading with other guilds and keep an eye on what the thieves need to be as effective as they can be."
-msgstr "Aku biasanya mengelola perdagangan kami dengan guild lain dan mengawasi apa yang dibutuhkan pencuri untuk menjadi seefektif mungkin."
+msgstr ""
+"Aku biasanya mengelola perdagangan kami dengan guild lain dan mengawasi apa "
+"yang dibutuhkan pencuri-pencuri itu untuk menjadi seefektif mungkin."
 
 #: conversationlist_farrik.json:farrik_4
 msgid "We try to keep to ourselves as much as possible, and help our fellow thieves as much as possible."
-msgstr "Kami mencoba untuk menjaga diri kami sendiri sebanyak mungkin, dan membantu sesama pencuri sebanyak mungkin."
+msgstr ""
+"Kami berusaha menjaga diri kami sebisa mungkin, dan membantu sesama pencuri "
+"sebisa mungkin."
 
 #: conversationlist_farrik.json:farrik_4:0
 #: conversationlist_gandoren.json:gandoren_2:0
 #: conversationlist_gandoren.json:gandoren_dr_1:0
 msgid "Any recent events happening?"
-msgstr "Ada peristiwa terjadi baru-baru ini?"
+msgstr "Ada peristiwa yang terjadi baru-baru ini?"
 
 #: conversationlist_farrik.json:farrik_4:1
 #: conversationlist_farrik.json:farrik_return_2:1
@@ -5002,11 +5106,15 @@ msgstr "Aku telah bertanya kepada Dunla tentang pekerjaan distribusi bir dan ten
 
 #: conversationlist_farrik.json:farrik_5
 msgid "Well, there was one thing a few weeks ago. One of our guild members got arrested for trespassing."
-msgstr "Ada satu hal beberapa minggu lalu. Salah satu anggota serikat kami ditangkap karena masuk tanpa izin."
+msgstr ""
+"Yah, ada satu kejadian minggu lalu. Salah satu anggota guild kami ditangkap "
+"karena masuk tanpa izin."
 
 #: conversationlist_farrik.json:farrik_6
 msgid "The Fallhaven guard has started to get really annoyed with us lately. Probably because we have been very successful in our recent missions."
-msgstr "Penjaga Fallhaven mulai sangat kesal dengan kami belakangan ini. Mungkin karena kami sangat sukses dalam misi kami baru-baru ini."
+msgstr ""
+"Penjaga Fallhaven akhir-akhir ini mulai sangat kesal dengan kami. Mungkin "
+"gara-gara misi-misi kami sukses besar belakangan ini."
 
 #: conversationlist_farrik.json:farrik_7
 msgid "The guards have increased their security lately, leading to them arresting one of our members."
@@ -5022,15 +5130,20 @@ msgstr "Apa yang dia lakukan?"
 
 #: conversationlist_farrik.json:farrik_9
 msgid "Oh, nothing serious. He was trying to get into the catacombs of Fallhaven church."
-msgstr "Oh, tidak ada yang serius. Dia mencoba masuk ke makam gereja Fallhaven."
+msgstr ""
+"Oh, tidak ada yang serius. Dia mencoba masuk ke katakombe gereja Fallhaven."
 
 #: conversationlist_farrik.json:farrik_10
 msgid "But now that you have helped us with that mission, I guess we don't need to go there anymore."
-msgstr "Tetapi sekarang kau telah membantu kami dengan misi itu, aku rasa kami tidak perlu pergi ke sana lagi."
+msgstr ""
+"Tetapi sekarang kau telah membantu kami dengan misi itu, kurasa kami tidak "
+"perlu pergi ke sana lagi."
 
 #: conversationlist_farrik.json:farrik_11
 msgid "I guess I can trust you with this secret. We are planning a mission tonight to help him out of jail."
-msgstr "Aku rasa aku dapat mempercayaimu dengan rahasia ini. Kami merencanakan misi malam ini untuk membantunya keluar dari penjara."
+msgstr ""
+"Sepertinya aku bisa mempercayaimu dengan rahasia ini. Kami merencanakan misi "
+"malam ini untuk membantunya keluar dari penjara."
 
 #: conversationlist_farrik.json:farrik_11:0
 msgid "Those guards really seem annoying."
@@ -5075,15 +5188,17 @@ msgstr "Terserah, mereka juga tidak akan mempercayaimu."
 
 #: conversationlist_farrik.json:farrik_16
 msgid "Are you sure you want to annoy the guards? If they catch word of you being involved, you could get into a lot of trouble."
-msgstr "Apakah kau yakin ingin mengganggu para penjaga? Jika mereka mengetahui bahwa kau terlibat, kau bisa mendapat banyak masalah."
+msgstr ""
+"Apakah kau yakin ingin mengganggu para penjaga? Jika mereka mengetahui bahwa "
+"kau ikut campur, kau bisa mendapat banyak masalah."
 
 #: conversationlist_farrik.json:farrik_16:0
 msgid "No problem, I can handle myself!"
-msgstr "Tidak masalah, aku bisa menjaga diriku!"
+msgstr "Tidak masalah, aku bisa jaga diri!"
 
 #: conversationlist_farrik.json:farrik_16:1
 msgid "There might be a reward for this later on. I'm in."
-msgstr "Mungkin ada hadiah untuk ini nanti. Aku ikut."
+msgstr "Mungkin ada hadiahnya nanti. Aku ikut."
 
 #: conversationlist_farrik.json:farrik_16:2
 msgid "On second thought, maybe I should keep out of this."
@@ -5106,27 +5221,34 @@ msgstr "Bagus."
 
 #: conversationlist_farrik.json:farrik_19
 msgid "OK, here is the plan. The guard captain has a bit of a drinking problem."
-msgstr "Oke, ini rencananya. Kapten penjaga punya sedikit masalah kemabukan."
+msgstr "Oke, ini rencananya. Kapten penjaga itu punya kebiasaan mabuk."
 
 #: conversationlist_farrik.json:farrik_20
 msgid "If we were able to supply him with some mead that we have prepared, we might just be able to sneak our friend out during the night, when the captain is sleeping off the drunkenness."
-msgstr "Jika kita bisa memberinya madu yang telah kita siapkan, kita mungkin bisa mengeluarkan teman kita pada malam hari, ketika kapten sedang tidur karena mabuk."
+msgstr ""
+"Jika kita bisa memberinya mead yang telah kita siapkan, kita mungkin bisa "
+"mengeluarkan teman kita pada malam hari, ketika kapten sedang tidur karena "
+"mabuk."
 
 #: conversationlist_farrik.json:farrik_20a
 msgid "Our cook can prepare a special brew of mead for you that will knock him out."
-msgstr "Juru masak kami dapat menyiapkan minuman madu khusus yang akan membuatnya pingsan."
+msgstr ""
+"Juru masak kami dapat menyiapkan minuman mead khusus yang akan membuatnya "
+"pingsan."
 
 #: conversationlist_farrik.json:farrik_21
 msgid "He would probably need to be persuaded to drink on duty too. If that should fail, he could probably be bribed instead."
-msgstr "Dia mungkin perlu dibujuk untuk minum saat bertugas juga. Jika itu gagal, dia mungkin bisa disuap."
+msgstr ""
+"Dia mungkin perlu dibujuk untuk minum saat bertugas juga. Jika itu gagal, "
+"dia mungkin bisa disogok."
 
 #: conversationlist_farrik.json:farrik_22
 msgid "How does that sound to you? Do you think you are up to it?"
-msgstr "Bagaimana kedengarannya menurutmu? Apakah kau siap?"
+msgstr "Bagaimana menurutmu? Apakah kau siap?"
 
 #: conversationlist_farrik.json:farrik_22:0
 msgid "No, this is really starting to sound like a bad idea."
-msgstr "Tidak, ini mulai terdengar seperti ide buruk."
+msgstr "Tidak, ini kedengarannya ide buruk."
 
 #: conversationlist_farrik.json:farrik_22:1
 msgid "Sure, sounds easy!"
@@ -5134,11 +5256,13 @@ msgstr "Tentu, kedengarannya mudah!"
 
 #: conversationlist_farrik.json:farrik_22:2
 msgid "Sounds a bit dangerous, but I guess I'll try."
-msgstr "Kedengaran berbahaya, tapi akan kucoba."
+msgstr "Sepertinya berbahaya, tapi akan kucoba."
 
 #: conversationlist_farrik.json:farrik_23
 msgid "Good. Report back to me when you have gotten the guard captain to drink that special mead."
-msgstr "Bagus. Laporkan kembali kepadaku ketika kau berhasil membuat kapten penjaga untuk minum madu khusus itu."
+msgstr ""
+"Bagus. Lapor kembali padaku jika kau berhasil membuat kapten penjaga minum "
+"mead khusus itu."
 
 #: conversationlist_farrik.json:farrik_23:0
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_25:0
@@ -5147,11 +5271,11 @@ msgstr "Pasti."
 
 #: conversationlist_farrik.json:farrik_return_1
 msgid "Hello again my friend. How goes your mission to get the guard captain drunk?"
-msgstr "Halo lagi temanku. Bagaimana misimu untuk membuat kapten penjaga mabuk?"
+msgstr "Halo lagi temanku. Bagaimana misimu membuat kapten penjaga mabuk?"
 
 #: conversationlist_farrik.json:farrik_return_1:0
 msgid "I am not done yet, but I am working on it."
-msgstr "Aku belum selesai, tapi aku sedang mengusahakannya."
+msgstr "Aku belum selesai, tapi aku sedang berusaha."
 
 #: conversationlist_farrik.json:farrik_return_1:1
 msgid "It is done. He should be no problem during the night."
@@ -5210,7 +5334,10 @@ msgstr "Tidak, aku belum bicara padanya."
 
 #: conversationlist_farrik.json:farrik_return_3:1
 msgid "[Lie]. No. I went there, but I overheard the guard captain saying there was no real threat, so they will lower security. So maybe you can carry out your mission without me being involved."
-msgstr "[Berbohong]. Tidak. Aku pergi ke sana, tapi aku mendengar sipir berkata tidak ada ancaman nyata, jadi mereka akan menurunkan keamanan. Jadi mungkin kau bisa menjalankan misimu tanpa keterlibatanku."
+msgstr ""
+"[Berbohong]. Tidak. Aku pergi ke sana, tapi aku mendengar sipir berkata "
+"tidak ada ancaman nyata, jadi mereka akan menurunkan keamanan. Jadi mungkin "
+"kau bisa menjalankan misi tanpa diriku."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden
 msgid "State your business."
@@ -5222,21 +5349,25 @@ msgstr "Siapa tahanan itu?"
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden:1
 msgid "I heard that you are fond of mead."
-msgstr "Aku dengar Bapak menyukai madu."
+msgstr "Kudengar anda menyukai mead."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden:2
 msgid "The thieves are planning an escape for their friend."
-msgstr "Para pencuri sedang merencanakan pelarian untuk temannya."
+msgstr "Para pencuri itu sedang merencanakan pelarian untuk temannya."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden:3
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_11:1
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_36:1
 msgid "I recently talked to the watchman who blocks the old pathway to the Duleian Road. Why don't you just pay the woodcutter?"
-msgstr "Aku baru-baru ini bicara dengan penjaga yang memblokir jalur lama ke Jalan Duleian. Mengapa Bapak tidak membayar penebang kayu?"
+msgstr ""
+"Aku baru-baru ini bicara dengan penjaga yang memblokir jalur lama ke Jalan "
+"Duleian. Mengapa anda tidak membayar penebang kayu?"
 
 #: conversationlist_fallhaven_warden.json:warden_prisoner_1
 msgid "That thief? He was caught in the act. Trespassing he was. Trying to get down into the catacombs of Fallhaven church."
-msgstr "Pencuri itu? Dia tertangkap basah sedang beraksi. Dia masuk tanpa izin. Mencoba turun ke makam gereja Fallhaven."
+msgstr ""
+"Pencuri itu? Dia tertangkap basah sedang beraksi. Dia masuk tanpa izin. "
+"Mencoba masuk ke katakombe gereja Fallhaven."
 
 #: conversationlist_fallhaven_warden.json:warden_prisoner_2
 msgid "Luckily, we caught him before he could get down there. Now he'll serve as an example to all other thieves."
@@ -5248,7 +5379,8 @@ msgstr "Pencuri sialan. Pasti ada sarang mereka di sekitar sini. Kalau saja aku 
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_1
 msgid "Mead? Oh ... no, I don't do that anymore. Who told you that?"
-msgstr "Madu? Oh ... tidak, aku tidak meminum itu lagi. Siapa yang memberitahumu?"
+msgstr ""
+"Mead? Oh ... tidak, aku tidak meminum itu lagi. Siapa yang memberitahumu?"
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_2
 msgid "I've stopped doing that years ago."
@@ -5256,7 +5388,7 @@ msgstr "Aku berhenti beberapa tahun lalu."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_2:0
 msgid "Sounds like a good approach. Good luck with keeping away from it."
-msgstr "Semoga beruntung dalam menjauhinya."
+msgstr "Semoga lekas sembuh."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_2:1
 msgid "Not just even a little bit?"
@@ -5264,11 +5396,11 @@ msgstr "Bahkan tidak mau walau hanya sedikit?"
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_3
 msgid "Um. *clears throat* I really shouldn't."
-msgstr "Um. * berdehem * Aku seharusnya tidak melakukannya."
+msgstr "Um. *berdehem* Aku seharusnya tidak melakukannya."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_3:0
 msgid "I brought some with me if you would like to have a sip."
-msgstr "Aku membawanya jika Bapak ingin seteguk."
+msgstr "Aku membawanya jika anda ingin seteguk."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_3:1
 #: conversationlist_prim_arghest.json:arghest_6:0
@@ -5281,7 +5413,7 @@ msgstr "Oke, sampai jumpa."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_4
 msgid "Oh sweet drinks of joy. I really shouldn't have this while on duty though."
-msgstr "Oh minuman manis kegembiraan. Aku seharusnya tidak minum ini saat bertugas."
+msgstr "Oh minuman kegembiraan. Aku seharusnya tidak minum ini saat bertugas."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_5
 msgid "I could get fined for drinking on duty. I don't think I would dare try it right now."
@@ -5307,7 +5439,7 @@ msgstr "Oh, kedengarannya kurang meyakinkan. Aku ragu ada orang yang mampu memba
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_7:0
 msgid "I have 500 gold right here that you could have."
-msgstr "Aku punya 500 emas untuk Bapak."
+msgstr "Aku punya 500 emas untuk anda."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_7:1
 msgid "You know you want the mead right?"
@@ -5315,7 +5447,7 @@ msgstr "Kau tahu kau menginginkannya bukan?"
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_7:2
 msgid "Yes, I agree. This is starting to sound too shady. Goodbye."
-msgstr "Ya, aku setuju. Ini mulai kedengaran buruk. Dah."
+msgstr "Ya, aku setuju. Ini mulai kedengaran buruk. Sampai jumpa."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_8
 msgid "Oh sure. Now that you mention it. It sure would be good."
@@ -5323,11 +5455,13 @@ msgstr "Oh tentu. Sekarang setelah kau menyebutkannya. Pasti akan bagus."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_8:0
 msgid "So what if I pay you, say, 400 gold. Would that cover enough of your anxiety to enjoy the drink now?"
-msgstr "Jadi bagaimana jika aku membayarkan, katakanlah, 400 emas. Apakah itu cukup menutupi kecemasan Bapak?"
+msgstr ""
+"Jadi bagaimana jika aku membayarkan, katakanlah, 400 emas. Apakah itu cukup "
+"menutupi kecemasan anda?"
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_8:1
 msgid "This is starting to sound too shady for me. I'll leave you to your duty, goodbye."
-msgstr "Ini mulai kedengaran buruk. Aku akan pergi."
+msgstr "Ini mulai terdengar buruk. Aku akan pergi."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_8:2
 msgid "I'll go get that gold for you. Goodbye."
@@ -5335,7 +5469,9 @@ msgstr "Aku akan mendapatkan emas itu untuk Bapak."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_9
 msgid "Wow, that much gold? I'm sure I could even get away with this without being fined. Then I could have the gold AND a nice drink of mead at the same time."
-msgstr "Wow, emas sebanyak itu? Aku yakin aku bahkan bisa lolos tanpa didenda. Lalu aku bisa mendapatkan emas DAN minuman madu yang manis pada saat yang bersamaan."
+msgstr ""
+"Wow, emas sebanyak itu? Aku yakin aku bahkan bisa lolos tanpa didenda. Lalu "
+"aku bisa mendapatkan emas DAN minum mead pada saat yang bersamaan."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_10
 msgid "Thank you kid, you really are nice. Now leave me to enjoy my drink."
@@ -5343,7 +5479,10 @@ msgstr "Terima kasih nak, kau sangat baik. Sekarang biarkan aku menikmati minuma
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_11
 msgid "Hello again, kid. Thanks for the drink earlier. I had it all in one go. It sure tasted a bit different than before, but I guess that is just because I'm not used to it anymore."
-msgstr "Halo lagi, Nak. Terima kasih untuk minumannya sebelumnya. Aku meneguk semuanya sekaligus. Rasanya memang sedikit berbeda dari biasanya, tapi kurasa itu hanya karena aku tidak terbiasa lagi."
+msgstr ""
+"Halo lagi, Nak. Terima kasih untuk minumannya. Aku meneguk semuanya "
+"sekaligus. Rasanya memang sedikit berbeda dari biasanya, tapi mungkin karena "
+"aku sudah tidak terbiasa lagi."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_11:0
 msgid "That's great! Cheers!"
@@ -5351,11 +5490,14 @@ msgstr "Itu bagus! Bersulang!"
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_12
 msgid "Hello again, kid. Thanks for the drink earlier. I still haven't had it."
-msgstr "Halo lagi, Nak. Terima kasih untuk minumannya sebelumnya. Aku masih belum meminumnya."
+msgstr ""
+"Halo lagi, Nak. Terima kasih untuk minumannya. Aku masih belum meminumnya."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_20
 msgid "Really, they would dare go up against the guard in Fallhaven? Do you have any details on their plan?"
-msgstr "Sungguh, mereka berani melawan penjaga di Fallhaven? Apakah kau memiliki detail tentang rencana mereka?"
+msgstr ""
+"Sungguh, mereka berani melawan penjaga di Fallhaven? Jelaskan apa rencana "
+"mereka?"
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_20:0
 msgid "I heard they are planning his escape tonight."
@@ -5371,7 +5513,9 @@ msgstr "Setelah dipikir-pikir, sebaiknya aku tidak mengecewakan Guild Pencuri."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_21
 msgid "Tonight? Thank you for this information. We will make sure to increase the security tonight then, but in such a way that they won't notice."
-msgstr "Malam ini? Terimakasih atas informasinya. Kami akan memastikan untuk meningkatkan keamanan malam ini, tetapi dengan suatu cara sehingga mereka tidak akan menyadarinya."
+msgstr ""
+"Malam ini? Terimakasih atas informasinya. Kami akan meningkatkan keamanan di "
+"malam ini, tetapi dengan suatu cara sehingga mereka tidak akan menyadarinya."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_22
 msgid "When they do decide to break him free, we will be prepared. Maybe we can arrest more of those filthy thieves."
@@ -5417,19 +5561,28 @@ msgstr "Halo lagi nak. Terima kasih atas bantuanmu dalam menangani para pencuri 
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_36
 msgid "I will make sure to tell other guards how you helped us here in Fallhaven."
-msgstr "Aku akan memastikan untuk memberi tahu penjaga lain bagaimana kau membantu kami di sini di Fallhaven."
+msgstr ""
+"Aku pasti memberi tahu penjaga lain bahwa kamu telah membantu kami di sini "
+"di Fallhaven."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_pathway_1
 msgid "Hah! Jakrar? I should pay Jakrar before he has done his work? No way! Either he does his woodcutting job before I pay him or the passage stays blocked! That's how I always do it. It's the only way to get the job done well."
-msgstr "Hah! Jakrar? Aku harus membayar Jakrar sebelum dia melakukan pekerjaannya? Tidak mungkin! Entah dia melakukan pekerjaan menebang kayu sebelum aku membayarnya atau jalannya tetap diblokir! Begitulah caraku selalu melakukannya. Itu satu-satunya cara untuk menyelesaikan pekerjaan dengan baik."
+msgstr ""
+"Hah! Jakrar? Aku harus membayar Jakrar sebelum bekerja? Tidak mungkin! Dia "
+"tebang pohonnya dulu baru dibayar, atau jalan itu biar tetap terblokir! "
+"Begitulah caraku dari dulu. Itulah satu-satunya cara menyelesaikan pekerjaan "
+"dengan baik."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_pathway_1:0
 msgid "Would anything change your mind?"
-msgstr "Apakah ada yang bisa merubah pikiran Bapak?"
+msgstr "Apakah ada yang bisa merubah pikiran anda?"
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_pathway_2
 msgid "No way! Get lost or I'll throw you in jail! Talk to that filthy woodcutter if you want to reopen the path, but nothing will change my mind!"
-msgstr "Tidak mungkin! Pergilah atau aku akan memasukkanmu ke penjara! Bicaralah dengan penebang kayu kotor itu jika kau ingin membuka kembali jalannya, tetapi tidak ada yang akan mengubah pikiranku!"
+msgstr ""
+"Tidak mungkin! Pergilah atau aku akan memasukkanmu ke penjara! Bicaralah "
+"dengan penebang kayu jorok itu jika kau ingin membuka kembali jalannya, "
+"tetapi tidak ada yang dapat mengubah pikiranku!"
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_pathway_2:0
 msgid "So where can I find him?"
@@ -5453,19 +5606,20 @@ msgstr "Halo lagi, teman."
 
 #: conversationlist_umar.json:umar_return_1:1
 msgid "I have given them our promised share."
-msgstr "Saya telah memberi mereka bagian yang kami janjikan."
+msgstr "Aku memberi mereka bagian yang telah dijanjikan."
 
 #: conversationlist_umar.json:umar_return_1:2
 msgid "What are we gonna do about Sullengard?"
-msgstr "Apa yang akan kita lakukan dengan Sullengard?"
+msgstr "Bagaimana soal Sullengard?"
 
 #: conversationlist_umar.json:umar_return_1:3
 msgid "What are your plans for the new traitors?"
-msgstr "[OUTDATED]Apa yang harus aku lakukan tadi?"
+msgstr "Apa rencanamu untuk para pengkhianat baru itu?"
 
 #: conversationlist_umar.json:umar_return_1:4
 msgid "Matpat told me that Defy and his men left Sullengard."
-msgstr "Matpat mengatakan kepada saya bahwa Defy dan anak buahnya meninggalkan Sullengard."
+msgstr ""
+"Matpat bilang padaku bahwa Defy dan anak buahnya meninggalkan Sullengard."
 
 #: conversationlist_umar.json:umar_return_1:5
 msgid "Defy and his men have left Sullengard."
@@ -5473,15 +5627,16 @@ msgstr "Defy dan anak buahnya telah meninggalkan Sullengard."
 
 #: conversationlist_umar.json:umar_return_1:6
 msgid "Defy told me that the time to share will be delayed for no stated reason."
-msgstr "[OUTDATED]Kita seharusnya membicarakan sesuatu."
+msgstr ""
+"Defy bilang, jadwal bagi-bagi akan diundur tanpa memberi tahu alasannya."
 
 #: conversationlist_umar.json:umar_return_1:7
 msgid "What am I supposed to do in Sullengard again?"
-msgstr "Apa yang harusnya tadi aku lakukan di Sullengard?"
+msgstr "Apa yang harus ku lakukan tadi di Sullengard?"
 
 #: conversationlist_umar.json:umar_return_1:9
 msgid "Are you going to tell me about the key?"
-msgstr "Apakah Anda akan memberitahu saya tentang kunci?"
+msgstr "Apa kau akan memberitahuku tentang kuncinya?"
 
 #: conversationlist_umar.json:umar_return_1:10
 msgid "Crackshot is dead."
@@ -5489,37 +5644,37 @@ msgstr "Crackshot sudah mati."
 
 #: conversationlist_umar.json:umar_return_1:11
 msgid "What am I supposed to do again?"
-msgstr "Apa yang harus aku lakukan tadi?"
+msgstr "Apa yang harus ku lakukan tadi?"
 
 #: conversationlist_umar.json:umar_return_1:12
 msgid "What are your plans for the traitors?"
-msgstr "Apa rencana Anda untuk para pengkhianat?"
+msgstr "Apa rencanamu untuk para pengkhianat?"
 
 #: conversationlist_umar.json:umar_return_1:13
 msgid "Can you continue with what you were telling me about the traitors?"
-msgstr "Bisakah Anda melanjutkan apa yang Anda katakan tentang para pengkhianat?"
+msgstr "Bisa kau lanjutkan tentang para pengkhianat tadi?"
 
 #: conversationlist_umar.json:umar_return_1:14
 msgid "We are supposed to talk about something."
-msgstr "[OUTDATED]Aku telah membawa sanderanya."
+msgstr "Kita harus membicarakan sesuatu."
 
 #: conversationlist_umar.json:umar_return_1:15
 #: conversationlist_umar.json:umar_return_1:16
 msgid "We were supposed to talk about something, right?"
-msgstr "Kita seharusnya membicarakan sesuatu, bukan?"
+msgstr "Kita harus membicarakan sesuatu, bukan?"
 
 #: conversationlist_umar.json:umar_return_1:17
 msgid "I've finally finished the job."
-msgstr "Saya akhirnya menyelesaikan pekerjaan."
+msgstr "Akhirnya aku menyelesaikan pekerjaannya."
 
 #: conversationlist_umar.json:umar_return_1:18
 msgid "What am I suppossed to do again?"
-msgstr "Apa yang harus saya lakukan tadi?"
+msgstr "Apa yang harus kulakukan tadi?"
 
 #: conversationlist_umar.json:umar_return_1:19
 #: conversationlist_umar.json:umar_return_1:20
 msgid "What am I supposed to do with the noblewoman?"
-msgstr "Apa yang harus saya lakukan dengan wanita bangsawan itu?"
+msgstr "Apa yang harus kulakukan dengan wanita bangsawan itu?"
 
 #: conversationlist_umar.json:umar_return_1:21
 msgid "I have to talk to you about the noblewoman."
@@ -5533,16 +5688,16 @@ msgstr "Aku telah membawa sanderanya."
 #: conversationlist_umar.json:umar_return_1:24
 #: conversationlist_umar.json:umar_return_1:25
 msgid "Anything more about my new task?"
-msgstr "Ada lagi tentang tugas baruku?"
+msgstr "Ada info lagi tentang tugas baruku?"
 
 #: conversationlist_umar.json:umar_return_1:26
 msgid "Troublemaker sent me. I have finished the job."
-msgstr "Pengacau mengirimku. Aku telah menyelesaikan pekerjaan."
+msgstr "Si Pembuat Onar mengirimku. Aku telah menyelesaikan pekerjaan."
 
 #: conversationlist_umar.json:umar_return_1:28
 #: conversationlist_umar.json:umar_return_2:1
 msgid "Nice to meet you. Goodbye."
-msgstr "Senang bertemu denganmu. Selamat tinggal."
+msgstr "Senang bertemu denganmu. Sampai jumpa."
 
 #: conversationlist_umar.json:umar_return_2:0
 msgid "Can you repeat what you said about Andor?"
@@ -5598,11 +5753,16 @@ msgstr "Dia datang ke sini beberapa waktu yang lalu, menanyakan banyak pertanyaa
 
 #: conversationlist_umar.json:umar_6
 msgid "We in the Thieves' Guild really don't care much for the Shadow. Nor do we care for the royal guard."
-msgstr "Kami di Guild Pencuri benar-benar tidak terlalu peduli dengan Shadow. Kami juga tidak peduli dengan pengawal kerajaan."
+msgstr ""
+"Kami di Guild Pencuri tidak terlalu peduli dengan Sang Bayangan. Dan juga "
+"para penjaga kerajaan."
 
 #: conversationlist_umar.json:umar_7
 msgid "We try to be above their bickering and differences. They may fight as much as they want, but the Thieves' Guild will outlive them all."
-msgstr "Kami mencoba untuk mengatasi pertengkaran dan perbedaan mereka. Mereka mungkin bertarung sebanyak yang mereka inginkan, tetapi Persekutuan Pencuri akan hidup lebih lama dari mereka semua."
+msgstr ""
+"Kami mencoba tidak ikut campur urusan pertengkaran dan perbedaan mereka. "
+"Biarkan saja mereka bertengkar sesuka hati mereka, toh Guild Pencuri akan "
+"tetap ada setelah mereka lenyap."
 
 #: conversationlist_umar.json:umar_7:0
 msgid "What differences?"
@@ -5610,35 +5770,51 @@ msgstr "Perbedaan apa?"
 
 #: conversationlist_umar.json:umar_7:1
 msgid "Tell me more about what Andor asked for."
-msgstr "Ceritakan lebih banyak tentang apa yang ditanyakan Andor."
+msgstr "Ceritakan lebih banyak tentang pertanyaan Andor."
 
 #: conversationlist_umar.json:umar_conflict_1
 msgid "Where have you been the last couple of years? Don't you know of the brewing conflict?"
-msgstr "Kemana saja kau selama beberapa tahun terakhir? Apakah kau tidak tahu tentang konflik pembuatan bir?"
+msgstr ""
+"Kemana saja kau beberapa tahun terakhir ini? Apakah kau tidak tahu konflik "
+"yang sedang panas?"
 
 #: conversationlist_umar.json:umar_conflict_2
 msgid "The royal guard, led by Lord Geomyr in Feygard, are trying to ward off the recent increase in illegal activities, and are therefore imposing more restrictions on what is or is not allowed."
-msgstr "Penjaga kerajaan, yang dipimpin oleh Lord Geomyr di Feygard, mencoba untuk menangkal peningkatan aktivitas ilegal baru-baru ini, dan karena itu memberlakukan lebih banyak pembatasan pada apa yang diperbolehkan atau tidak diperbolehkan."
+msgstr ""
+"Penjaga kerajaan, yang dipimpin oleh Lord Geomyr di Feygard, mencoba untuk "
+"menangkal banyaknya aktivitas ilegal belakangan ini, oleh karena itu mereka "
+"membuat aturan ketat soal apa yang diperbolehkan atau tidak."
 
 #: conversationlist_umar.json:umar_conflict_3
 msgid "The priests of the Shadow, mostly seated in Nor City, are opposed to the new restrictions, saying that they limit the ways that they can please the Shadow."
-msgstr "Para pendeta Sang Bayangan, kebanyakan duduk di Nor City, menentang pembatasan baru, mengatakan bahwa mereka membatasi cara mereka untuk dapat menyenangkan Sang Bayangan."
+msgstr ""
+"Para pendeta Sang Bayangan, kebanyakan duduk di Kota Nor, menentang aturan "
+"baru itu, mengatakan bahwa mereka membatasi cara mereka menyenangkan Sang "
+"Bayangan."
 
 #: conversationlist_umar.json:umar_conflict_4
 msgid "In turn, the rumor is that the priests of the Shadow are planning to overthrow Lord Geomyr and his forces."
-msgstr "Sebagai gantinya, rumornya adalah bahwa para pendeta Sang Bayangan berencana untuk menggulingkan Lord Geomyr dan pasukannya."
+msgstr ""
+"Akibatnya, ada dugaan bahwa para pendeta Sang Bayangan berencana untuk "
+"menggulingkan Lord Geomyr dan pasukannya."
 
 #: conversationlist_umar.json:umar_conflict_5
 msgid "Also, the rumor is that the priests of the Shadow are still doing their rituals, despite the fact that most of the rituals have been banned."
-msgstr "Juga, rumornya adalah bahwa pendeta Sang Bayangan masih melakukan ritual mereka, meskipun faktanya sebagian besar ritual tersebut telah dilarang."
+msgstr ""
+"Dan juga, dugaan bahwa pendeta Sang Bayangan masih melakukan ritual mereka, "
+"meskipun faktanya sebagian besar ritual tersebut telah dilarang."
 
 #: conversationlist_umar.json:umar_conflict_6
 msgid "Lord Geomyr and his royal guard on the other hand, are still trying their best to rule in a way that they feel is fair."
-msgstr "Lord Geomyr dan pengawal kerajaannya di sisi lain, masih mencoba yang terbaik untuk memerintah dengan cara yang mereka rasa adil."
+msgstr ""
+"Lord Geomyr dan pengawal kerajaannya di sisi lain, masih mencoba semaksimal "
+"mungkin memerintah dengan cara yang menurut mereka adil."
 
 #: conversationlist_umar.json:umar_conflict_7
 msgid "We in the Thieves' Guild try not to get involved in the conflict. Our business is so far unaffected by all of this."
-msgstr "Kami di Guild Pencuri mencoba untuk tidak terlibat dalam konflik. Bisnis kami sejauh ini tidak terpengaruh oleh semua ini."
+msgstr ""
+"Kami di Guild Pencuri mencoba untuk tidak iku campur. Bisnis kami sejauh ini "
+"tidak terpengaruh karena mereka."
 
 #: conversationlist_umar.json:umar_conflict_7:0
 #: conversationlist_buceth.json:buceth_story_10:1
@@ -5659,11 +5835,16 @@ msgstr "Siapa Lodar?"
 
 #: conversationlist_umar.json:umar_andor_2
 msgid "Lodar? He is one of the famous potion makers from the old days. The Thieves' Guild has requested his services many times before. He can make all sorts of strong sleeping potions, healing potions and cures."
-msgstr "Lodar? Dia adalah salah satu pembuat ramuan terkenal dari masa lalu. Guild Pencuri telah meminta jasanya berkali-kali sebelumnya. Dia bisa membuat segala macam ramuan tidur yang kuat, ramuan penyembuh dan obat."
+msgstr ""
+"Lodar? Dia adalah salah satu pembuat ramuan terkenal dari masa lalu. Guild "
+"Pencuri seringkali juga meminta jasanya. Dia bisa membuat segala macam "
+"ramuan tidur yang ampuh, ramuan penyembuh dan obat-obatan."
 
 #: conversationlist_umar.json:umar_andor_3
 msgid "But his specialty is, of course, his poisons. His poison can harm even the largest of monsters."
-msgstr "Tapi spesialisasinya, tentu saja, racunnya. Racunnya dapat melukai monster terbesar sekalipun."
+msgstr ""
+"Tapi spesialisasinya, tentu saja, racunnya. Racun buatannya dapat melukai "
+"monster terbesar sekalipun."
 
 #: conversationlist_umar.json:umar_andor_3:0
 msgid "What would Andor want with him?"
@@ -5679,11 +5860,16 @@ msgstr "Jadi, dimana aku bisa menemukan si Lodar ini?"
 
 #: conversationlist_umar.json:umar_lodar_1
 msgid "I really shouldn't tell you. How to get to him is one of our closely guarded secrets in the guild. His hideaway is only reachable by our members."
-msgstr "Aku seharusnya tidak memberitahumu. Cara menemuinya adalah salah satu rahasia yang dijaga ketat di guild. Tempat persembunyiannya hanya bisa dijangkau oleh anggota kami."
+msgstr ""
+"Aku seharusnya tidak memberitahumu. Cara menemuinya adalah salah satu "
+"rahasia yang dijaga ketat di guild ini. Tempatnya hanya bisa dijangkau oleh "
+"anggota kami."
 
 #: conversationlist_umar.json:umar_lodar_2
 msgid "However, I heard that you helped us find the key of Luthor. This is something we have been trying to get for a long time."
-msgstr "Namun, aku mendengar bahwa kau membantu kami menemukan kunci Luthor. Ini adalah sesuatu yang telah kami coba dapatkan untuk waktu yang lama."
+msgstr ""
+"Namun, aku mendengar bahwa kau membantu kami menemukan kunci Luthor. Ini "
+"adalah sesuatu yang telah lama kita incar."
 
 #: conversationlist_umar.json:umar_lodar_3
 msgid "OK, I'll tell you how to get to Lodar's Hideaway. But you have to promise to keep it a secret. Do not tell anyone. Not even those that appear to be members of the Thieves' Guild."
@@ -5699,15 +5885,21 @@ msgstr "Aku tidak bisa menjaminnya, tapi akan kucoba."
 
 #: conversationlist_umar.json:umar_lodar_4
 msgid "Good. The thing is, you not only need to find the place itself, but you also need to utter the correct words to be allowed entry by the guardian."
-msgstr "Bagus. Masalahnya, kau tidak hanya perlu menemukan tempat itu sendiri, tetapi kau juga harus mengucapkan kata-kata yang benar agar diizinkan masuk oleh sang pelindung."
+msgstr ""
+"Bagus. Masalahnya, kau tidak hanya perlu menemukan tempatnya, tetapi kau "
+"juga harus mengucapkan kata-kata yang tepat agar diizinkan masuk oleh "
+"penjaganya."
 
 #: conversationlist_umar.json:umar_lodar_5
 msgid "The only one that understands the language of the guardian is the old man Ogam in Vilegard."
-msgstr "Satu-satunya yang mengerti bahasa sang pelindung adalah si tua Ogam di Vilegard."
+msgstr ""
+"Satu-satunya yang mengerti bahasa penjaganya adalah si tua Ogam di Vilegard."
 
 #: conversationlist_umar.json:umar_lodar_6
 msgid "You should travel to the town of Vilegard and find Ogam. He can help you get the right words to enter Lodar's Hideaway."
-msgstr "Kau harus pergi ke kota Vilegard dan menemukan Ogam. Dia dapat membantumu mendapatkan kata-kata yang tepat untuk masuk ke Persembunyian Lodar."
+msgstr ""
+"Kau harus pergi ke kota Vilegard dan mencari Ogam. Dia dapat membantumu "
+"mendapatkan kata-kata yang tepat untuk masuk ke Persembunyian Lodar."
 
 #: conversationlist_umar.json:umar_lodar_6:0
 msgid "How do I get to Vilegard?"
@@ -5724,18 +5916,20 @@ msgstr "Makasih, dah."
 
 #: conversationlist_umar.json:umar_vilegard_1
 msgid "You travel southeast from Fallhaven. When you reach the main road and the Foaming Flask tavern, head south. It's not very far to the southeast from here."
-msgstr "Kau pergi ke tenggara dari Fallhaven. Saat mencapai jalan utama dan kedai Foaming Flask, menuju ke selatan. Tidak terlalu jauh ke tenggara dari sini."
+msgstr ""
+"Pergi ke tenggara dari Fallhaven. Saat mencapai jalan utama dan kedai "
+"Foaming Flask, menuju ke selatan. Tidak terlalu jauh dari sini."
 
 #: conversationlist_kaori.json:kaori_1
 msgid "You are not welcome here. Please leave now."
-msgstr "Kau tidak diterima di sini. Tolong pergi sekarang."
+msgstr "Kau tidak diterima di sini. Pergilah sekarang."
 
 #: conversationlist_kaori.json:kaori_1:0
 #: conversationlist_kaori.json:kaori_default_1:1
 #: conversationlist_vilegard_villagers.json:vilegard_villager_2_0:0
 #: conversationlist_vilegard_villagers.json:vilegard_villager_5_0:0
 msgid "Why is everyone in Vilegard so afraid of outsiders?"
-msgstr "Kenapa semua orang di Vilegard sangat takut dengan orang luar?"
+msgstr "Kenapa semua orang Vilegard sangat takut dengan orang luar?"
 
 #: conversationlist_kaori.json:kaori_1:1
 msgid "Jolnor asked me to talk to you."
@@ -5839,7 +6033,7 @@ msgstr "Ya, aku membawakan ramuanmu."
 
 #: conversationlist_kaori.json:kaori_14
 msgid "Well, hurry up. I really need them soon."
-msgstr "Kalau begitu, cepatlah. Aku benar-benar membutuhkan mereka."
+msgstr "Kalau begitu, cepatlah. Aku benar-benar membutuhkannya."
 
 #: conversationlist_kaori.json:kaori_15
 msgid "Fine. Now please leave me."
@@ -5867,11 +6061,13 @@ msgstr "Oke, akan kulakukan."
 
 #: conversationlist_kaori.json:kaori_vilegard_2
 msgid "We have a history of people coming here and causing mischief. Over time, we have learned that keeping to ourselves works best."
-msgstr "Kami memiliki sejarah orang datang ke sini dan menyebabkan kerusakan. Seiring waktu, kami telah belajar bahwa menutup diri sendiri adalah yang terbaik."
+msgstr ""
+"Kami memiliki sejarah orang datang ke sini lalu menyebabkan kerusakan. "
+"Seiring waktu, kami telah belajar bahwa menutup diri lebih baik."
 
 #: conversationlist_kaori.json:kaori_vilegard_2:0
 msgid "That sounds like a good idea."
-msgstr "Kedengaran seperti ide bagus."
+msgstr "Kedengarannya ide bagus."
 
 #: conversationlist_kaori.json:kaori_vilegard_2:1
 msgid "That sounds wrong."
@@ -5879,7 +6075,7 @@ msgstr "Itu terdengar salah."
 
 #: conversationlist_kaori.json:kaori_vilegard_3
 msgid "Anyway, that's why we are so suspicious of outsiders."
-msgstr "Itulah sebabnya kami sangat curiga terhadap orang luar."
+msgstr "Intinya, Itulah sebabnya kami sangat curiga terhadap orang luar."
 
 #: conversationlist_kaori.json:kaori_vilegard_3:0
 #: conversationlist_brimhaven_2.json:oromir_behind_inn_20
@@ -5891,7 +6087,7 @@ msgstr "Aku mengerti."
 
 #: conversationlist_vilegard_villagers.json:vilegard_villager_1_0
 msgid "Hello. Who are you? You are not welcome here in Vilegard."
-msgstr "Halo. Siapa kau? Kau tidak diterima disini."
+msgstr "Halo. Siapa kau? Kau tidak diterima di Vilegard."
 
 #: conversationlist_vilegard_villagers.json:vilegard_villager_1_0:0
 msgid "Have you seen my brother, Andor, around here?"
@@ -5899,7 +6095,8 @@ msgstr "Apa kau pernah mellihat kakakku, Andor, di sekitar sini?"
 
 #: conversationlist_vilegard_villagers.json:vilegard_villager_1_2
 msgid "No, I have certainly not. Even if I had, why would I tell you?"
-msgstr "Tidak, tentu saja tidak. Bahkan jika benar, mengapa aku harus memberitahumu?"
+msgstr ""
+"Tidak, sama sekali. Bahkan jika melihatnya, mengapa aku harus memberitahumu?"
 
 #: conversationlist_vilegard_villagers.json:vilegard_villager_2_0
 msgid "By the Shadow, you are an outsider. We don't like outsiders here."
@@ -5931,7 +6128,9 @@ msgstr "Tidak, aku yakin. Orang luar selalu begitu."
 
 #: conversationlist_vilegard_villagers.json:vilegard_villager_4_3
 msgid "Yes, I know. That's why we don't want your kind around here. You should leave Vilegard while you still can."
-msgstr "Ya, aku tahu. Itu sebabnya kami tidak mau kalian disini. Kau harus pergi selagi bisa."
+msgstr ""
+"Ya, aku tahu. Itu sebabnya kami tidak mau kalian disini. Pergilah dari "
+"Vilegard selagi bisa."
 
 #: conversationlist_vilegard_villagers.json:vilegard_villager_5_0
 msgid "Hello there outsider. You look lost, that's good. Now leave Vilegard while you can."
@@ -5944,7 +6143,9 @@ msgstr "Aku tidak percaya padamu. Kau harus menemui Jolnor di gereja jika mengin
 
 #: conversationlist_vilegard_villagers.json:vilegard_villager_friend
 msgid "Hello there. I heard you helped us common folk here in Vilegard. Please stay for as long as you like friend."
-msgstr "Halo yang disana. Aku mendengar kau membantu kami rakyat biasa di sini di Vilegard. Silakan tinggal selama kau suka teman."
+msgstr ""
+"Halo yang disana. Aku mendengar kau membantu kami penduduk Vilegard. Silakan "
+"tinggal selama kau suka berteman."
 
 #: conversationlist_vilegard_villagers.json:vilegard_villager_friend:0
 msgid "Thank you. Have you seen my brother Andor around here?"
@@ -5970,19 +6171,25 @@ msgstr "Apa yang mau kau bicarakan?"
 #: conversationlist_vilegard_shops.json:vilegard_shop_notrust:0
 #: conversationlist_vilegard_shops.json:vilegard_shop_notrust_smith:0
 msgid "Why is everyone in Vilegard so suspicious of outsiders?"
-msgstr "Kenapa semuanya sangat curiga terhadap orang luar?"
+msgstr "Kenapa semua penduduk Vilegard sangat curiga terhadap orang luar?"
 
 #: conversationlist_vilegard_erttu.json:erttu_distrust_1
 msgid "Most of us that live here in Vilegard have a history of trusting people too much. People that have hurt us in the end."
-msgstr "Sebagian besar dari kami yang tinggal di sini di Vilegard memiliki sejarah terlalu mempercayai orang, yang telah menyakiti kita pada akhirnya."
+msgstr ""
+"Kebanyakan dari kami yang tinggal di sini di Vilegard dulunya terlalu "
+"mempercayai orang, yang ujung-ujungnya menyakiti kami."
 
 #: conversationlist_vilegard_erttu.json:erttu_distrust_2
 msgid "Now we start by being suspicious, and ask that outsiders coming here gain our trust by helping us first."
-msgstr "Sekarang kami mulai dengan curiga, dan meminta agar orang luar yang datang ke sini mendapatkan kepercayaan kami dengan membantu kami terlebih dahulu."
+msgstr ""
+"Sekarang kami mulai dengan curiga, dan meminta agar orang luar yang datang "
+"ke sini membantu kami agar mendapatkan kepercayaan dari kami."
 
 #: conversationlist_vilegard_erttu.json:erttu_distrust_3
 msgid "Also, other people generally look down upon us here in Vilegard for some reason. Especially those snobs from Feygard and the northern cities."
-msgstr "Juga, orang lain umumnya memandang rendah kami di Vilegard karena suatu alasan. Terutama orang-orang sok dari Feygard dan kota-kota utara."
+msgstr ""
+"Dan juga, orang lain umumnya merendahkan kami di Vilegard entah kenapa. "
+"Terutama orang-orang sok penting dari Feygard dan kota-kota utara."
 
 #: conversationlist_vilegard_erttu.json:erttu_distrust_3:0
 msgid "What else can you tell me about Vilegard?"
@@ -5994,7 +6201,9 @@ msgstr "Kami memiliki hampir semua yang kami butuhkan di sini, di Vilegard. Pusa
 
 #: conversationlist_vilegard_erttu.json:erttu_vilegard_2
 msgid "The chapel serves as our place of worship for the Shadow, and also as our place to gather when discussing larger issues in our village."
-msgstr "Gereja berfungsi sebagai tempat pemujaan kami untuk Sang Bayangan, dan juga sebagai tempat kami berkumpul ketika membahas masalah yang lebih besar di desa kami."
+msgstr ""
+"Gereja berfungsi sebagai tempat pemujaan kami untuk Sang Bayangan, dan juga "
+"sebagai tempat kami berkumpul ketika membahas masalah besar di desa kami."
 
 #: conversationlist_vilegard_erttu.json:erttu_vilegard_3
 msgid "Apart from the chapel, we have a tavern, a smith and an armorer."
@@ -6006,7 +6215,7 @@ msgstr "Terima kasih untuk informasinya. Ada lagi yang ingin kubicarakan."
 
 #: conversationlist_vilegard_erttu.json:erttu_vilegard_3:1
 msgid "Thanks for the information. Goodbye."
-msgstr "Terima kasih untuk informasinya. Dah."
+msgstr "Terima kasih untuk informasinya. Sampai jumpa."
 
 #: conversationlist_vilegard_erttu.json:erttu_vilegard_3:2
 msgid "Wow, nothing more? I wonder what I am doing in a puny village such as this one."
@@ -6027,23 +6236,27 @@ msgstr "Apa yang bisa kau ceritakan tentang dirimu?"
 #: conversationlist_vilegard_tavern.json:dunla_default:2
 #: conversationlist_vilegard_tavern.json:dunla_default:3
 msgid "I spoke to Tharwyn about who her beer 'distributor' is and she sent me to you."
-msgstr "Aku telah berbicara kepada Tharwyn tentang siapa 'distributor' bir miliknya dan dia mengirimku kepadamu."
+msgstr ""
+"Aku telah berbicara kepada Tharwyn tentang siapa 'distributor' bir miliknya "
+"dan dia menyuruhku menemuimu."
 
 #: conversationlist_vilegard_tavern.json:dunla_1
 msgid "Me? I am no one. You didn't even see me. You certainly did not talk to me."
-msgstr "Saya? Saia bukan siapa-siapa. Anda bahkan tidak melihat saya. Anda tentu tidak berbicara dengan saya."
+msgstr ""
+"Aku? Aku bukan siapa-siapa. Kau tidak melihatku. Kau tentu tidak berbicara "
+"denganku."
 
 #: conversationlist_vilegard_tavern.json:dunla_1:0
 msgid "Troublemaker sent me to get your report."
-msgstr "Pengacau mengirimku untuk mendapatkan laporanmu."
+msgstr "Si Pembuat Onar mengirimku untuk mendapatkan laporanmu."
 
 #: conversationlist_vilegard_tavern.json:tharwyn_1
 msgid "Hello there. I heard you helped Jolnor in the chapel. You have my thanks, friend."
-msgstr "Halo yang disana. Aku dengar kau membantu Jolnor di gereja. Terima kasih, teman."
+msgstr "Hai kamu. Kudengar kau membantu Jolnor di gereja. Terima kasih, teman."
 
 #: conversationlist_vilegard_tavern.json:tharwyn_2
 msgid "Have a seat anywhere. What can I get you?"
-msgstr "Silakan duduk di mana saja. Apa yang dapat aku bantu?"
+msgstr "Silakan duduk di mana saja. Apa yang dapat kubantu?"
 
 #: conversationlist_vilegard_tavern.json:tharwyn_2:0
 msgid "Show me what food you have available."
@@ -6051,24 +6264,28 @@ msgstr "Tunjukkan makanan yang tersedia."
 
 #: conversationlist_vilegard_tavern.json:tharwyn_2:2
 msgid "Let's get back to discussing your 'business agreement' with the 'distributors'."
-msgstr "Mari kembali mendiskusikan 'perjanjian bisnis' milikmu dengan 'distributor'."
+msgstr ""
+"Mari kembali mendiskusikan 'perjanjian bisnis' milikmu dengan para "
+"'distributor'."
 
 #: conversationlist_vilegard_tavern.json:vilegard_tavern_drunk_1
 msgid "Oh look, a lost kid. Here, have some mead kid."
-msgstr "Oh lihat, anak hilang. Ini, minum madu nak."
+msgstr "Oh lihat, ada anak hilang. Ini, minumlah mead nak."
 
 #: conversationlist_vilegard_tavern.json:vilegard_tavern_drunk_1:1
 msgid "Watch your tongue, drunkard."
-msgstr "Perhatikan lidahmu, pemabuk."
+msgstr "Jaga mulutmu, pemabuk."
 
 #: conversationlist_jolnor.json:jolnor_default
 #: conversationlist_jolnor.json:jolnor_default_2
 msgid "Walk with the Shadow my child."
-msgstr "Berjalan dengan Sang Bayangan nak."
+msgstr "Berjalanlah dengan Sang Bayangan nak."
 
 #: conversationlist_jolnor.json:jolnor_default:1
 msgid "I was told to talk to you about why everyone in Vilegard is suspicious of outsiders."
-msgstr "Aku diberitahu untuk berbicara dengan Bapa tentang mengapa semua orang di Vilegard mencurigai orang luar."
+msgstr ""
+"Aku diminta untuk berbicara dengan anda terkait penyebab semua orang di "
+"Vilegard mencurigai orang luar."
 
 #: conversationlist_jolnor.json:jolnor_default_2:0
 #: conversationlist_jolnor.json:jolnor_default_3:0
@@ -6077,17 +6294,19 @@ msgstr "Bisa ceritakan lagi tempat apa ini?"
 
 #: conversationlist_jolnor.json:jolnor_default_2:1
 msgid "Let's talk about those missions for gaining trust that you talked about earlier."
-msgstr "Mari kita bicara tentang misi untuk mendapatkan kepercayaan yang kau bicarakan sebelumnya."
+msgstr ""
+"Mari berbicara tentang misi untuk mendapatkan kepercayaan yang kau bicarakan "
+"sebelumnya."
 
 #: conversationlist_jolnor.json:jolnor_default_2:2
 #: conversationlist_jolnor.json:jolnor_default_3:1
 #: conversationlist_jolnor.json:jolnor_chapel_1:1
 msgid "I require healing. Can I see what items you have available?"
-msgstr "Aku butuh pengobatan. Bisa aku lihat barang apa yang tersedia?"
+msgstr "Aku butuh pengobatan. Bisa kulihat barang apa yang tersedia?"
 
 #: conversationlist_jolnor.json:jolnor_default_3
 msgid "Walk with the Shadow my friend."
-msgstr "Berjalan dengan Sang Bayangan temanku."
+msgstr "Berjalanlah dengan Sang Bayangan temanku."
 
 #: conversationlist_jolnor.json:jolnor_default_3:2
 #: conversationlist_talion.json:talion_0:3
@@ -6105,11 +6324,11 @@ msgstr "Ini adalah tempat Vilegard untuk memuja Sang Bayangan. Kami memuji Sang 
 
 #: conversationlist_jolnor.json:jolnor_chapel_1:2
 msgid "Whatever. Just show me your goods."
-msgstr "Bacot. Tunjukkan daganganmu."
+msgstr "Terserah. Tunjukkan daganganmu."
 
 #: conversationlist_jolnor.json:jolnor_shop_2
 msgid "I don't trust you enough yet to feel comfortable trading with you."
-msgstr "Aku belum cukup mempercayaimu untuk merasa nyaman berdagang denganmu."
+msgstr "Aku belum cukup mempercayaimu untuk berdagang denganmu."
 
 #: conversationlist_jolnor.json:jolnor_shop_2:0
 msgid "Why are you that suspicious?"
@@ -6118,7 +6337,7 @@ msgstr "Kenapa sangat curiga?"
 #: conversationlist_jolnor.json:jolnor_shop_2:1
 #: conversationlist_graveyard1.json:graveyardking_2:0
 msgid "Very well."
-msgstr "Oke."
+msgstr "Baiklah."
 
 #: conversationlist_jolnor.json:jolnor_suspicious_1
 msgid "Suspicious? No, I wouldn't call it suspicion. I would rather call it that we are careful nowadays."
@@ -6126,7 +6345,9 @@ msgstr "Curiga? Tidak, aku tidak akan menyebutnya kecurigaan. Aku lebih suka men
 
 #: conversationlist_jolnor.json:jolnor_suspicious_2
 msgid "In order to gain the trust of the village, an outsider must prove that they are not here to cause trouble."
-msgstr "Untuk mendapatkan kepercayaan desa, orang luar harus membuktikan bahwa mereka tidak ada di sini untuk menimbulkan masalah."
+msgstr ""
+"Untuk mendapatkan kepercayaan desa, orang luar harus membuktikan bahwa "
+"mereka tidak menimbulkan masalah di sini."
 
 #: conversationlist_jolnor.json:jolnor_suspicious_2:0
 msgid "Sounds like a good idea. There are a lot of selfish people out there."
@@ -6150,7 +6371,7 @@ msgstr "Bagaimana aku bisa mendapatkan kepercayaanmu?"
 
 #: conversationlist_jolnor.json:jolnor_suspicious_4:1
 msgid "You are right. You probably should not trust me."
-msgstr "Kau benar. Aku kriminal. Kau tidak boleh percaya padaku."
+msgstr "Kau benar. Kau jangan percaya padaku."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_return_2
 msgid "With your help earlier, you have already gained our trust."
@@ -6162,7 +6383,9 @@ msgstr "Seperti yang kubilang, kau harus membantu beberapa warga untuk mendapat 
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_1
 msgid "If you do us a favor, we might consider trusting you. There are three people I can think of that are influential here in Vilegard, that you should try to help."
-msgstr "Jika kau membantu, kami mungkin mempertimbangkan untuk mempercayaimu. Ada tiga orang yang menurutku berpengaruh di sini di Vilegard, yang harus kau coba bantu."
+msgstr ""
+"Jika kau membantu, kami mungkin mulai mempercayaimu. Ada tiga orang yang "
+"menurutku berpengaruh di sini di Vilegard, yang harus kau coba bantu."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_2
 msgid "First, there is Kaori. She lives up in the northern part of Vilegard. Ask her if she wants help with anything."
@@ -6174,11 +6397,15 @@ msgstr "Oke. Bicara pada Kaori."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_3
 msgid "Then there is Wrye. Wrye also lives up in the northern part of Vilegard. Many people here in Vilegard seek her advice on various things."
-msgstr "Lalu ada Wrye. Dia juga tinggal di bagian utara Vilegard. Banyak penduduk yang meminta sarannya untuk berbagai hal."
+msgstr ""
+"Lalu ada Wrye. Dia juga tinggal di bagian utara Vilegard. Banyak penduduk "
+"meminta sarannya untuk berbagai hal."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_4
 msgid "She recently lost her son in a tragic way. If you can gain her trust, you will have a strong ally here."
-msgstr "Dia baru-baru ini kehilangan putranya dengan cara yang tragis. Jika kau mendapat kepercayaannya, kau akan punya sekutu kuat disini."
+msgstr ""
+"Dia baru-baru ini kehilangan putranya dengan cara tragis. Jika kau mendapat "
+"kepercayaannya, kau akan punya sekutu kuat disini."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_4:0
 msgid "Talk to Wrye. Got it."
@@ -6186,7 +6413,7 @@ msgstr "Bicara pada Wrye. Oke."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_5
 msgid "And last but not least, I have a favor to ask of you as well."
-msgstr "Dan terakhir tapi tidak kalah pentingnya, Aku juga ingin meminta bantuanmu."
+msgstr "Dan terakhir, Aku juga ingin meminta bantuanmu."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_5:0
 msgid "What favor is that?"
@@ -6194,7 +6421,9 @@ msgstr "Bantuan apa?"
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_6
 msgid "North of Vilegard is a tavern called the Foaming Flask. In my opinion, this tavern is a guard station in guise for Feygard."
-msgstr "Utara Vilegard ada sebuah kedai bernama Foaming Flask. Menurut pendapatku, kedai ini adalah stasiun penjaga yang menyamar untuk Feygard."
+msgstr ""
+"Di utara Vilegard ada sebuah kedai bernama Foaming Flask. Menurutku, kedai "
+"ini adalah tempat penjaga menyamar untuk Feygard."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_7
 msgid "The tavern is almost always visited by the Feygard royal guard of Lord Geomyr."
@@ -6206,7 +6435,7 @@ msgstr "Mereka mungkin di sini untuk memata-matai kita, karena kita adalah pengi
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_8:0
 msgid "Yes, they seem like troublemakers all around."
-msgstr "Ya, mereka tampak seperti pembuat onar."
+msgstr "Ya, mereka tampak seperti para pembuat onar."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_8:1
 msgid "I am sure they have their reasons for doing what they do."
@@ -6214,16 +6443,16 @@ msgstr "Aku yakin mereka punya alasan tersendiri."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_9
 msgid "Right. Troublemakers indeed."
-msgstr "Benar. Pembuat onar."
+msgstr "Benar. Para pembuat onar."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_9:0
 #: conversationlist_jolnor.json:jolnor_gaintrust_10:0
 msgid "What do you want me to do?"
-msgstr "Apa yang Bapa ingin aku lakukan?"
+msgstr "Apa yang harus aku lakukan?"
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_10
 msgid "Yes, their reason is to make life miserable for us, I am sure."
-msgstr "Ya, alasan mereka adalah membuat hidup kami sengsara, aku yakin."
+msgstr "Ya, alasan mereka adalah membuat hidup kami sengsara, aku yakin itu."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_11
 msgid "My reports say that there is a guard stationed outside the tavern, to keep an eye on potential dangers."
@@ -6235,7 +6464,9 @@ msgstr "Aku ingin kau memastikan penjaga itu menghilang entah bagaimana caranya.
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_12:0
 msgid "I am not sure I should upset the Feygard patrol guards. This could really get me into trouble."
-msgstr "Aku tidak yakin aku harus mengganggu penjaga patroli Feygard. Ini benar-benar bisa membuatku mendapat masalah."
+msgstr ""
+"Aku tidak yakin kalau harus mengganggu penjaga patroli Feygard. Ini benar-"
+"benar bisa membuatku mendapat masalah."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_12:1
 msgid "For the Shadow, I will do as you ask."
@@ -6243,7 +6474,7 @@ msgstr "Demi Sang Bayangan, akan kulakukan."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_12:2
 msgid "OK, I hope this leads to some treasure in the end."
-msgstr "Oke, semoga ini mengarah pada harta."
+msgstr "Oke, semoga ini mengarah pada harta karun."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_13
 msgid "It's your choice. You can at least go check out the tavern and see if you find anything suspicious."
@@ -6261,15 +6492,21 @@ msgstr "Bagus. Lapor padaku kalau sudah selesai."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_15
 msgid "So, in order to gain our trust here in Vilegard, I would suggest you help Kaori, Wrye and me."
-msgstr "Jadi, untuk mendapatkan kepercayaan kami di sini di Vilegard, aku sarankan kau membantu Kaori, Wrye dan aku."
+msgstr ""
+"Jadi, untuk mendapatkan kepercayaan kami di sini di Vilegard, aku sarankan "
+"kau membantu Kaori, Wrye dan diriku."
 
 #: conversationlist_jolnor.json:jolnor_gaintrust_15:0
 msgid "Thank you for the information. I will be back when I have something to report."
-msgstr "Terima kasih untuk informasinya. Aku akan kembali ketika memiliki sesuatu untuk dilaporkan."
+msgstr ""
+"Terima kasih untuk informasinya. Aku akan kembali ketika ada sesuatu untuk "
+"dilaporkan."
 
 #: conversationlist_jolnor.json:jolnor_quests_1
 msgid "I would suggest you help Kaori, Wrye and me to gain our trust."
-msgstr "Aku akan menyarankan kau membantu Kaori, Wrye dan aku untuk mendapatkan kepercayaan kami."
+msgstr ""
+"Aku menyarankanmu membantu Kaori, Wrye dan diriku untuk mendapatkan "
+"kepercayaan kami."
 
 #: conversationlist_jolnor.json:jolnor_quests_1:0
 msgid "About that guard outside the Foaming Flask tavern..."
@@ -6311,7 +6548,7 @@ msgstr "Belum, aku masih mengerjakannya."
 
 #: conversationlist_jolnor.json:jolnor_guard_completed
 msgid "Yes, you dealt with him earlier. Thank you for your help."
-msgstr "Ya, kau mengurusnya sebelumnya. Terima kasih untuk bantuannya."
+msgstr "Ya, kau mengurusnya tadi. Terima kasih untuk bantuannya."
 
 #: conversationlist_jolnor.json:jolnor_guard_2
 msgid "Very good. Thank you for your help."
@@ -6335,7 +6572,8 @@ msgstr "Bagus. Kau membantu kami bertiga."
 
 #: conversationlist_jolnor.json:jolnor_quests_completed_2
 msgid "I suppose that shows some dedication, and that we are ready to trust you now."
-msgstr "Aku rasa itu menunjukkan dedikasi, dan kami siap mempercayaimu sekarang."
+msgstr ""
+"Kurasa itu menunjukkan dedikasimu, dan kami siap mempercayaimu sekarang."
 
 #: conversationlist_jolnor.json:jolnor_quests_completed_3
 msgid "You have our thanks, friend. You will always find shelter here in Vilegard. We welcome you into our village."
@@ -6356,7 +6594,9 @@ msgstr "Biasanya, aku berdagang dengan petualang di jalan utama menuju Kota Nor.
 
 #: conversationlist_alynndir.json:alynndir_3
 msgid "Oh, there is not much around here. Vilegard to the west, Brightport to the east and Sullengard to the south."
-msgstr "[OUTDATED]Oh, tidak banyak di sekitar sini. Vilegard di barat dan Brightport di timur."
+msgstr ""
+"Oh, tidak banyak kok di sekitar sini. Vilegard di barat, Brightport di "
+"timur, dan Sullengard di selatan."
 
 #: conversationlist_alynndir.json:alynndir_4
 msgid "Up north is just forest. But there are some strange things happening there."
@@ -6364,27 +6604,29 @@ msgstr "Di utara hanya hutan. Namun ada hal aneh yang terjadi di sana."
 
 #: conversationlist_alynndir.json:alynndir_5
 msgid "I have heard terrible screams coming from the forest to the northwest."
-msgstr "Aku telah mendengar jeritan mengerikan datang dari hutan di barat laut."
+msgstr "Aku mendengar jeritan mengerikan datang dari hutan di barat laut."
 
 #: conversationlist_alynndir.json:alynndir_6
 msgid "I really wonder what is up there."
-msgstr "Aku benar-benar penasaran apa yang ada di sana."
+msgstr "Aku benar-benar penasaran apa yang terjadi di sana."
 
 #: conversationlist_alynndir.json:alynndir_6:1
 msgid "You mentioned Sullengard. What can you tell me about it?"
-msgstr "Kamu menyebutkan Sullengard. Apa yang bisa kamu ceritakan tentangnya?"
+msgstr "Kau menyebutkan Sullengard. Apa yang bisa kau ceritakan tentangnya?"
 
 #: conversationlist_vilegard_shops.json:vilegard_armorer_1
 msgid "Hello there. Please browse my selection of fine armors and protection."
-msgstr "Halo. Silahkan telusuri pilihan zirah dan perlindungan yang bagus ini."
+msgstr "Halo. Silahkan telusuri zirah dan perlindungan yang bagus ini."
 
 #: conversationlist_vilegard_shops.json:vilegard_armorer_1:0
 msgid "Let me see your list of wares."
-msgstr "Coba lihat."
+msgstr "Mari kita lihat."
 
 #: conversationlist_vilegard_shops.json:vilegard_smith_1
 msgid "Hello there. I heard you helped us here in Vilegard. What can I help you with?"
-msgstr "Halo yang disana. Aku dengar kau membantu kami di sini di Vilegard. Apa yang bisa kubantu?"
+msgstr ""
+"Hai kamu. Aku dengar kau membantu kami di sini di Vilegard. Ada yang bisa "
+"kubantu?"
 
 #: conversationlist_vilegard_shops.json:vilegard_smith_1:0
 #: conversationlist_vilegard_shops.json:vilegard_shop_notrust:1
@@ -6400,7 +6642,9 @@ msgstr "Aku memiliki kiriman barang Feygard untukmu."
 #: conversationlist_vilegard_shops.json:vilegard_smith_1:2
 #: conversationlist_vilegard_shops.json:vilegard_shop_notrust_smith:3
 msgid "On the body of something called the Hira'zinn, I found this peculiar sword. Do you know anything about it?"
-msgstr "Di tubuh sesuatu yang disebut Hira'zinn, aku menemukan pedang aneh ini. Apakah kau tahu sesuatu tentang itu?"
+msgstr ""
+"Di tubuh makhluk yang disebut Hira'zinn, aku menemukan pedang aneh ini. "
+"Apakah kau tahu sesuatu tentang itu?"
 
 #: conversationlist_vilegard_shops.json:vilegard_shop_notrust
 #: conversationlist_vilegard_shops.json:vilegard_shop_notrust_smith
@@ -6413,28 +6657,28 @@ msgstr "Keyakinan. Kekuatan. Perjuangan."
 
 #: conversationlist_ogam.json:ogam_1:1
 msgid "I was told to see you."
-msgstr "Aku disuruh menemuimu."
+msgstr "Aku diminta menemuimu."
 
 #: conversationlist_ogam.json:ogam_2
 msgid "Backwards is the burden high and low."
-msgstr "Mundur adalah beban tinggi dan rendah."
+msgstr "Beban yang ditanggung oleh semua kalangan."
 
 #: conversationlist_ogam.json:ogam_2:2
 msgid "Hello? Umar in the Fallhaven Thieves' Guild sent me to see you."
-msgstr "Halo? Umar di Guild Pencuri Fallhaven mengirimku."
+msgstr "Halo? Umar dari Guild Pencuri Fallhaven mengirimku."
 
 #: conversationlist_ogam.json:ogam_3
 #: conversationlist_ogam.json:ogam_7
 msgid "Hiding in the Shadow."
-msgstr "Sembunyi di dalam Sang Bayangan."
+msgstr "Bernaung di balik Sang Bayangan."
 
 #: conversationlist_ogam.json:ogam_4
 msgid "Two alike in body and mind."
-msgstr "Dua sama dalam tubuh dan pikiran."
+msgstr "Dua kemiripan dalam jiwa dan raga."
 
 #: conversationlist_ogam.json:ogam_4:0
 msgid "Are you going to make any sense?"
-msgstr "Apa kau akan masuk akal?"
+msgstr "Apa kau mulai kerasukan?"
 
 #: conversationlist_ogam.json:ogam_4:1
 #: conversationlist_blackwater_throdna.json:throdna_9:0
@@ -6454,25 +6698,25 @@ msgstr "Apa maksudnya?"
 
 #: conversationlist_ogam.json:ogam_5
 msgid "The lawful and the chaotic."
-msgstr "Yang halal dan yang kacau."
+msgstr "Yang Berhukum dan Yang Tak Beraturan."
 
 #: conversationlist_ogam.json:ogam_5:0
 #: conversationlist_ogam.json:ogam_7:2
 msgid "Hello? Do you know how I can reach Lodar's hideaway?"
-msgstr "Halo? Tahukah kau bagaimana aku bisa mencapai tempat persembunyian Lodar?"
+msgstr "Halo? Tahukah kau cara mencapai tempat persembunyian Lodar?"
 
 #: conversationlist_ogam.json:ogam_5:1
 #: conversationlist_duaina.json:duaina_8:1
 msgid "I don't understand."
-msgstr "Gak paham."
+msgstr "Aku tidak mengerti."
 
 #: conversationlist_ogam.json:ogam_lodar_1
 msgid "Lodar? Clear, tingling, hurt."
-msgstr "Lodar? Jelas, kesemutan, sakit."
+msgstr "Lodar? Jelas, menggigit, perih."
 
 #: conversationlist_ogam.json:ogam_6
 msgid "Yes. The true form. Behold."
-msgstr "Iya. Bentuk sebenarnya. Lihatlah."
+msgstr "Ya. Inilah wujud sejatinya. Saksikanlah."
 
 #: conversationlist_ogam.json:ogam_7:0
 msgid "The Shadow?"
@@ -6480,11 +6724,12 @@ msgstr "Sang Bayangan?"
 
 #: conversationlist_ogam.json:ogam_7:1
 msgid "Are you even listening to what I say?"
-msgstr "Apa kau bahkan mendengarku?"
+msgstr "Apa kau benar-benar mendengarku?"
 
 #: conversationlist_ogam.json:ogam_lodar_2
 msgid "Lodar, halfway between the Shadow and the light. Rocky formations."
-msgstr "Lodar, setengah jalan antara Bayangan dan Cahaya. Formasi berbatu."
+msgstr ""
+"Lodar, di antara Sang Bayangan dan Sang Cahaya. Formasi cadas dalam bebatuan."
 
 #: conversationlist_ogam.json:ogam_lodar_2:0
 msgid "OK, halfway between two places. Some rocks?"
@@ -6496,7 +6741,7 @@ msgstr "Uh. Bisa tolong ulangi?"
 
 #: conversationlist_ogam.json:ogam_lodar_3
 msgid "Guardian. Glow of the Shadow."
-msgstr "Penjaga. Cahaya Sang Bayangan."
+msgstr "Sang Penjaga. Cahaya Sang Bayangan."
 
 #: conversationlist_ogam.json:ogam_lodar_3:0
 msgid "Glow of the Shadow? Are those the words the guardian needs to hear?"
@@ -6508,7 +6753,7 @@ msgstr "'Cahaya Sang Bayangan'? Aku pernah dengar dari suatu tempat."
 
 #: conversationlist_ogam.json:ogam_lodar_4
 msgid "Turning. Twisting. Clear form."
-msgstr "Berbalik. Memutar. Bentuk yang jelas."
+msgstr "Berbalik. Berputar. Wujud yang jelas."
 
 #: conversationlist_ogam.json:ogam_lodar_4:0
 #: conversationlist_sullengard.json:torilo_beer_pay:0
@@ -6537,11 +6782,11 @@ msgstr "Oh ini? Ini seharusnya sup anklebiter. Perlu lebih banyak bumbu, kurasa.
 
 #: conversationlist_foamingflask.json:ff_cook_2:0
 msgid "I look forward to trying it when it is done. Good luck cooking."
-msgstr "Aku berharap untuk mencobanya setelah selesai. Semoga berhasil memasak."
+msgstr "Aku berharap untuk mencicipinya setelah matang. Semoga berhasil."
 
 #: conversationlist_foamingflask.json:ff_cook_2:1
 msgid "Yuck, that sounds awful. Can you really eat those things? I'm grossed out, goodbye."
-msgstr "Pasti tidak enak. Dah."
+msgstr "Pasti tidak enak. Selamat tinggal."
 
 #: conversationlist_foamingflask.json:ff_cook_3
 msgid "No sorry, I don't have any food to sell. Go talk to Torilo over there if you want some drink or ready-made food."
@@ -6549,7 +6794,9 @@ msgstr "Tidak, maaf, aku tidak punya makanan untuk dijual. Bicaralah dengan Tori
 
 #: conversationlist_foamingflask.json:torilo_1
 msgid "Welcome to the Foaming Flask tavern. We welcome all travelers in here."
-msgstr "Selamat datang di kedai Foaming Flask. Kami menyambut semua pelancong di sini."
+msgstr ""
+"Selamat datang di kedai Foaming Flask. Kami menyambut semua petualang di "
+"sini."
 
 #: conversationlist_foamingflask.json:torilo_1:0
 msgid "Thank you. Are you the innkeeper here?"
@@ -6568,7 +6815,7 @@ msgstr "Hei, saya melihat semua tong bir di luar dan semua penjaga yang mabuk di
 
 #: conversationlist_foamingflask.json:torilo_2
 msgid "I am Torilo, the proprietor of this establishment. Please have a seat anywhere you like."
-msgstr "Aku Torilo, pemilik tempat ini. Silakan duduk di mana pun Kau suka."
+msgstr "Aku Torilo, pemilik tempat ini. Silakan duduk di mana pun kau suka."
 
 #: conversationlist_foamingflask.json:torilo_2:0
 #: conversationlist_foamingflask.json:torilo_default:0
@@ -6577,7 +6824,7 @@ msgstr "Boleh lihat makanan dan minuman yang ada?"
 
 #: conversationlist_foamingflask.json:torilo_2:1
 msgid "Do you have somewhere I can rest?"
-msgstr "Apakah Kau punya tempat aku bisa istirahat?"
+msgstr "Apa kau punya tempat untuk istirahat?"
 
 #: conversationlist_foamingflask.json:torilo_2:2
 #: conversationlist_foamingflask.json:torilo_default:1
