@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-18 23:41+0000\n"
+"PO-Revision-Date: 2025-05-19 19:07+0000\n"
 "Last-Translator: Hodex99 <anonymoushodex@proton.me>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/id/>\n"
@@ -3998,7 +3998,7 @@ msgstr ""
 #: conversationlist_flagstone.json:flagstone_sentry_20
 msgid "A guardian and undead prisoners you say? This is troubling news, since it means there is some larger force behind all this."
 msgstr ""
-"Seorang penjaga dan tahanan undead, katamu? Gawat, berarti ada suatu "
+"Seorang penjaga dan tahanan undead, kau bilang? Gawat, berarti ada suatu "
 "kekuatan yang lebih besar di balik ini semua."
 
 #: conversationlist_flagstone.json:flagstone_sentry_21
@@ -4352,7 +4352,7 @@ msgstr "Halo lagi! Aku akhirnya menemukan kapakmu!"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_14:1
 msgid "No I haven't. But I'm working on it."
-msgstr "Belum. Tapi aku akan berusaha."
+msgstr "Belum. Tapi sedang kuusahakan."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15
 msgid "Hello again my friend."
@@ -5273,7 +5273,7 @@ msgstr "Halo lagi temanku. Bagaimana misimu membuat kapten penjaga mabuk?"
 
 #: conversationlist_farrik.json:farrik_return_1:0
 msgid "I am not done yet, but I am working on it."
-msgstr "Aku belum selesai, tapi aku sedang berusaha."
+msgstr "Aku belum selesai, tapi akan kuusahakan."
 
 #: conversationlist_farrik.json:farrik_return_1:1
 msgid "It is done. He should be no problem during the night."
@@ -5547,7 +5547,7 @@ msgstr "Ya, mereka tidak akan menduganya."
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_30:1
 #: conversationlist_prim_arghest.json:arghest_return_2:0
 msgid "No, not yet. I'm working on it."
-msgstr "Belum pak."
+msgstr "Belum. Sedang kuusahakan."
 
 #: conversationlist_fallhaven_warden.json:fallhaven_warden_31
 msgid "Great. Thank you for your help. Here, take these coins as a token of our appreciation."
@@ -6542,7 +6542,7 @@ msgstr "Ya, dia sudah disingkirkan."
 
 #: conversationlist_jolnor.json:jolnor_guard_1:2
 msgid "No, but I am working on it."
-msgstr "Belum, aku masih mengerjakannya."
+msgstr "Belum, tapi sedang kuusahakan."
 
 #: conversationlist_jolnor.json:jolnor_guard_completed
 msgid "Yes, you dealt with him earlier. Thank you for your help."
@@ -8484,7 +8484,9 @@ msgstr "Terimakasih teman! Sekarang aku bisa mengisi kembali persediaanku."
 
 #: conversationlist_prim_arghest.json:arghest_return_5
 msgid "These bottles look excellent. Now I can last a while longer in here."
-msgstr "Botol-botol ini terlihat bagus. Sekarang aku bisa bertahan lebih lama di sini."
+msgstr ""
+"Botol-botol ini terlihat luar biasa. Sekarang aku bisa bertahan lebih lama "
+"di sini."
 
 #: conversationlist_prim_arghest.json:arghest_return_6
 msgid "Oh, and about the room in the inn - you are welcome to use it in any way you see fit. Quite a cozy place to rest if you ask me."
@@ -9009,7 +9011,7 @@ msgstr ""
 #: conversationlist_prim_tavern.json:birgil_3
 msgid "However, I do have a huge supply of mead that I stocked up on before the mine shaft collapsed."
 msgstr ""
-"Tapi, aku memiliki banyak persediaan mead yang kusimpan sebelum poros "
+"Namun, aku memiliki banyak persediaan mead yang kusimpan sebelum poros "
 "tambang itu runtuh."
 
 #: conversationlist_prim_tavern.json:birgil_3:0
@@ -9379,7 +9381,7 @@ msgstr "Bagus. Kupikir kita langsung masuk ke intinya saja."
 
 #: conversationlist_prim_guthbered.json:guthbered_26
 msgid "A man, from the Blackwater mountain settlement, you say?"
-msgstr "Seorang pria, dari pemukiman gunung Blackwater, katamu?"
+msgstr "Seorang pria, dari pemukiman gunung Blackwater, kau bilang?"
 
 #: conversationlist_prim_guthbered.json:guthbered_27
 msgid "Did he say anything about us here in Prim?"
@@ -9423,7 +9425,7 @@ msgstr ""
 #: conversationlist_prim_guthbered.json:guthbered_talkedto_harl_2
 msgid "I am sure they are behind these attacks. However, I do not have sufficient evidence to back up my statements in order to do anything about it."
 msgstr ""
-"Aku yakin mereka dalang di balik serangan ini. Tapi, aku tak punya cukup "
+"Aku yakin mereka dalang di balik serangan ini. Namun, aku tak punya cukup "
 "bukti untuk mendukung pernyataanku."
 
 #: conversationlist_prim_guthbered.json:guthbered_talkedto_harl_3
@@ -9580,7 +9582,7 @@ msgstr ""
 
 #: conversationlist_prim_guthbered.json:guthbered_lookforsigns_9
 msgid "Excellent. Return to me once you are done."
-msgstr "Sempurna. Kembalilah padaku setelah kau tuntas."
+msgstr "Luar biasa. Kembalilah padaku setelah kau tuntas."
 
 #: conversationlist_prim_guthbered.json:guthbered_lookforsigns_10
 msgid "No, not really. But for now, it looks like the only option we have."
@@ -10182,159 +10184,203 @@ msgstr "Saya berbicara dengan Guthbered di Prim. Mereka mengatakan Anda yang men
 
 #: conversationlist_blackwater_harlenn.json:harlenn_return_2:1
 msgid "What was that you said earlier about the monsters that are attacking your settlement?"
-msgstr "Apa yang Anda katakan tadi tentang monster yang menyerang pemukiman Anda?"
+msgstr "Apa tadi yang kau bilang tentang monster yang menyerang pemukimanmu?"
 
 #: conversationlist_blackwater_harlenn.json:harlenn_return_3
 msgid "Welcome back, traveller. Did you talk to that deceiving Guthbered down in Prim?"
-msgstr "Selamat datang kembali, pengembara. Apakah Anda sudah berbicara dengan Guthbered yang menipu di Prim?"
+msgstr ""
+"Selamat datang kembali, pengembara. Apa kau sudah berbicara dengan Guthbered "
+"si penipu itu di Prim?"
 
 #: conversationlist_blackwater_harlenn.json:harlenn_return_3:2
 msgid "Yes, I talked to him. He denies that they are behind any of the attacks."
-msgstr "Ya, saya sudah berbicara dengannya. Dia menyangkal bahwa mereka berada di balik semua serangan itu."
+msgstr ""
+"Ya, aku sudah berbicara dengannya. Dia menyangkal bahwa mereka dalang di "
+"balik semua serangan itu."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_workingforprim_1
 msgid "My scouts have given me a most interesting report. They say you are working for Prim."
-msgstr "Pengintai saya telah memberikan laporan yang sangat menarik. Mereka bilang kau bekerja untuk Prim."
+msgstr ""
+"Pengintaiku memberiku laporan menarik. Mereka bilang kau bekerja untuk Prim."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_workingforprim_2
 msgid "Of course we can't have that here. We can't have a spy in our midst. You should leave our settlement while you still can, traitor."
-msgstr "Tentu saja kita tidak boleh melakukan itu di sini. Kita tidak bisa memiliki mata-mata di tengah-tengah kita. Kau harus meninggalkan pemukiman kami selagi masih bisa, pengkhianat."
+msgstr ""
+"Tentu saja kita tidak bisa. Tak boleh ada mata-mata di sekitar sini. "
+"Pergilah selagi sempat, pengkhianat."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_completed
 msgid "Thank you, friend. Your help is greatly appreciated. Everyone in the Blackwater mountain settlement will want to talk to you now."
-msgstr "Terima kasih, teman. Bantuan Anda sangat kami hargai. Semua orang di pemukiman pegunungan Blackwater ingin berbicara dengan Anda sekarang."
+msgstr ""
+"Terima kasih, teman. Bantuanmu sangat kami hargai. Semua orang di pemukiman "
+"pegunungan Blackwater ingin berbicara denganmu sekarang."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_completed_1
 msgid "I'm sure the monster attacks will stop now when we kill the last few monsters that are outside the settlement."
-msgstr "Saya yakin serangan monster akan berhenti sekarang setelah kita membunuh beberapa monster terakhir yang berada di luar pemukiman."
+msgstr ""
+"Aku yakin serangan monster akan berhenti sekarang setelah kita membunuh "
+"beberapa monster terakhir yang berada di luar pemukiman."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_1
 msgid "He denies it?! Bah, that treacherous fool. I should have known that he wouldn't dare tell the truth."
-msgstr "Dia menyangkalnya?! Bah, orang bodoh yang berbahaya itu. Seharusnya aku tahu kalau dia tidak akan berani mengatakan yang sebenarnya."
+msgstr ""
+"Dia menyangkalnya?! Cuih, si bodoh pengkhianat itu. Seharusnya aku tahu dia "
+"takkan berani jujur."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_2
 msgid "I am still sure that they somehow are behind all these attacks on us. Who else could there be? There are no other settlements around here for quite a walk."
-msgstr "Saya masih yakin bahwa mereka berada di balik semua serangan terhadap kami. Siapa lagi yang bisa? Tidak ada pemukiman lain di sekitar sini yang bisa dijangkau dengan berjalan kaki."
+msgstr ""
+"Aku masih yakin mereka entah bagaimana menciptakan semua serangan ini. Siapa "
+"lagi? Tak ada pemukiman lain di dekat sini."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_3
 msgid "Besides, they have always been treacherous. No, of course they are behind the attacks."
-msgstr "Selain itu, mereka selalu berkhianat. Tidak, tentu saja mereka berada di balik serangan itu."
+msgstr ""
+"Lagipula, mereka selalu berkhianat. Tentu saja mereka pasti dalang di balik "
+"serangan itu."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_4
 msgid "OK, this leaves us with no choice. We will have to step this up to another level."
-msgstr "Oke, ini membuat kita tidak punya pilihan. Kita harus meningkatkannya ke tingkat yang lebih tinggi."
+msgstr ""
+"Oke, ini membuat kita tak punya pilihan lain. Kami harus naik ke tingkat "
+"berikutnya."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_5
 msgid "Are you sure you are up to it? You are not one of their spies are you? If you are working for them, then you should know that they are not to be trusted!"
-msgstr "Apakah Anda yakin Anda sanggup melakukannya? Anda bukan salah satu mata-mata mereka, bukan? Jika Anda bekerja untuk mereka, maka Anda harus tahu bahwa mereka tidak bisa dipercaya!"
+msgstr ""
+"Kau yakin sanggup melakukannya? Kau bukan mata-mata mereka kan? Jika kau "
+"bekerja untuk mereka, ketahuilah mereka tak bisa dipercaya!"
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_5:0
 msgid "I am ready for anything. I will help your settlement."
-msgstr "Saya siap untuk apa pun. Saya akan membantu penyelesaian Anda."
+msgstr "Aku siap untuk apapun. Aku akan bantu pemukimanmu."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_5:1
 msgid "Actually, now that you mention it..."
-msgstr "Sebenarnya, sekarang setelah Anda menyebutkannya..."
+msgstr "Sebenarnya, setelah kau menyebutkannya..."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_5:2
 msgid "Yes, I am working for Prim also. They seem like sensible people."
-msgstr "Ya, saya juga bekerja untuk Prim. Mereka tampak seperti orang-orang yang masuk akal."
+msgstr "Ya, aku juga bekerja untuk Prim. Mereka terlihat masuk akal."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_6
 msgid "What? Are you working for them or not?"
-msgstr "Apa? Apakah Anda bekerja untuk mereka atau tidak?"
+msgstr "Apa? Kau bekerja untuk mereka atau tidak?"
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_6:0
 msgid "No, never mind. I am ready to help your settlement."
-msgstr "Tidak, sudahlah. Saya siap membantu penyelesaian Anda."
+msgstr "Tidak, lupakan. Aku siap membantu pemukimanmu."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_6:1
 msgid "I was. But I have decided to help you instead."
-msgstr "Aku memang begitu. Tapi saya telah memutuskan untuk membantu Anda."
+msgstr "Dulu iya. Tapi aku sudah putuskan untuk membantu kalian saja."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_6:2
 msgid "Yes. I am helping them get rid of you people."
-msgstr "Ya, saya membantu mereka menyingkirkan kalian."
+msgstr "Ya. Aku bantu mereka menyingkirkan kalian."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_8
 msgid "We believe they are planning to attack us any day now. But we lack the proof that we would need to do anything about it."
-msgstr "Kami yakin mereka berencana untuk menyerang kami kapan saja. Namun kami tidak memiliki bukti yang cukup untuk melakukan sesuatu."
+msgstr ""
+"Kami percaya mereka berencana menyerang kami kapan saja. Tapi kami tak punya "
+"bukti untuk bertindak."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_9
 msgid "This is where I think an outsider like you might help."
-msgstr "Di sinilah saya pikir orang luar seperti Anda dapat membantu."
+msgstr "Di sinilah aku pikir orang luar sepertimu bisa membantu."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_10
 msgid "I want you to go investigate Prim for any signs that you might find of them preparing an attack on us."
-msgstr "Aku ingin kau menyelidiki Prim untuk mencari tanda-tanda yang mungkin kau temukan bahwa mereka sedang mempersiapkan serangan terhadap kita."
+msgstr ""
+"Aku ingin kau menyelidiki Prim untuk mencari tanda-tanda yang mungkin kau "
+"temukan bahwa mereka sedang mempersiapkan serangan pada kami."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_10:0
 msgid "Sure, sounds easy."
-msgstr "Tentu, kedengarannya mudah."
+msgstr "Tentu, mudah saja."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_talkedto_guth_11
 msgid "Good. Try not to be seen. You should go look for any clues around where that deceiving Guthbered stays."
-msgstr "Bagus. Usahakan untuk tidak terlihat. Anda harus mencari petunjuk di sekitar tempat tinggal Guthbered yang menipu itu."
+msgstr ""
+"Bagus. Usahakan untuk tidak terlihat. Cari petunjuk di sekitar tempat "
+"tinggal si Guthbered penipu itu."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_1
 msgid "Hello again. Did you find any clues in Prim that they are planning to attack us?"
-msgstr "Halo lagi. Apakah Anda menemukan petunjuk di Prim bahwa mereka berencana untuk menyerang kita?"
+msgstr ""
+"Halo lagi. Apa kau menemukan petunjuk di Prim bahwa mereka berencana untuk "
+"menyerang kami?"
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_1:1
 msgid "Yes. I found plans that they are recruiting mercenaries and will attack your settlement."
-msgstr "Ya, saya menemukan rencana bahwa mereka merekrut tentara bayaran dan akan menyerang pemukiman Anda."
+msgstr ""
+"Ya, aku menemukan rencana perekrutan tentara bayaran dan akan menyerang "
+"pemukimanmu."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_2
 msgid "Keep looking. I am sure they are planning something wicked."
-msgstr "Tetap mencari. Saya yakin mereka merencanakan sesuatu yang jahat."
+msgstr "Terus mencari. Aku yakin mereka merencanakan sesuatu yang jahat."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_3
 msgid "I knew it! I knew they were up to something."
-msgstr "Aku tahu itu! Saya tahu mereka sedang merencanakan sesuatu."
+msgstr "Sudah kuduga! Aku tahu mereka sedang merencanakan sesuatu."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_4
 msgid "Oh that lying pig Guthbered."
-msgstr "Oh, si babi pembohong Guthbered."
+msgstr "Oh, dasar babi pembohong si Guthbered."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_5
 msgid "Anyway, thank you for your help in finding this evidence."
-msgstr "Bagaimanapun, terima kasih atas bantuan Anda dalam menemukan bukti ini."
+msgstr "Ngomong-ngomong, terima kasih sudah menemukan bukti ini."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_6
 msgid "This calls for drastic measures. We have to act quickly before they can have time to complete their plan."
-msgstr "Hal ini membutuhkan tindakan drastis. Kita harus bertindak cepat sebelum mereka memiliki waktu untuk menyelesaikan rencana mereka."
+msgstr ""
+"Ini butuh tindakan drastis. Kami harus bertindak cepat sebelum mereka sempat "
+"menyelesaikan rencana mereka."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_7
 msgid "An old saying goes something like 'The only way to truly kill the Gorgon is by removing the head'. In this case, the head of those bastards down in Prim is that fellow Guthbered."
-msgstr "Pepatah lama mengatakan bahwa 'Satu-satunya cara untuk benar-benar membunuh Gorgon adalah dengan memenggal kepalanya'. Dalam hal ini, kepala dari para bajingan yang ada di Prim adalah si Guthbered."
+msgstr ""
+"Ada pepatah lama mengatakan bahwa 'Satu-satunya cara membunuh Gorgon adalah "
+"memenggal kepalanya'. Dalam hal ini, kepala dari para bajingan di Prim itu "
+"adalah si Guthbered."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_8
 msgid "We should do something about him. You have proven your worth so far. This will be your final assignment."
-msgstr "Kita harus melakukan sesuatu terhadapnya. Anda telah membuktikan kemampuan Anda sejauh ini. Ini akan menjadi tugas akhir Anda."
+msgstr ""
+"Kita harus melakukan sesuatu padanya. Kau sudah buktikan kemampuanmu sejauh "
+"ini. Ini akan menjadi tugas terakhirmu."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_9
 msgid "I want you to go ... deal ... with him. Guthbered. Preferably in the most painful and gruesome way you can think of."
-msgstr "Aku ingin kau pergi... berurusan... dengannya. Guthbered. Lebih baik dengan cara yang paling menyakitkan dan mengerikan yang bisa kau pikirkan."
+msgstr ""
+"Aku mau kamu pergi... urus... dia. Guthbered. Sebisa mungkin dengan cara "
+"paling menyakitkan dan mengerikan."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_9:2
 msgid "He is as good as dead."
-msgstr "Dia sama saja dengan mati."
+msgstr "Dia lebih baik mati."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_10
 msgid "You saw the plans yourself. They are going to attack us if we don't do something about them. Of course we have to kill him!"
-msgstr "Anda melihat sendiri rencananya. Mereka akan menyerang kita jika kita tidak melakukan sesuatu. Tentu saja kita harus membunuhnya!"
+msgstr ""
+"Kau melihat sendiri rencananya. Mereka akan menyerang kami kalau kami tidak "
+"melakukan sesuatu. Tentu saja kita harus membunuhnya!"
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_11
 msgid "Excellent. Return to me once the deed is done."
-msgstr "Bagus sekali. Kembalilah kepadaku setelah perbuatan itu selesai."
+msgstr "Luar biasa. Kembalilah kepadaku setelah tugas itu selesai."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_lookforsigns_12
 msgid "Fine. Do whatever you need to remove him, but I don't want to deal with their attacks anymore."
-msgstr "Baiklah. Lakukan apa pun yang Anda perlukan untuk menyingkirkannya, tetapi saya tidak ingin berurusan dengan serangan mereka lagi."
+msgstr ""
+"Baiklah. Lakukan apapun untuk menyingkirkannya, tetapi aku tak ingin "
+"mengurus serangan mereka lagi."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_sentbyprim_1
 msgid "Your expression tells me you have blood on your mind."
-msgstr "Ekspresi Anda menunjukkan bahwa Anda memiliki darah dalam pikiran Anda."
+msgstr "Ekspresimu menunjukkan bahwa kau memiliki darah dalam pikiranmu."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_sentbyprim_1:0
 msgid "I am sent by the people of Prim to stop you."
@@ -10346,24 +10392,31 @@ msgstr "Aku diutus oleh rakyat Prim untuk menghentikanmu. Namun, aku telah memut
 
 #: conversationlist_blackwater_harlenn.json:harlenn_sentbyprim_2
 msgid "Stop me?! Ha ha. Very well, let's see who is the one being stopped here."
-msgstr "Hentikan aku?! Ha ha. Baiklah, mari kita lihat siapa yang dihentikan di sini."
+msgstr ""
+"Menghentikanku?! Ha ha. Baiklah, mari kita lihat siapa yang dihentikan di "
+"sini."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_sentbyprim_4:0
 msgid "My proposal is that you leave this settlement and find a new home somewhere else."
-msgstr "Usulan saya adalah agar Anda meninggalkan pemukiman ini dan mencari rumah baru di tempat lain."
+msgstr ""
+"Usulku adalah kau meninggalkan pemukiman ini dan mencari rumah baru di "
+"tempat lain."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_sentbyprim_7
 msgid "OK, you have convinced me. I will leave this settlement for another to find my home. The survival of my people here is more important than me."
-msgstr "Baiklah, Anda telah meyakinkan saya. Saya akan meninggalkan pemukiman ini untuk menemukan rumah saya. Kelangsungan hidup orang-orangku di sini lebih penting daripada aku."
+msgstr ""
+"Baik, kau telah meyakinkanku. Aku akan meninggalkan pemukiman ini untuk "
+"mencari rumah baru. Kelangsungan hidup rakyatku di sini lebih penting "
+"daripada diriku."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_killguth_1
 msgid "Hello again. Have you gotten rid of that lying Guthbered down in Prim?"
-msgstr "Halo lagi. Sudahkah Anda menyingkirkan Guthbered yang terbaring di Prim?"
+msgstr "Halo lagi. Kau sudah menyingkirkan si Guthbered pembohong itu di Prim?"
 
 #: conversationlist_blackwater_harlenn.json:harlenn_killguth_1:0
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:2
 msgid "Not yet, but I am working on it."
-msgstr "Belum, tetapi saya sedang mengusahakannya."
+msgstr "Belum, tapi sedang kuusahakan."
 
 #: conversationlist_blackwater_harlenn.json:harlenn_killguth_2
 msgid "Ha ha! He is finally gone! Now we can rest comfortably in our settlement."
@@ -10371,35 +10424,40 @@ msgstr "Ha ha! Dia akhirnya pergi! Sekarang kami bisa beristirahat dengan nyaman
 
 #: conversationlist_blackwater_harlenn.json:harlenn_killguth_3
 msgid "They will no longer attack us now that their lying leader is gone!"
-msgstr "Mereka tidak akan lagi menyerang kita sekarang karena pemimpin mereka yang berbohong telah pergi!"
+msgstr ""
+"Mereka tidak akan menyerang kami lagi sekarang karena pemimpin pembohong "
+"mereka telah pergi!"
 
 #: conversationlist_blackwater_harlenn.json:harlenn_killguth_4
 msgid "Thank you friend. Here, have these items as a token of our appreciation for your help."
-msgstr "Terima kasih teman. Ini, ambillah barang-barang ini sebagai tanda terima kasih kami atas bantuan Anda."
+msgstr ""
+"Terima kasih teman. Ini, ambil barang-barang ini sebagai tanda penghargaan "
+"atas bantuanmu."
 
 #: conversationlist_blackwater_upper.json:blackwater_entranceguard
 msgid "Oh, a newcomer. Great. I hope you are here to help us with our problems."
-msgstr "Oh, pendatang baru. Bagus. Saya harap Anda ada di sini untuk membantu kami dengan masalah kami."
+msgstr ""
+"Oh, pendatang baru. Bagus. Kuharap kau kemari untuk membantu masalah kami."
 
 #: conversationlist_blackwater_upper.json:blackwater_guard1
 msgid "Stay out of trouble and trouble will stay away from you."
-msgstr "Jauhi masalah dan masalah akan menjauh dari Anda."
+msgstr "Jauhi masalah dan masalah akan menjauh darimu."
 
 #: conversationlist_blackwater_upper.json:blackwater_guest1
 msgid "Great place this, isn't it?"
-msgstr "Tempat yang luar biasa, bukan?"
+msgstr "Tempat yang bagus, bukan?"
 
 #: conversationlist_blackwater_upper.json:blackwater_guest2
 msgid "Teehee. Mazeg's potions make you feel all tingly and funny."
-msgstr "Teehee. Ramuan Mazeg membuat Anda merasa geli dan lucu."
+msgstr "Hehe. Ramuan Mazeg membuatmu terasa geli dan aneh."
 
 #: conversationlist_blackwater_upper.json:blackwater_cook
 msgid "Get out of my kitchen! Take a seat and I will get to you in time."
-msgstr "Keluar dari dapurku! Duduklah dan saya akan menghampiri Anda tepat waktu."
+msgstr "Keluar dari dapurku! Duduklah dan aku akan menghampirimu tepat waktu."
 
 #: conversationlist_blackwater_upper.json:keneg
 msgid "Banging. Wheezing."
-msgstr "Membentur. batuk."
+msgstr "Gedebuk. Sesak napas."
 
 #: conversationlist_blackwater_upper.json:keneg_1
 msgid "Have to get away!"
@@ -10415,16 +10473,18 @@ msgid ""
 "Have to hide."
 msgstr ""
 "[Tampak gugup]\n"
-"Harus bersembunyi."
+"Harus sembunyi."
 
 #: conversationlist_blackwater_upper.json:blackwater_notrust
 msgid "Regardless, I cannot help you. My services are only for residents of Blackwater mountain, and I don't trust you enough yet."
-msgstr "Apapun itu, aku tidak bisa membantumu. Layanan saya hanya untuk penduduk gunung Blackwater, dan saya belum cukup mempercayai Anda."
+msgstr ""
+"Bagaimanapun, aku tidak bisa membantumu. Layananku hanya untuk penduduk "
+"gunung Blackwater, dan aku belum cukup mempercayaimu."
 
 #: conversationlist_blackwater_upper.json:waeges_1
 #: conversationlist_blackwater_lower.json:iducus_1
 msgid "Welcome friend. What can I do for you?"
-msgstr "Selamat datang teman. Apa yang bisa kubantu?"
+msgstr "Selamat datang teman. Ada yang bisa kubantu?"
 
 #: conversationlist_blackwater_upper.json:waeges_1:0
 msgid "What weapons do you have for sale?"
@@ -10432,11 +10492,12 @@ msgstr "Senjata apa yang kau jual?"
 
 #: conversationlist_blackwater_upper.json:waeges_2
 msgid "Welcome traveller. I see you are looking at my fine selection of weapons."
-msgstr "Selamat datang penjelajah. Silahkan melihat-lihat pilihan senjata aku yang bagus."
+msgstr ""
+"Selamat datang pengembara. Silahkan melihat pilihan senjataku yang bagus."
 
 #: conversationlist_blackwater_upper.json:blackwater_fighter
 msgid "I have no time for you, kid. Have to practice my skills."
-msgstr "Aku tidak punya waktu untuk meladenimu."
+msgstr "Aku tidak punya waktu untukmu, nak. Aku harus berlatih."
 
 #: conversationlist_blackwater_upper.json:ungorm
 msgid "...but while the forces were withdrawing, the larger part of..."
@@ -10444,7 +10505,7 @@ msgstr "...tapi saat pasukan mundur, sebagian besar..."
 
 #: conversationlist_blackwater_upper.json:ungorm_1
 msgid "Oh. A young one. Hello. Please do not disturb my students while they are studying."
-msgstr "Oh. Seorang anak muda. Halo. Tolong jangan ganggu siswa aku saat mereka sedang belajar."
+msgstr "Oh. Anak muda. Halo. Tolong jangan ganggu muridku saat sedang belajar."
 
 #: conversationlist_blackwater_upper.json:blackwater_pupil
 msgid "Sorry, I can't talk right now."
@@ -10452,15 +10513,20 @@ msgstr "Maaf, aku tidak bisa bicara sekarang."
 
 #: conversationlist_blackwater_lower.json:laede_1
 msgid "You are welcome to rest here if you want. Pick any bed you wish."
-msgstr "Kamu boleh beristirahat di sini jika mau. Pilih tempat tidur yang kamu inginkan."
+msgstr ""
+"Kau boleh beristirahat di sini jika mau. Pilih tempat tidur manapun sesukamu."
 
 #: conversationlist_blackwater_lower.json:laede_2
 msgid "I should warn you though that the one in the corner over there has a rotten stench to it. Someone must have spilled something onto it."
-msgstr "Aku peringatkan bahwa yang di sudut sana memiliki bau busuk. Seseorang pasti menumpahkan sesuatu ke atasnya."
+msgstr ""
+"Perlu kuperingatkan, yang di sudut sana baunya busuk. Pasti ada yang "
+"menumpahkan sesuatu di atasnya."
 
 #: conversationlist_blackwater_lower.json:laede_3
 msgid "Welcome traveller. These beds are only for residents of Blackwater mountain."
-msgstr "Selamat datang penjelajah. Tempat tidur ini hanya untuk warga gunung Blackwater."
+msgstr ""
+"Selamat datang pengembara. Tempat tidur ini hanya untuk penduduk gunung "
+"Blackwater."
 
 #: conversationlist_blackwater_lower.json:iducus_1:0
 msgid "What items do you have for sale?"
@@ -10468,7 +10534,9 @@ msgstr "Barang apa saja yang kau jual?"
 
 #: conversationlist_blackwater_lower.json:iducus_2
 msgid "Welcome traveller. I see you are looking at my fine selection of wares."
-msgstr "Selamat datang penjelajah. Silahkan melihat-lihat barang dagangan disini."
+msgstr ""
+"Selamat datang pengembara. Silahkan melihat-lihat barang daganganku yang "
+"bagus."
 
 #: conversationlist_blackwater_lower.json:blackwater_priest
 msgid ""
@@ -10476,7 +10544,7 @@ msgid ""
 "No that's not it."
 msgstr ""
 "...Kazaul, penghancur harapan yang tumpah...\n"
-"Tidak bukan itu."
+"Tidak, bukan itu."
 
 #: conversationlist_blackwater_lower.json:blackwater_priest_1
 msgid ""
@@ -10484,7 +10552,7 @@ msgid ""
 "No that's not it either."
 msgstr ""
 "Tumpah... siksaan? \n"
-"Tidak bukan itu juga."
+"Tidak, bukan itu juga."
 
 #: conversationlist_blackwater_lower.json:blackwater_priest_2
 msgid "Argh, I can't seem to remember it."
@@ -10496,15 +10564,17 @@ msgstr "Apa yang kau lakukan?"
 
 #: conversationlist_blackwater_lower.json:blackwater_priest_3
 msgid "Oh, hello. Never mind. Nothing. Just trying to remember something. Don't concern yourself with that."
-msgstr "Halo. Lupakan. Bukan apa-apa. Hanya mencoba mengingat sesuatu. Jangan khawatirkan itu."
+msgstr ""
+"Oh, halo. Lupakan. Bukan apa-apa. Hanya mencoba mengingat sesuatu. Jangan "
+"pikirkan itu."
 
 #: conversationlist_blackwater_lower.json:blackwater_guard2
 msgid "Halt! You should not step any further."
-msgstr "Berhenti! Kamu tidak boleh melangkah lebih jauh."
+msgstr "Berhenti! Jangan melangkah lebih jauh."
 
 #: conversationlist_blackwater_lower.json:blackwater_guard2_1
 msgid "There is something over there. Do you see it?"
-msgstr "Ada sesuatu disana. Apa kamu melihatnya?"
+msgstr "Ada sesuatu disana. Apa kau melihatnya?"
 
 #: conversationlist_blackwater_lower.json:blackwater_guard2_2
 msgid "A mist? A Shadow? I'm sure I saw something moving."
@@ -10512,19 +10582,21 @@ msgstr "Kabut? Bayangan? Aku yakin melihat sesuatu yang bergerak."
 
 #: conversationlist_blackwater_lower.json:blackwater_guard2_3
 msgid "Screw this guard duty stuff. I am staying back here."
-msgstr "Persetan dengan tugas jaga ini. Aku tetap di sini."
+msgstr "Persetan dengan tugas jaga ini. Aku tetap di belakang sini."
 
 #: conversationlist_blackwater_lower.json:blackwater_guard2_4
 msgid "Good thing we blocked that entrance from that old cabin."
-msgstr "Untung kita memblokir pintu masuk dari kabin tua itu."
+msgstr "Untung kita sudah memblokir jalan masuk dari kabin tua itu."
 
 #: conversationlist_blackwater_lower.json:blackwater_bossguard_1
 msgid "[The guard gives you a patronizing look, but says nothing]"
-msgstr "[Penjaga itu memberimu pandangan merendahkan]"
+msgstr "[Penjaga itu memberimu pandangan merendahkan, namun diam saja]"
 
 #: conversationlist_blackwater_lower.json:blackwater_bossguard_2
 msgid "Hey, I'm staying out of your fight with the boss. Don't involve me in your schemes."
-msgstr "Hei, aku tidak ikut campur perkelahianmu dengan bos. Jangan libatkan aku dalam rencana kotormu."
+msgstr ""
+"Hei, aku tak mau ikut campur urusanmu dengan si bos. Jangan libatkan aku "
+"dalam rencana kotormu."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_1
 msgid "Only residents of Blackwater mountain or faction members are allowed in here."
@@ -10536,7 +10608,7 @@ msgstr "Lihat, aku memiliki izin tertulis untuk masuk."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_2
 msgid "I will let you through. Please go right ahead."
-msgstr "Silahkan lewat."
+msgstr "Aku akan membiarkanmu lewat. Silakan."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_2:1
 msgid "Yes, get out of my way."
@@ -10544,7 +10616,7 @@ msgstr "Ya, menyingkirlah."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_3
 msgid "A permit you say? Let me see that."
-msgstr "Coba kulihat."
+msgstr "Izin tertulis kau bilang? Coba kulihat."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_4
 msgid "Well, it has the signature and all. I guess it checks out all right."
@@ -10560,7 +10632,7 @@ msgstr "Hei, psst."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_10:1
 msgid "If you want to say something, speak loudly."
-msgstr "Kalau kamu mau mengatakan sesuatu, bicaralah yang keras."
+msgstr "Kalau kau mau mengatakan sesuatu, bicaralah yang keras."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_11
 msgid "Harlenn is a wise and strong leader, but unfortunately just as stubborn as Guthbered."
@@ -10576,7 +10648,7 @@ msgstr "Aku turut mengharapkannya. Boleh aku masuk ke dalam?"
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13
 msgid "OK. I trust you not to do any mischief."
-msgstr "Baik. Aku ingin kamu tidak berbuat macam-macam."
+msgstr "Oke. Aku percaya kau takkan berbuat ulah."
 
 #: conversationlist_blackwater_lower.json:blackwater_throneguard_13:1
 msgid "[Lie] Sure."
@@ -10584,11 +10656,13 @@ msgstr "[Bohong] Tentu."
 
 #: conversationlist_blackwater_herec.json:herec_1
 msgid "Welcome, traveller. You must be the one I heard about, that travelled up the mountain."
-msgstr "Selamat datang, penjelajah. Kamu pasti orang yang kudengar, yang melakukan perjalanan mendaki gunung."
+msgstr ""
+"Selamat datang, pengembara. Kau pasti orang yang kudengar, yang melakukan "
+"perjalanan mendaki gunung."
 
 #: conversationlist_blackwater_herec.json:herec_2
 msgid "Would you be willing to help me with a task?"
-msgstr "Apakah kamu bersedia membantuku melakukan sebuah tugas?"
+msgstr "Bisakah kau membantuku melakukan sebuah tugas?"
 
 #: conversationlist_blackwater_herec.json:herec_2:0
 msgid "Depends. What task?"
@@ -10596,47 +10670,59 @@ msgstr "Tergantung. Tugas apa?"
 
 #: conversationlist_blackwater_herec.json:herec_2:1
 msgid "Why would I want to help you?"
-msgstr "Kenapa juga aku harus membantumu?"
+msgstr "Mengapa aku mau membantumu?"
 
 #: conversationlist_blackwater_herec.json:herec_3
 msgid "Ah, a negotiator. I like that. If you help me, I will offer to trade the fruits of my labour with you. It should be most valuable to you."
-msgstr "Ah, seorang negosiator. Aku suka itu. Jika kamu mau membantu, aku akan menawarkan untuk membagi hasil kerja kerasku denganmu. Itu seharusnya cukup berharga bagimu."
+msgstr ""
+"Ah, seorang negosiator. Aku suka itu. Jika kamu mau membantu, aku akan "
+"tawarkan untuk membagi hasil jerih payahku denganmu. Itu pasti berharga "
+"bagimu."
 
 #: conversationlist_blackwater_herec.json:herec_3:0
 msgid "Fine. What task are we talking about here?"
-msgstr "Bagus. Tugas apa yang kita bicarakan di sini?"
+msgstr "Baik. Tugas apa?"
 
 #: conversationlist_blackwater_herec.json:herec_3:1
 msgid "No, how can I agree to something when I don't know what it is? I'm out."
-msgstr "Tidak, bagaimana mungkin aku bisa menyetujui sesuatu yang bahkan aku tidak tahu apa itu? Aku menolak."
+msgstr "Tidak, bagaimana bisa setuju kalau tidak tahu apa itu? Aku mundur."
 
 #: conversationlist_blackwater_herec.json:herec_4
 msgid "It is simple really. I am studying these wyrm creatures that lurk outside our settlement. I am trying to find what their strengths are, so that I can use it for myself."
-msgstr "Ini benar-benar sederhana. Aku mempelajari makhluk wyrm yang mengintai di luar pemukiman kami. Aku mencoba untuk menemukan apa kekuatan mereka, sehingga aku dapat menggunakannya untuk diriku sendiri."
+msgstr ""
+"Sebenarnya sederhana. Aku sedang mempelajari makhluk wyrm yang mengintai di "
+"luar pemukiman kami. Aku mencoba untuk mencari apa kekuatan mereka, sehingga "
+"dapat kugunakan untuk diriku sendiri."
 
 #: conversationlist_blackwater_herec.json:herec_5
 msgid "But my expertise is in the studies of them, and not in actually going head to head with those things."
-msgstr "Tetapi keahlianku adalah dalam mempelajarinya, dan tidak benar-benar berhadapan langsung dengan itu."
+msgstr ""
+"Tetapi keahlianku adalah mempelajari mereka, bukan berhadapan langsung "
+"dengan mereka."
 
 #: conversationlist_blackwater_herec.json:herec_6
 msgid "That's where you come in."
-msgstr "Disitulah kamu membantu."
+msgstr "Di situlah peranmu."
 
 #: conversationlist_blackwater_herec.json:herec_7
 msgid "I need you to gather some samples from them for me. I hear that some of the white wyrm beasts have sharper claws that can be extracted at the time of death."
-msgstr "Aku ingin kamu mengumpulkan beberapa sampel dari mereka. Aku mendengar bahwa beberapa wyrm putih memiliki cakar yang lebih tajam."
+msgstr ""
+"Aku ingin kau mengumpulkan beberapa sampel dari mereka. Kudengar wyrm putih "
+"punya cakar lebih tajam yang bisa diambil saat mati."
 
 #: conversationlist_blackwater_herec.json:herec_8
 msgid "If you were to bring me some samples of those claws from the white wyrms, that would really speed up my research further."
-msgstr "Jika kamu membawakan beberapa sampel cakar dari wyrm putih, itu akan sangat mempercepat penelitianku lebih lanjut."
+msgstr ""
+"Jika kamu membawakan beberapa sampel cakar dari wyrm putih itu, itu akan "
+"sangat mempercepat penelitianku lebih lanjut."
 
 #: conversationlist_blackwater_herec.json:herec_9
 msgid "Let's say, five of those claws should be enough."
-msgstr "Kira-kira lima cakar seharusnya cukup."
+msgstr "Katakanlah, lima cakar itu seharusnya cukup."
 
 #: conversationlist_blackwater_herec.json:herec_9:0
 msgid "OK, sounds easy enough. I'll get you your 5 white wyrm claws."
-msgstr "Baik, terdengar mudah. Aku akan membawaknmu lima cakar wyrm putih."
+msgstr "Baik, kedengarannya mudah. Aku akan membawaknmu 5 cakar wyrm putih."
 
 #: conversationlist_blackwater_herec.json:herec_9:1
 msgid "Sure. Those things are no match for me."
@@ -10644,15 +10730,18 @@ msgstr "Tentu. Mereka bukan tandinganku."
 
 #: conversationlist_blackwater_herec.json:herec_9:2
 msgid "No way I am going near those beasts again."
-msgstr "Tidak akan aku dekat-dekat mahluk itu lagi."
+msgstr "Tidak lagi aku mendekati mahluk-makhluk itu."
 
 #: conversationlist_blackwater_herec.json:herec_10
 msgid "Good. Thank you. Please hurry back so I can continue my research on these beasts."
-msgstr "Bagus. Terima kasih. Tolong cepat kembali supaya aku dapat melanjutkan penelitian tentang binatang buas ini."
+msgstr ""
+"Bagus. Terima kasih. Tolong cepatlah supaya aku bisa melanjutkan penelitian "
+"binatang buas ini."
 
 #: conversationlist_blackwater_herec.json:herec_11
 msgid "I assure you that my research is important. But it's your decision, and your loss."
-msgstr "Aku jamin penelitianku penting. Tapi itu keputusanmu, kamu yang rugi."
+msgstr ""
+"Aku jamin penelitianku penting. Tapi itu keputusanmu, dan kamu yang rugi."
 
 #: conversationlist_blackwater_herec.json:herec_q1
 msgid "Welcome back. How is the search going?"
@@ -10668,7 +10757,7 @@ msgstr "Aku sudah menemukannya."
 
 #: conversationlist_blackwater_herec.json:herec_q2
 msgid "Very well done my friend! These will be very valuable in my research."
-msgstr "Bagus sekali sobat! Ini akan sangat berguna untuk penelitianku."
+msgstr "Bagus sekali kawan! Ini akan sangat berguna untuk penelitianku."
 
 #: conversationlist_blackwater_herec.json:herec_q2_2
 msgid "Come back in just a minute and I will have something ready for you."
@@ -10676,44 +10765,55 @@ msgstr "Kembalilah nanti dan aku akan menyiapkan sesuatu untukmu."
 
 #: conversationlist_blackwater_herec.json:herec_q3
 msgid "Welcome back my friend! Good news. I have successfully distilled the fragments of the claws you brought earlier."
-msgstr "Selamat datang kembali sobat! Kabar baik. Aku telah berhasil menyaring pecahan cakar yang kamu bawa sebelumnya."
+msgstr ""
+"Selamat datang kembali kawan! Ada kabar baik. Aku berhasil menyaring "
+"serpihan cakar yang kau bawa tadi."
 
 #: conversationlist_blackwater_herec.json:herec_q4
 msgid "Now I am able to create effective potions that contain some essence of the white wyrms. These potions will be very useful in future dealings with these monsters."
-msgstr "Sekarang aku dapat membuat ramuan efektif yang mengandung esensi dari wyrm putih. Ramuan ini akan sangat berguna dalam berurusan dengan monster-monster ini di masa depan."
+msgstr ""
+"Sekarang aku bisa membuat ramuan efektif yang mengandung esens dari wyrm "
+"putih. Ramuan ini akan sangat berguna dalam menghadapi monster ini di masa "
+"depan."
 
 #: conversationlist_blackwater_herec.json:herec_q5
 msgid "Would you like to trade for some potions?"
-msgstr "Apakah kamu tertarik untuk membeli beberapa ramuan?"
+msgstr "Apa kau tertarik untuk membeli beberapa ramuan?"
 
 #: conversationlist_blackwater_herec.json:herec_q5:0
 #: conversationlist_laeroth.json:coin_collector_thief_coins_10
 msgid "Sure. Let's see what you have."
-msgstr "Tentu."
+msgstr "Tentu. Mari lihat apa yang kau punya."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_return_1
 msgid "Hello again, friend. Thank you for your assistance with my family grave earlier."
-msgstr "Halo lagi, teman. Terima kasih atas bantuan dengan kuburan keluargaku sebelumnya."
+msgstr ""
+"Halo lagi, teman. Terima kasih atas bantuan dengan makam keluargaku tadi."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_return_2
 msgid "Hello again. Have you investigated if anything has happened to my family grave?"
-msgstr "Halo lagi. Apakah kamu sudah menyelidiki jika sesuatu telah terjadi pada kuburan keluargaku?"
+msgstr "Halo lagi. Apa kau sudah memeriksa makam keluargaku?"
 
 #: conversationlist_prim_bjorgur.json:bjorgur_return_2:1
 msgid "[Lie] I went to check on the grave. Everything seems to be normal. You must be imagining things."
-msgstr "[Berbohong] Aku pergi untuk memeriksa kuburan. Semuanya tampak biasa saja. Kau pasti hanya membayangkan sesuatu."
+msgstr ""
+"[Bohong] Sudah kucek makamnya. Semuanya tampak normal. Kau pasti hanya "
+"berimajinasi."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_return_2:3
 msgid "Yes. I killed the intruder and restored the dagger to its original place."
-msgstr "Ya. Aku telah membunuh penyusup dan mengembalikan belati itu ke tempat asalnya."
+msgstr ""
+"Ya. Aku membunuh penyusup dan mengembalikan belati itu ke tempat asalnya."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_1
 msgid "Hello there. You wouldn't happen to know anything about a grave to the southwest of Prim would you?"
-msgstr "Halo yang disana. Kamu barangkali tahu sesuatu tentang kuburan di barat daya Prim?"
+msgstr ""
+"Halo yang disana. Barangkali kau tahu sesuatu tentang makam di barat daya "
+"Prim?"
 
 #: conversationlist_prim_bjorgur.json:bjorgur_1:0
 msgid "I have been there. I met someone on one of the lower levels."
-msgstr "Aku pernah kesana. Aku bertemu seseorang di salah satu tingkat yang lebih rendah."
+msgstr "Aku pernah kesana. Aku bertemu seseorang di tingkat bawah."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_1:1
 #: conversationlist_lodarfg.json:lodar_fg1_15:0
@@ -10730,51 +10830,66 @@ msgstr "Tidak, maaf."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_2
 msgid "You have been there?"
-msgstr "Kamu pernah kesana?"
+msgstr "Kau pernah ke sana?"
 
 #: conversationlist_prim_bjorgur.json:bjorgur_3
 msgid "My family grave is located in the tomb to the southwest of Prim right outside the Elm mine. I fear that something has disturbed the peace there."
-msgstr "Kuburan keluargaku terletak di makam di barat daya Prim tepat di luar tambang Elm. Aku khawatir ada sesuatu yang mengganggu kedamaian di sana."
+msgstr ""
+"Makam keluargaku terletak di makam kuno di barat daya Prim tepat di luar "
+"tambang Elm. Aku khawatir ada sesuatu yang mengganggu ketenangan di sana."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_4
 msgid "You see, my grandfather was very fond of a particular valuable dagger that our family used to possess. He wore it with him always."
-msgstr "Kamu tahu, kakekku sangat menyukai belati berharga yang dulu dimiliki keluarga kami. Dia selalu memakainya bersamanya."
+msgstr ""
+"Kau tahu, kakekku sangat menyayangi belati berharga milik keluarga kami "
+"dulu. Dia selalu membawanya."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_5
 msgid "The dagger would of course attract treasure hunters, but up until now we seem to have been spared of this."
-msgstr "Belati itu tentu saja akan menarik para pemburu harta karun, tapi sampai sekarang kita tampaknya telah terhindar dari hal ini."
+msgstr ""
+"Belati itu pasti menarik para pemburu harta karun, tapi sampai sekarang kita "
+"tampaknya kami terhindar dari hal ini."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_6
 msgid "Now I fear something has happened to the grave. I have not been sleeping well the last couple of nights, and I am sure this must be the cause."
-msgstr "Sekarang aku takut sesuatu telah terjadi pada kuburannya. Aku belum tidur nyenyak beberapa malam terakhir, dan aku yakin ini pasti penyebabnya."
+msgstr ""
+"Sekarang aku takut sesuatu terjadi pada makamnya. Aku tak bisa tidur nyenyak "
+"beberapa malam ini, dan aku yakin ini pasti penyebabnya."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_7
 msgid "You wouldn't happen to want to go check on the grave and see what is happening over there?"
-msgstr "Kamu barangkali tidak keberatan memeriksa kuburan itu dan memastikan keadaan disana?"
+msgstr ""
+"Kamu barangkali tidak keberatan memeriksa makamnya dan memastikan keadaan "
+"disana?"
 
 #: conversationlist_prim_bjorgur.json:bjorgur_7:0
 msgid "Sure. I will go check on your parents grave."
-msgstr "Tentu. Aku akan memeriksa kuburan keluargamu."
+msgstr "Tentu. Aku akan memeriksa makam keluargamu."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_7:1
 msgid "A treasure you say? I'm interested."
-msgstr "Harta karun katamu? Aku tertarik."
+msgstr "Harta karun kau bilang? Aku tertarik."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_7:2
 msgid "I have actually already been there and restored the dagger to its original place."
-msgstr "Aku kebetulan sudah kesana dan mengembalikan belati itu ke tempat asalnya."
+msgstr ""
+"Sebenarnya aku sudah kesana dan mengembalikan belati itu ke tempat asalnya."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_8
 msgid "Thank you. Please see if anything has happened to the grave, and what could be the cause of my nightly anxiety."
-msgstr "Terima kasih. Tolong lihat apakah ada sesuatu yang terjadi pada kuburannya, dan apa yang bisa menjadi penyebab kecemasanku."
+msgstr ""
+"Terima kasih. Tolong lihat apa ada sesuatu yang terjadi pada makamnya, dan "
+"apa penyebab kecemasanku ini."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_return_3
 msgid "Nothing you say? But I was sure something must have happened over there. Anyway. Thank you for checking it for me."
-msgstr "Baik-baik saja? Tapi aku yakin sesuatu pasti telah terjadi di sana. Bagaimanapun. Terima kasih telah memeriksanya."
+msgstr ""
+"Baik-baik saja kau bilang? Tapi aku yakin sesuatu pasti telah terjadi di "
+"sana. Bagaimanapun. Terima kasih telah memeriksanya."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_9
 msgid "Please hurry, and return here to tell me of your progress once you find out something."
-msgstr "Tolong cepat, dan kembali ke sini untuk memberi tahuku kalau kamu menemukan sesuatu."
+msgstr "Tolong cepat, dan beritahu padaku saat kau menemukan sesuatu."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_complete_1
 msgid "An intruder? Oh thank you for dealing with this matter."
@@ -10782,15 +10897,19 @@ msgstr "Seorang penyusup? Oh terima kasih telah menangani masalah ini."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_complete_2
 msgid "You say you restored the dagger to it's original place? Thank you. Now I might be able to rest during the nights ahead."
-msgstr "Kamu mengembalikan belati itu ke tempat aslinya? Terima kasih. Sekarang aku mungkin bisa beristirahat pada malam-malam mendatang."
+msgstr ""
+"Kau mengembalikan belati itu ke tempat asalnya? Terima kasih. Sekarang aku "
+"mungkin bisa beristirahat pada malam-malam mendatang."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_complete_3
 msgid "Thank you again. I'm afraid I can't give you anything except my gratitude. You should go see my relatives in Feygard if you get the chance to travel up there."
-msgstr "Terima kasih lagi. Aku takut aku tidak bisa memberikan apa-apa kecuali rasa terima kasihku. Kamu bisa pergi menemui kerabatku di Feygard jika kamu mendapat kesempatan untuk bepergian ke sana."
+msgstr ""
+"Terima kasih lagi. Aku takut aku tidak bisa memberikan apapun kecuali rasa "
+"terima kasihku. Kamu bisa temui kerabatku di Feygard kalau sempat ke sana."
 
 #: conversationlist_prim_fulus.json:bjorgur_bandit
 msgid "Hey you! You shouldn't be here. This dagger is mine. Get out!"
-msgstr "Hei kau! Kau tidak boleh di sini. Belati ini milikku. Keluar!"
+msgstr "Hei kau! Kau tak boleh ke sini. Belati ini milikku. Keluar!"
 
 #: conversationlist_prim_fulus.json:bjorgur_bandit:0
 #: conversationlist_aulowenn.json:aulowenn1:2
@@ -10799,7 +10918,7 @@ msgstr "Baik. Aku pergi."
 
 #: conversationlist_prim_fulus.json:bjorgur_bandit:1
 msgid "Hey, that's a nice looking dagger you have there."
-msgstr "Hei, belati yang bagus."
+msgstr "Hei, itu belati yang bagus."
 
 #: conversationlist_prim_fulus.json:sign_bwm35_1
 msgid "You see the remains of rusted equipment and rotten leather."
@@ -10811,21 +10930,27 @@ msgid ""
 "\n"
 "The lack of dust looks distinctly dagger-shaped. There must have been a dagger here earlier that someone removed."
 msgstr ""
-"Kamu melihat sisa-sisa peralatan berkarat dan kulit busuk. Sesuatu sepertinya baru saja dipindahkan dari sini karena satu tempat sama sekali tidak memiliki debu.\n"
+"Kamu melihat sisa-sisa peralatan berkarat dan kulit busuk. Ada yang baru "
+"saja diambil dari sini, sebab ada area yang sama sekali tak berdebu.\n"
 "\n"
-"Bagian yang tidak berdebu terlihat jelas berbentuk belati. Pasti ada belati di sini sebelumnya yang diambil seseorang."
+"Bagian tanpa debu itu pasti berbentuk belati. Pasti ada belati di sini tadi "
+"yang diambil seseorang."
 
 #: conversationlist_prim_fulus.json:sign_bwm35_2:0
 msgid "Place the dagger back into its original place."
-msgstr "Tempatkan belati kembali ke tempat asalnya."
+msgstr "Letakkan kembali belati itu ke tempat asalnya."
 
 #: conversationlist_prim_fulus.json:sign_bwm35_3
 msgid "You place the dagger back among the equipment, where it looks like it used to be."
-msgstr "Kamu menempatkan belati kembali di antara peralatan, di tempat yang seharusnya."
+msgstr ""
+"Kau meletakkan kembali belati itu di antara peralatan, di tempat yang "
+"sepertinya tempat asalnya."
 
 #: conversationlist_prim_fulus.json:fulus_return_1
 msgid "Hello again, friend. Thank you for your assistance in obtaining that dagger earlier."
-msgstr "Halo lagi, kawan. Terima kasih atas bantuanmu dalam mendapatkan belati itu sebelumnya."
+msgstr ""
+"Halo lagi, kawan. Terima kasih atas bantuanmu dalam mendapatkan belati itu "
+"tadi."
 
 #: conversationlist_prim_fulus.json:fulus_return_2
 msgid "Hello again. Have you been able to retrieve that dagger from Bjorgur's family grave yet?"
@@ -13302,7 +13427,9 @@ msgstr "OK, penawaran terakhir, 800 emas? Itu sebuah keberuntungan."
 
 #: conversationlist_crossroads_3.json:crossroads_backguard_8
 msgid "Hmm, 800 gold you say? Well, why didn't you say so from the start? Sure, that could work."
-msgstr "Hmm, 800 emas katamu? Nah, mengapa Anda tidak mengatakannya dari awal? Tentu, itu bisa saja berhasil."
+msgstr ""
+"Hmm, 800 emas kau bilang? Nah, mengapa Anda tidak mengatakannya dari awal? "
+"Tentu, itu bisa saja berhasil."
 
 #: conversationlist_crossroads_3.json:crossroads_backguard_9
 msgid "I should tell you however, that there is something in there that we won't dare go near. I just guard here to make sure it doesn't get out, and that no one goes in."
@@ -14105,7 +14232,9 @@ msgstr "Dia sudah meninggal."
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_4
 msgid "Dead you say? Hmm, not quite the way we do things in Feygard, but I guess this is an exceptional case."
-msgstr "Mati katamu? Hmm, tidak seperti yang kami lakukan di Feygard, tapi saya rasa ini adalah kasus yang luar biasa."
+msgstr ""
+"Mati kau bilang? Hmm, tidak seperti yang kami lakukan di Feygard, tapi saya "
+"rasa ini adalah kasus yang luar biasa."
 
 #: conversationlist_loneford_kuldan.json:kuldan_bc_5
 msgid "I always suspected that those savages from Nor City were behind this all along."
@@ -16358,7 +16487,9 @@ msgstr "Saya diberitahu untuk mencari Anda, dan Anda mungkin bisa membantu saya.
 
 #: conversationlist_talion_2.json:talion_infect_2
 msgid "Ah, my old friend Ulirfendor. It's good to hear that he is still alive. Wait! What was that? Rotworms you say, eh?"
-msgstr "Ah, teman lama saya Ulirfendor. Senang mendengar dia masih hidup. Tunggu! Apa itu tadi? Cacing, katamu, eh?"
+msgstr ""
+"Ah, teman lama saya Ulirfendor. Senang mendengar dia masih hidup. Tunggu! "
+"Apa itu tadi? Cacing, kau bilang, eh?"
 
 #: conversationlist_talion_2.json:talion_infect_3
 msgid "Nasty things, they are. I have seen people going mad from the stomach pains, and I have seen people being eaten alive from the inside."
@@ -23471,7 +23602,8 @@ msgid ""
 "Sigh. OK, whatever you say. We just need to fit these into there, and sharpen up this bit here.\n"
 "There. It should be almost like it once was."
 msgstr ""
-"Menghela napas. Baiklah, terserah apa katamu. Kita hanya perlu memasukkan ini ke dalam sana, dan mempertajam sedikit di sini.\n"
+"*Menghela napas* Baiklah, terserah apa katamu. Kita hanya perlu memasukkan "
+"ini ke dalam sana, dan mempertajam sedikit di sini.\n"
 "Sudah. Seharusnya hampir seperti dulu."
 
 #: conversationlist_fallhaven_potions.json:fallhaven_potions
