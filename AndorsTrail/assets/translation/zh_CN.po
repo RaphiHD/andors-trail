@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-21 06:32+0000\n"
-"Last-Translator: petter0011 <1409181305@qq.com>\n"
+"PO-Revision-Date: 2025-05-21 19:22+0000\n"
+"Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -35,7 +35,7 @@ msgstr "祝福"
 
 #: actorconditions_v069.json:poison_weak
 msgid "Weak Poison"
-msgstr "轻微中毒症状"
+msgstr "轻微中毒"
 
 #: actorconditions_v069.json:str
 msgid "Strength"
@@ -47,7 +47,7 @@ msgstr "暗影再生"
 
 #: actorconditions_v069_bwm.json:speed_minor
 msgid "Minor speed"
-msgstr "初始加速"
+msgstr "初级加速"
 
 #: actorconditions_v069_bwm.json:fatigue_minor
 msgid "Minor fatigue"
@@ -66766,51 +66766,52 @@ msgstr "他说他是收了达梅尼的钱的。塔里昂想要50000金币来帮�
 
 #: conversationlist_troubling_times.json:nanath_84
 msgid "That's a lot, but it was to be expected. It's good that he doesn't want more."
-msgstr ""
+msgstr "那可不是一笔小数目啊，不过这也是在意料之内的，往好里想至少他没想要更多。"
 
 #: conversationlist_troubling_times.json:nanath_84:0
 msgid "Well ... he also wants the following items: The Villain's ring, Troublemaker's ring, the Ring of backstabbing and the Tears of the Shadow potion."
-msgstr ""
+msgstr "呃……他还想要一些别的东西，分别是：恶棍之戒、捣蛋鬼之戒、反刺之戒以及暗影之泪"
+"药水。"
 
 #: conversationlist_troubling_times.json:nanath_86
 msgid "That's fine with me."
-msgstr ""
+msgstr "这我没问题。"
 
 #: conversationlist_troubling_times.json:nanath_86:0
 msgid "And - most important - Luthor's ring."
-msgstr ""
+msgstr "此外还有——最要紧的那枚——路德之戒。"
 
 #: conversationlist_troubling_times.json:nanath_90
 msgid "What?! He must be crazy!"
-msgstr ""
+msgstr "啥？！他疯了吧！"
 
 #: conversationlist_troubling_times.json:nanath_92
 msgid "Do you already have all of the items?"
-msgstr ""
+msgstr "你集齐那些物件了吗？"
 
 #: conversationlist_troubling_times.json:nanath_92:0
 #: conversationlist_troubling_times.json:tt_talion_72:1
 msgid "I don't have Troublemaker's ring yet."
-msgstr ""
+msgstr "目前我还没搞到捣蛋鬼之戒呢。"
 
 #: conversationlist_troubling_times.json:nanath_92:1
 #: conversationlist_troubling_times.json:tt_talion_72:2
 msgid "I don't have the Ring of backstabbing yet."
-msgstr ""
+msgstr "目前我还没搞到反刺之戒呢。"
 
 #: conversationlist_troubling_times.json:nanath_92:2
 #: conversationlist_troubling_times.json:tt_talion_72:3
 msgid "I don't have the Villain's ring yet."
-msgstr ""
+msgstr "目前我还没搞到恶棍之戒呢。"
 
 #: conversationlist_troubling_times.json:nanath_92:3
 #: conversationlist_troubling_times.json:tt_talion_72:4
 msgid "I don't have the Tears of the Shadow yet."
-msgstr ""
+msgstr "目前我还没搞到暗影之泪呢。"
 
 #: conversationlist_troubling_times.json:nanath_92:4
 msgid "I have already brought the 4 easier things."
-msgstr ""
+msgstr "我已经搞到那四件较容易到手的物品了。"
 
 #: conversationlist_troubling_times.json:nanath_94
 msgid "Well, then go and find it. Hurry now!"
