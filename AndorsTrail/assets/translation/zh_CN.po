@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-21 19:22+0000\n"
-"Last-Translator: xvy <2265088018@qq.com>\n"
+"PO-Revision-Date: 2025-05-23 12:01+0000\n"
+"Last-Translator: Ming Bi Si Ya <3777169421@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -13231,24 +13231,29 @@ msgid "What blessings can you provide?"
 msgstr "你能给我什么祝福吗？"
 
 #: conversationlist_talion.json:talion_0:4
+#, fuzzy
 msgid "Sorry, we were interrupted. You were just talking about the Striking Spectacle Shadow spell."
-msgstr ""
+msgstr "抱歉，我们被中断了。你刚才说的是Striking SpectacleShadow咒语。"
 
 #: conversationlist_talion.json:talion_0:5
+#, fuzzy
 msgid "Here I've brought you the things that you require for the dispelling."
-msgstr ""
+msgstr "在这里，我为您带来了驱散所需的东西。"
 
 #: conversationlist_talion.json:talion_0:6
+#, fuzzy
 msgid "Do you know the whereabouts of Sly Seraphina?"
-msgstr ""
+msgstr "你知道狡猾的塞拉菲娜的下落吗？"
 
 #: conversationlist_talion.json:talion_0:7
+#, fuzzy
 msgid "I've brought you the things you had required for dispelling."
-msgstr ""
+msgstr "我已经给你带来了驱散所需的东西"
 
 #: conversationlist_talion.json:talion_0:8
+#, fuzzy
 msgid "Haven't you forgotten something?"
-msgstr ""
+msgstr "你不是忘了什么吗？"
 
 #: conversationlist_talion.json:talion_1
 msgid "The people of Loneford are very keen on following the will of Feygard, whatever it may be."
@@ -57201,7 +57206,7 @@ msgstr "公会需要你。奥马尔……"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:3
 msgid "Hi Seraphina, you were away so quickly after you gave me Luthor's ring."
-msgstr ""
+msgstr "嗨，Seraphina，你在把Luthor的戒指给我后，这么快就走了。"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20
 msgid "Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold."
@@ -66814,22 +66819,24 @@ msgid "I have already brought the 4 easier things."
 msgstr "我已经搞到那四件较容易到手的物品了。"
 
 #: conversationlist_troubling_times.json:nanath_94
+#, fuzzy
 msgid "Well, then go and find it. Hurry now!"
-msgstr ""
+msgstr "好吧，那就去找找吧。快点！"
 
 #: conversationlist_troubling_times.json:nanath_100
 #: conversationlist_troubling_times.json:tt_talion_76
 msgid "Good, that's a start."
-msgstr ""
+msgstr "很好，这只是一个开始。"
 
 #: conversationlist_troubling_times.json:nanath_100:0
 msgid "I expect to be reimbursed of course."
-msgstr ""
+msgstr "我当然希望得到报销。"
 
 #: conversationlist_troubling_times.json:nanath_100:1
 #: conversationlist_troubling_times.json:tt_talion_76:1
+#, fuzzy
 msgid "I am glad you approve."
-msgstr ""
+msgstr "我很高兴你同意。"
 
 #: conversationlist_troubling_times.json:nanath_102
 msgid "Umar will refund you, but only if you succeed."
