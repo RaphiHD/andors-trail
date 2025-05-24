@@ -489,4 +489,10 @@
     <string name="loadsave_save_overwrite_confirmation">Ĉi tiu Konservludo enhavas malsaman ludanton-nomon (%1$s) ol via aktuala ludanto-nomo (%2$s). Ĉu vi certe volas skribi super ĉi tiun konservludon?</string>
     <string name="loadsave_import_overwrite_confirmation_title">Skribi super ekzistantan Konservludingon?</string>
     <string name="loadsave_import_file_exists_question">**\"Jam estas konservludo en la celita konservingo. Ĉu vi volas konservi la ekzistantan konservludon, skribi super ĝin per la importita konservludo, aŭ importi la konservludon al alia konservingo?\n\n%1$s\n\n%2$s\"**</string>
+    <string name="skill_shortdescription_shadow_bless">Rezisto kontraŭ ĉiuj tipoj de malsanoj</string>
+    <string name="skill_longdescription_shadow_bless">Malpliigas la ŝancon esti afliktita de ĉiuj tipoj de kondiĉoj je %1$d %%. Tio inkluzivas ĉiujn malsanojn kaŭzitajn de monstraj atakoj, kiel Ekz. Veneno, Konfuzo aŭ Laceco.</string>
+    <string name="inventory_movetop">Movi al la supro</string>
+    <string name="inventory_movebottom">Movi al la malsupro</string>
+    <string name="actorinfo_immune_criticals">Imuna al kritikaj trafaj</string>
+    <string name="iteminfo_displaytypes_quest">Misia objekto</string>
 </resources>
