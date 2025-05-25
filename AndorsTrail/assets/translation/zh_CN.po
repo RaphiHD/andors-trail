@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-23 12:01+0000\n"
-"Last-Translator: Ming Bi Si Ya <3777169421@qq.com>\n"
+"PO-Revision-Date: 2025-05-26 14:03+0000\n"
+"Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -13231,29 +13231,24 @@ msgid "What blessings can you provide?"
 msgstr "你能给我什么祝福吗？"
 
 #: conversationlist_talion.json:talion_0:4
-#, fuzzy
 msgid "Sorry, we were interrupted. You were just talking about the Striking Spectacle Shadow spell."
-msgstr "抱歉，我们被中断了。你刚才说的是Striking SpectacleShadow咒语。"
+msgstr "抱歉，我们之前聊一半被中断了，当时你有说到暗影显状咒什么的。"
 
 #: conversationlist_talion.json:talion_0:5
-#, fuzzy
 msgid "Here I've brought you the things that you require for the dispelling."
-msgstr "在这里，我为您带来了驱散所需的东西。"
+msgstr "你解咒所需的那些东西我都帮你带来了。"
 
 #: conversationlist_talion.json:talion_0:6
-#, fuzzy
 msgid "Do you know the whereabouts of Sly Seraphina?"
-msgstr "你知道狡猾的塞拉菲娜的下落吗？"
+msgstr "你知道黠·塞拉菲娜的位置吗？"
 
 #: conversationlist_talion.json:talion_0:7
-#, fuzzy
 msgid "I've brought you the things you had required for dispelling."
-msgstr "我已经给你带来了驱散所需的东西"
+msgstr "我已经帮你把你解咒所需的那些东西都带来过了。"
 
 #: conversationlist_talion.json:talion_0:8
-#, fuzzy
 msgid "Haven't you forgotten something?"
-msgstr "你不是忘了什么吗？"
+msgstr "你是不是忘了什么？"
 
 #: conversationlist_talion.json:talion_1
 msgid "The people of Loneford are very keen on following the will of Feygard, whatever it may be."
@@ -57206,7 +57201,7 @@ msgstr "公会需要你。奥马尔……"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:3
 msgid "Hi Seraphina, you were away so quickly after you gave me Luthor's ring."
-msgstr "嗨，Seraphina，你在把Luthor的戒指给我后，这么快就走了。"
+msgstr "嘿，塞拉菲娜，你给了我路德之戒后跑得可真快啊。"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20
 msgid "Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold."
@@ -66819,145 +66814,146 @@ msgid "I have already brought the 4 easier things."
 msgstr "我已经搞到那四件较容易到手的物品了。"
 
 #: conversationlist_troubling_times.json:nanath_94
-#, fuzzy
 msgid "Well, then go and find it. Hurry now!"
-msgstr "好吧，那就去找找吧。快点！"
+msgstr "嗯哼，那就出发去找吧，请尽快！"
 
 #: conversationlist_troubling_times.json:nanath_100
 #: conversationlist_troubling_times.json:tt_talion_76
 msgid "Good, that's a start."
-msgstr "很好，这只是一个开始。"
+msgstr "很好，这事情也算是开了个头。"
 
 #: conversationlist_troubling_times.json:nanath_100:0
 msgid "I expect to be reimbursed of course."
-msgstr "我当然希望得到报销。"
+msgstr "愿我在这上面的付出你能补偿给我。"
 
 #: conversationlist_troubling_times.json:nanath_100:1
 #: conversationlist_troubling_times.json:tt_talion_76:1
-#, fuzzy
 msgid "I am glad you approve."
-msgstr "我很高兴你同意。"
+msgstr "我很欣慰你觉得没毛病。"
 
 #: conversationlist_troubling_times.json:nanath_102
 msgid "Umar will refund you, but only if you succeed."
-msgstr ""
+msgstr "奥马尔会补偿你的，但大前提是在你成功以后。"
 
 #: conversationlist_troubling_times.json:nanath_110
 msgid "Have you found Luthor's ring yet?"
-msgstr ""
+msgstr "你找到路德之戒了吗？"
 
 #: conversationlist_troubling_times.json:nanath_110:0
 msgid "I am looking for it now."
-msgstr ""
+msgstr "我还在寻找中。"
 
 #: conversationlist_troubling_times.json:nanath_110:1
 msgid "I have no idea where to look any more."
-msgstr ""
+msgstr "对于还得去哪儿找我是完全没思路了。"
 
 #: conversationlist_troubling_times.json:nanath_120
 msgid "Looks like it ended up being kept somewhere dangerous."
-msgstr ""
+msgstr "似乎它被封存在了某个危险的地方。"
 
 #: conversationlist_troubling_times.json:nanath_122
 msgid "Then ... only one person may know: Fanamor's friend Sly Seraphina."
-msgstr ""
+msgstr "然后呢……世上或许知道那是在什么地方的人仅有一位：她就是法娜茉的朋友黠·塞拉菲娜"
+"。"
 
 #: conversationlist_troubling_times.json:nanath_122:0
 msgid "Sly Seraphina? Where can she be found?"
-msgstr ""
+msgstr "黠·塞拉菲娜？我可以在哪里找到她？"
 
 #: conversationlist_troubling_times.json:nanath_122:1
 msgid "On no! Not Seraphina! I refuse to talk to her."
-msgstr ""
+msgstr "哦不！怎么是塞拉菲娜啊！我拒绝去与她交涉。"
 
 #: conversationlist_troubling_times.json:nanath_130
 msgid "She's the thief near the Sutdover bridge."
-msgstr ""
+msgstr "她是一名盗贼，待在萨多弗桥附近。"
 
 #: conversationlist_troubling_times.json:nanath_130:0
 msgid "Sutdover bridge? So I'll look for her to the south."
-msgstr ""
+msgstr "萨多弗桥？这么说我得到南面去寻找她了。"
 
 #: conversationlist_troubling_times.json:nanath_132
 msgid "You must. For the Guild!"
-msgstr ""
+msgstr "你不得不去，这是为了公会！"
 
 #: conversationlist_troubling_times.json:nanath_132:0
 msgid "All right, I hate to, but for the greater good I'll go."
-msgstr ""
+msgstr "好吧，虽然这并非出自我愿，但为了更远大的利益我会去的。"
 
 #: conversationlist_troubling_times.json:nanath_136
 msgid "Then it's all settled. Go and find her, now."
-msgstr ""
+msgstr "那就说好了哈，现在就快去寻找她吧。"
 
 #: conversationlist_troubling_times.json:nanath_140
 msgid "Then go and find her, now."
-msgstr ""
+msgstr "现在就快去寻找她吧。"
 
 #: conversationlist_troubling_times.json:nanath_150
 msgid "How progresses the task? I hope you've done it? We're in a pickle here, kid. No time to dawdle."
-msgstr ""
+msgstr "任务进展得如何？我愿你事情干成了？当前我们这边的处境像是陷到坑里了一般，小鬼"
+"，现在可没时间瞎晃悠了。"
 
 #: conversationlist_troubling_times.json:nanath_150:0
 msgid "Dawdle! Do it yourself if you know everything better!"
-msgstr ""
+msgstr "瞎晃悠！你要是有所高见那就自个儿去干啊！"
 
 #: conversationlist_troubling_times.json:nanath_152
 msgid "Calm down. I'm just nervous. Did you make any progress?"
-msgstr ""
+msgstr "冷静点嘛，我刚刚只是有点神经质了。那请问事情有什么进展吗？"
 
 #: conversationlist_troubling_times.json:nanath_160
 msgid "Tell me."
-msgstr ""
+msgstr "告诉我吧。"
 
 #: conversationlist_troubling_times.json:nanath_160:0
 msgid "Seraphina doesn't trust me."
-msgstr ""
+msgstr "塞拉菲娜不信任我。"
 
 #: conversationlist_troubling_times.json:nanath_160:1
 msgid "Seraphina has disappeared. She's scared to unleash some monsters which she says Umar and her sealed up."
-msgstr ""
+msgstr "塞拉菲娜跑了，她畏惧于释放那些据她所说是她与奥马尔共同封住的怪物。"
 
 #: conversationlist_troubling_times.json:nanath_160:2
 msgid "About Seraphina ..."
-msgstr ""
+msgstr "关于塞拉菲娜……"
 
 #: conversationlist_troubling_times.json:nanath_170
 msgid "She must. Go to Umar. He's the only one she'll listen to."
-msgstr ""
+msgstr "想来也是。这你可以去找奥马尔，那伙计只听他的话。"
 
 #: conversationlist_troubling_times.json:nanath_180
 msgid "So, that's what Umar is hush-hush about."
-msgstr ""
+msgstr "这么说，这就是奥马尔所藏着掖着的那部分事情了吧。"
 
 #: conversationlist_troubling_times.json:nanath_180:0
 msgid "He could really be more talkative sometimes."
-msgstr ""
+msgstr "其实他有时候还是多透露点事情出来比较好。"
 
 #: conversationlist_troubling_times.json:nanath_181
 msgid "Anyway, we must find her. I know some of her usual hidings."
-msgstr ""
+msgstr "不管怎么说，我们现在必须要找到她，对此我知道一些她常躲的地方。"
 
 #: conversationlist_troubling_times.json:nanath_181a
 msgid "She prefers to be close to a town so she can easily stock up."
-msgstr ""
+msgstr "她更倾向于躲在某座镇子附近，如此她就能轻松补充物资。"
 
 #: conversationlist_troubling_times.json:nanath_181a:0
 #: conversationlist_troubling_times.json:nanath_183:0
 msgid "Makes sense."
-msgstr ""
+msgstr "有道理。"
 
 #: conversationlist_troubling_times.json:nanath_182
 msgid "Let me think: Fallhaven would be too near. Sullengard, Stoutford, Vilegard and Prim come to my mind. And Loneford or Brimhaven, of course."
-msgstr ""
+msgstr "让我想想：法尔海文过近了，而我想到的都有苏伦加德、斯托福德、维尔加德以及普里"
+"姆，当然还有隆福德和布林海文。"
 
 #: conversationlist_troubling_times.json:nanath_183
 msgid "So look for her near one of these towns."
-msgstr ""
+msgstr "所以请到这些镇子的周边去寻找她吧。"
 
 #: conversationlist_troubling_times.json:nanath_183:1
 msgid "Which towns did you say again?"
-msgstr ""
+msgstr "你都有提到哪些镇子来着？"
 
 #: conversationlist_troubling_times.json:nanath_183a
 msgid "Sometimes I could despair. It's so hard to find good workers these days."
@@ -77373,7 +77369,7 @@ msgstr "Laska Blizz"
 #: monsterlist_troubling_times.json:tt_seraphina4
 #: monsterlist_troubling_times.json:tt_seraphina5
 msgid "Sly Seraphina"
-msgstr "狡猾的塞拉菲娜"
+msgstr "黠·塞拉菲娜"
 
 #: monsterlist_mt_galmore.json:aidem_camp_greedy
 #: monsterlist_mt_galmore.json:aidem_base_greedy_aggressive
