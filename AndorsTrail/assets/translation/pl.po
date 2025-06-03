@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-30 16:09+0000\n"
+"PO-Revision-Date: 2025-06-04 02:04+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -60394,14 +60394,18 @@ msgstr ""
 #: conversationlist_laeroth.json:moriath_1
 msgid "No. I just told you that you are the first person I have seen here in a very long time. Getting to the old manor is difficult and dangerous, and there is nothing here. So why would anyone come here?"
 msgstr ""
+"Nie. Powiedziałem Ci przecież, że jesteś pierwszą osobą, którą spotkałem tu "
+"od bardzo dawna. Dotarcie do Starego Zamku jest bardzo trudne i "
+"niebezpieczne, nie ma tu także nic ciekawego. Więc po co ktoś miałby tu "
+"przychodzić?"
 
 #: conversationlist_laeroth.json:moriath_1:0
 msgid "So why are you here?"
-msgstr ""
+msgstr "Więc czemu tu jesteś?"
 
 #: conversationlist_laeroth.json:moriath_1:2
 msgid "I guess I'll be going then."
-msgstr ""
+msgstr "W takim razie chyba już sobie stąd pójdę."
 
 #: conversationlist_laeroth.json:moriath_caretaker_1
 msgid "I am Moriath, the caretaker for this manor."
@@ -60414,15 +60418,15 @@ msgstr "Czy możesz opowiedzieć mi coś więcej o tym miejscu?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_1:2
 msgid "If there is nobody else here, why do you stay?"
-msgstr ""
+msgstr "Skoro wszyscy stąd odeszli to dlaczego Ty zostałeś?"
 
 #: conversationlist_laeroth.json:moriath_history_1
 msgid "This is Laeroth manor. Or what is left of it, anyway."
-msgstr ""
+msgstr "To jest Zamek Laeroth. Albo przynajmniej to, co z niego pozostało."
 
 #: conversationlist_laeroth.json:moriath_history_2
 msgid "Laeroth manor? Yes, of course."
-msgstr ""
+msgstr "Zamek Laeroth? Ależ tak, oczywiście."
 
 #: conversationlist_laeroth.json:moriath_caretaker_2
 msgid ""
@@ -60430,34 +60434,47 @@ msgid ""
 "\n"
 "I cannot care for everything of course. I take care of the main house, the bridges, and tend to the graves as best I can. Everything else has gradually fallen to ruin."
 msgstr ""
+"Jestem związany przysięgą, że będę dbał o to miejsce. Jednakże, tak naprawdę "
+"to nigdy jej nie złożyłem. \n"
+"\n"
+"Oczywiście nie mogę zajmować się wszystkim. Dbam o główny dom, mosty a do "
+"tego pielęgnuję groby najlepiej jak tylko potrafię. Cała reszta stopniowo "
+"popada w ruinę."
 
 #: conversationlist_laeroth.json:moriath_caretaker_2:0
 msgid "How can you be bound by an oath you never gave?"
-msgstr ""
+msgstr "Jakim cudem możesz być związany przysięgą, której nigdy nie złożyłeś?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_3
 msgid "It is a matter of honor. The Lord of the manor saved my great-great grandfather from certain death many years ago. In return my great-great grandfather vowed that his family would always look after the manor."
 msgstr ""
+"Cóż, to bardziej kwestia honoru. Właściciel tego zamku uratował mojego "
+"prapradziadka przed pewną śmiercią wiele lat temu. W zamian prapradziadek "
+"ślubował, że jego rodzina zawsze będzie opiekować się tym miejscem."
 
 #: conversationlist_laeroth.json:moriath_caretaker_3:0
 msgid "He should not have made a vow that bound his family for generations!"
 msgstr ""
+"Nie powinien był składać przysięgi, która związała jego rodzinę na wieki!"
 
 #: conversationlist_laeroth.json:moriath_caretaker_3:1
 msgid "Well, that's too bad for you. I need to get going. I have to find my brother."
 msgstr ""
+"Cóż, w takim razie masz pecha. Ja muszę iść. Muszę odnaleźć mojego brata."
 
 #: conversationlist_laeroth.json:moriath_caretaker_4
 msgid "I do not disagree, but he did."
-msgstr ""
+msgstr "Nie zaprzeczę ale jakby nie było - zrobił to."
 
 #: conversationlist_laeroth.json:moriath_caretaker_4:0
 msgid "Is there something I can do to help?"
-msgstr ""
+msgstr "Czy mogę Ci w jakiś sposób pomóc?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_4:1
 msgid "Too bad. Look on the bright side though. You have an entire manor to yourself. Bye."
 msgstr ""
+"A to pech. Spójrz jednak na jasną stronę tej całej historii. Jakby nie było "
+"to masz cały zamek dla siebie. Do zobaczenia."
 
 #: conversationlist_laeroth.json:moriath_history_3
 msgid "Many years ago, this island was used as a refuge in times of danger by communities that lived on the lakeshore. There was little here other than a small fortification, but being an island, that was enough for protection."
