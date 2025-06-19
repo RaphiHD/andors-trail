@@ -422,7 +422,7 @@ public final class DebugInterface {
 				,new DebugButton("#10", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "laerothprison3", "south", 2, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "moesforest_03", "north1", 0, 0);
 			}
 		})
 
