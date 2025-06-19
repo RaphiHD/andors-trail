@@ -399,6 +399,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_cavewall_3, "map_cavewall_3", new Size(18, 6), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_cavewall_4, "map_cavewall_4", new Size(18, 6), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_cavewall_5, "map_cavewall_5", new Size(6, 6), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_cavewall_6, "map_cavewall_6", new Size(18, 6), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_chair_table_1, "map_chair_table_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_chair_table_2, "map_chair_table_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_crate_1, "map_crate_1", mapTileSize, sz1x1, mTileSize);
