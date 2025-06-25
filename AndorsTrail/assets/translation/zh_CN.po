@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-06-25 15:01+0000\n"
+"PO-Revision-Date: 2025-06-26 15:05+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -17775,27 +17775,30 @@ msgstr "你的这副作战手套看起来不错。只需花300金币，我就可
 
 #: conversationlist_rothses.json:rothses_imp_gloves_2
 msgid "Here you go. One pair of improved combat gloves."
-msgstr "给你。一副改造的战斗手套。"
+msgstr "拿好了，这副改进过的作战手套。"
 
 #: conversationlist_rothses.json:rothses_imp_gloves_w
 msgid "Those are some nice looking combat gloves you are wearing. Remove them from your hands and I might be able to help you improve them, if you want."
-msgstr "你所戴的战斗手套看起来很不错。如果你愿意，我也许能帮你改造它们。"
+msgstr "你现在佩戴着的这副作战手套看起来不错。如果你想要我帮你改造它的话，你可以先将"
+"它取下来。"
 
 #: conversationlist_rothses.json:rothses_imp_armour
 msgid "Now that is one fine looking chain mail you have there! For 3000 gold, I am able to improve it so that it not only blocks blows better, but also hinders your attacks less."
-msgstr "你的锁子甲看起来很不错!花3000金币，我可以改造它，使它不仅能更好地阻挡打击，还能减少对你的伤害。"
+msgstr "你的这件锁子甲看起来不错。只需花300金币，我就可以帮你改造它，不仅可以使它能更"
+"能承受打击一点，还可以让你免受些许的伤害。"
 
 #: conversationlist_rothses.json:rothses_imp_armour_2
 msgid "Here you go. One improved chain mail."
-msgstr "给你。一个改造的锁子甲。"
+msgstr "拿好了，这件改进过的锁子甲。"
 
 #: conversationlist_rothses.json:rothses_imp_armour_w
 msgid "Now that is one fine looking chain mail you are wearing. Remove it from your chest and I might be able to help you improve it, if you want."
-msgstr "你穿的是一件不错的锁子甲。如果你愿意，我也许能帮你改造它。"
+msgstr "你现在佩戴着的这件锁子甲看起来不错。如果你想要我帮你改造它的话，你可以先将它"
+"取下来。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager1
 msgid "I don't recognize you. You're not from Remgard, are you?"
-msgstr "我不认识你。你不是瑞姆加德人，是吗？"
+msgstr "我想我并不认识你，你应该不是瑞姆加德人吧？"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager1:0
 msgid "No, I am from a small settlement called Crossglen, and I am looking for my brother Andor."
@@ -17808,37 +17811,38 @@ msgstr "那好吧。祝你好运。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager2
 msgid "Don't get in my way, I'm trying to walk here, don't you see?"
-msgstr "别挡着我的路，我在向这边走，你没看到吗？"
+msgstr "别挡我的路啊，我在向这边走，你没看到吗？"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager2:0
 msgid "No problem, please go ahead."
-msgstr "没问题，请继续。"
+msgstr "没问题哈，那你前进吧。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager2:1
 msgid "No, you get out of *my* way!"
-msgstr "不，你别挡我的路!"
+msgstr "不对，是你挡了*我的*路！"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager2_2
 msgid "Hah! *snort*"
-msgstr "哈！ *哼哼*"
+msgstr "哈！ *哼*"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager3
 msgid "Have you seen my ring? I dropped it among these trees, I am sure. That was a pretty ring."
-msgstr "你看到我的戒指了吗？我肯定它掉在这些树丛间。那是一个漂亮的戒指。"
+msgstr "你有见过我的戒指吗？我肯定是把它掉在了这片树丛里了，那是一枚很漂亮的戒指。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager4
 #: conversationlist_brimhaven.json:brv_villager5
 msgid "Good day."
-msgstr "再会。"
+msgstr "祝你有美好的一天。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager5
 #: conversationlist_brimhaven.json:brv_villager4
 msgid "Excuse me, I have no time to talk."
-msgstr "对不起，我没有时间聊天。"
+msgstr "对不起，我现在没有时间来闲聊。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager6
 msgid "You are not from around here, are you? If you ever need a place to stay, visit the tavern. I hear that Kendelow has a room available for rent."
-msgstr "你不是这里的人，是吗？如果您需要住宿，请去小酒馆。我听说肯德洛有一间可供出租的房间。"
+msgstr "我想你不是本地人吧？如果你需要住宿的话可以去酒馆，我听说肯德洛现在有一间空着"
+"的客房。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager7
 msgid "I have heard strange noises from across the water of lake Laeroth. I wonder what lurks on the shores of the other side."
@@ -73517,7 +73521,7 @@ msgstr "脾气暴躁的维尔加德村民"
 
 #: monsterlist_v068_npcs.json:vilegard_citizen
 msgid "Vilegard citizen"
-msgstr "维尔加德市民"
+msgstr "维尔加德村民"
 
 #: monsterlist_v068_npcs.json:vilegard_resident
 msgid "Vilegard resident"
