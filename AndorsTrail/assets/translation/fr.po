@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-06-28 22:01+0000\n"
-"Last-Translator: Flo <florentin.services+weblate@protonmail.ch>\n"
+"PO-Revision-Date: 2025-06-30 12:01+0000\n"
+"Last-Translator: thaddeus002 <thaddeus.dupont@free.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/fr/>\n"
 "Language: fr\n"
@@ -1700,7 +1700,9 @@ msgstr "Jan a parlé d'un anneau ?"
 
 #: conversationlist_jan.json:irogotu3
 msgid "NO! You cannot have it. It's mine! And who are you anyway kid, coming down here to disturb me?!"
-msgstr "NON ! Tu ne l'auras pas. Il est à moi ! Qui es-tu donc gamin, à venir me déranger ainsi ? !"
+msgstr ""
+"NON ! Tu ne l'auras pas. Il est à moi ! Qui es-tu donc gamin, à venir me "
+"déranger ainsi ?!"
 
 #: conversationlist_jan.json:irogotu3:0
 msgid "I'm not a kid anymore! Now give me that ring!"
@@ -2971,7 +2973,7 @@ msgstr "Torilo m'a suggéré de demander à d'autres propriétaires de tavernes 
 
 #: conversationlist_fallhaven_tavern.json:bela:3
 msgid "Do you have strawberries?"
-msgstr ""
+msgstr "Avez-vous des fraises ?"
 
 #: conversationlist_fallhaven_tavern.json:bela_room_1
 msgid "A room will cost you only 10 gold."
@@ -3404,7 +3406,7 @@ msgstr "Il disait que mon sort allait à l'encontre de la volonté de l'Ombre."
 
 #: conversationlist_fallhaven_vacor.json:vacor_46
 msgid "Bah, the Shadow. What has it ever done for ME?!"
-msgstr "Bah, l'Ombre. Qu'a-t-elle jamais fait pour MOI ? !"
+msgstr "Bah, l'Ombre. Qu'a-t-elle jamais fait pour MOI ?!"
 
 #: conversationlist_fallhaven_vacor.json:vacor_47
 msgid "I shall one day cast my rift spell and we will be rid of the Shadow."
@@ -4678,7 +4680,7 @@ msgstr "Voler vous voulez dire ?"
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_4:1
 msgid "Isn't that stealing?"
-msgstr ""
+msgstr "Ceci n'est-il pas du vol ?"
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_5
 msgid "No no. I wouldn't call it stealing. It's more of a transfer of ownership. To me, that is."
@@ -4785,28 +4787,32 @@ msgid ""
 "A sign says 'Jail'\n"
 "The exit above is blocked though."
 msgstr ""
+"Un panneau indique \"Prison\"\n"
+"Mais la sortie vers le haut est bloquée."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2b
 msgid ""
 "A sign says 'Arcir'\n"
 "The exit above is blocked though."
 msgstr ""
+"Un panneau indique \"Arcir\"\n"
+"Mais la sortie vers le haut est bloquée."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2c
 msgid "Attention - the catacombs. Keep silent!"
-msgstr ""
+msgstr "Attention - les catacombes. Ne faites pas de bruit !"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3
 msgid "Looks like the tunnel isn't quite finished yet."
-msgstr ""
+msgstr "On dirait que le tunnel n'est pas encore terminé."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:0
 msgid "Typical Troublemaker - can't finish anything."
-msgstr ""
+msgstr "Typique du fauteur de troubles - il ne finit jamais rien."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:1
 msgid "So I have to go back the way I came."
-msgstr ""
+msgstr "Je dois donc repartir par où je suis venu."
 
 #: conversationlist_farrik.json:farrik_1
 msgid "Hello. I heard that you helped us find the key of Luthor. Good work, it will really come in handy."
@@ -7426,8 +7432,9 @@ msgid ""
 "East: Nor City\n"
 "West: Vilegard"
 msgstr ""
-"[OUTDATED]Est : Norville\n"
-"Ouest : Vilegard"
+"Nord : Jardin du miel de Leofric\n"
+"Est : Norville\n"
+"Ouest : Vilegard"
 
 #: conversationlist_maelveon.json:maelveon
 msgid "[You feel a tingling sensation in your body as the frightening figure begins to speak]"
@@ -10870,7 +10877,7 @@ msgstr "Avez-vous vu mon frère, Andor, dans les environs ? Il me ressemble."
 #: conversationlist_hadracor.json:hadracor_1:2
 #: conversationlist_hadracor.json:hadracor_complete_3:2
 msgid "Do you by any chance have some spare wood to make fences out of?"
-msgstr ""
+msgstr "Auriez-vous par hasard du bois de rechange pour faire des clôtures ?"
 
 #: conversationlist_hadracor.json:hadracor_1:3
 msgid "I'm $playername, running up and down Blackwater mountain for errands."
@@ -10999,10 +11006,12 @@ msgstr "Oui, j'ai tué cinq d'entre elles."
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:5
 msgid "No, but I wanted to ask if you have some spare wood to make fences out of."
 msgstr ""
+"Non, mais je voulais vous demander si vous avez du bois de rechange pour "
+"faire des clôtures."
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_1:6
 msgid "No, I'm too busy running up and down Blackwater mountain."
-msgstr ""
+msgstr "Non, je suis trop occupé à monter et descendre le mont Encreau."
 
 #: conversationlist_hadracor.json:hadracor_wantsitems_2
 msgid "Wow, you actually killed those things?"
@@ -11040,7 +11049,7 @@ msgstr "Ok, faites voir ce que vous avez."
 
 #: conversationlist_hadracor.json:hadracor_complete_3:3
 msgid "No, thanks. I'm too busy running up and down Blackwater mountain."
-msgstr ""
+msgstr "Non, merci. Je suis trop occupé à monter et descendre le mont Encreau."
 
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1
 msgid "You attacked my sheep! Get away from me you filthy murderer!"
@@ -11049,6 +11058,8 @@ msgstr "Vous avez attaqué mes moutons ! Eloignez-vous de moi, sale meurtrier !"
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1:0
 msgid "I am sorry. But your brother sent me to ask if you knew where I could get fences for his sheep."
 msgstr ""
+"Je suis désolé. Mais votre frère m'a envoyé vous demander si vous savez où "
+"trouver des clôtures pour ses moutons."
 
 #: conversationlist_tinlyn.json:tinlyn_complete_1
 msgid "Hello again. Thank you for helping me find my lost sheep."
@@ -11063,6 +11074,8 @@ msgstr "J'ai parlé à Benbyr et entendu l'histoire à propos de vous deux."
 #: conversationlist_tinlyn.json:tinlyn_story_1:1
 msgid "Your brother has sent me to ask where I could get fences from. Do you maybe know?"
 msgstr ""
+"Votre frère m'a envoyé vous demander où trouver des clôtures. Vous savez "
+"peut-être ?"
 
 #: conversationlist_tinlyn.json:tinlyn_story_1
 msgid "Hello there. You wouldn't happen to want to help an old shepherd would you?"
@@ -12741,7 +12754,7 @@ msgstr "Ne me dérange pas. Je dois terminer de couper ce bois. Va déranger que
 #: conversationlist_loneford_2.json:loneford_villager2:0
 #: conversationlist_loneford_2.json:loneford_villager2:1
 msgid "Do you by any chance have some fences?"
-msgstr ""
+msgstr "Par hasard, auriez-vous des clôtures ?"
 
 #: conversationlist_loneford_2.json:loneford_villager2:2
 msgid "Unfortunately the fences you gave me are not tall enough. Do you have others?"
