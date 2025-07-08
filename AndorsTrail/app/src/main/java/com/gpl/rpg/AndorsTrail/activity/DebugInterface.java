@@ -387,7 +387,7 @@ public final class DebugInterface {
 				,new DebugButton("#5", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "waytogalmore1", "entrance2", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "way_to_sullengard_west_5", "east", 0, 5);
 			}
 		})
 
@@ -423,6 +423,27 @@ public final class DebugInterface {
 			@Override
 			public void onClick(View arg0) {
 				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "moesforest_03", "north1", 0, 0);
+			}
+		})
+
+				,new DebugButton("#11", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "galmore_17", "outside", 0, 0);
+			}
+		})
+
+				,new DebugButton("#12", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "galmore_48", "west", 0, 10);
+			}
+		})
+
+				,new DebugButton("#13", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "wild18", "south", 6, 0);
 			}
 		})
 
