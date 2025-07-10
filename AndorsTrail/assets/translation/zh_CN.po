@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-07-10 14:54+0000\n"
+"PO-Revision-Date: 2025-07-11 15:11+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -18263,15 +18263,16 @@ msgstr "哈哈，这听着可真像个冒险家会说的话！够大胆，这才
 
 #: conversationlist_reinkarr.json:reinkarr_3
 msgid "I am Reinkarr. I guess you could call me an adventurer of sorts."
-msgstr "我是莱因卡尔。某种意义上我想你可以称我为冒险家。"
+msgstr "我叫莱因卡尔。要我说啊，某种层面上我也算是可以被称为一个冒险家吧。"
 
 #: conversationlist_reinkarr.json:reinkarr_3:0
 msgid "Any good tales to tell?"
-msgstr "有什么好消息可以讲吗？"
+msgstr "那你有什么惊艳事迹可以讲我听的吗？"
 
 #: conversationlist_reinkarr.json:reinkarr_4
 msgid "No, not really. I never got the hang of the whole adventuring business. Me and some other fellows went looking for these ... crystals ... that we had heard about."
-msgstr "不，不是真的。我从来没有掌握过整个冒险事业的窍门。我和其他一些人去寻找我们听说过的......水晶。"
+msgstr "没有，这我可没有，我甚至都没有窥到过冒险事业的门径。我只是曾和别的几个伙计一"
+"块儿寻找过一种我们有听说过的……晶体。"
 
 #: conversationlist_reinkarr.json:reinkarr_4:0
 msgid "What crystals?"
@@ -18287,7 +18288,7 @@ msgstr "你在寻找什么水晶？"
 
 #: conversationlist_reinkarr.json:reinkarr_6
 msgid "They were called 'Oegyth crystals'. Supposedly very powerful and worth a fortune."
-msgstr "它们被称为 \"奥格斯晶体\"。据说非常强大，价值不菲。"
+msgstr "它们被称为 \"奥格斯水晶\"。据说非常强大，价值不菲。"
 
 #: conversationlist_reinkarr.json:reinkarr_6:0
 msgid "I have one of those."
@@ -19755,7 +19756,8 @@ msgstr "又见面了，我的朋友。我希望你一直在使用我教你的东
 
 #: conversationlist_falothen.json:falothen1_10
 msgid "We usually don't teach anyone outside our settlement. Last time I did, I was given five Oegyth crystals and 5000 gold in return for my services."
-msgstr "我们通常不会教我们定居点以外的任何人。上次我这样做的时候，我得到了五颗奥格斯晶体和5000金币."
+msgstr "我们通常不会教我们定居点以外的任何人。上次我这样做的时候，我得到了五颗奥格斯"
+"水晶和5000金币."
 
 #: conversationlist_falothen.json:falothen1_11
 msgid "Seeing as you saved me, I think it's reasonable to only require two of those crystals from you. I still have expenses to pay, mind you, so I will require that gold."
@@ -19801,19 +19803,20 @@ msgstr "我已经教过你这个技能了。"
 
 #: conversationlist_falothen.json:falothen1_2nd_2hs1:0
 msgid "Sounds good. Teach me two-handed sword fighting. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我双手持剑作战。这里有两颗奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我双手持剑作战。这里有两颗奥格斯水晶和5000金币作为报酬。"
 
 #: conversationlist_falothen.json:falothen1_2nd_f1:0
 msgid "Sounds good. Teach me how to be better at unarmed fighting. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我如何在徒手格斗方面做得更好。这里有两块奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我如何在徒手格斗方面做得更好。这里有两块奥格斯水晶和5000金币作"
+"为报酬。"
 
 #: conversationlist_falothen.json:falothen1_2nd_1hs1:0
 msgid "Sounds good. Teach me how to fight with one-handed swords. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我如何用单手剑作战。这里有两颗奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我如何用单手剑作战。这里有两颗奥格斯水晶和5000金币作为报酬。"
 
 #: conversationlist_falothen.json:falothen1_2nd_d1:0
 msgid "Sounds good. Teach me how to fight with daggers. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我如何用匕首作战。这里有两颗奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我如何用匕首作战。这里有两颗奥格斯水晶和5000金币作为报酬。"
 
 #: conversationlist_falothen.json:falothen1_2nd_a1
 msgid "I can teach you how to get better at fighting with all types of axes, from the small hatchet up to the larger two-handed greataxes. That way, you can be very versatile in your choice of weapons."
@@ -19821,7 +19824,7 @@ msgstr "我可以教你如何更好地使用所有类型的斧头作战，从小
 
 #: conversationlist_falothen.json:falothen1_2nd_a1:0
 msgid "Sounds good. Teach me how to fight with axes. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我如何用斧头战斗。这里有两块奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我如何用斧头战斗。这里有两块奥格斯水晶和5000金币作为报酬。"
 
 #: conversationlist_falothen.json:falothen1_2nd_b0
 msgid "Now, blunt weapons is my way of categorizing everything from the simple club, to maces up to quarterstaves. The technique for using them well is mostly the same."
@@ -19829,7 +19832,7 @@ msgstr "现在，钝器是我对从简单的棍棒，到长矛，再到狼牙棒
 
 #: conversationlist_falothen.json:falothen1_2nd_b1:0
 msgid "Sounds good. Teach me how to fight with blunt weapons. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我如何使用钝器作战。这里有两块奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我如何使用钝器作战。这里有两块奥格斯水晶和5000金币作为报酬。"
 
 #: conversationlist_falothen.json:falothen1_15
 #: conversationlist_fayvara.json:fayvara1_15
@@ -19983,7 +19986,8 @@ msgstr "又见面了，我的朋友。我希望我教给你的东西是有用的
 
 #: conversationlist_fayvara.json:fayvara1_10
 msgid "We very rarely teach anyone outside our settlement, Falothen and I. I heard that Falothen taught someone a while ago and I heard that he was given five Oegyth crystals and 5000 gold in return."
-msgstr "我们很少教我们定居点以外的任何人。我听说法洛森不久前教过某人，我听说他得到了五颗奥格斯晶体和5000金币作为回报。"
+msgstr "我们很少教我们定居点以外的任何人。我听说法洛森不久前教过某人，我听说他得到了"
+"五颗奥格斯水晶和5000金币作为回报。"
 
 #: conversationlist_fayvara.json:fayvara1_11
 msgid "So I'm thinking something similar would suffice. Since as you're my friend, I won't charge as much as Falothen did but our settlement really needs the coin. Two of those crystals and 6000 gold should be well enough."
@@ -20011,19 +20015,20 @@ msgstr "我可以教你用盾牌更好地抵御攻击，这样你在使用盾牌
 
 #: conversationlist_fayvara.json:fayvara1_2nd_s1:0
 msgid "Sounds good. Teach me about shields. Here are two Oegyth crystals and 6000 gold as payment."
-msgstr "听起来不错。教我如何使用盾牌。这里有两块奥格斯晶体和6000金币作为报酬。"
+msgstr "听起来不错。教我如何使用盾牌。这里有两块奥格斯水晶和6000金币作为报酬。"
 
 #: conversationlist_fayvara.json:fayvara1_2nd_l1:0
 msgid "Sounds good. Teach me about light armors. Here are two Oegyth crystals and 6000 gold as payment."
-msgstr "听起来不错。请教我关于轻型盔甲的知识。这里有两个奥格斯晶体和6000金币作为报酬。"
+msgstr "听起来不错。请教我关于轻型盔甲的知识。这里有两个奥格斯水晶和6000金币作为报酬"
+"。"
 
 #: conversationlist_fayvara.json:fayvara1_2nd_h1:0
 msgid "Sounds good. Teach me about heavy armors. Here are two Oegyth crystals and 6000 gold as payment."
-msgstr "听起来不错。教教我重型盔甲吧。这里有两个奥格斯晶体和6000金币作为报酬。"
+msgstr "听起来不错。教教我重型盔甲吧。这里有两个奥格斯水晶和6000金币作为报酬。"
 
 #: conversationlist_fayvara.json:fayvara1_2nd_u1:0
 msgid "Sounds good. Teach me about unarmored combat. Here are two Oegyth crystals and 6000 gold as payment."
-msgstr "听上去很好。教我关于无装甲战斗的知识。这里有两个奥格斯晶体和6000金作为付款。"
+msgstr "听上去很好。教我关于无装甲战斗的知识。这里有两个奥格斯水晶和6000金作为付款。"
 
 #: conversationlist_hirazinn.json:hirazinn
 msgid "[The foul creature swings its many arms at you, while giving away a high-pitched shrieking sound]"
@@ -69406,7 +69411,7 @@ msgstr "外型奇怪的老鼠尾巴"
 
 #: itemlist_v0611_2.json:oegyth
 msgid "Oegyth crystal"
-msgstr "奥格斯晶体"
+msgstr "奥格斯水晶"
 
 #: itemlist_v0611_2.json:oegyth:description
 msgid "You can feel some strange power radiating from this crystal."
@@ -79913,7 +79918,8 @@ msgstr "法洛森教了我如何更好地运用长柄武器。"
 
 #: questlist_v070_charwood.json:charwood1:80
 msgid "Falothen offered me the chance to learn about the other weapon types, but to teach me, he needs 5000 gold and two Oegyth crystals for each skill that I want to get better at."
-msgstr "法洛森给我提供了学习其他武器类型的机会，但要教我，他需要5000金币和两个奥格斯晶体，用于我想提高的每项技能。"
+msgstr "法洛森给我提供了学习其他武器类型的机会，但要教我，他需要5000金币和两个奥格斯"
+"水晶，用于我想提高的每项技能。"
 
 #: questlist_v070_charwood.json:charwood1:90
 msgid "Fayvara thanked me for rescuing her, and in return offered to train me in better handling of one type of armor. She can teach me better handling of shields, light armor, heavy armor or or unarmored combat. I'll have to chose my preference and let her know."
@@ -79937,7 +79943,8 @@ msgstr "费瓦拉教我如何更好地进行无甲战斗，不穿任何盔甲。
 
 #: questlist_v070_charwood.json:charwood1:100
 msgid "Fayvara offered me the chance to learn about the other armor types, but to teach me, she needs 6000 gold and two Oegyth crystals for each skill that I want to get better at."
-msgstr "费瓦拉给我提供了学习其他盔甲类型的机会，但要教我，她需要6000金币和两个奥格斯晶体，用于我想提高的每个技能。"
+msgstr "费瓦拉给我提供了学习其他盔甲类型的机会，但要教我，她需要6000金币和两个奥格斯"
+"水晶，用于我想提高的每个技能。"
 
 #: questlist_v070_charwood.json:charwood1:110
 msgid "I have been taught one weapon type skill and one armor type skill from Falothen and Fayvara. I should go see Maevalia again."
