@@ -18394,23 +18394,23 @@ msgstr "你看到一张床以及一个床头柜。塑像依旧在你放下的地
 
 #: conversationlist_remgard_idolsigns.json:larni_bed_3
 msgid "You see a bed and nightstand. This must be Larni's bed."
-msgstr "你看到一张床以及一个床头柜，你猜想这张一定是拉尔尼的床。"
+msgstr "你看到一张床以及一个床头柜，这张一定是拉尔尼的床。"
 
 #: conversationlist_remgard_idolsigns.json:arnal_bed_3
 msgid "You see a bed and nightstand. This must be Arnal's bed."
-msgstr "你看到一张床和床头柜。这一定是阿娜尔的床。"
+msgstr "你看到一张床以及一个床头柜，这张一定是阿娜尔的床。"
 
 #: conversationlist_remgard_idolsigns.json:emerei_bed_3
 msgid "You see a bed and nightstand. This must be Emerei's bed."
-msgstr "你看到一张床和床头柜。这一定是埃默伊的床。"
+msgstr "你看到一张床以及一个床头柜，这张一定是埃默伊的床。"
 
 #: conversationlist_remgard_idolsigns.json:carthe_bed_3
 msgid "You see a bed and nightstand. This must be Carthe's bed."
-msgstr "你看到一张床和床头柜。这一定是卡思的床。"
+msgstr "你看到一张床以及一个床头柜，这张一定是卡思的床。"
 
 #: conversationlist_signs_v0611.json:remgard_tavern_room
 msgid "You are not allowed to enter this room until you have rented it."
-msgstr "在你租下这个房间之前，你是不允许进入这个房间的。"
+msgstr "在你租下此处之前，你仍是不被允许进入这间房间的。"
 
 #: conversationlist_signs_v0611.json:sign_waterway6
 msgid ""
@@ -18444,19 +18444,20 @@ msgstr ""
 
 #: conversationlist_signs_v0611.json:sign_remgard0
 msgid "Welcome to Lake Laeroth and the city of Remgard!"
-msgstr "欢迎来到莱洛斯湖和城市瑞姆加德！"
+msgstr "欢迎来到莱洛斯湖以及瑞姆加德城！"
 
 #: conversationlist_signs_v0611.json:wild16_cave
 msgid "The thicket is too dense for you to get through."
-msgstr "灌木丛太密了，你无法通过。"
+msgstr "枝条太密了，你无法通过。"
 
 #: conversationlist_signs_v0611.json:sign_wild16_r
 msgid "You squeeze through the narrow opening of the cave."
-msgstr "你挤过洞穴狭窄的口子。"
+msgstr "你挤过了此处洞穴的这个狭窄豁口。"
 
 #: conversationlist_signs_v0611.json:sign_wild16_1
 msgid "You squeeze through the narrow opening of the cave. The stale air that hangs heavy within the damp cave, with its hints of mold and old parchment, fills your nose."
-msgstr "你挤过山洞的狭窄开口。潮湿的山洞里弥漫着陈旧的空气，带有霉菌和旧羊皮纸的味道，充斥着你的鼻子。"
+msgstr "你挤过了此处洞穴的这个狭窄豁口。在这个潮乎乎的洞穴里，空气又闷又沉，一股子霉"
+"味混着旧羊皮纸的气息，直往你鼻子里钻。"
 
 #: conversationlist_signs_v0611.json:sign_wild16_2
 msgid "This must be the cave that the map leads to. This must be Vacor's old hideout."
@@ -79586,11 +79587,13 @@ msgstr "秩序井然"
 
 #: questlist_v0611_3.json:remgard:10
 msgid "I have reached the bridge to enter the town of Remgard. According to the bridge guard, the town is closed for outsiders to enter, and no-one is currently allowed to leave. They are investigating some disappearances of some of the townspeople."
-msgstr "我已经到达了进入瑞姆加德镇的桥梁。据桥上的守卫说，这个镇子不允许外人进入，目前也不允许任何人离开。他们正在调查一些镇民的失踪事件。"
+msgstr ""
+"我抵达了通往瑞姆加德镇之桥的桥头。据桥上的守卫所说，本镇目前不对外来者开放，"
+"眼下也不许任何人离镇外出。这是因为他们正在调查几桩发生在镇民身上的失踪案。"
 
 #: questlist_v0611_3.json:remgard:15
 msgid "I have offered my assistance in helping the people of Remgard investigate what has happened to the townspeople that have disappeared."
-msgstr "我已表示愿意协助瑞姆加德人民调查失踪的镇民的下落。"
+msgstr "我已表示愿意提供协助，帮雷姆加德的人查清失踪镇民的情况。"
 
 #: questlist_v0611_3.json:remgard:20
 msgid "The bridge guard has asked me to investigate an abandoned house to the east along the northern shore of the lake. I should be wary of any inhabitants that may be there."
