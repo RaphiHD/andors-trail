@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
 import com.gpl.rpg.AndorsTrail.R;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
+import com.gpl.rpg.AndorsTrail.controller.Constants;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 import com.gpl.rpg.AndorsTrail.view.ItemEffectsView;
@@ -54,7 +55,7 @@ public final class ItemInfoActivity extends AndorsTrailBaseActivity {
 		tv = (TextView) findViewById(R.id.iteminfo_description);
 		String description = itemType.getDescription();
 		if (description != null) {
-			tv.setText(description);
+			tv.setText(description.replace(Constants.PLACEHOLDER_PLAYERNAME, world.model.player.getName()));
 			tv.setVisibility(View.VISIBLE);
 		} else {
 			tv.setVisibility(View.GONE);
@@ -67,8 +68,10 @@ public final class ItemInfoActivity extends AndorsTrailBaseActivity {
 				itemType.effects_equip,
 				itemType.effects_use == null ? null : Collections.singletonList(itemType.effects_use),
 				itemType.effects_hit == null ? null : Collections.singletonList(itemType.effects_hit),
+				itemType.effects_miss == null ? null : Collections.singletonList(itemType.effects_miss),
 				itemType.effects_kill == null ? null : Collections.singletonList(itemType.effects_kill),
 				itemType.effects_hitReceived == null ? null : Collections.singletonList(itemType.effects_hitReceived),
+				itemType.effects_missReceived == null ? null : Collections.singletonList(itemType.effects_missReceived),
 				null,
 				itemType.isWeapon()
 			);
