@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-19 19:07+0000\n"
+"PO-Revision-Date: 2025-07-25 22:31+0000\n"
 "Last-Translator: Hodex99 <anonymoushodex@proton.me>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/id/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -10749,7 +10749,7 @@ msgstr "Selamat datang kembali. Bagaimana pencariannya?"
 
 #: conversationlist_blackwater_herec.json:herec_q1:1
 msgid "I haven't found everything yet. But I am working on it."
-msgstr "Aku belum dapat semuanya. Tapi sedang kuusahakan."
+msgstr "Aku belum mendapatkan semuanya. Tapi sedang kuusahakan."
 
 #: conversationlist_blackwater_herec.json:herec_q1:2
 msgid "I have found what you asked for."
@@ -10797,8 +10797,8 @@ msgstr "Halo lagi. Apa kau sudah memeriksa makam keluargaku?"
 #: conversationlist_prim_bjorgur.json:bjorgur_return_2:1
 msgid "[Lie] I went to check on the grave. Everything seems to be normal. You must be imagining things."
 msgstr ""
-"[Bohong] Sudah kucek makamnya. Semuanya tampak normal. Kau pasti hanya "
-"berimajinasi."
+"[Bohong] Aku sudah mengecek makamnya. Semuanya tampak normal. Kau pasti "
+"hanya berimajinasi."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_return_2:3
 msgid "Yes. I killed the intruder and restored the dagger to its original place."
@@ -10884,8 +10884,8 @@ msgstr ""
 #: conversationlist_prim_bjorgur.json:bjorgur_return_3
 msgid "Nothing you say? But I was sure something must have happened over there. Anyway. Thank you for checking it for me."
 msgstr ""
-"Baik-baik saja kau bilang? Tapi aku yakin sesuatu pasti telah terjadi di "
-"sana. Bagaimanapun. Terima kasih telah memeriksanya."
+"Baik-baik saja katamu? Tapi aku yakin sesuatu pasti telah terjadi di sana. "
+"Bagaimanapun. Terima kasih telah memeriksanya."
 
 #: conversationlist_prim_bjorgur.json:bjorgur_9
 msgid "Please hurry, and return here to tell me of your progress once you find out something."
@@ -10968,7 +10968,9 @@ msgstr "Ya. Ini dia."
 
 #: conversationlist_prim_fulus.json:fulus_return_3
 msgid "What?! Sigh. Stupid kid. That dagger is worth a fortune. We could have been rich! Rich I tell you!"
-msgstr "Apa?! Tsk. Anak bodoh. Belati itu sangat berharga. Kita bisa saja kaya! Kaya kau dengar!"
+msgstr ""
+"Apa?! Tsk. Anak bodoh. Belati itu sangat berharga. Kita bisa saja kaya raya! "
+"Kau dengar, Kaya raya!"
 
 #: conversationlist_prim_fulus.json:fulus_1
 msgid "Hello there. You seem like just the type of person I am looking for."
@@ -11069,11 +11071,16 @@ msgstr "Tentu. Biarkan aku melihatnya."
 
 #: conversationlist_prim_merchants.json:prim_armorer_2
 msgid "Welcome traveller. Have you come to ask for help from me and the equipment I sell?"
-msgstr "Selamat datang penjelajah. Apakah Kau datang untuk meminta bantuan dari aku dan peralatan yang aku jual?"
+msgstr ""
+"Selamat datang penjelajah. Apa kau datang untuk meminta bantuanku dan "
+"peralatan yang ku jual ini?"
 
 #: conversationlist_prim_merchants.json:prim_armorer_3
 msgid "I must tell you that my supply is not what it used to be, now that the southern mine entrance has collapsed. Far fewer traders come here to Prim now."
-msgstr "Aku harus memberitahu Kau bahwa persediaan aku tidak seperti dulu, sekarang pintu masuk tambang selatan telah runtuh. Jauh lebih sedikit pedagang yang datang ke Prim sekarang."
+msgstr ""
+"Aku harus memberitahumu bahwa persediaanku tidak seperti dulu, sekarang "
+"pintu masuk tambang selatan telah runtuh. Jauh lebih sedikit pedagang yang "
+"datang ke Prim sekarang."
 
 #: conversationlist_prim_merchants.json:prim_armorer_3:0
 msgid "OK, let me see your wares."
@@ -11081,11 +11088,14 @@ msgstr "Oke, biar kulihat daganganmu."
 
 #: conversationlist_prim_merchants.json:prim_notrust
 msgid "Regardless, I cannot help you. My services are only for residents of Prim, and I don't trust you enough yet. You might be a spy from the Blackwater mountain settlement."
-msgstr "Bagaimanapun, aku tidak dapat membantu Kau. Layanan aku hanya untuk penduduk Prim, dan aku belum cukup mempercayai Kau. Mungkin saja kau mata-mata dari pemukiman gunung Blackwater."
+msgstr ""
+"Bagaimanapun, aku tidak bisa membantumu. Layananku hanya untuk penduduk "
+"Prim, dan aku belum cukup mempercayaimu. Mungkin saja kau mata-mata dari "
+"pemukiman gunung Blackwater."
 
 #: conversationlist_prim_merchants.json:prim_tailor
 msgid "Welcome traveller, what can I do for you?"
-msgstr "Selamat datang pengelana, apa yang bisa aku bantu?"
+msgstr "Selamat datang penjelajah, apa yang bisa kubantu?"
 
 #: conversationlist_prim_merchants.json:prim_tailor:0
 msgid "Let me see what you have available to sell."
@@ -11097,11 +11107,14 @@ msgstr "Apa kau tahu sesuatu tentang kecelakaan kru Lorn?"
 
 #: conversationlist_prim_merchants.json:prim_tailor_1
 msgid "Sell? I'm sorry, my supplies are all out. Now that the traders do not come here anymore, I don't get my regular shipments. So at the moment, I have nothing to trade with you unfortunately."
-msgstr "Jual? Maaf, persediaan aku habis. Sekarang para pedagang tidak datang ke sini lagi, aku tidak mendapatkan kiriman reguler aku. Jadi saat ini, akungnya aku tidak punya apa-apa untuk berdagang dengan Kau."
+msgstr ""
+"Dijual? Maaf, persediaanku habis. Sekarang para pedagang tidak datang ke "
+"sini lagi, aku tidak mendapatkan kiriman seperti biasanya. Jadi saat ini, "
+"sayangnya tidak ada yang bisa ku jual."
 
 #: conversationlist_prim_merchants.json:guthbered_guard_1
 msgid "Talk to the boss instead."
-msgstr "Bicaralah dengan bos."
+msgstr "Bicaralah dengan bos saja."
 
 #: conversationlist_prim_merchants.json:guthbered_guard_2
 msgid "Please don't hurt me! I'm only doing my job."
