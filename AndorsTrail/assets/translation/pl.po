@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-04-11 15:01+0000\n"
+"PO-Revision-Date: 2025-07-18 20:03+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -4747,35 +4747,39 @@ msgstr "Ech.. jesteś bezużyteczny. Żegnam."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel1
 msgid "Hey, kid! Don't be so nosy!"
-msgstr ""
+msgstr "Hej Ty, młody! Nie bądź taki wścibski!"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2a
 msgid ""
 "A sign says 'Jail'\n"
 "The exit above is blocked though."
 msgstr ""
+"Na znaku widnieje napis 'Więzienie'\n"
+"Mimo tego przejście jest zablokowane."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2b
 msgid ""
 "A sign says 'Arcir'\n"
 "The exit above is blocked though."
 msgstr ""
+"Na znaku widnieje napis 'Arcir'\n"
+"Mimo tego przejście jest zablokowane."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2c
 msgid "Attention - the catacombs. Keep silent!"
-msgstr ""
+msgstr "Uwaga - katakumby. Zachowaj ciszę!"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3
 msgid "Looks like the tunnel isn't quite finished yet."
-msgstr ""
+msgstr "Wygląda na to, że ten tunel nie jest jeszcze ukończony."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:0
 msgid "Typical Troublemaker - can't finish anything."
-msgstr ""
+msgstr "To typowe dla Mąciwody- niczego nie potrafi skończyć."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:1
 msgid "So I have to go back the way I came."
-msgstr ""
+msgstr "A zatem wracam tam, skąd przyszedłem."
 
 #: conversationlist_farrik.json:farrik_1
 msgid "Hello. I heard that you helped us find the key of Luthor. Good work, it will really come in handy."
@@ -11018,7 +11022,10 @@ msgstr "Zaatakowałeś moje owce! Odejdź stąd ty plugawy morderco!"
 
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1:0
 msgid "I am sorry. But your brother sent me to ask if you knew where I could get fences for his sheep."
-msgstr "Przepraszam. Ale to Twój brat wysłał mnie, abym zapytał Cię, czy przypadkiem nie wiesz, gdzie i jak mogę zdobyć materiał na ogrodzenie dla jego owiec."
+msgstr ""
+"Przepraszam. Ale to Twój brat przysłał mnie tu, abym zapytał Cię, czy "
+"przypadkiem nie wiesz, gdzie i jak mogę zdobyć materiał na ogrodzenie dla "
+"jego owiec."
 
 #: conversationlist_tinlyn.json:tinlyn_complete_1
 msgid "Hello again. Thank you for helping me find my lost sheep."
@@ -19418,7 +19425,7 @@ msgstr "To nie są nawet nasze rzeczy. My tylko .. uch .. stoimy sobie tu."
 
 #: conversationlist_esfiume.json:esfiume1:0
 msgid "I didn't see anything."
-msgstr "Nic nie widzę."
+msgstr "Nic nie widziałem."
 
 #: conversationlist_esfiume.json:esfiume2
 msgid "That's right you didn't."
@@ -23727,7 +23734,7 @@ msgstr "Mam przeczucie że spotkamy się tu, gdziekolwiek by to nie było."
 #: conversationlist_fungi_panic.json:fungi_rescued_110:0
 #: conversationlist_feygard_1.json:tobby5_10:0
 msgid "Good luck!"
-msgstr "Powodzenia!"
+msgstr "Życzę Ci powodzenia!"
 
 #: conversationlist_halvor_surprise.json:halvor_chwood_0
 msgid "The world is such a small place. We keep meeting in the most unusual places."
@@ -50417,7 +50424,7 @@ msgid ""
 "Ah yes, this is indeed proof it is dead."
 msgstr ""
 "Wyśmienicie. Pozwól, że to wezmę [Podajesz mu futro Złotego Szakala]\n"
-"No tak, to jest zdecydowanie dowód tego, że jest martwy."
+"No tak, to jest zdecydowanie dowód na to, że jest martwy."
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_85
 msgid "Return to me once you have the proof that it is dead."
@@ -51011,7 +51018,10 @@ msgstr "A masz jakieś dowody?"
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_70:0
 msgid "I know that you tried to sell the stolen items from the armory to Prowling Arantxa. I just don't know for sure that you were the one that broke into the shop."
-msgstr "Wiem, że próbowałeś sprzedać skradzione przedmioty ze zbrojowni Prowling Arantxa. Nie jestem na 100% pewien, że byłeś jednym z tych którzy włamali się do sklepu."
+msgstr ""
+"Wiem, że próbowałeś sprzedać skradzione ze zbrojowni przedmioty człowiekowi "
+"o imieniu Arantxa, znanego bardziej jako Zbieracz. Nie jestem jedynie pewny "
+"tego, czy byłeś jednym z tych, którzy włamali się do sklepu."
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_80
 msgid "Yes, I did try to sell those items. I needed the gold! Is that a crime? I was out of supplies, lost and in desperate need of a place to heal and rest. With only enough gold to rent a room here in this inn, I needed gold in order to recover my health."
@@ -59749,7 +59759,9 @@ msgstr "Cudownie. Już widzę do czego to zmierza. Mam wrócić się prosto do R
 
 #: conversationlist_laeroth.json:gylew10_2_1
 msgid "It is far east of here near a place called Laeroth Manor."
-msgstr "Znajduje się daleko na wschód stąd, w pobliżu miejsca zwanego jako Posiadłość Laeroth."
+msgstr ""
+"Znajduje się daleko na wschód stąd, w pobliżu miejsca zwanego jako Zamek "
+"Laeroth."
 
 #: conversationlist_laeroth.json:gylew12
 msgid "We have failed to retrieve it as the monsters are too strong. That's where you come in. What do you say? Will you help me?"
@@ -59769,7 +59781,7 @@ msgstr "To zależy. Co dostanę w zamian?"
 
 #: conversationlist_laeroth.json:gylew11
 msgid "Yes, a place called Laeroth Manor."
-msgstr "Zrozumiałem, miejsce zwane Posiadłość Laeroth."
+msgstr "Zrozumiałem, miejsce zwane Zamek Laeroth."
 
 #: conversationlist_laeroth.json:gylew13
 msgid "Then please head to the east and return to me when you find the Korhald coins."
@@ -59954,7 +59966,10 @@ msgstr "A co się stało z pomijaniem tych wszystkich szczegółów?"
 
 #: conversationlist_laeroth.json:forenza_island_110
 msgid "OK...Gylew and father discovered this story of looted gold coins that were rumored to be hidden here in the Laeroth Manor. But neither was strong enough to dare try to retrieve it."
-msgstr "No dobra... Gylew wraz z ojcem odkryli historię o zrabowanych złotych monetach, które rzekomo były ukryte tutaj, w Posiadłości Laeroth. Ale żaden z nich nie był wystarczająco silny, by odważyć się dotrzeć tutaj i je odzyskać."
+msgstr ""
+"No dobra... Gylew wraz z ojcem odkryli historię o zrabowanych złotych "
+"monetach, które rzekomo były ukryte tutaj, w Zamku Laeroth. Ale żaden z nich "
+"nie był wystarczająco silny, by odważyć się dotrzeć tutaj i je odzyskać."
 
 #: conversationlist_laeroth.json:forenza_island_120
 msgid "For many years afterwards, this is all the family ever talked about. During this time, my father and I grew apart and eventually, my mother and I left him and returned to her hometown of Brightport."
@@ -60284,101 +60299,137 @@ msgstr "Och, jesteś taki miły. Powiem Ci coś. Gdy tylko odwiedzisz Feygard to
 #: conversationlist_laeroth.json:laeroth_tower_north
 msgid "Looking to the north, you see more of the manor, the lake, and cliffs beyond that."
 msgstr ""
+"Spoglądasz na północ i widzisz sporą część zamku, jezioro oraz położone za "
+"nim urwiska."
 
 #: conversationlist_laeroth.json:laeroth_tower_east
 msgid "You gaze to the east, but there is not much to see. The lake, the shore, but you think you recognize some of the cliffs you had to scale to get here."
 msgstr ""
+"Spoglądasz na wschód, ale nie ma tam zbyt wiele do oglądania. Tylko jezioro "
+"wraz z okalającym je brzegiem a do tego rozpoznajesz niektóre z urwisk, na "
+"które musiałeś się wspiąć, by się tu dostać."
 
 #: conversationlist_laeroth.json:laeroth_tower_south
 msgid "Looking to the south, you see the lakeshore you walked along. There is also a tower in the distance. You wonder if at one time that tower and this one sent signals to each other."
 msgstr ""
+"Spoglądasz na południe i widzisz brzeg jeziora wzdłuż którego wędrowałeś, a "
+"w oddali drugą wieżę. Zastanawiasz się przy tym, czy wieża na której jesteś "
+"i ta, którą widzisz w oddali służyły do nadawania sygnałów pomiędzy sobą."
 
 #: conversationlist_laeroth.json:laeroth_tower_west
 msgid "To the west, you see a town on an island. It looks prosperous. In the far distance, somewhat to the north, it looks like there is another island, but you can't make out any details."
 msgstr ""
+"Na zachodzie widać miasto na położone wyspie. Wygląda na zamożne. W oddali, "
+"nieco na północ od niego, jest coś co wygląda na inną wyspę, ale nie "
+"potrafisz dostrzec żadnych szczegółów."
 
 #: conversationlist_laeroth.json:forenza_brimhaven_5
 msgid "Do you have Gylew's key?"
-msgstr ""
+msgstr "Czy masz klucz Gylewa?"
 
 #: conversationlist_laeroth.json:forenza_brimhaven_5:0
 msgid "Yes, and I also have the chest. Here, take them. [You give both items to Forenza]"
-msgstr ""
+msgstr "Tak, mam też kufer. Weź to. [Forenza bierze od Ciebie oba przedmioty]"
 
 #: conversationlist_laeroth.json:forenza_brimhaven_5:1
 msgid "Yes, but I don't have the chest."
-msgstr ""
+msgstr "Tak, ale nie mam kuferka."
 
 #: conversationlist_laeroth.json:forenza_brimhaven_5:2
 msgid "What are you talking about? I already gave it to you along with the chest I found on the island."
 msgstr ""
+"O czym ty mówisz? Dostałeś go już ode mnie razem z kuferkiem, który "
+"znalazłem na wyspie."
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_0:0
 msgid "[You show Forenza the Coin of Prestige and the Shield of the brave]"
-msgstr ""
+msgstr "[Pokazujesz Forenzie Monetę Prestiżu oraz Tarczę Odwagi]"
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_10:0
 msgid "[While trying to hold back the giant smile that you can feel growing upon your face, you ask]'why is that'?"
 msgstr ""
+"[Powstrzymując ogromny uśmiech, który powoli zaczyna pojawiać się na Twojej "
+"twarzy, pytasz] 'A dlaczego'?"
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_20
 msgid "Well, for obvious reasons. Didn't you notice that the shield has the Korhald family crest engraved on its front side? This clearly belonged to Korhald himself. You should keep this item as it could aid you in your adventures."
 msgstr ""
+"No cóż, z pewnych aż nazbyt oczywistych powodów. Nie zauważyłeś może, że na "
+"przodzie tarczy wygrawerowano herb rodu Korhald? To jasno wskazuje, że "
+"należała do samej głowy rodu. Powinieneś ją zachować, gdyż może pomóc Ci w "
+"Twoich przygodach."
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_30
 msgid "But this coin you have here really gives my pause, as I never believed the stories about its existence were true.  I don't know much about it, but I do know that it has great value. Can I have it? I will reward you for it of course."
 msgstr ""
+"Ale za to moneta, którą tutaj trzymasz, naprawdę mnie zaskoczyła, ponieważ "
+"nigdy nie wierzyłem, że opowieści o jej istnieniu są prawdziwe. Nie wiem o "
+"niej zbyt dużo, ale mogę przysiąc że ma ogromną wartość. Mogę ją wziąć? "
+"Oczywiście odwdzięczę Ci się za nią."
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_40
 msgid ""
 "[While laughing]\n"
 "Now, now, who do you think I am, Gylew? I don't have that kind of gold. How about 7000 gold?"
 msgstr ""
+"[Śmieje się]\n"
+"No nie, Ty chyba sobie myślisz że ja jestem jakiś Gylew? Nie mam tyle złota. "
+"Co byś powiedział na 7000 złotych monet?"
 
 #: conversationlist_laeroth.json:forenza_korhald_cop_35
 msgid "Oh, how very generous of you to just hand it over for free. I'll tell you what, once you find your way to Brightport, seek out my family. They will reward you for all of your generosity and hard work."
 msgstr ""
+"To bardzo miłe z Twojej strony, że tak po prostu dajesz mi ją za darmo. "
+"Powiem Ci coś – kiedy tylko będziesz w Brightport, to poszukaj mojej "
+"rodziny. Owdzięczą Ci się za Twą szczodrość i ciężką pracę."
 
 #: conversationlist_laeroth.json:moriath_0
 msgid "Hello. It's so very long since I have seen another person. Who are you, and why are you here?"
 msgstr ""
+"Cześć. Minęło już całkiem sporo czasu, odkąd ostatnim razem spotkałem kogoś "
+"na swej drodze. Kim jesteś i co tu robisz?"
 
 #: conversationlist_laeroth.json:moriath_0:0
 msgid "I'm $playername. I'm looking for my brother, Andor. Have you seen him?"
 msgstr ""
+"Mam na imię $playername. Szukam mojego brata, Andora. Widziałeś go może?"
 
 #: conversationlist_laeroth.json:moriath_1
 msgid "No. I just told you that you are the first person I have seen here in a very long time. Getting to the old manor is difficult and dangerous, and there is nothing here. So why would anyone come here?"
 msgstr ""
+"Nie. Powiedziałem Ci przecież, że jesteś pierwszą osobą, którą spotkałem tu "
+"od bardzo dawna. Dotarcie do Starego Zamku jest bardzo trudne i "
+"niebezpieczne, nie ma tu także nic ciekawego. Więc po co ktoś miałby tu "
+"przychodzić?"
 
 #: conversationlist_laeroth.json:moriath_1:0
 msgid "So why are you here?"
-msgstr ""
+msgstr "Więc czemu tu jesteś?"
 
 #: conversationlist_laeroth.json:moriath_1:2
 msgid "I guess I'll be going then."
-msgstr ""
+msgstr "W takim razie chyba już sobie stąd pójdę."
 
 #: conversationlist_laeroth.json:moriath_caretaker_1
 msgid "I am Moriath, the caretaker for this manor."
-msgstr ""
+msgstr "Jestem Moriath, opiekun tego przybytku."
 
 #: conversationlist_laeroth.json:moriath_caretaker_1:1
 #: conversationlist_laeroth.json:moriath_history_1:1
 msgid "Can you tell me more about this place?"
-msgstr ""
+msgstr "Czy możesz opowiedzieć mi coś więcej o tym miejscu?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_1:2
 msgid "If there is nobody else here, why do you stay?"
-msgstr ""
+msgstr "Skoro wszyscy stąd odeszli to dlaczego Ty zostałeś?"
 
 #: conversationlist_laeroth.json:moriath_history_1
 msgid "This is Laeroth manor. Or what is left of it, anyway."
-msgstr ""
+msgstr "To jest Zamek Laeroth. Albo przynajmniej to, co z niego pozostało."
 
 #: conversationlist_laeroth.json:moriath_history_2
 msgid "Laeroth manor? Yes, of course."
-msgstr ""
+msgstr "Zamek Laeroth? Ależ tak, oczywiście."
 
 #: conversationlist_laeroth.json:moriath_caretaker_2
 msgid ""
@@ -60386,34 +60437,47 @@ msgid ""
 "\n"
 "I cannot care for everything of course. I take care of the main house, the bridges, and tend to the graves as best I can. Everything else has gradually fallen to ruin."
 msgstr ""
+"Jestem związany przysięgą, że będę dbał o to miejsce. Jednakże, tak naprawdę "
+"to nigdy jej nie złożyłem. \n"
+"\n"
+"Oczywiście nie mogę zajmować się wszystkim. Dbam o główny dom, mosty a do "
+"tego pielęgnuję groby najlepiej jak tylko potrafię. Cała reszta stopniowo "
+"popada w ruinę."
 
 #: conversationlist_laeroth.json:moriath_caretaker_2:0
 msgid "How can you be bound by an oath you never gave?"
-msgstr ""
+msgstr "Jakim cudem możesz być związany przysięgą, której nigdy nie złożyłeś?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_3
 msgid "It is a matter of honor. The Lord of the manor saved my great-great grandfather from certain death many years ago. In return my great-great grandfather vowed that his family would always look after the manor."
 msgstr ""
+"Cóż, to bardziej kwestia honoru. Właściciel tego zamku uratował mojego "
+"prapradziadka przed pewną śmiercią wiele lat temu. W zamian prapradziadek "
+"ślubował, że jego rodzina zawsze będzie opiekować się tym miejscem."
 
 #: conversationlist_laeroth.json:moriath_caretaker_3:0
 msgid "He should not have made a vow that bound his family for generations!"
 msgstr ""
+"Nie powinien był składać przysięgi, która związała jego rodzinę na wieki!"
 
 #: conversationlist_laeroth.json:moriath_caretaker_3:1
 msgid "Well, that's too bad for you. I need to get going. I have to find my brother."
 msgstr ""
+"Cóż, w takim razie masz pecha. Ja muszę iść. Muszę odnaleźć mojego brata."
 
 #: conversationlist_laeroth.json:moriath_caretaker_4
 msgid "I do not disagree, but he did."
-msgstr ""
+msgstr "Nie zaprzeczę ale jakby nie było - zrobił to."
 
 #: conversationlist_laeroth.json:moriath_caretaker_4:0
 msgid "Is there something I can do to help?"
-msgstr ""
+msgstr "Czy mogę Ci w jakiś sposób pomóc?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_4:1
 msgid "Too bad. Look on the bright side though. You have an entire manor to yourself. Bye."
 msgstr ""
+"A to pech. Spójrz jednak na jasną stronę tej całej historii. Jakby nie było "
+"to masz cały zamek dla siebie. Do zobaczenia."
 
 #: conversationlist_laeroth.json:moriath_history_3
 msgid "Many years ago, this island was used as a refuge in times of danger by communities that lived on the lakeshore. There was little here other than a small fortification, but being an island, that was enough for protection."
@@ -83608,22 +83672,32 @@ msgstr ""
 #: questlist_feygard_1.json:echoes_of_enchantment:10
 msgid "The villagers have been freed. I should visit them back in their village of Wexlow."
 msgstr ""
+"Wieśniacy zostali uwolnieni. Powinienem teraz odwiedzić ich siedzibę o "
+"nazwie Wexlow."
 
 #: questlist_feygard_1.json:echoes_of_enchantment:12
 msgid "The villagers and Gamjee agreed to a schedule for using the well, ensuring everyone has access to water without conflict. But the villagers are still in the pit."
 msgstr ""
+"Wieśniacy oraz Gamjee zgodzili się wspólnie i w zgodzie korzystać ze studni, "
+"zapewniając przy tym, że każdy będzie miał dostęp do wody. Mimo tego jednak, "
+"mieszkańcy wioski wciąż przebywają w dole."
 
 #: questlist_feygard_1.json:echoes_of_enchantment:13
 msgid "After the villagers and Gamjee agreed to a compromise, Gamjee gave me a rope and instructed me to use it to free the remaining villagers in the pit."
 msgstr ""
+"Po tym jak wieśniacy i Gamjee osiągnęli porozumienie, Gamjee dał mi linę i "
+"poinstruował mnie, aby użył jej do uwolnienia pozostałych ludzi uwięzionych "
+"w dole."
 
 #: questlist_feygard_1.json:echoes_of_enchantment:14
 msgid "I've visited the people of Wexlow Village after they made it home. They are happy to sleep in their own beds now."
 msgstr ""
+"Odwiedziłem mieszkańców wioski Wexlow wkrótce po tym, jak wrócili do domu. "
+"Są szczęśliwi, że nareszcie mogą spać we własnych łóżkach."
 
 #: questlist_feygard_1.json:feygard_delicacy
 msgid "A Feygard delicacy"
-msgstr ""
+msgstr "Łakocie z Feygard"
 
 #: questlist_feygard_1.json:feygard_delicacy:1
 msgid "Philippa, one of the lovely Feygard loyalist ladies from Wexlow that I rescued from Gamjee the troll has informed me that she is a master baker."
@@ -84020,4 +84094,3 @@ msgstr "Jezioro Laeroth"
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr "Osada Wexlow"
-

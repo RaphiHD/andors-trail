@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "POT-Creation-Date: Sun Nov 10 11:14:56 CET 2013\n"
-"PO-Revision-Date: 2024-11-25 20:00+0000\n"
+"PO-Revision-Date: 2025-05-23 12:01+0000\n"
 "Last-Translator: sprin <graham32@tutamail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/ca/>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: [none]
 msgid "translator-credits"
@@ -916,19 +916,19 @@ msgstr ""
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
-msgstr ""
+msgstr "Ohh... [glup glup]"
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
-msgstr ""
+msgstr "Quin gust... [glup]"
 
 #: conversationlist_crossglen.json:drunk1d
 msgid "... taste [falls over]"
-msgstr ""
+msgstr "més intrigant... [cau]"
 
 #: conversationlist_crossglen.json:drunk1d:0
 msgid "Yes, really. A unique taste. And final - bye."
-msgstr ""
+msgstr "Sí, i tant. Un gust molt especial. I l'últim - adéu."
 
 #: conversationlist_crossglen_gruil.json:gruil1
 msgid ""
@@ -1843,11 +1843,11 @@ msgstr "Deixa'm veure el teu gènere."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_10
 msgid "Hey! What are you doing here? How did you get in?"
-msgstr ""
+msgstr "Ei! Què hi fas aquí? Com has entrat?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_10:0
 msgid "By the door. Why?"
-msgstr ""
+msgstr "Per la porta. Per què?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_20
 msgid "Nonsense. I would have noticed."
@@ -1855,19 +1855,19 @@ msgstr ""
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_30
 msgid "Leave immediatly, or I'll call the guards!"
-msgstr ""
+msgstr "Ves-te'n ara mateix o crido als guardes!"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_32
 msgid "And don't dare to enter my house again!"
-msgstr ""
+msgstr "I no t'atreveixis a tornar a entrar a casa meva!"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_40
 msgid "I know your face. How dare you to come back?"
-msgstr ""
+msgstr "Conec la teva cara. Com t'atreveixes a tornar?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_40:0
 msgid "Are you sure you don't mix me with my brother?"
-msgstr ""
+msgstr "Segur que no em confons amb el meu germà?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_42
 msgid "Andor? I know that boy all too well."
@@ -1875,7 +1875,7 @@ msgstr ""
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_44
 msgid "You wear the stolen valuable necklace and dare lie to my face?"
-msgstr ""
+msgstr "Duus posat el collaret robat i t'atreveixes a mentir-me a la cara?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_start
 msgid "Hello. I'm Arcir."
@@ -1970,11 +1970,11 @@ msgstr ""
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:0
 msgid "Thanks, I'd rather keep it."
-msgstr ""
+msgstr "Gràcies però prefereixo quedar-me'l."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:1
 msgid "OK. Here is Ewmondold's map."
-msgstr ""
+msgstr "D'acord. Aquí tens el mapa de l'Ewmondold."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1
 msgid "And here are 500 shining gold pieces. Use them wisely."
@@ -44039,7 +44039,7 @@ msgstr ""
 
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_average
 msgid "Bask in the Shadow, my child."
-msgstr ""
+msgstr "Gaudeix del recer de l'Ombra, fill meu."
 
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_high
 msgid "I am happy to see you. May the Shadow always be with you."
@@ -44055,7 +44055,7 @@ msgstr ""
 
 #: conversationlist_thoronir_faction_check.json:thoronir_start
 msgid "What can I do for you?"
-msgstr ""
+msgstr "Què puc fer per tu?"
 
 #: conversationlist_thoronir_faction_check.json:thoronir_start:0
 msgid "What can you tell me about the Shadow?"
@@ -83072,4 +83072,3 @@ msgstr ""
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr ""
-

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-04-14 17:41+0000\n"
+"PO-Revision-Date: 2025-07-23 22:53+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -672,7 +672,8 @@ msgstr "就像我父亲曾经做过的那样，我想送你一本书，让你带
 
 #: conversationlist_mikhail.json:mikhail_achievements_20
 msgid "This book is some kind of diary, in which you can record unusual experiences and achievements that you may have on your way."
-msgstr "这本书是某种日记，你可以在这本书中记录下你在路上的不同寻常的经历和成就。"
+msgstr "这本书是某种意义上的日记，你可以在这本书中记录下你在路上的不同寻常的经历和成"
+"就。"
 
 #: conversationlist_mikhail.json:mikhail_achievements_30
 msgid "Would you like to have it?"
@@ -2115,7 +2116,8 @@ msgstr "只要有财宝在前头，我就干！"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_4
 msgid "Bring me the key of Luthor and we can talk more. I don't know anything about the key itself, but rumor has it that it is located somewhere in the catacombs beneath Fallhaven Church."
-msgstr "如果你能给我路德的钥匙，我们可以多谈谈。我对那钥匙本身一无所知，但有传言说它位于法尔海文教堂的地下墓穴里。"
+msgstr "如果你能给我搞到路德之匙，那我们可以多谈谈。虽然我对那钥匙本身一无所知，但有"
+"传言说它位于法尔海文教堂的地下墓穴里。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_4:0
 msgid "OK, sounds easy enough."
@@ -2123,11 +2125,11 @@ msgstr "好的，听起来很简单。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue
 msgid "How is the search for the key of Luthor going?"
-msgstr "寻找路德的钥匙进展如何?"
+msgstr "寻找路德之匙进展如何?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue:1
 msgid "Here, I have it. The key of Luthor."
-msgstr "这里，我找到了。路德的钥匙。"
+msgstr "这里，我找到了。路德之匙。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue:2
 msgid "I'm still looking for it. Bye."
@@ -2135,7 +2137,7 @@ msgstr "我还在找呢。再见。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_complete_1
 msgid "Wow, you actually got the key of Luthor? I didn't think you would make it out of there."
-msgstr "哇，你真的拿到了路德的钥匙？我没想到你会成功。"
+msgstr "哇，你真的拿到了路德之匙？我都没想到你能成功。"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_complete_2
 msgid "Well done kid."
@@ -3607,7 +3609,7 @@ msgstr "谢谢你的帮助，我们不再需要担心瓦克的裂缝咒语了。
 
 #: conversationlist_fallhaven_unzel.json:unzel_40:0
 msgid "I have a message for you from Kaverin in Remgard."
-msgstr "我从瑞姆加德的卡维林那里给你带了个口信。"
+msgstr "我从瑞姆加德的卡维林那里给你带了封信。"
 
 #: conversationlist_wilderness.json:fallhaven_bandit
 msgid "Get lost kid. I don't have time for you."
@@ -4756,39 +4758,43 @@ msgstr "嘿，你真没用，再见。"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel1
 msgid "Hey, kid! Don't be so nosy!"
-msgstr ""
+msgstr "嘿，小鬼！你可别瞎管闲事！"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2a
 msgid ""
 "A sign says 'Jail'\n"
 "The exit above is blocked though."
 msgstr ""
+"牌子上写着“监狱”\n"
+"而前边的出口被封上了。"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2b
 msgid ""
 "A sign says 'Arcir'\n"
 "The exit above is blocked though."
 msgstr ""
+"牌子上写着“阿西尔”\n"
+"而前边的出口被封上了。"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2c
 msgid "Attention - the catacombs. Keep silent!"
-msgstr ""
+msgstr "注意事项——此处墓穴，禁止喧哗！"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3
 msgid "Looks like the tunnel isn't quite finished yet."
-msgstr ""
+msgstr "看起来这条隧道离完工还差不少的样子。"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:0
 msgid "Typical Troublemaker - can't finish anything."
-msgstr ""
+msgstr "不愧叫捣蛋鬼——做事这般有头无尾。"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:1
 msgid "So I have to go back the way I came."
-msgstr ""
+msgstr "看来我只能原路返回了。"
 
 #: conversationlist_farrik.json:farrik_1
 msgid "Hello. I heard that you helped us find the key of Luthor. Good work, it will really come in handy."
-msgstr "你好，我听说你帮我们找到了路德的钥匙。干得好，它真的会派上用场的。"
+msgstr "你好，我听说你帮我们找到了路德之匙。干得好，它确实会派上用场的。"
 
 #: conversationlist_farrik.json:farrik_1:1
 #: conversationlist_farrik.json:farrik_2:1
@@ -5305,7 +5311,7 @@ msgstr "关于钥匙你有什么要告诉我的吗？"
 
 #: conversationlist_umar.json:umar_return_1:10
 msgid "Crackshot is dead."
-msgstr "疯狂打靶已经死了。"
+msgstr "裂空已经死了。"
 
 #: conversationlist_umar.json:umar_return_1:11
 msgid "What am I supposed to do again?"
@@ -5503,7 +5509,7 @@ msgstr "我不能告诉你，找到他的方法是我们公会的核心机密之
 
 #: conversationlist_umar.json:umar_lodar_2
 msgid "However, I heard that you helped us find the key of Luthor. This is something we have been trying to get for a long time."
-msgstr "不过，我听说你帮我们找到了路德的钥匙，它是我们公会的梦寐以求之物。"
+msgstr "不过，我听说你帮我们找到了路德之匙，它是我们公会的梦寐以求之物。"
 
 #: conversationlist_umar.json:umar_lodar_3
 msgid "OK, I'll tell you how to get to Lodar's Hideaway. But you have to promise to keep it a secret. Do not tell anyone. Not even those that appear to be members of the Thieves' Guild."
@@ -5915,7 +5921,8 @@ msgstr "愿暗影与你同行，我的朋友。"
 #: conversationlist_stoutford.json:tahalendor_rumblings10x_0:5
 #: conversationlist_thoronir_faction_check.json:thoronir_start:4
 msgid "I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable."
-msgstr ""
+msgstr "有人施展了一道能让人变得格外引人注目的暗影咒语，我想要搞清楚施咒的人究竟是谁"
+"，你想问问你能不能提供些什么帮助。"
 
 #: conversationlist_jolnor.json:jolnor_chapel_1
 msgid "This is Vilegard's place of worship for the Shadow. We praise the Shadow in all its might and glory."
@@ -13226,23 +13233,23 @@ msgstr "你能给我什么祝福吗？"
 
 #: conversationlist_talion.json:talion_0:4
 msgid "Sorry, we were interrupted. You were just talking about the Striking Spectacle Shadow spell."
-msgstr ""
+msgstr "抱歉，我们之前聊一半被中断了，当时你有说到暗影显状咒什么的。"
 
 #: conversationlist_talion.json:talion_0:5
 msgid "Here I've brought you the things that you require for the dispelling."
-msgstr ""
+msgstr "你解咒所需的那些东西我都帮你带来了。"
 
 #: conversationlist_talion.json:talion_0:6
 msgid "Do you know the whereabouts of Sly Seraphina?"
-msgstr ""
+msgstr "你知道黠·塞拉菲娜的位置吗？"
 
 #: conversationlist_talion.json:talion_0:7
 msgid "I've brought you the things you had required for dispelling."
-msgstr ""
+msgstr "我已经帮你把你解咒所需的那些东西都带来过了。"
 
 #: conversationlist_talion.json:talion_0:8
 msgid "Haven't you forgotten something?"
-msgstr ""
+msgstr "你是不是忘了什么？"
 
 #: conversationlist_talion.json:talion_1
 msgid "The people of Loneford are very keen on following the will of Feygard, whatever it may be."
@@ -17495,7 +17502,8 @@ msgstr "遗憾的是，除了她失踪这一事实外，我们尚无任何头绪
 
 #: conversationlist_elythom_1.json:krell_jhaeld10
 msgid "For the sake of our order's reputation, please keep this to yourself if possible. We wouldn't want people to get the perception that the Knights of Elythom can be weakened in any way."
-msgstr "毕竟这关乎到我们骑士团的声誉，所以也请你不要把这件事说出去，我们可不想让外人觉得艾利索姆骑士团也会如此有所式微。"
+msgstr "毕竟这关乎到我们骑士团的声誉，所以也请你不要把这件事说出去，我们可不想让外人"
+"觉得伊黎索姆骑士团也会如此有所式微。"
 
 #: conversationlist_elythom_1.json:elythom_knight1
 msgid "Hello there. What can the Knights of Elythom do for you?"
@@ -17626,162 +17634,173 @@ msgstr "[杜埃娜就这样静静地盯着你]"
 
 #: conversationlist_rothses.json:rothses_c1
 msgid "Our hero enters my shop. I am honored. How may I help you? A new set of boots perhaps, or some new gloves?"
-msgstr "我们的英雄进入了我的商店。我很荣幸。我能帮到你什么？也许是一套新的靴子，或者一些新的手套？"
+msgstr "是我们的大英雄来了呀，我这小店算是蓬荜生辉啊。请问有什么能帮到你的吗？想看看"
+"这新靴子，还是想要新手套？"
 
 #: conversationlist_rothses.json:rothses_c1:0
 #: conversationlist_rothses.json:rothses_1:0
 #: conversationlist_rothses.json:rothses_2:0
 msgid "Let me see what you have for sale."
-msgstr "让我看看你卖些什么。"
+msgstr "请让我看看你都卖些什么。"
 
 #: conversationlist_rothses.json:rothses_c1:1
 msgid "Jhaeld told me you could help me improve my equipment."
-msgstr "贾尔德告诉我，你可以帮我改造装备。"
+msgstr "据贾尔德所说你可以帮我改进装备。"
 
 #: conversationlist_rothses.json:rothses_c2
 msgid "Oh yes, I can make modifications to most of our defensive equipment that I sell. Want me to look through your things to see if there's anything I can improve for you?"
-msgstr "哦，是的，我可以对我出售的大部分防御装备进行修改。拿出你的东西，看看有什么我可以帮你改造的地方？"
+msgstr "哦是的，我可以对我有出售的大部分防御装备进行调整。想让我看看你的东西中有些什"
+"么是我可以帮你改进的吗？"
 
 #: conversationlist_rothses.json:rothses_c2:0
 msgid "Sure, go ahead."
-msgstr "当然可以."
+msgstr "当然，来吧。"
 
 #: conversationlist_rothses.json:rothses_c2:1
 msgid "No, I would not want you going through my stuff."
-msgstr "不，我不想让你看我的东西。"
+msgstr "抱歉不行，我不太想让你翻看我的那些东西。"
 
 #: conversationlist_rothses.json:rothses_c3
 msgid "Sure. I would be honored to have you back if you change your mind."
-msgstr "当然，如果你改变主意，我很荣幸能请你回来。"
+msgstr "这当然没问题，而如果你改变主意的话，我完全可以回来告诉我，对此我很是荣幸的。"
 
 #: conversationlist_rothses.json:rothses_1
 msgid "Hi. How may I help you? A new set of boots perhaps, or some new gloves?"
-msgstr "你好。我能帮到你什么？也许是一双新的靴子，或者一双新的手套？"
+msgstr "你好，请问有什么能帮到你的吗？想看看这新靴子，还是想要新手套？"
 
 #: conversationlist_rothses.json:rothses_1:2
 msgid "How is business?"
-msgstr "生意如何？"
+msgstr "最近活计咋样啊？"
 
 #: conversationlist_rothses.json:rothses_2
 msgid "It's OK, I guess. Not as good as I would like it to be, now that the gates to the town are closed. But people here still seem to need new pieces of leather every now and then."
-msgstr "没关系，我想。没有我希望的那么好，现在镇上的大门已经关闭。但这里的人们似乎仍然时不时地需要新皮革。"
+msgstr "还行吧，我想。自从镇子一封，生意就没以前滋润了，不过本地的街坊邻里还是会隔三"
+"差五过来搞点料子打下补丁的。"
 
 #: conversationlist_rothses.json:rothses_3
 msgid ""
 "Oh, I don't know much about that. Funny you should ask.\n"
 "[Rothses gives you a suspicious look]"
 msgstr ""
-"哦，我对这一点了解不多。你问得真好。\n"
-"[罗瑟斯给你一个可疑的眼神]"
+"哦，对此我可是一点也不清楚，你问这问题干嘛。\n"
+"[罗瑟斯有所怀疑地瞧了你一眼]"
 
 #: conversationlist_rothses.json:rothses_3:0
 msgid "Are you sure? Anything you know or might have seen may be of interest."
-msgstr "你确定吗？你知道的或可能见过的任何可能感兴趣的东西。"
+msgstr "你肯定？事实上你所知道的或者瞧见地任何情况都有用。"
 
 #: conversationlist_rothses.json:rothses_4
 msgid "Well, you would think that I see most of what is going on here, considering my shop is this close to Remgard's connecting entrance bridge."
-msgstr "嗯，你可能会认为我看到这里的大部分事情，只因为我的商店离瑞姆加德的连接入口桥这么近。"
+msgstr "嗯哼，你是认为因为我的店铺靠近瑞姆加德的入口连接桥，所以我会很了解这里的动向"
+"吧。"
 
 #: conversationlist_rothses.json:rothses_5
 msgid "However, I don't know anything about it. *cough*"
-msgstr "然而，我对此一无所知。*咳嗽*"
+msgstr "然而事实是，我对此事一无所知。*咳咳*"
 
 #: conversationlist_rothses.json:rothses_5:1
 msgid "Did the guards ask you about what you know?"
-msgstr "警卫有问过你吗？"
+msgstr "卫兵有对你问过话吗？"
 
 #: conversationlist_rothses.json:rothses_6
 msgid "Oh yes, they've been around asking everyone. I told them everything I know, already."
-msgstr "哦，是的，他们在四处询问。我已经把我所知道的一切都告诉了他们。"
+msgstr "哦有的，他们有在四处都询问过情况，而我已经把我所知道的一切都告诉过了他们。"
 
 #: conversationlist_rothses.json:rothses_7
 msgid "I did see Bethir the night before she disappeared. She had some equipment to sell. Nothing out of the ordinary though."
-msgstr "在贝希尔失踪的前一天晚上，我确实看到了她。她有一些东西要卖。不过没有什么不寻常的地方。"
+msgstr "在贝丝失踪前一晚我确实有见到过她，她当时想来卖一些装备，并没有啥异常情况。"
 
 #: conversationlist_rothses.json:rothses_8
 msgid "I did not see where she went after that."
-msgstr "我没有注意她之后去了哪里。"
+msgstr "然后她去了哪儿我就不知道了。"
 
 #: conversationlist_rothses.json:rothses_9
 msgid "Look, I told all this to the guards before. Are you implying anything?"
-msgstr "听着，这一切我之前都告诉过守卫了。你想暗示什么吗？"
+msgstr "听着，该说的我之前都和卫兵说过了，你拐弯抹角想表达什么意思？"
 
 #: conversationlist_rothses.json:rothses_9:0
 msgid "I'll keep my eye on you."
-msgstr "我将继续关注你。"
+msgstr "我会持续关注你的。"
 
 #: conversationlist_rothses.json:rothses_9:1
 msgid "Thank you for your cooperation."
-msgstr "谢谢您的合作。"
+msgstr "谢谢您的配合。"
 
 #: conversationlist_rothses.json:rothses_19
 msgid "Look, I told you before."
-msgstr "听着，我以前告诉过你。"
+msgstr "听着，这事我之前回答过你了。"
 
 #: conversationlist_rothses.json:rothses_20
 msgid "Now, if you'll excuse me, I have things to do."
-msgstr "现在，如果你不介意的话，我还有其他事情要做。"
+msgstr "而现在，请谅解我手头还有事情要做。"
 
 #: conversationlist_rothses.json:rothses_imp_s0
 #: conversationlist_arghes.json:arghes_7
 msgid "Hmm, let me see."
-msgstr "嗯，让我看看。"
+msgstr "嗯…让我看看。"
 
 #: conversationlist_rothses.json:rothses_imp_n
 msgid "No, you don't seem to have anything that I can improve. Come back later and I might be able to help you."
-msgstr "不，你似乎没有什么我可以改造的物品。稍后再来，我也许能帮到你。"
+msgstr "啊，你似乎并不拥有什么我可以改进的物品。请以后再来找我吧，到时候我说不准就能"
+"帮到你了。"
 
 #: conversationlist_rothses.json:rothses_imp_shield
 msgid "That's a nice looking Remgard shield you have there. For 700 gold, I am able to improve it so that it blocks blows a bit better."
-msgstr "你的瑞姆加德盾牌看起来不错。只需花700金币，我就可以帮你改造它，使它能更好地挡住打击。"
+msgstr "你的这面瑞姆加德盾牌看起来不错。只需花700金币，我就可以帮你改造它，使它能更能"
+"承受打击一点。"
 
 #: conversationlist_rothses.json:rothses_imp_shield:1
 #: conversationlist_rothses.json:rothses_imp_gloves:1
 #: conversationlist_rothses.json:rothses_imp_armour:1
 msgid "Maybe later. Do I have anything else that you can improve?"
-msgstr "以后再说。我还有什么可以改造的东西吗？"
+msgstr "这以后再说，我想先问问我还有什么别的可以改进的东西吗？"
 
 #: conversationlist_rothses.json:rothses_imp_shield_2
 msgid "Here you go. One improved Remgard shield."
-msgstr "给你。一个改造的瑞姆加德盾牌。"
+msgstr "拿好了，这面改进过的瑞姆加德盾牌。"
 
 #: conversationlist_rothses.json:rothses_imp_shield_2:0
 #: conversationlist_rothses.json:rothses_imp_gloves_2:0
 #: conversationlist_rothses.json:rothses_imp_armour_2:0
 msgid "Do I have anything else that you can improve?"
-msgstr "我还有什么可以改造的东西吗？"
+msgstr "我还有什么别的可以改进的东西吗？"
 
 #: conversationlist_rothses.json:rothses_imp_shield_w
 msgid "That's a nice looking Remgard shield you are wearing. Remove it from your hands and I might be able to help you improve it, if you want."
-msgstr "你佩戴的瑞姆加德盾牌看起来不错。如果你愿意，我也许能帮你改造它。"
+msgstr "你现在佩戴着的这面瑞姆加德盾牌看起来不错。如果你想要我帮你改造它的话，你可以"
+"先将它取下来。"
 
 #: conversationlist_rothses.json:rothses_imp_gloves
 msgid "Those are some nice looking combat gloves you have there. For 300 gold, I am able to improve them so that they block blows a bit better."
-msgstr "你的战斗手套看起来不错。花300金币，我可以改造它们，使它们能更好地挡住打击。"
+msgstr "你的这副作战手套看起来不错。只需花300金币，我就可以帮你改造它，使它能更能承受"
+"打击一点。"
 
 #: conversationlist_rothses.json:rothses_imp_gloves_2
 msgid "Here you go. One pair of improved combat gloves."
-msgstr "给你。一副改造的战斗手套。"
+msgstr "拿好了，这副改进过的作战手套。"
 
 #: conversationlist_rothses.json:rothses_imp_gloves_w
 msgid "Those are some nice looking combat gloves you are wearing. Remove them from your hands and I might be able to help you improve them, if you want."
-msgstr "你所戴的战斗手套看起来很不错。如果你愿意，我也许能帮你改造它们。"
+msgstr "你现在佩戴着的这副作战手套看起来不错。如果你想要我帮你改造它的话，你可以先将"
+"它取下来。"
 
 #: conversationlist_rothses.json:rothses_imp_armour
 msgid "Now that is one fine looking chain mail you have there! For 3000 gold, I am able to improve it so that it not only blocks blows better, but also hinders your attacks less."
-msgstr "你的锁子甲看起来很不错!花3000金币，我可以改造它，使它不仅能更好地阻挡打击，还能减少对你的伤害。"
+msgstr "你的这件锁子甲看起来不错。只需花300金币，我就可以帮你改造它，不仅可以使它能更"
+"能承受打击一点，还可以让你免受些许的伤害。"
 
 #: conversationlist_rothses.json:rothses_imp_armour_2
 msgid "Here you go. One improved chain mail."
-msgstr "给你。一个改造的锁子甲。"
+msgstr "拿好了，这件改进过的锁子甲。"
 
 #: conversationlist_rothses.json:rothses_imp_armour_w
 msgid "Now that is one fine looking chain mail you are wearing. Remove it from your chest and I might be able to help you improve it, if you want."
-msgstr "你穿的是一件不错的锁子甲。如果你愿意，我也许能帮你改造它。"
+msgstr "你现在佩戴着的这件锁子甲看起来不错。如果你想要我帮你改造它的话，你可以先将它"
+"取下来。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager1
 msgid "I don't recognize you. You're not from Remgard, are you?"
-msgstr "我不认识你。你不是瑞姆加德人，是吗？"
+msgstr "我想我并不认识你，你应该不是瑞姆加德人吧？"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager1:0
 msgid "No, I am from a small settlement called Crossglen, and I am looking for my brother Andor."
@@ -17794,49 +17813,51 @@ msgstr "那好吧。祝你好运。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager2
 msgid "Don't get in my way, I'm trying to walk here, don't you see?"
-msgstr "别挡着我的路，我在向这边走，你没看到吗？"
+msgstr "别挡我的路啊，我在向这边走，你没看到吗？"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager2:0
 msgid "No problem, please go ahead."
-msgstr "没问题，请继续。"
+msgstr "没问题哈，那你前进吧。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager2:1
 msgid "No, you get out of *my* way!"
-msgstr "不，你别挡我的路!"
+msgstr "不对，是你挡了*我的*路！"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager2_2
 msgid "Hah! *snort*"
-msgstr "哈！ *哼哼*"
+msgstr "哈！ *哼*"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager3
 msgid "Have you seen my ring? I dropped it among these trees, I am sure. That was a pretty ring."
-msgstr "你看到我的戒指了吗？我肯定它掉在这些树丛间。那是一个漂亮的戒指。"
+msgstr "你有见过我的戒指吗？我肯定是把它掉在了这片树丛里了，那是一枚很漂亮的戒指。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager4
 #: conversationlist_brimhaven.json:brv_villager5
 msgid "Good day."
-msgstr "再会。"
+msgstr "祝你有美好的一天。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager5
 #: conversationlist_brimhaven.json:brv_villager4
 msgid "Excuse me, I have no time to talk."
-msgstr "对不起，我没有时间聊天。"
+msgstr "对不起，我现在没有时间来闲聊。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager6
 msgid "You are not from around here, are you? If you ever need a place to stay, visit the tavern. I hear that Kendelow has a room available for rent."
-msgstr "你不是这里的人，是吗？如果您需要住宿，请去小酒馆。我听说肯德洛有一间可供出租的房间。"
+msgstr "我想你不是本地人吧？如果你需要住宿的话可以去酒馆，我听说肯德洛现在有一间空着"
+"的客房。"
 
 #: conversationlist_remgard_villagers1.json:remgard_villager7
 msgid "I have heard strange noises from across the water of lake Laeroth. I wonder what lurks on the shores of the other side."
-msgstr "我听到了来自莱罗斯湖对岸的奇怪声音。我想知道另一边的岸边潜藏着什么。"
+msgstr "我早先时候听到有什么奇怪的声音从莱洛斯湖对面传来，真不知道那边的岸上是不是有"
+"什么在那儿。"
 
 #: conversationlist_remgard_villagers1.json:petdog
 msgid "Woof! *pant* *pant*"
-msgstr "汪汪!*喘气* *喘气*"
+msgstr "汪汪！*齁齁* *齁齁*"
 
 #: conversationlist_remgard_villagers1.json:taylin
 msgid "No, get away! They can't find me here. Don't give away my good hiding spot!"
-msgstr "不，走开！他们在这里找不到我。别把我的藏身之处给暴露出来！"
+msgstr "别啊，快走开！我躲在这里他们是找不到我的，别把我给暴露出来啊！"
 
 #: conversationlist_remgard_villagers1.json:larni_1
 msgid "Hey, get out of here! This is my house!"
@@ -17847,28 +17868,28 @@ msgid ""
 "[You see Larni holding his forehead]\n"
 "Hey, *cough* get out of here! This is ... *cough* ... my house!"
 msgstr ""
-"[你看到拉尔尼摸着他的额头]\n"
-"嘿，*咳*离开这里！这是... *咳嗽* ...我的房子！"
+"[你看到拉尔尼捂着他的额头]\n"
+"嘿，*咳咳*出去！这是*咳咳*我的房子！"
 
 #: conversationlist_remgard_villagers1.json:caeda:10
 msgid "I killed most of the trolls in the cave."
-msgstr "我杀了山洞里大部分的巨魔。"
+msgstr "我把山洞里大部分的巨魔都解决掉了。"
 
 #: conversationlist_remgard_villagers1.json:arnal_1
 msgid "Welcome to my shop. Would you like to see what I have available?"
-msgstr "欢迎来到我的商店。你想看看我有什么可用的东西吗？"
+msgstr "欢迎来到我的商店。你想看看我卖的东西吗？"
 
 #: conversationlist_remgard_villagers1.json:arnal_1:0
 #: conversationlist_remgard_villagers1.json:arnal_3:0
 #: conversationlist_brimhaven.json:truric_1_0:0
 msgid "Yes, please show me what you have."
-msgstr "是的，请给我看看你有什么。"
+msgstr "嗯，请给我看看你的东西吧。"
 
 #: conversationlist_remgard_villagers1.json:arnal_1:1
 #: conversationlist_remgard_villagers1.json:arnal_3:1
 #: conversationlist_remgard_villagers2.json:freen:0
 msgid "No thank you. Goodbye."
-msgstr "谢谢你,再见。"
+msgstr "不了谢谢，再会。"
 
 #: conversationlist_remgard_villagers1.json:arnal_2
 msgid "[Arnal clears his throat]"
@@ -17876,7 +17897,7 @@ msgstr "[阿娜尔清了清嗓子]"
 
 #: conversationlist_remgard_villagers1.json:arnal_3
 msgid "Welcome to ... *cough* ... my shop. Would you like ... *cough* ... to see what I have available?"
-msgstr "欢迎来到... *咳嗽* ...我的店。你有... *咳嗽* ...什么需要的吗？"
+msgstr "欢迎来到…*咳咳*…我的商店。你想*咳咳*看看我卖的东西吗？"
 
 #: conversationlist_remgard_villagers1.json:arnal_3:2
 msgid "Are you all right?"
@@ -17884,59 +17905,63 @@ msgstr "你还好吗？"
 
 #: conversationlist_remgard_villagers1.json:arnal_3:3
 msgid "Get away from me, I don't want to catch whatever it is you are infected with!"
-msgstr "离我远点，我不想染上你所感染的任何东西！"
+msgstr "离我远点啊，我可不想染上你那什么病！"
 
 #: conversationlist_remgard_villagers1.json:arnal_4
 msgid "I don't know what ... *cough* ... happened. I started getting dizzy and nauseous. Now this cough is really irritating. It must have been something I ate. *cough*"
-msgstr "我不知道...... *咳嗽*......发生了什么。我开始头晕恶心。现在这咳嗽真的很烦人。一定是因为我吃了什么东西。 *咳嗽*"
+msgstr "我不知道...... "
+"*咳咳*......这是怎么了，就是头晕以及恶心，而现在这咳嗽也是真的烦人。估计是因"
+"为我吃坏了肚子吧。 *咳咳*"
 
 #: conversationlist_remgard_villagers1.json:skylenar
 msgid "May you forever walk with the Shadow, my child."
-msgstr "愿你永远与暗影同行，我的孩子。"
+msgstr "愿暗影永远与你同行，我的孩子。"
 
 #: conversationlist_remgard_villagers1.json:skylenar_1
 msgid "I provide ... guidance to those that seek it. The Shadow guides us. It keeps us safe and comforts us when we sleep."
-msgstr "我为那些寻求它的人提供指导。暗影指引着我们。它保证了我们的安全，并在我们睡觉时安慰我们。"
+msgstr "我的职责是提供……指引给那些寻求之人。暗影会指引我们的，是它在使我们安全舒适地"
+"入眠。"
 
 #: conversationlist_remgard_villagers1.json:skylenar_2
 msgid "Lately, it seems Remgard has been in dire need of the comfort that the Shadow provides."
-msgstr "最近，瑞姆加德似乎非常需要暗影所提供的安慰。"
+msgstr "而最近的瑞姆加德似乎正急需暗影来慰藉。"
 
 #: conversationlist_remgard_villagers1.json:skylenar_2:0
 msgid "I see. Goodbye."
-msgstr "我明白了。再见。"
+msgstr "嗯，再见。"
 
 #: conversationlist_remgard_villagers1.json:atash
 msgid "The Shadow follows us wherever we go. Go with the Shadow my child."
-msgstr "无论我们走到哪里，暗影都会跟着我们。和暗影一起走，我的孩子。"
+msgstr "无论我们走到哪里，暗影都常伴着我们。跟随暗影吧，我的孩子。"
 
 #: conversationlist_remgard_villagers1.json:remgard_guard1
 msgid "I've got my eye on you. Don't do anything stupid."
-msgstr "我盯上了你。不要做任何愚蠢的事情。"
+msgstr "我可注意着你呢，可别犯傻事了。"
 
 #: conversationlist_remgard_villagers1.json:remgard_prison_guard
 msgid "Don't even think about it."
-msgstr "想都不要想。"
+msgstr "那种事情想也别想。"
 
 #: conversationlist_remgard_villagers1.json:remgard_drunk1
 msgid "*burp* Ha ha! I never thought she would! Or was it the other way around? I can't remember."
-msgstr "*爆笑*哈哈!我从没想过她会这样!或者是反过来？我不记得了。"
+msgstr "*噗嗤* 哈哈！我从没想过她会这样！或者是反过来来着？我想不起来了啊。"
 
 #: conversationlist_remgard_villagers1.json:remgard_drunk2
 msgid "*burp* This is the best place in all of the northern lands!"
-msgstr "*打嗝*这是所有北方土地上最好的地方！"
+msgstr "*嗝* 此地乃是整个大陆北方最棒的地儿啊！"
 
 #: conversationlist_remgard_villagers1.json:remgard_drunk2_2
 msgid "Oh, hello there. *burp* Kid, I tell you, don't go looking for trouble even if you think you can handle it."
-msgstr "哦，你好。 *打嗝*孩子，我告诉你，即使你认为你能应付，也不要去找麻烦。"
+msgstr "哦，小子你好啊，跟你说啊，做人啊不要没事找事，就算你觉得自己能扛事儿也不行。"
 
 #: conversationlist_remgard_villagers1.json:remgard_drunk2_3
 msgid "I did once, and ended up in those horrid caverns of Mount Galmore."
-msgstr "我去过一次，最后去到了加尔莫山那些可怕的洞穴。"
+msgstr "我以前有一次就验证过这个道理，那次我最终抵达了加尔莫山的那些恐怖洞穴中。"
 
 #: conversationlist_remgard_villagers1.json:remgard_drunk2_4
 msgid "That place twists your mind. I tell you, don't go there, even if you think you want to!"
-msgstr "那个地方会扭曲你的思想。我告诉你，不要去那里，即使你觉得想去!"
+msgstr "那个地方可是会扭曲你的思想的。我对你说哈，千万不要去那个地方，就算是自己想去"
+"也不行！"
 
 #: conversationlist_remgard_villagers1.json:remgard_drunk2_4:0
 msgid "Mount Galmore, where is that?"
@@ -17944,29 +17969,29 @@ msgstr "加尔莫山，那在哪儿？"
 
 #: conversationlist_remgard_villagers1.json:remgard_drunk2_4:1
 msgid "I'll keep that in mind."
-msgstr "我会牢记这一点。"
+msgstr "这点我会牢记的。"
 
 #: conversationlist_remgard_villagers1.json:remgard_drunk2_4:2
 msgid "Get out of my way!"
-msgstr "给我滚开！"
+msgstr "别挡我路啊！"
 
 #: conversationlist_remgard_villagers1.json:remgard_drunk2_5
 msgid "*burp* What was that? Were you saying something?"
-msgstr "*打嗝*是什么？你在说什么吗？"
+msgstr "*嗝* 那什么啊？你刚刚有对我说什么话吗？"
 
 #: conversationlist_remgard_villagers1.json:remgard_farmer1
 msgid "Oh, hello. I can't talk right now, must finish planting these crops."
-msgstr "哦你好。我现在没空，必须先把这些庄稼种完。"
+msgstr "哦你好，我现在正忙着呢，没法和你闲聊，我还得必须先把这些庄稼种完呢。"
 
 #: conversationlist_remgard_villagers1.json:remgard_farmer1:0
 #: conversationlist_remgard_villagers1.json:remgard_farmer2:0
 #: conversationlist_stoutford_combined.json:caeda_2:0
 msgid "Do you know where I can find some damerilias?"
-msgstr "我能在什么地方可以找到大马士革？"
+msgstr "请问你知道我能在什么地方可以找到绯鸢花吗？"
 
 #: conversationlist_remgard_villagers1.json:remgard_farmer2
 msgid "I hope the lands will be good to us this season."
-msgstr "我希望这一季的土地能对我们有好处。"
+msgstr "但愿今年的田能争气一点啊。"
 
 #: conversationlist_remgard_villagers1.json:chael
 msgid "[Chael gives you a blank stare]"
@@ -17974,157 +17999,161 @@ msgstr "[查尔白了你一眼]"
 
 #: conversationlist_remgard_villagers1.json:chael_2
 msgid "Chael chop wood. Wood make Chael happy."
-msgstr "查尔砍木头。木头让查尔高兴。"
+msgstr "查尔砍木头，木头让查尔高兴。"
 
 #: conversationlist_remgard_villagers1.json:morgisia
 msgid "Guards! Someone has broken into my room and is trying to rob me!"
-msgstr "守卫！有人闯进了我的房间，想抢劫我！"
+msgstr "卫兵呐！有人闯进了我的房间，要抢劫我啊！"
 
 #: conversationlist_remgard_villagers1.json:morgisia:0
 msgid "That's right. Hand over all your belongings and you may still live."
-msgstr "这就对了。交出你所有的财物，你还可以活下去。"
+msgstr "没错就是这样，快把身上的财物全交出来，然后饶你不死。"
 
 #: conversationlist_remgard_villagers1.json:morgisia:1
 msgid "But I was just..."
-msgstr "但我只是…"
+msgstr "但我只是……"
 
 #: conversationlist_remgard_villagers1.json:morgisia:2
 msgid "Sorry, I thought..."
-msgstr "对不起，我认为过……"
+msgstr "抱歉，我还以为……"
 
 #: conversationlist_remgard_villagers1.json:morgisia_1
 msgid "Help! Guards!"
-msgstr "救命啊！守卫！"
+msgstr "救命啊！卫兵呐！"
 
 #: conversationlist_remgard_villagers1.json:easturlie
 msgid "Hey, this is my house. Get out of here before I call the guards!"
-msgstr "嘿，这是我的家。在我叫守卫之前离开这里！"
+msgstr "嘿，这里是我的房子，趁我还没叫卫兵之前快滚！"
 
 #: conversationlist_kendelow.json:kendelow_1
 msgid "I heard that you helped us get rid of that witch Algangror. Thank you."
-msgstr "听说你帮我们干掉了那个女巫奥冈萝。谢谢你。"
+msgstr "听说你帮我们干掉了那个叫奥冈萝的女巫，谢谢你。"
 
 #: conversationlist_kendelow.json:kendelow_2
 msgid "Welcome to my tavern. I hope you will find your stay a pleasant one."
-msgstr "欢迎来到我的酒馆。我希望你会发现你的逗留是愉快的。"
+msgstr "欢迎来到我的酒馆，愿你在这儿度过一段愉快的时光。"
 
 #: conversationlist_kendelow.json:kendelow_d
 #: conversationlist_ervelyn.json:ervelyn_d
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10:0
 msgid "How may I be of service?"
-msgstr "我如何为您服务？"
+msgstr "请问你需要什么服务？"
 
 #: conversationlist_kendelow.json:kendelow_d:3
 msgid "Actually, I am wondering if it would be possible if I could cook some meat in your kitchen?"
-msgstr "事实上，我想知道我是否可以在你的厨房里煮一些肉？"
+msgstr "是这样的，我想知道我是否可以在你的厨房里煮一些肉？"
 
 #: conversationlist_kendelow.json:kendelow_shop
 msgid "Oh sure. Here, have a look."
-msgstr "哦，当然。在这里，看看。"
+msgstr "哦，当然没问题。这儿呢，来看看吧。"
 
 #: conversationlist_kendelow.json:kendelow_3
 msgid "Most people here in Remgard tend to their crops. Other than that, I hear that Arnal the armorer over on the western shore has some good business trading."
-msgstr "瑞姆加德的大多数人都会照料庄稼。除此之外，我听说西岸的军械商阿娜尔有一些不错的生意。"
+msgstr "瑞姆加德这儿的大多数人都从事与农活相关的活计。而至于西边岸上的锻造师阿娜尔，"
+"据说她生意做得不错。"
 
 #: conversationlist_kendelow.json:kendelow_4
 msgid "Also, we usually get a lot of visitors here in the tavern. Lately, it has been a lot fewer people in here though, with the closing of the bridge because of those missing people and all."
-msgstr "此外，我们通常会在小酒馆里接待很多游客。最近，这里的人少了很多，因为有人失踪了，桥都封了。"
+msgstr "还有我们的这间小酒馆，平时日子里的来客可不少。然而这阵子冷清喽，桥也封了，毕"
+"竟老有人失踪，这导致来这儿的人都少了好多。"
 
 #: conversationlist_kendelow.json:kendelow_5
 msgid "On your way in, maybe you noticed that we even have a visit from the Knights of Elythom here in the tavern? It seems that more and more people are becoming aware of the hospitality of Remgard."
-msgstr "在你来的时候，也许你注意到我们这里的酒馆里甚至有伊黎索姆骑士的来？看来，越来越多的人开始意识到瑞姆加德的好客。"
+msgstr "你刚进门时瞅见没？伊黎索姆骑士都在我们这酒馆歇脚呢。这正反映了我们瑞姆加德的"
+"热情好客被越来越多人晓得了。"
 
 #: conversationlist_kendelow.json:kendelow_5:0
 msgid "Thank you. I had some other questions."
-msgstr "谢谢。我还有其他一些问题。"
+msgstr "谢谢你，另外我还有其他一些问题要问。"
 
 #: conversationlist_kendelow.json:kendelow_room_2
 msgid "You have already rented my last room. We don't have any more rooms other than that one."
-msgstr "你已经租了我的最后一个房间。除了那个房间，我们没有更多的房间。"
+msgstr "你租下的那间房已经是最后一间了，我们这儿已经没有别的什么空房间了。"
 
 #: conversationlist_kendelow.json:kendelow_room_3
 msgid "Why, yes, as a matter of fact, there is. I have one very fine room available upstairs."
-msgstr "为什么，是的，事实上，有。我在楼上有一个非常好的房间。"
+msgstr "哟，巧了，还真有，我这儿楼上有间体面的房现在正闲着。"
 
 #: conversationlist_kendelow.json:kendelow_room_4
 msgid "The previous tenant left in a hurry some days ago."
-msgstr "前任房客几天前匆匆离开了。"
+msgstr "上一位租客几天前匆匆忙忙就走了。"
 
 #: conversationlist_kendelow.json:kendelow_room_5
 msgid "You may rent the room for as long as you like for only 600 gold."
-msgstr "只要你喜欢，你可以租用房间，只需600金币。"
+msgstr "那间房你想住多久住多久，总共只收你600金币。"
 
 #: conversationlist_kendelow.json:kendelow_room_5:0
 msgid "600 gold, are you mad!? That's a fortune."
-msgstr "600金币，你疯了吗！？这是一大笔钱。"
+msgstr "600金币，你疯了吗！？这可是很大一笔钱了。"
 
 #: conversationlist_kendelow.json:kendelow_room_5:1
 msgid "Is there anything you can do to lower the price?"
-msgstr "价格可以降低点吗？"
+msgstr "有什么办法能让这价格降一降吗？"
 
 #: conversationlist_kendelow.json:kendelow_room_5:2
 #: conversationlist_kendelow.json:kendelow_room_6a:0
 #: conversationlist_kendelow.json:kendelow_room_6b:0
 msgid "I'll take it. Here is the gold."
-msgstr "我要了。这是钱。"
+msgstr "就它了，钱在这儿。"
 
 #: conversationlist_kendelow.json:kendelow_room_5:3
 #: conversationlist_kendelow.json:kendelow_room_6a:1
 #: conversationlist_kendelow.json:kendelow_room_6b:1
 msgid "I don't have that much gold."
-msgstr "我没有那么多钱。"
+msgstr "可我没有那么多钱。"
 
 #: conversationlist_kendelow.json:kendelow_room_6a
 msgid "The price is fixed. I cannot go around handing out discounts to just anyone. Also, keep in mind that you may rent it for as long as you wish."
-msgstr "不行。不打折。另外，只要你愿意，你可以住多久都可以。"
+msgstr "这价改不了，总不能随便来个人我都给打个折吧。再说了，这间房住多久都行，这一点"
+"你可别忘了。"
 
 #: conversationlist_kendelow.json:kendelow_room_6b
 msgid "Since you helped us here in Remgard with that witch Algangror, I am prepared to offer you a discount. How about we say 400 gold for it instead?"
-msgstr "既然你在瑞姆加德帮助我们对付那个女巫奥冈萝，我准备给你打个折。400金币可以吗？"
+msgstr "你帮我们瑞姆加德收拾了那女巫奥冈萝，我说这价得降，只要400金币，咋样？"
 
 #: conversationlist_kendelow.json:kendelow_room_7
 msgid "You are welcome to return once you have the gold, if you are still interested."
-msgstr "如果您仍然感兴趣，您可以有钱再来。"
+msgstr "那么等你攒够金币了，要是到时候你还有想租房间的意思的话，尽管回来就是。"
 
 #: conversationlist_kendelow.json:kendelow_room_8
 msgid "Thank you. The room is upstairs. You may rent it for as long as you wish."
-msgstr "谢谢。房间在楼上。你想住多久就住多久。"
+msgstr "谢了。那房间就在楼上，你想住多久都行。"
 
 #: conversationlist_arghes.json:arghes_1
 msgid "You will find no business here, child."
-msgstr "你在这里找不到工作，孩子。"
+msgstr "这儿没你好掺和的事儿，孩子。"
 
 #: conversationlist_arghes.json:arghes_2
 msgid "How interesting. The child from Fallhaven, here in Remgard?"
-msgstr "很有意思。来自法尔海文的孩子，在瑞姆加德？"
+msgstr "真稀奇哟，一个来自法尔海文的孩子，居然出现在了瑞姆加德？"
 
 #: conversationlist_arghes.json:arghes_2:0
 msgid "I'm not from Fallhaven, I'm from Crossglen, west of Fallhaven."
-msgstr "我不是来自法尔海文，我来自法尔海文以西的克罗斯谷。"
+msgstr "我并非来自法尔海文，我来自法尔海文以西的克罗斯谷。"
 
 #: conversationlist_arghes.json:arghes_2:2
 msgid "How do you know where I am from?"
-msgstr "你怎么知道我来自哪里？"
+msgstr "你怎么知道我来自哪里的？"
 
 #: conversationlist_arghes.json:arghes_2:3
 msgid "And how interesting that you ordered a pair of 'Yellow boots'. Did you really order this?"
-msgstr "还有，你订了一双“黄靴”，真有意思。你真的订购了这个吗？"
+msgstr "稀奇事还有你订购了一双“黄靴子”呢。这真是你订购的吗？"
 
 #: conversationlist_arghes.json:arghes_3a
 msgid "Is that so? Hmm, most interesting. It does not change anything, however."
-msgstr "是这样吗？嗯，非常有趣。不过，这改变不了什么。"
+msgstr "是这样吗？嗯…这情况确实很稀奇，不过也大差不差。"
 
 #: conversationlist_arghes.json:arghes_3b
 msgid "Who I am is of no importance in this situation. You on the other hand, are most important."
-msgstr "在这种情况下，我是谁并不重要。你才是最重要的。"
+msgstr "在当前情形下我是谁并不重要；而你，则是至关重要的。"
 
 #: conversationlist_arghes.json:arghes_3c
 msgid "I know ... a great deal of things."
-msgstr "我知道……很多事情。"
+msgstr "我可是知道……很多事情的。"
 
 #: conversationlist_arghes.json:arghes_4
 msgid "$playername - yes, that is what they call you."
-msgstr "$playername - 是的，这就是他们对你的称呼。"
+msgstr "$playername——没错，大家都是这么叫你的。"
 
 #: conversationlist_arghes.json:arghes_4:0
 msgid "How do you know my name? Who are you?"
@@ -18132,15 +18161,15 @@ msgstr "你怎么知道我的名字？你是谁？"
 
 #: conversationlist_arghes.json:arghes_5
 msgid "Let's just say that I am a ... friend. You would do well to keep your ... friends close."
-msgstr "可以说我是......你的朋友。你最好和你的......朋友保持友好。"
+msgstr "姑且把我当作你的…朋友吧，而你可以和你的…朋友贴近些，错不了。"
 
 #: conversationlist_arghes.json:arghes_6
 msgid "Now, how may I help you? Equipment? Information?"
-msgstr "现在，有什么需要我帮忙的吗？装备？情报？"
+msgstr "而现在，有什么地方我能帮到忙的吗？装备？情报？"
 
 #: conversationlist_arghes.json:arghes_6:1
 msgid "What information do you have?"
-msgstr "你有什么情报？"
+msgstr "请问你有什么情报？"
 
 #: conversationlist_arghes.json:arghes_shop
 #: conversationlist_ervelyn.json:ervelyn_shop
@@ -18149,72 +18178,76 @@ msgstr "当然。"
 
 #: conversationlist_arghes.json:arghes_8
 msgid "No, I cannot tell you anything at this time. You are welcome to return once your path has become ... clearer."
-msgstr "不，我现在不能告诉你任何事情。一旦你的道路变得……更清晰，欢迎你回来。"
+msgstr "抱歉不行，我目前还不能告诉你任何事情，这要等你的道路变得……更加明了后，到时候"
+"我会欢迎你再来的。"
 
 #: conversationlist_remgard_villagers2.json:perester
 msgid "If you are looking for Duaina, she is out in the backyard."
-msgstr "如果你要找杜埃娜，她就在后院。"
+msgstr "如果你要找杜埃娜的话，她现在就在后院。"
 
 #: conversationlist_remgard_villagers2.json:freen
 msgid "Sorry, we are closed. If you want to practice your reading skills, please come back another day. If there is a specific book you are looking for, I might be able to help you."
-msgstr "抱歉，我们关门了。如果你想练习你的阅读技巧，请改天再来。如果您正在寻找特定的书籍，我也许可以帮您。"
+msgstr "不好意思啊，我们现在已经关门了。如果你想来练习你的读书技巧的话，请改天再来。"
+"如果你是在找某本特定的书的话，我说不定能帮到你。"
 
 #: conversationlist_remgard_villagers2.json:almars
 msgid "He he. They will never know what hit them."
-msgstr "呵呵。他们永远不会知道是什么击中了他们。"
+msgstr "呵呵，他们是永远都搞不清楚到底是啥出的手了吧。"
 
 #: conversationlist_remgard_villagers2.json:almars_1
 msgid "Oh, hello! Never mind me, I am just strolling along here. Nothing strange about that. See?"
-msgstr "哦你好！别介意我，我只是在这里闲逛。这没什么奇怪的。看？"
+msgstr "哦，你好！别在意我啦，我只是在这里瞎逛逛而已，这不挺平常的，不是吗？"
 
 #: conversationlist_remgard_villagers2.json:carthe_1
 msgid "*cough* Please leave me be. I haven't *cough* done anything!"
-msgstr "*咳嗽*请别管我。我没有*咳嗽*做任何事！"
+msgstr "*咳咳*请别管我哈，我啥事*咳咳*也没做！"
 
 #: conversationlist_remgard_villagers2.json:carthe_2
 msgid "Hey, what are you doing in here? Don't try any funny business."
-msgstr "嘿，你在这里做什么？不要尝试任何见不得人的勾当。"
+msgstr "嘿，你在这里做什么啊？别试着干出什么勾当来。"
 
 #: conversationlist_remgard_villagers2.json:emerei
 msgid "We don't get many visitors here these days. I hope you like what you see here in Remgard."
-msgstr "这段时间，我们这里的游客不多。我希望你喜欢你在瑞姆加德看到的东西。"
+msgstr "这阵子以来我们这里的游客可以说是冷冷清清，愿你喜欢瑞姆加德这儿现在的光景。"
 
 #: conversationlist_remgard_villagers2.json:janach
 msgid "This is no place for children. You had better leave."
-msgstr "这里不是孩子玩的地方。你最好离开。"
+msgstr "这里可不是小孩子该待的地方，你就赶紧走吧。"
 
 #: conversationlist_remgard_villagers2.json:perlynn
 msgid "See this? The harvested crops have begun to rot. Argh, I knew we should have fixed that door when we had the chance."
-msgstr "看到这个了吗？收割的庄稼已经开始腐烂。啊，我知道我们应该在有机会的时候修好那扇门。"
+msgstr "瞧见没？收回来的庄稼已经开始腐烂了。哎哟，早知道那会儿就该把门给修了。"
 
 #: conversationlist_remgard_villagers2.json:maelf
 msgid "Ah, isn't this place nice? What else could anyone wish for? This place has all that a man needs - good food, a warm bed and people to exchange stories with."
-msgstr "啊，这个地方不是很好吗？人们还能希望得到什么呢？这个地方有一个人所需要的一切--美味的食物、温暖的床和可以交流故事的人。"
+msgstr "啊，这地方不错吧？对于一个人来讲此外何求？这儿可是啥都不缺 —— "
+"好吃的、暖和的床，还有能分享故事的人。"
 
 #: conversationlist_ervelyn.json:ervelyn_gave1
 msgid "Hello again, my friend. You are always welcome here."
-msgstr "你好，我的朋友。这里随时欢迎您。"
+msgstr "又见面了，我的朋友，我们这里随时欢迎您的到来。"
 
 #: conversationlist_ervelyn.json:ervelyn_1
 msgid "Hello there. Welcome to my shop."
-msgstr "你好。欢迎来到我的商店。"
+msgstr "你好，欢迎来到我的商店。"
 
 #: conversationlist_ervelyn.json:ervelyn_d:1
 #: conversationlist_pathway_fallhaven.json:guard_pathway_0:2
 msgid "Never mind. Goodbye."
-msgstr "没关系。再见。"
+msgstr "没关系，再见。"
 
 #: conversationlist_ervelyn.json:ervelyn_give1
 msgid "It is you! I heard what you did, helping us with that witch Algangror. You have my thanks, friend!"
-msgstr "是你！我听说你做了什么，帮助我们对付那个女巫奥冈萝。感谢你，朋友！"
+msgstr "是你！你干的壮举我都听说了，是你帮助我们对付了那个叫奥冈萝的女巫。感谢你，朋"
+"友！"
 
 #: conversationlist_ervelyn.json:ervelyn_give2
 msgid "As a token of my appreciation, please accept this hat that I made. May it guide you through the blinding light."
-msgstr "作为感谢，请收下我制作的这顶帽子。愿它指引你穿过刺眼的光芒。"
+msgstr "这是我的一点心意，你就收下我制作的这顶帽子吧，愿它能帮你遮挡晃眼的强光。"
 
 #: conversationlist_reinkarr.json:reinkarr
 msgid "You look just like an adventurer. Tell me child, what brings you here?"
-msgstr "你看起来就像一个冒险家。告诉我孩子，是什么让你来到这里？"
+msgstr "你看起来就像个冒险家嘛。告诉我孩子，你来这儿做什么？"
 
 #: conversationlist_reinkarr.json:reinkarr:1
 msgid "I'm looking for my brother Andor."
@@ -18222,23 +18255,25 @@ msgstr "我在寻找我的哥哥安道尔。"
 
 #: conversationlist_reinkarr.json:reinkarr:2
 msgid "I'm just looking for trouble."
-msgstr "我只是在自找麻烦。"
+msgstr "我就是来找麻烦的。"
 
 #: conversationlist_reinkarr.json:reinkarr_2
 msgid "Ha ha, that sure sounds like an adventurer! Guts, that's what you need to be a successful adventurer, child. You don't seem to lack courage, if I may say so."
-msgstr "哈哈，这听起来确实像个冒险家！胆量，这就是你成为一个成功的冒险家所需要的，孩子。我可以这么说，你似乎并不缺乏勇气。"
+msgstr "哈哈，这听着可真像个冒险家会说的话！够大胆，这才是成功的冒险家所需要的品质；"
+"依我看，你可不缺这股胆量。"
 
 #: conversationlist_reinkarr.json:reinkarr_3
 msgid "I am Reinkarr. I guess you could call me an adventurer of sorts."
-msgstr "我是莱因卡尔。某种意义上我想你可以称我为冒险家。"
+msgstr "我叫莱因卡尔。要我说啊，某种层面上我也算是可以被称为一个冒险家吧。"
 
 #: conversationlist_reinkarr.json:reinkarr_3:0
 msgid "Any good tales to tell?"
-msgstr "有什么好消息可以讲吗？"
+msgstr "那你有什么惊艳事迹可以讲我听的吗？"
 
 #: conversationlist_reinkarr.json:reinkarr_4
 msgid "No, not really. I never got the hang of the whole adventuring business. Me and some other fellows went looking for these ... crystals ... that we had heard about."
-msgstr "不，不是真的。我从来没有掌握过整个冒险事业的窍门。我和其他一些人去寻找我们听说过的......水晶。"
+msgstr "没有，这我可没有，我甚至都没有窥到过冒险事业的门径。我只是曾和别的几个伙计一"
+"块儿寻找过一种我们有听说过的……水晶。"
 
 #: conversationlist_reinkarr.json:reinkarr_4:0
 msgid "What crystals?"
@@ -18246,75 +18281,79 @@ msgstr "什么水晶？"
 
 #: conversationlist_reinkarr.json:reinkarr_5
 msgid "Doesn't really matter. We never found any of them anyway."
-msgstr "其实并不重要。反正我们也没有找到他们中的任何一个。"
+msgstr "这事也没什么要紧的，反正我们压根没找到过它们。"
 
 #: conversationlist_reinkarr.json:reinkarr_5:0
 msgid "What crystals were you looking for?"
-msgstr "你在寻找什么水晶？"
+msgstr "请问你寻找的是什么水晶啊？"
 
 #: conversationlist_reinkarr.json:reinkarr_6
 msgid "They were called 'Oegyth crystals'. Supposedly very powerful and worth a fortune."
-msgstr "它们被称为 \"奥格斯晶体\"。据说非常强大，价值不菲。"
+msgstr "它们被称为 \"奥格斯水晶\"。据说其所蕴含的力量非常强大，价值不菲。"
 
 #: conversationlist_reinkarr.json:reinkarr_6:0
 msgid "I have one of those."
-msgstr "我有一个。"
+msgstr "这我就有其一。"
 
 #: conversationlist_reinkarr.json:reinkarr_6:1
 msgid "So what made you stop looking?"
-msgstr "那么是什么让你放弃寻找呢？"
+msgstr "那么是什么缘故让你现在不再寻找的呢？"
 
 #: conversationlist_reinkarr.json:reinkarr_6:2
 msgid "What are they?"
-msgstr "它是什么？"
+msgstr "那都是啥啊？"
 
 #: conversationlist_reinkarr.json:reinkarr_7
 msgid "Actually, all I know is that they are some sort of crystal. As I said, they are supposedly very powerful. We were only looking for them so that we could sell them and become rich."
-msgstr "事实上，我所知道的是，它们是某种水晶。正如我所说，它们应该是非常强大的。我们只是在寻找它们，我们找到了就可以卖掉它们，然后变得富有。"
+msgstr "事实上，我所知道的就只有它们算是某种水晶而已。正如我先前有讲过的，据说它们所"
+"蕴含的力量大得很。而我们去找它们只不过是想卖掉换钱过上好日子罢了。"
 
 #: conversationlist_reinkarr.json:reinkarr_7:0
 msgid "What made you stop looking?"
-msgstr "是什么让你放弃寻找？"
+msgstr "请问是什么缘故让你现在不再寻找的呢？"
 
 #: conversationlist_reinkarr.json:reinkarr_8
 msgid "Just the boredom of it, I guess. We never were any good at the whole fighting thing, and as such we never found one of those things."
-msgstr "我想，只是因为无聊。我们从来都不擅长战斗，因此我们从来没有找到那些东西。"
+msgstr "只是因为寻找的过程太枯燥了我想。同时我们至始至终也都不擅长战斗，因而我们也从"
+"来没有找到过那样东西。"
 
 #: conversationlist_reinkarr.json:reinkarr_9
 msgid "Anyway, it's been nice talking to you, kid. Take care."
-msgstr "总之，很高兴与你交谈，孩子。保重。"
+msgstr "不管怎么讲，很高兴能与你这样聊一番，孩子，请多保重。"
 
 #: conversationlist_reinkarr.json:reinkarr_oeg_1
 msgid "What!? You actually have one of those things? Let me see. Yes, that sure matches the description I read."
-msgstr "什么！？你真的有一个这样的东西？让我看看。是的，这和我了解到的一样."
+msgstr "什么！？你真的有一块？让我瞅一瞅。没错，它看起来就和读到过的所一致。"
 
 #: conversationlist_reinkarr.json:reinkarr_oeg_2
 msgid "You would do well to keep that to yourself, kid. Whatever you do, don't lose it, and don't go around showing it to everyone you might meet. You could get in serious trouble."
-msgstr "你最好把它收好，不要把它弄丢了，也不要到处向人炫耀它，否则你会惹上大麻烦的。"
+msgstr "你最好把它收好了，既不要把它给弄丢了，也不要到处向人炫耀，否则你会惹上大麻烦"
+"的。"
 
 #: conversationlist_reinkarr.json:reinkarr_oeg_2:0
 msgid "What can I do with it?"
-msgstr "我能用它做什么？"
+msgstr "那我能用它做什么啊？"
 
 #: conversationlist_reinkarr.json:reinkarr_oeg_3
 msgid "I hear there are merchants that would do anything to get their hands on some of those crystals. You should seek out the merchants in one of the larger cities, and ask them."
-msgstr "我听说有些商人会不惜一切代价弄到这些水晶。你应该在大城市寻找商人问问."
+msgstr "我听说有些商人会想尽一切办法获取这种水晶。你可以去大城市里试着寻找那些商人，"
+"去找他们问问看。"
 
 #: conversationlist_reinkarr.json:reinkarr_oeg_4
 msgid "Please be careful though!"
-msgstr "不过请小心！"
+msgstr "不过请时刻保持警惕！"
 
 #: conversationlist_remgard_idolsigns.json:jhaeld_bed_1
 msgid "You see a bed."
-msgstr "你看到一张床。"
+msgstr "你看到了一张床。"
 
 #: conversationlist_remgard_idolsigns.json:jhaeld_bed_2
 msgid "You see a bed. The idol is still where you left it."
-msgstr "你看到一张床。神像还在你离开的地方。"
+msgstr "你看到了一张床。塑像依旧在你放下的地方。"
 
 #: conversationlist_remgard_idolsigns.json:jhaeld_bed_3
 msgid "You see a bed, that you suppose must be Jhaeld's bed."
-msgstr "你看到一张床，你认为那一定是贾尔德的床。"
+msgstr "你看到了一张床，你猜想这张一定是贾尔德的床。"
 
 #: conversationlist_remgard_idolsigns.json:jhaeld_bed_3:0
 #: conversationlist_remgard_idolsigns.json:larni_bed_3:0
@@ -18322,7 +18361,7 @@ msgstr "你看到一张床，你认为那一定是贾尔德的床。"
 #: conversationlist_remgard_idolsigns.json:emerei_bed_3:0
 #: conversationlist_remgard_idolsigns.json:carthe_bed_3:0
 msgid "Hide one of the idols under the bed."
-msgstr "把其中一个神像藏在床下。"
+msgstr "把其中一个塑像藏在床下。"
 
 #: conversationlist_remgard_idolsigns.json:jhaeld_bed_3:1
 #: conversationlist_remgard_idolsigns.json:larni_bed_3:1
@@ -18330,7 +18369,7 @@ msgstr "把其中一个神像藏在床下。"
 #: conversationlist_remgard_idolsigns.json:emerei_bed_3:1
 #: conversationlist_remgard_idolsigns.json:carthe_bed_3:1
 msgid "Leave the bed alone."
-msgstr "离开床。"
+msgstr "离床而去。"
 
 #: conversationlist_remgard_idolsigns.json:jhaeld_bed_4
 #: conversationlist_remgard_idolsigns.json:larni_bed_4
@@ -18338,41 +18377,41 @@ msgstr "离开床。"
 #: conversationlist_remgard_idolsigns.json:emerei_bed_4
 #: conversationlist_remgard_idolsigns.json:carthe_bed_4
 msgid "You hide the idol under the bed."
-msgstr "你把神像藏在床底下。"
+msgstr "你把塑像藏在了床底下。"
 
 #: conversationlist_remgard_idolsigns.json:larni_bed_1
 #: conversationlist_remgard_idolsigns.json:arnal_bed_1
 #: conversationlist_remgard_idolsigns.json:emerei_bed_1
 #: conversationlist_remgard_idolsigns.json:carthe_bed_1
 msgid "You see a bed and nightstand."
-msgstr "你看到一张床和床头柜。"
+msgstr "你看到一张床以及一个床头柜。"
 
 #: conversationlist_remgard_idolsigns.json:larni_bed_2
 #: conversationlist_remgard_idolsigns.json:arnal_bed_2
 #: conversationlist_remgard_idolsigns.json:emerei_bed_2
 #: conversationlist_remgard_idolsigns.json:carthe_bed_2
 msgid "You see a bed and nightstand. The idol is still where you left it."
-msgstr "你看到一张床和床头柜。神像还在你放的地方。"
+msgstr "你看到一张床以及一个床头柜。塑像依旧在你放下的地方。"
 
 #: conversationlist_remgard_idolsigns.json:larni_bed_3
 msgid "You see a bed and nightstand. This must be Larni's bed."
-msgstr "你看到一张床和床头柜。这一定是拉尔尼的床。"
+msgstr "你看到一张床以及一个床头柜，这张一定是拉尔尼的床。"
 
 #: conversationlist_remgard_idolsigns.json:arnal_bed_3
 msgid "You see a bed and nightstand. This must be Arnal's bed."
-msgstr "你看到一张床和床头柜。这一定是阿娜尔的床。"
+msgstr "你看到一张床以及一个床头柜，这张一定是阿娜尔的床。"
 
 #: conversationlist_remgard_idolsigns.json:emerei_bed_3
 msgid "You see a bed and nightstand. This must be Emerei's bed."
-msgstr "你看到一张床和床头柜。这一定是埃默伊的床。"
+msgstr "你看到一张床以及一个床头柜，这张一定是埃默伊的床。"
 
 #: conversationlist_remgard_idolsigns.json:carthe_bed_3
 msgid "You see a bed and nightstand. This must be Carthe's bed."
-msgstr "你看到一张床和床头柜。这一定是卡思的床。"
+msgstr "你看到一张床以及一个床头柜，这张一定是卡思的床。"
 
 #: conversationlist_signs_v0611.json:remgard_tavern_room
 msgid "You are not allowed to enter this room until you have rented it."
-msgstr "在你租下这个房间之前，你是不允许进入这个房间的。"
+msgstr "在你租下此处之前，你仍是不被允许进入这间房间的。"
 
 #: conversationlist_signs_v0611.json:sign_waterway6
 msgid ""
@@ -18406,43 +18445,44 @@ msgstr ""
 
 #: conversationlist_signs_v0611.json:sign_remgard0
 msgid "Welcome to Lake Laeroth and the city of Remgard!"
-msgstr "欢迎来到莱洛斯湖和城市瑞姆加德！"
+msgstr "欢迎来到莱洛斯湖以及瑞姆加德城！"
 
 #: conversationlist_signs_v0611.json:wild16_cave
 msgid "The thicket is too dense for you to get through."
-msgstr "灌木丛太密了，你无法通过。"
+msgstr "枝条太密了，你无法通过。"
 
 #: conversationlist_signs_v0611.json:sign_wild16_r
 msgid "You squeeze through the narrow opening of the cave."
-msgstr "你挤过洞穴狭窄的口子。"
+msgstr "你挤过了此处洞穴的这个狭窄豁口。"
 
 #: conversationlist_signs_v0611.json:sign_wild16_1
 msgid "You squeeze through the narrow opening of the cave. The stale air that hangs heavy within the damp cave, with its hints of mold and old parchment, fills your nose."
-msgstr "你挤过山洞的狭窄开口。潮湿的山洞里弥漫着陈旧的空气，带有霉菌和旧羊皮纸的味道，充斥着你的鼻子。"
+msgstr "你挤过了此处洞穴的这个狭窄豁口。在这个潮乎乎的洞穴里，空气又闷又沉，一股子霉"
+"味混着旧羊皮纸的气息，直往你鼻子里钻。"
 
 #: conversationlist_signs_v0611.json:sign_wild16_2
 msgid "This must be the cave that the map leads to. This must be Vacor's old hideout."
-msgstr "这一定是地图上所说的那个山洞。这一定是瓦克的旧藏身处。"
+msgstr "这里一定就是地图上所标的那个山洞，一定是瓦克过去的藏身点了。"
 
 #: conversationlist_kaverin.json:kaverin_1
 msgid "From the looks of you, you don't seem to be from around here. That makes two of us then. He he."
-msgstr "看你的样子，你好像不是这里的人。这就我们两个人。呵呵。"
+msgstr "瞧你这模样，你好像不是本地人嘛。那咱俩都是外来的嘞，嘿嘿。"
 
 #: conversationlist_kaverin.json:kaverin_1:0
 msgid "I'm from the village of Crossglen, far to the west of here."
-msgstr "我来自克罗斯谷，远在这里的西部。"
+msgstr "我来自克罗斯谷村，离这儿往西老远了。"
 
 #: conversationlist_kaverin.json:kaverin_2
 msgid "Crossglen! I know that place, it's not far from Fallhaven, right?"
-msgstr "克罗斯谷!我知道那个地方，它离法尔海文不远，对吗？"
+msgstr "克罗斯谷！我知道那地方，它离法尔海文不远，对吧？"
 
 #: conversationlist_kaverin.json:kaverin_3
 msgid "I have an old ... shall we say ... friend ... from Fallhaven. Goes by the name of Unzel."
-msgstr "我有一个老......应该说是......朋友......来自法尔海文。他的名字叫恩泽尔。"
+msgstr "我在旧日里有个…… 怎么讲呢……算是朋友吧，他就是法尔海文的，名字叫恩泽尔。"
 
 #: conversationlist_kaverin.json:kaverin_4
 msgid "You wouldn't by any chance have met him, would you?"
-msgstr "你不会碰巧见过他吧？"
+msgstr "话说你会不会有可能正好碰见过他吧？"
 
 #: conversationlist_kaverin.json:kaverin_4:0
 msgid "No, I've never met him."
@@ -18450,67 +18490,68 @@ msgstr "不，我从未见过他。"
 
 #: conversationlist_kaverin.json:kaverin_4:1
 msgid "Yes, I've met that fool. He was an easy kill."
-msgstr "是的，我见过那个傻瓜。他是一个容易被杀死的人。"
+msgstr "是啊，我遇见过那蠢货，干掉他简直不费吹灰之力。"
 
 #: conversationlist_kaverin.json:kaverin_4:2
 msgid "Yes, I have met him. I still have some of his blood on my boots."
-msgstr "是的，我见过他。我的靴子上还有他的一些血迹。"
+msgstr "是啊，我遇见过他，我的靴子上现在还沾着他的血呢。"
 
 #: conversationlist_kaverin.json:kaverin_4:3
 msgid "Yes, I even helped him defeat a scoundrel named Vacor."
-msgstr "是的，我甚至帮助他打败了一个叫瓦克的恶棍。"
+msgstr "是啊，我甚至还帮他打败了一个叫瓦克的恶棍呢。"
 
 #: conversationlist_kaverin.json:kaverin_5
 msgid "I guess he keeps to himself. I sure hope he is OK. If you ever run into him, please say hi to him for me."
-msgstr "我猜他一直是自己一个人。我当然希望他没事。如果你遇到他，请替我向他问好。"
+msgstr "我想他确实不怎么和人来往，愿他一切安好。要是你碰巧遇到他的话，请代我向他问好"
+"。"
 
 #: conversationlist_kaverin.json:kaverin_5:0
 msgid "I'm trying to find my brother Andor, have you seen him?"
-msgstr "我正在努力寻找我的哥哥安道尔，你见过他吗？"
+msgstr "我正到处找我哥哥安道尔呢，请问你有见过他吗？"
 
 #: conversationlist_kaverin.json:kaverin_5b
 msgid "Andor? No, I'm sorry. I've never heard of him."
-msgstr "安道尔？不，我很抱歉。我从来没有听说。"
+msgstr "安道尔？我很抱歉并没有，我从来没有听说过叫这个名字的人。"
 
 #: conversationlist_kaverin.json:kaverin_6
 msgid "You?! But ... but ... this is terrible! I bet you are one of the goons of that Vacor fellow."
-msgstr "你？！但。。。这太可怕了！我敢打赌，你是那个瓦克一伙的。"
+msgstr "你？！可…… 可…… 这太可怕了！我敢打赌你就是那个叫瓦克的家伙的一个喽啰。"
 
 #: conversationlist_kaverin.json:kaverin_fight_1
 msgid "Oh yes, I can feel it. You work for Vacor! He must be stopped!"
-msgstr "哦，是的，我觉得。你在为瓦克工作！必须阻止他！"
+msgstr "哦没错，就是这样的。你在为瓦克做事！得阻止他才行！"
 
 #: conversationlist_kaverin.json:kaverin_7
 msgid "Excellent, that is good news indeed! May you walk with the Shadow, my friend!"
-msgstr "很好，这的确是个好消息!愿暗影与你同行，我的朋友!"
+msgstr "好极了，这可真是个好消息！愿暗影与你同行，我的朋友！"
 
 #: conversationlist_kaverin.json:kaverin_8r
 msgid "My friend from Fallhaven returns. It's comforting to hear that Unzel is still alive."
-msgstr "我在法尔海文的朋友回来了。听到恩泽尔还活着，我感到很欣慰。"
+msgstr "我的法尔海文朋友又有消息了啊。听闻到恩泽尔还活着，真是让人欣慰啊。"
 
 #: conversationlist_kaverin.json:kaverin_8
 msgid "Would you be willing to deliver a message to him?"
-msgstr "你愿意给他递个口信吗？"
+msgstr "你愿意替我给他捎个信不？"
 
 #: conversationlist_kaverin.json:kaverin_9
 msgid "You'd be well compensated for your efforts."
-msgstr "你的努力会得到很好的回报。"
+msgstr "你肯帮忙，这番辛苦是少不了好处的。"
 
 #: conversationlist_kaverin.json:kaverin_9:0
 msgid "Anything for the sake of the Shadow."
-msgstr "一切为了暗影。"
+msgstr "为了暗影，在所不辞。"
 
 #: conversationlist_kaverin.json:kaverin_9:2
 msgid "No, I am done helping you people."
-msgstr "不，我已经帮过你们了。"
+msgstr "不行，我已经帮够你们了。"
 
 #: conversationlist_kaverin.json:kaverin_decline1
 msgid "That is unfortunate, you seemed like such a bright boy too."
-msgstr "可惜了，你看起来也是个聪明的孩子。"
+msgstr "那可太可惜了，你瞧着也是个挺聪明的孩子啊。"
 
 #: conversationlist_kaverin.json:kaverin_decline2
 msgid "The friend from Fallhaven returns. Please leave me be, I have things to do."
-msgstr "法尔海文的朋友。 我可以离开一下吗,我有事情要做。"
+msgstr "我的法尔海文朋友又有消息了啊。而现在请别打扰我，我还有事请要做。"
 
 #: conversationlist_kaverin.json:kaverin_accept1
 msgid "Good, that's exactly what I wanted to hear."
@@ -18518,31 +18559,31 @@ msgstr "很好，这正是我想听到的。"
 
 #: conversationlist_kaverin.json:kaverin_accept2
 msgid "Make sure this doesn't fall into the hands of Feygard, or her loyalists."
-msgstr "确保这东西不会落入费加德或她的支持者手中。"
+msgstr "请务必确保这封信不会落入到费加德及她的效忠者的手中。"
 
 #: conversationlist_kaverin.json:kaverin_accept3
 msgid "[He gives you a sealed message]"
-msgstr "[他给你一个保密的信息]"
+msgstr "[他交给了你一封密封的信件]"
 
 #: conversationlist_kaverin.json:kaverin_accept3:0
 msgid "You can count on me, Kaverin."
-msgstr "你可以指望我，卡维林。"
+msgstr "你就放心好了，卡维林。"
 
 #: conversationlist_kaverin.json:kaverin_accept4
 msgid "Good. Now go deliver that message to Unzel."
-msgstr "很好。现在去把消息告诉恩泽尔。"
+msgstr "很好，现在去把消息告诉恩泽尔吧。"
 
 #: conversationlist_kaverin.json:kaverin_return1
 msgid "It's good to see you again. Have you delivered my message to Unzel?"
-msgstr "很高兴再次见到你。你有没有把我的话传达给恩泽尔？"
+msgstr "很高兴再次见到你。请问你把我的信交给恩泽尔了吗？"
 
 #: conversationlist_kaverin.json:kaverin_return1:0
 msgid "Yes, the message is delivered."
-msgstr "是的，已经和他说了。"
+msgstr "是的，信已经送达了。"
 
 #: conversationlist_kaverin.json:kaverin_return2
 msgid "Please don't take too long. Walk with the Shadow, my friend."
-msgstr "请不要花太长时间。与暗影同行，我的朋友。"
+msgstr "请别耽搁太长时间了，愿暗影与你同行，我的朋友。"
 
 #: conversationlist_kaverin.json:kaverin_done1
 msgid "Thank you, my friend. May you walk in the glow of the Shadow."
@@ -18550,47 +18591,48 @@ msgstr "谢谢你，我的朋友。愿你行走在暗影微光中。"
 
 #: conversationlist_kaverin.json:kaverin_done2
 msgid "Take this map as compensation for a job well done."
-msgstr "把这幅地图作为对你的报酬。"
+msgstr "而你的报酬就是这张地图。"
 
 #: conversationlist_kaverin.json:kaverin_done3
 msgid "We've discovered one of Vacor's hideouts, far to the south."
-msgstr "我们在南方很远的地方发现了瓦克的一个藏身处。"
+msgstr "过去我们在南方很远的地方发现过瓦克其中一个的藏身点。"
 
 #: conversationlist_kaverin.json:kaverin_done4
 msgid "Since you helped us stop him, it's fitting that you have this."
-msgstr "既然你帮助我们阻止了他，那么你获得这个就很合适。"
+msgstr "既然你之前帮助我们阻止了他，这证明你拿着这东西没什么问题。"
 
 #: conversationlist_kaverin.json:kaverin_done5
 msgid "According to the map, the hideout should be just to the northwest of the former prison of Flagstone. Feel free to take whatever is left in there."
-msgstr "根据地图，藏身处应该就在前石板监狱的西北部。你可以随意拿走里面剩下的任何东西。"
+msgstr "根据地图上的内容，这处藏身点应该就在石板监狱遗迹的西北边。那里剩下的想拿啥拿"
+"啥。"
 
 #: conversationlist_kaverin.json:kaverin_done6
 msgid "Walk with the Shadow, my friend."
-msgstr "与暗影同行，我的朋友。"
+msgstr "愿暗影与你同行，我的朋友。"
 
 #: conversationlist_kaverin.json:kaverin_done_ret
 msgid "Hello again. It's comforting to know that Unzel is still alive, and that you delivered my message to him."
-msgstr "又见面了。知道恩泽尔还活着，而且你把我的信息传递给他，这让我感到很欣慰。"
+msgstr "又见面了。听闻到恩泽尔还活着，你还帮我将信交给了他，这真是让人欣慰啊。"
 
 #: conversationlist_vacor2.json:vacor_msg1
 msgid "What's that in your hands?! ... I recognize that seal!"
-msgstr "你手里拿的是什么东西！...我认得那枚印章!"
+msgstr "你手里拿的是什么东西？！……我认得这个密封处的印戳！"
 
 #: conversationlist_vacor2.json:vacor_msg1:0
 msgid "You should recognize it, I found this on one of Unzel's associates in Remgard."
-msgstr "你应该认识它，我在瑞姆加德的一个恩泽尔的同伙身上发现了这个。"
+msgstr "你确实该认识的，这是我在瑞姆加德所遇到的一个恩泽尔的同伙身上发现的。"
 
 #: conversationlist_vacor2.json:vacor_msg1:1
 msgid "What? ... Oh, this?"
-msgstr "什么？……哦，这个？"
+msgstr "什么？……噢，这个？"
 
 #: conversationlist_vacor2.json:vacor_msg_a1
 msgid "Surely, he didn't just give it to you!"
-msgstr "当然，他不只是把它给了你!"
+msgstr "想必他不可能就这么平白地把它给你了！"
 
 #: conversationlist_vacor2.json:vacor_msg_a1:0
 msgid "He was asking too many questions. He needed to be silenced."
-msgstr "他问了太多的问题。他需要保持沉默。"
+msgstr "他问的问题太多了，我就只能让他永远地闭嘴了。"
 
 #: conversationlist_vacor2.json:vacor_msg_a2
 msgid "So, you killed him? Right?!"
@@ -18599,35 +18641,35 @@ msgstr "所以，你杀了他？对吧？！"
 #: conversationlist_vacor2.json:vacor_msg_a2:0
 #: conversationlist_vacor2.json:vacor_msg_b2:0
 msgid "Kaverin is dead. His blood is still on my boots."
-msgstr "卡维林已经死了。他的血还在我的靴子上。"
+msgstr "卡维林已经死了，我的靴子上现在还沾着他的血呢。"
 
 #: conversationlist_vacor2.json:vacor_msg_b1
 msgid "How did you get your hands on that document?!"
-msgstr "你是怎么得到那份文件的?!"
+msgstr "你是怎么得到这份文件的？！"
 
 #: conversationlist_vacor2.json:vacor_msg_b1:0
 msgid "A man in Remgard, by the name of Kaverin, was asking about Unzel..."
-msgstr "瑞姆加德的一个名叫卡维林的男人正在询问恩泽尔的事......"
+msgstr "瑞姆加德有个叫卡维林的人，我遇到他时一直在打听关于恩泽尔的事……"
 
 #: conversationlist_vacor2.json:vacor_msg_b2
 msgid "What happened boy?!"
-msgstr "发生了什么事，孩子?!"
+msgstr "咋了孩子？！"
 
 #: conversationlist_vacor2.json:vacor_msg_3
 msgid "Good, maybe now I can work on my Rift Spell in peace..."
-msgstr "很好，也许现在我可以静下心来研究我的裂变法术了......"
+msgstr "很好，现在说不定我终于能潜心钻研我的裂缝咒语了……"
 
 #: conversationlist_vacor2.json:vacor_msg_4
 msgid "I must have that document!"
-msgstr "我必须拥有那份文件!"
+msgstr "这份文件我要定了！"
 
 #: conversationlist_vacor2.json:vacor_msg_5
 msgid "I must know what they are planning!"
-msgstr "我必须知道他们在计划什么!"
+msgstr "我必须得知道他们现在在谋划着什么！"
 
 #: conversationlist_vacor2.json:vacor_msg_5:0
 msgid "Here, have the message."
-msgstr "在这方面,有消息了。"
+msgstr "那封信在这儿呢，给你。"
 
 #: conversationlist_vacor2.json:vacor_msg_5:1
 #: conversationlist_gison.json:gison_p1_40_2:1
@@ -18636,86 +18678,86 @@ msgstr "这对我有什么好处？"
 
 #: conversationlist_vacor2.json:vacor_msg_6
 msgid "I have a cache of potions hidden, far to the southwest."
-msgstr "我有一个药水库，藏在西南方向很远的地方。"
+msgstr "我拥有一处药水储备点，藏匿在西南方向很远的地方。"
 
 #: conversationlist_vacor2.json:vacor_msg_6:0
 msgid "Excellent, I could always use more supplies."
-msgstr "非常好，我总是可以使用更多的材料。"
+msgstr "非常好，这种储备对于我来说总是多多益善的。"
 
 #: conversationlist_vacor2.json:vacor_msg_7
 msgid "Good. Now give me the message."
-msgstr "很好。现在给我情报。"
+msgstr "很好，现在把信给我。"
 
 #: conversationlist_vacor2.json:vacor_msg_7:0
 msgid "Here is the message, Vacor."
-msgstr "这是情报，瓦克。"
+msgstr "信在这里，瓦克。"
 
 #: conversationlist_vacor2.json:vacor_msg_8
 msgid "Here, take this map as compensation for your troubles."
-msgstr "现在，这张地图会作为对你的报酬。"
+msgstr "喏，这张地图给你，就当是补偿你费的事了。"
 
 #: conversationlist_vacor2.json:vacor_msg_9
 msgid "It will lead you far to the southwest, to one of my secret retreats ... where a cache of potions is hidden."
-msgstr "它将把你引向西南方向，引向我的一个秘密藏身处......那里藏有一批药水。"
+msgstr "它会带你往西南走老远，到我的其中一处藏身点去…… 那里藏着些药水。"
 
 #: conversationlist_vacor2.json:vacor_msg_10
 msgid "[The map shows a location to the northwest of the former prison of Flagstone]"
-msgstr "[地图显示的位置在石板监狱的西北方]"
+msgstr "[这地图显示的位置在石板监狱遗迹的西北边]"
 
 #: conversationlist_vacor2.json:vacor_msg_11
 msgid "Now, let's see here."
-msgstr "现在，让我们看看这里。"
+msgstr "而现在，就让我来看看吧。"
 
 #: conversationlist_vacor2.json:vacor_msg_12
 msgid "[Vacor opens the sealed message and starts reading]"
-msgstr "[瓦克打开密封的信息并开始阅读]"
+msgstr "[瓦克拆开了密封的信并开始阅读了起来]"
 
 #: conversationlist_vacor2.json:vacor_msg_13
 msgid "Yes ... hmm ... really?! *mumbles* ...yes, indeed..."
-msgstr "是的......嗯......真的？*喃喃自语* ...是的，确实如此..."
+msgstr "好啊……嗯……有没有搞错？！*喃喃自语道* ……嗯，确实如此……"
 
 #: conversationlist_vacor2.json:vacor_msg_14
 msgid "Thanks kid, you have helped me more than you can possibly understand."
-msgstr "谢谢，你对我的帮助比你想象的要多。"
+msgstr "谢了小子，你是理解不了你对我的帮助有多大的。"
 
 #: conversationlist_vacor2.json:vacor_msg_15
 msgid "HA HA HA!!! THE POWER WILL SOON BE MINE!"
-msgstr "哈哈哈！！！。权力很快就会属于我!"
+msgstr "哈 哈 哈！！！这 力 量 很 快 就 是 我 的 囊 中 之 物 啦！"
 
 #: conversationlist_vacor2.json:vacor_msg_15:0
 msgid "Excellent! The Shadow must be stopped!"
-msgstr "好极了！必须阻止暗影!"
+msgstr "太棒了！暗影可要放任不下去了！"
 
 #: conversationlist_vacor2.json:vacor_msg_15:1
 msgid "I just wanted a reward... Weirdo."
-msgstr "我只是想要一个奖励...威尔多。"
+msgstr "我就是想要个奖励…… 怪家伙。"
 
 #: conversationlist_vacor2.json:vacor_msg_16
 msgid "Thanks for giving me that message, but now please leave me. I have more important things to do than to talk to you."
-msgstr "谢谢你给我这个消息，但现在请离开我。我有比和你说话更重要的事情要做。"
+msgstr "谢谢你把那封信带给我，但现在别打扰我了，我有更重要的事要忙，没时间跟你扯。"
 
 #: conversationlist_unzel2.json:unzel_msg1
 msgid "Kaverin, my old friend! It's good to hear that he is still alive. What is the message?"
-msgstr "卡维林，我的老朋友！很高兴听到他还活着。还有什么消息吗？"
+msgstr "卡维林，我的老朋友！很高兴听到他还活着。还有你说的信是什么情况？"
 
 #: conversationlist_unzel2.json:unzel_msg1:0
 #: conversationlist_fungi_panic.json:zuul_khan_115_20:0
 #: conversationlist_fungi_panic.json:zuul_khan_115_20:1
 #: conversationlist_gorwath.json:arensia_letter_10:0
 msgid "Here it is."
-msgstr "在这里。"
+msgstr "在这里呢。"
 
 #: conversationlist_unzel2.json:unzel_msg2
 msgid ""
 "Hmm, yes... Let's see...\n"
 "[Unzel opens the sealed message and reads it]"
 msgstr ""
-"嗯，是的...让我们看看...\n"
-"[恩泽尔打开密封的信件，并阅读它]"
+"嗯，好的……让我看看……\n"
+"[恩泽尔打开密封的信件，并阅读了起来]"
 
 #: conversationlist_unzel2.json:unzel_msg3
 msgid "Yes, this makes sense with what I have seen."
-msgstr "是的，以我所看到的，这是有道理的。"
+msgstr "嗯，这跟我所观察到的情况相匹配。"
 
 #: conversationlist_unzel2.json:unzel_msg4
 msgid "Thank you for bringing it to me."
@@ -18723,15 +18765,15 @@ msgstr "谢谢你把它带给我。"
 
 #: conversationlist_unzel2.json:unzel_msg5
 msgid "Your help could prove more valuable than you might realize."
-msgstr "你对我的帮助比你想象的大。"
+msgstr "你这帮到的忙估计要比你所料想到的还要大。"
 
 #: conversationlist_unzel2.json:unzel_msg6
 msgid "Say hello to my old friend Kaverin the next time you see him, will you?"
-msgstr "下次见到我的老朋友卡维林时，请代我向他问好，好吗？"
+msgstr "下次碰到我的老朋友卡维林的时候，请替我问好啊，行吗？"
 
 #: conversationlist_unzel2.json:unzel_msg_r0
 msgid "Hello again. Thank you for your help with defeating Vacor and bringing me the message from Kaverin."
-msgstr "又见面了。谢谢你帮助我打败了瓦克，并给我带来了卡维林的消息。"
+msgstr "又见面了。感谢你帮忙打败了瓦克，还将卡维林的信捎给了我。"
 
 #: conversationlist_v0612graves.json:sign_wild3_grave
 msgid "The cross reads: Rest in peace, my friend."
@@ -18739,47 +18781,48 @@ msgstr "十字架上写着：安息吧，我的朋友。"
 
 #: conversationlist_v0612graves.json:sign_wild6_stump
 msgid "You notice that the tree-stump is partially hollow, and looks like an excellent hiding place. It is empty now."
-msgstr "你注意到，这个树桩有一部分是空的，看起来是个很好的藏身之处。它现在是空的。"
+msgstr "你注意到这个树桩内有一部分地方是空的，看起来是个绝佳的隐藏点。它现在是空的。"
 
 #: conversationlist_v0612graves.json:sign_snakecave3_grave
 msgid "The ground around the grave is full of small holes, probably by something that has slithered its way to its nest down there. The cross has some writing on it, but you cannot understand what it says."
-msgstr "坟墓周围的地面上布满了小洞，可能是被什么东西滑到了下面的巢穴。十字架上有一些文字，但你无法理解上面写的是什么。"
+msgstr "坟墓周围的地面上布满了小洞，可能是某种会钻洞的家伙在钻入这下方自身的巢穴时所"
+"留下的痕迹。十字架上有一些文字，但你无法理解上面写的是什么。"
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave1
 msgid "Here lies Kargir the merchant."
-msgstr "商人卡吉尔就在这里。"
+msgstr "商人卡吉尔安息于此。"
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave2
 msgid "The stone is covered with a thin layer of green moss. The writing on the stone has eroded and is completely unreadable."
-msgstr "这块石头上覆盖着一层薄薄的绿色苔藓。石头上的文字已被侵蚀，完全看不清。"
+msgstr "这石头上覆着薄薄一层绿苔藓，上面的字都已经漫失，完全认不出来了。"
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave3
 msgid "Rest with the Shadow, one-legged Berth. She lived a full life, but in the end she could not stand up to the illness that befell her."
-msgstr "与暗影一起休息，独腿的贝丝。她活得很充实，但最终还是没能抵挡住降临在她身上的疾病。"
+msgstr "愿你与暗影同眠，独腿的贝丝。她度过了圆满的一生，但最终没能挺过那场疾病。"
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave4
 msgid "The remains of Kigrim lies here, after he was killed by wolves south of Fallhaven."
-msgstr "基格瑞姆在法尔海文以南被狼群杀死后，他的遗体就躺在这里。"
+msgstr "基格瑞姆的遗骸埋葬于此，他逝于狼群袭击，亡故于法尔海文以南。"
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave5
 msgid "Gimlont the corpulent lies here. May we finally be free from his fat hands being part of all of our businesses."
-msgstr "吉姆隆特这个大胖子躺在这里。愿我们最终能从他的胖手中解脱出来，成为我们所有业务的一部分。"
+msgstr "大胖子吉姆隆特埋在这儿。愿我们终能挣脱他肥腻之手对我们一切营生的桎梏。"
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave6
 msgid "Here lies Terdar the smith. May he forever be embraced by the comfort of the Shadow."
-msgstr "这里躺着铁匠泰达。愿他永远被暗影的安慰所拥抱。"
+msgstr "铁匠特达安息于此。愿暗影拥他入那永恒的舒眠之中。"
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave7
 msgid "Here lies O'llath, praised by her fellow citizens of Fallhaven for her delicious cakes."
-msgstr "这里躺着奥拉特，她因其美味的蛋糕而被法尔海文的同胞们称赞。"
+msgstr "奥拉丝长眠于此。她的美味蛋糕为她赢得了法尔黑文众人的赞誉。"
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave8
 msgid "Sidari the woodcutter lies here. We all told him to be careful with that axe of his, but he never listened."
-msgstr "樵夫西达里躺在这里。我们都告诉他要小心他的那把斧头，但他从来不听。"
+msgstr "樵夫西达里安息于此。我们都告诫过他要小心用他那把斧头，但他就是从来不听。"
 
 #: conversationlist_v0612graves.json:sign_fallhaven_ne_grave9
 msgid "Tyngose the noble lies here. May her legacy never be forgotten."
-msgstr "高贵的廷戈斯躺在这里。愿她的遗产永远不会被遗忘。"
+msgstr "贵族廷戈斯安息于此，愿她身后之物为世人所铭记。"
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave1
 msgid "Here lies the remains of Sir Eneryth's horse, Shadowsteed."
@@ -19722,7 +19765,8 @@ msgstr "又见面了，我的朋友。我希望你一直在使用我教你的东
 
 #: conversationlist_falothen.json:falothen1_10
 msgid "We usually don't teach anyone outside our settlement. Last time I did, I was given five Oegyth crystals and 5000 gold in return for my services."
-msgstr "我们通常不会教我们定居点以外的任何人。上次我这样做的时候，我得到了五颗奥格斯晶体和5000金币."
+msgstr "我们通常不会教我们定居点以外的任何人。上次我这样做的时候，我得到了五颗奥格斯"
+"水晶和5000金币."
 
 #: conversationlist_falothen.json:falothen1_11
 msgid "Seeing as you saved me, I think it's reasonable to only require two of those crystals from you. I still have expenses to pay, mind you, so I will require that gold."
@@ -19768,19 +19812,20 @@ msgstr "我已经教过你这个技能了。"
 
 #: conversationlist_falothen.json:falothen1_2nd_2hs1:0
 msgid "Sounds good. Teach me two-handed sword fighting. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我双手持剑作战。这里有两颗奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我双手持剑作战。这里有两颗奥格斯水晶和5000金币作为报酬。"
 
 #: conversationlist_falothen.json:falothen1_2nd_f1:0
 msgid "Sounds good. Teach me how to be better at unarmed fighting. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我如何在徒手格斗方面做得更好。这里有两块奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我如何在徒手格斗方面做得更好。这里有两块奥格斯水晶和5000金币作"
+"为报酬。"
 
 #: conversationlist_falothen.json:falothen1_2nd_1hs1:0
 msgid "Sounds good. Teach me how to fight with one-handed swords. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我如何用单手剑作战。这里有两颗奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我如何用单手剑作战。这里有两颗奥格斯水晶和5000金币作为报酬。"
 
 #: conversationlist_falothen.json:falothen1_2nd_d1:0
 msgid "Sounds good. Teach me how to fight with daggers. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我如何用匕首作战。这里有两颗奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我如何用匕首作战。这里有两颗奥格斯水晶和5000金币作为报酬。"
 
 #: conversationlist_falothen.json:falothen1_2nd_a1
 msgid "I can teach you how to get better at fighting with all types of axes, from the small hatchet up to the larger two-handed greataxes. That way, you can be very versatile in your choice of weapons."
@@ -19788,7 +19833,7 @@ msgstr "我可以教你如何更好地使用所有类型的斧头作战，从小
 
 #: conversationlist_falothen.json:falothen1_2nd_a1:0
 msgid "Sounds good. Teach me how to fight with axes. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我如何用斧头战斗。这里有两块奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我如何用斧头战斗。这里有两块奥格斯水晶和5000金币作为报酬。"
 
 #: conversationlist_falothen.json:falothen1_2nd_b0
 msgid "Now, blunt weapons is my way of categorizing everything from the simple club, to maces up to quarterstaves. The technique for using them well is mostly the same."
@@ -19796,7 +19841,7 @@ msgstr "现在，钝器是我对从简单的棍棒，到长矛，再到狼牙棒
 
 #: conversationlist_falothen.json:falothen1_2nd_b1:0
 msgid "Sounds good. Teach me how to fight with blunt weapons. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "听起来不错。教我如何使用钝器作战。这里有两块奥格斯晶体和5000金币作为报酬。"
+msgstr "听起来不错。教我如何使用钝器作战。这里有两块奥格斯水晶和5000金币作为报酬。"
 
 #: conversationlist_falothen.json:falothen1_15
 #: conversationlist_fayvara.json:fayvara1_15
@@ -19950,7 +19995,8 @@ msgstr "又见面了，我的朋友。我希望我教给你的东西是有用的
 
 #: conversationlist_fayvara.json:fayvara1_10
 msgid "We very rarely teach anyone outside our settlement, Falothen and I. I heard that Falothen taught someone a while ago and I heard that he was given five Oegyth crystals and 5000 gold in return."
-msgstr "我们很少教我们定居点以外的任何人。我听说法洛森不久前教过某人，我听说他得到了五颗奥格斯晶体和5000金币作为回报。"
+msgstr "我们很少教我们定居点以外的任何人。我听说法洛森不久前教过某人，我听说他得到了"
+"五颗奥格斯水晶和5000金币作为回报。"
 
 #: conversationlist_fayvara.json:fayvara1_11
 msgid "So I'm thinking something similar would suffice. Since as you're my friend, I won't charge as much as Falothen did but our settlement really needs the coin. Two of those crystals and 6000 gold should be well enough."
@@ -19978,19 +20024,20 @@ msgstr "我可以教你用盾牌更好地抵御攻击，这样你在使用盾牌
 
 #: conversationlist_fayvara.json:fayvara1_2nd_s1:0
 msgid "Sounds good. Teach me about shields. Here are two Oegyth crystals and 6000 gold as payment."
-msgstr "听起来不错。教我如何使用盾牌。这里有两块奥格斯晶体和6000金币作为报酬。"
+msgstr "听起来不错。教我如何使用盾牌。这里有两块奥格斯水晶和6000金币作为报酬。"
 
 #: conversationlist_fayvara.json:fayvara1_2nd_l1:0
 msgid "Sounds good. Teach me about light armors. Here are two Oegyth crystals and 6000 gold as payment."
-msgstr "听起来不错。请教我关于轻型盔甲的知识。这里有两个奥格斯晶体和6000金币作为报酬。"
+msgstr "听起来不错。请教我关于轻型盔甲的知识。这里有两个奥格斯水晶和6000金币作为报酬"
+"。"
 
 #: conversationlist_fayvara.json:fayvara1_2nd_h1:0
 msgid "Sounds good. Teach me about heavy armors. Here are two Oegyth crystals and 6000 gold as payment."
-msgstr "听起来不错。教教我重型盔甲吧。这里有两个奥格斯晶体和6000金币作为报酬。"
+msgstr "听起来不错。教教我重型盔甲吧。这里有两个奥格斯水晶和6000金币作为报酬。"
 
 #: conversationlist_fayvara.json:fayvara1_2nd_u1:0
 msgid "Sounds good. Teach me about unarmored combat. Here are two Oegyth crystals and 6000 gold as payment."
-msgstr "听上去很好。教我关于无装甲战斗的知识。这里有两个奥格斯晶体和6000金作为付款。"
+msgstr "听上去很好。教我关于无装甲战斗的知识。这里有两个奥格斯水晶和6000金作为付款。"
 
 #: conversationlist_hirazinn.json:hirazinn
 msgid "[The foul creature swings its many arms at you, while giving away a high-pitched shrieking sound]"
@@ -28998,7 +29045,8 @@ msgstr "他告诉我，它离这里很远，在东北边，越过河流和山脉
 
 #: conversationlist_stoutford_combined.json:stoutford_widow_6
 msgid "I've never been there, as he always said how dangerous that road was, but every year, for our anniversary, he went back to bring me a damerilia, the same flower he offered me on the day we met."
-msgstr "我从未去过那里，因为他总是说那条路有多危险，但每年在我们的结婚纪念日，他都会回去给我带一朵大马士革，也就是我们相遇那天他送给我的那朵。"
+msgstr "我从未去过那里，因为他总是说那条路有多危险，但每年在我们的结婚纪念日，他都会"
+"回去给我带一朵绯鸢花，也就是我们相遇那天他送给我的那朵。"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow_6:0
 msgid "How romantic!"
@@ -29018,7 +29066,7 @@ msgstr "他一定非常爱你。"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow_8
 msgid "I'd really love to place damerilias on his grave, as a symbol of our love."
-msgstr "我真的很想将大马士革放在他的坟墓上，作为我们爱的象征。"
+msgstr "我真的很想将绯鸢花放在他的坟墓上，作为我们爱的象征。"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow_8:0
 msgid "What a nice idea!"
@@ -29070,15 +29118,15 @@ msgstr "无论如何，谢谢你听我说话。我祝愿你一切顺利。"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow_roots10_0
 msgid "You're back! Have you found some damerilias yet?"
-msgstr "你回来了!你找到一些大马士革了吗？"
+msgstr "你回来了!你找到一些绯鸢花了吗？"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow_roots10_0:0
 msgid "Yes. Here they are, three of the most beautiful damerilias."
-msgstr "是的，它们在这里，三个最美丽的大马士革。"
+msgstr "是的，它们在这里，三个最美丽的绯鸢花。"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow_roots10_0:1
 msgid "Yes. Here they are, two of the most beautiful damerilias."
-msgstr "是的，它们在这里，两个最美丽的大马士革。"
+msgstr "是的，它们在这里，两个最美丽的绯鸢花。"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow_roots10_0:2
 msgid "Yes. Here it is, the most beautiful one."
@@ -29090,7 +29138,7 @@ msgstr "哦。如果你找到一些，再来找我，好吗？"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow_roots10_1a
 msgid "Oh. But that is not enough - what would that look like! There must be at least 3 damerilias for the grave. Please..."
-msgstr "哦。但这是不够的--那会是什么样子！？坟墓至少要有3个大马士革。求你了..."
+msgstr "哦。但这是不够的--那会是什么样子！？坟墓至少要有3个绯鸢花。求你了..."
 
 #: conversationlist_stoutford_combined.json:stoutford_widow_roots10_1a:0
 msgid "Alright. I'll go there again."
@@ -29107,7 +29155,7 @@ msgstr "哦，又是你。"
 
 #: conversationlist_stoutford_combined.json:caeda_3:0
 msgid "Thank you for the damerilias."
-msgstr "谢谢你的大马士革。"
+msgstr "谢谢你的绯鸢花。"
 
 #: conversationlist_stoutford_combined.json:caeda_root10_0
 msgid "What a strange request!"
@@ -29135,11 +29183,11 @@ msgstr "是的，那就是他。他非常爱阿利弗拉。我从来没有机会
 
 #: conversationlist_stoutford_combined.json:caeda_root10_3a
 msgid "Every year he came to pick the most beautiful damerilia to give it to her as a present."
-msgstr "每年他都会来挑选最漂亮的大马士革，作为礼物送给她。"
+msgstr "每年他都会来挑选最漂亮的绯鸢花，作为礼物送给她。"
 
 #: conversationlist_stoutford_combined.json:caeda_root10_3a:0
 msgid "Yes, Aryfora told me. She asked me to bring her some damerilias for Noraed's grave."
-msgstr "是的，阿利弗拉告诉我了。她让我给她带些大马士革来给诺拉德上坟。"
+msgstr "是的，阿利弗拉告诉我了。她让我给她带些绯鸢花来给诺拉德上坟。"
 
 #: conversationlist_stoutford_combined.json:caeda_root10_4
 msgid "I still have some. Here, take these to her, and send her my condolences."
@@ -29155,7 +29203,7 @@ msgstr "所有这些麻烦都是为了一束发臭的花......。"
 
 #: conversationlist_stoutford_combined.json:caeda_root10_5
 msgid "These damerilias are not really good any more. You should get fresh ones from my family's glade north of Remgard."
-msgstr "这些大马士革已经不怎么好了。你应该从瑞姆加德以北我家的小树林里买些新鲜的。"
+msgstr "这些绯鸢花已经不怎么好了。你应该从瑞姆加德以北我家的小树林里买些新鲜的。"
 
 #: conversationlist_stoutford_combined.json:caeda_root10_5:0
 msgid "How would I get to your glade?"
@@ -29183,11 +29231,12 @@ msgstr "突然间，到处都是巨魔。我勉强逃了出来，但我一定是
 
 #: conversationlist_stoutford_combined.json:caeda_root10_8:0
 msgid "Your damerilias do look a bit wilted. I will go to your glade."
-msgstr "你的大马士革看起来确实有点枯萎了。我会去你的绿地。"
+msgstr "你的绯鸢花看起来确实有点枯萎了。我会去你的绿地。"
 
 #: conversationlist_stoutford_combined.json:caeda_root10_8:1
 msgid "Eh, OK. This isn't worth the trouble. Fresh damerilias wouldn't look different after my travel back. Thank you, I will return to Stoutford directly."
-msgstr "呃，好吧。这不值得这么麻烦。新鲜的大马士革在我回去后看起来不会有什么不同。谢谢你，我将直接返回斯托福德。"
+msgstr "呃，好吧。这不值得这么麻烦。新鲜的绯鸢花在我回去后看起来不会有什么不同。谢谢"
+"你，我将直接返回斯托福德。"
 
 #: conversationlist_stoutford_combined.json:caeda_root10_8a
 msgid "Farewell then. Give my greetings to my sister-in-law."
@@ -29228,7 +29277,7 @@ msgstr "我在寻找我的哥哥安道尔。你见过他吗？"
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_14:1
 msgid "I am looking for some flowers called damerilias."
-msgstr "我正在寻找一些叫做大马士革的花。"
+msgstr "我正在寻找一些叫做绯鸢花的花。"
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_14:2
 msgid "Someone lost a key here. Once I have found the key, you can have your wet, dark hole to yourself again."
@@ -29247,16 +29296,17 @@ msgid ""
 "Everyone is after my damerilias! For what? Such ugly, stinking things!\n"
 "No, I won't give you a single one. And you really should leave now, before I get hungry!"
 msgstr ""
-"每个人都在追求我的大马士革！为了什么？这么丑、臭的东西！\n"
+"每个人都在追求我的绯鸢花！为了什么？这么丑、臭的东西！\n"
 "不，我一个也不会给你。你真的应该在我饿之前离开！"
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_30:0
 msgid "What do you need damerilias for, if you don't like them?"
-msgstr "如果你不喜欢它们，你需要大马士革做什么？"
+msgstr "如果你不喜欢它们，你需要绯鸢花做什么？"
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_32
 msgid "The damerilias attract food for me; tasty, delicate, little people. Catching them is kind of a sport for me. It makes eating more fun."
-msgstr "大马士革为我吸引食物;美味，精致，小人。捕捉它们对我来说是一项运动。它使饮食更有趣。"
+msgstr "绯鸢花为我吸引食物;美味，精致，小人。捕捉它们对我来说是一项运动。它使饮食更有"
+"趣。"
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_34
 msgid "But talking about food with a troll is not the smartest idea..."
@@ -29268,7 +29318,8 @@ msgstr "对。我还有一个问题。"
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_40
 msgid "What do you know about the key? I keep the key safe. Are you associated with that thief who comes once a year and steals my damerilias?"
-msgstr "你对这把钥匙了解多少？我把钥匙保管好了。你和那个每年来偷我的大马士革的小偷有关系吗？"
+msgstr "你对这把钥匙了解多少？我把钥匙保管好了。你和那个每年来偷我的绯鸢花的小偷有关"
+"系吗？"
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_40:0
 msgid "Do you mean Noraed? He is dead."
@@ -29284,7 +29335,7 @@ msgstr "我是如此期待着吃他。"
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_52:0
 msgid "I would like to take some damerilias for his grave."
-msgstr "我想为他的坟墓采取一些大马士革。"
+msgstr "我想为他的坟墓采取一些绯鸢花。"
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_60
 msgid "Forget it. Especially because you know those people who built that terrible statue near the entrance."
@@ -29304,7 +29355,7 @@ msgstr "如果你把那个可怕的雕像移走，我可能会放你走。也许
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_64:0
 msgid "[Lie] Agreed. Bring the Damerilias first."
-msgstr "[谎言]同意。先把大马士革带来。"
+msgstr "[谎言]同意。先把绯鸢花带来。"
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_64:1
 msgid "No. That statue is a blessing for the people here. Even if I could, I would not tear it down."
@@ -29427,7 +29478,8 @@ msgstr "这都是为了暗影。"
 
 #: conversationlist_stoutford_combined.json:caeda_root60_1
 msgid "Yes, of course. I will give you my father's key. Keep it. Then you can always pick damerilias for Noraed's grave."
-msgstr "是的，当然了。我把我父亲的钥匙给你。留着它吧。然后你就可以随时为诺拉德的坟墓采摘大马士革。"
+msgstr "是的，当然了。我把我父亲的钥匙给你。留着它吧。然后你就可以随时为诺拉德的坟墓"
+"采摘绯鸢花。"
 
 #: conversationlist_stoutford_combined.json:caeda_root60_1:0
 msgid "That would be great, thank you."
@@ -29443,7 +29495,7 @@ msgstr "所以我将在那里和你见面。再见。"
 
 #: conversationlist_stoutford_combined.json:remgard_farmer2_roots10_0
 msgid "Damerilias. I haven't seen one in a long time. Try with Caeda, she used to give us a damerilia sometimes."
-msgstr "大马士革。我已经很久没有看到过了。和卡埃达一起试试，她有时会给我们一个大马士革。"
+msgstr "绯鸢花。我已经很久没有看到过了。和卡埃达一起试试，她有时会给我们一个绯鸢花。"
 
 #: conversationlist_stoutford_combined.json:remgard_farmer2_roots10_0:1
 msgid "Caeda?"
@@ -29862,7 +29914,8 @@ msgstr "很高兴看到你再次高兴。"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_2
 msgid "Well, no. Somehow I have the feeling that you did not always tell the truth about the damerilias. I don't think that you are old enough to get such a potent potion."
-msgstr "嗯，没有。不知怎的，我有种感觉，你没说出关于大马士革的真相。我不认为你已经老到可以得到如此强效的药水。"
+msgstr "嗯，没有。不知怎的，我有种感觉，你没说出关于绯鸢花的真相。我不认为你已经老到"
+"可以得到如此强效的药水。"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_2:0
 msgid "Then let me see your other potions, please."
@@ -29877,12 +29930,12 @@ msgid ""
 "I won't sell this potion for money. You can pay me in flowers - damerilias of course.\n"
 "I will give you one potion of deftness for three damerilias."
 msgstr ""
-"我不会为了钱而出售这种药水。你可以用花来支付我--当然是大马士革。\n"
-"我给你一个灵巧的药水，换取三个大马士革。"
+"我不会为了钱而出售这种药水。你可以用花来支付我--当然是绯鸢花。\n"
+"我给你一个灵巧的药水，换取三个绯鸢花。"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_3:0
 msgid "OK, I have some damerilias with me."
-msgstr "好的，我有一些大马士革。"
+msgstr "好的，我有一些绯鸢花。"
 
 #: conversationlist_stoutford_combined.json:stoutford_widow2_3:1
 #: conversationlist_omi2.json:ehrenfest_6a:0
@@ -32756,7 +32809,7 @@ msgstr "这是我的工作。很高兴看到你从那些脚踝伤者中幸存下
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10:2
 msgid "Hmm, maybe you can help me?"
-msgstr ""
+msgstr "呃…或许我能帮到你？"
 
 #: conversationlist_omicronrg9.json:umar_guild_4b
 msgid "What have you decided?"
@@ -33709,7 +33762,8 @@ msgstr "而你认为叛徒与此有关？"
 
 #: conversationlist_omicronrg9.json:umar_guild03_13
 msgid "I'm pretty sure about it. The team leader is the one we call \"Crackshot\", as he is a master of murder, torture and the subjugation arts. He's really a dangerous man."
-msgstr "我很确定。组长是我们称之为 \"疯狂打靶 \"的人，因为他是谋杀、酷刑和征服艺术的大师。他真的是个危险人物。"
+msgstr "我很确定。组长是我们称之为 \"裂空 \""
+"的人，因为他是谋杀、酷刑和征服艺术的大师。他真的是个危险人物。"
 
 #: conversationlist_omicronrg9.json:umar_guild03_13:0
 msgid "So, do you have a plan?"
@@ -33753,7 +33807,8 @@ msgstr "我会的，我保证。再见。"
 
 #: conversationlist_omicronrg9.json:umar_guild03_16
 msgid "Whatever, I do believe you are capable. Regardless, be cautious with Crackshot. He's powerful, and his attacks can severely wound or kill you. Clear?"
-msgstr "无论如何，我相信你有能力。无论如何，请谨慎对待疯狂打靶。他很强大，他的攻击可以严重伤害或杀死你。明白了吗？"
+msgstr "无论如何，我相信你有能力。无论如何，请谨慎对待裂空。他很强大，他的攻击可以严"
+"重伤害或杀死你。明白了吗？"
 
 #: conversationlist_omicronrg9.json:umar_guild03_16:0
 msgid "Bah, words are worth nothing now. It's going to be a nice fight."
@@ -33769,7 +33824,7 @@ msgstr "如果你这么说。你的自信是你性格的优点。"
 
 #: conversationlist_omicronrg9.json:umar_guild03_17b
 msgid "However, there's still a problem. We're not completely sure about the location of Crackshot's new hideout."
-msgstr "但是，仍然存在一个问题。我们并不完全确定疯狂打靶新藏身处的位置。"
+msgstr "但是，仍然存在一个问题。我们并不完全确定裂空新藏身处的位置。"
 
 #: conversationlist_omicronrg9.json:umar_guild03_17b:0
 msgid "What? How I will find him then?"
@@ -33833,7 +33888,7 @@ msgstr "请记住，这是一项重要任务！别忘了！"
 
 #: conversationlist_omicronrg9.json:umar_guild03_21
 msgid "First, you must find Crackshot's hideout."
-msgstr "首先，你必须找到疯狂打靶的藏身之处。"
+msgstr "首先，你必须找到裂空的藏身之处。"
 
 #: conversationlist_omicronrg9.json:umar_guild03_22
 msgid "Then you will have to deal with him and his henchmen, and finally bring back the Key of Luthor to us."
@@ -34261,16 +34316,14 @@ msgid ""
 "(The dying Crackshot is in agony. He looks at you despairingly)\n"
 "It is curs...sed."
 msgstr ""
-"（垂死的疯狂打靶正在痛苦中。他绝望地看着你）\n"
+"（垂死的裂空正在痛苦中。他绝望地看着你）\n"
 "这是诅咒...镇压."
 
 #: conversationlist_omicronrg9.json:guild03_hideout3_exit_3
 msgid ""
 "The key is cursed .... She ... I am ... (Crackshot finally dies, emitting a soft bluish breath)\n"
 ""
-msgstr ""
-"钥匙是被诅咒的....她...我是...(疯狂打靶终于死了，发出了柔和的蓝色气息。）\n"
-""
+msgstr "钥匙是被诅咒的....她...我是...(裂空终于死了，发出了柔和的蓝色气息。）\n"
 
 #: conversationlist_omicronrg9.json:guild03_hideout3_exit_3:0
 msgid "Bah .... Too many questions. I need to come back."
@@ -34428,7 +34481,8 @@ msgstr "我会的，这一点毋庸置疑。"
 
 #: conversationlist_omicronrg9.json:umar_guild03_31a
 msgid "And last but not least, I have some useful information for you. The way from here to the southeast has finally been opened, once Crackshot's hideout was discovered."
-msgstr "最后，同样重要的一点是，我有一些有用的情报跟你分享。同样东南方向的道路已经开通，曾经有人在那发现疯狂打靶的藏身之处。"
+msgstr "最后，同样重要的一点是，我有一些有用的情报跟你分享。同样东南方向的道路已经开"
+"通，曾经有人在那发现裂空的藏身之处。"
 
 #: conversationlist_omicronrg9.json:umar_guild03_31a:0
 msgid "Good, I'm not going to have to take that detour."
@@ -34796,7 +34850,7 @@ msgstr "我现在正要回苏伦加德。再见。"
 
 #: conversationlist_omicronrg9.json:umar_guild04_19
 msgid "This is madness! He betrayed us just like Crackshot did."
-msgstr "这太疯狂了！他像疯狂打靶一样背叛了我们。"
+msgstr "这太疯狂了！他像裂空一样背叛了我们。"
 
 #: conversationlist_omicronrg9.json:umar_guild04_19:0
 msgid "We better find and kill him and his men and retrieve the share to help the people of Sullengard."
@@ -36270,11 +36324,13 @@ msgstr "呃……是的，对。"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_3:0
 msgid "I'm very curious about the story now. Tell me how have you been since we last met? What about the Elythom?"
-msgstr "我现在对这个故事很好奇。告诉我自上次见面以来你过得怎么样？伊利索姆怎么样？"
+msgstr "我现在对这个故事很好奇。告诉我自上次见面以来你过得怎么样？伊黎索姆怎么样？"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_4
 msgid "Oh that. I got bored playing Knight of the Elythom. I then spread the word that I was walking around dressed as one."
-msgstr "[REVIEW]哦，那个。我厌倦了玩弄伊利索姆。然后，我散布消息说，我伪装成伊利索姆四处走动。"
+msgstr "[REVIEW]"
+"哦，那个。我厌倦了玩弄伊黎索姆。然后，我散布消息说，我伪装成伊黎索姆四处走动"
+"。"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_5
 msgid "They are still searching and now suspect each other! Extremely amusing!"
@@ -41211,7 +41267,8 @@ msgstr "[法洛森教你长杆武器技能]"
 
 #: conversationlist_brimhaven_2.json:falothen1_2nd_pa1:0
 msgid "Sounds good. Teach me how to better fight with polearms. Here are two Oegyth crystals and 5000 gold as payment."
-msgstr "这听起来不错，请教我如何更好地使用长柄武器作战。这里有两块奥格斯晶体和5000金币作为报酬。"
+msgstr "这听起来不错，请教我如何更好地使用长柄武器作战。这里有两块奥格斯水晶和5000金"
+"币作为报酬。"
 
 #: conversationlist_brimhaven_2.json:leta_oromir1_trees
 #: conversationlist_brimhaven_2.json:leta_oromir1_behind_inn_20
@@ -48439,7 +48496,7 @@ msgstr "保持安静。"
 
 #: conversationlist_omi2.json:orhtolion_guard9_2
 msgid "Look *points to the large crystals*...It grows."
-msgstr "看*指着大晶体*......它长出来了。"
+msgstr "看*指着大水晶*......它长出来了。"
 
 #: conversationlist_omi2.json:orhtolion_guard9_2:0
 msgid "[Look]"
@@ -57191,11 +57248,11 @@ msgstr "嗯，女士。"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:2
 msgid "The Guild needs you. Umar ..."
-msgstr ""
+msgstr "公会需要你。奥马尔……"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:3
 msgid "Hi Seraphina, you were away so quickly after you gave me Luthor's ring."
-msgstr ""
+msgstr "嘿，塞拉菲娜，你给了我路德之戒后跑得可真快啊。"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20
 msgid "Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold."
@@ -57924,7 +57981,7 @@ msgstr "你想装傻吗?奥马尔会听到的!"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_81:1
 msgid "No time to joke - the Guild needs you. Umar ..."
-msgstr ""
+msgstr "现在不是开玩笑是时候——公会需要你。奥马尔……"
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_defy_killed_no_key
 msgid "I should come back with the Thieves' Guild key."
@@ -60547,9 +60604,10 @@ msgid ""
 "\n"
 "It must be said that using an oegyth crystal in this way will permanently diminish it's power, so the cost is significant.\""
 msgstr ""
-"“不过还存在另一种方法，但这需要一块珍贵的奥格斯晶体，以及一件亡者的个人物品。\n"
+"“不过还存在另一种方法，但这需要一块珍贵的奥格斯水晶，以及一件亡者的个人物品。"
 "\n"
-"这种方法下所使用过的奥格斯晶体的力量会永久减弱，因而它的代价是非常巨大的。”"
+"\n"
+"这种方法下所使用过的奥格斯水晶的力量会永久减弱，因而它的代价是非常巨大的。”"
 
 #: conversationlist_laeroth.json:Book_found_9
 msgid ""
@@ -60557,7 +60615,7 @@ msgid ""
 "\n"
 "Then utter the chant \"iseray iritspay\".\" "
 msgstr ""
-"“先将奥格斯晶体与个人物品放置于亡者的坟墓或埋葬之处上。\n"
+"“先将奥格斯水晶与个人物品放置于亡者的坟墓或埋葬之处上。\n"
 "\n"
 "然后念出咒语“浑烟西来，归返徕徊”。” "
 
@@ -60681,7 +60739,8 @@ msgstr "把维瑞吉尔的戒指放在墓的上方。"
 
 #: conversationlist_laeroth.json:verigil_script_2a
 msgid "You place an oegyth crystal and Verigil's signet ring on the tomb, and chant \"iseray iritspay\""
-msgstr "你把一块奥格斯晶体以及维瑞吉尔的信物戒指放在了墓的上方，并念出了咒语“浑烟西来，归返徕徊”"
+msgstr "你把一块奥格斯水晶以及维瑞吉尔的信物戒指放在了墓的上方，并念出了咒语“浑烟西来"
+"，归返徕徊”"
 
 #: conversationlist_laeroth.json:verigil_0
 msgid "Who dares to disturb my rest?"
@@ -60705,9 +60764,10 @@ msgid ""
 "\n"
 "[You take the oegyth crystal, but decide to leave the ring.]"
 msgstr ""
-"我并没这个能力帮忙，我并不属于家族中与看管人誓约有联系的那一支，你应该去找我的大伯艾维帕。现在我要继续安息了。\n"
+"我并没这个能力帮忙，我并不属于家族中与看管人誓约有联系的那一支，你应该去找我"
+"的大伯艾维帕。现在我要继续安息了。\n"
 "\n"
-"[你拿起奥格斯晶体，而那枚戒指你决定就留在那。]"
+"[你拿起奥格斯水晶，而那枚戒指你决定就留在那。]"
 
 #: conversationlist_laeroth.json:chest_search_1
 msgid "This chest looks like it is used to store important items."
@@ -60736,7 +60796,8 @@ msgstr "召唤艾维帕。"
 
 #: conversationlist_laeroth.json:eyvipa_script_2a
 msgid "You place the slightly diminished oegyth crystal and Eyvipa's candlestick on the tomb, and chant \"iseray iritspay\""
-msgstr "你把能量轻微减弱的奥格斯晶体以及艾维帕的烛台放在了墓的上方，并念出了咒语“浑烟西来，归返徕徊”"
+msgstr "你把能量轻微减弱的奥格斯水晶以及艾维帕的烛台放在了墓的上方，并念出了咒语“浑烟"
+"西来，归返徕徊”"
 
 #: conversationlist_laeroth.json:eyvipa_0
 msgid "I hope you disturbed my rest for a good reason!"
@@ -60798,7 +60859,8 @@ msgstr "浑雾西去，潵却褪驱！"
 
 #: conversationlist_laeroth.json:eyvipa_4b
 msgid "The ghost of Eyvipa vanishes. You feel great relief that the chant worked. You take back the oegyth crystal, although it seems to be losing some of its luster."
-msgstr "艾维帕之灵即刻消失了，你着实为咒语的生效感到庆幸。你拿起了奥格斯晶体，如今它的光泽已经黯淡了几分。"
+msgstr "艾维帕之灵即刻消失了，你着实为咒语的生效感到庆幸。你拿起了奥格斯水晶，如今它"
+"的光泽已经黯淡了几分。"
 
 #: conversationlist_laeroth.json:cupboard_search_1
 msgid "Maybe there is something in these cupboards that would be useful."
@@ -60831,7 +60893,8 @@ msgstr "召唤肯德。"
 
 #: conversationlist_laeroth.json:cuned_script_2a
 msgid "You place the diminished oegyth crystal and Cuned's diary on the tomb, and chant \"iseray iritspay\""
-msgstr "你把能量平平减弱的奥格斯晶体以及肯德的日记放在了墓的上方，并念出了咒语“浑烟西来，归返徕徊”"
+msgstr "你把能量平平减弱的奥格斯水晶以及肯德的日记放在了墓的上方，并念出了咒语“浑烟西"
+"来，归返徕徊”"
 
 #: conversationlist_laeroth.json:cuned_2a
 msgid "What do you want? I was at peace until you brought me back!"
@@ -60847,13 +60910,15 @@ msgid ""
 "\n"
 "[You take the oegyth crystal. It's gleam is fading.]"
 msgstr ""
-"艾维帕为人懒惰并不负责任，因而难担领主大任。他有能力解开看管人的誓约却不解开，就是他仍无责任心的一个很好的体现。不过我恐怕维瑞吉尔是对的，我同样没有能力解开誓约。你应该去找我的父亲杰勒林，再见。\n"
+"艾维帕为人懒惰并不负责任，因而难担领主大任。他有能力解开看管人的誓约却不解开"
+"，就是他仍无责任心的一个很好的体现。不过我恐怕维瑞吉尔是对的，我同样没有能力"
+"解开誓约。你应该去找我的父亲杰勒林，再见。\n"
 "\n"
-"[你拿起奥格斯晶体，它的光芒已近乎黯淡。]"
+"[你拿起奥格斯水晶，它的光芒已近乎黯淡。]"
 
 #: conversationlist_laeroth.json:cuned_script_b_2a
 msgid "You place the heavily diminished oegyth crystal on the tomb, and chant \"iseray iritspay\""
-msgstr "你把能量严重减弱的奥格斯晶体放在了墓的上方，并念出了咒语“浑烟西来，归返徕徊”"
+msgstr "你把能量严重减弱的奥格斯水晶放在了墓的上方，并念出了咒语“浑烟西来，归返徕徊”"
 
 #: conversationlist_laeroth.json:cuned_b_2a
 msgid "You again! I told you to talk to Jerelin."
@@ -60869,9 +60934,10 @@ msgid ""
 "\n"
 "[You take the oegyth crystal. It looks even duller.]"
 msgstr ""
-"他总是那样顽固，你可以去找我的母亲奥德菈谈谈。父亲别人的话他往往不听，但母亲却是个例外。别了。\n"
+"他总是那样顽固，你可以去找我的母亲奥德菈谈谈。父亲别人的话他往往不听，但母亲"
+"却是个例外。别了。\n"
 "\n"
-"[你拿起了哪块愈加化为凡物的奥格斯晶体。]"
+"[你拿起了哪块愈加化为凡物的奥格斯水晶。]"
 
 #: conversationlist_laeroth.json:jerelin_chest_search_1
 msgid "This chest looks pretty old. Is it worth taking a look?"
@@ -60904,7 +60970,8 @@ msgstr "召唤杰勒林。"
 
 #: conversationlist_laeroth.json:jerelin_script_2a
 msgid "You place the very diminished oegyth crystal and Jerelin's seal on the tomb, and chant \"iseray iritspay\""
-msgstr "你把能量急剧减弱的奥格斯晶体以及杰勒林的印章放在了墓的上方，并念出了咒语“浑烟西来，归返徕徊”"
+msgstr "你把能量急剧减弱的奥格斯水晶以及杰勒林的印章放在了墓的上方，并念出了咒语“浑烟"
+"西来，归返徕徊”"
 
 #: conversationlist_laeroth.json:jerelin_0
 msgid "I dislike being disturbed. I disliked it when I was alive, and I dislike it even more now!"
@@ -60918,11 +60985,11 @@ msgid ""
 msgstr ""
 "哼，走开！\n"
 "\n"
-"[你拿起了那块外表开始趋向凡物的奥格斯晶体。]"
+"[你拿起了那块外表开始趋向凡物的奥格斯水晶。]"
 
 #: conversationlist_laeroth.json:jerelin_script_b_2a
 msgid "You place the nearly depleted oegyth crystal on the tomb, and chant \"iseray iritspay\""
-msgstr "你把能量近乎耗尽的奥格斯晶体放在了墓的上方，并念出了咒语“浑烟西来，归返徕徊”"
+msgstr "你把能量近乎耗尽的奥格斯水晶放在了墓的上方，并念出了咒语“浑烟西来，归返徕徊”"
 
 #: conversationlist_laeroth.json:jerelin_b_2a
 msgid "Again? I told you I don't like being disturbed!"
@@ -60967,7 +61034,8 @@ msgstr "把奥德菈的项链放在墓的上方。"
 
 #: conversationlist_laeroth.json:audela_script_2a
 msgid "You place the very heavily diminished oegyth crystal and Audela's necklace on the tomb, and chant \"iseray iritspay\""
-msgstr "你把能量极为减弱的奥格斯晶体以及奥德菈的项链放在了墓的上方，并念出了咒语“浑烟西来，归返徕徊”"
+msgstr "你把能量极为减弱的奥格斯水晶以及奥德菈的项链放在了墓的上方，并念出了咒语“浑烟"
+"西来，归返徕徊”"
 
 #: conversationlist_laeroth.json:audela_0
 msgid "Why did you summon me?  I was finally at rest, after spending years directing my husband about what he needed to do each day."
@@ -60989,9 +61057,13 @@ msgid ""
 "\n"
 "[You take the oegyth crystal. There is almost no gleam left in it.]"
 msgstr ""
-"这一听就是我丈夫会干的事！我让他去干什么事时他老是会找这样或那样的借口，有时他甚至会对着我玩起捉迷藏来，为了躲我不知藏到庄园的哪个犄角旮旯里。还有他总是找借口说“自己有要紧事在干”，最要紧的事不就是妻子要你做的事吗？你那事该作个了结了，你就去说，是我要求他来配合的你。他要是不配合，我就让他在他那墓里好好感受一下我的存在！\n"
+"这一听就是我丈夫会干的事！我让他去干什么事时他老是会找这样或那样的借口，有时"
+"他甚至会对着我玩起捉迷藏来，为了躲我不知藏到庄园的哪个犄角旮旯里。还有他总是"
+"找借口说“自己有要紧事在干”，最要紧的事不就是妻子要你做的事吗？你那事该作个了"
+"结了，你就去说，是我要求他来配合的你。他要是不配合，我就让他在他那墓里好好感"
+"受一下我的存在！\n"
 "\n"
-"[你拿起奥格斯晶体，它的光芒已近乎消散。]"
+"[你拿起奥格斯水晶，它的光芒已近乎消散。]"
 
 #: conversationlist_laeroth.json:caretaker_grave_1
 msgid "Here lies Gormelyn, caretaker of Laeroth."
@@ -62813,7 +62885,7 @@ msgstr "你的目光收向近处，邻近的群岛占据了大半个风景，破
 
 #: conversationlist_laeroth.json:Remgard_jetty_sign_2:0
 msgid "That ruin over there will probably be called \"Laeroth Manor\"."
-msgstr "那边的废墟应该就是所谓的“莱洛斯庄园”。"
+msgstr "那边的废墟应该就是“莱洛斯庄园”了。"
 
 #: conversationlist_laeroth.json:Remgard_jetty_sign_3
 msgid "You'd like to get over there, but you realize it's not possible from here."
@@ -63165,11 +63237,11 @@ msgstr "唉，我明白了。"
 
 #: conversationlist_laeroth.json:lae_torturer_44
 msgid "Here take this Oegyth crystal."
-msgstr "拿好这块奥格斯晶体。"
+msgstr "拿好这块奥格斯水晶。"
 
 #: conversationlist_laeroth.json:lae_torturer_45
 msgid "Take this precious Oegyth crystal to that small room to the south and continue through the corridor."
-msgstr "带着这块宝贵的奥格斯晶体，去南面走廊尽头的小房间。"
+msgstr "带着这块宝贵的奥格斯水晶，去南面走廊尽头的小房间。"
 
 #: conversationlist_laeroth.json:lae_torturer_46
 msgid "Then throw the crystal with all your might into the dark abyss."
@@ -63267,11 +63339,11 @@ msgstr "一阵凛冽寒风扑面而来。"
 #: conversationlist_laeroth.json:lae_demon_call:0
 #: conversationlist_laeroth.json:lae_demon_call_10:0
 msgid "Let's throw an oegyth crystal down there."
-msgstr "如此扔一块奥格斯晶体下去。"
+msgstr "如此扔一块奥格斯水晶下去。"
 
 #: conversationlist_laeroth.json:lae_demon_call:1
 msgid "I would like to throw an oegyth crystal down there, if I only had one."
-msgstr "我会扔一块奥格斯晶体下去的，但前提是我身上得有一块。"
+msgstr "我会扔一块奥格斯水晶下去的，但前提是我身上得有一块。"
 
 #: conversationlist_laeroth.json:lae_demon_call:2
 msgid "Let's try to throw a rock."
@@ -64574,7 +64646,7 @@ msgstr "[往井里扔块石头]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something:1
 msgid "[Throw an Oegyth Crystal]"
-msgstr "[扔块奥格斯晶体]"
+msgstr "[扔块奥格斯水晶]"
 
 #: conversationlist_feygard_1.json:wexlow_well_throw_something:2
 msgid "[Throw Glass gem]"
@@ -64678,7 +64750,10 @@ msgstr "一根骨头？！你是在戏耍甘吉吗？！我受够了！你的死
 
 #: conversationlist_feygard_1.json:wexlow_well_map_change
 msgid "Suddenly, a powerful force grabs you and drags you down into the darkness of the well. You find yourself dazed, confused in a dank, underground cavern while bleeding from what feels like every part of your body."
-msgstr "突然，一股巨力拽住了你，一下把你拖进了那井底的阴影中。当你再次恢复意识时，你发现自己身处在一个湿漉漉的地下洞穴里。你的脑袋现在还是晕乎乎的，身上每个部件都仿佛在向外流血。"
+msgstr ""
+"突然，一股巨力拽住了你，一下把你拖进了那井里的阴影中。当你再次恢复意识时，你"
+"发现自己身处在一个湿漉漉的地下洞穴里。你的脑袋现在还是晕乎乎的，身上每个部件"
+"都仿佛在向外流血。"
 
 #: conversationlist_feygard_1.json:village_odilia_start:0
 #: conversationlist_feygard_1.json:wexlow_osric_start:0
@@ -65841,19 +65916,20 @@ msgstr "太谢谢你了！你能把直接交还给我，我真的很感动，这
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_10
 msgid "Do you want to jump inside?"
-msgstr ""
+msgstr "你想要跳进去吗？"
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_10:0
 msgid "No way! I remember How badly I was hurt the last time."
-msgstr ""
+msgstr "绝不！我可还记得上次伤得有多重呢。"
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_10:1
 msgid "Yes. What choice do I have?"
-msgstr ""
+msgstr "嗯，不然我还能怎么选？"
 
 #: conversationlist_feygard_1.json:wexlow_well_ask_to_jump_20
 msgid "You jumped down into the darkness of the well. At the bottom of the well, you find yourself dazed and bleeding from what feels like every part of your body."
-msgstr ""
+msgstr "你跳入了那井里的阴影中。等你摔到井底的时候，你感到你的脑袋晃得不停，身上每个"
+"部件都仿佛在向外流血。"
 
 #: conversationlist_lytwings.json:arensia_lytwing_1
 msgid "My sleep has been very restless lately."
@@ -66523,1435 +66599,1466 @@ msgstr "嗯，我明白了。"
 
 #: conversationlist_troubling_times.json:fanamor_tt
 msgid "Sure. I heard you're looking for Sly Seraphina."
-msgstr ""
+msgstr "嗯，我有听说你在寻找塞拉菲娜。"
 
 #: conversationlist_troubling_times.json:fanamor_tt:0
 msgid "Eavesdropping is not nice."
-msgstr ""
+msgstr "偷听别人说话可不是一件礼貌的事。"
 
 #: conversationlist_troubling_times.json:fanamor_tt:1
 msgid "Yes. Do you have any idea where she might be hiding?"
-msgstr ""
+msgstr "没错，请问你知道她可能躲在哪儿吗？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_10
 msgid "We are thieves - already forgotten?"
-msgstr ""
+msgstr "我们可是盗贼啊——难道你忘了吗？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_10:0
 msgid "So can you help me?"
-msgstr ""
+msgstr "所以你能帮到我吗？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_10:1
 msgid "Nevertheless, one can still maintain one's good manners."
-msgstr ""
+msgstr "就算如此，任何人都得有点不低的教养才行。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_12
 msgid "Phh."
-msgstr ""
+msgstr "噗。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_20
 msgid "Of course. In fact, I know exactly where she's hiding right now."
-msgstr ""
+msgstr "那可当然。实话告诉你，她现在躲哪儿我心里门儿清。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_20:0
 msgid "Great. That will save me a lot of running around."
-msgstr ""
+msgstr "太好了，这可要节省我大把的工夫了。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_22
 msgid "Here's how we do it: You can guess, and I'll tell you whether it's true or not."
-msgstr ""
+msgstr "咱们这么搞吧：你猜一个地点，然后我告诉你猜得对不对。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_24
 msgid "And each tip only costs you 100 gold pieces."
-msgstr ""
+msgstr "这样的每句回复只收你100金币好了。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_24:0
 msgid "I should have known."
-msgstr ""
+msgstr "我早该料到的。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_26
 msgid "You already know that she is near a town."
-msgstr ""
+msgstr "要知道你可是已经了解到她是待在某个镇子的周边了。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_26:0
 msgid "But which one?"
-msgstr ""
+msgstr "不过至于到底哪个呢？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30
 msgid "Guess!"
-msgstr ""
+msgstr "你猜！"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:2
 #: conversationlist_troubling_times.json:fanamor_tt_30:3
 msgid "Brimhaven?"
-msgstr ""
+msgstr "布林海文？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:4
 #: conversationlist_troubling_times.json:fanamor_tt_30:5
 msgid "Prim?"
-msgstr ""
+msgstr "普里姆？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:6
 #: conversationlist_troubling_times.json:fanamor_tt_30:7
 msgid "Loneford?"
-msgstr ""
+msgstr "隆福德？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:8
 #: conversationlist_troubling_times.json:fanamor_tt_30:9
 msgid "Stoutford?"
-msgstr ""
+msgstr "斯托福德？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:10
 #: conversationlist_troubling_times.json:fanamor_tt_30:11
 msgid "Sullengard?"
-msgstr ""
+msgstr "苏伦加德？"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:12
 msgid "Oh, I'm running out of gold."
-msgstr ""
+msgstr "哦，我身上的金币都用完了。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:13
 msgid "Enough. I think you don't know yourself."
-msgstr ""
+msgstr "够了，我想你自己根本就不知道吧。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_32
 msgid "You are so smart. I'm sorry I tried."
-msgstr ""
+msgstr "你也太聪明了，算我多嘴了可以吧。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_34
 msgid "No problem. I can wait."
-msgstr ""
+msgstr "没关系，我可以等。"
 
 #: conversationlist_troubling_times.json:fanamor_tt_40
 msgid "Hey, that's right!"
-msgstr ""
+msgstr "嘿，是了！"
 
 #: conversationlist_troubling_times.json:fanamor_tt_50
 msgid "Nope - 100 gold. Try again ..."
-msgstr ""
+msgstr "不对——100金币。你可以再试试……"
 
 #: conversationlist_troubling_times.json:fanamor_tt_60
 msgid "Thanks for the gold. But don't tell her that I betrayed her."
-msgstr ""
+msgstr "感谢你的这些金币，不过记得别告诉她，背叛她的人是我哦。"
 
 #: conversationlist_troubling_times.json:nanath_10
 #: conversationlist_troubling_times.json:nanath_12
 msgid "You? How dare you show your face?"
-msgstr ""
+msgstr "是你？你怎么还有脸来的？"
 
 #: conversationlist_troubling_times.json:nanath_18
 msgid "You betrayed the Guild over the task with Defy. Get out!"
-msgstr ""
+msgstr "你可是在对付德菲的任务里背叛了公会啊。滚！"
 
 #: conversationlist_troubling_times.json:nanath_20
 msgid "Hi there. I am Nanath, the oldest and most experienced man in the guild. No need to introduce yourself, I know who you are, $playername."
 msgstr ""
+"你好，我叫纳纳斯，应该可以算是这个公会里资历最老、经验最丰富的人了吧。至于你"
+"是谁的问题就不劳你多言了，我知道你的名字， $playername。"
 
 #: conversationlist_troubling_times.json:nanath_20:0
 msgid "Oh. Hi Nanath. You look scared."
-msgstr ""
+msgstr "哦，纳纳斯你好，话说你的脸色似乎不太好呀。"
 
 #: conversationlist_troubling_times.json:nanath_22
 msgid "Well, one of our ex-clients, Lady Dameni, has put an adverse Shadow spell on us."
-msgstr ""
+msgstr "是这样的，我们的一位前客户——达梅尼女士，对我们施了一道负面的暗影咒语。"
 
 #: conversationlist_troubling_times.json:nanath_24
 msgid "It makes us noticeable, and thus vulnerable to being caught - paralyzing our honest bread and butter work."
-msgstr ""
+msgstr "那道咒语让我们都成了显眼包，搞得现在我们特容易被抓到——这可把我们的生计给断了"
+"啊。"
 
 #: conversationlist_troubling_times.json:nanath_24:0
 msgid "Oh. Sounds awful."
-msgstr ""
+msgstr "哦，这可真是糟糕。"
 
 #: conversationlist_troubling_times.json:nanath_26
 msgid "Umar wants me to handle it. He wants me to get it dispelled, so that the Thieves' Guild can work again."
-msgstr ""
+msgstr "于是乎奥马尔就让我来处理这件事，他希望我能找到办法破解这道咒语，这样之后盗贼"
+"公会才能继续正常运转。"
 
 #: conversationlist_troubling_times.json:nanath_26:0
 msgid "Ah, OK then."
-msgstr ""
+msgstr "啊，好吧。"
 
 #: conversationlist_troubling_times.json:nanath_28
 msgid "The thing is I don't know much about the Shadow or any other so-called powers. My life has been being an honest thief, a score here, a score there - I don't tangle with the supernatural stuff."
 msgstr ""
+"可那玩意关系到了暗影还是别的什么的力量，对于这个领域我可以说是一窍不通啊。我"
+"干了一辈子的本职盗贼，平常在做的无非是东边一活西边一票——可从来没有接触过这种"
+"涉及超自然力量的事情啊。"
 
 #: conversationlist_troubling_times.json:nanath_30
 msgid "Can't anyone help?"
-msgstr ""
+msgstr "有什么人能帮到我的吗？"
 
 #: conversationlist_troubling_times.json:nanath_30:0
 msgid "I can help. I've had some dealings with the Shadow."
-msgstr ""
+msgstr "这件事我就可以帮，和暗影有关的事务我还是有解决过几件的。"
 
 #: conversationlist_troubling_times.json:nanath_32
 msgid "Really? Like what?"
-msgstr ""
+msgstr "真的吗？比方说？"
 
 #: conversationlist_troubling_times.json:nanath_32:0
 msgid "Sorry, hush-hush stuff around Loneford and Vilegard."
-msgstr ""
+msgstr "抱歉，这些事请允许我保密，总之隆福德以及维尔加德那些方向上发生的都有。"
 
 #: conversationlist_troubling_times.json:nanath_34:0
 msgid "You want my help?"
-msgstr ""
+msgstr "你要我帮忙吗？"
 
 #: conversationlist_troubling_times.json:nanath_40
 msgid "First things first, how can we know the nature of the spell?"
-msgstr ""
+msgstr "现在最核心的问题就是，我们得先搞清楚这咒到底是啥来头？"
 
 #: conversationlist_troubling_times.json:nanath_42
 msgid "Or its name?"
-msgstr ""
+msgstr "或者它的名字也行？"
 
 #: conversationlist_troubling_times.json:nanath_44
 msgid "Maybe talking to a Shadow priest may help?"
-msgstr ""
+msgstr "或许去和一位暗影牧师交流一下对此会有所帮助？"
 
 #: conversationlist_troubling_times.json:nanath_70
 msgid "Oh, back again? I hope you bring good news."
-msgstr ""
+msgstr "哦，你又回来了？希望你带回来什么好消息了。"
 
 #: conversationlist_troubling_times.json:nanath_70:0
 msgid "Maybe. Talion, a Shadow priest, has put the Striking Spectacle Shadow spell on us."
-msgstr ""
+msgstr "或许吧。我有了解到是一名叫塔里昂的暗影牧师对我们施加的暗影显状咒。"
 
 #: conversationlist_troubling_times.json:nanath_70:1
 msgid "I have been looking for the things for Talion."
-msgstr ""
+msgstr "我有还在搜寻那些塔里昂所要的东西。"
 
 #: conversationlist_troubling_times.json:nanath_70:2
 msgid "About Luthor's ring ..."
-msgstr ""
+msgstr "关于路德之戒的事……"
 
 #: conversationlist_troubling_times.json:nanath_70:3
 msgid "I am still looking for Seraphina."
-msgstr ""
+msgstr "我还在寻找塞拉菲娜。"
 
 #: conversationlist_troubling_times.json:nanath_72:0
 msgid "And ... I think I have to talk to Talion again."
-msgstr ""
+msgstr "以及……我想我还得再去找一下塔里昂。"
 
 #: conversationlist_troubling_times.json:nanath_72:1
 msgid "Talion said he can help dispel it."
-msgstr ""
+msgstr "塔里昂说了他会帮助把那咒语解掉的。"
 
 #: conversationlist_troubling_times.json:nanath_80
 msgid "What a relief."
-msgstr ""
+msgstr "那真是让人松了一口气啊。"
 
 #: conversationlist_troubling_times.json:nanath_82
 msgid "What does he want in return?"
-msgstr ""
+msgstr "那他想要什么回报？"
 
 #: conversationlist_troubling_times.json:nanath_82:0
 msgid "Lady Dameni paid him. Talion wants 50000 gold to dispel us."
-msgstr ""
+msgstr "他说他是收了达梅尼的钱的。塔里昂想要50000金币来帮我们解咒。"
 
 #: conversationlist_troubling_times.json:nanath_84
 msgid "That's a lot, but it was to be expected. It's good that he doesn't want more."
-msgstr ""
+msgstr "那可不是一笔小数目啊，不过这也是在意料之内的，往好里想至少他没想要更多。"
 
 #: conversationlist_troubling_times.json:nanath_84:0
 msgid "Well ... he also wants the following items: The Villain's ring, Troublemaker's ring, the Ring of backstabbing and the Tears of the Shadow potion."
-msgstr ""
+msgstr "呃……他还想要一些别的东西，分别是：恶棍之戒、捣蛋鬼之戒、反刺之戒以及暗影之泪"
+"药水。"
 
 #: conversationlist_troubling_times.json:nanath_86
 msgid "That's fine with me."
-msgstr ""
+msgstr "这我没问题。"
 
 #: conversationlist_troubling_times.json:nanath_86:0
 msgid "And - most important - Luthor's ring."
-msgstr ""
+msgstr "此外还有——最要紧的那枚——路德之戒。"
 
 #: conversationlist_troubling_times.json:nanath_90
 msgid "What?! He must be crazy!"
-msgstr ""
+msgstr "啥？！他疯了吧！"
 
 #: conversationlist_troubling_times.json:nanath_92
 msgid "Do you already have all of the items?"
-msgstr ""
+msgstr "你集齐那些物件了吗？"
 
 #: conversationlist_troubling_times.json:nanath_92:0
 #: conversationlist_troubling_times.json:tt_talion_72:1
 msgid "I don't have Troublemaker's ring yet."
-msgstr ""
+msgstr "目前我还没搞到捣蛋鬼之戒呢。"
 
 #: conversationlist_troubling_times.json:nanath_92:1
 #: conversationlist_troubling_times.json:tt_talion_72:2
 msgid "I don't have the Ring of backstabbing yet."
-msgstr ""
+msgstr "目前我还没搞到反刺之戒呢。"
 
 #: conversationlist_troubling_times.json:nanath_92:2
 #: conversationlist_troubling_times.json:tt_talion_72:3
 msgid "I don't have the Villain's ring yet."
-msgstr ""
+msgstr "目前我还没搞到恶棍之戒呢。"
 
 #: conversationlist_troubling_times.json:nanath_92:3
 #: conversationlist_troubling_times.json:tt_talion_72:4
 msgid "I don't have the Tears of the Shadow yet."
-msgstr ""
+msgstr "目前我还没搞到暗影之泪呢。"
 
 #: conversationlist_troubling_times.json:nanath_92:4
 msgid "I have already brought the 4 easier things."
-msgstr ""
+msgstr "我已经搞到那四件较容易到手的物品了。"
 
 #: conversationlist_troubling_times.json:nanath_94
 msgid "Well, then go and find it. Hurry now!"
-msgstr ""
+msgstr "嗯哼，那就出发去找吧，请尽快！"
 
 #: conversationlist_troubling_times.json:nanath_100
 #: conversationlist_troubling_times.json:tt_talion_76
 msgid "Good, that's a start."
-msgstr ""
+msgstr "很好，这事情也算是开了个头。"
 
 #: conversationlist_troubling_times.json:nanath_100:0
 msgid "I expect to be reimbursed of course."
-msgstr ""
+msgstr "愿我在这上面的付出你能偿付给我。"
 
 #: conversationlist_troubling_times.json:nanath_100:1
 #: conversationlist_troubling_times.json:tt_talion_76:1
 msgid "I am glad you approve."
-msgstr ""
+msgstr "我很欣慰你觉得没毛病。"
 
 #: conversationlist_troubling_times.json:nanath_102
 msgid "Umar will refund you, but only if you succeed."
-msgstr ""
+msgstr "奥马尔会补偿你的，但大前提是在你成功以后。"
 
 #: conversationlist_troubling_times.json:nanath_110
 msgid "Have you found Luthor's ring yet?"
-msgstr ""
+msgstr "你找到路德之戒了吗？"
 
 #: conversationlist_troubling_times.json:nanath_110:0
 msgid "I am looking for it now."
-msgstr ""
+msgstr "我还在寻找中。"
 
 #: conversationlist_troubling_times.json:nanath_110:1
 msgid "I have no idea where to look any more."
-msgstr ""
+msgstr "对于还得去哪儿找我是完全没思路了。"
 
 #: conversationlist_troubling_times.json:nanath_120
 msgid "Looks like it ended up being kept somewhere dangerous."
-msgstr ""
+msgstr "似乎它被封存在了某个危险的地方。"
 
 #: conversationlist_troubling_times.json:nanath_122
 msgid "Then ... only one person may know: Fanamor's friend Sly Seraphina."
-msgstr ""
+msgstr "然后呢……世上或许知道那是在什么地方的人仅有一位：她就是法娜茉的朋友黠·塞拉菲娜"
+"。"
 
 #: conversationlist_troubling_times.json:nanath_122:0
 msgid "Sly Seraphina? Where can she be found?"
-msgstr ""
+msgstr "黠·塞拉菲娜？我可以在哪里找到她？"
 
 #: conversationlist_troubling_times.json:nanath_122:1
 msgid "On no! Not Seraphina! I refuse to talk to her."
-msgstr ""
+msgstr "哦不！怎么是塞拉菲娜啊！我拒绝去与她交涉。"
 
 #: conversationlist_troubling_times.json:nanath_130
 msgid "She's the thief near the Sutdover bridge."
-msgstr ""
+msgstr "她是一名盗贼，待在萨多弗桥附近。"
 
 #: conversationlist_troubling_times.json:nanath_130:0
 msgid "Sutdover bridge? So I'll look for her to the south."
-msgstr ""
+msgstr "萨多弗桥？这么说我得到南面去寻找她了。"
 
 #: conversationlist_troubling_times.json:nanath_132
 msgid "You must. For the Guild!"
-msgstr ""
+msgstr "你不得不去，这是为了公会！"
 
 #: conversationlist_troubling_times.json:nanath_132:0
 msgid "All right, I hate to, but for the greater good I'll go."
-msgstr ""
+msgstr "好吧，虽然这并非出自我愿，但为了更远大的利益我会去的。"
 
 #: conversationlist_troubling_times.json:nanath_136
 msgid "Then it's all settled. Go and find her, now."
-msgstr ""
+msgstr "那就说好了哈，现在就快去寻找她吧。"
 
 #: conversationlist_troubling_times.json:nanath_140
 msgid "Then go and find her, now."
-msgstr ""
+msgstr "现在就快去寻找她吧。"
 
 #: conversationlist_troubling_times.json:nanath_150
 msgid "How progresses the task? I hope you've done it? We're in a pickle here, kid. No time to dawdle."
-msgstr ""
+msgstr "任务进展得如何？我愿你事情干成了？当前我们这边的处境像是陷到坑里了一般，小鬼"
+"，现在可没时间瞎晃悠了。"
 
 #: conversationlist_troubling_times.json:nanath_150:0
 msgid "Dawdle! Do it yourself if you know everything better!"
-msgstr ""
+msgstr "瞎晃悠！你要是有所高见那就自个儿去干啊！"
 
 #: conversationlist_troubling_times.json:nanath_152
 msgid "Calm down. I'm just nervous. Did you make any progress?"
-msgstr ""
+msgstr "冷静点嘛，我刚刚只是有点神经质了。那请问事情有什么进展吗？"
 
 #: conversationlist_troubling_times.json:nanath_160
 msgid "Tell me."
-msgstr ""
+msgstr "告诉我吧。"
 
 #: conversationlist_troubling_times.json:nanath_160:0
 msgid "Seraphina doesn't trust me."
-msgstr ""
+msgstr "塞拉菲娜不信任我。"
 
 #: conversationlist_troubling_times.json:nanath_160:1
 msgid "Seraphina has disappeared. She's scared to unleash some monsters which she says Umar and her sealed up."
-msgstr ""
+msgstr "塞拉菲娜跑了，她畏惧于释放那些据她所说是她与奥马尔共同封住的怪物。"
 
 #: conversationlist_troubling_times.json:nanath_160:2
 msgid "About Seraphina ..."
-msgstr ""
+msgstr "关于塞拉菲娜……"
 
 #: conversationlist_troubling_times.json:nanath_170
 msgid "She must. Go to Umar. He's the only one she'll listen to."
-msgstr ""
+msgstr "想来也是。这你可以去找奥马尔，那伙计只听他的话。"
 
 #: conversationlist_troubling_times.json:nanath_180
 msgid "So, that's what Umar is hush-hush about."
-msgstr ""
+msgstr "这么说，这就是奥马尔所藏着掖着的那部分事情了吧。"
 
 #: conversationlist_troubling_times.json:nanath_180:0
 msgid "He could really be more talkative sometimes."
-msgstr ""
+msgstr "其实他有时候还是多透露点事情出来比较好。"
 
 #: conversationlist_troubling_times.json:nanath_181
 msgid "Anyway, we must find her. I know some of her usual hidings."
-msgstr ""
+msgstr "不管怎么说，我们现在必须要找到她，对此我知道一些她常躲的地方。"
 
 #: conversationlist_troubling_times.json:nanath_181a
 msgid "She prefers to be close to a town so she can easily stock up."
-msgstr ""
+msgstr "她更倾向于躲在某座镇子附近，如此她就能轻松补充物资。"
 
 #: conversationlist_troubling_times.json:nanath_181a:0
 #: conversationlist_troubling_times.json:nanath_183:0
 msgid "Makes sense."
-msgstr ""
+msgstr "有道理。"
 
 #: conversationlist_troubling_times.json:nanath_182
 msgid "Let me think: Fallhaven would be too near. Sullengard, Stoutford, Vilegard and Prim come to my mind. And Loneford or Brimhaven, of course."
-msgstr ""
+msgstr "让我想想：法尔海文过近了，而我想到的都有苏伦加德、斯托福德、维尔加德以及普里"
+"姆，当然还有隆福德和布林海文。"
 
 #: conversationlist_troubling_times.json:nanath_183
 msgid "So look for her near one of these towns."
-msgstr ""
+msgstr "所以请到这些镇子的周边去寻找她吧。"
 
 #: conversationlist_troubling_times.json:nanath_183:1
 msgid "Which towns did you say again?"
-msgstr ""
+msgstr "你都有提到哪些镇子来着？"
 
 #: conversationlist_troubling_times.json:nanath_183a
 msgid "Sometimes I could despair. It's so hard to find good workers these days."
-msgstr ""
+msgstr "有些时候我都有点绝望了，如今找个好伙计可太难了。"
 
 #: conversationlist_troubling_times.json:nanath_184
 msgid "She must be found. By any means."
-msgstr ""
+msgstr "无论如何一定要找到她才行。"
 
 #: conversationlist_troubling_times.json:nanath_184:0
 msgid "Yes, sir"
-msgstr ""
+msgstr "是！"
 
 #: conversationlist_troubling_times.json:nanath_190
 msgid "Have you found Seraphina yet?"
-msgstr ""
+msgstr "你找到塞拉菲娜了吗？"
 
 #: conversationlist_troubling_times.json:nanath_190:1
 #: conversationlist_troubling_times.json:nanath_190:2
 msgid "Yes. She told me I would need Luthor's key."
-msgstr ""
+msgstr "嗯，她告诉我需要路德之匙。"
 
 #: conversationlist_troubling_times.json:nanath_192
 msgid "I spoke to Umar. He already suspected that you would need this key."
-msgstr ""
+msgstr "对此我和奥马尔已经交流过了，他早就料到你有要用到那把钥匙的时候了。"
 
 #: conversationlist_troubling_times.json:nanath_192a
 msgid "Here you have it, handle it carefully."
-msgstr ""
+msgstr "拿好，你可得把它保管好啊。"
 
 #: conversationlist_troubling_times.json:nanath_193
 msgid "I have given it to you already, forgotten?"
-msgstr ""
+msgstr "我已经给过你了啊，你忘了？"
 
 #: conversationlist_troubling_times.json:nanath_193:0
 msgid "Oh, right. I'm ashamed of myself for trying to trick you."
-msgstr ""
+msgstr "哦好吧，很抱歉我有想要耍耍你的意思。"
 
 #: conversationlist_troubling_times.json:nanath_194
 msgid "I truly hope you are."
-msgstr ""
+msgstr "愿你最好有。"
 
 #: conversationlist_troubling_times.json:nanath_200
 msgid "Hi kid."
-msgstr ""
+msgstr "嘿孩子。"
 
 #: conversationlist_troubling_times.json:nanath_200:0
 msgid "I have got Luthor's ring."
-msgstr ""
+msgstr "我搞到路德之戒了。"
 
 #: conversationlist_troubling_times.json:nanath_272
 msgid "Then take it to Talion. Quickly."
-msgstr ""
+msgstr "那就去把它交给塔里昂，快去吧。"
 
 #: conversationlist_troubling_times.json:nanath_290
 msgid "You were obviously successful. We seem to be inconspicuous again."
-msgstr ""
+msgstr "看来你成功事情搞定了嘛，我们现在又变回不招人眼的状态了。"
 
 #: conversationlist_troubling_times.json:nanath_300
 msgid "Good job! I didn't think you could do it. But you did."
-msgstr ""
+msgstr "干得漂亮！我之前都没想到你真能干成，但你做到了。"
 
 #: conversationlist_troubling_times.json:nanath_300:0
 msgid "Yes. The search was a nice change."
-msgstr ""
+msgstr "嗯，这次的摸索工作确实是个不错的调剂。"
 
 #: conversationlist_troubling_times.json:nanath_302
 msgid "Sly Seraphina has already been here and returned Luthor's key to Umar. So the room with those dangerous creatures is sealed again."
-msgstr ""
+msgstr "早些时候黠·塞拉菲娜已经回过这里并把钥匙还给奥马尔了，所以那间充斥着危险生物的"
+"房间要被再次封闭起来了。"
 
 #: conversationlist_troubling_times.json:nanath_302:0
 msgid "So quick?"
-msgstr ""
+msgstr "这么快？"
 
 #: conversationlist_troubling_times.json:nanath_304
 msgid "Sure. You should know her by now."
-msgstr ""
+msgstr "那当然，现在你了解她的作风了吧。"
 
 #: conversationlist_troubling_times.json:nanath_308
 msgid "Umar asked me to reimburse you for your expenses. And something as a thank you. So here are 75000 shining pieces of gold."
-msgstr ""
+msgstr "奥马尔让我帮你报销你的支出，同时再附一份感谢金，所以这里总共有75000枚锃亮的金"
+"币。"
 
 #: conversationlist_troubling_times.json:nanath_310
 msgid "Stay safe, kid."
-msgstr ""
+msgstr "注意安全，孩子。"
 
 #: conversationlist_troubling_times.json:umar_tt
 msgid "Hello $playername, good that you are here. Please talk to Nanath, I am really busy right now."
-msgstr ""
+msgstr "你好$playername，你可来得正好，事情去和纳纳斯谈谈吧，我现在实在是太忙了。"
 
 #: conversationlist_troubling_times.json:umar_tt:1
 msgid "OK, I'll go find Nanath."
-msgstr ""
+msgstr "好的，我会去找纳纳斯的。"
 
 #: conversationlist_troubling_times.json:umar_tt_100
 msgid "$playername, didn't I make it clear that I didn't want to be disturbed?"
-msgstr ""
+msgstr "$playername，你没听清我说我现在不想被打扰吗？"
 
 #: conversationlist_troubling_times.json:umar_tt_100:0
 msgid "Yes, I'm sorry too. But we need your help."
-msgstr ""
+msgstr "呃，是我打扰到你了，对此我表示抱歉，但现在我们需要你的帮助。"
 
 #: conversationlist_troubling_times.json:umar_tt_102
 msgid "[Muttering to himself] Tu quoque, mi fili? Sigh."
-msgstr ""
+msgstr "[喃喃自语道]汝亦如是乎，吾孩？唉。"
 
 #: conversationlist_troubling_times.json:umar_tt_102:0
 msgid "To break the spell, we need King Luthor's ring. Sly is the only one who knows where it is. But she refuses to cooperate."
-msgstr ""
+msgstr "我们需要路德之戒来解除那道咒语，而黠是唯一知道戒指置于何方的人，但她却拒绝配"
+"合。"
 
 #: conversationlist_troubling_times.json:umar_tt_110
 msgid "She must. Tell her this password [whispering something]. It means you have direct order from me, Umar. Let no one else hear it."
-msgstr ""
+msgstr "这不能怪她，你可以告诉她暗号[细声将暗号讲了出来]"
+"，知道这个暗号意味着你由我奥马尔直接授令。注意请别让外人给听去了。"
 
 #: conversationlist_troubling_times.json:umar_tt_110:0
 msgid "OK. She will listen to you."
-msgstr ""
+msgstr "好，我想你的话她是会听的。"
 
 #: conversationlist_troubling_times.json:umar_tt_120
 msgid "My head is so full. I can hardly concentrate on the important things."
-msgstr ""
+msgstr "我脑袋好胀，搞得都没办法集中精神去处理关键事务了。"
 
 #: conversationlist_troubling_times.json:umar_tt_120:0
 msgid "I won't bother you any further."
-msgstr ""
+msgstr "那我就不打扰你了哈。"
 
 #: conversationlist_troubling_times.json:umar_tt_120:1
 msgid "The spell will be broken."
-msgstr ""
+msgstr "那咒语会被解除掉的。"
 
 #: conversationlist_troubling_times.json:umar_tt_120:2
 msgid "Thoroughness is the key to success."
-msgstr ""
+msgstr "一以贯之乃是通往成功的钥匙嘛。"
 
 #: conversationlist_troubling_times.json:umar_tt_130
 msgid "Key? To success? Don't talk nonsense."
-msgstr ""
+msgstr "钥匙？通往成功？这可没必然的道理。"
 
 #: conversationlist_troubling_times.json:umar_tt_132
 msgid "There's something else I should think about. But it just doesn't occur to me right now."
-msgstr ""
+msgstr "我好像还有一些别的事待思考，而现在就是怎么也想不起来。"
 
 #: conversationlist_troubling_times.json:umar_tt_132:0
 msgid "I better leave you alone now."
-msgstr ""
+msgstr "我现在最好走了。"
 
 #: conversationlist_troubling_times.json:umar_tt_132:1
 msgid "I'm sure you'll remember it again."
-msgstr ""
+msgstr "我确信你能想起来的。"
 
 #: conversationlist_troubling_times.json:t_guild03_hideout3_lock_10
 msgid "The lock is sealed again."
-msgstr ""
+msgstr "那锁又被锁起来了。"
 
 #: conversationlist_troubling_times.json:tt_jolnor_10
 msgid "Excuse me? I don't know what you want from me."
-msgstr ""
+msgstr "抱歉？你想要干啥我不太明白。"
 
 #: conversationlist_troubling_times.json:tt_sly_10
 msgid "Umar? Who's that?"
-msgstr ""
+msgstr "奥马尔？那是谁？"
 
 #: conversationlist_troubling_times.json:tt_sly_10:0
 msgid "Oh well: I am nothing. You don't see me."
-msgstr ""
+msgstr "哦，我只是个无足轻重的小人物罢了，你就当没看见我好了。"
 
 #: conversationlist_troubling_times.json:tt_sly_12
 msgid "That's better, little child. Get used to it."
-msgstr ""
+msgstr "这就对了，小朋友，你得习惯才行。"
 
 #: conversationlist_troubling_times.json:tt_sly_12:1
 msgid "I'm not a little child anymore!"
-msgstr ""
+msgstr "我已经不是小孩子了！"
 
 #: conversationlist_troubling_times.json:tt_sly_14
 msgid "Then stop stomping on the ground."
-msgstr ""
+msgstr "那你可就别像这样瞎跺脚了啊。"
 
 #: conversationlist_troubling_times.json:tt_sly_30
 #: conversationlist_troubling_times.json:tt_sly_40
 #: conversationlist_troubling_times.json:tt_sly_50
 msgid "Now what does Umar want?"
-msgstr ""
+msgstr "奥马尔现在想要干嘛？"
 
 #: conversationlist_troubling_times.json:tt_sly_30:0
 msgid "We have to remove the Striking Spectacle Shadow spell from members of the Thieves' Guild. Or the Guild may as well cease to exist."
-msgstr ""
+msgstr "我们必须得解除掉暗影显状咒，从盗贼公会成员身上，不然公会怕是要停止存在了。"
 
 #: conversationlist_troubling_times.json:tt_sly_32
 msgid "And what do I have to do with it?"
-msgstr ""
+msgstr "所以这事儿跟我有啥关系啊？"
 
 #: conversationlist_troubling_times.json:tt_sly_32:0
 msgid "We need Luthor's ring, and you know ..."
-msgstr ""
+msgstr "然后我们需要路德之戒，而你知道……"
 
 #: conversationlist_troubling_times.json:tt_sly_34
 msgid "Likely story, kid. Buzz off!"
-msgstr ""
+msgstr "故事编得挺像啊，小子，滚蛋！"
 
 #: conversationlist_troubling_times.json:tt_sly_40:0
 msgid "We have to remove the Striking Spectacle Shadow spell from ..."
-msgstr ""
+msgstr "我们必须得解除掉暗影显状咒，从……"
 
 #: conversationlist_troubling_times.json:tt_sly_42
 msgid "Yes, you've said already. Stop repeating yourself."
-msgstr ""
+msgstr "嗯哼，这话你先前已经讲过了，就别再复述了你。"
 
 #: conversationlist_troubling_times.json:tt_sly_42:0
 #: conversationlist_troubling_times.json:tt_sly_44:0
 msgid "Sure. We need Luthor's ring, and ..."
-msgstr ""
+msgstr "好的，然后我们需要路德之戒，而……"
 
 #: conversationlist_troubling_times.json:tt_sly_44
 msgid "Forget it, kid. Buzz off!"
-msgstr ""
+msgstr "得了吧你，小子，滚蛋！"
 
 #: conversationlist_troubling_times.json:tt_sly_46
 msgid "And please, stop repeating yourself."
-msgstr ""
+msgstr "还有请别再复述你那些故事了。"
 
 #: conversationlist_troubling_times.json:tt_sly_50:0
 msgid "Listen ... [whispering the password] Now you believe me? We have to remove the Striking Spectacle ..."
-msgstr ""
+msgstr "听着……[念出暗号]现在你信了吧？我们必须得解除掉暗影显状咒……"
 
 #: conversationlist_troubling_times.json:tt_sly_52
 msgid "You are still repeating yourself."
-msgstr ""
+msgstr "还在复述。"
 
 #: conversationlist_troubling_times.json:tt_sly_52:0
 msgid "Stop that game now and answer me!"
-msgstr ""
+msgstr "别玩了行吗！赶紧回我话！"
 
 #: conversationlist_troubling_times.json:tt_sly_54
 msgid "All right. Umar wants me to give you Luthor's ring? And unleash evil on all of Dhayavar?"
-msgstr ""
+msgstr "好吧，所以奥马尔想要我给你路德之戒？不惜把能席卷整个达亚瓦大陆的邪恶生物释放"
+"出来？"
 
 #: conversationlist_troubling_times.json:tt_sly_54:0
 msgid "Why would that ring unleash evil?"
-msgstr ""
+msgstr "这戒指为啥会释放邪恶生物啊？"
 
 #: conversationlist_troubling_times.json:tt_sly_56
 msgid "Not the ring itself. But the cave does, if the door is opened."
-msgstr ""
+msgstr "不是戒指本身会，而是打开那个洞穴的门后就会。"
 
 #: conversationlist_troubling_times.json:tt_sly_56:0
 msgid "That makes even less sense. Explain."
-msgstr ""
+msgstr "这简直越来越离谱了，你可得解释清楚了。"
 
 #: conversationlist_troubling_times.json:tt_sly_58
 msgid "Say 'please'."
-msgstr ""
+msgstr "请说“拜托了”。"
 
 #: conversationlist_troubling_times.json:tt_sly_58:1
 msgid "Never."
-msgstr ""
+msgstr "绝不。"
 
 #: conversationlist_troubling_times.json:tt_sly_58:3
 msgid "[With rolling eyes] OK - please."
-msgstr ""
+msgstr "[翻白眼] 好吧——拜托了。"
 
 #: conversationlist_troubling_times.json:tt_sly_60
 msgid "You might remember Crackshot's hideout, do you?"
-msgstr ""
+msgstr "你应该还记得裂空的藏身处吧？"
 
 #: conversationlist_troubling_times.json:tt_sly_60:0
 msgid "Of course. Behind the many ugly larvals."
-msgstr ""
+msgstr "当然，到那地方要经过不少丑陋的幼虫。"
 
 #: conversationlist_troubling_times.json:tt_sly_62
 msgid "Good. Do you know why that cave in the back was sealed?"
-msgstr ""
+msgstr "很好，那你知道那个地方后面的洞穴是出于什么原因被封上的吗？"
 
 #: conversationlist_troubling_times.json:tt_sly_62:0
 msgid "No, tell me."
-msgstr ""
+msgstr "不知道，你就告诉我吧。"
 
 #: conversationlist_troubling_times.json:tt_sly_70
 msgid "A while back, when the Thieves' Guild got successful, we managed to acquire many items of value, including magical items."
-msgstr ""
+msgstr "想当年咱们盗贼公会刚刚崛起的时候，我们搞到手了诸多宝贝，其中也不乏魔法造物。"
 
 #: conversationlist_troubling_times.json:tt_sly_72
 msgid "A place was needed to keep them safely. We heard of this deep cave where you met and bested Crackshot."
-msgstr ""
+msgstr "那时我急需一处藏匿这些东西的隐蔽之所，然后我们就打听到了一处很深的洞穴，就是"
+"你遭遇并打败裂空的那一处。"
 
 #: conversationlist_troubling_times.json:tt_sly_72:0
 msgid "That was no easy fight."
-msgstr ""
+msgstr "那一战打得可不轻松。"
 
 #: conversationlist_troubling_times.json:tt_sly_72:1
 msgid "Phh, child's stuff."
-msgstr ""
+msgstr "啧，堪比过家家。"
 
 #: conversationlist_troubling_times.json:tt_sly_74
 msgid "So, when we created that deep cave hideout for our most precious items, we never imagined that the cave held such terrible monsters. While we were exploring, they came and attacked us!"
 msgstr ""
+"然后我们就开始将那个深处的洞穴改造成我们隐蔽存放贵重物品的地方，在那时我们是"
+"绝不会想到有那般恐怖的怪物群潜藏在那处洞穴里。随着我们对洞穴的进一步探索，它"
+"们就冒出来向我们发起了攻击！"
 
 #: conversationlist_troubling_times.json:tt_sly_76
 msgid "Seraphina suddenly shivers."
-msgstr ""
+msgstr "塞拉菲娜猛地打了个寒颤。"
 
 #: conversationlist_troubling_times.json:tt_sly_80
 msgid "We're thieves, not warriors. We tried to escape from there. Lost a few members ..."
-msgstr ""
+msgstr "我们都是盗贼而非战士，在仓皇逃离的过程中我们失去了好些兄弟……"
 
 #: conversationlist_troubling_times.json:tt_sly_82
 msgid "Lost Luthor's ring in the cave in the scramble to get out."
-msgstr ""
+msgstr "而路德之戒就是在逃离的过程中在洞内搞丢的。"
 
 #: conversationlist_troubling_times.json:tt_sly_84
 msgid "Still, we managed to hold off the cave monsters, and we managed to seal it."
-msgstr ""
+msgstr "再后来，我们勉强挡住了那些洞里的怪物群，并将洞穴封了起来。"
 
 #: conversationlist_troubling_times.json:tt_sly_84:0
 msgid "Using Luthor's items?"
-msgstr ""
+msgstr "是靠路德的物件完成的吗？"
 
 #: conversationlist_troubling_times.json:tt_sly_90
 msgid "That's right!"
-msgstr ""
+msgstr "对的！"
 
 #: conversationlist_troubling_times.json:tt_sly_92
 msgid "We used Luthor's Key and his gloves to seal it, by creating a magical, impermeable door."
-msgstr ""
+msgstr "我们用路德之匙与他的手套设立了一道难以逾越的魔法门，这样才将那里封住的。"
 
 #: conversationlist_troubling_times.json:tt_sly_94
 msgid "Umar and I decided to separate the key and the gloves. And the two of us never meet, to keep that door permanently sealed."
-msgstr ""
+msgstr "奥马尔和我决定将钥匙与手套由我们两个分别拿走，这样只要我们俩永世不再相见，来"
+"确保那道门一直就这么被封着。"
 
 #: conversationlist_troubling_times.json:tt_sly_94:0
 msgid "So that the door may never be opened."
-msgstr ""
+msgstr "这样那道门也就永世不会被启封了。"
 
 #: conversationlist_troubling_times.json:tt_sly_96
 msgid "Exactly."
-msgstr ""
+msgstr "没错。"
 
 #: conversationlist_troubling_times.json:tt_sly_96:0
 msgid "But we need to retrieve Luthor's ring now."
-msgstr ""
+msgstr "但是现在我们需要找回那枚路德之戒。"
 
 #: conversationlist_troubling_times.json:tt_sly_100
 msgid "Even Umar's current plea will not change my mind. Whatever ails the Guild - find another solution."
-msgstr ""
+msgstr "所以现在即便是奥马尔过来求我，我也是不会改主意的。无论公会遭逢何种困境 —— "
+"也得另寻他法。"
 
 #: conversationlist_troubling_times.json:tt_sly_120
 msgid "Even us thieves are not so callous as to put Dhayavar in danger. You'll never find me."
-msgstr ""
+msgstr "纵使我等身为盗贼，亦不应狠心将达亚瓦大陆推入险境。而今后想找到我你想都别想。"
 
 #: conversationlist_troubling_times.json:tt_sly_120:0
 msgid "Hey, don't run away!!"
-msgstr ""
+msgstr "嘿，别跑啊！！"
 
 #: conversationlist_troubling_times.json:tt_sly_202
 msgid "Watch out, kid. Behind you!"
-msgstr ""
+msgstr "注意，小子！你身后！"
 
 #: conversationlist_troubling_times.json:tt_sly_210
 msgid "OK, you're tough, even if not smart, kid."
-msgstr ""
+msgstr "行啊你小子，虽说脑瓜子不咋灵光，身手倒是不赖。"
 
 #: conversationlist_troubling_times.json:tt_sly_210:0
 msgid "Thank you?"
-msgstr ""
+msgstr "谢谢？"
 
 #: conversationlist_troubling_times.json:tt_sly_211
 msgid "Smart enough to find me, and tough enough to beat my friends. You convinced me that we can do it."
-msgstr ""
+msgstr "脑子灵光到能找到我，身手稳健到能击败我的这些朋友，你的表现让我确信那事情能搞"
+"成了。"
 
 #: conversationlist_troubling_times.json:tt_sly_212
 msgid "As we discussed, Luthor's Ring can be found in the secret room which Crackshot tried to open with Luthor's key from Umar."
-msgstr ""
+msgstr "就像我们之前讨论过的那样，路德之戒就在那间密室里，就是先前裂空试图用从奥马尔"
+"手中夺得的路德之匙所要打开的那间。"
 
 #: conversationlist_troubling_times.json:tt_sly_213
 msgid "So you have to go and ask Umar for Luthor's key."
-msgstr ""
+msgstr "所以说你必须得去见下奥马尔，找他借用一下路德之匙。"
 
 #: conversationlist_troubling_times.json:tt_sly_214
 msgid "However, that door can only be opened if you also wear Luthor's gloves, which breaks the spell on it."
-msgstr ""
+msgstr "然而只用当你同时还佩戴着路德的手套才能破除那道门上的咒语打开它。"
 
 #: conversationlist_troubling_times.json:tt_sly_214:0
 msgid "And the evil you mentioned are monsters, nothing more?"
-msgstr ""
+msgstr "以及要注意那些被你称为邪恶生物的怪物群，还有别的什么要注意的吗？"
 
 #: conversationlist_troubling_times.json:tt_sly_216
 msgid "In fact, I didn't take the time to look at them more closely. But they seemed terrible and deadly to me."
-msgstr ""
+msgstr "说实话其实当时我并没有没来得及仔细观察它们，但它们看起确实很吓人，想杀我很容"
+"易的样子。"
 
 #: conversationlist_troubling_times.json:tt_sly_220
 msgid "When the door opens, and these strong monsters escape into the open, they will attack Dhayavar, which we must avoid at all costs."
-msgstr ""
+msgstr "那门要是开了，那帮强大的怪物准要跑出来血洗达亚瓦！说啥也不能让这事儿发生。"
 
 #: conversationlist_troubling_times.json:tt_sly_222
 msgid "Which reminds me: Another kid was looking for information to open it."
-msgstr ""
+msgstr "说到这我倒是想起来了一件事：先前也有个小孩子在一直打听怎么打开那道门。"
 
 #: conversationlist_troubling_times.json:tt_sly_222:0
 msgid "That kid, did he look just like me, but older?"
-msgstr ""
+msgstr "你说的那个小孩子，是不是长得很像我，但岁数看起来要比我大？"
 
 #: conversationlist_troubling_times.json:tt_sly_240
 msgid "Come to think of it, he did."
-msgstr ""
+msgstr "你这么一提的话，确实如此。"
 
 #: conversationlist_troubling_times.json:tt_sly_240:0
 msgid "[to self] What was Andor trying to do now?"
-msgstr ""
+msgstr "[默念道] 安道尔这么做是想干嘛？"
 
 #: conversationlist_troubling_times.json:tt_sly_250
 msgid "Looking at your strength, kid, you may just be able to beat those monsters. We might give it a try."
-msgstr ""
+msgstr "瞧你这身力气，小子，我想是有可能打败那些怪物的，这值得一试。"
 
 #: conversationlist_troubling_times.json:tt_sly_250:0
 #: conversationlist_troubling_times.json:tt_sly_250:1
 msgid "Thanks again."
-msgstr ""
+msgstr "再次感谢。"
 
 #: conversationlist_troubling_times.json:tt_sly_252
 msgid "By the way, here's your money back. 1000 gold."
-msgstr ""
+msgstr "对了，你把你之前的钱拿回去吧，这里一共有1000金币。"
 
 #: conversationlist_troubling_times.json:tt_sly_252:0
 msgid "Hmm, OK."
-msgstr ""
+msgstr "呃…好的。"
 
 #: conversationlist_troubling_times.json:tt_sly_254
 msgid "Meet me at the door to the secret room, and bring Luthor's key. Together with Luthor's gloves the door will open."
-msgstr ""
+msgstr "那么之后我们就在密室的门口再次见面了，记得带上路德之匙哈，只有用它并配上路德"
+"的手套才能打开那扇门。"
 
 #: conversationlist_troubling_times.json:tt_sly_300
 msgid "What did you expect?"
-msgstr ""
+msgstr "那你还觉得该咋整？"
 
 #: conversationlist_troubling_times.json:tt_sly_310
 msgid "OK, I admit that you are quite good."
-msgstr ""
+msgstr "好吧，说句公道话你这个人确实不赖。"
 
 #: conversationlist_troubling_times.json:tt_sly_320
 msgid "I would actually do a job with you again if the opportunity came up."
-msgstr ""
+msgstr "说真的，以后要是有机会的话，我俩是可以再搭一块的。"
 
 #: conversationlist_troubling_times.json:tt_sly_320:0
 msgid "Yes, that would be nice."
-msgstr ""
+msgstr "嗯，这可不错。"
 
 #: conversationlist_troubling_times.json:tt_sly_330
 msgid "And now buzz off, kid. ... $playername."
-msgstr ""
+msgstr "然后你现在可以滚蛋了，小子……$playername。"
 
 #: conversationlist_troubling_times.json:tt_sly_330:0
 msgid "[Grinning] See you."
-msgstr ""
+msgstr "[颔首微笑] 回头见。"
 
 #: conversationlist_troubling_times.json:tt_sly_350
 msgid "See you."
-msgstr ""
+msgstr "回头见。"
 
 #: conversationlist_troubling_times.json:tt_sly2
 msgid "At last! Did you sleep all the way here?"
-msgstr ""
+msgstr "你可算是到了啊！小子你怕不是一路梦游过来的吧？"
 
 #: conversationlist_troubling_times.json:tt_sly2:0
 msgid "Polite as ever."
-msgstr ""
+msgstr "你还是这么“有礼貌”嘛。"
 
 #: conversationlist_troubling_times.json:tt_sly2_10
 msgid "Give me Luthor's key now."
-msgstr ""
+msgstr "快给我路德之匙。"
 
 #: conversationlist_troubling_times.json:tt_sly2_10:0
 msgid "Haha, funny. I forgot to bring it."
-msgstr ""
+msgstr "哈哈，给你讲个笑话，我忘带了。"
 
 #: conversationlist_troubling_times.json:tt_sly2_10:1
 msgid "Here it is. Let's do it."
-msgstr ""
+msgstr "在这儿呢，让我们开始吧。"
 
 #: conversationlist_troubling_times.json:tt_sly2_12
 msgid "Seraphina stares at you in disbelief."
-msgstr ""
+msgstr "塞拉菲娜用难以置信的眼神打量着你。"
 
 #: conversationlist_troubling_times.json:tt_sly2_12:0
 msgid "Eh, I'm getting it, I'm running. Just a minute ..."
-msgstr ""
+msgstr "呃，我这就去拿，立刻马上，请稍等……"
 
 #: conversationlist_troubling_times.json:tt_sly2_14
 msgid "Don't you dare to come back without it!"
-msgstr ""
+msgstr "你可别敢再这样空手而来了！"
 
 #: conversationlist_troubling_times.json:tt_sly2_20
 msgid "Seraphina takes the key and easily unlocks the door. As quick as a weasel, she slips into the dark corridor."
-msgstr ""
+msgstr "塞拉菲娜用钥匙轻易打开了那道门，然后如黄鼠狼一般滋溜一下潜进了昏暗的走廊中。"
 
 #: conversationlist_troubling_times.json:tt_sly2_20:0
 msgid "I had better follow immediately."
-msgstr ""
+msgstr "我最好快点跟上去。"
 
 #: conversationlist_troubling_times.json:tt_sly_attack0b
 msgid "Hey kid, stay close behind me! It's going to be dangerous."
-msgstr ""
+msgstr "嘿小子，靠我近点！前面要危险起来了。"
 
 #: conversationlist_troubling_times.json:tt_sly_attack1_10
 msgid "Ha! Take that, skeleton!"
-msgstr ""
+msgstr "哈！尝尝这个吧，骷髅！"
 
 #: conversationlist_troubling_times.json:tt_sly_attack1_20
 msgid "Just one more hit ..."
-msgstr ""
+msgstr "只要再来上一击……"
 
 #: conversationlist_troubling_times.json:tt_sly_attack1_90
 msgid "Finished. Take a quick breather and then move on to the next one ..."
-msgstr ""
+msgstr "搞定。现在快调整一下呼吸，接下来我们还要去解决下一个……"
 
 #: conversationlist_troubling_times.json:tt_sly_attack1_92
 msgid "And keep staying close behind me!"
-msgstr ""
+msgstr "还有记得靠我近点！"
 
 #: conversationlist_troubling_times.json:tt_sly_attack2_10
 msgid "Bang!!"
-msgstr ""
+msgstr "砰！！"
 
 #: conversationlist_troubling_times.json:tt_sly_attack2_20
 msgid "Bang again!!"
-msgstr ""
+msgstr "再砰！！"
 
 #: conversationlist_troubling_times.json:tt_sly_attack2_90
 msgid "Pew, it's getting warm. Oh, now there are three of them ..."
-msgstr ""
+msgstr "咻，现在算是进入状态了。噢，现在要面对三只了……"
 
 #: conversationlist_troubling_times.json:tt_sly_attack2_92
 msgid "Stay close to me!"
-msgstr ""
+msgstr "快靠过来！"
 
 #: conversationlist_troubling_times.json:tt_sly_attack3_10
 msgid "Ha! Move, you lazy bones!"
-msgstr ""
+msgstr "哈！你快动起来啊，懒骨头！"
 
 #: conversationlist_troubling_times.json:tt_sly_attack3_20
 msgid "Ouch! That has hurt."
-msgstr ""
+msgstr "嗷！好痛。"
 
 #: conversationlist_troubling_times.json:tt_sly_attack3_30
 msgid "Aaargh!!"
-msgstr ""
+msgstr "啊啊啊！！"
 
 #: conversationlist_troubling_times.json:tt_sly_attack3_80
 msgid "Noo! I can't ... Help! I'm wounded ... Run!"
-msgstr ""
+msgstr "不！我不能……救命！我受创了……快跑！"
 
 #: conversationlist_troubling_times.json:tt_sly_attack3_90
 msgid "With her last bit of strength, Seraphina leapt past you and fell to the ground."
-msgstr ""
+msgstr "塞拉菲娜用她仅存的一点力气从你身旁跃了过去，然后径直倒在了地上。"
 
 #: conversationlist_troubling_times.json:tt_sly_attack4_10
 msgid "I'm OK again! I'll help in the search."
-msgstr ""
+msgstr "我已经恢复好状态了，接下来我会帮着一起搜寻的。"
 
 #: conversationlist_troubling_times.json:tt_sly3
 msgid "Don't push me. I need to concentrate."
-msgstr ""
+msgstr "别干扰我，我得保持集中精神才行。"
 
 #: conversationlist_troubling_times.json:tt_sly4_key
 msgid "Help ... don't let me die here ..."
-msgstr ""
+msgstr "救命……可别让我死在这里了……"
 
 #: conversationlist_troubling_times.json:tt_sly4
 msgid "It's good to ... see you are alive, kid."
-msgstr ""
+msgstr "看到你还活着……真好，小子。"
 
 #: conversationlist_troubling_times.json:tt_sly4:0
 msgid "You look terrible."
-msgstr ""
+msgstr "你现在情况看起来很堪忧啊。"
 
 #: conversationlist_troubling_times.json:tt_sly4:1
 #: conversationlist_troubling_times.json:tt_sly4_2:0
 msgid "You are severely wounded."
-msgstr ""
+msgstr "你受伤受得好重。"
 
 #: conversationlist_troubling_times.json:tt_sly4:2
 msgid "You look better now."
-msgstr ""
+msgstr "你现在看起来好多了。"
 
 #: conversationlist_troubling_times.json:tt_sly4:3
 msgid "Hey, I'm back. Don't be alarmed, I'll squeeze past you."
-msgstr ""
+msgstr "嘿，我回来了。接下来请你别做出什么应激反应，我得要从你旁边挤过去一下。"
 
 #: conversationlist_troubling_times.json:tt_sly4_2
 msgid "Nice compliment, kid. Ooouw ..."
-msgstr ""
+msgstr "不错的场面话嘛，小子。嗷嗷嗷……"
 
 #: conversationlist_troubling_times.json:tt_sly4_4
 msgid "Yes, thanks to you. Just give me a few seconds ..."
-msgstr ""
+msgstr "好，谢谢你了，请稍等片刻……"
 
 #: conversationlist_troubling_times.json:tt_sly4_10
 msgid "Give me some healing potion ... please ..."
-msgstr ""
+msgstr "请给我几瓶治疗药水吧……拜托了……"
 
 #: conversationlist_troubling_times.json:tt_sly4_10:0
 #: conversationlist_troubling_times.json:tt_sly4_10:1
 msgid "Here, have a minor vial of health."
-msgstr ""
+msgstr "给你，用这管弱效治疗药水吧。"
 
 #: conversationlist_troubling_times.json:tt_sly4_10:2
 msgid "Here, have a potion of health."
-msgstr ""
+msgstr "给你，用这瓶治疗药水吧。"
 
 #: conversationlist_troubling_times.json:tt_sly4_10:3
 msgid "Here, have a major potion of health."
-msgstr ""
+msgstr "给你，用这瓶强效治疗药水吧。"
 
 #: conversationlist_troubling_times.json:tt_sly4_10:4
 msgid "Here, have a major flask of health."
-msgstr ""
+msgstr "给你，用这杯强效治疗药水吧。"
 
 #: conversationlist_troubling_times.json:tt_sly4_10:5
 msgid "Here, have a bonemeal potion."
-msgstr ""
+msgstr "给你，用这瓶骨粉药水吧。"
 
 #: conversationlist_troubling_times.json:tt_sly4_10:6
 msgid "Here, have a bonemeal potion from Lodar."
-msgstr ""
+msgstr "给你，用这瓶出自洛达尔之手的骨粉药水吧。"
 
 #: conversationlist_troubling_times.json:tt_sly4_10:7
 msgid "Here, have this nice potion. [give her a poison potion]"
-msgstr ""
+msgstr "给你，用这瓶效果不错的药水吧。[给她一瓶毒药]"
 
 #: conversationlist_troubling_times.json:tt_sly4_12
 msgid "That didn't work. My wounds are too deep."
-msgstr ""
+msgstr "这玩意没用的，我伤得过重了。"
 
 #: conversationlist_troubling_times.json:tt_sly4_12:0
 msgid "Oh dear, wait, I'll get something different."
-msgstr ""
+msgstr "哦天呐，请等一下，我给你搞点别的。"
 
 #: conversationlist_troubling_times.json:tt_sly4_20
 msgid "Ahh, that's good. Thank you, kid ... $playername."
-msgstr ""
+msgstr "啊，这家伙可真不错，谢谢你了，小子……$playername。"
 
 #: conversationlist_troubling_times.json:tt_sly4_20:0
 msgid "[Embarrassed] Sure thing."
-msgstr ""
+msgstr "[尴尬地说道] 那当然。"
 
 #: conversationlist_troubling_times.json:tt_sly4_22
 msgid "[Spits] What is this stuff?! Throw it away before you drink it yourself. It's rotten."
-msgstr ""
+msgstr "[啐了几口] 这玩意是啥呀？你快扔了吧，可别自己喝下去了，这药水一股腐烂味。"
 
 #: conversationlist_troubling_times.json:tt_sly4_22:0
 msgid "So - sorry."
-msgstr ""
+msgstr "呃——对不起。"
 
 #: conversationlist_troubling_times.json:tt_sly4_24
 msgid "You hope that she doesn't notice your guilty conscience."
-msgstr ""
+msgstr "你祈祷她没察觉到你的问心有愧。"
 
 #: conversationlist_troubling_times.json:tt_sly4_24:0
 msgid "You are tough."
-msgstr ""
+msgstr "你命可真硬。"
 
 #: conversationlist_troubling_times.json:tt_sly4_30
 msgid "Now don't just stand around here. Look lively and find Luthor's ring."
-msgstr ""
+msgstr "现在还光站着干吗，麻溜儿地快动起来去找路德之戒啊。"
 
 #: conversationlist_troubling_times.json:tt_sly4_30:0
 msgid "Ah, you're back to your old self already."
-msgstr ""
+msgstr "啊，你现在算是变回原本的性情状态了哈。"
 
 #: conversationlist_troubling_times.json:tt_sly5
 msgid "Suits me, this place. Don't you think?"
-msgstr ""
+msgstr "这性情还挺适合我的，你不觉得吗？"
 
 #: conversationlist_troubling_times.json:tt_sly5:0
 msgid "Better help me search."
-msgstr ""
+msgstr "你最好帮我一起找。"
 
 #: conversationlist_troubling_times.json:tt_sly5:1
 msgid "[Sarcastic] Truly royal."
-msgstr ""
+msgstr "[讽刺道] 这下你可成皇室成员了哈。"
 
 #: conversationlist_troubling_times.json:tt_sly5:2
 msgid "This throne looks familiar to me."
-msgstr ""
+msgstr "这王座我好眼熟。"
 
 #: conversationlist_troubling_times.json:tt_sly5_2
 msgid "Royal, yes."
-msgstr ""
+msgstr "皇室成员，没错。"
 
 #: conversationlist_troubling_times.json:tt_sly5_3
 msgid "In fact, I am King Luthor's heir. He's my ancestor."
-msgstr ""
+msgstr "实际上，我就是路德国王的子嗣，而他则就是我的先祖。"
 
 #: conversationlist_troubling_times.json:tt_sly5_4
 msgid "How else would I be able to wear his gloves without getting hurt?"
-msgstr ""
+msgstr "不然我为何在戴上他的手套时能毫发无伤？"
 
 #: conversationlist_troubling_times.json:tt_sly5_4:0
 msgid "True."
-msgstr ""
+msgstr "没毛病。"
 
 #: conversationlist_troubling_times.json:tt_sly5_6
 msgid "Nothing to be proud of though. Forget it, child. I should have kept quiet about it."
-msgstr ""
+msgstr "不过这没什么好骄傲的，你就当我没说吧，小子，其实我就不该说的。"
 
 #: conversationlist_troubling_times.json:tt_sly5_8
 msgid "So you've been to King Luthor's tomb. Yes, we have ... borrowed ... his throne."
-msgstr ""
+msgstr "那你应该是去过路德国王的墓穴了。没错。我们把他的王座给…借用…走了。"
 
 #: conversationlist_troubling_times.json:tt_sly5_10
 msgid "Of course I'll help you. What are you looking for?"
-msgstr ""
+msgstr "当然我会帮忙的，现在你在找啥啊？"
 
 #: conversationlist_troubling_times.json:tt_sly5_10:0
 msgid "Luthor's ring, of course. I just can't find it."
-msgstr ""
+msgstr "当然是路德之戒啊，我就是怎么也找不到它。"
 
 #: conversationlist_troubling_times.json:tt_sly5_12
 msgid "Ah - you are looking for this ring here, am I right?"
-msgstr ""
+msgstr "啊——你找的是那边的那枚戒指吗，我没搞错吧？"
 
 #: conversationlist_troubling_times.json:tt_sly5_12:0
 msgid "What? And I've been searching here for hours!"
-msgstr ""
+msgstr "啥情况？我可是找了好久！"
 
 #: conversationlist_troubling_times.json:tt_sly5_20
 msgid "Well, you were so engrossed in the matter that I didn't want to disturb you."
-msgstr ""
+msgstr "哎哟，你那会儿找得太入神了，我都没敢打扰你呢。"
 
 #: conversationlist_troubling_times.json:tt_sly5_20:0
 msgid "[Grumble]"
-msgstr ""
+msgstr "[咕哝抱怨两声]"
 
 #: conversationlist_troubling_times.json:tt_sly5_22
 msgid "Okay, we're done here. We should get out of here now."
-msgstr ""
+msgstr "哦好了，那我们的事情也干完了，现在我们得出去了。"
 
 #: conversationlist_troubling_times.json:tt_sly5_24
 msgid "The monsters will come back. Then the door should be closed and sealed. From the outside."
-msgstr ""
+msgstr "那群怪物以后还会重新占据这里的，接下来那道门也得重新闭起来从外边封住了。"
 
 #: conversationlist_troubling_times.json:tt_sly5_24:0
 msgid "And all the riches?"
-msgstr ""
+msgstr "这些财宝也是如此？"
 
 #: conversationlist_troubling_times.json:tt_sly5_26
 msgid "Don't leave anything here you want to keep. We'll never go back in here."
-msgstr ""
+msgstr "你想要拿走的现在都带上别落下，我们不会再回到这里了。"
 
 #: conversationlist_troubling_times.json:tt_sly5_30
 msgid "Here, catch the ring! Keep it safe and take it to Talion. I'm off."
-msgstr ""
+msgstr "接住，这戒指抓好了！把它好好地交给塔里昂吧，我先走了。"
 
 #: conversationlist_troubling_times.json:tt_sly5_32
 msgid "A light breeze remains where Seraphina had just been sitting."
-msgstr ""
+msgstr "刚刚塞拉菲娜还坐着的地方现在只剩下阵阵寒风。"
 
 #: conversationlist_troubling_times.json:tt_start_10
 msgid "You enter the Thieves' Guild looking for things to do."
-msgstr ""
+msgstr "你进入盗贼公会想找些事情做。"
 
 #: conversationlist_troubling_times.json:tt_start_10:0
 msgid "I am sure that there is another job for me today."
-msgstr ""
+msgstr "想必今天又要有任务可以交给我了吧。"
 
 #: conversationlist_troubling_times.json:tt_start_20
 msgid "Happy and expectant, you move on."
-msgstr ""
+msgstr "怀着兴奋与期待，你向前走去。"
 
 #: conversationlist_troubling_times.json:tt_talion_10
 msgid "Oh, that lovely spell! The Striking Spectacle Shadow spell!"
-msgstr ""
+msgstr "哦，你是说那道施展得很漂亮的咒语吧！那道暗影显状咒！"
 
 #: conversationlist_troubling_times.json:tt_talion_12
 msgid "One of my specials! I just had an opportunity to use it again recently. It went great!"
-msgstr ""
+msgstr "那可是我的绝技之一！我不久前才又有机会施展了一次，效果很是绝佳！"
 
 #: conversationlist_troubling_times.json:tt_talion_12:0
 msgid "Why did you do that? People can get hurt!"
-msgstr ""
+msgstr "你干嘛要这么做啊？它会让人受伤的！"
 
 #: conversationlist_troubling_times.json:tt_talion_20
 msgid "Nonsense! How can it hurt to be more noticeable? It makes one stand out more, makes one more popular."
-msgstr ""
+msgstr "瞎扯！变得更加显眼咋能伤到人？它只会让人更加容易被注意到，更加受瞩目而已啊。"
 
 #: conversationlist_troubling_times.json:tt_talion_20:0
 msgid "Not if you want to be a thief or similar."
-msgstr ""
+msgstr "那可不一定，要是想当小偷啥的就另说了。"
 
 #: conversationlist_troubling_times.json:tt_talion_30
 msgid "Why would these so-called thieves approach you?"
-msgstr ""
+msgstr "为啥那些所谓的盗贼会找上你？"
 
 #: conversationlist_troubling_times.json:tt_talion_30:0
 msgid "I'm a kid. No one notices me ..."
-msgstr ""
+msgstr "因为我只是一个孩子，大家都不大会注意我……"
 
 #: conversationlist_troubling_times.json:tt_talion_40
 msgid "That's debatable in your case, but I see the point."
-msgstr ""
+msgstr "你这事现在该怎么处理我还没有个准儿，不过你想表达的意思我倒是明白了。"
 
 #: conversationlist_troubling_times.json:tt_talion_40:0
 msgid "Thanks! So, why did you do it?"
-msgstr ""
+msgstr "谢谢！所以说，你为啥要做这件事啊？"
 
 #: conversationlist_troubling_times.json:tt_talion_50
 msgid "Because of the gold! Why else?"
-msgstr ""
+msgstr "为了金币啊！不然呢？"
 
 #: conversationlist_troubling_times.json:tt_talion_52
 msgid "Of course I use it for the church ..."
-msgstr ""
+msgstr "当然我那它用作教堂的……"
 
 #: conversationlist_troubling_times.json:tt_talion_52:0
 msgid "Well, what will it take to remove the spell?"
-msgstr ""
+msgstr "那这样的话，请问你得有什么东西才能解除那道咒语？"
 
 #: conversationlist_troubling_times.json:tt_talion_60
 msgid "Around 50000 gold, of which a large portion will go back to the mysterious Lady Dameni, who had me do the spell. I would need to pacify her, otherwise her toughs will kill me."
 msgstr ""
+"得有约莫50000金币才行，其中的大头还得流转回那位秘密的达梅尼女士的手里，就是她"
+"让我施展那道咒语的。我得用这笔钱让她息怒，不然的话她手下的狠人会弄死我的。"
 
 #: conversationlist_troubling_times.json:tt_talion_60:0
 msgid "50000 gold! I hope the guild can reimburse me!"
-msgstr ""
+msgstr "50000金币！愿公会能帮我偿付！"
 
 #: conversationlist_troubling_times.json:tt_talion_62
 msgid "I also need a few more items ..."
-msgstr ""
+msgstr "另外我还需要一些物件……"
 
 #: conversationlist_troubling_times.json:tt_talion_62:0
 msgid "Which items?"
-msgstr ""
+msgstr "什么物件？"
 
 #: conversationlist_troubling_times.json:tt_talion_64
 msgid "Indeed? We'll see. I need the following things:"
-msgstr ""
+msgstr "嗯哼？你就等着瞧吧。而我需要下面这些东西："
 
 #: conversationlist_troubling_times.json:tt_talion_70
 msgid "Oh, just a few little things, easy to get."
-msgstr ""
+msgstr "哦，就几样小东西，挺好搞到手的。"
 
 #: conversationlist_troubling_times.json:tt_talion_72
 msgid "Villain's ring, Troublemaker's ring, Ring of backstabbing, Tears of the Shadow potion. And most important, Luthor's ring. Together with 50000 gold."
-msgstr ""
+msgstr "恶棍之戒、捣蛋鬼之戒、反刺之戒以及暗影之泪药水。还有最为要紧的那枚，路德之戒"
+"。另外集齐后还有50000金币。"
 
 #: conversationlist_troubling_times.json:tt_talion_72:0
 msgid "You don't ask for much! Where do I find all that?"
-msgstr ""
+msgstr "你要的可真不少啊！我上哪弄这么些东西去？"
 
 #: conversationlist_troubling_times.json:tt_talion_72:5
 msgid "I don't have Luthor's ring yet."
-msgstr ""
+msgstr "我还没有路德之戒。"
 
 #: conversationlist_troubling_times.json:tt_talion_72:6
 msgid "I don't have the 50000 gold yet."
-msgstr ""
+msgstr "我还没有50000金币。"
 
 #: conversationlist_troubling_times.json:tt_talion_72:7
 msgid "I have everthing other than Luthor's ring"
-msgstr ""
+msgstr "除了路德之戒，别的我都集齐了"
 
 #: conversationlist_troubling_times.json:tt_talion_72:8
 msgid "Here's all you have asked for."
-msgstr ""
+msgstr "你要的东西都在这里。"
 
 #: conversationlist_troubling_times.json:tt_talion_74
 msgid "Well, then go and find it."
-msgstr ""
+msgstr "嗯，那就快出发去找吧。"
 
 #: conversationlist_troubling_times.json:tt_talion_75
 msgid "By the way, don't come to me with polished rings. The counterspell works with the unmeddled ones only. Hurry now!"
-msgstr ""
+msgstr "对了，别拿抛过光的戒指来，反咒只对原模原样的戒指管用。赶紧出发吧！"
 
 #: conversationlist_troubling_times.json:tt_talion_76:0
 msgid "Now I am going to find Luthor's ring."
-msgstr ""
+msgstr "现在我得去找路德之戒了。"
 
 #: conversationlist_troubling_times.json:tt_talion_80
 msgid "Check with your thief friends, they should know. All these rings form part of your thievery business."
-msgstr ""
+msgstr "这件事你得去问你的那些盗贼朋友了，他们应该知道的。这些戒指本来也都关乎到你们"
+"盗贼那边的事情。"
 
 #: conversationlist_troubling_times.json:tt_talion_80:0
 msgid "Luthor's ring ..."
-msgstr ""
+msgstr "路德之戒……"
 
 #: conversationlist_troubling_times.json:tt_talion_82
 msgid "Yes, this ring might be a little harder to find. I trust in you."
-msgstr ""
+msgstr "嗯，这枚戒指或许会更难找一点，但我相信你可以。"
 
 #: conversationlist_troubling_times.json:tt_talion_82:0
 msgid "Don't you have any idea where it could be?"
-msgstr ""
+msgstr "它在哪儿你一点想法都没有吗？"
 
 #: conversationlist_troubling_times.json:tt_talion_84
 msgid "No. Ask your thief friends."
-msgstr ""
+msgstr "并没有，这得去问你的盗贼朋友才行。"
 
 #: conversationlist_troubling_times.json:tt_talion_86
 msgid "I said no. Go now, child."
-msgstr ""
+msgstr "我都说了没有。现在可以出发了，孩子。"
 
 #: conversationlist_troubling_times.json:tt_talion_90
 msgid "I don't know anybody with that name. Sorry."
-msgstr ""
+msgstr "我并不认识叫这个名字的什么人，抱歉。"
 
 #: conversationlist_troubling_times.json:tt_talion_92
 msgid "Did you find the things I asked? Especially Luthor's Ring?"
-msgstr ""
+msgstr "你找齐那些我要的东西了吗？特别是那枚路德之戒？"
 
 #: conversationlist_troubling_times.json:tt_talion_92:0
 msgid "That is hard to get. No one knows where it is."
-msgstr ""
+msgstr "那玩意很不好搞到手，压根没人知道它在哪儿。"
 
 #: conversationlist_troubling_times.json:tt_talion_94
 msgid "Good thieves don't have to search for the things they want. They know where they are."
-msgstr ""
+msgstr "厉害的盗贼是不用满世界找他们想要的东西的，他们心里自然知道那些东西在哪。"
 
 #: conversationlist_troubling_times.json:tt_talion_94:0
 msgid "Can't you cast the counterspell without the ring?"
-msgstr ""
+msgstr "你就不能不用那枚戒指来施展反咒吗？"
 
 #: conversationlist_troubling_times.json:tt_talion_96
 msgid "No ring - no help, sorry."
-msgstr ""
+msgstr "没戒指——帮不了，抱歉。"
 
 #: conversationlist_troubling_times.json:tt_talion_98
 msgid "Find it or your friends may have to retire or go into another honest business. He he!"
-msgstr ""
+msgstr "找到那枚戒指，不然你的那些朋友估计都得金盆洗手，或者去干正经活儿了，呵呵！"
 
 #: conversationlist_troubling_times.json:tt_talion_98:0
 msgid "Very funny."
-msgstr ""
+msgstr "你可真会逗闷子呵。"
 
 #: conversationlist_troubling_times.json:tt_talion_100
 msgid "Behold - Luthor's ring! And this much gold! I didn't expect that you would manage this so soon."
-msgstr ""
+msgstr "啊呀——路德之戒！还有这么些金子！我都没料到你这么快就办利索了。"
 
 #: conversationlist_troubling_times.json:tt_talion_100:0
 msgid "An easy thing for me."
-msgstr ""
+msgstr "对我来说小菜一碟。"
 
 #: conversationlist_troubling_times.json:tt_talion_110
 msgid "[muttering] With all that gold and rings I could start a new and wealthy life in Nor City. Hmm ..."
-msgstr ""
+msgstr "[喃喃自语道] 有了这些金币与戒指，我就可以在诺尔城开始过新的阔气日子喽，嗯……"
 
 #: conversationlist_troubling_times.json:tt_talion_110:0
 msgid "You know that I can hear you?"
-msgstr ""
+msgstr "你的这些话我都听到了知道不？"
 
 #: conversationlist_troubling_times.json:tt_talion_112
 msgid "Eh, well. Now it's time to keep my promise and dispell your friends."
-msgstr ""
+msgstr "呃，啊哈，现在到我该兑现帮你的朋友们解咒的诺言了。"
 
 #: conversationlist_troubling_times.json:tt_talion_112:0
 msgid "That sounds better."
-msgstr ""
+msgstr "这就对了。"
 
 #: conversationlist_troubling_times.json:tt_talion_120
 msgid "[muttering strange words]"
-msgstr ""
+msgstr "[沉吟道一些听不懂的话]"
 
 #: conversationlist_troubling_times.json:tt_talion_122
 msgid "[muttering more strange words]"
-msgstr ""
+msgstr "[沉吟道更多听不懂的话]"
 
 #: conversationlist_troubling_times.json:tt_talion_124
 msgid "[muttering even more strange words]"
-msgstr ""
+msgstr "[沉吟道一大堆听不懂的话]"
 
 #: conversationlist_troubling_times.json:tt_talion_130
 msgid "Done. Go back to your friends, everything is as it was before."
-msgstr ""
+msgstr "搞定。回去见你的朋友们吧，现在一切都回归往常了。"
 
 #: conversationlist_troubling_times.json:tt_talion_130:0
 msgid "Great! Thank you."
-msgstr ""
+msgstr "太好了！谢谢你。"
 
 #: conversationlist_troubling_times.json:tt_talion_300:0
 msgid "The rings. I need them back of course."
-msgstr ""
+msgstr "还有那些戒指呢，不用说你得还给我才行。"
 
 #: conversationlist_troubling_times.json:tt_talion_310
 msgid "Oh no, you don't. And it's not possible."
-msgstr ""
+msgstr "哦不行，你要不回它们了，同样这也是办不成的。"
 
 #: conversationlist_troubling_times.json:tt_talion_320
 msgid "I said you don't need the rings. Also it's not possible ..."
-msgstr ""
+msgstr "我说了那些戒指你要不着了，同样这也是办不成的。"
 
 #: conversationlist_troubling_times.json:tt_talion_320:0
 msgid "OK, it was just a question. Bye."
-msgstr ""
+msgstr "好吧，我只是随便问问，再会。"
 
 #: conversationlist_troubling_times.json:tt_talion_320:1
 msgid "I'll show you what's possible ..."
-msgstr ""
+msgstr "那我可要好好展示给你咋样才能办得成了……"
 
 #: conversationlist_troubling_times.json:tt_talion_330
 msgid "[Hasty] Now here is Luthor's ring. It is the only one that was powerfull enough to survive the spell. The others are broken."
-msgstr ""
+msgstr "[喘气道] "
+"路德之戒在这儿，这也是唯一一枚强力到能撑过咒语的戒指，其他的都已经损坏了。"
 
 #: conversationlist_troubling_times.json:tt_talion_330:0
 msgid "Hmm, thanks."
-msgstr ""
+msgstr "嗯…谢谢。"
 
 #: conversationlist_troubling_times.json:tt_talion_132
 msgid "[to himself] I hope."
-msgstr ""
+msgstr "[自言自语道] 但愿吧。"
 
 #: conversationlist_troubling_times.json:tt_tahalendor_10
 msgid "Eh, what? Better ask Yolgen."
-msgstr ""
+msgstr "唔，你在讲啥？这种事情你最好去问问约尔根。"
 
 #: conversationlist_troubling_times.json:tt_thoronir_10
 msgid "You must be confusing me with someone else."
-msgstr ""
+msgstr "你怕是把我跟别的什么人给搞混了。"
 
 #: conversationlist_troubling_times.json:tt_yolgen_10
 msgid "I don't understand ... What are you talking about?"
-msgstr ""
+msgstr "我有点不理解……你在说啥事啊？"
 
 #: itemcategories_1.json:dagger
 msgid "Dagger"
@@ -69331,11 +69438,11 @@ msgstr "外型奇怪的老鼠尾巴"
 
 #: itemlist_v0611_2.json:oegyth
 msgid "Oegyth crystal"
-msgstr "奥格斯晶体"
+msgstr "奥格斯水晶"
 
 #: itemlist_v0611_2.json:oegyth:description
 msgid "You can feel some strange power radiating from this crystal."
-msgstr "你能感觉到晶体内部有某种力量在向外放射。"
+msgstr "你能感觉到水晶内部有某种力量在向外放射。"
 
 #: itemlist_v0611_2.json:toszylae_heart
 #: itemlist_stoutford.json:eliszylae_heart
@@ -70158,7 +70265,7 @@ msgstr "健全心灵药水"
 
 #: itemlist_stoutford_combined.json:damerilias
 msgid "Damerilias"
-msgstr "大马士革"
+msgstr "绯鸢花"
 
 #: itemlist_stoutford_combined.json:damerilias:description
 msgid "Flowers that grow only in Remgard"
@@ -70287,7 +70394,7 @@ msgstr "矢田根"
 
 #: itemlist_omicronrg9.json:sword_g03_crackshot:description
 msgid "Crackshot's personal weapon"
-msgstr "疯狂打靶的个人武器"
+msgstr "裂空的个人武器"
 
 #: itemlist_omicronrg9.json:g03_luthor:description
 msgid "The ancient key has a bluish glow."
@@ -70323,7 +70430,7 @@ msgstr "蓝色水晶"
 
 #: itemlist_arulir_mountain.json:crystal_blue:description
 msgid "Some blue shimmering crystals."
-msgstr "一些蓝色的闪烁着的晶体。"
+msgstr "一些蓝色的闪烁着的水晶。"
 
 #: itemlist_arulir_mountain.json:crystal_red
 msgid "Red Crystals"
@@ -70331,7 +70438,7 @@ msgstr "红色水晶"
 
 #: itemlist_arulir_mountain.json:crystal_red:description
 msgid "Some red shimmering crystals."
-msgstr "一些红色的闪烁着的晶体。"
+msgstr "一些红色的闪烁着的水晶。"
 
 #: itemlist_arulir_mountain.json:hunters_sword
 msgid "Hunter's Sword"
@@ -72145,7 +72252,7 @@ msgstr "扎克兰尼的艾迪姆戒指"
 
 #: itemlist_mt_galmore.json:nixite_crystal
 msgid "Nixite crystal"
-msgstr "镍矿晶体"
+msgstr "镍矿水晶"
 
 #: itemlist_mt_galmore.json:nixite_crystal:description
 msgid "A remarkable jewel of unparalleled rarity, exudes an enchanting iridescence reminiscent of tranquil waters under a midday sun. Its surface seems to shimmer with an inner light, casting a soothing teal glow that captivates all who behold it. Legends tell of its unique power coveted by wizards and sorcerers."
@@ -72450,55 +72557,55 @@ msgstr "维瑞吉尔的信物戒指"
 
 #: itemlist_laeroth.json:oegyth1
 msgid "Slightly diminished oegyth crystal"
-msgstr "能量轻微减弱的奥格斯晶体"
+msgstr "能量轻微减弱的奥格斯水晶"
 
 #: itemlist_laeroth.json:oegyth1:description
 msgid "The power radiating from the crystal seems somewhat less than it was."
-msgstr "晶体向外放射的那股力量好像微微变弱了。"
+msgstr "水晶向外放射的那股力量好像微微变弱了。"
 
 #: itemlist_laeroth.json:oegyth2
 msgid "Diminished oegyth crystal"
-msgstr "能量平平减弱的奥格斯晶体"
+msgstr "能量平平减弱的奥格斯水晶"
 
 #: itemlist_laeroth.json:oegyth2:description
 msgid "The power radiating from the crystal seems less than it was."
-msgstr "晶体向外放射的那股力量似乎比原先弱上了几分。"
+msgstr "水晶向外放射的那股力量似乎比原先弱上了几分。"
 
 #: itemlist_laeroth.json:oegyth3
 msgid "Very diminished oegyth crystal"
-msgstr "能量严重减弱的奥格斯晶体"
+msgstr "能量严重减弱的奥格斯水晶"
 
 #: itemlist_laeroth.json:oegyth3:description
 msgid "The power radiating from the crystal seems a lot less than it was."
-msgstr "晶体向外放射的那股力量似乎比原先弱上了好多。"
+msgstr "水晶向外放射的那股力量似乎比原先弱上了好多。"
 
 #: itemlist_laeroth.json:oegyth4
 msgid "Heavily diminished oegyth crystal"
-msgstr "能量急剧减弱的奥格斯晶体"
+msgstr "能量急剧减弱的奥格斯水晶"
 
 #: itemlist_laeroth.json:oegyth4:description
 msgid "The power radiating from the crystal seems much less than it was."
-msgstr "晶体向外放射的那股力量可以说是远不及往日。"
+msgstr "水晶向外放射的那股力量可以说是远不及往日。"
 
 #: itemlist_laeroth.json:oegyth5
 msgid "Very heavily diminished oegyth crystal"
-msgstr "能量极为减弱的奥格斯晶体"
+msgstr "能量极为减弱的奥格斯水晶"
 
 #: itemlist_laeroth.json:oegyth5:description
 msgid "The power radiating from the crystal seems to be weak now."
-msgstr "晶体向外放射的那股力量已经很弱了。"
+msgstr "水晶向外放射的那股力量已经很弱了。"
 
 #: itemlist_laeroth.json:oegyth6
 msgid "Nearly depleted oegyth crystal"
-msgstr "能量近乎耗尽的奥格斯晶体"
+msgstr "能量近乎耗尽的奥格斯水晶"
 
 #: itemlist_laeroth.json:oegyth6:description
 msgid "The power radiating from the crystal seems to be very weak now."
-msgstr "晶体向外放射的那股力量现如同风中残烛。"
+msgstr "水晶向外放射的那股力量现如同风中残烛。"
 
 #: itemlist_laeroth.json:oegyth7
 msgid "Depleted oegyth crystal"
-msgstr "能量已然耗尽的奥格斯晶体"
+msgstr "能量已然耗尽的奥格斯水晶"
 
 #: itemlist_laeroth.json:oegyth7:description
 msgid "You can no longer sense any power radiating from the crystal."
@@ -72864,11 +72971,11 @@ msgstr "这枚戒指上附着艾伦希雅对轻灵的起誓。"
 
 #: itemlist_troubling_times.json:ring_luthor
 msgid "Luthor's Ring"
-msgstr ""
+msgstr "路德之戒"
 
 #: itemlist_troubling_times.json:tiny_knife
 msgid "Tiny knife"
-msgstr ""
+msgstr "袖珍小刀"
 
 #: monsterlist_crossglen_animals.json:tiny_rat
 #: monsterlist_ratdom.json:ratdom_maze_rat1
@@ -73467,7 +73574,7 @@ msgstr "脾气暴躁的维尔加德村民"
 
 #: monsterlist_v068_npcs.json:vilegard_citizen
 msgid "Vilegard citizen"
-msgstr "维尔加德市民"
+msgstr "维尔加德村民"
 
 #: monsterlist_v068_npcs.json:vilegard_resident
 msgid "Vilegard resident"
@@ -74634,7 +74741,7 @@ msgstr "克雷尔"
 #: monsterlist_burhczyd.json:burhczyd11e
 #: monsterlist_burhczyd.json:burhczyd12e
 msgid "Knight of Elythom"
-msgstr "伊利索姆骑士"
+msgstr "伊黎索姆骑士"
 
 #: monsterlist_v0611_npcs2.json:almars
 msgid "Almars"
@@ -74714,7 +74821,7 @@ msgstr "莱因卡尔"
 
 #: monsterlist_v0611_npcs2.json:remgard_pg
 msgid "Prison guard"
-msgstr "狱警"
+msgstr "监狱守卫"
 
 #: monsterlist_v0611_npcs2.json:skylenar
 msgid "Skylenar"
@@ -74735,7 +74842,7 @@ msgstr "卡维林"
 
 #: monsterlist_v070_charwood.json:forestfox2
 msgid "Young forest fox"
-msgstr "年轻的森林狐狸"
+msgstr "幼小森林狐狸"
 
 #: monsterlist_v070_charwood.json:forestfox3
 msgid "Forest fox"
@@ -74743,43 +74850,43 @@ msgstr "森林狐狸"
 
 #: monsterlist_v070_charwood.json:redft0
 msgid "Tough redfoot beast"
-msgstr "结实的红脚兽"
+msgstr "棘手红脚兽"
 
 #: monsterlist_v070_charwood.json:redft1
 msgid "Strong redfoot beast"
-msgstr "强大的红脚兽"
+msgstr "强劲红脚兽"
 
 #: monsterlist_v070_charwood.json:redft2
 msgid "Bloodthirsty redfoot beast"
-msgstr "嗜血的红脚兽"
+msgstr "嗜血红脚兽"
 
 #: monsterlist_v070_charwood.json:redft_cr
 msgid "Vicious redfoot beast"
-msgstr "凶猛的红脚兽"
+msgstr "凶恶红脚兽"
 
 #: monsterlist_v070_charwood.json:ccentip0
 msgid "Carrion centipede"
-msgstr "腐肉蜈蚣"
+msgstr "食腐蜈蚣"
 
 #: monsterlist_v070_charwood.json:ccentip1
 msgid "Ravenous carrion centipede"
-msgstr "贪婪的腐肉蜈蚣"
+msgstr "猛餍食腐蜈蚣"
 
 #: monsterlist_v070_charwood.json:ccentip2
 msgid "Bloated carrion centipede"
-msgstr "肿起来的腐肉蜈蚣"
+msgstr "臃肿食腐蜈蚣"
 
 #: monsterlist_v070_charwood.json:charwdg1
 msgid "Puny Charwood goblin"
-msgstr "弱小的查伍德哥布林"
+msgstr "弱小查伍德哥布林"
 
 #: monsterlist_v070_charwood.json:charwdg2
 msgid "Charwood goblin scout"
-msgstr "查伍德哥布林侦察兵"
+msgstr "查伍德哥布林斥候"
 
 #: monsterlist_v070_charwood.json:charwdg3
 msgid "Starving Charwood goblin"
-msgstr "饥饿的查伍德哥布林"
+msgstr "挨饿查伍德哥布林"
 
 #: monsterlist_v070_charwood.json:charwdg4
 #: monsterlist_v070_charwood.json:charwdgg
@@ -74792,23 +74899,23 @@ msgstr "查伍德哥布林战士"
 
 #: monsterlist_v070_charwood.json:charwdg6
 msgid "Tough Charwood goblin"
-msgstr "结实的查伍德哥布林"
+msgstr "棘手查伍德哥布林"
 
 #: monsterlist_v070_charwood.json:charwdg7
 msgid "Aggressive Charwood goblin"
-msgstr "好斗的查伍德哥布林"
+msgstr "好斗查伍德哥布林"
 
 #: monsterlist_v070_charwood.json:charwdg8
 msgid "Strong Charwood goblin"
-msgstr "坚强的查伍德哥布林"
+msgstr "强劲查伍德哥布林"
 
 #: monsterlist_v070_charwood2.json:mazarth1
 msgid "Mazarth beast"
-msgstr "马扎斯野兽"
+msgstr "马扎斯兽"
 
 #: monsterlist_v070_charwood2.json:mazarth2
 msgid "Tough mazarth beast"
-msgstr "结实的马扎斯野兽"
+msgstr "棘手马扎斯兽"
 
 #: monsterlist_v070_charwood2.json:ashs1
 msgid "Weeping ash spectre"
@@ -75990,11 +76097,11 @@ msgstr "反叛的流氓"
 
 #: monsterlist_omicronrg9.json:g03_crackshot
 msgid "Crackshot"
-msgstr "疯狂打靶"
+msgstr "裂空"
 
 #: monsterlist_omicronrg9.json:g03_crackshot_dying
 msgid "Dying Crackshot"
-msgstr "垂死的疯狂打靶"
+msgstr "垂死的裂空"
 
 #: monsterlist_arulir_mountain.json:arulir_3
 msgid "Cave Arulir"
@@ -77348,7 +77455,7 @@ msgstr "Laska Blizz"
 #: monsterlist_troubling_times.json:tt_seraphina4
 #: monsterlist_troubling_times.json:tt_seraphina5
 msgid "Sly Seraphina"
-msgstr "狡猾的塞拉菲娜"
+msgstr "黠·塞拉菲娜"
 
 #: monsterlist_mt_galmore.json:aidem_camp_greedy
 #: monsterlist_mt_galmore.json:aidem_base_greedy_aggressive
@@ -77927,25 +78034,25 @@ msgstr "野花"
 
 #: monsterlist_troubling_times.json:nanath
 msgid "Nanath"
-msgstr ""
+msgstr "纳纳斯"
 
 #: monsterlist_troubling_times.json:tt_monster1
 #: monsterlist_troubling_times.json:tt_monster2
 #: monsterlist_troubling_times.json:tt_monster3
 msgid "Luthor's skeleton guard"
-msgstr ""
+msgstr "路德的骷髅守卫"
 
 #: monsterlist_troubling_times.json:tt_guys
 msgid "Seraphina's bodyguard"
-msgstr ""
+msgstr "塞拉菲娜的护卫"
 
 #: monsterlist_troubling_times.json:spearborn_thrall
 msgid "Spearborn thrall"
-msgstr ""
+msgstr "锐矛奴隶"
 
 #: monsterlist_troubling_times.json:young_spearborn_thrall
 msgid "Young spearborn thrall"
-msgstr ""
+msgstr "幼小锐矛奴隶"
 
 #: questlist.json:andor
 msgid "Search for Andor"
@@ -78033,10 +78140,10 @@ msgstr "在探索苏伦加德镇的时候，我偶然遇见了我的母亲和我
 
 #: questlist.json:andor:110
 msgid "After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do."
-msgstr "[OUTDATED]"
-"在与母亲回家交谈后，我和她试着通过头脑风暴法，来思考安道尔可能在哪里。她提醒我说，安道尔的朋友斯坦威克住在布莱特口岸。我们认为，按逻辑讲下一件要做的是就是去找斯坦威克谈谈。\n"
-"\n"
-"[本任务当前版本无法完成。]"
+msgstr ""
+"在与母亲回家交谈后，我和她试着通过头脑风暴思考安道尔可能在哪里。她提醒我说，"
+"安道尔的朋友斯坦威克住在布莱特口岸。我们认为，按逻辑讲下一件要做的是就是去找"
+"斯坦威克谈谈。"
 
 #: questlist.json:andor:120
 msgid "In the dungeons of Laeroth manor, Kotheses, the torturer, mentioned that he had taught Andor the basics of torturing."
@@ -78044,13 +78151,16 @@ msgstr "在莱洛斯庄园的地牢中，行刑者莱洛斯有提到他曾教授
 
 #: questlist.json:andor:130
 msgid "Andor was trying to find out from Seraphina about terrible monsters in the hideout near the place with the larval burrowers."
-msgstr ""
+msgstr "安道尔之前有跟塞拉菲娜打听过关于那处附近充斥着钻地幼虫的藏物之处内部所存在着"
+"的恐怖怪物的事情。"
 
 #: questlist.json:andor:999
 msgid ""
 "\n"
 "[Quest is not completable at this time.]"
 msgstr ""
+"\n"
+"[本任务当前版本无法完成。]"
 
 #: questlist.json:mikhail_bread
 msgid "Breakfast bread"
@@ -78190,7 +78300,8 @@ msgstr "伊洛戈图已经死了。我给简带来了甘迪尔的戒指，并为
 
 #: questlist.json:bucus:10
 msgid "Bucus in Fallhaven might know something about Andor. He wants me to bring him the key of Luthor from the catacombs beneath Fallhaven church."
-msgstr "法尔海文的布库斯可能知道一些关于安道尔的事情。他想让我把路德的钥匙从法尔海文教堂的地下墓穴里带给他。"
+msgstr "法尔海文的布库斯可能知道一些关于安道尔的事情。他想让我把路德之匙从法尔海文教"
+"堂的地下墓穴里带给他。"
 
 #: questlist.json:bucus:20
 msgid "The catacombs beneath Fallhaven church are closed off. Athamyr is the only one with both permission and the bravery to enter them. I should go see him in his house southwest of the church."
@@ -78210,7 +78321,7 @@ msgstr "阿萨米尔已经准许我进入法尔海文教堂的地下墓穴了。
 
 #: questlist.json:bucus:100
 msgid "I brought Bucus the key of Luthor."
-msgstr "我给布库斯带来了路德的钥匙。"
+msgstr "我给布库斯带来了路德之匙。"
 
 #: questlist.json:fallhavendrunk
 msgid "Drunken tale"
@@ -79482,123 +79593,144 @@ msgstr "秩序井然"
 
 #: questlist_v0611_3.json:remgard:10
 msgid "I have reached the bridge to enter the town of Remgard. According to the bridge guard, the town is closed for outsiders to enter, and no-one is currently allowed to leave. They are investigating some disappearances of some of the townspeople."
-msgstr "我已经到达了进入瑞姆加德镇的桥梁。据桥上的守卫说，这个镇子不允许外人进入，目前也不允许任何人离开。他们正在调查一些镇民的失踪事件。"
+msgstr ""
+"我抵达了通往瑞姆加德镇之桥的桥头。据守桥人所说，本镇目前不对外来者开放，眼下"
+"也不许任何人离镇外出。这是因为他们正在调查几桩发生在镇民身上的失踪案。"
 
 #: questlist_v0611_3.json:remgard:15
 msgid "I have offered my assistance in helping the people of Remgard investigate what has happened to the townspeople that have disappeared."
-msgstr "我已表示愿意协助瑞姆加德人民调查失踪的镇民的下落。"
+msgstr "我已表示愿意提供协助，帮瑞姆加德的人查清失踪镇民的情况。"
 
 #: questlist_v0611_3.json:remgard:20
 msgid "The bridge guard has asked me to investigate an abandoned house to the east along the northern shore of the lake. I should be wary of any inhabitants that may be there."
-msgstr "守桥人让我去调查湖北岸东边的一座废弃的房子。我应该对可能在那里的任何居民保持警惕。"
+msgstr "守桥人让我去调查一座建在湖的北岸上，位于更东边的废弃小屋。我要留意可能待在那"
+"里的居住者。"
 
 #: questlist_v0611_3.json:remgard:30
 msgid "I have reported back to the bridge guard that I met Algangror in the abandoned house."
-msgstr "我已经向守桥人报告，我在废弃的房子里遇到了奥冈萝。"
+msgstr "我向守桥人报告了我在废弃小屋里遇到了奥冈萝。"
 
 #: questlist_v0611_3.json:remgard:31
 msgid "I have reported back to the bridge guard that the abandoned house was empty."
-msgstr "我已经向守桥人报告，那间废弃的房子是空的。"
+msgstr "我向守桥人报告了那座废弃小屋是间空屋。"
 
 #: questlist_v0611_3.json:remgard:35
 msgid "I have been granted entrance into Remgard. I should go visit Jhaeld, the town elder, to talk about what the next step should be. Jhaeld can probably be found in the tavern to the southeast."
-msgstr "我已经被批准进入瑞姆加德。我应该去拜访镇上的长老贾尔德，谈谈下一步该怎么做。在东南面的酒馆里可能能找到贾尔德。"
+msgstr "我获准可以进入瑞姆加德了。接下来我应该去拜访镇上的长老贾尔德，谈谈下一步该怎"
+"么做。贾尔德可能在东南面的酒馆里。"
 
 #: questlist_v0611_3.json:remgard:40
 msgid "Jhaeld was rather arrogant, but told me that they have had a problem with people disappearing for a while now. They have no clue what could be causing it."
-msgstr "贾尔德相当傲慢，但他告诉我，他们有一个问题，就是人们已经消失了一段时间。他们不知道什么原因会造成这种情况。"
+msgstr "贾尔德态度相当傲慢，不过他倒是告诉我，此地这般闹失踪的日子已经不短了，而他们"
+"根本搞不清是啥原因造成的。"
 
 #: questlist_v0611_3.json:remgard:50
 msgid "I should visit four people in Remgard, and ask them about any clues on what might have happened to the missing people."
-msgstr "我应该去拜访瑞姆加德的四个人，并向他们询问关于失踪者可能发生的任何线索。"
+msgstr "我应该去拜访四位瑞姆加德当地人，向他们打听一下关于失踪者所遭之事的线索。"
 
 #: questlist_v0611_3.json:remgard:51
 msgid "First is Norath, whose wife Bethir has disappeared. Norath can be found in the south-westernmost farmhouse."
-msgstr "首先是诺拉斯，他的妻子贝瑟尔已经失踪了。诺拉斯可以在最西南的农舍中找到。"
+msgstr "首先是诺拉斯，他的妻子贝希尔失踪了。诺拉斯就待在西南方最远的农舍中。"
 
 #: questlist_v0611_3.json:remgard:52
 msgid "Second, I should go talk to the Knights of Elythom, here in the tavern."
-msgstr "其次，我应该去和伊利瑟姆骑士团谈谈，在酒馆里。"
+msgstr "其次，我应该去和伊黎索姆骑士团谈谈，他们待在这边的酒馆里。"
 
 #: questlist_v0611_3.json:remgard:53
 msgid "Third, I should go talk to the old woman Duaina in her house to the south."
-msgstr "第三，我应该去南边的老太太杜埃娜的房子里和她谈谈。"
+msgstr "再者，我应该前往南边老妇人杜埃娜的房子，去和她谈谈。"
 
 #: questlist_v0611_3.json:remgard:54
 msgid "Lastly, I should talk to Rothses, the armorer. He lives on the west side of town."
-msgstr "最后，我应该和军械师罗瑟斯谈谈。他住在镇子的西边。"
+msgstr "最后还有就是我应该去找锻造师罗瑟斯聊一聊，他就住在镇子的西边。"
 
 #: questlist_v0611_3.json:remgard:59
 msgid "I tried to tell Jhaeld about Algangror, but he dismissed me as he had not heard me."
-msgstr "我想把奥冈萝的事告诉杰尔德，但他以没有听到为由拒绝了我。"
+msgstr "我试图跟贾尔德讲起关于奥冈萝的事，但他压根没理我，拒绝听我到底在说什么。"
 
 #: questlist_v0611_3.json:remgard:61
 msgid "I have talked to Norath. He and his wife had been fighting recently, but he has no idea on what may have happened to her."
-msgstr "我已经和诺拉斯谈过了。他和他的妻子最近一直在吵架，但他不知道她可能发生了什么。"
+msgstr "我已经和诺拉斯谈过了。他和他的妻子最近一直在吵架，但他并不知道她到底出了什么"
+"事。"
 
 #: questlist_v0611_3.json:remgard:62
 msgid "The Knights of Elythom in the Remgard tavern have had one of their knights disappearing recently. No one noticed anything when she disappeared, however."
-msgstr "瑞姆加德酒馆的伊利索姆骑士团最近有一名骑士失踪了。然而，当她消失时，没有人注意到任何事情。"
+msgstr "驻留在瑞姆加德酒馆里的伊黎索姆骑士团之间最近有一名骑士失踪了。然而在她失踪的"
+"时间段左右没人注意到任何异常。"
 
 #: questlist_v0611_3.json:remgard:63
 msgid "Duaina has seen me in her visions. I did not understand all that she spoke of, but the parts that were clear were that me and Andor were parts of a larger plot. I wonder what this means? She did not speak of any disappearing people however, not that I could understand anyway."
-msgstr "杜埃娜在她的幻觉中见过我。我不明白她所说的一切，但清楚的部分是，我和安道尔是一个更大的阴谋的一部分。我想知道这意味着什么？不过她没有说到任何消失的人，反正我不明白。"
+msgstr ""
+"杜埃娜在她所幻视的虚景中有目睹到过我，但我压根听不懂她所讲的内容，不过我倒是"
+"从中听出来了她说我和安道尔都卷入并变成了某个大阴谋里的一部分。我真纳闷这到底"
+"啥意思？不过她并没提及那些失踪的人，反正我是没听出来。"
 
 #: questlist_v0611_3.json:remgard:64
 msgid "Rothses told me that Bethir visited him the night before she disappeared, to sell some equipment. He did not see where she went after that."
-msgstr "罗瑟斯告诉我，贝希尔在失踪的前一天晚上去找过他，要卖一些装备。他没有看到她之后去了哪里。"
+msgstr "罗瑟斯告诉我，贝希尔在失踪的前一天晚上有找过他，要卖一些装备。至于她之后去了"
+"哪里他并不清楚。"
 
 #: questlist_v0611_3.json:remgard:70
 msgid "I have talked to all of the people that Jhaeld wanted me to talk to, but did not get any information from any of them about what may have happened to the missing people. I should go back to Jhaeld and ask what his plans are next."
-msgstr "我已经和贾尔德想让我谈的所有的人谈过了，但是没有从任何一个人那里得到任何关于失踪者可能发生的事情的信息。我应该回去找贾尔德，问问他接下来有什么计划。"
+msgstr ""
+"我已经跟贾尔德让我找的所有人都聊过了，可没从他们那儿得到半点关于失踪的人可能"
+"出了啥事儿的消息。接下来我该回 贾尔德那儿去，问问他接下来打算咋办。"
 
 #: questlist_v0611_3.json:remgard:75
 msgid "Jhaeld was really upset that I did not find out anything from the people that I was sent to talk to."
-msgstr "杰尔德真的很不高兴，因为我没有从被派去谈话的人那里了解到任何情况。"
+msgstr "贾尔德对于我去问了那些派我去见的人，结果啥消息都没搞到的事情很是不满。"
 
 #: questlist_v0611_3.json:remgard:80
 msgid "If I still want to help Jhaeld and the people of Remgard, I should look for clues in other places."
-msgstr "如果我还想帮助贾尔德和瑞姆加德的人民，我应该在其他地方寻找线索。"
+msgstr "如果我还想帮助贾尔德以及瑞姆加德的人们的话，我就应该去其他地方寻找线索。"
 
 #: questlist_v0611_3.json:remgard:110
 msgid "Jhaeld does not want to talk to me. I will not help them find out what happened to the missing people of Remgard."
-msgstr "贾尔德不想和我说话。我不会帮助他们找出发生在瑞姆加德的失踪者身上的事情。"
+msgstr "贾尔德不想搭理我，而我也不想协助他们查明瑞姆加德的失踪案的事情。"
 
 #: questlist_v0611_3.json:remgard2
 msgid "What is that stench?"
-msgstr "那是什么臭味？"
+msgstr "何来恶臭？"
 
 #: questlist_v0611_3.json:remgard2:10
 msgid "I have told Jhaeld, the village elder in Remgard, about the woman named Algangror that lives in the abandoned house to the east along the northern shore of the lake outside Remgard."
-msgstr "我已经告诉了瑞姆加德的村长贾尔德，关于住在瑞姆加德外湖北岸东边的废弃房子里的那个叫奥冈萝的女人。"
+msgstr "我把那个叫奥冈萝的女人的事情告诉给了瑞姆加德的镇里的长老贾尔德，我告诉他奥冈"
+"萝就待在瑞姆加德外的湖北岸更东边的废弃小屋里。"
 
 #: questlist_v0611_3.json:remgard2:20
 msgid "Jhaeld told me that he would rather not deal with her, since he believes she is very dangerous. For the sake of his guards, he will not risk going against her since he is afraid of what might happen to all of them."
-msgstr "杰尔德告诉我，他宁愿不和她打交道，因为他认为她非常危险。为了他的卫兵，他不会冒险与她作对，因为他害怕他们所有人都会发生什么。"
+msgstr ""
+"贾尔德跟我说，他不想和她有所牵扯，毕竟他觉得她危险得很。出于对手下卫兵的安全"
+"考量，他不愿冒险与她为敌，这是因为他怕这会造成他们所有人都遭遇不测。"
 
 #: questlist_v0611_3.json:remgard2:21
 msgid "If I want to help Jhaeld and the people of Remgard, I should find a way to make Algangror disappear. He also warns me to be extremely careful."
-msgstr "如果我想帮助贾尔德和瑞姆加德的人民，我应该想办法让奥冈萝消失。他还警告我一定要非常小心。"
+msgstr "如果我想帮助贾尔德以及瑞姆加德的人们的话，我就应该想办法让奥冈萝消失。他还提"
+"醒我，这件事必须得万分当心。"
 
 #: questlist_v0611_3.json:remgard2:30
 msgid "Algangror admitted to me that she had made some people disappear from Remgard. She would not tell me what happened to them though."
-msgstr "奥冈萝向我承认，她让一些人从瑞姆加德消失了。但她不愿意告诉我他们发生了什么。"
+msgstr "奥冈萝向我承认了是她让瑞姆加德的一些人消失了，但她并不肯告诉我那些人后来怎么"
+"样了。"
 
 #: questlist_v0611_3.json:remgard2:35
 msgid "I have started attacking Algangror. I should return to Jhaeld with proof of defeating her when she is dead."
-msgstr "我已经开始攻打奥冈萝。当她死后，我应该带着击败她的证据回到杰尔德身边。"
+msgstr "我和奥冈萝开打了。我应该等她咽气后拿着能证明我打败了她的东西回到贾尔德那儿去"
+"。"
 
 #: questlist_v0611_3.json:remgard2:40
 msgid "I have told Jhaeld that I defeated Algangror."
-msgstr "我已经告诉杰尔德，我打败了阿尔冈罗尔。"
+msgstr "我告诉杰尔德我打败了奥冈萝。"
 
 #: questlist_v0611_3.json:remgard2:41
 msgid "Jhaeld was very pleased to hear the good news. The people of Remgard should now be safe, and the town can be opened to outsiders again."
-msgstr "贾尔德听到这个好消息非常高兴。瑞姆加德的人民现在应该是安全的，小镇可以再次向外人开放。"
+msgstr "贾尔德听到这个好消息非常高兴。瑞姆加德的人们现在应该安全了，而镇子也能重新对"
+"外人开放了。"
 
 #: questlist_v0611_3.json:remgard2:45
 msgid "For helping the people of Remgard find the cause of the disappearing people, Jhaeld told me to talk to Rothses. He might be able to improve some of my equipment."
-msgstr "为了帮助瑞姆加德的人们找到消失的原因，贾尔德让我和罗瑟斯谈谈。他也许能改进我的一些装备。"
+msgstr "鉴于我帮助瑞姆加德查明了居民失踪的真相，贾尔德嘱咐我去和罗瑟斯聊一聊，他说不"
+"定能帮我改良部分的装备。"
 
 #: questlist_v0611_3.json:remgard2:46
 msgid "Ervelyn, the Remgard tailor, gave me a feathered hat as thanks for helping the people of Remgard find out what happened to the missing people."
@@ -79686,7 +79818,7 @@ msgstr "我决定不去帮助奥冈萝完成她的任务。"
 
 #: questlist_v0611_3.json:kaverin
 msgid "Old friends?"
-msgstr "老朋友？"
+msgstr "旧日朋友？"
 
 #: questlist_v0611_3.json:kaverin:10
 msgid "I met Kaverin in Remgard, that apparently is an old acquaintance of Unzel, who lives outside of Fallhaven."
@@ -79834,7 +79966,8 @@ msgstr "法洛森教了我如何更好地运用长柄武器。"
 
 #: questlist_v070_charwood.json:charwood1:80
 msgid "Falothen offered me the chance to learn about the other weapon types, but to teach me, he needs 5000 gold and two Oegyth crystals for each skill that I want to get better at."
-msgstr "法洛森给我提供了学习其他武器类型的机会，但要教我，他需要5000金币和两个奥格斯晶体，用于我想提高的每项技能。"
+msgstr "法洛森给我提供了学习其他武器类型的机会，但要教我，他需要5000金币和两个奥格斯"
+"水晶，用于我想提高的每项技能。"
 
 #: questlist_v070_charwood.json:charwood1:90
 msgid "Fayvara thanked me for rescuing her, and in return offered to train me in better handling of one type of armor. She can teach me better handling of shields, light armor, heavy armor or or unarmored combat. I'll have to chose my preference and let her know."
@@ -79858,7 +79991,8 @@ msgstr "费瓦拉教我如何更好地进行无甲战斗，不穿任何盔甲。
 
 #: questlist_v070_charwood.json:charwood1:100
 msgid "Fayvara offered me the chance to learn about the other armor types, but to teach me, she needs 6000 gold and two Oegyth crystals for each skill that I want to get better at."
-msgstr "费瓦拉给我提供了学习其他盔甲类型的机会，但要教我，她需要6000金币和两个奥格斯晶体，用于我想提高的每个技能。"
+msgstr "费瓦拉给我提供了学习其他盔甲类型的机会，但要教我，她需要6000金币和两个奥格斯"
+"水晶，用于我想提高的每个技能。"
 
 #: questlist_v070_charwood.json:charwood1:110
 msgid "I have been taught one weapon type skill and one armor type skill from Falothen and Fayvara. I should go see Maevalia again."
@@ -80691,15 +80825,16 @@ msgstr "爱的根源"
 
 #: questlist_stoutford_combined.json:roots_love:10
 msgid "Aryfora, a woman grieving in Stoutford's graveyard asked me to bring her some damerilias from Remgard for the grave of Noraed, her husband."
-msgstr "阿利弗拉，一个在斯托特福德墓地里悲伤的女人，要求我从瑞姆加德给她带一些大马士革去她的丈夫诺拉德的坟墓。"
+msgstr "阿利弗拉，一个在斯托特福德墓地里悲伤的女人，要求我从瑞姆加德给她带一些绯鸢花"
+"去她的丈夫诺拉德的坟墓。"
 
 #: questlist_stoutford_combined.json:roots_love:20
 msgid "Noraed's sister, Caeda, gave me some damerilias. I should bring them back to Stoutford."
-msgstr "诺拉德的妹妹凯达给了我一些大马士革花。我应该把它们带回斯托福德。"
+msgstr "诺拉德的妹妹凯达给了我一些绯鸢花。我应该把它们带回斯托福德。"
 
 #: questlist_stoutford_combined.json:roots_love:30
 msgid "I have brought the damerilias back to Aryfora. She thanked me with a potion she made."
-msgstr "我把大马士革交给了阿利弗拉。她用她制作的药水感谢我。"
+msgstr "我把绯鸢花交给了阿利弗拉。她用她制作的药水感谢我。"
 
 #: questlist_stoutford_combined.json:roots_love:40
 msgid "I told her the flowers were from Noraed's sister, Caeda."
@@ -80718,12 +80853,14 @@ msgid ""
 "Caeda in Remgard told me I can find fresh damerilias in her family's glade, but the key was taken by monsters.\n"
 "If I can find the key in the cave north of Remgard, I can access that glade, but I have to return the key to Caeda."
 msgstr ""
-"瑞姆加德的卡埃达告诉我，我可以在她家的小树林里找到新鲜的大马士革，但钥匙被怪物拿走了。\n"
-"如果我能在瑞姆加德北部的山洞里找到钥匙，我就能进入那片丛林，但我必须把钥匙还给卡埃达。"
+"瑞姆加德的卡埃达告诉我，我可以在她家的小树林里找到新鲜的绯鸢花，但钥匙被怪物"
+"拿走了。\n"
+"如果我能在瑞姆加德北部的山洞里找到钥匙，我就能进入那片丛林，但我必须把钥匙还"
+"给卡埃达。"
 
 #: questlist_stoutford_combined.json:secret_garden:20
 msgid "Finding the key was not worth the trouble. The wilted damerilias Caeda gave me will be just fine."
-msgstr "不需要找到钥匙这么麻烦。凯达给我的枯萎的大梅花就可以了。"
+msgstr "不需要找到钥匙这么麻烦。凯达给我的枯萎的绯鸢花就可以了。"
 
 #: questlist_stoutford_combined.json:secret_garden:30
 msgid "I killed some monsters and found the key to the glade."
@@ -81009,7 +81146,8 @@ msgid ""
 "After giving him the key of Luthor and talking with Umar about Andor, I needed to ask him about Thieves' Guild itself.\n"
 "I want to join them to see what kind of jobs they do."
 msgstr ""
-"给了他路德的钥匙，和奥马尔谈了安道尔的事情之后，我需要向他询问盗贼公会本身的情况。\n"
+"给了他路德之匙，和奥马尔谈了安道尔的事情之后，我需要向他询问盗贼公会本身的情"
+"况。\n"
 "我想加入他们，看看他们是做什么工作的。"
 
 #: questlist_omicronrg9.json:Thieves01:10
@@ -81142,7 +81280,7 @@ msgstr "奥马尔拿着这条项链作为对我错误的补偿。一切都恢复
 
 #: questlist_omicronrg9.json:Thieves03
 msgid "The ruthless Crackshot"
-msgstr "无情的疯狂打靶"
+msgstr "无情裂空"
 
 #: questlist_omicronrg9.json:Thieves03:1
 msgid "Time to rest and prepare myself to start the next job. I should go to the tavern."
@@ -81162,11 +81300,13 @@ msgstr "奥马尔告诉我有一伙叛徒，由公会的一个老手带领，似
 
 #: questlist_omicronrg9.json:Thieves03:5
 msgid "Umar went on to say that this team leader  was known as \"Crackshot\". He is probably also the responsible for a murder on the Duleian road."
-msgstr "奥马尔接着说，这个小组长被称为 \"疯狂打靶\"。他很可能也是杜莱恩路路上一起谋杀案的负责人。"
+msgstr "奥马尔接着说，这个小组长被称为 \"裂空\""
+"。他很可能也是杜莱恩路路上一起谋杀案的负责人。"
 
 #: questlist_omicronrg9.json:Thieves03:10
 msgid "Crackshot and his henchmen are probably hiding somewhere near the Duleian road. I must ask people there whether they have seen them."
-msgstr "疯狂打靶和他的手下可能藏在杜莱恩路附近的某个地方。我得问问那里的人有没有看到他们。"
+msgstr "裂空和他的手下可能藏在杜莱恩路附近的某个地方。我得问问那里的人有没有看到他们"
+"。"
 
 #: questlist_omicronrg9.json:Thieves03:11
 msgid "It seems that Benbyr, a suspicious man outside Crossroads Guardhouse, doesn't know what I'm talking about."
@@ -81182,7 +81322,7 @@ msgstr "路障守卫的嘴巴很大，把我需要知道的都告诉了我。隐
 
 #: questlist_omicronrg9.json:Thieves03:21
 msgid "I found a small hole which seems to lead to a cave. Crackshot and his henchmen are probably hiding there."
-msgstr "我发现了一个小洞，似乎通往一个山洞。疯狂打靶和他的手下可能就藏在那里。"
+msgstr "我发现了一个小洞，似乎通往一个山洞。裂空和他的手下可能就藏在那里。"
 
 #: questlist_omicronrg9.json:Thieves03:22
 msgid "I reached the hideout and saw some recent blood stains. Maybe there was a fight there."
@@ -81222,23 +81362,23 @@ msgstr "巡逻队中士告诉我之前发生的事。他累了，又受了伤，
 
 #: questlist_omicronrg9.json:Thieves03:32
 msgid "The patrol sergeant has left to call for backup. Now I'm alone again. Time to defeat Crackshot."
-msgstr "巡逻队中士已经离开去叫支援了。现在我又是一个人了是时候去打败疯狂打靶了。"
+msgstr "巡逻队中士已经离开去叫支援了。现在我又是一个人了是时候去打败裂空了。"
 
 #: questlist_omicronrg9.json:Thieves03:35
 msgid "I killed Crackshot and he had the key of Luthor with him. I have to go back and report to Umar."
-msgstr "我杀了疯狂打靶，他身上有路德的钥匙。我得回去向奥马尔报告。"
+msgstr "我杀了裂空，他身上有路德的钥匙。我得回去向奥马尔报告。"
 
 #: questlist_omicronrg9.json:Thieves03:36
 msgid "I tried to open the door behind Crackshot, but for some reason I cannot get the key into the lock."
-msgstr "我试着打开疯狂打靶后面的门，但不知为何，我无法将钥匙放入锁中。"
+msgstr "我试着打开裂空后面的门，但不知为何，我无法将钥匙放入锁中。"
 
 #: questlist_omicronrg9.json:Thieves03:40
 msgid "The dying Crackshot said something about the key. If he told the truth, it could be cursed."
-msgstr "奄奄一息的疯狂打靶说了一些关于钥匙的事情。如果他说了实话，可能会被诅咒。"
+msgstr "奄奄一息的裂空说了一些关于钥匙的事情。如果他说了实话，可能会被诅咒。"
 
 #: questlist_omicronrg9.json:Thieves03:41
 msgid "I tried to open the door behind Crackshot, but for some reason I could not get the key turned in the lock."
-msgstr "我试着打开疯狂打靶后面的门，但不知为什么，我无法将钥匙转进锁里。"
+msgstr "我试着打开裂空后面的门，但不知为什么，我无法将钥匙转进锁里。"
 
 #: questlist_omicronrg9.json:Thieves03:45
 msgid "I reported about the situation to Umar, and gave him the key. He did not seem to want to tell me more about the key - yet."
@@ -81326,7 +81466,9 @@ msgstr "当你再次见到伯赫奇德时，他把你的一些东西还给了你
 
 #: questlist_burhczyd.json:quest_burhczyd:100
 msgid "You've talked with a Knight of Elythom who happened to be an old acquaintance - Burhczyd. He had to hide from the Elythom, because he had 'borrowed' something of value from their leader."
-msgstr "你和伊利索姆的一个骑士聊过，他恰好是老熟人--伯赫奇德。他不得不躲避伊利索姆人，因为他从他们的首领那里 \"借 \"到了一些有价值的东西。"
+msgstr "你伊黎索姆的一个骑士聊过，他恰好是老熟人--"
+"伯赫奇德。他不得不躲避伊黎索姆骑士，因为他从他们的首领那里 \"借 \""
+"到了一些有价值的东西。"
 
 #: questlist_burhczyd.json:quest_burhczyd:110
 msgid ""
@@ -81334,7 +81476,8 @@ msgid ""
 "\n"
 "[Quest is not completable at this time.]"
 msgstr ""
-"伯赫奇德不再穿着像伊利索姆的骑士。他说他要娶世界上最漂亮的女孩 - 她只是还不知道......\n"
+"伯赫奇德不再穿着像伊黎索姆的骑士。他说他要娶世界上最漂亮的女孩 - "
+"她只是还不知道......\n"
 "\n"
 "[此时任务无法完成。]"
 
@@ -82276,7 +82419,7 @@ msgstr "我告诉戈尔瓦特，我把这封信交给了阿瑞莎。他也很高
 
 #: questlist_omi2.json:Thieves04
 msgid "Another ruthless Crackshot"
-msgstr "另一个无情的疯狂打靶"
+msgstr "又一个无情裂空"
 
 #: questlist_omi2.json:Thieves04:10
 msgid "Umar told me to visit Defy in Sullengard to instruct him to give the villagers their share."
@@ -83240,7 +83383,7 @@ msgstr "我同意前往莱洛斯庄园去寻找科哈德之币并把它们带回
 
 #: questlist_laeroth.json:odd_coin_collector:12
 msgid "I sold the 10 coins that I looted from the Arulir secret room to Gylew."
-msgstr "你把你从阿鲁里尔密室中掠来的十枚金币  卖给了吉卢。"
+msgstr "你把你从阿鲁里尔密室中掠来的十枚金币卖给了吉卢。"
 
 #: questlist_laeroth.json:odd_coin_collector:13
 msgid "I gave Gylew the 10 coins that I looted from the Arulir secret room."
@@ -83348,7 +83491,8 @@ msgstr "我学习了把已招来的灵魂遣散回另一边的咒语。"
 
 #: questlist_laeroth.json:laeroth_caretaker:30
 msgid "I have learned how to raise the spirits of the dead with the help of an oegyth crystal. But I also need a personal item. I should talk to Moriath again."
-msgstr "我学习了运用奥格斯晶体来召唤亡魂的咒语，不过另外我还要一件个人物品。我可以去与莫瑞亚斯谈谈此事。"
+msgstr "我学习了运用奥格斯水晶来召唤亡魂的咒语，不过另外我还要一件个人物品。我可以去"
+"与莫瑞亚斯谈谈此事。"
 
 #: questlist_laeroth.json:laeroth_caretaker:35
 msgid "Moriath suggested I search the master bedroom for a personal item from the last lord, Verigil."
@@ -83500,11 +83644,12 @@ msgstr "我已同意拜他为师。"
 
 #: questlist_laeroth.json:lae_torturer:35
 msgid "Kotheses gave me an Oegyth crystal."
-msgstr "库希塞斯给了我一块奥格斯晶体。"
+msgstr "库希塞斯给了我一块奥格斯水晶。"
 
 #: questlist_laeroth.json:lae_torturer:40
 msgid "In order to imprison the released prisoners again, I should call the demon guard by throwing an Oegyth crystal into the abyss."
-msgstr "为了把释放的囚犯再关起来，我需要把一块奥格斯晶体丢到深渊里，以此召唤恶魔守卫。"
+msgstr "为了把释放的囚犯再关起来，我需要把一块奥格斯水晶丢到深渊里，以此召唤恶魔守卫"
+"。"
 
 #: questlist_laeroth.json:lae_torturer:50
 msgid "Kotheses scolded me because I killed his precious demons."
@@ -83524,11 +83669,11 @@ msgstr "我向囚徒们宣布了行刑者的死讯，现在他们可以安于宁
 
 #: questlist_laeroth.json:lae_torturer:100
 msgid "I have thrown an Oegyth crystal down into the abyss to call for the dark watch."
-msgstr "我把一块奥格斯晶体丢进了深渊，以此召唤了黑暗看视者。"
+msgstr "我把一块奥格斯水晶丢进了深渊，以此召唤了黑暗看视者。"
 
 #: questlist_laeroth.json:lae_torturer:110
 msgid "I got back the Oegyth crystal from the chief of the Demon guard."
-msgstr "恶魔守卫的首领把奥格斯晶体交还给了我。"
+msgstr "恶魔守卫的首领把奥格斯水晶交还给了我。"
 
 #: questlist_laeroth.json:lae_torturer:114
 msgid "I ordered the demons to watch over the prisoners."
@@ -83536,7 +83681,7 @@ msgstr "我命令恶魔们去看守囚犯。"
 
 #: questlist_laeroth.json:lae_torturer:120
 msgid "I took my leave from Kotheses, who, incidentally, forgot to reclaim his Oegyth crystal."
-msgstr "我向库希塞斯告了别，他出乎意料地忘了让我交还奥格斯晶体。"
+msgstr "我向库希塞斯告了别，他出乎意料地忘了让我交还奥格斯水晶。"
 
 #: questlist_laeroth.json:lae_torturer:130
 msgid "Everything was in order when I left. The prisoners were back in their cells, and the Demon guard were on duty again."
@@ -83873,175 +84018,190 @@ msgstr "艾伦希雅把她的魔法誓约戒指送给了我，作为帮助她的
 
 #: questlist_troubling_times.json:troubling_times
 msgid "Troubling times"
-msgstr ""
+msgstr "技穷时艰"
 
 #: questlist_troubling_times.json:troubling_times:10
 msgid "I went to the Thieves' Guild in Fallhaven looking for things to do."
-msgstr ""
+msgstr "我到了法尔海文的盗贼公会，想找点活干。"
 
 #: questlist_troubling_times.json:troubling_times:20
 msgid "Since I had helped Defy, Umar and Nanath threw me out. I cannot enter the basement again."
-msgstr ""
+msgstr "因为我先前选择帮助德菲的缘故，奥马尔与纳纳斯把我扔了出来。现在我没办法再进入"
+"那间地下室了。"
 
 #: questlist_troubling_times.json:troubling_times:30
 msgid "Since I had looted the Thieves' Guild vault after killing Defy, Umar and Nanath threw me out. I cannot enter the basement again."
-msgstr ""
+msgstr "因为我先前在杀了德菲后洗劫了盗贼公会的宝库的缘故，奥马尔与纳纳斯把我扔了出来"
+"。现在我没办法再进入那间地下室了。"
 
 #: questlist_troubling_times.json:troubling_times:40
 msgid "I met Nanath, who's scared and upset, because someone put a spell on all members of the Thieves' Guild. This spell made all thieves noticeable. He asked me if I could help dispel the spell."
 msgstr ""
+"我遇见了纳纳斯，他正陷在了又怕又急的状态里，这是因为有人对盗贼公会的全体成员"
+"施加了一道咒语，这道咒语让所有的盗贼都变得显眼了起来。他询问我是否能帮忙解除"
+"那道咒语。"
 
 #: questlist_troubling_times.json:troubling_times:50
 msgid "Nanath told me to find the Shadow priest who had cast the spell on the Guild."
-msgstr ""
+msgstr "纳纳斯让我先去找出是哪个暗影牧师对公会施展了这道咒语。"
 
 #: questlist_troubling_times.json:troubling_times:60
 msgid "I set out interviewing Shadow priests to find who had cast the spell."
-msgstr ""
+msgstr "我找那些暗影牧师去问话，以此来找出是谁施展了那道咒语。"
 
 #: questlist_troubling_times.json:troubling_times:70
 msgid "Talion, Shadow priest of Loneford, had cast the Striking Spectacle Shadow spell on the Guild, on payment from Dameni, a mysterious lady leading a band of toughs"
-msgstr ""
+msgstr "是隆福德的暗影牧师塔里昂对公会施展了暗影显状咒，而缘由是一位手下有一帮狠人的"
+"，名字叫达梅尼的神秘女士花钱让他办事"
 
 #: questlist_troubling_times.json:troubling_times:80
 msgid "Talion could dispel the spell, using a few items - Villain's ring, Troublemaker's ring, ring of backstabbing, Tears of the Shadow potion, Luthor's ring.  He also wanted 50000 gold."
-msgstr ""
+msgstr "塔里昂可以做到解咒，但这需要一些物件——恶棍之戒、捣蛋鬼之戒、反刺之戒、暗影之"
+"泪药水以及路德之戒。另外他还需要50000金币。"
 
 #: questlist_troubling_times.json:troubling_times:82
 msgid "I have informed Nanath about the Striking Spectacle Shadow spell and Talion's demands."
-msgstr ""
+msgstr "我已经告知了纳纳斯暗影显状咒的事情以及塔里昂的要求。"
 
 #: questlist_troubling_times.json:troubling_times:90
 msgid "Nanath told me Thieves' Guild would give me the 50000 gold back when I have got the spell dispelled."
-msgstr ""
+msgstr "纳纳斯告诉我盗贼公会将会在我将那道咒语解除之后帮我报销那50000金币。"
 
 #: questlist_troubling_times.json:troubling_times:95
 msgid "Nanath asked if I had already found Luthor's ring."
-msgstr ""
+msgstr "纳纳斯问我是否已经找到路德之戒了。"
 
 #: questlist_troubling_times.json:troubling_times:100
 msgid "I went back to Nanath as I couldn't find Luthor's ring anywhere."
-msgstr ""
+msgstr "我又回去找了纳纳斯，告诉他我到处都找不到路德之戒。"
 
 #: questlist_troubling_times.json:troubling_times:105
 msgid "He told me to seek out Fanamor's friend Sly Seraphina near the Sutdover bridge."
-msgstr ""
+msgstr "他告诉我去找法娜茉的朋友黠·塞拉菲娜，她就在萨多弗桥附近。"
 
 #: questlist_troubling_times.json:troubling_times:110
 msgid "Seraphina didn't believe me. She told me to go away."
-msgstr ""
+msgstr "塞拉菲娜并不信任我，她让我快走。"
 
 #: questlist_troubling_times.json:troubling_times:115
 msgid "Nanath sent me to Umar. He should make sure Sly carries out the order."
-msgstr ""
+msgstr "纳纳斯让我去见奥马尔，他应该有办法让黠听话。"
 
 #: questlist_troubling_times.json:troubling_times:120
 msgid "Umar told me one of his secret passwords to convince Seraphina."
-msgstr ""
+msgstr "奥马尔告诉了我他的一个可以让塞拉菲娜取信的暗号。"
 
 #: questlist_troubling_times.json:troubling_times:130
 msgid "Sly Seraphina said that Luthor's ring was to be found in the cave which Crackshot tried to open. The door was sealed by Umar and Seraphina to prevent monsters in that cave from devastating Dhayavar. The sealing was done by using Luthor's items. She and Umar decided to separate them, and keep them separate."
 msgstr ""
+"黠·塞拉菲娜说路德之戒在先前裂空所尝试打开的洞穴之内。而出于防止洞穴内的怪物摧"
+"毁达亚瓦大陆的缘故，洞穴的大门被奥马尔和塞拉菲娜一起封印了起来。那道封印是用"
+"路德的物件所完成的，而她与奥马尔决定将那物件分开并各自处置。"
 
 #: questlist_troubling_times.json:troubling_times:140
 msgid "Seraphina felt that the danger was too high to open that door. So she disappeared."
-msgstr ""
+msgstr "塞拉菲娜觉得打开那道门过于危险了，所以她玩起了消失。"
 
 #: questlist_troubling_times.json:troubling_times:150
 msgid "I had to find Sly Seraphina again."
-msgstr ""
+msgstr "我又得再次去找黠·塞拉菲娜了。"
 
 #: questlist_troubling_times.json:troubling_times:160
 msgid "Nanath told me to look for her in her usual hiding places: Near one of the towns Sullengard, Stoutford, Vilegard, Prim, Loneford, or Brimhaven."
-msgstr ""
+msgstr "纳纳斯告诉我去找找她常躲的地方：那个地方应该靠近苏伦加德、斯托福德、维尔加德"
+"、普里姆、隆福德或者布林海文之一的某个镇子。"
 
 #: questlist_troubling_times.json:troubling_times:170
 msgid "Talion said that without the items he asked for he couldn't help. I had to find Seraphina."
-msgstr ""
+msgstr "塔里昂说若没有那几件他所要的物件的话就没有办法提供帮助。我还得去找塞拉菲娜。"
 
 #: questlist_troubling_times.json:troubling_times:180
 msgid "After beating the tough guys protecting Seraphina, she was convinced that I was strong enough to help her beat the monsters in the cave."
-msgstr ""
+msgstr "在击败了那个保护着塞拉菲娜的棘手家伙后，塞拉菲娜觉得我有足够的力量去协助她击"
+"败那些洞穴里的怪物。"
 
 #: questlist_troubling_times.json:troubling_times:190
 msgid "Seraphina gave me back the money she had stolen from me earlier."
-msgstr ""
+msgstr "塞拉菲娜把早先时候从我这里偷走的钱还给了我。"
 
 #: questlist_troubling_times.json:troubling_times:192
 msgid "I have to ask Umar for Luthor's key."
-msgstr ""
+msgstr "我得去找奥马尔要路德之匙。"
 
 #: questlist_troubling_times.json:troubling_times:193
 msgid "I have got the key."
-msgstr ""
+msgstr "我已经拿到钥匙了。"
 
 #: questlist_troubling_times.json:troubling_times:195
 msgid "Seraphina agreed to help me and told me to meet her at the locked door in the cave where Crackshot was defeated."
-msgstr ""
+msgstr "塞拉菲娜应下帮我了，让我去先前那个打败裂空的洞穴里的那处被锁上的门前再会。"
 
 #: questlist_troubling_times.json:troubling_times:200
 msgid "I met Seraphina at the cave door where Crackshot was defeated."
-msgstr ""
+msgstr "我在那个打败裂空的洞穴里的那处门前与塞拉菲娜会合了。"
 
 #: questlist_troubling_times.json:troubling_times:210
 msgid "Seraphina could open the door with Luthor's key wearing also his gloves. She entered the cave behind the door."
-msgstr ""
+msgstr "塞拉菲娜戴着路德的手套，拿着路德之戒将那道门打开了，然后进了门后的洞穴。"
 
 #: questlist_troubling_times.json:troubling_times:220
 msgid "I followed her."
-msgstr ""
+msgstr "我跟着她前进。"
 
 #: questlist_troubling_times.json:troubling_times:230
 msgid "Seraphina got injured attacking one of the monsters."
-msgstr ""
+msgstr "塞拉菲娜在与其中一只怪物打斗时受了伤。"
 
 #: questlist_troubling_times.json:troubling_times:240
 msgid "I have killed the monsters blocking the entrance."
-msgstr ""
+msgstr "我把那些堵着入口的怪物都解决掉了。"
 
 #: questlist_troubling_times.json:troubling_times:250
 msgid "I healed Seraphina using potions."
-msgstr ""
+msgstr "我用药水治愈了塞拉菲娜。"
 
 #: questlist_troubling_times.json:troubling_times:252
 msgid "I tried to poison Seraphina, but she noticed in time. At least she didn't notice that I did it on purpose."
-msgstr ""
+msgstr "我乘机给塞拉菲娜下了毒，但她及时发现了，不过万幸她不知道我是故意用的毒药。"
 
 #: questlist_troubling_times.json:troubling_times:255
 msgid "Seraphina already started the search for the ring."
-msgstr ""
+msgstr "塞拉菲娜已经开始找戒指了。"
 
 #: questlist_troubling_times.json:troubling_times:260
 msgid "I searched the cave for Luthor's ring. I couldn't find it."
-msgstr ""
+msgstr "我在洞穴内四处寻找路德之戒，但就是找不到。"
 
 #: questlist_troubling_times.json:troubling_times:270
 msgid "Sly Seraphina had found the ring. She gave it to me and told me to keep it safe. She disappeared again, probably back to Sutdover bridge. I had to go to Talion."
-msgstr ""
+msgstr "黠·塞拉菲娜找到了戒指，她把戒指给了我让我好好保管，然后她就消失了，估计是又回"
+"萨多弗桥去了。我接下来得去找塔里昂了。"
 
 #: questlist_troubling_times.json:troubling_times:280
 msgid "I gave 50000 gold, Villain's ring, Troublemaker's ring, ring of backstabbing, Tears of the Shadow potion, and Luthor's ring to Talion."
-msgstr ""
+msgstr "我把50000金币、恶棍之戒、捣蛋鬼之戒、反刺之戒、暗影之泪药水以及路德之戒给了塔"
+"里昂。"
 
 #: questlist_troubling_times.json:troubling_times:290
 msgid "Talion used them to undo the spell."
-msgstr ""
+msgstr "塔里昂用那些东西解除了咒语。"
 
 #: questlist_troubling_times.json:troubling_times:300
 msgid "Talion returned Luthor's ring. The other rings were broken in the process though and the Tears of the Shadow potion was used up of course."
-msgstr ""
+msgstr "塔里昂交还了路德之戒，而其他的戒指却在施咒的过程中损坏了，同样地那瓶暗影之泪"
+"药水不用说当然被用掉了。"
 
 #: questlist_troubling_times.json:troubling_times:302
 msgid "The room with the dangerous creatures has been locked and sealed again."
-msgstr ""
+msgstr "那间有着危险生物的洞室已经再次被封锁了起来。"
 
 #: questlist_troubling_times.json:troubling_times:310
 msgid "Nanath gave me 75000 gold as a reward for a job well done."
-msgstr ""
+msgstr "纳纳斯给了我75000金币作为这次工作完美收场的奖励。"
 
 #: questlist_troubling_times.json:troubling_times:320
 msgid "Sly Seraphina was friendly to me - for now."
-msgstr ""
+msgstr "黠·塞拉菲娜现在对我要好得很——至少目前是这样的。"
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_bloskelt_area
 msgid "Bloskelt + Roskelt"
@@ -84154,4 +84314,3 @@ msgstr "莱洛斯湖"
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr "维克斯罗村"
-

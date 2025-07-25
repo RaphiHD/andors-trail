@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 15:16+0200\n"
-"PO-Revision-Date: 2024-02-23 16:34+0000\n"
-"Last-Translator: عادل نصري <nsrya06@gmail.com>\n"
+"PO-Revision-Date: 2025-06-11 18:04+0000\n"
+"Last-Translator: احمد <ppidwoii007@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/ar/>\n"
 "Language: ar\n"
@@ -13,111 +13,111 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
-msgstr "بارك"
+msgstr "بَرَكَة"
 
 #: actorconditions_v069.json:poison_weak
 msgid "Weak Poison"
-msgstr "سم ضعيف"
+msgstr "سُمٌّ ضَعِيف"
 
 #: actorconditions_v069.json:str
 msgid "Strength"
-msgstr "القوة"
+msgstr "قُوَّة"
 
 #: actorconditions_v069.json:regen
 msgid "Shadow Regeneration"
-msgstr "تجديد الظل"
+msgstr "تَجْدِيدُ الظِّل"
 
 #: actorconditions_v069_bwm.json:speed_minor
 msgid "Minor speed"
-msgstr "سرعة طفيفة"
+msgstr "تَسَارُعٌ طَفِيف"
 
 #: actorconditions_v069_bwm.json:fatigue_minor
 msgid "Minor fatigue"
-msgstr "تعب طفيف"
+msgstr "إِعْيَاءٌ طَفِيف"
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
-msgstr "ضعف السلاح الطفيف"
+msgstr "وَهْنٌ طفيفٌ في السِّلاح"
 
 #: actorconditions_v069_bwm.json:bleeding_wound
 msgid "Bleeding wound"
-msgstr "جرح ينزف"
+msgstr "جُرْحٌ نَازِف"
 
 #: actorconditions_v069_bwm.json:rage_minor
 msgid "Minor berserker rage"
-msgstr "غضب هائج بسيط"
+msgstr "هَيَجَانُ المُقَاتِل الطَّفِيف"
 
 #: actorconditions_v069_bwm.json:blackwater_misery
 msgid "Blackwater misery"
-msgstr "بؤس بلاك ووتر"
+msgstr "شَقَاءُ بْلاك ووتر"
 
 #: actorconditions_v069_bwm.json:intoxicated
 msgid "Intoxicated"
-msgstr "مخمور"
+msgstr "مَخْمُور"
 
 #: actorconditions_v069_bwm.json:dazed
 msgid "Dazed"
-msgstr "دائخ"
+msgstr "مُرْتَبِك"
 
 #: actorconditions_v0610.json:chaotic_grip
 msgid "Chaotic grip"
-msgstr "قبضة فوضوية"
+msgstr "قَبْضَةٌ فَوْضَوِيَّة"
 
 #: actorconditions_v0610.json:chaotic_curse
 msgid "Chaotic curse"
-msgstr "لعنة فوضوية"
+msgstr "لَعْنَةٌ فَوْضَوِيَّة"
 
 #: actorconditions_v0611.json:contagion
 msgid "Insect contagion"
-msgstr "عدوى الحشرات"
+msgstr "عَدْوَى الحَشَرَات"
 
 #: actorconditions_v0611.json:blister
 msgid "Blistering skin"
-msgstr "تقرح الجلد"
+msgstr "تَقَرُّحُ الجِلْد"
 
 #: actorconditions_v0611.json:stunned
 msgid "Stunned"
-msgstr "مذهول"
+msgstr "مَذْهُول"
 
 #: actorconditions_v0611.json:focus_dmg
 msgid "Focused damage"
-msgstr "ضرر مركز"
+msgstr "ضرر دَقِيقَ"
 
 #: actorconditions_v0611.json:focus_ac
 msgid "Focused accuracy"
-msgstr "دقة مركزة"
+msgstr "تَصْوِيبٌ دَقِيق"
 
 #: actorconditions_v0611.json:poison_irdegh
 msgid "Irdegh poison"
-msgstr "سم إرديغ"
+msgstr "11. سُمّ إِرْدِيغ"
 
 #: actorconditions_v0611_2.json:rotworm
 msgid "Kazaul rotworms"
-msgstr "ديدان كازول"
+msgstr "دِيدانُ كازاول العَفِنَة"
 
 #: actorconditions_v0611_2.json:shadowbless_str
 msgid "Blessing of Shadow strength"
-msgstr "مباركة قوة الظل"
+msgstr "بركة قوة الظلّ"
 
 #: actorconditions_v0611_2.json:shadowbless_heal
 msgid "Blessing of Shadow regeneration"
-msgstr "مباركة تجديد الظل"
+msgstr "بَرَكَةُ تَجَدُّدِ الظِّلّ"
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
-msgstr "مباركة دقة الظل"
+msgstr "بَرَكة دِقة الظِّلّ"
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
-msgstr "مباركة حارس الظل"
+msgstr "برَكةُ حامِي الظّلّ"
 
 #: actorconditions_v0611_2.json:crit1
 msgid "Internal bleeding"
-msgstr "نزيف داخلي"
+msgstr "نَزيف داخلي"
 
 #: actorconditions_v0611_2.json:crit2
 msgid "Fracture"
@@ -181,7 +181,7 @@ msgstr "قوة الظل"
 
 #: actorconditions_v070.json:haste
 msgid "Haste"
-msgstr "استعجال"
+msgstr "تسرع"
 
 #: actorconditions_v070.json:fire
 msgid "Ablaze"
@@ -269,7 +269,7 @@ msgstr "عقل مشوش"
 
 #: actorconditions_omicronrg9.json:guild03_restingAC
 msgid "Resting"
-msgstr "يستريح"
+msgstr "أستريح"
 
 #: actorconditions_omicronrg9.json:g03_concentration
 msgid "Concentration"
@@ -281,7 +281,7 @@ msgstr "كومبو"
 
 #: actorconditions_omicronrg9.json:carrying_ambelie
 msgid "Carrying Ambelie"
-msgstr "حمل أمبلياي"
+msgstr "حمل أمبيلي"
 
 #: actorconditions_arulir_mountain.json:crushed
 msgid "Crushed"
@@ -312,15 +312,15 @@ msgstr "تشابك"
 #: actorconditions_brimhaven.json:fatigue3
 #: actorconditions_brimhaven.json:fatigue4
 msgid "Fatigue"
-msgstr "تعب"
+msgstr "إعياء"
 
 #: actorconditions_brimhaven.json:turn_to_stone
 msgid "Turning to stone"
-msgstr "التحول إلى حجر"
+msgstr "تحجّر"
 
 #: actorconditions_brimhaven.json:stoneskin
 msgid "Stone skin"
-msgstr "جلد حجر"
+msgstr "جلد حجري"
 
 #: actorconditions_brimhaven.json:overeating
 msgid "Overeating"
@@ -328,11 +328,11 @@ msgstr "تخمة"
 
 #: actorconditions_brimhaven.json:venom
 msgid "Venom"
-msgstr "أفعى"
+msgstr "افعى"
 
 #: actorconditions_fungi_panic.json:spore_poison
 msgid "Spore poisoning"
-msgstr "تسمم بوغ"
+msgstr "تسمم جرثومي"
 
 #: actorconditions_gison.json:reinvigorated
 msgid "Reinvigorated"
@@ -348,7 +348,7 @@ msgstr "هلع"
 
 #: actorconditions_omi2.json:satiety
 msgid "Satiety"
-msgstr "التخمة"
+msgstr "الشبع"
 
 #: actorconditions_omi2.json:frozen1
 msgid "Minor freeze"
@@ -372,7 +372,7 @@ msgstr "طاعون الموت"
 
 #: actorconditions_haunted_forest.json:sleepwalking
 msgid "Sleepwalking"
-msgstr "نائم"
+msgstr "السرحان النومي"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
@@ -380,7 +380,7 @@ msgstr "موالي لفايغارد"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr ""
+msgstr "شبكة الجذور"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
@@ -392,47 +392,47 @@ msgstr "مذاق سيء"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr ""
+msgstr "عطش"
 
 #: actorconditions_laeroth.json:swift_attack
 msgid "Swift attack"
-msgstr ""
+msgstr "ضربة خاطفة"
 
 #: actorconditions_laeroth.json:blindness
 msgid "Blindness"
-msgstr ""
+msgstr "العمى"
 
 #: actorconditions_laeroth.json:life_drain
 msgid "Life drain"
-msgstr ""
+msgstr "امتصاص الحياة"
 
 #: actorconditions_laeroth.json:sting_major
 msgid "Major sting"
-msgstr ""
+msgstr "لسعة كبيرة"
 
 #: actorconditions_laeroth.json:spider_bite
 msgid "Spider bite"
-msgstr ""
+msgstr "عضّة عنكبوت"
 
 #: actorconditions_laeroth.json:environmental_poisoning
 msgid "Environmental poisoning"
-msgstr ""
+msgstr "تسمم بيئي"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
-msgstr ""
+msgstr "حُب الحلويات"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
-msgstr ""
+msgstr "زيادة دفاعية كبيرة"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
-msgstr ""
+msgstr "انتعاش إليثارا"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
-msgstr ""
+msgstr "رؤية غارقة"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -440,7 +440,8 @@ msgstr "أوه جيد، أنت مستيقظ."
 
 #: conversationlist_mikhail.json:mikhail_visited
 msgid "I can't seem to find your brother Andor anywhere. He hasn't been back since he left yesterday."
-msgstr "لم أجد أخاك أندور في أي مكان. لم يعد منذ غادر بالأمس."
+msgstr ""
+"\"لا أستطيع العثور على أخيك أندور في أي مكان. لم يعد منذ أن غادر البارحة."
 
 #: conversationlist_mikhail.json:mikhail3
 msgid "Never mind, he will probably be back soon."
@@ -456,13 +457,13 @@ msgstr "هل هناك أي شيء آخر يمكنني مساعدتك به؟"
 #: conversationlist_mikhail.json:mikhail_default:1
 #: conversationlist_mikhail.json:mikhail_default:2
 msgid "Do you have any more tasks for me?"
-msgstr "هل لديك مهمات أخرى لي؟"
+msgstr "هل لديك مهام أخرى لي؟"
 
 #: conversationlist_mikhail.json:mikhail_default:3
 #: conversationlist_umar.json:umar_return_1:0
 #: conversationlist_umar.json:umar_return_1:8
 msgid "Do you have any tasks for me?"
-msgstr "[OUTDATED]كان من المفترض أن نتحدث عن شيء ما ، أليس كذلك؟"
+msgstr "هل لديك اي مهام لي؟"
 
 #: conversationlist_mikhail.json:mikhail_default:4
 msgid "Is there anything else you can tell me about Andor?"
@@ -508,7 +509,7 @@ msgstr "لا يهم ، لنتكلم عن الأشياء الأخرى."
 
 #: conversationlist_mikhail.json:mikhail_bread_done
 msgid "Thanks for getting me the bread. There are still the rats."
-msgstr "شكرا على شراء الخبز. بقية الفئران."
+msgstr "شكرا على شراء الخبز. بقي الفئران."
 
 #: conversationlist_mikhail.json:mikhail_rats_done
 msgid "Thanks for taking care of the rats. I'd still love some bread."
@@ -580,7 +581,7 @@ msgstr "شكرا جزيلا، الآن يمكنني إعداد فطوري. تف�
 
 #: conversationlist_mikhail.json:mikhail_bread_complete2
 msgid "Thanks for the bread earlier."
-msgstr "شكرا على الخبز مسبقا."
+msgstr "شكرا على الخبز في وقت سابق."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete2:0
 #: conversationlist_charwood1.json:khorailla1:2
@@ -594,11 +595,12 @@ msgstr "شكرا على الخبز مسبقا."
 #: conversationlist_sullengard.json:sullengard_hadena_7:1
 #: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
-msgstr ""
+msgstr "على الرحب والسعة"
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
-msgstr "لقد رأيت بعض الفئران في حديقتنا سابقاً. هل يمكنك قتل كل فئر تراه هناك رجاءً؟"
+msgstr ""
+"لقد رأيت بعض الفئران في حديقتنا سابقاً. هل يمكنك قتل كل فأر تراه هناك رجاءً؟"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
@@ -902,27 +904,29 @@ msgstr "تقصد، بقتلك؟"
 
 #: conversationlist_crossglen.json:drunk1a
 msgid "Heeeey - come on. Don't be such a spoilsport."
-msgstr ""
+msgstr "هياااا - لاتكن مفسدًا للمتعة."
 
 #: conversationlist_crossglen.json:drunk1a:1
 msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
 msgstr ""
+"حسنًا، إذا كنتَ مصرًّا حقًا... لكن لديّ لعبة جديدة وحاسمة لك. تفضل، اشرب هذا.\" *"
+"[اعطي زجاجة سمّ ضعيف]*"
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
-msgstr ""
+msgstr "اوه ... [غلوك غلوك]"
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
-msgstr ""
+msgstr "\"يا له من طعم... [غلوك]"
 
 #: conversationlist_crossglen.json:drunk1d
 msgid "... taste [falls over]"
-msgstr ""
+msgstr "... مدهش...\" [يَسْقُطُ أرضًا]"
 
 #: conversationlist_crossglen.json:drunk1d:0
 msgid "Yes, really. A unique taste. And final - bye."
-msgstr ""
+msgstr "أجل، حقًا... طعم فريد. والآن... وداعا."
 
 #: conversationlist_crossglen_gruil.json:gruil1
 msgid ""
@@ -982,7 +986,7 @@ msgid ""
 msgstr ""
 "[REVIEW]مرحبا يا طفل. أنت ابن ميخائيل ، أليس كذلك؟ مع أخيك هذا.\n"
 "\n"
-"أنا ليونيد ، مضيف قرية كروسغلن."
+"أنا ليونيد ، مسؤول قرية كروسغلن."
 
 #: conversationlist_crossglen_leonid.json:leonid1:1
 #: conversationlist_crossglen_leonid.json:leonid_continue:1
@@ -1803,7 +1807,7 @@ msgstr "[OUTDATED]أنا حقا علي أن أذهب."
 #: conversationlist_fallhaven.json:rigmor:2
 #: conversationlist_fallhaven.json:rigmor_1:0
 msgid "I really need to go."
-msgstr ""
+msgstr "أنا بحاجة للذهاب حقا."
 
 #: conversationlist_fallhaven.json:rigmor_1
 msgid "Your brother, you say? His name is Andor? No. I don't recall meeting anyone like that."
@@ -1837,43 +1841,43 @@ msgstr "أرني بضاعتك."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_10
 msgid "Hey! What are you doing here? How did you get in?"
-msgstr ""
+msgstr "مهلاً! ماذا تفعل هنا؟ كيف دخلت؟"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_10:0
 msgid "By the door. Why?"
-msgstr ""
+msgstr "عند الباب. لماذا؟"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_20
 msgid "Nonsense. I would have noticed."
-msgstr ""
+msgstr "هُراء. كنت سألاحظ ذلك."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_30
 msgid "Leave immediatly, or I'll call the guards!"
-msgstr ""
+msgstr "غادر فورًا، وإلا سأنادي الحراس!"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_32
 msgid "And don't dare to enter my house again!"
-msgstr ""
+msgstr "ولا تجرؤ على دخول بيتي مرة أخرى!"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_40
 msgid "I know your face. How dare you to come back?"
-msgstr ""
+msgstr "أعرف وجهك. كيف تجرؤ على العودة؟"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_40:0
 msgid "Are you sure you don't mix me with my brother?"
-msgstr ""
+msgstr "هل أنت متأكد من أنك لا تخلطني مع أخي؟"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_42
 msgid "Andor? I know that boy all too well."
-msgstr ""
+msgstr "أندور؟ أنا أعرف هذا الصبي جيدًا"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_44
 msgid "You wear the stolen valuable necklace and dare lie to my face?"
-msgstr ""
+msgstr "هل ترتدي القلادة الثمينة المسروقة وتجرؤ على الكذب في وجهي؟"
 
 #: conversationlist_fallhaven_arcir.json:arcir_start
 msgid "Hello. I'm Arcir."
-msgstr "مرحبا. أنا أركير."
+msgstr "مرحبا. أنا أرسير."
 
 #: conversationlist_fallhaven_arcir.json:arcir_start:0
 #: conversationlist_fallhaven_arcir.json:arcir_anythingelse:0
@@ -1913,15 +1917,15 @@ msgstr "هل لديك كتاب يسمى \"أسرار كالوميران\"؟"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:2
 msgid "I have found some valuable looking map. Want to have a look?"
-msgstr ""
+msgstr "وجدتُ خريطةً قيّمةً. هل ترغب بإلقاء نظرة؟"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:3
 msgid "I have found a strange book about slavery. Interested?"
-msgstr ""
+msgstr "وجدتُ كتابًا غريبًا عن العبودية. هل يهمّك؟"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:4
 msgid "I have got a book about world history. Interested?"
-msgstr ""
+msgstr "لديّ كتاب عن تاريخ العالم. هل أنت مهتم؟"
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_1
 msgid "'Calomyran Secrets'? Hmm, yes I think I have one of those in my basement."
@@ -1960,68 +1964,74 @@ msgstr ""
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map
 msgid "Oh, an ancient map of the area! This would fit well into my collection of old maps. I offer you 500 gold pieces for it."
 msgstr ""
+"يا لها من خريطة قديمة للمنطقة! ستُناسب هذه الخريطة مجموعتي من الخرائط "
+"القديمة. أعرض عليك ٥٠٠ قطعة ذهبية مقابلها."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:0
 msgid "Thanks, I'd rather keep it."
-msgstr ""
+msgstr "شكراً ، أفضل إلاحتفاظ به."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:1
 msgid "OK. Here is Ewmondold's map."
-msgstr ""
+msgstr "حسنًا. هذه خريطة إيوموندولد."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1
 msgid "And here are 500 shining gold pieces. Use them wisely."
-msgstr ""
+msgstr "وهنا ٥٠٠ قطعة ذهبية لامعة. استخدمها بحكمة."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:0
 msgid "Thanks, I have to go now."
-msgstr ""
+msgstr "شكرا، يجب أن أذهب الآن."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:1
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:1
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:1
 msgid "Let's talk about other things."
-msgstr ""
+msgstr "دعونا نتحدث عن أشياء أخرى."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1
 msgid "Let's have a look. Oh, what the ... Well, this is no book for little ones as you. Give it to me, you get 200 pieces of gold for it."
 msgstr ""
+"لنلقِ نظرة. يا إلهي... حسنًا، هذا ليس كتابًا للأطفال مثلك. أعطني إياه، وأحصل "
+"على ٢٠٠ قطعة ذهبية مقابله."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:1
 msgid "OK. Here is the book about slavery."
-msgstr ""
+msgstr "حسناً، هذا هو الكتاب عن العبودية."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1
 msgid "And here are 200 shining gold pieces. Be happy that I'm freeing you from this terrible work."
-msgstr ""
+msgstr "وهنا 200 قطعة ذهبية لامعة. افرحوا لأني أحرركم من هذا العمل الشاق."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2
 msgid "Ah, a history textbook."
-msgstr ""
+msgstr "اه، كتاب تاريخ."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1
 msgid "But there are a lot of pages missing. Did you rip them out? You should be ashamed of yourself!"
-msgstr ""
+msgstr "لكن هناك صفحات كثيرة مفقودة. هل مزّقتها؟ عليك أن تخجل من نفسك!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1:0
 msgid "No, that wasn't me!"
-msgstr ""
+msgstr "لا، لم أكن أنا!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2
 msgid "Such a beautiful book, completely broken! You dare to offer this to me and think I won't notice?!"
 msgstr ""
+"يا له من كتاب جميل، لكنه مُحطّم تمامًا! هل تجرؤ على إهدائي هذا وتظن أنني لن "
+"ألاحظ؟"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:0
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_no:0
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_yes_1:0
 msgid "[Run]"
-msgstr ""
+msgstr "[أركض]"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_3
 msgid "Yes, just run away, you book murderer!"
-msgstr ""
+msgstr "نعم فقط اهرب، يا قاتل الكتب!"
 
 #: conversationlist_fallhaven_bucus.json:bucus_welcome
 msgid "Hi again, welcome back to the ... Oh wait, I thought you were someone else."
@@ -2243,7 +2253,7 @@ msgstr "تحرك جانبًا ، فأنا بحاجة للتعمق أكثر في 
 
 #: conversationlist_fallhaven_church.json:catacombguard:2
 msgid "By the Shadow, you will not stop me."
-msgstr "بسم الظل ، لن توقفني."
+msgstr "بإسم الظل ، لن توقفني."
 
 #: conversationlist_fallhaven_church.json:catacombguard1
 msgid "Nooo, you shall not pass!"
@@ -2259,7 +2269,7 @@ msgstr "* همسة * ما الفاني الذي يزعج نومي؟"
 
 #: conversationlist_fallhaven_church.json:luthor:0
 msgid "By the Shadow, what are you?"
-msgstr "بسم الظل ، ماذا أنت؟"
+msgstr "بإسم الظل ، ماذا أنت؟"
 
 #: conversationlist_fallhaven_church.json:luthor:1
 msgid "At last, a worthy fight! I have been waiting for this."
@@ -2280,31 +2290,31 @@ msgstr "هل كنت في سراديب الموتى؟"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:1
 msgid "May I ask you a question? Do you know a way to climb over the graveyard fence to the south?"
-msgstr ""
+msgstr "هل لي أن أسألك سؤالاً؟ هل تعرف طريقةً لتسلق سياج المقبرة من جهة الجنوب؟"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:2
 msgid "What about the ladder?"
-msgstr ""
+msgstr "ماذا عن السلم؟"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:3
 msgid "I will go and find your ladder."
-msgstr ""
+msgstr "سأذهب وأبحث عن سلمك."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:4
 msgid "I tried the ladder, but the window is locked."
-msgstr ""
+msgstr "حاولت استخدام السلم، لكن النافذة مقفلة."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:5
 msgid "The ladder is gone and the window shut."
-msgstr ""
+msgstr "لقد ذهب السلم وأغلقت النافذة."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:6
 msgid "The catacombs were interesting."
-msgstr ""
+msgstr "كانت المقابر مثيرة للاهتمام."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_1
 msgid "Yes, I have been in the catacombs beneath Fallhaven Church."
-msgstr "نعم ، لقد كنت في سراديب الموتى تحت معبد فالهافن."
+msgstr "نعم، لقد كنت في سراديب الموتى تحت كنيسة فالهافن."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_2
 msgid "But I'm the only one that has both the permission and the bravery to go down there."
@@ -2340,55 +2350,55 @@ msgstr "شكرا ، هذا سوف يعمل بشكل جيد."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_complete_12
 msgid "I hope you behaved well there."
-msgstr ""
+msgstr "أتمنى أن تتصرف بشكل جيد هناك."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_10
 msgid "No, there is no way over the fence."
-msgstr ""
+msgstr "لا، لا توجد طريقة فوق السياج."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_11
 msgid "Why do you ask?"
-msgstr ""
+msgstr "لماذا تسأل؟"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_11:0
 msgid "Oh, nothing."
-msgstr ""
+msgstr "اوه ، لاشيء."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_12
 msgid "You can tell me."
-msgstr ""
+msgstr "يمكنك إخباري."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_12:0
 msgid "Well, behind the fence is the shop of the tailor."
-msgstr ""
+msgstr "حسنًا، خلف السياج يوجد متجر الخياط."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_14
 msgid "That's right."
-msgstr ""
+msgstr "هذا صحيح."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_14:0
 msgid "And there is always a window open."
-msgstr ""
+msgstr "وهناك دائما نافذة مفتوحة."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_16
 msgid "Ah, I understand. You want to surprise your friend, the tailor."
-msgstr ""
+msgstr "آه، فهمت. تريد مفاجأة صديقك الخياط."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_16:0
 msgid "Eh, yes. Exactly."
-msgstr ""
+msgstr "اه، نعم. بالضبط."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_18
 msgid "Then I have a better idea. I am your man."
-msgstr ""
+msgstr "إذن لدي فكرة أفضل. أنا رجلك."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_18:0
 msgid "Great! I will thank you with a delicious piece of cooked meat."
-msgstr ""
+msgstr "رائع! سأشكرك بقطعة لحم مطبوخة لذيذة."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_20
 msgid "Ten."
-msgstr ""
+msgstr "عشرة."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_20:0
 #: conversationlist_ogam.json:ogam_1:0
@@ -2429,29 +2439,33 @@ msgstr "ماذا؟"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_22
 msgid "Make it ten. Ten cooked meat."
-msgstr ""
+msgstr "اجعلها عشرة. عشرة لحوم مطبوخة."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_22:0
 msgid "Are you crazy?"
-msgstr ""
+msgstr "هل أنت مجنون؟"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_23
 msgid "I have to smuggle a ladder into the basement of the church, which is very risky for me."
 msgstr ""
+"يجب علي أن أقوم بإدخال سلم إلى قبو الكنيسة، وهو أمر محفوف بالمخاطر بالنسبة "
+"لي."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24
 msgid "Then you can climb through a window and reach a path right to the back of the tailor's house."
 msgstr ""
+"وبعد ذلك، يمكنك الصعود عبر النافذة والوصول إلى المسار المؤدي مباشرة إلى "
+"الجزء الخلفي من منزل الخياط."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24:0
 msgid "OK. I have ten deliciously cooked pieces of meat now."
-msgstr ""
+msgstr "حسناً، لدي الآن عشر قطع من اللحم المطبوخة بشكل لذيذ."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24:1
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24a:1
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_34:1
 msgid "I will go for it now."
-msgstr ""
+msgstr "سأذهب لذلك الآن."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24:2
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_34:2
@@ -2465,29 +2479,29 @@ msgstr ""
 #: conversationlist_feygard_1.json:godoe_4:1
 #: conversationlist_troubling_times.json:tt_sly_58:2
 msgid "Forget it."
-msgstr ""
+msgstr "انسى ذلك."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24a
 msgid "What about the cooked meat?"
-msgstr ""
+msgstr "ماذا عن اللحوم المطبوخة؟"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_24a:0
 msgid "I have ten deliciously cooked pieces of meat now."
-msgstr ""
+msgstr "لقد أصبح لدي الآن عشر قطع من اللحم المطبوخة بشكل لذيذ."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_26
 msgid "Ohh ..."
-msgstr ""
+msgstr "أوهه ..."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_26:0
 #: conversationlist_laeroth.json:gylew7a_1:1
 #: conversationlist_laeroth.json:gylew8a_2:1
 msgid "Here, take it."
-msgstr ""
+msgstr "هنا ، خذها."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_28
 msgid "I knew you would do that, my friend. So I have already hidden the ladder in the basement near the window."
-msgstr ""
+msgstr "‫كنت أعلم أنك ستفعل ذلك يا صديقي. لذا أخفيت السلم في القبو قرب النافذة."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_28:0
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_38:0
@@ -2552,55 +2566,58 @@ msgstr "شكرا لك."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_30
 msgid "Oh, is that so? Hmm."
-msgstr ""
+msgstr "اوه ، هل هذا صحيح؟ هممم."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_30:0
 msgid "Yes. And you know it perfectly well."
-msgstr ""
+msgstr "نعم، وأنت تعرف ذلك جيدًا."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_32
 msgid "Well, maybe I could risk borrowing the key and unlocking the window."
-msgstr ""
+msgstr "حسنًا، ربما أستطيع المخاطرة باستعارة المفتاح وفتح النافذة."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_32:0
 msgid "Maybe? What does that mean?!"
-msgstr ""
+msgstr "ربما؟ ماذا يعني ذلك؟"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_34
 msgid "Bring twenty more pieces of cooked meat. Yes, twenty should do. That's worth my risk of ending up as bonemeal."
 msgstr ""
+"أحضر عشرين قطعة لحم مطبوخة إضافية. أجل، عشرين قطعة تكفي. هذا يستحق مخاطرة أن "
+"ينتهي بي الأمر كوجبة عظام."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_34:0
 msgid "I have bought the twenty cooked pieces of cooked meat."
-msgstr ""
+msgstr "لقد اشتريت عشرين قطعة من اللحم المطبوخ."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_36
 msgid "Ohh, that smells delicious! You are a true friend."
-msgstr ""
+msgstr "أوه، رائحتها لذيذة! أنت صديق حقيقي."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_36:0
 msgid "Here take it. And don't forget to unlock the window."
-msgstr ""
+msgstr "خذها. ولا تنسَ فتح النافذة."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_38
 msgid "The window is already unlocked."
-msgstr ""
+msgstr "النافذة مفتوحة بالفعل."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_38:1
 msgid "I hope for your sake that was all."
-msgstr ""
+msgstr "آمل أن يكون هذا كل شيء من أجلك."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_40
 msgid "Yes. I tidied up a bit again."
-msgstr ""
+msgstr "نعم، لقد قمت بالترتيب مرة أخرى."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_40:0
 msgid "Could you ..."
-msgstr ""
+msgstr "يمكنك ..."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_42
 msgid "... unlock the window again for you? No, I have enough cooked meat for a long time."
 msgstr ""
+"... افتح لك النافذة مرة أخرى؟ لا، لديّ ما يكفي من اللحم المطبوخ لفترة طويلة."
 
 #: conversationlist_fallhaven_drunk.json:fallhaven_drunk
 msgid "No problem. No sireee! Not causing any more trouble now. I sits here outside now."
@@ -2935,7 +2952,7 @@ msgstr "اقترحت توريلو أن أسأل مالكي الحانات الآ
 
 #: conversationlist_fallhaven_tavern.json:bela:3
 msgid "Do you have strawberries?"
-msgstr ""
+msgstr "هل لديك الفراولة؟"
 
 #: conversationlist_fallhaven_tavern.json:bela_room_1
 msgid "A room will cost you only 10 gold."
@@ -3912,7 +3929,7 @@ msgstr "هل أنت حطاب؟"
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_1:1
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_15:3
 msgid "Tunlon has sent me to ask for some wood for fences."
-msgstr ""
+msgstr "لقد أرسلني تونلون لأطلب بعض الخشب للسياج."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_2
 msgid "Yes, I'm Fallhaven's woodcutter. Need anything done in the finest of woods? I have probably got it."
@@ -4641,7 +4658,7 @@ msgstr "هل تقصدين سرقة؟"
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_4:1
 msgid "Isn't that stealing?"
-msgstr ""
+msgstr "أليست هذه سرقة؟"
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_5
 msgid "No no. I wouldn't call it stealing. It's more of a transfer of ownership. To me, that is."
@@ -4741,19 +4758,24 @@ msgstr "هاه، أنت عديم الفائدة. وداعا."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel1
 msgid "Hey, kid! Don't be so nosy!"
-msgstr ""
+msgstr "يا صغير! لا تكن فضوليًا جدًا!"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2a
 msgid ""
 "A sign says 'Jail'\n"
 "The exit above is blocked though."
 msgstr ""
+"لافتة مكتوب عليها \"سجن\".\n"
+"\n"
+"المخرج أعلاه مغلق."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2b
 msgid ""
 "A sign says 'Arcir'\n"
 "The exit above is blocked though."
 msgstr ""
+"لافتة مكتوب عليها \"أرسير\".\n"
+"المخرج أعلاه مغلق."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2c
 msgid "Attention - the catacombs. Keep silent!"
@@ -82973,7 +82995,7 @@ msgstr "فالهافن"
 
 #: worldmap.xml:world1:flagstone
 msgid "Flagstone Prison"
-msgstr "سجن flagstone"
+msgstr "سجن فلاجستون"
 
 #: worldmap.xml:world1:fflask
 msgid "Foaming Flask Tavern"
@@ -83021,5 +83043,4 @@ msgstr ""
 
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
-msgstr ""
-
+msgstr "قرية ويكسلو"

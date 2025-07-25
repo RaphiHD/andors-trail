@@ -25,7 +25,7 @@
     <string name="dialog_monsterencounter_info">Informasi</string>
     <string name="status_hp">HP:</string>
     <string name="status_ap">AP:</string>
-    <string name="status_exp">Level:</string>
+    <string name="status_exp">XP:</string>
     <string name="heroinfo_inv">Barang</string>
     <string name="heroinfo_char">Ikhtisar</string>
     <string name="heroinfo_skill">Keahlian</string>
@@ -90,11 +90,11 @@
     <string name="actorinfo_basetraits">Statistik dasar pertempuran (tanpa perlengkapan dan keahlian)</string>
     <string name="actorinfo_currenttraits">Statistik pertempuran (saat ini)</string>
     <string name="traitsinfo_attack_cost">Poin untuk menyerang (AP):</string>
-    <string name="traitsinfo_attack_chance">Kesempatan menyerang:</string>
-    <string name="traitsinfo_attack_damage">Kekuatan serangan:</string>
+    <string name="traitsinfo_attack_chance">Peluang serangan:</string>
+    <string name="traitsinfo_attack_damage">Kerusakan serangan:</string>
     <string name="traitsinfo_criticalhit_skill">Serangan kritis:</string>
     <string name="traitsinfo_criticalhit_multiplier">Pengganda serangan kritis:</string>
-    <string name="traitsinfo_defense_chance">Kesempatan menangkis:</string>
+    <string name="traitsinfo_defense_chance">Peluang blok:</string>
     <string name="traitsinfo_defense_damageresist">Ketahanan terhadap serangan:</string>
     <string name="iteminfo_category">Kategori:</string>
     <string name="iteminfo_action_use">Gunakan</string>
@@ -116,7 +116,7 @@
     <string name="shop_infoitem">Informasi</string>
     <string name="shop_buyitem">Beli (%1$d emas)</string>
     <string name="shop_sellitem">Jual (%1$d emas)</string>
-    <string name="shop_yourgold">Emas yang ada di tangan: %1$d</string>
+    <string name="shop_yourgold">Emas yang tersedia: %1$d</string>
     <string name="shop_item_bought">%1$s dibeli.</string>
     <string name="shop_item_sold">%1$s dijual.</string>
     <string name="levelup_title">Naik level</string>
@@ -124,12 +124,12 @@
     <string name="levelup_buttontext">Naik level</string>
     <string name="levelup_add_health">Tingkatkan kesehatan (+%1$d HP)</string>
     <string name="levelup_add_health_description">Menambahkan %1$d pada Kesehatan maksimalmu.</string>
-    <string name="levelup_add_attackchance">Tingkatkan kesempatan menyerang (+%1$d)</string>
-    <string name="levelup_add_attackchance_description">Menambahkan %1$d pada basis kesempatan menyerangmu.</string>
-    <string name="levelup_add_attackdamage">Tingkatkan kekuatan serangan (+%1$d)</string>
-    <string name="levelup_add_attackdamage_description">Menambahkan %1$d pada basis kekuatan seranganmu.</string>
-    <string name="levelup_add_blockchance">Tingkatkan kesempatan menangkis (+%1$d)</string>
-    <string name="levelup_add_blockchance_description">Menambahkan %1$d pada basis kesempatan menangkismu.</string>
+    <string name="levelup_add_attackchance">Meningkatkan peluang serangan (+%1$d)</string>
+    <string name="levelup_add_attackchance_description">Menambahkan %1$d pada peluang serangan dasarmu.</string>
+    <string name="levelup_add_attackdamage">Tingkatkan kerusakan serangan (+%1$d)</string>
+    <string name="levelup_add_attackdamage_description">Menambahkan %1$d pada kerusakan serangan dasarmu.</string>
+    <string name="levelup_add_blockchance">Meningkatkan peluang blok (+%1$d)</string>
+    <string name="levelup_add_blockchance_description">Menambahkan %1$d pada peluang blok dasarmu.</string>
     <string name="dialog_rest_title">Istirahat</string>
     <string name="dialog_rest_confirm_message">Kamu ingin beristirahat di sini?</string>
     <string name="dialog_rest_message">Kamu sudah beristirahat dan memulihkan kesehatanmu.</string>
@@ -143,7 +143,7 @@
     <string name="questlog_includecompleted_onlycompleted">Misi selesai</string>
     <string name="questlog_queststatus">Status: %1$s</string>
     <string name="questlog_queststatus_inprogress">Sedang berjalan</string>
-    <string name="questlog_queststatus_completed">Telah selesai</string>
+    <string name="questlog_queststatus_completed">Selesai</string>
     <string name="preferences_display_category">Tampilan</string>
     <string name="preferences_display_fullscreen_title">Layar penuh</string>
     <string name="preferences_display_fullscreen">Tampilkan permainan dalam mode layar penuh. (Membutuhkan restart)</string>
@@ -152,13 +152,13 @@
     <string name="preferences_dialog_confirmrest">Memberi pertanyaan apakah kamu ingin beristirahat ketika mendekati tempat tidur. Sebaliknya, kamu akan selalu istirahat secara otomatis.</string>
     <string name="preferences_dialog_confirmattack_title">Konfirmasi serangan</string>
     <string name="preferences_dialog_confirmattack">Mengaktifkan kotak dialog \'Kamu ingin menyerang..?\' ketika menyerang musuh.</string>
-    <string name="preferences_dialog_monsterloot_title">Tampilkan barang rampasan dari musuh</string>
+    <string name="preferences_dialog_monsterloot_title">Tampilkan barang jarahan dari musuh</string>
     <string name="preferences_dialog_monsterloot">Pilih bagaimana kamu ingin hasil pertarungan ditampilkan (emas, pengalaman, barang).</string>
     <string name="preferences_combat_category">Pertempuran</string>
     <string name="preferences_combat_speed_title">Kecepatan pertempuran</string>
     <string name="preferences_combat_speed">Menentukan seberapa cepat musuh menyerang.</string>
-    <string name="preferences_display_loot_dialog">Selalu memperlihatkan kotak dialog barang rampasan</string>
-    <string name="preferences_display_loot_dialog_on_items">Menampilkan kotak dialog barang rampasan ketika menemukan barang</string>
+    <string name="preferences_display_loot_dialog">Selalu tampilkan</string>
+    <string name="preferences_display_loot_dialog_on_items">Tampilkan ketika menemukan barang</string>
     <string name="preferences_display_loot_dialog_on_items_or_toast">Dialog untuk barang, notifikasi. sebaliknya</string>
     <string name="preferences_display_loot_toast">Tampilkan notifikasi singkat</string>
     <string name="preferences_display_loot_toast_on_items">Tampilkan notifikasi hanya saat menemukan barang</string>
@@ -174,12 +174,12 @@
     <string name="preferences_movementmethods_avoid">Menghindari rintangan</string>
     <string name="actorinfo_currentconditions">Kondisi aktif</string>
     <string name="actorcondition_info_removes_all">Hapus semua %1$s</string>
-    <string name="iteminfo_effect_chance_of">%1$s kesempatan untuk %2$s</string>
+    <string name="iteminfo_effect_chance_of">%1$s peluang untuk %2$s</string>
     <string name="iteminfo_effect_duration">(%1$d ronde)</string>
     <string name="iteminfo_effect_works_on_source">Pada pengguna</string>
     <string name="iteminfo_effect_works_on_target">Pada target</string>
     <string name="iteminfo_effect_works_when_hitting_target">Ketika mengenai target</string>
-    <string name="iteminfo_effect_works_when_killing_target">Tiap kali mengalahkan musuh</string>
+    <string name="iteminfo_effect_works_when_killing_target">Setiap musuh dikalahkan</string>
     <string name="iteminfo_effect_works_when_used">Ketika digunakan</string>
     <string name="iteminfo_effect_works_when_equipped">Ketika dipakai</string>
     <string name="iteminfo_effect_decrease_current_hp">Menguras %1$s HP</string>
@@ -192,8 +192,8 @@
     <string name="iteminfo_effect_decrease_max_ap">Menurunkan AP maksimal sebanyak %1$d</string>
     <string name="iteminfo_effect_increase_movecost">Penalti poin untuk bergerak +%1$d AP</string>
     <string name="iteminfo_effect_decrease_movecost">Mengurangi poin untuk bergerak %1$d AP</string>
-    <string name="preferences_display_scaling_factor_title">Perbesaran</string>
-    <string name="preferences_display_scaling_factor">Menampilkan layar permainan lebih besar atau lebih kecil.</string>
+    <string name="preferences_display_scaling_factor_title">Faktor Skala</string>
+    <string name="preferences_display_scaling_factor">Memperbesar atau memperkecil tampilan permainan.</string>
     <string name="preferences_display_scaling_factor_normal">Ukuran normal</string>
     <string name="preferences_display_scaling_factor_50_percent_larger">1.5x ukuran normal</string>
     <string name="preferences_display_scaling_factor_double">Dua kali ukuran normal</string>
@@ -204,8 +204,8 @@
     <string name="inventory_unassign">Kosongkan slot cepat</string>
     <string name="preferences_movement_dpad_position_title">D-pad virtual</string>
     <string name="preferences_movement_dpad_position">Menampilkan papan arah virtual pada layar untuk memandu gerakan.</string>
-    <string name="preferences_movement_dpad_minimizeable_title">D-pad yang bisa disembunyikan</string>
-    <string name="preferences_movement_dpad_minimizeable">Setelan ini memungkinkan d-pad untuk disembunyikan dengan menekan bagian tengahnya bila d-pad virtual diaktifkan.</string>
+    <string name="preferences_movement_dpad_minimizeable_title">D-pad yang bisa dikecilkan</string>
+    <string name="preferences_movement_dpad_minimizeable">Setelan ini dapat mengecilkan d-pad dengan menekan bagian tengahnya jika d-pad virtual diaktifkan.</string>
     <string name="preferences_movement_dpad_positions_disabled">Non-aktif</string>
     <string name="preferences_movement_dpad_positions_lower_right">Sudut kanan bawah</string>
     <string name="preferences_movement_dpad_positions_lower_left">Sudut kiri bawah</string>
@@ -232,64 +232,64 @@
     <string name="skill_title_better_criticals">Serangan Kritis yang Lebih Baik</string>
     <string name="skill_title_speed">Kecepatan Tempur</string>
     <string name="skill_title_coinfinder">Pemburu Harta Karun</string>
-    <string name="skill_title_more_exp">Cepat Belajar</string>
+    <string name="skill_title_more_exp">Kecepatan Belajar</string>
     <string name="skill_title_cleave">Membelah</string>
     <string name="skill_title_eater">Pemakan Bangkai</string>
-    <string name="skill_title_fortitude">Peningkatan Keuletan</string>
+    <string name="skill_title_fortitude">Meningkatkan Keteguhan</string>
     <string name="skill_title_evasion">Pengelakkan</string>
     <string name="skill_title_regeneration">Regenerasi</string>
-    <string name="skill_title_lower_exploss">Ahli Mengatasi Kegagalan</string>
+    <string name="skill_title_lower_exploss">Ahli menguasai Kegagalan</string>
     <string name="skill_title_magicfinder">Penemu Sihir</string>
-    <string name="skill_title_resistance_mental">Pikiran Kuat</string>
+    <string name="skill_title_resistance_mental">Pemikiran Kuat</string>
     <string name="skill_title_resistance_physical_capacity">Ketahanan Fisik</string>
     <string name="skill_title_resistance_blood_disorder">Darah Murni</string>
-    <string name="skill_shortdescription_weapon_chance">Kesempatan menyerang yang lebih besar</string>
-    <string name="skill_shortdescription_weapon_dmg">Kerusakan serangan yang lebih besar</string>
-    <string name="skill_shortdescription_barter">Harga yang lebih baik di toko</string>
-    <string name="skill_shortdescription_dodge">Kesempatan menangkis yang lebih besar</string>
-    <string name="skill_shortdescription_barkskin">Ketahanan diri terhadap serangan</string>
-    <string name="skill_shortdescription_more_criticals">Serangan kritis yang lebih tinggi</string>
-    <string name="skill_shortdescription_better_criticals">Kekuatan serangan kritis yang lebih besar</string>
-    <string name="skill_shortdescription_speed">Poin Aksi yang lebih banyak</string>
-    <string name="skill_shortdescription_coinfinder">Kesempatan yang lebih besar untuk menemukan emas</string>
-    <string name="skill_shortdescription_more_exp">Mendapatkan lebih banyak Pengalaman saat mengalahkan musuh</string>
+    <string name="skill_shortdescription_weapon_chance">Meningkatkan peluang serangan</string>
+    <string name="skill_shortdescription_weapon_dmg">Meningkatkan kerusakan serangan</string>
+    <string name="skill_shortdescription_barter">Harga toko yang lebih baik</string>
+    <string name="skill_shortdescription_dodge">Meningkatkan peluang blok</string>
+    <string name="skill_shortdescription_barkskin">Tahan terhadap serangan</string>
+    <string name="skill_shortdescription_more_criticals">Meningkatkan serangan kritis</string>
+    <string name="skill_shortdescription_better_criticals">Meningkatkan kerusakan serangan kritis</string>
+    <string name="skill_shortdescription_speed">Meningkatkan Poin Aksi lebih banyak</string>
+    <string name="skill_shortdescription_coinfinder">Peluang lebih tinggi untuk menemukan emas</string>
+    <string name="skill_shortdescription_more_exp">Mendapatkan lebih banyak Pengalaman dari mengalahkan musuh</string>
     <string name="skill_shortdescription_cleave">Memulihkan Poin Aksi setiap kali mengalahkan musuh</string>
     <string name="skill_shortdescription_eater">Memulihkan Poin Kesehatan setiap kali mengalahkan musuh</string>
-    <string name="skill_shortdescription_fortitude">Mendapatkan Kesehatan tiap kali naik level</string>
-    <string name="skill_shortdescription_evasion">Kesempatan yang lebih besar untuk melarikan diri</string>
+    <string name="skill_shortdescription_fortitude">Menambah Kesehatan setiap naik level</string>
+    <string name="skill_shortdescription_evasion">Meningkatkan peluang dalam melarikan diri</string>
     <string name="skill_shortdescription_regeneration">Mendapatkan Kesehatan setiap ronde</string>
     <string name="skill_shortdescription_lower_exploss">Mengurangi jumlah Pengalaman yang hilang saat mengalami kekalahan</string>
-    <string name="skill_shortdescription_magicfinder">Kesempatan yang lebih banyak untuk menemukan benda-benda sihir</string>
-    <string name="skill_shortdescription_resistance_mental">Ketahanan terhadap kondisi mental</string>
-    <string name="skill_shortdescription_resistance_physical_capacity">Ketahanan terhadap kondisi kapasitas fisik</string>
-    <string name="skill_shortdescription_resistance_blood_disorder">Ketahanan terhadap kelainan dalam darah</string>
-    <string name="skill_longdescription_weapon_chance">Meningkatkan kesempatan menyerang sebanyak %1$d poin prosentase untuk setiap level keahlian.</string>
+    <string name="skill_shortdescription_magicfinder">Meningkatkan peluang menemukan barang sihir</string>
+    <string name="skill_shortdescription_resistance_mental">Tahan terhadap pengaruh mental</string>
+    <string name="skill_shortdescription_resistance_physical_capacity">Tahan terhadap pengaruh kapasitas fisik</string>
+    <string name="skill_shortdescription_resistance_blood_disorder">Tahan terhadap kelainan darah</string>
+    <string name="skill_longdescription_weapon_chance">Meningkatkan peluang serangan sebanyak %1$d poin persentase untuk setiap level keahlian.</string>
     <string name="skill_longdescription_weapon_dmg">Meningkatkan kerusakan maksimal sebanyak %1$d untuk tiap level keahlian.</string>
     <string name="skill_longdescription_barter">Untuk tiap level keahlian, penalti emas saat jual-beli berkurang sebanyak %1$d poin prosentase.</string>
-    <string name="skill_longdescription_dodge">Meningkatkan kesempatan menangkis sebanyak %1$d poin prosentase untuk tiap level keahlian.</string>
+    <string name="skill_longdescription_dodge">Meningkatkan peluang blok sebanyak %1$d poin persentase untuk tiap level keahlian.</string>
     <string name="skill_longdescription_barkskin">Meningkatkan ketahanan terhadap serangan sebanyak %1$d untuk tiap level keahlian.</string>
     <string name="skill_longdescription_more_criticals">Meningkatkan serangan kritis yang didapat dari perlengkapan sebanyak %1$d %% untuk tiap level keahlian.</string>
     <string name="skill_longdescription_better_criticals">Meningkatkan pengganda serangan kritis yang didapat dari perlengkapan sebanyak %1$d %% untuk tiap level keahlian.</string>
     <string name="skill_longdescription_speed">Meningkatkan Poin Aksi (AP) maksimum sebanyak %1$d untuk tiap level keahlian.</string>
-    <string name="skill_longdescription_coinfinder">Meningkatkan kesempatan untuk menemukan Emas yang dijatuhkan oleh musuh sebanyak %1$d %%, dan meningkatkan jumlah Emas yang dijatuhkan sebanyak %2$d %% untuk tiap level keahlian (sampai jumlah maksimum yang dijatuhkan musuh tersebut).</string>
+    <string name="skill_longdescription_coinfinder">Meningkatkan peluang untuk menemukan Emas yang dijatuhkan oleh musuh sebanyak %1$d %%, dan meningkatkan jumlah Emas yang dijatuhkan sebanyak %2$d %% untuk tiap level keahlian (sampai jumlah maksimum yang dijatuhkan musuh tersebut).</string>
     <string name="skill_longdescription_more_exp">Meningkatkan jumlah Pengalaman yang didapat ketika mengalahkan musuh sebanyak %1$d %% untuk tiap level keahlian.</string>
     <string name="skill_longdescription_cleave">Memberi +%1$d Poin Aksi (AP) setiap mengalahkan musuh per level keahlian.</string>
     <string name="skill_longdescription_eater">Memberi +%1$d Poin Kesehatan (HP) setiap mengalahkan musuh per level keahlian.</string>
-    <string name="skill_longdescription_fortitude">Pada level berikutnya setelah naik level, Poin Kesehatan (HP) maksimal akan dinaikkan sebanyak %1$d per level keahlian. Ini tidak diterapkan secara retroaktif, hanya berpengaruh setelah mencapai level selanjutnya.</string>
-    <string name="skill_longdescription_evasion">Untuk tiap level keahlian, mengurangi kegagalan saat mencoba untuk melarikan diri sebanyak %1$d %% dan mengurangi kesempatan bagi musuh yang berdekatan untuk menyerang sebanyak %2$d %%.</string>
-    <string name="skill_longdescription_regeneration">Mendapat +%1$d Poin Kesehatan (HP) pada setiap ronde per level keahlian ketika tidak ada musuh yang berbatasan langsung.</string>
-    <string name="skill_longdescription_lower_exploss">Untuk tiap level keahlian, mengurangi Pengalaman yang hilang karena kekalahan sebanyak %1$d %% (prosentase dari Pengalaman yang hilang, bukan poin prosentase). %2$d level akan menghilangkan Pengalaman yang hilang karena kekalahan.</string>
-    <string name="skill_longdescription_magicfinder">Meningkatkan kesempatan untuk menemukan barang yang tidak-biasa sebanyak %1$d %% untuk tiap level keahlian.</string>
-    <string name="skill_longdescription_resistance_mental">Mengurangi kesempatan untuk terpengaruh kondisi mental sebanyak %1$d %% untuk tiap level keahlian, sampai batas maksimal sebanyak %2$d %%. Ini termasuk kondisi yang disebabkan oleh serangan musuh seperti Linglung atau Kelemahan Terhadap Senjata.</string>
-    <string name="skill_longdescription_resistance_physical_capacity">Mengurangi kesempatan untuk terpengaruh oleh kondisi kapasitas fisik sebanyak %1$d %% untuk tiap level keahlian, sampai batas maksimal sebanyak %2$d %%. Ini termasuk kondisi yang disebabkan oleh serangan musuh seperti Kelelahan.</string>
-    <string name="skill_longdescription_resistance_blood_disorder">Mengurangi kesempatan untuk terpengaruh oleh kelainan dalam darah sebanyak %1$d %% untuk tiap level keahlian, sampai batas maksimal sebanyak %2$d %%. Ini termasuk kondisi yang disebabkan oleh serangan musuh seperti Racun atau luka pendarahan.</string>
+    <string name="skill_longdescription_fortitude">DI naik level berikutnya, Poin Kesehatan (HP) maksimal akan dinaikkan sebanyak %1$d per level keahlian. Ini tidak berlaku secara langusng, hanya berpengaruh setelah naik ke level selanjutnya.</string>
+    <string name="skill_longdescription_evasion">Di tiap level keahlian, mengurangi kegagalan dalam peluang melarikan diri sebanyak %1$d %% dan mengurangi peluang bagi musuh terdekat untuk menyerang sebanyak %2$d %%.</string>
+    <string name="skill_longdescription_regeneration">Menambah +%1$d Poin Kesehatan (HP) pada setiap ronde per level keahlian ketika tidak ada musuh yang berdekatan secara langsung.</string>
+    <string name="skill_longdescription_lower_exploss">Di tiap level keahlian, mengurangi kehilangan pengalaman akibat kekalahan sebanyak %1$d %% (persentase dari kehilangan pengalaman, bukan poin persentase). Level ke-%2$d akan menghapus semua kehilangan pengalaman akibat kekalahan.</string>
+    <string name="skill_longdescription_magicfinder">Meningkatkan peluang menemukan barang yang tidak-biasa sebanyak %1$d %% untuk tiap level keahlian.</string>
+    <string name="skill_longdescription_resistance_mental">Mengurangi kemungkinan terpengaruh kondisi mental sebanyak %1$d %% untuk tiap level keahlian, sampai batas maksimal sebanyak %2$d %%. Ini termasuk kondisi yang disebabkan oleh serangan musuh seperti Linglung atau Kelemahan Terhadap Senjata.</string>
+    <string name="skill_longdescription_resistance_physical_capacity">Mengurangi kemungkinan terkena kondisi yang memengaruhi kapasitas fisik sebanyak %1$d %% untuk tiap level keahlian, sampai batas maksimal sebanyak %2$d %%. Ini termasuk kondisi yang disebabkan oleh serangan musuh seperti Kelelahan.</string>
+    <string name="skill_longdescription_resistance_blood_disorder">Mengurangi kemungkinan terkena kelainan darah sebanyak %1$d %% untuk tiap level keahlian, sampai batas maksimal sebanyak %2$d %%. Ini termasuk kondisi yang disebabkan oleh serangan musuh seperti Racun atau luka pendarahan.</string>
     <string name="skillinfo_action_levelup">Naik level</string>
     <string name="skill_current_level">Level saat ini: %1$d</string>
     <string name="skill_current_level_with_maximum">Level saat ini: %1$d / %2$d</string>
     <string name="skill_prerequisite_other_skill">Untuk menaikkan level keahlian ini, kamu setidaknya membutuhkan level %1$d untuk keahlian %2$s.</string>
     <string name="skill_prerequisite_level">Untuk menaikkan level keahlian ini, kamu membutuhkan setidaknya %1$d level Pengalaman.</string>
     <string name="skill_prerequisite_stat">Untuk menaikkan level ini, kamu setidaknya membutuhkan %1$d %2$s (statistik dasar).</string>
-    <string name="skill_number_of_increases_one">Anda dapat memilih satu keterampilan untuk ditingkatkan. Poin keterampilan disimpan sampai digunakan.</string>
+    <string name="skill_number_of_increases_one">Kamu dapat memilih satu keahlian untuk ditingkatkan. Poin keahlian disimpan hingga digunakan.</string>
     <string name="skill_number_of_increases_several">Kamu dapat memilih %1$d keahlian untuk ditingkatkan.</string>
     <string name="levelup_adds_new_skillpoint">Level ini juga memberikan kamu poin keahlian baru untuk digunakan!</string>
     <string name="loadsave_save_to_new_slot">Buat slot Penyimpanan baru</string>
@@ -312,26 +312,26 @@
     <string name="preferences_optimized_drawing">Matikan fitur ini bila Anda melihat artefak grafis. Menyalakan fitur ini akan menjadikan permainan hanya menggambar bagian yang berubah dari layar pada tiap frame.</string>
     <string name="skill_title_shadow_bless">Berkah kegelapan dari Bayangan</string>
     <string name="skill_shortdescription_shadow_bless">Ketahanan terhadap semua kondisi</string>
-    <string name="skill_longdescription_shadow_bless">Mengurangi kesempatan untuk terpengaruh oleh semua kondisi sebanyak %1$d %%. Ini termasuk semua kondisi yang disebabkan oleh serangan musuh seperti Racun, Linglung, atau Kelelahan.</string>
+    <string name="skill_longdescription_shadow_bless">Mengurangi kemungkinan terpengaruh oleh semua kondisi sebanyak %1$d %%. Ini termasuk semua kondisi yang disebabkan oleh serangan musuh seperti Racun, Linglung, atau Kelelahan.</string>
     <string name="inventory_movetop">Pindahkan ke atas</string>
     <string name="inventory_movebottom">Pindahkan ke bawah</string>
     <string name="actorinfo_immune_criticals">Kebal terhadap serangan kritis</string>
-    <string name="traitsinfo_criticalhit_effectivechance">Kesempatan efektif serangan kritis:</string>
+    <string name="traitsinfo_criticalhit_effectivechance">Peluang serangan kritis efektif:</string>
     <string name="skill_title_crit1">Perdarahan dalam</string>
-    <string name="skill_shortdescription_crit1">Kesempatan untuk pendarahan dalam</string>
-    <string name="skill_longdescription_crit1">Untuk setiap serangan kritis yang dilakukan, ada %1$d %% kesempatan untuk menyebabkan target mengalami pendarahan dalam, sehingga secara efektif menyebabkan kondisi ‘Pendarahan dalam’ pada target. Pendarahan dalam menurunkan kemampuan menyerang secara drastis, menyebabkan berkurangnya kemampuan target untuk melancarkan serangan yang sukses.</string>
+    <string name="skill_shortdescription_crit1">Peluang dalam memberikan pendarahan mendalam.</string>
+    <string name="skill_longdescription_crit1">Untuk setiap serangan kritis yang dilakukan, ada %1$d %% peluang bahwa serangan tersebut akan menyebabkan pendarahan mendalam pada target, yang secara efektif menyebabkan kondisi \'Pendarahan Mendalam\' pada target. Pendarahan mendalam sangat menurunkan kemampuan tempur ofensif, membuat target kurang mampu melancarkan serangan yang berhasil.</string>
     <string name="skill_title_crit2">Patah tulang</string>
-    <string name="skill_shortdescription_crit2">Kesempatan untuk mematahkan tulang</string>
-    <string name="skill_longdescription_crit2">Setiap serangan kritis yang dilakukan, ada %1$d %% kesempatan untuk mematahkan tulang target, secara efektif menyebabkan kondisi ‘Patah tulang’ pada target. Hal ini menyebabkan berkurangnya keahlian bertahan, membuatnya lebih rentan terhadap serangan berikutnya.</string>
-    <string name="skill_title_rejuvenation">Peremajaan</string>
-    <string name="skill_shortdescription_rejuvenation">Kesempatan untuk menghilangkan efek</string>
-    <string name="skill_longdescription_rejuvenation">Setiap ronde (6 detik), ada %1$d %% kesempatan untuk satu di antara kondisi negatif yang aktif akan diturunkan sebanyak satu tingkatan. Hal ini berlaku pada semua efek yang bersifat sementara yang mempengaruhi tubuh; kondisi mental seperti Linglung, kondisi kapasitas fisik seperti Kelelahan, serta gangguan dalam darah seperti Racun.</string>
+    <string name="skill_shortdescription_crit2">Peluang dalam mematahkan tulang</string>
+    <string name="skill_longdescription_crit2">Setiap serangan kritis yang dilakukan, ada %1$d %% peluang bahwa serangan tersebut akan mematahkan beberapa tulang target, yang secara efektif menyebabkan kondisi \'Patah Tulang\' pada target. Ini akan sangat menurunkan kemampuan tempur defensif target, sehingga membuatnya kurang mampu mempertahankan diri dalam serangan berikutnya.</string>
+    <string name="skill_title_rejuvenation">Pemulihan</string>
+    <string name="skill_shortdescription_rejuvenation">Peluang dalam menghilangkan efek</string>
+    <string name="skill_longdescription_rejuvenation">Setiap ronde (6 detik), ada %1$d %% peluang bahwa salah satu kondisi negatif pemain yang aktif akan diturunkan sebanyak satu tingkatan. Ini berlaku untuk semua jenis efek sementara yang memengaruhi tubuh; kondisi mental seperti Linglung, kondisi kapasitas fisik seperti Kelelahan, dan juga kelainan darah seperti racun.</string>
     <string name="skill_title_taunt">Mengejek</string>
     <string name="skill_shortdescription_taunt">Penyerang kehilangan AP ketika serangannya meleset</string>
-    <string name="skill_longdescription_taunt">Ketika penyerang melancarkan serangan yang meleset, ada %1$d %% kesempatan bagi penyerang untuk kehilangan %2$d Poin Aksi (AP). Hal ini diterapkan pada semua serangan jarak dekat yang ditujukan pada pahlawanmu.</string>
-    <string name="skill_title_concussion">Guncangan</string>
-    <string name="skill_shortdescription_concussion">Kesempatan menyebabkan guncangan</string>
-    <string name="skill_longdescription_concussion">Ketika menyerang target yang memiliki Kesempatan Menangkis (BC) paling tidak %1$d lebih sedikit dari Kesempatan Menyerang (AC) yang kamu miliki, terdapat %2$d %% kesempatan untuk mengguncang target. Guncangan dapat menurunkan keahlian menyerang target, menyebabkan berkurangnya kemampuan target untuk melancarkan serangan yang sukses.</string>
+    <string name="skill_longdescription_taunt">Ketika penyerang melancarkan serangan yang meleset, ada %1$d %% peluang bahwa penyerang kehilangan %2$d Poin Aksi (AP). Ini berlaku untuk semua jenis serangan jarak dekat terhadap pahlawanmu.</string>
+    <string name="skill_title_concussion">Gegar otak</string>
+    <string name="skill_shortdescription_concussion">Peluang dalam memberikan benturan</string>
+    <string name="skill_longdescription_concussion">Ketika menyerang target yang Peluang bloknya (BC) paling tidak %1$d lebih rendah dari Peluang serangan (AC) yang kamu miliki, terdapat %2$d %% peluang bawha serangan tersebut menyebabkan gegar otak pada target. Ini akan sangat menurunkan kemampuan tempur ofensif target, membuat target kurang mampu melancarkan serangan yang berhasil.</string>
     <string name="about_button4">Tentang</string>
     <string name="preferences_ui_category">Antarmuka</string>
     <string name="preferences_ui_enable_animations_title">Aktifkan animasi</string>
@@ -344,50 +344,50 @@
     <string name="iteminfo_effect_weapon_attack_cost">Poin untuk menyerang: %1$d AP</string>
     <string name="iteminfo_effect_increase_attack_cost">Meningkatkan poin untuk menyerang sebanyak %1$d AP</string>
     <string name="iteminfo_effect_decrease_attack_cost">Mengurangi poin untuk menyerang sebanyak %1$d AP</string>
-    <string name="iteminfo_effect_weapon_attack_chance">Kesempatan menyerang: %1$d</string>
-    <string name="iteminfo_effect_increase_attack_chance">Meningkatkan kesempatan menyerang sebanyak %1$d</string>
-    <string name="iteminfo_effect_decrease_attack_chance">Mengurangi kesempatan menyerang sebanyak %1$d</string>
-    <string name="iteminfo_effect_weapon_attack_damage">Kekuatan serangan: %1$d</string>
-    <string name="iteminfo_effect_weapon_attack_damage_minmax">Kekuatan serangan: %1$d-%2$d</string>
-    <string name="iteminfo_effect_increase_attack_damage">Meningkatkan kekuatan serangan sebanyak %1$d</string>
-    <string name="iteminfo_effect_increase_attack_damage_minmax">Meningkatkan kekuatan serangan sebanyak %1$d-%2$d</string>
-    <string name="iteminfo_effect_decrease_attack_damage">Mengurangi kekuatan serangan sebanyak %1$d</string>
-    <string name="iteminfo_effect_decrease_attack_damage_minmax">Mengurangi kekuatan serangan sebanyak %1$d-%2$d</string>
+    <string name="iteminfo_effect_weapon_attack_chance">Peluang serangan: %1$d</string>
+    <string name="iteminfo_effect_increase_attack_chance">Meningkatkan peluang serangan sebanyak %1$d</string>
+    <string name="iteminfo_effect_decrease_attack_chance">Mengurangi peluang serangan sebanyak %1$d</string>
+    <string name="iteminfo_effect_weapon_attack_damage">Kerusakan serangan: %1$d</string>
+    <string name="iteminfo_effect_weapon_attack_damage_minmax">Kerusakan serangan: %1$d-%2$d</string>
+    <string name="iteminfo_effect_increase_attack_damage">Meningkatkan kerusakan serangan sebanyak %1$d</string>
+    <string name="iteminfo_effect_increase_attack_damage_minmax">Meningkatkan kerusakan serangan sebanyak %1$d-%2$d</string>
+    <string name="iteminfo_effect_decrease_attack_damage">Mengurangi kerusakan serangan sebanyak %1$d</string>
+    <string name="iteminfo_effect_decrease_attack_damage_minmax">Mengurangi kerusakan serangan sebanyak %1$d-%2$d</string>
     <string name="iteminfo_effect_increase_critical_skill">Meningkatkan serangan kritis sebanyak %1$d</string>
     <string name="iteminfo_effect_decrease_critical_skill">Mengurangi serangan kritis sebanyak %1$d</string>
     <string name="iteminfo_effect_critical_multiplier">Mengaktifkan serangan kritis dengan penggandaan sebanyak x%1$.1f</string>
-    <string name="iteminfo_effect_increase_block_chance">Meningkatkan kesempatan menangkis sebanyak %1$d</string>
-    <string name="iteminfo_effect_decrease_block_chance">Mengurangi kesempatan menangkis sebanyak %1$d</string>
+    <string name="iteminfo_effect_increase_block_chance">Meningkatkan peluang blok sebanyak %1$d</string>
+    <string name="iteminfo_effect_decrease_block_chance">Mengurangi peluang blok sebanyak %1$d</string>
     <string name="iteminfo_effect_increase_damage_resistance">Meningkatkan ketahanan terhadap serangan sebanyak %1$d</string>
     <string name="iteminfo_effect_decrease_damage_resistance">Mengurangi ketahanan terhadap serangan sebanyak %1$d</string>
-    <string name="iteminfo_effect_increase_use_cost">Meningkatkan poin AP yang dibutuhkan untuk menggunakan barang saat pertempuran sebanyak %1$d AP</string>
-    <string name="iteminfo_effect_decrease_use_cost">Mengurangi poin AP yang dibutuhkan untuk menggunakan barang saat pertempuran sebanyak %1$d AP</string>
-    <string name="iteminfo_effect_increase_reequip_cost">Meningkatkan poin AP untuk memakai perlengkapan saat pertempuran sebanyak %1$d AP</string>
-    <string name="iteminfo_effect_decrease_reequip_cost">Mengurangi poin AP yang dibutuhkan untuk memakai perlengkapan saat pertempuran sebanyak %1$d AP</string>
+    <string name="iteminfo_effect_increase_use_cost">Meningkatkan poin AP saat menggunakan barang di pertempuran sebanyak %1$d AP</string>
+    <string name="iteminfo_effect_decrease_use_cost">Mengurangi poin AP saat menggunakan barang di pertempuran sebanyak %1$d AP</string>
+    <string name="iteminfo_effect_increase_reequip_cost">Meningkatkan poin AP saat memakai perlengkapan di pertempuran sebanyak %1$d AP</string>
+    <string name="iteminfo_effect_decrease_reequip_cost">Mengurangi poin AP saat memakai perlengkapan di pertempuran sebanyak %1$d AP</string>
     <string name="loadsave_save_overwrite_confirmation_all">Kamu yakin ingin menimpa simpanan permainan ini?</string>
     <string name="loadsave_save_overwrite_confirmation_slot">(slot %1$d)</string>
-    <string name="preferences_display_overwrite_savegame_entries_always_confirm">Selalu perlihatkan kotak dialog konfirmasi</string>
-    <string name="preferences_display_overwrite_savegame_entries_confirm_overwrite">Hanya perlihatkan ketika menimpa nama pemain yang berbeda</string>
-    <string name="preferences_display_overwrite_savegame_entries_never_confirm">Jangan perlihatkan kotak dialog konfirmasi</string>
+    <string name="preferences_display_overwrite_savegame_entries_always_confirm">Selalu perlihatkan</string>
+    <string name="preferences_display_overwrite_savegame_entries_confirm_overwrite">Perlihatkan ketika menimpa nama pemain yang berbeda</string>
+    <string name="preferences_display_overwrite_savegame_entries_never_confirm">Jangan perlihatkan</string>
     <string name="preferences_dialog_overwrite_savegame_title">Konfirmasi menimpa simpanan permainan</string>
-    <string name="preferences_dialog_overwrite_savegame">Mengajukan pertanyaan apakah kamu ingin menimpa ketika menyimpan pada slot penyimpan permainan yang sudah terisi simpanan permainan.</string>
-    <string name="heroinfo_reequip_cost">Poin untuk memakai kembali (AP):</string>
-    <string name="heroinfo_useitem_cost">Poin untuk menggunakan barang (AP):</string>
+    <string name="preferences_dialog_overwrite_savegame">Mengajukan pertanyaan apakah kamu ingin menimpa ketika menyimpan pada slot simpanan permainan yang sudah ada.</string>
+    <string name="heroinfo_reequip_cost">Poin memakai ulang (AP):</string>
+    <string name="heroinfo_useitem_cost">Poin menggunakan barang (AP):</string>
     <string name="combat_result_monstermoved">%1$s bergerak.</string>
     <string name="combat_log_title">Catatan pertempuran</string>
     <string name="localize_resources_from_mo_filename">id.mo</string>
     <string name="conversation_reward_quest_finished">[Misi selesai: “%1$s”]</string>
     <string name="conversation_reward_quest_updated">[Misi diperbarui: “%1$s”]</string>
-    <string name="skill_title_weapon_prof_dagger">Kecakapan penggunaan belati</string>
-    <string name="skill_title_weapon_prof_1hsword">Kecakapan penggunaan pedang satu-tangan</string>
-    <string name="skill_title_weapon_prof_2hsword">Kecakapan penggunaan pedang dua-tangan</string>
-    <string name="skill_title_weapon_prof_axe">Kecakapan penggunaan kapak</string>
-    <string name="skill_title_weapon_prof_blunt">Kecakapan senjata tumpul</string>
-    <string name="skill_title_weapon_prof_unarmed">Bertarung dengan tangan kosong</string>
-    <string name="skill_title_armor_prof_shield">Kecakapan penggunaan perisai</string>
-    <string name="skill_title_armor_prof_unarmored">Bertarung tanpa pelindung</string>
-    <string name="skill_title_armor_prof_light">Kecakapan penggunaan pelindung ringan</string>
-    <string name="skill_title_armor_prof_heavy">Kecakapan penggunaan pelindung berat</string>
+    <string name="skill_title_weapon_prof_dagger">Kemampuan menggunakan belati</string>
+    <string name="skill_title_weapon_prof_1hsword">Kemampuan menggunakan pedang satu-tangan</string>
+    <string name="skill_title_weapon_prof_2hsword">Kemampuan menggunakan pedang dua-tangan</string>
+    <string name="skill_title_weapon_prof_axe">Kemampuan menggunakan kapak</string>
+    <string name="skill_title_weapon_prof_blunt">Kemampuan menggunakan senjata tumpul</string>
+    <string name="skill_title_weapon_prof_unarmed">Kemampuan menggunakan tangan kosong</string>
+    <string name="skill_title_armor_prof_shield">Kemampuan menggunakan perisai</string>
+    <string name="skill_title_armor_prof_unarmored">Kemampuan bertarung tanpa zirah</string>
+    <string name="skill_title_armor_prof_light">Kemampuan menggunakan zirah ringan</string>
+    <string name="skill_title_armor_prof_heavy">Kemampuan menggunakan zirah berat</string>
     <string name="skill_title_fightstyle_dualwield">Gaya bertarung: Senjata ganda</string>
     <string name="skill_title_fightstyle_2hand">Gaya bertarung: Senjata dua-tangan</string>
     <string name="skill_title_fightstyle_weapon_shield">Gaya bertarung: Senjata dan perisai</string>
@@ -400,10 +400,10 @@
     <string name="skill_shortdescription_weapon_prof_axe">Lebih baik ketika bertarung menggunakan kapak</string>
     <string name="skill_shortdescription_weapon_prof_blunt">Lebih baik ketika bertarung dengan senjata tumpul</string>
     <string name="skill_shortdescription_weapon_prof_unarmed">Lebih baik ketika bertarung tanpa senjata</string>
-    <string name="skill_shortdescription_armor_prof_shield">Menggunakan perisai atau senjata penangkis dengan lebih baik</string>
-    <string name="skill_shortdescription_armor_prof_unarmored">Lebih baik ketika bertarung tanpa perlengkapan pelindung</string>
-    <string name="skill_shortdescription_armor_prof_light">Menggunakan pelindung ringan dengan lebih baik</string>
-    <string name="skill_shortdescription_armor_prof_heavy">Menggunakan pelindung berat dengan lebih baik</string>
+    <string name="skill_shortdescription_armor_prof_shield">Meningkatkan kemampuan menggunakan perisai atau senjata tangkis</string>
+    <string name="skill_shortdescription_armor_prof_unarmored">Meningkatkan kemampuan bertarung tanpa zirah</string>
+    <string name="skill_shortdescription_armor_prof_light">Meningkatkan kemampuan menggunakan zirah ringan</string>
+    <string name="skill_shortdescription_armor_prof_heavy">Meningkatkan kemampuan menggunakan zirah berat</string>
     <string name="skill_shortdescription_fightstyle_dualwield">Menggunakan dua senjata pada waktu yang bersamaan</string>
     <string name="skill_shortdescription_fightstyle_2hand">Menggunakan senjata yang memerlukan dua tangan dengan lebih baik</string>
     <string name="skill_shortdescription_fightstyle_weapon_shield">Lebih baik ketika bertarung menggunakan senjata dan perisai</string>
@@ -415,18 +415,12 @@
     <string name="skill_longdescription_weapon_prof_2hsword">Untuk tiap level keahlian, meningkatkan kesempatan menyerang ketika menggunakan pedang dua-tangan sebanyak %1$d %% dari basis kesempatan menyerang senjata tersebut, meningkatkan kesempatan menangkis sebanyak %2$d %% dari basis kesempatan menangkis senjata tersebut, dan meningkatkan serangan kritis sebanyak %3$d %% dari basis serangan kritis senjata tersebut.</string>
     <string name="skill_longdescription_weapon_prof_axe">Untuk tiap level keahlian, meningkatkan kesempatan menyerang ketika menggunakan kapak dan kapak-besar sebanyak %1$d %% dari basis kesempatan menyerang senjata tersebut, meningkatkan kesempatan menangkis sebanyak %2$d %% dari basis kesempatan menangkis senjata tersebut, dan meningkatkan serangan kritis sebanyak %3$d %% dari basis serangan kritis senjata tersebut.</string>
     <string name="skill_longdescription_weapon_prof_blunt">Untuk tiap level keahlian, meningkatkan peluang menyerang ketika menggunakan senjata tumpul sebanyak %1$d %% dari peluang menyerang dasar senjata tersebut, meningkatkan peluang menangkis sebanyak %2$d %% dari peluang menangkis dasar senjata tersebut, dan meningkatkan keahlian pengalian kritis sebanyak %3$d %% dari keahlian pengalian kritis dasar senjata tersebut. Ini termasuk pentungan, tongkat, palu-perang, pecut, palu perang dan palu raksasa.</string>
-    <string name="skill_longdescription_weapon_prof_unarmed">Ketika bertarung tanpa menggunakan senjata dan perisai, mendapatkan %1$d kesempatan menyerang, %2$d daya rusak, dan %3$d kesempatan menangkis per level keahlian.</string>
-    <string name="skill_longdescription_armor_prof_shield">Meningkatkan ketahanan terhadap cedera sebanyak %1$d per level keahlian ketika menggunakan perisai atau senjata penangkis.</string>
-    <string name="skill_longdescription_armor_prof_unarmored">Ketika bertarung tanpa menggunakan pelindung sama sekali, mendapatkan %1$d kesempatan menangkis per level keahlian. Barang yang terbuat dari kain tidak dianggap sebagai pelindung.</string>
-    <string name="skill_longdescription_armor_prof_light">Untuk tiap level keahlian, meningkatkan kesempatan menangkis untuk tiap pelindung ringan yang digunakan sebanyak %1$d %% dari basis kesempatan menangkis pelindung tersebut. Pelindung ringan termasuk kulit, logam ringan, dan pelindung dari kulit hewan.</string>
-    <string name="skill_longdescription_armor_prof_heavy">Untuk tiap level keahlian, meningkatkan kesempatan menangkis untuk tiap pelindung berat yang digunakan sebanyak %1$d %% dari basis kesempatan menangkis pelindung tersebut. Pelindung berat memiliki penalti pergerakan sebesar %2$d %% per level keahlian, dan penalti kecepatan menyerang sebesar %3$d %% per level keahlian. Pelindung berat termasuk pelindung dari logam, pelindung dari rantai, dan pelindung dari pelat.</string>
-    <string name="skill_longdescription_fightstyle_dualwield">Memberikan keuntungan ketika bertarung dengan dua senjata dalam waktu bersamaan, satu di tangan dominan dan lainnya di tangan non-dominan.
-\n
-\nTanpa keahlian ini, hanya %1$d %% dari kualitas senjata yang akan digunakan ketika memakainya di tangan non-dominan. Termasuk juga peluang menyerang, keahlian serangan kritis, potensial cedera dan peluang menangkis. Tanpa keahlian ini, kecepatan menyerang (AP yang dibutuhkan) untuk melakukan serangan adalah jumlah dari kecepatan menyerang senjata utama dan senjata yang digunakan di tangan non-dominan. Pengubah angka cedera yang digunakan adalah yang lebih rendah.
-\n
-\nDengan satu level dari keahlian ini, %2$d %% dari kualitas senjata tambahan akan digunakan, dan kecepatan menyerang dari kecepatan menyerang senjata utama ditambahkan %3$d %% dari kecepatan menyerang senjata tambahan. Pengubah angka cederanya adalah rata-rata dari keduanya.
-\n
-\nDengan dua level dari keahlian ini, %4$d %% dari kualitas senjata tambahan akan digunakan, dan kecepatan menyerang sebanding dengan kecepatan tercepat dari dua senjata yang digunakan. Pengubah angka cedera yang digunakan adalah yang lebih tinggi.</string>
+    <string name="skill_longdescription_weapon_prof_unarmed">Ketika bertarung tanpa menggunakan senjata dan perisai, mendapatkan %1$d peluang serangan, %2$d daya rusak, dan %3$d peluang blok per level keahlian.</string>
+    <string name="skill_longdescription_armor_prof_shield">Meningkatkan ketahanan terhadap serangan sebanyak %1$d per level keahlian ketika menggunakan perisai atau senjata penangkis.</string>
+    <string name="skill_longdescription_armor_prof_unarmored">Ketika bertarung tanpa menggunakan zirah sama sekali, mendapatkan %1$d peluang blok per level keahlian. Barang yang terbuat dari kain tidak dianggap sebagai zirah.</string>
+    <string name="skill_longdescription_armor_prof_light">Untuk tiap level keahlian, meningkatkan peluang blok setiap zirah rimgan yang dikenakan sebanyak %1$d %% dari peluang blok awal. Zirah ringan meliputi zirah kulit, logam ringan, dan kulit binatang.</string>
+    <string name="skill_longdescription_armor_prof_heavy">Untuk setiap level keahlian, meningkatkan peluang blok setiap zirah berat yang dikenakan sebesar %1$d %% dari peluang blok aslinya. Zirah berat memiliki penalti gerakan yang dikurangi sebesar %2$d %% per level keahlian, dan penalti kecepatan serangan dikurangi sebesar %3$d %% per level keahlian, dan penalti poin penggunaan item dikurangi sebesar %4$d %% per level keahlian. Zirah berat termasuk zirah logam, zirah rantai, dan zirah pelat.</string>
+    <string name="skill_longdescription_fightstyle_dualwield">Memberikan keuntungan ketika bertarung dengan dua senjata dalam waktu bersamaan, satu di tangan dominan dan lainnya di tangan non-dominan. \n \nTanpa keahlian ini, hanya %1$d %% kualitas senjata yang dapat digunakan saat digunakan di tangan yang non-dominan. Ini termasuk peluang serangan, keahlian serangan kritis, daya rusak, dan peluang blok. Tanpa keterampilan ini, poin serangan (poin AP) untuk melakukan serangan adalah jumlah poin serangan senjata utama dan senjata yang digunakan di tangan non-dominan. Pengubah kerusakan yang lebih rendah akan digunakan. \n \nDengan satu level dari keahlian ini, %2$d %% kualitas senjata di tangan non-dominan dapat digunakan, dan poin serangannya adalah poin serangan tertinggi dari kedua senjata ditambah %3$d %% poin serangan terendah dari kedua senjata. Rata-rata dari kedua Pengubah kerusakan akan digunakan.\n \nDengan dua level dari keahlian ini, %4$d %% dari kualitas senjata tangan non-dominan dapat digunakan, dan poin serangannya sama dengan poin serangan tertinggi dari dua senjata yang digunakan. Pengubah kerusakan tertinggi akan digunakan.</string>
     <string name="skill_longdescription_fightstyle_2hand">Memberi keuntungan ketika menggunakan senjata yang memerlukan dua tangan dalam penggunaannya, seperti pedang dua-tangan, kapak besar, atau palu raksasa.
 \n
 \nTiap level keahlian menambah daya rusak dari senjata dua-tangan sebanyak %1$d %% dari daya rusak aslinya.</string>
@@ -434,8 +428,8 @@
 \n
 \nTiap level keahlian meningkatkan peluang menyerang dari senjata sebanyak %1$d %% dari kesempatan menyerang aslinya, dan meningkatkan kesempatan menangkis sebesar %2$d %% dari kesempatan menangkis aslinya.</string>
     <string name="skill_longdescription_specialization_dualwield">Meningkatkan kesempatan menyerang bagi kedua senjata yan digunakan sebanyak %1$d %% dari kesempatan menyerang aslinya, sebagai tambahan dari keuntungan yang diberikan oleh keahlian gaya bertarung. Kesempatan menangkis kedua senjata juga ditingkatkan sebanyak %2$d %% dari kesempatan menangkis aslinya.</string>
-    <string name="skill_longdescription_specialization_2hand">Meningkatkan daya rusak dari senjata dua-tangan sebanyak %1$d %% dari daya rusak aslinya, sebagai tambahan dari keuntungan yang diberikan dari keahlian gaya bertarung. Kesempatan menyerang dari senjata dua-tangan juga ditingkatkan sebanyak %2$d %% dari kesempatan menyerang aslinya.</string>
-    <string name="skill_longdescription_specialization_weapon_shield">Meningkatkan peluang menyerang dan daya rusak senjata. Kesempatan menyerang ditingkatkan sebanyak %1$d %% dari kesempatan menyerang aslinya, dan daya rusak ditingkatkan sebanyak %2$d %% dari daya rusak aslinya.</string>
+    <string name="skill_longdescription_specialization_2hand">Meningkatkan daya rusak dari senjata dua-tangan sebanyak %1$d %% dari daya rusak awal, sebagai tambahan dari keuntungan yang diberikan dari keahlian gaya bertarung. Peluang serangan dari senjata dua-tangan juga ditingkatkan sebanyak %2$d %% dari peluang serangan awal.</string>
+    <string name="skill_longdescription_specialization_weapon_shield">Meningkatkan peluang serangan dan daya rusak senjata. Peluang serangan ditingkatkan sebanyak %1$d %% dari peluang serangan awal, dan daya rusak ditingkatkan sebanyak %2$d %% dari daya rusak awal.</string>
     <string name="preferences_quickslots_placement">Posisi slot cepat</string>
     <string name="preferences_quickslots_placement_summary">Pilih penempatan slot cepat</string>
     <string name="preferences_quickslots_placements_horizontal_center_bottom">Bawah tengah</string>
@@ -469,9 +463,56 @@
     <string name="conversation_lostgold">[Kamu kehilangan %1$d Emas]</string>
     <string name="conversation_rewarditem">[Kamu mendapatkan sebuah barang]</string>
     <string name="conversation_rewarditems">[Kamu mendapatkan %1$d barang]</string>
-    <string name="about_contents1">Selamat datang di Andor\'s Trail, sebuah permainan roguelike sumber-terbuka untuk Android.&lt;br /&gt;&lt;br /&gt;&lt;a href=http://andorstrail.com/&gt;Forum permainan di andorstrail.com untuk pertanyaan dan diskusi seputar cara bermain.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=http://andorstrail.com/wiki&gt;Wiki permainan untuk informasi antara lain tentang dunia Andor\'s Trail.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Kode sumber proyek di github.com bagi para pengembang.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Harap mengunjungi forum untuk mendiskusikan permainan dengan pemain lain. &lt;br/&gt;</string>
+    <string name="about_contents1">Selamat datang di Andor\'s Trail, sebuah permainan roguelike sumber-terbuka untuk Android.&lt;br /&gt;&lt;br /&gt;&lt;a href=http://andorstrail.com/&gt;Forum permainan di andorstrail.com untuk pertanyaan dan diskusi seputar cara bermain.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://docs.andorstrail.com/gitbook.io/docs&gt;Wiki permainan untuk informasi antara lain tentang dunia Andor\'s Trail.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Kode sumber proyek di github.com bagi para pengembang.&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Harap mengunjungi forum untuk mendiskusikan permainan dengan pemain lain. &lt;br/&gt;</string>
     <string name="about_contents3">Program ini adalah perangkat lunak gratis; Anda dapat meredistribusikannya dan/atau memodifikasinya di bawah persyaratan Lisensi Public Umum GNU yang diterbitkan oleh Free Software Foundation; baik lisensi versi 2, atau (berdasarkan pilihan Anda) versi mana saja setelahnya.&lt;br /&gt; &lt;br /&gt;Program ini didistribusikan dengan harapan bahwa program ini dapat berguna, tetapi TANPA JAMINAN APAPUN; bahkan tanpa jaminan tersirat atas KELAYAKAN UNTUK DIPERDAGANGKAN atau KECOCOKAN UNTUK TUJUAN TERTENTU. Harap menilik Lisensi Publik Umum GNU untuk detil lebih lanjut.&lt;br /&gt;&lt;br /&gt;Anda seharusnya menerima salinan dari Lisensi Publik Umum GNU beserta program ini; jika tidak, harap menilik &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Untuk kode sumber dan permintaan fitur, harap kunjungi laman proyek di &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
-    <string name="about_interface">&lt;div&gt;&lt;b&gt;Setelan Permainan&lt;/b&gt; dapat diakses dengan menekan Tombol Menu dari perangkat.&lt;/div&gt;&lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Ikon Antarmuka&lt;/h1&gt;&lt;div&gt;&lt;b&gt;Peti&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt;&lt;p&gt;Slot cepat [Tahan kantong yang ada di dalamnya untuk menetapkan barang demi penggunaan instan]&lt;/p&gt;&lt;div&gt;&lt;b&gt;Pahlawan&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt;&lt;p&gt;Menu [Ikhtisar, Misi, Keahlian &amp;amp; Inventori *]&lt;/p&gt;&lt;p&gt;* (Ketika di dalam inventori, tekan sebuah barang untuk menampilkan informasi &amp;amp; tahan untuk lebih banyak opsi)&lt;/p&gt;&lt;div&gt;&lt;b&gt;Musuh&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt;&lt;p&gt;Informasi [Muncul saat Pertempuran]&lt;/p&lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Pertempuran&lt;/h1&gt;&lt;p&gt;Aksi yang diambil selama pertempuran memerlukan AP...&lt;/p&gt;&lt;div&gt;&lt;b&gt;Menyerang&lt;/b&gt; - [3AP] *&lt;/div&gt;&lt;img alt=attacking src=doubleattackexample.png /&gt;&lt;p&gt;* (Memakai Perlengkapan &amp;amp; Menggunakan barang dapat mengubah AP &amp;amp; poin penggunaan)&lt;/p&gt;&lt;div&gt;&lt;b&gt;Menggunakan barang&lt;/b&gt; - [5AP]&lt;/div&gt;&lt;div&gt;&lt;b&gt;Melarikan diri&lt;/b&gt; - [6AP]&lt;/div&gt;&lt;p&gt;________________&lt;/p&gt;&lt;h1&gt;Pertempuran Tingkat Lanjut&lt;/h1&gt;&lt;div&gt;Selama Pertempuran, tahan petak yang berdampingan dengan Pahlawan...&lt;/div&gt;&lt;div&gt;&lt;b&gt;Untuk Melarikan Diri&lt;/b&gt;&lt;/div&gt;&lt;p&gt;(petak yang dipilih tersorot - Tombol Menyerang berubah menjadi Bergerak)&lt;/p&gt;&lt;img alt=flee src=flee_example.png /&gt;&lt;p&gt;[Mode Melarikan Diri aktif - Tahan musuh untuk kembali ke pertempuran]&lt;/p&gt;&lt;div&gt;&lt;b&gt;Untuk Mengganti Sasaran&lt;/b&gt;&lt;/div&gt;&lt;p&gt;(Sorotan sasaran merah bergeser di antara musuh)&lt;/p&gt;&lt;p&gt;[sasaran telah diubah]&lt;/p&gt;</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>Setelan Permainan</b> dapat diakses dengan menekan Tombol Menu dari perangkat.</div>
+
+<p>________________</p>
+<h1>Ikon Antarmuka</h1>
+
+<div><b>Peti</b><img alt="chest" src="chest.png" /></div>
+<p>Slot cepat [Tekan lama pada kantong di dalam untuk menetapkan item agar dapat langsung digunakan]</p>
+
+<div><b>Pahlawan</b><img alt="hero" src="char_hero.png" /></div>
+<p>Menu [Ringkasan, Misi, Keahlian &amp; Inventori *]</p>
+<p>* (Saat berada di inventori, "tekan" sebuah barang untuk menampilkan informasi &amp; "tekan lama" untuk informasi lebih lanjut)</p>
+
+<div><b>Musuh</b><img alt="monster" src="monster.png" /></div>
+<p>Informasi [Muncul saat Pertempuran]</p>
+
+
+
+<p>________________</p>
+<h1>Pertempuran</h1>
+
+<p>Aksi yang diambil selama pertempuran memerlukan AP...</p>
+
+<div><b>Menyerang</b> - [3AP] *</div>
+<img alt="attacking" src="doubleattackexample.png" />
+<p>* (Memakai Perlengkapan &amp; Menggunakan barang dapat mengubah AP &amp; poin penggunaan)</p>
+
+<div><b>Menggunakan barang</b> - [5AP]</div>
+<div><b>Melarikan diri</b> - [6AP]</div>
+
+
+
+<p>________________</p>
+<h1>Pertempuran Tingkat Lanjut</h1>
+
+<div>Selama Pertempuran, tekan lama pada petak yang berdampingan dengan Pahlawan....</div>
+
+<div><b>Untuk Melarikan Diri</b></div>
+<p>(petak yang dipilih tersorot - Tombol Menyerang berubah menjadi Bergerak)</p>
+<img alt="flee" src="flee_example.png" />
+<p>[Mode Melarikan Diri aktif - Tekan lama pada musuh untuk kembali ke pertempuran]</p>
+
+<div><b>Untuk Mengganti Target</b></div>
+<p>(sorotan target merah berpindah antar musuh)</p>
+<p>[Target telah diubah]</p>
+
+]]></string>
     <string name="dialog_newversion_message">Terima kasih telah mengunduh Andor\'s Trail!
 \n
 \nHarap dicatat bahwa versi Andor\'s Trail ini DALAM PROSES PENGERJAAN, yang berarti semua peta belum terselesaikan sepenuhnya.
@@ -494,15 +535,15 @@
     <string name="combat_condition_player_clear">Anda bebas dari %1$s.</string>
     <string name="combat_condition_player_apply">Anda dipengaruhi oleh %1$s.</string>
     <string name="combat_taunt_monster">Anda mengejek %1$s!</string>
-    <string name="heroinfo_unlimited_lives">Nyawa tidak terbatas, 1 simpanan permainan</string>
+    <string name="heroinfo_unlimited_lives">Hidup tak terbatas, 1 kali penyimpanan</string>
     <string name="heroinfo_unlimited_lives_and_saves">Standar
 \n(Nyawa dan simpanan permainan tidak terbatas)</string>
     <string name="heroinfo_experiencepoints">Poin pengalaman (XP):</string>
-    <string name="heroinfo_healthpoints">Poin nyawa (HP):</string>
+    <string name="heroinfo_healthpoints">Poin Kesehatan (HP):</string>
     <string name="heroinfo_skill_sort">Urut</string>
     <string name="dialog_game_over_text">Kamu mengambil napas terakhir dan mati.</string>
     <string name="heroinfo_one_life">Mati Permanen (1 Nyawa)</string>
-    <string name="heroinfo_limited_lives">Nyawa terbatas (%1$d/%2$d left)</string>
+    <string name="heroinfo_limited_lives">Nyawa terbatas (%1$d/%2$d tersisa)</string>
     <string name="heroinfo_inventory_sort">Urutkan dari</string>
     <string name="heroinfo_inventory_categories">Kategori</string>
     <string name="heroinfo_mode">Mode</string>
@@ -513,49 +554,45 @@
     <string name="dialog_more">Lebih</string>
     <string name="dialog_recenter">Memusatkan</string>
     <string name="dialog_loading_failed_cheat">Andor\'s Trail tidak dapat memuat file save game. File savegame ini telah dilanjutkan.</string>
-    <string name="actorcondition_info_immunity">Kekebalan terhadap %1$s</string>
+    <string name="actorcondition_info_immunity">Kebal terhadap %1$s</string>
     <string name="dialog_permission_information">Andor\'s Trail menulis game yang disimpan ke penyimpanan yang dapat diakses pengguna di perangkat Anda. Ini memungkinkan Anda untuk membuat cadangan game yang disimpan dengan mudah atau mentransfernya ke perangkat baru. Silakan kunjungi forum kami untuk informasi lebih lanjut.
 \n
 \nAndor\'s Trail tidak menggunakan akses ke perangkat Anda untuk tujuan lain apa pun dan tidak mengakses internet. Andor\'s Trail adalah open source; sumbernya dapat ditemukan di github.</string>
     <string name="dialog_permission_information_title">Memuat dan menyimpan game</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nUntuk menyimpan dan memuat permainan Anda (dan hanya untuk tujuan ini) Andor\'s Trail akan meminta Anda izin untuk mengakses penyimpanan Anda."</string>
-    <string name="shop_item_sort">urut</string>
-    <string name="startscreen_mode_1_life">Permadeath (1 nyawa, 1 simpanan)</string>
-    <string name="startscreen_mode_3_lives">Ekstrem (3 nyawa, 1 simpanan)</string>
-    <string name="startscreen_mode_10_lives">Sangat sulit (10 nyawa, 1 Simpanan)</string>
-    <string name="startscreen_mode_50_lives">Sulit (50 nyawa, 1 Simpanan)</string>
-    <string name="startscreen_mode_unlimited_lives">Sedang (Kehidupan tidak terbatas, 1 simpanan)</string>
-    <string name="startscreen_mode_unlimited_saves_and_lives">Standar (Kehidupan dan Simpan game tidak terbatas)</string>
-    <string name="preferences_language_description">Pilih Bahasa. Inggris dipakai jika bahasa perangkat tak tersedia atau isi belum diterjemah. (Perlu restart)</string>
+    <string name="dialog_newversion_permission_information">\n\nUntuk menyimpan dan memuat permainan Anda (dan hanya untuk tujuan ini) Andor\'s Trail akan meminta Anda izin untuk mengakses penyimpanan Anda.</string>
+    <string name="shop_item_sort">Urut</string>
+    <string name="startscreen_mode_1_life">Permadeath (1 nyawa, 1 kali simpan)</string>
+    <string name="startscreen_mode_3_lives">Ekstrem (3 nyawa, 1 kali simpan)</string>
+    <string name="startscreen_mode_10_lives">Sangat sulit (10 nyawa, 1 kali simpan)</string>
+    <string name="startscreen_mode_50_lives">Sulit (50 nyawa, 1 kali simpan)</string>
+    <string name="startscreen_mode_unlimited_lives">Sedang (Nyawa tak terbatas, 1 kali simpan)</string>
+    <string name="startscreen_mode_unlimited_saves_and_lives">Standar (Nyawa dan penyimpanan tidak terbatas)</string>
+    <string name="preferences_language_description">Memilih bahasa. Inggris otoamtis digunakan jika bahasa perangkat tak tersedia atau terdapat konten yang belum diterjemah. (Perlu restart)</string>
     <string name="preferences_language">Bahasa</string>
     <string name="preferences_language_default">Bahasa sesuai perangkat</string>
     <string name="preferences_display_scaling_factor_75_percent">Ukuran 0.75x</string>
     <string name="preferences_display_scaling_factor_50_percent">Setengah ukuran</string>
-    <string name="iteminfo_effect_works_when_killed_by_attacker">Saat dibunuh penyerang</string>
-    <string name="iteminfo_effect_works_when_hit_by_attacker">Saat terpukul penyerang</string>
+    <string name="iteminfo_effect_works_when_killed_by_attacker">Ketika dibunuh</string>
+    <string name="iteminfo_effect_works_when_hit_by_attacker">Ketika diserang</string>
     <string name="iteminfo_effect_works_on_attacker">Pada penyerang</string>
-    <string name="inventory_category_armor">Pelindung</string>
+    <string name="inventory_category_armor">Zirah</string>
     <string name="inventory_category_weapons">Senjata</string>
     <string name="inventory_category_favorites">Favorit</string>
     <string name="inventory_category_all">Semua</string>
     <string name="skill_longdescription_weapon_prof_pole">Untuk setiap level keahlian, meningkatkan peluang menyerang ketika menggunakan senjata tongkat sebanyak %1$d%% dari peluang menyerang dasar senjata, meningkatkan peluang menangkis sebanyak %2$d%% dari peluang menangkis dasar senjata, dan meningkatkan keahlian serangan kritis sebanyak %3$d%% dari keahlian serangan kritis dasar senjata.</string>
     <string name="skill_title_weapon_prof_pole">Kecakapan senjata tongkat</string>
     <string name="skill_shortdescription_weapon_prof_pole">Lebih baik ketika bertarung dengan senjata tongkat</string>
-    <string name="skill_shortdescription_fightstyle_unarmed_unarmored">Lebih baik ketika bertarung tanpa senjata/perlengkapan pelindung</string>
+    <string name="skill_shortdescription_fightstyle_unarmed_unarmored">Meningkatkan kemampuan bertarung tanpa senjata/zirah</string>
     <string name="skill_title_fightstyle_unarmed_unarmored">Gaya bertarung: Aliran bela diri biarawan</string>
     <string name="combat_log_noentries">Belum ada catatan.</string>
     <string name="loadsave_empty_slot">%1$d.&lt;kosong&gt;</string>
-    <string name="iteminfo_effect_set_damage_modifier">Pengubah angka cedera: %1$d%%</string>
+    <string name="iteminfo_effect_set_damage_modifier">Pengubah kerusakan: %1$d%%</string>
     <string name="preferences_high_quality_filters">Matikan ini jika kamu mengalami masalah performa pada peta berfilter (gua gelap misalnya). Menyalakan opsi ini akan membuat permainan menggunakan filter warna canggih alih-alih hamparan warna penuh.</string>
     <string name="preferences_high_quality_filters_title">Filter berkualitas tinggi</string>
     <string name="menu_save_switch_character">Dengan menyimpan kamu bisa mengganti ke karakter lainnya dan nantinya melanjutkan permainan ini. Apakah kamu mau menyimpan dan keluar dari permainan ini\?</string>
     <string name="menu_save_switch_character_title">Ganti karakter</string>
     <string name="inventory_selectitem">Pilih barang untuk ditetapkan</string>
-    <string name="skill_longdescription_fightstyle_unarmed_unarmored">Ketika bertarung tanpa memakai senjata, perisai, dan perlengkapan pelindung apa pun, peluang serangan bertambah %1$d, peluang menangkis %2$d, ketahanan terhadap cedera %3$d, dan menambahkan cedera maksimum sebanyak %4$d untuk setiap level keahlian. Keahlian ini juga memberikan 1x pengalian kritikal, ditambah 0.%5$d untuk setiap level.
-\n
-\nPerlengkapan yang terbuat dari kain tidak termasuk perlengkapan pelindung.</string>
+    <string name="skill_longdescription_fightstyle_unarmed_unarmored">Ketika bertarung tanpa memakai senjata, perisai, dan perlengkapan zirah apa pun, peluang serangan bertambah %1$d, peluang blok %2$d, tahan terhadap serangan %3$d, dan meningkatkan kerusakan maksimum sebanyak %4$d untuk setiap level keahlian. Keahlian ini juga memberikan pengganda kritis 1x, ditambah 0.%5$d untuk setiap level. \n \nPerlengkapan yang terbuat dari kain tidak termasuk sebagai zirah.</string>
     <string name="skill_sort_name">Nama</string>
     <string name="skill_sort_unsorted">Tak terurut</string>
     <string name="skill_category_proficiency">Kecakapan</string>
@@ -606,11 +643,11 @@
     <string name="preferences_movement_dpad_transparency_40_pct">40%</string>
     <string name="preferences_movement_dpad_transparency_30_pct">30%</string>
     <string name="startscreen_migration_title">Migrasi Data</string>
-    <string name="startscreen_migration_text">Migrasi data savegame.</string>
-    <string name="startscreen_migration_failure">Gagal memigrasikan data savegame.</string>
+    <string name="startscreen_migration_text">Memindahkan data penyimpanan.</string>
+    <string name="startscreen_migration_failure">Gagal memindahkan data penyimpanan.</string>
     <string name="loadsave_export_unsuccessfull">Ekspor gagal</string>
-    <string name="loadsave_export_overwrite_confirmation">Folder target berisi file dengan nama yang sama dari beberapa File yang harus diekspor. Anda yakin ingin menimpa file-file itu\?</string>
-    <string name="loadsave_export_overwrite_confirmation_title">Timpa File yang Ada\?</string>
+    <string name="loadsave_export_overwrite_confirmation">Folder target berisi file yang sudah ada dengan nama yang sama dengan beberapa File yang harus diekspor. Apa kau yakin ingin menimpa file tersebut?</string>
+    <string name="loadsave_export_overwrite_confirmation_title">Timpa File yang Sudah Ada?</string>
     <string name="loadsave_export">Ekspor Penyimpanan</string>
     <string name="loadsave_export_info">Pilih direktori untuk mengekspor semua file.</string>
     <string name="loadsave_exporting_savegames">Mengekspor Penyimpanan</string>
@@ -624,7 +661,7 @@
     <string name="loadsave_import_imported_description">Penyimpanan yang diimpor: Slot: %1$s:
 \n\t%2$s</string>
     <string name="loadsave_import_worldmap_wrong_directory">- usang -</string>
-    <string name="loadsave_import_overwrite_confirmation_title">Menimpa Slot yang Sudah Ada\?</string>
+    <string name="loadsave_import_overwrite_confirmation_title">Timpa Slot yang Sudah Ada?</string>
     <string name="loadsave_import_file_exists_question">Sudah ada simpanan game di slot target. Apakah Anda ingin menyimpan penyimpanan yang sudah ada, menimpanya dengan penyimpanan yang diimpor, atau mengimpor penyimpanan ke slot\?
 \n
 \n%1$s
