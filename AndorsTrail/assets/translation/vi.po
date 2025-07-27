@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-20 17:34+0200\n"
-"PO-Revision-Date: 2025-05-14 16:01+0000\n"
-"Last-Translator: Hong Quan <keokiet@yahoo.com>\n"
+"PO-Revision-Date: 2025-07-28 16:06+0000\n"
+"Last-Translator: Reptalica <reptalica20@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/vi/>\n"
 "Language: vi\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -593,7 +593,7 @@ msgstr "Cảm ơn vì ổ bánh mì lúc nãy."
 #: conversationlist_sullengard.json:sullengard_hadena_7:1
 #: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
-msgstr "Không có gì"
+msgstr "Không có gì."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
@@ -1718,7 +1718,7 @@ msgstr "Bằng cái bóng này, Gandir sẽ được báo thù."
 
 #: conversationlist_fallhaven.json:fallhaven_citizen1
 msgid "Hello there. Nice weather ain't it?"
-msgstr "Chào nhé, thời tiết đẹp nhỉ"
+msgstr "Chào nhé. Thời tiết hôm nay đẹp nhỉ?"
 
 #: conversationlist_fallhaven.json:fallhaven_citizen2
 msgid "Hello. Anything you want from me?"
@@ -2318,9 +2318,8 @@ msgid "Move aside, I need to get deeper into the catacombs."
 msgstr "Tránh ra, tôi cần vào sâu hơn trong hầm mộ."
 
 #: conversationlist_fallhaven_church.json:catacombguard:2
-#, fuzzy
 msgid "By the Shadow, you will not stop me."
-msgstr "Bằng cái Bóng, ngươi sẽ không ngăn cản ta."
+msgstr "Bằng sức mạnh của Bóng, ngươi sẽ không thể ngăn cản ta."
 
 #: conversationlist_fallhaven_church.json:catacombguard1
 msgid "Nooo, you shall not pass!"
@@ -2952,7 +2951,7 @@ msgstr "Nhanh lên. Hãy làm cho những vũ khí heartsteel cũ này sáng tr�
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_complete_4
 msgid "[Nocmar places the heartstone among the heartsteel weapons]"
-msgstr "Nocmar đặt viên heartstone vào giữa những vũ khí heartsteel."
+msgstr "[Nocmar đặt viên heartstone vào giữa những vũ khí heartsteel.]"
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_complete_5
 msgid "Can you feel it? The heartsteel is glowing again."
@@ -3230,7 +3229,7 @@ msgstr "Vậy, có lẽ tôi đã sai. Dù sao thì cuốn sách này cũng là 
 #: conversationlist_fallhaven_larcal.json:larcal_3
 msgid "Look, let's solve this peacefully. You walk away and forget about that book, and you might still live."
 msgstr ""
-"Này, chúng ta giải quyết việc này một cách hòa bình đi. Anh cứ đi đi và quên "
+"Này, chúng ta giải quyết việc này một cách hòa bình đi. Anh cứ đi và quên "
 "chuyện cuốn sách đó đi, có lẽ anh vẫn còn sống đấy."
 
 #: conversationlist_fallhaven_larcal.json:larcal_3:0
@@ -3449,8 +3448,8 @@ msgstr "Thì, đột nhiên, một đám côn đồ xông đến và bắt đầ
 #: conversationlist_fallhaven_vacor.json:vacor_9
 msgid "They said they were Messengers of the Shadow, and insisted that I should cease my spell making."
 msgstr ""
-"Họ nói rằng họ là Sứ giả của Bóng tối, và khăng khăng rằng ta nên ngừng việc "
-"thi triển phép thuật."
+"Họ nói rằng họ là Sứ giả của Bóng tối, và bắt chúng ta nên ngừng việc thi "
+"triển phép thuật."
 
 #: conversationlist_fallhaven_vacor.json:vacor_10
 msgid "Preposterous, isn't it? I was so close to having the power!"
@@ -82967,111 +82966,129 @@ msgstr ""
 
 #: questlist_troubling_times.json:troubling_times:193
 msgid "I have got the key."
-msgstr ""
+msgstr "Tôi lấy được chìa khoá rồi."
 
 #: questlist_troubling_times.json:troubling_times:195
 msgid "Seraphina agreed to help me and told me to meet her at the locked door in the cave where Crackshot was defeated."
 msgstr ""
+"Seraphina đã đồng ý giúp tôi và đã hẹn tôi gặp cô ấy ở hàng động nơi mà "
+"Crackshot đã bị tiêu diệt."
 
 #: questlist_troubling_times.json:troubling_times:200
 msgid "I met Seraphina at the cave door where Crackshot was defeated."
-msgstr ""
+msgstr "Tôi gặp Seraphina tại hàng động nơi Crackshot bị đánh bại."
 
 #: questlist_troubling_times.json:troubling_times:210
 msgid "Seraphina could open the door with Luthor's key wearing also his gloves. She entered the cave behind the door."
 msgstr ""
+"‐Seraphina có thể mở cửa bằng chìa khoá của Luthor bằng cách đeo găng tay "
+"của hắn. Cô ấy vào hàng động đằng sau cánh cửa."
 
 #: questlist_troubling_times.json:troubling_times:220
 msgid "I followed her."
-msgstr ""
+msgstr "Tôi theo cô ấy."
 
 #: questlist_troubling_times.json:troubling_times:230
 msgid "Seraphina got injured attacking one of the monsters."
-msgstr ""
+msgstr "Seraphina bị thương trong lúc đánh một còn quái vật."
 
 #: questlist_troubling_times.json:troubling_times:240
 msgid "I have killed the monsters blocking the entrance."
-msgstr ""
+msgstr "Tôi đã giết những con quái vật cản đường."
 
 #: questlist_troubling_times.json:troubling_times:250
 msgid "I healed Seraphina using potions."
-msgstr ""
+msgstr "Tôi trị thương cho Seraphina bằng lọ thuốc."
 
 #: questlist_troubling_times.json:troubling_times:252
 msgid "I tried to poison Seraphina, but she noticed in time. At least she didn't notice that I did it on purpose."
 msgstr ""
+"Tôi đã cố đầu độc Seraphina, nhưng cô ấy đã nhận ra. Ít nhất thì cô ấy cũng "
+"không nhận ra tôi cố ý làm vậy."
 
 #: questlist_troubling_times.json:troubling_times:255
 msgid "Seraphina already started the search for the ring."
-msgstr ""
+msgstr "Seraphina đã bắt đầu tìm kiếm chiếc nhẫn."
 
 #: questlist_troubling_times.json:troubling_times:260
 msgid "I searched the cave for Luthor's ring. I couldn't find it."
 msgstr ""
+"Tôi lục tung hang động để tìm chiếc nhẫn của Luthor. Tôi không tìm thấy nó."
 
 #: questlist_troubling_times.json:troubling_times:270
 msgid "Sly Seraphina had found the ring. She gave it to me and told me to keep it safe. She disappeared again, probably back to Sutdover bridge. I had to go to Talion."
 msgstr ""
+"Seraphina đã tìm thấy chiếc nhẫn. Cô ấy đưa nó cho tôi và dặn tôi giữ gìn "
+"cẩn thận. Cô ấy lại biến mất, có lẽ là quay lại cầu Sutdover. Tôi phải đến "
+"Talion rồi."
 
 #: questlist_troubling_times.json:troubling_times:280
 msgid "I gave 50000 gold, Villain's ring, Troublemaker's ring, ring of backstabbing, Tears of the Shadow potion, and Luthor's ring to Talion."
 msgstr ""
+"Tôi đã đưa 50000 vàng, nhẫn của Villain, nhẫn của Troublemaker, nhẫn đâm sau "
+"lưng, lọ thuốc Nước mắt bóng tối và nhẫn của Luthor cho Talion."
 
 #: questlist_troubling_times.json:troubling_times:290
 msgid "Talion used them to undo the spell."
-msgstr ""
+msgstr "Talion đã dùng chúng để hóa giải phép thuật."
 
 #: questlist_troubling_times.json:troubling_times:300
 msgid "Talion returned Luthor's ring. The other rings were broken in the process though and the Tears of the Shadow potion was used up of course."
 msgstr ""
+"Talion trả lại chiếc nhẫn cho Luthor. Tuy nhiên, những chiếc nhẫn khác đã bị "
+"vỡ trong quá trình này và lọ thuốc Nước Mắt Bóng Tối tất nhiên cũng đã cạn "
+"kiệt."
 
 #: questlist_troubling_times.json:troubling_times:302
 msgid "The room with the dangerous creatures has been locked and sealed again."
-msgstr ""
+msgstr "Căn phòng chứa những sinh vật nguy hiểm đã bị khóa và niêm phong lại."
 
 #: questlist_troubling_times.json:troubling_times:310
 msgid "Nanath gave me 75000 gold as a reward for a job well done."
 msgstr ""
+"Nanath đã tặng tôi 75000 vàng như một phần thưởng vì đã hoàn thành tốt công "
+"việc."
 
 #: questlist_troubling_times.json:troubling_times:320
 msgid "Sly Seraphina was friendly to me - for now."
-msgstr ""
+msgstr "Sly Seraphina vẫn thân thiện với tôi - cho đến bây giờ."
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_bloskelt_area
+#, fuzzy
 msgid "Bloskelt + Roskelt"
-msgstr ""
+msgstr "Bloskelt + Roskelt"
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_entry_area
 msgid "Entry"
-msgstr ""
+msgstr "Lối vào"
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_instrument_maker
 msgid "Instrument maker"
-msgstr ""
+msgstr "Người chế tạo nhạc cụ"
 
 #: worldmap.xml:ratdom_level_5:ratdom_maze_skeleton_dance
 msgid "Skeleton dance"
-msgstr ""
+msgstr "Vũ điệu bộ xương"
 
 #: worldmap.xml:ratdom_level_5:ratdom_maze_museum
 msgid "Museum"
-msgstr ""
+msgstr "Bảo tàng"
 
 #: worldmap.xml:ratdom_level_5:ratdom_maze_labyrinth
 msgid "Labyrinth"
-msgstr ""
+msgstr "Mê cung"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_water_area
 msgid "Waterway"
-msgstr ""
+msgstr "Đường thuỷ"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_pub
 msgid "Pub"
-msgstr ""
+msgstr "Quán rượu"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_library
 msgid "Library"
-msgstr ""
+msgstr "Thư viện"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_4_wells
 msgid "4 wells"
@@ -83127,11 +83144,11 @@ msgstr ""
 
 #: worldmap.xml:world1:guynmart_area
 msgid "Guynmart Castle"
-msgstr ""
+msgstr "Toà thành Guynmart"
 
 #: worldmap.xml:world1:brimhaven_area
 msgid "Brimhaven"
-msgstr ""
+msgstr "Brimhaven"
 
 #: worldmap.xml:world1:sullengard
 msgid "Sullengard"
@@ -83143,8 +83160,8 @@ msgstr ""
 
 #: worldmap.xml:world1:laeroth_area
 msgid "Lake Laeroth"
-msgstr ""
+msgstr "Hồ Laeroth"
 
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
-msgstr ""
+msgstr "Làng Wexlow"
