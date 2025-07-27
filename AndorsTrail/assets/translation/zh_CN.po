@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-07-23 22:53+0000\n"
+"PO-Revision-Date: 2025-07-28 16:06+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -18616,7 +18616,7 @@ msgstr "又见面了。听闻到恩泽尔还活着，你还帮我将信交给了
 
 #: conversationlist_vacor2.json:vacor_msg1
 msgid "What's that in your hands?! ... I recognize that seal!"
-msgstr "你手里拿的是什么东西？！……我认得这个密封处的印戳！"
+msgstr "你手里拿的是什么东西？！……我认得这个火漆印！"
 
 #: conversationlist_vacor2.json:vacor_msg1:0
 msgid "You should recognize it, I found this on one of Unzel's associates in Remgard."
@@ -69467,11 +69467,11 @@ msgstr "奥冈萝的戒指"
 
 #: itemlist_v0611_3.json:kaverin_message
 msgid "Kaverin's sealed message"
-msgstr "卡维林的密封信息"
+msgstr "卡维林的密封信件"
 
 #: itemlist_v0611_3.json:vacor_map
 msgid "Map to Vacor's old hideout"
-msgstr "瓦克旧藏身处的地图"
+msgstr "通往瓦克旧日藏身点的地图"
 
 #: itemlist_v070.json:ltbdy_lthr
 msgid "Sturdy leather cuirass"
@@ -79822,55 +79822,60 @@ msgstr "旧日朋友？"
 
 #: questlist_v0611_3.json:kaverin:10
 msgid "I met Kaverin in Remgard, that apparently is an old acquaintance of Unzel, who lives outside of Fallhaven."
-msgstr "我在瑞姆加德遇到了卡维林，那显然是住在法尔海文外的恩泽尔的一个老熟人。"
+msgstr "我在瑞姆加德遇到了卡维林，他显然是那个待在法尔海文镇外的恩泽尔的老相识。"
 
 #: questlist_v0611_3.json:kaverin:20
 msgid "Kaverin wants me to deliver a message to Unzel."
-msgstr "卡维林希望我向恩泽尔传达一个信息。"
+msgstr "卡维林希望我向恩泽尔转交一封信。"
 
 #: questlist_v0611_3.json:kaverin:21
 msgid "I have declined to help Kaverin."
-msgstr "我拒绝帮助卡维林。"
+msgstr "我拒绝了帮助卡维林。"
 
 #: questlist_v0611_3.json:kaverin:22
 msgid "I have agreed to deliver the message."
-msgstr "我同意传达这一信息。"
+msgstr "我同意了转交这封信。"
 
 #: questlist_v0611_3.json:kaverin:25
 msgid "Kaverin has given me the message that he wants me to deliver to Unzel."
-msgstr "卡维林给了我一个消息，他希望我把这个消息传递给恩泽尔。"
+msgstr "卡维林给了我一封信，他希望我把这封信转交给恩泽尔。"
 
 #: questlist_v0611_3.json:kaverin:30
 msgid "I have delivered the message to Unzel. I should return to Kaverin in Remgard."
-msgstr "我已经把消息传递给了恩泽尔。我应该回访瑞姆加德的卡维林。"
+msgstr "我已经把信转交给了恩泽尔。接下来我应该回访瑞姆加德的卡维林。"
 
 #: questlist_v0611_3.json:kaverin:40
 msgid "Kaverin thanked me for delivering the message to Unzel."
-msgstr "卡维林感谢我向恩泽尔传达了这一信息。"
+msgstr "卡维林感谢我向恩泽尔转交了那封信。"
 
 #: questlist_v0611_3.json:kaverin:45
 msgid "In return, Kaverin gave me an old map that he had acquired. Apparently, it leads to Vacor's old hideout."
-msgstr "作为回报，卡维林给了我一张他获得的旧地图。很明显，这张图是通往瓦科的旧藏身处。"
+msgstr "作为酬谢，卡维林将他所得的一张旧地图赠予了我。显然，此图通往瓦克昔日的一处藏"
+"身点。"
 
 #: questlist_v0611_3.json:kaverin:60
 msgid "Kaverin was furious over the fact that I killed Unzel, and that I helped Vacor. He started attacking me. I should return to Vacor once Kaverin is dead."
-msgstr "卡维林对我杀了恩泽尔，以及我帮助瓦克的事实感到很愤怒。他开始攻击我。一旦卡维林死了，我就应该回到瓦克身边。"
+msgstr "卡维林因为我先前杀了恩泽尔还帮了瓦克一事怒不可遏，直接向我动了手。在卡维林死"
+"后我应该去找一下瓦克。"
 
 #: questlist_v0611_3.json:kaverin:70
 msgid "Kaverin was carrying a sealed message. Vacor immediately recognized the seal, and seemed very interested in it."
-msgstr "卡维林带着一份密封的信息。瓦克立即认出了这枚印章，并似乎对它非常感兴趣。"
+msgstr "卡维林死时身上有一封密封的信件。瓦克一眼就认出了盖在上面的火漆印，并对其表现"
+"出了不小的兴趣。"
 
 #: questlist_v0611_3.json:kaverin:75
 msgid "I have given Vacor the message that Kaverin was carrying. In return, Vacor gave me an old map, leading to his old hideout."
-msgstr "我已经把卡维林携带的信息交给了瓦克。作为回报，瓦克给了我一张旧地图，通向他以前的藏身之处。"
+msgstr "我把卡维林身上的信件交给了瓦克。作为酬谢，瓦克将一张旧地图给了我，此图通往他"
+"昔日的一处藏身点。"
 
 #: questlist_v0611_3.json:kaverin:90
 msgid "I should try to find Vacor's old hideout, on the road to the west of the former prison of Flagstone, southwest of Fallhaven."
-msgstr "我应该试着找到瓦克的旧藏身处，就在法尔海文西南边的旗杆石前监狱西边的路上。"
+msgstr "我应该试着找到瓦克的旧日藏身点，那地方应该就在处于法尔海文西南方的石板监狱通"
+"向西边的路上。"
 
 #: questlist_v0611_3.json:kaverin:100
 msgid "I have found Vacor's old hideout."
-msgstr "我找到了瓦克的旧藏身处。"
+msgstr "我找到了瓦克的旧日藏身点。"
 
 #: questlist_v070_charwood.json:charwood1
 msgid "Destined for great things"
