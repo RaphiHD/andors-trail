@@ -64,6 +64,22 @@ def find_strings_files(res_dir_path, base_filename="strings.xml"):
                     strings_files[lang_code] = full_path
     return strings_files
 
+def find_non_escaped_percent(value):
+    """
+    Finds non-escaped % characters in a string (not part of %% or a valid format specifier).
+    Returns a list of indices where such % occur.
+    """
+    # Find all % positions
+    percent_indices = [m.start() for m in re.finditer(r'%', value)]
+    # Find all valid format specifiers and %% positions
+    valid_specifier_pattern = r'%(?:%|(?:\d+\$)?[sdfeoxXgGaAbhHc])'
+    valid_matches = [m.span() for m in re.finditer(valid_specifier_pattern, value)]
+    # Mark all indices covered by valid specifiers or %%
+    covered_indices = set()
+    for start, end in valid_matches:
+        covered_indices.update(range(start, end))
+    # Only report % indices not covered by valid specifiers or %%
+    return [idx for idx in percent_indices if idx not in covered_indices]
 
 def main():
     parser = argparse.ArgumentParser(
@@ -149,6 +165,16 @@ def main():
 #             print(f"Warning: Key '{args.key_name}' not found in this language file.")
 #             print("-" * 20)
             continue
+
+        # Check for non-escaped % in the current value
+        non_escaped_percent_indices = find_non_escaped_percent(current_value)
+        if non_escaped_percent_indices:
+            issues_found += 1
+            print(f"--- Language: {lang_code} (NON-ESCAPED % FOUND) ---")
+            print(f"File: {file_path}")
+            print(f"Value: \"{current_value}\"")
+            print(f"Non-escaped % at positions: {non_escaped_percent_indices}")
+            print("-" * 20)
 
         if current_specifiers != base_specifiers:
             issues_found += 1
