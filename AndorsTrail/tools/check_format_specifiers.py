@@ -181,13 +181,12 @@ def main():
         keys_to_check = [args.key_name]
 
     total_issues_found = 0
+    file_error_counts = {}
 
     for key_name in keys_to_check:
         base_value, base_specifiers = get_string_value_and_specifiers(base_file_path, key_name)
         if base_specifiers is None:
             continue
-
-        issues_found = 0
 
         for lang_code, file_path in all_strings_files.items():
             if lang_code == args.base_lang:
@@ -197,9 +196,11 @@ def main():
             if current_specifiers is None:
                 continue
 
+            error_count = 0
+
             non_escaped_percent_indices = find_non_escaped_percent(current_value)
             if non_escaped_percent_indices:
-                issues_found += 1
+                error_count += 1
                 print(f"--- Language: {lang_code} (NON-ESCAPED % FOUND) ---")
                 print(f"Key: {key_name}")
                 print(f"File: {file_path}")
@@ -208,7 +209,7 @@ def main():
                 print("-" * 20)
 
             if current_specifiers != base_specifiers:
-                issues_found += 1
+                error_count += 1
                 print(f"--- Language: {lang_code} (ISSUE FOUND) ---")
                 print(f"Key: {key_name}")
                 print(f"File: {file_path}")
@@ -225,9 +226,15 @@ def main():
                     print(f"  EXTRA in '{lang_code}': {sorted(list(extra_in_current))}")
                 print("-" * 20)
 
-        total_issues_found += issues_found
+            if error_count:
+                file_error_counts[file_path] = file_error_counts.get(file_path, 0) + error_count
 
-    if total_issues_found != 0:
+    if file_error_counts:
+        print("\nSummary of errors per file:")
+        for file_path, count in file_error_counts.items():
+            print(f"{file_path}: {count} error(s)")
+
+    if file_error_counts:
         exit(1)
 
 if __name__ == "__main__":
