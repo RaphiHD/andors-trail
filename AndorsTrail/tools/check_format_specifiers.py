@@ -23,7 +23,7 @@ def get_string_value_and_specifiers(filepath, key_name):
                 value = string_tag.text if string_tag.text else ""
                 # Regex to find format specifiers like %s, %d, %1$s, %2$d, etc.
                 # It handles optional positional arguments (e.g., 1$) and type characters.
-                specifiers = set(re.findall(r'%(?:(?:\d+\$)?(?:[sdfeoxXgGaAbhHc]))', value))
+                specifiers = set(re.findall(r'%(?:(?:\d+\$)?(?:[sdfeoxXgGaAbhHc]|(?:\.\d[fd])))', value))
                 return value, specifiers
     except ET.ParseError:
         print(f"Warning: Could not parse XML file: {filepath}")
@@ -72,7 +72,7 @@ def find_non_escaped_percent(value):
     # Find all % positions
     percent_indices = [m.start() for m in re.finditer(r'%', value)]
     # Find all valid format specifiers and %% positions
-    valid_specifier_pattern = r'%(?:%|(?:\d+\$)?[sdfeoxXgGaAbhHc])'
+    valid_specifier_pattern = r'%(?:%|(?:\d+\$)?(?:[sdfeoxXgGaAbhHc]|(?:\.\d[fd])))'
     valid_matches = [m.span() for m in re.finditer(valid_specifier_pattern, value)]
     # Mark all indices covered by valid specifiers or %%
     covered_indices = set()
