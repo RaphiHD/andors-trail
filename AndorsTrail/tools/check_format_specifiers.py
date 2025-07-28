@@ -92,13 +92,35 @@ def get_all_keys(filepath):
     except Exception:
         return []
 
+def find_used_keys_in_java(project_root):
+    """
+    Scans all .java files under project_root for usages of string resource keys.
+    Returns a set of keys found.
+    """
+    key_pattern = re.compile(r'R\.string\.([a-zA-Z0-9_]+)')
+    used_keys = set()
+    for root, _, files in os.walk(project_root):
+        for fname in files:
+            if fname.endswith('.java'):
+                try:
+                    with open(os.path.join(root, fname), encoding='utf-8') as f:
+                        content = f.read()
+                        used_keys.update(key_pattern.findall(content))
+                except Exception:
+                    pass
+    return used_keys
+
 def main():
     parser = argparse.ArgumentParser(
         description="Check format specifier consistency across language files for a given string key."
     )
     parser.add_argument(
         "project_root",
-        help="Path to the Android project's root directory (or a specific module's root, or a 'res' directory)."
+        help="Path to the Android project's root directory (or a specific module's root directory)."
+    )
+    parser.add_argument(
+        "res_root",
+        help="Path to the some 'res' directory."
     )
     parser.add_argument(
         "key_name",
@@ -120,11 +142,12 @@ def main():
     args = parser.parse_args()
 
     print(f"Using base language: '{args.base_lang}' from file '{args.strings_filename}'")
-    print(f"Project root/res path: {args.project_root}\n")
+    print(f"Project root path: {args.project_root}\n")
+    print(f"Project res path: {args.res_root}\n")
 
-    res_directories = find_res_directories(args.project_root)
+    res_directories = find_res_directories(args.res_root)
     if not res_directories:
-        print(f"Error: No 'res' directory found under {args.project_root}")
+        print(f"Error: No 'res' directory found under {args.res_root}")
         return
 
     all_strings_files = {}
@@ -132,7 +155,7 @@ def main():
         all_strings_files.update(find_strings_files(res_dir, args.strings_filename))
 
     if not all_strings_files:
-        print(f"Error: No '{args.strings_filename}' files found in any 'res/values-*' directories under {args.project_root}.")
+        print(f"Error: No '{args.strings_filename}' files found in any 'res/values-*' directories under {args.res_root}.")
         return
 
     base_file_path = all_strings_files.get(args.base_lang)
@@ -146,16 +169,16 @@ def main():
             print(f"Available language files found: {list(all_strings_files.keys())}")
             return
 
-    # If no key_name is provided, check all keys in the base file
+    # If no key_name is provided, check only keys used in .java files
     if args.key_name is None:
-        keys_to_check = get_all_keys(base_file_path)
+        used_keys = find_used_keys_in_java(args.project_root)
+        all_keys = set(get_all_keys(base_file_path))
+        keys_to_check = sorted(list(all_keys & used_keys))
         if not keys_to_check:
-            print(f"Error: No string keys found in base file: {base_file_path}")
+            print('no keys to check')
             return
-        print(f"Checking all {len(keys_to_check)} keys in base file: {base_file_path}\n")
     else:
         keys_to_check = [args.key_name]
-        print(f"Searching for string key: '{args.key_name}'\n")
 
     total_issues_found = 0
 
