@@ -21,6 +21,8 @@ import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager.OnBackStackChangedListener;
 import android.view.KeyEvent;
@@ -112,7 +114,7 @@ public final class StartScreenActivity extends AndorsTrailBaseFragmentActivity i
 	}
 
 	@Override
-	public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, int[] grantResults) {
 		if (grantResults.length > 0 && grantResults[0] != PackageManager.PERMISSION_GRANTED) {
 
 			final CustomDialog d = CustomDialogFactory.createDialog(this,
