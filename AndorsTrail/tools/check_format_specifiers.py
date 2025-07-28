@@ -81,6 +81,17 @@ def find_non_escaped_percent(value):
     # Only report % indices not covered by valid specifiers or %%
     return [idx for idx in percent_indices if idx not in covered_indices]
 
+def get_all_keys(filepath):
+    """
+    Returns a list of all string resource keys in the given XML file.
+    """
+    try:
+        tree = ET.parse(filepath)
+        root = tree.getroot()
+        return [string_tag.get('name') for string_tag in root.findall('string') if string_tag.get('name')]
+    except Exception:
+        return []
+
 def main():
     parser = argparse.ArgumentParser(
         description="Check format specifier consistency across language files for a given string key."
@@ -91,7 +102,9 @@ def main():
     )
     parser.add_argument(
         "key_name",
-        help="The name of the string resource to check (e.g., 'skill_longdescription_evasion')."
+        nargs="?",
+        default=None,
+        help="The name of the string resource to check (e.g., 'skill_longdescription_evasion'). If omitted, checks all keys in the base language file."
     )
     parser.add_argument(
         "--base_lang",
@@ -106,7 +119,6 @@ def main():
 
     args = parser.parse_args()
 
-    print(f"Searching for string key: '{args.key_name}'")
     print(f"Using base language: '{args.base_lang}' from file '{args.strings_filename}'")
     print(f"Project root/res path: {args.project_root}\n")
 
@@ -117,7 +129,6 @@ def main():
 
     all_strings_files = {}
     for res_dir in res_directories:
-        # print(f"Scanning res directory: {res_dir}")
         all_strings_files.update(find_strings_files(res_dir, args.strings_filename))
 
     if not all_strings_files:
@@ -125,85 +136,75 @@ def main():
         return
 
     base_file_path = all_strings_files.get(args.base_lang)
-
     if not base_file_path:
-        # Try to find a default if 'en' or other specific base_lang isn't explicitly there
-        # but a 'values/strings.xml' (mapped to 'default') exists.
         if args.base_lang != "default" and all_strings_files.get("default"):
             print(f"Warning: Base language '{args.base_lang}' not found. Using 'default' (values/{args.strings_filename}) as base.")
             base_file_path = all_strings_files.get("default")
-            args.base_lang = "default" # Update for consistency in messages
+            args.base_lang = "default"
         else:
-            print(f"Error: Base strings file for language '{args.base_lang}' (expected at e.g., values-{args.base_lang}/{args.strings_filename} or values/{args.strings_filename}) not found.")
+            print(f"Error: Base strings file for language '{args.base_lang}' not found.")
             print(f"Available language files found: {list(all_strings_files.keys())}")
             return
 
-    base_value, base_specifiers = get_string_value_and_specifiers(base_file_path, args.key_name)
+    # If no key_name is provided, check all keys in the base file
+    if args.key_name is None:
+        keys_to_check = get_all_keys(base_file_path)
+        if not keys_to_check:
+            print(f"Error: No string keys found in base file: {base_file_path}")
+            return
+        print(f"Checking all {len(keys_to_check)} keys in base file: {base_file_path}\n")
+    else:
+        keys_to_check = [args.key_name]
+        print(f"Searching for string key: '{args.key_name}'\n")
 
-    if base_specifiers is None:
-        print(f"Error: Key '{args.key_name}' not found in the base language file: {base_file_path}")
-        return
+    total_issues_found = 0
 
-    print(f"--- Base ({args.base_lang}) ---")
-    print(f"File: {base_file_path}")
-    print(f"Value: \"{base_value}\"")
-    print(f"Specifiers: {sorted(list(base_specifiers)) if base_specifiers else 'None'}\n")
-
-    issues_found = 0
-
-    for lang_code, file_path in all_strings_files.items():
-        if lang_code == args.base_lang:
-            continue # Skip the base language itself
-
-        current_value, current_specifiers = get_string_value_and_specifiers(file_path, args.key_name)
-
-        if current_specifiers is None:
-            # Only warn if the key is expected to be translated but is missing
-            # (Some keys might not be translated by design, but for specifier check, we assume it should exist if base does)
-#             print(f"--- Language: {lang_code} ---")
-#             print(f"File: {file_path}")
-#             print(f"Warning: Key '{args.key_name}' not found in this language file.")
-#             print("-" * 20)
+    for key_name in keys_to_check:
+        base_value, base_specifiers = get_string_value_and_specifiers(base_file_path, key_name)
+        if base_specifiers is None:
             continue
 
-        # Check for non-escaped % in the current value
-        non_escaped_percent_indices = find_non_escaped_percent(current_value)
-        if non_escaped_percent_indices:
-            issues_found += 1
-            print(f"--- Language: {lang_code} (NON-ESCAPED % FOUND) ---")
-            print(f"File: {file_path}")
-            print(f"Value: \"{current_value}\"")
-            print(f"Non-escaped % at positions: {non_escaped_percent_indices}")
-            print("-" * 20)
+        issues_found = 0
 
-        if current_specifiers != base_specifiers:
-            issues_found += 1
-            print(f"--- Language: {lang_code} (ISSUE FOUND) ---")
-            print(f"File: {file_path}")
-            print(f"Value: \"{current_value}\"")
-            print(f"Specifiers: {sorted(list(current_specifiers)) if current_specifiers else 'None'}")
-            print(f"Expected specifiers (from base): {sorted(list(base_specifiers)) if base_specifiers else 'None'}")
+        for lang_code, file_path in all_strings_files.items():
+            if lang_code == args.base_lang:
+                continue
 
-            missing_in_current = base_specifiers - current_specifiers
-            extra_in_current = current_specifiers - base_specifiers
+            current_value, current_specifiers = get_string_value_and_specifiers(file_path, key_name)
+            if current_specifiers is None:
+                continue
 
-            if missing_in_current:
-                print(f"  MISSING in '{lang_code}': {sorted(list(missing_in_current))}")
-            if extra_in_current:
-                print(f"  EXTRA in '{lang_code}': {sorted(list(extra_in_current))}")
-            print("-" * 20)
-        # Optional: Print info for consistent files too
-        # else:
-        #     print(f"--- Language: {lang_code} (OK) ---")
-        #     print(f"File: {file_path}")
-        #     print(f"Specifiers: {current_specifiers}")
-        #     print("-" * 20)
+            non_escaped_percent_indices = find_non_escaped_percent(current_value)
+            if non_escaped_percent_indices:
+                issues_found += 1
+                print(f"--- Language: {lang_code} (NON-ESCAPED % FOUND) ---")
+                print(f"Key: {key_name}")
+                print(f"File: {file_path}")
+                print(f"Value: \"{current_value}\"")
+                print(f"Non-escaped % at positions: {non_escaped_percent_indices}")
+                print("-" * 20)
 
+            if current_specifiers != base_specifiers:
+                issues_found += 1
+                print(f"--- Language: {lang_code} (ISSUE FOUND) ---")
+                print(f"Key: {key_name}")
+                print(f"File: {file_path}")
+                print(f"Value: \"{current_value}\"")
+                print(f"Specifiers: {sorted(list(current_specifiers)) if current_specifiers else 'None'}")
+                print(f"Expected specifiers (from base): {sorted(list(base_specifiers)) if base_specifiers else 'None'}")
 
-    if issues_found == 0:
-        print(f"\nNo specifier mismatches found for key '{args.key_name}' compared to the base language.")
-    else:
-        print(f"\nFound {issues_found} potential specifier mismatch(es) for key '{args.key_name}'.")
+                missing_in_current = base_specifiers - current_specifiers
+                extra_in_current = current_specifiers - base_specifiers
+
+                if missing_in_current:
+                    print(f"  MISSING in '{lang_code}': {sorted(list(missing_in_current))}")
+                if extra_in_current:
+                    print(f"  EXTRA in '{lang_code}': {sorted(list(extra_in_current))}")
+                print("-" * 20)
+
+        total_issues_found += issues_found
+
+    if total_issues_found != 0:
         exit(1)
 
 if __name__ == "__main__":
