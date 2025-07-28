@@ -15,8 +15,11 @@ import android.app.Application;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.os.Build;
 import android.os.Environment;
 import android.view.Window;
+import android.view.WindowInsets;
+import android.view.WindowInsetsController;
 import android.view.WindowManager;
 
 public final class AndorsTrailApplication extends Application {
@@ -57,10 +60,22 @@ public final class AndorsTrailApplication extends Application {
 
 	public void setWindowParameters(Activity activity) {
 		activity.requestWindowFeature(Window.FEATURE_NO_TITLE);
-		if (preferences.fullscreen) {
-			activity.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+			final WindowInsetsController insetsController = activity.getWindow().getInsetsController();
+			if (insetsController != null) {
+				if (preferences.fullscreen) {
+					insetsController.hide(WindowInsets.Type.statusBars());
+				} else {
+					insetsController.show(WindowInsets.Type.statusBars());
+				}
+			}
 		} else {
-			activity.getWindow().setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+			if (preferences.fullscreen) {
+				activity.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+			} else {
+				activity.getWindow().setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+			}
 		}
 	}
 
