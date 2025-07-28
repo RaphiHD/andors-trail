@@ -204,6 +204,7 @@ def main():
         print(f"\nNo specifier mismatches found for key '{args.key_name}' compared to the base language.")
     else:
         print(f"\nFound {issues_found} potential specifier mismatch(es) for key '{args.key_name}'.")
+        exit(1)
 
 if __name__ == "__main__":
     main()
