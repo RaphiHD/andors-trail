@@ -242,7 +242,7 @@ def main():
 
     if file_error_counts or file_warning_counts:
         print("\nSummary of errors and warnings per file:")
-        for file_path in set(list(file_error_counts.keys()) + list(file_warning_counts.keys())):
+        for file_path in sorted(set(list(file_error_counts.keys()) + list(file_warning_counts.keys()))):
             error_str = f"{file_error_counts.get(file_path, 0)} error(s)"
             warning_str = f"{file_warning_counts.get(file_path, 0)} warning(s)"
             print(f"{file_path}:\t {error_str:>5}, {warning_str:>5}")
