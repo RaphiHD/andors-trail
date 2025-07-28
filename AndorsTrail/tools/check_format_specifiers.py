@@ -182,6 +182,7 @@ def main():
 
     total_issues_found = 0
     file_error_counts = {}
+    file_warning_counts = {}
 
     for key_name in keys_to_check:
         base_value, base_specifiers = get_string_value_and_specifiers(base_file_path, key_name)
@@ -197,6 +198,7 @@ def main():
                 continue
 
             error_count = 0
+            warning_count = 0
 
             non_escaped_percent_indices = find_non_escaped_percent(current_value)
             if non_escaped_percent_indices:
@@ -209,30 +211,41 @@ def main():
                 print("-" * 20)
 
             if current_specifiers != base_specifiers:
-                error_count += 1
-                print(f"--- Language: {lang_code} (ISSUE FOUND) ---")
-                print(f"Key: {key_name}")
-                print(f"File: {file_path}")
-                print(f"Value: \"{current_value}\"")
-                print(f"Specifiers: {sorted(list(current_specifiers)) if current_specifiers else 'None'}")
-                print(f"Expected specifiers (from base): {sorted(list(base_specifiers)) if base_specifiers else 'None'}")
-
                 missing_in_current = base_specifiers - current_specifiers
                 extra_in_current = current_specifiers - base_specifiers
 
-                if missing_in_current:
-                    print(f"  MISSING in '{lang_code}': {sorted(list(missing_in_current))}")
                 if extra_in_current:
+                    error_count += 1
+                    print(f"--- Language: {lang_code} (ISSUE FOUND) ---")
+                    print(f"Key: {key_name}")
+                    print(f"File: {file_path}")
+                    print(f"Value: \"{current_value}\"")
+                    print(f"Specifiers: {sorted(list(current_specifiers)) if current_specifiers else 'None'}")
+                    print(f"Expected specifiers (from base): {sorted(list(base_specifiers)) if base_specifiers else 'None'}")
                     print(f"  EXTRA in '{lang_code}': {sorted(list(extra_in_current))}")
-                print("-" * 20)
+                    print("-" * 20)
+                if missing_in_current:
+                    warning_count += 1
+                    print(f"--- Language: {lang_code} (WARNING: MISSING SPECIFIERS) ---")
+                    print(f"Key: {key_name}")
+                    print(f"File: {file_path}")
+                    print(f"Value: \"{current_value}\"")
+                    print(f"Specifiers: {sorted(list(current_specifiers)) if current_specifiers else 'None'}")
+                    print(f"Expected specifiers (from base): {sorted(list(base_specifiers)) if base_specifiers else 'None'}")
+                    print(f"  MISSING in '{lang_code}': {sorted(list(missing_in_current))}")
+                    print("-" * 20)
 
             if error_count:
                 file_error_counts[file_path] = file_error_counts.get(file_path, 0) + error_count
+            if warning_count:
+                file_warning_counts[file_path] = file_warning_counts.get(file_path, 0) + warning_count
 
-    if file_error_counts:
-        print("\nSummary of errors per file:")
-        for file_path, count in file_error_counts.items():
-            print(f"{file_path}: {count} error(s)")
+    if file_error_counts or file_warning_counts:
+        print("\nSummary of errors and warnings per file:")
+        for file_path in set(list(file_error_counts.keys()) + list(file_warning_counts.keys())):
+            error_str = f"{file_error_counts.get(file_path, 0)} error(s)"
+            warning_str = f"{file_warning_counts.get(file_path, 0)} warning(s)"
+            print(f"{file_path}:\t {error_str:>5}, {warning_str:>5}")
 
     if file_error_counts:
         exit(1)
