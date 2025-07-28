@@ -8,7 +8,6 @@ import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
 import com.gpl.rpg.AndorsTrail.util.AndroidStorage;
-import com.gpl.rpg.AndorsTrail.util.Pair;
 
 import android.app.Activity;
 import android.app.Application;
@@ -17,6 +16,7 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Build;
 import android.os.Environment;
+import android.util.Pair;
 import android.view.Window;
 import android.view.WindowInsets;
 import android.view.WindowInsetsController;
