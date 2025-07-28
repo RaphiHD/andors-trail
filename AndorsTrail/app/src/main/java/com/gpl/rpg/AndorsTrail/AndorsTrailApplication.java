@@ -60,21 +60,25 @@ public final class AndorsTrailApplication extends Application {
 
 	public void setWindowParameters(Activity activity) {
 		activity.requestWindowFeature(Window.FEATURE_NO_TITLE);
+		setFullscreenMode(preferences.fullscreen, activity.getWindow());
+	}
+
+	public static void setFullscreenMode(boolean fullscreen, Window window) {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-			final WindowInsetsController insetsController = activity.getWindow().getInsetsController();
+			final WindowInsetsController insetsController = window.getInsetsController();
 			if (insetsController != null) {
-				if (preferences.fullscreen) {
+				if (fullscreen) {
 					insetsController.hide(WindowInsets.Type.statusBars());
 				} else {
 					insetsController.show(WindowInsets.Type.statusBars());
 				}
 			}
 		} else {
-			if (preferences.fullscreen) {
-				activity.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+			if (fullscreen) {
+				window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 			} else {
-				activity.getWindow().setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+				window.setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 			}
 		}
 	}
