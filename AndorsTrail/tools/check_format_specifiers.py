@@ -247,6 +247,10 @@ def main():
             warning_str = f"{file_warning_counts.get(file_path, 0)} warning(s)"
             print(f"{file_path}:\t {error_str:>5}, {warning_str:>5}")
 
+        total_errors = sum(file_error_counts.values())
+        total_warnings = sum(file_warning_counts.values())
+        print(f"\nTOTAL: {total_errors} error(s), {total_warnings} warning(s)")
+
     if file_error_counts:
         exit(1)
 
