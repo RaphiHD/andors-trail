@@ -46,7 +46,7 @@ public final class ItemInfoActivity extends AndorsTrailBaseActivity {
 		boolean buttonEnabled = params.getBoolean("buttonEnabled");
 		boolean moreButtonEnabled = params.getBoolean("moreActions");
 
-		setContentView(R.layout.iteminfo);
+		app.setView(this, R.layout.iteminfo);
 
 		TextView tv = (TextView) findViewById(R.id.iteminfo_title);
 		tv.setText(itemType.getName(world.model.player));

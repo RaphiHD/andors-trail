@@ -91,9 +91,9 @@ public final class MainActivity
 		AndorsTrailPreferences preferences = app.getPreferences();
 		this.world = app.getWorld();
 		this.controllers = app.getControllerContext();
-		app.setWindowParameters(this);
 
-		setContentView(R.layout.main);
+		app.setView(this, R.layout.main);
+
 		mainview = (MainView) findViewById(R.id.main_mainview);
 		statusview = (StatusView) findViewById(R.id.main_statusview);
 		combatview = (CombatView) findViewById(R.id.main_combatview);

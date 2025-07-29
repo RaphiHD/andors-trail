@@ -24,9 +24,7 @@ public final class AboutActivity extends AndorsTrailBaseActivity implements Imag
 		super.onCreate(savedInstanceState);
 
 		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(this);
-		app.setWindowParameters(this);
-
-		setContentView(R.layout.about);
+		app.setView(this, R.layout.about);
 		final Resources res = getResources();
 
 		final TextView tv = (TextView) findViewById(R.id.about_contents);

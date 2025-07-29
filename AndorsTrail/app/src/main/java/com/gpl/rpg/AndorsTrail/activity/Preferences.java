@@ -16,7 +16,7 @@ public final class Preferences extends PreferenceActivity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		super.onCreate(savedInstanceState);
 		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(this);
-		AndorsTrailApplication.setFullscreenMode(app.getPreferences().fullscreen, getWindow());
+		app.setFullscreenMode(this);
 
 
 		app.setLocale(this);

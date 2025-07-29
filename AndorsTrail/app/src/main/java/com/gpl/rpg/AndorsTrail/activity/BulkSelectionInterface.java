@@ -91,6 +91,7 @@ public final class BulkSelectionInterface extends AndorsTrailBaseActivity implem
 		int intialSelection = 1;
 
 		setContentView(R.layout.bulkselection);
+		app.setFullscreenMode(this);
 
 		// initialize UI variables
 		TextView bulkselection_action_type = (TextView)findViewById(R.id.bulkselection_action_type);

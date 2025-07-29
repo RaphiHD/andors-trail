@@ -71,6 +71,7 @@ public final class LoadSaveActivity extends AndorsTrailBaseActivity implements O
         isLoading = (loadsave.equalsIgnoreCase("load"));
 
         setContentView(R.layout.loadsave);
+        app.setFullscreenMode(this);
 
         TextView tv = (TextView) findViewById(R.id.loadsave_title);
         if (isLoading) {

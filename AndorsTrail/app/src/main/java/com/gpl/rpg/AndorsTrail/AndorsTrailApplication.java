@@ -22,6 +22,8 @@ import android.view.WindowInsets;
 import android.view.WindowInsetsController;
 import android.view.WindowManager;
 
+import androidx.annotation.LayoutRes;
+
 public final class AndorsTrailApplication extends Application {
 
 	public static final boolean DEVELOPMENT_DEBUGRESOURCES = false;
@@ -58,28 +60,35 @@ public final class AndorsTrailApplication extends Application {
 
 	public boolean isInitialized() { return world.model != null; }
 
+	public void setView(Activity activity,  @LayoutRes int about) {
+		setWindowParameters(activity);
+		activity.setContentView(about);
+		setFullscreenMode(activity);
+	}
 	public void setWindowParameters(Activity activity) {
 		activity.requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setFullscreenMode(preferences.fullscreen, activity.getWindow());
 	}
 
+	public void setFullscreenMode(Activity activity) {
+		setFullscreenMode(preferences.fullscreen, activity.getWindow());
+	}
 	public static void setFullscreenMode(boolean fullscreen, Window window) {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
 			final WindowInsetsController insetsController = window.getInsetsController();
 			if (insetsController != null) {
+//				insetsController.show(WindowInsets.Type.displayCutout());
 				if (fullscreen) {
-					insetsController.hide(WindowInsets.Type.statusBars());
+					insetsController.hide(WindowInsets.Type.systemBars());
 				} else {
-					insetsController.show(WindowInsets.Type.statusBars());
+					insetsController.show(WindowInsets.Type.systemBars());
 				}
 			}
-		} else {
-			if (fullscreen) {
-				window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		}
+		if (fullscreen) {
+			window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-			} else {
-				window.setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-			}
+		} else {
+			window.setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		}
 	}
 

@@ -29,10 +29,7 @@ public final class HeroinfoActivity extends AndorsTrailBaseFragmentActivity {
 		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(this);
 		if (!app.isInitialized()) { finish(); return; }
 		this.world = app.getWorld();
-
-		app.setWindowParameters(this);
-
-		setContentView(R.layout.tabbedlayout);
+		app.setView(this, R.layout.tabbedlayout);
 
 		Resources res = getResources();
 
