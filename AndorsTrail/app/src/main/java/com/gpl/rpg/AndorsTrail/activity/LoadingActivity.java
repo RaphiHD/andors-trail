@@ -36,7 +36,7 @@ public final class LoadingActivity extends AndorsTrailBaseActivity implements On
 		setTheme(ThemeHelper.getBaseTheme());
 		super.onCreate(savedInstanceState);
 		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(this);
-		app.setView(this, R.layout.startscreen);
+		initializeView(this, R.layout.startscreen, R.id.startscreen_fragment_container);
 
 		TextView tv = (TextView) findViewById(R.id.startscreen_version);
 		tv.setVisibility(View.GONE);

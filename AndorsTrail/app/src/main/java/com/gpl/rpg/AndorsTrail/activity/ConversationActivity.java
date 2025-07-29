@@ -75,7 +75,7 @@ public final class ConversationActivity
 
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 
-		setContentView(R.layout.conversation);
+		initializeView(this, R.layout.conversation, R.id.conversation_root);
 
         setFinishOnTouchOutside(false);
 

@@ -52,11 +52,10 @@ public final class StartScreenActivity extends AndorsTrailBaseFragmentActivity i
 		TileManager tileManager = app.getWorld().tileManager;
 		tileManager.setDensity(res);
 
-		app.setView(this, R.layout.startscreen);
+		initializeView(this, R.layout.startscreen, R.id.startscreen_fragment_container);
+		app.setFullscreenMode(this);
 
-		View startscreen_fragment_container = findViewById(R.id.startscreen_fragment_container);
-		if (startscreen_fragment_container != null) {
-			app.setUsablePadding(startscreen_fragment_container);
+		if (findViewById(R.id.startscreen_fragment_container) != null) {
 			StartScreenActivity_MainMenu mainMenu = new StartScreenActivity_MainMenu();
 			
 			getSupportFragmentManager().beginTransaction()

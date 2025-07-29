@@ -92,7 +92,7 @@ public final class MainActivity
 		this.world = app.getWorld();
 		this.controllers = app.getControllerContext();
 
-		app.setView(this, R.layout.main);
+		initializeView(this, R.layout.main, R.id.main_container);
 
 		mainview = (MainView) findViewById(R.id.main_mainview);
 		statusview = (StatusView) findViewById(R.id.main_statusview);

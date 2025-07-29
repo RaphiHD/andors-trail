@@ -62,11 +62,6 @@ public final class AndorsTrailApplication extends Application {
 
 	public boolean isInitialized() { return world.model != null; }
 
-	public void setView(Activity activity,  @LayoutRes int about) {
-		setWindowParameters(activity);
-		activity.setContentView(about);
-		setFullscreenMode(activity);
-	}
 	public void setWindowParameters(Activity activity) {
 		activity.requestWindowFeature(Window.FEATURE_NO_TITLE);
 	}

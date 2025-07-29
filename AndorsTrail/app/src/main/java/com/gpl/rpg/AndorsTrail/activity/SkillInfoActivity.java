@@ -31,7 +31,7 @@ public final class SkillInfoActivity extends AndorsTrailBaseActivity {
 		final WorldContext world = app.getWorld();
 		final Player player = world.model.player;
 
-		app.setView(this, R.layout.skill_info_view);
+		initializeView(this, R.layout.skill_info_view, R.id.skillinfo_root);
 
 		final Resources res = getResources();
 		final Intent intent = getIntent();

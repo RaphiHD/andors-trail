@@ -24,7 +24,7 @@ public final class ShopActivity extends AndorsTrailBaseFragmentActivity {
 		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(this);
 		if (!app.isInitialized()) { finish(); return; }
 
-		app.setView(this, R.layout.tabbedlayout);
+		initializeView(this, R.layout.tabbedlayout, android.R.id.tabhost);
 
 		final Resources res = getResources();
 
