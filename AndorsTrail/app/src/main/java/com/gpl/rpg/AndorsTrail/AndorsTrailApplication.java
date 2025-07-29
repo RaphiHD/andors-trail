@@ -14,9 +14,11 @@ import android.app.Application;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.graphics.Insets;
 import android.os.Build;
 import android.os.Environment;
 import android.util.Pair;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowInsets;
 import android.view.WindowInsetsController;
@@ -76,7 +78,7 @@ public final class AndorsTrailApplication extends Application {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
 			final WindowInsetsController insetsController = window.getInsetsController();
 			if (insetsController != null) {
-//				insetsController.show(WindowInsets.Type.displayCutout());
+				insetsController.show(WindowInsets.Type.displayCutout());
 				if (fullscreen) {
 					insetsController.hide(WindowInsets.Type.systemBars());
 				} else {
@@ -90,6 +92,16 @@ public final class AndorsTrailApplication extends Application {
 		} else {
 			window.setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		}
+	}
+	public int getUsableTouchAreaInsetMask(){
+		int i = 0;
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+			i |= WindowInsets.Type.displayCutout();
+			if (!preferences.fullscreen) {
+				i |= WindowInsets.Type.systemBars();
+			}
+        }
+		return i;
 	}
 
 	//Get default locale at startup, as somehow it seems that changing the app's 
@@ -193,5 +205,16 @@ public final class AndorsTrailApplication extends Application {
 		world = new WorldContext();
 		controllers = new ControllerContext(this, world);
 		setup = new WorldSetup(world, controllers, getApplicationContext());
+	}
+
+	public void setUsablePadding(View root) {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+			root.setOnApplyWindowInsetsListener((v, insets) -> {
+				Insets bars = insets.getInsets(getUsableTouchAreaInsetMask());
+				v.setPadding(bars.left, bars.top, bars.right, bars.bottom);
+				return WindowInsets.CONSUMED;
+			});
+		}
+
 	}
 }
