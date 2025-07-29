@@ -24,7 +24,6 @@ import android.view.WindowInsets;
 import android.view.WindowInsetsController;
 import android.view.WindowManager;
 
-import androidx.annotation.LayoutRes;
 
 public final class AndorsTrailApplication extends Application {
 
@@ -71,8 +70,10 @@ public final class AndorsTrailApplication extends Application {
 	}
 	public static void setFullscreenMode(boolean fullscreen, Window window) {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+
 			final WindowInsetsController insetsController = window.getInsetsController();
 			if (insetsController != null) {
+				insetsController.setSystemBarsBehavior(WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE);
 				insetsController.show(WindowInsets.Type.displayCutout());
 				if (fullscreen) {
 					insetsController.hide(WindowInsets.Type.systemBars());
@@ -80,12 +81,13 @@ public final class AndorsTrailApplication extends Application {
 					insetsController.show(WindowInsets.Type.systemBars());
 				}
 			}
-		}
-		if (fullscreen) {
-			window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
 		} else {
-			window.setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+			if (fullscreen) {
+				window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+			} else {
+				window.setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+			}
 		}
 	}
 	public int getUsableTouchAreaInsetMask(){
