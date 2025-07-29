@@ -100,6 +100,10 @@ public final class StartScreenActivity extends AndorsTrailBaseFragmentActivity i
 				}
 			});
 		}
+		View titleLogo = findViewById(R.id.title_logo);
+		if (titleLogo != null) {
+			app.setUsablePadding(titleLogo);
+		}
 		
 		if (development_version.getVisibility() == View.VISIBLE) {
 			development_version.setText(development_version.getText()
