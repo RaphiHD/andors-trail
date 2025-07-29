@@ -40,8 +40,6 @@ public class StartScreenActivity_NewGame extends Fragment {
 		}
 		
 		View root = inflater.inflate(R.layout.startscreen_newgame, container, false);
-		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(getActivity());
-		app.setUsablePadding(root);
 
 		startscreen_enterheroname = (TextView) root.findViewById(R.id.startscreen_enterheroname);
 

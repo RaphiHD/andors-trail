@@ -54,7 +54,9 @@ public final class StartScreenActivity extends AndorsTrailBaseFragmentActivity i
 
 		app.setView(this, R.layout.startscreen);
 
-		if (findViewById(R.id.startscreen_fragment_container) != null) {
+		View startscreen_fragment_container = findViewById(R.id.startscreen_fragment_container);
+		if (startscreen_fragment_container != null) {
+			app.setUsablePadding(startscreen_fragment_container);
 			StartScreenActivity_MainMenu mainMenu = new StartScreenActivity_MainMenu();
 			
 			getSupportFragmentManager().beginTransaction()
@@ -68,9 +70,11 @@ public final class StartScreenActivity extends AndorsTrailBaseFragmentActivity i
 		
 		
 		tv = (TextView) findViewById(R.id.startscreen_version);
+		app.setUsablePadding(tv);
 		tv.setText('v' + AndorsTrailApplication.CURRENT_VERSION_DISPLAY);
 		
 		development_version = (TextView) findViewById(R.id.startscreen_dev_version);
+		app.setUsablePadding((View) development_version.getParent());
 		if (AndorsTrailApplication.DEVELOPMENT_INCOMPATIBLE_SAVEGAMES) {
 			development_version.setText(R.string.startscreen_incompatible_savegames);
 			development_version.setVisibility(View.VISIBLE);

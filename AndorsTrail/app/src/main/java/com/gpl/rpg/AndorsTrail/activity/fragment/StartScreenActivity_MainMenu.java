@@ -64,8 +64,6 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		}
 		
 		View root = inflater.inflate(R.layout.startscreen_mainmenu, container, false);
-		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(getActivity());
-		app.setUsablePadding(root);
 
 		save_preview_holder = (ViewGroup) root.findViewById(R.id.save_preview_holder);
 		save_preview_hero_icon = (ImageView) root.findViewById(R.id.save_preview_hero_icon);
