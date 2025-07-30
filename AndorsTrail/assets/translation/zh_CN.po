@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-07-28 16:06+0000\n"
+"PO-Revision-Date: 2025-07-31 12:02+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -68189,7 +68189,7 @@ msgstr "锁子甲"
 
 #: itemcategories_1.json:spmail
 msgid "Splint mail"
-msgstr "条板甲"
+msgstr "板条甲"
 
 #: itemcategories_1.json:plmail
 msgid "Plate mail"
@@ -68761,11 +68761,11 @@ msgstr "坚固木塔盾"
 
 #: itemlist_v068.json:club_wood1
 msgid "Heavy iron club"
-msgstr "重铁棒"
+msgstr "沉重铁棒"
 
 #: itemlist_v068.json:club_wood2
 msgid "Balanced heavy iron club"
-msgstr "匀质重铁棒"
+msgstr "匀质沉重铁棒"
 
 #: itemlist_v068.json:gloves_grip
 msgid "Gloves of better grip"
@@ -68913,7 +68913,7 @@ msgstr "生锈铁剑"
 
 #: itemlist_v069_2.json:broken_buckler
 msgid "Broken wooden buckler"
-msgstr "破损木质圆盾"
+msgstr "毁损木质圆盾"
 
 #: itemlist_v069_2.json:used_gloves
 msgid "Blood-stained gloves"
@@ -69475,31 +69475,31 @@ msgstr "通往瓦克旧日藏身点的地图"
 
 #: itemlist_v070.json:ltbdy_lthr
 msgid "Sturdy leather cuirass"
-msgstr "坚固的皮革胸甲"
+msgstr "坚实皮胸甲"
 
 #: itemlist_v070.json:ltbdy_chmail
 msgid "Lightweight chainmail"
-msgstr "轻巧的链甲"
+msgstr "轻质锁子甲"
 
 #: itemlist_v070.json:ltbdy_spmail
 msgid "Lightweight splint mail"
-msgstr "轻质夹板甲"
+msgstr "轻质板条甲"
 
 #: itemlist_v070.json:haub_serp
 msgid "Serpent's hauberk"
-msgstr "蛇的锁子甲"
+msgstr "猛蛇链甲长衫"
 
 #: itemlist_v070.json:chmail2
 msgid "Worn chainmail"
-msgstr "破损的锁子甲"
+msgstr "破损锁子甲"
 
 #: itemlist_v070.json:hvbdy_rust
 msgid "Rusty heavy cuirass"
-msgstr "生锈的重胸甲"
+msgstr "生锈生锈胸甲"
 
 #: itemlist_v070.json:spmail2
 msgid "Worn splint mail"
-msgstr "破损的板甲"
+msgstr "破损板条甲"
 
 #: itemlist_v070.json:shdstlk
 msgid "Shadowstalker"
@@ -69507,23 +69507,23 @@ msgstr "暗影追猎甲"
 
 #: itemlist_v070.json:hvhead_irn
 msgid "Heavy iron skullcap"
-msgstr "重铁帽"
+msgstr "沉重铁圆帽"
 
 #: itemlist_v070.json:hvhead_stl
 msgid "Heavy steel skullcap"
-msgstr "重钢帽"
+msgstr "沉重钢圆帽"
 
 #: itemlist_v070.json:hglv_plat1
 msgid "Worn plated gloves"
-msgstr "破旧的板手套"
+msgstr "破旧板甲手套"
 
 #: itemlist_v070.json:hglv_irn
 msgid "Heavy iron gloves"
-msgstr "重铁手套"
+msgstr "沉重铁手套"
 
 #: itemlist_v070.json:hglv_chml
 msgid "Chainmail mittens"
-msgstr "锁子甲手套"
+msgstr "锁子甲连指手套"
 
 #: itemlist_v070.json:hglv_stl
 msgid "Reinforced steel gloves"
@@ -69531,27 +69531,27 @@ msgstr "强化钢手套"
 
 #: itemlist_v070.json:hglv_plat2
 msgid "Heavy plated gloves"
-msgstr "沉重的板手套"
+msgstr "沉重板甲手套"
 
 #: itemlist_v070.json:hboot_wirn
 msgid "Worn iron boots"
-msgstr "破旧的铁靴子"
+msgstr "破损铁靴"
 
 #: itemlist_v070.json:hboot_irn
 msgid "Heavy iron boots"
-msgstr "重铁靴"
+msgstr "沉重铁靴"
 
 #: itemlist_v070.json:hboot_plat
 msgid "Heavy plated boots"
-msgstr "重板靴"
+msgstr "沉重板甲靴子"
 
 #: itemlist_v070.json:clmr_dl
 msgid "Dull two-handed sword"
-msgstr "钝的双手剑"
+msgstr "钝滞双手剑"
 
 #: itemlist_v070.json:clmr_rst
 msgid "Rusty claymore"
-msgstr "生锈的大剑"
+msgstr "生锈大剑"
 
 #: itemlist_v070.json:clmr_irn1
 msgid "Two-handed iron sword"
@@ -69567,11 +69567,11 @@ msgstr "双手铁大剑"
 
 #: itemlist_v070.json:clmr_bers
 msgid "Claymore of the berserker"
-msgstr "狂暴者大剑"
+msgstr "狂暴大剑"
 
 #: itemlist_v070.json:clmr_msv
 msgid "Massive two-handed sword"
-msgstr "大型双手剑"
+msgstr "厚实双手剑"
 
 #: itemlist_v070.json:clmr_def1
 msgid "Defender's claymore"
@@ -69583,23 +69583,23 @@ msgstr "上好防御大剑"
 
 #: itemlist_v070.json:clmr_gnt
 msgid "Giant's claymore"
-msgstr "巨人的大剑"
+msgstr "巨人大剑"
 
 #: itemlist_v070.json:clmr_serp
 msgid "Serpent's fang"
-msgstr "毒蛇之牙"
+msgstr "猛蛇之牙"
 
 #: itemlist_v070.json:clmr_wrld
 msgid "Claymore of the warlord"
-msgstr "军阀的大剑"
+msgstr "战神大剑"
 
 #: itemlist_v070.json:clmr_ruin
 msgid "Gleaming claymore of ruin"
-msgstr "闪耀毁灭大剑"
+msgstr "闪耀灭毁大剑"
 
 #: itemlist_v070.json:clmr_wrmas
 msgid "Wraith's massive claymore"
-msgstr "幽灵的巨型大剑"
+msgstr "幽冥厚实大剑"
 
 #: itemlist_v070.json:xulviir
 msgid "Xul'viir"
@@ -69627,7 +69627,7 @@ msgstr "奥尔温的诅咒"
 
 #: itemlist_v070.json:daggr_bloodlet
 msgid "Bloodletter"
-msgstr "放血者"
+msgstr "放血之刃"
 
 #: itemlist_v070.json:daggr_curv
 msgid "Curved dagger"
@@ -69659,7 +69659,7 @@ msgstr "黑巨斧"
 
 #: itemlist_v070.json:graxe_massive
 msgid "Massive greataxe"
-msgstr "巨大的巨斧"
+msgstr "厚实巨斧"
 
 #: itemlist_v070.json:hatchet_sharp
 msgid "Sharpened hatchet"
@@ -69855,7 +69855,7 @@ msgstr "图库尊的骨头"
 
 #: itemlist_v070_questitems.json:xulviir0
 msgid "Broken sword"
-msgstr "破损的剑"
+msgstr "断剑"
 
 #: itemlist_v070_questitems.json:lodar_letter
 msgid "Lodar's letter"
@@ -70213,7 +70213,7 @@ msgstr "山羊皮帽"
 
 #: itemlist_stoutford_combined.json:tunic_chainmail
 msgid "Chainmail tunic"
-msgstr "链甲长袍"
+msgstr "锁子甲束腰长袍"
 
 #: itemlist_stoutford_combined.json:cuirass_steel
 msgid "Steel cuirass"
