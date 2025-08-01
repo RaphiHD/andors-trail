@@ -152,7 +152,52 @@
 			http://www.gnu.org/licenses/old-licenses/gpl-2.0-translations.html
 	-->
     <string name="about_contents3">Este programa é software livre; você pode redistribuí-lo e / ou modificá-lo sob os termos da Licença Pública Geral GNU, conforme publicada pela Free Software Foundation; ou a versão 2 da Licença, ou (a seu critério) qualquer versão posterior.&lt;br /&gt; &lt;br /&gt; Este programa é distribuído na esperança de que seja útil, mas SEM QUALQUER GARANTIA; sem mesmo a garantia implícita de COMERCIALIZAÇÃO ou ADEQUAÇÃO A UM DETERMINADO FIM. Veja a Licença Pública Geral GNU para mais detalhes.&lt;br /&gt; Você deve ter recebido uma cópia da Licença Pública Geral GNU junto com este programa; se não, veja&lt;br /&gt; &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Para pedidos de código-fonte e recursos, visite a página do projeto em &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
-    <string name="about_interface">&lt;div&gt;&lt;b&gt;Configurações do Jogo&lt;/b&gt; podem ser encontradas pressionando o botão Menu do seu dispositivo.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Ícones da Interface&lt;/h1&gt; &lt;div&gt;&lt;b&gt;Baú&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Botões rápidos [Pressione e segure os itens dentro da bolsa para atribuir uso imediato]&lt;/p&gt; &lt;div&gt;&lt;b&gt;O Herói&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menu [Visão Geral, Desafios, Habilidades &amp;amp; Inventário *]&lt;/p&gt; &lt;p&gt;* (No inventário, pressione um item para informações e pressione e segure para mais opções)&lt;/p&gt; &lt;div&gt;&lt;b&gt;O Inimigo&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Informação [Aparece durante combate]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combate&lt;/h1&gt; &lt;p&gt;Ações durante batalha custam pontos de ação(AP)...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Ataque&lt;/b&gt; - [3AP] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (Equipar itens e usar itens pode altere o custo de uso dos pontos de ação (AP)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Usando itens&lt;/b&gt; - [5AP]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Fuga&lt;/b&gt; - [6AP]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combate avançado&lt;/h1&gt; &lt;div&gt;Durante o Combate, pressione e segure um bloco adjacente ao Herói...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Para Fugir&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(o bloco escolhido é destacado - o botão de ataque muda para Mover)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[modo de fuga ativado - pressione e segure o inimigo para voltar a entrar combate]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Para mudar alvos&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(O destaque do alvo vermelho muda entre os inimigos)&lt;/p&gt; &lt;p&gt;[o alvo foi alterado]&lt;/p&gt;</string>
+    <string name="about_interface"><![CDATA[ 
+ 
+<div><b>Configurações do Jogo</b> podem ser encontradas pressionando o botão Menu do seu dispositivo.</div> 
+ 
+<p>________________</p> 
+<h1>Ícones da Interface</h1> 
+ 
+<div><b>Baú</b> <img alt=chest src=chest.png /></div> 
+<p>Botões rápidos [Pressione e segure os itens dentro da bolsa para atribuir uso imediato]</p> 
+ 
+<div><b>O Herói</b><img alt=hero src=char_hero.png /></div> 
+<p>Menu [Visão Geral, Desafios, Habilidades &amp; Inventário *]</p> 
+<p>* (No inventário, pressione um item para informações e pressione e segure para mais opções)</p> 
+ 
+<div><b>O Inimigo</b><img alt=monster src=monster.png /></div> 
+<p>Informação [Aparece durante combate]</p> 
+ 
+ 
+ 
+<p>________________</p> 
+<h1>Combate</h1> 
+ 
+<p>Ações durante batalha custam pontos de ação(AP)...</p> 
+ 
+<div><b>Ataque</b> - [3AP] *</div> 
+<img alt=attacking src=doubleattackexample.png /> 
+<p>* (Equipar itens e usar itens pode altere o custo de uso dos pontos de ação (AP)</p> 
+ 
+<div><b>Usando itens</b> - [5AP]</div> 
+<div><b>Fuga</b> - [6AP]</div> 
+ 
+ 
+ 
+<p>________________</p> 
+<h1>Combate avançado</h1> 
+ 
+<div>Durante o Combate, pressione e segure um bloco adjacente ao Herói...</div> 
+<div><b>Para Fugir</b></div> 
+<p>(o bloco escolhido é destacado - o botão de ataque muda para Mover)</p> 
+<img alt=flee src=flee_example.png /> 
+<p>[modo de fuga ativado - pressione e segure o inimigo para voltar a entrar combate]</p> 
+ 
+<div><b>Para mudar alvos</b></div> 
+<p>(O destaque do alvo vermelho muda entre os inimigos)</p> 
+<p>[o alvo foi alterado]</p> 
+]]></string>
     <string name="dialog_newversion_title">Bem-Vindo</string>
     <string name="dialog_newversion_message">Muito obrigado por baixar Trilha de Andor!
 \n
@@ -451,7 +496,7 @@
     <string name="skill_longdescription_armor_prof_shield">Aumente a resistência a danos em %1$d por nível de habilidade enquanto tiver um escudo ou armas de segunda mão equipados.</string>
     <string name="skill_longdescription_armor_prof_unarmored">Enquanto estiver lutando sem ter qualquer armadura equipada, ganhe %1$d de chance de bloqueio por nível de habilidade. Itens feitos de pano não são considerados como sendo armaduras.</string>
     <string name="skill_longdescription_armor_prof_light">Para cada nível de habilidade, aumenta a chance de bloqueio de cada peça de blindagem leve sendo usada por %1$d %% de suas chances de bloqueio originais. As armaduras leves incluem couro, metal leve e gibões.</string>
-    <string name="skill_longdescription_armor_prof_heavy">Para cada nível de habilidade, aumenta a chance de bloqueio de cada peça de armadura pesada usada em %1$d %% de suas chances de bloqueio originais. Peças de armadura pesada têm suas penalidades de movimento reduzidas em %2$d%% por nível de habilidade e suas penalidades de velocidade de ataque reduzidas em %3$d%% por nível de habilidade. Armaduras pesadas incluem armaduras de metal, cota de malha e cota de chapa.</string>
+    <string name="skill_longdescription_armor_prof_heavy">Para cada nível de habilidade, aumenta a chance de bloqueio de cada peça de armadura pesada usada em %1$d %% de suas chances de bloqueio originais. Peças de armadura pesada têm suas penalidades de movimento reduzidas em %2$d%% por nível de habilidade, suas penalidades de velocidade de ataque reduzidas em %3$d%% por nível de habilidade, e suas penalidades de custo de uso de itens reduzidas em %4$d%% por nível de habilidade. Armaduras pesadas incluem armaduras de metal, cota de malha e cota de chapa.</string>
     <string name="preferences_quickslots_placement">Posição do acesso rápido</string>
     <string name="preferences_quickslots_placement_summary">Onde colocar o acesso rápido</string>
     <string name="preferences_quickslots_placements_horizontal_center_bottom">Centro inferior</string>
