@@ -24,6 +24,8 @@ import android.view.WindowInsets;
 import android.view.WindowInsetsController;
 import android.view.WindowManager;
 
+import androidx.annotation.RequiresApi;
+
 
 public final class AndorsTrailApplication extends Application {
 
@@ -74,11 +76,11 @@ public final class AndorsTrailApplication extends Application {
 			final WindowInsetsController insetsController = window.getInsetsController();
 			if (insetsController != null) {
 				insetsController.setSystemBarsBehavior(WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE);
-				insetsController.show(WindowInsets.Type.displayCutout());
+				int insetType = WindowInsets.Type.statusBars();
 				if (fullscreen) {
-					insetsController.hide(WindowInsets.Type.systemBars());
+					insetsController.hide(insetType);
 				} else {
-					insetsController.show(WindowInsets.Type.systemBars());
+					insetsController.show(insetType);
 				}
 			}
 		} else {
@@ -90,14 +92,15 @@ public final class AndorsTrailApplication extends Application {
 			}
 		}
 	}
+
+	@RequiresApi(Build.VERSION_CODES.R)
 	public int getUsableTouchAreaInsetMask(){
 		int i = 0;
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-			i |= WindowInsets.Type.displayCutout();
-			if (!preferences.fullscreen) {
-				i |= WindowInsets.Type.systemBars();
-			}
-        }
+		i |= WindowInsets.Type.displayCutout();
+		i |= WindowInsets.Type.navigationBars();
+		if (!preferences.fullscreen) {
+			i |= WindowInsets.Type.statusBars();
+		}
 		return i;
 	}
 
@@ -208,10 +211,13 @@ public final class AndorsTrailApplication extends Application {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
 			root.setOnApplyWindowInsetsListener((v, insets) -> {
 				Insets bars = insets.getInsets(getUsableTouchAreaInsetMask());
-				v.setPadding(bars.left, bars.top, bars.right, bars.bottom);
+				int left = Math.max(bars.left, v.getPaddingLeft());
+				int top = Math.max(bars.top, v.getPaddingTop());
+				int right = Math.max(bars.right, v.getPaddingRight());
+				int bottom = Math.max(bars.bottom, v.getPaddingBottom());
+				v.setPadding(left, top, right, bottom);
 				return WindowInsets.CONSUMED;
 			});
 		}
-
 	}
 }
