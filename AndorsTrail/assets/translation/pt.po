@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-08-02 19:02+0000\n"
-"Last-Translator: Erick Ferraz Vieira <efverick@gmail.com>\n"
+"PO-Revision-Date: 2025-08-08 22:02+0000\n"
+"Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
 "Language: pt\n"
@@ -70544,7 +70544,7 @@ msgstr ""
 
 #: itemlist_brimhaven_2.json:kids_shirt
 msgid "Kid's shirt"
-msgstr ""
+msgstr "Camisa de criança"
 
 #: itemlist_brimhaven_2.json:kids_shirt:description
 #: itemlist_brimhaven_2.json:kids_gloves:description
@@ -70552,83 +70552,85 @@ msgstr ""
 #: itemlist_brimhaven_2.json:kids_boots:description
 #: itemlist_ratdom.json:kids_ring:description
 msgid "Part of Andor's training equipment."
-msgstr ""
+msgstr "Parte do equipamento de treino do Andor."
 
 #: itemlist_brimhaven_2.json:kids_gloves
 msgid "Kid's gloves"
-msgstr ""
+msgstr "Luvas de criança"
 
 #: itemlist_brimhaven_2.json:kids_shield
 msgid "Kid's shield"
-msgstr ""
+msgstr "Escudo de criança"
 
 #: itemlist_brimhaven_2.json:inspiring_snake_master_map
 msgid "Ewmondold's map"
-msgstr ""
+msgstr "Mapa de Ewmondold"
 
 #: itemlist_brimhaven_2.json:inspiring_snake_master_map:description
 msgid "Written in a language you do not understand, this appears to be a map.  But to where? You do not know."
 msgstr ""
+"Escrito numa língua que não entendes, isto parece ser um mapa... Mas para "
+"onde? Não sabes."
 
 #: itemlist_brimhaven_2.json:spear_iron
 msgid "Iron spear"
-msgstr ""
+msgstr "Lança de ferro"
 
 #: itemlist_brimhaven_2.json:spear_steel
 msgid "Steel spear"
-msgstr ""
+msgstr "Lança de aço"
 
 #: itemlist_brimhaven_2.json:halberd_iron
 msgid "Iron halberd"
-msgstr ""
+msgstr "Alabarda de ferro"
 
 #: itemlist_brimhaven_2.json:brandistock
 msgid "Brandistock"
-msgstr ""
+msgstr "Brandistock"
 
 #: itemlist_brimhaven_2.json:fauchard_steel
 msgid "Steel fauchard"
-msgstr ""
+msgstr "Foice de aço"
 
 #: itemlist_brimhaven_2.json:glaive_steel
 msgid "Steel glaive"
-msgstr ""
+msgstr "Gládio de aço"
 
 #: itemlist_brimhaven_2.json:spear_steel_remgard
 msgid "Remgard steel spear"
-msgstr ""
+msgstr "Lança de aço de Remgard"
 
 #: itemlist_brimhaven_2.json:kids_boots
 msgid "Kid's boots"
-msgstr ""
+msgstr "Botas de criança"
 
 #: itemlist_brimhaven_2.json:large_bottle
 msgid "Large empty bottle"
-msgstr ""
+msgstr "Garrafa grande vazia"
 
 #: itemlist_brimhaven_2.json:trapped_mouse
 msgid "Trapped mouse"
-msgstr ""
+msgstr "Rato preso"
 
 #: itemlist_brimhaven_2.json:spear_rusty
 msgid "Rusty iron spear"
-msgstr ""
+msgstr "Lança de ferro enferrujado"
 
 #: itemlist_brimhaven_2b.json:bwm_bones
 msgid "Huge bones from the Blackwater Mountains"
-msgstr ""
+msgstr "Osso gigantes das Montanhas de Blackwater"
 
 #: itemlist_brimhaven_2b.json:bwm_bones:description
 msgid "Good that this creature is dead now and not attacking you."
-msgstr ""
+msgstr "Ainda bem que esta criatura morreu e não te está a atacar."
 
 #: itemlist_brimhaven_2b.json:hettar_bone
 msgid "Wyrm meat"
-msgstr ""
+msgstr "Carne de dragão"
 
 #: itemlist_brimhaven_2b.json:hettar_bone:description
 msgid "Norry's food."
-msgstr ""
+msgstr "Comida de Norry."
 
 #: itemlist_fungi_panic.json:bogsten_key
 msgid "Bogsten's key"
@@ -72715,6 +72717,7 @@ msgid "Blond citizen"
 msgstr "Cidadão louro"
 
 #: monsterlist_fallhaven_npcs.json:bucus
+#, fuzzy
 msgid "Bucus"
 msgstr "Bucus"
 
@@ -72744,6 +72747,7 @@ msgid "Arcir"
 msgstr "Arcir"
 
 #: monsterlist_fallhaven_npcs.json:athamyr
+#, fuzzy
 msgid "Athamyr"
 msgstr "Athamyr"
 
@@ -75902,42 +75906,42 @@ msgstr "Golin"
 
 #: monsterlist_brimhaven_2.json:brv_guard_deputy
 msgid "Ito"
-msgstr ""
+msgstr "Ito"
 
 #: monsterlist_brimhaven_2.json:inspiring_snake_master
 #: monsterlist_brimhaven_2.json:ewmondold_snake_master
 msgid "Ewmondold"
-msgstr ""
+msgstr "Ewmondold"
 
 #: monsterlist_brimhaven_2.json:brv_undertaker
 msgid "Zorvan"
-msgstr ""
+msgstr "Zorvan"
 
 #: monsterlist_brimhaven_2.json:hunchback
 msgid "Quasi"
-msgstr ""
+msgstr "Quasi"
 
 #: monsterlist_brimhaven_2.json:brv_churchman
 msgid "Seviron"
-msgstr ""
+msgstr "Seviron"
 
 #: monsterlist_brimhaven_2.json:brv_churchcat
 msgid "Cat"
-msgstr ""
+msgstr "Gato"
 
 #: monsterlist_brimhaven_2.json:brv_churchmouse
 msgid "Mouse"
-msgstr ""
+msgstr "Rato"
 
 #: monsterlist_brimhaven_2b.json:hettar
 msgid "Little Hettar"
-msgstr ""
+msgstr "Pequeno Hettar"
 
 #: monsterlist_brimhaven_2b.json:hettar_dog
 #: monsterlist_brimhaven_2b.json:hettar_dog2
 #: monsterlist_brimhaven_2b.json:hettar_dog3
 msgid "Wolfhound"
-msgstr ""
+msgstr "Galgo"
 
 #: monsterlist_fungi_panic.json:bogsten
 msgid "Bogsten"
@@ -76040,7 +76044,7 @@ msgstr ""
 
 #: monsterlist_gison.json:gison
 msgid "Gison"
-msgstr ""
+msgstr "Gison"
 
 #: monsterlist_gison.json:nimael
 msgid "Nimael"
@@ -77596,24 +77600,35 @@ msgstr "Descobri Oromir em Crossglen, escondido da esposa Leta."
 #: questlist.json:leta:25
 msgid "I have found Oromir in Crossglen village, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts."
 msgstr ""
+"Encontrei Oromir na aldeia de Crossglen, escondendo-se da sua mulher Leta, "
+"mas prometi-lhe que não lhe diria onde estava."
 
 #: questlist.json:leta:30
 #: questlist.json:leta:50
 #: questlist.json:leta:70
 msgid "Leta asked me to tell Oromir to come home and help her with the housework."
 msgstr ""
+"Leta pediu-me para dizer ao Oromir para voltar a casa e ajudá-la com as "
+"tarefas de casa."
 
 #: questlist.json:leta:35
 msgid "I have found Oromir behind the Crossglen village inn, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts."
 msgstr ""
+"Encontrei o Primor atrás da estalagem de Crossglen, escondido da sua mulher "
+"Leta, mas prometi-lhe que não contaria à Leta onde ele estava."
 
 #: questlist.json:leta:40
 msgid "I have found Oromir behind the Crossglen village inn, hiding from his wife Leta, but I should tell Leta of his whereabouts."
 msgstr ""
+"Encontrei o Oromir atrás da estalagem de Crossglen, escondendo-se da sua "
+"mulher Leta, mas deveria contar à Leta onde ele anda."
 
 #: questlist.json:leta:45
 msgid "I have found Oromir in Crossglen village behind a haystack, hiding from his wife Leta, but I promised him that I would not tell Leta of his whereabouts."
 msgstr ""
+"Encontrei o Oromir na aldeia de Crossglen, atrás de um monte de feno, "
+"escondido da sua mulher Leta, mas prometi-lhe que não ia contar à Leta onde "
+"ele anda."
 
 #: questlist.json:leta:60
 msgid "I have found Oromir in Crossglen village behind a haystack, hiding from his wife Leta, I should tell Leta of his whereabouts."
@@ -81412,6 +81427,8 @@ msgstr ""
 #: questlist_brimhaven_2b.json:hettar_dog:20
 msgid "Hettar's little dog Norry has run away. He was very anxious to find him. I promised to get Norry back."
 msgstr ""
+"Sorry, o pequeno cão de Hettar, fugiu. Ele está muito ansioso por 9 "
+"encontrar. Prometi-lhe trazer o Norry de volta."
 
 #: questlist_brimhaven_2b.json:hettar_dog:30
 msgid "Hettar has given me a piece of Norry's favorite food."
