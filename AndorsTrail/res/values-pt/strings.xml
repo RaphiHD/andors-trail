@@ -654,4 +654,6 @@
     <string name="monsterinfo_killcount">Mortes anteriores</string>
     <string name="loadsave_export_info">Por favor selecione a pasta para exportar todos os ficheiros.</string>
     <string name="loadsave_exporting_savegames">A exportar jogos gravadosos</string>
+    <string name="loadsave_import_existing_description">Jogo guardado existente: posição: %1$s:\n\t%2$s</string>
+    <string name="loadsave_import_imported_description">Jogo importado guardado: posição: %1$s:\n\t%2$s</string>
 </resources>
