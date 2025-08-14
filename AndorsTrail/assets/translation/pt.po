@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-08-14 18:02+0000\n"
+"PO-Revision-Date: 2025-08-15 21:02+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -56457,8 +56457,9 @@ msgstr "Omm."
 
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_20
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_20:2
+#, fuzzy
 msgid "Ommmmm..."
-msgstr ""
+msgstr "Ommmmm..."
 
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_20:0
 msgid "I am $playername. Who are you?"
@@ -75882,8 +75883,9 @@ msgid "Tamarukh"
 msgstr "Tamarukh"
 
 #: monsterlist_brimhaven.json:remgard_prison_thief
+#, fuzzy
 msgid "Tember"
-msgstr ""
+msgstr "Tember"
 
 #: monsterlist_brimhaven2.json:brv_pupil1
 #: monsterlist_brimhaven2.json:brv_pupil2
@@ -76740,8 +76742,9 @@ msgid "Snappy cave lizard"
 msgstr "Lagarto da caverna enérgico"
 
 #: monsterlist_ratdom.json:ratdom_m8a
+#, fuzzy
 msgid "Elvedridge"
-msgstr ""
+msgstr "Elvedridge"
 
 #: monsterlist_ratdom.json:ratdom_m8b
 msgid "Dangerous elvedridge"
@@ -76796,12 +76799,14 @@ msgid "Curious roundling"
 msgstr ""
 
 #: monsterlist_ratdom.json:ratdom_bone_collector
+#, fuzzy
 msgid "Loirash"
-msgstr ""
+msgstr "Loirash"
 
 #: monsterlist_ratdom.json:ratdom_fraedro
+#, fuzzy
 msgid "Fraedro"
-msgstr ""
+msgstr "Fraedro"
 
 #: monsterlist_ratdom.json:ratdom_ghost
 #: monsterlist_ratdom.json:ratdom_ghost1
@@ -76822,8 +76827,9 @@ msgid "King Rah"
 msgstr ""
 
 #: monsterlist_ratdom.json:ratdom_kriih
+#, fuzzy
 msgid "Kriih"
-msgstr ""
+msgstr "Kriih"
 
 #: monsterlist_ratdom.json:ratdom_librarian
 msgid "Librarian"
@@ -76851,18 +76857,21 @@ msgid "Slime"
 msgstr "Gosma"
 
 #: monsterlist_ratdom.json:ratdom_mikhail
+#, fuzzy
 msgid "Gruiik"
-msgstr ""
+msgstr "Gruiik"
 
 #: monsterlist_ratdom.json:ratdom_rat
 #: monsterlist_ratdom.json:ratdom_rat_bwm1
 #: monsterlist_ratdom.json:ratdom_rat_crossglen
+#, fuzzy
 msgid "Clevred"
-msgstr ""
+msgstr "Clevred"
 
 #: monsterlist_ratdom.json:ratdom_rat_pub_owner
+#, fuzzy
 msgid "Horfael"
-msgstr ""
+msgstr "Horfael"
 
 #: monsterlist_ratdom.json:ratdom_rat_statue
 msgid "Andor's statue"
@@ -76904,12 +76913,14 @@ msgid "Skeleton mage"
 msgstr ""
 
 #: monsterlist_ratdom.json:ratdom_skeleton_boss1
+#, fuzzy
 msgid "Roskelt"
-msgstr ""
+msgstr "Roskelt"
 
 #: monsterlist_ratdom.json:ratdom_skeleton_boss2
+#, fuzzy
 msgid "Bloskelt"
-msgstr ""
+msgstr "Bloskelt"
 
 #: monsterlist_ratdom.json:ratdom_troll_1
 msgid "Young ogre"
@@ -76941,7 +76952,7 @@ msgstr ""
 
 #: monsterlist_ratdom.json:ratdom_uglybrute
 msgid "Ogre"
-msgstr ""
+msgstr "Ogre"
 
 #: monsterlist_ratdom.json:ratdom_well_wise0
 #: monsterlist_ratdom.json:ratdom_well_wise1
@@ -83701,7 +83712,7 @@ msgstr "Corrente de água"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_pub
 msgid "Pub"
-msgstr ""
+msgstr "Bar"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_library
 msgid "Library"
