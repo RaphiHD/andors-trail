@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-07-18 20:03+0000\n"
+"PO-Revision-Date: 2025-08-18 17:01+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -801,8 +801,8 @@ msgid ""
 "\n"
 "Hey kid, wanna join us in our drinking game?"
 msgstr ""
-"Pij, pij, pij, jeszcze więcej pij.\n"
-"Pij, pij, pij, póki nie padniesz na ryj.\n"
+"Pij miód, pij, dzbanami go pij.\n"
+"Pij miód, pij, póki nie padniesz na ryj.\n"
 "\n"
 "Hej mały, chcesz przyłączyć się do naszej pijackiej gry?"
 
@@ -915,7 +915,7 @@ msgstr "Cóż, skoro tego chcesz. Ale mam dla Ciebie nową i zdecydowanie twards
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
-msgstr "Och ... [gul gul gul]"
+msgstr "Och ... [gul... gul... gul...]"
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
@@ -5911,6 +5911,9 @@ msgstr "Niech Cień będzie z Tobą, mój chłopcze."
 #: conversationlist_thoronir_faction_check.json:thoronir_start:4
 msgid "I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable."
 msgstr ""
+"Potrzebuję pomocy w ustaleniu tego, kto jest odpowiedzialny za rzucenie "
+"zaklęcia Cienia, które to sprawia, że dana osoba staje się powszechnie "
+"rozpoznawalna."
 
 #: conversationlist_jolnor.json:jolnor_chapel_1
 msgid "This is Vilegard's place of worship for the Shadow. We praise the Shadow in all its might and glory."
@@ -13228,27 +13231,33 @@ msgstr ""
 
 #: conversationlist_talion.json:talion_0:5
 msgid "Here I've brought you the things that you require for the dispelling."
-msgstr ""
+msgstr "Oto przedmioty, których potrzebujesz do rozproszenia zaklęcia."
 
 #: conversationlist_talion.json:talion_0:6
 msgid "Do you know the whereabouts of Sly Seraphina?"
-msgstr ""
+msgstr "Czy wiesz może gdzie obecnie przebywa Chytra Seraphina?"
 
 #: conversationlist_talion.json:talion_0:7
 msgid "I've brought you the things you had required for dispelling."
 msgstr ""
+"Przyniosłem Ci przedmioty, których potrzebujesz do rozproszenia zaklęcia."
 
 #: conversationlist_talion.json:talion_0:8
 msgid "Haven't you forgotten something?"
-msgstr ""
+msgstr "O niczym nie zapomniałeś?"
 
 #: conversationlist_talion.json:talion_1
 msgid "The people of Loneford are very keen on following the will of Feygard, whatever it may be."
-msgstr "Mieszkańcy Loneford bardzo gorliwie spełniają wolę Feygardu, niezależnie czego dotyczy."
+msgstr ""
+"Mieszkańcy Loneford bardzo gorliwie wypełniają rozkazy Feygard, niezależnie "
+"od tego, czego one dotyczą."
 
 #: conversationlist_talion.json:talion_2
 msgid "Normally, this would not be a problem. But Lord Geomyr seems to have something against the Shadow. He will do almost anything to oppose all actions that in some way extend the reach of the Shadow."
-msgstr "W zasadzie to nie byłby problem. Ale wygląda na to, że Lord Geomyr jest przeciwny Cieniowi. Robi niemal wszystko, aby zniweczyć wszelkie działania, które w jakiś sposób rozszerzają zasięg Cienia."
+msgstr ""
+"W sumie to nawet nie byłby jakiś duży problem. Ale tak się składa, że Lord "
+"Geomyr jest przeciwny Cieniowi. Robi wszystko co może, aby przeciwdziałać "
+"wszelkim działaniom, które w jakiś sposób rozszerzają jego zasięg."
 
 #: conversationlist_talion.json:talion_3
 msgid "Because of this, the people of Loneford are now actively abolishing the thought of the Shadow guiding them through their lives."
@@ -20643,7 +20652,7 @@ msgstr "Powinieneś zobaczyć się z kowalem w Vile... haven? Vile... fall? Argh
 #: conversationlist_troubling_times.json:fanamor_tt_30:0
 #: conversationlist_troubling_times.json:fanamor_tt_30:1
 msgid "Vilegard?"
-msgstr "Vilegard?"
+msgstr "A może Vilegard?"
 
 #: conversationlist_lodar.json:lodar_xul3
 msgid "Vilegard - yes, that's the place. You should go see the smith there. He might be able to guide you further."
@@ -24125,7 +24134,7 @@ msgstr "Tylko ostrzegam. Rób co chcesz."
 
 #: conversationlist_stoutford.json:stoutford_thief_initial_0
 msgid "Psst."
-msgstr "Psst."
+msgstr "Psss."
 
 #: conversationlist_stoutford.json:stoutford_cellar_locked_key
 msgid "An unknown force prevents you from going further."
@@ -28131,7 +28140,7 @@ msgstr "Z przyjemnością. Wejdź do środka i rozsiądź się na wygodnie na po
 
 #: conversationlist_guynmart2_npc.json:guynmart_dog10_10
 msgid "Grrrrrr"
-msgstr "Grrrrrr"
+msgstr "Grrrrr"
 
 #: conversationlist_guynmart2_npc.json:guynmart_cguard_10
 msgid "Hello stranger. Who are you and where are you going?"
@@ -29445,7 +29454,7 @@ msgstr "Damerilie. Dawno już ich nie widziałem. Spróbuj u Caedy, kiedyś dawa
 
 #: conversationlist_stoutford_combined.json:remgard_farmer2_roots10_0:1
 msgid "Caeda?"
-msgstr "Caeda?"
+msgstr "U Caedy?"
 
 #: conversationlist_stoutford_combined.json:remgard_farmer2_roots10_1
 msgid "I don't know where she might be at the moment. And I have work to do now, so excuse me."
@@ -31111,7 +31120,7 @@ msgstr "Psst. Mam coś dla Ciebie."
 
 #: conversationlist_stoutford_combined.json:berbane_200:1
 msgid "Lalala lala lala"
-msgstr "Lalala lala lala"
+msgstr "La lala lala lala"
 
 #: conversationlist_stoutford_combined.json:berbane_200_1
 msgid "Why are you disturbing my song?"
@@ -36647,7 +36656,7 @@ msgstr "Wrzucasz 3 głazy do wody, tuż przed tamą."
 
 #: conversationlist_brimhaven.json:brv_employer_put_boulder_3:0
 msgid "Uff."
-msgstr "Uff."
+msgstr "Ufff."
 
 #: conversationlist_brimhaven.json:brv_employer_put_boulder_4
 msgid "You throw 4 boulders into the water, just in front of the dam."
@@ -38628,7 +38637,7 @@ msgstr "Zrozumiałem. Dziękuję za informacje. Czym handlujesz?"
 
 #: conversationlist_brimhaven.json:brv_eagle
 msgid "Rrrrrraaaaaaa"
-msgstr "Rrrrrraaaaaaa"
+msgstr "Rrrrraaaaaaa"
 
 #: conversationlist_brimhaven.json:brv_fortune_stop_talking_eagle
 msgid "Stop annoying my pet!"
@@ -39224,7 +39233,7 @@ msgstr "Ludzie przestali sobie ufać i nie minęło zbyt wiele czasu gdy sięgni
 
 #: conversationlist_brimhaven2.json:brv_school_history_50_1
 msgid "Psst..."
-msgstr "Psst..."
+msgstr "Psss..."
 
 #: conversationlist_brimhaven2.json:brv_school_history_50_1:1
 msgid "[whispering] What's up?"
@@ -40177,11 +40186,11 @@ msgstr "Zaśpiewamy ją razem?"
 
 #: conversationlist_brimhaven2.json:guard_advent_10
 msgid "Mahna."
-msgstr "Mahna."
+msgstr "Mahna..."
 
 #: conversationlist_brimhaven2.json:guard_advent_10:0
 msgid "Mahna mahna?"
-msgstr "Mahna mahna?"
+msgstr "Mahna, mahna?"
 
 #: conversationlist_brimhaven2.json:guard_advent_12
 #: conversationlist_brimhaven2.json:guard_advent_30
