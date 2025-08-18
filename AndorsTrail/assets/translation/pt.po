@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-08-18 17:02+0000\n"
+"PO-Revision-Date: 2025-08-19 19:02+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -46445,7 +46445,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:prim_tavern_guest4_16:1
 msgid "The streams?"
-msgstr ""
+msgstr "Os riachos?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_16:2
 msgid "OK, I'll be back with the water."
@@ -46516,7 +46516,7 @@ msgstr ""
 #: conversationlist_omi2.json:prim_tavern_guest4_18c:0
 #: conversationlist_omi2.json:ortholion_guard9_10b:0
 msgid "Hmpf, OK."
-msgstr ""
+msgstr "Bah, OK."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18c:1
 msgid "I'll bring more water, don't worry."
@@ -47254,8 +47254,9 @@ msgid ""
 msgstr ""
 
 #: conversationlist_omi2.json:prim_guard7_sleeping
+#, fuzzy
 msgid "Zzz... Zzz..."
-msgstr ""
+msgstr "Zzz... Zzz..."
 
 #: conversationlist_omi2.json:capvjern_1
 msgid ""
@@ -47438,8 +47439,9 @@ msgid "You hear steps up in the mountain. It seems a Feygard soldier is guarding
 msgstr ""
 
 #: conversationlist_omi2.json:ortholion_subdued_1
+#, fuzzy
 msgid "Hmmm... Hmmm...."
-msgstr ""
+msgstr "Hmmm... Hmmm...."
 
 #: conversationlist_omi2.json:ortholion_subdued_1:0
 msgid "Hey! I need to talk with the general, now!"
@@ -48811,7 +48813,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ortholion_11:1
 msgid "OK, sir."
-msgstr ""
+msgstr "OK, senhor."
 
 #: conversationlist_omi2.json:ortholion_11:2
 msgid "Are you sure you don't need an escort?"
@@ -49308,7 +49310,7 @@ msgstr ""
 
 #: conversationlist_delivery.json:brv_wh_delivery_mikhail4:1
 msgid "Hmm... Bye"
-msgstr ""
+msgstr "Hmm... Adeus"
 
 #: conversationlist_delivery.json:brv_wh_delivery_brv_fortune
 msgid ""
@@ -49343,7 +49345,7 @@ msgstr ""
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_no:1
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_yes_1:1
 msgid "Yes boss."
-msgstr ""
+msgstr "Sim, chefe."
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_yes
 msgid "That's nice to hear. Then you can now give me the... eh...330 gold pieces that you should have received from the sales."
@@ -49372,7 +49374,7 @@ msgstr ""
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_yes_10:0
 msgid "And seriously."
-msgstr ""
+msgstr "E seriamente."
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_yes_10:1
 msgid "I travelled far and wide."
@@ -49384,7 +49386,7 @@ msgstr ""
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_reward:1
 msgid "What the?"
-msgstr ""
+msgstr "O que?"
 
 #: conversationlist_delivery.json:brv_wh_delivery_boss_scrooge
 msgid "Pardon?"
@@ -49580,7 +49582,7 @@ msgstr "[Dá palmadas na barriga de Ollie]"
 
 #: conversationlist_sullengard.json:sullengard_ollie_giggle
 msgid "[Giggles cutely]"
-msgstr ""
+msgstr "[dá risadinhas amorosas]"
 
 #: conversationlist_sullengard.json:sullengard_mayor_1
 msgid "Welcome to Sullengard, kid. Happy 20th beer celebration!"
@@ -49850,7 +49852,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_0
 msgid "Hey there."
-msgstr ""
+msgstr "Olá aí."
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_0:0
 msgid "You look worried."
@@ -50103,7 +50105,7 @@ msgstr ""
 #: conversationlist_bwmfill.json:tunlon_andor_5:0
 #: conversationlist_troubling_times.json:tt_sly_76:0
 msgid "And then?"
-msgstr ""
+msgstr "E depois?"
 
 #: conversationlist_sullengard.json:sullengard_nanette_1:2
 msgid "Well I used to enjoy playing hide-and-seek with my brother but not anymore. Bye."
@@ -50179,7 +50181,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_nanette_9:1
 msgid "Not yet"
-msgstr ""
+msgstr "Ainda não"
 
 #: conversationlist_sullengard.json:sullengard_nanette_9:2
 msgid "Yes. He told me to tell you a story."
@@ -50211,7 +50213,7 @@ msgstr "Prometo."
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_pc_asks_to_pick_apples
 msgid "Absolutly not."
-msgstr ""
+msgstr "Absolutamente, não."
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_pc_asks_to_pick_apples:0
 msgid "Sorry for asking."
@@ -50260,7 +50262,7 @@ msgstr ""
 #: conversationlist_feygard_1.json:gamjee_well_osric_1:0
 #: conversationlist_feygard_1.json:village_godwin_lost_ring_5:0
 msgid "Sounds good."
-msgstr ""
+msgstr "Soa bem."
 
 #: conversationlist_sullengard.json:script_sullengard_woods14_10
 msgid "Pick the poisonous mushroom?"
@@ -50446,7 +50448,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sull_ravine_grazia_10:0
 msgid "Do what?!"
-msgstr ""
+msgstr "Fazer o quê?!"
 
 #: conversationlist_sullengard.json:sull_ravine_grazia_10:1
 msgid "Who is Hadena?"
@@ -50860,7 +50862,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_110:0
 msgid "How much?!"
-msgstr ""
+msgstr "Quanto?!"
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_120
 msgid "10000 gold! And not a piece less or no stolen property for you."
@@ -50868,7 +50870,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_120:0
 msgid "No way."
-msgstr ""
+msgstr "Nem pensar."
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_120:1
 msgid "Whatever. I can spare it."
@@ -51237,7 +51239,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:crossglen_valentina_10:0
 msgid "OK mother."
-msgstr ""
+msgstr "OK mãe."
 
 #: conversationlist_sullengard.json:crossglen_valentina_andor_20
 msgid "I see my child. I can also see that your confidence and skills have grown tremendously, but tell me, with all this adventuring, have you been to Brightport yet?"
@@ -51430,7 +51432,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:ff_captain_beer_100:0
 msgid "Why me?"
-msgstr ""
+msgstr "Porquê eu?"
 
 #: conversationlist_sullengard.json:ff_captain_beer_110
 msgid "Well, because I am a Feygard captain and as such, the tavern keep will never give me information."
@@ -51624,7 +51626,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:torilo_beer_10
 msgid "Wondering what?"
-msgstr ""
+msgstr "Pergunta-se o quê?"
 
 #: conversationlist_sullengard.json:torilo_beer_10:0
 msgid "Why you have so much beer for such a small-sized tavern and where you got it? I would like some to bring home to father."
@@ -51773,7 +51775,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:tharwyn_beer_60:0
 msgid "The thief?"
-msgstr ""
+msgstr "O ladrão?"
 
 #: conversationlist_sullengard.json:tharwyn_beer_70
 msgid "That is Dunla. He gets me my beer. Go talk to him."
@@ -51845,7 +51847,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:farrik_beer:0
 msgid "By Feygard?"
-msgstr ""
+msgstr "Por Feygard?"
 
 #: conversationlist_sullengard.json:farrik_beer:1
 msgid "What is the name of this town?"
@@ -52489,7 +52491,7 @@ msgstr "Xiu!"
 #: conversationlist_mt_galmore.json:blue_cat_blue:0
 #: conversationlist_laeroth.json:gylew_attack
 msgid "What? Why?"
-msgstr ""
+msgstr "O quê? Porquê?"
 
 #: conversationlist_haunted_forest.json:gabriel_shh:1
 #: conversationlist_haunted_forest.json:gabriel_daw_10:0
@@ -52510,7 +52512,7 @@ msgstr ""
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10_rec
 msgid "Speak, child."
-msgstr ""
+msgstr "Fala, criança."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20
 msgid "What do you hear?"
@@ -52526,7 +52528,7 @@ msgstr ""
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20_lie
 msgid "You lie!"
-msgstr ""
+msgstr "Mentes!"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_20_birds
 msgid "No! Not that."
@@ -52586,7 +52588,7 @@ msgstr ""
 
 #: conversationlist_haunted_forest.json:gabriel_daw_70:1
 msgid "Oh, absolutely."
-msgstr ""
+msgstr "Ó, absolutamente."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_80
 msgid "OK. I fear that whatever it is, it is coming for this church and the village."
@@ -52852,7 +52854,7 @@ msgstr ""
 #: conversationlist_ratdom.json:ratdom_646_statues_10:0
 #: conversationlist_ratdom.json:ratdom_646_statues_12:0
 msgid "That's eery."
-msgstr ""
+msgstr "Isso é sinistro."
 
 #: conversationlist_ratdom.json:ratdom_646_statues_12
 msgid "These statues are not real, you can just move through them."
@@ -52874,7 +52876,7 @@ msgstr ""
 #: conversationlist_ratdom.json:ratdom_check_backbone_20:0
 #: conversationlist_ratdom.json:ratdom_goldhunter_bone_reminder_20:0
 msgid "What bones?"
-msgstr ""
+msgstr "Que ossos?"
 
 #: conversationlist_ratdom.json:ratdom_check_backbone_22
 #: conversationlist_ratdom.json:ratdom_goldhunter_bone_reminder_22
@@ -52890,7 +52892,7 @@ msgstr ""
 #: conversationlist_troubling_times.json:umar_tt:0
 #: conversationlist_troubling_times.json:tt_sly5_30:0
 msgid "Wait ..."
-msgstr ""
+msgstr "Espera..."
 
 #: conversationlist_ratdom.json:ratdom_artefact_la_10:0
 msgid "Clevred! What's wrong with you?"
@@ -53022,7 +53024,7 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_24:0
 msgid "A bone."
-msgstr ""
+msgstr "Um osso."
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_24:1
 msgid "A contaminated bone."
@@ -53147,7 +53149,7 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_fraedro_sign
 msgid "Access denied!"
-msgstr ""
+msgstr "Acesso negado!"
 
 #: conversationlist_ratdom.json:ratdom_ghost_10
 msgid "Goosebumps crawl up your back."
@@ -53176,7 +53178,7 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_ghost_40a
 msgid "No reply."
-msgstr ""
+msgstr "Sem resposta."
 
 #: conversationlist_ratdom.json:ratdom_ghost_50
 msgid "Something hisses through the air and hits you hard in the back of the head."
@@ -53380,7 +53382,7 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_maze_mole_fence:1
 msgid "Stay away."
-msgstr ""
+msgstr "Fica longe."
 
 #: conversationlist_ratdom.json:ratdom_maze_mole_fence_30
 msgid "Thief! This is our food!!"
@@ -53551,8 +53553,9 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:whootibarfag_120:0
 #: conversationlist_laeroth.json:lae_torturer_34:0
 #: conversationlist_feygard_1.json:swamp_witch_20_228b:0
+#, fuzzy
 msgid "Eh ..."
-msgstr ""
+msgstr "Eh ..."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_40e
 msgid "Not that I liked my uncle, but he didn't deserve such an end."
@@ -53599,8 +53602,9 @@ msgid "That's simple enough even for a simple mind: If worn they will mark the p
 msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_402:0
+#, fuzzy
 msgid "Ah, OK."
-msgstr ""
+msgstr "Ah, OK."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_410
 msgid "Why don't you wear that orange necklace you've got?"
@@ -53666,7 +53670,7 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_510d:0
 msgid "Nice song."
-msgstr ""
+msgstr "Gosto da música."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_520
 msgid "Are we there soon?"
@@ -53738,7 +53742,7 @@ msgstr ""
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542pp:0
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542ss:0
 msgid "Once more."
-msgstr ""
+msgstr "Mais uma vez."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_542ps
 msgid "Scissors - I'll cut your paper!"
@@ -54271,7 +54275,7 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_rat_warden_bell:2
 msgid "Read further."
-msgstr ""
+msgstr "Ler mais."
 
 #: conversationlist_ratdom.json:ratdom_rat_warden_bell_10
 msgid ""
@@ -54344,7 +54348,7 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_skel_cymb_10
 msgid "What next?"
-msgstr ""
+msgstr "O que se segue?"
 
 #: conversationlist_ratdom.json:ratdom_skel_cymb_20
 msgid "Come on Andor, let's have fun there!"
@@ -54397,7 +54401,7 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_troll_door2_2:0
 msgid "Go back."
-msgstr ""
+msgstr "Volta atrás."
 
 #: conversationlist_ratdom.json:ratdom_troll_door2_2:1
 msgid "Open anyway."
@@ -66269,28 +66273,33 @@ msgstr "Adivinha!"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:2
 #: conversationlist_troubling_times.json:fanamor_tt_30:3
+#, fuzzy
 msgid "Brimhaven?"
-msgstr ""
+msgstr "Brimhaven?"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:4
 #: conversationlist_troubling_times.json:fanamor_tt_30:5
+#, fuzzy
 msgid "Prim?"
-msgstr ""
+msgstr "Prim?"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:6
 #: conversationlist_troubling_times.json:fanamor_tt_30:7
+#, fuzzy
 msgid "Loneford?"
-msgstr ""
+msgstr "Loneford?"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:8
 #: conversationlist_troubling_times.json:fanamor_tt_30:9
+#, fuzzy
 msgid "Stoutford?"
-msgstr ""
+msgstr "Stoutford?"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:10
 #: conversationlist_troubling_times.json:fanamor_tt_30:11
+#, fuzzy
 msgid "Sullengard?"
-msgstr ""
+msgstr "Sullengard?"
 
 #: conversationlist_troubling_times.json:fanamor_tt_30:12
 msgid "Oh, I'm running out of gold."
@@ -67139,7 +67148,7 @@ msgstr ""
 
 #: conversationlist_troubling_times.json:tt_sly_attack2_10
 msgid "Bang!!"
-msgstr ""
+msgstr "Bangue!!"
 
 #: conversationlist_troubling_times.json:tt_sly_attack2_20
 msgid "Bang again!!"
@@ -67163,7 +67172,7 @@ msgstr ""
 
 #: conversationlist_troubling_times.json:tt_sly_attack3_30
 msgid "Aaargh!!"
-msgstr ""
+msgstr "Aaaaah!!"
 
 #: conversationlist_troubling_times.json:tt_sly_attack3_80
 msgid "Noo! I can't ... Help! I'm wounded ... Run!"
@@ -71107,7 +71116,6 @@ msgid "It is very cold and very sticky to the touch. It gives a feeling of dizzi
 msgstr ""
 
 #: itemlist_omi2.json:bwm_fish2
-#, fuzzy
 msgid "Cooked inkyfish"
 msgstr "Peixe-tinta cozinhado"
 
@@ -71116,7 +71124,6 @@ msgid "Typical Blackwater mountain food."
 msgstr ""
 
 #: itemlist_omi2.json:bwm_fish3
-#, fuzzy
 msgid "Toasted inkyfish"
 msgstr "Peixe-tinta tostado"
 
@@ -71138,7 +71145,7 @@ msgstr ""
 
 #: itemlist_omi2.json:elm_mushroom1
 msgid "Boletus spelunca"
-msgstr ""
+msgstr "Caverna de cogumelos"
 
 #: itemlist_omi2.json:elm_mushroom1:description
 msgid "Rare mushroom only found in caves with high humidity and  temperature."
@@ -71223,7 +71230,7 @@ msgstr ""
 
 #: itemlist_omi2.json:kamelio_drop3
 msgid "Kazarite cloak"
-msgstr ""
+msgstr "Manto de kazarite"
 
 #: itemlist_omi2.json:kamelio_drop3:description
 msgid "This cloak is icy to the touch and unbearable for long periods of time."
@@ -71239,7 +71246,7 @@ msgstr ""
 
 #: itemlist_delivery.json:facutloni_docket
 msgid "Facutloni's Docket"
-msgstr ""
+msgstr "Inventário de Facutloni"
 
 #: itemlist_delivery.json:facutloni_docket:description
 msgid "A document listing the contents of a delivery   Arcir the book-lover from Fallhaven ordered a 'Dusty Old Book'.   Edrin the metalsmith from Brimhaven ordered a 'Striped Hammer'.   Odirath the armorer from Stoutford ordered a 'Pretty Porcelain Figure'.   Venanra the laundress from Brimhaven ordered an 'Old, worn cape'.   Tjure the unlucky merchant ordered a 'Mysterious green something'.   Servant the servant from Guynmart Castle ordered a 'Chandelier'.   Arghes from Remgard tavern ordered 'Yellow Boots'.   Wyre the mournful woman from Vilegard ordered a 'Lyre'.   Mikhail from Crossglen ordered a 'Plush Pillow'.   Pangitain the fortune teller from Brimhaven ordered a 'Crystal Globe'. "
@@ -71255,7 +71262,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:farmer_pitchfork
 msgid "Farmer's pitchfork"
-msgstr ""
+msgstr "Forquilha de agricultor"
 
 #: itemlist_sullengard.json:farmer_pitchfork:description
 msgid "A must have tool for every farmer."
@@ -71295,7 +71302,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:watermelon_slice
 msgid "Watermelon slice"
-msgstr ""
+msgstr "Fatia de melancia"
 
 #: itemlist_sullengard.json:watermelon_slice:description
 msgid "Sticky, but delicious. It's like a snack and a drink in one."
@@ -71307,7 +71314,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:sullengrad_bandit_brew
 msgid "Bandit's Brew"
-msgstr ""
+msgstr "Bebida de bandido"
 
 #: itemlist_sullengard.json:sullengrad_bandit_brew:description
 msgid "A Thieve's guild original, produced by the Brueria family. It was named in their honor for years of reliable service to Sullengard."
@@ -71315,7 +71322,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:sullengrad_finest
 msgid "Sullengard's Finest"
-msgstr ""
+msgstr "Os Bravos de Sullengard"
 
 #: itemlist_sullengard.json:sullengrad_finest:description
 msgid "A three time winner of the 'Best beer in festival' competition created by the Briwerra family. It has a full-body taste."
@@ -71331,7 +71338,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:sullengard_forest_ale
 msgid "Forest Ale"
-msgstr ""
+msgstr "Cerveja da floresta"
 
 #: itemlist_sullengard.json:sullengard_forest_ale:description
 msgid "A medium colored brew with all the taste and no bitter aftertaste. Brewed by the Briwerra family."
@@ -71355,7 +71362,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:sullengard_spring_squeeze
 msgid "Spring Squeeze"
-msgstr ""
+msgstr "Aperto de Primavera"
 
 #: itemlist_sullengard.json:sullengard_spring_squeeze:description
 msgid "A little bit of spring in every sip. Brewed by the Brewere family."
@@ -71363,7 +71370,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:pig_bone
 msgid "Pig's bone"
-msgstr ""
+msgstr "Osso de porco"
 
 #: itemlist_sullengard.json:pig_bone:description
 msgid "All that remains of the poor pig."
@@ -71371,7 +71378,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:gloriosa_mushroom
 msgid "Gloriosa mushroom"
-msgstr ""
+msgstr "Cogumelo gloriosa"
 
 #: itemlist_sullengard.json:gloriosa_mushroom:description
 msgid "A very poisonous mushroom to humans and most animals."
@@ -71407,7 +71414,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:dark_heart_sword
 msgid "Darkheart broadsword"
-msgstr ""
+msgstr "Espada larga coração-negro"
 
 #: itemlist_sullengard.json:thunderguard_2h_sword
 msgid "Thunderguard Copper sword"
@@ -71419,7 +71426,7 @@ msgstr "Ramo de crepúsculo"
 
 #: itemlist_sullengard.json:soul_rapier
 msgid "Soul rapier"
-msgstr ""
+msgstr "Florete de alma"
 
 #: itemlist_sullengard.json:thieve_clock_whispers
 msgid "Thieves' cloak of whispers"
@@ -71443,19 +71450,19 @@ msgstr ""
 
 #: itemlist_sullengard.json:bronzed_gloves
 msgid "Bronzed grasps"
-msgstr ""
+msgstr "Apertos de bronze"
 
 #: itemlist_sullengard.json:brutality_boots
 msgid "Brutality boots"
-msgstr ""
+msgstr "Botas de brutalidade"
 
 #: itemlist_sullengard.json:bronze_helmet
 msgid "Bronze helmet"
-msgstr ""
+msgstr "Capacete de bronze"
 
 #: itemlist_sullengard.json:insect_stinger
 msgid "Insect stinger"
-msgstr ""
+msgstr "Ferrão de inseto"
 
 #: itemlist_sullengard.json:small_tree_branch
 msgid "Small tree branch"
@@ -71463,7 +71470,7 @@ msgstr "Pequeno ramo de árvore"
 
 #: itemlist_sullengard.json:rotten_apple
 msgid "Rotten apple"
-msgstr ""
+msgstr "Maçã podre"
 
 #: itemlist_sullengard.json:rotten_apple:description
 msgid "You most certainly would never want to eat this, but maybe you'd want to feed it to your enemies?"
@@ -71471,7 +71478,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:snake_meat
 msgid "Snake meat"
-msgstr ""
+msgstr "Carne de cobra"
 
 #: itemlist_sullengard.json:snake_meat:description
 msgid "There's just something about meat from a snake that makes it just a little bit better."
@@ -71479,7 +71486,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:poisonous_spores
 msgid "Poisonous spores"
-msgstr ""
+msgstr "Esporos venenosos"
 
 #: itemlist_sullengard.json:poisonous_spores:description
 msgid "Probably not something that you want to be carrying around with you."
@@ -71503,11 +71510,11 @@ msgstr ""
 
 #: itemlist_haunted_forest.json:death_mace
 msgid "Death mace"
-msgstr ""
+msgstr "Maça da morte"
 
 #: itemlist_haunted_forest.json:angel_feather
 msgid "Angel feather"
-msgstr ""
+msgstr "Pena de anjo"
 
 #: itemlist_haunted_forest.json:angel_feather:description
 msgid "A feather from the Angel of death. Legend states that if you place one under a person's pillow, it causes the Angel of death to appear..."
@@ -71519,7 +71526,7 @@ msgstr ""
 
 #: itemlist_haunted_forest.json:skeletal_remains
 msgid "Skeletal remains"
-msgstr ""
+msgstr "Esqueleto"
 
 #: itemlist_haunted_forest.json:skeletal_remains:description
 msgid "Ancient human bones."
@@ -71535,7 +71542,7 @@ msgstr ""
 
 #: itemlist_haunted_forest.json:spider_eggs
 msgid "Spider eggs"
-msgstr ""
+msgstr "Ovos de aranha"
 
 #: itemlist_haunted_forest.json:spider_eggs:description
 msgid "Better served cooked, but some like to eat these raw."
@@ -71551,7 +71558,7 @@ msgstr ""
 
 #: itemlist_haunted_forest.json:eye_ball
 msgid "Bat eye"
-msgstr ""
+msgstr "Olho de morcego"
 
 #: itemlist_haunted_forest.json:eye_ball:description
 msgid "The eye ball of a \"three-eyed bat\"."
@@ -72628,7 +72635,7 @@ msgstr "Irogotu"
 
 #: monsterlist_crossglen_animals.json:reindeer
 msgid "Reindeer"
-msgstr ""
+msgstr "Rena"
 
 #: monsterlist_crossglen_npcs.json:mikhail
 #: monsterlist_stoutford_combined.json:stn_colonel_mons3
@@ -76125,8 +76132,9 @@ msgstr "Bagas especialmente doces"
 
 #: monsterlist_fungi_panic.json:bogsten_granny
 #: monsterlist_fungi_panic.json:bogsten_granny1
+#, fuzzy
 msgid "Undina Bogsten"
-msgstr ""
+msgstr "Undina Bogsten"
 
 #: monsterlist_fungi_panic.json:bogsten_gambler1
 msgid "Bogal"
@@ -76197,27 +76205,27 @@ msgstr "Lobo de montanha treinado"
 
 #: monsterlist_omi2.json:slippery_venomfang
 msgid "Slippery Venomfang"
-msgstr ""
+msgstr "Venomfang escorregadia"
 
 #: monsterlist_omi2.json:noxious_venomfang
 msgid "Noxious venomfang"
-msgstr ""
+msgstr "Venomfang nociva"
 
 #: monsterlist_omi2.json:bwm_olm1
 msgid "Dun olm"
-msgstr ""
+msgstr "Olm Dun"
 
 #: monsterlist_omi2.json:bwm_olm2
 msgid "Albino olm"
-msgstr ""
+msgstr "Olm albino"
 
 #: monsterlist_omi2.json:bwm_olm3
 msgid "Hard-skinned olm"
-msgstr ""
+msgstr "Olm de pele dura"
 
 #: monsterlist_omi2.json:bwm_olm4
 msgid "Blackened olm"
-msgstr ""
+msgstr "Olm escurecido"
 
 #: monsterlist_omi2.json:bwm17_worker
 #, fuzzy
@@ -76230,13 +76238,14 @@ msgstr "Ehrenfest"
 
 #: monsterlist_omi2.json:ortholion
 #: monsterlist_omi2.json:ortholion_hidden
+#, fuzzy
 msgid "General Ortholion"
-msgstr ""
+msgstr "General Ortholion"
 
 #: monsterlist_omi2.json:ortholion_guard_hidden
 #: monsterlist_omi2.json:ortholion_guard1
 msgid "General's henchman"
-msgstr ""
+msgstr "Escudeiro do General"
 
 #: monsterlist_omi2.json:prim_guard7
 msgid "Wounded Prim guard"
@@ -76268,11 +76277,11 @@ msgstr "Capitão da guarda de Prim"
 
 #: monsterlist_omi2.json:elm_woodworm
 msgid "Contaminated woodworm"
-msgstr ""
+msgstr "Minhoca da floresta contaminada"
 
 #: monsterlist_omi2.json:elm_fiend1
 msgid "Glowing mudfiend"
-msgstr ""
+msgstr "Demónio de lama reluzente"
 
 #: monsterlist_omi2.json:ortholion_guard8
 msgid "Dying general's henchman"
@@ -76280,7 +76289,7 @@ msgstr "Escudeiro do general moribundo"
 
 #: monsterlist_omi2.json:elm_debris
 msgid "Animated debris"
-msgstr ""
+msgstr "Detritos animados"
 
 #: monsterlist_omi2.json:elm_fiend2
 msgid "Ravenous glowing mudfiend"
@@ -76288,15 +76297,15 @@ msgstr ""
 
 #: monsterlist_omi2.json:elm_woodworm2
 msgid "Aggresive woodworm"
-msgstr ""
+msgstr "Minhoca da floresta agressiva"
 
 #: monsterlist_omi2.json:bwm_olm5
 msgid "Contaminated olm"
-msgstr ""
+msgstr "Olm contaminado"
 
 #: monsterlist_omi2.json:elm_golem1
 msgid "Kazarite golem"
-msgstr ""
+msgstr "Golem de kazarite"
 
 #: monsterlist_omi2.json:elm_golem2
 msgid "Dried kazarite golem"
@@ -76304,7 +76313,7 @@ msgstr "Golem de Lanzarote seco"
 
 #: monsterlist_omi2.json:ortholion_guard9
 msgid "Ortholion's henchman"
-msgstr ""
+msgstr "Escudeiro de Ortholion"
 
 #: monsterlist_omi2.json:elm_miner1
 msgid "Resurrected miner's skeleton"
@@ -76325,7 +76334,7 @@ msgstr "Esqueleto de guarda de Prim"
 
 #: monsterlist_omi2.json:elm_yczorah1
 msgid "Yczorah marauder"
-msgstr ""
+msgstr "Saqueador de Yczorah"
 
 #: monsterlist_omi2.json:elm_yzczorah2
 #, fuzzy
@@ -76338,7 +76347,7 @@ msgstr "Kamelio"
 
 #: monsterlist_omi2.json:kamelio2
 msgid "Undead Kamelio"
-msgstr ""
+msgstr "Kamelio morto-vivo"
 
 #: monsterlist_omi2.json:ortholion_guard10
 msgid "Drunken Feygard scout"
@@ -76350,7 +76359,7 @@ msgstr "Patrulha de Feygard bêbada"
 
 #: monsterlist_hilltown.json:deathcob
 msgid "Death cob"
-msgstr ""
+msgstr "Teia da morte"
 
 #: monsterlist_hilltown.json:deathcobboss
 msgid "Ancient death cob"
@@ -76359,24 +76368,24 @@ msgstr ""
 #: monsterlist_sullengard.json:farm_horse
 #: monsterlist_sullengard.json:farm_horse_right
 msgid "Farm horse"
-msgstr ""
+msgstr "Cavalo da quinta"
 
 #: monsterlist_sullengard.json:graze_horse_left
 #: monsterlist_sullengard.json:grazing_horse_right
 msgid "Grazing horse"
-msgstr ""
+msgstr "Cavalo a pastar"
 
 #: monsterlist_sullengard.json:pond_fish
 msgid "Pond fish"
-msgstr ""
+msgstr "Peixe do charco"
 
 #: monsterlist_sullengard.json:golden_jackal
 msgid "Golden jackal"
-msgstr ""
+msgstr "Chacal dourado"
 
 #: monsterlist_sullengard.json:deebo_orchard_farmer
 msgid "Overworked farmer"
-msgstr ""
+msgstr "Agricultor com excesso de trabalho"
 
 #: monsterlist_sullengard.json:deebo_orchard_farmer_ainsley
 msgid "Ainsley"
@@ -76412,7 +76421,7 @@ msgstr "Stephanie"
 
 #: monsterlist_sullengard.json:sullengard_mayor
 msgid "Mayor Ale"
-msgstr ""
+msgstr "Presidente da câmara Ale"
 
 #: monsterlist_sullengard.json:sullengard_newborn_baby
 msgid "Ollie"
@@ -76420,11 +76429,11 @@ msgstr "Ollie"
 
 #: monsterlist_sullengard.json:guild04_rebcomrade_1
 msgid "Greedy comrade"
-msgstr ""
+msgstr "Camarada ganancioso"
 
 #: monsterlist_sullengard.json:guild04_rebcomrade_2
 msgid "Grabby comrade"
-msgstr ""
+msgstr "Camarada agarrado"
 
 #: monsterlist_sullengard.json:guild04_rebcomrade_3
 #: monsterlist_mt_galmore.json:aidem_camp_zachlanny
@@ -76455,7 +76464,7 @@ msgstr "Mariora"
 
 #: monsterlist_sullengard.json:sullengard_inn_traveler
 msgid "Lost traveler"
-msgstr ""
+msgstr "Viajante perdido"
 
 #: monsterlist_sullengard.json:sullengard_bartender
 msgid "Oakleigh"
@@ -76469,7 +76478,7 @@ msgstr ""
 #: monsterlist_sullengard.json:sullengard_drinking_brother2
 #: monsterlist_sullengard.json:sullengard_drinking_brother3
 msgid "Drinking brother"
-msgstr ""
+msgstr "Irmão de bebedeira"
 
 #: monsterlist_sullengard.json:sull_ravine_grazia
 #: monsterlist_sullengard.json:sullengard_grazia
@@ -76527,7 +76536,7 @@ msgstr ""
 
 #: monsterlist_sullengard.json:plague_groundberry
 msgid "Plague groundberry"
-msgstr ""
+msgstr "Amora da peste"
 
 #: monsterlist_sullengard.json:broxwood
 msgid "Broxwood"
@@ -76535,7 +76544,7 @@ msgstr "Broxwood"
 
 #: monsterlist_sullengard.json:preabola_fly
 msgid "Preabola fly"
-msgstr ""
+msgstr "Mosca de preabola"
 
 #: monsterlist_sullengard.json:yellow_tooth
 msgid "Yellow tooth slitherer"
@@ -76555,7 +76564,7 @@ msgstr ""
 
 #: monsterlist_sullengard.json:poisonous_jitterfly
 msgid "Poisonous jitterfly"
-msgstr ""
+msgstr "Borboleta venenosa"
 
 #: monsterlist_sullengard.json:sull_herding_dog
 msgid "Young herding dog"
@@ -76563,11 +76572,11 @@ msgstr "Cão pastor jovem"
 
 #: monsterlist_sullengard.json:sullengard_goat_feeding
 msgid "Feeding goat"
-msgstr ""
+msgstr "Cabra a comer"
 
 #: monsterlist_sullengard.json:sullengard_goat_herder
 msgid "Goat herder"
-msgstr ""
+msgstr "Pastor de cabras"
 
 #: monsterlist_sullengard.json:sullengard_winona
 msgid "Winona"
@@ -76616,11 +76625,11 @@ msgstr "Lindauer"
 
 #: monsterlist_sullengard.json:sullengard_citizen
 msgid "Local citizen"
-msgstr ""
+msgstr "Cidadão local"
 
 #: monsterlist_sullengard.json:lava_entity
 msgid "Lava entity"
-msgstr ""
+msgstr "Entidade de lava"
 
 #: monsterlist_sullengard.json:sullengard_town_clerk
 #, fuzzy
@@ -76642,7 +76651,7 @@ msgstr ""
 
 #: monsterlist_haunted_forest.json:skeletal_raider
 msgid "Skeletal raider"
-msgstr ""
+msgstr "Salteador esqueleto"
 
 #: monsterlist_haunted_forest.json:dead_walker
 msgid "Deadwalker"
@@ -76650,27 +76659,27 @@ msgstr "Mortoandante"
 
 #: monsterlist_haunted_forest.json:sinister_wraith
 msgid "Sinister wraith"
-msgstr ""
+msgstr "Espectro sinistro"
 
 #: monsterlist_haunted_forest.json:sleepless_taint
 msgid "Sleepless taint"
-msgstr ""
+msgstr "Mácula de insónia"
 
 #: monsterlist_haunted_forest.json:death_wrecker
 msgid "Death wrecker"
-msgstr ""
+msgstr "Destruidor de morte"
 
 #: monsterlist_haunted_forest.json:graveyard_gatekeeper
 msgid "Graveyard gatekeeper"
-msgstr ""
+msgstr "Guardião de cemitério"
 
 #: monsterlist_haunted_forest.json:mindless_disgrace
 msgid "Mindless disgrace"
-msgstr ""
+msgstr "Desgraça demente"
 
 #: monsterlist_haunted_forest.json:grieveless_dead
 msgid "Grieveless dead"
-msgstr ""
+msgstr "Morto sem piedade"
 
 #: monsterlist_haunted_forest.json:musty_prowler
 msgid "Musty prowler"
@@ -76678,11 +76687,11 @@ msgstr ""
 
 #: monsterlist_haunted_forest.json:forest_hunter
 msgid "Forest hunter"
-msgstr ""
+msgstr "Caçador da floresta"
 
 #: monsterlist_haunted_forest.json:three_eyed_bat
 msgid "Three-eyed bat"
-msgstr ""
+msgstr "Morcego de três olhos"
 
 #: monsterlist_haunted_forest.json:gabriel
 #, fuzzy
@@ -77585,8 +77594,9 @@ msgid "Wild flower"
 msgstr ""
 
 #: monsterlist_troubling_times.json:nanath
+#, fuzzy
 msgid "Nanath"
-msgstr ""
+msgstr "Nanath"
 
 #: monsterlist_troubling_times.json:tt_monster1
 #: monsterlist_troubling_times.json:tt_monster2
@@ -82264,7 +82274,7 @@ msgstr ""
 
 #: questlist_sullengard.json:sullengard_pond_safety
 msgid "Pond safety"
-msgstr ""
+msgstr "Segurança do charco"
 
 #: questlist_sullengard.json:sullengard_pond_safety:10
 msgid "Nanette was troubled that her pond is unsafe because of the monsters that emerged in the pond. "
@@ -82322,7 +82332,7 @@ msgstr ""
 
 #: questlist_sullengard.json:beer_bootlegging
 msgid "Beer Bootlegging"
-msgstr ""
+msgstr "Contrabando de cerveja"
 
 #: questlist_sullengard.json:beer_bootlegging:10
 msgid "I've agreed to help the Feygard patrol captain investigate why there is so much beer on the Foaming flask tavern property."
@@ -83816,7 +83826,7 @@ msgstr "Sullengard"
 
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
-msgstr ""
+msgstr "Pomar de Deebo"
 
 #: worldmap.xml:world1:laeroth_area
 msgid "Lake Laeroth"
