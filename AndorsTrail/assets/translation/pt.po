@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-08-15 21:02+0000\n"
+"PO-Revision-Date: 2025-08-18 17:02+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -65818,7 +65818,7 @@ msgstr ""
 
 #: conversationlist_lytwings.json:arensia_lytwing_33:0
 msgid "Okay."
-msgstr ""
+msgstr "Ok."
 
 #: conversationlist_lytwings.json:arensia_lytwing_34
 msgid "They have, I no longer wake up with fairy-locks."
@@ -66115,8 +66115,9 @@ msgid "We have decided what would make this right ..."
 msgstr ""
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_27:0
+#, fuzzy
 msgid "OK?"
-msgstr ""
+msgstr "OK?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_28
 msgid "We want Arensia to promise not to pick our mushrooms again. And we want proof!"
@@ -71614,7 +71615,7 @@ msgstr ""
 
 #: itemlist_ratdom.json:ratdom_pickaxe
 msgid "Pickhatchet"
-msgstr ""
+msgstr "Picareta"
 
 #: itemlist_ratdom.json:ratdom_torch
 msgid "Ratcave Torch"
@@ -77176,45 +77177,53 @@ msgstr ""
 
 #: monsterlist_laeroth.json:forenza
 #: monsterlist_laeroth.json:forenza_waytobrimhaven3
+#, fuzzy
 msgid "Forenza"
-msgstr ""
+msgstr "Forenza"
 
 #: monsterlist_laeroth.json:moriath
+#, fuzzy
 msgid "Moriath"
-msgstr ""
+msgstr "Moriath"
 
 #: monsterlist_laeroth.json:laerothbasement_spider
 msgid "Basement spider"
 msgstr ""
 
 #: monsterlist_laeroth.json:verigil
+#, fuzzy
 msgid "Verigil"
-msgstr ""
+msgstr "Verigil"
 
 #: monsterlist_laeroth.json:eyvipa
+#, fuzzy
 msgid "Eyvipa"
-msgstr ""
+msgstr "Eyvipa"
 
 #: monsterlist_laeroth.json:cuned
+#, fuzzy
 msgid "Cuned"
-msgstr ""
+msgstr "Cuned"
 
 #: monsterlist_laeroth.json:jerelin
 #: monsterlist_laeroth.json:jerelin_b
+#, fuzzy
 msgid "Jerelin"
-msgstr ""
+msgstr "Jerelin"
 
 #: monsterlist_laeroth.json:audela
+#, fuzzy
 msgid "Audela"
-msgstr ""
+msgstr "Audela"
 
 #: monsterlist_laeroth.json:vahram
 msgid "Vahram the butcher"
 msgstr ""
 
 #: monsterlist_laeroth.json:eraepsekahs
+#, fuzzy
 msgid "Eraepsekahs"
-msgstr ""
+msgstr "Eraepsekahs"
 
 #: monsterlist_laeroth.json:cave_jelly
 msgid "Cave jelly"
@@ -77245,33 +77254,39 @@ msgid "Vicious cave worm"
 msgstr ""
 
 #: monsterlist_laeroth.json:laeroth_last_lord
+#, fuzzy
 msgid "Adakin"
-msgstr ""
+msgstr "Adakin"
 
 #: monsterlist_laeroth.json:brute_creator
+#, fuzzy
 msgid "Os"
-msgstr ""
+msgstr "Os"
 
 #: monsterlist_laeroth.json:brute_fisherman
+#, fuzzy
 msgid "Bidro"
-msgstr ""
+msgstr "Bidro"
 
 #: monsterlist_laeroth.json:lae_andor2
 #: monsterlist_laeroth.json:lae_andor3
+#, fuzzy
 msgid "Andor"
-msgstr ""
+msgstr "Andor"
 
 #: monsterlist_laeroth.json:lae_island_boss
+#, fuzzy
 msgid "Dorhantarh"
-msgstr ""
+msgstr "Dorhantarh"
 
 #: monsterlist_laeroth.json:cave_bear
 msgid "Aggressive bear"
 msgstr ""
 
 #: monsterlist_laeroth.json:remgard_gwendolyn
+#, fuzzy
 msgid "Gwendolyn"
-msgstr ""
+msgstr "Gwendolyn"
 
 #: monsterlist_laeroth.json:wight_lesser
 #: monsterlist_laeroth.json:wight_lesser5
@@ -77284,8 +77299,9 @@ msgid "Greater wight"
 msgstr ""
 
 #: monsterlist_laeroth.json:kotheses
+#, fuzzy
 msgid "Kotheses"
-msgstr ""
+msgstr "Kotheses"
 
 #: monsterlist_laeroth.json:lae_demon4
 #: monsterlist_laeroth.json:lae_demon4b
@@ -77355,8 +77371,9 @@ msgid "Pup rat"
 msgstr ""
 
 #: monsterlist_laeroth.json:drakthorn
+#, fuzzy
 msgid "Drakthorn"
-msgstr ""
+msgstr "Drakthorn"
 
 #: monsterlist_laeroth.json:drakthorn_warrior
 msgid "Drakthorn warrior"
@@ -77396,16 +77413,18 @@ msgstr "Guarda de honra"
 
 #: monsterlist_feygard_1.json:godoe1
 #: monsterlist_feygard_1.json:godoe2
+#, fuzzy
 msgid "Godoe"
-msgstr ""
+msgstr "Godoe"
 
 #: monsterlist_feygard_1.json:kobold1
 msgid "Quick kobold"
 msgstr ""
 
 #: monsterlist_feygard_1.json:kobold2
+#, fuzzy
 msgid "Kobold"
-msgstr ""
+msgstr "Kobold"
 
 #: monsterlist_feygard_1.json:kobold4
 msgid "Tough kobold"
@@ -77427,23 +77446,27 @@ msgstr ""
 #: monsterlist_feygard_1.json:tobby4b
 #: monsterlist_feygard_1.json:tobby5
 #: monsterlist_feygard_1.json:tobby6
+#, fuzzy
 msgid "Tobby"
-msgstr ""
+msgstr "Tobby"
 
 #: monsterlist_feygard_1.json:boat0
+#, fuzzy
 msgid "Beldric"
-msgstr ""
+msgstr "Beldric"
 
 #: monsterlist_feygard_1.json:gamjee
 #: monsterlist_feygard_1.json:gamjee_oc
 #: monsterlist_feygard_1.json:gamjee_hidden
+#, fuzzy
 msgid "Gamjee"
-msgstr ""
+msgstr "Gamjee"
 
 #: monsterlist_feygard_1.json:troll_hollow_godwin
 #: monsterlist_feygard_1.json:village_godwin
+#, fuzzy
 msgid "Godwin"
-msgstr ""
+msgstr "Godwin"
 
 #: monsterlist_feygard_1.json:troll_hollow_godelieve
 #: monsterlist_feygard_1.json:village_godelieve
@@ -77459,27 +77482,31 @@ msgstr ""
 #: monsterlist_feygard_1.json:troll_hollow_odilia
 #: monsterlist_feygard_1.json:village_odilia
 msgid "Odilia"
-msgstr ""
+msgstr "Odilia"
 
 #: monsterlist_feygard_1.json:troll_hollow_percival
 #: monsterlist_feygard_1.json:village_percival
+#, fuzzy
 msgid "Percival"
-msgstr ""
+msgstr "Percival"
 
 #: monsterlist_feygard_1.json:troll_hollow_philippa
 #: monsterlist_feygard_1.json:village_philippa
+#, fuzzy
 msgid "Philippa"
-msgstr ""
+msgstr "Philippa"
 
 #: monsterlist_feygard_1.json:troll_hollow_theobald
 #: monsterlist_feygard_1.json:village_theobald
+#, fuzzy
 msgid "Theobald"
-msgstr ""
+msgstr "Theobald"
 
 #: monsterlist_feygard_1.json:troll_hollow_theodora
 #: monsterlist_feygard_1.json:village_theodora
+#, fuzzy
 msgid "Theodora"
-msgstr ""
+msgstr "Theodora"
 
 #: monsterlist_feygard_1.json:well_voice
 msgid "Unknown well voice"
@@ -77494,16 +77521,18 @@ msgid "Unknown female voice"
 msgstr ""
 
 #: monsterlist_feygard_1.json:rosmara
+#, fuzzy
 msgid "Rosmara"
-msgstr ""
+msgstr "Rosmara"
 
 #: monsterlist_feygard_1.json:rosmara_cat
 msgid "Mean cat"
 msgstr "Gato malvado"
 
 #: monsterlist_feygard_1.json:leofric
+#, fuzzy
 msgid "Leofric"
-msgstr ""
+msgstr "Leofric"
 
 #: monsterlist_feygard_1.json:alpha_fox
 msgid "Alpha fox"
@@ -77531,8 +77560,9 @@ msgid "Village ant"
 msgstr "Formiga de aldeia"
 
 #: monsterlist_feygard_1.json:wulfric
+#, fuzzy
 msgid "Wulfric"
-msgstr ""
+msgstr "Wulfric"
 
 #: monsterlist_feygard_1.json:young_murkcrawler
 msgid "Young murkcrawler"
@@ -83092,8 +83122,9 @@ msgid "The key unlocked the diary. The final entry did not really give an answer
 msgstr ""
 
 #: questlist_laeroth.json:brute_creator
+#, fuzzy
 msgid "Brutes"
-msgstr ""
+msgstr "Brutes"
 
 #: questlist_laeroth.json:brute_creator:10
 msgid "I have met Bidro, a fisherman on the long way to Remgard. He wondered why only few people come along nowadays."
