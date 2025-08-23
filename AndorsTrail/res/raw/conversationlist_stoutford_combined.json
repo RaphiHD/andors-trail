@@ -3089,6 +3089,23 @@
                         "value":40
                     }
                 ]
+            },
+            {
+                "text":"I have tried to open the southern castle gate, but the mechanism seems broken. Can you repair it?",
+                "nextPhraseID":"odirath_8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":9,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -4240,7 +4257,7 @@
     },
     {
         "id":"yolgen_surroundings_2c",
-        "message":"However, recently more and more of the most foul monsters are coming from the mountain and we have to fend them off. With the rise of undead knights in the castle and Lord Erwyn's demise we struggle more and more.",
+        "message":"However, recently more and more of the most foul monsters are coming from the mountain and we have to fend them off. There are rumors that the mines are once gain being worked. If true, that is very foolish, and dangerous. With the rise of undead knights in the castle and Lord Erwyn's demise we struggle more and more.",
         "replies":[
             {
                 "text":"That sounds dreadful. Can I help you with the castle?",
@@ -6679,7 +6696,7 @@
     },
     {
         "id":"stn_gyra_42",
-        "message":"NO! Please not through the gate! I won't go there!",
+        "message":"NO! Please not to the south! I won't go to those devasted lands!",
         "rewards":[
             {
                 "rewardType":"spawnAll",
@@ -11821,6 +11838,203 @@
             {
                 "text":"Sigh - well, thanks.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"stn_southgate_10",
+        "replies":[
+            {
+                "nextPhraseID":"stn_southgate_11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":9
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stn_southgate_10b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stn_southgate_10a"
+            }
+        ]
+    },
+    {
+        "id":"stn_southgate_10a",
+        "message":"The mechanism doesn't move. It seems to be broken. Maybe someone can fix it for me?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_quest_gyra",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"stn_southgate_10b",
+        "message":"Oh, cool, Odirath seems to have repaired the mechanism already.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stn_southgate_12"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_quest_gyra",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"stn_southgate_11",
+        "replies":[
+            {
+                "nextPhraseID":"stn_southgate_14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":8
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"stn_southgate_12"
+            }
+        ]
+    },
+    {
+        "id":"stn_southgate_12",
+        "replies":[
+            {
+                "nextPhraseID":"stn_southgate_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":8
+            }
+        ]
+    },
+    {
+        "id":"stn_southgate_14",
+        "replies":[
+            {
+                "nextPhraseID":"stn_southgate_20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"stn_nondisplay",
+                "value":8
+            }
+        ]
+    },
+    {
+        "id":"stn_southgate_20",
+        "message":"You hear some mechanism rattle."
+    },
+    {
+        "id":"odirath_8",
+        "replies":[
+            {
+                "nextPhraseID":"odirath_8a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"odirath_8a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"odirath_8a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"odirath_8b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_quest_gyra",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"odirath_8c"
+            }
+        ]
+    },
+    {
+        "id":"odirath_8a",
+        "message":"No, sorry. As long as there are still skeletons running around the castle, I can't work there.",
+        "replies":[
+            {
+                "text":"I understand.",
+                "nextPhraseID":"odirath_0"
+            }
+        ]
+    },
+    {
+        "id":"odirath_8b",
+        "message":"I can do that as soon as my daughter is back here.",
+        "replies":[
+            {
+                "text":"I understand.",
+                "nextPhraseID":"odirath_0"
+            }
+        ]
+    },
+    {
+        "id":"odirath_8c",
+        "message":"The gate mechanism is broken? No problem. Now that the skeletons are gone, I can fix it for you.",
+        "replies":[
+            {
+                "text":"Great!",
+                "nextPhraseID":"odirath_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":9
             }
         ]
     }

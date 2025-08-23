@@ -1,9 +1,37 @@
 [
     {
         "id":"laska_blizz",
-        "name":"Laska Blizz",
+        "name":"Laska blizz",
         "iconID":"monsters_rltiles4:26",
-        "monsterClass":"animal"
+        "maxHP":300,
+        "monsterClass":"giant",
+        "attackDamage":{
+            "min":25,
+            "max":27
+        },
+        "droplistID":"laska_blizz_dl",
+        "attackCost":7,
+        "attackChance":130,
+        "criticalSkill":8,
+        "criticalMultiplier":2.0,
+        "blockChance":200,
+        "damageResistance":11,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"frostbite",
+                    "magnitude":3,
+                    "duration":4,
+                    "chance":"15"
+                },
+                {
+                    "condition":"head_wound",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                }
+            ]
+        }
     },
     {
         "id":"thief_seraphina",

@@ -95,6 +95,17 @@
             {
                 "text":"Yes. I am aware. In fact, I've already used it.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"I am aware of this, but I am here on another matter.",
+                "nextPhraseID":"sullengard_town_clerk_celdar_10",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":123
+                    }
+                ]
             }
         ]
     },
@@ -1500,7 +1511,7 @@
         "message":"You what? How? Where? Tell me all you know.",
         "replies":[
             {
-                "text":"Your never going to believe this, but they were inside that vacant house when I walked in.",
+                "text":"You're never going to believe this, but they were inside that vacant house when I walked in.",
                 "nextPhraseID":"troublemaker_wm_deffy_killed_20"
             }
         ]
@@ -1510,14 +1521,14 @@
         "message":"Then what happened?",
         "replies":[
             {
-                "text":"They looked up to no good, so I questioned them. Then the next thing I know, I'm enthralled in the heat of battle and they are dead.",
+                "text":"They looked up to no good, so I questioned them. Then the next thing I know, I'm caught up in the heat of battle and they are dead.",
                 "nextPhraseID":"troublemaker_wm_deffy_killed_30"
             }
         ]
     },
     {
         "id":"troublemaker_wm_deffy_killed_30",
-        "message":"Can you prove this? Can you show me something that proves that all 4 are dead?",
+        "message":"Can you prove this? Can you show me something that proves that all four are dead?",
         "replies":[
             {
                 "text":"Yes. I looted their rings. [Shows them to Troublemaker]",
@@ -1553,7 +1564,7 @@
     },
     {
         "id":"troublemaker_wm_deffy_killed_40",
-        "message":"Well, this is great news indeed. We however would like to have them alive.",
+        "message":"Well, this is great news indeed. However, we would like to have them alive.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2031,6 +2042,11 @@
                 "rewardType":"alignmentSet",
                 "rewardID":"factionCountThieves",
                 "value":-8
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay",
+                "value":60
             }
         ]
     },

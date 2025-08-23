@@ -122,6 +122,23 @@
             {
                 "text":"I should put my sword through you for talking like that.",
                 "nextPhraseID":"celdar_5"
+            },
+            {
+                "text":"I'm here to give you a gift from Eryndor. He died, but I was told to give you something from him.",
+                "nextPhraseID":"celdar_musicbox_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":123
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"mg_restless_grave",
+                        "value":130,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

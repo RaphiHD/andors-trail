@@ -229,6 +229,12 @@
     <property name="spawngroup" value="oromir_basement"/>
    </properties>
   </object>
+  <object name="leta_child_spawn" type="spawn" x="160" y="64" width="128" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="leta_child"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>
