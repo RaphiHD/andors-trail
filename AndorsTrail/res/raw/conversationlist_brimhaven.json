@@ -1586,6 +1586,47 @@
         "id":"brv_richman",
         "replies":[
             {
+                "nextPhraseID":"mg2_richman_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":21
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":22,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"andor_ending",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"mg2_richman_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":22
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"galmore_nondisplayed",
+                        "value":23
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"andor_ending",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"brv_guard_captain_and_rich_man",
                 "requires":[
                     {
@@ -5333,7 +5374,7 @@
     },
     {
         "id":"brv_villager1",
-        "message":"Hello",
+        "message":"Hello.",
         "replies":[
             {
                 "text":"I'm wondering, do you know anything about Lawellyn's death?",
@@ -7119,6 +7160,40 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"I found Andor far north of here, at a fruit seller's stand.",
+                "nextPhraseID":"mikhail_news_60",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":310
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dds_nd",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I found Andor far south of here, at Alynndir's house.",
+                "nextPhraseID":"mikhail_news_60",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":290
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"dds_nd",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -8141,11 +8216,19 @@
     },
     {
         "id":"brv_fortune_back",
-        "message":"Welcome back.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"brv_fortune_choice"
+                "nextPhraseID":"brv_fortune_back_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brv_fortune_back_2"
             }
         ]
     },
@@ -10132,5 +10215,446 @@
     {
         "id":"brv_patrol_bonemeals_removed_bur_20",
         "message":"Before you react, the guards have moved on."
+    },
+    {
+        "id":"brv_fortune_back_2",
+        "message":"Welcome back.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_choice"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_10",
+        "message":"Welcome back. I see that you bring me interesting things that have fallen from the sky.",
+        "replies":[
+            {
+                "text":"How do you know?",
+                "nextPhraseID":"brv_fortune_back_12"
+            },
+            {
+                "text":"The pieces that I have found in the area of Mt. Galmore? Yes, I have them with me.",
+                "nextPhraseID":"brv_fortune_back_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_12",
+        "message":"Sigh. I know many things. How often do I still have to prove it?",
+        "replies":[
+            {
+                "text":"Well, OK. What about my fallen stones collection?",
+                "nextPhraseID":"brv_fortune_back_20"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_20",
+        "message":"You can't do anything useful with them. Give them to me and I'll give you a kingly reward.",
+        "replies":[
+            {
+                "text":"Here, you can have them for the greater glory.",
+                "nextPhraseID":"brv_fortune_back_30",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Really? What can you offer?",
+                "nextPhraseID":"brv_fortune_back_50"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_30",
+        "message":"Thank you. Very wise of you. Indeed. Let - your - wisdom - grow ...",
+        "replies":[
+            {
+                "text":"I already feel it.",
+                "nextPhraseID":"brv_fortune_back_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_50",
+        "message":"Look here in my chest with my most valuable items, that could transfer their powers to you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brv_fortune_back_52"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_52",
+        "message":"Which one do you want to learn more about?",
+        "replies":[
+            {
+                "text":"Gem of star precision",
+                "nextPhraseID":"brv_fortune_back_61"
+            },
+            {
+                "text":"Wanderer's Vitality",
+                "nextPhraseID":"brv_fortune_back_62"
+            },
+            {
+                "text":"Mountainroot gold nugget",
+                "nextPhraseID":"brv_fortune_back_65"
+            },
+            {
+                "text":"Shadowstep Favor",
+                "nextPhraseID":"brv_fortune_back_66"
+            },
+            {
+                "text":"Starbound grip stone",
+                "nextPhraseID":"brv_fortune_back_68"
+            },
+            {
+                "text":"Swirling orb of awareness.",
+                "nextPhraseID":"brv_fortune_back_69"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_61",
+        "message":"Your hand steadies with celestial clarity. Touching the item will permanently increase your weapon accuracy.",
+        "replies":[
+            {
+                "text":"Sounds great - I choose this one. [Touch the item]",
+                "nextPhraseID":"brv_fortune_back_61b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Let me have a look at the other items.",
+                "nextPhraseID":"brv_fortune_back_52"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_61b",
+        "message":"A good choice. Do you feel it already?",
+        "replies":[
+            {
+                "text":"Wow - yes! Thank you.",
+                "nextPhraseID":"brv_fortune_back_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"weaponChance",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_62",
+        "message":"Wanderer's Vitality. You carry the strength of the sky inside you. After touching this item, you will begin to learn how to improve your overall health faster.",
+        "replies":[
+            {
+                "text":"Sounds great - I choose this one. [Touch the item]",
+                "nextPhraseID":"brv_fortune_back_62b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Let me have a look at the other items.",
+                "nextPhraseID":"brv_fortune_back_52"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_62b",
+        "message":"A good choice. Do you feel it already?",
+        "replies":[
+            {
+                "text":"Wow - yes! Thank you.",
+                "nextPhraseID":"brv_fortune_back_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"fortitude",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_65",
+        "message":"Very down-to-earth. You will have more success in financial matters.",
+        "replies":[
+            {
+                "text":"Sounds great - I choose this one. [Touch the item]",
+                "nextPhraseID":"brv_fortune_back_65b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Let me have a look at the other items.",
+                "nextPhraseID":"brv_fortune_back_52"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_65b",
+        "message":"A good choice. Do you feel it already?",
+        "replies":[
+            {
+                "text":"Wow - yes! Thank you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"coinfinder",
+                "value":1
+            },
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"barter",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_66",
+        "message":"You move as if guided by starlight. Touching this item will permanently improve your abilities to avoid being hit by your enemies.",
+        "replies":[
+            {
+                "text":"Sounds great - I choose this one. [Touch the item]",
+                "nextPhraseID":"brv_fortune_back_66b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Let me have a look at the other items.",
+                "nextPhraseID":"brv_fortune_back_52"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_66b",
+        "message":"A good choice. Do you feel it already?",
+        "replies":[
+            {
+                "text":"Wow - yes! Thank you.",
+                "nextPhraseID":"brv_fortune_back_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"dodge",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_68",
+        "message":"From the sky to your hilt, strength flows unseen. Touching the item will permanently let you refresh faster after a kill in a fight.",
+        "replies":[
+            {
+                "text":"Sounds great - I choose this one. [Touch the item]",
+                "nextPhraseID":"brv_fortune_back_68b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Let me have a look at the other items.",
+                "nextPhraseID":"brv_fortune_back_52"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_68b",
+        "message":"A good choice. Do you feel it already?",
+        "replies":[
+            {
+                "text":"Wow - yes! Thank you.",
+                "nextPhraseID":"brv_fortune_back_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"cleave",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_69",
+        "message":" Touching the item will permanently increase your awareness of unearthy items.",
+        "replies":[
+            {
+                "text":"Sounds great - I choose this one. [Touch the item]",
+                "nextPhraseID":"brv_fortune_back_69b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"mg2_exploded_star",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Let me have a look at the other items.",
+                "nextPhraseID":"brv_fortune_back_52"
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_69b",
+        "message":"A good choice. Do you feel it already?",
+        "replies":[
+            {
+                "text":"Wow - yes! Thank you.",
+                "nextPhraseID":"brv_fortune_back_90"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"skillIncrease",
+                "rewardID":"magicfinder",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mg2_exploded_star",
+                "value":62
+            }
+        ]
+    },
+    {
+        "id":"brv_fortune_back_90",
+        "message":"Go now.",
+        "replies":[
+            {
+                "text":"Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_60",
+        "message":"Great! But where is he?",
+        "replies":[
+            {
+                "text":"He just said that he couldn't come now. Then he ran away before I could ask him what he was up to.",
+                "nextPhraseID":"mikhail_news_62"
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_62",
+        "message":"[While shaking his head] Oh $playername, you have disappointed me.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"mikhail_news_64"
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_64",
+        "message":"Mikhail! Don't you dare talk to our child like that!",
+        "switchToNPC":"crossglen_valentina",
+        "replies":[
+            {
+                "text":"I better go.",
+                "nextPhraseID":"mikhail_news_66"
+            },
+            {
+                "text":"Sigh.",
+                "nextPhraseID":"mikhail_news_66"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"dds_nd",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"mikhail_news_66",
+        "message":"[Loudly complaining] When shall we three meet Andor again?",
+        "replies":[
+            {
+                "text":"In thunder, lightning or on rain?",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Now I'm definitely going.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

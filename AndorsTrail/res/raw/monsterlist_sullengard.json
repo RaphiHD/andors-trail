@@ -222,7 +222,7 @@
         "unique":1,
         "monsterClass":"humanoid",
         "spawnGroup":"sullengard_priest",
-        "phraseID":"sullengard_kealwea_0",
+        "phraseID":"sullengard_kealwea_00",
         "droplistID":"sullengard_kealwea_dl"
     },
     {
@@ -431,6 +431,7 @@
         },
         "spawnGroup":"flying_tree_ant",
         "droplistID":"flying_insect_dl",
+        "attackCost":5,
         "attackChance":144,
         "criticalSkill":20,
         "criticalMultiplier":3.0,

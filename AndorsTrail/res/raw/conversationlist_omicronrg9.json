@@ -438,7 +438,7 @@
         "message":"Umar you say? I don't know any Umar!",
         "replies":[
             {
-                "text":"(Whispering) You are no one. No one knows you. No one has seen you.",
+                "text":"[Whispering] You are no one. No one knows you. No one has seen you.",
                 "nextPhraseID":"leta_guild_2"
             }
         ]
@@ -1217,6 +1217,23 @@
             {
                 "text":"Can I take a look at the Guild's current supplies?",
                 "nextPhraseID":"S"
+            },
+            {
+                "text":"[Lie] I have deposited the 10000 gold. Here is your key back, as promised.",
+                "nextPhraseID":"troublemaker_wm_return_real_key_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"wanted_men",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

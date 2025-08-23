@@ -119,6 +119,17 @@
             {
                 "text":"Have you seen my brother Andor?",
                 "nextPhraseID":"farm_andor"
+            },
+            {
+                "text":"What happened to Leta and Oromir?",
+                "nextPhraseID":"farmer2_old_leta",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"familiar_shadow",
+                        "value":70
+                    }
+                ]
             }
         ]
     },

@@ -109,8 +109,33 @@
                 "logText":"In the dungeons of Laeroth manor, Kotheses, the torturer, mentioned that he had taught Andor the basics of torturing."
             },
             {
-                "progress":130,
-                "logText":"Andor was trying to find out from Seraphina about terrible monsters in the hideout near the place with the larval burrowers."
+                "progress":125,
+                "logText":"Vaelric confirmed that Andor visited him recently. Andor sought to learn Vaelric's skills and left quickly, clutching what he came for. His actions raise more questions about his intentions."
+            },
+            {
+                "progress":140,
+                "logText":"I saw Andor in the mountains of Galmore. We were able to exchange a few words before he disappeared again."
+            },
+            {
+                "progress":145,
+                "logText":"I met Andor on the road to Feygard, where he was buying food from Rosmara. He disappeared again."
+            },
+            {
+                "progress":147,
+                "logText":"I met Andor on the road to Nor City, where he was buying supplies from Alynndir. He disappeared again."
+            },
+            {
+                "progress":910,
+                "logText":"I decided to settle down on the top of Mt. Galmore. For this I needed to find a rich and discreet man to rebuild the ruins according to my wishes. Andor will now have to go and find himself."
+            },
+            {
+                "progress":912,
+                "logText":"The construction contract for my new home was completed. I was curious to see what it would look like."
+            },
+            {
+                "progress":914,
+                "logText":"I visited my new residence on the top of Mt. Galmore. There I would help the people of Dhayavar as a hero and protect them from villains. Or would I become a villain myself? We'll see.",
+                "finishesQuest":1
             },
             {
                 "progress":999,
@@ -385,8 +410,16 @@
             },
             {
                 "progress":20,
-                "logText":"Nocmar tells me he used to be a smith. But Lord Geomyr has banned the use of heartsteel, so he cannot forge his weapons anymore.\nIf I can find a heartstone and bring it to Nocmar, he should be able to forge the heartsteel again.\n\n[Quest is not completable at this time.]",
+                "logText":"Nocmar tells me he used to be a smith. But Lord Geomyr has banned the use of heartsteel, so he cannot forge his weapons anymore.\nIf I can find a heartstone and bring it to Nocmar, he should be able to forge the heartsteel again.",
                 "finishesQuest":0
+            },
+            {
+                "progress":30,
+                "logText":"Nocmar, the Fallhaven smith said that I could find a heartstone in a place called Undertell which is somewhere near Galmore Mountain."
+            },
+            {
+                "progress":35,
+                "logText":"Myrelis, the ghost artist that I met in the Galmore encampment informed me that the entrance to Undertell is located just southwest of his building.\n\n[Quest is not completable at this time.]"
             },
             {
                 "progress":200,
@@ -510,6 +543,17 @@
                 "logText":"I have killed Vacor and told Unzel about the deed.",
                 "rewardExperience":1600,
                 "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"andor_ending",
+        "name":"Excluded endings for the main quest andor",
+        "showInLog":0,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Giving up the quest to be a hero or villain"
             }
         ]
     }

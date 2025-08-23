@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="16">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="12" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="17" nextobjectid="18">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -203,19 +203,19 @@
    eJxjYCAe8HFB6MtiJGgCgsNY1IPMuCXJwHCInzj1l4Bi0ljU4lJPjHu2spKmHh1sJNE9J4DqDxPpXxj4gsMOYgEATQQO1g==
   </data>
  </layer>
- <layer id="3" name="Above" width="12" height="10" visible="0">
+ <layer id="3" name="Above" width="12" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYCAe8HFB6MtiJGgCgsNY1OMzA5v6SySqJ8Y9W1lJU48ONvKT7p6TWPTgU/8Fhx3EAgBKfQwX
   </data>
  </layer>
- <layer id="12" name="Top" width="12" height="10" visible="0">
+ <layer id="12" name="Top" width="12" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwxkAAAHgAAE=
+   eJxjYKAc7JaigiGjgCYAAFihANY=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="12" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFIDALEqqUnJhaQqgddLbo+bPL4zKememLjBQAAWzyj
+   eJzbKMbAsBEJI4ONWOSwieFSjw2Tqp5UM/EBUvWgq8XlfmLNp6Z6QvECwwC+CTWk
   </data>
  </layer>
  <layer id="9" name="ratdom_Top" width="12" height="10" visible="0">
@@ -225,17 +225,17 @@
  </layer>
  <layer id="8" name="Top0" width="12" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwxkAAAHgAAE=
+   eJxjYKAc7JaigiGjgCYAAFihANY=
   </data>
  </layer>
  <layer id="13" name="ratdom_Walkable" width="12" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFIDALEqqUnJhaQqgddLbo+fGFDrHnkqic2XgB5iT1q
+   eJzbKMbAsBEJI4ONWOSwieFSjw2Tqp5UM/EBUvWgq8XnfmLMx2YeueoJxQsMAwA3RjZr
   </data>
  </layer>
  <layer id="14" name="Walkable0" width="12" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFIDALEqqUnJhaQqgddLbo+bPL4zKememLjBQAAWzyj
+   eJzbKMbAsBEJI4ONWOSwieFSjw2Tqp5UM/EBUvWgq8XlfmLNp6Z6QvECwwC+CTWk
   </data>
  </layer>
  <objectgroup id="5" name="mapevents" visible="0">
@@ -254,12 +254,22 @@
    </properties>
   </object>
   <object id="14" name="ratdom_wakeup" type="script" x="64" y="128" width="32" height="64"/>
+  <object id="16" name="cavea" type="mapchange" x="160" y="32" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="6" name="keys" visible="0">
   <object id="6" name="andor:1" type="key" x="0" y="288" width="384" height="32">
    <properties>
     <property name="phrase" value="keyarea_andor1"/>
     <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="17" name="cavea" type="key" x="128" y="0" width="96" height="96">
+   <properties>
+    <property name="phrase" value="mg2_home_cavea"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="1"/>
    </properties>
@@ -295,7 +305,7 @@
   </properties>
   <object id="11" name="ratdom_startitems2" type="container" x="320" y="256" width="32" height="32"/>
  </objectgroup>
- <objectgroup id="10" name="Replace">
+ <objectgroup id="10" name="Replace" visible="0">
   <object id="12" name="ratdom_nondisplay_1" type="replace" x="32" y="32" width="320" height="256">
    <properties>
     <property name="Top" value="ratdom_Top"/>

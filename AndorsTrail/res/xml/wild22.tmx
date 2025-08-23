@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="23">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="24">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -187,7 +187,7 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJydVk1LgkEQljcyTPIzRUMF6VaHPg6BdIiCgi5ldReiUyF0qEsQBHXzWuK5gz8lqmMeMk/hrYISu2fNsDvsvOvuq/TAsLNfz/vM7M7qQtrnWwTT0Y4p/zmq/E60fy3fswpca2Dvcv9JzLy2a+FvSr8l20PgOjLoo/mAo8bW43ZtHFXH/U1CHcbTTv844VXOYZym/Rw4X9O4zqGftPCXHaWNYIuHOOYn3X39WwTMacui98CwN6GNYdztMfP+uly7op0RcZi0VUeFmYB5Q87ttMp3IePz7TuipT7ixy/aW8ZHet6SbuPYzJjbCUuMiBHgOA0IH9vZrJpDHSW/0IVW8rONcIYPLPdfEaExbuCjeEkH6iJtJvAcTnvo+y/o7HS+HqvdqbBof9lYUI49yrjxTr8k3YZ8qL8MVpDc99odvQspPxVW/rf2plAtItcN2LXlbun6qdby8P0lQ60h1xbMFaXtZN19srNI/96NuHrLKI/IN8fyuAv+nsc5YVx5j/nigP0cHyxn+IY/Wd5l1Bpkub6SsY2HzesJw9432/s3LELynBpwNz4j3rpaUfUeEPR3e1BcVFME0+/foNh5PpGPctBIKZ0EOpflIfN5yWqe+Ai294+DnwfpwFpGvpms+J1uMn29BJyBB5+Xzq52BxHIlQM79rgXFc3HOCtMLz/TnNR24Yj6rrHfXKwlHMN9+j1oan1ed/p/Ev5Nvg79jlazf+oBe0k=
+   eJydVj1LA0EQPU6MRDGJxgQjSUDstPCjEMRCFBRs/OwDYqUIFtoIgqBdWhVrC3+KqKUpjKnETgUN2vuxj91h5yZ7l+CDYWd3b9++md3ZZDzneRPKJJ57rf/QY/268T97vQZgzazimlP2aub3HN9JcP6q8Wum3VJc2w59NB/37dh8uvlewLkf3JNwpcZzfuM44cnMIU7Xeg7MXwiuQ9XPhvDv+FYbISwe4hjrC/blXgTktBaid9OxNiPGEPdzh3v9lfl2RpwRcbi0nbdrcwF5A+dyzuZ7Ku95G75uqQ98x3R7yfhIz0s2aByLeXfbHRIj0KY49uPaRztSsHPQUYppXbBSjC1UZ3jLcv+R0hrTDj6Kl3RAF2lzgedwKELff0FnJ/l+WE0PJHX7y8a6zNidiRt3+jEbNPBB/46yKcN9I+7odcL6/Unrf4k3hWoRXGfKTkPultRPtTao9p901Bq4ltTcirHVQrBPdpBqXLuQtm8Z5RF8oyyPa8pfjzgnxDUYMb/SZD3HG8sZ3vD7kHcZWrtYrk9MbJ1J9/eEVu9b2PvXKhLmnCrqbrynonXVeux7QJDvdrO4qKYIdcc72ix2nk/wUQ4q/VYngc5lusV8HrOaJz5C2PvHwc+DdKCWwTdc0L/zVabvJ6POIIIvSuenuIMAuIrKdiPuRVn4iLPM9PIzLRptR76u7wv2m4tawhjWyXtQFX1ed/I/Cd+Tfwe/Lmr2DyrQe0k=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="30">
@@ -195,9 +195,9 @@
    eJxjYKAMWMui8iMlGRiiJMk3T1uWsBpiAchthMybygShpzMRdhOItiLBfQ/Z8ct/QpInxt8fB8i8R+zE+ZuRA788EweCJmQ3MQA5XrDZncKJSmMDuUjxDjMP5lcxPGkCGczhR6ivxWIeJQBkHswdpKQ9aoASPOFGDmjhRND48hu5AJTfLckIoxlobrFGSlfooFIAE0/F4hfkclEbj3mEAMxsbSzmUZIesJlHCZhORLq/K0CamfjiARcoBKatJCSMDCiJB2wAZg45abkQj/tAAOb+VQTYxLjvnyjp7gMB9HSNL9xgbkEPd2zxgM+8LiwY2R2gsEYXI8Z9IICez/EBbOZjA8hxj60tAQAJDjTY
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="30" visible="0">
+ <layer id="4" name="Walkable" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJzVlDsOwCAMQ7lGBu5/TRhRlI8TzEAkq3Tgxfm0MseQLStk9vWax2LdcDzeLf8F73zqM6N/LJ7lFa3Pqxntnb6T9bBTF8Lzcnh9svrGCBYPmVWU32Iheaq+dM5shsjsM17mK+Khge77b7zqfDr+on/I+c7mVeTdq/rTe4Z+pyg72mmGmCyWFveQSFs=
+   eJzVlEsOgCAMRLkGC+5/Td2YmKafV5iFNpmFKK/TFplrjHnLC2/9WZsrF+XZ95RXfUdZVR1EWY1f4dm5ndTu+VHxPK+0vqhm2ju7p+rhTl2EF+WI+uT1TREqHplVlt9jkTxdXzZnNUMy+4pX+cp4NOh5/xuvO58df9kd8n5W8zqK9nX92XNG/1PKzs60QkqWSheC2EVn
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents" visible="0">
@@ -231,7 +231,7 @@
     <property name="place" value="exit1"/>
    </properties>
   </object>
-  <object id="6" name="north" type="mapchange" x="64" y="0" width="160" height="32">
+  <object id="6" name="north" type="mapchange" x="64" y="0" width="320" height="32">
    <properties>
     <property name="map" value="wild18"/>
     <property name="place" value="south"/>
@@ -302,6 +302,11 @@
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="stn_gyra1"/>
+   </properties>
+  </object>
+  <object id="23" name="mg2_starwatcher" type="spawn" x="384" y="64" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="mg2_starwatcher"/>
    </properties>
   </object>
  </objectgroup>

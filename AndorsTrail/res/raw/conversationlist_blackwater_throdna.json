@@ -3,6 +3,22 @@
         "id":"throdna_start",
         "replies":[
             {
+                "nextPhraseID":"dds_throdna_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":90
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"throdna_purify_4",
                 "requires":[
                     {
