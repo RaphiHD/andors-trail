@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-02-08 18:10+0000\n"
-"Last-Translator: Anderson Nogueira Silva <anderson_x123@hotmail.com>\n"
+"PO-Revision-Date: 2025-08-02 19:02+0000\n"
+"Last-Translator: Erick Ferraz Vieira <efverick@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.13-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -4746,35 +4746,40 @@ msgstr "Bah, você é inútil. Tchau."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel1
 msgid "Hey, kid! Don't be so nosy!"
-msgstr ""
+msgstr "Hey, criança! Não seja tão intrometido!"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2a
 msgid ""
 "A sign says 'Jail'\n"
 "The exit above is blocked though."
 msgstr ""
+"Uma placa diz 'Prisão' \n"
+"A saída acima está bloqueada."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2b
 msgid ""
 "A sign says 'Arcir'\n"
 "The exit above is blocked though."
 msgstr ""
+"Uma placa diz 'Arcir' \n"
+"A saída acima está bloqueada."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel2c
 msgid "Attention - the catacombs. Keep silent!"
-msgstr ""
+msgstr "Atenção - as catacumbas. Fique em silêncio!"
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3
 msgid "Looks like the tunnel isn't quite finished yet."
-msgstr ""
+msgstr "Parece que o túnel não está finalizado ainda."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:0
+#, fuzzy
 msgid "Typical Troublemaker - can't finish anything."
-msgstr ""
+msgstr "Encrenqueiro típico - não consegue finalizar nada."
 
 #: conversationlist_thievesguild_1.json:fallhaven_tunnel3:1
 msgid "So I have to go back the way I came."
-msgstr ""
+msgstr "Então eu tenho que voltar pelo caminho que vim."
 
 #: conversationlist_farrik.json:farrik_1
 msgid "Hello. I heard that you helped us find the key of Luthor. Good work, it will really come in handy."
@@ -5904,8 +5909,11 @@ msgstr "Caminhe com a Sombra, meu amigo."
 #: conversationlist_stoutford.json:yolgen_initial_0:7
 #: conversationlist_stoutford.json:tahalendor_rumblings10x_0:5
 #: conversationlist_thoronir_faction_check.json:thoronir_start:4
+#, fuzzy
 msgid "I need some help finding out who is responsible for casting a Shadow spell that causes a person to become noticeable."
 msgstr ""
+"Eu preciso de ajuda para descobrir quem é a pessoa responsável por lançar um "
+"feitiço da Sombra que faz com que uma pessoa se torne perceptível."
 
 #: conversationlist_jolnor.json:jolnor_chapel_1
 msgid "This is Vilegard's place of worship for the Shadow. We praise the Shadow in all its might and glory."
@@ -13215,24 +13223,28 @@ msgid "What blessings can you provide?"
 msgstr "Que bênçãos você pode oferecer?"
 
 #: conversationlist_talion.json:talion_0:4
+#, fuzzy
 msgid "Sorry, we were interrupted. You were just talking about the Striking Spectacle Shadow spell."
 msgstr ""
+"Desculpa, fomos interrompidos. Você estava falando sobre o feitiço 'Sombra "
+"de Espetáculo Impressionante'."
 
 #: conversationlist_talion.json:talion_0:5
 msgid "Here I've brought you the things that you require for the dispelling."
-msgstr ""
+msgstr "Aqui, eu trouxe as coisas que você precisava para dissipar o feitiço."
 
 #: conversationlist_talion.json:talion_0:6
+#, fuzzy
 msgid "Do you know the whereabouts of Sly Seraphina?"
-msgstr ""
+msgstr "Você sabe o paradeiro de Sly Seraphina?"
 
 #: conversationlist_talion.json:talion_0:7
 msgid "I've brought you the things you had required for dispelling."
-msgstr ""
+msgstr "Eu trouxe as coisas que você precisava para dissipar o feitiço."
 
 #: conversationlist_talion.json:talion_0:8
 msgid "Haven't you forgotten something?"
-msgstr ""
+msgstr "Você não se esqueceu de algo?"
 
 #: conversationlist_talion.json:talion_1
 msgid "The people of Loneford are very keen on following the will of Feygard, whatever it may be."
@@ -32746,7 +32758,7 @@ msgstr "É o meu trabalho. É bom ver que você sobreviveu aos morde tornozelos.
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10:2
 msgid "Hmm, maybe you can help me?"
-msgstr ""
+msgstr "Hmm, talvez você possa me ajudar?"
 
 #: conversationlist_omicronrg9.json:umar_guild_4b
 msgid "What have you decided?"
@@ -53172,7 +53184,7 @@ msgstr "Vamos voltar depressa agora!"
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_10
 msgid "An ancient bone catches your eye."
-msgstr ""
+msgstr "Um osso antigo chama a sua atenção."
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_10:0
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_12:0
@@ -53187,30 +53199,32 @@ msgstr "Não toque nisso."
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_12
 msgid "It seems to be a leg bone of a great old rat. Maybe you could find a better use for it?"
 msgstr ""
+"Parece ser um osso da perna de um rato velho grande. Talvez possa encontrar "
+"um uso melhor para isso?"
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_14
 msgid "You slip the bone unobtrusively into your pocket."
-msgstr ""
+msgstr "Você desliza o osso discretamente no seu bolso."
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_20
 msgid "You look at the pile of bones."
-msgstr ""
+msgstr "Você olha para a pilha de ossos."
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_20:0
 msgid "Put the leg bone back onto the pile."
-msgstr ""
+msgstr "Coloque o osso da perna de volta na pilha."
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_20:1
 msgid "Maybe you could put another bone from your bag instead?"
-msgstr ""
+msgstr "Talvez você possa colocar outro osso da sua mochila no lugar?"
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_22
 msgid "The pile of bones is complete again."
-msgstr ""
+msgstr "A pilha de ossos está completa novamente."
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_24
 msgid "Inconspicuously you search your bag for other bones."
-msgstr ""
+msgstr "Discretamente você revira sua mochila procurando por outros ossos."
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_24:0
 msgid "A bone."
@@ -53222,39 +53236,46 @@ msgstr "Um osso contaminado."
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_24:2
 msgid "Rats, I don't find any similar looking bone."
-msgstr ""
+msgstr "Ratos, não acho nenhum osso semelhante."
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s1_30
 msgid "You exchange the ancient bone for the wrong bone and try to look as innocent as possible."
 msgstr ""
+"Você troca o osso antigo pelo osso errado e tenta parecer o mais inocente "
+"possível."
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s3_10
 msgid "I am really disappointed in you to steal my most precious bone. I'll take it back now."
 msgstr ""
+"Eu estou realmente desapontado com você por roubar meu osso mais precioso. "
+"Vou pegar ele de volta agora."
 
 #: conversationlist_ratdom.json:ratdom_bone_collector_s3_10:0
+#, fuzzy
 msgid "Yikes! You have startled me. Yes, sorry."
-msgstr ""
+msgstr "Caramba! Você me assustou agora. Sim, desculpa."
 
 #: conversationlist_ratdom.json:crossglen_cave_ratdom_key_10
 msgid "The rock wall looks quite massive. There is just a tiny little hole in the shape of a bone."
 msgstr ""
+"A parede de pedra parece bastante maciça. Tem apenas um buraco pequeno no "
+"formato de um osso."
 
 #: conversationlist_ratdom.json:crossglen_cave_ratdom_key_10:0
 msgid "What would happen if I put a bone into the hole?"
-msgstr ""
+msgstr "O que aconteceria se eu colocasse um osso nesse buraco?"
 
 #: conversationlist_ratdom.json:crossglen_cave_ratdom_key_20
 msgid "The massive rock wall just disappears!"
-msgstr ""
+msgstr "A parede de pedra maciça desapareceu!"
 
 #: conversationlist_ratdom.json:ratdom_door_412_10
 msgid "There is a guard somewhere behind this massive gate."
-msgstr ""
+msgstr "Tem um guarda em algum lugar depois desse portão enorme."
 
 #: conversationlist_ratdom.json:ratdom_door_412_20
 msgid "Hey, this massive looking gate has a hole."
-msgstr ""
+msgstr "Olha, esse portão enorme parece ter um buraco."
 
 #: conversationlist_ratdom.json:ratdom_door_412_30
 msgid "This is a rather massive gate."
@@ -83949,4 +83970,3 @@ msgstr "Lago Learoth"
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
 msgstr "Vila de Wexlow"
-

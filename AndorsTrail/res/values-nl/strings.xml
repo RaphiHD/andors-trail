@@ -625,11 +625,7 @@
     <string name="loadsave_import_save_unsuccessfull">Importeren mislukt</string>
     <string name="loadsave_import_worldmap_wrong_directory">- overbodig -</string>
     <string name="loadsave_importing_worldmap">Wereldkaart aan het importeren</string>
-    <string name="loadsave_import_file_exists_question">Er bestaat al een opgeslagen spel op de gekozen plaats. Wil je het bestaande spel behouden, overschrijven met het geïmporteerde spel of het spel op een andere plaats opslaan?
-\n
-\n%1$s
-\n
-\n$2$s</string>
+    <string name="loadsave_import_file_exists_question">Er bestaat al een opgeslagen spel op de gekozen plaats. Wil je het bestaande spel behouden, overschrijven met het geïmporteerde spel of het spel op een andere plaats opslaan? \n \n%1$s \n \n%2$s</string>
     <string name="loadsave_import_imported_description">Geïmporteerd spel: Plaats: %1$s:
 \n\t%2$s</string>
     <string name="loadsave_import_worldmap">Importeer wereldkaart</string>

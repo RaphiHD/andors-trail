@@ -189,9 +189,7 @@
     <string name="about_button3">Chứng chỉ</string>
     <string name="levelup_add_attackdamage_description">Tăng %1$d vào sát thương cơ bản.</string>
     <string name="dialog_groundloot_title">Các món đồ</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nAndor\'s Trail cần quyền truy cập vào bộ nhớ với mục đích duy nhất là để lưu và tải lượt chơi của bạn."</string>
+    <string name="dialog_newversion_permission_information">\n\nAndor\'s Trail cần quyền truy cập vào bộ nhớ với mục đích duy nhất là để lưu và tải lượt chơi của bạn.</string>
     <string name="dialog_permission_information_title">Tải và lưu lượt chơi</string>
     <string name="questlog_includecompleted_prompt">Chọn nhiệm vụ cần hiển thị</string>
     <string name="questlog_includecompleted_hidecompleted">Nhiệm vụ đang làm</string>
@@ -256,7 +254,7 @@
     <string name="iteminfo_effect_works_when_equipped">Khi được mặc</string>
     <string name="iteminfo_effect_works_when_hit_by_attacker">Khi bị đánh bởi người tấn công</string>
     <string name="iteminfo_effect_works_when_killed_by_attacker">Khi bị giết bởi người tấn công</string>
-    <string name="iteminfo_effect_decrease_current_hp">"Hút %1$s  HP"</string>
+    <string name="iteminfo_effect_decrease_current_hp">Hút %1$s HP</string>
     <string name="iteminfo_effect_increase_current_hp">Phục hồi %1$s HP</string>
     <string name="iteminfo_effect_decrease_current_ap">Húp %1$s AP</string>
     <string name="iteminfo_effect_increase_current_ap">Phục hồi %1$s AP</string>
@@ -299,7 +297,7 @@
     <string name="skill_shortdescription_barter">Giá của hàng tốt hơn</string>
     <string name="skill_shortdescription_weapon_chance">Tăng khả năng tấn công</string>
     <string name="skill_shortdescription_weapon_dmg">Tăng sát thương</string>
-    <string name="skill_longdescription_barter">"Với mỗi cấp kỹ năng,giảm giá mua vật phẩm %1$d  phần trăm."</string>
+    <string name="skill_longdescription_barter">Với mỗi cấp kỹ năng,giảm giá mua vật phẩm %1$d phần trăm.</string>
     <string name="skill_longdescription_speed">Tăng điểm hành động tối đa (AP) thêm %1$d cho mỗi cấp độ kỹ năng.</string>
     <string name="skill_longdescription_coinfinder">Tăng cơ hội tìm thấy vàng trong vật phẩm rơi ra từ quái vật lên %1$d %% và tăng lượng vàng rơi ra lên %2$d %% cho mỗi cấp độ kỹ năng (lên đến lượng vàng tối đa mà quái vật rơi ra).</string>
     <string name="skill_longdescription_cleave">Tăng +%1$d điểm hành động (AP) cho mỗi lần tiêu diệt theo cấp độ kỹ năng.</string>
@@ -500,7 +498,7 @@
     <string name="skill_shortdescription_resistance_mental">Sức đề kháng chống lại các trạng thái tinh thần</string>
     <string name="skill_shortdescription_resistance_physical_capacity">Sức đề kháng với các trạng thái về thể lực</string>
     <string name="skill_shortdescription_resistance_blood_disorder">Sức đề kháng chống lại chảy máu</string>
-    <string name="skill_longdescription_weapon_chance">Tăng tỉ lệ trúng thêm %1$d phần trăm với mỗi cấp kỹ năng</string>
+    <string name="skill_longdescription_weapon_chance">Tăng tỉ lệ trúng thêm %1$d phần trăm với mỗi cấp kỹ năng.</string>
     <string name="skill_longdescription_weapon_dmg">Tăng sát thương thêm %1$d với mỗi cấp kỹ năng.</string>
     <string name="skill_longdescription_dodge">Tăng khả năng chặn thêm %1$d phần trăm với mỗi cấp kỹ năng.</string>
     <string name="skill_longdescription_barkskin">Tăng khả năng kháng sát thương thêm %1$d với mỗi cấp kỹ năng.</string>
@@ -523,7 +521,7 @@
     <string name="loadsave_export_successfull">Xuất file thành công</string>
     <string name="loadsave_export_unsuccessfull">Xuất file không thành công</string>
     <string name="loadsave_export_overwrite_confirmation_title">Ghi đè lên các tập tin hiện có?</string>
-    <string name="loadsave_export_overwrite_confirmation">Thư mục đích chứa các tệp hiện có có cùng tên với một số tệp cần được xuất. Bạn có chắc chắn muốn ghi đè lên các tệp đó không?</string>
+    <string name="loadsave_export_overwrite_confirmation">Thư mục đích chứa các tệp hiện có cùng tên với một số tệp cần được xuất. Bạn có chắc chắn muốn ghi đè lên các tệp đó không?</string>
     <string name="loadsave_export_error_unknown">Đã xảy ra lỗi không xác định khi xuất.</string>
     <string name="loadsave_import_save">Nhập file savegame</string>
     <string name="loadsave_import_save_info">Vui lòng chọn tất cả Savegame mà bạn muốn nhập.</string>

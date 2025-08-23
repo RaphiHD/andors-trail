@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-07-23 22:53+0000\n"
+"PO-Revision-Date: 2025-08-11 05:02+0000\n"
 "Last-Translator: xvy <2265088018@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/andors-trail/game-content/zh_Hans/>\n"
@@ -997,7 +997,7 @@ msgid ""
 msgstr ""
 "你好孩子。这不是米哈伊尔的儿子吗？我记得你还有一个哥哥。\n"
 "\n"
-"我是利奥尼德，克罗斯谷村的事务官。"
+"我是利奥尼德，克罗斯谷村的管事。"
 
 #: conversationlist_crossglen_leonid.json:leonid1:1
 #: conversationlist_crossglen_leonid.json:leonid_continue:1
@@ -18616,7 +18616,7 @@ msgstr "又见面了。听闻到恩泽尔还活着，你还帮我将信交给了
 
 #: conversationlist_vacor2.json:vacor_msg1
 msgid "What's that in your hands?! ... I recognize that seal!"
-msgstr "你手里拿的是什么东西？！……我认得这个密封处的印戳！"
+msgstr "你手里拿的是什么东西？！……我认得这个火漆印！"
 
 #: conversationlist_vacor2.json:vacor_msg1:0
 msgid "You should recognize it, I found this on one of Unzel's associates in Remgard."
@@ -18826,51 +18826,53 @@ msgstr "贵族廷戈斯安息于此，愿她身后之物为世人所铭记。"
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave1
 msgid "Here lies the remains of Sir Eneryth's horse, Shadowsteed."
-msgstr "这里躺着埃内瑞斯爵士的马的残骸--暗影马。"
+msgstr "埃内瑞斯爵士的爱马 “影驹” 长眠于此。"
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave2
 msgid "Here lies Sir Eneryth of house Gellir. Son of Sir Anarogas, and the elder brother of Sir Karthanir."
-msgstr "这里躺着的是格里尔家族的埃内瑞斯爵士。阿纳罗伽斯爵士的儿子，也是卡尔萨尼尔爵士的哥哥。"
+msgstr "格里尔家族的埃内瑞斯爵士长眠于此。他是阿纳罗伽斯爵士之子，亦是卡萨尼尔爵士的"
+"长兄。"
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3
 msgid "Here lies Sir Karthanir of house Gellir. Son of Sir Anarogas, and the younger brother of Sir Eneryth."
-msgstr "格里尔家族的卡萨尼尔爵士长眠于此。阿纳罗伽斯爵士之子，埃内瑞斯爵士之弟。"
+msgstr "格里尔家族的卡萨尼尔爵士长眠于此。他是阿纳罗伽斯爵士之子，亦是埃内瑞斯爵士的"
+"幼弟。"
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3:0
 msgid "There is the ladder. [Fetch it]"
-msgstr "这里有把梯子。[抓到手中]"
+msgstr "这里有把梯子。[一把抓住]"
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave4
 msgid "Here lies Lady Gelythus of house Gellir. Wife of Sir Eneryth of house Gellir."
-msgstr "格里尔家族的盖利斯女士长眠于此。格里尔家族的埃内瑞斯爵士的妻子。"
+msgstr "格里尔家族的盖利斯女士长眠于此。她乃是格里尔家族的埃内瑞斯的妻子。"
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave1
 msgid "Here lies ta'Draiden, servant of the Shadow in the chapel of Fallhaven."
-msgstr "这里躺着塔德雷登，在法尔海文的小教堂的暗影的仆从。"
+msgstr "塔德雷登长眠于此，生前他侍奉暗影于法尔海文教堂。"
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave2
 msgid "Here lies ta'Tembas, servant of the Shadow in the chapel of Fallhaven."
-msgstr "这里躺着的是塔坦巴斯，在法尔海文的小教堂里的暗影的仆从。"
+msgstr "塔坦巴斯长眠于此，生前他侍奉暗影于法尔海文教堂。"
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave3
 msgid "Here lies Elodam, servant of Sir Eneryth of house Gellir."
-msgstr "埃洛丹 长眠于此，他是格里尔家族埃内瑞斯爵士的仆人。"
+msgstr "埃洛丹长眠于此，生前他乃是格里尔家族的埃内瑞斯爵士的仆人。"
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave4
 msgid "Here lies the remains of one-eyed Tragdas, servant of Sir Eneryth of house Gellir."
-msgstr "这里躺着独眼的特拉格达斯的遗体，他是格里尔家族的埃内瑞斯爵士的仆人。"
+msgstr "独眼的查格达斯长眠于此，生前他乃是格里尔家族的埃内瑞斯爵士的仆人。"
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave5
 msgid "Here lies Lerythal the kind. May she rest with the Shadow."
-msgstr "勒里塔尔就在这里。愿她和暗影一起安息。"
+msgstr "莱瑞莎安息于此，愿她与暗影同眠。"
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave6
 msgid "Here lies Kragnis the second, steward of the chapel of Fallhaven."
-msgstr "这里躺着的是克拉格尼斯二世，法尔海文小教堂的管家。"
+msgstr "科拉格尼斯长眠于此，生前他乃是法尔海文教堂的管事。"
 
 #: conversationlist_v0612graves.json:sign_catacombs2_grave7
 msgid "The writing on the grave reads: Rest with the Shadow, my dearest."
-msgstr "墓碑上写着：与暗影共眠，我最亲爱的。"
+msgstr "墓碑上写着：愿你与暗影同眠，我的至爱。"
 
 #: conversationlist_v0612graves.json:sign_catacombs2_papers1
 #: conversationlist_v0612graves.json:sign_bwm52_papers1
@@ -18879,43 +18881,46 @@ msgstr "地板上的这张纸片看起来像是从某本书上撕下来的。"
 
 #: conversationlist_v0612graves.json:sign_catacombs2_papers2
 msgid "You find some crumpled papers on the floor, containing scribbled notes about the fine arts of pottery making. You decide to leave them be."
-msgstr "你在地板上发现了一些皱巴巴的纸，里面是关于制陶艺术的潦草笔记。你决定不去管它们。"
+msgstr "你在地板上看见了几张皱巴巴的纸，上面潦潦草草写着做陶艺的门道。你想了想，还是"
+"决定不带走了。"
 
 #: conversationlist_v0612graves.json:sign_catacombs3_grave1
 msgid "The grave reads: Here lies Sir Anarogas of house Gellir, son of Gellir the brave."
-msgstr "坟墓上写着。这里躺着格里尔家族的阿纳罗伽斯爵士，勇敢的格里尔之子。"
+msgstr "坟墓上这样写着：格里尔家族的阿纳罗伽斯爵士长眠于此，他是勇敢的格里尔之子。"
 
 #: conversationlist_v0612graves.json:sign_catacombs3_grave2
 msgid "The stench coming from the grave is unbearable. Something must have disturbed the grave recently."
-msgstr "从坟墓里传出的臭味让人难以忍受。最近一定有什么东西扰乱了坟墓。"
+msgstr "这处坟墓向外散发着难以忍受的恶臭，肯定是有什么东西最近惊扰了这座坟墓。"
 
 #: conversationlist_v0612graves.json:sign_catacombs4_grave1
 msgid "The cross reads: ta'Dreg lies here, advisor of the Shadow to king Luthor."
-msgstr "十字架上写着：塔准克躺在这里，他是路德国王的暗影顾问。"
+msgstr "十字架上这样写着：塔准克安息于此，生前他乃是路德国王在暗影事务上的顾问。"
 
 #: conversationlist_v0612graves.json:sign_catacombs4_grave2
 msgid "The grave reads: King Luthor, our savior and leader. The grave is also adorned with the golden seal of house Luthor."
-msgstr "墓碑上写着：路德国王，我们的救世主和领袖。坟墓上还装饰着路德家族的金印。"
+msgstr "墓碑上这样写着：路德国王，我们的救世主和领袖。此外，这座坟墓上还装饰有路德家"
+"族的金印。"
 
 #: conversationlist_v0612graves.json:sign_hh3_papers
 msgid "Perched under the statue, you find some papers with drawings of what looks like skeletons. The drawings look like they were made by a child, and you start to wonder how they could have ended up in a place such as this."
-msgstr "在雕像下面，你发现了一些纸，上面画着一些看起来像骷髅的东西。这些画看起来是一个孩子画的，你开始怀疑它们怎么会出现在这样的地方。"
+msgstr "你在雕像下方找到了几张纸片，上面画着看似骷髅的图案。这些画作似乎出自孩童之手"
+"，你有点疑惑它们是怎么会出现在这样的地方的。"
 
 #: conversationlist_v0612graves.json:sign_hh3_grave
 msgid "Someone has written the words 'Rest' and 'Shadow' on the cross, in what looks like dried blood."
-msgstr "有人在十字架上写下了 \"休息 \"和 \"暗影 \"的字样，看起来像是干涸的血液。"
+msgstr "十字架上被人写下了“暗影”和“同眠”的字样，其墨似为干掉的血迹。"
 
 #: conversationlist_v0612graves.json:sign_bwm30_grave
 msgid "The cross reads: Rest with the Shadow, my dear."
-msgstr "十字架上写着。与暗影一起休息，我亲爱的。"
+msgstr "十字架上写着：愿你与暗影同眠，亲爱的。"
 
 #: conversationlist_v0612graves.json:sign_bwm33_grave
 msgid "The tombstone contains writing in a language that you do not understand."
-msgstr "墓碑上写有你不懂的语言。"
+msgstr "墓碑上写有一些文字，但你不认得这种语言。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave1
 msgid "The cross reads: Here lies Magnir the trader. Another casualty of those beasts."
-msgstr "十字架上写着：商人马格纳长眠于此，同样是死于那些野兽。"
+msgstr "十字架上写着：商人马格纳长眠于此，又一位死于那些野兽之人。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave2
 msgid "The grave looks like it has been recently dug."
@@ -18923,7 +18928,7 @@ msgstr "这处坟看起来是最近新挖的。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave3
 msgid "The cross reads: Here lies Torkurt, loyal servant of the Blackwater mountain settlement."
-msgstr "十字架上写着：托尔库特长眠于此，他是黑水定居点的一名忠实的仆从。"
+msgstr "十字架上写着：托尔库特长眠于此，他生前是黑水定居点的一名忠实的侍从。"
 
 #: conversationlist_v0612graves.json:sign_bwm52_grave4
 msgid "The cross reads: Here lies o'Rani, the most fierce warrior on this side of the mountain. May she rest in peace."
@@ -18947,7 +18952,8 @@ msgstr "你发现了一幅白种双足飞龙的简笔画，但你决定还是别
 
 #: conversationlist_v0612graves.json:sign_pwcave1_grave
 msgid "The cross shows lots of small indentations, as if someone hit it repeatedly with a sharp object. You can barely make out the words: \"Rest with the Shadow, my friend. I will avenge your death by those beasts\"."
-msgstr "十字架上有很多小刻痕，好像是有人用尖锐的物体反复凿出的。你可以勉强看清这些字：\"愿暗影护佑你安息，我的朋友。我会向杀死你的那些野兽报仇的\"。"
+msgstr "十字架上有很多小刻痕，好像是有人用尖锐的物体反复凿出的。你可以勉强看清这些字"
+"：\"愿你与暗影同眠，我的朋友。我会向杀死你的那些野兽报仇的\"。"
 
 #: conversationlist_v0612graves.json:sign_pwcave2a_grave
 msgid "The cross contains symbols that you cannot understand."
@@ -18983,31 +18989,38 @@ msgstr "十字架上的符号你并不太理解，不过上面还有一幅精心
 
 #: conversationlist_v0612graves.json:sign_waterway14_hole
 msgid "You stop to notice a hole in the wall near the ground, large enough to fit something in. The ground here shows recent shoe-prints, which could indicate that the hole in the wall is a hiding place of some sort. However, it seems to be empty now."
-msgstr "你停下脚步，注意到靠近地面的墙上有一个洞，这个洞大到可以放些东西进去。这儿的地面上有不久前留下的鞋印，这可能意味着墙上的那个洞是用来藏东西的地方，不过洞现在似乎是空的。"
+msgstr ""
+"你停下脚步，注意到靠近地面的墙上有一个洞，这个洞大到可以放些东西进去。这儿的"
+"地面还留有新踩的鞋印，这可能意味着墙上的那个洞是用来藏东西的地方，不过洞现在"
+"似乎是空的。"
 
 #: conversationlist_v0612graves.json:sign_waterway11e_grave
 msgid "The cross reads: Here lies Telban. A beloved friend of many, and a dreaded foe for those that did not pay up."
-msgstr "十字架上写着：这里是特尔班。许多人挚爱的朋友，以及那些不付钱的人的可怕敌人。"
+msgstr "十字架上写着：特尔班安息于此。他是众人心间挚爱的友人，亦是那些拖欠款项者眼中"
+"的可怖之敌。"
 
 #: conversationlist_v0612graves.json:sign_mountaincave0_grave
 msgid "The cross reads: Tengil the needy lies here, after having succumbed to the nastiest of poisons. Rest with the Shadow, my friend."
-msgstr "十字架上写着。需要帮助的腾格尔躺在这里，在屈服于最恶心的毒药之后。与暗影一起安息吧，我的朋友。"
+msgstr "十字架上写着：困顿的滕吉尔长眠此地，命殒于最歹毒的毒药。愿你与暗影同眠，吾友"
+"。"
 
 #: conversationlist_v0612graves.json:sign_mountainlake1_grave
 msgid "The ground around the grave looks like it has been partially dug up by animals. They don't seem to have gotten anywhere yet though."
-msgstr "坟墓周围一部分泥土看起来像是被动物挖掘过，不过它们目前似乎还没什么进展。"
+msgstr "坟墓周边的土壤像是被动物刨开了一部分。但就眼前的情况来看，它们并没有挖出啥名"
+"堂来。"
 
 #: conversationlist_v0612graves.json:sign_waytobrim3_grave1
 msgid "Here lies the remains of Ilirathos, mother of two."
-msgstr "这里躺着两个孩子的母亲伊利拉托斯的遗体。"
+msgstr "伊利拉索斯安息于此，她是两个孩子的母亲。"
 
 #: conversationlist_v0612graves.json:sign_waytobrim3_grave2
 msgid "Ke'roos lies here. No one knew him in life since he always kept to himself, but we all thank him for the generous gifts he left behind for Brimhaven."
-msgstr "科鲁斯躺在这里。没有人认识他，因为他总是独来独往，但我们都感谢他为布林海文留下了慷慨的礼物。"
+msgstr "科鲁斯长眠于此。生前他向来孤僻自处，因而生前无人知晓他的过往，不过对于他为布"
+"林海文留下的厚礼，我们永怀谢意。"
 
 #: conversationlist_v0612graves.json:sign_waytobrim3_grave3
 msgid "Here lies Lawellyn the weak."
-msgstr "这里躺着劳林。"
+msgstr "孱弱的劳林长眠于此。"
 
 #: conversationlist_v0612graves.json:sign_waytolake2_grave
 msgid "The cross is covered with a thick layer of web. You wonder why anyone would choose this place as a grave for their fallen."
@@ -19015,11 +19028,12 @@ msgstr "这个十字架上覆着一层厚厚的蜘蛛网，你很好奇为什么
 
 #: conversationlist_v0612graves.json:sign_lh1_grave
 msgid "Even though the wood on the cross looks like it was cut recently, you see no signs of anything being buried here."
-msgstr "尽管十字架上的木头看起来像是最近砍的，但你没有看到任何东西被埋在这里的迹象。"
+msgstr "尽管这十字架用的木材看起来是近期才切割出来的，但你并未发现此处有任何下葬的痕"
+"迹。"
 
 #: conversationlist_v0612graves.json:sign_lh1_sign
 msgid "On the wall, you see a plaque that reads: Bring unto me, that which I cannot bear, for it makes me stronger."
-msgstr "在墙上，你看到一块牌匾，上面写着：把我无法忍受的事带到我面前，因为它使我更强大。"
+msgstr "墙上有一块牌匾，上面写着：携我无法承受之物至我身前，因它会使我更而强大。"
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3_10
 #: conversationlist_v0612graves.json:
@@ -19028,19 +19042,20 @@ msgstr "你把梯子放在了小窗户下面。"
 
 #: conversationlist_agthor.json:agthor0
 msgid "Hello there. Please move along. These things are property of Feygard, and you have no business here."
-msgstr "您好。请继续前行。那些东西是费加德的资产，你无权干涉。"
+msgstr "你好，请你快移步离开。这些东西尽属费加德所有，此地非你所应驻足之处。"
 
 #: conversationlist_agthor.json:agthor_y1
 msgid "Hey, you're that kid! That kid that we've been hearing about. It's great to finally get a face on the stories we've heard."
-msgstr "哟，你就是那个家伙！那个我们一直听说的那个家伙。在我们听说的故事中终于有了个面孔，感觉真好。"
+msgstr "嘿，你就是那孩子把！就是我们常听人说起的那个孩子。终于见到故事里的人本人了，"
+"太好啦。"
 
 #: conversationlist_agthor.json:agthor_y2
 msgid "Please, anything I can help you with?"
-msgstr "请问我能帮到您什么的吗？"
+msgstr "请问有什么我能帮到你的吗？"
 
 #: conversationlist_agthor.json:agthor_y2:0
 msgid "Care to trade some items?"
-msgstr "想要交换一些东西吗？"
+msgstr "你想要交易一些东西吗？"
 
 #: conversationlist_agthor.json:agthor_y3
 msgid "Sorry, can't help you there. You're the only kid I've seen running along here in a long time."
@@ -19120,7 +19135,8 @@ msgstr "但我们一到这里就开始发生一些事情。我的同伴们开始
 
 #: conversationlist_aulowenn.json:aulowenn8
 msgid "I don't know if it was just me imagining things or if something truly happened to them. Anyway, one by one, we started to get fewer and fewer."
-msgstr "我不清楚这是否只是我的妄象，还是他们真的发生了什么。总之，我们队伍里的人开始一个接一个地变少。"
+msgstr "我不清楚这是否只是我的妄想，还是他们真的发生了什么。总之，我们队伍里的人开始"
+"一个接一个地变少。"
 
 #: conversationlist_aulowenn.json:aulowenn9
 msgid "Some of my men were killed by the creatures that live in these woods, some ran away by themselves and some have never come back from their scouting trips."
@@ -68189,7 +68205,7 @@ msgstr "锁子甲"
 
 #: itemcategories_1.json:spmail
 msgid "Splint mail"
-msgstr "条板甲"
+msgstr "板条甲"
 
 #: itemcategories_1.json:plmail
 msgid "Plate mail"
@@ -68761,11 +68777,11 @@ msgstr "坚固木塔盾"
 
 #: itemlist_v068.json:club_wood1
 msgid "Heavy iron club"
-msgstr "重铁棒"
+msgstr "沉重铁棒"
 
 #: itemlist_v068.json:club_wood2
 msgid "Balanced heavy iron club"
-msgstr "匀质重铁棒"
+msgstr "匀质沉重铁棒"
 
 #: itemlist_v068.json:gloves_grip
 msgid "Gloves of better grip"
@@ -68913,7 +68929,7 @@ msgstr "生锈铁剑"
 
 #: itemlist_v069_2.json:broken_buckler
 msgid "Broken wooden buckler"
-msgstr "破损木质圆盾"
+msgstr "毁损木质圆盾"
 
 #: itemlist_v069_2.json:used_gloves
 msgid "Blood-stained gloves"
@@ -69467,39 +69483,39 @@ msgstr "奥冈萝的戒指"
 
 #: itemlist_v0611_3.json:kaverin_message
 msgid "Kaverin's sealed message"
-msgstr "卡维林的密封信息"
+msgstr "卡维林的密封信件"
 
 #: itemlist_v0611_3.json:vacor_map
 msgid "Map to Vacor's old hideout"
-msgstr "瓦克旧藏身处的地图"
+msgstr "通往瓦克旧日藏身点的地图"
 
 #: itemlist_v070.json:ltbdy_lthr
 msgid "Sturdy leather cuirass"
-msgstr "坚固的皮革胸甲"
+msgstr "坚实皮胸甲"
 
 #: itemlist_v070.json:ltbdy_chmail
 msgid "Lightweight chainmail"
-msgstr "轻巧的链甲"
+msgstr "轻质锁子甲"
 
 #: itemlist_v070.json:ltbdy_spmail
 msgid "Lightweight splint mail"
-msgstr "轻质夹板甲"
+msgstr "轻质板条甲"
 
 #: itemlist_v070.json:haub_serp
 msgid "Serpent's hauberk"
-msgstr "蛇的锁子甲"
+msgstr "猛蛇链甲长衫"
 
 #: itemlist_v070.json:chmail2
 msgid "Worn chainmail"
-msgstr "破损的锁子甲"
+msgstr "破损锁子甲"
 
 #: itemlist_v070.json:hvbdy_rust
 msgid "Rusty heavy cuirass"
-msgstr "生锈的重胸甲"
+msgstr "生锈生锈胸甲"
 
 #: itemlist_v070.json:spmail2
 msgid "Worn splint mail"
-msgstr "破损的板甲"
+msgstr "破损板条甲"
 
 #: itemlist_v070.json:shdstlk
 msgid "Shadowstalker"
@@ -69507,23 +69523,23 @@ msgstr "暗影追猎甲"
 
 #: itemlist_v070.json:hvhead_irn
 msgid "Heavy iron skullcap"
-msgstr "重铁帽"
+msgstr "沉重铁圆帽"
 
 #: itemlist_v070.json:hvhead_stl
 msgid "Heavy steel skullcap"
-msgstr "重钢帽"
+msgstr "沉重钢圆帽"
 
 #: itemlist_v070.json:hglv_plat1
 msgid "Worn plated gloves"
-msgstr "破旧的板手套"
+msgstr "破旧板甲手套"
 
 #: itemlist_v070.json:hglv_irn
 msgid "Heavy iron gloves"
-msgstr "重铁手套"
+msgstr "沉重铁手套"
 
 #: itemlist_v070.json:hglv_chml
 msgid "Chainmail mittens"
-msgstr "锁子甲手套"
+msgstr "锁子甲连指手套"
 
 #: itemlist_v070.json:hglv_stl
 msgid "Reinforced steel gloves"
@@ -69531,27 +69547,27 @@ msgstr "强化钢手套"
 
 #: itemlist_v070.json:hglv_plat2
 msgid "Heavy plated gloves"
-msgstr "沉重的板手套"
+msgstr "沉重板甲手套"
 
 #: itemlist_v070.json:hboot_wirn
 msgid "Worn iron boots"
-msgstr "破旧的铁靴子"
+msgstr "破损铁靴"
 
 #: itemlist_v070.json:hboot_irn
 msgid "Heavy iron boots"
-msgstr "重铁靴"
+msgstr "沉重铁靴"
 
 #: itemlist_v070.json:hboot_plat
 msgid "Heavy plated boots"
-msgstr "重板靴"
+msgstr "沉重板甲靴子"
 
 #: itemlist_v070.json:clmr_dl
 msgid "Dull two-handed sword"
-msgstr "钝的双手剑"
+msgstr "钝滞双手剑"
 
 #: itemlist_v070.json:clmr_rst
 msgid "Rusty claymore"
-msgstr "生锈的大剑"
+msgstr "生锈大剑"
 
 #: itemlist_v070.json:clmr_irn1
 msgid "Two-handed iron sword"
@@ -69567,11 +69583,11 @@ msgstr "双手铁大剑"
 
 #: itemlist_v070.json:clmr_bers
 msgid "Claymore of the berserker"
-msgstr "狂暴者大剑"
+msgstr "狂暴大剑"
 
 #: itemlist_v070.json:clmr_msv
 msgid "Massive two-handed sword"
-msgstr "大型双手剑"
+msgstr "厚实双手剑"
 
 #: itemlist_v070.json:clmr_def1
 msgid "Defender's claymore"
@@ -69583,23 +69599,23 @@ msgstr "上好防御大剑"
 
 #: itemlist_v070.json:clmr_gnt
 msgid "Giant's claymore"
-msgstr "巨人的大剑"
+msgstr "巨人大剑"
 
 #: itemlist_v070.json:clmr_serp
 msgid "Serpent's fang"
-msgstr "毒蛇之牙"
+msgstr "猛蛇之牙"
 
 #: itemlist_v070.json:clmr_wrld
 msgid "Claymore of the warlord"
-msgstr "军阀的大剑"
+msgstr "战神大剑"
 
 #: itemlist_v070.json:clmr_ruin
 msgid "Gleaming claymore of ruin"
-msgstr "闪耀毁灭大剑"
+msgstr "闪耀灭毁大剑"
 
 #: itemlist_v070.json:clmr_wrmas
 msgid "Wraith's massive claymore"
-msgstr "幽灵的巨型大剑"
+msgstr "幽冥厚实大剑"
 
 #: itemlist_v070.json:xulviir
 msgid "Xul'viir"
@@ -69627,7 +69643,7 @@ msgstr "奥尔温的诅咒"
 
 #: itemlist_v070.json:daggr_bloodlet
 msgid "Bloodletter"
-msgstr "放血者"
+msgstr "放血之刃"
 
 #: itemlist_v070.json:daggr_curv
 msgid "Curved dagger"
@@ -69659,7 +69675,7 @@ msgstr "黑巨斧"
 
 #: itemlist_v070.json:graxe_massive
 msgid "Massive greataxe"
-msgstr "巨大的巨斧"
+msgstr "厚实巨斧"
 
 #: itemlist_v070.json:hatchet_sharp
 msgid "Sharpened hatchet"
@@ -69855,7 +69871,7 @@ msgstr "图库尊的骨头"
 
 #: itemlist_v070_questitems.json:xulviir0
 msgid "Broken sword"
-msgstr "破损的剑"
+msgstr "断剑"
 
 #: itemlist_v070_questitems.json:lodar_letter
 msgid "Lodar's letter"
@@ -70213,7 +70229,7 @@ msgstr "山羊皮帽"
 
 #: itemlist_stoutford_combined.json:tunic_chainmail
 msgid "Chainmail tunic"
-msgstr "链甲长袍"
+msgstr "锁子甲束腰长袍"
 
 #: itemlist_stoutford_combined.json:cuirass_steel
 msgid "Steel cuirass"
@@ -73762,16 +73778,16 @@ msgstr "棘手毒牙蛇"
 #: monsterlist_v069_monsters.json:restless_dead
 #: monsterlist_omi2.json:bwm_dead
 msgid "Restless dead"
-msgstr "不休亡灵"
+msgstr "躁动亡灵"
 
 #: monsterlist_v069_monsters.json:grave_spawn
 #: monsterlist_omi2.json:bwm_grave_spawn
 msgid "Grave spawn"
-msgstr "墓生魔"
+msgstr "墓裔"
 
 #: monsterlist_v069_monsters.json:restless_apparition
 msgid "Restless apparition"
-msgstr "不休幻灵"
+msgstr "躁动幻灵"
 
 #: monsterlist_v069_monsters.json:skeletal_reaper
 msgid "Skeletal reaper"
@@ -74919,19 +74935,19 @@ msgstr "棘手马扎斯兽"
 
 #: monsterlist_v070_charwood2.json:ashs1
 msgid "Weeping ash spectre"
-msgstr "哭泣的灰烬幽灵"
+msgstr "泣泪烬灵"
 
 #: monsterlist_v070_charwood2.json:ashs2
 msgid "Wailing ash spectre"
-msgstr "哭号的灰烬幽灵"
+msgstr "号哭烬灵"
 
 #: monsterlist_v070_charwood2.json:ashs3
 msgid "Ash spectre"
-msgstr "灰烬幽灵"
+msgstr "烬灵"
 
 #: monsterlist_v070_charwood2.json:ash1
 msgid "Young ash gargoyle"
-msgstr "年轻的灰烬石像鬼"
+msgstr "幼小灰烬石像鬼"
 
 #: monsterlist_v070_charwood2.json:ash2
 msgid "Ash gargoyle"
@@ -74939,59 +74955,59 @@ msgstr "灰烬石像鬼"
 
 #: monsterlist_v070_charwood2.json:ash3
 msgid "Strong ash gargoyle"
-msgstr "强壮的灰烬石像鬼"
+msgstr "强劲灰烬石像鬼"
 
 #: monsterlist_v070_charwood2.json:ash4
 msgid "Hardened ash gargoyle"
-msgstr "硬化的灰烬石像鬼"
+msgstr "硬化灰烬石像鬼"
 
 #: monsterlist_v070_charwood2.json:ash5
 msgid "Young ash spawn"
-msgstr "年轻的灰烬产物"
+msgstr "幼小烬裔"
 
 #: monsterlist_v070_charwood2.json:ash6
 msgid "Ash spawn"
-msgstr "灰烬产物"
+msgstr "烬裔"
 
 #: monsterlist_v070_charwood2.json:ash7
 msgid "Tough ash spawn"
-msgstr "结实的灰烬产物"
+msgstr "棘手烬裔"
 
 #: monsterlist_v070_charwood2.json:fire1
 msgid "Glowing abcess"
-msgstr "发光的脓肿怪"
+msgstr "发光脓肿怪"
 
 #: monsterlist_v070_charwood2.json:fire2
 msgid "Blazing abcess"
-msgstr "炽烈的脓肿怪"
+msgstr "炽炎脓肿怪"
 
 #: monsterlist_v070_charwood2.json:fire3
 msgid "Lava spawn"
-msgstr "熔岩产物"
+msgstr "熔裔"
 
 #: monsterlist_v070_charwood2.json:fire4
 msgid "Tough lava spawn"
-msgstr "结实的熔岩产物"
+msgstr "棘手熔裔"
 
 #: monsterlist_v070_charwood2.json:fire5
 msgid "Glowing flame"
-msgstr "发光的火焰"
+msgstr "发光烈焰"
 
 #: monsterlist_v070_charwood2.json:fire6
 msgid "Flame spawn"
-msgstr "火焰产物"
+msgstr "焰裔"
 
 #: monsterlist_v070_charwood2.json:fire7
 msgid "Walking flame"
-msgstr "行走的火焰"
+msgstr "游走烈焰"
 
 #: monsterlist_v070_charwood2.json:fire8
 msgid "Walking inferno"
-msgstr "行走的炼狱"
+msgstr "游走煞焰"
 
 #: monsterlist_v070_charwood2.json:fire9
 msgid "Ancient walking inferno"
-msgstr "古代的行走的炼狱"
+msgstr "远古游走煞焰"
 
 #: monsterlist_v070_charwood2.json:thukuzun
 msgid "Thukuzun"
@@ -75003,39 +75019,39 @@ msgstr "泥魔"
 
 #: monsterlist_v070_lodar1cave.json:mudfiend2
 msgid "Tough mudfiend"
-msgstr "结实的泥魔"
+msgstr "棘手泥魔"
 
 #: monsterlist_v070_lodar5cave.json:caveburr1
 msgid "Young poisonous cave burrower"
-msgstr "年轻有毒的洞穴钻地虫"
+msgstr "幼小带毒洞穴钻地虫"
 
 #: monsterlist_v070_lodar5cave.json:caveburr2
 msgid "Infected larval cave burrower"
-msgstr "感染的洞穴钻地虫幼虫"
+msgstr "染病洞穴钻地幼虫"
 
 #: monsterlist_v070_lodar5cave.json:caveburr3
 msgid "Poisonous cave burrower"
-msgstr "有毒的洞穴钻地虫"
+msgstr "带毒洞穴钻地虫"
 
 #: monsterlist_v070_lodar5cave.json:caveburr4
 msgid "Strong poisonous cave burrower"
-msgstr "强大的有毒的洞穴钻地虫"
+msgstr "强劲带毒洞穴钻地虫"
 
 #: monsterlist_v070_lodar5cave.json:caveburr5
 msgid "Giant poisonous cave burrower"
-msgstr "巨型有毒的洞穴钻地虫"
+msgstr "巨型带毒洞穴钻地虫"
 
 #: monsterlist_v070_lodar5cave.json:cavebat1
 msgid "Gray cave bat"
-msgstr "灰色洞穴蝙蝠"
+msgstr "灰种洞穴蝙蝠"
 
 #: monsterlist_v070_lodar5cave.json:cavebat2
 msgid "Black cave bat"
-msgstr "黑色洞穴蝙蝠"
+msgstr "黑种洞穴蝙蝠"
 
 #: monsterlist_v070_lodar5cave.json:cavebat3
 msgid "Brown cave bat"
-msgstr "棕色洞穴蝙蝠"
+msgstr "棕种洞穴蝙蝠"
 
 #: monsterlist_v070_lodar5cave.json:cavebat4
 msgid "Cave bat"
@@ -75043,15 +75059,15 @@ msgstr "洞穴蝙蝠"
 
 #: monsterlist_v070_lodar5cave.json:cavebat5
 msgid "Aggressive cave bat"
-msgstr "好斗的洞穴蝙蝠"
+msgstr "好斗洞穴蝙蝠"
 
 #: monsterlist_v070_lodarcave.json:hirathil0
 msgid "Hirathil spawn"
-msgstr "希拉希尔产物"
+msgstr "希拉希尔子嗣"
 
 #: monsterlist_v070_lodarcave.json:hirathil1
 msgid "Aggressive hirathil ghost"
-msgstr "好斗的希拉希尔鬼魂"
+msgstr "好斗希拉希尔鬼魂"
 
 #: monsterlist_v070_lodarcave.json:hirathil2
 msgid "Hirathil ghost"
@@ -75059,23 +75075,23 @@ msgstr "希拉希尔鬼魂"
 
 #: monsterlist_v070_lodarcave.json:hirathil3
 msgid "Ferocious hirathil ghost"
-msgstr "凶猛的希拉希尔鬼魂"
+msgstr "凶猛希拉希尔鬼魂"
 
 #: monsterlist_v070_lodarcave.json:hirathil4
 msgid "Restless hirathil ghost"
-msgstr "躁动的希拉希尔鬼魂"
+msgstr "躁动希拉希尔鬼魂"
 
 #: monsterlist_v070_lodarcave.json:hirathil5
 msgid "Hirathil servant"
-msgstr "希拉希尔仆人"
+msgstr "希拉希尔仆从"
 
 #: monsterlist_v070_lodarcave.json:hirathil6
 msgid "Hirathil master"
-msgstr "希拉希尔大师"
+msgstr "希拉希尔驭主"
 
 #: monsterlist_v070_lodarcave.json:hirathil7
 msgid "Ancient hirathil ghost"
-msgstr "古代的希拉希尔鬼魂"
+msgstr "远古希拉希尔鬼魂"
 
 #: monsterlist_v070_lodarcave.json:hirazinn
 msgid "Hira'zinn"
@@ -75083,27 +75099,27 @@ msgstr "希拉津"
 
 #: monsterlist_v070_lodarmaze.json:dungfly1
 msgid "Giant dungfly"
-msgstr "巨大的粪蝇"
+msgstr "巨型粪蝇"
 
 #: monsterlist_v070_lodarmaze.json:dungfly2
 msgid "Aggressive dungfly"
-msgstr "好斗的粪蝇"
+msgstr "好斗粪蝇"
 
 #: monsterlist_v070_lodarmaze.json:dungfly3
 msgid "Vicious dungfly"
-msgstr "邪恶的粪蝇"
+msgstr "凶恶粪蝇"
 
 #: monsterlist_v070_lodarmaze.json:brtender1
 msgid "Branchtender"
-msgstr "布兰奇登"
+msgstr "枝侍"
 
 #: monsterlist_v070_lodarmaze.json:brtender2
 msgid "Frantic branchtender"
-msgstr "疯狂的布兰奇登"
+msgstr "发狂枝侍"
 
 #: monsterlist_v070_lodarmaze.json:brtender_cr
 msgid "Ancient branchtender"
-msgstr "古代的布兰奇登"
+msgstr "远古枝侍"
 
 #: monsterlist_v070_lodarmaze.json:anklebiter2
 msgid "Small horned anklebiter"
@@ -75139,11 +75155,11 @@ msgstr "厄鲁门森林蜥蜴"
 
 #: monsterlist_v070_lodarmaze.json:erumen_10
 msgid "Erumen forest lizard matriarch"
-msgstr "厄鲁门森林蜥蜴女统领"
+msgstr "厄鲁门森林蜥蜴雌统领"
 
 #: monsterlist_v070_lodarmaze.json:zortak1
 msgid "Zortak scout"
-msgstr "佐塔克侦察兵"
+msgstr "佐塔克斥候"
 
 #: monsterlist_v070_lodarmaze.json:zortak2
 msgid "Zortak fighter"
@@ -75151,7 +75167,7 @@ msgstr "佐塔克战士"
 
 #: monsterlist_v070_lodarmaze.json:zortak3
 msgid "Zortak guard"
-msgstr "佐塔克守卫者"
+msgstr "佐塔克守卫"
 
 #: monsterlist_v070_lodarmaze.json:zortak4
 msgid "Zortak barbarian"
@@ -75163,71 +75179,71 @@ msgstr "佐塔克领袖"
 
 #: monsterlist_v070_lodarmaze.json:yjacket1
 msgid "Puny yellowjacket"
-msgstr "弱小的黄蜂"
+msgstr "弱小黄胡蜂"
 
 #: monsterlist_v070_lodarmaze.json:yjacket2
 msgid "Small yellowjacket"
-msgstr "小黄蜂"
+msgstr "小型黄胡蜂"
 
 #: monsterlist_v070_lodarmaze.json:yjacket3
 msgid "Swarming yellowjacket"
-msgstr "成群的黄蜂"
+msgstr "成群黄胡蜂"
 
 #: monsterlist_v070_lodarmaze.json:yjacket4
 msgid "Stinging yellowjacket"
-msgstr "刺人的黄蜂"
+msgstr "蛰人黄胡蜂"
 
 #: monsterlist_v070_lodarmaze.json:yjacket5
 msgid "Quick yellowjacket"
-msgstr "快速的黄蜂"
+msgstr "迅捷黄胡蜂"
 
 #: monsterlist_v070_lodarmaze.json:yjacket6
 msgid "Aggressive yellowjacket"
-msgstr "好斗的黄蜂"
+msgstr "好斗黄胡蜂"
 
 #: monsterlist_v070_lodarmaze.json:yjacket7
 msgid "Enraged yellowjacket"
-msgstr "暴怒的黄蜂"
+msgstr "易怒黄胡蜂"
 
 #: monsterlist_v070_lodarmaze.json:yjacket8
 msgid "Giant yellowjacket"
-msgstr "巨型黄蜂"
+msgstr "巨型黄胡蜂"
 
 #: monsterlist_v070_lodarmaze.json:yjacket9
 msgid "Yellowjacket queen"
-msgstr "黄蜂后"
+msgstr "黄胡蜂蜂后"
 
 #: monsterlist_v070_lodarmaze.json:vscale1
 msgid "Puny venomscale"
-msgstr "弱小的毒鳞蛇"
+msgstr "弱小毒鳞蛇"
 
 #: monsterlist_v070_lodarmaze.json:vscale2
 msgid "Young venomscale"
-msgstr "幼毒鳞蛇"
+msgstr "幼小毒鳞蛇"
 
 #: monsterlist_v070_lodarmaze.json:vscale3
 msgid "Gray venomscale"
-msgstr "灰色的毒鳞蛇"
+msgstr "灰种毒鳞蛇"
 
 #: monsterlist_v070_lodarmaze.json:vscale4
 msgid "Aggressive venomscale"
-msgstr "好斗的毒鳞蛇"
+msgstr "好斗毒鳞蛇"
 
 #: monsterlist_v070_lodarmaze.json:vscale5
 msgid "Quick venomscale"
-msgstr "快速的毒鳞蛇"
+msgstr "迅捷毒鳞蛇"
 
 #: monsterlist_v070_lodarmaze.json:vscale6
 msgid "Vicious venomscale"
-msgstr "恶毒的毒鳞蛇"
+msgstr "凶恶毒鳞蛇"
 
 #: monsterlist_v070_lodarmaze.json:vscale7
 msgid "Strong venomscale"
-msgstr "强壮的毒鳞蛇"
+msgstr "强劲毒鳞蛇"
 
 #: monsterlist_v070_lodarmaze.json:vscale8
 msgid "Tough venomscale"
-msgstr "结实的毒鳞蛇"
+msgstr "棘手毒鳞蛇"
 
 #: monsterlist_v070_lodarmaze.json:vscaleb1
 msgid "Breeder of venomscale"
@@ -75235,15 +75251,15 @@ msgstr "毒鳞蛇繁殖者"
 
 #: monsterlist_v070_lodarmaze.json:vscaleb2
 msgid "Venomscale master"
-msgstr "毒鳞蛇大师"
+msgstr "毒鳞蛇驭主"
 
 #: monsterlist_v070_lodarmaze.json:morkin1
 msgid "Morkin lookout"
-msgstr "莫金监视哨"
+msgstr "莫金哨卫"
 
 #: monsterlist_v070_lodarmaze.json:morkin2
 msgid "Morkin scout"
-msgstr "莫金侦察兵"
+msgstr "莫金斥候"
 
 #: monsterlist_v070_lodarmaze.json:morkin3
 msgid "Morkin fighter"
@@ -75271,27 +75287,27 @@ msgstr "桥上守卫"
 
 #: monsterlist_v070_lodarmaze.json:khakin1
 msgid "Khakin spawn"
-msgstr "卡金产物"
+msgstr "卡金子嗣"
 
 #: monsterlist_v070_lodarmaze.json:khakin2
 msgid "Aggressive khakin beast"
-msgstr "好斗的的卡金野兽"
+msgstr "好斗卡金兽"
 
 #: monsterlist_v070_lodarmaze.json:khakin3
 msgid "Tough khakin beast"
-msgstr "结实的的卡金野兽"
+msgstr "棘手卡金兽"
 
 #: monsterlist_v070_lodarmaze.json:khakin4
 msgid "Strong khakin beast"
-msgstr "强大的卡金野兽"
+msgstr "强劲卡金兽"
 
 #: monsterlist_v070_lodarmaze.json:cryptmist1
 msgid "Thin mist of the crypt"
-msgstr "地穴的薄雾"
+msgstr "地穴薄雾"
 
 #: monsterlist_v070_lodarmaze.json:cryptmist2
 msgid "Clear mist of the crypt"
-msgstr "地穴的清雾"
+msgstr "地穴清雾"
 
 #: monsterlist_v070_lodarmaze.json:cryptmist3
 msgid "Mist of the crypt"
@@ -75299,11 +75315,11 @@ msgstr "地穴之雾"
 
 #: monsterlist_v070_lodarmaze.json:cryptmist4
 msgid "Thick mist of the crypt"
-msgstr "地穴的浓雾"
+msgstr "地穴浓雾"
 
 #: monsterlist_v070_lodarmaze.json:cryptmist5
 msgid "Bright mist of the crypt"
-msgstr "地穴的亮雾"
+msgstr "地穴亮雾"
 
 #: monsterlist_v070_lodarmaze.json:pig
 msgid "Pig"
@@ -75343,15 +75359,15 @@ msgstr "腐烂僵尸"
 
 #: monsterlist_v070_oldcave.json:zombie3
 msgid "Blighted zombie"
-msgstr "枯萎僵尸"
+msgstr "溃烂僵尸"
 
 #: monsterlist_v070_oldcave.json:oldcaveboss
 msgid "Dread zombie"
-msgstr "恐惧僵尸"
+msgstr "骇人僵尸"
 
 #: monsterlist_v070_oldcave.json:zombie5
 msgid "Corrupted zombie"
-msgstr "腐败僵尸"
+msgstr "腐坏僵尸"
 
 #: monsterlist_v070_oldcave.json:zombie6
 msgid "Bloodthirsty zombie"
@@ -75359,7 +75375,7 @@ msgstr "嗜血僵尸"
 
 #: monsterlist_v070_oldcave.json:zombie7
 msgid "Tainted zombie"
-msgstr "感染僵尸"
+msgstr "腐亵僵尸"
 
 #: monsterlist_v070_roadcave.json:jelly1
 msgid "Olive ooze"
@@ -79822,55 +79838,60 @@ msgstr "旧日朋友？"
 
 #: questlist_v0611_3.json:kaverin:10
 msgid "I met Kaverin in Remgard, that apparently is an old acquaintance of Unzel, who lives outside of Fallhaven."
-msgstr "我在瑞姆加德遇到了卡维林，那显然是住在法尔海文外的恩泽尔的一个老熟人。"
+msgstr "我在瑞姆加德遇到了卡维林，他显然是那个待在法尔海文镇外的恩泽尔的老相识。"
 
 #: questlist_v0611_3.json:kaverin:20
 msgid "Kaverin wants me to deliver a message to Unzel."
-msgstr "卡维林希望我向恩泽尔传达一个信息。"
+msgstr "卡维林希望我向恩泽尔转交一封信。"
 
 #: questlist_v0611_3.json:kaverin:21
 msgid "I have declined to help Kaverin."
-msgstr "我拒绝帮助卡维林。"
+msgstr "我拒绝了帮助卡维林。"
 
 #: questlist_v0611_3.json:kaverin:22
 msgid "I have agreed to deliver the message."
-msgstr "我同意传达这一信息。"
+msgstr "我同意了转交这封信。"
 
 #: questlist_v0611_3.json:kaverin:25
 msgid "Kaverin has given me the message that he wants me to deliver to Unzel."
-msgstr "卡维林给了我一个消息，他希望我把这个消息传递给恩泽尔。"
+msgstr "卡维林给了我一封信，他希望我把这封信转交给恩泽尔。"
 
 #: questlist_v0611_3.json:kaverin:30
 msgid "I have delivered the message to Unzel. I should return to Kaverin in Remgard."
-msgstr "我已经把消息传递给了恩泽尔。我应该回访瑞姆加德的卡维林。"
+msgstr "我已经把信转交给了恩泽尔。接下来我应该回访瑞姆加德的卡维林。"
 
 #: questlist_v0611_3.json:kaverin:40
 msgid "Kaverin thanked me for delivering the message to Unzel."
-msgstr "卡维林感谢我向恩泽尔传达了这一信息。"
+msgstr "卡维林感谢我向恩泽尔转交了那封信。"
 
 #: questlist_v0611_3.json:kaverin:45
 msgid "In return, Kaverin gave me an old map that he had acquired. Apparently, it leads to Vacor's old hideout."
-msgstr "作为回报，卡维林给了我一张他获得的旧地图。很明显，这张图是通往瓦科的旧藏身处。"
+msgstr "作为酬谢，卡维林将他所得的一张旧地图赠予了我。显然，此图通往瓦克昔日的一处藏"
+"身点。"
 
 #: questlist_v0611_3.json:kaverin:60
 msgid "Kaverin was furious over the fact that I killed Unzel, and that I helped Vacor. He started attacking me. I should return to Vacor once Kaverin is dead."
-msgstr "卡维林对我杀了恩泽尔，以及我帮助瓦克的事实感到很愤怒。他开始攻击我。一旦卡维林死了，我就应该回到瓦克身边。"
+msgstr "卡维林因为我先前杀了恩泽尔还帮了瓦克一事怒不可遏，直接向我动了手。在卡维林死"
+"后我应该去找一下瓦克。"
 
 #: questlist_v0611_3.json:kaverin:70
 msgid "Kaverin was carrying a sealed message. Vacor immediately recognized the seal, and seemed very interested in it."
-msgstr "卡维林带着一份密封的信息。瓦克立即认出了这枚印章，并似乎对它非常感兴趣。"
+msgstr "卡维林死时身上有一封密封的信件。瓦克一眼就认出了盖在上面的火漆印，并对其表现"
+"出了不小的兴趣。"
 
 #: questlist_v0611_3.json:kaverin:75
 msgid "I have given Vacor the message that Kaverin was carrying. In return, Vacor gave me an old map, leading to his old hideout."
-msgstr "我已经把卡维林携带的信息交给了瓦克。作为回报，瓦克给了我一张旧地图，通向他以前的藏身之处。"
+msgstr "我把卡维林身上的信件交给了瓦克。作为酬谢，瓦克将一张旧地图给了我，此图通往他"
+"昔日的一处藏身点。"
 
 #: questlist_v0611_3.json:kaverin:90
 msgid "I should try to find Vacor's old hideout, on the road to the west of the former prison of Flagstone, southwest of Fallhaven."
-msgstr "我应该试着找到瓦克的旧藏身处，就在法尔海文西南边的旗杆石前监狱西边的路上。"
+msgstr "我应该试着找到瓦克的旧日藏身点，那地方应该就在处于法尔海文西南方的石板监狱通"
+"向西边的路上。"
 
 #: questlist_v0611_3.json:kaverin:100
 msgid "I have found Vacor's old hideout."
-msgstr "我找到了瓦克的旧藏身处。"
+msgstr "我找到了瓦克的旧日藏身点。"
 
 #: questlist_v070_charwood.json:charwood1
 msgid "Destined for great things"
@@ -80024,7 +80045,7 @@ msgstr "在矿井下部的火堆中，我遇到了某种类似龙的生物。我
 
 #: questlist_v070_charwood.json:charwood2:40
 msgid "I have presented one of the bones from the corpse of the Thukuzun to Maevalia."
-msgstr "我已经把修库兹人尸体上的一块骨头献给了梅瓦利亚。"
+msgstr "我已经把图库尊尸体上的一块骨头献给了梅瓦利亚。"
 
 #: questlist_v070_charwood.json:charwood2:50
 msgid "Maevalia was happy to hear that I killed the source of the monster invasion."

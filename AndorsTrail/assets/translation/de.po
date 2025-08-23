@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-26 14:03+0000\n"
-"Last-Translator: Nikita Bretschneider <nikbret1@gmail.com>\n"
+"PO-Revision-Date: 2025-08-15 21:02+0000\n"
+"Last-Translator: Nut Andor <nut.andor@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/de/>\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.13\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:28+0000\n"
 
 #: [none]
@@ -17877,7 +17877,7 @@ msgstr "Ja, bitte zeig mir, was du hast."
 #: conversationlist_remgard_villagers1.json:arnal_3:1
 #: conversationlist_remgard_villagers2.json:freen:0
 msgid "No thank you. Goodbye."
-msgstr "Nein, danke. Tschüs."
+msgstr "Nein, danke. Tschüss."
 
 #: conversationlist_remgard_villagers1.json:arnal_2
 msgid "[Arnal clears his throat]"
@@ -56921,7 +56921,8 @@ msgstr "Ich weiß, dass ich nichts weiß."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_110
 msgid "But at least I think, so I am. Then I left the cave."
-msgstr "Aber zumindest denke ich, so bin ich. Dann habe ich die Höhle verlassen."
+msgstr ""
+"Aber zumindest denke ich, also bin ich. Dann habe ich die Höhle verlassen."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_110:0
 msgid "From the shadows to the light."
@@ -56937,7 +56938,9 @@ msgstr "Ich habe nur geraten."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_120
 msgid "Now I need to know what is louder: the noise of a lonely falling tree, or the sound of one hand clapping."
-msgstr "Jetzt muss ich nur noch wissen, was lauter ist: Das Geräusch einens einsamen fallenden Baumes, oder das Geräusch von einer einzelnen klatschenden Hand."
+msgstr ""
+"Jetzt muss ich nur noch wissen, was lauter ist: Das Geräusch eines einsamen "
+"fallenden Baumes, oder das Geräusch von einer einzelnen klatschenden Hand."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_122
 msgid "I didn't really expect you to know."
@@ -56973,7 +56976,7 @@ msgstr "Aus dem Versagen lernen wir."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_152
 msgid "Learn as if you were to live forever."
-msgstr "Lernen als wenn du für immer leben würdest."
+msgstr "Lerne, als wenn du für immer leben würdest."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_190
 msgid "Seize the day."
@@ -57001,7 +57004,9 @@ msgstr "Ich musste wirklich viel herum rennen."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_210
 msgid "Well, I see you've learned a lot by searching the rat kingdom. But you're still missing one thing ..."
-msgstr "Nun, ich sehe, dass du auf der Suche nach dem Königreich der Ratten viel gelernt hast. Aber dir fehlt noch eine Sache..."
+msgstr ""
+"Nun, ich sehe, dass du bei deiner Suche im Königreich der Ratten viel "
+"gelernt hast. Aber dir fehlt noch eine Sache..."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_210:1
 msgid "Do you mean wisdom?"
@@ -57053,7 +57058,8 @@ msgstr "Näher..."
 
 #: conversationlist_ratdom_npc.json:whootibarfag_226:0
 msgid "[You hold your breath - from tension, and because of his bad breath.]"
-msgstr "[Du hälst deinen Atem an - aus Anspannung, und wegen seinem Mundgeruch.]"
+msgstr ""
+"[Du hältst deinen Atem an - aus Anspannung, und wegen seinem Mundgeruch.]"
 
 #: conversationlist_ratdom_npc.json:whootibarfag_230
 msgid "Whootibarfag let you in on the secret of the rat escape. This increases your ability to flee and escape."
@@ -58982,7 +58988,7 @@ msgstr "Baa!"
 
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue:0
 msgid "[Pet]"
-msgstr "[Haustier]"
+msgstr "[Streicheln]"
 
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue:1
 msgid "You look tasty - attack!"
@@ -63522,7 +63528,7 @@ msgstr ""
 
 #: conversationlist_feygard_1.json:feygard_offering_30_10000_heal
 msgid "You feel good. Extremely good, in fact."
-msgstr ""
+msgstr "Du fühlst dich gut. Sehr gut sogar."
 
 #: conversationlist_feygard_1.json:feygard_offering_34_1
 msgid "Your gift will be viewed favorably."
@@ -64981,6 +64987,8 @@ msgstr ""
 #: conversationlist_feygard_1.json:gamjee_compromise_2:0
 msgid "OK. Now that I have you two together, let's talk about how you guys can reach a compromise and share the well water."
 msgstr ""
+"Ok. Jetzt, da ich euch beide hier habe, lass darüber reden wie ihr einen "
+"Kompromiss schließen könnt, um das Brunnenwasser zu teilen."
 
 #: conversationlist_feygard_1.json:gamjee_compromise_4
 msgid "Why should we trust him? He's been keeping us captive!"
@@ -65254,7 +65262,7 @@ msgstr ""
 
 #: conversationlist_feygard_1.json:rosmara_explain:0
 msgid "Why here? There's nothing else here besides you."
-msgstr ""
+msgstr "Warum hier? Es ist sonst nichts da außer dir."
 
 #: conversationlist_feygard_1.json:rosmara_explain_2
 msgid "Oh, you silly child. This is a very well traveled road. All the people coming and going from and to Feygard. It's a long road and they get hungry."
@@ -65470,7 +65478,7 @@ msgstr ""
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_selector
 msgid "What item can you live without?"
-msgstr ""
+msgstr "Welches Item kannst du entbehren?"
 
 #: conversationlist_feygard_1.json:loneford_well_script_throw_selector:0
 msgid "[Throw a small rock.]"
@@ -65736,7 +65744,7 @@ msgstr ""
 
 #: conversationlist_feygard_1.json:rosmara_wexlow2
 msgid "Hmm, I hope they are all right."
-msgstr ""
+msgstr "Hmm, ich hoffe es geht ihnen allen got."
 
 #: conversationlist_feygard_1.json:gamjee_villagers_known_fight:0
 msgid "This ends now for you!"
@@ -71939,8 +71947,8 @@ msgid ""
 "This necklace will guide you the shortest way towards the sky.\n"
 "Watch out for blue shields."
 msgstr ""
-"Diese Halskette wird dir den kürzesten weg gen Himmel zeigen.\n"
-"Achte auf Blaue Schilde."
+"Diese Halskette wird dir den kürzesten Weg gen Himmel zeigen.\n"
+"Achte auf blaue Schilde."
 
 #: itemlist_ratdom.json:ratdom_compass_tour
 msgid "Orange rat necklace"
