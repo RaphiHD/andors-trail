@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-08-23 06:45+0000\n"
+"PO-Revision-Date: 2025-08-25 22:02+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -440,51 +440,57 @@ msgstr "Visão encharcada"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark
 msgid "Pull of the mark"
-msgstr ""
+msgstr "Puxão da marca"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark:description
 msgid "You feel an inexplicable pull toward something familiar, as if a piece of you is tethered to a distant past. An echo of guidance whispers faintly in your mind, urging you to seek clarity from those who once knew you best."
 msgstr ""
+"Sentes um puxão na direção de algo familiar, como se um pedaço de ti "
+"estivesse amarrado a um passado longínquo. Um eco de conselhos sussurram "
+"fracamente na tua mente, encorajando-te a procurar clareza daqueles que te "
+"conheceram melhor outrora."
 
 #: actorconditions_mt_galmore2.json:potent_venom
 msgid "Potent venom"
-msgstr ""
+msgstr "Veneno potente"
 
 #: actorconditions_mt_galmore2.json:burning
 msgid "Burning"
-msgstr ""
+msgstr "A arder"
 
 #: actorconditions_mt_galmore2.json:rockfall
 msgid "Rock fall"
-msgstr ""
+msgstr "Queda de rochas"
 
 #: actorconditions_mt_galmore2.json:swamp_foot
 msgid "Swamp foot"
-msgstr ""
+msgstr "Pé de pantano"
 
 #: actorconditions_mt_galmore2.json:unsteady_footing
 msgid "Unsteady footing"
-msgstr ""
+msgstr "Apoio instável"
 
 #: actorconditions_mt_galmore2.json:clinging_mud
 msgid "Clinging mud"
-msgstr ""
+msgstr "Lama pegajosa"
 
 #: actorconditions_mt_galmore2.json:clinging_mud:description
 msgid "Thick mud clings to your legs, hindering your movements and making it harder to act swiftly or strike with precision."
 msgstr ""
+"Lama espessa cola-se às tuas pernas, prejudicando os teus movimentos e "
+"tornando difícil agir rapidamente ou bater com precisão."
 
 #: actorconditions_mt_galmore2.json:cinder_rage
 msgid "Cinder rage"
-msgstr ""
+msgstr "Raiva incandescente"
 
 #: actorconditions_mt_galmore2.json:frostbite
 msgid "Frostbite"
-msgstr ""
+msgstr "Queimadura de gelo"
 
 #: actorconditions_mt_galmore2.json:shadowsleep
 msgid "Shadow sleepiness"
-msgstr ""
+msgstr "Sonolência da Sombra"
 
 #: actorconditions_mt_galmore2.json:petristill
 msgid "Petristill"
@@ -493,14 +499,16 @@ msgstr ""
 #: actorconditions_mt_galmore2.json:petristill:description
 msgid "A creeping layer of stone overtakes the infliced's form, dulling its reflexes but hardening its body against harm."
 msgstr ""
+"Uma camada de pedra insinua-se e sobrepõe -se à forma do infligido, "
+"amolecendo os seus reflexos mas endurecendo o seu corpo contra dano."
 
 #: actorconditions_mt_galmore2.json:divine_judgement
 msgid "Divine judgement"
-msgstr ""
+msgstr "Julgamento divino"
 
 #: actorconditions_mt_galmore2.json:divine_punishment
 msgid "Divine punishment"
-msgstr ""
+msgstr "Punição divina"
 
 #: actorconditions_mt_galmore2.json:baited_strike
 msgid "Baited strike"
@@ -509,14 +517,16 @@ msgstr ""
 #: actorconditions_mt_galmore2.json:baited_strike:description
 msgid "An overcommitment to attacking that sharpens accuracy at the cost of defensive footing."
 msgstr ""
+"Um excesso de compromisso em atacar que melhora a pontaria sob pena de pior "
+"posição defensiva."
 
 #: actorconditions_mt_galmore2.json:trapped
 msgid "Trapped"
-msgstr ""
+msgstr "Apanhado na armadilha"
 
 #: actorconditions_mt_galmore2.json:splinter
 msgid "Splinter"
-msgstr ""
+msgstr "Farpa"
 
 #: actorconditions_mt_galmore2.json:unstable_footing
 msgid "Unstable footing"
@@ -575,7 +585,7 @@ msgstr "Sim, estou aqui para entregar o pedido de uma 'Almofada de Pelúcia'. Ma
 
 #: conversationlist_mikhail.json:mikhail_default:10
 msgid "I don't know...something feels wrong. I thought maybe you were in danger."
-msgstr ""
+msgstr "Não sei...qualquer coisa parece errado. Pensei que estavas em perigo."
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
@@ -89420,14 +89430,19 @@ msgstr ""
 #: questlist_mt_galmore2.json:mg_restless_grave:125
 msgid "In Sullengard, Maddalena informed me that Celdar was headed for Brimhaven, but may have stopped to rest along the way as it is a long trip to Brimhaven."
 msgstr ""
+"Em Sullangard, Maddalena informou-me que Celdar estava a caminho de "
+"Brimhaven, mas que pode ter parado para descansar pelo caminho uma vez que é "
+"uma viagem longa até Brimhaven."
 
 #: questlist_mt_galmore2.json:mg_restless_grave:130
 msgid "I gave Celdar the 'Mysterious music box' just as Eryndor had instructed and she gave me her longsword."
 msgstr ""
+"Dei a Celdar a 'caixa de música misteriosa' assim como Eryndor me instruiu e "
+"ela deu-me a sua espada longa."
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_bloskelt_area
 msgid "Bloskelt + Roskelt"
-msgstr ""
+msgstr "Bloskelt + Roskelt"
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_entry_area
 msgid "Entry"
@@ -89435,7 +89450,7 @@ msgstr "Entrada"
 
 #: worldmap.xml:ratdom_level_4:ratdom_maze_instrument_maker
 msgid "Instrument maker"
-msgstr ""
+msgstr "Fabricante de instrumentos"
 
 #: worldmap.xml:ratdom_level_5:ratdom_maze_skeleton_dance
 msgid "Skeleton dance"
@@ -89539,9 +89554,8 @@ msgstr "Aldeia de Wexlow"
 
 #: worldmap.xml:world1:mt_galmore
 msgid "Mt. Galmore"
-msgstr ""
+msgstr "Monte Galmore"
 
 #: worldmap.xml:world1:mt_bwm
 msgid "Blackwater Mountain"
-msgstr ""
-
+msgstr "Montanha das Águas Negras"
