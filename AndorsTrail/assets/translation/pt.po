@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-08-25 22:02+0000\n"
+"PO-Revision-Date: 2025-08-26 23:02+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -30406,6 +30406,8 @@ msgstr "Realmente encomendou uma figura de porcelana tão feia? Ops, desculpe n�
 #: conversationlist_stoutford_combined.json:odirath_0:6
 msgid "I have tried to open the southern castle gate, but the mechanism seems broken. Can you repair it?"
 msgstr ""
+"Tentei abrir o portão do castelo do sul, mas o mecanismo parece estragado. "
+"Consegues repará-lo?"
 
 #: conversationlist_stoutford_combined.json:odirath_1
 msgid "I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know more."
@@ -32208,22 +32210,28 @@ msgstr "Ah, que pena. Bem, obrigado."
 #: conversationlist_stoutford_combined.json:stn_southgate_10a
 msgid "The mechanism doesn't move. It seems to be broken. Maybe someone can fix it for me?"
 msgstr ""
+"O mecanismo não se mexe. Parece estragado. Talvez alguém o possa arranjar "
+"para mim?"
 
 #: conversationlist_stoutford_combined.json:stn_southgate_10b
 msgid "Oh, cool, Odirath seems to have repaired the mechanism already."
-msgstr ""
+msgstr "Ó, fixe, Odirath parece já ter arranjado o mecanismo."
 
 #: conversationlist_stoutford_combined.json:odirath_8a
 msgid "No, sorry. As long as there are still skeletons running around the castle, I can't work there."
 msgstr ""
+"Não, desculpa. Enquanto houver esqueletos a andar pelo castelo, não posso "
+"trabalhar aqui."
 
 #: conversationlist_stoutford_combined.json:odirath_8b
 msgid "I can do that as soon as my daughter is back here."
-msgstr ""
+msgstr "Posso fazer isso quando a minha filha voltar aqui."
 
 #: conversationlist_stoutford_combined.json:odirath_8c
 msgid "The gate mechanism is broken? No problem. Now that the skeletons are gone, I can fix it for you."
 msgstr ""
+"O mecanismo do portão está estragado? Sem problema. Agora que os esqueletos "
+"se foram, posso arranjá-lo para ti."
 
 #: conversationlist_bugfix_0_7_4.json:mountainlake0_sign
 msgid "You can see no way to descend the cliffs from here."
@@ -32968,7 +32976,7 @@ msgstr "É o meu trabalho. É bom ver que sobreviveu aos morde tornozelos…"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10:2
 msgid "Hmm, maybe you can help me?"
-msgstr ""
+msgstr "Hmm, talvez me possas ajudar?"
 
 #: conversationlist_omicronrg9.json:umar_guild_4b
 msgid "What have you decided?"
@@ -37429,7 +37437,7 @@ msgstr "[a cortar madeira]"
 #: conversationlist_brimhaven.json:brv_woodcutter_0:0
 #: conversationlist_brimhaven.json:brv_farmer_girl_0:0
 msgid "Hello"
-msgstr ""
+msgstr "Olá"
 
 #: conversationlist_brimhaven.json:brv_woodcutter_1
 msgid ""
@@ -38710,10 +38718,11 @@ msgstr "Não, ainda não descobri nada."
 #: conversationlist_brimhaven.json:mikhail_news_10:4
 msgid "I found Andor far north of here, at a fruit seller's stand."
 msgstr ""
+"Encontrei Andor muito a noite daqui, num balcão de um vendedor de fruta."
 
 #: conversationlist_brimhaven.json:mikhail_news_10:5
 msgid "I found Andor far south of here, at Alynndir's house."
-msgstr ""
+msgstr "Encontrei o Andor muito a sul daqui, na casa do Alynndir."
 
 #: conversationlist_brimhaven.json:mikhail_news_40
 msgid "Did you go to Nor City?"
@@ -39352,26 +39361,31 @@ msgstr "Bem-vindo de volta."
 #: conversationlist_brimhaven.json:brv_fortune_back_10
 msgid "Welcome back. I see that you bring me interesting things that have fallen from the sky."
 msgstr ""
+"Bem vindo de volta. Vejo que me trazes coisas interessantes que caíram do "
+"céu."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_10:1
 msgid "The pieces that I have found in the area of Mt. Galmore? Yes, I have them with me."
 msgstr ""
+"As peças que encontrei na área de Monte Galmore? Sim, tenho-me aqui comigo."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_12
 msgid "Sigh. I know many things. How often do I still have to prove it?"
-msgstr ""
+msgstr "[suspiro] Sei muitas coisas. Quantas vezes ainda tenho de o provar?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_12:0
 msgid "Well, OK. What about my fallen stones collection?"
-msgstr ""
+msgstr "Bem, OK. Então e a minha coleção de pedras caídas?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20
 msgid "You can't do anything useful with them. Give them to me and I'll give you a kingly reward."
 msgstr ""
+"Não podes fazer nada de útil com elas. Dá-mas e eu dou+te uma recompensa "
+"digna de um rei."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20:0
 msgid "Here, you can have them for the greater glory."
-msgstr ""
+msgstr "Tomar, fica com elas pela glória maior."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20:1
 msgid "Really? What can you offer?"
@@ -39460,42 +39474,55 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_62
 msgid "Wanderer's Vitality. You carry the strength of the sky inside you. After touching this item, you will begin to learn how to improve your overall health faster."
 msgstr ""
+"Vitalidade do deambulante. Carregas a força do céu dentro de ti. Depois de "
+"tiveres neste item, começas a aprender a melhorar a tua saúde geral mais "
+"depressa."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_65
 msgid "Very down-to-earth. You will have more success in financial matters."
-msgstr ""
+msgstr "Muito terra-a-terra. Terás mais sucesso em matérias financeiras."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_66
 msgid "You move as if guided by starlight. Touching this item will permanently improve your abilities to avoid being hit by your enemies."
 msgstr ""
+"Mexes-te como se guiado pela luz das estrelas. Tocando neste item vai "
+"melhorar permanentemente as tuas habilidades para evitar ser atingido pelos "
+"teus inimigos."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_68
 msgid "From the sky to your hilt, strength flows unseen. Touching the item will permanently let you refresh faster after a kill in a fight."
 msgstr ""
+"Pelo céu até à empunhadura da tua espada, flui uma força invisível. Ao tocar "
+"no item permite, permanentemente, refrescar mais depressa depois de matar "
+"durante uma luta."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_69
 msgid " Touching the item will permanently increase your awareness of unearthy items."
 msgstr ""
+" Ao tocar neste item aumentarás permanentemente a tua percepção de itens "
+"desterrados."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_90
 msgid "Go now."
-msgstr ""
+msgstr "Vai agora."
 
 #: conversationlist_brimhaven.json:mikhail_news_60
 msgid "Great! But where is he?"
-msgstr ""
+msgstr "Ótimo! Mas onde está ele?"
 
 #: conversationlist_brimhaven.json:mikhail_news_60:0
 msgid "He just said that he couldn't come now. Then he ran away before I could ask him what he was up to."
 msgstr ""
+"Ele acabou de dizer que não podia ir agora. Depois fugiu antes que lhe "
+"pudesse perguntar o que andava a planear."
 
 #: conversationlist_brimhaven.json:mikhail_news_62
 msgid "[While shaking his head] Oh $playername, you have disappointed me."
-msgstr ""
+msgstr "[A abanar a cabeça] Ó, $playername, desapontaste-me."
 
 #: conversationlist_brimhaven.json:mikhail_news_64
 msgid "Mikhail! Don't you dare talk to our child like that!"
-msgstr ""
+msgstr "Mikhail! Não te atrevas a falar com o nosso filho assim!"
 
 #: conversationlist_brimhaven.json:mikhail_news_64:0
 #: conversationlist_fungi_panic.json:zuul_khan_14:2
