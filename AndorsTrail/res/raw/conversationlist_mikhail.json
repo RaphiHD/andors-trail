@@ -317,6 +317,17 @@
                         "value":100
                     }
                 ]
+            },
+            {
+                "text":"I don't know...something feels wrong. I thought maybe you were in danger.",
+                "nextPhraseID":"galmore_marked_stone_mikhail",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"familiar_shadow",
+                        "value":20
+                    }
+                ]
             }
         ]
     },

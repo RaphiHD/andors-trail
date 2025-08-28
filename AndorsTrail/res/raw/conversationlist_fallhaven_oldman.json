@@ -3,6 +3,22 @@
         "id":"fallhaven_oldman",
         "replies":[
             {
+                "nextPhraseID":"dds_oldman_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"darkness_in_daylight",
+                        "value":140,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"fallhaven_oldman_complete_2",
                 "requires":[
                     {

@@ -888,12 +888,34 @@
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
                         "value":300
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"shadows",
+                        "value":80,
+                        "negate":true
                     }
                 ]
             },
             {
                 "text":"Never mind, let's go back to those other blessings.",
                 "nextPhraseID":"talion_bless_1"
+            },
+            {
+                "text":"OK, I'll take it for 300 gold. I need it for Borvis to work an enchantment. He is waiting far to the south.",
+                "nextPhraseID":"dds_talion_10",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":300
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"shadows",
+                        "value":80
+                    }
+                ]
             }
         ]
     },

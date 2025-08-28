@@ -94,6 +94,62 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"What blessings can you provide?",
+                "nextPhraseID":"dds_jolnor_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":100
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":110,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"About Fatigue and Life drain ...",
+                "nextPhraseID":"dds_jolnor_100",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"The blessing has worn off too early. Could you give it again?",
+                "nextPhraseID":"dds_talion_130",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"shadows",
+                        "value":160,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"hasActorCondition",
+                        "requireID":"shadowsleep",
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="23" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="26">
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="23" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="27">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -190,7 +190,7 @@
  </layer>
  <layer id="2" name="Objects" width="23" height="15">
   <data encoding="base64" compression="zlib">
-   eJyllFFqAjEQhoc8FHxRXKkQIT6IFA/iDdozeKk9QgUfPIBW9wYFfREKrn1oEUS8gDPdDEmG7LJrPwiZzST/TCbDAtTnQwNsdLi21XGb2XcBfnD9N+JjMvR9Wv8S55MBUEM3vo3zS22i3Qtj7LphToek0B0PAG6o1Rm6cTWhVhOOSZFXZuOS9gXH9dnOprmmhPLPdaHtw9rLirrWgc6vrJZWAAu01/Y7K9GWb5Gr+L6XgbNnqPmK+6Z2b6xXfKi28k0oTi7OtXDt6wlg0gF4K8mjCu4b6hGpTVBNjCr8hN9bnN/f2QdiM7HejqH6//MT58TZnD/lnoizfM93ey/pl8wr7j/qV9dnVKJdty6pCu/F+O9ziPglue2DVLn43BPy3+d/b7157PU8r98B20NRWw==
+   eJyllF1qAjEQx4c8FHypmFIhQrSISO/TnsFLeQQLffAArR83EOyLILjtQ0UQ6QU642bIZIiL2/4gJJnZ/GcyGRbgemYOYO5S28Ll18xHC+Ab7fuMj1mibxX8U5w/PYDpxvHlo19rE7d3aYx1K81pY0vdQQfgB7Wa3ThOPtWqw86WeS1DXNI+4jjdh9nX19RQ/oUrtSWsPa2o6zXQ+beg5QzAK67fw16+i0TbCpPXHnbieoSaT/hdD2v2YPO9IqHa6jehOIU610Db9gbgsQnwfCGPKrhvqEe0NkE18ab0E7K3OL/z2T/Erotp/89PHGxcc/6Uu1Vn+Z6TcC/t17xU3L/frq5P/4J2rvdyjE16L0a+zybj1xShD8Ymxuee0P8+uV+IeSB6nu2/eEtReA==
   </data>
  </layer>
  <layer id="3" name="Above" width="23" height="15">
@@ -205,7 +205,7 @@
  </layer>
  <layer id="5" name="Walkable" width="23" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYCAebBQjDaPrI9ZcctQQEqfEbHyAVLOJDTNC/iLHbFxxQ47Z+NRS6j5CYU2L8MVlNj47sJmBz+2E/EXInbjMQdZDbhhQw2x8gNR8RYoectINPnXUxCAAAD+qiZg=
+   eJytkcsNACAIQ5nC/VdwQ+OVSD9gEy5Sn1AjdO3lVb6ncjsedj5hI7lsNTO2V4dd/U2HjbwOQ8kAZaFk53hyD72rzPDyI6E5Kw7LU8ngB5vt5WqamdrPvp91dQCF0IEL
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents">
@@ -281,6 +281,11 @@
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="plaguespider_2"/>
+   </properties>
+  </object>
+  <object id="26" name="dds_oldhermit" type="spawn" x="576" y="192" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="dds_oldhermit"/>
    </properties>
   </object>
  </objectgroup>

@@ -189,9 +189,7 @@
     <string name="about_button3">Chứng chỉ</string>
     <string name="levelup_add_attackdamage_description">Tăng %1$d vào sát thương cơ bản.</string>
     <string name="dialog_groundloot_title">Các món đồ</string>
-    <string name="dialog_newversion_permission_information">"
-\n
-\nAndor\'s Trail cần quyền truy cập vào bộ nhớ với mục đích duy nhất là để lưu và tải lượt chơi của bạn."</string>
+    <string name="dialog_newversion_permission_information">\n\nAndor\'s Trail cần quyền truy cập vào bộ nhớ với mục đích duy nhất là để lưu và tải lượt chơi của bạn.</string>
     <string name="dialog_permission_information_title">Tải và lưu lượt chơi</string>
     <string name="questlog_includecompleted_prompt">Chọn nhiệm vụ cần hiển thị</string>
     <string name="questlog_includecompleted_hidecompleted">Nhiệm vụ đang làm</string>
@@ -199,7 +197,7 @@
     <string name="questlog_queststatus_inprogress">Đang tiến hành</string>
     <string name="questlog_queststatus_completed">Đã hoàn thành</string>
     <string name="preferences_dialog_category">Hộp thoại xác nhận</string>
-    <string name="about_contents1">Chào mừng bạn đến với Andor\'s Trail, trò chơi RPG thám hiểm mã nguồn mở.&lt;br /&gt; &lt;br/&gt; &lt;a href=http://andorstrail.com/&gt;Diễn đàn của trò chơi có ở trên trang web andorstrail.com để bạn có thể đặt câu hỏi và thảo luận về trò chơi.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Mã nguồn của dự án trên github.com cho các nhà phát triển.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;Bạn hãy ghé thăm diễn đàn để thảo luận với những người chơi khác nhé.&lt;br /&gt;</string>
+    <string name="about_contents1">Chào mừng bạn đến với Andor\'s Trail, trò chơi RPG thám hiểm mã nguồn mở.&lt;br /&gt; &lt;br/&gt; &lt;a href=http://andorstrail.com/&gt;Diễn đàn của trò chơi có ở trên trang web andorstrail.com để bạn có thể đặt câu hỏi và thảo luận về trò chơi.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://docs.andorstrail.com/gitbook.io/docs&gt;Ghé thăm Wiki để biết thêm những thông tin về thế giới trong Andor\'s Trail&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;&lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Mã nguồn của dự án trên github.com cho các nhà phát triển.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;Bạn hãy ghé thăm diễn đàn để thảo luận với những người chơi khác nhé.&lt;br /&gt;</string>
     <string name="about_contents3">Chương trình này là phần mềm tự do, bạn có thể cung cấp lại và/hoặc chỉnh sửa nó theo những điều khoản của Giấy phép Công cộng của GNU do Tổ chức Phần mềm Tự do công bố; phiên bản 2 của Giấy phép, hoặc bất kỳ một phiên bản sau đó (tuỳ sự lựa chọn của bạn).&lt;br /&gt; &lt;br /&gt; Chương trình này được cung cấp với hy vọng nó sẽ hữu ích, tuy nhiên KHÔNG CÓ BẤT KỲ MỘT BẢO HÀNH NÀO; thậm chí kể cả bảo hành về KHẢ NĂNG THƯƠNG MẠI hoặc TÍNH THÍCH HỢP CHO MỘT MỤC ĐÍCH CỤ THỂ. Xin xem Giấy phép Công cộng của GNU để biết thêm chi tiết.&lt;br /&gt; &lt;br/&gt; Bạn sẽ nhận được một bản sao của Giấy phép Công cộng của GNU cùng với chương tình này, nếu không, vui lòng truy cập &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Để xem mã nguồn và đưa ra các yêu cầu về tính năng, bạn hãy truy cập trang web của dự án: &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
     <string name="about_interface">&lt;div&gt;Bạn có thể nhấn phím menu trên thiết bị để mở &lt;b&gt;Cài đặt&lt;/b&gt; của trò chơi.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Giải thích các biểu tượng trên giao diện&lt;/h1&gt; &lt;div&gt;&lt;b&gt;Rương&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Sử dụng nhanh [Nhấn giữ biểu tượng chiếc túi bên trong để gán các vật phẩm để sử dụng nhanh]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Nhân vật chính&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menu [Tổng quan, Nhiệm vụ, Kỹ năng &amp;amp; Túi đồ *]&lt;/p&gt; &lt;p&gt;* (Trong túi đồ, nhấn vào vật phẩm để xem thông tin, nhẫn giữ để xem nhiều thao tác hơn)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Kẻ địch&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Thông tin [Trong chiến đấu]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Chiến đấu&lt;/h1&gt; &lt;p&gt;Thực hiện các hành động trong khi chiến đấu tốn AP...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Tấn công&lt;/b&gt; - [3AP] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (Mặc/thay đổi/cởi bỏ trang bị &amp;amp; Sử dụng các vật phẩm có thể thay đổi tiêu hao AP)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Sử dụng vật phẩm&lt;/b&gt; - [5AP]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Rút lui&lt;/b&gt; - [6AP]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Chiến đấu nâng cao&lt;/h1&gt; &lt;div&gt;Trong chiến đấu, nhấn giữ một ô bên cạnh nhân vật chính để...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Rút lui&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(ô được chọn sẽ được đánh dấu - nút tấn công chuyển thành di chuyển)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[chế độ rút lui đã được kích hoạt - nhấn giữ kẻ địch để quay lại chiến đấu]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Thay đổi mục tiêu&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(hiệu ứng đánh dấu mục tiêu màu đỏ chuyển sang kẻ địch khác)&lt;/p&gt; &lt;p&gt;[mục tiêu đã được thay đổi]&lt;/p&gt;</string>
     <string name="dialog_newversion_message">Cảm ơn bạn đã tải xuống Andor\'s Trail
@@ -256,7 +254,7 @@
     <string name="iteminfo_effect_works_when_equipped">Khi được mặc</string>
     <string name="iteminfo_effect_works_when_hit_by_attacker">Khi bị đánh bởi người tấn công</string>
     <string name="iteminfo_effect_works_when_killed_by_attacker">Khi bị giết bởi người tấn công</string>
-    <string name="iteminfo_effect_decrease_current_hp">"Hút %1$s  HP"</string>
+    <string name="iteminfo_effect_decrease_current_hp">Hút %1$s HP</string>
     <string name="iteminfo_effect_increase_current_hp">Phục hồi %1$s HP</string>
     <string name="iteminfo_effect_decrease_current_ap">Húp %1$s AP</string>
     <string name="iteminfo_effect_increase_current_ap">Phục hồi %1$s AP</string>
@@ -299,7 +297,7 @@
     <string name="skill_shortdescription_barter">Giá của hàng tốt hơn</string>
     <string name="skill_shortdescription_weapon_chance">Tăng khả năng tấn công</string>
     <string name="skill_shortdescription_weapon_dmg">Tăng sát thương</string>
-    <string name="skill_longdescription_barter">"Với mỗi cấp kỹ năng,giảm giá mua vật phẩm %1$d  phần trăm."</string>
+    <string name="skill_longdescription_barter">Với mỗi cấp kỹ năng,giảm giá mua vật phẩm %1$d phần trăm.</string>
     <string name="skill_longdescription_speed">Tăng điểm hành động tối đa (AP) thêm %1$d cho mỗi cấp độ kỹ năng.</string>
     <string name="skill_longdescription_coinfinder">Tăng cơ hội tìm thấy vàng trong vật phẩm rơi ra từ quái vật lên %1$d %% và tăng lượng vàng rơi ra lên %2$d %% cho mỗi cấp độ kỹ năng (lên đến lượng vàng tối đa mà quái vật rơi ra).</string>
     <string name="skill_longdescription_cleave">Tăng +%1$d điểm hành động (AP) cho mỗi lần tiêu diệt theo cấp độ kỹ năng.</string>
@@ -414,7 +412,7 @@
     <string name="skill_longdescription_weapon_prof_blunt">Với mỗi cấp độ kỹ năng, tăng cơ hội tấn công của vũ khí cùn bằng %1$d %% cơ hội tấn công cơ bản của vật phẩm, tăng cơ hội chặn bằng %2$d %% cơ hội chặn cơ bản của vật phẩm và tăng kỹ năng chí mạng bằng %3$d %% kỹ năng chí mạng cơ bản của vật phẩm. Bao gồm chùy, gậy, chùy, quyền trượng, roi, búa chiến và búa khổng lồ.</string>
     <string name="skill_longdescription_armor_prof_unarmored">Trong khi chiến đấu mà không trang bị bất kỳ mảnh giáp nào, nhận được %1$d cơ hội chặn cho mỗi cấp độ kỹ năng. Các vật phẩm làm bằng vải không được coi là áo giáp.</string>
     <string name="skill_longdescription_armor_prof_light">Với mỗi cấp độ kỹ năng, tăng cơ hội chặn của mọi mảnh giáp nhẹ được mặc thêm %1$d %% so với cơ hội chặn ban đầu của chúng. Giáp nhẹ bao gồm giáp da, giáp kim loại nhẹ và giáp da.</string>
-    <string name="skill_longdescription_armor_prof_heavy">Với mỗi cấp độ kỹ năng, tăng cơ hội chặn của mọi mảnh giáp nặng được mặc thêm %1$d %% so với cơ hội chặn ban đầu của chúng. Các mảnh giáp nặng có hình phạt di chuyển giảm %2$d %% theo cấp độ kỹ năng và hình phạt tốc độ tấn công giảm %3$d %% theo cấp độ kỹ năng. Giáp nặng bao gồm giáp kim loại, giáp xích và giáp tấm.</string>
+    <string name="skill_longdescription_armor_prof_heavy">Với mỗi cấp độ kỹ năng, tăng cơ hội chặn của mọi mảnh giáp nặng được mặc thêm %1$d %% so với cơ hội chặn ban đầu của chúng. Các mảnh giáp nặng có hình phạt di chuyển giảm %2$d %% theo cấp độ kỹ năng, hình phạt tốc độ tấn công giảm %3$d %% theo cấp độ kỹ năng, và hình phạt tiêu hao sử dụng vật phẩm giảm %4$d %% theo cấp độ kỹ năng. Giáp nặng bao gồm giáp kim loại, giáp xích và giáp tấm.</string>
     <string name="skill_longdescription_fightstyle_dualwield">Mang lại lợi ích khi chiến đấu bằng hai vũ khí cùng lúc, một ở tay chính và một ở tay phụ.
 \n
 \nNếu không có kỹ năng này, chỉ có thể sử dụng %1$d %% phẩm chất của vũ khí khi được trang bị ở tay phụ. Bao gồm cơ hội tấn công, kỹ năng chí mạng, tiềm năng gây sát thương và cơ hội chặn. Nếu không có kỹ năng này, chi phí tấn công (chi phí AP) để thực hiện một đòn tấn công là tổng chi phí tấn công của vũ khí chính và chi phí của vũ khí được sử dụng ở tay phụ. Chỉ số sát thương thấp hơn trong cả hai sẽ được sử dụng.
@@ -500,7 +498,7 @@
     <string name="skill_shortdescription_resistance_mental">Sức đề kháng chống lại các trạng thái tinh thần</string>
     <string name="skill_shortdescription_resistance_physical_capacity">Sức đề kháng với các trạng thái về thể lực</string>
     <string name="skill_shortdescription_resistance_blood_disorder">Sức đề kháng chống lại chảy máu</string>
-    <string name="skill_longdescription_weapon_chance">Tăng tỉ lệ trúng thêm %1$d phần trăm với mỗi cấp kỹ năng</string>
+    <string name="skill_longdescription_weapon_chance">Tăng tỉ lệ trúng thêm %1$d phần trăm với mỗi cấp kỹ năng.</string>
     <string name="skill_longdescription_weapon_dmg">Tăng sát thương thêm %1$d với mỗi cấp kỹ năng.</string>
     <string name="skill_longdescription_dodge">Tăng khả năng chặn thêm %1$d phần trăm với mỗi cấp kỹ năng.</string>
     <string name="skill_longdescription_barkskin">Tăng khả năng kháng sát thương thêm %1$d với mỗi cấp kỹ năng.</string>
@@ -523,7 +521,7 @@
     <string name="loadsave_export_successfull">Xuất file thành công</string>
     <string name="loadsave_export_unsuccessfull">Xuất file không thành công</string>
     <string name="loadsave_export_overwrite_confirmation_title">Ghi đè lên các tập tin hiện có?</string>
-    <string name="loadsave_export_overwrite_confirmation">Thư mục đích chứa các tệp hiện có có cùng tên với một số tệp cần được xuất. Bạn có chắc chắn muốn ghi đè lên các tệp đó không?</string>
+    <string name="loadsave_export_overwrite_confirmation">Thư mục đích chứa các tệp hiện có cùng tên với một số tệp cần được xuất. Bạn có chắc chắn muốn ghi đè lên các tệp đó không?</string>
     <string name="loadsave_export_error_unknown">Đã xảy ra lỗi không xác định khi xuất.</string>
     <string name="loadsave_import_save">Nhập file savegame</string>
     <string name="loadsave_import_save_info">Vui lòng chọn tất cả Savegame mà bạn muốn nhập.</string>

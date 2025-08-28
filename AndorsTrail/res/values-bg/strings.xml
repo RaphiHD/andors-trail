@@ -609,4 +609,26 @@
     <string name="preferences_display_overwrite_savegame_entries_always_confirm">Винаги показвай диалогова кутия за потвърждаване</string>
     <string name="preferences_display_overwrite_savegame_entries_confirm_overwrite">Показване само при презаписване с друго име на играч</string>
     <string name="preferences_display_overwrite_savegame_entries_never_confirm">Никога не поакзвай диалоговата кутия за потвърждение</string>
+    <string name="heroinfo_reequip_cost">Цена за повторно поставяне на предмет (ТД):</string>
+    <string name="heroinfo_useitem_cost">Цена за използване на предмет (ТД):</string>
+    <string name="skill_title_armor_prof_light">Владеене на лека броня</string>
+    <string name="skill_shortdescription_weapon_prof_unarmed">Подобрява сраженията невъоръжен</string>
+    <string name="skill_title_weapon_prof_pole">Владеене на оръжия с дълги дръжки</string>
+    <string name="skill_shortdescription_weapon_prof_dagger">Подобрява сраженията с използване на кинжали</string>
+    <string name="preferences_high_quality_filters">Деактивирайте това, ако имате проблеми с изобразяването на специфични зони от картата на играта (например тъмни пещери). Активирането на тази опция ще накара играта да използва разширени цветни филтри, вместо наслагвания с плътен цвят.</string>
+    <string name="preferences_dialog_overwrite_savegame">Задава въпрос дали искате да презапишете даден слот със запазена вече игра.</string>
+    <string name="skill_title_weapon_prof_dagger">Владеене на кинжали</string>
+    <string name="combat_result_monstermoved">%1$s премествания.</string>
+    <string name="skill_title_weapon_prof_1hsword">Владеене на меч за една ръка</string>
+    <string name="skill_title_weapon_prof_2hsword">Владеене на меч за две ръце</string>
+    <string name="skill_title_weapon_prof_axe">Владеене на брадви</string>
+    <string name="skill_title_weapon_prof_blunt">Владеене на нережещи оръжия</string>
+    <string name="skill_title_weapon_prof_unarmed">Ръкопашен бой</string>
+    <string name="skill_title_armor_prof_shield">Владеене на щит</string>
+    <string name="skill_title_armor_prof_unarmored">Бой без броня</string>
+    <string name="skill_title_armor_prof_heavy">Владеене на тежка броня</string>
+    <string name="skill_shortdescription_weapon_prof_1hsword">Подобрява сраженията с използване на меч за една ръка</string>
+    <string name="skill_shortdescription_weapon_prof_2hsword">Подобрява сраженията с използване на меч за две ръце</string>
+    <string name="skill_shortdescription_weapon_prof_axe">Подобрява сраженията с използване на брадва</string>
+    <string name="skill_shortdescription_weapon_prof_blunt">Подобрява сраженията с използване на нережещи оръжия</string>
 </resources>

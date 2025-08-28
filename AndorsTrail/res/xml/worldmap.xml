@@ -401,7 +401,7 @@
     <map id="waytobrimhavencave3" x="442" y="270"/>
     <map id="waytobrimhavencave4" x="318" y="270"/>
   </segment>
-  <segment id="world1" x="-12" y="-52">
+  <segment id="world1" x="-59" y="-52">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
     <map id="blackwater_mountain2" x="32" y="437"/>
@@ -411,15 +411,15 @@
     <map area="prim" id="blackwater_mountain11" x="33" y="337"/>
     <map id="blackwater_mountain12" x="4" y="358"/>
     <map id="blackwater_mountain14" x="54" y="368"/>
-    <map id="blackwater_mountain15" x="75" y="337"/>
-    <map id="blackwater_mountain16" x="91" y="337"/>
-    <map id="blackwater_mountain30" x="114" y="407"/>
-    <map id="blackwater_mountain32" x="83" y="409"/>
+    <map area="mt_bwm" id="blackwater_mountain15" x="75" y="337"/>
+    <map area="mt_bwm" id="blackwater_mountain16" x="91" y="337"/>
+    <map area="mt_bwm" id="blackwater_mountain30" x="114" y="407"/>
+    <map area="mt_bwm" id="blackwater_mountain32" x="83" y="409"/>
     <map id="blackwater_mountain40" x="71" y="389"/>
-    <map id="blackwater_mountain53" x="86" y="327"/>
+    <map area="mt_bwm" id="blackwater_mountain53" x="86" y="327"/>
     <map id="blackwater_mountain54" x="117" y="321"/>
-    <map id="blackwater_mountain55" x="83" y="389"/>
-    <map id="blackwater_mountain56" x="85" y="368"/>
+    <map area="mt_bwm" id="blackwater_mountain55" x="83" y="389"/>
+    <map area="mt_bwm" id="blackwater_mountain56" x="85" y="368"/>
     <map area="crossglen" id="crossglen" x="148" y="355"/>
     <map area="crossroads" id="crossroads" x="179" y="300"/>
     <map area="fallhaven" id="fallhaven_ne" x="241" y="382"/>
@@ -771,15 +771,15 @@
     <map id="rat_mountain_6" x="152" y="562"/>
     <map id="rat_mountain_7" x="126" y="562"/>
     <map id="rat_mountain_8" x="126" y="586"/>
-    <map id="ratdom_bwm1" x="137" y="355"/>
+    <map area="mt_bwm" id="ratdom_bwm1" x="137" y="355"/>
     <map id="bwmfill1" x="148" y="321"/>
-    <map id="bwmfill2" x="107" y="337"/>
-    <map id="bwmfill3" x="107" y="355"/>
-    <map id="bwmfill4" x="107" y="386"/>
-    <map id="bwmfill5" x="114" y="386"/>
-    <map id="bwmfill6" x="137" y="386"/>
-    <map id="bwmfill7" x="145" y="407"/>
-    <map id="bwmfill8" x="145" y="428"/>
+    <map area="mt_bwm" id="bwmfill2" x="107" y="337"/>
+    <map area="mt_bwm" id="bwmfill3" x="107" y="355"/>
+    <map area="mt_bwm" id="bwmfill4" x="107" y="386"/>
+    <map area="mt_bwm" id="bwmfill5" x="114" y="386"/>
+    <map area="mt_bwm" id="bwmfill6" x="137" y="386"/>
+    <map area="mt_bwm" id="bwmfill7" x="145" y="407"/>
+    <map area="mt_bwm" id="bwmfill8" x="145" y="428"/>
     <map id="laerothcave0" x="787" y="125"/>
     <map id="laerothisland0" x="743" y="52"/>
     <map id="laerothisland1" x="743" y="73"/>
@@ -808,6 +808,69 @@
     <map id="way_to_wexlow1" x="19" y="96"/>
     <map id="way_to_wexlow2" x="39" y="96"/>
     <map id="way_to_wexlow3" x="55" y="109"/>
+    <map id="galmore_9" x="95" y="562"/>
+    <map id="galmore_10" x="95" y="586"/>
+    <map id="galmore_11" x="65" y="586"/>
+    <map id="galmore_12" x="35" y="586"/>
+    <map id="galmore_12a" x="3" y="586"/>
+    <map id="stoutford_filler_1" x="8" y="561"/>
+    <map id="stoutford_filler_2" x="32" y="561"/>
+    <map id="stoutford_filler_3" x="53" y="561"/>
+    <map id="stoutford_filler_4" x="74" y="562"/>
+    <map id="galmore_13" x="3" y="603"/>
+    <map id="galmore_14" x="34" y="603"/>
+    <map id="galmore_15" x="65" y="603"/>
+    <map id="galmore_16" x="96" y="603"/>
+    <map id="galmore_17" x="127" y="603"/>
+    <map id="galmore_18" x="158" y="603"/>
+    <map id="galmore_19" x="189" y="603"/>
+    <map id="galmore_23" x="3" y="634"/>
+    <map id="galmore_24" x="34" y="634"/>
+    <map id="galmore_25" x="65" y="634"/>
+    <map id="galmore_26" x="96" y="634"/>
+    <map id="galmore_27" x="127" y="634"/>
+    <map id="galmore_28" x="158" y="634"/>
+    <map id="galmore_29" x="189" y="634"/>
+    <map id="galmore_32" x="-28" y="665"/>
+    <map id="galmore_33" x="3" y="665"/>
+    <map id="galmore_34" x="34" y="665"/>
+    <map id="galmore_35" x="65" y="665"/>
+    <map id="galmore_36" x="96" y="665"/>
+    <map id="galmore_37" x="127" y="665"/>
+    <map id="galmore_38" x="158" y="665"/>
+    <map id="galmore_39" x="189" y="665"/>
+    <map id="galmore_41" x="-59" y="696"/>
+    <map id="galmore_42" x="-28" y="696"/>
+    <map id="galmore_43" x="3" y="696"/>
+    <map id="galmore_44" x="34" y="696"/>
+    <map id="galmore_45" x="65" y="696"/>
+    <map id="galmore_46" x="96" y="696"/>
+    <map id="galmore_47" x="127" y="696"/>
+    <map id="galmore_48" x="158" y="696"/>
+    <map id="galmore_52" x="-28" y="727"/>
+    <map id="galmore_53" x="3" y="727"/>
+    <map area="mt_galmore" id="galmore_54" x="34" y="727"/>
+    <map area="mt_galmore" id="galmore_55" x="65" y="727"/>
+    <map area="mt_galmore" id="galmore_56" x="96" y="727"/>
+    <map area="mt_galmore" id="galmore_57" x="127" y="727"/>
+    <map id="galmore_58" x="158" y="727"/>
+    <map id="galmore_62" x="-28" y="758"/>
+    <map area="mt_galmore" id="galmore_63" x="3" y="758"/>
+    <map area="mt_galmore" id="galmore_64" x="34" y="758"/>
+    <map area="mt_galmore" id="galmore_65" x="65" y="758"/>
+    <map area="mt_galmore" id="galmore_66" x="96" y="758"/>
+    <map area="mt_galmore" id="galmore_67" x="127" y="758"/>
+    <map id="galmore_68" x="158" y="758"/>
+    <map id="galmore_71" x="-44" y="789"/>
+    <map id="galmore_72" x="-28" y="789"/>
+    <map area="mt_galmore" id="galmore_73" x="3" y="789"/>
+    <map area="mt_galmore" id="galmore_74" x="34" y="789"/>
+    <map area="mt_galmore" id="galmore_75" x="65" y="789"/>
+    <map area="mt_galmore" id="galmore_76" x="96" y="789"/>
+    <map area="mt_galmore" id="galmore_77" x="127" y="789"/>
+    <map area="mt_galmore" id="galmore_85" x="65" y="820"/>
+    <map area="mt_galmore" id="galmore_86" x="96" y="820"/>
+    <map id="nw_sullengard_1" x="236" y="650"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
@@ -825,5 +888,7 @@
     <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
     <namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
     <namedarea id="wexlow_village" name="Wexlow Village" type="settlement"/>
+    <namedarea id="mt_galmore" name="Mt. Galmore" type="other"/>
+    <namedarea id="mt_bwm" name="Blackwater Mountain" type="other"/>
   </segment>
 </worldmap>

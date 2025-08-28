@@ -11,6 +11,8 @@
         <item>@raw/itemcategories_ratdom</item>
         <!--Added by ATCS v0.6.20 for project mt_galmore-->
         <item>@raw/itemcategories_mt_galmore</item>
+        <!--Added by ATCS v0.6.21 for project mt_galmore2-->
+        <item>@raw/itemcategories_mt_galmore2</item>
     </array>
         
     <array name="loadresource_actorconditions">
@@ -50,6 +52,8 @@
         <item>@raw/actorconditions_laeroth</item>
         <!--Added by ATCS v0.6.20 for project feygard_1-->
         <item>@raw/actorconditions_feygard_1</item>
+        <!--Added by ATCS v0.6.21 for project mt_galmore2-->
+        <item>@raw/actorconditions_mt_galmore2</item>
     </array>
         
     <array name="loadresource_items">
@@ -122,6 +126,8 @@
         <item>@raw/itemlist_lytwings</item>
         <!--Added by ATCS v0.6.21 for project troubling_times-->
         <item>@raw/itemlist_troubling_times</item>
+        <!--Added by ATCS v0.6.21 for project mt_galmore2-->
+        <item>@raw/itemlist_mt_galmore2</item>
     </array>
         
     <array name="loadresource_droplists">
@@ -186,6 +192,8 @@
         <item>@raw/droplists_feygard_1</item>
         <!--Added by ATCS v0.6.21 for project troubling_times-->
         <item>@raw/droplists_troubling_times</item>
+        <!--Added by ATCS v0.6.21 for project mt_galmore2-->
+        <item>@raw/droplists_mt_galmore2</item>
     </array>
         
     <array name="loadresource_quests">
@@ -247,6 +255,9 @@
         <item>@raw/questlist_lytwings</item>
         <!--Added by ATCS v0.6.21 for project troubling_times-->
         <item>@raw/questlist_troubling_times</item>
+        <!--Added by ATCS v0.6.21 for project mt_galmore2-->
+        <item>@raw/questlist_darknessanddaylight</item>
+        <item>@raw/questlist_mt_galmore2</item>
     </array>
         
     <array name="loadresource_conversationlists">
@@ -462,6 +473,9 @@
         <item>@raw/conversationlist_lytwings</item>
         <!--Added by ATCS v0.6.21 for project troubling_times-->
         <item>@raw/conversationlist_troubling_times</item>
+        <!--Added by ATCS v0.6.21 for project mt_galmore2-->
+        <item>@raw/conversationlist_darknessanddaylight</item>
+        <item>@raw/conversationlist_mt_galmore2</item>
     </array>
         
     <array name="loadresource_monsters">
@@ -534,6 +548,9 @@
         <item>@raw/monsterlist_lytwings</item>
         <!--Added by ATCS v0.6.21 for project troubling_times-->
         <item>@raw/monsterlist_troubling_times</item>
+        <!--Added by ATCS v0.6.21 for project mt_galmore2-->
+        <item>@raw/monsterlist_darknessanddaylight</item>
+        <item>@raw/monsterlist_mt_galmore2</item>
     </array>
         
     <array name="loadresource_maps">
@@ -1575,6 +1592,97 @@
         <item>@xml/fallhaven_derelict2_t</item>
         <item>@xml/fallhaven_tunnel1</item>
         <item>@xml/fallhaven_tunnel2</item>
+        <!--Added by ATCS v0.6.21 for project mt_galmore2-->
+        <item>@xml/galmore_10</item>
+        <item>@xml/galmore_11</item>
+        <item>@xml/galmore_12</item>
+        <item>@xml/galmore_12a</item>
+        <item>@xml/galmore_13</item>
+        <item>@xml/galmore_14</item>
+        <item>@xml/galmore_15</item>
+        <item>@xml/galmore_16</item>
+        <item>@xml/galmore_17</item>
+        <item>@xml/galmore_17_house</item>
+        <item>@xml/galmore_17_house_2f</item>
+        <item>@xml/galmore_18</item>
+        <item>@xml/galmore_19</item>
+        <item>@xml/galmore_19_house</item>
+        <item>@xml/galmore_23</item>
+        <item>@xml/galmore_24</item>
+        <item>@xml/galmore_25</item>
+        <item>@xml/galmore_26</item>
+        <item>@xml/galmore_27</item>
+        <item>@xml/galmore_28</item>
+        <item>@xml/galmore_29</item>
+        <item>@xml/galmore_32</item>
+        <item>@xml/galmore_33</item>
+        <item>@xml/galmore_34</item>
+        <item>@xml/galmore_35</item>
+        <item>@xml/galmore_36</item>
+        <item>@xml/galmore_37</item>
+        <item>@xml/galmore_38</item>
+        <item>@xml/galmore_39</item>
+        <item>@xml/galmore_41</item>
+        <item>@xml/galmore_42</item>
+        <item>@xml/galmore_43</item>
+        <item>@xml/galmore_44</item>
+        <item>@xml/galmore_45</item>
+        <item>@xml/galmore_46</item>
+        <item>@xml/galmore_47</item>
+        <item>@xml/galmore_48</item>
+        <item>@xml/galmore_52</item>
+        <item>@xml/galmore_53</item>
+        <item>@xml/galmore_54</item>
+        <item>@xml/galmore_55</item>
+        <item>@xml/galmore_56</item>
+        <item>@xml/galmore_57</item>
+        <item>@xml/galmore_58</item>
+        <item>@xml/galmore_58_house1</item>
+        <item>@xml/galmore_58_house1b</item>
+        <item>@xml/galmore_58_house3</item>
+        <item>@xml/galmore_62</item>
+        <item>@xml/galmore_63</item>
+        <item>@xml/galmore_64</item>
+        <item>@xml/galmore_65</item>
+        <item>@xml/galmore_66</item>
+        <item>@xml/galmore_66_house</item>
+        <item>@xml/galmore_67</item>
+        <item>@xml/galmore_68</item>
+        <item>@xml/galmore_68_house</item>
+        <item>@xml/galmore_71</item>
+        <item>@xml/galmore_72</item>
+        <item>@xml/galmore_73</item>
+        <item>@xml/galmore_74</item>
+        <item>@xml/galmore_75</item>
+        <item>@xml/galmore_76</item>
+        <item>@xml/galmore_77</item>
+        <item>@xml/galmore_85</item>
+        <item>@xml/galmore_86</item>
+        <item>@xml/galmore_9</item>
+        <item>@xml/galmore_cavea</item>
+        <item>@xml/galmore_cavea_1</item>
+        <item>@xml/galmore_cavea_2</item>
+        <item>@xml/galmore_rail_cave</item>
+        <item>@xml/mt_galmore0_h1</item>
+        <item>@xml/mt_galmore0_h1_2</item>
+        <item>@xml/mt_galmore0_h2</item>
+        <item>@xml/mt_galmore1_h1</item>
+        <item>@xml/mt_galmore1_h2</item>
+        <item>@xml/mt_galmore1_h3</item>
+        <item>@xml/mt_galmore1_h4</item>
+        <item>@xml/mt_galmore1_h5</item>
+        <item>@xml/mt_galmore_mess_hall</item>
+        <item>@xml/mt_galmore_nw_tower_f1</item>
+        <item>@xml/mt_galmore_nw_tower_f2</item>
+        <item>@xml/mt_galmore_railhouse</item>
+        <item>@xml/mt_galmore_sw_tower_f1</item>
+        <item>@xml/mt_galmore_sw_tower_f2</item>
+        <item>@xml/nw_sullengard_1</item>
+        <item>@xml/stoutford_artist</item>
+        <item>@xml/stoutford_filler_1</item>
+        <item>@xml/stoutford_filler_2</item>
+        <item>@xml/stoutford_filler_3</item>
+        <item>@xml/stoutford_filler_4</item>
     </array>
         
 </resources>

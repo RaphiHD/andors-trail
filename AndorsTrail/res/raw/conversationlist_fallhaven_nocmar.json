@@ -168,12 +168,16 @@
             {
                 "text":"Undertell? What's that?",
                 "nextPhraseID":"nocmar_quest_4"
+            },
+            {
+                "text":"Undertell? Is that where I could find a heartstone?",
+                "nextPhraseID":"nocmar_quest_3a"
             }
         ]
     },
     {
         "id":"nocmar_quest_4",
-        "message":"Undertell; the pits of the lost souls. Travel south and enter the caverns of the Dwarves. Follow the horrid smell from there.",
+        "message":"Undertell; the pits of the lost souls. Travel south to the devastated wastelands of Galmore Mountain and follow the tracks from there.",
         "replies":[
             {
                 "text":"N",
