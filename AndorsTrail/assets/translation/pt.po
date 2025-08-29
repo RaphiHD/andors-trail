@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-08-28 12:03+0000\n"
+"PO-Revision-Date: 2025-08-29 22:02+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.13\n"
+"X-Generator: Weblate 5.13.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -493,8 +493,9 @@ msgid "Shadow sleepiness"
 msgstr "Sonolência da Sombra"
 
 #: actorconditions_mt_galmore2.json:petristill
+#, fuzzy
 msgid "Petristill"
-msgstr ""
+msgstr "Petristill"
 
 #: actorconditions_mt_galmore2.json:petristill:description
 msgid "A creeping layer of stone overtakes the infliced's form, dulling its reflexes but hardening its body against harm."
@@ -964,7 +965,7 @@ msgstr "O quê? Não vês que estou ocupado? Vai chatear outra pessoa."
 
 #: conversationlist_crossglen.json:farm2:1
 msgid "What happened to Leta and Oromir?"
-msgstr ""
+msgstr "O que aconteceu à Leta e Oromir?"
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
@@ -44177,28 +44178,38 @@ msgstr "És o Gilson?"
 #: conversationlist_gison.json:gison_p1_10
 msgid "Oh yes, I am Gison. I live in this wood with my wife Nimael. She's over there."
 msgstr ""
+"Ah sim, sou o Gison. Vivo neste bosque com a minha mulher Nimael. Ela está "
+"ali."
 
 #: conversationlist_gison.json:gison_p1_10_0:1
 msgid "Alaun sent me to bring him some of your delicious soup."
-msgstr ""
+msgstr "Alain mandou-me buscar-lhe alguma da tua sopa deliciosa."
 
 #: conversationlist_gison.json:gison_p1_10_0:3
 msgid "Nevermind. I guess I need to be going."
-msgstr ""
+msgstr "Deixa lá. Acho que preciso de ir embora."
 
 #: conversationlist_gison.json:gison_talk
 msgid "We live here from what the forest gives us. Surely we have to buy some things in Fallhaven, but I prefer the silence of these woods rather than the hectic life in a city."
 msgstr ""
+"Vivemos aqui do que a floresta nos dá. Claro que temos que comprar algumas "
+"coisas em Fallhaven, mas prefiro o silêncio destes bosques do que a vida "
+"frenética numa cidade."
 
 #: conversationlist_gison.json:gison_talk:0
 msgid "What's in the woods here?"
-msgstr ""
+msgstr "O que há nos bosques aqui?"
 
 #: conversationlist_gison.json:gison_talk_1
 msgid ""
 "Herbs, animals and above all: Mushrooms. \n"
 " If you would like to know more about mushrooms, I suggest you go to Bogsten, east of here. He grows the best mushrooms you ever ate! But well, I don't want to give away any more secrets of my soup."
 msgstr ""
+"Ervas animais e acima de tudo: cogumelos. \n"
+" \n"
+" Se queres saber mais sobre cogumelos, sugiro ir falar com o Bogsten, a "
+"leste daqui. Ele cultiva os melhores cogumelos que alguns vez comeste! Mas "
+"bem, não quero revelar mais nenhum segredo da minha sopa."
 
 #: conversationlist_gison.json:gison_talk_2
 msgid "Next to my passion for mushrooms, we build here and there on our house and try to keep the wild animals out."
