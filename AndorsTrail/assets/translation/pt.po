@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-08-29 22:02+0000\n"
+"PO-Revision-Date: 2025-08-31 09:03+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -2903,7 +2903,7 @@ msgstr "Undertell? O que é isso?"
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_quest_3:1
 msgid "Undertell? Is that where I could find a heartstone?"
-msgstr ""
+msgstr "Undertell? É aí que consigo encontrar uma pedra de coração?"
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_quest_4
 #: conversationlist_mt_galmore2.json:nocmar_quest_4a
@@ -6045,12 +6045,12 @@ msgstr "Que bênçãos pode oferecer?"
 
 #: conversationlist_jolnor.json:jolnor_default_3:4
 msgid "About Fatigue and Life drain ..."
-msgstr ""
+msgstr "Sobre Fadiga e Esvaziamento de vida..."
 
 #: conversationlist_jolnor.json:jolnor_default_3:5
 #: conversationlist_talion.json:talion_0:10
 msgid "The blessing has worn off too early. Could you give it again?"
-msgstr ""
+msgstr "A benção perdeu efeito demasiado cedo. Podes dá -la novamente?"
 
 #: conversationlist_jolnor.json:jolnor_chapel_1
 msgid "This is Vilegard's place of worship for the Shadow. We praise the Shadow in all its might and glory."
@@ -12581,6 +12581,8 @@ msgstr "Deveria pôr a minha espada através de você por falar assim."
 #: conversationlist_crossroads_2.json:celdar_4:3
 msgid "I'm here to give you a gift from Eryndor. He died, but I was told to give you something from him."
 msgstr ""
+"Estou aqui para te dar uma prenda de Eryndor. Ele morreu, mas disseram-me "
+"para te dar uma coisa dele."
 
 #: conversationlist_crossroads_2.json:celdar_5
 msgid "Are you still around? Did you not listen to what I said?"
@@ -13376,23 +13378,23 @@ msgstr "Desculpa, fomos interrompidos. Estavas a falar sobre o feitiço Sombra E
 
 #: conversationlist_talion.json:talion_0:5
 msgid "Here I've brought you the things that you require for the dispelling."
-msgstr ""
+msgstr "Toma, trouxe-te as coisas que precisas para quebrar o feitiço."
 
 #: conversationlist_talion.json:talion_0:6
 msgid "Do you know the whereabouts of Sly Seraphina?"
-msgstr ""
+msgstr "Sabes onde anda Sly Seraphina?"
 
 #: conversationlist_talion.json:talion_0:7
 msgid "I've brought you the things you had required for dispelling."
-msgstr ""
+msgstr "Trouxe-te as coisas que precisavas para quebrar o feitiço."
 
 #: conversationlist_talion.json:talion_0:8
 msgid "Haven't you forgotten something?"
-msgstr ""
+msgstr "Não te esqueceste de nada?"
 
 #: conversationlist_talion.json:talion_0:9
 msgid "Borvis said you could provide me with some information."
-msgstr ""
+msgstr "Borvis disse que me podias fornecer alguma informação."
 
 #: conversationlist_talion.json:talion_1
 msgid "The people of Loneford are very keen on following the will of Feygard, whatever it may be."
@@ -16082,6 +16084,8 @@ msgstr "Não importa, vamos ver as outras bênçãos."
 #: conversationlist_talion_2.json:talion_bless_str_1:2
 msgid "OK, I'll take it for 300 gold. I need it for Borvis to work an enchantment. He is waiting far to the south."
 msgstr ""
+"OK, levo-a por 300 moedas. Preciso disso para que Borvis faça um "
+"encantamento. Ele está à espera muito para sul."
 
 #: conversationlist_talion_2.json:talion_bless_heal_1
 msgid "The blessing of Shadow regeneration will slowly heal you back if you get hurt. I can give you the blessing for 250 gold."
@@ -39390,35 +39394,39 @@ msgstr "Tomar, fica com elas pela glória maior."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20:1
 msgid "Really? What can you offer?"
-msgstr ""
+msgstr "A sério? O que podes oferecer?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_30
 msgid "Thank you. Very wise of you. Indeed. Let - your - wisdom - grow ..."
 msgstr ""
+"Obrigado. Muito sábio da tua parte. De facto. Que a tua - sabedoria - "
+"cresça..."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_30:0
 msgid "I already feel it."
-msgstr ""
+msgstr "Já estou a sentir."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_50
 msgid "Look here in my chest with my most valuable items, that could transfer their powers to you."
 msgstr ""
+"Vê aqui no meu baú com os meus itens mais valiosos, que podem transferir os "
+"seus poderes para ti."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52
 msgid "Which one do you want to learn more about?"
-msgstr ""
+msgstr "Sobre qual queres aprender mais?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:0
 msgid "Gem of star precision"
-msgstr ""
+msgstr "Gema de previsão estelar"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:1
 msgid "Wanderer's Vitality"
-msgstr ""
+msgstr "Vitalidade do vagabundo"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:2
 msgid "Mountainroot gold nugget"
-msgstr ""
+msgstr "Pepita de ouro raiz de montanha"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:3
 msgid "Shadowstep Favor"
@@ -39429,12 +39437,15 @@ msgid "Starbound grip stone"
 msgstr ""
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:5
+#, fuzzy
 msgid "Swirling orb of awareness."
-msgstr ""
+msgstr "Orbe redemoinho de percepção."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61
 msgid "Your hand steadies with celestial clarity. Touching the item will permanently increase your weapon accuracy."
 msgstr ""
+"A tua mão fica firme com claridade celestial. Ao tocar no item a exatidão da "
+"tua arma aumenta permanentemente."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61:0
 #: conversationlist_brimhaven.json:brv_fortune_back_62:0
@@ -39443,7 +39454,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68:0
 #: conversationlist_brimhaven.json:brv_fortune_back_69:0
 msgid "Sounds great - I choose this one. [Touch the item]"
-msgstr ""
+msgstr "Parece-me bem - escolho este. [Toca no item]"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61:1
 #: conversationlist_brimhaven.json:brv_fortune_back_62:1
@@ -39452,7 +39463,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68:1
 #: conversationlist_brimhaven.json:brv_fortune_back_69:1
 msgid "Let me have a look at the other items."
-msgstr ""
+msgstr "Deixa-me ver os outros itens."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61b
 #: conversationlist_brimhaven.json:brv_fortune_back_62b
@@ -39461,7 +39472,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68b
 #: conversationlist_brimhaven.json:brv_fortune_back_69b
 msgid "A good choice. Do you feel it already?"
-msgstr ""
+msgstr "Grande escolha. Já o sentes?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61b:0
 #: conversationlist_brimhaven.json:brv_fortune_back_62b:0
@@ -39470,7 +39481,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68b:0
 #: conversationlist_brimhaven.json:brv_fortune_back_69b:0
 msgid "Wow - yes! Thank you."
-msgstr ""
+msgstr "UAU - sim! Obrigado."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_62
 msgid "Wanderer's Vitality. You carry the strength of the sky inside you. After touching this item, you will begin to learn how to improve your overall health faster."
@@ -39533,14 +39544,16 @@ msgstr "É melhor eu ir."
 #: conversationlist_brimhaven.json:mikhail_news_66
 msgid "[Loudly complaining] When shall we three meet Andor again?"
 msgstr ""
+"[a queixar-se em voz alta] Quando é que nos os três vamos encontrar o Andor "
+"novamente?"
 
 #: conversationlist_brimhaven.json:mikhail_news_66:0
 msgid "In thunder, lightning or on rain?"
-msgstr ""
+msgstr "Em trovão, relâmpago ou chuva?"
 
 #: conversationlist_brimhaven.json:mikhail_news_66:1
 msgid "Now I'm definitely going."
-msgstr ""
+msgstr "Agora vou definitivamente."
 
 #: conversationlist_brimhaven2.json:brv_school_check_duel_14a
 msgid "When the other students see how you killed Golin, a panic breaks out. Screaming, they all run out of the building."
