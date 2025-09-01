@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-08-31 09:03+0000\n"
+"PO-Revision-Date: 2025-09-01 14:02+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -41791,7 +41791,7 @@ msgstr "Deixa para lá. Tenho que seguir o meu caminho."
 
 #: conversationlist_brimhaven_2.json:leta_oromir_complete2_helped_oromir:1
 msgid "I'm wondering, how long are you going to make him stay in the basement for?"
-msgstr ""
+msgstr "Estava a pensar, por quanto tempo é que vais fazê-lo ficar na cave?"
 
 #: conversationlist_brimhaven_2.json:leta_oromir_complete2_helped_oromir_10
 msgid ""
@@ -43946,14 +43946,24 @@ msgstr "Tropeçar num grupo de pessoas assistindo a um concurso de escaravelhos 
 #: conversationlist_fungi_panic.json:birdwatching_achievement_grant
 msgid "Looking up at the old watchtower, you think back to the time you witnessed a falcon swooping through the air to catch its prey. You decide to write your memories about it in your father's book of achievements."
 msgstr ""
+"Olhando para cima para a velha torre de vigia, lembras-te de um tempo em que "
+"assististe um falcão a fazer um vôo puxado no ar para apanhar a sua presa. "
+"Decides escrever as tuas memórias sobre isso no livro de conquistas do teu "
+"pai."
 
 #: conversationlist_fungi_panic.json:arulir_trap_achievement_grant
 msgid "You think back over the number of falling rocks and crumbling floors you've encountered in these treacherous mountains. At least the place is safer for the next adventurer - you fell for every trap! You decide to write about your experiences in your father's book of achievements."
 msgstr ""
+"Pensas sobre o número de rochas a cair e chãos a desfazer-se que encontraste "
+"nestas montanhas traiçoeiras. Pelo menos o sítio é mais seguro para o "
+"próximo aventureiro - caíste em todas as armadilhas! Decides escrever sobre "
+"as tuas experiências no livro de conquistas do teu pai."
 
 #: conversationlist_fungi_panic.json:alaun_return_nimael
 msgid "Yes. Nimael also makes very good soup. Vegetables with forest herbs. If I buy both I hope they will argue less about whose is better."
 msgstr ""
+"Sim. Nimaep também faz sopa muito boas. Vegetais com ervas da floresta. Se "
+"comprar as duas, espero que discutam menos sobre qual é melhor."
 
 #: conversationlist_fungi_panic.json:gison_arg_10
 msgid "Yes, but it is not as good as mine."
@@ -44049,6 +44059,11 @@ msgid ""
 "We have even cooperated to craft new recipes.\n"
 "We also give free samples of our latest soups to those that buy from us, so they know what is on offer."
 msgstr ""
+"Graças aos teus conselhos, temos tido sucesso a vender mais sopa aos aldeões "
+"de Fallhaven.\n"
+"Temos até cooperado para criar novas receitas.\n"
+"Temos dado amostras grátis das nossas últimas sopas aos nossos clientes, "
+"para que saibam o que há de oferta."
 
 #: conversationlist_fungi_panic.json:nimael_b2:0
 msgid "I'm glad I could help. You sell more soup, and the people in Fallhaven get more choices. Everyone wins!"
@@ -44072,38 +44087,55 @@ msgstr ""
 #: conversationlist_fungi_panic.json:fungi_rescued_100
 msgid "I feel a bit ill. Maybe I should rest a bit before I leave."
 msgstr ""
+"Sinto-me um pouco indisposto. Talvez devesse descansar um pouco antes de ir "
+"embora."
 
 #: conversationlist_fungi_panic.json:fungi_rescued_100:0
 msgid "That might be the giant mushroom's poison. The potioner in Fallhaven knows the cure."
 msgstr ""
+"Isso pode ser o veneno do cogumelo gigante. O fabricante de poções em "
+"Fallhaven conhece a cura."
 
 #: conversationlist_fungi_panic.json:fungi_rescued_110
 msgid "[Lediofa's eyes widen.] I've been poisoned...? Oh no! I'll seek the potioner right away. Thank you for telling me. I hope we meet again, $playername."
 msgstr ""
+"[os olhos de Lediofa abrem-se] Fui envenenada...? Oh, não! Vou procurar o "
+"fabricante de poções agora mesmo. Obrigado por me avisares. Espero encontrar-"
+"te novamente, $playername."
 
 #: conversationlist_fungi_panic.json:fungi_rescued2_10
 msgid "I'm sorry that you're ill, girl, but I can't work for free. The price is 150 gold, no less."
 msgstr ""
+"Preço desculpa por estares doente, rapariga, mas não posso trabalhar de "
+"graça. O preço é 150 moedas, não menos."
 
 #: conversationlist_fungi_panic.json:fungi_rescued2_20
 msgid "You greedy swine...Oh! It's $playername! I came here to cure the mushroom poison, but that lousy merchant won't help me until he receives payment. And I have no gold..."
 msgstr ""
+"Seu porco ganancioso... Oh! É o $playername! Vim aqui curar-me do veneno do "
+"cogumelo, mas este mercador horrível não me ajuda a não se que lhe pague. E "
+"não tenho moedas..."
 
 #: conversationlist_fungi_panic.json:fungi_rescued2_20:0
 msgid "That's no trouble. I can spare 150 gold to help."
-msgstr ""
+msgstr "Sem problema. Eu posso ajudar com as 150 moedas."
 
 #: conversationlist_fungi_panic.json:fungi_rescued2_20:1
 msgid "I'm sorry to hear that, but I can't spare the gold to help you right now."
 msgstr ""
+"Lamento ouvir isso, mas não posso dispensar essas moedas para te ajudar "
+"neste momento."
 
 #: conversationlist_fungi_panic.json:fungi_rescued2_20:2
 msgid "The potioner is right, you know. Nobody works for free."
-msgstr ""
+msgstr "O fabricante de poções tem razão, sabes. Ninguém trabalha de graça."
 
 #: conversationlist_fungi_panic.json:fungi_rescued2_30
 msgid "You've saved me again, $playername. You truly are a hero. If you ever find yourself in Nor City, I'm sure my family would love to meet you. Thank you!"
 msgstr ""
+"Salvaste-me de novo, $playername. És um verdadeiro herói. Se alguma vez "
+"fores a Nor City, tenho a certeza que a minha família adoraria conhecer-te. "
+"Obrigado!"
 
 #: conversationlist_fungi_panic.json:fungi_rescued2_30:0
 msgid "Take care!"
@@ -44111,19 +44143,21 @@ msgstr "Toma cuidado!"
 
 #: conversationlist_fungi_panic.json:fungi_rescued2_20_2
 msgid "But what can I do? I don't feel well..."
-msgstr ""
+msgstr "Mas o que posso fazer? Não me sinto bem..."
 
 #: conversationlist_fungi_panic.json:fungi_rescued2_1
 msgid "Outrageous! I told you already, I don't have 150 gold!"
-msgstr ""
+msgstr "Ultrajante! Já te disse, não tenho 150 moedas!"
 
 #: conversationlist_fungi_panic.json:gison_thiefboss_40
 msgid "One thing it likes is annoying children, like you. Thank you for volunteering!"
 msgstr ""
+"Uma coisa de que ela gosta é de crianças irritantes, como tu. Obrigado por "
+"te voluntariares!"
 
 #: conversationlist_fungi_panic.json:gison_thiefboss_40:0
 msgid "Sorry, I don't think so. I will destroy you and your fungi leader!"
-msgstr ""
+msgstr "Desculpa, penso que não. Vou destruir-te e ao teu líder fúngico!"
 
 #: conversationlist_fungi_panic.json:gison_thiefboss_40:1
 msgid "Sorry for disturbing you. I will leave immediately."
@@ -44163,6 +44197,9 @@ msgid ""
 "\n"
 "[Alaun starts throwing things at you again]"
 msgstr ""
+"Atreves-te a mostrar a tua cara na minha casa novamente? Fora! Agora!\n"
+"\n"
+"[Alaun começa a atirar-te coisas novamente]"
 
 #: conversationlist_fungi_panic.json:alaun_bela_soup
 msgid "Ah, my friend! Have you heard the great news? Gison and Nimael have started supplying the tavern here in Fallhaven with their newest soup. It's marvelous!"
@@ -44230,15 +44267,17 @@ msgstr ""
 
 #: conversationlist_gison.json:gison_talk_2:0
 msgid "I see. Let's talk about something else."
-msgstr ""
+msgstr "Estou a ver. Vamos falar sobre outra coisa."
 
 #: conversationlist_gison.json:gison_talk_3
 msgid "Well, all right. As you wish."
-msgstr ""
+msgstr "Bem, tudo certo. Como quiseres."
 
 #: conversationlist_gison.json:gison_p1_10_1
 msgid "Hahaha. Alaun the old swashbuckler. Could not get enough. I will fix something up for him. Wait here."
 msgstr ""
+"Hahaha. Alaun, o velho espadachim aventureiro. Nunca chega para ele. Vou "
+"arranjar-lhe qualquer coisa. Espera aqui."
 
 #: conversationlist_gison.json:gison_p1_10_2
 msgid "Gison goes to a big bowl, fills up some of the soup and returns to you."
@@ -44256,35 +44295,35 @@ msgstr ""
 
 #: conversationlist_gison.json:gison_p1_10_4:0
 msgid "Alaun will get his soup soon enough."
-msgstr ""
+msgstr "Alaun vai ter a sua sopa em breve."
 
 #: conversationlist_gison.json:gison_p1_10_4:1
 msgid "Yes. I'm on my way."
-msgstr ""
+msgstr "Sim. Estou a caminho."
 
 #: conversationlist_gison.json:gison_p1_20
 msgid "Hello you. Did you take the soup to Alaun?"
-msgstr ""
+msgstr "Olá, tu. Levaste a sopa ao Alaun?"
 
 #: conversationlist_gison.json:gison_p1_20:0
 msgid "Yes, he was not able to bear it any longer."
-msgstr ""
+msgstr "Sim, já não aguentava mais tempo."
 
 #: conversationlist_gison.json:gison_p1_20:1
 msgid "No, I still have it with me."
-msgstr ""
+msgstr "Não, ainda está comigo."
 
 #: conversationlist_gison.json:gison_p1_20:2
 msgid "No ... ehm ... Maybe you could give me some more?"
-msgstr ""
+msgstr "Não... hum... Talvez me pudesses dar um pouco mais?"
 
 #: conversationlist_gison.json:gison_p1_20:3
 msgid "Could you make it hot again?"
-msgstr ""
+msgstr "Pode aquecê-la novamente?"
 
 #: conversationlist_gison.json:gison_p1_20_1
 msgid "Then hurry up. A hungry Alaun is an angry Alaun."
-msgstr ""
+msgstr "Então despacha-te. Um Alaun com fome é um Alaun zangado."
 
 #: conversationlist_gison.json:gison_p1_20_1:0
 msgid "I'm on the way."
@@ -44292,19 +44331,23 @@ msgstr "Estou a caminho."
 
 #: conversationlist_gison.json:gison_p1_20_1:1
 msgid "Yes, yes. He'll get it soon."
-msgstr ""
+msgstr "Sim, sim. Ele vai recebê-la em breve."
 
 #: conversationlist_gison.json:gison_p1_20_2
 msgid ""
 "Good. Alaun will be very satisfied.\n"
 "You didn't perchance bring the empty bottle back, did you?"
 msgstr ""
+"Boa. O Aluno vai ficar muito satisfeito.\n"
+"Por acaso, não trouxeste a garrafa de volta contigo, pois não?"
 
 #: conversationlist_gison.json:gison_p1_20_2:0
 msgid ""
 "Yes I have. Here is it.\n"
 "[You give Gison the empty bottle.]"
 msgstr ""
+"Sim, trouxe. Está aqui.\n"
+"[Dás a garrafa vazia a Gilson.]"
 
 #: conversationlist_gison.json:gison_p1_20_2:1
 msgid "No. I forgot it. I'm sorry."
@@ -44382,30 +44425,36 @@ msgid ""
 "No problem, I'll give you more.\n"
 "However, this time you'll have to pay 50 gold for it."
 msgstr ""
+"Sem problema, eu dou-te mais.\n"
+"No entanto, desta vez terás de pagar 50 moedas por ela."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_50:1
 msgid "Yes, ok. Here are 50 gold pieces."
-msgstr ""
+msgstr "Sim, ok. Aqui estão 50 moedas de ouro."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_500
 msgid ""
 "No problem, I'll give you more.\n"
 "However, this time you'll have to pay 500 gold for it."
 msgstr ""
+"Sem problema, eu dou-te mais.\n"
+"Contudo, desta vez tens de pagar 500 moedas por ela."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_500:1
 msgid "Yes, ok. Here are 500 gold pieces."
-msgstr ""
+msgstr "Sim, ok. Aqui estão 500 moedas de ouro."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_5000
 msgid ""
 "No problem, I'll give you more.\n"
 "However, this time you'll have to pay 5000 gold for it."
 msgstr ""
+"Sem problema, eu dou-te mais.\n"
+"Contudo, desta vez tens de pagar 5000 moedas por ela."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_5000:1
 msgid "Yes, ok. Here are 5000 gold pieces."
-msgstr ""
+msgstr "Sim, ok. Aqui estão 5000 moedas de ouro."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_5000go
 msgid ""
@@ -44413,16 +44462,24 @@ msgid ""
 "Here you go.\n"
 "I can't give you more. Take this one to Alaun now, greedy lad!"
 msgstr ""
+"[Gilson dá-te uma nova garrafa com sopa quente.]\n"
+"Aqui tens. \n"
+"Não te posso dar mais. Leva esta ao Aluno agora, rapaz ganancioso!"
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_endquest
 msgid "I'm sorry for Alaun. I guess he has to get some himself."
 msgstr ""
+"Lamento pelo Aluno. Parece que ele terá que ir buscar alguma por ele próprio."
 
 #: conversationlist_gison.json:gison_p1_20_warmup
 msgid ""
 "I told you to not linger. But I can make it hot. Give me a moment.\n"
 "[Gison pours the soup back in the bowl and fills the bottle up again with hot soup.]"
 msgstr ""
+"Eu disse-te para não pagares por aí. Mas posso aquecê-la. Dá-me um momento. "
+"\n"
+"[Gison entorna a sopa de volta para a taça e enche-a novamente com sopa "
+"quente.]"
 
 #: conversationlist_gison.json:gison_p1_30
 msgid "Oh, you are back!"
@@ -44430,32 +44487,32 @@ msgstr "Ó, estás de volta!"
 
 #: conversationlist_gison.json:gison_p1_30:0
 msgid "I want to return your bottle."
-msgstr ""
+msgstr "Quero devolver a tua garrafa."
 
 #: conversationlist_gison.json:gison_p1_30:1
 #: conversationlist_gison.json:gison_p1_30:2
 msgid "I just want to say hello."
-msgstr ""
+msgstr "Quero só dizer olá."
 
 #: conversationlist_gison.json:gison_p1_30:3
 msgid "Alaun told me that your wife also makes very good soup."
-msgstr ""
+msgstr "Alain disse-me que a tua mulher também faz muito boa sopa."
 
 #: conversationlist_gison.json:gison_p1_30:4
 msgid "I wanted to ask you about something."
-msgstr ""
+msgstr "Queria perguntar-te sobre uma coisa."
 
 #: conversationlist_gison.json:gison_p1_30_1:0
 msgid "I have to go again. Bye."
-msgstr ""
+msgstr "Tenho de ir outra vez. Adeus."
 
 #: conversationlist_gison.json:gison_p1_30_1:1
 msgid "Alaun said your wife also makes very good soup."
-msgstr ""
+msgstr "Alaun disse que a tua mulher também faz uma sopa muito boa."
 
 #: conversationlist_gison.json:gison_p1_40
 msgid "You have to help me."
-msgstr ""
+msgstr "Tens de me ajudar."
 
 #: conversationlist_gison.json:gison_p1_40_1
 msgid "Bandits raided my house. They even knocked me and Nimael unconscious."
