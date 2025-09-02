@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
 "PO-Revision-Date: 2025-09-03 00:02+0000\n"
-"Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
 "Language: pt\n"
@@ -41402,6 +41402,11 @@ msgstr "Chegue ao ponto em que matou o homem e deixou a filha dele sem pai."
 #: conversationlist_brimhaven_2.json:brv_villager3_asd_80
 msgid "In another attempt to change Lawellyn's mind on giving me land to build my house, things got real ugly real fast.  I don't know why he reached for his dagger, but I saw this and drew my weapon in self-defense.  I had no intention of killing him!  I was trying to defend myself.  Do you believe me?"
 msgstr ""
+"Em outra tentativa de mudar a opinião de Lawellyn sobre dar-me um terreno "
+"para construir a minha casa, as coisas ficaram muito feias muito rápido. Não "
+"sei por que ele levantou a sua adaga, mas vi isto e saquei a minha arma em "
+"legítima defesa. Não tinha intenção de matá-lo! Estava a tentar a defender-"
+"me. Acredita-me?"
 
 #: conversationlist_brimhaven_2.json:brv_villager3_asd_80:1
 msgid "No.  In fact, I want to know more.  Like, what did you do with Lawellyn's dagger?"
@@ -44204,22 +44209,24 @@ msgstr ""
 #: conversationlist_fungi_panic.json:alaun_bela_soup
 msgid "Ah, my friend! Have you heard the great news? Gison and Nimael have started supplying the tavern here in Fallhaven with their newest soup. It's marvelous!"
 msgstr ""
+"Ah, meu amigo! Ouviu a boa notícia? Gison e Nimael começaram a abastecer a "
+"taverna aqui em Fallhaven com a sua sopa nova. É maravilhosa!"
 
 #: conversationlist_fungi_panic.json:mywildcave_trap32a
 msgid "Oops, there was something sleeping inside."
-msgstr ""
+msgstr "Épa, havia algo a dormir lá dentro."
 
 #: conversationlist_gison.json:gison_firsttime
 msgid "Oh hello. What are you doing here? You got lost?"
-msgstr ""
+msgstr "Oh, olá. O que faz por aqui? Está perdido?"
 
 #: conversationlist_gison.json:gison_firsttime_1
 msgid "Just walk around the fence and head to the north. Soon you'll be in Fallhaven."
-msgstr ""
+msgstr "É só contornar a cerca e seguir para o norte. Logo chegará a Fallhaven."
 
 #: conversationlist_gison.json:gison_firsttime_1:0
 msgid "Okay. Thanks for the description."
-msgstr ""
+msgstr "Okay. Obrigado pela descrição."
 
 #: conversationlist_gison.json:gison_firsttime_1:1
 msgid "Are you Gison?"
@@ -44264,6 +44271,8 @@ msgstr ""
 #: conversationlist_gison.json:gison_talk_2
 msgid "Next to my passion for mushrooms, we build here and there on our house and try to keep the wild animals out."
 msgstr ""
+"Junto à minha paixão por cogumelos, construímos aqui e ali na nossa casa e "
+"tentamos manter os animais selvagens longe."
 
 #: conversationlist_gison.json:gison_talk_2:0
 msgid "I see. Let's talk about something else."
@@ -44282,16 +44291,19 @@ msgstr ""
 #: conversationlist_gison.json:gison_p1_10_2
 msgid "Gison goes to a big bowl, fills up some of the soup and returns to you."
 msgstr ""
+"Gison vai até uma tigela grande, enche com um pouco de sopa e volta a si."
 
 #: conversationlist_gison.json:gison_p1_10_3
 msgid ""
 "Here you go.\n"
 "[He gives you a container with the soup.]"
 msgstr ""
+"Aqui está.\n"
+"[Ele dá-lhe um recipiente com sopa]"
 
 #: conversationlist_gison.json:gison_p1_10_4
 msgid "Give him my regards and hurry up. He likes his soup hot."
-msgstr ""
+msgstr "Dê-lhe os meus cumprimentos e apresse-se. Ele gosta da sopa quente."
 
 #: conversationlist_gison.json:gison_p1_10_4:0
 msgid "Alaun will get his soup soon enough."
@@ -44351,11 +44363,13 @@ msgstr ""
 
 #: conversationlist_gison.json:gison_p1_20_2:1
 msgid "No. I forgot it. I'm sorry."
-msgstr ""
+msgstr "Não. Esqueci-me disso. Mil perdões."
 
 #: conversationlist_gison.json:gison_p1_20_nobottle
 msgid "Oh no, too bad. Please bring me an empty bottle once you've found one."
 msgstr ""
+"Oh não, muito mau. Por favor traga-me uma garrafa vazia assim que encontrar "
+"uma."
 
 #: conversationlist_gison.json:gison_p1_20_nobottle:0
 msgid "I will do. Bye"
@@ -44372,31 +44386,35 @@ msgstr "Com prazer. Adeus."
 #: conversationlist_gison.json:gison_p1_20_3:1
 msgid "I won't do this whole stupid running around again just for an empty bottle. Bye."
 msgstr ""
+"Não vou fazer toda esta andança de novo só por causa de uma garrafa vazia. "
+"Tchau."
 
 #: conversationlist_gison.json:gison_p1_20_3:2
 msgid "Alaun said that your wife also makes very good soup."
-msgstr ""
+msgstr "Alaun disse que a sua esposa também faz sopas muito deliciosas."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup
 msgid "Ate it yourself, did you? Haha, I hope it tasted good."
-msgstr ""
+msgstr "Mesmo comeu, não é? Haha, espero que esteja saboroso."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_5
 msgid ""
 "No problem, I'll give you more.\n"
 "However, this time you'll have to pay 5 gold for it."
 msgstr ""
+"Não tem problema, vou dar-lhe mais.\n"
+"Porém, desta vez, terá que pagar 5 moedas de ouro por ele."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_5:0
 #: conversationlist_gison.json:gison_p1_20_nosoup_50:0
 #: conversationlist_gison.json:gison_p1_20_nosoup_500:0
 #: conversationlist_gison.json:gison_p1_20_nosoup_5000:0
 msgid "Let's adjourn it to another day, old man."
-msgstr ""
+msgstr "Vamos adiar para outro dia, meu velho."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_5:1
 msgid "Yes, ok. Here are 5 gold pieces."
-msgstr ""
+msgstr "Sim, ok. Aqui está 5 moedas de ouro."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_5go
 #: conversationlist_gison.json:gison_p1_20_nosoup_50go
@@ -44405,6 +44423,8 @@ msgid ""
 "[Gison gives you a new bottle with hot soup.]\n"
 "Here you go."
 msgstr ""
+"[Gison lhe dá uma nova garrafa com sopa quente.]\n"
+"Aqui está."
 
 #: conversationlist_gison.json:gison_p1_20_nosoup_5go:0
 #: conversationlist_gison.json:gison_p1_20_nosoup_50go:0
@@ -44517,28 +44537,37 @@ msgstr "Tens de me ajudar."
 #: conversationlist_gison.json:gison_p1_40_1
 msgid "Bandits raided my house. They even knocked me and Nimael unconscious."
 msgstr ""
+"Bandidos invadiram a minha casa. Eles até deixaram a mim  e Nimael "
+"inconscientes."
 
 #: conversationlist_gison.json:gison_p1_40_2
 msgid ""
 "Strangely they only took my old cookbook with them.\n"
 "Please help me get back my book, otherwise I cannot make my delicious mushroom soup."
 msgstr ""
+"Estranhamente, eles apenas levaram o meu antigo livro de receitas com eles.\n"
+"Por favor, ajude-me a recuperar o meu livro, do contrário não poderei fazer "
+"a minha deliciosa sopa de cogumelos."
 
 #: conversationlist_gison.json:gison_p1_40_2:0
 msgid "A raid for an old cookbook?"
-msgstr ""
+msgstr "Uma invasão por um livro de receitas antigo?"
 
 #: conversationlist_gison.json:gison_p1_40_2:2
 msgid "Search on your own, old man."
-msgstr ""
+msgstr "Procure por conta própria, velho."
 
 #: conversationlist_gison.json:gison_p2_10
 msgid "The thieves took away my cookbook with the precious recipe for mushroom soup."
 msgstr ""
+"Os ladrões roubaram o meu livro de receitas com a preciosa receita de sopa "
+"de cogumelos."
 
 #: conversationlist_gison.json:gison_p2_10_3
 msgid "I don't know why they only took the book. Maybe it's because of the one chapter... *brooding*"
 msgstr ""
+"Não sei o motivo deles apenas terem levado o livro. Talvez seja por causa de "
+"um capítulo... * taciturno *"
 
 #: conversationlist_gison.json:gison_p2_10_3:0
 msgid "What about that chapter?"
@@ -44551,20 +44580,28 @@ msgstr "Faz isso. Adeus."
 #: conversationlist_gison.json:gison_p2_10_4
 msgid "What? Yes, yes, the chapter... It contained several pages with strange letters written between the recipes."
 msgstr ""
+"O que? Sim, sim, o capítulo... Continha várias páginas com letras estranhas "
+"escritas entre uma receita e outra."
 
 #: conversationlist_gison.json:gison_p2_10_5
 msgid ""
 "I obtained the book some years ago. It was a present from Bogsten - you know him? - and instantly I took a fancy for these fabulous recipes.\n"
 "Please find it and return it to me."
 msgstr ""
+"Obtive o livro há alguns anos. Foi um presente de Bogsten - conhece-o? - e "
+"imediatamente apaixonei-me por estas receitas fabulosas.\n"
+"Por favor, encontre-o e devolva-o a mim."
 
 #: conversationlist_gison.json:gison_p2_10_5:0
 msgid "What's written in that chapter?"
-msgstr ""
+msgstr "O que está escrito naquele capítulo?"
 
 #: conversationlist_gison.json:gison_p2_10_6
 msgid "That's a good question. I don't know that language, therefore I ignored the pages for ages. Maybe the robbers know what that chapter is about."
 msgstr ""
+"É uma boa pergunta. Não conheço essa língua, Portanto ignorei essas páginas "
+"com o passar dos anos. Talvez o salteadores saibam do que esse capítulo "
+"trata."
 
 #: conversationlist_gison.json:gison_p2_10_7
 msgid "You want a reward?"
@@ -44573,10 +44610,12 @@ msgstr "Queres uma recompensa?"
 #: conversationlist_gison.json:gison_p2_10_8
 msgid "I don't have that much money. As a simple token of gratitude I can offer to make some soup for you. I don't own very much more."
 msgstr ""
+"Não tenho muito dinheiro. Como um simples símbolo de gratidão, posso "
+"oferecer-me para fazer uma sopa para si. Não possuo muito mais."
 
 #: conversationlist_gison.json:gison_p2_10_8:0
 msgid "I guess it's not worth the trouble. Time to go."
-msgstr ""
+msgstr "Acho que não vale o esforço. É hora de ir."
 
 #: conversationlist_gison.json:gison_p2_10_8:1
 msgid "Sounds fair."
@@ -44584,11 +44623,11 @@ msgstr "Parece justo."
 
 #: conversationlist_gison.json:gison_p2_10_9
 msgid "Well, will you help me?"
-msgstr ""
+msgstr "Bem, vai-me ajudar?"
 
 #: conversationlist_gison.json:gison_p2_10_9:0
 msgid "Sure thing. I'll search for your book."
-msgstr ""
+msgstr "É a coisa certa. Vou procurar o seu livro."
 
 #: conversationlist_gison.json:gison_p2_10_9:1
 msgid "Find somebody else."
@@ -44597,6 +44636,8 @@ msgstr "Encontra outra pessoa."
 #: conversationlist_gison.json:gison_p2_10_10
 msgid "Oh, well. I started to believe that I could not trust my knowledge of human nature anymore."
 msgstr ""
+"Ah bem. Comecei a acreditar que já não podia confiar no meu conhecimento da "
+"natureza humana."
 
 #: conversationlist_gison.json:gison_p2_10_11
 msgid "I really thank you."
@@ -44605,6 +44646,8 @@ msgstr "Obrigado, mesmo."
 #: conversationlist_gison.json:gison_p2_15
 msgid "The robbers came from the south. Maybe you should start your search in that direction. Take care!"
 msgstr ""
+"Os salteadores vieram do sul. Talvez deva iniciar a sua pesquisa naquela "
+"direção. Se cuide!"
 
 #: conversationlist_gison.json:gison_p2_15:0
 msgid "I will. Thank you."
@@ -44648,6 +44691,8 @@ msgstr "Então dá-me a cópia. Não quero ser assaltado novamente."
 #: conversationlist_gison.json:gison_p2_50_3:0
 msgid "OK. Then I'll take the version with the spell. I can't read the dark words, but that doesn't bother me."
 msgstr ""
+"OK. Depois vou escolher a versão com o feitiço. Não consigo ler as palavras "
+"sombrias, mas isso não me importa."
 
 #: conversationlist_gison.json:gison_p2_50_5
 msgid "Noo!"
@@ -44655,15 +44700,17 @@ msgstr "Naão!"
 
 #: conversationlist_gison.json:gison_p2_62
 msgid "Well, you tried to help. Thank you."
-msgstr ""
+msgstr "Bem, tentou ajudar. Obrigado."
 
 #: conversationlist_gison.json:gison_p2_62_10
 msgid "It's a pity that I can't cook my delicious soup any more."
-msgstr ""
+msgstr "É uma lastima que já não posso preparar a minha sopa deliciosa."
 
 #: conversationlist_gison.json:gison_p2_70
 msgid "Thank you for your help retrieving my precious cookbook. Would you like some soup as a small reward?"
 msgstr ""
+"Obrigado pela sua ajuda para recuperar o meu precioso livro de receitas. "
+"Gostaria de um pouco de sopa como pequena recompensa?"
 
 #: conversationlist_gison.json:gison_p2_70:0
 msgid "Oh yes."
@@ -44672,18 +44719,22 @@ msgstr "Oh, sim."
 #: conversationlist_gison.json:gison_p2_70_10
 msgid "Give me 2 of Bogsten's mushrooms and an empty bottle, then I could sell you a portion for only 50 gold."
 msgstr ""
+"Dê-me 2 cogumelos Bogsten e uma garrafa vazia e depois posso vender-lhe uma "
+"parte por apenas 50 ouros."
 
 #: conversationlist_gison.json:nimael_1
 msgid "Please help us. We got raided."
-msgstr ""
+msgstr "Por favor ajude-nos. Fomos invadidos."
 
 #: conversationlist_gison.json:nimael_2
 msgid "I don't know exactly. Everything went so fast ... I'm too upset and my head hurts too much."
 msgstr ""
+"Não sei exatamente. Tudo foi tão rápido... Estou muito chateado e a minha "
+"cabeça dói muito."
 
 #: conversationlist_gison.json:nimael_3
 msgid "If you want to help us, please talk to Gison."
-msgstr ""
+msgstr "Se quiser ajudar-nos, fale com Gison."
 
 #: conversationlist_gison.json:nimael_3:0
 msgid "OK. Get well."
@@ -44691,11 +44742,11 @@ msgstr "OK. As melhoras."
 
 #: conversationlist_gison.json:nimael_busy
 msgid "I'm busy at the moment. Please talk to Gison. He's over there."
-msgstr ""
+msgstr "Estou ocupado no momento. Por favor, fale com Gison. Ele está ali."
 
 #: conversationlist_gison.json:nimael_busy:0
 msgid "Alaun told me that you also make very good soup."
-msgstr ""
+msgstr "Alaun disse-me que você também faz uma sopa muito boa."
 
 #: conversationlist_gison.json:nimael_busy:1
 #: conversationlist_gorwath.json:gorwath_exit:0
@@ -44706,10 +44757,12 @@ msgstr "OK. Adeus."
 #: conversationlist_gison.json:nimael_busy:2
 msgid "While exploring the Sullengard forest, I stumbled across this giant mushroom and was wondering if you knew what it was."
 msgstr ""
+"Enquanto explorava a floresta de Sullengard, deparei-me com este cogumelo "
+"gigante e queria saber se sabia o que era."
 
 #: conversationlist_gison.json:nimael_busy:3
 msgid "Is the Gloriosa soup ready?"
-msgstr ""
+msgstr "A sopa Gloriosa está pronta?"
 
 #: conversationlist_gison.json:nimael_4
 msgid "Thanks for helping us!"
@@ -44717,7 +44770,7 @@ msgstr "Obrigado por nos ajudar!"
 
 #: conversationlist_gison.json:nimael_4:1
 msgid "I only hope it'll be worth the trouble."
-msgstr ""
+msgstr "Só espero que valha a pena."
 
 #: conversationlist_gison.json:gael_1
 msgid "Shut the door, please!"
@@ -44733,11 +44786,11 @@ msgstr "Muito amistoso."
 
 #: conversationlist_gison.json:gael_10
 msgid "No, I am not Gison!"
-msgstr ""
+msgstr "Não, não sou Gison!"
 
 #: conversationlist_gison.json:gael_10_1
 msgid "And no, I have no soup for anyone!"
-msgstr ""
+msgstr "E não, não tenho sopa para ninguém!"
 
 #: conversationlist_gison.json:gael_soup
 msgid "I hate this smell!"
@@ -44745,7 +44798,7 @@ msgstr "Detesto este cheiro!"
 
 #: conversationlist_gison.json:gael_soup_1
 msgid "You have some of that disgusting soup in your bag! I can smell it."
-msgstr ""
+msgstr "Tem um pouco daquela sopa nojenta na sua bolsa! Posso sentir o fedor."
 
 #: conversationlist_gison.json:gael_soup_2
 msgid "Out with you!"
@@ -44753,55 +44806,61 @@ msgstr "Tu, lá fora!"
 
 #: conversationlist_gison.json:gael_bottle
 msgid "I hear those soup bottles clinking in your bag."
-msgstr ""
+msgstr "Ouço aquelas garrafas de sopa a tilintar na sua bolsa."
 
 #: conversationlist_gison.json:gael_bottle_1
 msgid "Even though they are empty, I hate that sound!"
-msgstr ""
+msgstr "Mesmo que eles estejam vazios, odeio esse som!"
 
 #: conversationlist_gison.json:gael_20
 msgid "Hi kid. I am Gael, son of those people in the house over there."
-msgstr ""
+msgstr "Oi garoto. Sou Gael, filho daquela gente da casa ali."
 
 #: conversationlist_gison.json:gael_20_1
 msgid "I moved out here because I couldn't stand the suffocating smell of mushroom soup anymore. Or vegetable soup, for that matter."
 msgstr ""
+"Mudei-me para cá porque já não aguentava o cheiro sufocante de sopa de "
+"cogumelos. Ou sopa de vegetais, por falar nisso."
 
 #: conversationlist_gison.json:gael_20_2
 msgid "I like meat. Wolves, boars, dogs, puppies. Any kind, really."
-msgstr ""
+msgstr "Gosto de carne. Lobos, ursos, cães, filhotinhos. Qualquer tipo, sério."
 
 #: conversationlist_gison.json:gael_20_3
 msgid "And snakes, of course. They give the finest meat of all."
-msgstr ""
+msgstr "E cobras, é claro. Elas dão a melhor carne de todas."
 
 #: conversationlist_gison.json:gael_20_4
 msgid "Cooked, grilled, baked, fried, stewed...ahh, snake meat - nothing compares to it!"
 msgstr ""
+"Cozida, grelhada, assada, frita, guisada... ahh, carne de cobra - nada "
+"compara-se a isso!"
 
 #: conversationlist_gison.json:gael_20_4:0
 msgid "Yes, I love it too!"
-msgstr ""
+msgstr "Sim, também adoro!"
 
 #: conversationlist_gison.json:gael_20_4:1
 msgid "To each his own, I guess."
-msgstr ""
+msgstr "Para cada um no seu, acho eu."
 
 #: conversationlist_gison.json:gael_20_4:2
 msgid "Cooked meat? Who cooks your meat?"
-msgstr ""
+msgstr "Carne cozida? Quem coze a sua carne?"
 
 #: conversationlist_gison.json:gael_20_5
 msgid "Now that I mention it: I am running out of meat. I'll have to go out hunting again."
 msgstr ""
+"Agora que mencionei: estou a ficar sem carne. Terei que sair para caçar "
+"novamente."
 
 #: conversationlist_gison.json:gael_20_5:0
 msgid "Would you like me to give you some meat?"
-msgstr ""
+msgstr "Gostaria que lhe desse um pedaço de carne?"
 
 #: conversationlist_gison.json:gael_20_5:1
 msgid "Good luck! I am leaving then."
-msgstr ""
+msgstr "Boa sorte! Depois estou de saída."
 
 #: conversationlist_gison.json:gael_20_6:0
 msgid "Oh, I just noticed that I don't have enough meat with me. I will be back soon with 10 pieces of meat, just you wait."
@@ -44810,30 +44869,36 @@ msgstr "Oh, reparei agora que não tenho carne suficiente comigo. Volto em breve
 #: conversationlist_gison.json:gael_20_6:1
 msgid "Here, I have 10 nice pieces of meat for you. I cannot promise that it is all from snakes, though."
 msgstr ""
+"Aqui, tenho 10 lindos pedaços de carne para você. No entanto não posso "
+"prometer que todas são de cobras."
 
 #: conversationlist_gison.json:gael_20_6:2
 msgid "Here, I have 10 nice pieces of lamb meat for you. Maybe not as good as snake though."
 msgstr ""
+"Aqui, tenho 10 belos pedaços de carne de cordeiro para você. Talvez não tão "
+"boa como carne de cobra."
 
 #: conversationlist_gison.json:gael_20_6:3
 msgid "Here, I have 8 nice pieces of snake meat for you."
-msgstr ""
+msgstr "Aqui, tenho 8 belos pedaços de carne de cobra para você."
 
 #: conversationlist_gison.json:gael_20_7
 msgid "Excellent! In return, I can give you this nice little purse, made of the finest snake leather. Look here, isn't it beautiful?"
 msgstr ""
+"Excelente! Em troca, posso lhe dar esta bolsa bonita, feita do melhor couro "
+"de cobra. Dê uma olhada, não é lindo?"
 
 #: conversationlist_gison.json:gael_20_7:0
 msgid "Wow, it is magnificent! Thank you!"
-msgstr ""
+msgstr "Wow, é magnífico! Obrigado!"
 
 #: conversationlist_gison.json:gael_20_8
 msgid "May it serve you well."
-msgstr ""
+msgstr "Bom proveito."
 
 #: conversationlist_gison.json:gison_cavekey
 msgid "You look at a wall of stones. There's no way through."
-msgstr ""
+msgstr "Olha para uma parede de pedras. Não há como atravessar."
 
 #: conversationlist_gison.json:gison_cavekey:0
 msgid "Examine it more closely."
@@ -44842,30 +44907,35 @@ msgstr "Examina mais de perto."
 #: conversationlist_gison.json:gison_cavekey_unlock
 msgid "You examine the wall more closely and discover an entrance hidden beneath moss and leaves."
 msgstr ""
+"Examina a parede mais que perto e descobre uma entrada escondida sob musgo e "
+"folhas."
 
 #: conversationlist_gison.json:gison_cavekey_unlock:0
 msgid "The gap is big enough that you could squeeze through it."
 msgstr ""
+"A fenda é suficientemente grande para que possa passar se se espremer por "
+"ela."
 
 #: conversationlist_gison.json:gison_catchsoup
 msgid "Aaah. Welcome back my friend."
-msgstr ""
+msgstr "Aaah. Bem-vindo de volta meu amigo."
 
 #: conversationlist_gison.json:gison_catchsoup_1
 msgid "Is there anything I can help you with?"
-msgstr ""
+msgstr "Tem algo que possa fazer para ajudá-lo?"
 
 #: conversationlist_gison.json:gison_catchsoup_1:0
 msgid "Please give me some more soup."
-msgstr ""
+msgstr "Por favor, dê-me um pouco de sopa."
 
 #: conversationlist_gison.json:gison_catchsoup_eva
 msgid "I still have some of my delicious soup. How many bottles of soup do you want?"
 msgstr ""
+"Ainda tenho um pouco da minha sopa deliciosa. Quantas garrafas de sopa quer?"
 
 #: conversationlist_gison.json:gison_catchsoup_eva:0
 msgid "I need soup! At least ten bottles! Quick!!"
-msgstr ""
+msgstr "Preciso de sopa! Pelo menos dez garrafas! Rápido!!"
 
 #: conversationlist_gison.json:gison_catchsoup_eva:1
 msgid "Give me five bottles."
@@ -44877,19 +44947,19 @@ msgstr "Só um, por favor."
 
 #: conversationlist_gison.json:gison_catchsoup_eva:3
 msgid "I don't have an empty bottle."
-msgstr ""
+msgstr "Não tenho uma garrafa vazia."
 
 #: conversationlist_gison.json:gison_catchsoup_eva:4
 msgid "I have to get more of Bogsten's mushrooms."
-msgstr ""
+msgstr "Preciso buscar mais cogumelos do Bogsten."
 
 #: conversationlist_gison.json:gison_catchsoup_eva:5
 msgid "I just noticed that my gold fund is low."
-msgstr ""
+msgstr "Acabei de notar que a minha reserva de ouro está baixa."
 
 #: conversationlist_gison.json:gison_catchsoup_new
 msgid "You brought an empty bottle, Bogsten's mushrooms and the 50 gold. Here it is."
-msgstr ""
+msgstr "Trouxe uma garrafa vazia, cogumelos de Bogsten e 50 de ouro. Aqui está."
 
 #: conversationlist_gison.json:gison_catchsoup_nonew
 msgid "You don't have the items I need for that exchange. Bring me an empty bottle, two of Bogsten's mushrooms and 50 gold for each portion."
@@ -44897,11 +44967,11 @@ msgstr "Não tens os itens que preciso para essa troca. Traz-me uma garrafa vazi
 
 #: conversationlist_gison.json:gison_catchsoup_nonew:0
 msgid "I will be back with those."
-msgstr ""
+msgstr "Estarei de volta com esses."
 
 #: conversationlist_gison.json:gison_catchsoup_5new
 msgid "You brought all ingredients needed for 5 portions. Here you go."
-msgstr ""
+msgstr "Trouxe todos os ingredientes necessários para 5 porções. Aqui está."
 
 #: conversationlist_gison.json:gison_catchsoup_5new:0
 msgid "Thanks a lot."
@@ -44912,14 +44982,18 @@ msgid ""
 "Whoah. You are hungry, aren't you?\n"
 "Here you go."
 msgstr ""
+"Uau. Está faminto, não está?\n"
+"Aqui está."
 
 #: conversationlist_gison.json:gison_thief1_10
 msgid "Let's pretend that you have not seen my master over there, practicing dark magic with the old spell in this book we have stolen. Go away!"
 msgstr ""
+"Vamos fingir que não viu o meu mestre por ali, a praticar magia negra com o "
+"antigo feitiço que roubamos deste livro. Vá embora!"
 
 #: conversationlist_gison.json:gison_thief1_10:0
 msgid "Hmm, maybe that is a good idea. I'll tell Gison that you have destroyed the book."
-msgstr ""
+msgstr "Hmm, talvez seja uma boa ideia. Direi a Gison que destruiu o livro."
 
 #: conversationlist_gison.json:gison_thief1_10:1
 msgid "No way! Attack!"
@@ -44927,27 +45001,27 @@ msgstr "Nem pensar! Ataque!"
 
 #: conversationlist_gison.json:gison_thief1_20
 msgid "We agreed that there was nothing to see here. So get out of here."
-msgstr ""
+msgstr "Nós concordamos que não havia nada para ver aqui. Então vá embora."
 
 #: conversationlist_gison.json:gison_thief1_20:0
 msgid "Of course. Sorry, I forgot."
-msgstr ""
+msgstr "Claro. Desculpe, esqueci-me."
 
 #: conversationlist_gison.json:gison_thief1_20:1
 msgid "So what? I have changed my mind. Move aside if you love your life!"
-msgstr ""
+msgstr "E daí? Mudei de ideia. Afaste-se se tem amor pela sua vida!"
 
 #: conversationlist_gison.json:gison_thief1_22
 msgid "Hahaha! You are funny. Hahahaha!"
-msgstr ""
+msgstr "Hahaha! É hilário. Hahahaha!"
 
 #: conversationlist_gison.json:gison_thief1_12
 msgid "Do that. And now be gone!"
-msgstr ""
+msgstr "Faça isso. E agora vá-se embora!"
 
 #: conversationlist_gison.json:gison_thiefboss
 msgid "[muttering ominous words]"
-msgstr ""
+msgstr "[a murmurar palavras ameaçadoras]"
 
 #: conversationlist_gison.json:gison_thiefboss:0
 msgid "Hi!"
@@ -44955,47 +45029,55 @@ msgstr "Olá!"
 
 #: conversationlist_gison.json:gison_thiefboss_10
 msgid "What ...? You again? How did you get in here?"
-msgstr ""
+msgstr "O que...? Novamente? Como chegou cá?"
 
 #: conversationlist_gison.json:gison_thiefboss_10:0
 msgid "I have come to retrieve a book that does not belong to you."
-msgstr ""
+msgstr "Vim recuperar um livro que não lhe pertence."
 
 #: conversationlist_gison.json:gison_thiefboss_20
 msgid "Ha! You made a serious error coming here. I have a use for you though."
 msgstr ""
+"Ah! Cometeu um erro grave ao vir aqui. No entanto, pode ser de bom uso para "
+"mim."
 
 #: conversationlist_gison.json:gison_thiefboss_20:0
 msgid "You want me to help you?"
-msgstr ""
+msgstr "Quer que eu o ajude?"
 
 #: conversationlist_gison.json:gison_thiefboss_30
 msgid "Not exactly. My fungi leader is almost ready. It just needs to be fed some more to grow in strength."
 msgstr ""
+"Não exatamente. O meu Líder Fungi está quase preparado. Só é necessário que "
+"ele seja alimentado para ficar mais forte."
 
 #: conversationlist_gison.json:gison_thiefboss_30:0
 msgid "Fed? On what?"
-msgstr ""
+msgstr "Alimentado? Com o que?"
 
 #: conversationlist_gison.json:gison_cookbook_n62
 msgid "Unfortunately the case is locked."
-msgstr ""
+msgstr "Infelizmente o caso está bloqueado."
 
 #: conversationlist_gison.json:mushroomcave_trap
 msgid "A stone beneath your feet moves a bit. Shortly after spearheads spring off the ground."
 msgstr ""
+"Uma pedra sob os seus pés move-ses um pouco. Bruscamente as pontas de lança "
+"saltam do solo."
 
 #: conversationlist_gison.json:mushroomcave_trap:0
 msgid "Ouch, that hurts."
-msgstr ""
+msgstr "Ai, isso dói."
 
 #: conversationlist_gison.json:mushroomcave_pathblock_1
 msgid "Suddenly the earth shakes, and a part of the wall falls in the corridor directly in front of you."
 msgstr ""
+"repentinamente o chão estremece e uma parte da parede cai no corredor bem à "
+"sua frente."
 
 #: conversationlist_gison.json:mushroomcave_pathblock_1:0
 msgid "That was close."
-msgstr ""
+msgstr "Essa foi por um triz."
 
 #: conversationlist_gison.json:gison_bottle_2_1
 msgid "You find a bottle."
@@ -45007,15 +45089,15 @@ msgstr "Ó, uma garrafa vazia."
 
 #: conversationlist_gison.json:gison_bottle_7_1
 msgid "You find three empty bottles."
-msgstr ""
+msgstr "Encontra três garrafas vazias."
 
 #: conversationlist_gison.json:gison_bottle_7_1:0
 msgid "Wow - three bottles at once!"
-msgstr ""
+msgstr "Wow - tres garrafas de uma só vez!"
 
 #: conversationlist_gison.json:mywildcave_trap21
 msgid "You feel a sudden sharp pain. What might be inside here?"
-msgstr ""
+msgstr "Sente uma picada repentina. O que poderia estar aí dentro?"
 
 #: conversationlist_gison.json:mywildcave_trap31
 msgid "Oh, what's this? Ouch!"
@@ -45023,7 +45105,7 @@ msgstr "Ó, o que é isto? Au!"
 
 #: conversationlist_gison.json:mywildcave_trap32
 msgid "There is a small hole in the cave wall here."
-msgstr ""
+msgstr "Há um pequeno buraco na parede da caverna bem aqui."
 
 #: conversationlist_gison.json:mywildcave_trap32:0
 msgid "[Reach into the hole.]"
@@ -45037,31 +45119,31 @@ msgstr "[Deixa o buraco em paz]"
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low:1
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low:2
 msgid "You got a problem with me?"
-msgstr ""
+msgstr "Tem algum problema comigo?"
 
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low3
 msgid "I know you are illoyal to the Shadow. It would be better if you leave now."
-msgstr ""
+msgstr "Sei que você não é leal à Sombra. Seria melhor se partisse agora."
 
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low3:0
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low2:0
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low1:0
 msgid "[Lie] No that's not true."
-msgstr ""
+msgstr "[Mentir] Não, não é verdade."
 
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low3:1
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low2:1
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low1:1
 msgid "Can you still help me?"
-msgstr ""
+msgstr "Ainda me pode ajudar?"
 
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low2
 msgid "I have the very strong feeling that you are not following the Shadow."
-msgstr ""
+msgstr "Tenho a fortíssima sensação de que não está aos pés da Sombra."
 
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low1
 msgid "I have the strong feeling that you are not following the Shadow."
-msgstr ""
+msgstr "Tenho a forte sensação de que não está aos pés da Sombra."
 
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_average
 msgid "Bask in the Shadow, my child."
@@ -45069,19 +45151,19 @@ msgstr "Aproveita a Sombra, meu filho."
 
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_high
 msgid "I am happy to see you. May the Shadow always be with you."
-msgstr ""
+msgstr "Estou feliz de ver-lo. Que a Sombra sempre esteja consigo."
 
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_very_high
 msgid "I am very happy to see you. May the Shadow always be with you."
-msgstr ""
+msgstr "Estou muitíssimo feliz de ver-lo. Que a Sombra sempre esteja consigo."
 
 #: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_max
 msgid "Welcome my truest follower of the Shadow."
-msgstr ""
+msgstr "Bem-vindo, meu verdadeiro seguidor da Sombra."
 
 #: conversationlist_thoronir_faction_check.json:thoronir_start
 msgid "What can I do for you?"
-msgstr ""
+msgstr "o que posso fazer por si?"
 
 #: conversationlist_thoronir_faction_check.json:thoronir_start:0
 msgid "What can you tell me about the Shadow?"
@@ -45107,35 +45189,43 @@ msgstr "Olá, Andor!"
 
 #: conversationlist_gorwath.json:gorwath_letter:0
 msgid "I am not Andor. What do you want from him?"
-msgstr ""
+msgstr "Não sou Andor. O que quer com ele?"
 
 #: conversationlist_gorwath.json:gorwath_letter_1
 msgid "Oh, Andor promised to meet me here. Who are you?"
-msgstr ""
+msgstr "Ah, Andor prometeu que nos íamos encontrar aqui. Quem é você?"
 
 #: conversationlist_gorwath.json:gorwath_letter_1:0
 msgid "My name is $playername. I'm looking for my brother too, he has been away for a while now."
 msgstr ""
+"Chamo-me $playername. Procuro o meu irmão também, ele está ausente faz um "
+"tempo."
 
 #: conversationlist_gorwath.json:gorwath_letter_1:1
 msgid "My name is none of your business. Get out of our property now!"
-msgstr ""
+msgstr "O meu nome não é da sua conta. Saia agora da nossa propriedade!"
 
 #: conversationlist_gorwath.json:gorwath_letter_2
 msgid "Oh dear, oh dear. This is a very personal matter. I don't want everyone to know about it."
 msgstr ""
+"Oh caro, oh caro. Este é um assunto muito pessoal. Não quero todos sabendo "
+"sobre isso."
 
 #: conversationlist_gorwath.json:gorwath_letter_2:0
 msgid "I want to help you since my brother did not. Please tell me what's on your mind."
 msgstr ""
+"Quero ajudá-lo, já que o meu irmão não o fez. Por favor, diga-me o que se "
+"passa na sua mente."
 
 #: conversationlist_gorwath.json:gorwath_letter_3
 msgid "Really? That's very kind of you."
-msgstr ""
+msgstr "Sério? É muita gentileza da sua parte."
 
 #: conversationlist_gorwath.json:gorwath_letter_10
 msgid "You probably don't know me. I am Gorwath. I only recently moved to Crossglen to live with my aunt."
 msgstr ""
+"Provavelmente não me conhece. Chamo-me Gorwath. Recentemente mudei-me para "
+"Crossglen para morar com a minha tia."
 
 #: conversationlist_gorwath.json:gorwath_letter_10:0
 msgid "With Leta?"
@@ -45144,10 +45234,11 @@ msgstr "Com Leta?"
 #: conversationlist_gorwath.json:gorwath_letter_11
 msgid "Yes. You know her? Then you will also know how strict she can be. Sigh."
 msgstr ""
+"sim. Conhece ela? Depois também saberá como rígida ela pode sers. *Suspiro*."
 
 #: conversationlist_gorwath.json:gorwath_letter_12
 msgid "I met someone at the last weekly market and I want to send them something."
-msgstr ""
+msgstr "Conheci alguém no último mercado semanal e quero enviar-lhes algo."
 
 #: conversationlist_gorwath.json:gorwath_letter_12:0
 msgid "Who is he?"
@@ -45155,7 +45246,7 @@ msgstr "Quem é ele?"
 
 #: conversationlist_gorwath.json:gorwath_letter_13
 msgid "To be precise, I have a letter ... for ... a lovely girl."
-msgstr ""
+msgstr "Para ser mais preciso, tenho uma carta... para... uma linda garota."
 
 #: conversationlist_gorwath.json:gorwath_letter_13:0
 #: conversationlist_feygard_1.json:village_theodora_fun:0
@@ -45164,23 +45255,25 @@ msgstr "Hã?"
 
 #: conversationlist_gorwath.json:gorwath_letter_14
 msgid "Yes, she is the most beautiful girl in the world! Her name is Arensia."
-msgstr ""
+msgstr "Sim, ela é a mais bela em todo o mundo! O nome dela é Arensia."
 
 #: conversationlist_gorwath.json:gorwath_letter_14:0
 msgid "Hm, I don't know anyone here by that name."
-msgstr ""
+msgstr "Hm, não conheço ninguém com esse nome nas redondezas."
 
 #: conversationlist_gorwath.json:gorwath_letter_15
 msgid "Unfortunately she lives in Fallhaven. My aunt would never allow me to go there."
 msgstr ""
+"Infelizmente ela mora em Fallhaven. A minha tia nunca permitiria que eu "
+"fosse lá."
 
 #: conversationlist_gorwath.json:gorwath_letter_15:0
 msgid "And how could I help you?"
-msgstr ""
+msgstr "E como poderia ajudar-lo?"
 
 #: conversationlist_gorwath.json:gorwath_letter_16
 msgid "Andor promised to take the letter to her. Maybe you could ..."
-msgstr ""
+msgstr "Andor prometeu entregar-lhe a carta. Talvez você possa..."
 
 #: conversationlist_gorwath.json:gorwath_letter_16:0
 msgid "I could what?"
@@ -45188,89 +45281,100 @@ msgstr "Eu podia o quê?"
 
 #: conversationlist_gorwath.json:gorwath_letter_20
 msgid "Would you be so kind to give her my letter?"
-msgstr ""
+msgstr "Faria a gentileza de entregar-lhe a minha carta?"
 
 #: conversationlist_gorwath.json:gorwath_letter_20:0
 msgid "Yeah sure, why not?"
-msgstr ""
+msgstr "Sim, claro, por que não?"
 
 #: conversationlist_gorwath.json:gorwath_letter_20:1
 msgid "No I'm busy. Good bye."
-msgstr ""
+msgstr "Não, estou ocupado. Tchau."
 
 #: conversationlist_gorwath.json:gorwath_letter_22
 msgid "You really don't want to help me? Then I have no more hope."
 msgstr ""
+"Realmente não me quer ajudar? Assim as minhas esperanças estão perdidas."
 
 #: conversationlist_gorwath.json:gorwath_letter_22:0
 msgid "Now, now. Give me your precious letter, I'll do it."
-msgstr ""
+msgstr "Imediatamente. Dê-me a sua carta preciosa, eu o farei."
 
 #: conversationlist_gorwath.json:gorwath_letter_22:1
 msgid "Sorry, but I have no time. I have to find my brother now."
-msgstr ""
+msgstr "Desculpe, mas não tenho tempo. Tenho que encontrar o meu irmão."
 
 #: conversationlist_gorwath.json:gorwath_letter_22:2
 msgid "Grow up and solve your problems yourself. I'm not a postman!"
-msgstr ""
+msgstr "Vê se cresce e resolva sozinho os seus problemas. Não sou um carteiro!"
 
 #: conversationlist_gorwath.json:gorwath_letter_24
 msgid ""
 "Good by then. I will not disturb you anymore.\n"
 "* Sob *"
 msgstr ""
+"Bom até depois. Já não o vou incomodar.\n"
+"*Soluço*"
 
 #: conversationlist_gorwath.json:gorwath_letter_50
 msgid "Thanks a lot. Here's the letter. Go to Fallhaven and look for Arensia."
 msgstr ""
+"Muitíssimo obrigado. Aqui está a carta. Vá para Fallhaven e procure por "
+"Arensia."
 
 #: conversationlist_gorwath.json:gorwath_letter_50:0
 msgid "Fallhaven is a big city. How shall I find her?"
-msgstr ""
+msgstr "Fallhaven é uma cidade grande. Como devo encontrá-la?"
 
 #: conversationlist_gorwath.json:gorwath_letter_52
 msgid "She is the daughter of Jakrar the woodcutter, so she will surely live there."
-msgstr ""
+msgstr "Ela é filha do lenhador Jakrar, então com certeza vai morar por lá."
 
 #: conversationlist_gorwath.json:gorwath_love
 msgid "You are back! Did you find Arensia?"
-msgstr ""
+msgstr "Está de volta! E encontrou Arensia?"
 
 #: conversationlist_gorwath.json:gorwath_love:0
 msgid "Yes. I gave her the letter and she asked me to tell you that she loves you too."
-msgstr ""
+msgstr "Sim. Entreguei-lhe a carta e pediu-me dizer que também o ama."
 
 #: conversationlist_gorwath.json:gorwath_love_1
 msgid "That's great! I'm so excited!"
-msgstr ""
+msgstr "É incrível! Estou tão animado!"
 
 #: conversationlist_gorwath.json:gorwath_love_2
 msgid "You have truly earned these gold pieces."
-msgstr ""
+msgstr "Realmente ganhou estas peças de ouro."
 
 #: conversationlist_gorwath.json:gorwath_exit
 msgid "I will go now and prepare a present for lovely Arensia. When we get married, you will of course be invited."
 msgstr ""
+"Agora irei preparar um presente para a adorável Arensia. Quando casarmos, "
+"com certeza o convidaremos."
 
 #: conversationlist_gorwath.json:gorwath_exit_1
 msgid "Before we go our separate ways, please take this ring that I found behind those haystacks over there."
 msgstr ""
+"Antes de seguirmos os nossos caminhos, por favor, aceite este anel que "
+"encontrei atrás dos palheiros."
 
 #: conversationlist_gorwath.json:gorwath_tmp
 msgid "Did you give her the letter yet?"
-msgstr ""
+msgstr "Já lhe entregou a carta?"
 
 #: conversationlist_gorwath.json:gorwath_tmp:0
 msgid "Eh ... no. I thought, it wasn't that important."
-msgstr ""
+msgstr "Eh... não. Pensei que não era tão importante."
 
 #: conversationlist_gorwath.json:gorwath_tmp2
 msgid "Not that important?? I can barely breathe if I don't get her answer! Hurry now! Please, do."
 msgstr ""
+"Não é tão importante?? Mal posso respirar se não obtiver a resposta dela! "
+"Apresse-se agora! Por favor, entregue-lhe-a."
 
 #: conversationlist_gorwath.json:gorwath_done
 msgid "Thanks again for your great help!"
-msgstr ""
+msgstr "Obrigado novamente pela sua grande ajuda!"
 
 #: conversationlist_gorwath.json:arensia
 msgid "Hello, dear."
@@ -45279,40 +45383,40 @@ msgstr "Olá, meu caro."
 #: conversationlist_gorwath.json:arensia:0
 #: conversationlist_gorwath.json:arensia_1:1
 msgid "I have a letter for you."
-msgstr ""
+msgstr "Tenho uma carta para si."
 
 #: conversationlist_gorwath.json:arensia:1
 #: conversationlist_gorwath.json:arensia_1:2
 msgid "Hello. I am wondering if you could help me?"
-msgstr ""
+msgstr "Oi. Gostaria de saber se me pode ajudar?"
 
 #: conversationlist_gorwath.json:arensia:2
 msgid "You seem tired. Is everything alright?"
-msgstr ""
+msgstr "Parece cansado. Está tudo bem?"
 
 #: conversationlist_gorwath.json:arensia:3
 msgid "About the lytwings ..."
-msgstr ""
+msgstr "Sobre as lytwings ..."
 
 #: conversationlist_gorwath.json:arensia:4
 msgid "Have the lytwings honored their word?"
-msgstr ""
+msgstr "As lytwings honraram a palavra delas?"
 
 #: conversationlist_gorwath.json:arensia_done
 msgid "What a beautiful day, isn't it?"
-msgstr ""
+msgstr "Que dia lindo, não é?"
 
 #: conversationlist_gorwath.json:arensia_letter
 msgid "A letter? From whom?"
-msgstr ""
+msgstr "Uma carta? De quem?"
 
 #: conversationlist_gorwath.json:arensia_letter:0
 msgid "It is from Gorwath, of Crossgl..."
-msgstr ""
+msgstr "É de Gorwath, em Crossgl..."
 
 #: conversationlist_gorwath.json:arensia_letter_10
 msgid "Oh really? Give it to me - quickly!"
-msgstr ""
+msgstr "A sério? Dé-me - rápido!"
 
 #: conversationlist_gorwath.json:arensia_letter_20
 msgid ""
@@ -45320,26 +45424,33 @@ msgid ""
 "\n"
 "Oh that's cute. Tell Gorwath I love him too."
 msgstr ""
+"[A ler]\n"
+"\n"
+"Oh, isso é tão fofo. Diga ao Gorwath que também o amo."
 
 #: conversationlist_gorwath.json:arensia_letter_20:0
 msgid "I'll be happy to tell him that."
-msgstr ""
+msgstr "Ficarei feliz em dizer-lhe isso."
 
 #: conversationlist_omi2.json:bwm17_worker
 msgid "Hello child, if you came to climb the mountain here, then I have to disappoint you."
-msgstr ""
+msgstr "Olá criança, se veio escalar a montanha aqui, irei decepcionar-lo."
 
 #: conversationlist_omi2.json:bwm17_worker_1
 msgid "The ladder was in danger of collapsing. I'm fixing it right now. Come again later."
 msgstr ""
+"A escada corria o risco de desabar. Estou a consertar neste momento. Volte "
+"mais tarde."
 
 #: conversationlist_omi2.json:bwm17_questenabled
 msgid "The ladder is under construction."
-msgstr ""
+msgstr "A escada está em reforma."
 
 #: conversationlist_omi2.json:bwm17_vine_1
 msgid "There are some flies teeming on the basket. Apart from some rotten meat and vegetables, there does not seem to be anything valuable inside it."
 msgstr ""
+"Existem algumas moscas a fervilhar na cesta. Além de um pouco de carne e "
+"vegetais podres, não parece haver nada de valioso dentro."
 
 #: conversationlist_omi2.json:bwm17_vine_1:0
 #: conversationlist_omi2.json:bwm17_vine_3:0
@@ -45349,53 +45460,68 @@ msgstr "Deixa isso."
 
 #: conversationlist_omi2.json:bwm17_vine_1:1
 msgid "Take a better look."
-msgstr ""
+msgstr "Dê uma melhor olhada."
 
 #: conversationlist_omi2.json:bwm17_vine_2
 msgid "Under all the rotten food, there is a long vine all rolled up. It might be useful, so you decide to take it."
 msgstr ""
+"Entre todo o alimento podre, há uma longa videira toda enrolada. Pode ser "
+"útil, então decide levar."
 
 #: conversationlist_omi2.json:bwm17_vine_3
 msgid "You have already plundered the basket."
-msgstr ""
+msgstr "Já pilhou a cesta."
 
 #: conversationlist_omi2.json:bwm17_vine2_1
 msgid "You find a hole next to a large rock which seems well attached to the ground."
 msgstr ""
+"Encontra um buraco próximo a uma grande rocha que parece bem fincada ao solo."
 
 #: conversationlist_omi2.json:bwm17_vine2_1:0
 msgid "Maybe I should look around here or a little further up the mountain?"
-msgstr ""
+msgstr "Talvez devia dar uma olhada ao redor ou um pouco adiante na montanha?"
 
 #: conversationlist_omi2.json:bwm17_vine2_1:1
 msgid "Tie the vine to the rock."
-msgstr ""
+msgstr "Amarre a videira à rocha."
 
 #: conversationlist_omi2.json:bwm17_vine2_1:2
 msgid ""
 "Haha. This rock looks like my brother Andor. \n"
 "I think I've been on the trail too long... I'm going crazy."
 msgstr ""
+"Haha. Esta rocha parece-se com o meu irmão Andor.\n"
+"Acho que estou na trilha há muito tempo... Estou a ficar louco."
 
 #: conversationlist_omi2.json:bwm17_vine2_1a
 msgid "If I could find something like a rope, I could use it to lower myself into that hole."
 msgstr ""
+"Se pudesse encontrar algo como uma corda, poderia usá-la para me descer "
+"naquele buraco."
 
 #: conversationlist_omi2.json:bwm17_vine2_2
 msgid "Once tied, you give the improvised rope a couple of firm tugs. It seems stable enough to help you climb down the hole."
 msgstr ""
+"Depois de amarrada, dá alguns puxões firmes na corda improvisada. Parece "
+"estável o suficiente para ajudá-lo a descer pelo buraco."
 
 #: conversationlist_omi2.json:bwm70_sign
 msgid "Attention villagers: Climbing the mountain has been prohibited due to the recent tragic events. All mountain patrol crews have been disbanded until further notice."
 msgstr ""
+"Atenção, aldeões: escalar a montanha foi proibido devido aos recentes "
+"eventos trágicos. Todas as equipas de patrulha da montanha foram dissolvidas "
+"até novo pronunciamento."
 
 #: conversationlist_omi2.json:bwm70_corpse
 msgid "This must be the remains of some imprudent villager who ventured into the mountain despite the warnings. There are signs of a former camp down the mountain."
 msgstr ""
+"Estes devem ser os restos mortais de algum aldeão imprudente que se "
+"aventurou na montanha, apesar dos avisos. Há sinais de um antigo acampamento "
+"na descida da montanha."
 
 #: conversationlist_omi2.json:bwm70_corpse:0
 msgid "I'd better be cautious."
-msgstr ""
+msgstr "É melhor eu ser cauteloso."
 
 #: conversationlist_omi2.json:bwm72_corpse_n_2
 msgid "Nothing interesting here."
@@ -45403,15 +45529,18 @@ msgstr "Nada de interesse aqui."
 
 #: conversationlist_omi2.json:bwm72_corpse_w_2
 msgid "You have already looked at this corpse."
-msgstr ""
+msgstr "Já analisou este cadáver."
 
 #: conversationlist_omi2.json:bwm72_corpse_s_2
 msgid "There's certainly nothing but rotten flesh and bones here."
-msgstr ""
+msgstr "Certamente não há nada além de carne e ossos podres aqui."
 
 #: conversationlist_omi2.json:bwm72_corpse1_1
 msgid "You see a corpse, much more decomposed than the one you saw on the hillside, and wrapped up in cobwebs. What kind of spider would be able to do such a thing?"
 msgstr ""
+"Vê um cadáver, mais decomposto do que o que foi visto anteriormente na "
+"encosta, e envolto em teias de aranha. Que tipo de aranha seria capaz de "
+"fazer uma coisa dessas?"
 
 #: conversationlist_omi2.json:bwm72_corpse1_1:0
 msgid "It's plundering time!"
@@ -45420,30 +45549,41 @@ msgstr "Hora da pilhagem!"
 #: conversationlist_omi2.json:bwm72_corpse1_2
 msgid "A second after you break the cobweb, a bunch of small spiders emerge from the corpse. Some of them climb up your arm and bite you before you shake them off."
 msgstr ""
+"Um segundo depois de quebrar a teia de aranha, um bando de pequenas aranhas "
+"emergem do cadáver. Algumas delas sobem no seu braço e mordem-lo antes de se "
+"livrar delas."
 
 #: conversationlist_omi2.json:bwm72_corpse1_2:0
 msgid "Ugh, great. This one had nothing but ugly spiders."
-msgstr ""
+msgstr "Ugh, ótimo. Este não tinha nada além de aranhas repugnantes."
 
 #: conversationlist_omi2.json:bwm72_corpse1_2:1
 msgid "*looking at the corpse*. Poor man, no match for a couple of arachnids... Rest in peace."
 msgstr ""
+"*a olhar para o cadáver*. Pobre homem, não é páreo para alguns aracnídeos... "
+"Descanse em paz."
 
 #: conversationlist_omi2.json:bwm72_corpse2_1
 msgid "Yet another corpse in the same state as the previous one. One of its legs seems violently fractured."
 msgstr ""
+"Mais um cadáver, no mesmo estado do anterior. Uma das suas pernas parece "
+"violentamente fraturada."
 
 #: conversationlist_omi2.json:bwm72_corpse2_1:0
 msgid "Take a closer look."
-msgstr ""
+msgstr "Dê uma olhada de perto."
 
 #: conversationlist_omi2.json:bwm72_corpse2_2
 msgid "That is certainly not a wound one of these spiders would cause. There's something strange about all this."
 msgstr ""
+"Certamente não é um ferimento que uma dessas aranhas causariam. Há algo "
+"estranho sobre tudo isto."
 
 #: conversationlist_omi2.json:bwm72_corpse3_1
 msgid "This one is the most decayed of all corpses you saw here. Who are these people?"
 msgstr ""
+"Este é o mais deteriorado de todos os cadáveres que observou aqui. Quem são "
+"estas pessoas?"
 
 #: conversationlist_omi2.json:bwm72_corpse3_1:0
 msgid "Rest in peace, whoever you were. (Leave it be)"
@@ -45452,18 +45592,20 @@ msgstr "Descansa em paz, quem quer que sejas. (Deixe como está)"
 #: conversationlist_omi2.json:bwm72_corpse3_1:1
 msgid "*looking at the dead body* Well, I don't think you need your belongings anymore, right? (Plunder the corpse)"
 msgstr ""
+"*a olhar para o cadáver* Bem, acho que já não precisa dos seus bens, certo? ("
+"Saquear o cadáver)"
 
 #: conversationlist_omi2.json:bwm72_corpse3_2
 msgid "YOU! We will pursue you for your crimes!"
-msgstr ""
+msgstr "VOCÊ! Vamos persegui-lo pelos seus crimes!"
 
 #: conversationlist_omi2.json:bwm72_corpse3_3
 msgid "There's nothing but rotten flesh and bones here."
-msgstr ""
+msgstr "Não há nada além de carne e ossos podres aqui."
 
 #: conversationlist_omi2.json:bwm72_torture_0
 msgid "You don't feel good in this room. Something is utterly wrong here."
-msgstr ""
+msgstr "Não se sente bem nesta sala. Algo está totalmente errado aqui."
 
 #: conversationlist_omi2.json:bwm72_torture_0a
 msgid "Keep looking around."
@@ -45472,14 +45614,18 @@ msgstr "Continua a olhar por aí."
 #: conversationlist_omi2.json:bwm72_torture_3
 msgid "You throw another quick glance at the blood-stained chair. What a horrible scene."
 msgstr ""
+"Lança outro olhar com o canto do olho para a cadeira manchada de sangue. Que "
+"cena horrível."
 
 #: conversationlist_omi2.json:bwm72_torture_1
 msgid "One of the chairs is moved apart from the rest. There are dried blood stains all over it. A blood-stained rope rests next to the chair."
 msgstr ""
+"Uma das cadeiras está afastada das demais. Há nódoas de sangue seco em cada "
+"canto. Uma corda manchada de sangue repousa ao lado da cadeira."
 
 #: conversationlist_omi2.json:bwm72_torture_1a
 msgid "Someone has been tortured here, no doubt about it."
-msgstr ""
+msgstr "Alguém foi torturado aqui, não há duvidas."
 
 #: conversationlist_omi2.json:bwm72_torture_1a:0
 msgid "Examine the scene."
@@ -45488,18 +45634,24 @@ msgstr "Examina a cena."
 #: conversationlist_omi2.json:bwm72_torture_2
 msgid "After several minutes of careful but fruitless search, you decide to take one of the ropes as evidence of the torture."
 msgstr ""
+"Após vários minutos de uma pesquisa minuciosa, mas infrutífera, decide usar "
+"uma das cordas como evidência da tortura."
 
 #: conversationlist_omi2.json:bwm74_h_warning_1
 msgid "The very few rays of light that barely illuminate this small tunnel get lost in the inmense darkness of this hole."
 msgstr ""
+"Os poucos raios de luz que mal iluminam este pequeno túnel perdem-se na "
+"escuridão imensa."
 
 #: conversationlist_omi2.json:bwm74_h_warning_1a
 msgid "There's neither ropes nor vines that could help you to go down. Furthermore, you can not figure out how far away the floor is."
 msgstr ""
+"Não há cordas nem cipós que o ajudem a descer. Além disso, não consegue "
+"descobrir a que distância está o chão."
 
 #: conversationlist_omi2.json:bwm74_h_warning_1a:0
 msgid "Drop a pebble down the hole."
-msgstr ""
+msgstr "Jogue uma pedra no buraco."
 
 #: conversationlist_omi2.json:bwm74_h_warning_1a:1
 msgid "Shout: Heeeellooo!"
@@ -45515,7 +45667,7 @@ msgstr "Espera e ouve."
 
 #: conversationlist_omi2.json:bwm74_h_warning_1a:4
 msgid "Try to find another way down."
-msgstr ""
+msgstr "Tente encontrar outro caminho para descer."
 
 #: conversationlist_omi2.json:bwm74_h_warning_1b
 #: conversationlist_ratdom.json:ratdom_fraedro_key_12
@@ -45524,81 +45676,99 @@ msgstr "Não acontece nada."
 
 #: conversationlist_omi2.json:bwm74_h_warning_1c
 msgid "Maybe not a good idea. You don't jump."
-msgstr ""
+msgstr "possivelmente não seja uma boa ideia. Não pula."
 
 #: conversationlist_omi2.json:bwm74_h_warning_2
 msgid "Certain of not being prepared to explore whatever would be down there, you decide to avoid the hole and continue your way to the other shore."
 msgstr ""
+"Com a certeza de não estar preparado para explorar o que quer que esteja lá "
+"embaixo, decide evitar a fenda e seguir o seu caminho para a outra margem."
 
 #: conversationlist_omi2.json:bwm74_h_warning_3
 msgid "You should not waste any more time here. There are more urgent things to do."
 msgstr ""
+"Não deveria perder mais tempo aqui. Existem coisas mais urgentes a serem "
+"feitas."
 
 #: conversationlist_omi2.json:bwm74_waterfall
 msgid "The path along the water's edge narrows here. Peering down the tunnel, it appears the stream ends abruptly in what seems to be a waterfall. After that, there's just darkness."
 msgstr ""
+"O caminho ao longo da margem estreita-se aqui. Olhando para baixo do túnel, "
+"parece que o riacho termina abruptamente no que parece ser uma cachoeira. "
+"Depois disso, só resta a escuridão."
 
 #: conversationlist_omi2.json:bwm74_waterfall_2
 msgid "It is definitely not a good idea to keep going this way without any reason."
 msgstr ""
+"Definitivamente, não é uma boa ideia continuar por este caminho sem um bom "
+"motivo."
 
 #: conversationlist_omi2.json:bwm75_sign
 msgid ""
 "There's nothing written here anymore. The wood is rotten, dried, and cracked, the borders of the sign are eroded and a dense layer of grime covers its top. \n"
 "It must have been ages since someone put it here."
 msgstr ""
+"Não há mais nada escrito aqui. A madeira está apodrecida, seca e rachada, as "
+"beiradas da placa estão corroídas e uma densa camada de sujeira cobre o topo."
+"\n"
+"Deve ter passado muito tempo desde que alguém a pôs aqui."
 
 #: conversationlist_omi2.json:ehrenfest_0
 msgid "Damn it, kid! Watch your step. You almost knocked me over!"
-msgstr ""
+msgstr "Porcaria, garoto! Cuidado por onde pisa. Quase derrubou-me!"
 
 #: conversationlist_omi2.json:ehrenfest_0:0
 msgid "Sorry, I am in a hurry."
-msgstr ""
+msgstr "Desculpe, estou apressado."
 
 #: conversationlist_omi2.json:ehrenfest_0:1
 msgid "Watch my step? You'd better watch your tongue!"
-msgstr ""
+msgstr "Cuidado por onde piso? É melhor cuidar da sua língua!"
 
 #: conversationlist_omi2.json:ehrenfest_1a
 msgid "Umm, what's the matter?"
-msgstr ""
+msgstr "Umm, qual é o problema?"
 
 #: conversationlist_omi2.json:ehrenfest_1a:0
 msgid "As I said, I don't have time to talk. I need to report something important."
 msgstr ""
+"Como disse, não tenho tempo para conversa. Preciso reportar algo importante."
 
 #: conversationlist_omi2.json:ehrenfest_1a:1
 msgid "Nothing of your concern. I must go inside."
-msgstr ""
+msgstr "Não é nada da sua conta. Devo entrar."
 
 #: conversationlist_omi2.json:ehrenfest_1a:2
 msgid "I have discovered something suspicious inside the mountain."
-msgstr ""
+msgstr "Descobri algo suspeito dentro da montanha."
 
 #: conversationlist_omi2.json:ehrenfest_1b
 msgid "Not only blind but bad-mannered too! You remind me of myself when I was younger. I was not blind, though, ha ha ha!"
 msgstr ""
+"Não só cego, mas mal-educado também! Faz-me lembrar de mim quando era mais "
+"novo. Porém, não era cego, ha ha ha!"
 
 #: conversationlist_omi2.json:ehrenfest_1b2
 msgid "I'll let it go. But tell me, what is it that you find so urgent?"
-msgstr ""
+msgstr "Vou deixar para lá. Mas diga-me, o que é que acha tão urgente?"
 
 #: conversationlist_omi2.json:ehrenfest_1b2:0
 msgid "I don't trust you with something this important, so nothing."
-msgstr ""
+msgstr "Não confio em si com algo que seja tão importante, então nada."
 
 #: conversationlist_omi2.json:ehrenfest_1b2:1
 msgid "I have information related to recent disappearances."
-msgstr ""
+msgstr "Tenho informações relacionadas a desaparecimentos recentes."
 
 #: conversationlist_omi2.json:ehrenfest_1b2:2
 msgid "Sorry, it's important, so I must go."
-msgstr ""
+msgstr "Desculpe, é importante, então devo sair."
 
 #: conversationlist_omi2.json:ehrenfest_2a
 msgid "I see. But keep in mind that no one inside there will pay attention to you, whatever you say."
 msgstr ""
+"Percebo. Mas tenha em mente que ninguém lá dentro vai prestar-lhe atenção, "
+"não importa o que diga."
 
 #: conversationlist_omi2.json:ehrenfest_2a:1
 msgid "You never know..."
@@ -45606,15 +45776,16 @@ msgstr "Nunca se sabe..."
 
 #: conversationlist_omi2.json:ehrenfest_2a:2
 msgid "Whatever, I will try anyway."
-msgstr ""
+msgstr "Seja como for, vou tentar de qualquer maneira."
 
 #: conversationlist_omi2.json:ehrenfest_2b
 msgid "Have you? *He gets closer*"
-msgstr ""
+msgstr "Já? *Ele aproxima-se*"
 
 #: conversationlist_omi2.json:ehrenfest_2b2
 msgid "Look, I personally don't think that telling the guards is a good choice."
 msgstr ""
+"Olha, pessoalmente não acho que contar aos guardas seja uma boa decisão."
 
 #: conversationlist_omi2.json:ehrenfest_2b2:0
 msgid "Care to explain?"
@@ -45622,35 +45793,38 @@ msgstr "Podes explicar?"
 
 #: conversationlist_omi2.json:ehrenfest_2b2:1
 msgid "I will try anyway, thanks."
-msgstr ""
+msgstr "Vou tentar de qualquer maneira, obrigado."
 
 #: conversationlist_omi2.json:ehrenfest_3a
 msgid "OK, kid. Do it, and I'll wait here for your return, heh. By the way, my name is Ehrenfest."
 msgstr ""
+"OK, garoto. Faça isso e esperarei aqui pelo seu retorno, heh. A propósito, "
+"eu me chamo Ehrenfest."
 
 #: conversationlist_omi2.json:ehrenfest_3a:0
 msgid "Do whatever you want, bye."
-msgstr ""
+msgstr "Faça o que quiser, tchau."
 
 #: conversationlist_omi2.json:prim_guard5_1
 msgid "This is no place for kids."
-msgstr ""
+msgstr "Este não é um lugar para crianças."
 
 #: conversationlist_omi2.json:prim_guard5_1:0
 msgid "I will report your bad manners to your chief."
-msgstr ""
+msgstr "Vou relatar o seu mau comportamento ao seu chefe."
 
 #: conversationlist_omi2.json:prim_guard5_1:1
 msgid "I might have some information about the recent disappearances."
 msgstr ""
+"Talvez eu possa ter algumas informações sobre os recentes desaparecimentos."
 
 #: conversationlist_omi2.json:prim_guard5_2
 msgid "Yeah, we already know about the gornauds."
-msgstr ""
+msgstr "Sim, já sabemos sobre os gornauds."
 
 #: conversationlist_omi2.json:prim_guard5_2:0
 msgid "No, I did not mean..."
-msgstr ""
+msgstr "Não, não quis dizer..."
 
 #: conversationlist_omi2.json:prim_guard5_2:1
 msgid "The gornauds?"
@@ -45659,46 +45833,62 @@ msgstr "Is gornauds?"
 #: conversationlist_omi2.json:prim_guard5_3a
 msgid "Look, I have more important things to do than babysitting a kid, OK?"
 msgstr ""
+"Olha, tenho coisas mais importantes para fazer do que ser babá de uma "
+"criança, ok?"
 
 #: conversationlist_omi2.json:prim_guard5_3a:1
 msgid "Hmpf, when the gornauds get the village surrounded I'll be the one babysitting all of you."
 msgstr ""
+"Hmpf, quando os gornauds cercarem a aldeia, serei eu quem cuidará de todos "
+"vocês."
 
 #: conversationlist_omi2.json:prim_guard5_3b
 msgid "Yes. They seem to be learning from every attack and their numbers are increasing."
 msgstr ""
+"Sim. Eles parecem estar a aprender com cada ataque e serem cada vez mais."
 
 #: conversationlist_omi2.json:prim_guard5_3b:1
 msgid "Will you hear what I have to say then?"
-msgstr ""
+msgstr "Depois vai ouvir o que tenho a dizer?"
 
 #: conversationlist_omi2.json:prim_guard5_4
 msgid "Of course you can. Go back home and let me and the rest do our job. Understood?"
 msgstr ""
+"Claro que pode. Volte para casa e deixe que eu e os outros façamos o nosso "
+"trabalho. Percebido?"
 
 #: conversationlist_omi2.json:prim_guard5_4:0
 msgid "But I have important information!"
-msgstr ""
+msgstr "Mas tenho informações importantes!"
 
 #: conversationlist_omi2.json:prim_guard5_4:1
 msgid "Whatever, you won't stand up after a Gornaud blow."
-msgstr ""
+msgstr "Seja como for, não se irá levantar depois de um golpe de Gornaud."
 
 #: conversationlist_omi2.json:prim_guard6_1
 msgid "The guard is mumbling something to himself and seems to be ignoring you completely."
 msgstr ""
+"O guarda murmurar alguma coisa para si mesmo e parece estar a ignorar-lo "
+"completamente."
 
 #: conversationlist_omi2.json:ortholion_conversation_1
 msgid "In front of you, some guys seem to be hearing carefully or rather gingerly a charismatic voice."
 msgstr ""
+"Na sua frente alguns tipos parecem ouvir com atenção, ou melhor, "
+"cautelosamente, uma voz carismática."
 
 #: conversationlist_omi2.json:ortholion_conversation_2
 msgid "I am a very reasonable man, but the problems between this village and Blackwater settlement have delayed the tax collection of this region."
 msgstr ""
+"Sou um homem muito razoável, mas os problemas entre esta aldeia e o "
+"assentamento das aguas negras atrasaram a cobrança de impostos da região."
 
 #: conversationlist_omi2.json:ortholion_conversation_3
 msgid "Taxes are the solid pillar that maintain our and your lands. Other villages will rightly complain if we continue to allow this without repercussions."
 msgstr ""
+"Os impostos são um sólido pilar que mantém as nossas e as suas terras. "
+"Outras aldeias reclamarão, com razão, se continuarmos a permitir isto sem "
+"repercussões."
 
 #: conversationlist_omi2.json:ortholion_conversation_5
 msgid "With all due respect, general, our problems here are wider and more complex than a simple disagreement with the people of Blackwater Settlement."
