@@ -35,6 +35,7 @@ public final class Monster extends Actor {
 		this.monsterType = monsterType;
 		this.area = area;
 		this.iconID = monsterType.iconID;
+		this.allowHorizontalSpriteFlip = monsterType.allowHorizontalSpriteFlip;
 		this.nextPosition = new CoordRect(new Coord(), monsterType.tileSize);
 		resetStatsToBaseTraits();
 		this.ap.setMax();
