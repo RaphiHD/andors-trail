@@ -15,7 +15,6 @@ import com.gpl.rpg.AndorsTrail.util.Size;
 public class Actor {
 	public int iconID;
 	public final Size tileSize;
-	public boolean allowHorizontalSpriteFlip;
 	public final Coord position = new Coord();
 	public final CoordRect rectPosition;
 	public final boolean isPlayer;
