@@ -3,7 +3,6 @@
         "id":"tiny_rat",
         "name":"Tiny rat",
         "iconID":"monsters_rats:0",
-        "allowHorizontalSpriteFlip":"true",
         "maxHP":2,
         "unique":1,
         "monsterClass":"animal",
@@ -35,7 +34,7 @@
         "id":"tough_cave_rat",
         "name":"Tough cave rat",
         "iconID":"monsters_rats:1",
-        "allowHorizontalSpriteFlip":"false",
+        "allowHorizontalSpriteFlip":false,
         "maxHP":5,
         "monsterClass":"animal",
         "attackDamage":{
@@ -83,7 +82,7 @@
         "id":"small_wasp",
         "name":"Small wasp",
         "iconID":"monsters_insects:1",
-        "allowHorizontalSpriteFlip":"false",
+        "allowHorizontalSpriteFlip":true,
         "maxHP":4,
         "monsterClass":"insect",
         "attackDamage":{
@@ -332,7 +331,7 @@
         "id":"rabid_boar",
         "name":"Rabid boar",
         "iconID":"monsters_dogs:6",
-        "allowHorizontalSpriteFlip":"true",
+        "allowHorizontalSpriteFlip":true,
         "maxHP":20,
         "monsterClass":"animal",
         "attackDamage":{
