@@ -431,13 +431,13 @@ public final class MainView extends SurfaceView
 		for (MonsterSpawnArea a : currentMap.spawnAreas) {
 			for (Monster m : a.monsters) {
 				if (!m.hasVFXRunning) {
-					drawFromMapPosition(canvas, area, m.rectPosition, m.iconID);
+					drawFromMapPosition(canvas, area, m.rectPosition, m.iconID, m.allowHorizontalSpriteFlip);
 				} else if (area.intersects(m.rectPosition) || area.intersects(new CoordRect(m.lastPosition,m.rectPosition.size))) {
 					int vfxElapsedTime = (int) (System.currentTimeMillis() - m.vfxStartTime);
 					if (vfxElapsedTime > m.vfxDuration) vfxElapsedTime = m.vfxDuration;
 					int x = ((m.position.x - mapViewArea.topLeft.x) * tileSize * vfxElapsedTime + ((m.lastPosition.x - mapViewArea.topLeft.x) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
 					int y = ((m.position.y - mapViewArea.topLeft.y) * tileSize * vfxElapsedTime + ((m.lastPosition.y - mapViewArea.topLeft.y) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
-					tiles.drawTile(canvas, m.iconID, x, y, mPaint);
+					tiles.drawTile(canvas, m.iconID, x, y, mPaint, m.allowHorizontalSpriteFlip);
 				}
 			}
 		}
@@ -512,7 +512,7 @@ public final class MainView extends SurfaceView
 		y -= mapViewArea.topLeft.y;
 //		if (	   (x >= 0 && x < mapViewArea.size.width)
 //				&& (y >= 0 && y < mapViewArea.size.height)) {
-			tiles.drawTile(canvas, tile, x * tileSize, y * tileSize, mPaint);
+			tiles.drawTile(canvas, tile, x * tileSize, y * tileSize, mPaint, m.allowHorizontalSpriteFlip);
 //		}
 	}
 
