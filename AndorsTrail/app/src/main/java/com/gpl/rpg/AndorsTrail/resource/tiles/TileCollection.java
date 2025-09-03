@@ -2,6 +2,7 @@ package com.gpl.rpg.AndorsTrail.resource.tiles;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Matrix;
 import android.graphics.Paint;
 
 public final class TileCollection {
