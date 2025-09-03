@@ -5,8 +5,6 @@ import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.Paint;
 
-import com.gpl.rpg.AndorsTrail.controller.Constants;
-
 public final class TileCollection {
 	private final Bitmap[] bitmaps;
 	public final int maxTileID;
@@ -27,13 +25,13 @@ public final class TileCollection {
 	public void drawTile(Canvas canvas, int tile, int px, int py, Paint mPaint) {
 		drawTile(canvas, tile, px, py, mPaint, false);
 	}
-	public void drawTile(Canvas canvas, int tile, int px, int py, Paint mPaint, boolean allowHorizontalSpriteFlip) {
-		if (allowHorizontalSpriteFlip && Constants.roll100(50))
-			canvas.drawBitmap(flipHorizontal(bitmaps[tile]), px, py, mPaint);
+	public void drawTile(Canvas canvas, int tile, int px, int py, Paint mPaint, boolean isFlippedX) {
+		if (isFlippedX)
+			canvas.drawBitmap(flipBitmapX(bitmaps[tile]), px, py, mPaint);
 		else canvas.drawBitmap(bitmaps[tile], px, py, mPaint);
 	}
 
-	public Bitmap flipHorizontal(Bitmap source) {
+	public Bitmap flipBitmapX(Bitmap source) {
 		Matrix matrix = new Matrix();
 		matrix.postScale(-1, 1, source.getWidth() / 2f, source.getHeight() / 2f);
 		return Bitmap.createBitmap(source, 0, 0, source.getWidth(), source.getHeight(), matrix, true);
