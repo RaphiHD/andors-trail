@@ -35,7 +35,7 @@
         "id":"tough_cave_rat",
         "name":"Tough cave rat",
         "iconID":"monsters_rats:1",
-        "allowHorizontalSpriteFlip":"true",
+        "allowHorizontalSpriteFlip":"false",
         "maxHP":5,
         "monsterClass":"animal",
         "attackDamage":{
@@ -83,7 +83,7 @@
         "id":"small_wasp",
         "name":"Small wasp",
         "iconID":"monsters_insects:1",
-        "allowHorizontalSpriteFlip":"true",
+        "allowHorizontalSpriteFlip":"false",
         "maxHP":4,
         "monsterClass":"insect",
         "attackDamage":{
