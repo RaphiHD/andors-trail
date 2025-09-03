@@ -37,7 +37,7 @@ public final class MonsterType {
 
 	public final Size tileSize;
 	public final int iconID;
-	public final boolean allowHorizontalSpriteFlip;
+	public final int horizontalFlipChance;
 	public final int maxAP;
 	public final int maxHP;
 	public final int moveCost;
@@ -65,7 +65,7 @@ public final class MonsterType {
 			, AggressionType aggressionType
 			, Size tileSize
 			, int iconID
-			, boolean allowHorizontalSpriteFlip
+			, int horizontalFlipChance
 			, int maxAP
 			, int maxHP
 			, int moveCost
@@ -92,7 +92,7 @@ public final class MonsterType {
 		this.aggressionType = aggressionType;
 		this.tileSize = tileSize;
 		this.iconID = iconID;
-		this.allowHorizontalSpriteFlip = allowHorizontalSpriteFlip;
+		this.horizontalFlipChance = horizontalFlipChance;
 		this.maxAP = maxAP;
 		this.maxHP = maxHP;
 		this.moveCost = moveCost;
