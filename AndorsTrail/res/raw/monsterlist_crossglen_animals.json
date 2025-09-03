@@ -329,6 +329,7 @@
         "id":"rabid_boar",
         "name":"Rabid boar",
         "iconID":"monsters_dogs:6",
+        "allowHorizontalSpriteFlip":true,
         "maxHP":20,
         "monsterClass":"animal",
         "attackDamage":{
