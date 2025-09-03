@@ -25,6 +25,12 @@ public final class TileCollection {
 		canvas.drawBitmap(bitmaps[tile], px, py, mPaint);
 	}
 	public void drawTile(Canvas canvas, int tile, int px, int py, Paint mPaint, boolean allowHorizontalSpriteFlip) {
-		canvas.drawBitmap(bitmaps[tile], px, px, mPaint);
+		canvas.drawBitmap(flipHorizontal(bitmaps[tile]), px, px, mPaint);
+	}
+
+	public Bitmap flipHorizontal(Bitmap source) {
+		Matrix matrix = new Matrix();
+		matrix.postScale(-1, 1, source.getWidth() / 2f, source.getHeight() / 2f);
+		return Bitmap.createBitmap(source, 0, 0, source.getWidth(), source.getHeight(), matrix, true);
 	}
 }
