@@ -19,6 +19,7 @@
         "id":"cave_rat",
         "name":"Cave rat",
         "iconID":"monsters_rats:1",
+        "allowHorizontalSpriteFlip":true,
         "maxHP":5,
         "monsterClass":"animal",
         "attackDamage":{
