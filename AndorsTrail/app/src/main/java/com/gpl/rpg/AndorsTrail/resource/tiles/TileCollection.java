@@ -23,11 +23,11 @@ public final class TileCollection {
 	}
 
 	public void drawTile(Canvas canvas, int tile, int px, int py, Paint mPaint) {
-		canvas.drawBitmap(bitmaps[tile], px, py, mPaint);
+		drawTile(canvas, tile, px, py, mPaint, false);
 	}
 	public void drawTile(Canvas canvas, int tile, int px, int py, Paint mPaint, boolean allowHorizontalSpriteFlip) {
 		if (allowHorizontalSpriteFlip) canvas.drawBitmap(flipHorizontal(bitmaps[tile]), px, px, mPaint);
-		else drawTile(canvas, tile, px, py, mPaint);
+		else canvas.drawBitmap(bitmaps[tile], px, py, mPaint);
 	}
 
 	public Bitmap flipHorizontal(Bitmap source) {
