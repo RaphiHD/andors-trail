@@ -503,16 +503,32 @@ public final class MainView extends SurfaceView
 		if (!area.contains(p)) return;
 		_drawFromMapPosition(canvas, area, p.x, p.y, tile);
 	}
+	private void drawFromMapPosition(Canvas canvas, final CoordRect area, final Coord p, final int tile, final boolean allowHorizontalSpriteFlip) {
+		if (!area.contains(p)) return;
+		_drawFromMapPosition(canvas, area, p.x, p.y, tile, allowHorizontalSpriteFlip);
+	}
 	private void drawFromMapPosition(Canvas canvas, final CoordRect area, final CoordRect p, final int tile) {
 		if (!area.intersects(p)) return;
 		_drawFromMapPosition(canvas, area, p.topLeft.x, p.topLeft.y, tile);
+	}
+	private void drawFromMapPosition(Canvas canvas, final CoordRect area, final CoordRect p, final int tile, final boolean allowHorizontalSpriteFlip) {
+		if (!area.intersects(p)) return;
+		_drawFromMapPosition(canvas, area, p.topLeft.x, p.topLeft.y, tile, allowHorizontalSpriteFlip);
 	}
 	private void _drawFromMapPosition(Canvas canvas, final CoordRect area, int x, int y, final int tile) {
 		x -= mapViewArea.topLeft.x;
 		y -= mapViewArea.topLeft.y;
 //		if (	   (x >= 0 && x < mapViewArea.size.width)
 //				&& (y >= 0 && y < mapViewArea.size.height)) {
-			tiles.drawTile(canvas, tile, x * tileSize, y * tileSize, mPaint, m.allowHorizontalSpriteFlip);
+			tiles.drawTile(canvas, tile, x * tileSize, y * tileSize, mPaint);
+//		}
+	}
+	private void _drawFromMapPosition(Canvas canvas, final CoordRect area, int x, int y, final int tile, final boolean allowHorizontalSpriteFlip) {
+		x -= mapViewArea.topLeft.x;
+		y -= mapViewArea.topLeft.y;
+//		if (	   (x >= 0 && x < mapViewArea.size.width)
+//				&& (y >= 0 && y < mapViewArea.size.height)) {
+		tiles.drawTile(canvas, tile, x * tileSize, y * tileSize, mPaint, allowHorizontalSpriteFlip);
 //		}
 	}
 
