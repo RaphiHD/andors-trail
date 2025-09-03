@@ -26,7 +26,8 @@ public final class TileCollection {
 		drawTile(canvas, tile, px, py, mPaint, false);
 	}
 	public void drawTile(Canvas canvas, int tile, int px, int py, Paint mPaint, boolean allowHorizontalSpriteFlip) {
-		if (allowHorizontalSpriteFlip) canvas.drawBitmap(flipHorizontal(bitmaps[tile]), px, px, mPaint);
+		if (allowHorizontalSpriteFlip)
+			canvas.drawBitmap(flipHorizontal(bitmaps[tile]), px, py, mPaint);
 		else canvas.drawBitmap(bitmaps[tile], px, py, mPaint);
 	}
 
