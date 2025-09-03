@@ -68,6 +68,7 @@ public final class MonsterTypeParser extends JsonCollectionParserFor<MonsterType
 				, MonsterType.AggressionType.fromString(o.optString(JsonFieldNames.Monster.movementAggressionType, null), MonsterType.AggressionType.none)
 				, ResourceParserUtils.parseTilesetTileSize(tileLoader, o.optString(JsonFieldNames.Monster.iconID, null), size1x1)
 				, ResourceParserUtils.parseImageID(tileLoader, o.getString(JsonFieldNames.Monster.iconID))
+				, o.optBoolean(JsonFieldNames.Monster.allowHorizontalSpriteFlip, false)
 				, maxAP
 				, maxHP
 				, o.optInt(JsonFieldNames.Monster.moveCost, 10)
