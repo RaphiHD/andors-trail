@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-09-03 00:02+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2025-09-04 21:02+0000\n"
+"Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.13.1-dev\n"
+"X-Generator: Weblate 5.13.1-rc\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -46516,22 +46516,30 @@ msgstr ""
 #: conversationlist_omi2.json:ehrenfest_13a
 msgid "I arrived here several weeks ago for no particularly interesting reason. I am part of a family of explorers and travelers, and the story of a ruined tunnel infested by dangerous beasts was something I wanted to see with my own eyes."
 msgstr ""
+"So vou dizer isto uma vez. Nada de tabernas, explorações ou dramas com "
+"aqueles guardas de Prim destreinados. E pela glória da nossa pátria, não "
+"persigam qualquer monstro ferido."
 
 #: conversationlist_omi2.json:ehrenfest_14
 msgid "The rumors were true. Those gornauds are not natural creatures. They gave me a really hard time at first."
 msgstr ""
+"Os boatos estavam certos. Aqueles gornauds não são criaturas naturais. Eles "
+"deram-me muito trabalho no início."
 
 #: conversationlist_omi2.json:ehrenfest_15
 msgid "I managed to reach the other entrance of the tunnel, but with no potions or fresh food I thought it was the end. Luckily, a guy called Lorn rescued me and brought me here."
 msgstr ""
+"Consegui chegar à outra entrada do túnel, mas sem poções ou comida fresca "
+"pensei ser o fim. Felizmente, um tipo chamado Lorn salvou-me e trouxe-me "
+"aqui."
 
 #: conversationlist_omi2.json:ehrenfest_15:0
 msgid "That name seems familiar to me, somehow."
-msgstr ""
+msgstr "Esse nome soa-me familiar, de alguma maneira."
 
 #: conversationlist_omi2.json:ehrenfest_15:1
 msgid "Now to the point, please."
-msgstr ""
+msgstr "Agora direto ao ponto, por favor."
 
 #: conversationlist_omi2.json:ehrenfest_16
 msgid "Due to my exhaustion, I rested in bed for days. I could hear the constant noise of the workers chatting, toasting with their mead jugs..."
@@ -46543,39 +46551,49 @@ msgstr "Acabaste?"
 
 #: conversationlist_omi2.json:ehrenfest_16:1
 msgid "Obviously you needed the rest."
-msgstr ""
+msgstr "Obviamente, precisas do descanso."
 
 #: conversationlist_omi2.json:ehrenfest_17
 msgid "But the day I got up, completely recovered, the first thing I noticed was precisely the absence of those noises. The rooms next to me were dirty and empty. No one was in the dining room. The mine entrance was closed."
 msgstr ""
+"Mas no dia que eu me levantei, completamente recuperado, a primeira coisa em "
+"que reparei foi precisamente a ausência desses barulhos. Os quartos ao lado "
+"do meu estavam sujos e vazios. Ninguém estava na sala de jantar. A entrada "
+"da minha estava fechada."
 
 #: conversationlist_omi2.json:ehrenfest_17a
 msgid "[He seems to be completely absorbed by his own monologue]"
-msgstr ""
+msgstr "[Ele parece completamente absorvido pelo seu próprio monólogo]"
 
 #: conversationlist_omi2.json:ehrenfest_18
 msgid "Arghest, the only man left here, pointed me towards Prim, so I decided to go and ask for my savior. Lamentably, he was no longer there."
 msgstr ""
+"Arghest, o único que restou aqui, apontou-me na direção de Prim, por isso "
+"decidir vir e perguntar pelo meu salvador. Lamentavelmente, ele já não "
+"estava lá."
 
 #: conversationlist_omi2.json:ehrenfest_19
 msgid "Some villagers said he and his patrol crew had left three days ago in search of a couple that climbed up the mountain. So I went to the local shop, I got some supplies and..."
 msgstr ""
+"Alguns aldeões disseram que ele e a sua patrulha tinham partido há três dias "
+"a procurar um casal que escapou a montanha. Por isso fui à loja local, "
+"comprei alguns mantimentos e..."
 
 #: conversationlist_omi2.json:ehrenfest_19:0
 msgid "Did you have any luck?"
-msgstr ""
+msgstr "Tiveste alguma sorte?"
 
 #: conversationlist_omi2.json:ehrenfest_19:1
 msgid "Aren't you done yet?"
-msgstr ""
+msgstr "Não acabaste ainda?"
 
 #: conversationlist_omi2.json:ehrenfest_20b
 msgid "Are you gonna stop interrupting me?"
-msgstr ""
+msgstr "Vais parar de me interromper?"
 
 #: conversationlist_omi2.json:ehrenfest_20b:0
 msgid "If that makes you finish sooner..."
-msgstr ""
+msgstr "Se isso fizer com que acabe mais cedo..."
 
 #: conversationlist_omi2.json:ehrenfest_20b:1
 msgid "Sorry, continue."
@@ -46584,30 +46602,38 @@ msgstr "Desculpa, continua."
 #: conversationlist_omi2.json:ehrenfest_21
 msgid "Well. After nearly two days of restless searching, I figured they may have already returned, so I started to climb down."
 msgstr ""
+"Bem. Depois de quase dois dias de buscas incansáveis. Deduzi que ele "
+"poderiam já ter voltado, por isso comecei a descer."
 
 #: conversationlist_omi2.json:ehrenfest_20a
 msgid "I suppose, if you want to call it that."
-msgstr ""
+msgstr "Suponho que sim, se queres chamar-lhe isso."
 
 #: conversationlist_omi2.json:ehrenfest_22
 msgid "I fell off a cliff on a narrow path on the mountain side and ended up at the same plateau you climbed up to, where the corpse was. I could not believe what I was seeing."
 msgstr ""
+"Caí num desfiladeiro para um caminho estreito na encosta da montanha e "
+"acabei no mesmo planalto que tu escalaste, onde estava o cadáver. Não "
+"acreditei no que estava a ver."
 
 #: conversationlist_omi2.json:ehrenfest_23
 msgid "Lorn lay next to me, just a few steps away. His armor was entirely covered in blood, flowing slowly to the ground out of his body."
 msgstr ""
+"Lorn estava deitado ao meu lado, a alguns passos de distância. A sua "
+"armadura estava completamente coberta de sangue, a escorrer lentamente do "
+"seu corpo para o chão."
 
 #: conversationlist_omi2.json:ehrenfest_23:0
 #: conversationlist_omi2.json:ehrenfest_24b:0
 #: conversationlist_omi2.json:ehrenfest_24c2:1
 msgid "What about the campfire?"
-msgstr ""
+msgstr "E a fogueira?"
 
 #: conversationlist_omi2.json:ehrenfest_23:1
 #: conversationlist_omi2.json:ehrenfest_24a:1
 #: conversationlist_omi2.json:ehrenfest_24c2:0
 msgid "What about the hole?"
-msgstr ""
+msgstr "E em relação ao buraco?"
 
 #: conversationlist_omi2.json:ehrenfest_23:2
 msgid "Was he dead?"
@@ -46616,6 +46642,8 @@ msgstr "Ele estava morto?"
 #: conversationlist_omi2.json:ehrenfest_24a
 msgid "There was a campfire, yes. Now that I think about it, it could have belonged either to the couple or to the patrol crew."
 msgstr ""
+"Havia uma fogueira, sim. Agora que penso nisso, pode ter pertencido quer ao "
+"casal ou à patrulha."
 
 #: conversationlist_omi2.json:ehrenfest_24a:0
 msgid "Was Lorn dead?"
@@ -46623,48 +46651,57 @@ msgstr "Lorn estava morto?"
 
 #: conversationlist_omi2.json:ehrenfest_24b
 msgid "I didn't dare to go down the hole..."
-msgstr ""
+msgstr "Não me atrevi a descer pelo buraco..."
 
 #: conversationlist_omi2.json:ehrenfest_24b:1
 msgid "Was Lorn dead when you found him?"
-msgstr ""
+msgstr "O Lorn estava morto quando o encontraste?"
 
 #: conversationlist_omi2.json:ehrenfest_24b:2
 msgid "I found some dead bodies inside."
-msgstr ""
+msgstr "Encontrei alguns corpos mortos lá dentro."
 
 #: conversationlist_omi2.json:ehrenfest_24c
 msgid "Almost... I took his armor off. His injuries were severe. I tried to cure him using my potions but they weren't strong enough. He died, failing to express his final thoughts in words."
 msgstr ""
+"Quase... Tirei-lhe a armadura. As duas feridas eram graves. Tentei curá-lo "
+"com as minhas poções mas não eram fortes suficientes. Ele morreu, não "
+"conseguindo expressar os seus últimos pensamentos em palavras."
 
 #: conversationlist_omi2.json:ehrenfest_24c2
 msgid "But everything he couldn't say with words was said by the terrified glance he threw at that dark hole, just before his last breath."
 msgstr ""
+"Mas tudo o que ele não conseguiu expressar com palavras foi dito pelo olhar "
+"aterrado que ele deitou aquele buraco escuro, antes do seu último suspiro."
 
 #: conversationlist_omi2.json:ehrenfest_25a
 msgid "Yes, I was about to ask you... Continue."
-msgstr ""
+msgstr "Sim, ia agora perguntar-te... Continua."
 
 #: conversationlist_omi2.json:ehrenfest_25a:0
 msgid "The corpses were covered by cobwebs, but I could see signs of torture."
 msgstr ""
+"Os cadáveres estavam cobertores de férias de aranha, mas pude ver sinais de "
+"tortura."
 
 #: conversationlist_omi2.json:ehrenfest_25b
 msgid "Anything more you can tell me about that place?"
-msgstr ""
+msgstr "Consegues dizer-me mais alguma coisa sobre aquele lugar?"
 
 #: conversationlist_omi2.json:ehrenfest_25b:0
 #: conversationlist_omi2.json:capvjern_17a:0
 msgid "Give me some time to remember."
-msgstr ""
+msgstr "Dá-me algum tempo para me lembrar."
 
 #: conversationlist_omi2.json:ehrenfest_25b:1
 msgid "The corpses were covered by cobwebs. They were probably tortured."
 msgstr ""
+"Os cadáveres estavam cobertores de teias de aranha. Eles provavelmente foram "
+"torturados."
 
 #: conversationlist_omi2.json:ehrenfest_26b
 msgid "Fine, I'll be waiting here."
-msgstr ""
+msgstr "Pronto, eu fico aqui à espera."
 
 #: conversationlist_omi2.json:ehrenfest_26a
 msgid "Tortured, you say? That makes no sense!"
@@ -46820,7 +46857,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:ehrenfest_33b
 msgid "Excellent. Let's meet again later, best of luck."
-msgstr ""
+msgstr "Excelente. Vamos encontrar-nos outra vez mais tarde, boa sorte."
 
 #: conversationlist_omi2.json:ehrenfest_33b:1
 msgid "Same to you."
@@ -46828,7 +46865,7 @@ msgstr "O mesmo para ti."
 
 #: conversationlist_omi2.json:ehrenfest_34
 msgid "$playername, how is it going?"
-msgstr ""
+msgstr "$playername, Como está a correr?"
 
 #: conversationlist_omi2.json:ehrenfest_34:0
 msgid "Nothing interesting yet."
@@ -46836,27 +46873,27 @@ msgstr "Nada interessante aqui."
 
 #: conversationlist_omi2.json:ehrenfest_34:1
 msgid "You lied to me. There wasn't any missing couple."
-msgstr ""
+msgstr "Mentiste-me. Não havia nenhum casal desaparecido."
 
 #: conversationlist_omi2.json:ehrenfest_35a
 msgid "Don't give up. We'll eventually get some answers."
-msgstr ""
+msgstr "Não desistas. Eventualmente teremos algumas respostas."
 
 #: conversationlist_omi2.json:moyra_8
 msgid "Lorn? N...No. Why I would know about that?"
-msgstr ""
+msgstr "Lorn? N...Não. Porque saberia sobre isso?"
 
 #: conversationlist_omi2.json:moyra_8:0
 msgid "I promise I won't say anything."
-msgstr ""
+msgstr "Prometo não dizer nada."
 
 #: conversationlist_omi2.json:moyra_8:1
 msgid "I can make you talk one way or another."
-msgstr ""
+msgstr "Posso fazer-te falar de uma maneira ou de outra."
 
 #: conversationlist_omi2.json:moyra_9b
 msgid "Alright! I will tell you, but please don't hurt me."
-msgstr ""
+msgstr "Está bem! Eu conto-te, mas por favor não me magoes."
 
 #: conversationlist_omi2.json:moyra_9b:0
 msgid "Good kid."
@@ -46864,7 +46901,7 @@ msgstr "Bom miúdo."
 
 #: conversationlist_omi2.json:moyra_9b:1
 msgid "Don't worry, hah. But tell me."
-msgstr ""
+msgstr "Não te preocupes, haha. Mas conta-me."
 
 #: conversationlist_omi2.json:moyra_9a
 msgid "You promise?"
@@ -46884,18 +46921,21 @@ msgid ""
 "I heard about Lorn's accident, but I don't believe he fell off the mountain. \n"
 "He is the most skilled man I know when it comes to climbing the mountain."
 msgstr ""
+"Ouvir falar do acidente do Lorn, mass nap acredito que ele caíu da montanha. "
+"\n"
+"Ele é o homem mais hábil que eu conheço a trepar a montanha."
 
 #: conversationlist_omi2.json:moyra_10:0
 msgid "What about his partners?"
-msgstr ""
+msgstr "E os seus parceiros?"
 
 #: conversationlist_omi2.json:moyra_11
 msgid "They're still missing, but I don't know..."
-msgstr ""
+msgstr "Ainda não apareceram, mas não sei..."
 
 #: conversationlist_omi2.json:moyra_11:0
 msgid "Thank you for your honest words."
-msgstr ""
+msgstr "Obrigado pelas tuas palavras sinceras."
 
 #: conversationlist_omi2.json:moyra_11:1
 #: conversationlist_omi2.json:moyra_12:2
@@ -46904,35 +46944,37 @@ msgstr "Bah, miúdo inútil."
 
 #: conversationlist_omi2.json:moyra_12
 msgid "I told you everything I know, sorry."
-msgstr ""
+msgstr "Contei-te tudo o que sei, desculpa."
 
 #: conversationlist_omi2.json:prim_commoner3_2
 msgid "Oh, poor Lorn. I heard that he fell off the mountain."
-msgstr ""
+msgstr "Ó, pobre Lorn. Ouvi dizer que ele caíu da montanha."
 
 #: conversationlist_omi2.json:prim_commoner3_2:1
 msgid "People say he was quite skilled at climbing."
-msgstr ""
+msgstr "As pessoas dizem que ele era muito hábil a escalar."
 
 #: conversationlist_omi2.json:prim_commoner3_3
 msgid "No, sorry. I didn't know him much."
-msgstr ""
+msgstr "Não, desculpa. Não o conhecia bem."
 
 #: conversationlist_omi2.json:prim_commoner3_3:0
 msgid "Thank you anyway, bye."
-msgstr ""
+msgstr "Obrigado na mesma, adeus."
 
 #: conversationlist_omi2.json:prim_commoner3_4
 msgid "Was he? Well, maybe he might've had bad luck..."
-msgstr ""
+msgstr "Ah, era? Bem, talvez ele tenha tido azar..."
 
 #: conversationlist_omi2.json:prim_commoner3_5
 msgid "You might ask in the tavern. He was a regular there, like most guards."
 msgstr ""
+"Talvez possa perguntar na taberna. Era um habitual de lá, tal como a maior "
+"parte dos guardas."
 
 #: conversationlist_omi2.json:prim_commoner3_5:1
 msgid "Finally, a hint. Thank you."
-msgstr ""
+msgstr "Finalmente, uma pista. Obrigado."
 
 #: conversationlist_omi2.json:prim_commoner4_4
 msgid ""
@@ -46940,42 +46982,51 @@ msgid ""
 "\n"
 "What's wrong with him?"
 msgstr ""
+"Lorn? Nada. Mal o conhecia, ou aos seus camaradas, Duala e... Desculpa, "
+"esqueci-me do nome. \n"
+"\n"
+"\n"
+"O que é que ele tem?"
 
 #: conversationlist_omi2.json:prim_commoner4_4:0
 msgid "He was killed several days ago."
-msgstr ""
+msgstr "Ele foi morto há vários dias."
 
 #: conversationlist_omi2.json:prim_commoner4_4:1
 msgid "He had an accident while climbing down the mountain."
-msgstr ""
+msgstr "Ele teve um acidente a descer da montanha."
 
 #: conversationlist_omi2.json:prim_commoner4_5a
 msgid "Oh. I'm sorry. May the Shadow guide his way to a better world."
-msgstr ""
+msgstr "Oh, desculpa. Que a Sombra o guie para um mundo melhor."
 
 #: conversationlist_omi2.json:prim_commoner4_5a:0
 msgid "Right, uhm...don't you remember anything about him?"
-msgstr ""
+msgstr "Certo, hã... Não te lembras de nada sobre ele?"
 
 #: conversationlist_omi2.json:prim_commoner4_5b
 msgid "Yes, that's why climbing up the mountain is forbidden now."
-msgstr ""
+msgstr "Sim, por isso é que é proibido escalar a montanha agora."
 
 #: conversationlist_omi2.json:prim_commoner4_6
 msgid "Uhm, well. I heard Lorn was popular among the children here in Prim because of his scary stories about, you know, the monsters."
 msgstr ""
+"Hmm, bem. Ouvi dizer que o Lorn era popular entre as crianças aqui em Prim "
+"por causa das duas histórias assustadoras sobre, tu sabes, os monstros."
 
 #: conversationlist_omi2.json:prim_commoner4_6:0
 msgid "Gonna ask some child. Thanks."
-msgstr ""
+msgstr "Vou perguntar a alguma criança. Obrigado."
 
 #: conversationlist_omi2.json:prim_commoner4_6:1
 msgid "My father probably told me scarier stories. Bye."
-msgstr ""
+msgstr "O meu pai provavelmente contava histórias mais assustadoras. Adeus."
 
 #: conversationlist_omi2.json:prim_commoner1_5
 msgid "Lorn's crew accident you say? No idea. They are still missing, officially."
 msgstr ""
+"O acidente da equipa do Lorn, sizes? Nenhuma ideia. Ainda estão "
+"desaparecidos, oficialmente."
 
 #: conversationlist_omi2.json:prim_commoner1_5:0
 msgid "And unofficially?"
@@ -46983,15 +47034,16 @@ msgstr "E não-oficialmente?"
 
 #: conversationlist_omi2.json:prim_commoner1_5:1
 msgid "I see, thanks for nothing."
-msgstr ""
+msgstr "Estou a ver, obrigado por nada."
 
 #: conversationlist_omi2.json:prim_commoner1_6
 msgid "Sorry child, I do not pay attention to the local gossip. Ask around."
 msgstr ""
+"Desculpa criança, não presto muita atenção a boatos locais. Pergunta por aí."
 
 #: conversationlist_omi2.json:prim_commoner1_6:0
 msgid "Thank you, Shadow be with you."
-msgstr ""
+msgstr "Obrigado, que a Sombra esteja contigo."
 
 #: conversationlist_omi2.json:prim_commoner1_6:1
 msgid "What a waste of time, tsch."
@@ -47160,7 +47212,7 @@ msgstr ""
 
 #: conversationlist_omi2.json:prim_tavern_guest4_14b:0
 msgid "You'd better stop drinking. We'll talk later when you get better."
-msgstr ""
+msgstr "É melhor parares de beber. Falamos mais tarde quando ficares melhor."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_14b:1
 msgid "Is there something I can do?"
@@ -47168,19 +47220,20 @@ msgstr ""
 
 #: conversationlist_omi2.json:prim_tavern_guest4_15a
 msgid "M...Maybe some water. Yes, from the moun...tains. That'd be a relief!"
-msgstr ""
+msgstr "T...Talvez alguma água. Sim, das mont...anhas. Seria um alívio!"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_15b
 msgid "You could get me some coo...cool water. Yes."
-msgstr ""
+msgstr "Podias trazer-me alguma água fr...resca. Sim."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_16
 msgid "Do you mind bringing me a good, large bottle of water f...from the streams?"
 msgstr ""
+"Importas-te de me trazer uma garrafa de água boa e grande d...dos riachos?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_16:0
 msgid "No, go buy yourself a bottle."
-msgstr ""
+msgstr "Não, compra a tua própria garrafa."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_16:1
 msgid "The streams?"
@@ -47188,55 +47241,57 @@ msgstr "Os riachos?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_16:2
 msgid "OK, I'll be back with the water."
-msgstr ""
+msgstr "OK, já volto com a água."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_17a
 msgid "Yes, east of he..re. There's a hole. Under the mountainside..."
-msgstr ""
+msgstr "Sim, a este d...daqui. Há um buraco. Debaixo da encosta..."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_17a:0
 msgid "Sounds vague, but I'll try."
-msgstr ""
+msgstr "Parece vago, mas vou tentar."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_17a:1
 msgid "Fine. I will come back with the water."
-msgstr ""
+msgstr "Pronto. Já volto com a água."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_17b
 msgid "Uhmm, It's you... Have you brought the water?"
-msgstr ""
+msgstr "Ah, és tu... Trouxeste a água?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_17b:0
 msgid "I haven't, be patient."
-msgstr ""
+msgstr "Ainda não, tem paciência."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_17b:1
 msgid "Yes, here are 2 bottles."
-msgstr ""
+msgstr "Sim, aqui estão duas garrafas."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_17b:2
 msgid "Here you are, a large bottle of fresh water."
-msgstr ""
+msgstr "Aqui está, uma garrafa grande de água fresca."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_17b:3
 msgid "Here you are, a nice little bottle of fresh water."
-msgstr ""
+msgstr "Aqui está, uma bela garrafinha de água fresca."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_17b:4
 msgid "Yes, but I seem to have lost it anywhere."
-msgstr ""
+msgstr "Sim, mas parece que a perdi em qualquer lugar."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_17b:5
 msgid "Where can I find the streams?"
-msgstr ""
+msgstr "Onde posso encontrar os riachos?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_17c
 msgid "I will be righ...right here, kid. Thank you."
-msgstr ""
+msgstr "Vou ficar mesm...mesmo aqui, miúdo. Obrigado."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18a
 msgid "Ag...Again?! Are you drunk or me? East of here. Underground. Deep in those caverns."
 msgstr ""
+"Ou.. Outra vez?! Quem é que está bêbado? Tu ou eu? A leste daqui. "
+"Subterrâneo. No fundo dessas cavernas."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18a:0
 msgid "Hmpf, OK. Bye."
@@ -47244,13 +47299,15 @@ msgstr "Hmm, OK. Adeus."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18a:1
 msgid "I'll bring the water, don't worry."
-msgstr ""
+msgstr "Eu trago a água, não te preocupes."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18c
 msgid ""
 "This little bottle? This is not enough, it evaporates before it reaches the stomach.\n"
 "Bring at least 2 of these!"
 msgstr ""
+"Esta garrafinha? Não chega, evapora antes de chegar ao estômago. \n"
+"Trás pelo menos 2 destas!"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18c:0
 #: conversationlist_omi2.json:ortholion_guard9_10b:0
@@ -47259,47 +47316,55 @@ msgstr "Bah, OK."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18c:1
 msgid "I'll bring more water, don't worry."
-msgstr ""
+msgstr "Eu trago mais água, não te preocupes."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18d
 msgid "Oh, ow, my head!"
-msgstr ""
+msgstr "Au, au, a minha cabeça!"
 
 #: conversationlist_omi2.json:bwm_wellspring_1
 msgid "A small natural pool has formed here. The water, emerging from small cracks in the rock, is cold and transparent."
 msgstr ""
+"Uma pequena piscina natural formou-se aqui. A água, emergindo de pequenas "
+"rachas na rocha, é fria e transparente."
 
 #: conversationlist_omi2.json:bwm_wellspring_1:0
 msgid "Fill a bottle of water."
-msgstr ""
+msgstr "Enche uma garrafa de água."
 
 #: conversationlist_omi2.json:bwm_wellspring_1:1
 msgid "Fill another bottle of water."
-msgstr ""
+msgstr "Enche outra garrafa de água."
 
 #: conversationlist_omi2.json:bwm_wellspring_1:2
 msgid "Fill a large bottle."
-msgstr ""
+msgstr "Enche uma garrafa grande."
 
 #: conversationlist_omi2.json:bwm_wellspring_1:3
 msgid "If you had an empty bottle with you, you could take some of this refreshing water with you."
 msgstr ""
+"Se tivesses uma garrafa vazia contigo, podias levar alguma água refrescante "
+"contigo."
 
 #: conversationlist_omi2.json:bwm_wellspring_2a
 msgid "You fill the bottle with water."
-msgstr ""
+msgstr "Enches a garrafa com água."
 
 #: conversationlist_omi2.json:bwm_wellspring_2b
 msgid "You fill another bottle."
-msgstr ""
+msgstr "Enche outra garrafa."
 
 #: conversationlist_omi2.json:bwm_wellspring_2c
 msgid "You fill a large bottle."
-msgstr ""
+msgstr "Enches uma garrafa grande."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18b
 msgid "The muscular guy looks at the water you brought to him. His eyes open widely. He starts to drink the water straight off and finishes it in the blink of an eye, taking a deep breath just after putting the empty glass on the table."
 msgstr ""
+"O tipo musculado olha para a água que lhe trouxeste. Os seus olhos ficam "
+"esbugalhados. Ele começa a beber a água diretamente da garrafa e acaba num "
+"piscar de olhos, inspirando profundamente logo a seguir a pousar a garrafa "
+"vazia na mesa."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_18b:0
 msgid "How was it?"
@@ -47307,19 +47372,19 @@ msgstr "Como foi isso?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_19
 msgid "Woah, I feel really good now."
-msgstr ""
+msgstr "Uau, sinto-me mesmo bem agora."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_19:0
 msgid "What about a reward?"
-msgstr ""
+msgstr "Que tal uma recompensa?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_19:1
 msgid "I'm glad to see you're better."
-msgstr ""
+msgstr "Ainda bem que estás melhor."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_20a
 msgid "A reward? Isn't the satisfaction of aiding a lost soul enough reward?"
-msgstr ""
+msgstr "Uma recompensa? A satisfação de ajudar outra alma não é suficiente?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_20a:0
 msgid "No, It's not."
@@ -47327,31 +47392,33 @@ msgstr "Não, não é."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_20a:1
 msgid "I can see you're much better."
-msgstr ""
+msgstr "Vejo que estás muito melhor."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_20b
 msgid "And all thanks to you! Tell me, what did you need?"
-msgstr ""
+msgstr "E tudo graças a ti! Diz-me, o que precisavas?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_20b:0
 msgid "Anything you could tell me about Lorn and his partners. That would help."
 msgstr ""
+"Tudo o que me pudesses contar sobre o Lorn e os seus parceiros. Isso poderia "
+"ajudar."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_20b:1
 msgid "I'll tell you later. I have things to do now."
-msgstr ""
+msgstr "Conto-te depois. Tenho coisas a fazer agora."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_21a
 msgid "HA, HA! Such a pity! But weren't you here to ask me something?"
-msgstr ""
+msgstr "HA, HA! Que pena! Mas não vieste aqui para me perguntar alguma coisa?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_21a:0
 msgid "Yes. People told me Lorn was a regular in this tavern."
-msgstr ""
+msgstr "Sim. Alguém me disse que o Lorn era habitual nesta taberna."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_21c
 msgid "Have a good day then. Thanks!"
-msgstr ""
+msgstr "Tem um bom dia então. Obrigado!"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_21b
 msgid "I see..."
@@ -47360,14 +47427,19 @@ msgstr "Estou a ver..."
 #: conversationlist_omi2.json:prim_tavern_guest4_22
 msgid "Well, I was part of a patrol crew formed of five people. Kamelio, Kirg, Duala, Lorn and me."
 msgstr ""
+"Bem, eu fazia parte da patrulha formada por cinco pessoas. Kamelio, Kirg, "
+"Duala, Lorn e eu."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_23
 msgid "Mountain patrol crews were created because of the monster activity. Some people still think they are somehow sent by the people from Blackwater Settlement..."
 msgstr ""
+"As patrulhas da montanha foram criadas por causa da actividade dos monstros. "
+"Algumas pessoas ainda pensam que são enviados pelas pessoas da povoação das "
+"Águas Negras..."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_23:0
 msgid "No. They are suffering a siege from even more powerful monsters."
-msgstr ""
+msgstr "Não. Eles estão a sofrer um cerco de monstros ainda mais poderosos."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_24a
 msgid "I know! We faced white wyrms on the mountain heights. I'm afraid the political problems are something leaders of each place must deal with. We at least tried to keep Prim safe from monster attacks."
