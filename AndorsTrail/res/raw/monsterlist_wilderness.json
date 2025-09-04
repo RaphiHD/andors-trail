@@ -13,8 +13,7 @@
         "droplistID":"canine",
         "attackCost":5,
         "attackChance":100,
-        "blockChance":40,
-        "horizontalFlipChance":50
+        "blockChance":40
     },
     {
         "id":"stinging_wasp",
@@ -30,8 +29,7 @@
         "droplistID":"wasp",
         "attackCost":9,
         "attackChance":150,
-        "blockChance":60,
-        "horizontalFlipChance":50
+        "blockChance":60
     },
     {
         "id":"wild_boar",
@@ -47,8 +45,7 @@
         "droplistID":"canineboss",
         "attackCost":5,
         "attackChance":110,
-        "blockChance":30,
-        "horizontalFlipChance":50
+        "blockChance":30
     },
     {
         "id":"forest_beetle",
@@ -65,8 +62,7 @@
         "attackCost":9,
         "attackChance":150,
         "blockChance":60,
-        "damageResistance":2,
-        "horizontalFlipChance":50
+        "damageResistance":2
     },
     {
         "id":"wolf",
@@ -84,8 +80,7 @@
         "droplistID":"canine",
         "attackCost":5,
         "attackChance":110,
-        "blockChance":30,
-        "horizontalFlipChance":50
+        "blockChance":30
     },
     {
         "id":"forest_serpent",
@@ -105,8 +100,7 @@
         "attackChance":150,
         "criticalSkill":30,
         "criticalMultiplier":2.0,
-        "blockChance":60,
-        "horizontalFlipChance":50
+        "blockChance":60
     },
     {
         "id":"vicious_forest_serpent",
@@ -126,8 +120,7 @@
         "attackChance":150,
         "criticalSkill":30,
         "criticalMultiplier":2.0,
-        "blockChance":50,
-        "horizontalFlipChance":50
+        "blockChance":50
     },
     {
         "id":"anklebiter",
@@ -144,8 +137,7 @@
         "attackCost":5,
         "attackChance":150,
         "blockChance":60,
-        "damageResistance":3,
-        "horizontalFlipChance":50
+        "damageResistance":3
     },
     {
         "id":"flagstone_sentry",
