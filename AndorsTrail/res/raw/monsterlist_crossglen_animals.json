@@ -19,7 +19,6 @@
         "id":"cave_rat",
         "name":"Cave rat",
         "iconID":"monsters_rats:1",
-        "horizontalFlipChance":50,
         "maxHP":5,
         "monsterClass":"animal",
         "attackDamage":{
@@ -29,13 +28,13 @@
         "spawnGroup":"crossglen_caverat",
         "droplistID":"rat",
         "attackCost":9,
-        "attackChance":90
+        "attackChance":90,
+        "horizontalFlipChance":50
     },
     {
         "id":"tough_cave_rat",
         "name":"Tough cave rat",
         "iconID":"monsters_rats:1",
-        "horizontalFlipChance":20,
         "maxHP":5,
         "monsterClass":"animal",
         "attackDamage":{
@@ -45,7 +44,8 @@
         "spawnGroup":"crossglen_caverat2",
         "droplistID":"rat",
         "attackCost":5,
-        "attackChance":90
+        "attackChance":90,
+        "horizontalFlipChance":20
     },
     {
         "id":"strong_cave_rat",
@@ -83,7 +83,6 @@
         "id":"small_wasp",
         "name":"Small wasp",
         "iconID":"monsters_insects:1",
-        "horizontalFlipChance":50,
         "maxHP":4,
         "monsterClass":"insect",
         "attackDamage":{
@@ -93,7 +92,8 @@
         "spawnGroup":"crossglen_wasp",
         "droplistID":"wasp",
         "attackCost":9,
-        "attackChance":70
+        "attackChance":70,
+        "horizontalFlipChance":80
     },
     {
         "id":"beetle",
