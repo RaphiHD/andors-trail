@@ -28,8 +28,7 @@
         "spawnGroup":"crossglen_caverat",
         "droplistID":"rat",
         "attackCost":9,
-        "attackChance":90,
-        "horizontalFlipChance":50
+        "attackChance":90
     },
     {
         "id":"tough_cave_rat",
@@ -44,8 +43,7 @@
         "spawnGroup":"crossglen_caverat2",
         "droplistID":"rat",
         "attackCost":5,
-        "attackChance":90,
-        "horizontalFlipChance":20
+        "attackChance":90
     },
     {
         "id":"strong_cave_rat",
@@ -92,8 +90,7 @@
         "spawnGroup":"crossglen_wasp",
         "droplistID":"wasp",
         "attackCost":9,
-        "attackChance":70,
-        "horizontalFlipChance":80
+        "attackChance":70
     },
     {
         "id":"beetle",
