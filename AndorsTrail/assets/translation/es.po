@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-05-29 12:01+0000\n"
-"Last-Translator: Jesus Romero <jesus.romero1991@gmail.com>\n"
+"PO-Revision-Date: 2025-09-09 11:02+0000\n"
+"Last-Translator: Ruben Rodriguez Martin <ruben.rguez.martin@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -39,7 +39,7 @@ msgstr "Fuerza"
 
 #: actorconditions_v069.json:regen
 msgid "Shadow Regeneration"
-msgstr "Regeneración de la sombra"
+msgstr "Regeneración de la Sombra"
 
 #: actorconditions_v069_bwm.json:speed_minor
 msgid "Minor speed"
@@ -47,7 +47,7 @@ msgstr "Velocidad menor"
 
 #: actorconditions_v069_bwm.json:fatigue_minor
 msgid "Minor fatigue"
-msgstr "Fatiga Menor"
+msgstr "Fatiga menor"
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
@@ -67,7 +67,7 @@ msgstr "Miseria de Blackwater"
 
 #: actorconditions_v069_bwm.json:intoxicated
 msgid "Intoxicated"
-msgstr "Intoxicado"
+msgstr "Embriagado"
 
 #: actorconditions_v069_bwm.json:dazed
 msgid "Dazed"
@@ -103,7 +103,7 @@ msgstr "Precisión enfocada"
 
 #: actorconditions_v0611.json:poison_irdegh
 msgid "Irdegh poison"
-msgstr "Veneno Irdegh"
+msgstr "Veneno de Irdegh"
 
 #: actorconditions_v0611_2.json:rotworm
 msgid "Kazaul rotworms"
@@ -111,15 +111,15 @@ msgstr "Gusanos de Kazaul"
 
 #: actorconditions_v0611_2.json:shadowbless_str
 msgid "Blessing of Shadow strength"
-msgstr "Bendición de fuerza de las sombras"
+msgstr "Bendición de fuerza de la Sombra"
 
 #: actorconditions_v0611_2.json:shadowbless_heal
 msgid "Blessing of Shadow regeneration"
-msgstr "Bendición de regeneración de las sombras"
+msgstr "Bendición de regeneración de la Sombra"
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
-msgstr "Bendición de la sombra… Precisión"
+msgstr "Bendición de precisión de la Sombra"
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
@@ -36530,7 +36530,9 @@ msgstr "Bueno, sus padres no han dado su consentimiento aun."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_9:0
 msgid "Hm, that might be difficult. But the main thing is that she wants you. Then it will be okay with the parents."
-msgstr "Hmm, eso podría ser difícil. Pero lo más importante es que ella te quiere. Entonces estará bien con los padres."
+msgstr ""
+"Um, eso podría ser difícil. Pero lo principal es que ella te quiere. "
+"Entonces estará bien con los padres."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_10:0
 msgid "Burhczyd - she really wants to marry you, doesn't she?"
@@ -36538,7 +36540,7 @@ msgstr "Burhczyd - ella realmente quiere casarse contigo, ¿no?"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_11:0
 msgid "Did she say so?"
-msgstr "¿Dijo eso?"
+msgstr "¿Ella dijo eso?"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_12
 msgid "Well, not directly."
@@ -36546,7 +36548,7 @@ msgstr "Bueno, no directamente."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_12:0
 msgid "Now tell me - what exactly did she say?"
-msgstr "Entonces dime - ¿Qué dijo exactamente?"
+msgstr "Ahora dime - ¿Qué dijo ella exactamente?"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_13
 #: conversationlist_ratdom_npc.json:ratdom_rat_242:1
@@ -36558,11 +36560,11 @@ msgstr "Nada."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_13:0
 msgid "Nothing?! And what did you all talk about?"
-msgstr "Nada? y a que vino todo eso?"
+msgstr "¿Nada? ¿y a que vino todo eso?"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_14
 msgid "I haven't even spoken to her yet. I feared that she might laugh at me."
-msgstr "Ni siquiera he hablado todavía. Temía que se riera de mí."
+msgstr "No he hablado con ella todavía. Temía que se riera de mí."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_14:0
 msgid "But you want her to marry you next month. How does that work?"
@@ -89863,4 +89865,3 @@ msgstr ""
 #: worldmap.xml:world1:mt_bwm
 msgid "Blackwater Mountain"
 msgstr ""
-
