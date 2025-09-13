@@ -53,7 +53,7 @@ public final class ItemTypeParser extends JsonCollectionParserFor<ItemType> {
 				, ResourceParserUtils.parseImageID(tileLoader, o.getString(JsonFieldNames.ItemType.iconID))
 				, itemTypeName
 				, description
-				, itemCategories.getItemCategory(o.getString(JsonFieldNames.ItemType.category))
+				, itemCategories.getItemCategory(o.optString(JsonFieldNames.ItemType.category, "other"))
 				, ItemType.DisplayType.fromString(o.optString(JsonFieldNames.ItemType.displaytype, null), ItemType.DisplayType.ordinary)
 				, hasManualPrice
 				, baseMarketCost
