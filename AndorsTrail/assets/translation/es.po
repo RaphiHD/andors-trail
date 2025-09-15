@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-09-09 11:02+0000\n"
-"Last-Translator: Ruben Rodriguez Martin <ruben.rguez.martin@gmail.com>\n"
+"PO-Revision-Date: 2025-09-15 18:38+0000\n"
+"Last-Translator: Álvaro Palacios <elviajeronaranja@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
 "Language: es\n"
@@ -103,7 +103,7 @@ msgstr "Precisión enfocada"
 
 #: actorconditions_v0611.json:poison_irdegh
 msgid "Irdegh poison"
-msgstr "Veneno de Irdegh"
+msgstr "Veneno de irdegh"
 
 #: actorconditions_v0611_2.json:rotworm
 msgid "Kazaul rotworms"
@@ -402,7 +402,7 @@ msgstr "Mal gusto"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr "sed"
+msgstr "Sed"
 
 #: actorconditions_laeroth.json:swift_attack
 msgid "Swift attack"
@@ -454,11 +454,11 @@ msgstr ""
 
 #: actorconditions_mt_galmore2.json:potent_venom
 msgid "Potent venom"
-msgstr ""
+msgstr "Veneno potente"
 
 #: actorconditions_mt_galmore2.json:burning
 msgid "Burning"
-msgstr ""
+msgstr "Quemadura"
 
 #: actorconditions_mt_galmore2.json:rockfall
 msgid "Rock fall"
@@ -506,7 +506,7 @@ msgstr ""
 
 #: actorconditions_mt_galmore2.json:divine_punishment
 msgid "Divine punishment"
-msgstr ""
+msgstr "Castigo divino"
 
 #: actorconditions_mt_galmore2.json:baited_strike
 msgid "Baited strike"
@@ -518,7 +518,7 @@ msgstr ""
 
 #: actorconditions_mt_galmore2.json:trapped
 msgid "Trapped"
-msgstr ""
+msgstr "Atrapado"
 
 #: actorconditions_mt_galmore2.json:splinter
 msgid "Splinter"
@@ -3267,7 +3267,7 @@ msgstr "¿Cuál es tu historia, chico? ¿Cómo terminaste aquí en Fallhaven?"
 #: conversationlist_fallhaven_unnmir.json:unnmir_6:0
 #: conversationlist_agthor.json:agthor_y2:1
 msgid "I'm looking for my brother."
-msgstr "Busco a mi hermano."
+msgstr "Estoy buscando a mi hermano."
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_7
 msgid ""
@@ -14032,7 +14032,7 @@ msgstr "Oh, un niño. Je je, que agradable. Dime, ¿qué te trae por aquí?"
 
 #: conversationlist_algangror.json:algangror_1:0
 msgid "I am looking for my brother."
-msgstr "Busco a mi hermano."
+msgstr "Estoy buscando a mi hermano."
 
 #: conversationlist_algangror.json:algangror_1:1
 msgid "I just entered to see if there's any loot to be found here."
@@ -22653,7 +22653,7 @@ msgstr "Aquí hay 50 de oro."
 
 #: conversationlist_woodcabin.json:smuggler6_1:3
 msgid "Here's 100 gold."
-msgstr "Aquí hay 100 de oro."
+msgstr "Aquí tienes 100 de oro."
 
 #: conversationlist_woodcabin.json:smuggler6_2
 msgid "Oh, oh! I haven't seen that much gold in my whole life. I'm finally rich!"
@@ -25940,7 +25940,7 @@ msgstr "¡No se puede pasar! Especialmente los niños!"
 #: conversationlist_guynmart_npc.json:guynmart_gguard_22:0
 #: conversationlist_guynmart_npc.json:guynmart_gguard_40:0
 msgid "Here is 100 gold."
-msgstr "Aquí hay 100 de oro."
+msgstr "Aquí tienes 100 de oro."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_20:3
 msgid "I just want to pass through."
@@ -36531,7 +36531,7 @@ msgstr "Bueno, sus padres no han dado su consentimiento aun."
 #: conversationlist_burhczyd.json:burhczydx_11a_9:0
 msgid "Hm, that might be difficult. But the main thing is that she wants you. Then it will be okay with the parents."
 msgstr ""
-"Um, eso podría ser difícil. Pero lo principal es que ella te quiere. "
+"Mm, eso podría ser difícil. Pero lo principal es que ella te quiere. "
 "Entonces estará bien con los padres."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_10:0
@@ -36548,7 +36548,7 @@ msgstr "Bueno, no directamente."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_12:0
 msgid "Now tell me - what exactly did she say?"
-msgstr "Ahora dime - ¿Qué dijo ella exactamente?"
+msgstr "Ahora dime, ¿qué dijo ella exactamente?"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_13
 #: conversationlist_ratdom_npc.json:ratdom_rat_242:1
@@ -36560,11 +36560,11 @@ msgstr "Nada."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_13:0
 msgid "Nothing?! And what did you all talk about?"
-msgstr "¿Nada? ¿y a que vino todo eso?"
+msgstr "¡¿Nada?! ¿Y sobre qué era todo lo que has dicho?"
 
 #: conversationlist_burhczyd.json:burhczydx_11a_14
 msgid "I haven't even spoken to her yet. I feared that she might laugh at me."
-msgstr "No he hablado con ella todavía. Temía que se riera de mí."
+msgstr "Todavía no he hablado con ella. Temía que ella de riese de mí."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_14:0
 msgid "But you want her to marry you next month. How does that work?"
@@ -37431,7 +37431,7 @@ msgstr "[Cortando madera]"
 #: conversationlist_brimhaven.json:brv_woodcutter_0:0
 #: conversationlist_brimhaven.json:brv_farmer_girl_0:0
 msgid "Hello"
-msgstr ""
+msgstr "Hola"
 
 #: conversationlist_brimhaven.json:brv_woodcutter_1
 msgid ""
@@ -89764,11 +89764,11 @@ msgstr ""
 
 #: worldmap.xml:ratdom_level_5:ratdom_maze_museum
 msgid "Museum"
-msgstr ""
+msgstr "Museo"
 
 #: worldmap.xml:ratdom_level_5:ratdom_maze_labyrinth
 msgid "Labyrinth"
-msgstr ""
+msgstr "Laberinto"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_water_area
 msgid "Waterway"
