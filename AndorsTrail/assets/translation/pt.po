@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-09-15 18:38+0000\n"
+"PO-Revision-Date: 2025-09-16 11:44+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -53152,6 +53152,7 @@ msgstr ""
 #: conversationlist_sullengard.json:ff_captain_beer_70:0
 msgid "Understood, but I am still not seeing how this means that a law has been broken."
 msgstr ""
+"Percebido, mas ainda assim não vejo como isto quer dizer que quebraram a lei."
 
 #: conversationlist_sullengard.json:
 #: ff_captain_beer_80
@@ -53162,6 +53163,8 @@ msgstr ""
 #: ff_captain_beer_80:0
 msgid "Um...I think I might be catching up to what you are thinking. Please, continue"
 msgstr ""
+"Um... Acho que já estou a começar a apanhar o que está a pensar. Por favor, "
+"continua"
 
 #: conversationlist_sullengard.json:ff_captain_beer_90
 msgid "That's pretty much it kid, but I need your help."
@@ -53202,32 +53205,37 @@ msgstr "Óptimo. Volta aqui para relatar quando descobrires alguma coisa útil."
 
 #: conversationlist_sullengard.json:ff_captain_selector
 msgid "Have you learned anything about the beer?"
-msgstr ""
+msgstr "Já aprendeste alguma coisa sobre a cerveja?"
 
 #: conversationlist_sullengard.json:ff_captain_selector:1
 msgid "A little bit, but I need to go find out more."
-msgstr ""
+msgstr "Um pouco, mas preciso de ir descobrir mais."
 
 #: conversationlist_sullengard.json:ff_captain_selector:2
 msgid "I've talked to a couple of tavern owners, learned a few things, but I need to talk to some more people"
 msgstr ""
+"Falei com alguns donos de tabernas, aprendi alguma coisas, mas preciso de "
+"falar com algumas pessoas"
 
 #: conversationlist_sullengard.json:ff_captain_selector:3
 msgid "I've learned a lot, but I am still not ready to give you my report."
-msgstr ""
+msgstr "Aprendi muito, mas ainda não estou preparado para dar o meu relatório."
 
 #: conversationlist_sullengard.json:ff_captain_selector:4
 msgid "All the information I have obtained points me to Sullengard."
-msgstr ""
+msgstr "Toda a informação que obtive aponta-me para Sullengard."
 
 #: conversationlist_sullengard.json:ff_captain_selector:5
 #: conversationlist_sullengard.json:ff_captain_selector:6
 msgid "I still have some investigation to conduct in Sullengard. I will return to you afterwards."
 msgstr ""
+"Ainda tenho alguma investigação para fazer em Sullengard. Volto aqui depois."
 
 #: conversationlist_sullengard.json:ff_captain_selector:7
 msgid "I've learned everything that you will care to know about the beer bootlegging operation."
 msgstr ""
+"Aprendi tudo o que te poderá interessar sabe sobre a operação de contrabando "
+"de cerveja."
 
 #: conversationlist_sullengard.json:ff_captain_selector:8
 msgid "I know who is distributing the beer, but not the source of the beer."
@@ -53322,10 +53330,14 @@ msgstr "Todo este trabalho, e a recompensa é só ouro?"
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_50
 msgid "Hey, what do you want from me? I'm stuck here babysitting a bunch of drunk guards."
 msgstr ""
+"Ei, o que queres de mim? Estou aqui preso a tomar conta de um bando de "
+"guardas bêbados."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_60
 msgid "Anyways, I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation."
 msgstr ""
+"De qualquer forma, gostaria que soubesses que mal consiga mandar notícias a "
+"Feygard, vamos acabar com a operação de contrabando de cerveja."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_60:0
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_20:0
@@ -53335,29 +53347,33 @@ msgstr "Glória a Feygard."
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_10
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_33
 msgid "The Thieves' Guild? Are you sure?"
-msgstr ""
+msgstr "A Guilda de ladrões? Tens a certeza?"
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_10:0
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_33:0
 msgid "Oh yeah. I heard it directly from them."
-msgstr ""
+msgstr "Oh sim. Ouvi diretamente deles."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_20:0
 msgid "Thanks and Shadow be with you."
-msgstr ""
+msgstr "Obrigado e que a Sombra esteja contigo."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_20:1
 msgid "Thanks and glory to Feygard."
-msgstr ""
+msgstr "Obrigado e glória a Feygard."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_30
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_20
 msgid "I'd like you to know that as soon as I can get word back to Feygard, we will be putting an end to their beer bootlegging operation."
 msgstr ""
+"Gostaria que soubesses que sim que consiga mandar notícias a Feygard, iremos "
+"por fim à operação de contrabando de cerveja deles."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_10
 msgid "Sullengard?! Of course it would be coming from Sullengard. I should have known it is coming from them."
 msgstr ""
+"Sullengard?! Claro que tinha de vir de Sullengard. Deveria saber que vinha "
+"deles."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_thieves_11:0
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_54c
@@ -53367,27 +53383,27 @@ msgstr "Obrigado!"
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell
 msgid "WHAT?! Tell me what you know, now!"
-msgstr ""
+msgstr "O QUÊ?! Conta-me o que sabes, agora!"
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell:0
 msgid "That's the thing, I don't 'know' anything that I could prove."
-msgstr ""
+msgstr "É isso, eu não 'sei' nada que eu possa provar."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_10
 msgid "I knew that you would be a waste of my time. I'll reward you with nothing."
-msgstr ""
+msgstr "Já sabia que serias uma perda de tempo. A tua recompensa será nada."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_10:0
 msgid "I should get going. Sorry that I could not be more helpful."
-msgstr ""
+msgstr "Devia ir andando. Desculpa que não consegui ajudar mais."
 
 #: conversationlist_sullengard.json:torilo_beer
 msgid "OK, and this is your business why?"
-msgstr ""
+msgstr "OK, e porque é que isso é do teu interesse?"
 
 #: conversationlist_sullengard.json:torilo_beer:0
 msgid "Well, of course it is not my business, but I am just wondering..."
-msgstr ""
+msgstr "Bem, claro que não é da minha conta, mas estava só a pensar..."
 
 #: conversationlist_sullengard.json:torilo_beer_10
 msgid "Wondering what?"
