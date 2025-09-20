@@ -250,6 +250,9 @@ public final class MainView extends SurfaceView
 
 		if (shouldRedrawEverything()) {
 			area = mapViewArea;
+			if (currentMap.isOutdoors) {
+				useDaylightColorFilterPaint = currentTileMap.setDaylightColorFilter(this.world, this.mPaint, this.daylightColorFilterPaint, preferences.dayLightFilter);
+			}
 		}
 
 		calculateRedrawRect(area);
@@ -393,11 +396,10 @@ public final class MainView extends SurfaceView
 		doDrawRect_Ground(canvas, area);
 		doDrawRect_Objects(canvas, area);
 		doDrawRect_Above(canvas, area);
-		if (useAlternateColorFilterPaint) {
-			applyAlternateFilter(canvas, area);
-		}
 		if (useDaylightColorFilterPaint) {
 			applyDaylightFilter(canvas, area);
+		} else if (useAlternateColorFilterPaint) {
+			applyAlternateFilter(canvas, area);
 		}
 	}
 
@@ -559,9 +561,6 @@ public final class MainView extends SurfaceView
 				);
 
 			useAlternateColorFilterPaint = currentTileMap.setColorFilter(this.mPaint, this.alternateColorFilterPaint, preferences.highQualityFilters);
-			if (currentMap.isOutdoors) {
-				useDaylightColorFilterPaint = currentTileMap.setDaylightColorFilter(this.world, this.mPaint, preferences.dayLightFilter);
-			}
 		}
 
 //		touchedTile = null;
@@ -807,9 +806,6 @@ public final class MainView extends SurfaceView
 	public void onMapTilesChanged(PredefinedMap map, LayeredTileMap tileMap) {
 		if (map != currentMap) return;
 		useAlternateColorFilterPaint = currentTileMap.setColorFilter(this.mPaint, this.alternateColorFilterPaint, preferences.highQualityFilters);
-		if (currentMap.isOutdoors) {
-			useDaylightColorFilterPaint = currentTileMap.setDaylightColorFilter(this.world, this.mPaint, preferences.dayLightFilter);
-		}
 		redrawAll(RedrawAllDebugReason.MapChanged);
 	}
 

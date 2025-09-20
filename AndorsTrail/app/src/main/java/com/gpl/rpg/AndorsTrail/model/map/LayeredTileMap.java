@@ -144,7 +144,8 @@ public final class LayeredTileMap {
 		return !highQuality;
 	}
 
-	public boolean setDaylightColorFilter(WorldContext world, Paint mPaint, boolean dayLight) {
+	public boolean setDaylightColorFilter(WorldContext world, Paint mPaint, Paint daylightColorFilterPaint, boolean dayLight) {
+		setColor(daylightColorFilterPaint);
 		mPaint.setColorFilter(dayLight ? createDaylightColorFilter(world, mPaint.getColorFilter()) : mPaint.getColorFilter());
 		return dayLight;
 	}
@@ -213,37 +214,30 @@ public final class LayeredTileMap {
 	private ColorMatrixColorFilter createDaylightColorFilter(WorldContext world, ColorFilter colorFilter) {
 		long worldTime = world.model.worldData.getWorldTime(); // get current world time
 		int dayLength = world.model.worldData.getDayLength(); // number of rounds in a full day
-		int phaseLength = dayLength / 4; // number of rounds in a phase of day
+		int phaseLength = dayLength / 10; // number of rounds of each transition phase
 		int dayTime = (int) (worldTime % dayLength); // dayTime: 0-4=noon 5-9=sunset 10-14=midnight 15-19=sunrise
-		int phase = (int) (dayTime / phaseLength); // phase: 0=sunrise->noon 1=noon->sunset 2=sunset->midnight 3=midnight->sunrise
 		float blendFactor = (dayTime % phaseLength) / (float) phaseLength;
 
-		float[] start, end;
+		float[] finalMatrix = colorMatrixNoon;
 
-		switch (phase) {
-			case 0: //sunrise->noon
-				start = colorMatrixSunrise;
-				end = colorMatrixNoon;
-				break;
-			case 1: //noon->sunset
-				start = colorMatrixNoon;
-				end = colorMatrixSunset;
-				break;
-			case 2: //sunset->midnight
-				start = colorMatrixSunset;
-				end = colorMatrixMidnight;
-				break;
-			case 3: //midnight->sunrise
-				start = colorMatrixMidnight;
-				end = colorMatrixSunrise;
-				break;
-			default:
-				start = colorMatrixNoon;
-				end = colorMatrixNoon;
+		if (dayTime < dayLength / 2 - phaseLength * 2) {
+			finalMatrix = lerpColorMatrix(colorMatrixNoon, colorMatrixSunset, blendFactor);
+		} else if (dayTime < dayLength / 2 - phaseLength) {
+			finalMatrix = lerpColorMatrix(colorMatrixSunset, colorMatrixMidnight, blendFactor);
+		} else if (dayTime < dayLength - phaseLength * 2){
+			finalMatrix = colorMatrixMidnight;
+		} else if (dayTime < dayLength - phaseLength) {
+			finalMatrix = lerpColorMatrix(colorMatrixMidnight, colorMatrixSunrise, blendFactor);
+		} else if (dayTime < dayLength) {
+			finalMatrix = lerpColorMatrix(colorMatrixSunrise, colorMatrixNoon, blendFactor);
 		}
-		ColorMatrix computedDayLightMatrix = new ColorMatrix(lerpColorMatrix(start, end, blendFactor));
-		computedDayLightMatrix.postConcat(new ColorMatrix(getColorMatrix())); // Apply additional color filter
 
+			ColorMatrix computedDayLightMatrix = new ColorMatrix(finalMatrix);
+		float[] overlayMatrix = getColorMatrix();
+
+		if (overlayMatrix != null) {
+			computedDayLightMatrix.postConcat(new ColorMatrix(getColorMatrix())); // Apply additional color filter
+		}
 		return new ColorMatrixColorFilter(computedDayLightMatrix);
 	}
 
