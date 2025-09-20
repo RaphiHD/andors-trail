@@ -31,6 +31,11 @@
 			android:defaultValue="true"
 			android:summary="@string/preferences_high_quality_filters"
 			android:key="high_quality_filters" />
+		<CheckBoxPreference
+			android:title="@string/preferences_day_light_filter_title"
+			android:defaultValue="true"
+			android:summary="@string/preferences_day_light_filter"
+			android:key="day_light_filter" />
 	</PreferenceCategory>
 	<PreferenceCategory
 		android:title="@string/preferences_dialog_category">

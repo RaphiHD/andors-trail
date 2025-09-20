@@ -80,6 +80,7 @@ public final class AndorsTrailPreferences {
 			dest.dpadMinimizeable = prefs.getBoolean("dpadMinimizeable", true);
 			dest.optimizedDrawing = prefs.getBoolean("optimized_drawing", false);
 			dest.highQualityFilters = prefs.getBoolean("high_quality_filters", false);
+			dest.dayLightFilter = prefs.getBoolean("day_light_filter", false);
 			dest.enableUiAnimations = prefs.getBoolean("enableUiAnimations", true);
 			dest.displayOverwriteSavegame = Integer.parseInt(prefs.getString("display_overwrite_savegame", Integer.toString(CONFIRM_OVERWRITE_SAVEGAME_ALWAYS)));
 			dest.quickslotsPosition = Integer.parseInt(prefs.getString("quickslots_placement", Integer.toString(QUICKSLOTS_POSITION_HORIZONTAL_CENTER_BOTTOM)));
@@ -102,6 +103,7 @@ public final class AndorsTrailPreferences {
 			dest.dpadMinimizeable = true;
 			dest.optimizedDrawing = false;
 			dest.highQualityFilters = true;
+			dest.dayLightFilter = true;
 			dest.enableUiAnimations = true;
 			dest.displayOverwriteSavegame = CONFIRM_OVERWRITE_SAVEGAME_ALWAYS;
 			dest.quickslotsPosition = QUICKSLOTS_POSITION_HORIZONTAL_CENTER_BOTTOM;
