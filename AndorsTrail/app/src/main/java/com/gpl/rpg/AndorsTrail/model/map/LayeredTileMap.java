@@ -57,14 +57,14 @@ public final class LayeredTileMap {
 			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
 	};
 	private static final float[] colorMatrixMidnight = new float[] {
-			0.50f, 0.00f, 0.00f, 0.0f, 0.0f,
-			0.00f, 0.50f, 0.00f, 0.0f, 0.0f,
+			0.40f, 0.00f, 0.00f, 0.0f, 0.0f,
+			0.00f, 0.30f, 0.00f, 0.0f, 0.0f,
 			0.00f, 0.00f, 0.70f, 0.0f, 30.0f,
 			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
 	};
 	private static final float[] colorMatrixSunrise = new float[] {
-			0.70f, 0.00f, 0.00f, 0.0f, 30.0f,
-			0.00f, 0.70f, 0.00f, 0.0f, 30.0f,
+			0.60f, 0.00f, 0.00f, 0.0f, 20.0f,
+			0.00f, 0.60f, 0.00f, 0.0f, 20.0f,
 			0.00f, 0.00f, 0.50f, 0.0f, 0.0f,
 			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
 	};
@@ -218,9 +218,11 @@ public final class LayeredTileMap {
 		int dayTime = (int) (worldTime % dayLength); // dayTime: 0-4=noon 5-9=sunset 10-14=midnight 15-19=sunrise
 		float blendFactor = (dayTime % phaseLength) / (float) phaseLength;
 
-		float[] finalMatrix = colorMatrixNoon;
+		float[] finalMatrix;
 
-		if (dayTime < dayLength / 2 - phaseLength * 2) {
+		if (dayTime < dayLength / 2) {
+			finalMatrix = colorMatrixNoon;
+		} else if (dayTime < dayLength / 2 - phaseLength * 2) {
 			finalMatrix = lerpColorMatrix(colorMatrixNoon, colorMatrixSunset, blendFactor);
 		} else if (dayTime < dayLength / 2 - phaseLength) {
 			finalMatrix = lerpColorMatrix(colorMatrixSunset, colorMatrixMidnight, blendFactor);
@@ -230,9 +232,11 @@ public final class LayeredTileMap {
 			finalMatrix = lerpColorMatrix(colorMatrixMidnight, colorMatrixSunrise, blendFactor);
 		} else if (dayTime < dayLength) {
 			finalMatrix = lerpColorMatrix(colorMatrixSunrise, colorMatrixNoon, blendFactor);
+		} else {
+			finalMatrix = colorMatrixNoon;
 		}
 
-			ColorMatrix computedDayLightMatrix = new ColorMatrix(finalMatrix);
+		ColorMatrix computedDayLightMatrix = new ColorMatrix(finalMatrix);
 		float[] overlayMatrix = getColorMatrix();
 
 		if (overlayMatrix != null) {
