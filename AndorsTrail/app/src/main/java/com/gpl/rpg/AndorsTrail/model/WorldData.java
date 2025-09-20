@@ -10,6 +10,7 @@ import java.util.Calendar;
 
 public final class WorldData {
 	private long worldTime = 0; // Measured in number of game rounds
+	private final int dayLength = 20; // How many rounds is a full day
 	private final HashMap<String, Long> timers = new HashMap<String, Long>();
 
 	public WorldData() {}
@@ -23,6 +24,7 @@ public final class WorldData {
 	public long getWorldTime() {
 		return worldTime;
 	}
+	public int getDayLength() { return dayLength; }
 
 	public void createTimer(String name) {
 		timers.put(name, worldTime);

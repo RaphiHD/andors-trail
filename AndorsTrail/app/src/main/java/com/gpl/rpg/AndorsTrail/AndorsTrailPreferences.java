@@ -55,6 +55,7 @@ public final class AndorsTrailPreferences {
 	public boolean dpadMinimizeable = true;
 	public boolean optimizedDrawing = false;
 	public boolean highQualityFilters = true;
+	public boolean dayLightFilter = true;
 	public boolean enableUiAnimations = true;
 	public int displayOverwriteSavegame = CONFIRM_OVERWRITE_SAVEGAME_ALWAYS;
 	public int quickslotsPosition = QUICKSLOTS_POSITION_HORIZONTAL_CENTER_BOTTOM;

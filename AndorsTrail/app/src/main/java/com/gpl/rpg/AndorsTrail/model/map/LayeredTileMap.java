@@ -2,24 +2,72 @@ package com.gpl.rpg.AndorsTrail.model.map;
 
 import java.util.Collection;
 
+import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
 import com.gpl.rpg.AndorsTrail.util.Size;
 
+import android.graphics.Color;
 import android.graphics.ColorFilter;
+import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
 import android.graphics.Paint;
 
 public final class LayeredTileMap {
-	private static final ColorFilter colorFilterBlack20 = createGrayScaleColorFilter(0.8f);
-	private static final ColorFilter colorFilterBlack40 = createGrayScaleColorFilter(0.6f);
-	private static final ColorFilter colorFilterBlack60 = createGrayScaleColorFilter(0.4f);
-	private static final ColorFilter colorFilterBlack80 = createGrayScaleColorFilter(0.2f);
-	private static final ColorFilter colorFilterInvert = createInvertColorFilter();
-	private static final ColorFilter colorFilterBW = createBWColorFilter();
-	private static final ColorFilter colorFilterRedTint = createRedTintColorFilter();
-	private static final ColorFilter colorFilterGreenTint = createGreenTintColorFilter();
-	private static final ColorFilter colorFilterBlueTint = createBlueTintColorFilter();
+	private static final float[] colorMatrixInvert = new float[] {
+				-1.00f, 0.00f, 0.00f, 0.0f, 255.0f,
+				0.00f, -1.00f, 0.00f, 0.0f, 255.0f,
+				0.00f, 0.00f, -1.00f, 0.0f, 255.0f,
+				0.00f, 0.00f, 0.00f, 1.0f, 0.0f
+	};
+	private static final float[] colorMatrixBW = new float[] {
+				0.33f, 0.59f, 0.11f, 0.0f, 0.0f,
+				0.33f, 0.59f, 0.11f, 0.0f, 0.0f,
+				0.33f, 0.59f, 0.11f, 0.0f, 0.0f,
+				0.00f, 0.00f, 0.00f, 1.0f, 0.0f
+	};
+	private static final float[] colorMatrixRed = new float[] {
+				1.20f, 0.20f, 0.20f, 0.0f, 25.0f,
+				0.00f, 0.80f, 0.00f, 0.0f, 0.0f,
+				0.00f, 0.00f, 0.80f, 0.0f, 0.0f,
+				0.00f, 0.00f, 0.00f, 1.0f, 0.0f
+	};
+	private static final float[] colorMatrixGreen = new float[] {
+				0.85f, 0.00f, 0.00f, 0.0f, 0.0f,
+				0.15f, 1.15f, 0.15f, 0.0f, 15.0f,
+				0.00f, 0.00f, 0.85f, 0.0f, 0.0f,
+				0.00f, 0.00f, 0.00f, 1.0f, 0.0f
+	};
+	private static final float[] colorMatrixBlue = new float[] {
+				0.70f, 0.00f, 0.00f, 0.0f, 0.0f,
+				0.00f, 0.70f, 0.00f, 0.0f, 0.0f,
+				0.30f, 0.30f, 1.30f, 0.0f, 40.0f,
+				0.00f, 0.00f, 0.00f, 1.0f, 0.0f
+	};
+	private static final float[] colorMatrixNoon = new float[] {
+			1.00f, 0.00f, 0.00f, 0.0f, 0.0f,
+			0.00f, 1.00f, 0.00f, 0.0f, 0.0f,
+			0.00f, 0.00f, 1.00f, 0.0f, 0.0f,
+			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
+	};
+	private static final float[] colorMatrixSunset = new float[] {
+			0.60f, 0.00f, 0.00f, 0.0f, 40.0f,
+			0.00f, 0.50f, 0.00f, 0.0f, 20.0f,
+			0.00f, 0.00f, 0.40f, 0.0f, 0.0f,
+			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
+	};
+	private static final float[] colorMatrixMidnight = new float[] {
+			0.50f, 0.00f, 0.00f, 0.0f, 0.0f,
+			0.00f, 0.50f, 0.00f, 0.0f, 0.0f,
+			0.00f, 0.00f, 0.70f, 0.0f, 30.0f,
+			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
+	};
+	private static final float[] colorMatrixSunrise = new float[] {
+			0.70f, 0.00f, 0.00f, 0.0f, 30.0f,
+			0.00f, 0.70f, 0.00f, 0.0f, 30.0f,
+			0.00f, 0.00f, 0.50f, 0.0f, 0.0f,
+			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
+	};
 
 	public enum ColorFilterId {
 		none,
@@ -96,34 +144,41 @@ public final class LayeredTileMap {
 		return !highQuality;
 	}
 
+	public boolean setDaylightColorFilter(WorldContext world, Paint mPaint, boolean dayLight) {
+		mPaint.setColorFilter(dayLight ? createDaylightColorFilter(world, mPaint.getColorFilter()) : mPaint.getColorFilter());
+		return dayLight;
+	}
+
 	public ColorFilter getColorFilter() {
+		float[] colorMatrix = getColorMatrix();
+		return (colorMatrix == null) ? null : new ColorMatrixColorFilter(colorMatrix);
+	}
+
+	public float[] getColorMatrix() {
 		if (colorFilter == null) return null;
 		switch (colorFilter) {
-		case black20:
-			return colorFilterBlack20;
-		case black40:
-			return colorFilterBlack40;
-		case black60:
-			return colorFilterBlack60;
-		case black80:
-			return colorFilterBlack80;
-		case invert:
-			return colorFilterInvert;
-		case bw:
-			return colorFilterBW;
-		case redtint:
-			return colorFilterRedTint;
-		case greentint:
-			return colorFilterGreenTint;
-		case bluetint:
-			return colorFilterBlueTint;
-		default:
-			return null;
-		
+			case black20:
+				return createColorMatrixGrayScale(0.2f);
+			case black40:
+				return createColorMatrixGrayScale(0.4f);
+			case black60:
+				return createColorMatrixGrayScale(0.6f);
+			case black80:
+				return createColorMatrixGrayScale(0.8f);
+			case invert:
+				return colorMatrixInvert;
+			case bw:
+				return colorMatrixBW;
+			case redtint:
+				return colorMatrixRed;
+			case greentint:
+				return colorMatrixGreen;
+			case bluetint:
+				return colorMatrixBlue;
+			default:
+				return null;
 		}
-		
 	}
-	
 
 	public boolean setColor(Paint p) {
 		if (colorFilter == null) {
@@ -155,59 +210,49 @@ public final class LayeredTileMap {
 		
 	}
 
-	private static ColorMatrixColorFilter createGrayScaleColorFilter(float blackOpacity) {
-		final float f = blackOpacity;
-		return new ColorMatrixColorFilter(new float[] {
-			f,     0.00f, 0.00f, 0.0f, 0.0f,
-			0.00f, f,     0.00f, 0.0f, 0.0f,
-			0.00f, 0.00f, f,     0.0f, 0.0f,
-			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
-		});
-	}
-	
-	private static ColorMatrixColorFilter createInvertColorFilter() {
-		return new ColorMatrixColorFilter(new float[] {
-			-1.00f, 0.00f, 0.00f, 0.0f, 255.0f,
-			0.00f, -1.00f, 0.00f, 0.0f, 255.0f,
-			0.00f, 0.00f, -1.00f, 0.0f, 255.0f,
-			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
-		});
-	}
-	
-	private static ColorMatrixColorFilter createBWColorFilter() {
-		return new ColorMatrixColorFilter(new float[] {
-			0.33f, 0.59f, 0.11f, 0.0f, 0.0f,
-			0.33f, 0.59f, 0.11f, 0.0f, 0.0f,
-			0.33f, 0.59f, 0.11f, 0.0f, 0.0f,
-			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
-		});
+	private ColorMatrixColorFilter createDaylightColorFilter(WorldContext world, ColorFilter colorFilter) {
+		long worldTime = world.model.worldData.getWorldTime(); // get current world time
+		int dayLength = world.model.worldData.getDayLength(); // number of rounds in a full day
+		int phaseLength = dayLength / 4; // number of rounds in a phase of day
+		int dayTime = (int) (worldTime % dayLength); // dayTime: 0-4=noon 5-9=sunset 10-14=midnight 15-19=sunrise
+		int phase = (int) (dayTime / phaseLength); // phase: 0=sunrise->noon 1=noon->sunset 2=sunset->midnight 3=midnight->sunrise
+		float blendFactor = (dayTime % phaseLength) / (float) phaseLength;
+
+		float[] start, end;
+
+		switch (phase) {
+			case 0: //sunrise->noon
+				start = colorMatrixSunrise;
+				end = colorMatrixNoon;
+				break;
+			case 1: //noon->sunset
+				start = colorMatrixNoon;
+				end = colorMatrixSunset;
+				break;
+			case 2: //sunset->midnight
+				start = colorMatrixSunset;
+				end = colorMatrixMidnight;
+				break;
+			case 3: //midnight->sunrise
+				start = colorMatrixMidnight;
+				end = colorMatrixSunrise;
+				break;
+			default:
+				start = colorMatrixNoon;
+				end = colorMatrixNoon;
+		}
+		ColorMatrix computedDayLightMatrix = new ColorMatrix(lerpColorMatrix(start, end, blendFactor));
+		computedDayLightMatrix.postConcat(new ColorMatrix(getColorMatrix())); // Apply additional color filter
+
+		return new ColorMatrixColorFilter(computedDayLightMatrix);
 	}
 
-	private static ColorMatrixColorFilter createRedTintColorFilter() {
-		return new ColorMatrixColorFilter(new float[] {
-				1.20f, 0.20f, 0.20f, 0.0f, 25.0f,
-				0.00f, 0.80f, 0.00f, 0.0f, 0.0f,
-				0.00f, 0.00f, 0.80f, 0.0f, 0.0f,
-				0.00f, 0.00f, 0.00f, 1.0f, 0.0f
-		});
-	}
-
-	private static ColorMatrixColorFilter createGreenTintColorFilter() {
-		return new ColorMatrixColorFilter(new float[] {
-				0.85f, 0.00f, 0.00f, 0.0f, 0.0f,
-				0.15f, 1.15f, 0.15f, 0.0f, 15.0f,
-				0.00f, 0.00f, 0.85f, 0.0f, 0.0f,
-				0.00f, 0.00f, 0.00f, 1.0f, 0.0f
-		});
-	}
-
-	private static ColorMatrixColorFilter createBlueTintColorFilter() {
-		return new ColorMatrixColorFilter(new float[] {
-				0.70f, 0.00f, 0.00f, 0.0f, 0.0f,
-				0.00f, 0.70f, 0.00f, 0.0f, 0.0f,
-				0.30f, 0.30f, 1.30f, 0.0f, 40.0f,
-				0.00f, 0.00f, 0.00f, 1.0f, 0.0f
-		});
+	private float[] lerpColorMatrix(float[] matrixA, float[] matrixB, float blendFactor) {
+		float[] out = new float[20];
+		for (int i = 0; i < 20; i++) {
+			out[i] = matrixA[i] * (1-blendFactor) + matrixB[i] * blendFactor;
+		}
+		return out;
 	}
 
 	public String getCurrentLayoutHash() {
@@ -233,5 +278,15 @@ public final class LayeredTileMap {
 		if (id != null) {
 			changeColorFilter(id);
 		}
+	}
+
+	private static float[] createColorMatrixGrayScale(float blackOpacity) {
+		final float f = blackOpacity;
+		return new float[] {
+				f,     0.00f, 0.00f, 0.0f, 0.0f,
+				0.00f, f,     0.00f, 0.0f, 0.0f,
+				0.00f, 0.00f, f,     0.0f, 0.0f,
+				0.00f, 0.00f, 0.00f, 1.0f, 0.0f
+		};
 	}
 }

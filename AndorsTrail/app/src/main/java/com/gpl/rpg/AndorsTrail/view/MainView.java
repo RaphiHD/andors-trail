@@ -109,6 +109,8 @@ public final class MainView extends SurfaceView
 	private SpriteMoveAnimationHandler movingSpritesRedrawTick = new SpriteMoveAnimationHandler(this);
 	private Paint alternateColorFilterPaint = new Paint();
 	private boolean useAlternateColorFilterPaint = false;
+	private Paint daylightColorFilterPaint = new Paint();
+	private boolean useDaylightColorFilterPaint = true;
 
 	public MainView(Context context, AttributeSet attr) {
 		super(context, attr);
@@ -123,6 +125,7 @@ public final class MainView extends SurfaceView
 		this.preferences = app.getPreferences();
 
 		alternateColorFilterPaint.setStyle(Style.FILL);
+		daylightColorFilterPaint.setStyle(Style.FILL);
 		
 		holder.addCallback(this);
 
@@ -393,6 +396,9 @@ public final class MainView extends SurfaceView
 		if (useAlternateColorFilterPaint) {
 			applyAlternateFilter(canvas, area);
 		}
+		if (useDaylightColorFilterPaint) {
+			applyDaylightFilter(canvas, area);
+		}
 	}
 
 	private void doDrawRect_Ground(Canvas canvas, CoordRect area) {
@@ -498,6 +504,10 @@ public final class MainView extends SurfaceView
 		canvas.drawRect(canvas.getClipBounds(), alternateColorFilterPaint);
 		
 	}
+
+	private void applyDaylightFilter(Canvas canvas, CoordRect area) {
+		canvas.drawRect(canvas.getClipBounds(), daylightColorFilterPaint);
+	}
 	
 	private void drawFromMapPosition(Canvas canvas, final CoordRect area, final Coord p, final int tile) {
 		if (!area.contains(p)) return;
@@ -549,6 +559,9 @@ public final class MainView extends SurfaceView
 				);
 
 			useAlternateColorFilterPaint = currentTileMap.setColorFilter(this.mPaint, this.alternateColorFilterPaint, preferences.highQualityFilters);
+			if (currentMap.isOutdoors) {
+				useDaylightColorFilterPaint = currentTileMap.setDaylightColorFilter(this.world, this.mPaint, preferences.dayLightFilter);
+			}
 		}
 
 //		touchedTile = null;
@@ -794,6 +807,9 @@ public final class MainView extends SurfaceView
 	public void onMapTilesChanged(PredefinedMap map, LayeredTileMap tileMap) {
 		if (map != currentMap) return;
 		useAlternateColorFilterPaint = currentTileMap.setColorFilter(this.mPaint, this.alternateColorFilterPaint, preferences.highQualityFilters);
+		if (currentMap.isOutdoors) {
+			useDaylightColorFilterPaint = currentTileMap.setDaylightColorFilter(this.world, this.mPaint, preferences.dayLightFilter);
+		}
 		redrawAll(RedrawAllDebugReason.MapChanged);
 	}
 
