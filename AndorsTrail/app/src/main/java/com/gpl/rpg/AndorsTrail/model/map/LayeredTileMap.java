@@ -57,15 +57,15 @@ public final class LayeredTileMap {
 			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
 	};
 	private static final float[] colorMatrixMidnight = new float[] {
-			0.40f, 0.00f, 0.00f, 0.0f, 0.0f,
-			0.00f, 0.30f, 0.00f, 0.0f, 0.0f,
-			0.00f, 0.00f, 0.70f, 0.0f, 30.0f,
+			0.20f, 0.00f, 0.00f, 0.0f, 0.0f,
+			0.00f, 0.20f, 0.00f, 0.0f, 0.0f,
+			0.00f, 0.00f, 0.50f, 0.0f, 30.0f,
 			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
 	};
 	private static final float[] colorMatrixSunrise = new float[] {
-			0.60f, 0.00f, 0.00f, 0.0f, 20.0f,
-			0.00f, 0.60f, 0.00f, 0.0f, 20.0f,
-			0.00f, 0.00f, 0.50f, 0.0f, 0.0f,
+			0.50f, 0.00f, 0.00f, 0.0f, 20.0f,
+			0.00f, 0.50f, 0.00f, 0.0f, 20.0f,
+			0.00f, 0.00f, 0.40f, 0.0f, 0.0f,
 			0.00f, 0.00f, 0.00f, 1.0f, 0.0f
 	};
 
@@ -215,16 +215,16 @@ public final class LayeredTileMap {
 		long worldTime = world.model.worldData.getWorldTime(); // get current world time
 		int dayLength = world.model.worldData.getDayLength(); // number of rounds in a full day
 		int phaseLength = dayLength / 10; // number of rounds of each transition phase
-		int dayTime = (int) (worldTime % dayLength); // dayTime: 0-4=noon 5-9=sunset 10-14=midnight 15-19=sunrise
+		int dayTime = (int) (worldTime % dayLength);
 		float blendFactor = (dayTime % phaseLength) / (float) phaseLength;
 
 		float[] finalMatrix;
 
-		if (dayTime < dayLength / 2) {
+		if (dayTime < dayLength / 2 - phaseLength * 2) {
 			finalMatrix = colorMatrixNoon;
-		} else if (dayTime < dayLength / 2 - phaseLength * 2) {
-			finalMatrix = lerpColorMatrix(colorMatrixNoon, colorMatrixSunset, blendFactor);
 		} else if (dayTime < dayLength / 2 - phaseLength) {
+			finalMatrix = lerpColorMatrix(colorMatrixNoon, colorMatrixSunset, blendFactor);
+		} else if (dayTime < dayLength / 2) {
 			finalMatrix = lerpColorMatrix(colorMatrixSunset, colorMatrixMidnight, blendFactor);
 		} else if (dayTime < dayLength - phaseLength * 2){
 			finalMatrix = colorMatrixMidnight;
