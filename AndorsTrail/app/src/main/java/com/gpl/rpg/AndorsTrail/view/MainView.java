@@ -516,12 +516,7 @@ public final class MainView extends SurfaceView
 		_drawFromMapPosition(canvas, area, p.topLeft.x, p.topLeft.y, tile, isFlippedX);
 	}
 	private void _drawFromMapPosition(Canvas canvas, final CoordRect area, int x, int y, final int tile) {
-		x -= mapViewArea.topLeft.x;
-		y -= mapViewArea.topLeft.y;
-//		if (	   (x >= 0 && x < mapViewArea.size.width)
-//				&& (y >= 0 && y < mapViewArea.size.height)) {
-			tiles.drawTile(canvas, tile, x * tileSize, y * tileSize, mPaint);
-//		}
+		_drawFromMapPosition(canvas, area, x, y, tile, false);
 	}
 	private void _drawFromMapPosition(Canvas canvas, final CoordRect area, int x, int y, final int tile, final boolean isFlippedX) {
 		x -= mapViewArea.topLeft.x;
