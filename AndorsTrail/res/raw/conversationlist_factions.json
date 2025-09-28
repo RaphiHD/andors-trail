@@ -3,7 +3,7 @@
         "id":"faction_count_shadow", 
 		"replies":[ { "nextPhraseID":"faction_count_shadow_10" } ],
         "rewards":[ { "rewardType":"alignmentSet", "rewardID":"factionCountShadow", "value":0 },
-					{ "rewardType":"alignmentSet", "rewardID":"factionCountThieves", "value":0 }
+					{ "rewardType":"alignmentSet", "rewardID":"factionCountThieves", "value":0 },
 					{ "rewardType":"alignmentSet", "rewardID":"scoreShadow", "value":0 },
 					{ "rewardType":"alignmentSet", "rewardID":"scoreFeygard", "value":0 },
 					{ "rewardType":"alignmentSet", "rewardID":"scoreThieves", "value":0 },
@@ -589,7 +589,7 @@
 					{ "rewardType":"questProgress", "rewardID":"faction_count_thieves", "value":100 } ]
     },
     {
-        "id":"faction_count_thieves_110"
+        "id":"faction_count_thieves_110",
         "replies":[ { "nextPhraseID":"faction_scores" } ]
     },
     {
