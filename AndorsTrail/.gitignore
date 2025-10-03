@@ -5,6 +5,7 @@ local.properties
 app/build/intermediates/
 build/
 debug/
+beta/
 release/
 .gradle/
 
@@ -50,3 +51,4 @@ gradle-app.setting
 /AndorsTrail/app/build/
 /AndorsTrail/app/debug/
 /AndorsTrail/app/release/
+/AndorsTrail/app/beta/
