@@ -27,6 +27,10 @@ public final class ItemTypeCollection {
 		return itemTypes.get(id);
 	}
 	public List<ItemType> getItemTypesByTag(String tag) {
+		if (tag.toLowerCase().startsWith("tag:")) {
+			tag = tag.substring(4);
+		}
+
 		Set<ItemType> items = tagList.get(tag);
 		if (items != null)
 			return new ArrayList<>(items);
@@ -44,7 +48,7 @@ public final class ItemTypeCollection {
 	}
 	public static boolean isItemFilter(String itemTypeID) {
 		if (itemTypeID == null) return false;
-		return itemTypeID.startsWith("filter:");
+		return itemTypeID.toLowerCase().startsWith("filter:");
 	}
 
 	public void initialize(final ItemTypeParser parser, String input) {
