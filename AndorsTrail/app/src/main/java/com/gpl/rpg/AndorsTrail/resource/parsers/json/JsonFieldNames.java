@@ -161,6 +161,7 @@ public final class JsonFieldNames {
 		public static final String name = "name";
 		public static final String description = "description";
 		public static final String category = "category";
+		public static final String itemTags = "itemTags";
 		public static final String displaytype = "displaytype";
 		public static final String hasManualPrice = "hasManualPrice";
 		public static final String baseMarketCost = "baseMarketCost";

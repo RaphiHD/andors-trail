@@ -1,5 +1,6 @@
 package com.gpl.rpg.AndorsTrail.resource.parsers;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -14,6 +15,9 @@ import com.gpl.rpg.AndorsTrail.resource.TranslationLoader;
 import com.gpl.rpg.AndorsTrail.resource.parsers.json.JsonCollectionParserFor;
 import com.gpl.rpg.AndorsTrail.resource.parsers.json.JsonFieldNames;
 import com.gpl.rpg.AndorsTrail.util.Pair;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public final class ItemTypeParser extends JsonCollectionParserFor<ItemType> {
 
@@ -46,6 +50,14 @@ public final class ItemTypeParser extends JsonCollectionParserFor<ItemType> {
 		final ItemTraits_OnHitReceived hitReceivedEffect = itemTraitsParser.parseItemTraits_OnHitReceived(o.optJSONObject(JsonFieldNames.ItemType.hitReceivedEffect));
 		final ItemTraits_OnHitReceived missReceivedEffect = itemTraitsParser.parseItemTraits_OnHitReceived(o.optJSONObject(JsonFieldNames.ItemType.missReceivedEffect));
 
+		final JSONArray jsonItemTags = o.optJSONArray(JsonFieldNames.ItemType.itemTags);
+		List<String> itemTags = new ArrayList<String>();
+		if (jsonItemTags != null) {
+			for (int i = 0; i < jsonItemTags.length(); i++) {
+				itemTags.add(jsonItemTags.getString(i));
+			}
+		}
+
 		final int baseMarketCost = o.optInt(JsonFieldNames.ItemType.baseMarketCost);
 		final boolean hasManualPrice = o.optInt(JsonFieldNames.ItemType.hasManualPrice, 0) > 0;
 		final ItemType itemType = new ItemType(
@@ -54,7 +66,8 @@ public final class ItemTypeParser extends JsonCollectionParserFor<ItemType> {
 				, itemTypeName
 				, description
 				, itemCategories.getItemCategory(o.getString(JsonFieldNames.ItemType.category))
-				, ItemType.DisplayType.fromString(o.optString(JsonFieldNames.ItemType.displaytype, null), ItemType.DisplayType.ordinary)
+				, itemTags
+                , ItemType.DisplayType.fromString(o.optString(JsonFieldNames.ItemType.displaytype, null), ItemType.DisplayType.ordinary)
 				, hasManualPrice
 				, baseMarketCost
 				, equipEffect
