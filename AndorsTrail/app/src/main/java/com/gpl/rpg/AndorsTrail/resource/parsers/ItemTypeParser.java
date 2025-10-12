@@ -50,11 +50,11 @@ public final class ItemTypeParser extends JsonCollectionParserFor<ItemType> {
 		final ItemTraits_OnHitReceived hitReceivedEffect = itemTraitsParser.parseItemTraits_OnHitReceived(o.optJSONObject(JsonFieldNames.ItemType.hitReceivedEffect));
 		final ItemTraits_OnHitReceived missReceivedEffect = itemTraitsParser.parseItemTraits_OnHitReceived(o.optJSONObject(JsonFieldNames.ItemType.missReceivedEffect));
 
-		final JSONArray jsonItemTags = o.optJSONArray(JsonFieldNames.ItemType.itemTags);
+		final JSONArray itemTagsJson = o.optJSONArray(JsonFieldNames.ItemType.itemTags);
 		List<String> itemTags = new ArrayList<String>();
-		if (jsonItemTags != null) {
-			for (int i = 0; i < jsonItemTags.length(); i++) {
-				itemTags.add(jsonItemTags.getString(i));
+		if (itemTagsJson != null) {
+			for (int i = 0; i < itemTagsJson.length(); i++) {
+				itemTags.add(itemTagsJson.getString(i));
 			}
 		}
 

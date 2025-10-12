@@ -19,6 +19,8 @@ import com.gpl.rpg.AndorsTrail.model.actor.Player;
 import com.gpl.rpg.AndorsTrail.model.conversation.ConversationCollection;
 import com.gpl.rpg.AndorsTrail.model.conversation.Phrase;
 import com.gpl.rpg.AndorsTrail.model.conversation.Reply;
+import com.gpl.rpg.AndorsTrail.model.item.ItemFilter;
+import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.item.ItemTypeCollection;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
@@ -287,7 +289,29 @@ public final class ConversationController {
 			case inventoryKeep:
 			case inventoryRemove:
 				if (ItemTypeCollection.isGoldItemType(requirement.requireID)) {
-					result =  player.inventory.gold >= requirement.value;
+					result = player.inventory.gold >= requirement.value;
+				} else if (ItemTypeCollection.isItemTag(requirement.requireID)) {
+					// This allows for tag requirements to return true as long as the total
+					// amount of items with this tag in the player's inventory meets the required
+					// value with no regard to amount per item type
+
+					int amountNeeded = requirement.value;
+					for (ItemType item : world.itemTypes.getItemTypesByTag(requirement.requireID)) {
+						amountNeeded -= player.inventory.getItemQuantity(requirement.requireID);
+					}
+					return amountNeeded <= 0;
+				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+					// This allows for filter requirements to return true as long as the total
+					// amount of filtered items in the player's inventory meets the required
+					// value with no regard to amount per item type
+
+					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
+					if (filter == null) return false;
+					int amountNeeded = requirement.value;
+					for (ItemType item : filter.getItemTypes()) {
+						amountNeeded -= player.inventory.getItemQuantity(requirement.requireID);
+					}
+					return amountNeeded <= 0;
 				} else {
 					result =  player.inventory.hasItem(requirement.requireID, requirement.value);
 				}
