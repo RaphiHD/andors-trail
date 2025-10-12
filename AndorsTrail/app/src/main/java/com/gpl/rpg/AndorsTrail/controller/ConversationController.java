@@ -342,7 +342,23 @@ public final class ConversationController {
 				result =  world.model.worldData.hasTimerElapsed(requirement.requireID, requirement.value);
 				break;
 			case usedItem:
-				result =  stats.getNumberOfTimesItemHasBeenUsed(requirement.requireID) >= requirement.value;
+				if (ItemTypeCollection.isItemTag(requirement.requireID)) {
+					int amountNeeded = requirement.value;
+					for (ItemType item : world.itemTypes.getItemTypesByTag(requirement.requireID)) {
+						amountNeeded -= stats.getNumberOfTimesItemHasBeenUsed(item.id);
+					}
+					return amountNeeded <= 0;
+				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
+					if (filter == null) return false;
+					int amountNeeded = requirement.value;
+					for (ItemType item : filter.getItemTypes()) {
+						amountNeeded -= stats.getNumberOfTimesItemHasBeenUsed(item.id);
+					}
+					return amountNeeded <= 0;
+				} else {
+					result =  stats.getNumberOfTimesItemHasBeenUsed(requirement.requireID) >= requirement.value;
+				}
 				break;
 			case spentGold:
 				result =  stats.getSpentGold() >= requirement.value;
