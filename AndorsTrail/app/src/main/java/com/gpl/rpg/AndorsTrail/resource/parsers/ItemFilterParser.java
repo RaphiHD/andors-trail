@@ -29,6 +29,8 @@ public class ItemFilterParser extends JsonCollectionParserFor<ItemFilter> {
         final JSONArray includeTagsJson = o.optJSONArray(JsonFieldNames.ItemFilter.includeTags);
         final JSONArray excludeItemsJson = o.optJSONArray(JsonFieldNames.ItemFilter.excludeItems);
         final JSONArray excludeTagsJson = o.optJSONArray(JsonFieldNames.ItemFilter.excludeTags);
+        final String filterType = o.optString(JsonFieldNames.ItemFilter.filterType, null);
+        final int filterTypeModifier = o.optInt(JsonFieldNames.ItemFilter.filterTypeModifier, 1);
 
         List<ItemType> includeItems = new ArrayList<ItemType>();
         List<String> includeTags = new ArrayList<String>();
@@ -56,8 +58,6 @@ public class ItemFilterParser extends JsonCollectionParserFor<ItemFilter> {
             }
         }
 
-
-
         final ItemFilter itemFilter = new ItemFilter(
                 id
                 , includeItems
@@ -65,6 +65,8 @@ public class ItemFilterParser extends JsonCollectionParserFor<ItemFilter> {
                 , excludeItems
                 , excludeTags
                 , itemTypeCollection
+                , ItemFilter.FilterType.fromString(filterType, ItemFilter.FilterType.any)
+                , filterTypeModifier
         );
         return new Pair<String, ItemFilter>(id, itemFilter);
     }

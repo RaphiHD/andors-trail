@@ -161,7 +161,7 @@ public final class JsonFieldNames {
 		public static final String name = "name";
 		public static final String description = "description";
 		public static final String category = "category";
-		public static final String itemTags = "itemTags";
+		public static final String itemTags = "tags";
 		public static final String displaytype = "displaytype";
 		public static final String hasManualPrice = "hasManualPrice";
 		public static final String baseMarketCost = "baseMarketCost";
@@ -180,5 +180,7 @@ public final class JsonFieldNames {
 		public static final String includeTags = "includeTags";
 		public static final String excludeItems = "excludeItems";
 		public static final String excludeTags = "excludeTags";
+		public static final String filterType = "filterType";
+		public static final String filterTypeModifier = "filterTypeModifier";
 	}
 }

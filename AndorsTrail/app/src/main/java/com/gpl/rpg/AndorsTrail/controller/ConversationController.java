@@ -313,7 +313,7 @@ public final class ConversationController {
 
 					int amountNeeded = requirement.value;
 					for (ItemType item : world.itemTypes.getItemTypesByTag(requirement.requireID)) {
-						amountNeeded -= player.inventory.getItemQuantity(requirement.requireID);
+						amountNeeded -= player.inventory.getItemQuantity(item.id);
 					}
 					return amountNeeded <= 0;
 				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
@@ -325,7 +325,7 @@ public final class ConversationController {
 					if (filter == null) return false;
 					int amountNeeded = requirement.value;
 					for (ItemType item : filter.getItemTypes()) {
-						amountNeeded -= player.inventory.getItemQuantity(requirement.requireID);
+						amountNeeded -= player.inventory.getItemQuantity(item.id);
 					}
 					return amountNeeded <= 0;
 				} else {
