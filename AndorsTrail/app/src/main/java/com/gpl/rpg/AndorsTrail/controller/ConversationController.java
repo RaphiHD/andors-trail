@@ -284,7 +284,23 @@ public final class ConversationController {
 				break;
 			case wear:
 			case wearRemove:
-				result =  player.inventory.isWearing(requirement.requireID, requirement.value);
+				if (ItemTypeCollection.isItemTag(requirement.requireID)) {
+					boolean isPlayerWearingTagged = false;
+					for (ItemType item : world.itemTypes.getItemTypesByTag(requirement.requireID)) {
+						isPlayerWearingTagged = isPlayerWearingTagged || player.inventory.isWearing(item.id, requirement.value);
+					}
+					result = isPlayerWearingTagged;
+				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
+					if (filter == null) return false;
+					boolean isPlayerWearingFiltered = false;
+					for (ItemType item : filter.getItemTypes()) {
+						isPlayerWearingFiltered = isPlayerWearingFiltered || player.inventory.isWearing(item.id, requirement.value);
+					}
+					result = isPlayerWearingFiltered;
+				} else {
+					result =  player.inventory.isWearing(requirement.requireID, requirement.value);
+				}
 				break;
 			case inventoryKeep:
 			case inventoryRemove:
