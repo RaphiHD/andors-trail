@@ -1,5 +1,8 @@
 package com.gpl.rpg.AndorsTrail.model.item;
 
+import com.gpl.rpg.AndorsTrail.controller.Constants;
+import com.gpl.rpg.AndorsTrail.util.Range;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -78,6 +81,12 @@ public final class ItemFilter {
             }
         }
         return new ArrayList<>(itemsInFilter);
+    }
+
+    public ItemType getRandomItem() {
+        List<ItemType> allItemsInFilter = getItemTypes();
+        int ran = Constants.rollValue(new Range(0, allItemsInFilter.size()));
+        return allItemsInFilter.get(ran);
     }
 
     private List<ItemType> getItemTypesAny() {

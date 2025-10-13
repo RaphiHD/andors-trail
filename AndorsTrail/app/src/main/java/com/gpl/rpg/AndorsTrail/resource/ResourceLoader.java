@@ -158,7 +158,7 @@ public final class ResourceLoader {
 
 		// ========================================================================
 		// Load droplists
-		final DropListParser dropListParser = new DropListParser(world.itemTypes);
+		final DropListParser dropListParser = new DropListParser(world.itemTypes, world.itemFilters);
 		final TypedArray droplistsToLoad = r.obtainTypedArray(droplistsResourceId);
 		for (int i = 0; i < droplistsToLoad.length(); ++i) {
 			world.dropLists.initialize(dropListParser, readStringFromRaw(r, droplistsToLoad, i));

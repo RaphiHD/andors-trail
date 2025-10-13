@@ -8,8 +8,10 @@ import java.util.Map;
 import java.util.Set;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
+import com.gpl.rpg.AndorsTrail.controller.Constants;
 import com.gpl.rpg.AndorsTrail.resource.parsers.ItemTypeParser;
 import com.gpl.rpg.AndorsTrail.util.L;
+import com.gpl.rpg.AndorsTrail.util.Range;
 
 public final class ItemTypeCollection {
 	private static final String ITEMTYPE_GOLD = "gold";
@@ -35,6 +37,15 @@ public final class ItemTypeCollection {
 		if (items != null)
 			return new ArrayList<>(items);
 		return new ArrayList<>();
+	}
+	public ItemType getRandomItemByTag(String tag) {
+		if (tag.toLowerCase().startsWith("tag:")) {
+			tag = tag.substring(4);
+		}
+
+		List<ItemType> allItemsInTag = getItemTypesByTag(tag);
+		int ran = Constants.rollValue(new Range(0, allItemsInTag.size()));
+		return allItemsInTag.get(ran);
 	}
 
 	public static boolean isGoldItemType(String itemTypeID) {

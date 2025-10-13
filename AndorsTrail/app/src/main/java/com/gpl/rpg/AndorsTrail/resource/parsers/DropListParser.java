@@ -1,11 +1,16 @@
 package com.gpl.rpg.AndorsTrail.resource.parsers;
 
+import android.content.ClipData;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
+import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.model.item.DropList;
 import com.gpl.rpg.AndorsTrail.model.item.DropList.DropItem;
+import com.gpl.rpg.AndorsTrail.model.item.ItemFilter;
+import com.gpl.rpg.AndorsTrail.model.item.ItemFilterCollection;
 import com.gpl.rpg.AndorsTrail.model.item.ItemTypeCollection;
 import com.gpl.rpg.AndorsTrail.resource.parsers.json.JsonArrayParserFor;
 import com.gpl.rpg.AndorsTrail.resource.parsers.json.JsonCollectionParserFor;
@@ -16,13 +21,17 @@ import com.gpl.rpg.AndorsTrail.util.Pair;
 public final class DropListParser extends JsonCollectionParserFor<DropList> {
 
 	private final JsonArrayParserFor<DropItem> dropItemParser;
+	private final ItemTypeCollection itemTypeCollection;
+	private final ItemFilterCollection itemFilterCollection;
 
-	public DropListParser(final ItemTypeCollection itemTypes) {
+	public DropListParser(final ItemTypeCollection itemTypeCollection, final ItemFilterCollection itemFilterCollection) {
+		this.itemTypeCollection = itemTypeCollection;
+		this.itemFilterCollection = itemFilterCollection;
 		this.dropItemParser = new JsonArrayParserFor<DropItem>(DropItem.class) {
 			@Override
 			protected DropItem parseObject(JSONObject o) throws JSONException {
 				return new DropItem(
-						itemTypes.getItemType(o.getString(JsonFieldNames.DropItem.itemID))
+						itemTypeCollection.getItemType(o.getString(JsonFieldNames.DropItem.itemID))
 						,ResourceParserUtils.parseChance(o.getString(JsonFieldNames.DropItem.chance))
 						,ResourceParserUtils.parseQuantity(o.getJSONObject(JsonFieldNames.DropItem.quantity))
 				);
@@ -47,6 +56,10 @@ public final class DropListParser extends JsonCollectionParserFor<DropList> {
 			}
 		}
 
-		return new Pair<String, DropList>(droplistID, new DropList(items));
+		return new Pair<String, DropList>(droplistID, new DropList(
+				items
+				, itemTypeCollection
+				, itemFilterCollection
+		));
 	}
 }
