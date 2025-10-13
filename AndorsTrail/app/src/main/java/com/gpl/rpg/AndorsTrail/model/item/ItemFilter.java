@@ -85,7 +85,7 @@ public final class ItemFilter {
 
     public ItemType getRandomItem() {
         List<ItemType> allItemsInFilter = getItemTypes();
-        int ran = Constants.rollValue(new Range(0, allItemsInFilter.size()));
+        int ran = Constants.rollValue(new Range(allItemsInFilter.size()-1, 0));
         return allItemsInFilter.get(ran);
     }
 

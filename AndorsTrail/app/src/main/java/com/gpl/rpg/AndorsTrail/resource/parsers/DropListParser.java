@@ -31,7 +31,7 @@ public final class DropListParser extends JsonCollectionParserFor<DropList> {
 			@Override
 			protected DropItem parseObject(JSONObject o) throws JSONException {
 				return new DropItem(
-						itemTypeCollection.getItemType(o.getString(JsonFieldNames.DropItem.itemID))
+						o.getString(JsonFieldNames.DropItem.itemID)
 						,ResourceParserUtils.parseChance(o.getString(JsonFieldNames.DropItem.chance))
 						,ResourceParserUtils.parseQuantity(o.getJSONObject(JsonFieldNames.DropItem.quantity))
 				);
@@ -50,7 +50,7 @@ public final class DropListParser extends JsonCollectionParserFor<DropList> {
 			}
 			for (int i = 0; i < items.length; i++) {
 				DropItem item = items[i];
-				if (item.itemType == null) {
+				if (item.itemTypeID == null) {
 					L.log("Item at index " + i + " in droplist " + droplistID + " was null");
 				}
 			}

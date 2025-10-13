@@ -25,28 +25,31 @@ public final class DropList {
 	public void createRandomLoot(Loot loot, Player player) {
 		for (DropItem item : items) {
 
-			if (ItemTypeCollection.isItemTag(item.itemType.id)) {
+			if (ItemTypeCollection.isItemTag(item.itemTypeID)) {
 				item = new DropItem(
-						itemTypeCollection.getRandomItemByTag(item.itemType.id)
+						itemTypeCollection.getRandomItemByTag(ItemTypeCollection.getItemTagID(item.itemTypeID)).id
 						, item.chance
 						, item.quantity
 				);
-			} else if (ItemTypeCollection.isItemFilter(item.itemType.id)) {
-				ItemFilter itemFilter = itemFilterCollection.getItemFilter(item.itemType.id);
+			} else if (ItemTypeCollection.isItemFilter(item.itemTypeID)) {
+				ItemFilter itemFilter = itemFilterCollection.getItemFilter(ItemTypeCollection.getItemFilterID(item.itemTypeID));
 				item = new DropItem(
-						itemFilter.getRandomItem()
+						itemFilter.getRandomItem().id
 						, item.chance
 						, item.quantity
 				);
 			}
 
-			final int chanceRollBias = SkillController.getDropChanceRollBias(item, player);
+			final int chanceRollBias = SkillController.getDropChanceRollBias(item, itemTypeCollection.getItemType(item.itemTypeID), player);
 			if (Constants.rollResult(item.chance, chanceRollBias)) {
 
 				final int quantityRollBias = SkillController.getDropQuantityRollBias(item, player);
 				int quantity = Constants.rollValue(item.quantity, quantityRollBias);
 
-				loot.add(item.itemType, quantity);
+				ItemType addItem = itemTypeCollection.getItemType(item.itemTypeID);
+				if (addItem != null) {
+					loot.add(addItem, quantity);
+				}
 			}
 		}
 	}
@@ -57,11 +60,11 @@ public final class DropList {
 	}
 
 	public static class DropItem {
-		public final ItemType itemType;
+		public final String itemTypeID;
 		public final ConstRange chance;
 		public final ConstRange quantity;
-		public DropItem(ItemType itemType, ConstRange chance, ConstRange quantity) {
-			this.itemType = itemType;
+		public DropItem(String itemTypeID, ConstRange chance, ConstRange quantity) {
+			this.itemTypeID = itemTypeID;
 			this.chance = chance;
 			this.quantity = quantity;
 		}

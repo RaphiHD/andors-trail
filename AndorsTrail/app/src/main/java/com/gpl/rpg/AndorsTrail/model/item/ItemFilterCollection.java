@@ -11,9 +11,7 @@ public class ItemFilterCollection {
 
 
     public ItemFilter getItemFilter(String id) {
-        if (id.toLowerCase().startsWith("filter:")) {
-            id = id.substring(7);
-        }
+        id = ItemTypeCollection.getItemFilterID(id);
 
         if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
             if (!itemFilters.containsKey(id)) {

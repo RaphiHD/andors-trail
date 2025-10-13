@@ -29,9 +29,7 @@ public final class ItemTypeCollection {
 		return itemTypes.get(id);
 	}
 	public List<ItemType> getItemTypesByTag(String tag) {
-		if (tag.toLowerCase().startsWith("tag:")) {
-			tag = tag.substring(4);
-		}
+		tag = getItemTagID(tag);
 
 		Set<ItemType> items = tagList.get(tag);
 		if (items != null)
@@ -39,12 +37,10 @@ public final class ItemTypeCollection {
 		return new ArrayList<>();
 	}
 	public ItemType getRandomItemByTag(String tag) {
-		if (tag.toLowerCase().startsWith("tag:")) {
-			tag = tag.substring(4);
-		}
+		tag = getItemTagID(tag);
 
 		List<ItemType> allItemsInTag = getItemTypesByTag(tag);
-		int ran = Constants.rollValue(new Range(0, allItemsInTag.size()));
+		int ran = Constants.rollValue(new Range(allItemsInTag.size()-1, 0));
 		return allItemsInTag.get(ran);
 	}
 
@@ -60,6 +56,16 @@ public final class ItemTypeCollection {
 	public static boolean isItemFilter(String itemTypeID) {
 		if (itemTypeID == null) return false;
 		return itemTypeID.toLowerCase().startsWith("filter:");
+	}
+	public static String getItemTagID(String itemTypeID) {
+		if (isItemTag(itemTypeID))
+			return itemTypeID.substring(4);
+		else return itemTypeID;
+	}
+	public static String getItemFilterID(String itemTypeID) {
+		if (isItemFilter(itemTypeID))
+			return itemTypeID.substring(7);
+		else return itemTypeID;
 	}
 
 	public void initialize(final ItemTypeParser parser, String input) {
