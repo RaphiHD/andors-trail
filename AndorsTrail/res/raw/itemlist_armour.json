@@ -5,6 +5,12 @@
         "name":"Cloth shirt",
         "baseMarketCost":16,
         "category":"bdy_clth",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_cloth",
+            "wearable_body"
+        ],
         "equipEffect":{
             "increaseBlockChance":2
         }
@@ -15,6 +21,12 @@
         "name":"Fine shirt",
         "baseMarketCost":72,
         "category":"bdy_clth",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_cloth",
+            "wearable_body"
+        ],
         "equipEffect":{
             "increaseBlockChance":5
         }
@@ -26,6 +38,12 @@
         "displaytype":"rare",
         "baseMarketCost":1633,
         "category":"bdy_lthr",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_leather",
+            "wearable_body"
+        ],
         "equipEffect":{
             "increaseBlockChance":5,
             "increaseDamageResistance":1
@@ -37,6 +55,12 @@
         "name":"Leather armour",
         "baseMarketCost":464,
         "category":"bdy_lthr",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_leather",
+            "wearable_body"
+        ],
         "equipEffect":{
             "increaseBlockChance":8
         }
@@ -47,6 +71,12 @@
         "name":"Superior leather armor",
         "baseMarketCost":624,
         "category":"bdy_lthr",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_leather",
+            "wearable_body"
+        ],
         "equipEffect":{
             "increaseBlockChance":9
         }
@@ -57,6 +87,12 @@
         "name":"Hard leather armor",
         "baseMarketCost":2407,
         "category":"bdy_lthr",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_leather",
+            "wearable_body"
+        ],
         "equipEffect":{
             "increaseBlockChance":13
         }
@@ -67,6 +103,12 @@
         "name":"Superior hard leather armor",
         "baseMarketCost":3866,
         "category":"bdy_lthr",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_leather",
+            "wearable_body"
+        ],
         "equipEffect":{
             "increaseBlockChance":15
         }
@@ -77,6 +119,12 @@
         "name":"Green hat",
         "baseMarketCost":13,
         "category":"hd_cloth",
+        "tags":[
+            "equippable",
+            "slot_head",
+            "armor_cloth",
+            "wearable_head"
+        ],
         "equipEffect":{
             "increaseBlockChance":1
         }
@@ -87,6 +135,12 @@
         "name":"Fine green hat",
         "baseMarketCost":25,
         "category":"hd_cloth",
+        "tags":[
+            "equippable",
+            "slot_head",
+            "armor_cloth",
+            "wearable_head"
+        ],
         "equipEffect":{
             "increaseBlockChance":2
         }
@@ -97,6 +151,12 @@
         "name":"Crude leather cap",
         "baseMarketCost":72,
         "category":"hd_lthr",
+        "tags":[
+            "equippable",
+            "slot_head",
+            "armor_leather",
+            "wearable_head"
+        ],
         "equipEffect":{
             "increaseBlockChance":5
         }
@@ -107,6 +167,12 @@
         "name":"Leather cap",
         "baseMarketCost":146,
         "category":"hd_lthr",
+        "tags":[
+            "equippable",
+            "slot_head",
+            "armor_leather",
+            "wearable_head"
+        ],
         "equipEffect":{
             "increaseBlockChance":6
         }
@@ -117,6 +183,12 @@
         "name":"Leather gloves",
         "baseMarketCost":23,
         "category":"hnd_lthr",
+        "tags":[
+            "equippable",
+            "slot_gloves",
+            "armor_leather",
+            "wearable_gloves"
+        ],
         "equipEffect":{
             "increaseBlockChance":3
         }
@@ -127,6 +199,12 @@
         "name":"Fine leather gloves",
         "baseMarketCost":38,
         "category":"hnd_lthr",
+        "tags":[
+            "equippable",
+            "slot_gloves",
+            "armor_leather",
+            "wearable_gloves"
+        ],
         "equipEffect":{
             "increaseBlockChance":4
         }
@@ -137,6 +215,12 @@
         "name":"Snakeskin gloves",
         "baseMarketCost":72,
         "category":"hnd_cloth",
+        "tags":[
+            "equippable",
+            "slot_gloves",
+            "armor_cloth",
+            "wearable_gloves"
+        ],
         "equipEffect":{
             "increaseBlockChance":5
         }
@@ -147,6 +231,12 @@
         "name":"Fine snakeskin gloves",
         "baseMarketCost":146,
         "category":"hnd_cloth",
+        "tags":[
+            "equippable",
+            "slot_gloves",
+            "armor_cloth",
+            "wearable_gloves"
+        ],
         "equipEffect":{
             "increaseBlockChance":6
         }
@@ -157,6 +247,12 @@
         "name":"Wooden buckler",
         "baseMarketCost":72,
         "category":"buckler",
+        "tags":[
+            "equippable",
+            "slot_shield",
+            "shield_buckler",
+            "wieldable_shield"
+        ],
         "equipEffect":{
             "increaseAttackChance":-2,
             "increaseBlockChance":5
@@ -168,6 +264,12 @@
         "name":"Reinforced wooden buckler",
         "baseMarketCost":226,
         "category":"buckler",
+        "tags":[
+            "equippable",
+            "slot_shield",
+            "shield_buckler",
+            "wieldable_shield"
+        ],
         "equipEffect":{
             "increaseAttackChance":-5,
             "increaseBlockChance":7
@@ -179,6 +281,13 @@
         "name":"Crude wooden shield",
         "baseMarketCost":464,
         "category":"shld_wd_li",
+        "tags":[
+            "equippable",
+            "slot_shield",
+            "shield_wood",
+            "weight_light",
+            "wieldable_shield"
+        ],
         "equipEffect":{
             "increaseAttackChance":-5,
             "increaseBlockChance":8
@@ -190,6 +299,13 @@
         "name":"Superior wooden shield",
         "baseMarketCost":624,
         "category":"shld_wd_li",
+        "tags":[
+            "equippable",
+            "slot_shield",
+            "shield_wood",
+            "weight_light",
+            "wieldable_shield"
+        ],
         "equipEffect":{
             "increaseAttackChance":-4,
             "increaseBlockChance":9
@@ -201,6 +317,12 @@
         "name":"Leather boots",
         "baseMarketCost":23,
         "category":"feet_lthr",
+        "tags":[
+            "equippable",
+            "slot_boots",
+            "armor_leather",
+            "wearable_boots"
+        ],
         "equipEffect":{
             "increaseBlockChance":3
         }
@@ -211,6 +333,12 @@
         "name":"Superior leather boots",
         "baseMarketCost":38,
         "category":"feet_lthr",
+        "tags":[
+            "equippable",
+            "slot_boots",
+            "armor_leather",
+            "wearable_boots"
+        ],
         "equipEffect":{
             "increaseBlockChance":4
         }
@@ -221,6 +349,12 @@
         "name":"Snakeskin boots",
         "baseMarketCost":146,
         "category":"feet_lthr",
+        "tags":[
+            "equippable",
+            "slot_boots",
+            "armor_leather",
+            "wearable_boots"
+        ],
         "equipEffect":{
             "increaseBlockChance":6
         }
@@ -231,6 +365,13 @@
         "name":"Reinforced boots",
         "baseMarketCost":226,
         "category":"feet_mtl_hv",
+        "tags":[
+            "equippable",
+            "slot_boots",
+            "armor_metal",
+            "weight_heavy",
+            "wearable_boots"
+        ],
         "equipEffect":{
             "increaseBlockChance":7
         }
@@ -241,6 +382,12 @@
         "name":"Gloves of swift attack",
         "baseMarketCost":150,
         "category":"hnd_lthr",
+        "tags":[
+            "equippable",
+            "slot_gloves",
+            "armor_leather",
+            "wearable_gloves"
+        ],
         "equipEffect":{
             "increaseAttackChance":15,
             "increaseBlockChance":-9
@@ -252,6 +399,12 @@
         "name":"Fine gloves of swift attack",
         "baseMarketCost":221,
         "category":"hnd_lthr",
+        "tags":[
+            "equippable",
+            "slot_gloves",
+            "armor_leather",
+            "wearable_gloves"
+        ],
         "equipEffect":{
             "increaseAttackChance":17,
             "increaseBlockChance":-9

@@ -6,6 +6,9 @@
         "hasManualPrice":1,
         "baseMarketCost":5,
         "category":"gem",
+        "tags":[
+            "crystal"
+        ],
         "description":"Some blue shimmering crystals."
     },
     {
@@ -15,6 +18,9 @@
         "hasManualPrice":1,
         "baseMarketCost":4,
         "category":"gem",
+        "tags":[
+            "crystal"
+        ],
         "description":"Some red shimmering crystals."
     },
     {
@@ -23,6 +29,12 @@
         "name":"Hunter's Sword",
         "displaytype":"extraordinary",
         "category":"lsword",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_sword_long",
+            "wieldable_weapon"
+        ],
         "description":"When venery is your game, you need a superior sword.",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -52,6 +64,9 @@
         "iconID":"items_misc_3:102",
         "name":"Fierce Lava Rock",
         "category":"other",
+        "tags":[
+            "rock"
+        ],
         "description":"It's burning through your clothes"
     },
     {
@@ -59,6 +74,9 @@
         "iconID":"items_misc:13",
         "name":"Cold Lava Rock",
         "category":"other",
+        "tags":[
+            "rock"
+        ],
         "description":"A cold piece of magma"
     },
     {
@@ -67,7 +85,13 @@
         "name":"Rockfall deflecting cap",
         "hasManualPrice":1,
         "baseMarketCost":80,
-        "category":"hd_cloth"
+        "category":"hd_cloth",
+        "tags":[
+            "equippable",
+            "slot_head",
+            "armor_cloth",
+            "wearable_head"
+        ]
     },
     {
         "id":"arulir_boots",
@@ -75,7 +99,13 @@
         "name":"Sure step boots",
         "hasManualPrice":1,
         "baseMarketCost":120,
-        "category":"feet_lthr"
+        "category":"feet_lthr",
+        "tags":[
+            "equippable",
+            "slot_boots",
+            "armor_leather",
+            "wearable_boots"
+        ]
     },
     {
         "id":"silver_bar",
@@ -85,6 +115,9 @@
         "hasManualPrice":1,
         "baseMarketCost":319,
         "category":"gem",
+        "tags":[
+            "metal_bar"
+        ],
         "description":"A small bar made of silver."
     },
     {
@@ -93,6 +126,12 @@
         "name":"Giant's flail",
         "displaytype":"extraordinary",
         "category":"mace2h",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_mace",
+            "wieldable_weapon"
+        ],
         "description":"This is a very heavy weapon!",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -122,6 +161,13 @@
         "name":"Giant's hauberk",
         "displaytype":"extraordinary",
         "category":"bdy_hv",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_metal",
+            "weight_heavy",
+            "wearable_body"
+        ],
         "equipEffect":{
             "increaseMaxHP":3,
             "increaseAttackCost":1,
@@ -147,6 +193,9 @@
         "hasManualPrice":1,
         "baseMarketCost":519,
         "category":"gem",
+        "tags":[
+            "metal_bar"
+        ],
         "description":"A small bar made of shining gold."
     },
     {
@@ -157,6 +206,9 @@
         "hasManualPrice":1,
         "baseMarketCost":119,
         "category":"gem",
+        "tags":[
+            "metal_bar"
+        ],
         "description":"A small bar made of lead."
     }
 ]

@@ -7,6 +7,12 @@
         "hasManualPrice":1,
         "baseMarketCost":40,
         "category":"food",
+        "tags":[
+            "usable",
+            "consumable_food",
+            "meat",
+            "state_cooked"
+        ],
         "description":"This tastes very...salty.",
         "useEffect":{
             "conditionsSource":[
@@ -33,6 +39,12 @@
         "hasManualPrice":1,
         "baseMarketCost":6700,
         "category":"whip",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_whip",
+            "wieldable_weapon"
+        ],
         "description":"When you hold it, it almost feels like it's moving on its own, as though it were alive.",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -63,6 +75,12 @@
         "name":"Farmer's flail",
         "displaytype":"ordinary",
         "category":"staff",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_quarterstaff",
+            "wieldable_weapon"
+        ],
         "description":"This looks more suited to farming than fighting",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -81,6 +99,13 @@
         "name":"Spiked metal boots",
         "displaytype":"ordinary",
         "category":"feet_mtl_li",
+        "tags":[
+            "equippable",
+            "slot_boots",
+            "armor_metal",
+            "weight_light",
+            "wearable_boots"
+        ],
         "description":"These boots look very uncomfortable. For your enemy!",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -99,6 +124,11 @@
         "hasManualPrice":1,
         "baseMarketCost":3160,
         "category":"neck",
+        "tags":[
+            "equippable",
+            "slot_necklace",
+            "wearable_necklace"
+        ],
         "equipEffect":{
             "increaseUseItemCost":-1,
             "increaseReequipCost":-1
@@ -110,6 +140,12 @@
         "name":"Brimhaven plate mail",
         "displaytype":"rare",
         "category":"plmail",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_plate",
+            "wearable_body"
+        ],
         "equipEffect":{
             "increaseMaxHP":4,
             "increaseMoveCost":1,
@@ -124,6 +160,12 @@
         "name":"Brimhaven rigid plate mail",
         "displaytype":"rare",
         "category":"plmail",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_plate",
+            "wearable_body"
+        ],
         "equipEffect":{
             "increaseMoveCost":1,
             "increaseAttackChance":-6,
@@ -137,6 +179,13 @@
         "name":"Brimhaven steel helmet",
         "displaytype":"ordinary",
         "category":"hd_mtl_hv",
+        "tags":[
+            "equippable",
+            "slot_head",
+            "armor_metal",
+            "weight_heavy",
+            "wearable_head"
+        ],
         "equipEffect":{
             "increaseMaxHP":2,
             "increaseAttackChance":-2,
@@ -149,6 +198,13 @@
         "name":"Engraved steel helmet",
         "displaytype":"rare",
         "category":"hd_mtl_hv",
+        "tags":[
+            "equippable",
+            "slot_head",
+            "armor_metal",
+            "weight_heavy",
+            "wearable_head"
+        ],
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":0,
@@ -177,6 +233,13 @@
         "name":"Boots of Swiftness",
         "displaytype":"ordinary",
         "category":"feet_mtl_li",
+        "tags":[
+            "equippable",
+            "slot_boots",
+            "armor_metal",
+            "weight_light",
+            "wearable_boots"
+        ],
         "equipEffect":{
             "increaseMaxHP":5,
             "increaseReequipCost":-2,
@@ -199,6 +262,11 @@
         "name":"Hand mirror",
         "hasManualPrice":1,
         "category":"shld_mtl_li",
+        "tags":[
+            "equippable",
+            "slot_shield",
+            "hand_mirror"
+        ],
         "equipEffect":{
             "increaseMoveCost":1,
             "increaseAttackCost":1,
@@ -212,6 +280,13 @@
         "displaytype":"quest",
         "hasManualPrice":1,
         "category":"pot",
+        "tags":[
+            "usable",
+            "consumable_potion",
+            "bottle_large",
+            "state_filled",
+            "blood"
+        ],
         "useEffect":{
             "conditionsSource":[
                 {
@@ -230,7 +305,11 @@
         "displaytype":"quest",
         "hasManualPrice":1,
         "baseMarketCost":0,
-        "category":"flask"
+        "category":"flask",
+        "tags":[
+            "bottle_large",
+            "state_empty"
+        ]
     },
     {
         "id":"kitchen_knife",
@@ -238,6 +317,12 @@
         "name":"Kitchen knife",
         "displaytype":"ordinary",
         "category":"dagger",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_knife",
+            "wieldable_weapon"
+        ],
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":1,
@@ -256,6 +341,12 @@
         "name":"Trident dagger",
         "displaytype":"ordinary",
         "category":"weapon_blocking",
+        "tags":[
+            "equippable",
+            "slot_shield",
+            "shield_parrying",
+            "wieldable_weapon"
+        ],
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":1,
@@ -273,6 +364,11 @@
         "iconID":"items_misc_6:23",
         "name":"Brimhaven brew",
         "category":"drink",
+        "tags":[
+            "usable",
+            "consumable_drink",
+            "beer"
+        ],
         "useEffect":{
             "increaseCurrentHP":{
                 "min":1,
@@ -296,6 +392,11 @@
         "hasManualPrice":1,
         "baseMarketCost":15,
         "category":"food",
+        "tags":[
+            "usable",
+            "consumable_food",
+            "egg"
+        ],
         "useEffect":{
             "conditionsSource":[
                 {
@@ -314,6 +415,12 @@
         "hasManualPrice":1,
         "baseMarketCost":8,
         "category":"food",
+        "tags":[
+            "usable",
+            "consumable_food",
+            "meat",
+            "state_cooked"
+        ],
         "description":"This looks disgusting, but cheap.",
         "useEffect":{
             "conditionsSource":[
@@ -339,6 +446,12 @@
         "hasManualPrice":1,
         "baseMarketCost":67,
         "category":"food",
+        "tags":[
+            "usable",
+            "consumable_food",
+            "meat",
+            "state_baked"
+        ],
         "useEffect":{
             "conditionsSource":[
                 {
@@ -357,6 +470,11 @@
         "hasManualPrice":1,
         "baseMarketCost":6,
         "category":"food",
+        "tags":[
+            "usable",
+            "consumable_food",
+            "state_baked"
+        ],
         "useEffect":{
             "conditionsSource":[
                 {
@@ -374,6 +492,12 @@
         "name":"Carpenter's hammer",
         "displaytype":"ordinary",
         "category":"club",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_club",
+            "wieldable_weapon"
+        ],
         "description":"When all you have is a hammer, every monster looks like a nail.",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -391,6 +515,12 @@
         "iconID":"items_misc_2:215",
         "name":"Quilted tunic",
         "category":"bdy_clth",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_cloth",
+            "wieldable_body"
+        ],
         "equipEffect":{
             "increaseBlockChance":3,
             "increaseDamageResistance":1
@@ -402,6 +532,12 @@
         "name":"Bronze warhammer",
         "displaytype":"ordinary",
         "category":"hammer",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_hammer",
+            "wieldable_weapon"
+        ],
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":5,
@@ -421,6 +557,12 @@
         "name":"Maul",
         "displaytype":"ordinary",
         "category":"hammer2h",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_hammer_giant",
+            "wieldable_weapon"
+        ],
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":7,
@@ -437,6 +579,12 @@
         "iconID":"items_misc_6:18",
         "name":"Steel claymore",
         "category":"2hsword",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_sword_twohanded",
+            "wieldable_weapon"
+        ],
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":1,
@@ -455,6 +603,12 @@
         "iconID":"items_armours:21",
         "name":"Enhanced green hat",
         "category":"hd_cloth",
+        "tags":[
+            "equippable",
+            "slot_head",
+            "armor_cloth",
+            "wearable_head"
+        ],
         "equipEffect":{
             "increaseBlockChance":2,
             "increaseDamageResistance":1
@@ -466,13 +620,25 @@
         "name":"Green dress",
         "hasManualPrice":1,
         "baseMarketCost":100,
-        "category":"bdy_clth"
+        "category":"bdy_clth",
+        "tags":[
+            "equippable",
+            "slot_body",
+            "armor_cloth",
+            "wearable_body"
+        ]
     },
     {
         "id":"gloves4enhanced",
         "iconID":"items_armours:36",
         "name":"Enhanced snakeskin gloves",
         "category":"hnd_cloth",
+        "tags":[
+            "equippable",
+            "slot_gloves",
+            "armor_cloth",
+            "wearable_gloves"
+        ],
         "equipEffect":{
             "increaseMaxHP":2,
             "increaseBlockChance":6
@@ -483,6 +649,12 @@
         "iconID":"items_armours:28",
         "name":"Enhanced leather boots",
         "category":"feet_lthr",
+        "tags":[
+            "equippable",
+            "slot_boots",
+            "armor_leather",
+            "wearable_boots"
+        ],
         "equipEffect":{
             "increaseBlockChance":6
         }
@@ -492,7 +664,10 @@
         "iconID":"items_japozero:384",
         "name":"Key (found in run-down house East Brimhaven)",
         "displaytype":"quest",
-        "category":"other"
+        "category":"other",
+        "tags":[
+            "key"
+        ]
     },
     {
         "id":"hand_axe",
@@ -500,6 +675,12 @@
         "name":"Hand Axe",
         "displaytype":"quest",
         "category":"axe",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_axe",
+            "wieldable_weapon"
+        ],
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":1,
@@ -523,7 +704,10 @@
         "iconID":"items_books:7",
         "name":"Alkapoans's letters",
         "displaytype":"quest",
-        "category":"other"
+        "category":"other",
+        "tags":[
+            "letter"
+        ]
     },
     {
         "id":"strange_dagger",
@@ -531,6 +715,12 @@
         "name":"A strange looking dagger",
         "displaytype":"quest",
         "category":"dagger",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_dagger",
+            "wieldable_weapon"
+        ],
         "description":"The dagger has an inscription etched into the metal \"The Shadow shall bear no witness to the wielder of this blade\".",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -548,6 +738,12 @@
         "hasManualPrice":1,
         "baseMarketCost":3706,
         "category":"dagger",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_dagger",
+            "wieldable_weapon"
+        ],
         "description":"The dagger has an inscription etched into the metal \"The Shadow shall bear no witness to the wielder of this blade\".",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -575,6 +771,9 @@
         "hasManualPrice":1,
         "baseMarketCost":437,
         "category":"gem",
+        "tags":[
+            "gem"
+        ],
         "description":"This gem is translucent, and you can see sparkling points of light inside it. Marks and residue on one side indicate it was once mounted in something. "
     },
     {
@@ -585,6 +784,12 @@
         "hasManualPrice":1,
         "baseMarketCost":986,
         "category":"dagger",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_dagger",
+            "wieldable_weapon"
+        ],
         "description":"It has a nice inlaid silver handle. Not much use in a fight though.",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -601,6 +806,12 @@
         "name":"Superior steel dagger",
         "displaytype":"ordinary",
         "category":"dagger",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_dagger",
+            "wieldable_weapon"
+        ],
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":3,
@@ -619,6 +830,12 @@
         "hasManualPrice":1,
         "baseMarketCost":2942,
         "category":"dagger",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_dagger",
+            "wieldable_weapon"
+        ],
         "description":"A dagger that is meant to impress. Unless you are trying to impress an opponent in a fight.",
         "equipEffect":{
             "increaseAttackDamage":{
@@ -638,6 +855,12 @@
         "displaytype":"ordinary",
         "baseMarketCost":712,
         "category":"scepter",
+        "tags":[
+            "equippable",
+            "slot_weapon",
+            "weapon_scepter",
+            "wieldable_weapon"
+        ],
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":2,
@@ -655,6 +878,12 @@
         "name":"Fancy green hat",
         "displaytype":"ordinary",
         "category":"hd_cloth",
+        "tags":[
+            "equippable",
+            "slot_head",
+            "armor_cloth",
+            "wearable_head"
+        ],
         "equipEffect":{
             "increaseAttackChance":1,
             "increaseBlockChance":3
@@ -667,7 +896,12 @@
         "displaytype":"extraordinary",
         "hasManualPrice":1,
         "baseMarketCost":50000,
-        "category":"ring"
+        "category":"ring",
+        "tags":[
+            "equippable",
+            "slot_ring",
+            "wearable_ring"
+        ]
     },
     {
         "id":"expensive_necklace",
@@ -676,7 +910,12 @@
         "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":100000,
-        "category":"neck"
+        "category":"neck",
+        "tags":[
+            "equippable",
+            "slot_necklace",
+            "wearable_necklace"
+        ]
     },
     {
         "id":"necklace_shield3",
@@ -685,6 +924,11 @@
         "displaytype":"rare",
         "baseMarketCost":1255,
         "category":"neck",
+        "tags":[
+            "equippable",
+            "slot_necklace",
+            "wearable_necklace"
+        ],
         "equipEffect":{
             "increaseBlockChance":15
         }
@@ -697,6 +941,11 @@
         "hasManualPrice":1,
         "baseMarketCost":23000,
         "category":"ring",
+        "tags":[
+            "equippable",
+            "slot_ring",
+            "wearable_ring"
+        ],
         "equipEffect":{
             "addedConditions":[
                 {
@@ -722,6 +971,11 @@
         "hasManualPrice":1,
         "baseMarketCost":5000,
         "category":"ring",
+        "tags":[
+            "equippable",
+            "slot_ring",
+            "wearable_ring"
+        ],
         "hitReceivedEffect":{
             "conditionsTarget":[
                 {
@@ -740,6 +994,11 @@
         "displaytype":"rare",
         "baseMarketCost":3186,
         "category":"ring",
+        "tags":[
+            "equippable",
+            "slot_ring",
+            "wearable_ring"
+        ],
         "equipEffect":{
             "increaseAttackDamage":{
                 "min":7,
@@ -754,7 +1013,12 @@
         "displaytype":"quest",
         "hasManualPrice":1,
         "baseMarketCost":5,
-        "category":"neck"
+        "category":"neck",
+        "tags":[
+            "equippable",
+            "slot_necklace",
+            "wearable_necklace"
+        ]
     },
     {
         "id":"necklace_for_father2",
@@ -763,7 +1027,12 @@
         "displaytype":"quest",
         "hasManualPrice":1,
         "baseMarketCost":500,
-        "category":"neck"
+        "category":"neck",
+        "tags":[
+            "equippable",
+            "slot_necklace",
+            "wearable_necklace"
+        ]
     },
     {
         "id":"necklace_for_father3",
@@ -772,7 +1041,12 @@
         "displaytype":"quest",
         "hasManualPrice":1,
         "baseMarketCost":50000,
-        "category":"neck"
+        "category":"neck",
+        "tags":[
+            "equippable",
+            "slot_necklace",
+            "wearable_necklace"
+        ]
     },
     {
         "id":"very_expensive_necklace",
@@ -781,6 +1055,11 @@
         "displaytype":"extraordinary",
         "hasManualPrice":1,
         "baseMarketCost":500000,
-        "category":"neck"
+        "category":"neck",
+        "tags":[
+            "equippable",
+            "slot_necklace",
+            "wearable_necklace"
+        ]
     }
 ]

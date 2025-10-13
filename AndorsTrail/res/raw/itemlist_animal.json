@@ -5,7 +5,10 @@
         "name":"Animal hair",
         "hasManualPrice":1,
         "baseMarketCost":2,
-        "category":"animal"
+        "category":"animal",
+        "tags":[
+            "animal_hair"
+        ]
     },
     {
         "id":"insectwing",
@@ -13,7 +16,10 @@
         "name":"Insect wing",
         "hasManualPrice":1,
         "baseMarketCost":3,
-        "category":"animal"
+        "category":"animal",
+        "tags":[
+            "animal_wing"
+        ]
     },
     {
         "id":"bone",
@@ -21,7 +27,11 @@
         "name":"Bone",
         "hasManualPrice":1,
         "baseMarketCost":2,
-        "category":"animal"
+        "category":"animal",
+        "tags":[
+            "bone",
+            "skeletal"
+        ]
     },
     {
         "id":"claws",
@@ -29,7 +39,11 @@
         "name":"Claws",
         "hasManualPrice":1,
         "baseMarketCost":2,
-        "category":"animal"
+        "category":"animal",
+        "tags":[
+            "animal_claw",
+            "skeletal"
+        ]
     },
     {
         "id":"shell",
@@ -37,7 +51,10 @@
         "name":"Insect shell",
         "hasManualPrice":1,
         "baseMarketCost":2,
-        "category":"animal"
+        "category":"animal",
+        "tags":[
+            "animal_shell"
+        ]
     },
     {
         "id":"gland",
@@ -45,7 +62,10 @@
         "name":"Poison gland",
         "hasManualPrice":1,
         "baseMarketCost":15,
-        "category":"animal"
+        "category":"animal",
+        "tags":[
+            "animal_gland"
+        ]
     },
     {
         "id":"rat_tail",
@@ -53,6 +73,9 @@
         "name":"Rat tail",
         "hasManualPrice":1,
         "baseMarketCost":2,
-        "category":"animal"
+        "category":"animal",
+        "tags":[
+            "animal_tail"
+        ]
     }
 ]
