@@ -1,6 +1,8 @@
 package com.gpl.rpg.AndorsTrail.controller;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 import android.content.res.Resources;
 
@@ -29,6 +31,7 @@ import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.model.quest.QuestLogEntry;
 import com.gpl.rpg.AndorsTrail.model.quest.QuestProgress;
+import com.gpl.rpg.AndorsTrail.model.script.ConversationContext;
 import com.gpl.rpg.AndorsTrail.model.script.Requirement;
 import com.gpl.rpg.AndorsTrail.model.script.ScriptEffect;
 import com.gpl.rpg.AndorsTrail.util.ConstRange;
@@ -258,7 +261,7 @@ public final class ConversationController {
 		if (!reply.hasRequirements()) return;
 
 		for (Requirement requirement : reply.requires) {
-			requirementFulfilled(world, requirement, controllers);
+			requirementFulfilled(world, requirement, controllers, reply);
 		}
 	}
 
@@ -285,19 +288,24 @@ public final class ConversationController {
 			case wear:
 			case wearRemove:
 				if (ItemTypeCollection.isItemTag(requirement.requireID)) {
-					boolean isPlayerWearingTagged = false;
+					result = false;
 					for (ItemType item : world.itemTypes.getItemTypesByTag(requirement.requireID)) {
-						isPlayerWearingTagged = isPlayerWearingTagged || player.inventory.isWearing(item.id, requirement.value);
+                        if (player.inventory.isWearing(item.id, requirement.value)) {
+                            result = true;
+                            break;
+                        }
 					}
-					result = isPlayerWearingTagged;
 				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
 					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
-					if (filter == null) return false;
-					boolean isPlayerWearingFiltered = false;
-					for (ItemType item : filter.getItemTypes()) {
-						isPlayerWearingFiltered = isPlayerWearingFiltered || player.inventory.isWearing(item.id, requirement.value);
+					result = false;
+					if (filter != null) {
+						for (ItemType item : filter.getItemTypes()) {
+							if (player.inventory.isWearing(item.id, requirement.value)) {
+								result = true;
+								break;
+							}
+						}
 					}
-					result = isPlayerWearingFiltered;
 				} else {
 					result =  player.inventory.isWearing(requirement.requireID, requirement.value);
 				}
@@ -307,28 +315,25 @@ public final class ConversationController {
 				if (ItemTypeCollection.isGoldItemType(requirement.requireID)) {
 					result = player.inventory.gold >= requirement.value;
 				} else if (ItemTypeCollection.isItemTag(requirement.requireID)) {
-					// This allows for tag requirements to return true as long as the total
-					// amount of items with this tag in the player's inventory meets the required
-					// value with no regard to amount per item type
-
-					int amountNeeded = requirement.value;
+					result = false;
 					for (ItemType item : world.itemTypes.getItemTypesByTag(requirement.requireID)) {
-						amountNeeded -= player.inventory.getItemQuantity(item.id);
+						if (player.inventory.hasItem(item.id, requirement.value)) {
+							result = true;
+							break;
+						}
 					}
-					return amountNeeded <= 0;
 				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
-					// This allows for filter requirements to return true as long as the total
-					// amount of filtered items in the player's inventory meets the required
-					// value with no regard to amount per item type
-
 					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
-					if (filter == null) return false;
-					int amountNeeded = requirement.value;
-					for (ItemType item : filter.getItemTypes()) {
-						amountNeeded -= player.inventory.getItemQuantity(item.id);
-					}
-					return amountNeeded <= 0;
-				} else {
+					result = false;
+                    if (filter != null) {
+                        for (ItemType item : filter.getItemTypes()) {
+                            if (player.inventory.hasItem(item.id, requirement.value)) {
+                                result = true;
+                                break;
+                            }
+                        }
+                    }
+                } else {
 					result =  player.inventory.hasItem(requirement.requireID, requirement.value);
 				}
 				break;
@@ -343,20 +348,25 @@ public final class ConversationController {
 				break;
 			case usedItem:
 				if (ItemTypeCollection.isItemTag(requirement.requireID)) {
-					int amountNeeded = requirement.value;
+					result = false;
 					for (ItemType item : world.itemTypes.getItemTypesByTag(requirement.requireID)) {
-						amountNeeded -= stats.getNumberOfTimesItemHasBeenUsed(item.id);
+						if(stats.getNumberOfTimesItemHasBeenUsed(item.id) >= requirement.value) {
+							result = true;
+							break;
+						}
 					}
-					return amountNeeded <= 0;
 				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
 					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
-					if (filter == null) return false;
-					int amountNeeded = requirement.value;
-					for (ItemType item : filter.getItemTypes()) {
-						amountNeeded -= stats.getNumberOfTimesItemHasBeenUsed(item.id);
-					}
-					return amountNeeded <= 0;
-				} else {
+					result = false;
+                    if (filter != null) {
+                        for (ItemType item : filter.getItemTypes()) {
+                            if(stats.getNumberOfTimesItemHasBeenUsed(item.id) >= requirement.value) {
+                                result = true;
+                                break;
+                            }
+                        }
+                    }
+                } else {
 					result =  stats.getNumberOfTimesItemHasBeenUsed(requirement.requireID) >= requirement.value;
 				}
 				break;
@@ -396,27 +406,68 @@ public final class ConversationController {
 		return requirement.negate ? !result : result;
 	}
 
-	public static void requirementFulfilled(WorldContext world, Requirement requirement, ControllerContext controllers) {
+	public static void requirementFulfilled(WorldContext world, Requirement requirement, ControllerContext controllers, Reply reply) {
+		// TODO: Always use context to fetch itemID, receive Context instead of Reply
+
 		Player p = world.model.player;
+		String itemID = "";
+		if (reply != null) {
+			ItemType item = (ItemType) reply.context.get("selectedItem");
+			if (item != null) {
+				itemID = item.id;
+			} else {
+				itemID = requirement.requireID;
+			}
+		} else {
+			itemID = requirement.requireID;
+		}
+
 		switch (requirement.requireType) {
 			case inventoryRemove:
-				if (ItemTypeCollection.isGoldItemType(requirement.requireID)) {
+				if (ItemTypeCollection.isGoldItemType(itemID)) {
 					p.inventory.gold -= requirement.value;
 					world.model.statistics.addGoldSpent(requirement.value);
 				} else {
-					p.inventory.removeItem(requirement.requireID, requirement.value);
+					p.inventory.removeItem(itemID, requirement.value);
 				}
 				break;
             case wearRemove:
-                controllers.itemController.removeEquippedItem(requirement.requireID, requirement.value);
+                controllers.itemController.removeEquippedItem(itemID, requirement.value);
                 break;
 		}
 	}
 
-	private static String getDisplayMessage(Phrase phrase, Player player) { return replacePlayerName(phrase.message, player); }
-	private static String getDisplayMessage(Reply reply, Player player) { return replacePlayerName(reply.text, player); }
+	private static String getDisplayMessage(Phrase phrase, Player player) { return replacePlaceholders(phrase.message, null, player); }
+	private static String getDisplayMessage(Phrase phrase, ConversationContext context, Player player) { return replacePlaceholders(phrase.message, context, player); }
+	private static String getDisplayMessage(Reply reply, Player player) { return replacePlaceholders(reply.text, null, player); }
+	private static String getDisplayMessage(Reply reply, ConversationContext context, Player player) { return replacePlaceholders(reply.text, context, player); }
+	private static String replacePlaceholders(String s, ConversationContext context, Player player) {
+		// This replaces all dynamic conversation placeholders defined in the conversation json files
+		// as well as the ones defined by the engine
+
+		if (context != null) {
+			s = replaceContextPlaceholders(s, context, player);
+		}
+		s = replacePlayerName(s, player);
+		return s;
+	}
 	private static String replacePlayerName(String s, Player player) {
 		return s.replace(Constants.PLACEHOLDER_PLAYERNAME, player.getName());
+	}
+	private static String replaceContextPlaceholders(String s, ConversationContext context, Player player) {
+		for (Map.Entry<String, Object> entry : context.getContext().entrySet()) {
+			// If placeholder should not use the .toString() feature of the Object, define here
+            if (entry.getValue().getClass().equals(ItemType.class)) {
+				ItemType item = (ItemType) entry.getValue();
+				s = s.replace(entry.getKey(), item.getName(player));
+            } else if (entry.getValue().getClass().equals(Monster.class)) {
+				Monster npc = (Monster) entry.getValue();
+				s = s.replace(entry.getKey(), npc.getName());
+			} else {
+				s = s.replace(entry.getKey(), entry.getValue().toString());
+			}
+		}
+		return s;
 	}
 
 	public static final class ConversationStatemachine {
@@ -442,7 +493,7 @@ public final class ConversationController {
 
 		public void playerSelectedReply(final Resources res, Reply r) {
 			applyReplyEffect(world, r, controllers);
-			proceedToPhrase(res, r.nextPhrase, true, true);
+			proceedToPhrase(res, r.nextPhrase, true, true, r.context);
 		}
 
 		public void playerSelectedNextStep(final Resources res) {
@@ -472,12 +523,15 @@ public final class ConversationController {
 		}
 
 		public void proceedToPhrase(final Resources res, String phraseID, boolean applyScriptEffects, boolean displayPhraseMessage) {
+			proceedToPhraseInternal(res, phraseID, applyScriptEffects, displayPhraseMessage, null);
+		}
+		public void proceedToPhrase(final Resources res, String phraseID, boolean applyScriptEffects, boolean displayPhraseMessage, ConversationContext context) {
 			while (phraseID != null) {
-				phraseID = proceedToPhraseInternal(res, phraseID, applyScriptEffects, displayPhraseMessage);
+				phraseID = proceedToPhraseInternal(res, phraseID, applyScriptEffects, displayPhraseMessage, context);
 			}
 		}
 
-		private String proceedToPhraseInternal(final Resources res, String phraseID, boolean applyScriptEffects, boolean displayPhraseMessage) {
+		private String proceedToPhraseInternal(final Resources res, String phraseID, boolean applyScriptEffects, boolean displayPhraseMessage, ConversationContext context) {
 			if (phraseID.equalsIgnoreCase(ConversationCollection.PHRASE_CLOSE)) {
 				listener.onConversationEnded();
 				return null;
@@ -518,10 +572,45 @@ public final class ConversationController {
 			}
 
 			for (Reply r : currentPhrase.replies) {
-				if (!canSelectReply(world, r)) continue;
-				listener.onConversationHasReply(r, getDisplayMessage(r, player));
+				if (!canSelectReply(world, r)) {
+					continue;
+				}
+                if (r.text.toLowerCase().contains(Constants.PLACEHOLDER_REQUIRE_ITEM_ID) && r.hasRequirements()) {
+                    for (Requirement requirement : r.requires) {
+                        switch (requirement.requireType) {
+                            case inventoryKeep:
+                            case inventoryRemove:
+                            case wear:
+                            case wearRemove:
+                            case usedItem:
+                                proceedToPhraseWithItem(r, requirement);
+                                break;
+                        }
+                    }
+                } else {
+					listener.onConversationHasReply(r, getDisplayMessage(r, player));
+				}
 			}
 			return null;
+		}
+
+		private void proceedToPhraseWithItem(Reply r, Requirement requirement) {
+			List<ItemType> validItems = new ArrayList<>();
+			if (ItemTypeCollection.isItemTag(requirement.requireID)) {
+				validItems = world.itemTypes.getItemTypesByTag(requirement.requireID);
+			} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+				validItems = world.itemFilters.getItemFilter(requirement.requireID).getItemTypes();
+			} else {
+				validItems.add(world.itemTypes.getItemType(requirement.requireID));
+			}
+			for (ItemType item : validItems) {
+				// This generates a reply for every matching item, if the player happens to have it in their inventory
+				if (player.inventory.getItemQuantity(item.id) >= requirement.value) {
+					Reply itemReply = new Reply(r.text.replace(Constants.PLACEHOLDER_REQUIRE_ITEM_ID, item.getName(player)), r.nextPhrase, r.requires);
+					itemReply.context.addContext("selectedRequiredItem", item); // Add the selected item to the conversation context
+					listener.onConversationHasReply(itemReply, getDisplayMessage(itemReply, player));
+				}
+			}
 		}
 
 		private void endConversationWithRemovingNPC() {

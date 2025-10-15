@@ -96,7 +96,7 @@ public final class MapController {
 
 	private void runScriptInArea(MapObject o) {
 		Resources res = controllers.getResources();
-		mapScriptExecutor.proceedToPhrase(res, o.id, true, true);
+		mapScriptExecutor.proceedToPhrase(res, o.id, true, true, null);
 		controllers.mapController.applyCurrentMapReplacements(res, true);
 	}
 
@@ -150,7 +150,7 @@ public final class MapController {
 		controllers.monsterSpawnController.spawnAll(world.model.currentMaps.map, world.model.currentMaps.tileMap);
 		world.model.worldData.tickWorldTime(20);
 		controllers.gameRoundController.resetRoundTimers();
-		mapScriptExecutor.proceedToPhrase(controllers.getResources(), Constants.PASSIVE_ACHIEVEMENT_CHECK_PHRASE, true, true);
+		mapScriptExecutor.proceedToPhrase(controllers.getResources(), Constants.PASSIVE_ACHIEVEMENT_CHECK_PHRASE, true, true, null);
 	}
 
 	public void rest(MapObject area) {
@@ -161,7 +161,7 @@ public final class MapController {
 
 	public boolean canEnterKeyArea(MapObject area) {
 		if (ConversationController.canFulfillRequirement(world, area.enteringRequirement)) {
-			ConversationController.requirementFulfilled(world, area.enteringRequirement, controllers);
+			ConversationController.requirementFulfilled(world, area.enteringRequirement, controllers, null);
 			return true;
 		}
 		worldEventListeners.onPlayerSteppedOnKeyArea(area);
@@ -193,7 +193,7 @@ public final class MapController {
 			for(ReplaceableMapSection replacement : tileMap.replacements) {
 				if (replacement.isApplied) continue;
 				if (!satisfiesCondition(replacement)) continue;
-				else ConversationController.requirementFulfilled(world, replacement.requirement, controllers);
+				else ConversationController.requirementFulfilled(world, replacement.requirement, controllers, null);
 				tileMap.applyReplacement(replacement);
 				for (ReplaceableMapSection impactedReplacement : tileMap.replacements) {
 					if (replacement != impactedReplacement && impactedReplacement.isApplied && impactedReplacement.replacementArea.intersects(replacement.replacementArea)) {
