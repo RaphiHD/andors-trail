@@ -287,15 +287,7 @@ public final class ConversationController {
 				break;
 			case wear:
 			case wearRemove:
-				if (ItemTypeCollection.isItemTag(requirement.requireID)) {
-					result = false;
-					for (ItemType item : world.itemTypes.getItemTypesByTag(requirement.requireID)) {
-                        if (player.inventory.isWearing(item.id, requirement.value)) {
-                            result = true;
-                            break;
-                        }
-					}
-				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+				if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
 					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
 					result = false;
 					if (filter != null) {
@@ -314,14 +306,6 @@ public final class ConversationController {
 			case inventoryRemove:
 				if (ItemTypeCollection.isGoldItemType(requirement.requireID)) {
 					result = player.inventory.gold >= requirement.value;
-				} else if (ItemTypeCollection.isItemTag(requirement.requireID)) {
-					result = false;
-					for (ItemType item : world.itemTypes.getItemTypesByTag(requirement.requireID)) {
-						if (player.inventory.hasItem(item.id, requirement.value)) {
-							result = true;
-							break;
-						}
-					}
 				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
 					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
 					result = false;
@@ -347,15 +331,7 @@ public final class ConversationController {
 				result =  world.model.worldData.hasTimerElapsed(requirement.requireID, requirement.value);
 				break;
 			case usedItem:
-				if (ItemTypeCollection.isItemTag(requirement.requireID)) {
-					result = false;
-					for (ItemType item : world.itemTypes.getItemTypesByTag(requirement.requireID)) {
-						if(stats.getNumberOfTimesItemHasBeenUsed(item.id) >= requirement.value) {
-							result = true;
-							break;
-						}
-					}
-				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+				if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
 					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
 					result = false;
                     if (filter != null) {
@@ -596,9 +572,7 @@ public final class ConversationController {
 
 		private void proceedToPhraseWithItem(Reply r, Requirement requirement) {
 			List<ItemType> validItems = new ArrayList<>();
-			if (ItemTypeCollection.isItemTag(requirement.requireID)) {
-				validItems = world.itemTypes.getItemTypesByTag(requirement.requireID);
-			} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+			if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
 				validItems = world.itemFilters.getItemFilter(requirement.requireID).getItemTypes();
 			} else {
 				validItems.add(world.itemTypes.getItemType(requirement.requireID));

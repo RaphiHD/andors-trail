@@ -25,13 +25,7 @@ public final class DropList {
 	public void createRandomLoot(Loot loot, Player player) {
 		for (DropItem item : items) {
 
-			if (ItemTypeCollection.isItemTag(item.itemTypeID)) {
-				item = new DropItem(
-						itemTypeCollection.getRandomItemByTag(ItemTypeCollection.getItemTagID(item.itemTypeID)).id
-						, item.chance
-						, item.quantity
-				);
-			} else if (ItemTypeCollection.isItemFilter(item.itemTypeID)) {
+			if (ItemTypeCollection.isItemFilter(item.itemTypeID)) {
 				ItemFilter itemFilter = itemFilterCollection.getItemFilter(ItemTypeCollection.getItemFilterID(item.itemTypeID));
 				item = new DropItem(
 						itemFilter.getRandomItem().id

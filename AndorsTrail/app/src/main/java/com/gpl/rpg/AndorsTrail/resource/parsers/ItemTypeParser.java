@@ -50,14 +50,6 @@ public final class ItemTypeParser extends JsonCollectionParserFor<ItemType> {
 		final ItemTraits_OnHitReceived hitReceivedEffect = itemTraitsParser.parseItemTraits_OnHitReceived(o.optJSONObject(JsonFieldNames.ItemType.hitReceivedEffect));
 		final ItemTraits_OnHitReceived missReceivedEffect = itemTraitsParser.parseItemTraits_OnHitReceived(o.optJSONObject(JsonFieldNames.ItemType.missReceivedEffect));
 
-		final JSONArray itemTagsJson = o.optJSONArray(JsonFieldNames.ItemType.itemTags);
-		List<String> itemTags = new ArrayList<String>();
-		if (itemTagsJson != null) {
-			for (int i = 0; i < itemTagsJson.length(); i++) {
-				itemTags.add(itemTagsJson.getString(i));
-			}
-		}
-
 		final int baseMarketCost = o.optInt(JsonFieldNames.ItemType.baseMarketCost);
 		final boolean hasManualPrice = o.optInt(JsonFieldNames.ItemType.hasManualPrice, 0) > 0;
 		final ItemType itemType = new ItemType(
@@ -66,7 +58,6 @@ public final class ItemTypeParser extends JsonCollectionParserFor<ItemType> {
 				, itemTypeName
 				, description
 				, itemCategories.getItemCategory(o.getString(JsonFieldNames.ItemType.category))
-				, itemTags
                 , ItemType.DisplayType.fromString(o.optString(JsonFieldNames.ItemType.displaytype, null), ItemType.DisplayType.ordinary)
 				, hasManualPrice
 				, baseMarketCost

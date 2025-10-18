@@ -27,7 +27,6 @@ public final class ItemType {
 	private final String description;
 	private final boolean hasPersonalizedName;
 	public final ItemCategory category;
-	public final List<String> itemTags;
 	public final boolean hasManualPrice;
 	public final int baseMarketCost;
 	public final int fixedBaseMarketCost;
@@ -47,7 +46,6 @@ public final class ItemType {
 			, String name
 			, String description
 			, ItemCategory category
-			, List<String> itemTags
 			, DisplayType displayType
 			, boolean hasManualPrice
 			, int fixedBaseMarketCost
@@ -64,7 +62,6 @@ public final class ItemType {
 		this.name = name;
 		this.description = description;
 		this.category = category;
-		this.itemTags = itemTags;
 		this.displayType = displayType;
 		this.hasManualPrice = hasManualPrice;
 		this.baseMarketCost = hasManualPrice ? fixedBaseMarketCost : calculateCost(category, effects_equip, effects_use, effects_hit, effects_kill);
@@ -93,10 +90,6 @@ public final class ItemType {
 		if (baseMarketCost == 0) return false;
 		return true;
 	}
-
-	public boolean hasItemTag(String itemTag) {
-        return itemTags.contains(itemTag);
-    }
 
 	public String getDescription() { return description; }
 	public String getName(Player p) {

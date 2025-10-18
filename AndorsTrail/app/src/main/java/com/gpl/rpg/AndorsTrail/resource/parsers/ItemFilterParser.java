@@ -25,49 +25,28 @@ public class ItemFilterParser extends JsonCollectionParserFor<ItemFilter> {
     @Override
     public Pair<String, ItemFilter> parseObject(JSONObject o) throws JSONException {
         final String id = o.getString(JsonFieldNames.ItemFilter.itemFilterID);
-        final JSONArray includeItemsJson = o.optJSONArray(JsonFieldNames.ItemFilter.includeItems);
-        final JSONArray includeTagsJson = o.optJSONArray(JsonFieldNames.ItemFilter.includeTags);
-        final JSONArray excludeItemsJson = o.optJSONArray(JsonFieldNames.ItemFilter.excludeItems);
-        final JSONArray excludeTagsJson = o.optJSONArray(JsonFieldNames.ItemFilter.excludeTags);
-        final String filterType = o.optString(JsonFieldNames.ItemFilter.filterType, null);
-        final int filterTypeModifier = o.optInt(JsonFieldNames.ItemFilter.filterTypeModifier, 1);
+        final JSONArray includeJson = o.optJSONArray(JsonFieldNames.ItemFilter.include);
+        final JSONArray excludeJson = o.optJSONArray(JsonFieldNames.ItemFilter.exclude);
 
-        List<ItemType> includeItems = new ArrayList<ItemType>();
-        List<String> includeTags = new ArrayList<String>();
-        List<ItemType> excludeItems = new ArrayList<ItemType>();
-        List<String> excludeTags = new ArrayList<String>();
+        List<ItemType> include = new ArrayList<ItemType>();
+        List<ItemType> exclude = new ArrayList<ItemType>();
 
-        if (includeItemsJson != null) {
-            for (int i = 0; i < includeItemsJson.length(); i++) {
-                includeItems.add(itemTypeCollection.getItemType(includeItemsJson.getString(i)));
+        if (includeJson != null) {
+            for (int i = 0; i < includeJson.length(); i++) {
+                include.add(itemTypeCollection.getItemType(includeJson.getString(i)));
             }
         }
-        if (includeTagsJson != null) {
-            for (int i = 0; i < includeTagsJson.length(); i++) {
-                includeTags.add(includeTagsJson.getString(i));
-            }
-        }
-        if (excludeItemsJson != null) {
-            for (int i = 0; i < excludeItemsJson.length(); i++) {
-                excludeItems.add(itemTypeCollection.getItemType(excludeItemsJson.getString(i)));
-            }
-        }
-        if (excludeTagsJson != null) {
-            for (int i = 0; i < excludeTagsJson.length(); i++) {
-                excludeTags.add(excludeTagsJson.getString(i));
+        if (excludeJson != null) {
+            for (int i = 0; i < excludeJson.length(); i++) {
+                exclude.add(itemTypeCollection.getItemType(excludeJson.getString(i)));
             }
         }
 
         final ItemFilter itemFilter = new ItemFilter(
                 id
-                , includeItems
-                , includeTags
-                , excludeItems
-                , excludeTags
-                , itemTypeCollection
-                , ItemFilter.FilterType.fromString(filterType, ItemFilter.FilterType.any)
-                , filterTypeModifier
+                , include
+                , exclude
         );
-        return new Pair<String, ItemFilter>(id, itemFilter);
+        return new Pair<>(id, itemFilter);
     }
 }

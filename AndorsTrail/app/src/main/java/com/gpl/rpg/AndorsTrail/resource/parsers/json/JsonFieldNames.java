@@ -176,11 +176,7 @@ public final class JsonFieldNames {
 
 	public static final class ItemFilter {
 		public static final String itemFilterID = "id";
-		public static final String includeItems = "includeItems";
-		public static final String includeTags = "includeTags";
-		public static final String excludeItems = "excludeItems";
-		public static final String excludeTags = "excludeTags";
-		public static final String filterType = "filterType";
-		public static final String filterTypeModifier = "filterTypeModifier";
+		public static final String include = "includeItems";
+		public static final String exclude = "excludeItems";
 	}
 }
