@@ -1,17 +1,10 @@
 package com.gpl.rpg.AndorsTrail.model.item;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
-import com.gpl.rpg.AndorsTrail.controller.Constants;
 import com.gpl.rpg.AndorsTrail.resource.parsers.ItemTypeParser;
 import com.gpl.rpg.AndorsTrail.util.L;
-import com.gpl.rpg.AndorsTrail.util.Range;
 
 public final class ItemTypeCollection {
 	private static final String ITEMTYPE_GOLD = "gold";

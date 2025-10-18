@@ -1,8 +1,5 @@
 package com.gpl.rpg.AndorsTrail.model.item;
 
-import android.content.ClipData;
-
-import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
 import com.gpl.rpg.AndorsTrail.controller.SkillController;
 import com.gpl.rpg.AndorsTrail.model.actor.Player;

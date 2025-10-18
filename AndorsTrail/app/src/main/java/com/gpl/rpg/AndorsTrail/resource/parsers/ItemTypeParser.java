@@ -1,6 +1,5 @@
 package com.gpl.rpg.AndorsTrail.resource.parsers;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -15,9 +14,6 @@ import com.gpl.rpg.AndorsTrail.resource.TranslationLoader;
 import com.gpl.rpg.AndorsTrail.resource.parsers.json.JsonCollectionParserFor;
 import com.gpl.rpg.AndorsTrail.resource.parsers.json.JsonFieldNames;
 import com.gpl.rpg.AndorsTrail.util.Pair;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public final class ItemTypeParser extends JsonCollectionParserFor<ItemType> {
 
@@ -58,7 +54,7 @@ public final class ItemTypeParser extends JsonCollectionParserFor<ItemType> {
 				, itemTypeName
 				, description
 				, itemCategories.getItemCategory(o.getString(JsonFieldNames.ItemType.category))
-                , ItemType.DisplayType.fromString(o.optString(JsonFieldNames.ItemType.displaytype, null), ItemType.DisplayType.ordinary)
+				, ItemType.DisplayType.fromString(o.optString(JsonFieldNames.ItemType.displaytype, null), ItemType.DisplayType.ordinary)
 				, hasManualPrice
 				, baseMarketCost
 				, equipEffect
