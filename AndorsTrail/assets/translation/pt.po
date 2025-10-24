@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-10-20 18:01+0000\n"
+"PO-Revision-Date: 2025-10-25 14:02+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -55894,6 +55894,8 @@ msgstr "Está bem. Se ainda o quiseres ouvir outra vez, pergunta-me."
 #: conversationlist_ratdom.json:ratdom_rat_conv2_402
 msgid "That's simple enough even for a simple mind: If worn they will mark the passage towards the mountain top with a blue shield."
 msgstr ""
+"Isso é bastante simples mesmo para uma mente simplória: Se usados eles vão "
+"marcar a passagem para o cimo da montanha com um escudo azul."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_402:0
 msgid "Ah, OK."
@@ -62822,20 +62824,24 @@ msgid "I'm leaving!"
 msgstr "Vou embora!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:1
+#, fuzzy
 msgid "Estay imgrey earcepay!"
-msgstr ""
+msgstr "Estay imgrey earcepay!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:2
+#, fuzzy
 msgid "Estray inyay eacepay!"
-msgstr ""
+msgstr "Estray inyay eacepay!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:3
+#, fuzzy
 msgid "Esay intray eaceplay!"
-msgstr ""
+msgstr "Esay intray eaceplay!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:4
+#, fuzzy
 msgid "Espray inpray eatnpay!"
-msgstr ""
+msgstr "Espray inpray eatnpay!"
 
 #: conversationlist_laeroth.json:eyvipa_4b
 msgid "The ghost of Eyvipa vanishes. You feel great relief that the chant worked. You take back the oegyth crystal, although it seems to be losing some of its luster."
@@ -69379,7 +69385,7 @@ msgstr ""
 
 #: conversationlist_troubling_times.json:tt_sly2:0
 msgid "Polite as ever."
-msgstr ""
+msgstr "Bem educado como sempre."
 
 #: conversationlist_troubling_times.json:tt_sly2_10
 msgid "Give me Luthor's key now."
@@ -69557,7 +69563,7 @@ msgstr ""
 
 #: conversationlist_troubling_times.json:tt_sly4_20:0
 msgid "[Embarrassed] Sure thing."
-msgstr ""
+msgstr "[Embaraçado] Claro que sim."
 
 #: conversationlist_troubling_times.json:tt_sly4_22
 msgid "[Spits] What is this stuff?! Throw it away before you drink it yourself. It's rotten."
@@ -69565,7 +69571,7 @@ msgstr ""
 
 #: conversationlist_troubling_times.json:tt_sly4_22:0
 msgid "So - sorry."
-msgstr ""
+msgstr "Des - desculpa."
 
 #: conversationlist_troubling_times.json:tt_sly4_24
 msgid "You hope that she doesn't notice your guilty conscience."
@@ -69573,7 +69579,7 @@ msgstr ""
 
 #: conversationlist_troubling_times.json:tt_sly4_24:0
 msgid "You are tough."
-msgstr ""
+msgstr "Tu és duro."
 
 #: conversationlist_troubling_times.json:tt_sly4_30
 msgid "Now don't just stand around here. Look lively and find Luthor's ring."
@@ -69593,7 +69599,7 @@ msgstr ""
 
 #: conversationlist_troubling_times.json:tt_sly5:1
 msgid "[Sarcastic] Truly royal."
-msgstr ""
+msgstr "[Sarcástico] Verdadeiramente nobre."
 
 #: conversationlist_troubling_times.json:tt_sly5:2
 msgid "This throne looks familiar to me."
@@ -69797,7 +69803,7 @@ msgstr ""
 
 #: conversationlist_troubling_times.json:tt_talion_80:0
 msgid "Luthor's ring ..."
-msgstr ""
+msgstr "Anel de Luthor ..."
 
 #: conversationlist_troubling_times.json:tt_talion_82
 msgid "Yes, this ring might be a little harder to find. I trust in you."
@@ -69968,7 +69974,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_10:0
 msgid "And you, sir!"
-msgstr ""
+msgstr "E você, senhor!"
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_20
 msgid "A very polite kid! Plus, as the Shadow has been whispering to me, a helpful one."
@@ -70024,7 +70030,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_80
 msgid "That's the spirit!"
-msgstr ""
+msgstr "É esse o espírito!"
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_82
 msgid "Now, in the wasteland south of Stoutford, there have been reports of some suspicious activities."
@@ -70154,7 +70160,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_200:0
 msgid "Sigh. From where?"
-msgstr ""
+msgstr "[Suspiro] De onde?"
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_210
 msgid "Go to my friend Talion in Loneford. He'll give you the blessing of Shadow's Strength."
@@ -70182,7 +70188,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_264
 msgid "Borvis examines you."
-msgstr ""
+msgstr "Borvis examina-o."
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_266
 msgid "Oh you useless kid!"
@@ -70210,7 +70216,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_280:0
 msgid "This little thing?"
-msgstr ""
+msgstr "Esta coisa pequenina?"
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_290
 msgid "Go now and destroy the shield, and then the renegade priest. Make haste!"
@@ -70229,7 +70235,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_500:1
 msgid "Why not you?"
-msgstr ""
+msgstr "Porque não tu?"
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_502
 msgid "You'll be faster. Don't worry, I'll follow you."
@@ -70248,7 +70254,7 @@ msgstr ""
 #: conversationlist_darknessanddaylight.json:dds_borvis_550:0
 #: conversationlist_darknessanddaylight.json:dds_miri_550:0
 msgid "Is it over?"
-msgstr ""
+msgstr "Já acabou?"
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_560
 #: conversationlist_darknessanddaylight.json:dds_miri_560
@@ -70278,7 +70284,7 @@ msgstr ""
 #: conversationlist_darknessanddaylight.json:dds_borvis_580:0
 #: conversationlist_darknessanddaylight.json:dds_miri_580:0
 msgid "Really? Tell me!"
-msgstr ""
+msgstr "A sério? Conta-me!"
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_590
 msgid "Andor is going to visit Alynndir to refill his travel supplies."
@@ -70286,7 +70292,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_590:1
 msgid "Who is Alynndir?"
-msgstr ""
+msgstr "Quem é Alynndir?"
 
 #: conversationlist_darknessanddaylight.json:dds_borvis_592
 msgid "Alynndir lives in a lonely house down the road to Nor City. Don't you know?"
@@ -70314,7 +70320,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_talion_30:0
 msgid "Thank you. Bye"
-msgstr ""
+msgstr "Obrigado. Adeus"
 
 #: conversationlist_darknessanddaylight.json:dds_talion_30:1
 msgid "Thank you. And I need to ask you something."
@@ -70418,7 +70424,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_jolnor_24
 msgid "He never could."
-msgstr ""
+msgstr "Ele nunca pôde."
 
 #: conversationlist_darknessanddaylight.json:dds_jolnor_24:0
 msgid "Now what?"
@@ -70478,7 +70484,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_jolnor_100
 msgid "Well, ask away."
-msgstr ""
+msgstr "Bem, pergunta à vontade."
 
 #: conversationlist_darknessanddaylight.json:dds_jolnor_100:0
 msgid "Can you also give 'blessings' of Fatigue and Life Drain"
@@ -70490,7 +70496,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_jolnor_110:0
 msgid "Well, could you?"
-msgstr ""
+msgstr "Bem, podes?"
 
 #: conversationlist_darknessanddaylight.json:dds_jolnor_112
 msgid "Of course I could, if I wanted to."
@@ -70554,7 +70560,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_favlon_30
 msgid "A likely story!"
-msgstr ""
+msgstr "Uma história provável!"
 
 #: conversationlist_darknessanddaylight.json:dds_favlon_30:0
 msgid "So you can't do it?"
@@ -70622,7 +70628,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_favlon_92:0
 msgid "Sure. Here, enjoy."
-msgstr ""
+msgstr "Claro. Aqui tens, desfruta."
 
 #: conversationlist_darknessanddaylight.json:dds_andor
 msgid "Hey, who's that running over?"
@@ -70743,7 +70749,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_miri_10:0
 msgid "Tell me please."
-msgstr ""
+msgstr "Conta-me por favor."
 
 #: conversationlist_darknessanddaylight.json:dds_miri_20
 #: conversationlist_darknessanddaylight.json:dds_miri_30
@@ -70801,7 +70807,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_miri_70:0
 msgid "So what's new?"
-msgstr ""
+msgstr "Então, novidades?"
 
 #: conversationlist_darknessanddaylight.json:dds_miri_80
 msgid "Yeah - many weird things going on. But no time to waste."
@@ -70833,7 +70839,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_miri_110:1
 msgid "The Purple Hills?"
-msgstr ""
+msgstr "As Colinas Púrpuras?"
 
 #: conversationlist_darknessanddaylight.json:dds_miri_112
 msgid "Head south through Stoutford. The Purple Hills lie between the lake region and the mountains further south."
@@ -70894,7 +70900,7 @@ msgstr "'Kazaul est.'"
 
 #: conversationlist_darknessanddaylight.json:dds_miri_224
 msgid "Exactly. Hurry now."
-msgstr ""
+msgstr "Exatamente. Despacha-te agora."
 
 #: conversationlist_darknessanddaylight.json:dds_miri_300
 msgid "What did you find out from Throdna?"
@@ -71010,7 +71016,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_miri_590:1
 msgid "Who is Rosmara?"
-msgstr ""
+msgstr "Quem é Rosmara?"
 
 #: conversationlist_darknessanddaylight.json:dds_miri_592
 msgid "She's the fruit lady on the road near Feygard."
@@ -71162,7 +71168,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_oldhermit_40
 msgid "Kazaul again, eh?"
-msgstr ""
+msgstr "Outra vez Kazaul, hã?"
 
 #: conversationlist_darknessanddaylight.json:dds_oldhermit_50
 msgid "Hehe. I'm a hermit, but not senile. In fact, I moved here to stay away from all those holier-than-thou morons: Geomyr, Shadow, Elythom ..."
@@ -71220,7 +71226,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_oldman_50
 msgid "Copy it then."
-msgstr ""
+msgstr "Copia-o então."
 
 #: conversationlist_darknessanddaylight.json:dds_oldman_50:0
 msgid "OK ... just a second ..."
@@ -71408,12 +71414,12 @@ msgstr ""
 #: conversationlist_darknessanddaylight.json:dds_dark_priest2:0
 #: conversationlist_darknessanddaylight.json:dds_dark_priest2:1
 msgid "I completely agree."
-msgstr ""
+msgstr "Concordo completamente."
 
 #: conversationlist_darknessanddaylight.json:dds_dark_priest2_10
 #: conversationlist_darknessanddaylight.json:dds_dark_priest2_110
 msgid "You're no priest!"
-msgstr ""
+msgstr "Tu não és nenhum sacerdote!"
 
 #: conversationlist_darknessanddaylight.json:dds_dark_priest2_10:0
 msgid "Miri! How did you get here?"
@@ -71454,7 +71460,7 @@ msgstr ""
 
 #: conversationlist_darknessanddaylight.json:dds_dark_priest2_110:0
 msgid "Borvis! At last!"
-msgstr ""
+msgstr "Borvis! Finalmente!"
 
 #: conversationlist_darknessanddaylight.json:dds_dark_priest2_120
 msgid "My legs are not as young as yours anymore."
@@ -71472,11 +71478,11 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:galmore_marked_stone_prompt:0
 msgid "[Touch the stone.]"
-msgstr ""
+msgstr "[Toca na pedra.]"
 
 #: conversationlist_mt_galmore2.json:galmore_marked_stone_prompt:1
 msgid "[Leave it alone.]"
-msgstr ""
+msgstr "[Deixa-a em paz.]"
 
 #: conversationlist_mt_galmore2.json:galmore_marked_stone_10
 msgid ""
@@ -72023,7 +72029,7 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:mg2_andor1_10
 msgid "Hey! Ho $playername!"
-msgstr ""
+msgstr "Hei! Ho $playername!"
 
 #: conversationlist_mt_galmore2.json:mg2_andor1_10:0
 msgid "What ...?!"
@@ -72185,7 +72191,7 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:ruetmaple_22:0
 msgid "Hey, don't push."
-msgstr ""
+msgstr "Ei, não empurres."
 
 #: conversationlist_mt_galmore2.json:ruetmaple_22:1
 msgid "I'll take your word for it."
@@ -72249,7 +72255,7 @@ msgstr "De acorrrdo."
 #: conversationlist_mt_galmore2.json:mg2_wolves_10:1
 #: conversationlist_mt_galmore2.json:mg2_wolves_10:2
 msgid "I am hungrrry."
-msgstr ""
+msgstr "Tenho foooome."
 
 #: conversationlist_mt_galmore2.json:mg2_wolves_20
 msgid "We can prrrovide you with good rrraw meat."
@@ -72380,7 +72386,7 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:mg2_cavea_memoirs_10
 msgid "Writing memoirs ..."
-msgstr ""
+msgstr "Escrever memórias ..."
 
 #: conversationlist_mt_galmore2.json:mg2_richman_10
 msgid "Oh, I know that look on their faces. Someone here wants to order something discreet."
@@ -72412,7 +72418,7 @@ msgstr "De Monte Galmore."
 
 #: conversationlist_mt_galmore2.json:mg2_richman_12e
 msgid "No ... WHAT?!!"
-msgstr ""
+msgstr "Não ... O QUÊ?!!"
 
 #: conversationlist_mt_galmore2.json:mg2_richman_12e:0
 msgid "Of Mt.Galmore. Well, if you don't want to do it..."
@@ -72468,7 +72474,7 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:mg2_richman_20:0
 msgid "It's just perfect."
-msgstr ""
+msgstr "É simplesmente perfeito."
 
 #: conversationlist_mt_galmore2.json:mg2_cave_place_crystal_10
 msgid "Behold - the room of the seeing stones."
@@ -72735,7 +72741,7 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:mg_myrelis_illusion_what_was_that_20:0
 msgid "I liked it!"
-msgstr ""
+msgstr "Eu gostei!"
 
 #: conversationlist_mt_galmore2.json:mg_myrelis_illusion_you_did_that_10
 msgid "No, no, no. An artist never reveals the \"how.\" The methods are nothing compared to the grandeur of the art itself. Let's not tarnish the magic by pulling back the curtain, shall we?"
@@ -72755,7 +72761,7 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:mg_myrelis_vaelric_10
 msgid "Sure, ask away."
-msgstr ""
+msgstr "Claro, pergunta o que quiseres."
 
 #: conversationlist_mt_galmore2.json:mg_myrelis_vaelric_10:0
 #: conversationlist_mt_galmore2.json:mg_myrelis_vaelric_5:0
@@ -72785,7 +72791,7 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:vaelric_graveyard_30
 msgid "What?! Which one?"
-msgstr ""
+msgstr "O quê?! Qual deles?"
 
 #: conversationlist_mt_galmore2.json:vaelric_graveyard_30:0
 msgid "The northwest one near the river."
@@ -72920,7 +72926,7 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:mg_eryndor_give_items_10:0
 msgid "I already did."
-msgstr ""
+msgstr "Eu já fiz."
 
 #: conversationlist_mt_galmore2.json:mg_eryndor_give_items_10:1
 msgid "What does that mean, \"friends\"?"
@@ -73333,7 +73339,7 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:sullengard_godrey_celdar:0
 msgid "Oh, OK, thanks."
-msgstr ""
+msgstr "Ah, OK, obrigado."
 
 #: conversationlist_mt_galmore2.json:sullengard_town_clerk_celdar_10
 msgid "Oh, how can I help you? It's not Mayor Ale is it?"
@@ -73504,7 +73510,7 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:galmore_66_house_journal_1:1
 msgid "I've had enough."
-msgstr ""
+msgstr "Já tive o suficiente."
 
 #: conversationlist_mt_galmore2.json:galmore_66_house_journal_2
 msgid ""
@@ -73581,7 +73587,7 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:galmore_58_h1_drop_1:7
 #: conversationlist_mt_galmore2.json:galmore_58_h1_drop_41:0
 msgid "Drop a rock."
-msgstr ""
+msgstr "Deixa cair uma pedra."
 
 #: conversationlist_mt_galmore2.json:galmore_58_h1_drop:1
 msgid "I have no rocks to drop."
@@ -73810,11 +73816,11 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:stoutford_artist_welcome_16:0
 msgid "Are you from..."
-msgstr ""
+msgstr "Tu és de..."
 
 #: conversationlist_mt_galmore2.json:stoutford_artist_welcome_16:1
 msgid "I understand that."
-msgstr ""
+msgstr "Eu percebo isso."
 
 #: conversationlist_mt_galmore2.json:vaelric_restless_grave_found_clues_10:0
 msgid "I found this broken bell and a music box. [Show Vaelric.]"
@@ -77881,7 +77887,7 @@ msgstr ""
 
 #: itemlist_sullengard.json:shoe_dark_glory
 msgid "Treads of dark glory"
-msgstr ""
+msgstr "Passos de glória sombria"
 
 #: itemlist_sullengard.json:old_lady_ring
 msgid "Garnet whisper ring"
@@ -77889,7 +77895,7 @@ msgstr "Anel sussurrante granada"
 
 #: itemlist_sullengard.json:warrior_gloves
 msgid "Grips of the warrior"
-msgstr ""
+msgstr "Punhos do guerreiro"
 
 #: itemlist_sullengard.json:bronzed_gloves
 msgid "Bronzed grasps"
@@ -78962,7 +78968,7 @@ msgstr ""
 
 #: itemlist_mt_galmore2.json:corrupted_swamp_core
 msgid "Corrupted swamp core"
-msgstr ""
+msgstr "Núcleo do pântano corrupto"
 
 #: itemlist_mt_galmore2.json:corrupted_swamp_core:description
 msgid "A pulsating organ that seems to radiate dark energy, tainted by the swamp's corruption."
@@ -79006,7 +79012,7 @@ msgstr ""
 
 #: itemlist_mt_galmore2.json:vaelrics_empty_bottle
 msgid "Vaelric's empty bottle"
-msgstr ""
+msgstr "Garrafa vazia de Vaelric"
 
 #: itemlist_mt_galmore2.json:vaelrics_empty_bottle:description
 msgid "Use to collect pondslime extract"
@@ -79054,7 +79060,7 @@ msgstr ""
 
 #: itemlist_mt_galmore2.json:mg_music_box
 msgid "Mysterious music box"
-msgstr ""
+msgstr "Caixa de música misteriosa"
 
 #: itemlist_mt_galmore2.json:mg_music_box:description
 msgid "Its edges are worn smooth by time and athough dirt clings to its surface, you can see delicate carvings etched into the wood."
@@ -79070,7 +79076,7 @@ msgstr ""
 
 #: itemlist_mt_galmore2.json:vaelric_purging_wash
 msgid "Vaelric's purging wash"
-msgstr ""
+msgstr "Banho de purga de Vaelric"
 
 #: itemlist_mt_galmore2.json:vaelric_purging_wash:description
 msgid "A potent alchemical wash designed to counteract corrosive slime. Pour it over yourself to dissolve the toxic residue and cleanse your body."
@@ -79124,7 +79130,7 @@ msgstr "Emberwylde"
 
 #: itemlist_mt_galmore2.json:eel_meat
 msgid "Mountain eel meat"
-msgstr ""
+msgstr "Carne de enguia-montesa"
 
 #: itemlist_mt_galmore2.json:eel_meat:description
 msgid "A half-digested eel, possibly nutritious."
@@ -79140,7 +79146,7 @@ msgstr ""
 
 #: itemlist_mt_galmore2.json:laska_fur
 msgid "Laska blizz fur"
-msgstr ""
+msgstr "Pêlo de blizz de Laska"
 
 #: itemlist_mt_galmore2.json:laska_fur:description
 msgid "The warmest fur in all of Dhayavar."
@@ -79164,7 +79170,7 @@ msgstr ""
 
 #: itemlist_mt_galmore2.json:mg2_rewarded_book
 msgid "Booklet from Kealwea"
-msgstr ""
+msgstr "Livrete de Kealwea"
 
 #: itemlist_mt_galmore2.json:mg2_rewarded_book:description
 msgid ""
@@ -79204,7 +79210,7 @@ msgstr "Escudo de Blackwater"
 
 #: itemlist_mt_galmore2.json:page_from_unknown_book
 msgid "Unknown book passage"
-msgstr ""
+msgstr "Passagem de livro desconhecido"
 
 #: itemlist_mt_galmore2.json:page_from_unknown_book:description
 msgid ""
@@ -83278,7 +83284,7 @@ msgstr "Serpente da floresta de Sullengard"
 
 #: monsterlist_sullengard.json:sullengard_venom_snake_queen
 msgid "Queen Sullengard forest snake"
-msgstr ""
+msgstr "Cobra de floresta da Rainha Sullengard"
 
 #: monsterlist_sullengard.json:sull_red_forest_snake
 msgid "Sullengard red forest snake"
@@ -84324,7 +84330,7 @@ msgstr "Spearborn thrall"
 
 #: monsterlist_troubling_times.json:young_spearborn_thrall
 msgid "Young spearborn thrall"
-msgstr ""
+msgstr "Jovem servo de spearborn"
 
 #: monsterlist_darknessanddaylight.json:dds_miri
 #, fuzzy
@@ -84374,7 +84380,7 @@ msgstr "Filho da Leta"
 
 #: monsterlist_mt_galmore2.json:dark_spirit_minion
 msgid "Dark spirit minion"
-msgstr ""
+msgstr "Ajudante de espírito sombrio"
 
 #: monsterlist_mt_galmore2.json:vaelric
 #, fuzzy
@@ -84383,7 +84389,7 @@ msgstr "Vaelric"
 
 #: monsterlist_mt_galmore2.json:venomous_swamp_creature
 msgid "Venomous swamp creature"
-msgstr ""
+msgstr "Criatura do pântano venenosa"
 
 #: monsterlist_mt_galmore2.json:crocodilian_behemoth
 msgid "Crocodilian behemoth"
@@ -84421,7 +84427,7 @@ msgstr "Observador"
 
 #: monsterlist_mt_galmore2.json:mg2_troll
 msgid "Sleepy giant ogre"
-msgstr ""
+msgstr "Ogre gigante adormecido"
 
 #: monsterlist_mt_galmore2.json:ruetmaple
 msgid "Ruetmaple"
@@ -84445,7 +84451,7 @@ msgstr "Myrelis"
 
 #: monsterlist_mt_galmore2.json:orphaned_warg_pup
 msgid "Orphaned warg pup"
-msgstr ""
+msgstr "Cachorro de warg orfão"
 
 #: monsterlist_mt_galmore2.json:warg
 msgid "Warg"
@@ -84453,7 +84459,7 @@ msgstr "Warg"
 
 #: monsterlist_mt_galmore2.json:mg2_wolves_pup
 msgid "Galmore wolf's pup"
-msgstr ""
+msgstr "cachorro de lobo de Galmore"
 
 #: monsterlist_mt_galmore2.json:mg2_wolves
 msgid "Galmore wolf"
@@ -84480,8 +84486,9 @@ msgid "Agile aroughcun"
 msgstr "Aroughcun ágil"
 
 #: monsterlist_mt_galmore2.json:scardy_aroughcun
+#, fuzzy
 msgid "Scardy aroughcun"
-msgstr ""
+msgstr "Scardy aroughcun"
 
 #: monsterlist_mt_galmore2.json:snapmaw
 msgid "Snapmaw"
@@ -84513,7 +84520,7 @@ msgstr "Pyrelimg beemote"
 
 #: monsterlist_mt_galmore2.json:mt_bridge_bogling
 msgid "Mountain bridge bogling"
-msgstr ""
+msgstr "Bogling da ponte da montanha"
 
 #: monsterlist_mt_galmore2.json:glacibite
 msgid "Glacibite"
@@ -84543,7 +84550,7 @@ msgstr "Aranha de poeira"
 
 #: monsterlist_mt_galmore2.json:young_spitfire_bug
 msgid "Young spitfire bug"
-msgstr ""
+msgstr "Bicho cospe-fogo jovem"
 
 #: monsterlist_mt_galmore2.json:harrowback
 msgid "Harrowback"
@@ -84577,11 +84584,11 @@ msgstr "Liana de encosta"
 
 #: monsterlist_mt_galmore2.json:agg_cyclopea_creeper
 msgid "Crimoculus Cyclopea creeper"
-msgstr ""
+msgstr "Rastejante Crimoculus Cyclopea"
 
 #: monsterlist_mt_galmore2.json:red_tree_ant
 msgid "Red tree ant"
-msgstr ""
+msgstr "formiga de árvore vermelha"
 
 #: monsterlist_mt_galmore2.json:thorny_vine_bottom
 msgid "Thorny vine"
@@ -84594,7 +84601,7 @@ msgstr "Egrinda"
 
 #: monsterlist_mt_galmore2.json:eagle
 msgid "Galmore sky hunter"
-msgstr ""
+msgstr "caçador de céu de Galmore"
 
 #: questlist.json:andor
 msgid "Search for Andor"
@@ -91201,7 +91208,7 @@ msgstr ""
 
 #: questlist_mt_galmore2.json:familiar_shadow
 msgid "A familiar shadow"
-msgstr ""
+msgstr "Uma sobre familiar"
 
 #: questlist_mt_galmore2.json:familiar_shadow:5
 msgid "In the devastated lands south of Stoutford, I found an ominous stone etched with strange symbols."
@@ -91237,7 +91244,7 @@ msgstr ""
 
 #: questlist_mt_galmore2.json:mg2_exploded_star
 msgid "The exploded star"
-msgstr ""
+msgstr "A estrela explodida"
 
 #: questlist_mt_galmore2.json:mg2_exploded_star:5
 msgid "Teccow wouldn't talk to me at the moment. I should get stronger and come back later."
@@ -91361,7 +91368,7 @@ msgstr ""
 
 #: questlist_mt_galmore2.json:swamp_healer
 msgid "The swamp healer"
-msgstr ""
+msgstr "O curandeiro do pântano"
 
 #: questlist_mt_galmore2.json:swamp_healer:10
 msgid "I encountered Vaelric, a reclusive healer living in the swamp between Mt. Galmore and Stoutford. He refused to help me unless I dealt with a dangerous creature corrupting his medicinal pools."
