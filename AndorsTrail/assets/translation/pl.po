@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-08-18 17:01+0000\n"
+"PO-Revision-Date: 2025-10-27 16:03+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -11,9 +11,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.13\n"
+"Plural-Forms: nplurals=3; plural="
+"(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -425,11 +425,11 @@ msgstr "Zatrucie otoczeniem"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
-msgstr "Słabość do słodyczy"
+msgstr "Przesłodzenie"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
-msgstr "Niewielka poprawa obrony"
+msgstr "Nieznaczna poprawa obrony"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
@@ -437,91 +437,99 @@ msgstr "Pokrzepienie Elythary"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
-msgstr "pijackie zamroczenie"
+msgstr "Zamroczenie"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark
 msgid "Pull of the mark"
-msgstr ""
+msgstr "Przyciąganie znaku"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark:description
 msgid "You feel an inexplicable pull toward something familiar, as if a piece of you is tethered to a distant past. An echo of guidance whispers faintly in your mind, urging you to seek clarity from those who once knew you best."
 msgstr ""
+"Czujesz jakiś niewytłumaczalny pociąg do czegoś znajomego, jakby jakaś "
+"cząstka Ciebie była przywiązana do czegoś w odległej przeszłości. Niewyraźne "
+"echo wskazówek szepcze w Twym umyśle, namawiając do szukania wyjaśnienia u "
+"tych, którzy poznali Cię najlepiej."
 
 #: actorconditions_mt_galmore2.json:potent_venom
 msgid "Potent venom"
-msgstr ""
+msgstr "Silny jad"
 
 #: actorconditions_mt_galmore2.json:burning
 msgid "Burning"
-msgstr ""
+msgstr "Płomienie"
 
 #: actorconditions_mt_galmore2.json:rockfall
 msgid "Rock fall"
-msgstr ""
+msgstr "Skalne osuwisko"
 
 #: actorconditions_mt_galmore2.json:swamp_foot
 msgid "Swamp foot"
-msgstr ""
+msgstr "Ugrzęźnięcie w bagnie"
 
 #: actorconditions_mt_galmore2.json:unsteady_footing
 msgid "Unsteady footing"
-msgstr ""
+msgstr "Rozchwianie"
 
 #: actorconditions_mt_galmore2.json:clinging_mud
 msgid "Clinging mud"
-msgstr ""
+msgstr "Oblepienie błotem"
 
 #: actorconditions_mt_galmore2.json:clinging_mud:description
 msgid "Thick mud clings to your legs, hindering your movements and making it harder to act swiftly or strike with precision."
 msgstr ""
+"Gęste błoto oblepia Ci nogi, spowalniając Twoje ruchy i utrudniając szybkie "
+"i dokładne działanie oraz wyprowadzenie celnych ciosów."
 
 #: actorconditions_mt_galmore2.json:cinder_rage
 msgid "Cinder rage"
-msgstr ""
+msgstr "Popiołowa wściekłość"
 
 #: actorconditions_mt_galmore2.json:frostbite
 msgid "Frostbite"
-msgstr ""
+msgstr "Odmrożenie"
 
 #: actorconditions_mt_galmore2.json:shadowsleep
 msgid "Shadow sleepiness"
-msgstr ""
+msgstr "Senność Cienia"
 
 #: actorconditions_mt_galmore2.json:petristill
 msgid "Petristill"
-msgstr ""
+msgstr "Utrwalenie"
 
 #: actorconditions_mt_galmore2.json:petristill:description
 msgid "A creeping layer of stone overtakes the infliced's form, dulling its reflexes but hardening its body against harm."
 msgstr ""
+"Powoli sunąca warstwa kamieni przykrywa postać dotkniętego, ograniczając "
+"jego ruchy lecz równocześnie chroniąc go przed zranieniem."
 
 #: actorconditions_mt_galmore2.json:divine_judgement
 msgid "Divine judgement"
-msgstr ""
+msgstr "Boski osąd"
 
 #: actorconditions_mt_galmore2.json:divine_punishment
 msgid "Divine punishment"
-msgstr ""
+msgstr "Kara boska"
 
 #: actorconditions_mt_galmore2.json:baited_strike
 msgid "Baited strike"
-msgstr ""
+msgstr "Nęcący cios"
 
 #: actorconditions_mt_galmore2.json:baited_strike:description
 msgid "An overcommitment to attacking that sharpens accuracy at the cost of defensive footing."
-msgstr ""
+msgstr "Nadmierne skupianie się na celności ataku kosztem własnej obrony."
 
 #: actorconditions_mt_galmore2.json:trapped
 msgid "Trapped"
-msgstr ""
+msgstr "Uwięzienie"
 
 #: actorconditions_mt_galmore2.json:splinter
 msgid "Splinter"
-msgstr ""
+msgstr "Odprysk"
 
 #: actorconditions_mt_galmore2.json:unstable_footing
 msgid "Unstable footing"
-msgstr ""
+msgstr "Chwiejny krok"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -577,6 +585,8 @@ msgstr "Tak, jestem tu aby dostarczyć zamówioną 'Pluszową poduszkę'. Ale po
 #: conversationlist_mikhail.json:mikhail_default:10
 msgid "I don't know...something feels wrong. I thought maybe you were in danger."
 msgstr ""
+"Nie wiem... czuję że coś jest nie tak. Myślałem, że jesteś w "
+"niebezpieczeństwie."
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
@@ -955,7 +965,7 @@ msgstr "Co?! Czy nie widzisz, że jestem zajęty? Idź pogadaj z kimś innym."
 
 #: conversationlist_crossglen.json:farm2:1
 msgid "What happened to Leta and Oromir?"
-msgstr ""
+msgstr "Co stało się z Letą i Oromirem?"
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
@@ -1390,7 +1400,7 @@ msgstr ""
 #: conversationlist_gorwath.json:arensia:5
 #: conversationlist_gorwath.json:arensia_1:0
 msgid "Hello."
-msgstr "Cześć"
+msgstr "Cześć."
 
 #: conversationlist_crossglen_leta.json:oromir2
 msgid "I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here."
@@ -2893,7 +2903,7 @@ msgstr "Undertell? Co to jest?"
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_quest_3:1
 msgid "Undertell? Is that where I could find a heartstone?"
-msgstr ""
+msgstr "Undertell? Czy tam znajdę Krwisty Kamień?"
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_quest_4
 #: conversationlist_mt_galmore2.json:nocmar_quest_4a
@@ -16141,7 +16151,7 @@ msgstr "Odnośnie tej 'Monety Prestiżu'..."
 
 #: conversationlist_gylew.json:gylew:6
 msgid "Hey. I need to go now and find this map."
-msgstr ""
+msgstr "Hej. Muszę już iść szukać tej mapy."
 
 #: conversationlist_gylew.json:gylew:7
 #: conversationlist_gylew.json:gylew:9
@@ -16149,6 +16159,8 @@ msgstr ""
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:9
 msgid "I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical."
 msgstr ""
+"Znalazłem te błyszczące monety w jamie pod studnią w wiosce Wexlow. "
+"Wyglądają jakby miały właściwości magiczne."
 
 #: conversationlist_gylew.json:gylew:8
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:8
@@ -30401,6 +30413,8 @@ msgstr "Czy naprawdę zamówiłeś tak brzydką figurkę z porcelany? Ups, przep
 #: conversationlist_stoutford_combined.json:odirath_0:6
 msgid "I have tried to open the southern castle gate, but the mechanism seems broken. Can you repair it?"
 msgstr ""
+"Chciałem otworzyć bramę na południowej stronie zamku, ale jej mechanizm "
+"wydaje się być zepsuty. Czy mógłbyś spróbować go naprawić?"
 
 #: conversationlist_stoutford_combined.json:odirath_1
 msgid "I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know more."
@@ -32203,22 +32217,27 @@ msgstr "Ech - no cóż, dziękuję."
 #: conversationlist_stoutford_combined.json:stn_southgate_10a
 msgid "The mechanism doesn't move. It seems to be broken. Maybe someone can fix it for me?"
 msgstr ""
+"Mechanizm ani drgnie. Wygląda na zepsuty. Może ktoś pomoże mi go naprawić?"
 
 #: conversationlist_stoutford_combined.json:stn_southgate_10b
 msgid "Oh, cool, Odirath seems to have repaired the mechanism already."
-msgstr ""
+msgstr "Och, cudownie. Wygląda na to, że Odirath naprawił już ten mechanizm."
 
 #: conversationlist_stoutford_combined.json:odirath_8a
 msgid "No, sorry. As long as there are still skeletons running around the castle, I can't work there."
 msgstr ""
+"Niestety nie, przykro mi. Dopóki po zamku będą kręcić się jakiekolwiek "
+"szkielety, ja nie pójdę tam pracować."
 
 #: conversationlist_stoutford_combined.json:odirath_8b
 msgid "I can do that as soon as my daughter is back here."
-msgstr ""
+msgstr "Zabiorę się za to jak tylko moja córka wróci tutaj."
 
 #: conversationlist_stoutford_combined.json:odirath_8c
 msgid "The gate mechanism is broken? No problem. Now that the skeletons are gone, I can fix it for you."
 msgstr ""
+"Mechanizm bramy jest zepsuty? To żaden problem. Skoro nie ma tam już żadnych "
+"szkieletów to mogę go spokojnie naprawić."
 
 #: conversationlist_bugfix_0_7_4.json:mountainlake0_sign
 msgid "You can see no way to descend the cliffs from here."
@@ -32963,7 +32982,7 @@ msgstr "Taka moja praca. Miło widzieć, że przeżyłaś spotkanie z kościogry
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10:2
 msgid "Hmm, maybe you can help me?"
-msgstr ""
+msgstr "Hmm, może Ty możesz mi pomóc?"
 
 #: conversationlist_omicronrg9.json:umar_guild_4b
 msgid "What have you decided?"
@@ -37424,7 +37443,7 @@ msgstr "[Rąbie drewno]"
 #: conversationlist_brimhaven.json:brv_woodcutter_0:0
 #: conversationlist_brimhaven.json:brv_farmer_girl_0:0
 msgid "Hello"
-msgstr ""
+msgstr "Witaj"
 
 #: conversationlist_brimhaven.json:brv_woodcutter_1
 msgid ""
@@ -53455,7 +53474,7 @@ msgstr "Nie jestem poszukiwaczem przygód a już na pewno nie wojownikiem."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_85:0
 msgid "Obviously."
-msgstr "To widać"
+msgstr "To widać."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_90
 msgid "I need someone willing and able. Will you go investigate the noise and stop it if it is a threat?"
@@ -83466,11 +83485,12 @@ msgstr "Unnmir powiedział mi, że niegdyś był poszukiwaczem przygód a zaraze
 msgid ""
 "Nocmar tells me he used to be a smith. But Lord Geomyr has banned the use of heartsteel, so he cannot forge his weapons anymore.\n"
 "If I can find a heartstone and bring it to Nocmar, he should be able to forge the heartsteel again."
-msgstr "[OUTDATED]"
-"Nocmar opowiedział mi, że niegdyś był kowalem. Ale odkąd Lord Geomyr zakazał używania Krwistej Stali, nie może już wykuwać swego oręża jak niegdyś.\n"
-"Jeśli znajdę i przyniosę mu Krwisty Kamień, to wtedy znów będzie w stanie wykuć Krwistą Stal.\n"
-"\n"
-"[Zadanie niemożliwe do ukończenia w tym momencie]"
+msgstr ""
+"Nocmar opowiedział mi, że niegdyś był kowalem. Ale odkąd Lord Geomyr zakazał "
+"używania Krwistej Stali, to nie może już wykuwać swego oręża tak jak robił "
+"to wcześniej.\n"
+"Jeśli znajdę i przyniosę mu Krwisty Kamień, to wtedy znów będzie w stanie "
+"wykuć Krwistą Stal."
 
 #: questlist.json:nocmar:30
 msgid "Nocmar, the Fallhaven smith said that I could find a heartstone in a place called Undertell which is somewhere near Galmore Mountain."
@@ -86167,11 +86187,11 @@ msgstr "Zaraz po dotarciu do Stoutford Gyra poznała drogę i pobiegła do ojca 
 
 #: questlist_stoutford_combined.json:stn_quest_gyra:70
 msgid "Odirath thanks you many thousand times."
-msgstr ""
+msgstr "Odirath był Ci bardzo wdzięczny."
 
 #: questlist_stoutford_combined.json:stn_quest_gyra:80
 msgid "Odirath had repaired the mechanism of the southern castle gate."
-msgstr ""
+msgstr "Odirath naprawił mechanizm w południowej bramie zamku."
 
 #: questlist_stoutford_combined.json:stn_quest_gyra:90
 msgid "Lord Berbane slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever."
@@ -89918,4 +89938,3 @@ msgstr ""
 #: worldmap.xml:world1:mt_bwm
 msgid "Blackwater Mountain"
 msgstr ""
-
