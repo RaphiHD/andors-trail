@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-10-28 20:02+0000\n"
+"PO-Revision-Date: 2025-10-30 04:25+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -6046,12 +6046,13 @@ msgstr "Jakich błogosławieństw możesz udzielać?"
 
 #: conversationlist_jolnor.json:jolnor_default_3:4
 msgid "About Fatigue and Life drain ..."
-msgstr ""
+msgstr "Tak apropo o zmęczeniu i utracie sił witalnych..."
 
 #: conversationlist_jolnor.json:jolnor_default_3:5
 #: conversationlist_talion.json:talion_0:10
 msgid "The blessing has worn off too early. Could you give it again?"
 msgstr ""
+"Błogosławieństwo wygasło zbyt szybko. Czy mógłbyś udzielić go raz jeszcze?"
 
 #: conversationlist_jolnor.json:jolnor_chapel_1
 msgid "This is Vilegard's place of worship for the Shadow. We praise the Shadow in all its might and glory."
@@ -12583,6 +12584,8 @@ msgstr "Powinienem mieczem przerwać Twoją gadkę."
 #: conversationlist_crossroads_2.json:celdar_4:3
 msgid "I'm here to give you a gift from Eryndor. He died, but I was told to give you something from him."
 msgstr ""
+"Przyszedłem tu po to, aby dać Ci prezent od Eryndora. Co prawda już nie "
+"żyje, ale poproszono mnie, abym to przekazał."
 
 #: conversationlist_crossroads_2.json:celdar_5
 msgid "Are you still around? Did you not listen to what I said?"
@@ -13394,7 +13397,7 @@ msgstr "O niczym nie zapomniałeś?"
 
 #: conversationlist_talion.json:talion_0:9
 msgid "Borvis said you could provide me with some information."
-msgstr ""
+msgstr "Borvis powiedział, że możesz mi udzielić pewnych informacji."
 
 #: conversationlist_talion.json:talion_1
 msgid "The people of Loneford are very keen on following the will of Feygard, whatever it may be."
@@ -38723,11 +38726,11 @@ msgstr "Nie, jeszcze niczego się nie dowiedziałem."
 
 #: conversationlist_brimhaven.json:mikhail_news_10:4
 msgid "I found Andor far north of here, at a fruit seller's stand."
-msgstr ""
+msgstr "Spotkałem Andora daleko na północ stąd, przy straganie z owocami."
 
 #: conversationlist_brimhaven.json:mikhail_news_10:5
 msgid "I found Andor far south of here, at Alynndir's house."
-msgstr ""
+msgstr "Spotkałem Andora daleko na południe stąd, obok domu Alynndira."
 
 #: conversationlist_brimhaven.json:mikhail_news_40
 msgid "Did you go to Nor City?"
@@ -39366,6 +39369,7 @@ msgstr "Witaj ponownie."
 #: conversationlist_brimhaven.json:brv_fortune_back_10
 msgid "Welcome back. I see that you bring me interesting things that have fallen from the sky."
 msgstr ""
+"Witaj ponownie. Widzę, że przynosisz mi ciekawe rzeczy, które spadły z nieba."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_10:1
 msgid "The pieces that I have found in the area of Mt. Galmore? Yes, I have them with me."
@@ -39382,6 +39386,8 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_20
 msgid "You can't do anything useful with them. Give them to me and I'll give you a kingly reward."
 msgstr ""
+"Nie będziesz miał z nich żadnego pożytku. Daj mi je, a ja szczodrze Ci to "
+"wynagrodzę."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20:0
 msgid "Here, you can have them for the greater glory."
@@ -39389,7 +39395,7 @@ msgstr ""
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20:1
 msgid "Really? What can you offer?"
-msgstr ""
+msgstr "Naprawdę? Co możesz zaoferować?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_30
 msgid "Thank you. Very wise of you. Indeed. Let - your - wisdom - grow ..."
@@ -39442,7 +39448,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68:0
 #: conversationlist_brimhaven.json:brv_fortune_back_69:0
 msgid "Sounds great - I choose this one. [Touch the item]"
-msgstr ""
+msgstr "To interesujące – wybieram ten. [Dotykasz przedmiotu]"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61:1
 #: conversationlist_brimhaven.json:brv_fortune_back_62:1
@@ -39451,7 +39457,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68:1
 #: conversationlist_brimhaven.json:brv_fortune_back_69:1
 msgid "Let me have a look at the other items."
-msgstr ""
+msgstr "Pozwól mi przyjrzeć się pozostałym przedmiotom."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61b
 #: conversationlist_brimhaven.json:brv_fortune_back_62b
@@ -39460,7 +39466,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68b
 #: conversationlist_brimhaven.json:brv_fortune_back_69b
 msgid "A good choice. Do you feel it already?"
-msgstr ""
+msgstr "Dobry wybór. Czujesz już coś?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61b:0
 #: conversationlist_brimhaven.json:brv_fortune_back_62b:0
@@ -39469,7 +39475,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68b:0
 #: conversationlist_brimhaven.json:brv_fortune_back_69b:0
 msgid "Wow - yes! Thank you."
-msgstr ""
+msgstr "Tak! Dziękuję Ci."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_62
 msgid "Wanderer's Vitality. You carry the strength of the sky inside you. After touching this item, you will begin to learn how to improve your overall health faster."
@@ -53108,7 +53114,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:mg2_kealwea_2:3
 msgid "I am $playername."
-msgstr ""
+msgstr "Jestem $playername."
 
 #: conversationlist_sullengard.json:mg2_kealwea_2a
 msgid "Sorry, where are my manners?"
@@ -53131,16 +53137,20 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_10
 msgid "Ten fragments of that burning star scattered along Galmore's bones. They are still warm. Still ... humming."
 msgstr ""
+"Dziesięć fragmentów tej płonącej gwiazdy rozrzuconych po zboczach Galmore. "
+"Wciąż są ciepłe. Wciąż... brzęczą."
 
 #: conversationlist_sullengard.json:mg2_kealwea_10:1
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_10:1
 msgid "How do you know there are ten pieces?"
-msgstr ""
+msgstr "Skąd wiesz ze jest tam dziesięć kawałków?"
 
 #: conversationlist_sullengard.json:mg2_kealwea_10:2
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_10:2
 msgid "Ten tongues of light, each flickering in defiance of the dark."
 msgstr ""
+"Dziesięć języków światła, a każdy z nich migocze na przekór otaczającym go "
+"ciemnościom."
 
 #: conversationlist_sullengard.json:mg2_kealwea_11
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_11
