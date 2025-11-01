@@ -91,17 +91,17 @@ public final class SkillController {
 	}
 
 
-	private static boolean canLevelupSkillWithQuest(Player player, SkillInfo skill) {
+	static boolean canLevelupSkillWithQuest(Player player, SkillInfo skill, int levels) {
 		final int playerSkillLevel = player.getSkillLevel(skill.id);
 		if (skill.hasMaxLevel()) {
-			if (playerSkillLevel >= skill.maxLevel) return false;
+			if (playerSkillLevel + levels > skill.maxLevel) return false;
 		}
-		if (!skill.canLevelUpSkillTo(player, playerSkillLevel + 1)) return false;
+		if (!skill.canLevelUpSkillTo(player, playerSkillLevel + levels)) return false;
 		return true;
 	}
 	public static boolean canLevelupSkillManually(Player player, SkillInfo skill) {
 		if (!player.hasAvailableSkillpoints()) return false;
-		if (!canLevelupSkillWithQuest(player, skill)) return false;
+		if (!canLevelupSkillWithQuest(player, skill, 1)) return false;
 		if (skill.levelupVisibility == SkillInfo.LevelUpType.onlyByQuests) return false;
 		if (skill.levelupVisibility == SkillInfo.LevelUpType.firstLevelRequiresQuest) {
 			if (!player.hasSkill(skill.id)) return false;
@@ -114,7 +114,7 @@ public final class SkillController {
 		addSkillLevel(skill.id);
 	}
 	public boolean levelUpSkillByQuest(Player player, SkillInfo skill) {
-		if (!canLevelupSkillWithQuest(player, skill)) return false;
+		if (!canLevelupSkillWithQuest(player, skill, 1)) return false;
 		addSkillLevel(skill.id);
 		return true;
 	}

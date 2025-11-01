@@ -262,6 +262,7 @@ public final class ResourceLoader {
 		final Size sz7x1 = new Size(7, 1);
 		final Size sz7x4 = new Size(7, 4);
 		final Size sz8x3 = new Size(8, 3);
+		final Size sz8x4 = new Size(8, 4);
 		final Size sz16x8 = new Size(16, 8);
 		final Size sz16x10 = new Size(16, 10);
 		final Size sz20x12 = new Size(20, 12);
@@ -381,7 +382,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_fatboy73, "monsters_fatboy73", sz20x12, sz1x1, mTileSize);
         loader.prepareTileset(R.drawable.monsters_giantbasilisk, "monsters_giantbasilisk", sz1x1, sz2x2, mTileSize);
         loader.prepareTileset(R.drawable.monsters_gisons, "monsters_gisons", new Size(8, 2), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.monsters_bosses_2x2, "monsters_bosses_2x2", sz1x1, sz2x2, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_bosses_2x2, "monsters_bosses_2x2", sz8x4, sz2x2, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_omi2, "monsters_omi2", sz8x3, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_phoenix01, "monsters_phoenix01", sz16x8, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_cats, "monsters_cats", new Size(10, 2), sz1x1, mTileSize);
@@ -427,6 +428,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_house_2, "map_house_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_indoor_1, "map_indoor_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_indoor_2, "map_indoor_2", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_items, "map_items", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_kitchen_1, "map_kitchen_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_outdoor_1, "map_outdoor_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_outdoor_2, "map_outdoor_2", mapTileSize, sz1x1, mTileSize);

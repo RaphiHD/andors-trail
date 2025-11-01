@@ -56,7 +56,7 @@ public final class ShopItemContainerAdapter extends ArrayAdapter<ItemEntry> {
 		} else {
 			int price = ItemController.getBuyingPrice(player, itemType);
 			b.setText(r.getString(R.string.shop_buyitem, price));
-			b.setEnabled(ItemController.canAfford(player, price));
+			b.setEnabled(price > 0 && ItemController.canAfford(player, price));
 		}
 		b.setOnClickListener(new OnClickListener() {
 			@Override
