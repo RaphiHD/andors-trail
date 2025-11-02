@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-10-30 04:25+0000\n"
+"PO-Revision-Date: 2025-11-03 07:51+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -10369,6 +10369,8 @@ msgstr "Widzisz te kraty? One wytrzymają praktycznie wszystko."
 #: conversationlist_prim_merchants.json:prim_treasury_guard:1
 msgid "Guthbered said I could choose anything from the vault. So let me in."
 msgstr ""
+"Guthbered powiedział, że mogę wybrać cokolwiek ze skarbca. A zatem wpuść "
+"mnie do środka."
 
 #: conversationlist_prim_merchants.json:prim_acolyte
 msgid "When my training is complete, I will be one of the greatest healers around!"
@@ -10398,68 +10400,78 @@ msgstr "Witaj wędrowcze. Czy przybyłeś tu może po to, aby uzyskać pomoc moj
 
 #: conversationlist_prim_merchants.json:prim_treasure_door
 msgid "These bars will hold against almost anything indeed."
-msgstr ""
+msgstr "Te pręty w rzeczy samej wytrzymają niemal wszystko."
 
 #: conversationlist_prim_merchants.json:prim_treasure_door:0
 msgid "Let's try the key."
-msgstr ""
+msgstr "No to spróbujmy przy pomocy klucza."
 
 #: conversationlist_prim_merchants.json:prim_treasure_bigheap
 msgid "This heap of gold is a big too much even for you."
-msgstr ""
+msgstr "Ta sterta złota jest o wiele za duża, nawet dla Ciebie."
 
 #: conversationlist_prim_merchants.json:prim_treasure_bigheap_10
 msgid "Furthermore, the people of Prim would be happy if you didn't take all their gold."
 msgstr ""
+"Co więcej, mieszkańcy Prim byliby naprawdę szczęśliwi, gdybyś nie zabrał im "
+"całego złota."
 
 #: conversationlist_prim_merchants.json:prim_treasure_door_10
 msgid "Cling!"
-msgstr ""
+msgstr "Klik!"
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_10
 msgid "He said so? [His piercing gaze unsettles you.]"
 msgstr ""
+"Ach, naprawdę tak powiedział? "
+"[Jego przenikliwe spojrzenie budzi Twój niepokój.]"
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_10:0
 msgid "Y... yes."
-msgstr ""
+msgstr "No... tak."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_20
 msgid "Nice try, kid. Now go play again."
-msgstr ""
+msgstr "To było niezłe. A teraz idź się pobawić."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_20:1
 msgid "Play? I'm going to play - with you!"
-msgstr ""
+msgstr "Zabawa? Tak, zamierzam pobawić się - ale z Tobą!"
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2
 msgid "Well, well, well."
-msgstr ""
+msgstr "Dobrze, niech będzie."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2:0
 msgid "Eh, you look bigger than before. And stronger."
 msgstr ""
+"Ech, wyglądasz na jeszcze większego niż byłeś wcześniej. I do tego nieco "
+"silniejszego."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_10
 msgid "It's a good thing I noticed my colleague has left his post. He was pretty weak anyway."
 msgstr ""
+"Dobrze, że w porę zauważyłem jak mój kolega opuszcza swój posterunek. "
+"Chociaż w sumie to i tak jest dość słaby."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_10:0
 msgid "Listen, we could avoid some trouble. I'll give you 200 gold pieces if you let me pass."
 msgstr ""
+"Słuchaj, myślę że moglibyśmy spokojnie uniknąć pewnych kłopotów. Dam ci 200 "
+"złotych monet jeśli mnie przepuścisz."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_20
 msgid "Make it 2000, then we have a deal."
-msgstr ""
+msgstr "Daj 2000 i jesteśmy dogadani."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_20:0
 #: conversationlist_feygard_1.json:boat0_a:0
 msgid "OK, here."
-msgstr ""
+msgstr "Dobra, bierz."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_20:1
 msgid "Forget it. Prepare to die!"
-msgstr ""
+msgstr "Nie ma mowy. Przygotuj się na śmierć!"
 
 #: conversationlist_blackwater_throdna.json:throdna_1
 msgid "Kazaul ... Shadow ... what was it again?"
@@ -39422,14 +39434,15 @@ msgstr "Witaj ponownie. Widzę, że przynosisz mi ciekawe rzeczy, które spadły
 #: conversationlist_brimhaven.json:brv_fortune_back_10:1
 msgid "The pieces that I have found in the area of Mt. Galmore? Yes, I have them with me."
 msgstr ""
+"Fragmenty które znalazłem w okolicach Góry Galmore? Tak, mam je przy sobie."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_12
 msgid "Sigh. I know many things. How often do I still have to prove it?"
-msgstr ""
+msgstr "Ech. Wiem całkiem sporo. Jak często muszę to jeszcze udowadniać?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_12:0
 msgid "Well, OK. What about my fallen stones collection?"
-msgstr ""
+msgstr "No dobrze. A co z moją kolekcją spadających z nieba kamieni?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20
 msgid "You can't do anything useful with them. Give them to me and I'll give you a kingly reward."
@@ -39437,7 +39450,7 @@ msgstr "Nie będziesz miał z nich żadnego pożytku. Daj mi je, a ja szczodrze 
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20:0
 msgid "Here, you can have them for the greater glory."
-msgstr ""
+msgstr "Masz, weź je i niech Ci dobrze służą."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20:1
 msgid "Really? What can you offer?"
@@ -39446,18 +39459,22 @@ msgstr "Naprawdę? Co możesz zaoferować?"
 #: conversationlist_brimhaven.json:brv_fortune_back_30
 msgid "Thank you. Very wise of you. Indeed. Let - your - wisdom - grow ..."
 msgstr ""
+"Dziękuję. To bardzo mądry wybór. W rzeczy samej. Niech - Twoja - mądrość - "
+"rośnie..."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_30:0
 msgid "I already feel it."
-msgstr ""
+msgstr "Już to czuję."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_50
 msgid "Look here in my chest with my most valuable items, that could transfer their powers to you."
 msgstr ""
+"Spójrz tutaj, to jest skrzynia z moimi najcenniejszymi przedmiotami, które "
+"to mogą przekazać Ci swą moc."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52
 msgid "Which one do you want to learn more about?"
-msgstr ""
+msgstr "O którym z nich chciałbyś dowiedzieć się czegoś więcej?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:0
 msgid "Gem of star precision"
@@ -53290,7 +53307,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:6
 msgid "I need some help of the local priest."
-msgstr ""
+msgstr "Potrzebuję pomocy miejscowego kapłana."
 
 #: conversationlist_sullengard.json:mg2_kealwea_25
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_25
@@ -69556,6 +69573,8 @@ msgstr ""
 #: conversationlist_darknessanddaylight.json:dds_miri_210:0
 msgid "When I was at the Blackwater settlement, I had used this, on the guidance of Throdna, as part of purifying the Kazaul shrine."
 msgstr ""
+"Gdy przebywałem w osadzie Blackwater, za radą Throdny wykorzystałem to jako "
+"fragment rytuału oczyszczenia świątyni Kazaula."
 
 #: conversationlist_darknessanddaylight.json:dds_miri_220
 msgid "That is bad news indeed. We must act."
@@ -72502,6 +72521,10 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:vaelric_restless_grave_found_clue_10
 msgid "Interesting, but not helpful. Go back and search for something useful. It makes sense if you search close by to where you found this other item. And don't keep running back to me every time you find something so mundane."
 msgstr ""
+"Ciekawe, ale zupełnie nieprzydatne. Wróć tam i poszukaj czegoś konkretnego. "
+"Rozsądnie by było, gdybyś udał się w pobliże miejsca, w którym znalazłeś ten "
+"inny przedmiot. I jeszcze jedno - nie wracaj do mnie za każdym razem, gdy "
+"znajdziesz coś tak banalnego."
 
 #: conversationlist_mt_galmore2.json:galmore_47_graveyard_sh_completed
 #: conversationlist_mt_galmore2.json:galmore_47_graveyard_sh_not_completed
@@ -72673,10 +72696,12 @@ msgstr ""
 #: conversationlist_next_release.json:galmore_rg_bell_found_first
 msgid "For some reason, you strongly suspect that this item is just the beginning."
 msgstr ""
+"Z jakiegoś powodu masz silne przeczucie, że ten przedmiot to dopiero "
+"początek."
 
 #: conversationlist_next_release.json:galmore_rg_both_items_found
 msgid "You begin to wonder why these items have been dropped."
-msgstr ""
+msgstr "Zaczynasz się zastanawiać, dlaczego te przedmioty zostały porzucone."
 
 #: itemcategories_1.json:dagger
 msgid "Dagger"
@@ -73543,7 +73568,7 @@ msgstr "Zakrwawione rękawice"
 
 #: itemlist_v069_2.json:prim_treasure_key
 msgid "Prim treasury key"
-msgstr ""
+msgstr "Klucz do skarbca w Prim"
 
 #: itemlist_v0610_1.json:gloves_critical
 msgid "Assassin's gloves"
@@ -78909,7 +78934,7 @@ msgstr "Mag z Blackwater"
 
 #: monsterlist_v069_npcs.json:prim_treasury_guard2
 msgid "Strong Prim treasury guard"
-msgstr ""
+msgstr "Mocarny strażnik skarbca Prim"
 
 #: monsterlist_v0610_monsters1.json:young_larval_burrower
 msgid "Young larval burrower"
@@ -86179,11 +86204,11 @@ msgstr "Był bardzo rozczarowany moim słabiutkim wynikiem."
 
 #: questlist_stoutford_combined.json:stn_colonel:171
 msgid "He was pretty impressed with my excellent result."
-msgstr ""
+msgstr "Był pod wrażeniem mojego doskonałego wyniku."
 
 #: questlist_stoutford_combined.json:stn_colonel:172
 msgid "My result confirmed his relatively low expectations."
-msgstr "[OUTDATED]Mój wynik potwierdził jego stosunkowo niskie oczekiwania."
+msgstr "Mój wynik potwierdził jego stosunkowo niskie oczekiwania."
 
 #: questlist_stoutford_combined.json:stn_colonel:190
 msgid "Lutarc gave me a medallion as a present. There is a tiny little lizard on it, that looks completely real."
@@ -89370,10 +89395,14 @@ msgstr ""
 #: questlist_darknessanddaylight.json:darkness_in_daylight:70
 msgid "There was a piece of Kazaul ritual there, which I had encountered before. I should inform Miri."
 msgstr ""
+"Był tam fragment opisu rytuału Kazaula, z którym już się wcześniej "
+"zetknąłem. Powinienem poinformować o tym Miri."
 
 #: questlist_darknessanddaylight.json:darkness_in_daylight:80
 msgid "Miri asked me where I had seen this before. I told her about a task I had carried out on behalf of Throdna of the Blackwater settlement."
 msgstr ""
+"Miri zapytała mnie, gdzie już coś takiego widziałem. Opowiedziałem jej o "
+"zadaniu, które wykonałem dla Throdny z osady Blackwater."
 
 #: questlist_darknessanddaylight.json:darkness_in_daylight:90
 msgid "Miri told me to meet him and enquire further. And gave me a phrase to use whenever he started rambling."
@@ -89386,6 +89415,9 @@ msgstr ""
 #: questlist_darknessanddaylight.json:darkness_in_daylight:110
 msgid "The ritual consisted of two parts which I had found earlier, and a chant in a book called Calomyran Secrets. I need to report this to Miri."
 msgstr ""
+"Rytuał składa się z dwóch części, których opisy znalazłem wcześniej oraz z "
+"pieśni zawartej w książce zatytułowanej „Sekrety Calomyrana”. Muszę to "
+"przekazać Miri."
 
 #: questlist_darknessanddaylight.json:darkness_in_daylight:120
 msgid "I told Miri about finding the book for an Old Man in Fallhaven.  She told me to talk to him."
@@ -89978,4 +90010,3 @@ msgstr "Góra Galmore"
 #: worldmap.xml:world1:mt_bwm
 msgid "Blackwater Mountain"
 msgstr "Góra Blackwater"
-
