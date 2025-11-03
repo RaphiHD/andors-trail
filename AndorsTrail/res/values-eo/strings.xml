@@ -101,7 +101,7 @@
     <string name="dialog_monsterencounter_message">Ĉu vi volas ataki\?
 \nMalfacileco: %1$s</string>
     <string name="rip_startscreen">(Ripozu en Paco)</string>
-    <string name="dialog_game_over_title">La ludo finiĝis</string>
+    <string name="dialog_game_over_title">Ludo finita</string>
     <string name="dialog_more">Pli</string>
     <string name="dialog_close">Fermi</string>
     <string name="dialog_recenter">Recentrigi</string>
@@ -274,12 +274,12 @@
     <string name="iteminfo_effect_works_on_source">Sur fonto</string>
     <string name="iteminfo_effect_works_on_target">Sur celo</string>
     <string name="iteminfo_effect_works_on_attacker">Sur atakanto</string>
-    <string name="iteminfo_effect_works_when_hitting_target">Kiom trafante celon</string>
+    <string name="iteminfo_effect_works_when_hitting_target">Kiam trafante celon</string>
     <string name="iteminfo_effect_works_when_killing_target">Sur ĉiu mortigo</string>
     <string name="iteminfo_effect_works_when_used">Kiam uzate</string>
     <string name="iteminfo_effect_works_when_equipped">Kiam ekipite</string>
     <string name="iteminfo_effect_works_when_hit_by_attacker">Kiam batite de atakanto</string>
-    <string name="iteminfo_effect_works_when_killed_by_attacker">Kiam mortigita de atakanto</string>
+    <string name="iteminfo_effect_works_when_killed_by_attacker">Kiam mortigita de la atakanto</string>
     <string name="iteminfo_effect_decrease_current_hp">Drenas %1$s HP</string>
     <string name="iteminfo_effect_increase_current_hp">Restarigas %1$s HP</string>
     <string name="iteminfo_effect_increase_max_ap">Levigas maksiman AP +%1$d</string>
@@ -495,4 +495,24 @@
     <string name="inventory_movebottom">Movi al la malsupro</string>
     <string name="actorinfo_immune_criticals">Imuna al kritikaj trafaj</string>
     <string name="iteminfo_displaytypes_quest">Misia objekto</string>
+    <string name="iteminfo_effect_works_when_missing_target">Kiam maltrafante celon</string>
+    <string name="iteminfo_effect_works_when_missed_by_attacker">Kiam maltrafante de la atakanto</string>
+    <string name="skill_title_shadow_bless">Malluma Beno de la Ombro</string>
+    <string name="shoplist_sort_price">Prezo</string>
+    <string name="shoplist_sort_quantity">Kvanto</string>
+    <string name="shoplist_sort_rarity">Raraĵo</string>
+    <string name="skill_category_offense">Atako</string>
+    <string name="skill_category_defense">Defendo</string>
+    <string name="skill_category_criticals">Kritikoj</string>
+    <string name="skill_category_utility">Utilo</string>
+    <string name="skill_category_speciality">Specialaĵo</string>
+    <string name="skill_category_proficiency">Lerteco</string>
+    <string name="skill_sort_unsorted">Nesortita</string>
+    <string name="preferences_display_theme">Elektu UI-temon. (restartigo necesas)</string>
+    <string name="preferences_ui_category">Interfaco</string>
+    <string name="preferences_ui_enable_animations_title">Ebligu animaciojn</string>
+    <string name="preferences_ui_enable_animations">Montru animaciojn por diversaj elementoj de la interfaco, ekzemple la batalbreto.</string>
+    <string name="inventory_equip_offhand">Ekiĝu (maldekstra mano)</string>
+    <string name="iteminfo_effect_increase_reequip_cost">Plialtigas la AP-koston de ekigi objektojn en batalo je %1$d AP</string>
+    <string name="iteminfo_effect_decrease_reequip_cost">Malaltigas la AP-koston de ekigi objektojn en batalo je %1$d AP</string>
 </resources>
