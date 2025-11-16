@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-11-16 09:51+0000\n"
+"PO-Revision-Date: 2025-11-17 20:51+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pl/>\n"
@@ -61219,7 +61219,7 @@ msgid ""
 msgstr ""
 "Przez wiele lat jego rodzina udzielała schronienia okolicznym mieszkańcom, a "
 "nawet zbudowała wieżę obserwacyjną na szczycie góry na południe stąd, by "
-"wypatrywać zbliżających się zagrożeń. \n"
+"wypatrywać zbliżających się zagrożeń.\n"
 "W zamian za to, miejscowi zaopatrywali dwór w żywność."
 
 #: conversationlist_laeroth.json:moriath_history_5:0
@@ -61243,47 +61243,62 @@ msgid "Anyway, Remgard was far from any enemies, and easily defended, so the isl
 msgstr ""
 "Tak czy inaczej, Remgard znajdował się daleko od wrogów i był stosunkowo "
 "łatwy do obrony, więc wyspy na jeziorze nie miały już większego znaczenia, a "
-"w dodatku były tam problemy z zaopatrzeniem."
+"w dodatku miały pewne problemy z pozyskaniem zaopatrzenia."
 
 #: conversationlist_laeroth.json:moriath_history_8
 msgid "With no place to grow food on the islands most of the staff left. The last lord that resided here had only one son, and when the lord died his son abandoned the manor and left to look for other opportunities."
 msgstr ""
+"Na wyspach brakowało miejsca na pola uprawne, więc większość zamieszkujących "
+"tu ludzi opuściła je przy pierwszej okazji. Ostatni władca, który tu "
+"mieszkał, miał tylko jednego syna, który po śmierci ojca również opuścił "
+"zamek i wyruszył w poszukiwaniu lepszego życia."
 
 #: conversationlist_laeroth.json:moriath_history_8:0
 msgid "So if the son has left, why do you stay here?"
 msgstr ""
+"Skoro nawet syn władcy stąd odszedł, to co sprawiło, że Ty tu pozostałeś?"
 
 #: conversationlist_laeroth.json:moriath_history_8:1
 msgid "Thanks for the history lesson. I need to leave, and look for my brother."
-msgstr ""
+msgstr "Dziękuję za lekcję historii. Muszę już iść i dalej szukać brata."
 
 #: conversationlist_laeroth.json:moriath_caretaker_5
 msgid "The only thing that would help is for me to be released from the oath."
-msgstr ""
+msgstr "Jedyne co mogłoby mi pomóc, to uwolnienie mnie ze złożonej przysięgi."
 
 #: conversationlist_laeroth.json:moriath_caretaker_5:0
 msgid "Who can do that?"
-msgstr ""
+msgstr "A kto mógłby to zrobić?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_6
 msgid "The current lord, of course. But he has gone. I do not know his whereabouts, or even if he is still alive. If I knew he was deceased I would consider the oath void, but I do not know that."
 msgstr ""
+"Obecny władca, rzecz jasna. Ale jego tu nie ma. A ja nie wiem, gdzie obecnie "
+"przebywa, i czy w ogóle jeszcze żyje. Gdybym miał pewność, że jest martwy, "
+"to mógłbym uznać przysięgę za nieważną, ale przy takim stanie rzeczy nie "
+"mogę z tym nic zrobić."
 
 #: conversationlist_laeroth.json:moriath_caretaker_6:0
 msgid "There is nobody else?"
-msgstr ""
+msgstr "Nikogo więcej tu nie ma?"
 
 #: conversationlist_laeroth.json:moriath_caretaker_7
 msgid "Any of the past lords Laeroth could release me from the oath. But, like my great-great grandfather, they are long dead. Their graves are in the tomb on the far island. So unless you can talk to the dead, they will be of no help."
 msgstr ""
+"Każdy z dawnych władców Laeroth mógłby mnie uwolnić ze złożonej przysięgi. "
+"Ale oni, podobnie jak mój prapradziadek, już dawno nie żyją. Ich mogiły "
+"znajdują się w grobowcu na odległej wyspie. Więc dopóki nie nauczysz się "
+"rozmawiać ze zmarłymi, to nie pomogą Ci w żaden sposób."
 
 #: conversationlist_laeroth.json:moriath_caretaker_7:0
 msgid "How can I talk to the dead?"
-msgstr ""
+msgstr "Jak mogę porozmawiać ze zmarłymi?"
 
 #: conversationlist_laeroth.json:book_not_found_1
 msgid "You look through the shelves, but there does not seem to be anything that would help you here."
 msgstr ""
+"Przeszukujesz wszystkie półki, ale nie znajdziesz na nich niczego, co "
+"mogłoby Ci pomóc."
 
 #: conversationlist_laeroth.json:book_found_1
 msgid "You look through the shelves, and one book catches your eye. \"A Treatise on Ghosts and Other Undead\". Maybe this has the information you seek."
