@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-07-25 22:31+0000\n"
-"Last-Translator: Hodex99 <anonymoushodex@proton.me>\n"
+"PO-Revision-Date: 2025-11-27 05:01+0000\n"
+"Last-Translator: Mubin M galih <mubinmuhammad002@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/id/>\n"
 "Language: id\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -393,7 +393,7 @@ msgstr "Belitan akar"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr "Rabies"
+msgstr "rabies"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
@@ -429,7 +429,7 @@ msgstr "Keracunan lingkungan"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
-msgstr "Sweet tooth"
+msgstr "sweet tooth"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
@@ -445,19 +445,23 @@ msgstr "Penglihatan buram"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark
 msgid "Pull of the mark"
-msgstr ""
+msgstr "Tarik tandanya"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark:description
 msgid "You feel an inexplicable pull toward something familiar, as if a piece of you is tethered to a distant past. An echo of guidance whispers faintly in your mind, urging you to seek clarity from those who once knew you best."
 msgstr ""
+"Kamu merasakan tarikan yang tak terjelaskan ke arah sesuatu yang familier, "
+"seolah-olah sebagian dirimu terikat pada masa lalu yang jauh. Gema bimbingan "
+"berbisik samar di benakmu, mendesakmu untuk mencari kejelasan dari orang-"
+"orang yang paling mengenalmu."
 
 #: actorconditions_mt_galmore2.json:potent_venom
 msgid "Potent venom"
-msgstr ""
+msgstr "Racun yang ampuh"
 
 #: actorconditions_mt_galmore2.json:burning
 msgid "Burning"
-msgstr ""
+msgstr "Terbakar"
 
 #: actorconditions_mt_galmore2.json:rockfall
 msgid "Rock fall"
@@ -478,6 +482,8 @@ msgstr ""
 #: actorconditions_mt_galmore2.json:clinging_mud:description
 msgid "Thick mud clings to your legs, hindering your movements and making it harder to act swiftly or strike with precision."
 msgstr ""
+"Lumpur tebal menempel di kakimu, menghalangi gerakanmu dan membuatmu lebih "
+"sulit bertindak cepat atau menyerang dengan tepat."
 
 #: actorconditions_mt_galmore2.json:cinder_rage
 msgid "Cinder rage"
@@ -498,6 +504,8 @@ msgstr ""
 #: actorconditions_mt_galmore2.json:petristill:description
 msgid "A creeping layer of stone overtakes the infliced's form, dulling its reflexes but hardening its body against harm."
 msgstr ""
+"Lapisan batu yang menjalar menutupi bentuk yang terinfleksi, menumpulkan "
+"refleksnya tetapi memperkuat tubuhnya terhadap bahaya."
 
 #: actorconditions_mt_galmore2.json:divine_judgement
 msgid "Divine judgement"
@@ -514,6 +522,8 @@ msgstr ""
 #: actorconditions_mt_galmore2.json:baited_strike:description
 msgid "An overcommitment to attacking that sharpens accuracy at the cost of defensive footing."
 msgstr ""
+"Komitmen berlebihan dalam menyerang yang mempertajam akurasi dengan "
+"mengorbankan pijakan bertahan."
 
 #: actorconditions_mt_galmore2.json:trapped
 msgid "Trapped"
@@ -580,7 +590,7 @@ msgstr "Ya, aku kesini untuk mengantarkan 'Bantal Empuk' Tapi, buat apa?"
 
 #: conversationlist_mikhail.json:mikhail_default:10
 msgid "I don't know...something feels wrong. I thought maybe you were in danger."
-msgstr ""
+msgstr "Entahlah... ada yang salah. Kupikir mungkin kamu dalam bahaya."
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
@@ -959,7 +969,7 @@ msgstr "Apa?! Kau tidak lihat aku sedang sibuk? Ganggu yang lain saja sana."
 
 #: conversationlist_crossglen.json:farm2:1
 msgid "What happened to Leta and Oromir?"
-msgstr ""
+msgstr "Apa yang terjadi pada Leta dan Oromir?"
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
@@ -1394,7 +1404,7 @@ msgstr ""
 #: conversationlist_gorwath.json:arensia:5
 #: conversationlist_gorwath.json:arensia_1:0
 msgid "Hello."
-msgstr "Halo"
+msgstr "Halo."
 
 #: conversationlist_crossglen_leta.json:oromir2
 msgid "I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here."
@@ -2586,7 +2596,7 @@ msgstr "Ini dia sepuluh potong daging yang lezat."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_26
 msgid "Ohh ..."
-msgstr "Ohh ..."
+msgstr "Ohh..."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_26:0
 #: conversationlist_laeroth.json:gylew7a_1:1
@@ -2665,7 +2675,7 @@ msgstr "Terima kasih."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_30
 msgid "Oh, is that so? Hmm."
-msgstr "Oh, begitu ya? Hmm"
+msgstr "Oh, begitu ya? Hmm."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_30:0
 msgid "Yes. And you know it perfectly well."
@@ -2898,7 +2908,7 @@ msgstr "Undertell? Apa itu?"
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_quest_3:1
 msgid "Undertell? Is that where I could find a heartstone?"
-msgstr ""
+msgstr "Undertell? Di situkah aku bisa menemukan heartstone?"
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_quest_4
 #: conversationlist_mt_galmore2.json:nocmar_quest_4a
@@ -6046,7 +6056,7 @@ msgstr ""
 #: conversationlist_jolnor.json:jolnor_default_3:5
 #: conversationlist_talion.json:talion_0:10
 msgid "The blessing has worn off too early. Could you give it again?"
-msgstr ""
+msgstr "Berkah itu telah memudar terlalu cepat. Bisakah kau memberikannya lagi?"
 
 #: conversationlist_jolnor.json:jolnor_chapel_1
 msgid "This is Vilegard's place of worship for the Shadow. We praise the Shadow in all its might and glory."
@@ -10373,6 +10383,8 @@ msgstr "Lihat jeruji-jeruji disini? Mereka bisa tahan terhadap hampir semua hal.
 #: conversationlist_prim_merchants.json:prim_treasury_guard:1
 msgid "Guthbered said I could choose anything from the vault. So let me in."
 msgstr ""
+"Guthbered bilang aku boleh pilih apa saja dari brankas. Jadi, izinkan aku "
+"masuk."
 
 #: conversationlist_prim_merchants.json:prim_acolyte
 msgid "When my training is complete, I will be one of the greatest healers around!"
@@ -10402,19 +10414,21 @@ msgstr "Selamat datang pengelana. Apakah Kau datang untuk membeli ramuan aku?"
 
 #: conversationlist_prim_merchants.json:prim_treasure_door
 msgid "These bars will hold against almost anything indeed."
-msgstr ""
+msgstr "Batang ini dapat menahan hampir semua hal."
 
 #: conversationlist_prim_merchants.json:prim_treasure_door:0
 msgid "Let's try the key."
-msgstr ""
+msgstr "Mari coba kuncinya."
 
 #: conversationlist_prim_merchants.json:prim_treasure_bigheap
 msgid "This heap of gold is a big too much even for you."
-msgstr ""
+msgstr "Tumpukan emas ini terlalu banyak bahkan untukmu."
 
 #: conversationlist_prim_merchants.json:prim_treasure_bigheap_10
 msgid "Furthermore, the people of Prim would be happy if you didn't take all their gold."
 msgstr ""
+"Lagipula, penduduk Prim akan senang jika kamu tidak mengambil semua emas "
+"mereka."
 
 #: conversationlist_prim_merchants.json:prim_treasure_door_10
 msgid "Cling!"
@@ -10422,48 +10436,52 @@ msgstr ""
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_10
 msgid "He said so? [His piercing gaze unsettles you.]"
-msgstr ""
+msgstr "Dia bilang begitu? [Tatapan tajamnya membuatmu gelisah.]"
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_10:0
 msgid "Y... yes."
-msgstr ""
+msgstr "Y... Yah."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_20
 msgid "Nice try, kid. Now go play again."
-msgstr ""
+msgstr "Usaha yang bagus, Nak. Ayo main lagi."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_20:1
 msgid "Play? I'm going to play - with you!"
-msgstr ""
+msgstr "Main? Aku mau bermain - denganmu!"
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2
 msgid "Well, well, well."
-msgstr ""
+msgstr "Wah, wah, wah."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2:0
 msgid "Eh, you look bigger than before. And stronger."
-msgstr ""
+msgstr "Eh, kamu terlihat lebih besar dari sebelumnya. Dan lebih kuat."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_10
 msgid "It's a good thing I noticed my colleague has left his post. He was pretty weak anyway."
 msgstr ""
+"Untungnya aku melihat rekan kerjaku sudah meninggalkan pekerjaannya. "
+"Lagipula, dia memang agak lemah."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_10:0
 msgid "Listen, we could avoid some trouble. I'll give you 200 gold pieces if you let me pass."
 msgstr ""
+"Dengar, kita bisa menghindari masalah. Aku akan memberimu 200 keping emas "
+"kalau kau mengizinkanku lewat."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_20
 msgid "Make it 2000, then we have a deal."
-msgstr ""
+msgstr "Jadikan 2000, maka kita sepakat."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_20:0
 #: conversationlist_feygard_1.json:boat0_a:0
 msgid "OK, here."
-msgstr ""
+msgstr "Oke, ini."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_20:1
 msgid "Forget it. Prepare to die!"
-msgstr ""
+msgstr "Lupakan saja. Bersiaplah untuk mati!"
 
 #: conversationlist_blackwater_throdna.json:throdna_1
 msgid "Kazaul ... Shadow ... what was it again?"
@@ -12648,6 +12666,8 @@ msgstr "Saya harus menusukkan pedang saya ke tubuhmu karena berbicara seperti it
 #: conversationlist_crossroads_2.json:celdar_4:3
 msgid "I'm here to give you a gift from Eryndor. He died, but I was told to give you something from him."
 msgstr ""
+"Aku di sini untuk memberimu hadiah dari Eryndor. Dia sudah mati, tapi aku "
+"disuruh memberimu sesuatu darinya."
 
 #: conversationlist_crossroads_2.json:celdar_5
 msgid "Are you still around? Did you not listen to what I said?"
@@ -13440,10 +13460,12 @@ msgstr "Apakah Anda tahu sesuatu tentang penyakit di Loneford?"
 #: conversationlist_talion.json:talion_0:4
 msgid "Sorry, we were interrupted. You were just talking about the Striking Spectacle Shadow spell."
 msgstr ""
+"Maaf, kami terganggu. Anda baru saja membicarakan mantra Bayangan Kacamata "
+"yang Mencolok."
 
 #: conversationlist_talion.json:talion_0:5
 msgid "Here I've brought you the things that you require for the dispelling."
-msgstr ""
+msgstr "Ini saya bawakan hal-hal yang Anda perlukan untuk menghilangkannya."
 
 #: conversationlist_talion.json:talion_0:6
 msgid "Do you know the whereabouts of Sly Seraphina?"
@@ -30469,11 +30491,15 @@ msgstr "Anda terlihat bahagia lagi."
 
 #: conversationlist_stoutford_combined.json:odirath_0:5
 msgid "Did you really order such an ugly porcelain figure? Oops, sorry I didn't mean to offend you."
-msgstr "Apakah Anda benar-benar memesan patung porselen yang jelek? Ups, maaf, aku tidak bermaksud menyinggung perasaanmu"
+msgstr ""
+"Apakah Anda benar-benar memesan patung porselen yang jelek? Ups, maaf, aku "
+"tidak bermaksud menyinggung perasaanmu."
 
 #: conversationlist_stoutford_combined.json:odirath_0:6
 msgid "I have tried to open the southern castle gate, but the mechanism seems broken. Can you repair it?"
 msgstr ""
+"Saya sudah mencoba membuka gerbang kastil selatan, tetapi mekanismenya "
+"sepertinya rusak. Bisakah Anda memperbaikinya?"
 
 #: conversationlist_stoutford_combined.json:odirath_1
 msgid "I did see someone that might have been your brother. He was with a rather dubious looking person. They didn't stay around here very long though. Sorry, but that's all I can tell you. You should ask around town. Other townsfolk may know more."
@@ -32276,22 +32302,28 @@ msgstr "Huh - ya sudah, terima kasih."
 #: conversationlist_stoutford_combined.json:stn_southgate_10a
 msgid "The mechanism doesn't move. It seems to be broken. Maybe someone can fix it for me?"
 msgstr ""
+"Mekanismenya tidak bergerak. Sepertinya rusak. Mungkin ada seseorang yang "
+"bisa memperbaikinya ?"
 
 #: conversationlist_stoutford_combined.json:stn_southgate_10b
 msgid "Oh, cool, Odirath seems to have repaired the mechanism already."
-msgstr ""
+msgstr "Oh, keren, Odirath tampaknya sudah memperbaiki mekanismenya."
 
 #: conversationlist_stoutford_combined.json:odirath_8a
 msgid "No, sorry. As long as there are still skeletons running around the castle, I can't work there."
 msgstr ""
+"Tidak, maaf. Selama masih ada kerangka berkeliaran di kastil, aku tidak bisa "
+"bekerja di sana."
 
 #: conversationlist_stoutford_combined.json:odirath_8b
 msgid "I can do that as soon as my daughter is back here."
-msgstr ""
+msgstr "Saya bisa melakukannya segera setelah putri saya kembali ke sini."
 
 #: conversationlist_stoutford_combined.json:odirath_8c
 msgid "The gate mechanism is broken? No problem. Now that the skeletons are gone, I can fix it for you."
 msgstr ""
+"Mekanisme gerbangnya rusak? Tidak masalah. Sekarang kerangkanya sudah "
+"hilang, saya bisa memperbaikinya untuk Anda."
 
 #: conversationlist_bugfix_0_7_4.json:mountainlake0_sign
 msgid "You can see no way to descend the cliffs from here."
@@ -32996,7 +33028,9 @@ msgstr "Saya harus...(Anda melihat Ambelie) menemukan tempat yang lebih baik unt
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:4
 msgid "[Lie] I just recovered 10000 gold from my latest mission and was told to give it to The Guild."
-msgstr "[OUTDATED]Dapatkah saya melihat persediaan Guild saat ini?"
+msgstr ""
+"[Bohong] Saya baru saja mendapatkan 10000 emas dari misi terakhir saya dan "
+"diminta untuk memberikannya ke Guild."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:5
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:7
@@ -33036,7 +33070,7 @@ msgstr "Ini adalah pekerjaanku. Senang melihat Anda selamat dari anklebiter itu.
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10:2
 msgid "Hmm, maybe you can help me?"
-msgstr ""
+msgstr "Hmm, mungkin kamu bisa membantuku?"
 
 #: conversationlist_omicronrg9.json:umar_guild_4b
 msgid "What have you decided?"
@@ -39100,7 +39134,7 @@ msgstr "Ini terlihat seperti tempat yang tidak terganggu."
 
 #: conversationlist_brimhaven.json:crossglen_fortune_teller:0
 msgid "[Let's have a pee]"
-msgstr "[ngocok aah, valentina wangy\"]"
+msgstr "[Mungkin aku bisa pipis disini]"
 
 #: conversationlist_brimhaven.json:crossglen_fortune_teller:1
 msgid "Could this be the place? [Start digging with my hands]"
@@ -39128,19 +39162,19 @@ msgstr "Apa taruhan 17+4 Anda?"
 
 #: conversationlist_brimhaven.json:blackjack_bet:0
 msgid "1 Gold"
-msgstr "1 Dinar"
+msgstr "1 emas"
 
 #: conversationlist_brimhaven.json:blackjack_bet:1
 msgid "2 Gold"
-msgstr "2 Dinar"
+msgstr "2 emas"
 
 #: conversationlist_brimhaven.json:blackjack_bet:2
 msgid "5 Gold"
-msgstr "5 Dinar"
+msgstr "5 emas"
 
 #: conversationlist_brimhaven.json:blackjack_bet:3
 msgid "10 Gold"
-msgstr "10 Dinar"
+msgstr "10 emas"
 
 #: conversationlist_brimhaven.json:stoutford_grave_1
 msgid "Here lies Adegil, the tree cutter, killed by a falling branch."
@@ -39164,7 +39198,7 @@ msgstr "Di sinilah letak Rurog, sang ahli bangunan yang jatuh dari atapnya sendi
 
 #: conversationlist_brimhaven.json:brv_ball_11
 msgid "You kick like a baby. Ha, ha."
-msgstr "Njer lu sepak apaan, awokawok."
+msgstr "Kamu menendang seperti bayi. Ha, ha."
 
 #: conversationlist_brimhaven.json:sign_brimhaven1
 msgid "Welcome to Brimhaven"
@@ -39172,7 +39206,7 @@ msgstr "Selamat datang di Brimhaven"
 
 #: conversationlist_brimhaven.json:brv_temple_entrance_guard
 msgid "No one is allowed in our sacred temple at this time."
-msgstr "Apa lu liat-liat hah."
+msgstr "Tidak seorang pun diizinkan memasuki kuil suci kami saat ini."
 
 #: conversationlist_brimhaven.json:thelry_1
 msgid "No, sorry, I haven't seen anyone like that."
@@ -39222,11 +39256,11 @@ msgstr "(Lebih baik saya tinggalkan Basilisk.)"
 
 #: conversationlist_brimhaven.json:brv_flood_key_set3_20
 msgid "You have made it!"
-msgstr "Wih sepuh jago amat!"
+msgstr "Wah!, kamu berhasil!"
 
 #: conversationlist_brimhaven.json:brv_flood_key_set3_20:0
 msgid "Phew, I thought that would be my end!"
-msgstr "Njer, gua kira bakal akhir hayat!"
+msgstr "Fiuh, kukira itu akhir hidupku!"
 
 #: conversationlist_brimhaven.json:brv_brothers_another_axe_10
 msgid "So lucky! Another small hand axe lies here."
@@ -39254,15 +39288,15 @@ msgstr "Elu menggoyang-goyangkan jeruji besi."
 
 #: conversationlist_brimhaven.json:remgard_prison_talk:0
 msgid "Hey, I'm starving!"
-msgstr "Oe sat, gua laper!"
+msgstr "Hey, Aku lapar!"
 
 #: conversationlist_brimhaven.json:remgard_prison_talk:1
 msgid "Room service!"
-msgstr "Emaakk!"
+msgstr "Pelayan kamar!!"
 
 #: conversationlist_brimhaven.json:remgard_prison_talk:2
 msgid "Anybody there? I want to talk to my lawyer!"
-msgstr "Ada orang gak sih? Gua mau ngomong ama pengacara gua!"
+msgstr "Apa ada orang? Saya mau bicara dengan pengacaraku!"
 
 #: conversationlist_brimhaven.json:remgard_prison_talk:3
 msgid "I am innocent!"
@@ -89964,4 +89998,3 @@ msgstr ""
 #: worldmap.xml:world1:mt_bwm
 msgid "Blackwater Mountain"
 msgstr ""
-
