@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-11-27 05:01+0000\n"
+"PO-Revision-Date: 2025-11-29 16:00+0000\n"
 "Last-Translator: Mubin M galih <mubinmuhammad002@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/id/>\n"
@@ -13469,19 +13469,20 @@ msgstr "Ini saya bawakan hal-hal yang Anda perlukan untuk menghilangkannya."
 
 #: conversationlist_talion.json:talion_0:6
 msgid "Do you know the whereabouts of Sly Seraphina?"
-msgstr ""
+msgstr "Apa kamu tahu keberadaan Sly Seraphina?"
 
 #: conversationlist_talion.json:talion_0:7
 msgid "I've brought you the things you had required for dispelling."
 msgstr ""
+"Aku telah membawakan kepadamu hal-hal yang kau perlukan untuk mengusirnya."
 
 #: conversationlist_talion.json:talion_0:8
 msgid "Haven't you forgotten something?"
-msgstr ""
+msgstr "Apakah kamu tidak melupakan sesuatu?"
 
 #: conversationlist_talion.json:talion_0:9
 msgid "Borvis said you could provide me with some information."
-msgstr ""
+msgstr "Borvis bilang kau bisa memberiku beberapa informasi."
 
 #: conversationlist_talion.json:talion_1
 msgid "The people of Loneford are very keen on following the will of Feygard, whatever it may be."
@@ -16171,6 +16172,8 @@ msgstr "Sudahlah, mari kita kembali ke berkat-berkat lainnya."
 #: conversationlist_talion_2.json:talion_bless_str_1:2
 msgid "OK, I'll take it for 300 gold. I need it for Borvis to work an enchantment. He is waiting far to the south."
 msgstr ""
+"Oke, saya ambil saja seharga 300 emas. Saya butuh Borvis untuk mengaktifkan "
+"mantranya. Dia menunggu jauh di selatan."
 
 #: conversationlist_talion_2.json:talion_bless_heal_1
 msgid "The blessing of Shadow regeneration will slowly heal you back if you get hurt. I can give you the blessing for 250 gold."
@@ -16231,6 +16234,8 @@ msgstr "[OUTDATED][OUTDATED]Di dalam  makam Korhald, aku menemukan peti yang ter
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:3
 msgid "Inside the  Korhald tomb, I found a locked chest. Do you know where I can find its key?"
 msgstr ""
+"Di dalam makam Korhald, saya menemukan peti terkunci. Tahukah Anda di mana "
+"saya bisa menemukan kuncinya?"
 
 #: conversationlist_gylew.json:gylew:5
 msgid "About that \"Coin of Prestige\"..."
@@ -16238,7 +16243,7 @@ msgstr "[OUTDATED]Hei. Aku harus pergi sekarang dan mencari peta ini."
 
 #: conversationlist_gylew.json:gylew:6
 msgid "Hey. I need to go now and find this map."
-msgstr ""
+msgstr "Hei. Aku harus pergi sekarang dan mencari peta ini."
 
 #: conversationlist_gylew.json:gylew:7
 #: conversationlist_gylew.json:gylew:9
@@ -16246,6 +16251,8 @@ msgstr ""
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:9
 msgid "I found these glowing coins in a pit beneath the well in Wexlow Village. They seem magical."
 msgstr ""
+"Saya menemukan koin-koin bercahaya ini di sebuah lubang di bawah sumur di "
+"Desa Wexlow. Koin-koin ini tampak ajaib."
 
 #: conversationlist_gylew.json:gylew:8
 #: conversationlist_laeroth.json:forenza_waytobrimhaven3_initial_phrase:8
@@ -16255,10 +16262,14 @@ msgstr "[OUTDATED][OUTDATED][Bohong] Aku punya koin-koin perunggu dan perak yang
 #: conversationlist_gylew.json:gylew:10
 msgid "I was glad to help fulfill you and your father's dream, but I need to go now."
 msgstr ""
+"Saya senang bisa membantu mewujudkan impianmu dan ayahmu, tapi saya harus "
+"pergi sekarang."
 
 #: conversationlist_gylew.json:gylew:11
 msgid "[Lie]I have these bronze and silver coins that I \"acquired\" in a game of chance. I would like to know if you are interested in them."
 msgstr ""
+"[Bohong]Saya punya koin perunggu dan perak yang saya \"dapatkan\" dalam "
+"permainan untung-untungan. Saya ingin tahu apakah Anda tertarik."
 
 #: conversationlist_gylew.json:gylew_henchman
 msgid "Hey, I'm trying to admire the view here. Get out of my way."
@@ -19042,7 +19053,7 @@ msgstr "Di sini terdapat Sir Karthanir dari rumah Gellir. Putra dari Sir Anaroga
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3:0
 msgid "There is the ladder. [Fetch it]"
-msgstr ""
+msgstr "Itu tangganya. [Ambil]"
 
 #: conversationlist_v0612graves.json:sign_catacombs1_grave4
 msgid "Here lies Lady Gelythus of house Gellir. Wife of Sir Eneryth of house Gellir."
@@ -19228,7 +19239,7 @@ msgstr "Di dinding, Anda dapat melihat sebuah plakat yang bertuliskan: Bawalah k
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3_10
 #: conversationlist_v0612graves.json:
 msgid "You place the ladder below the tiny window."
-msgstr ""
+msgstr "Anda menempatkan tangga di bawah jendela kecil."
 
 #: conversationlist_agthor.json:agthor0
 msgid "Hello there. Please move along. These things are property of Feygard, and you have no business here."
@@ -28311,7 +28322,7 @@ msgstr "Ya. Beberapa orang sudah tersesat dan tidak pernah muncul kembali. Tidak
 
 #: conversationlist_guynmart2_npc.json:guynmart_roadguard_20:0
 msgid "But ... which fog?"
-msgstr ""
+msgstr "Tapi... kabut yang mana?"
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_14
 msgid "Welcome! Nice to see you again."
@@ -37531,7 +37542,7 @@ msgstr "[Memotong kayu]"
 #: conversationlist_brimhaven.json:brv_woodcutter_0:0
 #: conversationlist_brimhaven.json:brv_farmer_girl_0:0
 msgid "Hello"
-msgstr ""
+msgstr "Halo"
 
 #: conversationlist_brimhaven.json:brv_woodcutter_1
 msgid ""
@@ -38811,11 +38822,11 @@ msgstr "Tidak, saya belum menemukan apa pun."
 
 #: conversationlist_brimhaven.json:mikhail_news_10:4
 msgid "I found Andor far north of here, at a fruit seller's stand."
-msgstr ""
+msgstr "Saya menemukan Andor jauh di utara dari sini, di kios penjual buah."
 
 #: conversationlist_brimhaven.json:mikhail_news_10:5
 msgid "I found Andor far south of here, at Alynndir's house."
-msgstr ""
+msgstr "Saya menemukan Andor jauh di selatan dari sini, di rumah Alynndir."
 
 #: conversationlist_brimhaven.json:mikhail_news_40
 msgid "Did you go to Nor City?"
@@ -39416,7 +39427,7 @@ msgstr "Sekarang semuanya sudah beres. Kita bisa pergi sekarang."
 
 #: conversationlist_brimhaven.json:remgard_prison_thief_110:0
 msgid "What? How can we leave?"
-msgstr "Lah? Gimana dah cara keluar?"
+msgstr "Apa? Bagaimana kita bisa keluar?"
 
 #: conversationlist_brimhaven.json:remgard_prison_thief_112
 msgid "Oh, that is easy. Check the back wall - it is fake. We had it exchanged secretly, and those stupid guards haven't found out yet."
@@ -39424,7 +39435,7 @@ msgstr "Oh, itu mudah. Periksa dinding belakang - itu palsu. Kami menukarnya sec
 
 #: conversationlist_brimhaven.json:remgard_prison_thief_112:0
 msgid "Oh really?"
-msgstr "Njer gitu doang?"
+msgstr "Oh benarkah?"
 
 #: conversationlist_brimhaven.json:remgard_prison_thief_200
 msgid "Bye now. I will keep an eye on you."
@@ -39449,79 +39460,93 @@ msgstr "Sebelum kamu bisa membalas, para penjaga sudah pergi."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_2
 msgid "Welcome back."
-msgstr "Aih masih hidup lu."
+msgstr "Selamat datang kembali."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_10
 msgid "Welcome back. I see that you bring me interesting things that have fallen from the sky."
 msgstr ""
+"Selamat datang kembali. Saya lihat Anda membawakan saya hal-hal menarik yang "
+"jatuh dari langit."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_10:1
 msgid "The pieces that I have found in the area of Mt. Galmore? Yes, I have them with me."
 msgstr ""
+"Potongan-potongan yang saya temukan di area Gunung Galmore? Ya, saya "
+"membawanya."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_12
 msgid "Sigh. I know many things. How often do I still have to prove it?"
 msgstr ""
+"Huh. Aku tahu banyak hal. Seberapa sering aku masih harus membuktikannya?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_12:0
 msgid "Well, OK. What about my fallen stones collection?"
-msgstr ""
+msgstr "Baiklah. Bagaimana dengan koleksi batu jatuhku?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20
 msgid "You can't do anything useful with them. Give them to me and I'll give you a kingly reward."
 msgstr ""
+"Kau tak bisa melakukan apa pun yang berguna dengan mereka. Berikan padaku, "
+"dan aku akan memberimu hadiah besar."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20:0
 msgid "Here, you can have them for the greater glory."
-msgstr ""
+msgstr "Di sini, Anda dapat memilikinya untuk kemuliaan yang lebih besar."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20:1
 msgid "Really? What can you offer?"
-msgstr ""
+msgstr "Benarkah? Apa yang bisa Anda tawarkan?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_30
 msgid "Thank you. Very wise of you. Indeed. Let - your - wisdom - grow ..."
 msgstr ""
+"Terima kasih. Anda sangat bijaksana. Sungguh. Biarkan kebijaksanaan Anda "
+"tumbuh..."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_30:0
 msgid "I already feel it."
-msgstr ""
+msgstr "Saya sudah merasakannya."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_50
 msgid "Look here in my chest with my most valuable items, that could transfer their powers to you."
 msgstr ""
+"Lihat di sini, di petiku, ada benda-benda paling berharga milikku, yang "
+"dapat mentransfer kekuatannya kepadamu."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52
 msgid "Which one do you want to learn more about?"
-msgstr ""
+msgstr "Mana yang ingin Anda pelajari lebih lanjut?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:0
 msgid "Gem of star precision"
-msgstr ""
+msgstr "Permata bintang presisi"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:1
 msgid "Wanderer's Vitality"
-msgstr ""
+msgstr "Vitalitas Pengembara"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:2
 msgid "Mountainroot gold nugget"
-msgstr ""
+msgstr "Bongkahan emas gunung akar"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:3
+#, fuzzy
 msgid "Shadowstep Favor"
-msgstr ""
+msgstr "Bantuan Bayangan"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:4
 msgid "Starbound grip stone"
-msgstr ""
+msgstr "Batu pegangan bintang"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:5
 msgid "Swirling orb of awareness."
-msgstr ""
+msgstr "Bola kesadaran yang berputar."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61
 msgid "Your hand steadies with celestial clarity. Touching the item will permanently increase your weapon accuracy."
 msgstr ""
+"Tanganmu menjadi stabil dengan kejernihan surgawi. Menyentuh benda ini akan "
+"meningkatkan akurasi senjatamu secara permanen."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61:0
 #: conversationlist_brimhaven.json:brv_fortune_back_62:0
@@ -39530,7 +39555,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68:0
 #: conversationlist_brimhaven.json:brv_fortune_back_69:0
 msgid "Sounds great - I choose this one. [Touch the item]"
-msgstr ""
+msgstr "Kedengarannya bagus - saya pilih yang ini. [Sentuh itemnya]"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61:1
 #: conversationlist_brimhaven.json:brv_fortune_back_62:1
@@ -39539,7 +39564,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68:1
 #: conversationlist_brimhaven.json:brv_fortune_back_69:1
 msgid "Let me have a look at the other items."
-msgstr ""
+msgstr "Biarkan saya melihat barang-barang lainnya."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61b
 #: conversationlist_brimhaven.json:brv_fortune_back_62b
@@ -39548,7 +39573,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68b
 #: conversationlist_brimhaven.json:brv_fortune_back_69b
 msgid "A good choice. Do you feel it already?"
-msgstr ""
+msgstr "Pilihan yang bagus. Apakah Anda sudah merasakannya?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_61b:0
 #: conversationlist_brimhaven.json:brv_fortune_back_62b:0
@@ -39557,11 +39582,14 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_fortune_back_68b:0
 #: conversationlist_brimhaven.json:brv_fortune_back_69b:0
 msgid "Wow - yes! Thank you."
-msgstr ""
+msgstr "Wah - ya! Terima kasih."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_62
 msgid "Wanderer's Vitality. You carry the strength of the sky inside you. After touching this item, you will begin to learn how to improve your overall health faster."
 msgstr ""
+"Vitalitas Pengembara. Anda membawa kekuatan langit di dalam diri Anda. "
+"Setelah menyentuh benda ini, Anda akan mulai belajar cara meningkatkan "
+"kesehatan Anda secara keseluruhan dengan lebih cepat."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_65
 msgid "Very down-to-earth. You will have more success in financial matters."
