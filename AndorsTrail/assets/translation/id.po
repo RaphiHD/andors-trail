@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-11-29 16:00+0000\n"
+"PO-Revision-Date: 2025-12-01 19:01+0000\n"
 "Last-Translator: Mubin M galih <mubinmuhammad002@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/id/>\n"
@@ -509,11 +509,11 @@ msgstr ""
 
 #: actorconditions_mt_galmore2.json:divine_judgement
 msgid "Divine judgement"
-msgstr ""
+msgstr "Penghakiman ilahi"
 
 #: actorconditions_mt_galmore2.json:divine_punishment
 msgid "Divine punishment"
-msgstr ""
+msgstr "Hukuman ilahi"
 
 #: actorconditions_mt_galmore2.json:baited_strike
 msgid "Baited strike"
@@ -39593,39 +39593,49 @@ msgstr ""
 
 #: conversationlist_brimhaven.json:brv_fortune_back_65
 msgid "Very down-to-earth. You will have more success in financial matters."
-msgstr ""
+msgstr "Sangat membumi. Anda akan lebih sukses dalam urusan keuangan."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_66
 msgid "You move as if guided by starlight. Touching this item will permanently improve your abilities to avoid being hit by your enemies."
 msgstr ""
+"Kamu bergerak seolah dibimbing oleh cahaya bintang. Menyentuh benda ini akan "
+"meningkatkan kemampuanmu secara permanen agar terhindar dari serangan musuh."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_68
 msgid "From the sky to your hilt, strength flows unseen. Touching the item will permanently let you refresh faster after a kill in a fight."
 msgstr ""
+"Dari langit hingga gagang pedangmu, kekuatan mengalir tanpa terlihat. "
+"Menyentuh item ini akan membuatmu menyegarkan diri lebih cepat setelah "
+"membunuh dalam pertarungan."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_69
 msgid " Touching the item will permanently increase your awareness of unearthy items."
 msgstr ""
+" Menyentuh benda tersebut akan secara permanen meningkatkan kewaspadaan Anda "
+"terhadap benda-benda asing."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_90
 msgid "Go now."
-msgstr ""
+msgstr "Pergi sekarang."
 
 #: conversationlist_brimhaven.json:mikhail_news_60
 msgid "Great! But where is he?"
-msgstr ""
+msgstr "Bagus! Tapi di mana dia?"
 
 #: conversationlist_brimhaven.json:mikhail_news_60:0
 msgid "He just said that he couldn't come now. Then he ran away before I could ask him what he was up to."
 msgstr ""
+"Dia cuma bilang nggak bisa datang sekarang. Lalu dia kabur sebelum aku "
+"sempat tanya dia lagi ngapain."
 
 #: conversationlist_brimhaven.json:mikhail_news_62
 msgid "[While shaking his head] Oh $playername, you have disappointed me."
 msgstr ""
+"[Sambil menggelengkan kepalanya] Oh $playername, kamu telah mengecewakanku."
 
 #: conversationlist_brimhaven.json:mikhail_news_64
 msgid "Mikhail! Don't you dare talk to our child like that!"
-msgstr ""
+msgstr "Mikhail! Jangan beraninya kau bicara seperti itu pada anak kita!"
 
 #: conversationlist_brimhaven.json:mikhail_news_64:0
 #: conversationlist_fungi_panic.json:zuul_khan_14:2
@@ -39634,15 +39644,15 @@ msgstr "Aku lebih baik pergi."
 
 #: conversationlist_brimhaven.json:mikhail_news_66
 msgid "[Loudly complaining] When shall we three meet Andor again?"
-msgstr ""
+msgstr "[Mengeluh dengan keras] Kapan kita bertiga bisa bertemu Andor lagi?"
 
 #: conversationlist_brimhaven.json:mikhail_news_66:0
 msgid "In thunder, lightning or on rain?"
-msgstr ""
+msgstr "Saat guntur, saat kilat atau saat hujan?"
 
 #: conversationlist_brimhaven.json:mikhail_news_66:1
 msgid "Now I'm definitely going."
-msgstr ""
+msgstr "Sekarang aku pasti akan pergi."
 
 #: conversationlist_brimhaven2.json:brv_school_check_duel_14a
 msgid "When the other students see how you killed Golin, a panic breaks out. Screaming, they all run out of the building."
@@ -44845,10 +44855,12 @@ msgstr "Di sini, saya punya 10 potong daging yang bagus untuk Anda. Saya tidak b
 #: conversationlist_gison.json:gael_20_6:2
 msgid "Here, I have 10 nice pieces of lamb meat for you. Maybe not as good as snake though."
 msgstr ""
+"Ini, aku punya 10 potong daging domba yang enak untukmu. Mungkin tidak "
+"seenak daging ular."
 
 #: conversationlist_gison.json:gael_20_6:3
 msgid "Here, I have 8 nice pieces of snake meat for you."
-msgstr ""
+msgstr "Ini, saya punya 8 potongan daging ular yang enak untukmu."
 
 #: conversationlist_gison.json:gael_20_7
 msgid "Excellent! In return, I can give you this nice little purse, made of the finest snake leather. Look here, isn't it beautiful?"
@@ -50424,7 +50436,7 @@ msgstr "Apakah Anda tahu secara kebetulan di mana wisatawan yang tersesat ini be
 
 #: conversationlist_sullengard.json:sullengard_godrey_10:3
 msgid "Where I can find Celdar?"
-msgstr ""
+msgstr "Di mana saya dapat menemukan Celdar?"
 
 #: conversationlist_sullengard.json:sullengard_godrey_20
 msgid "Yes, I do, but it's going to cost you more than you may be expecting."
@@ -53138,6 +53150,8 @@ msgstr "Sebenarnya, saya di sini mencari seseorang... saudara saya."
 #: conversationlist_sullengard.json:sullengard_citizen_0:2
 msgid "I was hoping that you knew where I can find Celdar? I was told that this is her hometown."
 msgstr ""
+"Aku berharap kau tahu di mana aku bisa menemukan Celdar? Saya diberitahu "
+"bahwa ini adalah kampung halamannya."
 
 #: conversationlist_sullengard.json:sullengard_citizen_festival
 msgid "Well in that case, you are a couple of weeks early."
@@ -53212,146 +53226,162 @@ msgstr "Keluar dari sini sekarang. Jangan kembali lagi sampai Anda belajar mengh
 #: conversationlist_sullengard.json:mg2_kealwea_2
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_2
 msgid "You saw it too, didn't you?"
-msgstr ""
+msgstr "Kamu melihatnya juga, bukan?"
 
 #: conversationlist_sullengard.json:mg2_kealwea_2:2
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_2:2
 msgid "No, I haven't had any mead today."
-msgstr ""
+msgstr "Tidak, saya belum minum mead hari ini."
 
 #: conversationlist_sullengard.json:mg2_kealwea_2:3
 msgid "I am $playername."
-msgstr ""
+msgstr "Aku $playername."
 
 #: conversationlist_sullengard.json:mg2_kealwea_2a
 msgid "Sorry, where are my manners?"
-msgstr ""
+msgstr "Maaf, di mana sopan santunku?"
 
 #: conversationlist_sullengard.json:mg2_kealwea_3
 msgid "There was a tear in the heavens. Not a star falling, but something cast down."
 msgstr ""
+"Ada air mata di langit. Bukan bintang yang jatuh, melainkan sesuatu yang "
+"dijatuhkan."
 
 #: conversationlist_sullengard.json:mg2_kealwea_4
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_4
 msgid "It wept fire. And the mountain answered with a shudder. Such things are not random."
 msgstr ""
+"Ia menangis api. Dan gunung menjawab dengan gemetar. Hal-hal seperti itu "
+"bukanlah sesuatu yang acak."
 
 #: conversationlist_sullengard.json:mg2_kealwea_5
 msgid "He gestured to the dark Galmore montains in the distant west."
-msgstr ""
+msgstr "Dia menunjuk ke arah pegunungan Galmore yang gelap di ujung barat."
 
 #: conversationlist_sullengard.json:mg2_kealwea_10
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_10
 msgid "Ten fragments of that burning star scattered along Galmore's bones. They are still warm. Still ... humming."
 msgstr ""
+"Sepuluh serpihan bintang yang terbakar itu berserakan di sepanjang tulang-"
+"tulang Gilmore. Mereka masih hangat. Masih... berdengung."
 
 #: conversationlist_sullengard.json:mg2_kealwea_10:1
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_10:1
 msgid "How do you know there are ten pieces?"
-msgstr ""
+msgstr "Bagaimana Anda tahu ada sepuluh potong?"
 
 #: conversationlist_sullengard.json:mg2_kealwea_10:2
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_10:2
 msgid "Ten tongues of light, each flickering in defiance of the dark."
-msgstr ""
+msgstr "Sepuluh lidah cahaya, masing-masing berkelap-kelip menantang kegelapan."
 
 #: conversationlist_sullengard.json:mg2_kealwea_11
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_11
 msgid "How do you know?!"
-msgstr ""
+msgstr "Bagaimana kamu tahu?!"
 
 #: conversationlist_sullengard.json:mg2_kealwea_11:0
 msgid "Teccow, a stargazer in Stoutford, told me so. Now go on."
 msgstr ""
+"Teccow, seorang pengamat bintang di Stratford, memberi tahu saya begitu. "
+"Sekarang lanjutkan."
 
 #: conversationlist_sullengard.json:mg2_kealwea_12
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_12
 msgid "I can feel it."
-msgstr ""
+msgstr "Aku bisa merasakannya."
 
 #: conversationlist_sullengard.json:mg2_kealwea_12:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_12:0
 msgid "You can feel that there are ten? Wow."
-msgstr ""
+msgstr "Anda bisa merasakan ada sepuluh? Wow."
 
 #: conversationlist_sullengard.json:mg2_kealwea_14
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_14
 msgid "[Ominous voice] In The Ash I Saw Them - Ten Tongues Of Light, Each Flickering In Defiance Of The Dark."
 msgstr ""
+"[Suara yang mengancam] Di dalam Abu Aku Melihat Mereka - Sepuluh Lidah "
+"Cahaya, Masing-masing Berkedip Menentang Kegelapan."
 
 #: conversationlist_sullengard.json:mg2_kealwea_15
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_15
 msgid "Their Number Is Ten. Not Nine. Not Eleven. Ten."
-msgstr ""
+msgstr "Jumlah mereka sepuluh. Bukan sembilan. Bukan sebelas. Sepuluh."
 
 #: conversationlist_sullengard.json:mg2_kealwea_15:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_15:0
 msgid "All right, all right. Ten."
-msgstr ""
+msgstr "Baiklah, baiklah. Sepuluh."
 
 #: conversationlist_sullengard.json:mg2_kealwea_16
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_16
 msgid "So if you have no more questions ..."
-msgstr ""
+msgstr "Jadi jika Anda tidak memiliki pertanyaan lagi ..."
 
 #: conversationlist_sullengard.json:mg2_kealwea_16:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_16:0
 msgid "Well, why don't you go and collect them?"
-msgstr ""
+msgstr "Baiklah, mengapa Anda tidak pergi dan mengambilnya?"
 
 #: conversationlist_sullengard.json:mg2_kealwea_17
 msgid "Only little children could ask such a stupid question. Of course I can't go. Sullengard needs me here."
 msgstr ""
+"Hanya anak kecil yang bisa bertanya sebodoh itu. Tentu saja aku tidak bisa "
+"pergi. Sullengard membutuhkanku di sini."
 
 #: conversationlist_sullengard.json:mg2_kealwea_17b
 msgid "Hmm, but you could go."
-msgstr ""
+msgstr "Hmm, tapi kamu bisa pergi."
 
 #: conversationlist_sullengard.json:mg2_kealwea_17b:0
 msgid "Me?"
-msgstr ""
+msgstr "Aku?"
 
 #: conversationlist_sullengard.json:mg2_kealwea_18
 msgid "'Yes. Bring these shards to me. Before the mountain's curse draws worse than beasts to them!"
 msgstr ""
+"\"Ya. Bawa pecahan-pecahan ini kepadaku. Sebelum kutukan gunung mendatangkan "
+"yang lebih dahsyat daripada binatang buas!"
 
 #: conversationlist_sullengard.json:mg2_kealwea_18:1
 msgid "In fact I was already there."
-msgstr ""
+msgstr "Sebenarnya saya sudah ada di sana."
 
 #: conversationlist_sullengard.json:mg2_kealwea_20
 msgid "Kid, anything new about those fallen lights over Mt.Galmore?"
-msgstr ""
+msgstr "Nak, ada yang baru tentang cahaya jatuh di atas Gunung Galmore?"
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:0
 msgid "I haven't found any pieces yet."
-msgstr ""
+msgstr "Saya belum menemukan potongan apa pun."
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:1
 msgid "Here I have some pieces already."
-msgstr ""
+msgstr "Di sini saya sudah memiliki beberapa bagian."
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:2
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_20:2
 msgid "I might give you half of them - five pieces."
-msgstr ""
+msgstr "Saya mungkin akan memberi Anda setengahnya - lima potong."
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:3
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_20:3
 msgid "I might give you the rest of them - five pieces."
-msgstr ""
+msgstr "Saya mungkin akan memberi Anda sisanya - lima potong."
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:4
 msgid "I have found all of the ten pieces."
-msgstr ""
+msgstr "Saya telah menemukan kesepuluh keping itu."
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:5
 msgid "I have found all of the ten pieces, but I have already given them to Teccow in Stoutford."
 msgstr ""
+"Saya telah menemukan kesepuluh keping itu, tetapi saya telah memberikannya "
+"kepada Teccow di Stoutford."
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:6
 msgid "I need some help of the local priest."
-msgstr ""
+msgstr "Saya butuh bantuan pendeta setempat."
 
 #: conversationlist_sullengard.json:mg2_kealwea_25
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_25
