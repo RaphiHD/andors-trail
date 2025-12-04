@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-12-01 19:01+0000\n"
+"PO-Revision-Date: 2025-12-05 03:00+0000\n"
 "Last-Translator: Mubin M galih <mubinmuhammad002@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/id/>\n"
@@ -465,7 +465,7 @@ msgstr "Terbakar"
 
 #: actorconditions_mt_galmore2.json:rockfall
 msgid "Rock fall"
-msgstr ""
+msgstr "Batu jatuh"
 
 #: actorconditions_mt_galmore2.json:swamp_foot
 msgid "Swamp foot"
@@ -527,11 +527,11 @@ msgstr ""
 
 #: actorconditions_mt_galmore2.json:trapped
 msgid "Trapped"
-msgstr ""
+msgstr "Terjebak"
 
 #: actorconditions_mt_galmore2.json:splinter
 msgid "Splinter"
-msgstr ""
+msgstr "Terpecah"
 
 #: actorconditions_mt_galmore2.json:unstable_footing
 msgid "Unstable footing"
@@ -22666,7 +22666,7 @@ msgstr "Sebuah tutup batu besar dengan ukiran aneh menutup kuburan tersebut. Di 
 
 #: conversationlist_woodcabin.json:smuggler1_0
 msgid "[Mutter] Just one more..."
-msgstr "[Satu lagi..."
+msgstr "[Bergumam] Satu lagi saja..."
 
 #: conversationlist_woodcabin.json:smuggler2_0
 msgid "What? No, you're not it."
@@ -22678,7 +22678,7 @@ msgstr "[Ngiler]"
 
 #: conversationlist_woodcabin.json:smuggler3_1
 msgid "[Wipes drool]"
-msgstr "[Tisu ngiler]"
+msgstr "[Mengusap air liur]"
 
 #: conversationlist_woodcabin.json:smuggler3_1:0
 msgid "Can you hear me?"
@@ -53340,7 +53340,7 @@ msgstr "Aku?"
 #: conversationlist_sullengard.json:mg2_kealwea_18
 msgid "'Yes. Bring these shards to me. Before the mountain's curse draws worse than beasts to them!"
 msgstr ""
-"\"Ya. Bawa pecahan-pecahan ini kepadaku. Sebelum kutukan gunung mendatangkan "
+"'Ya. Bawa pecahan-pecahan ini kepadaku. Sebelum kutukan gunung mendatangkan "
 "yang lebih dahsyat daripada binatang buas!"
 
 #: conversationlist_sullengard.json:mg2_kealwea_18:1
@@ -53387,118 +53387,131 @@ msgstr "Saya butuh bantuan pendeta setempat."
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_25
 msgid "You must be out of your mind! They are deadly - let me destroy all of them."
 msgstr ""
+"Kau pasti sudah gila! Mereka mematikan - biarkan aku menghancurkan mereka "
+"semua."
 
 #: conversationlist_sullengard.json:mg2_kealwea_25:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_25:0
 msgid "OK, you are right. Here take them and do what you must."
-msgstr ""
+msgstr "Oke, kamu benar. Ambil saja dan lakukan apa yang harus kamu lakukan."
 
 #: conversationlist_sullengard.json:mg2_kealwea_25:1
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_25:1
 msgid "No, I will give you only half of them."
-msgstr ""
+msgstr "Tidak, saya hanya akan memberi setengahnya saja."
 
 #: conversationlist_sullengard.json:mg2_kealwea_26
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_26
 msgid "Well, I am going to destroy these five. I hope you will be careful with the others and don't rue your decision."
 msgstr ""
+"Baiklah, aku akan menghancurkan kelima orang ini. Kuharap kau berhati-hati "
+"dengan yang lainnya dan jangan menyesali keputusanmu."
 
 #: conversationlist_sullengard.json:mg2_kealwea_26:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_26:0
 msgid "I might throw the remaining ones at Andor. Hmm ..."
-msgstr ""
+msgstr "Aku mungkin akan melemparkan sisanya ke Andor. Hmm ..."
 
 #: conversationlist_sullengard.json:mg2_kealwea_28
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_28
 msgid "Good, good. I'll destroy these dangerous things."
-msgstr ""
+msgstr "Bagus, bagus. Aku akan menghancurkan benda-benda berbahaya ini."
 
 #: conversationlist_sullengard.json:mg2_kealwea_28:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_28:0
 msgid "Great to hear. And now I have to go and find my brother at last."
 msgstr ""
+"Senang mendengarnya. Dan sekarang aku harus pergi dan akhirnya menemukan "
+"saudaraku."
 
 #: conversationlist_sullengard.json:mg2_kealwea_30
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_30
 msgid "Good, good. Give them to me. I'll destroy these dangerous things."
 msgstr ""
+"Bagus, bagus. Berikan padaku. Aku akan menghancurkan benda-benda berbahaya "
+"ini."
 
 #: conversationlist_sullengard.json:mg2_kealwea_30:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_30:0
 msgid "I seem to have lost them. Just a minute, I'll look for them ..."
-msgstr ""
+msgstr "Sepertinya aku kehilangannya. Sebentar, aku akan mencarinya..."
 
 #: conversationlist_sullengard.json:mg2_kealwea_30:1
 msgid "But I have already given them to Teccow in Stoutford."
-msgstr ""
+msgstr "Tapi saya sudah memberikannya kepada Teccow di Stoutford."
 
 #: conversationlist_sullengard.json:mg2_kealwea_30:2
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_30:2
 msgid "Here you go. Take it and do what you have to do."
-msgstr ""
+msgstr "Ini dia. Ambil saja dan lakukan apa yang harus kau lakukan."
 
 #: conversationlist_sullengard.json:mg2_kealwea_30:3
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_30:3
 msgid "I've changed my mind. These glittery things are too pretty to be destroyed."
 msgstr ""
+"Aku berubah pikiran. Benda-benda berkilauan ini terlalu cantik untuk "
+"dihancurkan."
 
 #: conversationlist_sullengard.json:mg2_kealwea_30:4
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_30:4
 msgid "Hmm, I still have to think about it. I'll be back..."
-msgstr ""
+msgstr "Hmm, aku masih harus memikirkannya. Aku akan kembali..."
 
 #: conversationlist_sullengard.json:mg2_kealwea_40
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_40
 msgid "You must be out of your mind! Free yourself from them or you are lost!"
 msgstr ""
+"Kamu pasti sudah gila! Bebaskan dirimu dari mereka atau kamu akan tersesat!"
 
 #: conversationlist_sullengard.json:mg2_kealwea_40:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_40:0
 msgid "No. I will keep them."
-msgstr ""
+msgstr "Tidak. Aku akan menyimpannya."
 
 #: conversationlist_sullengard.json:mg2_kealwea_40:1
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_40:1
 msgid "You are certainly right. Take it and do what you have to do."
-msgstr ""
+msgstr "Kamu benar sekali. Ambil saja dan lakukan apa yang harus kamu lakukan."
 
 #: conversationlist_sullengard.json:mg2_kealwea_50
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_50
 msgid "Wonderful. You have no idea what terrible things this crystal could have done."
-msgstr ""
+msgstr "Luar biasa. Kau tak tahu hal buruk apa yang bisa dilakukan kristal ini."
 
 #: conversationlist_sullengard.json:mg2_kealwea_50:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_50:0
 msgid "Yes - whatever it was exactly."
-msgstr ""
+msgstr "Ya - apa pun itu tepatnya."
 
 #: conversationlist_sullengard.json:mg2_kealwea_52
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_52
 msgid "You did the right thing. The whole world is grateful to you."
-msgstr ""
+msgstr "Kamu melakukan hal yang benar. Seluruh dunia berterima kasih padamu."
 
 #: conversationlist_sullengard.json:mg2_kealwea_52:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_52:0
 msgid "I do something like that every other day."
-msgstr ""
+msgstr "Saya melakukan sesuatu seperti itu setiap hari sekali."
 
 #: conversationlist_sullengard.json:mg2_kealwea_52:1
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_52:1
 msgid "I can't buy anything with words of thanks."
-msgstr ""
+msgstr "Saya tidak dapat membeli apa pun dengan kata-kata terima kasih."
 
 #: conversationlist_sullengard.json:mg2_kealwea_54
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_54
 msgid "Oh. I understand."
-msgstr ""
+msgstr "Oh, saya mengerti."
 
 #: conversationlist_sullengard.json:mg2_kealwea_56
 msgid "I can't give you any gold. That belongs to the church."
-msgstr ""
+msgstr "Aku tidak bisa memberimu emas. Itu milik gereja."
 
 #: conversationlist_sullengard.json:mg2_kealwea_60
 msgid "But this little book might bring you joy. Wait, I'll write you a dedication inside."
 msgstr ""
+"Tapi buku kecil ini mungkin bisa membawa kebahagiaan untukmu. Tunggu, aku "
+"akan menuliskan sebuah dedikasi untukmu di dalamnya."
 
 #: conversationlist_haunted_forest.json:daw_haunted_enterance
 msgid "As you approach, the hair stands up on the back of your neck and you get a sudden and intense fear sensation and decide that now is not your time to go any further."
@@ -53525,7 +53538,7 @@ msgstr "Kau mendengarnya?"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10:1
 msgid "[Lie] Umm I sure do."
-msgstr "[Umm, tentu saja."
+msgstr "[Bohong] Umm, tentu saja."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_10:2
 msgid "No, sir, I do not."
@@ -53950,6 +53963,8 @@ msgstr "Selamat tinggal. * Sob *"
 #: conversationlist_ratdom.json:ratdom_artefact_lc_10
 msgid "The big yellow cheese now weighs heavily in your bag. Small consolation for the loss of a friend, though."
 msgstr ""
+"Keju kuning besar itu kini terasa berat di dalam tasmu. Meski begitu ini "
+"merupakan, sedikit penghiburan atas kehilangan seorang teman."
 
 #: conversationlist_ratdom.json:ratdom_artefact_lc_10:0
 msgid "Sigh. Clevred, I will miss you."
@@ -57943,138 +57958,150 @@ msgstr "Tidak, maaf. Aku tidak bisa membiarkanmu menggunakan dapurku. Tapi..."
 #: conversationlist_mt_galmore.json:galmore_68_blocked_door
 msgid "You try to push the door open, but it's blocked from the inside. Best to try the other door."
 msgstr ""
+"Kamu mencoba dorong pintunya, tapi terhalang dari dalam. Sebaiknya coba "
+"pintu satunya."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0
 msgid "With all that gold that you helped us get back, we plan to fix the bridge so we will be able to ship our beer to the west."
 msgstr ""
+"Dengan semua emas yang Anda bantu kami dapatkan kembali, kami berencana "
+"untuk memperbaiki jembatan sehingga kami dapat mengirimkan bir kami ke barat."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0:0
 msgid "\"Bridge\"? What bridge? To the west?"
-msgstr ""
+msgstr "\"Jembatan\"? jembatan apa? Ke barat?"
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0:1
 msgid "Oh, that's great news indeed! It's going to make my life easier."
-msgstr ""
+msgstr "Wah, berita bagus sekali! Hidupku jadi lebih mudah."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_10
 msgid "Don't you know? The bridge that crosses over the Sutdover River that flows between here and Stoutford. It's been broken for a while now."
 msgstr ""
+"Tahukah kamu? Jembatan yang melintasi Sungai Sutdover yang mengalir antara "
+"sini dan Stoutford. Sudah lama rusak."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_20
 msgid "It should be ready by the time you get there."
-msgstr ""
+msgstr "Seharusnya sudah siap pada saat kamu sampai di sana."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5
 msgid "The bridge that crosses over the Sutdover River has been repaired thanks to you."
-msgstr ""
+msgstr "Jembatan yang melintasi Sungai Sutdover telah diperbaiki berkat Anda."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5:0
 msgid "Yes. I am aware. In fact, I've already used it."
-msgstr ""
+msgstr "Ya. Saya tahu. Bahkan, saya sudah menggunakannya."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5:1
 msgid "I am aware of this, but I am here on another matter."
-msgstr ""
+msgstr "Saya menyadari hal itu, tetapi saya di sini untuk masalah lain."
 
 #: conversationlist_mt_galmore.json:sutdover_river_bridge_broken_script
 msgid "You can't continue over the broken boards. It's time to turn around and find another way across."
 msgstr ""
+"Kamu tidak bisa terus berjalan melewati papan yang rusak. Sudah waktunya "
+"untuk berbalik dan mencari jalan lain."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10
 msgid "Hey, kid! Just where do you think you're going?"
-msgstr ""
+msgstr "Hei, Nak! Kamu mau ke mana?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10:0
 msgid "Across the bridge, of course. After all, I can't swim."
-msgstr ""
+msgstr "Tentu saja menyeberangi jembatan. Lagipula, aku tidak bisa berenang."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10:1
 msgid "Nowhere...I guess."
-msgstr ""
+msgstr "Tidak ke mana-mana...kurasa."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_20
 msgid "The bridge is broken. You're going nowhere."
-msgstr ""
+msgstr "Jembatannya putus. Kau takkan ke mana-mana."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_10
 msgid "Let me guess, you're wondering if I know how to cross the river?"
 msgstr ""
+"Coba saya tebak, Anda bertanya-tanya apakah saya tahu cara menyeberangi "
+"sungai?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_10:0
 msgid "Well, do you?"
-msgstr ""
+msgstr "Baiklah, bagaimana menurutmu?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed
 msgid "Please move along. There's nothing to see here."
-msgstr ""
+msgstr "Silakan lanjutkan. Tidak ada yang bisa dilihat di sini."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:0
 msgid "I've been wondering, do you have anything to sell?"
-msgstr ""
+msgstr "Saya bertanya-tanya, apakah Anda punya sesuatu untuk dijual?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:1
 msgid "Yes, ma'am."
-msgstr ""
+msgstr "Ya, Bu."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:2
 msgid "The Guild needs you. Umar ..."
-msgstr ""
+msgstr "Persekutuan membutuhkanmu. Umar..."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:3
 msgid "Hi Seraphina, you were away so quickly after you gave me Luthor's ring."
-msgstr ""
+msgstr "Hai Seraphina, kamu pergi begitu cepat setelah memberiku cincin Luthor."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20
 msgid "Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold."
 msgstr ""
+"Ya, sebenarnya, aku punya. Aku punya papan di sini, di bawah jembatan, yang "
+"bisa kamu pasang di atas lubang. Tapi biayanya 1000 emas."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20:0
 msgid "Wow! All you thieves are alike. Here, take it."
-msgstr ""
+msgstr "Wah! Kalian semua pencuri itu sama saja. Ini, ambillah."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_30
 msgid "Great! Now, let me see. Where is that board?"
-msgstr ""
+msgstr "Bagus! Sekarang, coba kulihat. Di mana papan itu?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_40
 msgid "Seraphina bends down to look under the bridge."
-msgstr ""
+msgstr "Seraphina membungkuk untuk melihat ke bawah jembatan."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_50
 msgid "Um, it's not here."
-msgstr ""
+msgstr "Hm, tidak ada di sini."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_50:0
 msgid "What do you mean \"it's not here\"? Where is it?"
-msgstr ""
+msgstr "Apa maksudmu \"tidak ada di sini\"? Jadi Di mana?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_60
 msgid "It must have drifted down river. Sorry!"
-msgstr ""
+msgstr "Pasti hanyut ke sungai. Maaf!"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_60:0
 msgid "\"Sorry\"? I want my gold back."
-msgstr ""
+msgstr "\"Maaf\"? Aku ingin emasku kembali."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_70
 msgid "Maybe next time you come by I'll have the board?"
-msgstr ""
+msgstr "Mungkin lain kali kamu datang, aku akan mengambil papannya?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_80
 msgid "Why are you looking at me like that?"
-msgstr ""
+msgstr "Mengapa kau menatapku seperti itu?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_80:0
 msgid "I want my gold back. You thief!"
-msgstr ""
+msgstr "Aku ingin emasku kembali. Dasar pencuri!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_grabby_10
 msgid "I'm just the muscle around here. Go talk to Defy."
-msgstr ""
+msgstr "Aku cuma orang berotot di sini. Sana pergilah bicara dengan Defy."
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_10
 msgid "I'm just the...um..."
-msgstr ""
+msgstr "Aku hanya...um..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_10:0
 msgid "brains?"
