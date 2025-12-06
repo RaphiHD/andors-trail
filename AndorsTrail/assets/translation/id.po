@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-12-05 03:00+0000\n"
+"PO-Revision-Date: 2025-12-07 14:01+0000\n"
 "Last-Translator: Mubin M galih <mubinmuhammad002@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/id/>\n"
@@ -30,7 +30,7 @@ msgstr "Berkah"
 
 #: actorconditions_v069.json:poison_weak
 msgid "Weak Poison"
-msgstr "Racun Lemah"
+msgstr "Racun yang Lemah"
 
 #: actorconditions_v069.json:str
 msgid "Strength"
@@ -32819,7 +32819,9 @@ msgstr "Apa...?"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_6
 msgid "Argh ... The Feygard Scout hit me badly. I have not much time ... I am bleeding very heavily."
-msgstr "Argh... Pramuka Feygard memukulku dengan keras. Aku tidak punya banyak waktu... Aku mengalami pendarahan yang sangat banyak."
+msgstr ""
+"Argh... Pengintai Feygard memukulku dengan keras. Aku tidak punya banyak "
+"waktu... Aku mengalami pendarahan yang sangat banyak."
 
 #: conversationlist_omicronrg9.json:fanamor_guild_6:0
 msgid "I don't think so."
@@ -36141,7 +36143,7 @@ msgstr "Oh ya! Saya selalu suka bermain kecapi dan bernyanyi! Dengan uang yang s
 
 #: conversationlist_burhczyd.json:burhczydx_5a_8:0
 msgid "I wish you the best of luck!"
-msgstr "Saya ingin Anda keberuntungan terbaik!"
+msgstr "Saya doakan semoga kamu beruntung!"
 
 #: conversationlist_burhczyd.json:burhczydx_5e
 msgid "Before I leave, we should drink to a good start."
@@ -36165,7 +36167,7 @@ msgstr "... AAAAA DAN ITU ADALAH NIIIIGHT!"
 
 #: conversationlist_burhczyd.json:burhczydx_6a_3:0
 msgid "Finally. Bravo! More! But not now, please."
-msgstr "Akhirnya. Bravo! Lebih! Tapi tidak sekarang, tolong."
+msgstr "Akhirnya. Bravo! Tapi tidak sekarang, tolong."
 
 #: conversationlist_burhczyd.json:burhczydx_6a_4
 msgid "Hey, my biggest fan. How did you find me?"
@@ -73583,11 +73585,11 @@ msgstr "Memulihkan kelelahan"
 
 #: itemlist_v069.json:pot_blind_rage
 msgid "Potion of blind rage"
-msgstr "Potion kemarahan buta"
+msgstr "Ramuan kemarahan buta"
 
 #: itemlist_v069_questitems.json:bwm_claws
 msgid "White wyrm claw"
-msgstr "Putih wyrm cakar"
+msgstr "Cakar wyrm putih"
 
 #: itemlist_v069_questitems.json:bwm_permit
 msgid "Forged papers for Blackwater"
@@ -73623,7 +73625,7 @@ msgstr "Sarung tangan bernoda darah"
 
 #: itemlist_v069_2.json:prim_treasure_key
 msgid "Prim treasury key"
-msgstr ""
+msgstr "Kunci perbendaharaan prim"
 
 #: itemlist_v0610_1.json:gloves_critical
 msgid "Assassin's gloves"
@@ -73647,7 +73649,7 @@ msgstr "Tongkat kayu halus"
 
 #: itemlist_v0610_1.json:axe_fine_iron
 msgid "Fine iron axe"
-msgstr "Axe besi halus"
+msgstr "Kapak besi halus"
 
 #: itemlist_v0610_1.json:longsword_hard_iron
 msgid "Hardened iron longsword"
@@ -74837,7 +74839,7 @@ msgstr "Sabit berkarat"
 
 #: itemlist_stoutford_combined.json:cheese_blue
 msgid "Blue cheese"
-msgstr "Biru keju"
+msgstr "Keju biru"
 
 #: itemlist_stoutford_combined.json:cheese_blue:description
 msgid "It looks like moldy cheese."
@@ -74905,7 +74907,7 @@ msgstr "Sepatu bot penerbangan"
 
 #: itemlist_stoutford_combined.json:necklace_stfrd_combat
 msgid "Stoutford combat amulet"
-msgstr "Stoutford memerangi amulet"
+msgstr "Jimat tempur Stoutford"
 
 #: itemlist_stoutford_combined.json:tunic_snakeskin
 msgid "Snakeskin tunic"
@@ -74929,7 +74931,7 @@ msgstr "Cuirass baja"
 
 #: itemlist_stoutford_combined.json:helm_steel
 msgid "Steel helm"
-msgstr "Baja helm"
+msgstr "helm baja"
 
 #: itemlist_stoutford_combined.json:cheese_goat
 msgid "Goat cheese"
@@ -74953,19 +74955,19 @@ msgstr "Mengembalikan kelemahan senjata"
 
 #: itemlist_stoutford_combined.json:pot_alertness
 msgid "Potion of alertness"
-msgstr "Potion peringatan"
+msgstr "Ramuan kewaspadaan"
 
 #: itemlist_stoutford_combined.json:pot_heroism
 msgid "Potion of heroism"
-msgstr "Potasi pahlawan"
+msgstr "Ramuan kepahlawanan"
 
 #: itemlist_stoutford_combined.json:pot_awareness
 msgid "Potion of awareness"
-msgstr "Potasi kesadaran"
+msgstr "Ramuan kesadaran"
 
 #: itemlist_stoutford_combined.json:pot_dexterity
 msgid "Potion of dexterity"
-msgstr "Potasi ketangkasan"
+msgstr "Ramuan ketangkasan"
 
 #: itemlist_stoutford_combined.json:pot_sound_mind
 msgid "Potion of sound mind"
@@ -74981,7 +74983,7 @@ msgstr "Bunga yang tumbuh hanya di Remgard"
 
 #: itemlist_stoutford_combined.json:potion_truth
 msgid "Potion of truth"
-msgstr "Potasi kebenaran"
+msgstr "Ramuan kebenaran"
 
 #: itemlist_stoutford_combined.json:potion_deftness
 #: itemlist_stoutford_combined.json:potion_deftness_bad
@@ -75010,7 +75012,7 @@ msgstr "Tampilannya mirip dengan kulit sepatu bot."
 
 #: itemlist_stoutford_combined.json:rapier_steel
 msgid "Sharp steel rapier"
-msgstr "Baja tajam rapier"
+msgstr "Rapier baja yang tajam"
 
 #: itemlist_stoutford_combined.json:sword_annihilator
 msgid "Sword of the annihilator"
@@ -75018,7 +75020,7 @@ msgstr "Pedang annihilator"
 
 #: itemlist_stoutford_combined.json:Helm_foreseeing
 msgid "Helm of Foreseeing"
-msgstr "Helm Meramalkan"
+msgstr "Helm Peramalan"
 
 #: itemlist_stoutford_combined.json:scorpion_sting
 msgid "Scorpion sting"
@@ -75038,7 +75040,7 @@ msgstr "Koin khusus untuk melawan mayat hidup yang kuat"
 
 #: itemlist_stoutford_combined.json:erwyn_ring
 msgid "Lord Erwyn's ring"
-msgstr "Mr. Victor Yang"
+msgstr "Cincin Lord Erwyn"
 
 #: itemlist_stoutford_combined.json:erwyn_ring:description
 msgid "A broad ring with wicked looking runes all around"
@@ -75182,7 +75184,7 @@ msgstr "Sepatu penguat langkah"
 
 #: itemlist_arulir_mountain.json:silver_bar
 msgid "Silver bar"
-msgstr "Batang perak"
+msgstr "perak batangan"
 
 #: itemlist_arulir_mountain.json:silver_bar:description
 msgid "A small bar made of silver."
@@ -75202,7 +75204,7 @@ msgstr "Hauberk raksasa"
 
 #: itemlist_arulir_mountain.json:gold_bar
 msgid "Gold bar"
-msgstr "Bar emas"
+msgstr "Emas batangan"
 
 #: itemlist_arulir_mountain.json:gold_bar:description
 msgid "A small bar made of shining gold."
@@ -75210,7 +75212,7 @@ msgstr "Batangan kecil yang terbuat dari emas yang bersinar."
 
 #: itemlist_arulir_mountain.json:lead_bar
 msgid "Lead bar"
-msgstr "Bilah prospek"
+msgstr "Timah batangan"
 
 #: itemlist_arulir_mountain.json:lead_bar:description
 msgid "A small bar made of lead."
@@ -75218,7 +75220,7 @@ msgstr "Batang kecil yang terbuat dari timah."
 
 #: itemlist_burhczyd.json:stuffed_rat
 msgid "Stuffed rat from Andor"
-msgstr "Dibentuk tikus dari Andor"
+msgstr "Boneka tikus dari Andor"
 
 #: itemlist_brimhaven.json:salt_pork
 msgid "Salt pork"
@@ -75230,7 +75232,7 @@ msgstr "Rasanya sangat...asin."
 
 #: itemlist_brimhaven.json:whip_bind
 msgid "Whip of binding"
-msgstr "Kocok mengikat"
+msgstr "Cambuk pengikat"
 
 #: itemlist_brimhaven.json:whip_bind:description
 msgid "When you hold it, it almost feels like it's moving on its own, as though it were alive."
@@ -75242,7 +75244,7 @@ msgstr "Cambuk petani"
 
 #: itemlist_brimhaven.json:boots_spiked
 msgid "Spiked metal boots"
-msgstr "Boots logam kuas"
+msgstr "Sepatu bot logam berduri"
 
 #: itemlist_brimhaven.json:boots_spiked:description
 msgid "These boots look very uncomfortable. For your enemy!"
@@ -76114,7 +76116,7 @@ msgstr "(Surat ini disegel agar orang yang ingin tahu seperti Anda tidak dapat m
 
 #: itemlist_omi2.json:bwm17_vine
 msgid "Rolled up vine"
-msgstr "Gulung vine"
+msgstr "Tanaman anggur yang digulung"
 
 #: itemlist_omi2.json:bwm17_vine:description
 msgid "Several meters of vine. It can be used as a reliable rope."
@@ -76138,7 +76140,7 @@ msgstr "Beliung berkarat air hitam"
 
 #: itemlist_omi2.json:bwm_pick:description
 msgid "An old, rusted and heavy pickaxe."
-msgstr "Sebuah tua, berkarat dan acar berat."
+msgstr "Sebuah beliung tua, berkarat dan berat."
 
 #: itemlist_omi2.json:bwm_olm_drop
 msgid "Thin amphibian skin"
@@ -77380,7 +77382,7 @@ msgstr ""
 
 #: itemlist_laeroth.json:spider_fang
 msgid "Spider fang"
-msgstr ""
+msgstr "Taring laba-laba"
 
 #: itemlist_laeroth.json:spider_fang:description
 msgid "It's sharp!"
@@ -78373,7 +78375,7 @@ msgstr "Alaunn"
 #: monsterlist_stoutford_combined.json:stoutford_farmer2
 #: monsterlist_mt_galmore.json:fallhaven_outdoor_farmer
 msgid "Busy farmer"
-msgstr "Petani sibuk"
+msgstr "Petani yang sibuk"
 
 #: monsterlist_fallhaven_npcs.json:old_farmer
 #: monsterlist_stoutford_combined.json:stoutford_farmer3
@@ -78394,7 +78396,7 @@ msgstr "Unzeel"
 
 #: monsterlist_fallhaven_npcs.json:shady_bandit
 msgid "Shady bandit"
-msgstr "Bandit yang teduh"
+msgstr "Bandit yang licik"
 
 #: monsterlist_wilderness.json:wild_fox
 msgid "Wild fox"
@@ -78438,7 +78440,7 @@ msgstr "Tahanan melarikan diri"
 
 #: monsterlist_wilderness.json:starving_prisoner
 msgid "Starving prisoner"
-msgstr "WordPress.org"
+msgstr "Tahanan yang kelaparan"
 
 #: monsterlist_wilderness.json:bone_warrior
 msgid "Bone warrior"
@@ -79864,7 +79866,7 @@ msgstr "Goblin Puny Charwood"
 
 #: monsterlist_v070_charwood.json:charwdg2
 msgid "Charwood goblin scout"
-msgstr "Pramuka goblin Charwood"
+msgstr "goblin Charwood pengintai"
 
 #: monsterlist_v070_charwood.json:charwdg3
 msgid "Starving Charwood goblin"
@@ -80005,19 +80007,19 @@ msgstr "Penggali gua beracun yang kuat"
 
 #: monsterlist_v070_lodar5cave.json:caveburr5
 msgid "Giant poisonous cave burrower"
-msgstr "Facebook Twitter Pinterest"
+msgstr "Penggali gua raksasa yang beracun"
 
 #: monsterlist_v070_lodar5cave.json:cavebat1
 msgid "Gray cave bat"
-msgstr "Abu-abu gua bat"
+msgstr "Kelelawar gua abu-abu"
 
 #: monsterlist_v070_lodar5cave.json:cavebat2
 msgid "Black cave bat"
-msgstr "Hitam gua bat"
+msgstr "Kelelawar gua hitam"
 
 #: monsterlist_v070_lodar5cave.json:cavebat3
 msgid "Brown cave bat"
-msgstr "Brown gua bat"
+msgstr "Kelelawar gua coklat"
 
 #: monsterlist_v070_lodar5cave.json:cavebat4
 msgid "Cave bat"
@@ -80025,7 +80027,7 @@ msgstr "Kelelawar Goa"
 
 #: monsterlist_v070_lodar5cave.json:cavebat5
 msgid "Aggressive cave bat"
-msgstr "Agresif gua bat"
+msgstr "Kelelawar gua agresif"
 
 #: monsterlist_v070_lodarcave.json:hirathil0
 msgid "Hirathil spawn"
@@ -81704,7 +81706,7 @@ msgstr "Ehrennfest"
 #: monsterlist_omi2.json:ortholion
 #: monsterlist_omi2.json:ortholion_hidden
 msgid "General Ortholion"
-msgstr "Ortholion Umum"
+msgstr "Jendral Ortholion"
 
 #: monsterlist_omi2.json:ortholion_guard_hidden
 #: monsterlist_omi2.json:ortholion_guard1
