@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-12-07 14:01+0000\n"
+"PO-Revision-Date: 2025-12-09 20:38+0000\n"
 "Last-Translator: Mubin M galih <mubinmuhammad002@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/id/>\n"
@@ -469,7 +469,7 @@ msgstr "Batu jatuh"
 
 #: actorconditions_mt_galmore2.json:swamp_foot
 msgid "Swamp foot"
-msgstr ""
+msgstr "Kaki rawa"
 
 #: actorconditions_mt_galmore2.json:unsteady_footing
 msgid "Unsteady footing"
@@ -58115,357 +58115,423 @@ msgstr ""
 
 #: conversationlist_mt_galmore.json:aidem_camp_zachlanny_10
 msgid "Are you lost, kid?"
-msgstr ""
+msgstr "Kamu tersesat, Nak?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_10
 msgid "Shh! What was that? Did you guys here that?"
-msgstr ""
+msgstr "Ssst! Apa itu tadi? Kalian dengar itu?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_20
 msgid "I heard nothing. Greedy, you need to relax. Here, have a Bandit's Brew."
 msgstr ""
+"Aku tidak mendengar apa-apa. Greedy, kamu harus santai. Ini, minum Bandit's "
+"Brew."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_15
 msgid "There it is again! Please tell me that you guys heard that?"
-msgstr ""
+msgstr "Itu lagi! Tolong beri tahu aku, apa kalian mendengarnya?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_25
 msgid "Greedy! That's enough! Stop it. We are safe here."
-msgstr ""
+msgstr "Greedy! Sudah cukup! Hentikan. Kita aman di sini."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_25:0
 msgid "Wait a minute, I recognize those guys."
-msgstr ""
+msgstr "Tunggu sebentar, aku mengenali orang-orang itu."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_35
 msgid "Ugh. Whatever."
-msgstr ""
+msgstr "Ugh. Terserahlah."
 
 #: conversationlist_mt_galmore.json:easedropping_required_key
 msgid "You should get a better understanding of who these men are before you crash the party."
 msgstr ""
+"Anda harus lebih memahami siapa pria-pria ini sebelum Anda datang ke pesta."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_10
 msgid "Lookie what we have here! Sullengard's five most wanted men, all in one location. This is my lucky day."
 msgstr ""
+"Lihat apa yang kita punya di sini! Lima orang paling dicari Sullengard, "
+"semuanya ada di satu lokasi. Ini hari keberuntunganku."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_10:0
 msgid "Hello boys!"
-msgstr ""
+msgstr "Halo teman-teman!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_20
 msgid "Oh, it's the child from Crossglen. Umar's little toy."
-msgstr ""
+msgstr "Oh, itu anak dari Crossglen. Mainan kecil siUmar."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_20:0
 msgid "Watch it, thief!"
-msgstr ""
+msgstr "Hei, pencuri!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_30
 msgid "Why are you yelling from across the woods? Please walk over here and we can talk."
 msgstr ""
+"Kenapa kamu teriak-teriak dari seberang hutan? Ayo ke sini, kita bisa bicara."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_10
 msgid "Oh, how interesting your timing is."
-msgstr ""
+msgstr "Oh, betapa menariknya waktu yang Anda pilih."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_10:0
 msgid "Really? And why is that?"
-msgstr ""
+msgstr "Benarkah? Dan mengapa demikian?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_20
 msgid "Well, you see, we are in kind of a predicament."
-msgstr ""
+msgstr "Ya, Anda lihat, kita berada dalam semacam situasi yang sulit."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_20:0
 msgid "Oh, you are feeling guility for what you did to the great people of Sullengard and want to turn yourselves in, but don't want to go to jail?"
 msgstr ""
+"Oh, jadi kalian merasa bersalah atas apa yang kalian lakukan terhadap orang-"
+"orang hebat Sullengard dan ingin menyerahkan diri, tetapi tidak ingin masuk "
+"penjara?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_30
 msgid "Now that's funny. No! Now back to what I was trying to tell you..."
 msgstr ""
+"Lucu sekali. Tidak! Sekarang kembali ke apa yang ingin kukatakan padamu..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35
 msgid "We are planning a heist, but we need your \"skills\" to pull it off."
 msgstr ""
+"Kami berencana melakukan pencurian, tetapi kami membutuhkan \"keahlian\" mu "
+"untuk melakukannya."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35:0
 msgid "Forget it!"
-msgstr ""
+msgstr "Lupakan!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35:1
 msgid "My \"skills\" are not for hire."
-msgstr ""
+msgstr "\"Keahlian\" ku tidak untuk disewa."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_40
 msgid "Please. Just hear me out."
-msgstr ""
+msgstr "Kumohon. Dengarkan aku."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45
 msgid "We have knowledge of this vast repository of gold and other treasures, but it is well secured under lock and key."
 msgstr ""
+"Kami mengetahui tempat penyimpanan emas dan harta karun lainnya yang sangat "
+"besar , tetapi tempat itu dijaga dengan sangat ketat dan terkunci."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45:0
 msgid "OK. You had me at \"treasures\". Please go on."
-msgstr ""
+msgstr "Oke. aku tertarik dengan \"harta karun\". Silakan lanjutkan."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45:1
 msgid "And you want me to help you return it to its rightful owners?"
-msgstr ""
+msgstr "Dan Kau ingin aku membantu mu mengembalikannya kepada pemilik aslinya?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_50
 msgid "The problem of needing the key is where your \"skills\" come in."
 msgstr ""
+"Masalahnya ada pada kuncinya disitulah di mana \"keterampilan\" mu berperan."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_50:0
 msgid "These \"skills\" that you keep mentioning, what are they?"
-msgstr ""
+msgstr "\"Keterampilan\" yang terus kamu sebutkan, keterampilan apa itu?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_46
 msgid "[Laughing loudly]. Kid, you are certainly as funny as you are funny looking, I'll tell you that right now. Now, back on topic..."
 msgstr ""
+"[Tertawa terbahak-bahak]. Nak, kamu memang lucu, sama lucunya dengan "
+"penampilanmu, aku akan bilang begitu sekarang. Nah, kembali ke topik..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55
 msgid "I was just getting to that. If you would stop interrupting me, I could get to the plan quicker and how you play a major role in it."
 msgstr ""
+"Sabar aku masih berbicara. Kalau kamu berhenti menyela, saya bisa lebih "
+"cepat membahas rencananya dan bagaimana kamu berperan besar di dalamnya."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55:0
 msgid "A \"major\" role you said. So what, I get fifty percent of the loot?"
 msgstr ""
+"Peran \"utama\" yang kau bilang. Jadi bagaimana, aku dapat lima puluh persen "
+"dari hasil rampasannya?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55:1
 msgid "Oh, sorry. Please continue."
-msgstr ""
+msgstr "Oh, maaf. Silakan lanjutkan."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_56
 msgid "Again with the humor. No, you will not be getting fifty percent. Anyways..."
-msgstr ""
+msgstr "Tidak, kamu tidak akan mendapatkan lima puluh persen."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_60
 msgid "Well, before I get into any more details. Hey Alaric [the lost traveler's real name], do we trust this kid enough to tell him the details?"
 msgstr ""
+"Baiklah, sebelum saya membahas detailnya lebih lanjut. Hei Alaric [itu nama "
+"asli si pengembara yang hilang], apakah kita cukup percaya pada anak ini "
+"untuk menceritakan detailnya?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_alaric_10
 msgid "Well Defy, $playername did let me go after discovering my crime."
-msgstr ""
+msgstr "Ya Defy, $playername membiarkanku pergi setelah mengetahui kejahatanku."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_alaric_10:0
 msgid "[Keep quiet about the facts and agree, for now] That's true."
-msgstr ""
+msgstr "[Diam karna itu fakta dan sepakati, untuk saat ini] Itu benar."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_70
 msgid "That's fair enough. Now let us move on to the details, shall we?"
-msgstr ""
+msgstr "Baguslah. Sekarang mari kita lanjutkan ke detailnya, ya?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_70:0
 msgid "Yes, please. I'm getting bored here."
-msgstr ""
+msgstr "Ya, silakan. Saya mulai bosan di sini."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75
 msgid "You see, we want to get back some of what is ours. What we helped to accumulate over the years. We want to hit them where it really hurts."
 msgstr ""
+"Begini, kami ingin mendapatkan kembali sebagian dari apa yang menjadi milik "
+"kami. Apa yang telah kami bantu kumpulkan selama bertahun-tahun. Kami ingin "
+"membalas mereka di bagian yang paling menyakitkan."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:0
 msgid "Who's that?"
-msgstr ""
+msgstr "Siapa itu?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:1
 msgid "Feygard? Nor City?"
-msgstr ""
+msgstr "Apa Feygard?, Nor City?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:2
 msgid "The Thieves' Guild?"
-msgstr ""
+msgstr "Serikat Pencuri?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76
 msgid "Well, yes. But not right now. Those adventures are too big for us right now."
 msgstr ""
+"Ya, tentu saja. Tapi tidak sekarang. Petualangan itu terlalu besar untuk "
+"kita saat ini."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76a
 msgid "I'm talking about the Thieves' Guild."
-msgstr ""
+msgstr "Saya berbicara tentang Persekutuan Pencuri."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76a:0
 msgid "Why would you want to do that?"
-msgstr ""
+msgstr "Mengapa Anda ingin melakukan hal itu?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_77
 msgid "Exactly!"
-msgstr ""
+msgstr "Tepat sekali!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_78
 msgid "Well, for starters, Umar and his sidekick brother have wronged us over and over again. Keeping all the wealth for themselves. And don't even get me started on the emotional stress and abuse we suffer from at their hands."
 msgstr ""
+"Nah, sebagai permulaan, Umar dan saudaranya yang merupakan kaki tangannya "
+"telah berbuat salah kepada kami berulang kali. Mereka menyimpan semua "
+"kekayaan untuk diri mereka sendiri. Dan jangan mulai membahas tekanan "
+"emosional dan kekerasan yang kami derita di tangan mereka."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_78:0
 msgid "Um...what did they do?"
-msgstr ""
+msgstr "Hmm...apa yang mereka lakukan?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80
 msgid "You know what I am talking about, don't you?"
-msgstr ""
+msgstr "Kau tahu apa yang saya bicarakan, bukan?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80:0
 msgid "I'm not so sure that I do."
-msgstr ""
+msgstr "Saya tidak begitu yakin melakukannya."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80:1
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81:0
 msgid "Actually, yeah, kind of. Well, at least that thought has crossed my mind once or twice recently."
 msgstr ""
+"Sebenarnya, ya, agak. Yah, setidaknya pikiran itu terlintas di benakku "
+"sekali atau dua kali belakangan ini."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81
 msgid "Come on, $playername. Open you eyes. Think. Your are just a tool to him. Something for him to use to accomplish whatever his agenda is that day."
 msgstr ""
+"Ayolah, $playername. Buka matamu. Berpikirlah. Kau hanyalah alat baginya. "
+"Sesuatu yang bisa ia gunakan untuk mencapai apa pun agendanya hari itu."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81:1
 msgid "I'm not so sure, but please, get on with your plan."
-msgstr ""
+msgstr "Saya tidak begitu yakin, tetapi silakan lanjutkan rencanamu."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82
 msgid "Anyways... The Guild has a vault. A repository of treasures and wealth hidden and secure in a location just south of Fallhaven."
 msgstr ""
+"Ngomong-ngomong... Guild punya brankas. Gudang harta karun dan kekayaan yang "
+"tersembunyi dan aman di lokasi tepat di selatan Fallhaven."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82:0
 msgid "I've been all around the Fallhaven area a thousand times and I've never seen any vault."
 msgstr ""
+"Saya telah berkeliling daerah Fallhaven ribuan kali dan saya belum pernah "
+"melihat tempat brangkas apa pun."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82:1
 msgid "I don't believe you. I would have stumbled across it."
-msgstr ""
+msgstr "Aku tidak percaya padamu. Aku sudah melewati jalan disana ratusan kali."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83
 msgid "Oh, trust me, it's there all right."
-msgstr ""
+msgstr "Oh, percayalah padaku, tempat itu ada di sana."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83:0
 msgid "Trust you? You want me to trust you? A dishonorable thief? Where is it then?"
 msgstr ""
+"Percaya padamu? Kau ingin aku percaya padamu? Pencuri yang tak terhormat? "
+"Lalu di mana itu?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83:1
 msgid "Tell me. I want to know."
-msgstr ""
+msgstr "Katakan padaku. Aku ingin tahu."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_84
 msgid "Are you familiar with that vacant house southwest of Fallhaven? The one next to the cliffside?"
 msgstr ""
+"Kenal dengan rumah kosong di barat daya Fallhaven itu? Rumah di sebelah "
+"tebing itu?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_84:1
 msgid "[Lie] Yes, yes I am."
-msgstr ""
+msgstr "[Bohong] Ya, ya."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85
 msgid "The entrance to it is found inside that house. It's hidden and secured. You will need to find the passage that leads underground in order to gain access."
 msgstr ""
+"Pintu masuknya ada di dalam rumah itu. Tersembunyi dan aman. Kamu perlu "
+"menemukan lorong bawah tanah untuk bisa masuk."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85:0
 msgid "That sounds easy. I'll do it."
-msgstr ""
+msgstr "Kedengarannya mudah. Aku akan melakukannya."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85:1
 msgid "I guess I can try and get in there."
-msgstr ""
+msgstr "Saya kira saya bisa mencoba dan masuk ke sana."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_86
 msgid "You won't be doing it."
-msgstr ""
+msgstr "Kamu tidak akan bisa melakukannya."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_86:0
 msgid "I won't be?"
-msgstr ""
+msgstr "Aku tidak akan bisa?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_87
 msgid "No. We will be doing that."
-msgstr ""
+msgstr "Tidak. Kami yang akan melakukan itu."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_87:0
 msgid "Then what do you need from me?"
-msgstr ""
+msgstr "Lalu apa yang kau butuhkan dariku?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88
 msgid "What I need from you is more of an inside job. I need you to get the key to the vault from Troublemaker without him suspecting any trickery. Do you think you can handle that?"
 msgstr ""
+"Yang kubutuhkan darimu lebih dari sekadar kerja sama internal. Aku ingin kau "
+"mendapatkan kunci brankas dari Troublemaker tanpa dia curiga ada tipu daya. "
+"Apa kau pikir kau bisa melakukannya?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88:0
 msgid "Why should I help you? What do I get out of this?"
-msgstr ""
+msgstr "Kenapa aku harus membantumu? Apa yang kudapatkan dari ini?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88:1
 msgid "If I do this for you, then I expect to get paid!"
-msgstr ""
+msgstr "Jika Aku melakukan ini untukmu, maka aku berharap dibayar!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89
 msgid "Oh, you aren't as dumb as you are funny."
-msgstr ""
+msgstr "Oh, kamu tidak sebodoh yang kukira, tapi kamu lucu."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a
 msgid "How does 10 percent of the total treasure sound?"
-msgstr ""
+msgstr "Bagaimana jika 10 persen dari total harta karunnya?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:0
 msgid "I want 50 percent"
-msgstr ""
+msgstr "Aku maunya 50 persen"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:1
 msgid "How does 30 percent sound?"
-msgstr ""
+msgstr "Bagaimana kalau 30 persen?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:2
 msgid "Nope. I will go no lower than 25 percent"
-msgstr ""
+msgstr "Tidak. Aku tidak akan memberikan angka kurang dari 25 persen"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:3
 msgid "I'll do it for twice that amount. 20 percent."
-msgstr ""
+msgstr "Aku akan melakukannya dengan jumlah dua kali lipatnya. 20 persen."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_90
 msgid "Fine! [Shh] I'll take it out of Greedy's portion. He'll never know the difference."
 msgstr ""
+"Baiklah! [Ssst] Aku akan mengambilnya dari bagian Greedy. Dia tidak akan "
+"pernah tahu bedanya."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_95
 msgid "We will be leaving this campsite in favor of our hideout. Meet up with me there and you can give me the key then."
 msgstr ""
+"Kita akan meninggalkan perkemahan ini dan pergi ke tempat persembunyian "
+"kita. Temui aku di sana, dan berikan kuncinya nanti."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_95:0
 msgid "Sounds good, but where is your hideout?"
-msgstr ""
+msgstr "Kedengarannya bagus, tapi di mana tempat persembunyianmu?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_100
 msgid "It's where the rail tracks end. West of the Sutdover River."
 msgstr ""
+"Ditempat dimana rel kereta api berakhir. Di sebelah barat Sungai Sutdover."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_100:0
 msgid "The Sutdover River? Where is it?"
-msgstr ""
+msgstr "Sungai Sutdover? Di mana letaknya?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_110
 msgid "The Sutdover River flows between Sullengard and Stoutford."
 msgstr ""
+"Sungai Sutdover itu sungai yang mengalir antara Sullengard dan Stoutford."
 
 #: conversationlist_mt_galmore.json:aidem_base_locked
 msgid "As you sneak a peek inside, a terrifying voice yells out. Warning you not to step foot inside."
 msgstr ""
+"Saat kau mengintip ke dalam, sebuah suara mengerikan berteriak, "
+"memperingatkanmu untuk tidak melangkah masuk."
 
 #: conversationlist_mt_galmore.json:aidem_camp_lost_traveler
 msgid "Go talk to Defy. I have nothing to say to you."
-msgstr ""
+msgstr "Bicaralah pada Defy. Aku tidak punya apa-apa untuk dikatakan kepadamu."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_10
 msgid "Great! Give it to me and when I have time, whenever that may be, I will add it to our bank."
 msgstr ""
+"Bagus! Berikan saja padaku, dan kalau aku punya waktu, kapan pun itu, aku "
+"akan menambahkannya ke rekeningmu."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_10:0
 msgid "Well, if you are so busy, I don't mind making the deposit for the greater good."
 msgstr ""
+"Baiklah, jika Anda memang sibuk, saya tidak keberatan memberikan deposit "
+"demi kebaikan bersama."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_15
 msgid "Hmm... well I guess you could do that for me considering Umar trusts you a lot."
 msgstr ""
+"Hmm... baiklah, kurasa kau bisa melakukannya untukku mengingat Umar sangat "
+"mempercayaimu."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_15:0
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_35:0
 msgid "Great! Just tell me where to go and you can consider it done."
 msgstr ""
+"Bagus! Beri tahu saya ke mana harus pergi, dan Anda bisa menganggapnya "
+"selesai."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_20
 msgid "Well, it's not that easy. You need more than the location. You need this key."
