@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-12-09 20:38+0000\n"
+"PO-Revision-Date: 2025-12-11 10:00+0000\n"
 "Last-Translator: Mubin M galih <mubinmuhammad002@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/id/>\n"
@@ -473,11 +473,11 @@ msgstr "Kaki rawa"
 
 #: actorconditions_mt_galmore2.json:unsteady_footing
 msgid "Unsteady footing"
-msgstr ""
+msgstr "Pijakan yang tidak stabil"
 
 #: actorconditions_mt_galmore2.json:clinging_mud
 msgid "Clinging mud"
-msgstr ""
+msgstr "Lumpur yang menempel"
 
 #: actorconditions_mt_galmore2.json:clinging_mud:description
 msgid "Thick mud clings to your legs, hindering your movements and making it harder to act swiftly or strike with precision."
@@ -487,11 +487,11 @@ msgstr ""
 
 #: actorconditions_mt_galmore2.json:cinder_rage
 msgid "Cinder rage"
-msgstr ""
+msgstr "Abu kemarahan"
 
 #: actorconditions_mt_galmore2.json:frostbite
 msgid "Frostbite"
-msgstr ""
+msgstr "Radang dingin"
 
 #: actorconditions_mt_galmore2.json:shadowsleep
 msgid "Shadow sleepiness"
@@ -58536,338 +58536,404 @@ msgstr ""
 #: conversationlist_mt_galmore.json:troublemaker_wm_20
 msgid "Well, it's not that easy. You need more than the location. You need this key."
 msgstr ""
+"Yah, tidak semudah itu. Kamu membutuhkan lebih dari sekadar lokasi. Kau "
+"membutuhkan kunci ini."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_20:0
 msgid "Thanks, but where is the vault located?"
-msgstr ""
+msgstr "Terima kasih, tapi di mana letak brankasnya?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_25
 msgid "You can find the empty house just south of here. Enter it and you will find your way."
 msgstr ""
+"Kamu dapat menemukan rumah kosong tepat di sebelah selatan sini. Masuklah ke "
+"dalamnya dan kamu akan menemukan jalannya."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_25:0
 msgid "Thank you so much! I will bring the key back as quick as possible."
-msgstr ""
+msgstr "Terima kasih banyak! Saya akan mengembalikan kuncinya secepat mungkin."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_10
 msgid "You what? How? Where? Tell me all you know."
-msgstr ""
+msgstr "Apa? Bagaimana? Di mana? Ceritakan semua yang kau tahu."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5:0
 msgid "I found them by pure luck, really."
-msgstr ""
+msgstr "Aku menemukannya murni karena keberuntungan, sebenarnya."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_10
 msgid "Where did you find them?"
-msgstr ""
+msgstr "Di mana kamu menemukan mereka?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_10:0
 msgid "Southeast of Deebo's orchard. They were simply sitting in the woods around a campfire enjoying some of Sullengard's \"Bandit Brews\"."
 msgstr ""
+"Di sebelah tenggara kebun Deebo. Mereka hanya duduk di hutan di sekitar api "
+"unggun sambil menikmati \"Bandit Brews\" buatan Sullengard."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_15:0
 msgid "They wanted to hire me to rob you guys. Defy wants your stash of gold and treasures."
 msgstr ""
+"Mereka ingin menyewaku untuk merampok kalian. Defy menginginkan simpanan "
+"emas dan harta karun kalian."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_20
 msgid "Really? What did you say?"
-msgstr ""
+msgstr "Benarkah?, Apa yang tadi kamu katakan?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_20:0
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5_alt:0
 msgid "Well, I agreed to, but only because I want to help you guys catch him."
 msgstr ""
+"Baiklah, saya setuju, tetapi hanya karena saya ingin membantu kalian "
+"menangkapnya."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_25
 msgid "You know, $playername, for just being a young adventurer, you are learning a lot."
 msgstr ""
+"Kau tahu, $playername, untuk ukuran seorang petualang muda, kau sudah "
+"belajar banyak."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_25:0
 msgid "Thanks a lot. I do feel a lot smarter now than I did before joining your guild."
 msgstr ""
+"Terima kasih banyak. Saya merasa jauh lebih pintar sekarang daripada sebelum "
+"bergabung dengan guildmu."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_30
 msgid "Listen, kid. Let's use this to our advantage. Take this fake key, bring it to Defy and we will be waiting for them at the vault."
 msgstr ""
+"Dengar, Nak. Mari kita manfaatkan ini. Ambil kunci palsu ini, bawa ke Defy, "
+"dan kami akan menunggu mereka di brankas."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_30:0
 msgid "Sir, that sounds like a great plan. What do you want me to do after handing him the fake key?"
 msgstr ""
+"Pak, itu terdengar seperti rencana yang bagus. Apa yang Anda ingin saya "
+"lakukan setelah menyerahkan kunci palsu itu kepadanya?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_35
 msgid "You should go with them to the vault as we may need your help there."
 msgstr ""
+"Sebaiknya kamu ikut bersama mereka ke brankas karena kami mungkin "
+"membutuhkan bantuanmu di sana."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40
 msgid "You can find the empty house just southwest of here. Enter it and you will find your way."
 msgstr ""
+"Kamu dapat menemukan rumah kosong di sebelah barat daya dari sini. Masuklah "
+"ke dalamnya dan kamu akan menemukan jalannya."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_40:0
 msgid "I'll be there. Thank you."
-msgstr ""
+msgstr "Aku akan disana. Terima kasih."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10
 msgid "It's so weird working with you after all that we've gone through."
 msgstr ""
+"Rasanya aneh sekali bekerja sama denganmu setelah semua yang telah kita "
+"lalui."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10:0
 msgid "We are not friends."
-msgstr ""
+msgstr "Kami bukan teman."
 
 #: conversationlist_mt_galmore.json:aidem_base_alaric_10:1
 msgid "I would love nothing more than to see you punished for your crimes."
-msgstr ""
+msgstr "Aku sangat ingin melihatmu dihukum atas kejahatanmu."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:0
 msgid "Come and get it!"
-msgstr ""
+msgstr "Datang dan ambillah!"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_selector:3
 msgid "What are you waiting for? Go take the fake key to Troublemaker."
-msgstr ""
+msgstr "Apa yang kamu tunggu? Pergi dan bawa kunci palsu itu ke Troublemaker."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10
 #: conversationlist_mt_galmore.json:aidem_base_dont_help_defy_10
 msgid "Do you have the key? Hand it over."
-msgstr ""
+msgstr "Apakah kamu memegang kuncinya? Berikan padaku."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10:0
 msgid "Oops. I forgot to bring it with me. I'll be back soon."
-msgstr ""
+msgstr "Ups. Aku lupa membawanya. Aku akan segera kembali."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_10:2
 msgid "Yes, but you are not having it. I will loot the vault myself and keep everything I find."
 msgstr ""
+"Ya, tapi kau tidak akan membiarkannya. Aku akan menjarah brankas itu sendiri "
+"dan menyimpan semua yang kutemukan."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_20
 #: conversationlist_mt_galmore.json:aidem_base_defy_help_tg_10
 msgid "Thank you so much. Now take this fake key that Zachlanny's has made and return it to Troublemaker before he suspects anything. Then meet us at the vault to collect your share of the loot."
 msgstr ""
+"Terima kasih banyak. Sekarang ambil kunci palsu yang dibuat Zachlanny ini "
+"dan kembalikan ke Troublemaker sebelum dia curiga. Kemudian temui kami di "
+"brankas untuk mengambil bagianmu dari rampasan."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_fake_key_10
 #: conversationlist_mt_galmore.json:troublemaker_wm_return_real_key_10
 #: conversationlist_mt_galmore2.json:egrinda_wants_gold_reward_qs61
 msgid "Thank you very much!"
-msgstr ""
+msgstr "Terima kasih banyak!"
 
 #: conversationlist_mt_galmore.json:alaric_wild6house
 msgid "I'm rich. I'm finally rich!"
-msgstr ""
+msgstr "Aku kaya. Akhirnya aku kaya!"
 
 #: conversationlist_mt_galmore.json:alaric_wild6house:0
 msgid "Only in gold. You have no friends."
-msgstr ""
+msgstr "Hanya emas. Kamu tidak punya teman."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_10
 msgid "Here is your reward for your role in our success."
-msgstr ""
+msgstr "Ini adalah imbalanmu atas peranmu dalam kesuksesan kami."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_10:0
 msgid "It was nice doing business with you."
-msgstr ""
+msgstr "Senang berbisnis denganmu."
 
 #: conversationlist_mt_galmore.json:defy_wild6house_20
 msgid "We are leaving now. Too close to Fallhaven for my liking."
 msgstr ""
+"Kami akan pergi sekarang. Terlalu dekat dengan Fallhaven untuk seleraku."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10
 msgid "Come again?"
-msgstr ""
+msgstr "Datang lagi?"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10:0
 msgid "I said, \"here it is\"."
-msgstr ""
+msgstr "Aku bilang , \"ini dia\"."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_10:1
 msgid "You heard me the first time. I'm keeping the key and looting the vault myself."
 msgstr ""
+"Kau sudah mendengarku sejak pertama kali. Aku akan menyimpan kuncinya dan "
+"menjarah brankas itu sendiri."
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_20
 msgid "I will be taking that key now!"
-msgstr ""
+msgstr "Aku akan mengambil kunci itu sekarang!"
 
 #: conversationlist_mt_galmore.json:aidem_base_defy_dont_help_20:0
 msgid "Come and try!"
-msgstr ""
+msgstr "Datang dan cobalah!"
 
 #: conversationlist_mt_galmore.json:aidem_base_thieves_killed
 msgid "I have killed Defy, his three helpers and Alaric. I really should go back to Fallhaven and talk to Troublemaker again."
 msgstr ""
+"Aku telah membunuh Defy, ketiga anak buahnya, dan Alaric. Aku benar-benar "
+"harus kembali ke Fallhaven dan berbicara dengan Troublemaker lagi."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_10:0
 msgid "You're never going to believe this, but they were inside that vacant house when I walked in."
 msgstr ""
+"Kau tidak akan percaya, tetapi mereka berada di dalam rumah kosong itu "
+"ketika saya masuk."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_20
 msgid "Then what happened?"
-msgstr ""
+msgstr "Lalu apa yang terjadi?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_20:0
 msgid "They looked up to no good, so I questioned them. Then the next thing I know, I'm caught up in the heat of battle and they are dead."
 msgstr ""
+"Mereka tampak mencurigakan, jadi saya menanyai mereka. Lalu tiba-tiba saya "
+"terjebak dalam panasnya pertempuran dan mereka tewas."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30
 msgid "Can you prove this? Can you show me something that proves that all four are dead?"
 msgstr ""
+"Bisakah kamu membuktikan ini? Bisakah kamu menunjukkan sesuatu yang "
+"membuktikan bahwa keempatnya sudah mati?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30:0
 msgid "Yes. I looted their rings. [Shows them to Troublemaker]"
-msgstr ""
+msgstr "Ya. Aku mengambil cincin mereka. [Menunjukkannya kepada Troublemaker]"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_30:1
 msgid "Yes. I looted their rings, but I forgot to bring them with me. I'll come back."
 msgstr ""
+"Ya. Aku mengambil cincin mereka, tapi aku lupa membawanya. Aku akan kembali "
+"lagi."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_deffy_killed_40
 msgid "Well, this is great news indeed. However, we would like to have them alive."
 msgstr ""
+"Wah, ini memang kabar yang sangat baik. Namun, kami lebih suka mereka tetap "
+"hidup."
 
 #: conversationlist_mt_galmore.json:thief_rennik_10
 msgid "Ah, $playername has finally returned. Please, take this crystal and some gold as our thanks to you."
 msgstr ""
+"Ah, $playername akhirnya kembali. Silakan ambil kristal ini dan sejumlah "
+"emas sebagai ucapan terima kasih kami kepadamu."
 
 #: conversationlist_mt_galmore.json:thief_rennik_20
 msgid "You will be happy to hear that we have captured Defy and his four accomplices before they could steal from us."
 msgstr ""
+"Anda pasti senang mendengar bahwa kami telah menangkap Defy dan keempat kaki "
+"tangannya sebelum mereka sempat mencuri dari kami."
 
 #: conversationlist_mt_galmore.json:thief_rennik_20:0
 msgid "That's great news indeed. Where are they now?"
-msgstr ""
+msgstr "Itu memang kabar yang sangat bagus. Di mana mereka sekarang?"
 
 #: conversationlist_mt_galmore.json:thief_rennik_30
 msgid "We are keeping them in our holding cage in Fallhaven."
-msgstr ""
+msgstr "Kami menahan mereka di kandang penampungan kami di Fallhaven."
 
 #: conversationlist_mt_galmore.json:thief_rennik_30:0
 msgid "Is there anything else that I should know about?"
-msgstr ""
+msgstr "Apakah ada hal lain yang perlu saya ketahui?"
 
 #: conversationlist_mt_galmore.json:thief_rennik_40
 msgid "Yes. That fifth man, the one that was not one of us..."
-msgstr ""
+msgstr "Ya. Orang kelima itu, orang yang bukan dari kita..."
 
 #: conversationlist_mt_galmore.json:thief_rennik_40:0
 msgid "You mean Alaric?"
-msgstr ""
+msgstr "Maksudmu Alaric?"
 
 #: conversationlist_mt_galmore.json:thief_rennik_50
 msgid "His name is not important to me..."
-msgstr ""
+msgstr "Namanya tidak penting bagiku..."
 
 #: conversationlist_mt_galmore.json:thief_rennik_55
 msgid "We've learned that he was part of a crime in Sullengard. You may want to visit Sullengard and inform them that we have their guy."
 msgstr ""
+"Kami telah mengetahui bahwa dia terlibat dalam kejahatan di Sullengard. Kau "
+"mungkin ingin mengunjungi Sullengard dan memberi tahu mereka bahwa kami "
+"telah menangkap orang yang mereka cari."
 
 #: conversationlist_mt_galmore.json:thief_rennik_55:0
 msgid "I will. Thank you again."
-msgstr ""
+msgstr "Baik. Terima kasih sekali lagi."
 
 #: conversationlist_mt_galmore.json:thief_rennik_generic_10
 msgid "I am here now to watch out for suspicious activity and people."
 msgstr ""
+"Saya di sini sekarang untuk mengawasi aktivitas dan orang-orang yang "
+"mencurigakan."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt
 msgid "Hey, you are just the person that I wanted to see. I've been wondering that with all of your adventures, have you encountered \"the lost traveler\" again?"
 msgstr ""
+"Hei, kaulah orang yang ingin kutemui. Aku penasaran, dengan semua "
+"petualanganmu, apakah kau bertemu lagi dengan \"pengembara yang hilang\" itu?"
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt:0
 msgid "Actually, yes. Yes, I have."
-msgstr ""
+msgstr "Sebenarnya, ya."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10
 msgid "Where? Can you get him back here to be punished?"
-msgstr ""
+msgstr "Di mana? Bisakah kau membawanya kembali ke sini untuk dihukum?"
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10:0
 msgid "Actually, he is in a Fallhaven jail. Locked up with Defy in fact. I was able to capture them and lock them up there."
 msgstr ""
+"Sebenarnya, dia berada di penjara Fallhaven. Tepatnya dikurung bersama Defy. "
+"Aku berhasil menangkap mereka dan mengurung mereka di sana."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_10:1
 msgid "Actually, I had a chance encounter with him and after attempting to drag him back here, he attacked me and I had no other option than to end his life."
 msgstr ""
+"Sebenarnya, saya bertemu dengannya secara kebetulan dan setelah mencoba "
+"menyeretnya kembali ke sini, dia menyerang saya dan saya tidak punya pilihan "
+"lain selain membunuhnya."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_11
 msgid "Oh, thank you so much! "
-msgstr ""
+msgstr "Oh, terima kasih banyak! "
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_11:0
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_12:0
 msgid "Of course. It was my pleasure."
-msgstr ""
+msgstr "Tentu saja. Dengan senang hati."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_12
 msgid "Well, I would have preferred to see him punished instead of killed, but thank you so much for putting an end to all this."
 msgstr ""
+"Sebenarnya, saya lebih suka melihat dia dihukum daripada dibunuh, tetapi "
+"terima kasih banyak karena telah mengakhiri semua ini."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_13
 msgid "Please, take this as a gift of gratitude."
-msgstr ""
+msgstr "Mohon, terima ini sebagai hadiah ucapan terima kasih."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_14
 msgid "I don't know if you will like it, but let me tell you, nobody down here wants it."
 msgstr ""
+"Aku tidak tahu apakah kamu akan menyukainya, tapi percayalah, tidak ada "
+"seorang pun di sini yang menginginkannya."
 
 #: conversationlist_mt_galmore.json:sullengard_zaccheria_ask_about_lt_14:0
 msgid "Oh, really? I will play with it. Thanks again."
-msgstr ""
+msgstr "Oh, benarkah? Aku akan memainkannya. Terima kasih sekali lagi."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_5
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_6
 msgid "As you step between the trees, the crunch of the dry leaves beneath your feet startle you."
 msgstr ""
+"Saat kamu melangkah di antara pepohonan, suara gemerisik daun kering di "
+"bawah kakimu mengejutkanmu."
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_10
 msgid "Do you want to unlock the hatch?"
-msgstr ""
+msgstr "Apakah kamu ingin membuka pintu palka?"
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_20
 msgid "The lock creaks open, revealing a staircase."
-msgstr ""
+msgstr "Gembok itu berderit terbuka, memperlihatkan sebuah tangga."
 
 #: conversationlist_mt_galmore.json:wild6_house_prevent_bucket_walking
 msgid "Oh, gross! It's full of spiders."
-msgstr ""
+msgstr "Oh, menjijikkan! Penuh dengan laba-laba."
 
 #: conversationlist_mt_galmore.json:aidem_base_dont_help_defy_10:0
 msgid "Yes, Here it is. [Handing over the fake key] "
-msgstr ""
+msgstr "Ya, ini dia. [Menyerahkan kunci palsu] "
 
 #: conversationlist_mt_galmore.json:aidem_base_fight
 msgid "You will regret this, kid!"
-msgstr ""
+msgstr "Kau akan menyesali ini, Nak!"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_81
 msgid "Do I know you?"
-msgstr ""
+msgstr "Apakah aku mengenalmu?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_81:0
 msgid "Oh, you want to play dumb? Umar will hear about this!"
-msgstr ""
+msgstr "Oh, kau mau pura-pura bodoh? Umar akan tahu tentang ini!"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_81:1
 msgid "No time to joke - the Guild needs you. Umar ..."
-msgstr ""
+msgstr "Tidak ada waktu untuk bercanda - Persekutuan membutuhkanmu. Umar..."
 
 #: conversationlist_mt_galmore.json:wild6_house_hatch_defy_killed_no_key
 msgid "I should come back with the Thieves' Guild key."
-msgstr ""
+msgstr "Aku harus kembali dengan kunci Persekutuan Pencuri."
 
 #: conversationlist_mt_galmore.json:bela_witch_10
 msgid "Did you hear about the kidnapping?"
-msgstr ""
+msgstr "Apakah kamu mendengar tentang penculikan itu?"
 
 #: conversationlist_mt_galmore.json:bela_witch_10:0
 msgid "It wasn't me!"
-msgstr ""
+msgstr "itu bukan aku!"
 
 #: conversationlist_mt_galmore.json:bela_witch_10:1
 msgid "Someone kidnapped Ambelie?"
-msgstr ""
+msgstr "Apakah ada orang yang menculik Ambelie?"
 
 #: conversationlist_mt_galmore.json:bela_witch_15
 msgid "[Looking extermely confused and terrified] ... Well, why would it be you?"
-msgstr ""
+msgstr "[Terlihat sangat bingung dan ketakutan] ... Nah, kenapa harus kamu?"
 
 #: conversationlist_mt_galmore.json:bela_witch_15:0
 msgid "Nevermind."
