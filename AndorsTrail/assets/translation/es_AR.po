@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-30 01:08+0200\n"
-"PO-Revision-Date: 2023-07-27 18:07+0000\n"
-"Last-Translator: Seven <sevenscanlation@gmail.com>\n"
+"PO-Revision-Date: 2025-12-13 16:20+0000\n"
+"Last-Translator: Oscar Ortiz <dj.alexander.progressive@gmail.com>\n"
 "Language-Team: Spanish (Argentina) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/es_AR/>\n"
 "Language: es_AR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -20,7 +20,7 @@ msgstr "Bendecir"
 
 #: actorconditions_v069.json:poison_weak
 msgid "Weak Poison"
-msgstr "Veneno Débil"
+msgstr "Veneno débil"
 
 #: actorconditions_v069.json:str
 msgid "Strength"
@@ -28,7 +28,7 @@ msgstr "Fuerza"
 
 #: actorconditions_v069.json:regen
 msgid "Shadow Regeneration"
-msgstr "Regeneración de sombras"
+msgstr "Regeneración sombría"
 
 #: actorconditions_v069_bwm.json:speed_minor
 msgid "Minor speed"
@@ -40,7 +40,7 @@ msgstr "Fatiga menor"
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
-msgstr "debilidad menor de arma"
+msgstr "Debilidad menor de arma"
 
 #: actorconditions_v069_bwm.json:bleeding_wound
 msgid "Bleeding wound"
@@ -52,7 +52,7 @@ msgstr "Rabia menor de berserker"
 
 #: actorconditions_v069_bwm.json:blackwater_misery
 msgid "Blackwater misery"
-msgstr "Angustia de \"AguasOscuras\""
+msgstr "Miseria de aguas negras"
 
 #: actorconditions_v069_bwm.json:intoxicated
 msgid "Intoxicated"
@@ -60,7 +60,7 @@ msgstr "Intoxicado"
 
 #: actorconditions_v069_bwm.json:dazed
 msgid "Dazed"
-msgstr "Aturdido"
+msgstr "Deslumbrado"
 
 #: actorconditions_v0610.json:chaotic_grip
 msgid "Chaotic grip"
@@ -68,358 +68,358 @@ msgstr "Agarre Caótico"
 
 #: actorconditions_v0610.json:chaotic_curse
 msgid "Chaotic curse"
-msgstr ""
+msgstr "Maldición caótica"
 
 #: actorconditions_v0611.json:contagion
 msgid "Insect contagion"
-msgstr ""
+msgstr "Contagio de insectos"
 
 #: actorconditions_v0611.json:blister
 msgid "Blistering skin"
-msgstr ""
+msgstr "Piel con ampollas"
 
 #: actorconditions_v0611.json:stunned
 msgid "Stunned"
-msgstr ""
+msgstr "Aturdido"
 
 #: actorconditions_v0611.json:focus_dmg
 msgid "Focused damage"
-msgstr ""
+msgstr "Daño concentrado"
 
 #: actorconditions_v0611.json:focus_ac
 msgid "Focused accuracy"
-msgstr ""
+msgstr "Precisión concentrada"
 
 #: actorconditions_v0611.json:poison_irdegh
 msgid "Irdegh poison"
-msgstr ""
+msgstr "Veneno de Irdegh"
 
 #: actorconditions_v0611_2.json:rotworm
 msgid "Kazaul rotworms"
-msgstr ""
+msgstr "Lombrices intestinales de Kazaul"
 
 #: actorconditions_v0611_2.json:shadowbless_str
 msgid "Blessing of Shadow strength"
-msgstr ""
+msgstr "Bendición de fuerza sombría"
 
 #: actorconditions_v0611_2.json:shadowbless_heal
 msgid "Blessing of Shadow regeneration"
-msgstr ""
+msgstr "Bendición de regeneración sombría"
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
-msgstr ""
+msgstr "Bendición de puntería sombría"
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
-msgstr ""
+msgstr "Bendición de guardían sombrío"
 
 #: actorconditions_v0611_2.json:crit1
 msgid "Internal bleeding"
-msgstr ""
+msgstr "Sangrado interno"
 
 #: actorconditions_v0611_2.json:crit2
 msgid "Fracture"
-msgstr ""
+msgstr "Fractura"
 
 #: actorconditions_v0611_2.json:concussion
 msgid "Concussion"
-msgstr ""
+msgstr "Contusión"
 
 #: actorconditions_v0612_2.json:food
 msgid "Sustenance"
-msgstr ""
+msgstr "Sustento"
 
 #: actorconditions_v0612_2.json:foodp
 msgid "Food-poisoning"
-msgstr ""
+msgstr "Envenenamiento por comida"
 
 #: actorconditions_v070.json:slime
 msgid "Corrosive slime"
-msgstr ""
+msgstr "Baba corrosiva"
 
 #: actorconditions_v070.json:sense_1
 msgid "Heightened senses"
-msgstr ""
+msgstr "Sentidos agudizados"
 
 #: actorconditions_v070.json:courage
 msgid "Courage"
-msgstr ""
+msgstr "Coraje"
 
 #: actorconditions_v070.json:fear
 msgid "Fear"
-msgstr ""
+msgstr "Miedo"
 
 #: actorconditions_v070.json:def
 msgid "Fortified defense"
-msgstr ""
+msgstr "Defensa fortificada"
 
 #: actorconditions_v070.json:crit_aware
 msgid "Vulnerability awareness"
-msgstr ""
+msgstr "Conocimiento de vulnerabilidades"
 
 #: actorconditions_v070.json:regen2
 msgid "Regeneration"
-msgstr ""
+msgstr "Regeneración"
 
 #: actorconditions_v070.json:barkskin
 msgid "Bark skin"
-msgstr ""
+msgstr "Piel dura"
 
 #: actorconditions_v070.json:shadow_acc
 msgid "Shadow's accuracy"
-msgstr ""
+msgstr "Puntería sombría"
 
 #: actorconditions_v070.json:shadow_prot
 msgid "Shadow's protection"
-msgstr ""
+msgstr "Protección sombría"
 
 #: actorconditions_v070.json:shadow_dmg
 msgid "Shadow's strength"
-msgstr ""
+msgstr "Fuerza sombría"
 
 #: actorconditions_v070.json:haste
 msgid "Haste"
-msgstr ""
+msgstr "Apuro"
 
 #: actorconditions_v070.json:fire
 msgid "Ablaze"
-msgstr ""
+msgstr "En llamas"
 
 #: actorconditions_v070.json:sting_minor
 msgid "Minor sting"
-msgstr ""
+msgstr "Picadura leve"
 
 #: actorconditions_stoutford.json:confusion
 msgid "Confusion"
-msgstr ""
+msgstr "Confusión"
 
 #: actorconditions_stoutford.json:clumsiness
 msgid "Clumsiness"
-msgstr ""
+msgstr "Torpeza"
 
 #: actorconditions_stoutford.json:curse_undead
 msgid "Curse of the Undead"
-msgstr ""
+msgstr "Maldición de los no-muertos"
 
 #: actorconditions_graveyard1.json:contagion2
 msgid "Spore contagion"
-msgstr ""
+msgstr "Contagio de esporas"
 
 #: actorconditions_graveyard1.json:petrification
 msgid "Petrification"
-msgstr ""
+msgstr "Petrificación"
 
 #: actorconditions_graveyard1.json:vulnerability
 msgid "Vulnerability"
-msgstr ""
+msgstr "Vulnerabilidad"
 
 #: actorconditions_graveyard1.json:flesh_rot
 msgid "Flesh rot"
-msgstr ""
+msgstr "Carne podrida"
 
 #: actorconditions_graveyard1.json:putrefaction
 msgid "Putrefaction"
-msgstr ""
+msgstr "Putrefacción"
 
 #: actorconditions_guynmart.json:regenNeg
 msgid "Shadow Degeneration"
-msgstr ""
+msgstr "Degeneración sombría"
 
 #: actorconditions_guynmart.json:bone_fracture
 msgid "Bone fracture"
-msgstr ""
+msgstr "Fractura osea"
 
 #: actorconditions_guynmart.json:shadow_awareness
 msgid "Shadow awareness"
-msgstr ""
+msgstr "Concientización sombría"
 
 #: actorconditions_trader_teksin.json:poison_irdegh_weak
 msgid "Weak irdegh poison"
-msgstr ""
+msgstr "Veneno de Irdegh leve"
 
 #: actorconditions_trader_teksin.json:light_attack
 msgid "Lightning attack"
-msgstr ""
+msgstr "Ataque de rayo"
 
 #: actorconditions_stoutford_combined.json:nausea
 msgid "Nausea"
-msgstr ""
+msgstr "Nausea"
 
 #: actorconditions_stoutford_combined.json:poison_blood
 msgid "Blood poisoning"
-msgstr ""
+msgstr "Envenenamiento sanguíneo"
 
 #: actorconditions_stoutford_combined.json:deftness
 msgid "Deftness"
-msgstr ""
+msgstr "Destreza"
 
 #: actorconditions_stoutford_combined.json:tight_grip
 msgid "Tight grip"
-msgstr ""
+msgstr "Agarre firme"
 
 #: actorconditions_stoutford_combined.json:clairvoyance
 msgid "Clairvoyance"
-msgstr ""
+msgstr "Clarividencia"
 
 #: actorconditions_stoutford_combined.json:mind_fog
 msgid "Mind fog"
-msgstr ""
+msgstr "Niebla mental"
 
 #: actorconditions_omicronrg9.json:guild03_restingAC
 msgid "Resting"
-msgstr ""
+msgstr "Descansando"
 
 #: actorconditions_omicronrg9.json:g03_concentration
 msgid "Concentration"
-msgstr ""
+msgstr "Concentración"
 
 #: actorconditions_omicronrg9.json:g03_combo
 msgid "Combo"
-msgstr ""
+msgstr "Combinación"
 
 #: actorconditions_omicronrg9.json:carrying_ambelie
 msgid "Carrying Ambelie"
-msgstr ""
+msgstr "Cargando a Ambelie"
 
 #: actorconditions_arulir_mountain.json:crushed
 msgid "Crushed"
-msgstr ""
+msgstr "Aplastado"
 
 #: actorconditions_arulir_mountain.json:head_wound
 msgid "Head wound"
-msgstr ""
+msgstr "Herida en la cabeza"
 
 #: actorconditions_arulir_mountain.json:mermaid_scale
 msgid "Mermaid curse"
-msgstr ""
+msgstr "Maldición de la Sirena"
 
 #: actorconditions_arulir_mountain.json:increased_defense
 msgid "Increased defense"
-msgstr ""
+msgstr "Defensa incrementada"
 
 #: actorconditions_brimhaven.json:drowning
 msgid "Drowning"
-msgstr ""
+msgstr "Ahogamiento"
 
 #: actorconditions_brimhaven.json:entanglement
 msgid "Entanglement"
-msgstr ""
+msgstr "Enredo"
 
 #: actorconditions_brimhaven.json:fatigue1
 #: actorconditions_brimhaven.json:fatigue2
 #: actorconditions_brimhaven.json:fatigue3
 #: actorconditions_brimhaven.json:fatigue4
 msgid "Fatigue"
-msgstr ""
+msgstr "Fatiga"
 
 #: actorconditions_brimhaven.json:turn_to_stone
 msgid "Turning to stone"
-msgstr ""
+msgstr "Volviéndose piedra"
 
 #: actorconditions_brimhaven.json:stoneskin
 msgid "Stone skin"
-msgstr ""
+msgstr "Piel de piedra"
 
 #: actorconditions_brimhaven.json:overeating
 msgid "Overeating"
-msgstr ""
+msgstr "Comiendo de más"
 
 #: actorconditions_brimhaven.json:venom
 msgid "Venom"
-msgstr ""
+msgstr "Veneno"
 
 #: actorconditions_fungi_panic.json:spore_poison
 msgid "Spore poisoning"
-msgstr ""
+msgstr "Envenenamiento por esporas"
 
 #: actorconditions_gison.json:reinvigorated
 msgid "Reinvigorated"
-msgstr ""
+msgstr "Revitalizado"
 
 #: actorconditions_gison.json:sated
 msgid "Sated"
-msgstr ""
+msgstr "Saciado"
 
 #: actorconditions_omi2.json:panic
 msgid "Panic"
-msgstr ""
+msgstr "Pánico"
 
 #: actorconditions_omi2.json:satiety
 msgid "Satiety"
-msgstr ""
+msgstr "Saciedad"
 
 #: actorconditions_omi2.json:frozen1
 msgid "Minor freeze"
-msgstr ""
+msgstr "Congelamiento leve"
 
 #: actorconditions_omi2.json:frozen2
 msgid "Icy wounds"
-msgstr ""
+msgstr "Heridas heladas"
 
 #: actorconditions_omi2.json:relax
 msgid "Requiescence"
-msgstr ""
+msgstr "Requiescencia"
 
 #: actorconditions_omi2.json:kazarite_misery
 msgid "Kazaul possession"
-msgstr ""
+msgstr "Posesión de Kazaul"
 
 #: actorconditions_haunted_forest.json:death_plague
 msgid "Death Plague"
-msgstr ""
+msgstr "Peste negra"
 
 #: actorconditions_haunted_forest.json:sleepwalking
 msgid "Sleepwalking"
-msgstr ""
+msgstr "Sonambulismo"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "Partidario de Feygard"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr ""
+msgstr "Trampa de raíz"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "Rabia"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "Mal gusto"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr ""
+msgstr "Sed"
 
 #: actorconditions_laeroth.json:swift_attack
 msgid "Swift attack"
-msgstr ""
+msgstr "Ataque veloz"
 
 #: actorconditions_laeroth.json:blindness
 msgid "Blindness"
-msgstr ""
+msgstr "Cegera"
 
 #: actorconditions_laeroth.json:life_drain
 msgid "Life drain"
-msgstr ""
+msgstr "Drenaje de vida"
 
 #: actorconditions_laeroth.json:sting_major
 msgid "Major sting"
-msgstr ""
+msgstr "Picadura grave"
 
 #: actorconditions_laeroth.json:spider_bite
 msgid "Spider bite"
-msgstr ""
+msgstr "Mordedura de araña"
 
 #: actorconditions_laeroth.json:environmental_poisoning
 msgid "Environmental poisoning"
-msgstr ""
+msgstr "Envenenamiento ambiental"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
-msgstr ""
+msgstr "Goloso"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
@@ -427,203 +427,229 @@ msgstr ""
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
-msgstr ""
+msgstr "Refrigerio de Elythara"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
-msgstr ""
+msgstr "Visión empañada"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark
 msgid "Pull of the mark"
-msgstr ""
+msgstr "Tire de la marca"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark:description
 msgid "You feel an inexplicable pull toward something familiar, as if a piece of you is tethered to a distant past. An echo of guidance whispers faintly in your mind, urging you to seek clarity from those who once knew you best."
 msgstr ""
+"Sentís una atracción inexplicable hacia algo familiar, como si una parte de "
+"vos estuviese atada a un pasado lejano. Un eco consejero resuena débilmente "
+"en tu mente, instándote a buscar claridad en aquellos que alguna vez te "
+"conocieron mejor."
 
 #: actorconditions_mt_galmore2.json:potent_venom
 msgid "Potent venom"
-msgstr ""
+msgstr "Veneno potente"
 
 #: actorconditions_mt_galmore2.json:burning
 msgid "Burning"
-msgstr ""
+msgstr "Quemar"
 
 #: actorconditions_mt_galmore2.json:rockfall
 msgid "Rock fall"
-msgstr ""
+msgstr "Caida de rocas"
 
 #: actorconditions_mt_galmore2.json:swamp_foot
 msgid "Swamp foot"
-msgstr ""
+msgstr "Pie de pantano"
 
 #: actorconditions_mt_galmore2.json:unsteady_footing
 msgid "Unsteady footing"
-msgstr ""
+msgstr "Sin equilibrio"
 
 #: actorconditions_mt_galmore2.json:clinging_mud
 msgid "Clinging mud"
-msgstr ""
+msgstr "Barro pegajoso"
 
 #: actorconditions_mt_galmore2.json:clinging_mud:description
 msgid "Thick mud clings to your legs, hindering your movements and making it harder to act swiftly or strike with precision."
 msgstr ""
+"El barro espeso se adhiere a tus piernas, dificultando tus movimientos y "
+"haciendo difícil actuar rápido o golpear con precisión."
 
 #: actorconditions_mt_galmore2.json:cinder_rage
+#, fuzzy
 msgid "Cinder rage"
-msgstr ""
+msgstr "Rabia de cemento"
 
 #: actorconditions_mt_galmore2.json:frostbite
 msgid "Frostbite"
-msgstr ""
+msgstr "Congelación"
 
 #: actorconditions_mt_galmore2.json:shadowsleep
 msgid "Shadow sleepiness"
-msgstr ""
+msgstr "Somnolencia sombría"
 
 #: actorconditions_mt_galmore2.json:petristill
+#, fuzzy
 msgid "Petristill"
-msgstr ""
+msgstr "Petristill"
 
 #: actorconditions_mt_galmore2.json:petristill:description
 msgid "A creeping layer of stone overtakes the infliced's form, dulling its reflexes but hardening its body against harm."
 msgstr ""
+"Una espeluznante capa de piedra se apodera de la forma del infliced, "
+"embotando sus reflejos pero endureciendo su cuerpo contra cualquier daño."
 
 #: actorconditions_mt_galmore2.json:divine_judgement
 msgid "Divine judgement"
-msgstr ""
+msgstr "Juicio divino"
 
 #: actorconditions_mt_galmore2.json:divine_punishment
 msgid "Divine punishment"
-msgstr ""
+msgstr "Castigo divino"
 
 #: actorconditions_mt_galmore2.json:baited_strike
 msgid "Baited strike"
-msgstr ""
+msgstr "Golpe de carnada"
 
 #: actorconditions_mt_galmore2.json:baited_strike:description
 msgid "An overcommitment to attacking that sharpens accuracy at the cost of defensive footing."
 msgstr ""
+"Un compromiso excesivo con el ataque que agudiza la precisión a costa de la "
+"base defensiva."
 
 #: actorconditions_mt_galmore2.json:trapped
 msgid "Trapped"
-msgstr ""
+msgstr "Atrapado"
 
 #: actorconditions_mt_galmore2.json:splinter
 msgid "Splinter"
-msgstr ""
+msgstr "Astilla"
 
 #: actorconditions_mt_galmore2.json:unstable_footing
 msgid "Unstable footing"
-msgstr ""
+msgstr "Parada inestable"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
-msgstr ""
+msgstr "Bien, te despertaste."
 
 #: conversationlist_mikhail.json:mikhail_visited
 msgid "I can't seem to find your brother Andor anywhere. He hasn't been back since he left yesterday."
 msgstr ""
+"No puedo encontrar a tu hermano Andor por ningún lado. No vino de vuelta "
+"desde que salió ayer."
 
 #: conversationlist_mikhail.json:mikhail3
 msgid "Never mind, he will probably be back soon."
-msgstr ""
+msgstr "No importa, probablemente vuelve pronto."
 
 #: conversationlist_mikhail.json:mikhail_default
 #: conversationlist_crossglen_leonid.json:leonid_continue
 #: conversationlist_umar.json:umar_return_2
 msgid "Anything else I can help you with?"
-msgstr ""
+msgstr "Algo más con lo que pueda ayudarte?"
 
 #: conversationlist_mikhail.json:mikhail_default:0
 #: conversationlist_mikhail.json:mikhail_default:1
 #: conversationlist_mikhail.json:mikhail_default:2
 msgid "Do you have any more tasks for me?"
-msgstr ""
+msgstr "Tenés mas trabajos para mí?"
 
 #: conversationlist_mikhail.json:mikhail_default:3
 #: conversationlist_umar.json:umar_return_1:0
 #: conversationlist_umar.json:umar_return_1:8
 msgid "Do you have any tasks for me?"
-msgstr ""
+msgstr "Tenés algún trabajo para mí?"
 
 #: conversationlist_mikhail.json:mikhail_default:4
 msgid "Is there anything else you can tell me about Andor?"
-msgstr ""
+msgstr "Hay algo más que puedas decirme sobre Andor?"
 
 #: conversationlist_mikhail.json:mikhail_default:5
 #: conversationlist_mikhail.json:mikhail_default:6
 msgid "I have a present for you."
-msgstr ""
+msgstr "Tengo un regalo para vos."
 
 #: conversationlist_mikhail.json:mikhail_default:7
 msgid "I was searching for Andor."
-msgstr ""
+msgstr "Estuve preguntando por Andor."
 
 #: conversationlist_mikhail.json:mikhail_default:8
 msgid "What kind of book is it that you have in your hand?"
-msgstr ""
+msgstr "Qué tipo de libro es ese que tenés en tu mano?"
 
 #: conversationlist_mikhail.json:mikhail_default:9
 msgid "Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?"
 msgstr ""
+"Si, estoy acá para entregar el pedido de una \"almohada felpuda\". Pero para "
+"qué?"
 
 #: conversationlist_mikhail.json:mikhail_default:10
 msgid "I don't know...something feels wrong. I thought maybe you were in danger."
-msgstr ""
+msgstr "No sé... Algo se siente mal. Pensé que tal vez estabas en peligro."
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
 msgstr ""
+"Si, hay algunas cosas con las que necesito ayuda, pan y ratas. Sobre cuál te "
+"gustaría hablar?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:0
 #: conversationlist_mikhail.json:mikhail_rats_done:0
 msgid "What about the bread?"
-msgstr ""
+msgstr "Qué hay acerca del pan?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:1
 #: conversationlist_mikhail.json:mikhail_bread_done:0
 msgid "What about the rats?"
-msgstr ""
+msgstr "Qué sobre las ratas?"
 
 #: conversationlist_mikhail.json:mikhail_tasks:2
 #: conversationlist_mikhail.json:mikhail_bread_done:1
 #: conversationlist_mikhail.json:mikhail_rats_done:1
 #: conversationlist_mikhail.json:mikhail_all_tasks_done:0
 msgid "Never mind, let's talk about the other things."
-msgstr ""
+msgstr "No importa, hablemos de las otras cosas."
 
 #: conversationlist_mikhail.json:mikhail_bread_done
 msgid "Thanks for getting me the bread. There are still the rats."
-msgstr ""
+msgstr "Gracias por conseguirme pan. Todavía están las ratas."
 
 #: conversationlist_mikhail.json:mikhail_rats_done
 msgid "Thanks for taking care of the rats. I'd still love some bread."
 msgstr ""
+"Gracias por hacerte cargo de las ratas. Todavía me encantaría algo de pan."
 
 #: conversationlist_mikhail.json:mikhail_all_tasks_done
 msgid "Not for now. Thanks for taking care of the bread and rats."
-msgstr ""
+msgstr "No por ahora. Gracias por atender lo del pan y las ratas."
 
 #: conversationlist_mikhail.json:mikhail_andor1
 msgid "As I said, Andor went out and hasn't been back since. I worry about him. Please go look for your brother. He said he would only be out for a short while."
 msgstr ""
+"Como dije, Andor salió y no volvió desde entonces. Me preocupa. Por favor "
+"anda a buscar a tu hermano. Dijo que saldría solo por un rato."
 
 #: conversationlist_mikhail.json:mikhail_andor2
 msgid "Maybe he went into that supply cave again and got stuck. Or maybe he's in Leta's basement training with that wooden sword again. Please go look for him in town."
 msgstr ""
+"Tal vez fue dentro de esa cueva de suministros de nuevo y se quedó atrapado. "
+"O tal vez está en el sótano de Leta entrenando de nuevo con esa espada de "
+"madera. Por favor, buscalo en el pueblo."
 
 #: conversationlist_mikhail.json:mikhail_bread_start
 msgid "Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread."
 msgstr ""
+"Casi me olvido. Si tenés tiempo, andá a ver a Mara al ayuntamiento y "
+"comprame más pan."
 
 #: conversationlist_mikhail.json:mikhail_bread_continue
 msgid "Did you get my bread from Mara at the town hall yet?"
-msgstr ""
+msgstr "¿Ya conseguiste mi pan de Mara en la municipalidad?"
 
 #: conversationlist_mikhail.json:mikhail_bread_continue:0
 msgid "Yes, here you go."
-msgstr ""
+msgstr "Si, tomá."
 
 #: conversationlist_mikhail.json:mikhail_bread_continue:1
 #: conversationlist_mikhail.json:mikhail_rats_continue:1
@@ -659,15 +685,17 @@ msgstr ""
 #: conversationlist_fungi_panic.json:zuul_khan_115:0
 #: conversationlist_bwmfill.json:tunlon_prog_12:0
 msgid "No, not yet."
-msgstr ""
+msgstr "No, todavía no."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete
 msgid "Thanks a lot, now I can make my breakfast. Here, take these coins for your help."
 msgstr ""
+"Muchas gracias, ahora puedo hacer mi desayuno. Tomá estas monedas por tu "
+"ayuda."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete2
 msgid "Thanks for the bread earlier."
-msgstr ""
+msgstr "Gracias por el pan de más temprano."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete2:0
 #: conversationlist_charwood1.json:khorailla1:2
@@ -681,43 +709,53 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_hadena_7:1
 #: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
-msgstr ""
+msgstr "De nada."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
 msgstr ""
+"Ví algunas ratas en el jardín. ¿Podrías ir a matar toda rata que veas por "
+"ahí?"
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
-msgstr ""
+msgstr "Ya acabé con las ratas."
 
 #: conversationlist_mikhail.json:mikhail_rats_start:1
 msgid "OK, I'll go check out in our garden."
-msgstr ""
+msgstr "Bueno, voy a ir a fijarme al jardín."
 
 #: conversationlist_mikhail.json:mikhail_rats_start2
 msgid "If you get hurt by the rats, come back here and rest in your bed. That way you can regain your strength."
 msgstr ""
+"Si salís herido por las ratas, vení de vuelta y descansá en tu cama. De esta "
+"manera podes recuperar tu fuerza."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3
 msgid "Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it."
 msgstr ""
+"También, no te olvides de mirar tu inventario. Seguro que todavía tenés ese "
+"viejo anillo que te dí. Asegurate de ponértelo."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3:0
 msgid "OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items."
 msgstr ""
+"Bueno, entiendo. Puedo descansar acá si me lastimo, y debería revisar mi "
+"inventario por objetos útiles."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
 msgstr ""
+"Una cosa más: mirá a ese tacho en el piso justo ahí. Le pertenece a Andor y "
+"tal vez dejó algo útil dentro."
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
-msgstr ""
+msgstr "¿Mataste esas dos ratas en el jardín?"
 
 #: conversationlist_mikhail.json:mikhail_rats_continue:0
 msgid "Yes, I have dealt with the rats now."
-msgstr ""
+msgstr "Si, acabé con las ratas justo ahora."
 
 #: conversationlist_mikhail.json:mikhail_rats_complete
 msgid ""
@@ -725,6 +763,11 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
+"¿Lo hiciste? ¡Muchas gracias por tu ayuda! Por favor llevate el escudo de "
+"entrenamiento de Andor, lo vas a necesitar.\n"
+"\n"
+"Si te lastimas, usá tu cama que está ahí para descansar y recuperar tu "
+"fuerza."
 
 #: conversationlist_mikhail.json:mikhail_rats_complete2
 msgid ""
@@ -732,48 +775,60 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
+"Gracias por tu ayuda con las ratas mas temprano.\n"
+"\n"
+"Si estás herido, usá tu cama ahí para descansar y recuperar tu fuerza."
 
 #: conversationlist_mikhail.json:mikhail_achievements_10
 msgid "Just like my father once did, I want to give you a book to take with you on your way."
 msgstr ""
+"Justo como mi papá hizo una vez, quiero darte un libro para que te lleves en "
+"tu viaje."
 
 #: conversationlist_mikhail.json:mikhail_achievements_20
 msgid "This book is some kind of diary, in which you can record unusual experiences and achievements that you may have on your way."
 msgstr ""
+"Este libro es algún tipo de diario, en el que podes anotar experiencias "
+"inusuales y logros que tal vez encuentres en tu camino."
 
 #: conversationlist_mikhail.json:mikhail_achievements_30
 msgid "Would you like to have it?"
-msgstr ""
+msgstr "Te gustaría tenerlo?"
 
 #: conversationlist_mikhail.json:mikhail_achievements_30:0
 msgid "Yes, sounds great."
-msgstr ""
+msgstr "Si, suena genial."
 
 #: conversationlist_mikhail.json:mikhail_achievements_30:1
 msgid "No, thanks."
-msgstr ""
+msgstr "No, gracias."
 
 #: conversationlist_mikhail.json:mikhail_achievements_40
 msgid "No problem. I won't bother you with it again."
-msgstr ""
+msgstr "No hay problema. No te voy a molestar con esto otra vez."
 
 #: conversationlist_mikhail.json:mikhail_achievements_50
 #: conversationlist_stoutford_combined.json:stn_colonel_34
 #: conversationlist_ratdom_npc.json:ratdom_audir_2
 msgid "Here you are."
-msgstr ""
+msgstr "Acá tenés."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2a
 msgid "Another way to regain your strength is to eat some food. You can buy some for yourself from Mara at the town hall. But watch out - I hear that raw meat can sometimes give you food poisoning."
 msgstr ""
+"Otra forma de recuperar tu fuerza es comiendo comida. Podés comprar para vos "
+"de Mara en la municipalidad. Pero cuidado, escuché que la carne cruda puede "
+"envenenarte."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
 msgstr ""
+"Si eso pasa, tal vez el cura del pueblo puede hacer algo para ayudarte. Si "
+"no, simplemente descansá hasta que te mejores."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
-msgstr ""
+msgstr "Yo. ¡No puedo pagarme la carne, así que me quedo con mi pan!"
 
 #: conversationlist_crossglen.json:audir1
 msgid ""
@@ -781,14 +836,17 @@ msgid ""
 "\n"
 "Please browse my selection of fine wares."
 msgstr ""
+"¡Bienvenido a mi tienda!\n"
+"\n"
+"Por favor mirá mi selección de artículos finos."
 
 #: conversationlist_crossglen.json:audir1:0
 msgid "Please show me your wares."
-msgstr ""
+msgstr "Por favor mostrame lo que vendés."
 
 #: conversationlist_crossglen.json:audir1:1
 msgid "Do you have a pickaxe by chance?"
-msgstr ""
+msgstr "Por casualidad tenés un hacha?"
 
 #: conversationlist_crossglen.json:arambold1
 msgid ""
@@ -796,6 +854,10 @@ msgid ""
 "\n"
 "Someone should do something about them."
 msgstr ""
+"Pobre de mí ¿Alguna vez voy a poder dormir con todos esos borrachos cantando "
+"así?\n"
+"\n"
+"Alguien debería hacer algo respecto a ellos."
 
 #: conversationlist_crossglen.json:arambold1:0
 #: conversationlist_lodar.json:lodar_d1:9
@@ -803,7 +865,7 @@ msgstr ""
 #: conversationlist_maevalia.json:maevalia_h2:0
 #: conversationlist_maevalia.json:maevalia_d1:0
 msgid "Can I rest here?"
-msgstr ""
+msgstr "¿Puedo descansar acá?"
 
 #: conversationlist_crossglen.json:arambold1:1
 #: conversationlist_crossglen.json:mara_default:0
@@ -840,7 +902,7 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:whootibarfag_24:1
 #: conversationlist_ratdom_npc.json:whootibarfag_74:1
 msgid "Do you have anything to trade?"
-msgstr ""
+msgstr "¿Tenés algo para comerciar?"
 
 #: conversationlist_crossglen.json:arambold2
 msgid ""
@@ -848,6 +910,9 @@ msgid ""
 "\n"
 "Pick any bed you want."
 msgstr ""
+"Seguro pibe, podés descansar acá.\n"
+"\n"
+"Elegí la cama que gustes."
 
 #: conversationlist_crossglen.json:arambold2:0
 #: conversationlist_crossglen_gruil.json:gruil_andor3:0
@@ -859,7 +924,7 @@ msgstr ""
 #: conversationlist_vilegard_villagers.json:vilegard_villager_friend_1:0
 #: conversationlist_omi2.json:arghest_15:0
 msgid "Thanks, bye."
-msgstr ""
+msgstr "Gracias, chau."
 
 #: conversationlist_crossglen.json:drunk1
 msgid ""
@@ -868,6 +933,10 @@ msgid ""
 "\n"
 "Hey kid, wanna join us in our drinking game?"
 msgstr ""
+"Tomá tomá tomá, tomá algo más.\n"
+"Tomá tomá tomá, tomá hasta que no des más.\n"
+"\n"
+"Ey pibe, ¿Querés unirtenos en nuestro juego de bebidas?"
 
 #: conversationlist_crossglen.json:drunk1:0
 #: conversationlist_crossglen_odair.json:odair4:2
@@ -878,14 +947,14 @@ msgstr ""
 #: conversationlist_brimhaven.json:arlish_0:1
 #: conversationlist_mt_galmore2.json:mg_vaelric_other_potions_10:1
 msgid "No thanks."
-msgstr ""
+msgstr "No gracias."
 
 #: conversationlist_crossglen.json:drunk1:1
 #: conversationlist_crossglen.json:drunk1a:0
 #: conversationlist_rothses.json:rothses_c2:2
 #: conversationlist_omi2.json:ortholion_guard9_10b:1
 msgid "Maybe some other time."
-msgstr ""
+msgstr "Tal vez otro día."
 
 #: conversationlist_crossglen.json:mara_default
 msgid ""
@@ -893,18 +962,23 @@ msgid ""
 "\n"
 "Want something to eat?"
 msgstr ""
+"Ignorá a esos borrachos, siempre causan problemas.\n"
+"\n"
+"¿Querés algo para comer?"
 
 #: conversationlist_crossglen.json:mara_thanks
 msgid "I heard you helped Odair clean out that old supply cave. Thanks a lot, we'll start using it soon."
 msgstr ""
+"Escuché que ayudaste a Odair a limpiar esa vieja cueva de suministros. "
+"Muchas gracias, vamos a empezar a usarla pronto."
 
 #: conversationlist_crossglen.json:mara_thanks:0
 msgid "It was my pleasure."
-msgstr ""
+msgstr "Fue un placer."
 
 #: conversationlist_crossglen.json:farm1
 msgid "Please do not disturb me, I have work to do."
-msgstr ""
+msgstr "Por favor no me molestes, tengo trabajo que hacer."
 
 #: conversationlist_crossglen.json:farm1:0
 #: conversationlist_crossglen.json:farm2:0
@@ -919,19 +993,19 @@ msgstr ""
 #: conversationlist_stoutford.json:stoutford_gateguard_0:2
 #: conversationlist_stoutford.json:kayla_1:1
 msgid "Have you seen my brother Andor?"
-msgstr ""
+msgstr "Viste a mi hermano Andor?"
 
 #: conversationlist_crossglen.json:farm2
 msgid "What?! Can't you see I'm busy? Go bother someone else."
-msgstr ""
+msgstr "¿Qué? ¿No ves que estoy ocupado? Andá a molestar a alguien mas."
 
 #: conversationlist_crossglen.json:farm2:1
 msgid "What happened to Leta and Oromir?"
-msgstr ""
+msgstr "¿Qué les pasó a Leta y Oromir?"
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
-msgstr ""
+msgstr "¿Andor? No, no lo vi por acá ultimamente."
 
 #: conversationlist_crossglen.json:snakemaster
 msgid ""
@@ -939,57 +1013,63 @@ msgid ""
 "\n"
 "Now prepare to die, puny creature."
 msgstr ""
+"Bueno bueno ¿Qué tenemos acá? Un visitante, qué copado. Me impresiona que "
+"hayas llegado hasta acá con todos mis sirvientes.\n"
+"\n"
+"Ahora preparate a morir, canijo."
 
 #: conversationlist_crossglen.json:snakemaster:0
 msgid "Great, I have been waiting for a fight!"
-msgstr ""
+msgstr "¡Genial! Estaba esperando una pelea."
 
 #: conversationlist_crossglen.json:snakemaster:1
 msgid "Let's see who dies here."
-msgstr ""
+msgstr "Veamos quién muere acá."
 
 #: conversationlist_crossglen.json:snakemaster:2
 #: conversationlist_maelveon.json:maelveon_5:2
 #: conversationlist_loneford_2.json:landa_6
 #: conversationlist_lodarfg4.json:lodar_fg4_7:1
 msgid "Please don't hurt me!"
-msgstr ""
+msgstr "¡Por favor no me lastimes!"
 
 #: conversationlist_crossglen.json:haunt
 msgid "Oh mortal, free me from this cursed world!"
-msgstr ""
+msgstr "¡Oh mortal, liberame de este mundo maldito!"
 
 #: conversationlist_crossglen.json:haunt:0
 msgid "Oh, I'll free you from it alright."
-msgstr ""
+msgstr "Voy a liberarte de él, bien."
 
 #: conversationlist_crossglen.json:haunt:1
 msgid "You mean, by killing you?"
-msgstr ""
+msgstr "Decís... ¿Matándote?"
 
 #: conversationlist_crossglen.json:drunk1a
 msgid "Heeeey - come on. Don't be such a spoilsport."
-msgstr ""
+msgstr "Eeey, dale. No seas un bocón."
 
 #: conversationlist_crossglen.json:drunk1a:1
 msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
 msgstr ""
+"Bueno, si realmente querés. Pero tengo un nuevo y definitivo juego para vos. "
+"Acá, tomate esto. [Dar una botella de veneno débil]"
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
-msgstr ""
+msgstr "Ohh... [Glup glup]"
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
-msgstr ""
+msgstr "Qué interesante... [Glup]"
 
 #: conversationlist_crossglen.json:drunk1d
 msgid "... taste [falls over]"
-msgstr ""
+msgstr "... Sabor [Se desmaya]"
 
 #: conversationlist_crossglen.json:drunk1d:0
 msgid "Yes, really. A unique taste. And final - bye."
-msgstr ""
+msgstr "Si, realmente. Un sabor único, y final, adiós."
 
 #: conversationlist_crossglen_gruil.json:gruil1
 msgid ""
@@ -997,46 +1077,58 @@ msgid ""
 "\n"
 "Wanna trade?"
 msgstr ""
+"Psst, ey.\n"
+"\n"
+"¿Querés comerciar?"
 
 #: conversationlist_crossglen_gruil.json:gruil1:0
 msgid "Sure, let's trade."
-msgstr ""
+msgstr "Seguro, comerciemos."
 
 #: conversationlist_crossglen_gruil.json:gruil1:1
 msgid "I heard that you talked to my brother a while ago."
-msgstr ""
+msgstr "Escuché que le hablaste a mi hermano hace un tiempo."
 
 #: conversationlist_crossglen_gruil.json:gruil2
 msgid "Your brother? Oh you mean Andor? I might know something, but that information will cost you. Bring me a poison gland from one of those poisonous snakes and maybe I'll tell you."
 msgstr ""
+"¿Tu hermano? ¿Decís Andor? Creo que sé algo, pero esa información te va a "
+"costar. Dame una glándula venenosa de una de esas serpientes venenosas y tal "
+"vez te cuente."
 
 #: conversationlist_crossglen_gruil.json:gruil2:0
 msgid "Here, I have a poison gland for you."
-msgstr ""
+msgstr "Acá, tengo una glándula venenosa para vos."
 
 #: conversationlist_crossglen_gruil.json:gruil2:1
 msgid "OK, I'll bring one."
-msgstr ""
+msgstr "Bueno, te voy a traer una."
 
 #: conversationlist_crossglen_gruil.json:gruil_complete
 msgid "Thanks a lot kid. This will do just fine."
-msgstr ""
+msgstr "Muchas gracias pibe. Esta va a servir bien."
 
 #: conversationlist_crossglen_gruil.json:gruil_return
 msgid "Look kid, I already told you."
-msgstr ""
+msgstr "Mirá pibe, ya te dije."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor1
 msgid "I talked to him yesterday. He asked if I knew someone called Umar or something like that. I have no idea who he was talking about."
 msgstr ""
+"Hablé con él ayer. El preguntó si yo conocía a alguien llamado Umar o algo "
+"así. No tengo idea de quién estaba hablando."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor2
 msgid "He seemed really upset about something and left in a hurry. Something about the Thieves' Guild in Fallhaven."
 msgstr ""
+"Parecía realmente preocupado por algo y se fue apurado. Algo sobre la "
+"cofradía de ladrones en Fallhaven."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor3
 msgid "That's all I know. Maybe you should ask around in Fallhaven. Look for my friend Gaela, he probably knows more."
 msgstr ""
+"Esto es todo lo que sé. Tal vez puedas preguntar en Fallhaven. Buscá a mi "
+"amigo Gaela, él probablemente sepa más."
 
 #: conversationlist_crossglen_leonid.json:leonid1
 msgid ""
@@ -1044,28 +1136,34 @@ msgid ""
 "\n"
 "I'm Leonid, steward of Crossglen village."
 msgstr ""
+"Hola joven. ¿Sos el hijo más joven de Mikhail, no? Con ese hermano tuyo.\n"
+"\n"
+"Soy Leonid, mayordomo del pueblo de Crossglen."
 
 #: conversationlist_crossglen_leonid.json:leonid1:1
 #: conversationlist_crossglen_leonid.json:leonid_continue:1
 msgid "What can you tell me about Crossglen?"
-msgstr ""
+msgstr "¿Qué podes decirme acerca de Crossglen?"
 
 #: conversationlist_crossglen_leonid.json:leonid1:2
 #: conversationlist_crossglen_leonid.json:leonid_continue:2
 msgid "Never mind, see you later."
-msgstr ""
+msgstr "Da igual, nos vemos mas tarde."
 
 #: conversationlist_crossglen_leonid.json:leonid_andor
 msgid "Your brother? No, I haven't seen him here today. I think I saw him in here yesterday talking to Gruil. Maybe he knows more?"
 msgstr ""
+"¿Tu hermano? No, no lo ví por acá hoy. Creo que lo ví ayer acá, hablándole a "
+"Gruil. ¿Tal vez sepa más?"
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:0
 msgid "Thanks, I'll go talk to Gruil. There was something more I wanted to talk about."
 msgstr ""
+"Gracias, voy a hablar con Gruil. Hay algo más sobre lo que quería hablar."
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:1
 msgid "Thanks, I'll go talk to Gruil."
-msgstr ""
+msgstr "Gracias, voy a hablar con Gruil."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen
 msgid "As you know, this is Crossglen village. Mostly a farming community."
@@ -88838,4 +88936,3 @@ msgstr ""
 #: worldmap.xml:world1:mt_bwm
 msgid "Blackwater Mountain"
 msgstr ""
-
