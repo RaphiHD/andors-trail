@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-30 01:08+0200\n"
-"PO-Revision-Date: 2025-12-14 04:53+0000\n"
+"PO-Revision-Date: 2025-12-15 05:00+0000\n"
 "Last-Translator: Oscar Ortiz <dj.alexander.progressive@gmail.com>\n"
 "Language-Team: Spanish (Argentina) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/es_AR/>\n"
@@ -423,7 +423,7 @@ msgstr "Goloso"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
-msgstr ""
+msgstr "Defensa incrementada levemente"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
@@ -640,7 +640,7 @@ msgstr ""
 #: conversationlist_mikhail.json:mikhail_bread_start
 msgid "Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread."
 msgstr ""
-"Casi me olvido. Si tenés tiempo, andá a ver a Mara al ayuntamiento y "
+"Casi me olvido. Si tenés tiempo, andá a ver a Mara a la municipalidad y "
 "comprame más pan."
 
 #: conversationlist_mikhail.json:mikhail_bread_continue
@@ -1020,7 +1020,7 @@ msgstr ""
 
 #: conversationlist_crossglen.json:snakemaster:0
 msgid "Great, I have been waiting for a fight!"
-msgstr "¡Genial! Estaba esperando una pelea."
+msgstr "¡Genial! ¡Estaba esperando una pelea!"
 
 #: conversationlist_crossglen.json:snakemaster:1
 msgid "Let's see who dies here."
@@ -1194,20 +1194,20 @@ msgid "There were some recent disturbances some weeks ago that you may have noti
 msgstr ""
 "Ha habido algunos disturbios hace unas semanas de los que te habrás dado "
 "cuenta. Algunos aldeanos se pelearon debido al nuevo decreto del Señor "
-"Geomyr."
+"Geomir."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4
 msgid "Lord Geomyr issued a statement regarding the unlawful use of bonemeal as healing substance. Some villagers argued that we should oppose Lord Geomyr's word and still use it."
 msgstr ""
-"El Señor Geomyr emitió una declaración sobre el uso ilegal de harina de "
+"El Señor Geomir emitió una declaración sobre el uso ilegal de harina de "
 "huesos como sustancia curativa. Algunos aldeanos argumentaron que deberíamos "
-"oponernos a la palabra del Señor Geomyr y seguir usándola."
+"oponernos a la palabra del Señor Geomir y seguir usándola."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4_1
 msgid "Tharal, our priest, was particularly upset and suggested we do something about Lord Geomyr."
 msgstr ""
 "Tharal, nuestro cura, estaba particularmente molesto y sugirió que "
-"hiciéramos algo respecto al Señor Geomyr."
+"hiciéramos algo respecto al Señor Geomir."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen5
 msgid ""
@@ -1216,7 +1216,7 @@ msgid ""
 "Personally, I haven't decided what my thoughts are."
 msgstr ""
 "Otros aldeanos argumentaron que deberíamos seguir el decreto del Señor "
-"Geomyr.\n"
+"Geomir.\n"
 "\n"
 "Personalmente, todavía no me decido sobre donde están mis apegos."
 
@@ -1225,7 +1225,7 @@ msgid ""
 "On one hand, Lord Geomyr supports Crossglen with a lot of protection.\n"
 "[Points to the soldiers in the hall]"
 msgstr ""
-"Por un lado, el Señor Geomyr apoya a Crossglen con mucha protección.\n"
+"Por un lado, el Señor Geomir apoya a Crossglen con mucha protección.\n"
 "[Señala a los soldados en el salón]"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen7
@@ -1237,7 +1237,7 @@ msgstr ""
 #: conversationlist_crossglen_leonid.json:leonid_crossglen8
 msgid "Someone should go to Castle Geomyr and talk to the steward about our situation here in Crossglen."
 msgstr ""
-"Alguien debería ir al Castillo Geomyr y hablar con el mayordomo sobre "
+"Alguien debería ir al Castillo Geomir y hablar con el mayordomo sobre "
 "nuestra situación en Crossglen."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen9
@@ -1308,7 +1308,7 @@ msgstr "¿Tenés algo que sirva para el envenenamiento por comida?"
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1
 msgid "Bonemeal? We shouldn't talk about that. Lord Geomyr issued a decree. It's not allowed anymore."
 msgstr ""
-"¿Harina de hueso? No deberíamos habñar sobre eso. El Señor Geomyr emitió un "
+"¿Harina de hueso? No deberíamos habñar sobre eso. El Señor Geomir emitió un "
 "decreto. Está prohibida."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1:0
@@ -1353,7 +1353,7 @@ msgstr ""
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal5
 msgid "We used to use it extensively before. But now that bastard Lord Geomyr has banned all use of it."
 msgstr ""
-"Solíamos usarla ampliamente. Pero ahora ese bastardo de Geomyr prohibió su "
+"Solíamos usarla ampliamente. Pero ahora ese bastardo de Geomir prohibió su "
 "uso."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal6
@@ -1686,23 +1686,25 @@ msgstr ""
 #: conversationlist_sullengard.json:ravynne_20:0
 #: conversationlist_sullengard.json:sullengard_drinking_brother_30:0
 msgid "Thanks."
-msgstr ""
+msgstr "Gracias."
 
 #: conversationlist_crossglen_odair.json:odair_complete2
 msgid "Thanks a lot for your help earlier. Now we might start using that cave as our old supply cave again."
 msgstr ""
+"Muchas gracias por tu ayuda de más temprano. Ahora vamos a poder usar esa "
+"cueva como nuestro viejo almacén de suministros de nuevo."
 
 #: conversationlist_jan.json:jan_default
 msgid "Hello kid. Please leave me to my mourning."
-msgstr ""
+msgstr "Hola joven. Por favor respeta mi luto."
 
 #: conversationlist_jan.json:jan_default:0
 msgid "What is the problem?"
-msgstr ""
+msgstr "¿Cuál es el problema?"
 
 #: conversationlist_jan.json:jan_default:1
 msgid "Do you want to talk about it?"
-msgstr ""
+msgstr "¿Querés hablar de eso?"
 
 #: conversationlist_jan.json:jan_default:2
 #: conversationlist_jan.json:jan_default2:1
@@ -1725,29 +1727,33 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_10:2
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16b:0
 msgid "OK, bye."
-msgstr ""
+msgstr "Bueno, chau."
 
 #: conversationlist_jan.json:jan_default2
 msgid "Oh, it's so sad. I really don't want to talk about it."
-msgstr ""
+msgstr "Oh, es tan triste. En serio, no quiero hablar de esto."
 
 #: conversationlist_jan.json:jan_default2:0
 #: conversationlist_algangror.json:algangror_story:0
 #: conversationlist_brimhaven2.json:brv_school_seated_20:0
 msgid "Please do."
-msgstr ""
+msgstr "Por favor hacelo."
 
 #: conversationlist_jan.json:jan_default3
 msgid "Well, I guess it's OK to tell you. You seem to be a nice enough kid."
-msgstr ""
+msgstr "Bien, creo que está bien contarte. Pareces ser un buen pibe."
 
 #: conversationlist_jan.json:jan_default4
 msgid "My friend Gandir, his friend Irogotu, and I were down here digging this hole. We had heard there was a hidden treasure down here."
 msgstr ""
+"Mi amigo Gandir, su amigo Irogotu y yo estábamos cavando este hoyo. Habíamos "
+"escuchado que había un tesoro oculto por acá."
 
 #: conversationlist_jan.json:jan_default5
 msgid "We started digging and finally broke through to the cave system below. That's when we discovered them. The critters and bugs."
 msgstr ""
+"Empezamos a cavar y al final llegamos al sistema de cuevas que hay debajo. "
+"Ahí fue cuando los descubrimos. Animales y bichos."
 
 #: conversationlist_jan.json:jan_default6
 msgid ""
@@ -1755,14 +1761,20 @@ msgid ""
 "\n"
 "Gandir and I told Irogotu that we should stop the digging and leave while we still could."
 msgstr ""
+"Oh esos bichos. Malditos bastardos. Casi me matan.\n"
+"\n"
+"Gandir y yo le dijimos a Irogotu que teníamos que parar la excavación e "
+"irnos mientras pudiésemos."
 
 #: conversationlist_jan.json:jan_default7
 msgid "But Irogotu wanted to continue deeper into the dungeon. He and Gandir got into an argument and started fighting."
 msgstr ""
+"Pero Irogotu quería adentrarse en la mazmorra. Él y Gandir discutieron y se "
+"pusieron a pelear."
 
 #: conversationlist_jan.json:jan_default8
 msgid "That's when it happened. *sob* Oh what have we done?"
-msgstr ""
+msgstr "Entonces pasó. [sollozos] ¿Oh, que hicimos?"
 
 #: conversationlist_jan.json:jan_default8:0
 #: conversationlist_ogam.json:ogam_2:1
@@ -1770,101 +1782,118 @@ msgstr ""
 #: conversationlist_omi2.json:ehrenfest_14:0
 #: conversationlist_sullengard.json:sullengard_mayor_beer_90:0
 msgid "Please go on."
-msgstr ""
+msgstr "Por favor proseguí."
 
 #: conversationlist_jan.json:jan_default9
 msgid "Irogotu killed Gandir with his bare hands. You could see the fire in his eyes. He almost seemed to enjoy it."
 msgstr ""
+"Irogotu mató a Gandir con sus manos. Hubieras visto el fuego en sus ojos. "
+"Parecía disfrutar de lo que hacía."
 
 #: conversationlist_jan.json:jan_default10
 msgid "I fled and haven't dared go back down there because of the critters and Irogotu himself."
 msgstr ""
+"Me escape y no me animé a volver por culpa de los bichos y del propio "
+"Irogotu."
 
 #: conversationlist_jan.json:jan_default11
 msgid "Oh that damn Irogotu. If only I could get to him. I'd show him one thing and another."
 msgstr ""
+"Oh, ese maldito Irogotu. Si tan solo pudiera llegar a él. Le enseñaría un "
+"par de cosas."
 
 #: conversationlist_jan.json:jan_default11:0
 msgid "Do you think I could help?"
-msgstr ""
+msgstr "¿Crees que podría ser de ayuda?"
 
 #: conversationlist_jan.json:jan_default11_1
 msgid "Do you think you could help me?"
-msgstr ""
+msgstr "¿Crees que podes ayudarme?"
 
 #: conversationlist_jan.json:jan_default11_1:0
 msgid "Sure, there may be some treasure in this for me."
-msgstr ""
+msgstr "Por supuesto, debe haber algún tesoro por ahí."
 
 #: conversationlist_jan.json:jan_default11_1:1
 msgid "Sure. Irogotu should pay for what he did."
-msgstr ""
+msgstr "Por supuesto, Irogotu tiene que pagar por lo que hizo."
 
 #: conversationlist_jan.json:jan_default11_1:2
 msgid "No thanks, I would rather not be involved in this. It sounds dangerous."
-msgstr ""
+msgstr "Gracias pero no, prefiero no meterme en esto. Suena peligroso."
 
 #: conversationlist_jan.json:jan_default12
 msgid "Really? You think you could help? Hmm, maybe you could. Beware of those bugs though, they're really tough bastards."
 msgstr ""
+"¿Realmente? ¿Crees que podes ayudar? Hmm, tal vez puedas. Tené cuidado de "
+"los bichos, son muy jodidos."
 
 #: conversationlist_jan.json:jan_default13
 msgid "If you really want to help, go find Irogotu down in the cave, and get me back Gandir's ring."
 msgstr ""
+"Si realmente querés ayudar, andá a buscar a Irogotu en esa cueva, y traeme "
+"de vuelta el anillo de Gandir."
 
 #: conversationlist_jan.json:jan_default13:0
 msgid "Sure, I'll help."
-msgstr ""
+msgstr "Si, te voy a ayudar."
 
 #: conversationlist_jan.json:jan_default13:1
 #: conversationlist_flagstone.json:flagstone_sentry_return1:0
 #: conversationlist_flagstone.json:flagstone_sentry_return2:1
 msgid "Can you tell me the story again?"
-msgstr ""
+msgstr "Podes repetirme la historia?"
 
 #: conversationlist_jan.json:jan_default13:2
 #: conversationlist_prim_tavern.json:birgil_4:1
 msgid "Never mind, goodbye."
-msgstr ""
+msgstr "No importa, adiós."
 
 #: conversationlist_jan.json:jan_default14
 msgid "Return to me when you are done. Bring me Gandir's ring from Irogotu down in the cave."
 msgstr ""
+"Volvé conmigo cuando hayas terminado. Dame el anillo de Gandir que debe "
+"tener Irogotu en la cueva."
 
 #: conversationlist_jan.json:jan_return
 msgid "Hello again kid. Did you find Irogotu down in the cave?"
-msgstr ""
+msgstr "Hola de nuevo pibe. Encontraste a Irogotu en la cueva?"
 
 #: conversationlist_jan.json:jan_return:1
 #: conversationlist_benbyr.json:benbyr_mission_1:0
 #: conversationlist_lleglaris.json:lleglaris_r1:0
 #: conversationlist_tiqui.json:tiqui_r0:1
 msgid "Can you tell me your story again?"
-msgstr ""
+msgstr "Podrías contarme tu historia de nuevo?"
 
 #: conversationlist_jan.json:jan_return:2
 msgid "Yes, I have killed Irogotu."
-msgstr ""
+msgstr "Si, maté a Irogotu."
 
 #: conversationlist_jan.json:jan_background
 msgid "Didn't you listen the first time I told you the story? Do I really have to tell you the story one more time?"
 msgstr ""
+"¿No escuchaste cuando te conté la historia? ¿Realmente tengo que contarte de "
+"vuelta?"
 
 #: conversationlist_jan.json:jan_background:0
 msgid "Yes, please tell me the story again."
-msgstr ""
+msgstr "Si, por favor contame de nuevo."
 
 #: conversationlist_jan.json:jan_background:1
 msgid "I wasn't listening that much the first time you told it. What was that about a treasure?"
 msgstr ""
+"No presté atención cuando me contaste. Qué habías dicho acerca de un tesoro?"
 
 #: conversationlist_jan.json:jan_background:2
 msgid "No, never mind. I remember it now."
-msgstr ""
+msgstr "No, no te preocupes. Ya me acuerdo."
 
 #: conversationlist_jan.json:jan_complete2
 msgid "Thanks for dealing with Irogotu earlier! I am forever in debt to you."
 msgstr ""
+"¡Gracias por lidiar con Irogotu más temprano! Siempre voy a estar agradecido "
+"con vos."
 
 #: conversationlist_jan.json:jan_complete
 msgid ""
