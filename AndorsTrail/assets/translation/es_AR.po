@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-30 01:08+0200\n"
-"PO-Revision-Date: 2025-12-13 16:20+0000\n"
+"PO-Revision-Date: 2025-12-14 04:53+0000\n"
 "Last-Translator: Oscar Ortiz <dj.alexander.progressive@gmail.com>\n"
 "Language-Team: Spanish (Argentina) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/es_AR/>\n"
@@ -64,7 +64,7 @@ msgstr "Deslumbrado"
 
 #: actorconditions_v0610.json:chaotic_grip
 msgid "Chaotic grip"
-msgstr "Agarre Caótico"
+msgstr "Agarre caótico"
 
 #: actorconditions_v0610.json:chaotic_curse
 msgid "Chaotic curse"
@@ -276,7 +276,7 @@ msgstr "Concentración"
 
 #: actorconditions_omicronrg9.json:g03_combo
 msgid "Combo"
-msgstr "Combinación"
+msgstr "Combo"
 
 #: actorconditions_omicronrg9.json:carrying_ambelie
 msgid "Carrying Ambelie"
@@ -1168,34 +1168,46 @@ msgstr "Gracias, voy a hablar con Gruil."
 #: conversationlist_crossglen_leonid.json:leonid_crossglen
 msgid "As you know, this is Crossglen village. Mostly a farming community."
 msgstr ""
+"Como ya lo sabrás, este es el pueblo de Crossglen. Mas que nada una "
+"comunidad de granjeros."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen1
 msgid "We have Audir with his smithy to the southwest, Leta and her husband's cabin to the west, this town hall here and your father's cabin to the northwest."
 msgstr ""
+"Tenemos a Audir con su herrería al sudoeste, la cabaña de Leta y su marido "
+"al oeste, este salón municipal acá y la cabaña de tu padre al noroeste."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2
 msgid "That's pretty much it. We try to live a peaceful life."
-msgstr ""
+msgstr "Es más que nada esto. Tratamos de vivir una vida pacífica."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:0
 msgid "Has there been any recent activity in the village?"
-msgstr ""
+msgstr "Ha habido alguna actividad reciente en el pueblo?"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:1
 msgid "Let's go back to the other things we talked about."
-msgstr ""
+msgstr "Volvamos a las otras cosas de las que hablamos."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen3
 msgid "There were some recent disturbances some weeks ago that you may have noticed. Some villagers got into a fight over the new decree from Lord Geomyr."
 msgstr ""
+"Ha habido algunos disturbios hace unas semanas de los que te habrás dado "
+"cuenta. Algunos aldeanos se pelearon debido al nuevo decreto del Señor "
+"Geomyr."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4
 msgid "Lord Geomyr issued a statement regarding the unlawful use of bonemeal as healing substance. Some villagers argued that we should oppose Lord Geomyr's word and still use it."
 msgstr ""
+"El Señor Geomyr emitió una declaración sobre el uso ilegal de harina de "
+"huesos como sustancia curativa. Algunos aldeanos argumentaron que deberíamos "
+"oponernos a la palabra del Señor Geomyr y seguir usándola."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4_1
 msgid "Tharal, our priest, was particularly upset and suggested we do something about Lord Geomyr."
 msgstr ""
+"Tharal, nuestro cura, estaba particularmente molesto y sugirió que "
+"hiciéramos algo respecto al Señor Geomyr."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen5
 msgid ""
@@ -1203,33 +1215,45 @@ msgid ""
 "\n"
 "Personally, I haven't decided what my thoughts are."
 msgstr ""
+"Otros aldeanos argumentaron que deberíamos seguir el decreto del Señor "
+"Geomyr.\n"
+"\n"
+"Personalmente, todavía no me decido sobre donde están mis apegos."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen6
 msgid ""
 "On one hand, Lord Geomyr supports Crossglen with a lot of protection.\n"
 "[Points to the soldiers in the hall]"
 msgstr ""
+"Por un lado, el Señor Geomyr apoya a Crossglen con mucha protección.\n"
+"[Señala a los soldados en el salón]"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen7
 msgid "But on the other hand, the tax and the recent changes of what's allowed are really taking a toll on Crossglen."
 msgstr ""
+"Pero, por otro lado, el impuesto y los cambios recientes acerca de lo que "
+"está permitido realmente están pasando factura en Crossglen."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen8
 msgid "Someone should go to Castle Geomyr and talk to the steward about our situation here in Crossglen."
 msgstr ""
+"Alguien debería ir al Castillo Geomyr y hablar con el mayordomo sobre "
+"nuestra situación en Crossglen."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen9
 msgid "In the meantime, we've banned all use of bonemeal as a healing substance."
 msgstr ""
+"Mientras tanto, prohibimos todo uso de harina de huesos como sustancia "
+"curativa."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen9:0
 msgid "Thank you for the information. There was something more I wanted to ask you."
-msgstr ""
+msgstr "Gracias por la información. Había algo más que quería preguntarte."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen9:1
 #: conversationlist_omicronrg9.json:umar_guild03_31a:1
 msgid "Thank you for the information. Bye."
-msgstr ""
+msgstr "Gracias por la información. Chau."
 
 #: conversationlist_crossglen_leonid.json:leonid_bye
 #: conversationlist_crossglen_leonid.json:leonid_bye:0
@@ -1265,142 +1289,164 @@ msgstr ""
 #: conversationlist_omifix2.json:capvjern_32c:0
 #: conversationlist_feygard_1.json:village_percival_shadow:0
 msgid "Shadow be with you."
-msgstr ""
+msgstr "Que la Sombra sea con vos."
 
 #: conversationlist_crossglen_tharal.json:tharal1
 msgid "Walk in the glow of the Shadow, my child."
-msgstr ""
+msgstr "Camina en el resplandor de la Sombra, mi niño."
 
 #: conversationlist_crossglen_tharal.json:tharal1:1
 #: conversationlist_fallhaven_church.json:thoronir_tharal_1:0
 msgid "What can you tell me about bonemeal?"
-msgstr ""
+msgstr "¿Qué podés contarme acerca de la harina de hueso?"
 
 #: conversationlist_crossglen_tharal.json:tharal1:2
 #: conversationlist_fallhaven_potions.json:fallhaven_potions:1
 msgid "Do you have anything to help against food-poisoning?"
-msgstr ""
+msgstr "¿Tenés algo que sirva para el envenenamiento por comida?"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1
 msgid "Bonemeal? We shouldn't talk about that. Lord Geomyr issued a decree. It's not allowed anymore."
 msgstr ""
+"¿Harina de hueso? No deberíamos habñar sobre eso. El Señor Geomyr emitió un "
+"decreto. Está prohibida."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1:0
 #: conversationlist_prim_arghest.json:arghest_6:1
 #: conversationlist_prim_arghest.json:arghest_7:0
 msgid "Please?"
-msgstr ""
+msgstr "¿Por favor?"
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2_1
 msgid "No, we really shouldn't talk about that."
-msgstr ""
+msgstr "No, realmente no deberíamos hablar de eso."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2_1:0
 #: conversationlist_omi2.json:bwm_wellspring_1b:0
 msgid "Oh come on."
-msgstr ""
+msgstr "Dale."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2
 msgid "Well if you really are that persistent. Bring me 5 insect wings that I can use for making potions and maybe we can talk more."
 msgstr ""
+"Bueno, si sos así de persistente. Traeme 5 alas de insecto que pueda usar "
+"para hacer pociones y tal vez podamos hablar más."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2:0
 msgid "Here, I have the insect wings."
-msgstr ""
+msgstr "Acá, tengo las alas de insecto."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2:1
 msgid "OK, I'll bring them."
-msgstr ""
+msgstr "Bueno, voy a traerlas."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal3
 msgid "Thanks kid. I knew I could count on you."
-msgstr ""
+msgstr "Gracias niño. Sabía que podía contar con vos."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal4
 msgid "Oh yes, bonemeal. Mixed with the right components it can be one of the most effective healing agents around."
 msgstr ""
+"Ah, sí, harina de huesos. Mezclada con los componentes adecuados, puede ser "
+"uno de los agentes curativos más efectivos que hay."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal5
 msgid "We used to use it extensively before. But now that bastard Lord Geomyr has banned all use of it."
 msgstr ""
+"Solíamos usarla ampliamente. Pero ahora ese bastardo de Geomyr prohibió su "
+"uso."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal6
 msgid "How am I supposed to heal people now? Using regular healing potions? Bah, they're so ineffective."
 msgstr ""
+"¿Cómo se supone que voy a curar a la gente ahora? ¿Usando pociones curativas "
+"regulares? Bah, son tan ineficaces."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal7
 msgid "I know someone that still has a supply of bonemeal if you are interested. Go talk to Thoronir, a fellow priest in Fallhaven. Tell him my password 'Glow of the Shadow'."
 msgstr ""
+"Conozco a alguien que todavía tiene un suministro de harina de huesos si "
+"estás interesado. Andá a hablar con Thoronir, un cura amigo en Fallhaven. "
+"Decile mi contraseña, \"Resplandor de la Sombra\"."
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp1
 msgid "No, sorry. I hear that the potion-maker in Fallhaven can create something to help against that though."
 msgstr ""
+"No, perdón. Igualmente escuché que el boticario en Fallhaven puede crear "
+"algo para ayudar a combatir eso."
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp2
 msgid "You should go see him and ask if he has anything to help against that. He can probably help you."
 msgstr ""
+"Deberías ir a verlo y preguntarle si tiene algo que pueda ayudarte con eso. "
+"Probablemente él pueda ayudarte."
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp2:0
 #: conversationlist_fallhaven_unnmir.json:unnmir_13:0
 msgid "Thanks, I'll go see him."
-msgstr ""
+msgstr "Gracias, voy a visitarlo."
 
 #: conversationlist_crossglen_leta.json:leta1
 msgid "Hey, this is my house, get out of here!"
-msgstr ""
+msgstr "¡Ey! ¡Esta es mi casa, salí de acá!"
 
 #: conversationlist_crossglen_leta.json:leta1:0
 msgid "But I was just ..."
-msgstr ""
+msgstr "Pero estaba..."
 
 #: conversationlist_crossglen_leta.json:leta1:1
 #: conversationlist_crossglen_leta.json:leta2:0
 msgid "What about your husband Oromir?"
-msgstr ""
+msgstr "¿Qué pasa con tu esposo Oromir?"
 
 #: conversationlist_crossglen_leta.json:leta1:2
 #: conversationlist_crossglen_leta.json:leta1:3
 #: conversationlist_fallhaven_tavern.json:bela_room_1:2
 msgid "Umar sent me."
-msgstr ""
+msgstr "Umar me envió."
 
 #: conversationlist_crossglen_leta.json:leta2
 msgid "Beat it kid, get out of my house!"
-msgstr ""
+msgstr "Nene ¡Salí de mi casa!"
 
 #: conversationlist_crossglen_leta.json:leta_oromir1
 msgid ""
 "Do you know anything about my husband? He should be here helping me with the farm today, but he seems to be missing as usual.\n"
 "Sigh."
 msgstr ""
+"¿Sabés algo de mi marido? Él debería estar acá ayudándome con la granja, "
+"pero parece estar desaparecido como de costumbre.\n"
+"[Suspiro]."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:0
 #: conversationlist_rogorn.json:rogorn_story_6:3
 #: conversationlist_rogorn.json:rogorn_story_7:4
 msgid "I have no idea."
-msgstr ""
+msgstr "No tengo idea."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:1
 msgid "Yes, I found him. He is hiding among some trees to the east."
-msgstr ""
+msgstr "Si, lo encontré. Se está escondiendo en una arboleda hacía el este."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:2
 #: conversationlist_crossglen_leta.json:leta_oromir1:3
 #: conversationlist_crossglen_leta.json:leta_oromir1:4
 msgid "[Lie] I have no idea."
-msgstr ""
+msgstr "[Mentir] No tengo la más mínima idea."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:5
 msgid "He's found a new hiding spot."
-msgstr ""
+msgstr "Encontró un nuevo lugar donde esconderse."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:6
 msgid "He's found another new hiding spot. Give him credit, he is great at avoiding work."
 msgstr ""
+"Encontró otro nuevo lugar donde esconderse. Reconocelo, es un genio a la "
+"hora de evitar el laburo."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:7
 msgid "He's in your basement."
-msgstr ""
+msgstr "Está en el sótano."
 
 #: conversationlist_crossglen_leta.json:leta_oromir2
 #: conversationlist_brimhaven_2.json:leta_oromir1_trees_help
@@ -1410,22 +1456,32 @@ msgid ""
 "If you see him, tell him to hurry back here and help me with the housework.\n"
 "Now get out of here!"
 msgstr ""
+"Si lo ves, decile que se apresure a volver acá y que me ayude con las tareas "
+"del hogar.\n"
+"¡Ahora andate de acá!"
 
 #: conversationlist_crossglen_leta.json:leta_oromir_complete
 msgid ""
 "Hiding is he? That's not surprising. I'll go let him know who's the boss around here.\n"
 "Thanks for letting me know though."
 msgstr ""
+"¿Se está escondiendo? No me sorprende. Voy a hacerle saber quién es la jefa "
+"acá.\n"
+"Gracias por hacérmelo saber."
 
 #: conversationlist_crossglen_leta.json:leta_oromir_complete2
 msgid "Thanks for telling me about Oromir earlier. I will go get him in just a minute."
 msgstr ""
+"Gracias por contarme acerca de Oromir más temprano. Voy a atraparlo en un "
+"minuto."
 
 #: conversationlist_crossglen_leta.json:oromir1
 msgid ""
 "Oh you startled me.\n"
 "Hello."
 msgstr ""
+"Oh, me sorprendiste.\n"
+"Hola."
 
 #: conversationlist_crossglen_leta.json:oromir1:0
 #: conversationlist_fallhaven_vacor.json:vacor_begin
@@ -1438,56 +1494,71 @@ msgstr ""
 #: conversationlist_gorwath.json:arensia:5
 #: conversationlist_gorwath.json:arensia_1:0
 msgid "Hello."
-msgstr ""
+msgstr "Hola."
 
 #: conversationlist_crossglen_leta.json:oromir2
 msgid "I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here."
 msgstr ""
+"Me estoy escondiendo de mi esposa Leta. Ella siempre se enoja conmigo por no "
+"ayudar en la granja. Por favor, no le digas que estoy acá."
 
 #: conversationlist_crossglen_leta.json:oromir2:0
 #: conversationlist_algangror.json:algangror_remgard_5:1
 msgid "[Lie] OK."
-msgstr ""
+msgstr "[Mentir] Bueno."
 
 #: conversationlist_crossglen_leta.json:oromir2:1
 msgid "Your secret is safe with me."
-msgstr ""
+msgstr "Tu secreto está seguro conmigo."
 
 #: conversationlist_crossglen_odair.json:odair1
 msgid "Oh, it's you. You with that brother of yours. Always causing trouble."
-msgstr ""
+msgstr "Oh, sos vos. Vos con ese hermano tuyo. Siempre causando problemas."
 
 #: conversationlist_crossglen_odair.json:odair2
 msgid "Hmm, maybe you could be of use to me. Do you think you could help me with a small task?"
 msgstr ""
+"Hmm, tal vez podrías ser de uso. ¿Creés que podrías ayudarme con una pequeña "
+"tarea?"
 
 #: conversationlist_crossglen_odair.json:odair2:0
 msgid "Tell me more about this task."
-msgstr ""
+msgstr "Hablame más sobre esta tarea."
 
 #: conversationlist_crossglen_odair.json:odair2:1
 msgid "Sure, if there is anything I can gain from it."
-msgstr ""
+msgstr "Seguro, si hay algo que pueda ganar de esto."
 
 #: conversationlist_crossglen_odair.json:odair3
 msgid "I recently went in to that cave over there [points west], to check on our supplies. But apparently, the cave has been infested with rats."
 msgstr ""
+"Recientemente fui a esa cueva [señala al oeste], para controlar nuestros "
+"suministros. Pero aparentemente, la cueva se llenó de ratas."
 
 #: conversationlist_crossglen_odair.json:odair4
 msgid "In particular, I saw one rat that was larger than the other rats. Do you think you have what it takes to help eliminate them?"
 msgstr ""
+"En particular, vi una rata que era más grande que las demás ratas. ¿Crees "
+"que tenés lo necesario para poder eliminarlas?"
 
 #: conversationlist_crossglen_odair.json:odair4:0
 msgid "Sure, I'll help you so that Crossglen can use the supply cave again."
 msgstr ""
+"Seguro, voy a ayudarte así Crossglen puede usar nuevamente la cueva de "
+"suministros."
 
 #: conversationlist_crossglen_odair.json:odair4:1
 msgid "Sure, I'll help you. But only because there might be some gain for me in this."
 msgstr ""
+"Seguro, te voy a ayudar. Pero solo porque debe haber alguna ganancia para mí "
+"en esto."
 
 #: conversationlist_crossglen_odair.json:odair5
 msgid "I need you to get into that cave and kill the large rat, that way maybe we can stop the rat infestation in the cave and start using it as our old supply cave again."
 msgstr ""
+"Necesito que entres en esa cueva y mates a la rata grande, así tal vez "
+"podamos detener la infestación de ratas en la cueva y comenzar a usarla como "
+"nuestra vieja cueva de suministros otra vez."
 
 #: conversationlist_crossglen_odair.json:odair5:0
 #: conversationlist_fallhaven_arcir.json:arcir_elythara_1:0
@@ -1524,15 +1595,15 @@ msgstr ""
 #: conversationlist_troubling_times.json:tt_sly_254:0
 #: conversationlist_darknessanddaylight.json:dds_miri_372:0
 msgid "OK."
-msgstr ""
+msgstr "Bueno."
 
 #: conversationlist_crossglen_odair.json:odair5:1
 msgid "On second thought, I don't think I will help you after all."
-msgstr ""
+msgstr "Pensándolo bien, no creo que te vaya a ayudar después de todo."
 
 #: conversationlist_crossglen_odair.json:odair_cowards
 msgid "I didn't think so either. You and that brother of yours always were cowards."
-msgstr ""
+msgstr "Tampoco lo creía. Vos y ese hermano tuyo siempre fueron unos cobardes."
 
 #: conversationlist_crossglen_odair.json:odair_cowards:0
 #: conversationlist_crossglen_odair.json:odair_complete2:0
@@ -1561,15 +1632,15 @@ msgstr ""
 #: conversationlist_feygard_1.json:gamjee_well_osric_2
 #: conversationlist_mt_galmore2.json:vaelric_restless_grave_end:0
 msgid "Bye."
-msgstr ""
+msgstr "Chau."
 
 #: conversationlist_crossglen_odair.json:odair_continue
 msgid "Did you kill that large rat in the cave west of here?"
-msgstr ""
+msgstr "¿Mataste la gran rata en la cueva al oeste de acá?"
 
 #: conversationlist_crossglen_odair.json:odair_continue:0
 msgid "Yes, I have killed the large rat."
-msgstr ""
+msgstr "Si, maté la gran rata."
 
 #: conversationlist_crossglen_odair.json:odair_continue:1
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue:0
@@ -1592,11 +1663,13 @@ msgstr ""
 #: conversationlist_lodar.json:lodar_find0:0
 #: conversationlist_maevalia.json:maevalia_r1:1
 msgid "What was I supposed to do again?"
-msgstr ""
+msgstr "¿Qué se supone que tenía que hacer?"
 
 #: conversationlist_crossglen_odair.json:odair_complete
 msgid "Thanks a lot for your help kid! Maybe you and that brother of yours aren't as cowardly as I thought. Here, take these coins for your help."
 msgstr ""
+"¡Muchísimas gracias por tu ayuda, pibe! Tal vez vos y tu hermano no son tan "
+"cobardes como pensaba. Tomá, tomá estas monedas por tu ayuda."
 
 #: conversationlist_crossglen_odair.json:odair_complete:0
 #: conversationlist_thievesguild_1.json:thievesguild_thief_4:0
@@ -77004,11 +77077,11 @@ msgstr ""
 
 #: monsterlist_crossglen_npcs.json:leta
 msgid "Leta"
-msgstr "Leticia"
+msgstr "Leta"
 
 #: monsterlist_crossglen_npcs.json:audir
 msgid "Audir"
-msgstr "Artur"
+msgstr "Audir"
 
 #: monsterlist_crossglen_npcs.json:arambold
 msgid "Arambold"
@@ -77031,12 +77104,12 @@ msgstr ""
 #: monsterlist_crossglen_npcs.json:gruil
 #: monsterlist_ratdom.json:ratdom_gruil
 msgid "Gruil"
-msgstr "Grunil"
+msgstr "Gruil"
 
 #: monsterlist_crossglen_npcs.json:leonid
 #: monsterlist_ratdom.json:ratdom_leonid
 msgid "Leonid"
-msgstr "Leo"
+msgstr "Leónidas"
 
 #: monsterlist_crossglen_npcs.json:farmer
 #: monsterlist_v0610_npcs1.json:loneford_farmer0
@@ -77058,7 +77131,7 @@ msgstr ""
 #: monsterlist_brimhaven_2.json:oromir_behind_haystack
 #: monsterlist_brimhaven_2.json:oromir_basement
 msgid "Oromir"
-msgstr "Omir"
+msgstr "Oromir"
 
 #: monsterlist_crossglen_npcs.json:odair
 msgid "Odair"
@@ -77187,7 +77260,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:bucus
 msgid "Bucus"
-msgstr "Bacus"
+msgstr "Buxus"
 
 #: monsterlist_fallhaven_npcs.json:drunkard
 msgid "Drunkard"
@@ -77216,11 +77289,11 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:athamyr
 msgid "Athamyr"
-msgstr "Atamyr"
+msgstr "Altamiro"
 
 #: monsterlist_fallhaven_npcs.json:thoronir
 msgid "Thoronir"
-msgstr "toronir"
+msgstr "Thoronir"
 
 #: monsterlist_fallhaven_npcs.json:chapelgoer
 #: monsterlist_darknessanddaylight.json:dds_mourning_woman
@@ -77242,7 +77315,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:larcal
 msgid "Larcal"
-msgstr "Lacal"
+msgstr "Larcal"
 
 #: monsterlist_fallhaven_npcs.json:gaela
 msgid "Gaela"
@@ -77281,7 +77354,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:vacor
 msgid "Vacor"
-msgstr "Vakor"
+msgstr "Vacor"
 
 #: monsterlist_fallhaven_npcs.json:unzel
 msgid "Unzel"
@@ -77423,7 +77496,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:troublemaker
 msgid "Troublemaker"
-msgstr "Alborotador"
+msgstr "Quilombero"
 
 #: monsterlist_v068_npcs.json:farrik
 msgid "Farrik"
@@ -77477,7 +77550,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:jolnor
 msgid "Jolnor"
-msgstr "Jonor"
+msgstr "Jolnor"
 
 #: monsterlist_v068_npcs.json:alynndir
 msgid "Alynndir"
@@ -77522,7 +77595,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:wrye
 msgid "Wrye"
-msgstr "Wyren"
+msgstr "Descangayado"
 
 #: monsterlist_v068_npcs.json:oluag
 msgid "Oluag"
@@ -77745,7 +77818,7 @@ msgstr ""
 
 #: monsterlist_v069_npcs.json:bjorgur
 msgid "Bjorgur"
-msgstr "Jorge"
+msgstr "José"
 
 #: monsterlist_v069_npcs.json:prim_prisoner
 msgid "Prim prisoner"
@@ -77753,7 +77826,7 @@ msgstr ""
 
 #: monsterlist_v069_npcs.json:fulus
 msgid "Fulus"
-msgstr "Falus"
+msgstr "Felús"
 
 #: monsterlist_v069_npcs.json:guthbered
 msgid "Guthbered"
@@ -78047,7 +78120,7 @@ msgstr ""
 
 #: monsterlist_v0610_npcs1.json:gandoren
 msgid "Gandoren"
-msgstr "Gordon"
+msgstr "Gándara"
 
 #: monsterlist_v0610_npcs1.json:grimion
 msgid "Grimion"
@@ -79974,7 +80047,7 @@ msgstr ""
 
 #: monsterlist_omicronrg9.json:g03_crackshot
 msgid "Crackshot"
-msgstr "Hormiga Negra"
+msgstr "Ojo de Halcón"
 
 #: monsterlist_omicronrg9.json:g03_crackshot_dying
 msgid "Dying Crackshot"
@@ -80554,7 +80627,7 @@ msgstr ""
 
 #: monsterlist_gorwath.json:gorwath
 msgid "Gorwath"
-msgstr "Gorwar"
+msgstr "Horváth"
 
 #: monsterlist_gorwath.json:arensia
 msgid "Arensia"
@@ -80594,7 +80667,7 @@ msgstr ""
 
 #: monsterlist_omi2.json:ehrenfest
 msgid "Ehrenfest"
-msgstr "Ernesto"
+msgstr "Honorio"
 
 #: monsterlist_omi2.json:ortholion
 #: monsterlist_omi2.json:ortholion_hidden
@@ -80701,7 +80774,7 @@ msgstr ""
 
 #: monsterlist_omi2.json:kamelio
 msgid "Kamelio"
-msgstr "Kelon"
+msgstr "Kamelio"
 
 #: monsterlist_omi2.json:kamelio2
 msgid "Undead Kamelio"
@@ -88875,7 +88948,7 @@ msgstr ""
 
 #: worldmap.xml:world1:fallhaven
 msgid "Fallhaven"
-msgstr ""
+msgstr "Fallhaven"
 
 #: worldmap.xml:world1:flagstone
 msgid "Flagstone Prison"
@@ -88915,7 +88988,7 @@ msgstr ""
 
 #: worldmap.xml:world1:sullengard
 msgid "Sullengard"
-msgstr ""
+msgstr "Sullengard"
 
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
