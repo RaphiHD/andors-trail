@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-12-09 22:20+0000\n"
+"PO-Revision-Date: 2025-12-17 13:00+0000\n"
 "Last-Translator: Kevin Rojas Costa Rica <kr337909@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
@@ -18,12 +18,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
 msgid "translator-credits"
-msgstr "(K´)ah, Julian Lamus, Karla, Mariano Agüero, Miguel de Dios, Travis Nguyen, ndika, willicab, Palkia, Carlos Duque, Pahsito, Juanma Cantero, @Jordan.Unlocked, @kevin_pixie_corp"
+msgstr ""
+"(K´)ah, Julian Lamus, Karla, Mariano Agüero, Miguel de Dios, Travis Nguyen, "
+"ndika, willicab, Palkia, Carlos Duque, Pahsito, Juanma Cantero, "
+"@Jordan.Unlocked, @Rocket_Space on telegram,"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -71,7 +74,7 @@ msgstr "Embriagado"
 
 #: actorconditions_v069_bwm.json:dazed
 msgid "Dazed"
-msgstr "Aturdido"
+msgstr "Mareado"
 
 #: actorconditions_v0610.json:chaotic_grip
 msgid "Chaotic grip"
@@ -36723,7 +36726,9 @@ msgstr "[murmurando] ... termino en desastre de nuevo. Oh, cielos."
 
 #: conversationlist_burhczyd.json:burhczydx_11e
 msgid "I'm preparing a little love poem for my girl. As soon as I have the words I will go."
-msgstr "[OUTDATED]Tan pronto como ...todo..., me iré."
+msgstr ""
+"Estoy preparando un pequeño poema de amor para mi chica. En cuanto tenga las "
+"palabras, me iré."
 
 #: conversationlist_burhczyd.json:burhczydx_12a
 msgid "Sorry, I have to leave."
@@ -38818,7 +38823,7 @@ msgstr "Encontré a Andor al norte de aquí, en un puesto de vendedor de frutas.
 
 #: conversationlist_brimhaven.json:mikhail_news_10:5
 msgid "I found Andor far south of here, at Alynndir's house."
-msgstr "Encontré a Andor al sur de aquí, en la casa de Alynndir"
+msgstr "Encontré a Andor al sur de aquí, en la casa de Alynndir."
 
 #: conversationlist_brimhaven.json:mikhail_news_40
 msgid "Did you go to Nor City?"
@@ -42586,7 +42591,7 @@ msgstr "¿No?"
 #: conversationlist_fungi_panic.json:bogsten_52_12:1
 #: conversationlist_troubling_times.json:tt_sly_12:0
 msgid "You are right."
-msgstr "Tienes razón."
+msgstr "Es correcto."
 
 #: conversationlist_fungi_panic.json:bogsten_60_20
 msgid "Now that I am restored again, I should go back to work."
@@ -50648,7 +50653,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_bartender_30:0
 msgid "OK!"
-msgstr ""
+msgstr "¡ESTÁ BIEN!"
 
 #: conversationlist_sullengard.json:sullengard_bartender_30:1
 msgid "Oh, but I will."
@@ -50760,7 +50765,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_snapper_1
 msgid "[Snap]."
-msgstr ""
+msgstr "[Chasquea]."
 
 #: conversationlist_sullengard.json:sullengard_snapper_1:0
 msgid "Ouch! Why did you bite me? Bad turtle!"
@@ -50892,7 +50897,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_nanette_13
 msgid "Promise."
-msgstr ""
+msgstr "Promesa."
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_pc_asks_to_pick_apples
 msgid "Absolutely not."
@@ -51522,6 +51527,10 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_inn_traveler_80
 msgid "Yes, I did try to sell those items. I needed the gold! Is that a crime? I was out of supplies, lost and in desperate need of a place to heal and rest. With only enough gold to rent a room here in this inn, I needed gold in order to recover my health."
 msgstr ""
+"Sí, intenté vender esos objetos. ¡Necesitaba el oro! ¿Eso es un crimen? Me "
+"quedé sin provisiones, perdido y en desesperada necesidad de un lugar para "
+"curarme y descansar. Con solo suficiente oro para alquilar una habitación en "
+"esta posada, necesitaba oro para recuperar mi salud."
 
 #: conversationlist_sullengard.json:sullengard_inn_traveler_90
 msgid "After watching Zaccheria's routine for a couple of days, I noticed he goes to the tavern every night at the same time and stays there for the same amount of time every time. So I took my opportunity."
@@ -51584,7 +51593,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_sell_10
 msgid "Absolutetly."
-msgstr ""
+msgstr "Seguramente."
 
 #: conversationlist_sullengard.json:sullengard_zaccheria_85
 msgid "Have you found my stuff yet?"
@@ -51611,6 +51620,11 @@ msgid ""
 "Well that's unfortunate that we cannot punish this individual. But very fortunate that you worked hard to recover my items and I am very grateful for that. So grateful in fact, here is 15000 gold for your hard work.\n"
 "Also, I am now able to trade with you if you like."
 msgstr ""
+"Bueno, es desafortunado que no podamos castigar a este individuo. Pero muy "
+"afortunado que hayas trabajado duro para recuperar mis objetos, y estoy muy "
+"agradecido por ello. Tan agradecido, de hecho, que aquí tienes 15,000 de oro "
+"por tu esfuerzo.\n"
+"Además, ahora puedo comerciar contigo si lo deseas."
 
 #: conversationlist_sullengard.json:sullengard_hidden_inventory_0
 msgid "Under your feet you notice a freshly dug hole. It doesn't look like an animal has done this. Examine the hole?"
@@ -51670,7 +51684,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sull_herding_dog_0
 msgid "Woof."
-msgstr ""
+msgstr "Guau."
 
 #: conversationlist_sullengard.json:sullengard_goat_0
 msgid "Baa."
@@ -52836,7 +52850,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_find_mother_1:0
 msgid "Mother?!"
-msgstr ""
+msgstr "Madre?!"
 
 #: conversationlist_sullengard.json:sullengard_valeria_20
 msgid "I'm sorry $playername, but I am in no position to answer that question for you. Please do as your mother has requested of you and go home. There you will find your answer."
@@ -52928,7 +52942,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_horse_talk_20:0
 msgid "Please."
-msgstr ""
+msgstr "Por favor."
 
 #: conversationlist_sullengard.json:deebo_orchard_deebo_horse_talk_20:1
 msgid "Fine. But can we talk about your barn instead?"
@@ -52964,7 +52978,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:sullengard_lamberta_sell
 msgid "Absolutely."
-msgstr ""
+msgstr "Sin duda."
 
 #: conversationlist_sullengard.json:sullengard_lamberta_11
 msgid "What wrong with you, kid? I already told you that all I know is that I really hope it doesn't happen to me."
@@ -61073,6 +61087,12 @@ msgid ""
 "\n"
 "I cannot care for everything of course. I take care of the main house, the bridges, and tend to the graves as best I can. Everything else has gradually fallen to ruin."
 msgstr ""
+"Estoy obligado por un juramento a cuidar de la mansión. Sin embargo, no es "
+"un juramento que yo haya hecho.\n"
+"\n"
+"No puedo encargarme de todo, por supuesto. Cuido la casa principal, los "
+"puentes y atiendo las tumbas lo mejor que puedo. Todo lo demás ha caído "
+"gradualmente en ruina."
 
 #: conversationlist_laeroth.json:moriath_caretaker_2:0
 msgid "How can you be bound by an oath you never gave?"
@@ -61426,6 +61446,10 @@ msgstr ""
 #: conversationlist_laeroth.json:eyvipa_3
 msgid "Ah. The son of the usurper. I will not help you, or the caretaker, or anyone else. I should have been Lord. My father passed me over for the usurper, Cuned, my younger brother. Ask him for help. But before you go, since you disturbed me, you owe me your life force! "
 msgstr ""
+"Ah. El hijo del usurpador. No te ayudaré, ni al cuidador, ni a nadie más. Yo "
+"debería haber sido Lord. Mi padre me dejó de lado por el usurpador, Cuned, "
+"mi hermano menor. Pídele ayuda a él. Pero antes de que te vayas, ya que me "
+"has molestado, ¡me debes tu fuerza vital! "
 
 #: conversationlist_laeroth.json:eyvipa_3:0
 msgid "[You feel your life being drained from you]."
@@ -61506,6 +61530,12 @@ msgid ""
 "\n"
 "[You take the oegyth crystal. It's gleam is fading.]"
 msgstr ""
+"Eyvipa no fue hecho Lord porque era perezoso e irresponsable. Si quisiera, "
+"podría liberar al cuidador, pero evidentemente sigue siendo irresponsable. "
+"Me temo que Verigil tiene razón. Yo tampoco puedo liberarlo. Tendrás que "
+"hablar con mi padre, Jerelin. Adiós.\n"
+"\n"
+"[Tomas el cristal oegyth. Su brillo se está desvaneciendo.]"
 
 #: conversationlist_laeroth.json:cuned_script_b_2a
 msgid "You place the heavily diminished oegyth crystal on the tomb, and chant \"iseray iritspay\""
@@ -63266,6 +63296,11 @@ msgid ""
 "As the heavy doors of the cave swing shut with a resounding slam, a sudden wave of fear grips you as the rush of wind hits your back.\n"
 "The echoing sound reverberates through you, sending shivers down your spine. This leaves you visibly shaken with a sense of uneasiness, casting a temporary shadow over your courage."
 msgstr ""
+"Cuando las pesadas puertas de la cueva se cierran con un estruendoso golpe, "
+"una repentina ola de miedo te invade al sentir el viento azotar tu espalda.\n"
+"El sonido reverbera en todo tu ser, enviando escalofríos por tu columna. Te "
+"quedas visiblemente alterado, con una sensación de inquietud que proyecta "
+"una sombra temporal sobre tu coraje."
 
 #: conversationlist_laeroth.json:script_close_cave_door_not_scared
 msgid "Oh, that was the door closing. No big deal now."
@@ -63305,6 +63340,11 @@ msgid ""
 "a glimpse into the underground world where alliances were forged in secrecy. I'd be willing to make you an offer for these intriguing\n"
 "tokens of history, should you be interested in parting with them."
 msgstr ""
+"[El coleccionista hace una pausa, su mirada detenida en las monedas.] Estas "
+"piezas no son simplemente moneda; son artefactos de un pasado oculto,\n"
+"un vistazo al mundo subterráneo donde las alianzas se forjaban en secreto. "
+"Estaría dispuesto a hacerte una oferta por estos intrigantes\n"
+"símbolos de la historia, si te interesa deshacerte de ellos."
 
 #: conversationlist_laeroth.json:coin_collector_thief_coins_50:0
 msgid "So you want to buy them all?"
@@ -63321,6 +63361,10 @@ msgstr ""
 #: conversationlist_laeroth.json:coin_collector_thief_coins_60
 msgid "Well, let's talk price first. You see, the silver coin is worth 11 gold in weight and the bronze is worth 5 gold in weight. But, to a collector they are worth more. Let's make this simple. I will pay you double those values for each coin and I'll take 5 of each."
 msgstr ""
+"Bueno, hablemos del precio primero. Verás, la moneda de plata vale 11 de oro "
+"en peso y la de bronce vale 5 de oro en peso. Pero, para un coleccionista, "
+"valen más. Hagámoslo simple. Te pagaré el doble de esos valores por cada "
+"moneda y tomaré 5 de cada una."
 
 #: conversationlist_laeroth.json:coin_collector_thief_coins_60:0
 msgid "So how much total than?"
@@ -64961,6 +65005,10 @@ msgstr ""
 #: conversationlist_feygard_1.json:village_philippa_fd_10
 msgid "Yes. You need to get me some dough, two eggs, butter, honey and five Feygard fig fruits. I also need a bottle of wine. A splash for the pie and the rest of the bottle is for me. Oh don't forget, the figs cannot be found anywhere near those savages to the south."
 msgstr ""
+"Sí. Necesitas traerme un poco de masa, dos huevos, mantequilla, miel y cinco "
+"higos de Feygard. También necesito una botella de vino. Un chorrito para el "
+"pastel y el resto de la botella es para mí. Ah, no olvides que los higos no "
+"se encuentran cerca de esos salvajes del sur."
 
 #: conversationlist_feygard_1.json:village_philippa_fd_10:0
 msgid "Dough! Where am I supposed to find dough?"
@@ -65583,6 +65631,11 @@ msgstr ""
 #: conversationlist_feygard_1.json:gamjee_villagers_known_3
 msgid "No! Listen! Humans come, take Gamjee's well, leave Gamjee with nothing. Gamjee scared. If Gamjee let them go, they come back, take well again. They no understand, well is life for Gamjee. Please, you help. Tell humans Gamjee no bad. Maybe they listen. Maybe they share well, no fight. You help, no need for hurt."
 msgstr ""
+"¡No! ¡Escucha! Los humanos vienen, toman el pozo de Gamjee, dejan a Gamjee "
+"sin nada. Gamjee tiene miedo. Si Gamjee los deja ir, volverán y tomarán el "
+"pozo otra vez. No entienden, el pozo es la vida de Gamjee. Por favor, "
+"ayúdanos. Diles a los humanos que Gamjee no es malo. Tal vez escuchen. Tal "
+"vez compartan el pozo, sin pelear. Tú ayudas, no habrá necesidad de daño."
 
 #: conversationlist_feygard_1.json:gamjee_villagers_known_3:0
 msgid "I see. You acted out of fear and desperation. I'll help you find a peaceful solution."
@@ -66491,6 +66544,10 @@ msgstr ""
 #: conversationlist_lytwings.json:arensia_lytwing_2
 msgid "I am being taunted by naughty lytwings at night. At least that is what Rigmor tells me. They play with my hair while I sleep, and tangle it into fairy-lock knots. Every morning I wake up tired, and I spend an hour brushing out the knots. I don't know what to do!"
 msgstr ""
+"Por las noches me atormentan unos traviesos lytwings. Al menos eso es lo que "
+"me dice Rigmor. Juegan con mi cabello mientras duermo y lo enredan en nudos "
+"de hadas. Cada mañana despierto agotado y paso una hora entera "
+"desenredándolos. ¡No sé qué hacer!"
 
 #: conversationlist_lytwings.json:arensia_lytwing_2:0
 msgid "I am sorry to hear that, but I cannot help you right now."
@@ -70129,6 +70186,16 @@ msgid ""
 "\n"
 "You stagger back, your body cold and trembling. Something has changed."
 msgstr ""
+"En el instante en que tu mano toca la marca, una sacudida helada recorre tu "
+"cuerpo. Una voz resuena en tu mente, baja y venenosa, pero suplicante:\n"
+"«Tú… tú debes ayudarme… pon fin a este tormento… busca a aquel al que estoy "
+"ligado… en el lugar que llamas Crossglen…»\n"
+"Tu visión se nubla y una sensación asfixiante de terror se enrosca alrededor "
+"de tu corazón. Por un instante fugaz, vislumbras una figura sombría, "
+"retorciéndose de agonía, antes de desvanecerse.\n"
+"\n"
+"Das un traspié hacia atrás, con el cuerpo frío y tembloroso. Algo ha "
+"cambiado."
 
 #: conversationlist_mt_galmore2.json:galmore_marked_stone_20
 msgid ""
@@ -70213,6 +70280,13 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:galmore_dark_spirit_defeated_10
 msgid "As the dark spirit fades, the suffocating darkness that had plagued this place begins to lift. The air feels lighter, though the oppressive aura of this devastated land remains, its sinister nature woven into the very ground. Yet, deep within, you feel an uneasy twinge...a faint whisper that the spirit's defeat may not be the end of its influence. Something or someone may still be tied to its lingering power."
 msgstr ""
+"A medida que el espíritu oscuro se desvanece, la oscuridad asfixiante que "
+"había plagado este lugar comienza a levantarse. El aire se siente más "
+"ligero, aunque la opresiva aura de esta tierra devastada permanece, su "
+"naturaleza siniestra tejida en el mismo suelo. Sin embargo, en lo más "
+"profundo, sientes un incómodo presentimiento… un leve susurro de que la "
+"derrota del espíritu podría no ser el fin de su influencia. Algo o alguien "
+"podría seguir vinculado a su poder residual."
 
 #: conversationlist_mt_galmore2.json:leta_child_10
 msgid "I am terrified! Who are those old people upstairs?"
@@ -70290,6 +70364,12 @@ msgid ""
 "\n"
 "Leta and Oromir's transformations are undeniable. Their peace is haunting, a reminder that not all wounds leave visible scars. The spirit may be gone, but its mark remains."
 msgstr ""
+"Al mirar entre Leta y Oromir, te inquieta su calma aceptación. La casa se "
+"siente tranquila, pero el aire está cargado de preguntas sin respuesta.\n"
+"\n"
+"Las transformaciones de Leta y Oromir son innegables. Su paz es inquietante, "
+"un recordatorio de que no todas las heridas dejan cicatrices visibles. El "
+"espíritu puede haber desaparecido, pero su marca permanece."
 
 #: conversationlist_mt_galmore2.json:old_leta_10n
 msgid "[Thoughtful, but somehow annoyed.]"
@@ -70410,6 +70490,11 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:old_oromir_questions_child_20
 msgid "When the spirit latched onto Leta, its curse didn't just affect her. It spread to everything close to her--her home, her family, even our boy. He was only two years old when it began...always holding her hand, always by her side. The spirit saw him as an extension of her, and so it bound him as well."
 msgstr ""
+"Cuando el espíritu se aferró a Leta, su maldición no solo la afectó a ella. "
+"Se extendió a todo lo que estaba cerca de ella: su hogar, su familia, "
+"incluso nuestro hijo. Tenía apenas dos años cuando todo comenzó… siempre "
+"tomándola de la mano, siempre a su lado. El espíritu lo vio como una "
+"extensión de ella, y por eso también lo ató a él."
 
 #: conversationlist_mt_galmore2.json:old_oromir_questions_child_30
 msgid "The spirit didn't just age us. It fed on our memories, our sense of self. Tomas was too young to defend himself from its grasp. It stripped away his connection to who he was. Trapping him in fear and confusion, unable to grow in mind, even as his body aged."
@@ -70603,6 +70688,11 @@ msgid ""
 "You feel your breath catch in your throat, the world around you warping and twisting. The mark is burning, a cold fire coursing through your veins, clawing at your very soul.\n"
 "TURN BACK NOW! Mikhail is in danger. You are too far from what matters. Return at once--before it is too late!"
 msgstr ""
+"Sientes que el aliento se te atasca en la garganta, el mundo a tu alrededor "
+"se deforma y retuerce. La marca arde, un fuego frío que recorre tus venas, "
+"arañando tu propia alma.\n"
+"¡REGRESA AHORA! Mikhail está en peligro. Estás demasiado lejos de lo que "
+"importa. Vuelve de inmediato--antes de que sea demasiado tarde!"
 
 #: conversationlist_mt_galmore2.json:galmore_marked_stone_15
 msgid "You stop to admire the view. Looking down the depths of darkness off the edge of the bridge."
@@ -71386,6 +71476,12 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:mg_myrelis_illusion_why_build_that_10
 msgid "Let me tell you a little story. Long ago, I was an indentured servant, toiling away as a miner here in Galmore. This place was a prison to my spirit, a bleak and joyless pit. When I was freed, I swore I would transform it. I wanted to create something that could transport others to a place of happiness and light, even if just for a moment. That beach is the opposite of this wretched place."
 msgstr ""
+"Déjame contarte una pequeña historia. Hace mucho tiempo, fui servant, "
+"trabajando como minero aquí en Galmore. Este lugar era una prisión para mi "
+"espíritu, un pozo sombrío y sin alegría. Cuando fui liberado, juré que lo "
+"transformaría. Quería crear algo que pudiera transportar a otros a un lugar "
+"de felicidad y luz, aunque solo fuera por un momento. Esa playa es todo lo "
+"opuesto a este lugar miserable."
 
 #: conversationlist_mt_galmore2.json:mg_myrelis_illusion_why_build_that_10:0
 msgid "I see. Thank you for telling me your story."
@@ -71481,6 +71577,11 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:galmore_rg_bell_20
 msgid "Kneeling down, you brush aside the thick grass to uncover what appears to be a small, rusted bell, almost entirely concealed by the earth. You dig carefully with your hands, pulling away stubborn roots and clumps of soil. The bell feels unexpectedly heavy in your grasp, as if it holds more than its physical weight, perhaps a story or purpose yet to be uncovered."
 msgstr ""
+"Arrodillándote, apartas la hierba espesa para descubrir lo que parece ser "
+"una pequeña campana oxidada, casi completamente oculta por la tierra. Cavas "
+"con cuidado con las manos, retirando raíces obstinadas y terrones de suelo. "
+"La campana se siente inesperadamente pesada en tu mano, como si contuviera "
+"más que su peso físico, quizá una historia o un propósito aún por descubrir."
 
 #: conversationlist_mt_galmore2.json:galmore_rg_musicbox_10
 msgid "As you near the disturbed burial plot, a faint outline catches your eye, something small and angular sticking out from the soil a few feet away."
@@ -71489,6 +71590,12 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:galmore_rg_musicbox_20
 msgid "Kneeling down, you push aside loose dirt and grass with your fingers. Bit by bit, you uncover a weathered music box, its edges worn smooth by time. Though dirt clings to its surface, you can see delicate carvings etched into the wood. Gently lifting it from the ground, you feel an eerie chill, as if the box has been waiting here, forgotten but not entirely at rest."
 msgstr ""
+"Arrodillándote, apartas con los dedos la tierra suelta y la hierba. Poco a "
+"poco descubres una caja de música ajada, sus bordes suavizados por el "
+"tiempo. Aunque la suciedad se adhiere a su superficie, puedes ver delicados "
+"grabados tallados en la madera. Al levantarla con cuidado del suelo, sientes "
+"un escalofrío inquietante, como si la caja hubiera estado esperando aquí, "
+"olvidada pero no del todo en reposo."
 
 #: conversationlist_mt_galmore2.json:galmore_rg_skeleton_10
 msgid "Beneath your feet, under a think layer of grass, you notice what looks to be human bones."
@@ -71501,6 +71608,11 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:galmore_rg_skeleton_20
 msgid "You kneel down and brush the blades aside, revealing the unmistakable curve of a bone partially buried in the soil. Carefully clearing away more dirt, you uncover fragments of what appears to be a human skeleton. Judging by its position and proximity to the disturbed grave, it seems likely these remains belong to whoever was once buried here."
 msgstr ""
+"Te arrodillas y apartas las hojas, revelando la curva inconfundible de un "
+"hueso parcialmente enterrado en la tierra. Con cuidado, retiras más tierra y "
+"descubres fragmentos de lo que parece ser un esqueleto humano. Por su "
+"posición y cercanía a la tumba alterada, es probable que estos restos "
+"pertenezcan a quien alguna vez fue enterrado aquí."
 
 #: conversationlist_mt_galmore2.json:mg_eryndor_ask_for_items_10
 msgid "Oh, a human? A human, indeed. How surprising. Yes, surprising indeed, but useful. Yes, useful indeed."
@@ -71575,6 +71687,11 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:mg_eryndor_vaelric_10
 msgid "I came to Vaelric in my hour of greatest need, bearing little but a token of my past. A ring of no great value to anyone but myself. I was desperate, suffering, and he agreed to help me for a price. Not gold, not silver, but my ring. I was too weak to refuse, too lost to question his demand."
 msgstr ""
+"Acudí a Vaelric en mi hora de mayor necesidad, llevando poco más que un "
+"símbolo de mi pasado. Un anillo de ningún gran valor para nadie más que para "
+"mí. Estaba desesperado, sufriendo, y él aceptó ayudarme a cambio de un "
+"precio. No oro, no plata, sino mi anillo. Estaba demasiado débil para "
+"negarme, demasiado perdido para cuestionar su demanda."
 
 #: conversationlist_mt_galmore2.json:mg_eryndor_give_items_20
 msgid "I have a story to tell only to \"friends\". So being my \"friend\" means giving me those two items you found."
@@ -71642,6 +71759,12 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:mg_vaelric_story_20
 msgid "Eryndor... Yes, I remember. He came to me alone, desperate, barely able to stand. His condition was severe, far beyond anything my tinctures and poultices could mend. I did everything I knew. I bled out the sickness, cooled his fever, forced broth past his lips. But it wasn't enough. One morning, I found him still as death. No breath, no warmth. His skin had gone pale and lifeless."
 msgstr ""
+"Eryndor… Sí, lo recuerdo. Vino a mí solo, desesperado, apenas capaz de "
+"mantenerse en pie. Su condición era grave, mucho más allá de lo que mis "
+"tinturas y cataplasmas podían remediar. Hice todo lo que sabía. Extraje la "
+"enfermedad con sangrías, bajé su fiebre, le forcé a beber caldo. Pero no fue "
+"suficiente. Una mañana lo encontré tan quieto como la muerte. Sin aliento, "
+"sin calor. Su piel se había vuelto pálida y sin vida."
 
 #: conversationlist_mt_galmore2.json:mg_vaelric_story_30
 msgid "He rubs his temple, his voice quieter now."
@@ -71650,6 +71773,10 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:mg_vaelric_story_40
 msgid "I had no choice but to lay him to rest. There was no kin to claim him, no priest to see to his rites. So I carried him to the graveyard myself, dug the earth with my own hands, and gave him what peace I could. It was the right thing to do... or so I thought."
 msgstr ""
+"No tuve otra opción que darle descanso. No había familiares que lo "
+"reclamaran, ni sacerdote que se encargara de sus ritos. Así que lo llevé yo "
+"mismo al cementerio, cavé la tierra con mis propias manos y le di la paz que "
+"pude. Era lo correcto… o eso creí."
 
 #: conversationlist_mt_galmore2.json:mg_vaelric_story_50
 msgid "His jaw tightens, regret flashing in his eyes."
@@ -71725,6 +71852,13 @@ msgid ""
 "\n"
 "[With a final, grateful nod, Eryndor begins to fade, his form unraveling like mist in the wind. A whisper lingers in the air before vanishing entirely.]"
 msgstr ""
+"He permanecido atado a este mundo por el resentimiento, por la creencia de "
+"que mi sufrimiento no tenía sentido. Pero ahora, con mi anillo de vuelta, me "
+"siento… más ligero. Es hora de dejarlo ir.\n"
+"\n"
+"[Con una última y agradecida inclinación de cabeza, Eryndor comienza a "
+"desvanecerse, su forma deshilachándose como niebla al viento. Un susurro "
+"permanece en el aire antes de desaparecer por completo.]"
 
 #: conversationlist_mt_galmore2.json:mg_eryndor_give_stolen_ring_40
 msgid "He stares at the ring for a long moment, the glow of his form pulsing unevenly."
@@ -71757,6 +71891,13 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:mg_eryndor_music_box_10
 msgid "There was one rival who stood above the rest. A relic hunter like myself, relentless and cunning. Her name is Celdar. We crossed paths often, always chasing the same artifacts, always trying to outmaneuver one another. And when it came to one particular prize, I won. The music box. It was something she sought desperately, something she believed should have been hers. I held onto it, not just for its rarity, but because I had bested her."
 msgstr ""
+"Había una rival que se destacaba sobre las demás. Una cazadora de reliquias "
+"como yo, implacable y astuta. Su nombre era Celdar. Nos cruzábamos a menudo, "
+"siempre persiguiendo los mismos artefactos, siempre intentando adelantarnos "
+"la una a la otra. Y cuando se trató de un premio en particular, gané yo. La "
+"caja de música. Era algo que ella buscaba desesperadamente, algo que creía "
+"que debería haber sido suyo. La conservé, no solo por su rareza, sino porque "
+"la había superado."
 
 #: conversationlist_mt_galmore2.json:mg_vaelric_reward_10
 msgid "You did it? You were able to help me? You have prevented the future hauntings?"
@@ -71773,6 +71914,12 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:mg_vaelric_reward_30
 msgid "This tonic does more than ease a fever or numb the pain of a bite. It eliminates the infection entirely. If you have already fallen victim to the Insect contagion poison, one dose will purge it from your body. But more than that, it grants temporary immunity against reinfection. For a time, no swamp vermin, no festering bite, no tainted sting will take hold of you."
 msgstr ""
+"Este tónico hace más que aliviar una fiebre o adormecer el dolor de una "
+"picadura. Elimina la infección por completo. Si ya has caído víctima del "
+"veneno de contagio de insecto, una dosis lo purgará de tu cuerpo. Pero más "
+"que eso, otorga inmunidad temporal contra la reinfección. Por un tiempo, "
+"ningún bicho del pantano, ninguna mordedura supurante, ningún aguijón "
+"contaminado podrá afectarte."
 
 #: conversationlist_mt_galmore2.json:mg_vaelric_reward_40
 msgid ""
@@ -71786,6 +71933,28 @@ msgid ""
 "\n"
 "One sample of Mudfiend goo. A secretion found in the depths of mines and tunnels along the Duleian Road. It is the key component that binds the other ingredients together."
 msgstr ""
+"Pero un remedio así no se consigue gratis. Si deseas que prepare este "
+"tónico, tendrás que reunir tú mismo los ingredientes necesarios. Esto es lo "
+"que necesito:\n"
+"\n"
+"Cinco flores de Crepuscencia. Estas raras flores se encuentran en las zonas "
+"más profundas del pantano, pero las criaturas que habitan allí suelen "
+"sentirse atraídas por ellas. Sus propiedades son delicadas, así que tráelas "
+"frescas.\n"
+"\n"
+"Cinco probóscides de mosquito. Se obtienen de los mosquitos del pantano. No "
+"te faltarán estas criaturas cerca de las aguas estancadas, pero cuidado con "
+"sus picaduras.\n"
+"\n"
+"Diez botellas de agua de pantano. Encontrarás abundante justo fuera de mi "
+"hogar. El agua superficial no sirve. Tendrás que llegar hondo, más allá de "
+"la suciedad que flota arriba. Lo mejor se asienta en el fondo: oscuro, "
+"espeso y cargado de lo que le da al pantano su potencia. Llena las botellas "
+"con eso. Toma estas botellas vacías y llénalas tú mismo.\n"
+"\n"
+"Una muestra de baba de demonio del barro. Una secreción que se encuentra en "
+"las profundidades de minas y túneles a lo largo del Camino Duleian. Es el "
+"componente clave que une los demás ingredientes."
 
 #: conversationlist_mt_galmore2.json:mg_vaelric_reward_40:0
 msgid "Great, more work for me."
@@ -71800,10 +71969,30 @@ msgid ""
 "\n"
 "Ten bottles of swamp water. You will find plenty just outside my home. Surface water won't do. You'll need to reach deep, past the filth floating on top. The best stuff is settled at the bottom. Dark, thick, and rich with what gives the swamp its potency. Fill the bottles with that. Take these empty bottles and fill them yourself."
 msgstr ""
+"Necesito:\n"
+"Cinco flores de Crepuscencia. Estas raras flores se encuentran en las zonas "
+"más profundas del pantano, pero las criaturas que habitan allí suelen "
+"sentirse atraídas por ellas. Sus propiedades son delicadas, así que tráelas "
+"frescas.\n"
+"\n"
+"Cinco probóscides de mosquito. Se obtienen de los mosquitos del pantano. No "
+"te faltarán estas criaturas cerca de las aguas estancadas, pero cuidado con "
+"sus picaduras.\n"
+"\n"
+"Diez botellas de agua de pantano. Encontrarás abundante justo fuera de mi "
+"hogar. El agua superficial no sirve. Tendrás que llegar hondo, más allá de "
+"la suciedad que flota arriba. Lo mejor se asienta en el fondo: oscuro, "
+"espeso y cargado de lo que le da al pantano su potencia. Llena las botellas "
+"con eso. Toma estas botellas vacías y llénalas tú mismo."
 
 #: conversationlist_mt_galmore2.json:mg_vaelric_reward_50
 msgid "Bring me these, and I shall prepare ten vials of the tonic for you. But understand this: my craft is no charity. If you seek to replenish your supply, you must pay the price. Four hundred and eighty gold per vial. A steep price, perhaps, but a fair one for something that could mean the difference between life and death."
 msgstr ""
+"Tráeme todo esto y prepararé diez viales del tónico para ti. Pero entiende "
+"esto: mi oficio no es caridad. Si deseas reponer tu suministro, deberás "
+"pagar el precio. Cuatrocientos ochenta de oro por vial. Un precio elevado, "
+"quizá, pero justo para algo que puede significar la diferencia entre la vida "
+"y la muerte."
 
 #: conversationlist_mt_galmore2.json:mg_vaelric_reward_60
 #: conversationlist_mt_galmore2.json:mg_vaelric_buy_insectbance_10
@@ -71838,6 +72027,11 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:mg_fill_bottles_20
 msgid "You kneel by the swamp's edge and roll up your sleeve. Surface water will not do. Bracing yourself, you plunge your arm in up to the elbow, feeling the thick, murky liquid seep between your fingers. With a slow, steady motion, you fill each bottle, ensuring they contain the dense, dark water Vaelric requires."
 msgstr ""
+"Te arrodillas al borde del pantano y te remangas la manga. El agua "
+"superficial no servirá. Preparándote, sumerges el brazo hasta el codo, "
+"sintiendo cómo el líquido espeso y turbio se filtra entre tus dedos. Con un "
+"movimiento lento y constante, llenas cada botella, asegurándote de que "
+"contengan el agua densa y oscura que Vaelric requiere."
 
 #: conversationlist_mt_galmore2.json:mg_eryndor_keep_ring_10
 msgid "You dare? That ring is mine by right! It was stolen from me in death, just as my life was stolen before its time. I will not suffer another thief to profit from my misery."
@@ -71858,6 +72052,11 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:mg_eryndor_defeated_10
 msgid "As Eryndor's spectral form wavers, his anguished cry echoes through the Galmore encampment before fading into the night. His essence shatters like mist caught in the wind, dissolving into nothing, but the air remains heavy, charged with an unseen weight. The encampment is silent, yet the silence is not one of peace."
 msgstr ""
+"Mientras la forma espectral de Eryndor titila, su grito angustiado resuena "
+"por el campamento de Galmore antes de desvanecerse en la noche. Su esencia "
+"se rompe como niebla atrapada en el viento, disolviéndose en nada, pero el "
+"aire permanece denso, cargado con un peso invisible. El campamento está en "
+"silencio, pero no es un silencio de paz."
 
 #: conversationlist_mt_galmore2.json:mg_vaelric_defeated_eryndor_10
 msgid "So, it is done? You struck him down, ended his torment by force?"
@@ -71905,6 +72104,14 @@ msgid ""
 "\n"
 "And now, even in death, I remain. I am left with nothing while Vaelric hoards the last piece of my past. That ring was mine, and it was never his to take."
 msgstr ""
+"Ejerció su oficio, cobró su pago y me dejó descansar. Pero nunca desperté "
+"bajo su techo. Desperté bajo la tierra, enterrado como algo destinado a ser "
+"desechado. Me abrí camino a duras garras, pero el mundo ya había seguido "
+"adelante sin mí. Mi cuerpo falló, mi respiración flaqueó y perecí solo.\n"
+"\n"
+"Y ahora, incluso en la muerte, sigo aquí. Me quedo con nada mientras Vaelric "
+"acumula la última pieza de mi pasado. Ese anillo era mío, y nunca fue suyo "
+"para tomar."
 
 #: conversationlist_mt_galmore2.json:mg_eryndor_vaelric_30
 msgid "Return my ring, and this torment ends for both of us. Vaelric can go on with his life, and I will trouble him no more. That is my offer."
@@ -71956,6 +72163,14 @@ msgid ""
 "\n"
 "[He holds out the music box, waiting for you to take it.]"
 msgstr ""
+"Celdar es de Sullengard. Si no recuerdas haber hablado con ella, ese sería "
+"el lugar por donde empezar. Pero sospecho que ya la has conocido antes. No "
+"es alguien que se olvide fácilmente. No tolera a los tontos, ni a quienes le "
+"hacen perder el tiempo con ventas insignificantes o palabras vacías. Siempre "
+"vestida con ese estridente vestido púrpura suyo, destacando como si retara "
+"al mundo a enfrentarse a ella. Y nunca ha tomado una derrota a la ligera.\n"
+"\n"
+"[Extiende la caja de música, esperando que la tomes.]"
 
 #: conversationlist_mt_galmore2.json:mg_eryndor_music_box_default_10
 msgid "Have you brought the music box to Celdar yet?"
@@ -72139,6 +72354,18 @@ msgid ""
 "\n"
 "I think about you, Elira. About little Matrin and your sweet voice by the fire. I promised I would return, but now I fear I will break that promise. If only I had been stronger. If only I had never been taken to Undertell."
 msgstr ""
+"Día 1\n"
+"No sé si algún día volveré a ver Remgard, pero si alguien encuentra esto, "
+"que sepa que lo intenté. Huí en cuanto vi una oportunidad, escabulléndome "
+"entre los guardias, a través de los túneles y hacia la noche. Creí que la "
+"montaña sería mi salvación, pero se ha convertido en otra prisión. Mi pierna "
+"está herida por una mala caída, y en la prisa dejé atrás mis provisiones. "
+"Esta cabaña es lo único que me mantiene con vida y me evita morir de frío "
+"ahí fuera.\n"
+"\n"
+"Pienso en ti, Elira. En el pequeño Matrin y en tu dulce voz junto al fuego. "
+"Prometí que regresaría, pero ahora temo romper esa promesa. Si tan solo "
+"hubiera sido más fuerte. Si tan solo nunca me hubieran llevado a Undertell."
 
 #: conversationlist_mt_galmore2.json:galmore_66_house_journal_1:0
 msgid "Let's read the next page."
@@ -72159,6 +72386,22 @@ msgid ""
 "\n"
 "Tomorrow, I will try again. I have to."
 msgstr ""
+"Día 2\n"
+"Lo intenté de nuevo esta noche. En cuanto la oscuridad se tragó la tierra, "
+"avancé a duras penas hasta la orilla del río, pensando que podría seguir el "
+"agua montaña abajo. Pero estaban allí: los miserables del río. Los oí antes "
+"de verlos, esos horribles croares burbujeantes, el chapoteo cuando se "
+"deslizaron fuera del agua. Sus ojos brillaban como brasas agonizantes, "
+"observándome, esperando.\n"
+"\n"
+"Apenas logré volver al interior antes de que uno de ellos se abalanzara. Mi "
+"pierna está peor ahora, y no me queda nada con qué vendarla.\n"
+"\n"
+"El hambre me carcome. Intenté pescar, pero los anzuelos de esta cabaña están "
+"oxidados y el sedal es demasiado débil. Hay redes viejas, pero no tengo "
+"fuerzas para colocarlas.\n"
+"\n"
+"Mañana lo intentaré otra vez. Tengo que hacerlo."
 
 #: conversationlist_mt_galmore2.json:galmore_66_house_journal_2:0
 msgid "This is mildly interesting. Let's read the next page."
@@ -72175,6 +72418,20 @@ msgid ""
 "\n"
 "I dreamed of the Heartstone. Of its glow deep in the dark, pulsing like a dying heart. We bled for it, all of us. Bent our backs, broke our bodies. They say it fuels the forges of kings, but to us, it was nothing but suffering. I wonder if the others still dig, still rot in the depths of Undertell. Or if they, too, have tried to flee and perished in the dark."
 msgstr ""
+"Día 3\n"
+"El frío se me metió en los huesos anoche. Aquí hace más frío que en las "
+"minas, aunque allí teníamos fuego… si cavábamos lo suficiente, si "
+"obedecíamos. Las manos me tiemblan demasiado como para escribir bien. "
+"Arranqué las tablas del suelo con la esperanza de encontrar madera seca, "
+"pero apenas sirve para calentar este lugar.\n"
+"\n"
+"Soñé con la Piedra Corazón. Con su resplandor en lo profundo de la "
+"oscuridad, latiendo como un corazón moribundo. Sangramos por ella, todos "
+"nosotros. Encorvamos la espalda, destrozamos nuestros cuerpos. Dicen que "
+"alimenta las forjas de los reyes, pero para nosotros no fue más que "
+"sufrimiento. Me pregunto si los demás aún siguen cavando, si todavía se "
+"pudren en las profundidades de Undertell. O si ellos también intentaron huir "
+"y perecieron en la oscuridad."
 
 #: conversationlist_mt_galmore2.json:galmore_66_house_journal_3:0
 msgid "This is getting better. Let's read the next page."
@@ -72193,6 +72450,17 @@ msgid ""
 "\n"
 "I will rest now. Perhaps in dreams, I will walk home at last."
 msgstr ""
+"Día 4?\n"
+"He perdido la noción del tiempo. El hambre lo entumece todo. Mi herida "
+"supura y estoy demasiado débil para moverme. Ahora escucho a los miserables "
+"afuera todas las noches, más cerca que antes. Como si pudieran oler mi "
+"debilidad.\n"
+"\n"
+"Te escribí una carta, Elira. Está escondida bajo la Piedra Corazón. Si "
+"alguien encuentra este diario, por favor… por favor llévalo a Remgard. Hazle "
+"saber que nunca dejé de intentar regresar.\n"
+"\n"
+"Ahora descansaré. Tal vez en sueños, por fin camine de vuelta a casa."
 
 #: conversationlist_mt_galmore2.json:galmore_66_house_journal_4:0
 msgid "Wow. This is awful to read."
@@ -72304,6 +72572,16 @@ msgstr ""
 #: conversationlist_mt_galmore2.json:galmore_23_unknown_book_10
 msgid "You brush aside the branches and find an old chest tucked behind the tree. Inside lies a weathered tome, bound in cracked leather. It's an unknown book on the art of fighting. You open it and begin to read, flipping through dense pages until a chapter catches your eye, \"Striking by Rhythm and Force\". It speaks of precision and control, of mastering your strikes. As you finish reading, knowledge sharpens your mind and your weapon feels steadier in your grasp. Just then, a hawk screeches overhead and dives. It snatches the book from your hands and vanishes into the sky. But in your grip remains a single page, torn free in the scuffle. Somehow you instantly feel like a better fighter."
 msgstr ""
+"Apartas las ramas y encuentras un viejo cofre escondido detrás del árbol. "
+"Dentro hay un tomo ajado, encuadernado en cuero agrietado. Es un libro "
+"desconocido sobre el arte del combate. Lo abres y comienzas a leer, pasando "
+"páginas densas hasta que un capítulo llama tu atención: «Golpear con ritmo y "
+"fuerza». Habla de precisión y control, de dominar tus ataques. Al terminar "
+"de leer, el conocimiento agudiza tu mente y tu arma se siente más firme en "
+"tu mano. Justo entonces, un halcón chilla sobre tu cabeza y se lanza en "
+"picado. Arrebata el libro de tus manos y desaparece en el cielo. Pero en tu "
+"puño queda una sola página, arrancada en el forcejeo. De algún modo, al "
+"instante te sientes como un mejor luchador."
 
 #: conversationlist_mt_galmore2.json:rubycrest_strider_flee_stoutford_filler1_10
 #: conversationlist_mt_galmore2.json:rubycrest_strider_flee_stoutford_filler3_10
@@ -72635,6 +72913,27 @@ msgid ""
 "\n"
 "One sample of Mudfiend goo. A secretion found in the depths of mines and tunnels along the Duleian Road. It is the key component that binds the other ingredients together."
 msgstr ""
+"No, no lo haces. Ya te lo dije: si deseas que prepare este tónico, debes "
+"reunir tú mismo los ingredientes necesarios. Esto es lo que necesito:\n"
+"\n"
+"Cinco flores de Crepuscencia. Estas raras flores se encuentran en las zonas "
+"más profundas del pantano, pero las criaturas que habitan allí suelen "
+"sentirse atraídas por ellas. Sus propiedades son delicadas, así que tráelas "
+"frescas.\n"
+"\n"
+"Cinco probóscides de mosquito. Se obtienen de los mosquitos del pantano. No "
+"te faltarán estas criaturas cerca de las aguas estancadas, pero cuidado con "
+"sus picaduras.\n"
+"\n"
+"Diez botellas de agua de pantano. Encontrarás abundante justo fuera de mi "
+"hogar. El agua superficial no sirve. Tendrás que llegar hondo, más allá de "
+"la suciedad que flota arriba. Lo mejor se asienta en el fondo: oscuro, "
+"espeso y cargado de lo que le da al pantano su potencia. Llena las botellas "
+"con eso. Toma estas botellas vacías y llénalas tú mismo.\n"
+"\n"
+"Una muestra de baba de demonio del barro. Una secreción que se encuentra en "
+"las profundidades de minas y túneles a lo largo del Camino Duleian. Es el "
+"componente clave que une los demás ingredientes."
 
 #: conversationlist_next_release.json:galmore_rg_musicbox_found_first
 #: conversationlist_next_release.json:galmore_rg_bell_found_first
@@ -76306,6 +76605,16 @@ msgstr ""
 #: itemlist_delivery.json:facutloni_docket:description
 msgid "A document listing the contents of a delivery   Arcir the book-lover from Fallhaven ordered a 'Dusty Old Book'.   Edrin the metalsmith from Brimhaven ordered a 'Striped Hammer'.   Odirath the armorer from Stoutford ordered a 'Pretty Porcelain Figure'.   Venanra the laundress from Brimhaven ordered an 'Old, worn cape'.   Tjure the unlucky merchant ordered a 'Mysterious green something'.   Servant the servant from Guynmart Castle ordered a 'Chandelier'.   Arghes from Remgard tavern ordered 'Yellow Boots'.   Wyre the mournful woman from Vilegard ordered a 'Lyre'.   Mikhail from Crossglen ordered a 'Plush Pillow'.   Pangitain the fortune teller from Brimhaven ordered a 'Crystal Globe'. "
 msgstr ""
+"Un documento que enumera el contenido de un envío   Arcir el amante de los "
+"libros de Fallhaven pidió un 'Libro Polvoriento Antiguo'   Edrin el herrero "
+"de Brimhaven pidió un 'Martillo a Rayas'   Odirath el armero de Stoutford "
+"pidió una 'Bonita Figura de Porcelana'   Venanra la lavandería de Brimhaven "
+"pidió una 'Capa Vieja y Gastada'   Tjure el desafortunado mercader pidió un "
+"'Algo Verde Misterioso'   Servant el sirviente del Castillo Guynmart pidió "
+"un 'Candelabro'   Arghes de la taberna de Remgard pidió 'Botas Amarillas'   "
+"Wyre la mujer afligida de Vilegard pidió una 'Lira'   Mikhail de Crossglen "
+"pidió una 'Almohada de Felpa'   Pangitain la adivina de Brimhaven pidió un "
+"'Globo de Cristal' "
 
 #: itemlist_sullengard.json:golden_jackal_fur
 msgid "Golden jackal fur"
@@ -77800,6 +78109,52 @@ msgid ""
 "\n"
 "And if they didn't die, they're still afraid today. But they also know that courage is much stronger than any fear."
 msgstr ""
+"«Gracias a $playername por evitar que ocurriera algo malo. Kealwea, "
+"sacerdote de Sullengard»\n"
+"\n"
+"De Aquel Que Partió Para Aprender a Tener Miedo\n"
+"\n"
+"Había una vez, en un pequeño y pacífico pueblo, un joven llamado Emil. Emil "
+"era conocido por su valor y curiosidad, pero en el fondo, a menudo se "
+"preguntaba si realmente no conocía nada del miedo. Un día decidió que quería "
+"aprender a tener miedo para volverse más valiente. Así que empacó sus cosas "
+"y se adentró en el oscuro bosque que rodeaba el pueblo.\n"
+"\n"
+"El bosque estaba lleno de sonidos y sombras misteriosas, pero Emil avanzaba "
+"valientemente. Después de un rato, llegó a un viejo puente que crujía bajo "
+"sus pies, que cruzaba un profundo abismo. De repente, escuchó un movimiento "
+"entre los arbustos. Un pequeño zorro saltó, con los ojos brillando "
+"curiosamente. Emil apenas se asustó, pero el zorro no parecía tener miedo. "
+"En cambio, movió la cola, como invitando a Emil a seguirlo.\n"
+"—Bueno —dijo Emil—, si tú no tienes miedo, entonces yo tampoco lo tendré. "
+"Cruzó el puente, con el zorro caminando a su lado. Pero tan pronto como "
+"atravesó el puente, Emil escuchó un fuerte gruñido. Un gran lobo oscuro "
+"emergió de los arbustos. Emil se quedó paralizado de sorpresa. Pero el zorro "
+"se puso valientemente frente a él y gruñó de vuelta. El lobo pareció "
+"sorprendido, dudó por un momento y luego desapareció entre la maleza. Emil "
+"sintió alivio, pero supo que aún tenía más por aprender.\n"
+"\n"
+"Continuó su camino y llegó a una cueva que se adentraba en la montaña. "
+"Curioso, se metió sigilosamente. Allí estaba oscuro y fresco. De repente, "
+"escuchó un leve llanto. En un rincón, vio un pequeño búho atrapado en una "
+"red.\n"
+"—Oh, pobre búho —dijo Emil—. Te ayudaré. Con cuidado, liberó al pequeño búho "
+"de la red. Este lo miró agradecido y dijo —Gracias, valiente Emil. No le "
+"tienes miedo a la oscuridad ni al peligro. Eso es muy valiente de tu parte. "
+"Emil se sintió orgulloso, pero al mismo tiempo se dio cuenta de que la "
+"valentía también significa ser amable y servicial.\n"
+"\n"
+"De camino de regreso al pueblo, Emil reflexionó. Aprendió que el miedo no "
+"siempre es algo malo. A veces es solo un miedo que nos protege del peligro. "
+"Pero el valor también significa hacer lo correcto a pesar del miedo.\n"
+"Cuando Emil finalmente regresó al pueblo, todos lo recibieron con alegría. "
+"Les contó sobre sus aventuras y lo que había aprendido: que el miedo es "
+"parte de la vida, pero que se puede ser valiente incluso cuando se tiene "
+"miedo. Desde ese día, Emil no solo era curioso, sino también más sabio y "
+"valiente, listo para enfrentar cualquier aventura con el corazón abierto.\n"
+"\n"
+"Y si no murieron, todavía tienen miedo hoy. Pero también saben que el valor "
+"es mucho más fuerte que cualquier miedo."
 
 #: itemlist_mt_galmore2.json:mg2_rewarded_necklace
 msgid "Necklace with a medal from Teccow"
@@ -77827,6 +78182,13 @@ msgid ""
 "\n"
 "...'never swing with mere hope. The edge must be an extension of intention. Feel the weight in your stance, the rhythm in your breath. Let your eyes guide your hand, not your haste. If you strike before the moment is ready, you strike only air. When the gap reveals itself, do not hesitate. Commit, and follow through...'"
 msgstr ""
+"«Golpeador Orgulloso: Con Ritmo y Fuerza»\n"
+"\n"
+"…«nunca golpees solo con la esperanza. El filo debe ser una extensión de tu "
+"intención. Siente el peso en tu postura, el ritmo en tu respiración. Deja "
+"que tus ojos guíen tu mano, no tu prisa. Si golpeas antes de que el momento "
+"esté listo, solo golpearás el aire. Cuando el espacio se revele, no dudes. "
+"Comprométete y sigue hasta el final…»"
 
 #: itemlist_mt_galmore2.json:valugha_gloves
 msgid "Valugha's gloves"
@@ -81682,7 +82044,7 @@ msgstr "Merodeador Yczorah"
 
 #: monsterlist_omi2.json:elm_yzczorah2
 msgid "Yczorah"
-msgstr "Yczora"
+msgstr "Yczorah"
 
 #: monsterlist_omi2.json:kamelio
 msgid "Kamelio"
@@ -86158,7 +86520,7 @@ msgstr "Estaba bastante decepcionado con mi pobre puntuación."
 
 #: questlist_stoutford_combined.json:stn_colonel:171
 msgid "He was pretty impressed with my excellent result."
-msgstr ""
+msgstr "Quedó muy impresionado con mi excelente resultado."
 
 #: questlist_stoutford_combined.json:stn_colonel:172
 msgid "My result confirmed his relatively low expectations."
@@ -86206,7 +86568,7 @@ msgstr "Una vez de vuelta en Stoutford, Gyra conocía el camino y corrió hacia 
 
 #: questlist_stoutford_combined.json:stn_quest_gyra:70
 msgid "Odirath thanks you many thousand times."
-msgstr ""
+msgstr "Odirath te lo agradece miles de veces.."
 
 #: questlist_stoutford_combined.json:stn_quest_gyra:80
 msgid "Odirath had repaired the mechanism of the southern castle gate."
@@ -87537,11 +87899,11 @@ msgstr "Gison me dará sopa de hongos en agradecimiento si le traigo 50 de oro, 
 
 #: questlist_gorwath.json:postman
 msgid "You're the postman"
-msgstr ""
+msgstr "Eres el cartero"
 
 #: questlist_gorwath.json:postman:10
 msgid "Gorwath would like me to give a letter to Arensia, in Fallhaven."
-msgstr ""
+msgstr "Gorwath quiere que entregue una carta a Arensia, en Fallhaven."
 
 #: questlist_gorwath.json:postman:12
 msgid "But I decided not to help him with that."
@@ -87549,7 +87911,7 @@ msgstr ""
 
 #: questlist_gorwath.json:postman:15
 msgid "He gave me the letter."
-msgstr ""
+msgstr "Él me dio la carta."
 
 #: questlist_gorwath.json:postman:20
 msgid "I gave the letter to Arensia, who was visibly happy about it. Gorwath needs to hear that."
@@ -87726,6 +88088,11 @@ msgstr ""
 #: questlist_omi2.json:Omi2_bwm1:50
 msgid "It was true! That strange glowing material is alive. I should be extremely cautious; it seems to be able to engulf living beings. I found the last of Ortholion's henchman alive. He has gone back to search for reinforcements. I hope they are better than those who dared to enter here."
 msgstr ""
+"¡Era cierto! Ese extraño material brillante está vivo. Debo ser "
+"extremadamente cauteloso; parece capaz de engullir a los seres vivos. "
+"Encontré con vida al último de los secuaces de Ortholion. Ha regresado para "
+"buscar refuerzos. Espero que sean mejores que aquellos que se atrevieron a "
+"entrar aquí."
 
 #: questlist_omi2.json:Omi2_bwm1:51
 msgid "I ended up trapped on a one-way path deep in a cavern below the Elm mine. General Ortholion is blocking the only way to escape for Ehrenfest. This is his end."
@@ -87773,7 +88140,7 @@ msgstr ""
 
 #: questlist_delivery.json:brv_wh_delivery
 msgid "Delivery"
-msgstr ""
+msgstr "Entrega"
 
 #: questlist_delivery.json:brv_wh_delivery:10
 msgid "Facutloni asked me to help him deliver all of the items ordered by his customers a long time ago. He even gave me an old document with the names and items written on it."
@@ -89219,6 +89586,11 @@ msgstr ""
 #: questlist_troubling_times.json:troubling_times:130
 msgid "Sly Seraphina said that Luthor's ring was to be found in the cave which Crackshot tried to open. The door was sealed by Umar and Seraphina to prevent monsters in that cave from devastating Dhayavar. The sealing was done by using Luthor's items. She and Umar decided to separate them, and keep them separate."
 msgstr ""
+"La astuta Seraphina dijo que el anillo de la familia Luthor se encontraba en "
+"la cueva que Crackshot intentó abrir. La puerta fue sellada por Umar y "
+"Seraphina para evitar que los monstruos de esa cueva devastaran Dhayavar. El "
+"sellado se realizó usando los objetos de la familia Luthor. Ella y Umar "
+"decidieron separarlos y mantenerlos separados."
 
 #: questlist_troubling_times.json:troubling_times:140
 msgid "Seraphina felt that the danger was too high to open that door. So she disappeared."
@@ -89495,6 +89867,11 @@ msgstr ""
 #: questlist_darknessanddaylight.json:shadows:80
 msgid "For that, he would give me a chant. But I had to get him energies in the form of four 'blessings' - Shadow's Strength, Shadow Awareness, Fatigue, and Life Drain - within myself. He told me to go to Talion in Loneford for the first blessing, and for information about the others."
 msgstr ""
+"A cambio de eso, me daría un canto. Pero debía obtener para él energías en "
+"forma de cuatro «bendiciones» dentro de mí: Fuerza de la Sombra, Conciencia "
+"de la Sombra, Fatiga y Drenaje de Vida. Me dijo que fuera con Talion en "
+"Loneford para conseguir la primera bendición y obtener información sobre las "
+"demás."
 
 #: questlist_darknessanddaylight.json:shadows:90
 msgid "Talion bestowed me with Shadow's Strength."
@@ -89595,6 +89972,11 @@ msgstr ""
 #: questlist_mt_galmore2.json:familiar_shadow:70
 msgid "I returned to Crossglen to find everything changed. Leta has aged decades in an instant. Her child is now fully grown, and her timid husband, Oromir, seems like a different man entirely. They remember nothing of what happened. The spirit may be gone, but its curse has left a permanent mark on the lives it touched."
 msgstr ""
+"Regresé a Crossglen para encontrar todo cambiado. Leta ha envejecido décadas "
+"en un instante. Su hijo ahora es un adulto, y su tímido esposo, Oromir, "
+"parece un hombre completamente distinto. No recuerdan nada de lo que "
+"ocurrió. El espíritu puede haber desaparecido, pero su maldición ha dejado "
+"una marca permanente en las vidas que tocó."
 
 #: questlist_mt_galmore2.json:mg2_exploded_star
 msgid "The exploded star"
@@ -89831,6 +90213,11 @@ msgstr ""
 #: questlist_mt_galmore2.json:mg_restless_grave:123
 msgid "Eryndor has asked me to find Celdar, a woman from Sullengard and give her the mysterious music box because he has no need for it and it's the right thing to do. I think I remember hearing that name, \"Celdar\" somewhere. Eryndor stated that Celdar is intolerant of fools and petty trades and wears a garish purple dress."
 msgstr ""
+"Eryndor me ha pedido que encuentre a Celdar, una mujer de Sullengard, y le "
+"entregue la misteriosa caja de música, porque él no la necesita y es lo "
+"correcto. Creo recordar haber oído ese nombre, “Celdar”, en algún lugar. "
+"Eryndor mencionó que Celdar no tolera a los tontos ni los tratos "
+"insignificantes, y que siempre viste un estridente vestido púrpura."
 
 #: questlist_mt_galmore2.json:mg_restless_grave:125
 msgid "In Sullengard, Maddalena informed me that Celdar was headed for Brimhaven, but may have stopped to rest along the way as it is a long trip to Brimhaven."
