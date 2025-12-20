@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-12-18 14:00+0000\n"
-"Last-Translator: Kevin Rojas Costa Rica <kr337909@gmail.com>\n"
+"PO-Revision-Date: 2025-12-20 22:01+0000\n"
+"Last-Translator: Rocket Space <kr337909@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -4486,7 +4486,10 @@ msgstr ""
 
 #: conversationlist_signs_pre067.json:sign_pitcave2
 msgid "The ground is littered with bloodstained scraps of paper, seemingly torn from a journal in a fight."
-msgstr "[OUTDATED]Gandir yace aquí, asesinado por la mano de su antiguo amigo Irogotu."
+msgstr ""
+"El suelo está cubierto de fragmentos de papel manchados de sangre, "
+"aparentemente arrancados de un diario durante una pelea, el único trozo "
+"reconocible dice.. el anillo esta maldito debe ser arrojado al volcán."
 
 #: conversationlist_signs_pre067.json:sign_fallhaven1
 msgid "Welcome to Fallhaven. Watch out for pickpockets!"
@@ -39462,6 +39465,8 @@ msgstr "Bienvenido de nuevo."
 #: conversationlist_brimhaven.json:brv_fortune_back_10
 msgid "Welcome back. I see that you bring me interesting things that have fallen from the sky."
 msgstr ""
+"Bienvenido de vuelta. Veo que me traes cosas interesantes que han caído del "
+"cielo."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_10:1
 msgid "The pieces that I have found in the area of Mt. Galmore? Yes, I have them with me."
@@ -47611,7 +47616,7 @@ msgstr "*cough*, *cough* Que... *cough*. Vuelve a casa chico, rápido!. Este lug
 
 #: conversationlist_omi2.json:ortholion_gw_1:0
 msgid "Where can I find General Ortholion?"
-msgstr "¿Dónde puedo encontrar General Ortholion?"
+msgstr "¿Dónde puedo encontrar al General Ortholion?"
 
 #: conversationlist_omi2.json:ortholion_gw_1:1
 msgid "Gonna rest here first, sweet dreams."
@@ -50860,6 +50865,8 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_nanette_8
 msgid "I...I still don't know what's the cause of it. You should talk to Kealwea the priest about it. "
 msgstr ""
+"Yo… yo todavía no sé cuál es la causa. Deberías hablar con Kealwea, el "
+"sacerdote, al respecto. "
 
 #: conversationlist_sullengard.json:sullengard_nanette_8:0
 msgid "I'm going to visit him now."
@@ -52005,7 +52012,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:crossglen_valentina_andor_55
 msgid "Nor City?! What do you know about Nor City?"
-msgstr ""
+msgstr "Nor City?! ¿Qué sabes sobre Nor City?"
 
 #: conversationlist_sullengard.json:crossglen_valentina_andor_55:0
 msgid "Well, I know there is a lady named 'Lydalon' there."
@@ -52518,7 +52525,7 @@ msgstr ""
 
 #: conversationlist_sullengard.json:dunla_beer_10
 msgid "She did, did she? What do you want to know?"
-msgstr ""
+msgstr "¿Así que lo hizo? ¿Qué quieres saber?"
 
 #: conversationlist_sullengard.json:dunla_beer_10:0
 msgid "What is this 'business agreement' that the taven owners have?"
@@ -54888,7 +54895,7 @@ msgstr ""
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_900
 msgid "Sure - what do you want to know?"
-msgstr ""
+msgstr "Claro, ¿qué quieres saber?"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_900:0
 msgid "Why do you seem to know everything?"
@@ -58877,6 +58884,8 @@ msgstr ""
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_83:0
 msgid "Thank you for telling me your story. I want to stop this witch once and for all. Where can I find her?"
 msgstr ""
+"Gracias por contarme tu historia. Quiero detener a esta bruja de una vez por "
+"todas. ¿Dónde puedo encontrarla?"
 
 #: conversationlist_mt_galmore.json:fallhaven_outdoor_farmer_84
 msgid "Thank you! You can find her house just south of here. You can't miss it as it is covered in beautiful flowers."
@@ -61565,6 +61574,10 @@ msgid ""
 "\n"
 "[You take the oegyth crystal. It looks even duller.]"
 msgstr ""
+"Siempre fue testarudo. Deberías hablar con mi madre, Audela. No escuchaba a "
+"la mayoría de la gente, pero a ella sí. Adiós.\n"
+"\n"
+"[Tomas el cristal oegyth. Parece aún más apagado.]"
 
 #: conversationlist_laeroth.json:jerelin_chest_search_1
 msgid "This chest looks pretty old. Is it worth taking a look?"
@@ -65030,7 +65043,7 @@ msgstr ""
 
 #: conversationlist_feygard_1.json:village_philippa_fd_10:2
 msgid "Where can I find butter?"
-msgstr ""
+msgstr "¿Dónde puedo encontrar mantequilla?"
 
 #: conversationlist_feygard_1.json:village_philippa_fd_11
 msgid "Well, Brightport is known for its wondeful bakeries. I would start there. Of course, you could get some in Feygard too. But you need to seek out a baker."
@@ -66545,11 +66558,11 @@ msgstr ""
 
 #: conversationlist_lytwings.json:arensia_lytwing_1
 msgid "My sleep has been very restless lately."
-msgstr ""
+msgstr "Mi sueño ha sido muy inquieto últimamente."
 
 #: conversationlist_lytwings.json:arensia_lytwing_1:0
 msgid "Oh no, why are you not sleeping well?"
-msgstr ""
+msgstr "Oh no, ¿por qué no estás durmiendo bien?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_2
 msgid "I am being taunted by naughty lytwings at night. At least that is what Rigmor tells me. They play with my hair while I sleep, and tangle it into fairy-lock knots. Every morning I wake up tired, and I spend an hour brushing out the knots. I don't know what to do!"
@@ -66561,11 +66574,11 @@ msgstr ""
 
 #: conversationlist_lytwings.json:arensia_lytwing_2:0
 msgid "I am sorry to hear that, but I cannot help you right now."
-msgstr ""
+msgstr "Lamento oír eso, pero no puedo ayudarte ahora mismo."
 
 #: conversationlist_lytwings.json:arensia_lytwing_2:1
 msgid "That sounds awful, can I help in any way?"
-msgstr ""
+msgstr "Eso suena terrible, ¿puedo ayudar de alguna manera?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_3
 msgid "I understand. I guess I will just have to live with their mischief, and hope that I don't lose my hair, or my sanity!"
@@ -66574,6 +66587,8 @@ msgstr ""
 #: conversationlist_lytwings.json:arensia_lytwing_4
 msgid "You would be willing to help me? I would be so grateful if you could make them leave me alone."
 msgstr ""
+"¿De verdad estarías dispuesto a ayudarme? Te estaría muy agradecido si "
+"pudieras hacer que me dejen en paz."
 
 #: conversationlist_lytwings.json:arensia_lytwing_5
 msgid "Have you found them yet?"
@@ -66669,7 +66684,7 @@ msgstr ""
 
 #: conversationlist_lytwings.json:arensia_lytwing_11:1
 msgid "Where can I find apples and strawberries?"
-msgstr ""
+msgstr "¿Dónde puedo encontrar manzanas y fresas?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_12
 msgid "You can buy apples at the Fallhaven tavern. Not sure about strawberries though."
@@ -66797,7 +66812,7 @@ msgstr ""
 
 #: conversationlist_lytwings.json:arensia_lytwing_30:0
 msgid "Where can I find wild flowers?"
-msgstr ""
+msgstr "¿Dónde puedo encontrar flores silvestres?"
 
 #: conversationlist_lytwings.json:arensia_lytwing_30:1
 msgid "I found some wild flowers, I just need a few more."
@@ -66822,6 +66837,8 @@ msgstr ""
 #: conversationlist_lytwings.json:arensia_lytwing_33
 msgid "You should talk to Rigmor, as she knows more about the lytwings than I do. She lives here in Fallhaven, just go north past the tavern."
 msgstr ""
+"Deberías hablar con Rigmor, ya que ella sabe más sobre los lytwings que yo. "
+"Vive aquí en Fallhaven, solo ve hacia el norte pasando la taberna."
 
 #: conversationlist_lytwings.json:arensia_lytwing_33:0
 msgid "Okay."
@@ -66862,59 +66879,70 @@ msgstr ""
 
 #: conversationlist_lytwings.json:rigmor_lytwing_1
 msgid "I take it you spoke to Arensia?"
-msgstr ""
+msgstr "¿Así que hablaste con Arensia?"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_2
 msgid "What do you want to know?"
-msgstr ""
+msgstr "¿Qué quieres saber?"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_2:0
 msgid "What do you know about lytwings?"
-msgstr ""
+msgstr "¿Qué sabes sobre los lytwings?"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_2:1
 msgid "Where can I find lytwings?"
-msgstr ""
+msgstr "¿Dónde puedo encontrar los lytwings?"
 
 #: conversationlist_lytwings.json:rigmor_lytwing_2:2
 msgid "Thank you. I really need to go now."
-msgstr ""
+msgstr "Gracias. De verdad tengo que irme ahora."
 
 #: conversationlist_lytwings.json:rigmor_lytwing_3
 msgid "Lytwings are small magical beings that are also known as the guardians of the forest, and they are known to take revenge on us when we intrude on them, or on nature."
 msgstr ""
+"Los lytwings son pequeños seres mágicos que también son conocidos como los "
+"guardianes del bosque, y se sabe que se vengan de nosotros cuando los "
+"invadimos a ellos o a la naturaleza."
 
 #: conversationlist_lytwings.json:rigmor_lytwing_4
 msgid "They are also very mischievous, and love causing trouble. They probably eat too many fermented berries, if you ask me."
 msgstr ""
+"También son muy traviesos y les encanta causar problemas. Probablemente "
+"comen demasiadas bayas fermentadas, si me preguntas."
 
 #: conversationlist_lytwings.json:rigmor_lytwing_5
 msgid "Lytwings gather near fairy rings. I suggest that you look for large mushroom patches in the woodland surrounding Fallhaven."
 msgstr ""
+"Los lytwings se reúnen cerca de los círculos de hadas. Te sugiero que "
+"busques grandes parches de hongos en los bosques que rodean Fallhaven."
 
 #: conversationlist_lytwings.json:rigmor_lytwing_6
 msgid "The poor girl. She looks exhausted, and her hair is absolutely tousled. Will those lytwings never leave her alone?"
 msgstr ""
+"La pobre chica. Se ve exhausta y tiene el cabello completamente alborotado. ¿"
+"Es que esos lytwings nunca la dejarán en paz?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_1
 msgid "Hello there, stranger!"
-msgstr ""
+msgstr "¡Hola, forastero!"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_1:0
 msgid "Oh, hi. My name is $playername. Who are you?"
-msgstr ""
+msgstr "Oh, hola. Mi nombre es $playername. ¿Quién eres tú?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_2
 msgid "Well met, $playername. I won't tell you my name, it is forbidden for otherkinds to know our names."
 msgstr ""
+"Bien conocido, $playername. No te diré mi nombre; está prohibido que los de "
+"otras razas conozcan nuestros nombres."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_3
 msgid "Did you bring us a gift?"
-msgstr ""
+msgstr "¿Nos trajiste un regalo?"
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_3:0
 msgid "Yes, here are two red apples and two strawberries."
-msgstr ""
+msgstr "Sí, aquí tienes dos manzanas rojas y dos fresas."
 
 #: conversationlist_lytwings.json:lytwing_fallhaven_3:1
 msgid "I did not, sorry."
@@ -72165,7 +72193,7 @@ msgstr ""
 
 #: conversationlist_mt_galmore2.json:mg_eryndor_music_box_30:1
 msgid "\"Celdar\"? Where can I find her?"
-msgstr ""
+msgstr "\"Celdar\"? ¿Dónde puedo encontrarla?"
 
 #: conversationlist_mt_galmore2.json:mg_eryndor_music_box_40
 msgid ""
@@ -76301,11 +76329,12 @@ msgstr "Esta parece ser una copia perfecta de las Recetas fabulosas del libro de
 
 #: itemlist_gorwath.json:gorwath_letter
 msgid "Gorwath's letter"
-msgstr ""
+msgstr "La carta de Gorwath"
 
 #: itemlist_gorwath.json:gorwath_letter:description
 msgid "(The letter is sealed so that curious people like you cannot read it)"
 msgstr ""
+"(La carta está sellada para que personas curiosas como tú no puedan leerla)"
 
 #: itemlist_omi2.json:bwm17_vine
 msgid "Rolled up vine"
@@ -87926,10 +87955,13 @@ msgstr "Él me dio la carta."
 #: questlist_gorwath.json:postman:20
 msgid "I gave the letter to Arensia, who was visibly happy about it. Gorwath needs to hear that."
 msgstr ""
+"Le entregué la carta a Arensia, quien se mostró visiblemente feliz por ello. "
+"Gorwath necesita saberlo."
 
 #: questlist_gorwath.json:postman:30
 msgid "I told Gorwath that I gave the letter to Arensia. He's happy too."
 msgstr ""
+"Le dije a Gorwath que le entregué la carta a Arensia. Él también está feliz."
 
 #: questlist_omi2.json:Thieves04
 msgid "Another ruthless Crackshot"
@@ -89447,7 +89479,7 @@ msgstr ""
 
 #: questlist_lytwings.json:fallhaven_lytwings
 msgid "It's knot funny"
-msgstr ""
+msgstr "Esto no tiene gracia"
 
 #: questlist_lytwings.json:fallhaven_lytwings:1
 msgid "I met Arensia in Fallhaven. She is being taunted by lytwings while she slumbers. I agreed to help get rid of the mischevious creatures. I should talk to Rigmor to find out more, she lives north of the tavern."
