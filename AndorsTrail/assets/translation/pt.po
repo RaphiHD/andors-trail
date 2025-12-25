@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-12-16 09:19+0000\n"
-"Last-Translator: Alexander Meshcheryakov <alexander.s.m+git@gmail.com>\n"
+"PO-Revision-Date: 2025-12-27 00:00+0000\n"
+"Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.15.1-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -55131,11 +55131,11 @@ msgstr "Dá-me 1000 moedas por ela."
 #: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_10:2
 #: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_30:4
 msgid "Give me 50000 gold for it."
-msgstr ""
+msgstr "Dá-me 50000 moedas por isto."
 
 #: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_10:3
 msgid "No, I decided to keep it."
-msgstr ""
+msgstr "Não, decidi ficar com isto."
 
 #: conversationlist_ratdom.json:ratdom_rat_museum_sign_3e_check_12
 msgid "Look how nice it looks on the table over there."
@@ -55196,11 +55196,11 @@ msgstr "Que bela espada. É pena estar presa firmemente na parede."
 #: conversationlist_ratdom.json:ratdom_rat_sword_key_20
 #: conversationlist_ratdom.json:ratdom_rat_sword_key_22
 msgid "The sword is gone! There is just an illusion left."
-msgstr ""
+msgstr "A espada desapareceu! Só ficou uma ilusão."
 
 #: conversationlist_ratdom.json:ratdom_rat_sword_key_30
 msgid "King Rah's sword! Quick - say the words!"
-msgstr ""
+msgstr "A espada do Rei Rah! Rápido - diz as palavras!"
 
 #: conversationlist_ratdom.json:ratdom_rat_sword_key_30:0
 #: conversationlist_ratdom.json:ratdom_rat_sword_key_32:0
@@ -55209,11 +55209,11 @@ msgstr "Veni gladio fidelis?"
 
 #: conversationlist_ratdom.json:ratdom_rat_sword_key_32
 msgid "King Rah's sword! Now what again were the words to say?"
-msgstr ""
+msgstr "A espada do Rei Rah! Quais eram mesmo as palavras a dizer?"
 
 #: conversationlist_ratdom.json:ratdom_rat_sword_key_40
 msgid "Yes, yes! It moves ..."
-msgstr ""
+msgstr "Sim, sim! Move-se..."
 
 #: conversationlist_ratdom.json:ratdom_rat_sword_key_40:0
 msgid "Hey, who is this?"
@@ -55251,10 +55251,14 @@ msgid ""
 "Ring the bell for further advice.'\n"
 ""
 msgstr ""
+"Há uma nota anexada:\n"
+"\n"
+"'Museu fechado indefinidamente devido a vandalismo.\n"
+"Toque a campainha para mais conselhos. '\n"
 
 #: conversationlist_ratdom.json:ratdom_rat_warden_bell_10:0
 msgid "OK, they had their chance. Let's leave."
-msgstr ""
+msgstr "OK, eles tiveram a sua oportunidade. Vamos embora."
 
 #: conversationlist_ratdom.json:ratdom_rat_warden_bell_10:1
 msgid "Ring the bell."
@@ -55270,11 +55274,11 @@ msgstr "Não podes passar."
 
 #: conversationlist_ratdom.json:ratdom_rat_warden_exit
 msgid "Hey! You must not go there!"
-msgstr ""
+msgstr "Ei! Não deves ir lá!"
 
 #: conversationlist_ratdom.json:ratdom_skel_bone_10
 msgid "As soon as you stepped on the carpet, a loud voice boomed: STOP THE THIEF!"
-msgstr ""
+msgstr "Assim que pisaste no tapete, uma voz alta ecoou: PAREM O LADRÃO!"
 
 #: conversationlist_ratdom.json:ratdom_skel_bone_20
 msgid "Leave the carpet immediatly!"
@@ -55286,19 +55290,19 @@ msgstr "Ah, com certeza. Desculpe."
 
 #: conversationlist_ratdom.json:ratdom_skel_bone_20:1
 msgid "Sure. But I'll take this bone here with me."
-msgstr ""
+msgstr "Claro. Mas vou levar este osso comigo."
 
 #: conversationlist_ratdom.json:ratdom_skel_bone_30
 msgid "You picked the bone from its pedestal. Immediatly the music stopped. Uh oh ..."
-msgstr ""
+msgstr "Tiraste o osso do pedestal. Imediatamente a música parou. Uh oh ..."
 
 #: conversationlist_ratdom.json:ratdom_skel_lute_10
 msgid "Hey, why did you disturb our Bone Dance?"
-msgstr ""
+msgstr "Ei, porque perturbaste a nossa Dança dos Ossos?"
 
 #: conversationlist_ratdom.json:ratdom_skel_lute_20
 msgid "Hey, come and join the Bone Dance!"
-msgstr ""
+msgstr "Ei, vem e junta-te à Dança dos Ossos!"
 
 #: conversationlist_ratdom.json:ratdom_skel_horn_10
 msgid "Yeah?"
@@ -55318,27 +55322,28 @@ msgstr "O que se segue?"
 
 #: conversationlist_ratdom.json:ratdom_skel_cymb_20
 msgid "Come on Andor, let's have fun there!"
-msgstr ""
+msgstr "Vem Andor, vamos divertir-nos ali!"
 
 #: conversationlist_ratdom.json:ratdom_skel_cymb_20:0
 msgid "Oh, you know my brother?"
-msgstr ""
+msgstr "Ui, conheces o meu irmão?"
 
 #: conversationlist_ratdom.json:ratdom_skel_cymb_22
 msgid "... what? Eh, no. Just a song we heard once."
-msgstr ""
+msgstr "... o quê? Não. É só uma canção que ouvimos uma vez."
 
 #: conversationlist_ratdom.json:ratdom_skel_mage
 msgid "Do not disturb me. I have to concentrate, because I am providing the light."
 msgstr ""
+"Não me incomodes. Tenho de me concentrar, porque estou a fornecer a luz."
 
 #: conversationlist_ratdom.json:ratdom_skeleton_drop
 msgid "You stopped short under the stare of the skeleton leader."
-msgstr ""
+msgstr "Paraste de repente sob o olhar fixo do líder esqueleto."
 
 #: conversationlist_ratdom.json:ratdom_troll_door1_1
 msgid "Do you really want to open this ominous looking massive door? It looks dangerous."
-msgstr ""
+msgstr "Queres mesmo abrir esta porta enorme? Parece perigoso."
 
 #: conversationlist_ratdom.json:ratdom_troll_door1_1:0
 msgid "Mmh, maybe not."
@@ -55346,11 +55351,11 @@ msgstr "Mmm, talvez não."
 
 #: conversationlist_ratdom.json:ratdom_troll_door1_1:1
 msgid "Sure. No risk no fun!"
-msgstr ""
+msgstr "Claro. Não há diversão sem risco!"
 
 #: conversationlist_ratdom.json:ratdom_troll_door1_2
 msgid "This ominous looking massive door looks dangerous."
-msgstr ""
+msgstr "Esta porta enorme de aspecto imponente parece perigosa."
 
 #: conversationlist_ratdom.json:ratdom_troll_door1_2:0
 msgid "Mmh, better leave it alone."
