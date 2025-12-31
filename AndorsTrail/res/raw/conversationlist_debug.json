@@ -4,6 +4,7 @@
         "message": "Where do you want to travel?",
         "replies": [{ "text": "Project Undertell", 	"nextPhraseID": "dbg_teleport_prj_undertell" },
 					{ "text": "Project Brightport",	"nextPhraseID": "dbg_teleport_prj_brightport2" },
+					{ "text": "Burhczyd taverns", 	"nextPhraseID": "dbg_teleport_prj_burhczyd" },
 					{ "text": "More Projects",		"nextPhraseID": "dbg_teleport_prj" },
 					{ "text": "Crossglen", 			"nextPhraseID": "dbg_teleport_crossglen" },
 					{ "text": "Fallhaven", 			"nextPhraseID": "dbg_teleport_fallhaven" },
@@ -24,19 +25,19 @@
     {
         "id": "dbg_teleport_loc",
         "message": "Other locations",
-        "replies": [{ "text": "Brightport", 		"nextPhraseID": "dbg_teleport_brightport" },
-					{ "text": "Guynmart", 			"nextPhraseID": "dbg_teleport_guynmart" },
-					{ "text": "Brimhaven", 			"nextPhraseID": "dbg_teleport_brimhaven" },
-					{ "text": "Arulir Mountain", 	"nextPhraseID": "dbg_teleport_arulir" },
-					{ "text": "Wood settlement", 	"nextPhraseID": "dbg_teleport_woodsettlement" },
-					{ "text": "Sullengard", 		"nextPhraseID": "dbg_teleport_sullengard" },
-					{ "text": "Mt. Galmore", 		"nextPhraseID": "dbg_teleport_galmore" },
-					{ "text": "Deebo's Apple Orchard", "nextPhraseID": "dbg_teleport_applefarm" },
-					{ "text": "Witch house", 		"nextPhraseID": "dbg_teleport_witchhouse" },
-					{ "text": "Lake Laeroth - Manor", "nextPhraseID": "dbg_teleport_laerot1" },
+        "replies": [{ "text": "Brightport", 			"nextPhraseID": "dbg_teleport_brightport" },
+					{ "text": "Guynmart", 				"nextPhraseID": "dbg_teleport_guynmart" },
+					{ "text": "Brimhaven", 				"nextPhraseID": "dbg_teleport_brimhaven" },
+					{ "text": "Arulir Mountain", 		"nextPhraseID": "dbg_teleport_arulir" },
+					{ "text": "Wood settlement", 		"nextPhraseID": "dbg_teleport_woodsettlement" },
+					{ "text": "Sullengard", 			"nextPhraseID": "dbg_teleport_sullengard" },
+					{ "text": "Mt. Galmore", 			"nextPhraseID": "dbg_teleport_galmore" },
+					{ "text": "Deebo's Apple Orchard", 	"nextPhraseID": "dbg_teleport_applefarm" },
+					{ "text": "Witch house", 			"nextPhraseID": "dbg_teleport_witchhouse" },
+					{ "text": "Lake Laeroth - Manor", 	"nextPhraseID": "dbg_teleport_laerot1" },
 					{ "text": "Lake Laeroth - Not Pony Island", "nextPhraseID": "dbg_teleport_laerot2" },
-					{ "text": "Wexlow Village", 	"nextPhraseID": "dbg_teleport_wexlow" },
-					{ "text": "Back", 				"nextPhraseID": "dbg_teleport" }]
+					{ "text": "Wexlow Village", 		"nextPhraseID": "dbg_teleport_wexlow" },
+					{ "text": "Back", 					"nextPhraseID": "dbg_teleport" }]
     },
     {
         "id":"dbg_teleport_crossglen", 
@@ -143,7 +144,101 @@
         "message": "Other projects",
         "replies": [{ "text": "Project Way to Feygard", 	"nextPhraseID": "dbg_teleport_prj_feygard_3" },
 					{ "text": "Project Way to Nor City", 	"nextPhraseID": "dbg_teleport_prj_nor_city" },
-					{ "text": "Back", 				"nextPhraseID": "dbg_teleport" }]
+                    { "text": "Burhczyd taverns",           "nextPhraseID": "dbg_teleport_prj_burhczyd" },
+					{ "text": "Back", 				        "nextPhraseID": "dbg_teleport" }]
+    },
+    {
+        "id": "dbg_teleport_prj_burhczyd",
+        "message": "***  The voyage of Burhczyd  ***",
+        "replies": [{ "text": " 1: Crossglen", 				"nextPhraseID": "dbg_teleport_burhczyd_1" },
+					{ "text": " 2: Fallhaven", 				"nextPhraseID": "dbg_teleport_burhczyd_2" },
+					{ "text": " 3: Loneford", 				"nextPhraseID": "dbg_teleport_burhczyd_3" },
+					{ "text": " 4: Vilegard", 				"nextPhraseID": "dbg_teleport_burhczyd_4" },
+					{ "text": " 5: Stoutford", 				"nextPhraseID": "dbg_teleport_burhczyd_5" },
+					{ "text": " 6: BWM",	 				"nextPhraseID": "dbg_teleport_burhczyd_6" },
+					{ "text": " 7: Remgard", 				"nextPhraseID": "dbg_teleport_burhczyd_7" },
+					{ "text": " 8: Wood settlement",		"nextPhraseID": "dbg_teleport_burhczyd_8" },
+					{ "text": " 9: Prim", 					"nextPhraseID": "dbg_teleport_burhczyd_9" },
+					{ "text": "10: Brimhaven", 				"nextPhraseID": "dbg_teleport_burhczyd_10" },
+					{ "text": "11: Sullengard", 			"nextPhraseID": "dbg_teleport_burhczyd_11" },
+					{ "text": "12: Cross road",				"nextPhraseID": "dbg_teleport_burhczyd_12" },
+					{ "text": "13: -", 				"nextPhraseID": "dbg_teleport_burhczyd_13" },
+					{ "text": "14: -", 				"nextPhraseID": "dbg_teleport_burhczyd_14" },
+					{ "text": "15: -", 				"nextPhraseID": "dbg_teleport_burhczyd_15" },
+					{ "text": "16: -", 				"nextPhraseID": "dbg_teleport_burhczyd_16" },
+					{ "text": "17: -", 				"nextPhraseID": "dbg_teleport_burhczyd_17" },
+					{ "text": "18: -", 				"nextPhraseID": "dbg_teleport_burhczyd_18" },
+					{ "text": "19: -", 				"nextPhraseID": "dbg_teleport_burhczyd_19" },
+					{ "text": "20: -", 				"nextPhraseID": "dbg_teleport_burhczyd_20" },
+					{ "text": "21: -", 				"nextPhraseID": "dbg_teleport_burhczyd_21" },
+					{ "text": "22: -", 				"nextPhraseID": "dbg_teleport_burhczyd_22" },
+					{ "text": "Back", 						"nextPhraseID": "dbg_teleport" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_1",	"rewards":[{ "rewardType":"mapchange", "rewardID":"hall", "mapName":"crossglen" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_2",	"rewards":[{ "rewardType":"mapchange", "rewardID":"tavern", "mapName":"fallhaven_nw" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_3",	"rewards":[{ "rewardType":"mapchange", "rewardID":"lonefordhouse4", "mapName":"loneford2" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_4",	"rewards":[{ "rewardType":"mapchange", "rewardID":"tavern", "mapName":"vilegard_s" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_5",	"rewards":[{ "rewardType":"mapchange", "rewardID":"tavern", "mapName":"stoutford_se" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_6",	"rewards":[{ "rewardType":"mapchange", "rewardID":"south", "mapName":"blackwater_mountain38" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_7",	"rewards":[{ "rewardType":"mapchange", "rewardID":"remgard_tavern", "mapName":"remgard1" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_8",	"rewards":[{ "rewardType":"mapchange", "rewardID":"woodhouse2", "mapName":"woodsettlement0" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_9",	"rewards":[{ "rewardType":"mapchange", "rewardID":"house2", "mapName":"blackwater_mountain11" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_10",	"rewards":[{ "rewardType":"mapchange", "rewardID":"tavern", "mapName":"brimhaven3" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_11",	"rewards":[{ "rewardType":"mapchange", "rewardID":"sullengard_tavern_outside", "mapName":"sullengard2" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_12",	"rewards":[{ "rewardType":"mapchange", "rewardID":"middle", "mapName":"crossroads" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_13",	"rewards":[{ "rewardType":"mapchange", "rewardID":"hall", "mapName":"crossglen" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_14",	"rewards":[{ "rewardType":"mapchange", "rewardID":"hall", "mapName":"crossglen" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_15",	"rewards":[{ "rewardType":"mapchange", "rewardID":"hall", "mapName":"crossglen" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_16",	"rewards":[{ "rewardType":"mapchange", "rewardID":"hall", "mapName":"crossglen" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_17",	"rewards":[{ "rewardType":"mapchange", "rewardID":"hall", "mapName":"crossglen" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_18",	"rewards":[{ "rewardType":"mapchange", "rewardID":"hall", "mapName":"crossglen" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_19",	"rewards":[{ "rewardType":"mapchange", "rewardID":"hall", "mapName":"crossglen" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_20",	"rewards":[{ "rewardType":"mapchange", "rewardID":"hall", "mapName":"crossglen" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_21",	"rewards":[{ "rewardType":"mapchange", "rewardID":"hall", "mapName":"crossglen" }]
+    },
+    {
+        "id":"dbg_teleport_burhczyd_22",	"rewards":[{ "rewardType":"mapchange", "rewardID":"hall", "mapName":"crossglen" }]
     },
     {
         "id": "dbg_teleport_prj_nor_city",
