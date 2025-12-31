@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-12-01 19:00+0000\n"
-"Last-Translator: Patryck Cardozo <patryckvalentim@gmail.com>\n"
+"PO-Revision-Date: 2026-01-01 01:01+0000\n"
+"Last-Translator: ArthurJGA <arthurjesusga@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -494,7 +494,7 @@ msgstr "Sonolência das Sombras"
 
 #: actorconditions_mt_galmore2.json:petristill
 msgid "Petristill"
-msgstr ""
+msgstr "Peristilo"
 
 #: actorconditions_mt_galmore2.json:petristill:description
 msgid "A creeping layer of stone overtakes the infliced's form, dulling its reflexes but hardening its body against harm."
@@ -10427,7 +10427,7 @@ msgstr ""
 
 #: conversationlist_prim_merchants.json:prim_treasure_door_10
 msgid "Cling!"
-msgstr ""
+msgstr "Segura!"
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_10
 msgid "He said so? [His piercing gaze unsettles you.]"
@@ -10443,19 +10443,21 @@ msgstr "Boa tentativa, garoto. Agora vá brincar."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_20:1
 msgid "Play? I'm going to play - with you!"
-msgstr ""
+msgstr "Brincar? Eu vou brincar - com você!"
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2
 msgid "Well, well, well."
-msgstr ""
+msgstr "Ora, ora, ora."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2:0
 msgid "Eh, you look bigger than before. And stronger."
-msgstr ""
+msgstr "Heh, você parece maior que antes. E mais forte."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_10
 msgid "It's a good thing I noticed my colleague has left his post. He was pretty weak anyway."
 msgstr ""
+"Bom que eu percebi meu parceiro saindo de seu posto. Mas de qualquer forma, "
+"ele era um fracote."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2_10:0
 msgid "Listen, we could avoid some trouble. I'll give you 200 gold pieces if you let me pass."
@@ -39461,7 +39463,7 @@ msgstr "Ah... Eu sei muitas coisas. Até quando ainda tenho que provar isso?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_12:0
 msgid "Well, OK. What about my fallen stones collection?"
-msgstr ""
+msgstr "Bom. Mas e a minha coleção de pedras caídas?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_20
 msgid "You can't do anything useful with them. Give them to me and I'll give you a kingly reward."
@@ -39480,6 +39482,8 @@ msgstr "Sério? O que você pode oferecer?"
 #: conversationlist_brimhaven.json:brv_fortune_back_30
 msgid "Thank you. Very wise of you. Indeed. Let - your - wisdom - grow ..."
 msgstr ""
+"Obrigado. Muito sábio de você. Realmente. Deixe - sua - sabedoria - crescer "
+"..."
 
 #: conversationlist_brimhaven.json:brv_fortune_back_30:0
 msgid "I already feel it."
@@ -39493,15 +39497,15 @@ msgstr ""
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52
 msgid "Which one do you want to learn more about?"
-msgstr ""
+msgstr "De qual você quer aprender mais sobre?"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:0
 msgid "Gem of star precision"
-msgstr ""
+msgstr "Precisão de Gema estelar"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:1
 msgid "Wanderer's Vitality"
-msgstr ""
+msgstr "Vitalidade do andarilho"
 
 #: conversationlist_brimhaven.json:brv_fortune_back_52:2
 msgid "Mountainroot gold nugget"
