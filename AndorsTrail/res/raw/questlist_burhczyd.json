@@ -119,7 +119,7 @@
     {
         "id":"quest_burhczyd_nd",
         "name":"Young merchant Non-displayed",
-        "showInLog":0,
+        "showInLog":1,
         "stages":[
             { "progress":60, "logText":"60=listened to merchant completely" },
             { "progress":61, "logText":"61=talked to merchant Crossglen" },

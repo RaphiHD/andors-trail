@@ -890,7 +890,7 @@
 					{ "nextPhraseID":"burhczydx_2e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":20 }] },
 					{ "nextPhraseID":"burhczydx_1e", "requires":[ { "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":10 }] }]
     },
-    {
+	{
         "id":"burhczydx_xa",
         "replies":[ { "nextPhraseID":"burhczyd1_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":71 }] },
 					{ "nextPhraseID":"burhczyd2_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":72 }] },
@@ -913,7 +913,8 @@
 					{ "nextPhraseID":"burhczyd19_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":719 }] },
 					{ "nextPhraseID":"burhczyd20_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":720 }] },
 					{ "nextPhraseID":"burhczyd21_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":721 }] },
-					{ "nextPhraseID":"burhczyd22_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":722 }] }],
+					{ "nextPhraseID":"burhczyd22_10", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":722 }] },
+					{ "nextPhraseID":"burhczydx_xb" }],
         "rewards":[
             {
                 "rewardType":"alignmentChange",
@@ -922,50 +923,44 @@
             }
         ]
     },
-    { 	"id":"burhczyd1_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":61 } ]
+    { 	"id":"burhczyd1_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":61 }] },
+    { 	"id":"burhczyd2_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":62 }] },
+    {	"id":"burhczyd3_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":63 }] },
+    {	"id":"burhczyd4_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":64 }] },
+    {	"id":"burhczyd5_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":65 }] },
+    {	"id":"burhczyd6_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":66 }] },
+    {	"id":"burhczyd7_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":67 }] },
+    {	"id":"burhczyd8_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":68 }] },
+    {	"id":"burhczyd9_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":69 }] },
+    {	"id":"burhczyd10_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":610 }] },
+    {	"id":"burhczyd11_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":611 }] },
+    {	"id":"burhczyd12_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":612 }] },
+    {	"id":"burhczyd13_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":613 }] },
+    {	"id":"burhczyd14_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":614 }] },
+    {	"id":"burhczyd15_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":615 }] },
+    {	"id":"burhczyd16_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":616 }] },
+    {	"id":"burhczyd17_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":617 }] },
+    {	"id":"burhczyd18_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":618 }] },
+    {	"id":"burhczyd19_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":619 }] },
+    {	"id":"burhczyd20_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":620 }] },
+    {	"id":"burhczyd21_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":621 }] },
+    {	"id":"burhczyd22_10", "replies":[{ "nextPhraseID":"burhczydx_xb" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":622 }] },
+    {
+        "id":"burhczydx_xb",
+        "replies":[ { "nextPhraseID":"burhczydx_xb_1", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":91, "negate":true },
+																	{ "requireType":"questProgress", "requireID":"quest_burhczyd", "value":20 },
+																	{ "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90, "negate":true }] },
+					{ "nextPhraseID":"burhczydx_xb_7", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":97, "negate":true },
+																	{ "requireType":"questProgress", "requireID":"quest_burhczyd", "value":50 },
+																	{ "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90, "negate":true }] },
+					{ "nextPhraseID":"burhczydx_xb_12", "requires":[{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":912, "negate":true },
+																	{ "requireType":"questProgress", "requireID":"quest_burhczyd", "value":40 },
+																	{ "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90, "negate":true }] },
+					{ "nextPhraseID":"burhczydx_xb_100" }]
     },
-    { 	"id":"burhczyd2_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":62 } ]
-    },
-    {	"id":"burhczyd3_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":63 } ]
-    },
-    {	"id":"burhczyd4_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":64 } ]
-    },
-    {	"id":"burhczyd5_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":65 } ]
-    },
-    {	"id":"burhczyd6_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":66 } ]
-    },
-    {	"id":"burhczyd7_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":67 } ]
-    },
-    {	"id":"burhczyd8_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":68 } ]
-    },
-    {	"id":"burhczyd9_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":69 } ]
-    },
-    {	"id":"burhczyd10_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":610 } ]
-    },
-    {	"id":"burhczyd11_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":611 } ]
-    },
-    {	"id":"burhczyd12_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":612 } ]
-    },
-    {	"id":"burhczyd13_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":613 } ]
-    },
-    {	"id":"burhczyd14_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":614 } ]
-    },
-    {	"id":"burhczyd15_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":615 } ]
-    },
-    {	"id":"burhczyd16_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":616 } ]
-    },
-    {	"id":"burhczyd17_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":617 } ]
-    },
-    {	"id":"burhczyd18_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":618 } ]
-    },
-    {	"id":"burhczyd19_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":619 } ]
-    },
-    {	"id":"burhczyd20_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":620 } ]
-    },
-    {	"id":"burhczyd21_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":621 } ]
-    },
-    {	"id":"burhczyd22_10", "rewards":[ { "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":622 } ]
-    },
+    { 	"id":"burhczydx_xb_1",  "rewards":[{ "rewardType":"spawnAll", "rewardID":"burhczyd1",  "mapName":"crossglen_hall" }] },
+    { 	"id":"burhczydx_xb_7",  "rewards":[{ "rewardType":"spawnAll", "rewardID":"burhczyd7",  "mapName":"remgard_tavern0" }] },
+    { 	"id":"burhczydx_xb_12", "rewards":[{ "rewardType":"spawnAll", "rewardID":"burhczyd12", "mapName":"houseatcrossroads0" }] },
     {
         "id":"burhczydx_1a",
         "message":"Hi, who are you? I have never seen you here.",
@@ -1131,11 +1126,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"quest_burhczyd",
                 "value":20
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd1",
-                "mapName":"crossglen_hall"
             }
         ]
     },
@@ -1411,11 +1401,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"quest_burhczyd",
                 "value":40
-            },
-            {
-                "rewardType":"spawnAll",
-                "rewardID":"burhczyd7",
-                "mapName":"remgard_tavern0"
             }
         ]
     },
@@ -2826,18 +2811,110 @@
     },
     {
         "id":"burhczydx_12a",
-        "message":"...todo... Dialogue",
+        "message":"Oh, it's you, $playername.",
         "replies":[
             {
-                "text":"...todo... Answer",
+                "text":"Hey, Burhczyd, nice to meet you again. What's new?",
+                "nextPhraseID":"burhczydx_12a_2"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_12a_2",
+        "message":"I’ve learned something important.",
+        "replies":[
+            {
+                "text":"About trade? Or life?",
+                "nextPhraseID":"burhczydx_12a_3"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_12a_3",
+        "message":"No. About mugs. They’re always empty when you need them most.",
+        "replies":[
+            {
+                "text":"Oh, what's wrong with you?",
+                "nextPhraseID":"burhczydx_12a_4"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_12a_4",
+        "message":"She is marrying a baker.",
+        "replies":[
+            {
+                "text":"Who are you talking about?",
+                "nextPhraseID":"burhczydx_12a_5"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_12a_5",
+        "message":"Who am I talking about? WHO AM I TALKING ABOUT??",
+        "replies":[
+            {
+                "text":"Eh ... Oh. Your love. I see.",
+                "nextPhraseID":"burhczydx_12a_6"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_12a_6",
+        "message":"Of all the options she has, she chooses a baker. Why? Why?",
+        "replies":[
+            {
+                "text":"Hm, a baker can bake bridecake.",
+                "nextPhraseID":"burhczydx_12a_7"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_12a_7",
+        "message":"I could have shown her the world...",
+        "replies":[
+            {
+                "text":"She preferred the warm room.",
+                "nextPhraseID":"burhczydx_12a_8"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_12a_8",
+        "message":"Free as a bird...",
+        "replies":[
+            {
+                "text":"Instead, fresh bread rolls every day.",
                 "nextPhraseID":"burhczydx_12a_9"
             }
         ]
     },
     {
         "id":"burhczydx_12a_9",
+        "message":"Deep conversations.",
         "replies":[
             {
+                "text":"Uh – with you?",
+                "nextPhraseID":"burhczydx_12a_10"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_12a_10",
+        "message":"But I'll show them. I've already bought my own oven. It will be installed next week.",
+        "replies":[
+            {
+                "text":"In which house?",
+                "nextPhraseID":"burhczydx_12a_11"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_12a_11",
+        "message":"I need a house?",
+        "replies":[
+            {
+                "text":"[Muttering to yourself] Two things are infinite: the sky and Burchzyd's stupidity, but I'm not entirely sure about the sky.",
                 "nextPhraseID":"burhczydx_xa"
             }
         ],
@@ -2851,7 +2928,7 @@
     },
     {
         "id":"burhczydx_12e",
-        "message":"As soon as ...todo..., I will go."
+        "message":"Look, my mug is still empty. Sigh."
     },
     {
         "id":"burhczydx_13a",
@@ -3233,7 +3310,7 @@
         "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":96 }] }, 
 					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":66 }] },
 					{ "nextPhraseID":"burhczyd_check6_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
-					{ "nextPhraseID":"burhczyd_check6_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] } ]
+					{ "nextPhraseID":"burhczyd_check6_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check6_b",
@@ -3339,13 +3416,13 @@
     },
     {
         "id":"burhczyd_check12_b",
-        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd12", "mapName":"crossglen_hall" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd12e", "mapName":"crossglen_hall" }]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd12", "mapName":"houseatcrossroads0" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd12e", "mapName":"houseatcrossroads0" }]
     },
     {
         "id":"burhczyd_check12_e",
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd12", "mapName":"crossglen_hall" },
-					{ "rewardType":"spawnAll", "rewardID":"burhczyd12e", "mapName":"crossglen_hall" }]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd12", "mapName":"houseatcrossroads0" },
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd12e", "mapName":"houseatcrossroads0" }]
     },
     {
         "id":"burhczyd_check13",

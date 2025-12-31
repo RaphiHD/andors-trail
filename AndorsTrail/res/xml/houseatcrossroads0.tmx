@@ -237,6 +237,17 @@
     <property name="spawngroup" value="dds_miri"/>
    </properties>
   </object>
- </objectgroup>
+  <object name="Burhczyd12" type="spawn" x="128" y="256" width="160" height="32">
+   <properties>
+    <property name="active" value="false"/>
+	<property name="quantity" value="1"/>
+   </properties>
+  </object>
+  <object name="Burhczyd12e" type="spawn" x="128" y="256" width="160" height="32">
+   <properties>
+    <property name="active" value="false"/>
+	<property name="quantity" value="1"/>
+   </properties>
+  </object> </objectgroup>
  <objectgroup id="7" name="Keys"/>
 </map>
