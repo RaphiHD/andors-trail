@@ -771,8 +771,8 @@
     {
         "id":"burhczydx_10_14",
         "replies":[ { "nextPhraseID":"burhczydx_50" } ],
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd14",  "mapName":"crossglen_hall" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd14e", "mapName":"crossglen_hall" },
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd14",  "mapName":"brightport_bakery" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd14e", "mapName":"brightport_bakery" },
 					{ "rewardType":"removeQuestProgress", 	"rewardID":"quest_burhczyd_nd", "value":614 },
 					{ "rewardType":"questProgress", 		"rewardID":"quest_burhczyd_nd", "value":914 }]
     },
@@ -960,7 +960,7 @@
     },
     { 	
 		"id":"burhczydx_xb_1b", 
-		"nextPhraseID":"burhczydx_xb_7", 
+		"replies":[	{ "nextPhraseID":"burhczydx_xb_7" }], 
 		"rewards":[	{ "rewardType":"spawnAll", 
 					  "rewardID":"burhczyd1", 
 					  "mapName":"crossglen_hall" }] 
@@ -974,7 +974,7 @@
     },
     { 	
 		"id":"burhczydx_xb_7b", 
-		"nextPhraseID":"burhczydx_xb_12", 
+		"replies":[	{ "nextPhraseID":"burhczydx_xb_12" }],
 		"rewards":[	{ "rewardType":"spawnAll", 
 					  "rewardID":"burhczyd7", 
 					  "mapName":"remgard_tavern0" }] 
@@ -988,7 +988,7 @@
     },
     { 	
 		"id":"burhczydx_xb_12b", 
-		"nextPhraseID":"burhczydx_xb_13", 
+		"replies":[	{ "nextPhraseID":"burhczydx_xb_13" }], 
 		"rewards":[	{ "rewardType":"spawnAll", 
 					  "rewardID":"burhczyd12", 
 					  "mapName":"houseatcrossroads0" }] 
@@ -998,14 +998,28 @@
 		"replies":[	{ "nextPhraseID":"burhczydx_xb_13b", 
 					  "requires":[{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":913, "negate":true },
 								  { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":40 }] }, 
-					{ "nextPhraseID":"burhczydx_xb_99"}]
+					{ "nextPhraseID":"burhczydx_xb_14"}]
     },
     { 	
 		"id":"burhczydx_xb_13b", 
-		"nextPhraseID":"burhczydx_xb_99", 
+		"replies":[	{ "nextPhraseID":"burhczydx_xb_14" }], 
 		"rewards":[	{ "rewardType":"spawnAll", 
-					  "rewardID":"burhczyd12", 
+					  "rewardID":"burhczyd13", 
 					  "mapName":"foaming_flask" }] 
+	},
+    {
+        "id":"burhczydx_xb_14", 
+		"replies":[	{ "nextPhraseID":"burhczydx_xb_14b", 
+					  "requires":[{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":914, "negate":true },
+								  { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":40 }] }, 
+					{ "nextPhraseID":"burhczydx_xb_99"}]
+    },
+    { 	
+		"id":"burhczydx_xb_14b", 
+		"replies":[	{ "nextPhraseID":"burhczydx_xb_99" }], 
+		"rewards":[	{ "rewardType":"spawnAll", 
+					  "rewardID":"burhczyd14", 
+					  "mapName":"brightport_bakery" }] 
 	},
     { 	
 		"id":"burhczydx_xb_99"
@@ -2964,6 +2978,14 @@
         "replies":[
             {
                 "text":"[Muttering to yourself] Two things are infinite: the sky and Burhczyd's stupidity, but I'm not entirely sure about the sky.",
+                "nextPhraseID":"burhczydx_12a_90"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_12a_90",
+        "replies":[
+            {
                 "nextPhraseID":"burhczydx_xa"
             }
         ],
@@ -3091,7 +3113,7 @@
     },
     {
         "id":"burhczydx_13a_12",
-        "message":"And if she still chooses him ...",
+        "message":"If she still chooses him ...",
         "replies":[
             {
                 "text":"Yes, what then?",
@@ -3115,6 +3137,14 @@
         "replies":[
             {
                 "text":"I wish you luck. Much luck. You will need it.",
+                "nextPhraseID":"burhczydx_13a_90"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_13a_90",
+        "replies":[
+            {
                 "nextPhraseID":"burhczydx_xa"
             }
         ],
@@ -3284,7 +3314,7 @@
         "message":"That fasting is easier when one has never eaten well.",
         "replies":[
             {
-                "text":"",
+                "text":"N",
                 "nextPhraseID":"burhczydx_14a_12"
             }
         ]
@@ -3321,7 +3351,7 @@
     },
     {
         "id":"burhczydx_14a_15",
-        "message":"",
+        "message":"Ahh, that's good.",
         "replies":[
             {
                 "text":"N",
@@ -3364,7 +3394,7 @@
         "message":"[Low voice] The holy life is not for everyone.",
         "replies":[
             {
-                "text":"And for you?",
+                "text":"Is it for you?",
                 "nextPhraseID":"burhczydx_14a_20"
             }
         ]
@@ -3375,6 +3405,14 @@
         "replies":[
             {
                 "text":"Maybe in another tavern.",
+                "nextPhraseID":"burhczydx_14a_90"
+            }
+        ]
+    },
+    {
+        "id":"burhczydx_14a_90",
+        "replies":[
+            {
                 "nextPhraseID":"burhczydx_xa"
             }
         ],
@@ -3631,6 +3669,9 @@
         "replies":[ { "nextPhraseID":"burhczyd_check1_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":91, "negate":true },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":51, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check1_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":71 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":51, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check1_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":51 }] },
 					{ "nextPhraseID":"burhczyd_check1_a" }]
     },
@@ -3658,6 +3699,9 @@
         "id":"burhczyd_check2",
         "replies":[ { "nextPhraseID":"burhczyd_check2_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":92, "negate":true },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":52, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check2_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":72 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":52, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check2_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":52 }] },
 					{ "nextPhraseID":"burhczyd_check2_a" }]
@@ -3687,6 +3731,9 @@
         "replies":[ { "nextPhraseID":"burhczyd_check3_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":93, "negate":true },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":53, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check3_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":73 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":53, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check3_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":53 }] },
 					{ "nextPhraseID":"burhczyd_check3_a" }]
     },
@@ -3714,6 +3761,9 @@
         "id":"burhczyd_check4",
         "replies":[ { "nextPhraseID":"burhczyd_check4_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":94, "negate":true },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":54, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check4_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":74 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":54, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check4_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":54 }] },
 					{ "nextPhraseID":"burhczyd_check4_a" }]
@@ -3743,6 +3793,9 @@
         "replies":[ { "nextPhraseID":"burhczyd_check5_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":95, "negate":true },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":55, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check5_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":75 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":55, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check5_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":55 }] },
 					{ "nextPhraseID":"burhczyd_check5_a" }]
     },
@@ -3770,6 +3823,9 @@
         "id":"burhczyd_check6",
         "replies":[ { "nextPhraseID":"burhczyd_check6_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":96, "negate":true },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":56, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check6_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":76 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":56, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check6_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":56 }] },
 					{ "nextPhraseID":"burhczyd_check6_a" }]
@@ -3799,6 +3855,9 @@
         "replies":[ { "nextPhraseID":"burhczyd_check7_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":97, "negate":true },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":57, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check7_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":77 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":57, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check7_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":57 }] },
 					{ "nextPhraseID":"burhczyd_check7_a" }]
     },
@@ -3826,6 +3885,9 @@
         "id":"burhczyd_check8",
         "replies":[ { "nextPhraseID":"burhczyd_check8_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":98, "negate":true },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":58, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check8_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":78 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":58, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check8_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":58 }] },
 					{ "nextPhraseID":"burhczyd_check8_a" }]
@@ -3855,6 +3917,9 @@
         "replies":[ { "nextPhraseID":"burhczyd_check9_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":99, "negate":true },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":59, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check9_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":79 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":59, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check9_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":59 }] },
 					{ "nextPhraseID":"burhczyd_check9_a" }]
     },
@@ -3882,6 +3947,9 @@
         "id":"burhczyd_check10",
         "replies":[ { "nextPhraseID":"burhczyd_check10_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":910, "negate":true },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":510, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check10_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":710 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":510, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check10_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":510 }] },
 					{ "nextPhraseID":"burhczyd_check10_a" }]
@@ -3911,6 +3979,9 @@
         "replies":[ { "nextPhraseID":"burhczyd_check11_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":911, "negate":true },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":511, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check11_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":711 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":511, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check11_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":511 }] },
 					{ "nextPhraseID":"burhczyd_check11_a" }]
     },
@@ -3938,6 +4009,9 @@
         "id":"burhczyd_check12",
         "replies":[ { "nextPhraseID":"burhczyd_check12_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":912, "negate":true },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":512, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check12_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":712 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":512, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check12_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":512 }] },
 					{ "nextPhraseID":"burhczyd_check12_a" }]
@@ -3967,6 +4041,9 @@
         "replies":[ { "nextPhraseID":"burhczyd_check13_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":913, "negate":true },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":513, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check13_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":713 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":513, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check13_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":513 }] },
 					{ "nextPhraseID":"burhczyd_check13_a" }]
     },
@@ -3995,6 +4072,9 @@
         "replies":[ { "nextPhraseID":"burhczyd_check14_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":914, "negate":true },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":514, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check14_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":714 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":514, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check14_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":514 }] },
 					{ "nextPhraseID":"burhczyd_check14_a" }]
     },
@@ -4010,18 +4090,21 @@
     },
     {
         "id":"burhczyd_check14_b",
-        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd14", "mapName":"crossglen_hall" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd14e", "mapName":"crossglen_hall" }]
+        "rewards":[ { "rewardType":"spawnAll", "rewardID":"burhczyd14", "mapName":"brightport_bakery" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd14e", "mapName":"brightport_bakery" }]
     },
     {
         "id":"burhczyd_check14_e",
-        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd14", "mapName":"crossglen_hall" },
-					{ "rewardType":"spawnAll", "rewardID":"burhczyd14e", "mapName":"crossglen_hall" }]
+        "rewards":[ { "rewardType":"removeSpawnArea", "rewardID":"burhczyd14", "mapName":"brightport_bakery" },
+					{ "rewardType":"spawnAll", "rewardID":"burhczyd14e", "mapName":"brightport_bakery" }]
     },
     {
         "id":"burhczyd_check15",
         "replies":[ { "nextPhraseID":"burhczyd_check15_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":915, "negate":true },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":515, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check15_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":715 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":515, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check15_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":515 }] },
 					{ "nextPhraseID":"burhczyd_check15_a" }]
@@ -4047,22 +4130,25 @@
 					{ "rewardType":"spawnAll", "rewardID":"burhczyd15e", "mapName":"crossglen_hall" }]
     },
     {
-        "id":"burhczyd_check16_a",
-        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":916 }] },
-					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":616 }] },
-					{ "nextPhraseID":"burhczyd_check16_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
-					{ "nextPhraseID":"burhczyd_check16_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
-    },
-    {
         "id":"burhczyd_check16",
         "replies":[ { "nextPhraseID":"burhczyd_check16_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":916, "negate":true },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":516, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check16_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":716 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":516, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check16_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":516 }] },
 					{ "nextPhraseID":"burhczyd_check16_a" }]
     },
     { 	"id":"burhczyd_check16_2", 	"replies":[{ "nextPhraseID":"burhczyd_check16_a" }], "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":516 }] },
     { 	"id":"burhczyd_check16_3", 	"replies":[{ "nextPhraseID":"burhczyd_check16_a" }], "rewards":[{ "rewardType":"removeQuestProgress", "rewardID":"quest_burhczyd_nd", "value":516 }]
+    },
+    {
+        "id":"burhczyd_check16_a",
+        "replies":[ { "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":916 }] },
+					{ "nextPhraseID":"X", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":616 }] },
+					{ "nextPhraseID":"burhczyd_check16_b", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":100 }] },
+					{ "nextPhraseID":"burhczyd_check16_e", "requires":[ { "requireType":"questProgress", "requireID":"quest_burhczyd", "value":90 }] }]
     },
     {
         "id":"burhczyd_check16_b",
@@ -4078,6 +4164,9 @@
         "id":"burhczyd_check17",
         "replies":[ { "nextPhraseID":"burhczyd_check17_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":917, "negate":true },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":517, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check17_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":717 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":517, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check17_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":517 }] },
 					{ "nextPhraseID":"burhczyd_check17_a" }]
@@ -4107,6 +4196,9 @@
         "replies":[ { "nextPhraseID":"burhczyd_check18_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":918, "negate":true },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":518, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check18_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":718 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":518, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check18_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":518 }] },
 					{ "nextPhraseID":"burhczyd_check18_a" }]
     },
@@ -4134,6 +4226,9 @@
         "id":"burhczyd_check19",
         "replies":[ { "nextPhraseID":"burhczyd_check19_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":919, "negate":true },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":519, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check19_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":719 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":519, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check19_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":519 }] },
 					{ "nextPhraseID":"burhczyd_check19_a" }]
@@ -4163,6 +4258,9 @@
         "replies":[ { "nextPhraseID":"burhczyd_check20_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":920, "negate":true },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":520, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check20_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":720 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":520, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check20_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":520 }] },
 					{ "nextPhraseID":"burhczyd_check20_a" }]
     },
@@ -4191,6 +4289,9 @@
         "replies":[ { "nextPhraseID":"burhczyd_check21_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":921, "negate":true },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":521, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check21_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":721 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":521, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check21_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":521 }] },
 					{ "nextPhraseID":"burhczyd_check21_a" }]
     },
@@ -4218,6 +4319,9 @@
         "id":"burhczyd_check22",
         "replies":[ { "nextPhraseID":"burhczyd_check22_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":922, "negate":true },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":522, "negate":true }] },
+					{ "nextPhraseID":"burhczyd_check22_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":722 },
 																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":522, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check22_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":522 }] },
 					{ "nextPhraseID":"burhczyd_check22_a" }]
@@ -4296,8 +4400,8 @@
 					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd13e", "mapName":"foaming_flask" },
 					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":913 },
 
-					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd14",  "mapName":"crossglen_hall" },
-					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd14e", "mapName":"crossglen_hall" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd14",  "mapName":"brightport_bakery" },
+					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd14e", "mapName":"brightport_bakery" },
 					{ "rewardType":"questProgress", "rewardID":"quest_burhczyd_nd", "value":914 },
 
 					{ "rewardType":"removeSpawnArea", "rewardID":"burhczyd15",  "mapName":"crossglen_hall" },
