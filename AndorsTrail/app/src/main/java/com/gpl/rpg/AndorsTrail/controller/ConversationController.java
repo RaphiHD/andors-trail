@@ -488,6 +488,7 @@ public final class ConversationController {
 			this.currentPhraseID = phraseID;
 			this.currentPhrase = world.conversationLoader.loadPhrase(phraseID, conversationCollection, res);
 			if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) {
+				L.log("Phrase_trace: " + phraseID);
 				if (currentPhrase == null) currentPhrase = new Phrase("(phrase \"" + phraseID + "\" not implemented yet)", null, null, null);
 			}
 			if (this.currentPhrase.switchToNPC != null) {
