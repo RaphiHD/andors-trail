@@ -2665,7 +2665,7 @@
     },
     {
         "id":"burhczydx_11a_2",
-        "message":"Hm ... what?",
+        "message":"Hmm ... what?",
         "replies":[
             {
                 "text":"When we last met you were dressed like a knight of the Elythom.",
@@ -2738,7 +2738,7 @@
         "message":"Well, her parents haven't given me their consent yet.",
         "replies":[
             {
-                "text":"Hm, that might be difficult. But the main thing is that she wants you. Then it will be okay with the parents.",
+                "text":"Hmm, that might be difficult. But the main thing is that she wants you. Then it will be okay with the parents.",
                 "nextPhraseID":"burhczydx_11a_10"
             }
         ]
@@ -2927,7 +2927,7 @@
         "message":"Of all the options she has, she chooses a baker. Why? Why?",
         "replies":[
             {
-                "text":"Hm, a baker can bake bridecake.",
+                "text":"Hmm, a baker can bake bridecake.",
                 "nextPhraseID":"burhczydx_12a_7"
             }
         ]
@@ -3113,7 +3113,7 @@
     },
     {
         "id":"burhczydx_13a_12",
-        "message":"If she still chooses him ...",
+        "message":"If she still chooses him...",
         "replies":[
             {
                 "text":"Yes, what then?",
@@ -3667,11 +3667,9 @@
     {
         "id":"burhczyd_check1",
         "replies":[ { "nextPhraseID":"burhczyd_check1_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":91, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":51, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":91, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check1_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":71 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":51, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":71 }] },
 					{ "nextPhraseID":"burhczyd_check1_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":51 }] },
 					{ "nextPhraseID":"burhczyd_check1_a" }]
     },
@@ -3698,11 +3696,9 @@
     {
         "id":"burhczyd_check2",
         "replies":[ { "nextPhraseID":"burhczyd_check2_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":92, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":52, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":92, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check2_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":72 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":52, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":72 }] },
 					{ "nextPhraseID":"burhczyd_check2_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":52 }] },
 					{ "nextPhraseID":"burhczyd_check2_a" }]
     },
@@ -3729,11 +3725,9 @@
     {
         "id":"burhczyd_check3",
         "replies":[ { "nextPhraseID":"burhczyd_check3_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":93, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":53, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":93, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check3_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":73 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":53, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":73 }] },
 					{ "nextPhraseID":"burhczyd_check3_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":53 }] },
 					{ "nextPhraseID":"burhczyd_check3_a" }]
     },
@@ -3760,11 +3754,9 @@
     {
         "id":"burhczyd_check4",
         "replies":[ { "nextPhraseID":"burhczyd_check4_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":94, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":54, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":94, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check4_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":74 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":54, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":74 }] },
 					{ "nextPhraseID":"burhczyd_check4_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":54 }] },
 					{ "nextPhraseID":"burhczyd_check4_a" }]
     },
@@ -3791,11 +3783,9 @@
     {
         "id":"burhczyd_check5",
         "replies":[ { "nextPhraseID":"burhczyd_check5_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":95, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":55, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":95, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check5_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":75 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":55, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":75 }] },
 					{ "nextPhraseID":"burhczyd_check5_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":55 }] },
 					{ "nextPhraseID":"burhczyd_check5_a" }]
     },
@@ -3822,11 +3812,9 @@
     {
         "id":"burhczyd_check6",
         "replies":[ { "nextPhraseID":"burhczyd_check6_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":96, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":56, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":96, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check6_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":76 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":56, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":76 }] },
 					{ "nextPhraseID":"burhczyd_check6_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":56 }] },
 					{ "nextPhraseID":"burhczyd_check6_a" }]
     },
@@ -3853,11 +3841,9 @@
     {
         "id":"burhczyd_check7",
         "replies":[ { "nextPhraseID":"burhczyd_check7_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":97, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":57, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":97, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check7_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":77 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":57, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":77 }] },
 					{ "nextPhraseID":"burhczyd_check7_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":57 }] },
 					{ "nextPhraseID":"burhczyd_check7_a" }]
     },
@@ -3884,11 +3870,9 @@
     {
         "id":"burhczyd_check8",
         "replies":[ { "nextPhraseID":"burhczyd_check8_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":98, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":58, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":98, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check8_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":78 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":58, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":78 }] },
 					{ "nextPhraseID":"burhczyd_check8_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":58 }] },
 					{ "nextPhraseID":"burhczyd_check8_a" }]
     },
@@ -3915,11 +3899,9 @@
     {
         "id":"burhczyd_check9",
         "replies":[ { "nextPhraseID":"burhczyd_check9_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":99, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":59, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":99, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check9_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":79 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":59, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":79 }] },
 					{ "nextPhraseID":"burhczyd_check9_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":59 }] },
 					{ "nextPhraseID":"burhczyd_check9_a" }]
     },
@@ -3946,11 +3928,9 @@
     {
         "id":"burhczyd_check10",
         "replies":[ { "nextPhraseID":"burhczyd_check10_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":910, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":510, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":910, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check10_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":710 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":510, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":710 }] },
 					{ "nextPhraseID":"burhczyd_check10_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":510 }] },
 					{ "nextPhraseID":"burhczyd_check10_a" }]
     },
@@ -3977,11 +3957,9 @@
     {
         "id":"burhczyd_check11",
         "replies":[ { "nextPhraseID":"burhczyd_check11_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":911, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":511, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":911, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check11_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":711 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":511, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":711 }] },
 					{ "nextPhraseID":"burhczyd_check11_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":511 }] },
 					{ "nextPhraseID":"burhczyd_check11_a" }]
     },
@@ -4008,11 +3986,9 @@
     {
         "id":"burhczyd_check12",
         "replies":[ { "nextPhraseID":"burhczyd_check12_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":912, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":512, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":912, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check12_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":712 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":512, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":712 }] },
 					{ "nextPhraseID":"burhczyd_check12_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":512 }] },
 					{ "nextPhraseID":"burhczyd_check12_a" }]
     },
@@ -4039,11 +4015,9 @@
     {
         "id":"burhczyd_check13",
         "replies":[ { "nextPhraseID":"burhczyd_check13_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":913, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":513, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":913, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check13_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":713 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":513, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":713 }] },
 					{ "nextPhraseID":"burhczyd_check13_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":513 }] },
 					{ "nextPhraseID":"burhczyd_check13_a" }]
     },
@@ -4070,11 +4044,9 @@
     {
         "id":"burhczyd_check14",
         "replies":[ { "nextPhraseID":"burhczyd_check14_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":914, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":514, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":914, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check14_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":714 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":514, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":714 }] },
 					{ "nextPhraseID":"burhczyd_check14_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":514 }] },
 					{ "nextPhraseID":"burhczyd_check14_a" }]
     },
@@ -4101,11 +4073,9 @@
     {
         "id":"burhczyd_check15",
         "replies":[ { "nextPhraseID":"burhczyd_check15_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":915, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":515, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":915, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check15_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":715 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":515, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":715 }] },
 					{ "nextPhraseID":"burhczyd_check15_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":515 }] },
 					{ "nextPhraseID":"burhczyd_check15_a" }]
     },
@@ -4132,11 +4102,9 @@
     {
         "id":"burhczyd_check16",
         "replies":[ { "nextPhraseID":"burhczyd_check16_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":916, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":516, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":916, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check16_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":716 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":516, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":716 }] },
 					{ "nextPhraseID":"burhczyd_check16_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":516 }] },
 					{ "nextPhraseID":"burhczyd_check16_a" }]
     },
@@ -4163,11 +4131,9 @@
     {
         "id":"burhczyd_check17",
         "replies":[ { "nextPhraseID":"burhczyd_check17_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":917, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":517, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":917, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check17_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":717 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":517, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":717 }] },
 					{ "nextPhraseID":"burhczyd_check17_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":517 }] },
 					{ "nextPhraseID":"burhczyd_check17_a" }]
     },
@@ -4194,11 +4160,9 @@
     {
         "id":"burhczyd_check18",
         "replies":[ { "nextPhraseID":"burhczyd_check18_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":918, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":518, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":918, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check18_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":718 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":518, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":718 }] },
 					{ "nextPhraseID":"burhczyd_check18_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":518 }] },
 					{ "nextPhraseID":"burhczyd_check18_a" }]
     },
@@ -4225,11 +4189,9 @@
     {
         "id":"burhczyd_check19",
         "replies":[ { "nextPhraseID":"burhczyd_check19_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":919, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":519, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":919, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check19_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":719 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":519, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":719 }] },
 					{ "nextPhraseID":"burhczyd_check19_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":519 }] },
 					{ "nextPhraseID":"burhczyd_check19_a" }]
     },
@@ -4256,11 +4218,9 @@
     {
         "id":"burhczyd_check20",
         "replies":[ { "nextPhraseID":"burhczyd_check20_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":920, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":520, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":920, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check20_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":720 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":520, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":720 }] },
 					{ "nextPhraseID":"burhczyd_check20_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":520 }] },
 					{ "nextPhraseID":"burhczyd_check20_a" }]
     },
@@ -4287,11 +4247,9 @@
     {
         "id":"burhczyd_check21",
         "replies":[ { "nextPhraseID":"burhczyd_check21_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":921, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":521, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":921, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check21_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":721 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":521, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":721 }] },
 					{ "nextPhraseID":"burhczyd_check21_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":521 }] },
 					{ "nextPhraseID":"burhczyd_check21_a" }]
     },
@@ -4318,11 +4276,9 @@
     {
         "id":"burhczyd_check22",
         "replies":[ { "nextPhraseID":"burhczyd_check22_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":120 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":922, "negate":true },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":522, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":922, "negate":true }] },
 					{ "nextPhraseID":"burhczyd_check22_2", "requires":[	{ "requireType":"questLatestProgress", "requireID":"quest_burhczyd", "value":130 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":722 },
-																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":522, "negate":true }] },
+																		{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":722 }] },
 					{ "nextPhraseID":"burhczyd_check22_3", "requires":[	{ "requireType":"questProgress", "requireID":"quest_burhczyd_nd", "value":522 }] },
 					{ "nextPhraseID":"burhczyd_check22_a" }]
     },
