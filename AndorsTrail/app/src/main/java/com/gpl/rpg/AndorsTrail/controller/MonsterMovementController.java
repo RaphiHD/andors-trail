@@ -114,10 +114,6 @@ public final class MonsterMovementController implements EvaluateWalkable {
 			}
 			if (searchForPath) {
 				if (findPathFor(m, playerPosition)) return;
-			} else if (m.getMovementAggressionType()==MonsterType.AggressionType.flee)
-			{
-				m.movementDestination.x =2* m.position.x-playerPosition.x;
-				m.movementDestination.y =2* m.position.y-playerPosition.y;
 			}
 //		}
 			
@@ -130,7 +126,20 @@ public final class MonsterMovementController implements EvaluateWalkable {
 					m.movementDestination.y = area.area.topLeft.y + Constants.rnd.nextInt(area.area.size.height);
 				}
 			}
-			
+
+			if ( m.getMovementAggressionType()==MonsterType.AggressionType.flee &&
+					Math.abs(m.position.x - playerPosition.x) < 5 &&
+					Math.abs(m.position.y - playerPosition.y) < 5) {
+				if ( m.position.x < playerPosition.x ) { m.movementDestination.x = area.area.topLeft.x; }
+				else if ( m.position.x > playerPosition.x ) { m.movementDestination.x = area.area.size.width - 1; }
+				else if ( m.position.x - area.area.topLeft.x > area.area.size.width - m.position.x ) { m.movementDestination.x = area.area.topLeft.x; }
+				else { m.movementDestination.x = area.area.size.width - 1; }
+				if ( m.position.y < playerPosition.y ) { m.movementDestination.y = area.area.topLeft.y; }
+				else if ( m.position.y > playerPosition.y ) { m.movementDestination.y = area.area.size.height - 1; }
+				else if ( m.position.y - area.area.topLeft.y > area.area.size.height - m.position.y ) { m.movementDestination.y = area.area.topLeft.y; }
+				else { m.movementDestination.y = area.area.size.height - 1; }
+			}
+
 		// Monster is moving in a straight line.
 		m.nextPosition.topLeft.set(
 				m.position.x + sgn(m.movementDestination.x - m.position.x)
