@@ -105,51 +105,41 @@ public final class MonsterMovementController implements EvaluateWalkable {
 	}
 
 	private void determineMonsterNextPosition(Monster m, MonsterSpawnArea area, Coord playerPosition) {
-//		if (m.isAgressive()) {
-			boolean searchForPath = false;
-			if (m.getMovementAggressionType() == MonsterType.AggressionType.protectSpawn) {
-				if (area.area.contains(playerPosition)) searchForPath = true;
-			} else if (m.getMovementAggressionType() == MonsterType.AggressionType.wholeMap) {
-				searchForPath = true;
+		MonsterType.AggressionType aggressionType = m.getMovementAggressionType();
+		if ((aggressionType == MonsterType.AggressionType.protectSpawn && area.area.contains(playerPosition)) ||
+				aggressionType == MonsterType.AggressionType.wholeMap
+		) {
+			if (findPathFor(m, playerPosition)) {
+				// we use m.nextPosition from the pathfinding
+				return;
 			}
-			if (searchForPath) {
-				if (findPathFor(m, playerPosition)) return;
-			}
-//		}
-			
-			// Monster has waited and should start to move again.
-			if (m.movementDestination == null) {
-				m.movementDestination = new Coord(m.position);
-				if (Constants.rnd.nextBoolean()) {
-					m.movementDestination.x = area.area.topLeft.x + Constants.rnd.nextInt(area.area.size.width);
-				} else {
-					m.movementDestination.y = area.area.topLeft.y + Constants.rnd.nextInt(area.area.size.height);
-				}
-			}
+		} else if (aggressionType == MonsterType.AggressionType.flee) {
+			// if flee then run towards the point where the PC is not
+			m.movementDestination = new Coord(playerPosition);
+			m.movementDestination.x = Math.clamp((long)2 * m.position.x - playerPosition.x, 0, world.model.currentMaps.map.size.width - 1);// mx - ( px - mx )
+			m.movementDestination.y = Math.clamp((long)2 * m.position.y - playerPosition.y, 0, world.model.currentMaps.map.size.height - 1);// my - ( py - my )
+		}
 
-			if ( m.getMovementAggressionType()==MonsterType.AggressionType.flee &&
-					Math.abs(m.position.x - playerPosition.x) < 5 &&
-					Math.abs(m.position.y - playerPosition.y) < 5) {
-				if ( m.position.x < playerPosition.x ) { m.movementDestination.x = area.area.topLeft.x; }
-				else if ( m.position.x > playerPosition.x ) { m.movementDestination.x = area.area.size.width - 1; }
-				else if ( m.position.x - area.area.topLeft.x > area.area.size.width - m.position.x ) { m.movementDestination.x = area.area.topLeft.x; }
-				else { m.movementDestination.x = area.area.size.width - 1; }
-				if ( m.position.y < playerPosition.y ) { m.movementDestination.y = area.area.topLeft.y; }
-				else if ( m.position.y > playerPosition.y ) { m.movementDestination.y = area.area.size.height - 1; }
-				else if ( m.position.y - area.area.topLeft.y > area.area.size.height - m.position.y ) { m.movementDestination.y = area.area.topLeft.y; }
-				else { m.movementDestination.y = area.area.size.height - 1; }
+		// Monster has waited and should start to move again.
+		if (m.movementDestination == null) {
+			m.movementDestination = new Coord(m.position);
+			if (Constants.rnd.nextBoolean()) {
+				m.movementDestination.x = area.area.topLeft.x + Constants.rnd.nextInt(area.area.size.width);
+			} else {
+				m.movementDestination.y = area.area.topLeft.y + Constants.rnd.nextInt(area.area.size.height);
 			}
+		}
 
 		// Monster is moving in a straight line.
 		m.nextPosition.topLeft.set(
 				m.position.x + sgn(m.movementDestination.x - m.position.x)
-				,m.position.y + sgn(m.movementDestination.y - m.position.y)
-			);
+				, m.position.y + sgn(m.movementDestination.y - m.position.y)
+		);
 	}
 
 	private static void cancelCurrentMonsterMovement(final Monster m) {
 		m.movementDestination = null;
-		m.nextActionTime = System.currentTimeMillis() + (getMillisecondsPerMove(m) * Constants.rollValue(Constants.monsterWaitTurns));
+		m.nextActionTime = System.currentTimeMillis() + ((long) getMillisecondsPerMove(m) * Constants.rollValue(Constants.monsterWaitTurns));
 	}
 
 	private static int getMillisecondsPerMove(Monster m) {
