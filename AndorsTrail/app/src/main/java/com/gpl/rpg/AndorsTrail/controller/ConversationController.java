@@ -1,5 +1,6 @@
 package com.gpl.rpg.AndorsTrail.controller;
 
+import static com.gpl.rpg.AndorsTrail.controller.CombatController.BeginTurnAs.player;
 import static com.gpl.rpg.AndorsTrail.controller.SkillController.canLevelupSkillWithQuest;
 
 import java.util.ArrayList;
@@ -17,6 +18,7 @@ import com.gpl.rpg.AndorsTrail.model.ability.SkillCollection;
 import com.gpl.rpg.AndorsTrail.model.ability.SkillInfo;
 import com.gpl.rpg.AndorsTrail.model.actor.Actor;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
+import com.gpl.rpg.AndorsTrail.model.actor.MonsterType;
 import com.gpl.rpg.AndorsTrail.model.actor.Player;
 import com.gpl.rpg.AndorsTrail.model.conversation.ConversationCollection;
 import com.gpl.rpg.AndorsTrail.model.conversation.Phrase;
@@ -31,6 +33,7 @@ import com.gpl.rpg.AndorsTrail.model.quest.QuestLogEntry;
 import com.gpl.rpg.AndorsTrail.model.quest.QuestProgress;
 import com.gpl.rpg.AndorsTrail.model.script.Requirement;
 import com.gpl.rpg.AndorsTrail.model.script.ScriptEffect;
+import com.gpl.rpg.AndorsTrail.resource.tiles.TileManager;
 import com.gpl.rpg.AndorsTrail.util.ConstRange;
 import com.gpl.rpg.AndorsTrail.util.L;
 
@@ -154,6 +157,9 @@ public final class ConversationController {
 			case mapchange:
 				mapchange(effect.mapName, effect.effectID);
 				break;
+			case changeIcon:
+				changeIcon(res, player, effect.effectID, effect.value );
+				break;
 		}
 	}
 
@@ -207,6 +213,26 @@ public final class ConversationController {
 //		controllers.mapController.activateMapObjectGroup(map, mapObjectGroupID);
 //		controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, effect.mapName, effect.effectID, 0, 0); //cbcbcb check
 		controllers.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, mapName, place, 0, 0);
+	}
+
+	private void changeIcon(Resources res, Player player, String hero, int heroNr ) {
+		switch (heroNr) {
+			case 0:
+				player.replaceIcon(TileManager.CHAR_HERO_0);
+				break;
+			case 1:
+				player.replaceIcon(TileManager.CHAR_HERO_1);
+				break;
+			case 2:
+				player.replaceIcon(TileManager.CHAR_HERO_2);
+				break;
+			case 10:
+				player.replaceIcon(TileManager.CHAR_HERO_SHIP);
+				break;
+			case 999:
+				player.replaceIcon(player.iconID);
+				break;
+		}
 	}
 
 	private void addAlignmentReward(Player player, String faction, int delta) {

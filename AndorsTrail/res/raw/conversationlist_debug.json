@@ -328,5 +328,19 @@
     },
     {
         "id": "dbg_scores_30" 
-	}
+	},
+    {
+        "id": "test_changeIcon",
+		"message":"Wanna change?",
+		"replies":[	{ "text":"hero 0", "nextPhraseID":"test_changeIcon_0" },
+					{ "text":"hero 1", "nextPhraseID":"test_changeIcon_1" },
+					{ "text":"hero 2", "nextPhraseID":"test_changeIcon_2" },
+					{ "text":"Ship",   "nextPhraseID":"test_changeIcon_10" },
+					{ "text":"normal", "nextPhraseID":"test_changeIcon_999" }]
+	},
+    { "id": "test_changeIcon_0", "replies":[{ "text":"N", "nextPhraseID":"mikhail_start_select" }], "rewards":[{ "rewardType":"changeIcon", "rewardID":"mikhail", "value":0 }] },
+    { "id": "test_changeIcon_1", "replies":[{ "text":"N", "nextPhraseID":"mikhail_start_select" }], "rewards":[{ "rewardType":"changeIcon", "rewardID":"mikhail", "value":1 }] },
+    { "id": "test_changeIcon_2", "replies":[{ "text":"N", "nextPhraseID":"mikhail_start_select" }], "rewards":[{ "rewardType":"changeIcon", "rewardID":"mikhail", "value":2 }] },
+    { "id": "test_changeIcon_10", "replies":[{ "text":"N", "nextPhraseID":"mikhail_start_select" }], "rewards":[{ "rewardType":"changeIcon", "rewardID":"mikhail", "value":10 }] },
+    { "id": "test_changeIcon_999", "replies":[{ "text":"N", "nextPhraseID":"mikhail_start_select" }], "rewards":[{ "rewardType":"changeIcon", "rewardID":"mikhail", "value":999 }] }
 ]

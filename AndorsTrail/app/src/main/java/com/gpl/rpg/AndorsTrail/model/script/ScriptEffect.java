@@ -29,6 +29,7 @@ public final class ScriptEffect {
 		, removeQuestProgress
 		, changeMapFilter
 		, mapchange
+		, changeIcon
 	}
 
 	public final ScriptEffectType type;
