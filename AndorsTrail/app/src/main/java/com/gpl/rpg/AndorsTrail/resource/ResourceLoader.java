@@ -63,7 +63,7 @@ public final class ResourceLoader {
 		/*TileManager.iconID_CHAR_HERO_0 = */loader.prepareTileID(R.drawable.char_hero, 0);
 		/*TileManager.iconID_CHAR_HERO_1 = */loader.prepareTileID(R.drawable.char_hero_maksiu_girl_01, 0);
 		/*TileManager.iconID_CHAR_HERO_2 = */loader.prepareTileID(R.drawable.char_hero_maksiu_boy_01, 0);
-		/*TileManager.iconID_CHAR_HERO_SHIP = */loader.prepareTileID(R.drawable.items_g03_package_omi1, 0); //todo: Ship icon
+		/*TileManager.iconID_CHAR_HERO_SHIP = */loader.prepareTileID(R.drawable.char_hero_boat, 0); //todo: Ship icon
 		/*TileManager.iconID_selection_red = */loader.prepareTileID(R.drawable.ui_selections, 0);
 		/*TileManager.iconID_selection_yellow = */loader.prepareTileID(R.drawable.ui_selections, 1);
 		/*TileManager.iconID_groundbag = */loader.prepareTileID(R.drawable.ui_icon_equipment, 0);
@@ -275,6 +275,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.char_hero, "char_hero", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.char_hero_maksiu_girl_01, "char_hero_maksiu_girl_01", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.char_hero_maksiu_boy_01, "char_hero_maksiu_boy_01", sz1x1, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.char_hero_boat, "char_hero_boat", sz1x1, sz1x1, mTileSize);
 
 		loader.prepareTileset(R.drawable.ui_selections, "ui_selections", new Size(5, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.ui_quickslots, "ui_quickslots", sz2x1, sz1x1, mTileSize);
