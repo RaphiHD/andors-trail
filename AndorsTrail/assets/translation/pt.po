@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-01-09 22:01+0000\n"
-"Last-Translator: Alexander Meshcheryakov <alexander.s.m+git@gmail.com>\n"
+"PO-Revision-Date: 2026-01-19 00:01+0000\n"
+"Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.15.2\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -690,7 +690,9 @@ msgstr "De nada."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
-msgstr "Hoje vi alguns ratos nas traseiras do jardim. Por favor vai lá e mata os ratos que vires."
+msgstr ""
+"Vi há pouco alguns ratos no nosso jardim. Por favor podes ir lá matar "
+"qualquer rato que vires."
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
@@ -55319,8 +55321,9 @@ msgid "Yeah, yeah, yeah!"
 msgstr "Sim, sim, sim!"
 
 #: conversationlist_ratdom.json:ratdom_skel_drum_20
+#, fuzzy
 msgid "Oom chicky oom chick, oom chicky oom chi-chicky"
-msgstr ""
+msgstr "Oom chicky oom chick, oom chicky oom chi-chicky"
 
 #: conversationlist_ratdom.json:ratdom_skel_cymb_10
 msgid "What next?"
@@ -55447,7 +55450,7 @@ msgstr "Felizmente para ti não há espelho aqui."
 
 #: conversationlist_ratdom.json:ratdom_uglybrute_script_20:1
 msgid "Sorry, I didn't want to disturb you."
-msgstr ""
+msgstr "Desculpa, não te queria incomodar."
 
 #: conversationlist_ratdom.json:ratdom_uglybrute_script_30
 msgid "ROAR!!"
@@ -55455,11 +55458,11 @@ msgstr "RUGIDO!!"
 
 #: conversationlist_ratdom.json:ratdom_uglybrute_script_30:0
 msgid "Aww, is the little brute angry now?"
-msgstr ""
+msgstr "Oh, o pequeno bruto está zangado?"
 
 #: conversationlist_ratdom.json:ratdom_uglybrute_script_30:1
 msgid "Oops, I better be quiet now ..."
-msgstr ""
+msgstr "Ups, é melhor estar calado agora..."
 
 #: conversationlist_ratdom.json:ratdom_uglybrute_script_32
 msgid "Indeed you better be!"
@@ -55467,7 +55470,7 @@ msgstr "De facto é melhor que o sejas!"
 
 #: conversationlist_ratdom.json:ratdom_uglybrute_script_32:0
 msgid "The beast is able to talk?"
-msgstr ""
+msgstr "A besta consegue falar?"
 
 #: conversationlist_ratdom.json:ratdom_uglybrute_script_32:1
 msgid "... and leave quickly!"
@@ -55475,21 +55478,24 @@ msgstr "... e saias depressa!"
 
 #: conversationlist_ratdom.json:ratdom_uglybrute_script_90
 msgid "It is ENOUGH now! I'll teach you manners!"
-msgstr ""
+msgstr "Já chega! Eu ensino-te maneiras!"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_20
 msgid ""
 "You were so tired yesterday, that you didn't even make it to your bed. You dreamed of rats and that something bit your toes firmly. Apparently you had a nightmare.\n"
 "You open your eyes ..."
 msgstr ""
+"Estavas tão cansado ontem, que nem chegaste à tua cama. Sonhaste com ratos e "
+"que algo te mordeu com firmeza. Parece que tiveste um pesadelo.\n"
+"Abres os olhos..."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_30
 msgid "... but you seem to sleep still!"
-msgstr ""
+msgstr "... mas pareces dormir ainda!"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_52
 msgid "Hey! Have you already done all my tasks?"
-msgstr ""
+msgstr "Ei! Já fizeste todas as minhas tarefas?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_52:0
 msgid "Oh. Hello Gruiik."
@@ -55497,7 +55503,7 @@ msgstr "Ó. Olá Gruiik."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_90
 msgid "You stumbled to the ground."
-msgstr ""
+msgstr "Tropeças para o chão."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_92
 msgid ""
@@ -55517,23 +55523,25 @@ msgstr "A minha cabeça..."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_100
 msgid "$playername - do I have to worry about you?"
-msgstr ""
+msgstr "$playername - tenho de me preocupar contigo?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_100:0
 msgid "Where is the big rat?"
-msgstr ""
+msgstr "Onde está o grande rato?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_110
 msgid "You got rid of the rats long ago."
-msgstr ""
+msgstr "Livraste-te dos ratos há muito tempo."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_110:0
 msgid "No. Yes, but ...  Have you seen Clevred?"
-msgstr ""
+msgstr "Não. Sim, mas... Viste o Clevred?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_120
 msgid "I don't know anyone with that name. You must have had a bad dream. And better stay off the mead."
 msgstr ""
+"Não conheço ninguém com esse nome. Deves ter tido um pesadelo. E é melhor "
+"ficares longe do hidromel."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_120:0
 msgid "I didn't drink."
@@ -55541,31 +55549,39 @@ msgstr "Eu não bebi."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_130
 msgid "Yes that's what they all say. Better go and find Andor at last."
-msgstr ""
+msgstr "Sim, é o que todos dizem. É melhor ir procurar o Andor finalmente."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_140
 msgid "When I think of drinking - Mara seems to have disappeared. So we're all going to stop drinking mead."
 msgstr ""
+"Quando penso em beber - a Mara parece ter desaparecido. Então vamos parar "
+"todos de beber hidromel."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_142
 msgid "Maybe she wanted to make her dream of opening a tavern in Brightport come true?"
 msgstr ""
+"Talvez ela quisesse realizar o seu sonho de abrir uma taberna em Brightport?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_146
 msgid "Tharal has also disappeared. But I don't think that has anything to do with each other. He often just roams through the forest and will definitely be back soon."
 msgstr ""
+"Tharal também desapareceu. Mas acho que não têm nada a ver um com o outro. "
+"Ele muitas vezes apenas vagueia pela floresta e definitivamente voltará em "
+"breve."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_146:0
 msgid "I hope so. But I have a bad feeling ..."
-msgstr ""
+msgstr "Espero que sim. Mas tenho um mau pressentimento..."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_150
 msgid "By the way - Tharal seems to have disappeared. So he won't be able to cure your headache."
 msgstr ""
+"A propósito - Tharal parece ter desaparecido. Então ele não vai conseguir "
+"curar a tua dor de cabeça."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_152
 msgid "Maybe he needed some time of peace and roams through the forest?"
-msgstr ""
+msgstr "Talvez precisasse de algum tempo de paz e vaguear pela floresta?"
 
 #: conversationlist_ratdom.json:ratdom_wakeup_152:0
 msgid "Eh, maybe. Sure."
@@ -55573,11 +55589,11 @@ msgstr "É, talvez. Claro."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_154
 msgid "I hope he will be back soon."
-msgstr ""
+msgstr "Espero que ele volte em breve."
 
 #: conversationlist_ratdom.json:ratdom_wakeup_154:0
 msgid "I hope so too. But I have a bad feeling ..."
-msgstr ""
+msgstr "Também espero. Mas tenho um mau pressentimento..."
 
 #: conversationlist_ratdom.json:ratdom_water_flag_10
 msgid "Go around the flag."
@@ -55585,7 +55601,7 @@ msgstr "Vai à volta da bandeira."
 
 #: conversationlist_ratdom.json:ratdom_water_flag_20
 msgid "One time around the flag is enough."
-msgstr ""
+msgstr "Uma vez ao redor da bandeira é suficiente."
 
 #: conversationlist_ratdom.json:ratdom_water_sign
 msgid "[unreadable signs]"
@@ -55597,15 +55613,15 @@ msgstr "O que é esse gatafunho?"
 
 #: conversationlist_ratdom.json:ratdom_water_sign_10
 msgid "Scribble? It is plain text!"
-msgstr ""
+msgstr "Gatafunho? É texto simples!"
 
 #: conversationlist_ratdom.json:ratdom_water_sign_20
 msgid "It says: 'Don't touch the water.'"
-msgstr ""
+msgstr "Diz: 'Não toque na água. '"
 
 #: conversationlist_ratdom.json:ratdom_water_x1_10
 msgid "You find some rat bones on the ground behind the flag."
-msgstr ""
+msgstr "Encontras alguns ossos de rato no chão atrás da bandeira."
 
 #: conversationlist_ratdom.json:ratdom_well_1
 #: conversationlist_ratdom.json:ratdom_well_2
@@ -55619,7 +55635,7 @@ msgstr "Um poço fundo"
 #: conversationlist_ratdom.json:ratdom_well_3:0
 #: conversationlist_ratdom.json:ratdom_well_4:0
 msgid "You throw a shimmering globe into the well."
-msgstr ""
+msgstr "Atiras um globo cintilante para o poço."
 
 #: conversationlist_ratdom.json:ratdom_well_30
 msgid "No, no, no, NO!"
@@ -55627,39 +55643,39 @@ msgstr "Não, não, não, NÃO!"
 
 #: conversationlist_ratdom.json:ratdom_well_31
 msgid "Not orange! Make it blue!"
-msgstr ""
+msgstr "Laranja não! Faça-o azul!"
 
 #: conversationlist_ratdom.json:ratdom_well_32
 msgid "Blue! Do you hear me? BLUE!!"
-msgstr ""
+msgstr "Azul! Ouves-me? AZUL!!"
 
 #: conversationlist_ratdom.json:ratdom_well_33
 msgid "Is it really that difficult? Sigh."
-msgstr ""
+msgstr "É assim tão difícil? Suspiro."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_4
 msgid "You have found 5 shimmering balls."
-msgstr ""
+msgstr "Encontraste 5 bolas cintilantes."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_4:1
 msgid "It seems to be more difficult than I thought at first."
-msgstr ""
+msgstr "Parece ser mais difícil do que eu pensava no início."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_4:2
 msgid "My head is spinning already."
-msgstr ""
+msgstr "A minha cabeça já está a girar."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_4:3
 msgid "Oh my. I just don't know how to solve this."
-msgstr ""
+msgstr "Meu Deus. Não sei como resolver isto."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_12
 msgid "Clevred certainly would have known what to do now."
-msgstr ""
+msgstr "Clevred certamente saberia o que fazer agora."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_12:0
 msgid "Why only did I leave him?"
-msgstr ""
+msgstr "Porque é que o deixei?"
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_14
 msgid "Sigh. Need help again?"
@@ -55671,15 +55687,15 @@ msgstr "Eu? Claro que não!"
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_14:1
 msgid "Don't pretend you know how to solve it."
-msgstr ""
+msgstr "Não finjas que sabes como resolvê-lo."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_14:2
 msgid "Please. I just don't know what to do here."
-msgstr ""
+msgstr "Por favor. Simplesmente, não sei o que fazer aqui."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_16
 msgid "I don't pretend to know. I do know."
-msgstr ""
+msgstr "Não finjo saber. Eu sei."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_16:0
 #: conversationlist_mt_galmore.json:bela_witch_20:0
@@ -55690,6 +55706,8 @@ msgstr "E então?"
 #: conversationlist_ratdom.json:ratdom_wells_chest_20
 msgid "Simply drop the balls into the right wells, so that the lamps all have one color. So easy."
 msgstr ""
+"Basta soltar as bolas nos poços certos, de modo que as lâmpadas todos têm "
+"uma cor. Tão fácil."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_20:0
 msgid "OK. I'll try again."
@@ -55697,7 +55715,7 @@ msgstr "OK. Vou tentar outra vez."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_20:1
 msgid "But the lamps never do what I want. Stupid game."
-msgstr ""
+msgstr "Mas as lâmpadas nunca fazem o que eu quero. Jogo estúpido."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_30
 msgid "Don't start crying."
@@ -55706,10 +55724,12 @@ msgstr "Não comeces a chorar."
 #: conversationlist_ratdom.json:ratdom_wells_chest_32
 msgid "Each well seem to affect the lamps in a certain way. Just combine that - I am sure you get it now."
 msgstr ""
+"Cada poço parece afetar as lâmpadas de certa forma. Combina isso, tenho a "
+"certeza de que percebes agora."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_32:0
 msgid "Do you think so? OK. I'll try again."
-msgstr ""
+msgstr "Achas? Está bem. Vou tentar outra vez."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_32:1
 msgid "No, I give up."
@@ -55718,18 +55738,20 @@ msgstr "Não, eu desisto."
 #: conversationlist_ratdom.json:ratdom_wells_chest_40
 msgid "Oh dear. What do you have a head for, just against the rain? Well I could do it for you."
 msgstr ""
+"Meu caro. Porque é que tens uma cabeça, só contra a chuva? Bem, eu posso "
+"fazê-lo por ti."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_40:0
 msgid "Wait, I'll try once more."
-msgstr ""
+msgstr "Espera, vou tentar mais uma vez."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_40:1
 msgid "Please do. Here, take the balls."
-msgstr ""
+msgstr "Por favor. Aqui estão, toma as bolas."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_52
 msgid "Ready. I hope you watched closely how I did it."
-msgstr ""
+msgstr "Pronto. Espero que tenhas visto de perto como o fiz."
 
 #: conversationlist_ratdom.json:ratdom_wells_chest_52:0
 #: conversationlist_feygard_1.json:tobby6_30:0
@@ -55738,19 +55760,21 @@ msgstr "Ah, claro."
 
 #: conversationlist_ratdom.json:ratdom_do_nothing
 msgid "Let's do the bone dance again!"
-msgstr ""
+msgstr "Vamos fazer a dança dos ossos outra vez!"
 
 #: conversationlist_ratdom.json:ratdom_rat_flora_20
 msgid "Me and water? Forget it!"
-msgstr ""
+msgstr "Eu e água? Esquece!"
 
 #: conversationlist_ratdom_npc.json:ratdom_audir
 msgid "Now that you mention it - yes. Long ago I made a good, sturdy pickaxe. But nobody wanted it for years, so I almost forgot it."
 msgstr ""
+"Agora que falas nisso, sim. Há muito tempo, fiz uma picareta boa e robusta. "
+"Mas ninguém a quis durante anos, por isso quase me esqueci dela."
 
 #: conversationlist_ratdom_npc.json:ratdom_audir_1
 msgid "You could have it for 80 pieces of gold."
-msgstr ""
+msgstr "Podes tê-la por 80 peças de ouro."
 
 #: conversationlist_ratdom_npc.json:ratdom_audir_1:0
 msgid "Great, I'll take it."
@@ -55758,7 +55782,7 @@ msgstr "Óptimo, eu aceito."
 
 #: conversationlist_ratdom_npc.json:ratdom_audir_1:1
 msgid "Hmm, I will think about it."
-msgstr ""
+msgstr "Hmm, vou pensar nisso."
 
 #: conversationlist_ratdom_npc.json:ratdom_audir_2:0
 msgid "Thank you, bye."
@@ -55766,39 +55790,46 @@ msgstr "Obrigado, adeus."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_10
 msgid "Oh, a visitor - how unusual!"
-msgstr ""
+msgstr "Oh, um visitante - que estranho!"
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_12
 msgid "I am Loirash. Nice to meet you."
-msgstr ""
+msgstr "Sou Loirash. Prazer em conhecê-lo."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_12:0
 msgid "Hi, nice to meet you."
-msgstr ""
+msgstr "Olá, prazer em conhecer-te."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_14
 msgid "You're probably wondering what I'm doing here deep in this dark cave."
 msgstr ""
+"Deves estar a pensar no que estou a fazer aqui no fundo desta caverna escura."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_16
 msgid "I am an instrument maker. Professional musical instruments, you know?"
 msgstr ""
+"Eu sou um fabricante de instrumentos. Instrumentos musicais profissionais, "
+"sabes?"
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_18
 msgid "At the moment I'm working on a new instrument made entirely of bone. I expect a sound from it that sends chills down the spine."
 msgstr ""
+"Neste momento, estou a trabalhar num novo instrumento feito inteiramente de "
+"osso. Eu espero um som dele que envie arrepios pela coluna abaixo."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_18:0
 msgid "It's already doing that to me."
-msgstr ""
+msgstr "Já me está a fazer isso."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_20
 msgid "This cave is a great source of bones of high quality, so I will stay until my instrument is complete."
 msgstr ""
+"Esta caverna é uma grande fonte de ossos de alta qualidade, então vou ficar "
+"até que o meu instrumento esteja completo."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_20:0
 msgid "May I have a look?"
-msgstr ""
+msgstr "Posso dar uma vista de olhos?"
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_20:1
 msgid "OK. Have fun."
@@ -61826,6 +61857,20 @@ msgid ""
 "I wish you the best,\n"
 "Adakin.\""
 msgstr ""
+"Há um baú aqui que contém o que o zelador deixou para trás. Talvez haja algo "
+"aqui sobre o último senhor.\n"
+"\n"
+"Há uma carta que diz\n"
+"\"Caro Moriath.\n"
+"Muito obrigado pelo seu serviço ao longo dos anos. Infelizmente, decidi que "
+"está na altura de deixar a mansão. Preciso de encontrar o meu futuro, e não "
+"acredito que esteja aqui. Vou para o sul e ver o que o destino me traz. Eu "
+"sei que a estrada vai ser difícil, mas eu fui treinado bem no manejamento de "
+"armas. Não posso levar tudo comigo, por isso coloquei coisas que importam "
+"para mim, incluindo o meu diário, num baú lá em baixo. Voltarei para eles se "
+"e quando puder.\n"
+"Desejo-lhe o melhor,\n"
+"Adakin.\""
 
 #: conversationlist_laeroth.json:adakin_chest_1
 msgid "There is a chest here with \"Adakin\" written on the top. It is locked though. I need the key."
@@ -62648,7 +62693,6 @@ msgid "Oh yes, of course it works. Why do you think the wall closed again?"
 msgstr ""
 
 #: conversationlist_laeroth.json:lae_algangror3_30:0
-#, fuzzy
 msgid "Yes, why did it?"
 msgstr "Sim, porque foi?"
 
@@ -66259,6 +66303,25 @@ msgid ""
 "With all my love,\n"
 "Mother"
 msgstr ""
+"Querida Theodora,\n"
+"\n"
+"Vim visitar-te novamente hoje, mas mais uma vez, encontro a tua casa vazia. "
+"Já passou quase um mês desde a última vez que te vi, e meu coração cresce "
+"mais pesado com cada dia que passa.\n"
+"\n"
+"Onde foste, minha querida? A aldeia parece tão tranquila, como se toda a "
+"vida tivesse sido tirada. Eu bati à tua porta, olhei pelas janelas, e até "
+"perguntei às poucas pessoas que eu vi na estrada Duleian (você conhece "
+"Rosmara, a \"menina das frutas\"), mas ninguém te viu ou ouviu uma palavra "
+"sobre ti.\n"
+"\n"
+"Por favor, se encontrares esta carta, envia-me uma palavra imediatamente. "
+"Não suporto a ideia de algo te ter acontecido. Se simplesmente se foi embora "
+"por um tempo, eu entendo, mas deixe-me saber que está segura. Voltarei "
+"novamente dentro de uma semana, rezando para que te encontre aqui.\n"
+"\n"
+"Com todo o meu amor,\n"
+"Mãe"
 
 #: conversationlist_feygard_1.json:wexlow_godwin_journal_prompt
 msgid "As you walk by the table, in the corner of your eye, you catch a glimpse of someone's journal. Maybe you should read the current page?"
@@ -66282,6 +66345,24 @@ msgid ""
 "\n"
 "End Entry"
 msgstr ""
+"Passaram dias desde que alguém viu Odilia. No início, pensamos que ela "
+"poderia ter ido visitar a sua irmã em Feygard, mas ela nunca mencionou sair. "
+"O mesmo aconteceu com Philippa, e agora Godelieve também. É como se elas "
+"desaparecessem sem rasto, enquanto dormiam. Lembro-me que Godelieve parecia "
+"perturbada na noite anterior a desaparecer, como se estivesse a lutar com "
+"alguma força invisível, mas eu não liguei. Devia saber que algo estava "
+"errado.\n"
+"\n"
+"A aldeia sente-se diferente agora, mais calma, mais bonita. Os homens estão "
+"no limite, mas não podemos fazer sentido do que está a acontecer. As noites "
+"são as piores, cheias de um pesado silêncio que acalma os ossos. Eu temo por "
+"Leofwyn e Theobald, e não posso deixar de me perguntar se algo na noite está "
+"chamando por eles.\n"
+"\n"
+"Estamos a perder esperança e estou aterrorizado com o que pode acontecer a "
+"seguir.\n"
+"\n"
+"Entrada final"
 
 #: conversationlist_feygard_1.json:wexlow_godwin_journal:0
 msgid "I wonder who these people are?"
@@ -71802,6 +71883,26 @@ msgid ""
 "\n"
 "One sample of Mudfiend goo. A secretion found in the depths of mines and tunnels along the Duleian Road. It is the key component that binds the other ingredients together."
 msgstr ""
+"Mas tal remédio não é barato. Se deseja que eu prepare este tónico, deve "
+"reunir os ingredientes necessários você mesmo. Aqui está o que eu preciso:\n"
+"\n"
+"Cinco flores de Duskbloom. Estas flores raras podem ser encontradas nas "
+"partes mais profundas do pântano, mas as criaturas tendem a ser atraídas por "
+"elas. Suas propriedades são delicadas, então deve trazê-los frescos.\n"
+"\n"
+"Cinco probóscides de mosquito. Colheita dos mosquitos do pântano. Você não "
+"vai encontrar falta dessas criaturas perto de águas estagnadas, mas cuidado "
+"com as suas mordidelas.\n"
+"\n"
+"Dez garrafas de água do pântano. Vais encontrar muita coisa fora da minha "
+"casa. A água da superfície não serve. Vais precisar de chegar ao fundo, "
+"depois da porcaria a flutuar no topo. As melhores coisas estão depositadas "
+"no fundo. Escuro, grosso e rico com o que dá ao pântano a sua potência. "
+"Encha as garrafas com isso. Toma estas garrafas vazias e enche-as.\n"
+"\n"
+"Uma amostra de goo Mudfiend. Uma secreção encontrada nas profundezas de "
+"minas e túneis ao longo da Estrada Duleiana. É o componente chave que liga "
+"os outros ingredientes juntos."
 
 #: conversationlist_mt_galmore2.json:mg_vaelric_reward_40:0
 msgid "Great, more work for me."
@@ -71921,6 +72022,15 @@ msgid ""
 "\n"
 "And now, even in death, I remain. I am left with nothing while Vaelric hoards the last piece of my past. That ring was mine, and it was never his to take."
 msgstr ""
+"Trabalhou no seu ofício, paguei-lhe e deixou-me descansar. Mas nunca acordei "
+"debaixo do telhado dele. Acordei debaixo da terra, enterrado como uma coisa "
+"a ser descartada. Eu esgravatei até ter o caminho livre, mas o mundo já "
+"tinha continuado sem mim. O meu corpo falhou, a minha respiração faltou, e "
+"eu morri sozinho.\n"
+"\n"
+"E agora, mesmo na morte, eu fico. Não me resta nada enquanto o Vaelric "
+"acumula o último pedaço do meu passado. Esse anel era meu, e nunca foi pare "
+"ele o possuir."
 
 #: conversationlist_mt_galmore2.json:mg_eryndor_vaelric_30
 msgid "Return my ring, and this torment ends for both of us. Vaelric can go on with his life, and I will trouble him no more. That is my offer."
@@ -72209,6 +72319,16 @@ msgid ""
 "\n"
 "I will rest now. Perhaps in dreams, I will walk home at last."
 msgstr ""
+"Dia 4?\n"
+"Perdi a noção do tempo. A fome abala tudo. A minha ferida infeta, e eu estou "
+"muito fraco para me mexer. Ouvi as chaves lá fora todas as noites, mais "
+"perto do que antes. Como se cheirassem a minha fraqueza.\n"
+"\n"
+"Escrevi-te uma carta, Elira. Está debaixo da lápide. Se alguém encontrar "
+"este diário, por favor, leve-o para Remgard. Diz-lhe que nunca deixei de "
+"tentar voltar.\n"
+"\n"
+"Vou descansar agora. Talvez em sonhos, finalmente vá para casa."
 
 #: conversationlist_mt_galmore2.json:galmore_66_house_journal_4:0
 msgid "Wow. This is awful to read."
@@ -72651,6 +72771,26 @@ msgid ""
 "\n"
 "One sample of Mudfiend goo. A secretion found in the depths of mines and tunnels along the Duleian Road. It is the key component that binds the other ingredients together."
 msgstr ""
+"Não, não tens. Já te disse, se desejas que eu prepare este tónico, deves "
+"reunir os ingredientes necessários. Aqui está o que eu preciso:\n"
+"\n"
+"Cinco flores de Duskbloom. Estas flores raras podem ser encontradas nas "
+"partes mais profundas do pântano, mas as criaturas tendem a ser atraídas por "
+"elas. Suas propriedades são delicadas, então deve trazê-los frescos.\n"
+"\n"
+"Cinco probóscides de mosquito. Colheita dos mosquitos do pântano. Você não "
+"vai encontrar falta dessas criaturas perto de águas estagnadas, mas cuidado "
+"com as suas mordidelas.\n"
+"\n"
+"Dez garrafas de água do pântano. Vais encontrar muita coisa fora da minha "
+"casa. A água da superfície não serve. Vais precisar de chegar ao fundo, "
+"depois da porcaria a flutuar no topo. As melhores coisas estão depositadas "
+"no fundo. Escuro, grosso e rico com o que dá ao pântano a sua potência. "
+"Encha as garrafas com isso. Toma estas garrafas vazias e enche-as.\n"
+"\n"
+"Uma amostra de goo Mudfiend. Uma secreção encontrada nas profundezas de "
+"minas e túneis ao longo da Estrada Duleiana. É o componente chave que liga "
+"os outros ingredientes juntos."
 
 #: conversationlist_next_release.json:galmore_rg_musicbox_found_first
 #: conversationlist_next_release.json:galmore_rg_bell_found_first
@@ -76803,7 +76943,6 @@ msgid "A Feygard general's weapon of choice."
 msgstr ""
 
 #: itemlist_mt_galmore.json:feygard_necklace
-#, fuzzy
 msgid "Necklace of Feygard's Glory"
 msgstr "Colar da Glória de Feygard"
 
@@ -77391,6 +77530,31 @@ msgid ""
 "\n"
 "[With each passing paragraph, you bear witness to the indomitable spirit of a man who forged his own destiny, shaping the world around him with the hammer blows of fate. And as you close the tome, the echoes of Korhald's journey linger in your mind, a testament to the enduring power of courage, determination, and the bonds of family that transcend the ages.]"
 msgstr ""
+"'Nos anais do tempo,' [começa o texto], 'viveu um homem cuja lenda queima "
+"tão brilhantemente como os fogos fortes que ele tendia. Korhald, mestre "
+"ferreiro e guerreiro inigualável, emergiu de começos humildes para imprimir "
+"o seu nome sobre a tapeçaria do destino. '\n"
+"[Com cada virada da página, o conto desdobra-se à sua frente como se fosse "
+"um mapa de pergaminho que se desenrola através da extensão da memória.]\n"
+"\"Nascido de uma família humilde\", as palavras continuam, \"Korhald herdou "
+"não só o nome de seu pai, mas também seu legado de trabalho duro e resolução "
+"inabalável.\"\n"
+"[Mergulhando mais profundamente nas passagens, aprende sobre a ascensão de "
+"Korhald desde aprendiz a artesão, suas mãos moldando aço com a precisão de "
+"um escultor e a força de um titã.]\n"
+"'No coração da forja', o tomo sussurra, 'Korhald encontrou não só o seu "
+"ofício, mas também o seu chamamento, porque as suas criações não eram apenas "
+"armas e armaduras, mas a própria incorporação do seu espírito.'\n"
+"[Mas o legado de Korhald estende-se além da bigorna e do campo de batalha.] "
+"'Um líder entre os homens,' as páginas declaram, 'o valor e a sabedoria de "
+"Korhald guiaram o seu povo através de tempos de contenda e incerteza, "
+"colocando a pedra angular sobre a qual a cidade de Remgard subiria. '\n"
+"\n"
+"[Com cada parágrafo que passa, testemunha o espírito indomável de um homem "
+"que forjou o seu próprio destino, moldando o mundo ao seu redor com os "
+"golpes de martelo do destino. E quando fecha o tomo, os ecos da viagem de "
+"Korhald permanecem na sua mente, um testamento ao poder duradouro da "
+"coragem, determinação e os laços de família que transcendem os tempos.]"
 
 #: itemlist_laeroth.json:lae_prison_key
 msgid "Laeroth prison key"
@@ -77810,6 +77974,53 @@ msgid ""
 "\n"
 "And if they didn't die, they're still afraid today. But they also know that courage is much stronger than any fear."
 msgstr ""
+"' Graças a $playername por evitar que algo mau acontecesse. Kealwea, "
+"sacerdote de Sullengard '\n"
+"\n"
+"De um que foi aprender a ser temeroso\n"
+"\n"
+"Uma vez, em uma pequena e pacífica aldeia, lá viveu um jovem rapaz chamado "
+"Emil. Emil era conhecido por sua coragem e curiosidade, mas no fundo, muitas "
+"vezes se perguntou se realmente não sabia nada de medo. Um dia, ele decidiu "
+"que queria aprender a ter medo para se tornar mais corajoso. Então, ele "
+"empacotou as suas coisas e partiu para a floresta escura em torno da "
+"aldeia.\n"
+"\n"
+"A floresta estava cheia de sons misteriosos e sombras, mas Emil "
+"corajosamente continuou. Depois de algum tempo, chegou a uma ponte velha, "
+"que passava sobre um abismo profundo. De repente, ele ouviu um barulho nos "
+"arbustos. Uma pequena raposa saltou, seus olhos brilhando  de curiosidade. "
+"Emil não estava assustado, mas a raposa não parecia ter medo. Em vez disso, "
+"ela abanou a sua cauda, aparentemente convidando Emil para segui-la.\n"
+"'Bem,' disse Emil, 'se você não tem medo, então também não vou ter.' Cruzou "
+"a ponte, com a raposa ao lado dele. Mas assim que cruzou a ponte, Emil ouviu "
+"um rosnar alto. Um lobo grande e escuro surgiu dos arbustos. Emil congelou "
+"em choque. Mas a raposa ficou bravamente diante dele e rosnou de volta. O "
+"lobo parecia surpreso, hesitou por um momento, e depois desapareceu pelo "
+"mato espesso. Emil ficou aliviado, mas sentiu que ainda tinha mais para "
+"aprender.\n"
+"\n"
+"Continuou no seu caminho até chegar a uma caverna que levou profundamente "
+"para a montanha. Curioso, entrou lá para dentro. Estava escuro e fresco lá "
+"dentro. De repente, ouviu um choro fraco. No canto, iu uma coruja pequena "
+"presa numa rede.\n"
+"'Pobre coruja, disse Emil. Eu ajudo-te. Libertou cuidadosamente a coruja da "
+"rede. Ela olhou para ele com gratidão e disse: \"Obrigado, corajoso Emil. "
+"Não tens medo das trevas e do perigo. É muito corajoso da tua parte. Emil "
+"sentiu-se orgulhoso, mas ao mesmo tempo, percebeu que a coragem também "
+"significa ser gentil e útil.\n"
+"\n"
+"Ao voltar para a aldeia, Emil refletiu. Tnha aprendido que o medo nem sempre "
+"é uma coisa má. Às vezes é apenas medo que nos proteja do perigo. Mas a "
+"coragem também significa fazer a coisa certa, apesar do medo.\n"
+"Quando Emil finalmente voltou para a aldeia, todos o receberam. Contou-lhes "
+"sobre as suas aventuras e o que tinha aprendido: que o medo é parte da vida, "
+"mas que se pode ser corajoso mesmo quando se tem medo. A partir desse dia, "
+"Emil não era apenas curioso, mas também mais sábio e corajoso - pronto para "
+"enfrentar cada aventura com um coração aberto.\n"
+"\n"
+"E se não morreram, ainda têm medo hoje. Mas eles também sabem que a coragem "
+"é muito mais forte do que qualquer medo."
 
 #: itemlist_mt_galmore2.json:mg2_rewarded_necklace
 msgid "Necklace with a medal from Teccow"
