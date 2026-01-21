@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-01-19 00:01+0000\n"
+"PO-Revision-Date: 2026-01-21 23:01+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -55841,23 +55841,27 @@ msgstr "Claro. Está à vontade."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_50
 msgid "Looks like you have something that doesn't belong to you?"
-msgstr ""
+msgstr "Parece que tens algo que não te pertence?"
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_50:0
 msgid "Yes. I found this old leg bone of a rat. Can I purchase it?"
-msgstr ""
+msgstr "Sim. Encontrei este velho osso de uma ratazana. Posso comprá-lo?"
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_50:1
 msgid "[Lie] No. I haven't taken anything."
-msgstr ""
+msgstr "[Mentir]. Não. Não levei nada."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_52
 msgid "Well, no. This is my favorite bone, it makes a good sound. Put it back, please."
 msgstr ""
+"Bem, não. Este é o meu osso favorito, faz um bom som. Ponha-o de volta, por "
+"favor."
 
 #: conversationlist_ratdom_npc.json:ratdom_bone_collector_54
 msgid "Yes you have. I'd better put it back again. This is a very valuable bone, you know? [Loirash takes the bone from you]"
 msgstr ""
+"Sim. É melhor voltar a pô-lo no sítio. Isto é um osso muito valioso, sabias? "
+"[Loirash tira-te o osso]"
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_10
 #: conversationlist_feygard_1.json:swamp_witch_90_10
@@ -55880,7 +55884,7 @@ msgstr "Conheço a tua cara!"
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_40
 msgid "You had made me leave my post in front of the Foaming Flask!"
-msgstr ""
+msgstr "Obrigaste-me deixar o meu posto na frente do Roaming Flask!"
 
 #: conversationlist_ratdom_npc.json:ratdom_ff_guard_40:0
 msgid "Oh. It's you ..."
@@ -72265,6 +72269,17 @@ msgid ""
 "\n"
 "I think about you, Elira. About little Matrin and your sweet voice by the fire. I promised I would return, but now I fear I will break that promise. If only I had been stronger. If only I had never been taken to Undertell."
 msgstr ""
+"Dia 1\n"
+"Não sei se voltarei a ver Remgard, mas se alguém encontrar isto, saiba que "
+"tentei. Corri no momento em que vi uma oportunidade, passando pelos guardas, "
+"pelos túneis e pela noite. Pensei que a montanha seria a minha salvação, mas "
+"tornou-se outra prisão. Minha perna está ferida de uma queda má, e as minhas "
+"rações foram deixadas para trás com a minha pressa. Esta cabana é a única "
+"coisa que me impede de morrer ao frio.\n"
+"\n"
+"Penso em ti, Elira. Sobre a pequena Matrin e a sua doce voz junto ao fogo. "
+"Prometi que voltaria, mas agora tenho medo de não cumprir essa promessa. Se "
+"eu tivesse sido mais forte. Se eu não tivesse sido levado para Undertell."
 
 #: conversationlist_mt_galmore2.json:galmore_66_house_journal_1:0
 msgid "Let's read the next page."
@@ -72285,6 +72300,21 @@ msgid ""
 "\n"
 "Tomorrow, I will try again. I have to."
 msgstr ""
+"Dia 2\n"
+"Tentei outra vez esta noite. No momento em que a escuridão engoliu a terra, "
+"eu saltei pelo meu caminho até à borda do rio, pensando que poderia seguir a "
+"água abaixo da montanha. Mas eles estavam lá - os miseráveis do rio. Eu ouvi-"
+"os primeiro, os horríveis coachares, os respingos enquanto deslizavam da "
+"água. Seus olhos brilhavam como brasas a morrer, observando-me, à espera.\n"
+"\n"
+"Mal consegui voltar para dentro antes de um deles ter saltado. A minha perna "
+"está pior agora, e não tenho mais nada para a ligar.\n"
+"\n"
+"A fome aperta-me. Tentei pescar, mas os ganchos nesta cabine estão "
+"enferrujados, a linha é muito fraca. Há redes antigas, mas eu não tenho "
+"força para colocá-las.\n"
+"\n"
+"Amanhã, vou tentar outra vez. Tenho de o fazer."
 
 #: conversationlist_mt_galmore2.json:galmore_66_house_journal_2:0
 msgid "This is mildly interesting. Let's read the next page."
@@ -72301,6 +72331,18 @@ msgid ""
 "\n"
 "I dreamed of the Heartstone. Of its glow deep in the dark, pulsing like a dying heart. We bled for it, all of us. Bent our backs, broke our bodies. They say it fuels the forges of kings, but to us, it was nothing but suffering. I wonder if the others still dig, still rot in the depths of Undertell. Or if they, too, have tried to flee and perished in the dark."
 msgstr ""
+"Dia 3\n"
+"O frio entrou pelos meus ossos ontem à noite. É mais frio aqui do que nas "
+"minas, embora lá tivemos fogo - se escavamos o suficiente, se obedecêssemos. "
+"As minhas mãos tremem demais para escrever corretamente. Eu parti as tábuas "
+"soltas, esperando por madeira seca, mas faz pouco para aquecer este lugar.\n"
+"\n"
+"Sonhei com a Pedra do Coração. Com o seu brilho profundo no escuro, pulsando "
+"como um coração moribundo. Nós sangrámos por isso, todos nós. Dobrámos as "
+"costas, quebrámos os corpos. Dizem que alimenta as forjas dos reis, mas para "
+"nós, não foi nada para além de sofrimento. Pergunto-me se os outros ainda "
+"cavam, ainda apodrecem nas profundezas de Undertell. Ou se eles, também, "
+"tentaram fugir e morreram no escuro."
 
 #: conversationlist_mt_galmore2.json:galmore_66_house_journal_3:0
 msgid "This is getting better. Let's read the next page."
