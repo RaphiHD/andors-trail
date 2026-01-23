@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-01-21 23:01+0000\n"
+"PO-Revision-Date: 2026-01-24 00:23+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -55926,39 +55926,39 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s
 msgid "Please don't hurt me. I am starving."
-msgstr ""
+msgstr "Por favor, não me magoes. Estou esfomeado."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:2
 msgid "Starving? I have some cheese for you here."
-msgstr ""
+msgstr "Esfomeado? Tenho queijo para ti aqui."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:3
 msgid "Starving? I have some good cheddar from Charwood for you here."
-msgstr ""
+msgstr "Esfomeado? Tenho um bom cheddar de Charwood para ti aqui."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:4
 msgid "Starving? I have some moldy blue cheese for you here."
-msgstr ""
+msgstr "Esfomeado? Tenho queijo azul bolorento para ti aqui."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:5
 msgid "Starving? I have some goat cheese for you here. It smells only slightly."
-msgstr ""
+msgstr "Esfomeado? Tenho queijo de cabra para ti aqui. Só cheira um pouquinho."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_1s:6
 msgid "Starving? Sorry, I have no cheese for you."
-msgstr ""
+msgstr "Esfomeado? Desculpa, não tenho queijo para ti."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_2
 msgid "Fraedro, good sir. Please don't hurt me."
-msgstr ""
+msgstr "Fraedro, bom senhor. Por favor, não me magoe."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_2:0
 msgid "Ah, that's why you're so heavily guarded."
-msgstr ""
+msgstr "Ah, é por isso que estás tão fortemente guardado."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_4
 msgid "I don't know why I'm being held here. I haven't done anything wrong."
-msgstr ""
+msgstr "Não sei por que estou aqui preso. Não fiz nada de errado."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_4:0
 msgid "Yeah, everyone says that."
@@ -55967,11 +55967,11 @@ msgstr "Sim, todos dizem isso."
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_4:1
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10:1
 msgid "I believe you. Go now, while you can."
-msgstr ""
+msgstr "Acredito em ti. Vai agora, enquanto podes."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10
 msgid "It was not me! It was not me!"
-msgstr ""
+msgstr "Não fui eu! Não fui eu!"
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10:0
 msgid "Finally confess!"
@@ -55979,7 +55979,7 @@ msgstr "Confesse finalmente!"
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_10:2
 msgid "I am going to kill you for your deeds now."
-msgstr ""
+msgstr "Vou matar-te agora pelas tuas acções."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_12
 msgid "Please don't! It was not me!"
@@ -55991,23 +55991,25 @@ msgstr "Morra agora!"
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_12:1
 msgid "Run and live with your guilty conscience."
-msgstr ""
+msgstr "Corre e vive com a tua consciência pesada."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_20
 msgid "What? Thank you, thank you! [Fraedro turns to flee, losing a small golden key in the process]"
 msgstr ""
+"O quê? Obrigado, obrigado! [Fraedro vira-se para fugir, perdendo uma pequena "
+"chave dourada no processo]"
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_20:0
 msgid "You better get out of the area quick."
-msgstr ""
+msgstr "É melhor saires da área rapidamente."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_1
 msgid "Oh, my pleading has been heard. Thanks!"
-msgstr ""
+msgstr "Oh, o meu pedido foi ouvido. Obrigado!"
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_10
 msgid "You must be the rightful heir of King Rah."
-msgstr ""
+msgstr "Deves ser o legítimo herdeiro do Rei Rah."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_12
 #: conversationlist_mt_galmore.json:aidem_camp_defy_84:0
@@ -56017,6 +56019,8 @@ msgstr "Com certeza que sou."
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_20
 msgid "Then you shall get your sword back. I had only borrowed it and taken good care of it."
 msgstr ""
+"Então terás a tua espada de volta. Só a tinha emprestado e tomei bem conta "
+"dela."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_20:0
 msgid "King Rah's sword?"
@@ -56025,6 +56029,8 @@ msgstr "A espada do Rei Rah?"
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_30
 msgid "You'll find it further down in the caves. Say the words 'Veni gladio fidelis'."
 msgstr ""
+"Vais encontrar isso mais para o fundo nas cavernas. Diz as palavras 'Veni "
+"gladio fidelis'."
 
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_30:0
 msgid "I'll try to remember."
@@ -56033,18 +56039,21 @@ msgstr "Vou tentar lembrar-me."
 #: conversationlist_ratdom_npc.json:ratdom_fraedro_cheese_32
 msgid "[Clevred rolls his eyes] He. will. try. to remember. That can only go wrong."
 msgstr ""
+"[Clevred review os olhos] Ele. vai. tentar. lembrar-se. Isso só pode correr "
+"mal."
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_10
 msgid "No tresspassing! What do you want?"
-msgstr ""
+msgstr "Não podes entrar aqui! O que queres?"
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_10:1
 msgid "Hey, hey - calm down!"
-msgstr ""
+msgstr "Ei, eu - acalma-te!"
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_12
 msgid "No - you can't fool me! You just want to steal my gold! Go away!"
 msgstr ""
+"Não - não me consegues enganar! Só queres roubar o meu ouro! Vai-te embora!"
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_20
 msgid "Leave me alone!"
@@ -56052,19 +56061,19 @@ msgstr "Deixa-me em paz!"
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_20:0
 msgid "May I come to you, so that we could talk a bit?"
-msgstr ""
+msgstr "Posso ir ter contigo para podermos falar um pouco?"
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_20:1
 msgid "Well, I'll leave. May you rot among your gold coins."
-msgstr ""
+msgstr "Vou-me embora. Que apodreças entre as tuas moedas de ouro."
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_30
 msgid "Don't you dare! Put a foot into the water and you are dead!"
-msgstr ""
+msgstr "Não te atrevas! Põe um pé na água e estarás morto!"
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_30:0
 msgid "But how did you get onto your little isle?"
-msgstr ""
+msgstr "Mas como é que foste para a tua pequena ilha?"
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_30:1
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_40:0
@@ -56073,11 +56082,12 @@ msgstr "Chega. Diverte-te."
 
 #: conversationlist_ratdom_npc.json:ratdom_goldhunter_talk_40
 msgid "You would like to know, he? But I won't tell you!"
-msgstr ""
+msgstr "Gostavas de saber, é? Mas não te vou dizer!"
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_10
+#, fuzzy
 msgid "Hi $playername. I am watching you."
-msgstr ""
+msgstr "Olá $playername. Estou a observar-te."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_200
 msgid "Hi $playername. Well done."
@@ -56085,19 +56095,19 @@ msgstr "Oi, $playername. Bem feito."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_202
 msgid "Hi $playername. I am not amused with what you have done."
-msgstr ""
+msgstr "Olá $playername. Não estou contente com o que fizeste."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_204
 msgid "You released Fraedro. You should have killed him or left him in custody."
-msgstr ""
+msgstr "Libertaste o Fraedro. Devias tê-lo morto ou deixá-lo sob custódia."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_204:0
 msgid "I think Fraedro is absolutely innocent."
-msgstr ""
+msgstr "Acho que o Fraedro é absolutamente inocente."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_206
 msgid "My plan was that Fraedro should be sentenced to death."
-msgstr ""
+msgstr "O meu plano era que o Fraedro fosse condenado à morte."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_206:0
 msgid "Really - why?"
@@ -56105,11 +56115,12 @@ msgstr "A sério - porquê?"
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_210
 msgid "Killing Fraedro. I loved to see that."
-msgstr ""
+msgstr "Matar o Fraedro. Eu adorava ver isso."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_220
 msgid "He deserved death, yes. But not because of the stupid skeleton of Rah."
 msgstr ""
+"Ele merecia a morte, sim. Mas não por causa do estúpido esqueleto de Rah."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_220:0
 msgid "Not? Now I'm confused."
@@ -56118,14 +56129,18 @@ msgstr "Não? Agora estou confuso."
 #: conversationlist_ratdom_npc.json:ratdom_kriih_230
 msgid "Of course not. As if Fraedro could. He's far too good a rat to do such a thing."
 msgstr ""
+"Claro que não. Como se o Fraedro pudesse. Ele é demasiado bom para fazer tal "
+"coisa."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_240
 msgid "I took the skeleton myself and scattered the pieces so that no one would find them."
 msgstr ""
+"Levei eu mesmo o esqueleto e espalhei as peças para que ninguém as "
+"encontrasse."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_250
 msgid "And then I blamed it on my cousin Fraedro."
-msgstr ""
+msgstr "E depois culpei o meu primo Fraedro."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_250:0
 msgid "How mean!"
@@ -56137,7 +56152,7 @@ msgstr "Hahaha! És engraçado!"
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_260:0
 msgid "Why did you do that? He's your cousin."
-msgstr ""
+msgstr "Porque fizeste isso? Ele é teu primo."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_270
 msgid "Yes, yes. But he got in my way."
