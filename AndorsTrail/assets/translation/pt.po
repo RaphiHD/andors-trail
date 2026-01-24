@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-01-24 00:23+0000\n"
+"PO-Revision-Date: 2026-01-25 07:39+0000\n"
 "Last-Translator: gt <1sf6l7x9a@mozmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/pt/>\n"
@@ -56347,11 +56347,12 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_04
 msgid "We rats took over this village. I am Gruiik, their leader."
-msgstr ""
+msgstr "Os ratos tomaram conta desta aldeia. Sou Gruiik, o líder deles."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10
 msgid "However, there are two-legs running around in my garden again. Go and kill them."
 msgstr ""
+"No entanto, há duas-pernas a correr no meu jardim novamente. Vai e mata-os."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10:0
 msgid "I'll have a look."
@@ -56359,11 +56360,11 @@ msgstr "Vou dar uma vista de olhos."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10:1
 msgid "I would never do that!"
-msgstr ""
+msgstr "Eu nunca faria isso!"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_10
 msgid "And I am hungry. Go to the town hall and bring me some bread."
-msgstr ""
+msgstr "E tenho fome. Vai à câmara municipal e traz-me algum pão."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_10:2
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_70:2
@@ -56394,11 +56395,11 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:3
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:4
 msgid "(lie) I killed Mara and Tharal in the garden for you."
-msgstr ""
+msgstr "(mentir) Matei a Mara e o Tharal no jardim para ti."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_70
 msgid "Where is my bread? Why does it need to take so long?"
-msgstr ""
+msgstr "Onde está o meu pão? Porque precisa de demorar tanto?"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_70:0
 msgid "Just a minute."
@@ -56406,156 +56407,168 @@ msgstr "Só um minuto."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_70:3
 msgid "Hey - I have brought some bread already."
-msgstr ""
+msgstr "Ei - Eu já tinha trazido algum pão."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_80
 msgid "Good! Now I don't need you anymore!"
-msgstr ""
+msgstr "Óptimo! Agora já não preciso de ti!"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_80:1
 msgid "I would have gone anyway."
-msgstr ""
+msgstr "Eu teria ido embora na mesma."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_90
 msgid "The huge rat ignores you now."
-msgstr ""
+msgstr "O enorme rato ignora-te agora."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat
 msgid "This is my bed - go away!"
-msgstr ""
+msgstr "Esta é a minha cama - vai-te embora!"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:0
 msgid "How do I get out of here?"
-msgstr ""
+msgstr "Como é que saio daqui?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:1
 msgid "Where would I find this yellow artifact thing?"
-msgstr ""
+msgstr "Onde é que eu encontraria esta coisa do artefacto amarelo?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:2
 #: conversationlist_ratdom_npc.json:ratdom_rat_52:1
 msgid "There is a nice new statue in the cave."
-msgstr ""
+msgstr "Há uma bela estátua nova na caverna."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:3
 msgid "I tried to pass by Andor's statue, but there is not enough space."
-msgstr ""
+msgstr "Tentei passar pela estátua do Andor, mas não há espaço suficiente."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:4
 msgid "Look! I have a pickaxe now."
-msgstr ""
+msgstr "Olha! Agora tenho uma picareta."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:5
 msgid "There is a little bone shaped hole in the wall behind the statue. What shall I do now?"
 msgstr ""
+"Há um pequeno buraco em forma de osso na parede atrás da estátua. O que devo "
+"fazer agora?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:6
 msgid "I found a dark deep passage behind our supply cave."
 msgstr ""
+"Encontrei uma passagem profunda e escura atrás da nossa caverna de "
+"mantimentos."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:7
 msgid "Will I ever be able to use my bed again? Sigh."
-msgstr ""
+msgstr "Alguma vez poderei voltar a usar a minha cama? Suspiro."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat:8
 msgid "Clevred, I give up. You must search for your powerful artifact alone."
-msgstr ""
+msgstr "Clevred, desisto. Tens de procurar pelo teu poderoso artefacto sozinho."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10
 msgid "I know the way out, of course. Rats always know the way out."
-msgstr ""
+msgstr "Eu sei o caminho de saída, claro. Os ratos sabem sempre onde é a saída."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10:0
 msgid "Great. Show me the way out of this rat infested place here."
-msgstr ""
+msgstr "Óptimo. Mostra-me a saída deste sítio infestado de ratos."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10_10
 msgid "Sure. You must do me a favor first. Help me to find a yellow, round artifact. Then I'll show you the exit."
 msgstr ""
+"Claro. Primeiro tens de me fazer um favor. Ajuda-me a encontrar um artefacto "
+"amarelo e redondo. Então eu mostro-te a saída."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_10_10:0
 msgid "A yellow round artifact? Where would I find this thing?"
-msgstr ""
+msgstr "Um artefacto redondo e amarelo? Onde encontraria esta coisa?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_50
 msgid "Thing! Don't call it just 'thing'! It is a great marvel in our world!"
-msgstr ""
+msgstr "Coisa! Não lhe chames \"coisa\". É uma grande maravilha no nosso mundo!"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_50:0
 msgid "If you say so. And where is this marvel?"
-msgstr ""
+msgstr "Se tu o dizes. E onde está esta maravilha?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_52
 msgid "It is deep in the rat cave, of course. Use your eyes."
-msgstr ""
+msgstr "Está no fundo da caverna de ratos, claro. Usa os teus olhos."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_52:0
 msgid "In our supply cave? That should be easy."
-msgstr ""
+msgstr "Na nossa gruta de mantimentos? Deve ser fácil."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_60
 msgid "Yes. The artifact must be behind this statue. Did you look there?"
-msgstr ""
+msgstr "Sim. O artefato deve estar atrás desta estátua. Olhaste lá?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_60:0
 msgid "Not yet. I didn't even know there was a statue in our supply cave. How long has it been there?"
 msgstr ""
+"Ainda não. Nem sabia que havia uma estátua na nossa caverna. Há quanto tempo "
+"está lá?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_60_10
 msgid "We erected the statue in honor of Andor for never killing rats."
-msgstr ""
+msgstr "Nós erguemos a estátua em honra de Andor por nunca matar ratos."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_60_10:0
 msgid "OK. I'll have a look behind the statue."
-msgstr ""
+msgstr "Está bem. Vou dar uma olhadela atrás da estátua."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_60_10:1
 msgid "How do I pass by the statue?"
-msgstr ""
+msgstr "Como posso passar pela estátua?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_70
 msgid "Probably you are too fat to get by. Tear the statue down. But don't tell any rat that I said so."
 msgstr ""
+"Provavelmente és demasiado gordo para passar. Deita a estátua abaixo. Mas "
+"não digas a nenhum rato que eu disse isto."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_70:0
 msgid "It's a pity to destroy such a beautiful statue."
-msgstr ""
+msgstr "É uma pena destruir uma estátua tão bonita."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_70_10
 msgid "Hmm. I had better accompany you. I think it would be wise to keep an eye on you."
-msgstr ""
+msgstr "É melhor acompanhar-te. Acho que seria sensato ficar de olho em ti."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_80
 msgid "The statue is well built. You'll probably need a pickaxe to tear it down."
 msgstr ""
+"A estátua está bem construída. Deves precisar de um picareta para a destruir."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_80:0
 msgid "Where would I get a pickaxe?"
-msgstr ""
+msgstr "Onde arranjaria uma picareta?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_80_10
 msgid "Oh dear - I can't believe it! Are you really that stupid?"
-msgstr ""
+msgstr "Oh meu - Não acredito! És mesmo assim tão estúpido?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_80_20
 msgid "Think for yourself; where are pickaxes supposed to be?"
-msgstr ""
+msgstr "Penae por ti mesmo; onde é suposto estarem as picaretas?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_82
 msgid "Then why didn't you tried to get behind the statue yet?"
-msgstr ""
+msgstr "Então porque não tentaste passar atrás da estátua?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_90
 msgid "In the shape of bones? That is a key hole, of course!"
-msgstr ""
+msgstr "Na forma de ossos? Isso é um buraco de  chave, claro!"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_90_10
 msgid "Now, let's find out where Gruiik stores his bone supply."
 msgstr ""
+"Agora, vamos descobrir onde o Gruiik armazena o seu suprimento de ossos."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_100
 msgid "I hope  you have finally found my artifact?"
-msgstr ""
+msgstr "Espero que finalmente tenhas encontrado o meu artefacto?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_100:0
 msgid "Eh, no, not yet."
@@ -56563,7 +56576,7 @@ msgstr "Não, ainda não."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_200
 msgid "NO! You want to leave me alone in this huge maze?"
-msgstr ""
+msgstr "NÃO! Queres deixar-me sozinho neste enorme labirinto?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_200:0
 msgid "Eh, of course not."
