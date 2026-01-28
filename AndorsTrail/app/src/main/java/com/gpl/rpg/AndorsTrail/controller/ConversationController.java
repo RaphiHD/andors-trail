@@ -229,6 +229,9 @@ public final class ConversationController {
 			case 10:
 				player.replaceIcon(TileManager.CHAR_HERO_SHIP);
 				break;
+			case 11:
+				player.replaceIcon(TileManager.CHAR_HERO_SHEEP);
+				break;
 			case 999:
 				player.replaceIcon(player.iconID);
 				break;
