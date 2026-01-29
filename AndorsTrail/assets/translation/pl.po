@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
 "PO-Revision-Date: 2026-01-30 07:01+0000\n"
-"Last-Translator: Filip <filip987654321a@gmail.com>\n"
+"Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/game-"
 "content/pl/>\n"
 "Language: pl\n"
@@ -731,9 +731,10 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
-"[REVIEW]Naprawdę? To wspaniale,wielkie dzięki za pomoc!\n"
+"Naprawdę? To wspaniale, bardzo dziękuję Ci za pomoc! Proszę, weź tarczę "
+"treningową Andora - może Ci się przydać.\n"
 "\n"
-"Jak jesteś ranny to wykorzystaj swoje łóżko aby odpocząć i odzyskać siły."
+"Jak jesteś ranny to skorzystaj ze swojego łóżka aby odpocząć i odzyskać siły."
 
 #: conversationlist_mikhail.json:mikhail_rats_complete2
 msgid ""
@@ -1078,9 +1079,10 @@ msgid ""
 "\n"
 "I'm Leonid, steward of Crossglen village."
 msgstr ""
-"[REVIEW]Cześc mały. Nie jesteś przypadkiem synem Mikhaila? Z tym Twoim bratem.\n"
+"Cześc młody. Nie jesteś przypadkiem najmłodszym synem Mikhaila? I masz brata "
+"z tego co pamiętam.\n"
 "\n"
-"Jestem Leonid zarządca wioski Crossglen."
+"Jestem Leonid, zarządca wioski Crossglen."
 
 #: conversationlist_crossglen_leonid.json:leonid1:1
 #: conversationlist_crossglen_leonid.json:leonid_continue:1
@@ -2144,7 +2146,7 @@ msgstr "Nie, nie mogę Ci powiedzieć. A teraz proszę odejdź."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_no
 msgid "Wh, what? No, I don't know anything about that."
-msgstr "Cc... CO? Nie, nic o tym nie wiem."
+msgstr "Że co? Nie, ja nic nie wiem na ten temat."
 
 #: conversationlist_fallhaven_bucus.json:bucus_umar_1
 msgid "OK kid. You've proven yourself to me. Yes, I saw some other kid by that description running around here a few days ago."
@@ -2899,7 +2901,9 @@ msgstr "Undertell? Czy tam znajdę Krwisty Kamień?"
 #: conversationlist_fallhaven_nocmar.json:nocmar_quest_4
 #: conversationlist_mt_galmore2.json:nocmar_quest_4a
 msgid "Undertell; the pits of the lost souls. Travel south to the devastated wastelands of Galmore Mountain and follow the tracks from there."
-msgstr "[OUTDATED]Undertell; otchłań zagubionych dusz. Podróżuj na południe i wejdź do grot wydrążonych przez krasnoludy. Podążaj za straszliwym smrodem, który się stamtąd dobywa."
+msgstr ""
+"Undertell; otchłań zagubionych dusz. Udaj się na południe, w spustoszone "
+"okolice Gory Galmore tam szukaj dalszych wskazówek."
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_quest_5
 msgid "Beware the liches of Undertell, if they are still around. Those things can kill you by their gaze alone."
@@ -3197,7 +3201,7 @@ msgstr "Nie, oddasz mi tę książkę."
 
 #: conversationlist_fallhaven_larcal.json:larcal_4
 msgid "Good, now run away."
-msgstr "[REVIEW]Dobry chłopiec. A teraz zmykaj."
+msgstr "Dobrze. A teraz zmykaj stąd."
 
 #: conversationlist_fallhaven_larcal.json:larcal_5
 msgid "OK, now you're starting to annoy me, kid. Get lost while you still can."
