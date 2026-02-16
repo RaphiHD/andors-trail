@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-02-09 05:22+0000\n"
+"PO-Revision-Date: 2026-02-17 11:09+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/game-"
 "content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.16\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -50406,7 +50406,7 @@ msgstr "Czy wiesz może gdzie przebywa zagubiony podróżnik?"
 
 #: conversationlist_sullengard.json:sullengard_godrey_10:3
 msgid "Where I can find Celdar?"
-msgstr ""
+msgstr "Gdzie mogę znaleźć Celdarę?"
 
 #: conversationlist_sullengard.json:sullengard_godrey_20
 msgid "Yes, I do, but it's going to cost you more than you may be expecting."
@@ -53123,6 +53123,8 @@ msgstr "Tak naprawdę to jestem tutaj, ponieważ kogoś szukam... Mojego brata."
 #: conversationlist_sullengard.json:sullengard_citizen_0:2
 msgid "I was hoping that you knew where I can find Celdar? I was told that this is her hometown."
 msgstr ""
+"Mam nadzieję, że wiesz gdzie mogę odnaleźć Celdarę? Powiedziano mi, że to "
+"jest jej rodzinne miasto."
 
 #: conversationlist_sullengard.json:sullengard_citizen_festival
 msgid "Well in that case, you are a couple of weeks early."
@@ -53197,7 +53199,7 @@ msgstr "Wynoś się. Nie wracaj tu dopóki nie dowiesz się co oznacza szacunek.
 #: conversationlist_sullengard.json:mg2_kealwea_2
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_2
 msgid "You saw it too, didn't you?"
-msgstr ""
+msgstr "Ty też to widziałeś, prawda?"
 
 #: conversationlist_sullengard.json:mg2_kealwea_2:2
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_2:2
@@ -53243,26 +53245,28 @@ msgstr "Dziesięć języków światła, a każdy z nich migocze na przekór otac
 #: conversationlist_sullengard.json:mg2_kealwea_11
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_11
 msgid "How do you know?!"
-msgstr ""
+msgstr "Skąd to wiesz?!"
 
 #: conversationlist_sullengard.json:mg2_kealwea_11:0
 msgid "Teccow, a stargazer in Stoutford, told me so. Now go on."
-msgstr ""
+msgstr "Teccow, astronom ze Stoutford mi to powiedział. A teraz kontynuuj."
 
 #: conversationlist_sullengard.json:mg2_kealwea_12
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_12
 msgid "I can feel it."
-msgstr ""
+msgstr "Czuję to."
 
 #: conversationlist_sullengard.json:mg2_kealwea_12:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_12:0
 msgid "You can feel that there are ten? Wow."
-msgstr ""
+msgstr "A więc czujesz, że jest ich dziesięć? Nieźle."
 
 #: conversationlist_sullengard.json:mg2_kealwea_14
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_14
 msgid "[Ominous voice] In The Ash I Saw Them - Ten Tongues Of Light, Each Flickering In Defiance Of The Dark."
 msgstr ""
+"[Złowieszczym głosem] Widziałem Je W Popiołach - Dziesięć Języków Światła, A "
+"Każdy Z Nich Migocze Na Przekór Ciemności."
 
 #: conversationlist_sullengard.json:mg2_kealwea_15
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_15
@@ -53312,11 +53316,11 @@ msgstr ""
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:0
 msgid "I haven't found any pieces yet."
-msgstr ""
+msgstr "Jeszcze nie odnalazłem żadnego z fragmentów."
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:1
 msgid "Here I have some pieces already."
-msgstr ""
+msgstr "Mam przy sobie kilka fragmentów."
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:2
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_20:2
@@ -53326,7 +53330,7 @@ msgstr "Mogę dać Ci połowę z nich - czyli pięć fragmentów."
 #: conversationlist_sullengard.json:mg2_kealwea_20:3
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_20:3
 msgid "I might give you the rest of them - five pieces."
-msgstr ""
+msgstr "Mogę dać Ci pozostałych pięć fragmentów."
 
 #: conversationlist_sullengard.json:mg2_kealwea_20:4
 msgid "I have found all of the ten pieces."
@@ -61522,44 +61526,54 @@ msgstr ""
 
 #: conversationlist_laeroth.json:moriath_7_1
 msgid "Yes, probably you are right."
-msgstr ""
+msgstr "Tak, prawdopodobnie masz rację."
 
 #: conversationlist_laeroth.json:moriath_9_1
 msgid "Thank you. I will do that if it releases me from the oath. I will do it immediately. Farewell, and thanks again."
 msgstr ""
+"Dziękuję. Zrobię to najszybciej jak tylko się da, jeśli dzięki temu uwolnię "
+"się od przysięgi. Żegnam i jeszcze raz dziękuję."
 
 #: conversationlist_laeroth.json:nightstand_search_1
 msgid "You found a ring with \"V\" engraved on it. This should work."
 msgstr ""
+"Znalazłeś pierścień z wygrawerowana literą ”V”. Teraz wszystko powinno "
+"zadziałać."
 
 #: conversationlist_laeroth.json:nightstand_search_2
 msgid "I have found a smalled jeweled key that looks like it will fit Adakin's diary."
 msgstr ""
+"Znalazłem mały kluczyk z klejnotem wyglądający tak, jakby miał pasować do "
+"pamiętnika Adakina."
 
 #: conversationlist_laeroth.json:verigil_script_0
 #: conversationlist_laeroth.json:verigil_script_1
 msgid "Here lies Verigil, Ninth Lord of Laeroth."
-msgstr ""
+msgstr "Tu spoczywa Verigil, Dziewiąty Władca Laeroth."
 
 #: conversationlist_laeroth.json:verigil_script_1:0
 msgid "Place Verigil's ring on the tomb."
-msgstr ""
+msgstr "Połóż pierścień Verigila na grobie."
 
 #: conversationlist_laeroth.json:verigil_script_2a
 msgid "You place an oegyth crystal and Verigil's signet ring on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Kładziesz kryształ Oegyth oraz pierścień Verigila na grobie śpiewając przy "
+"tym ”iseray iritspay”"
 
 #: conversationlist_laeroth.json:verigil_0
 msgid "Who dares to disturb my rest?"
-msgstr ""
+msgstr "Kto śmie zakłócać mój spokój?"
 
 #: conversationlist_laeroth.json:verigil_0:0
 msgid "I am $playername. Sorry to disturb you, but I need some help."
 msgstr ""
+"Jestem $playername. Przepraszam najmocniej, że przeszkadzam, ale pilnie "
+"potrzebuję pomocy."
 
 #: conversationlist_laeroth.json:verigil_1
 msgid "With what?"
-msgstr ""
+msgstr "Jakiej znowu pomocy?"
 
 #: conversationlist_laeroth.json:verigil_1:0
 msgid "Your son has left Laeroth, and his whereabouts are unknown. However, the caretaker remains, bound by an oath to look after the manor. I ask that you release him from the oath."
@@ -76389,7 +76403,9 @@ msgstr "Borowik pospolity"
 
 #: itemlist_omi2.json:elm_mushroom1:description
 msgid "Rare mushroom only found in caves with high humidity and  temperature."
-msgstr "Rzadki grzyb występujący tylko w jaskiniach o wysokiej wilgotności i temperaturze."
+msgstr ""
+"Rzadko spotykany grzyb występujący tylko w jaskiniach o wysokiej wilgotności "
+"i temperaturze."
 
 #: itemlist_omi2.json:mace2
 msgid "Elm steel mace"
@@ -76405,11 +76421,11 @@ msgstr "Duża skała"
 
 #: itemlist_omi2.json:armor6
 msgid "Dented bronze plate"
-msgstr "Wgnieciona płytka z brązu"
+msgstr "Pogięta zbroja z brązu"
 
 #: itemlist_omi2.json:armor6:description
 msgid "This armor has definitely seen better days."
-msgstr "Ten pancerz z pewnością widział lepsze dni."
+msgstr "Ta zbroja najlepsze dni ma już za sobą."
 
 #: itemlist_omi2.json:elm4f3_key
 msgid "Cage passkey"
