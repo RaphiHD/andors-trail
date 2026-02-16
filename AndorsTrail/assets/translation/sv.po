@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-12-25 11:00+0000\n"
+"PO-Revision-Date: 2026-02-16 08:29+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:24+0000\n"
 
 #: [none]
@@ -7008,7 +7008,7 @@ msgstr ""
 
 #: conversationlist_wrye.json:wrye_mourn_3:0
 msgid "Outsider?"
-msgstr ""
+msgstr "Utomstående?"
 
 #: conversationlist_wrye.json:wrye_mourn_4
 msgid ""
@@ -7202,7 +7202,7 @@ msgstr ""
 
 #: conversationlist_wrye.json:wrye_resolved_4
 msgid "Attacked?"
-msgstr ""
+msgstr "Attackerad?"
 
 #: conversationlist_wrye.json:wrye_resolved_4:0
 msgid "Yes, he could not stand up to the monsters, and was critically wounded."
@@ -8509,7 +8509,7 @@ msgstr ""
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest3
 msgid "*grumbles*"
-msgstr ""
+msgstr "*muttrar*"
 
 #: conversationlist_prim_tavern.json:prim_tavern_guest4
 msgid "Claws. Scratching."
@@ -11209,7 +11209,7 @@ msgstr ""
 #: conversationlist_guynmart2_npc.json:guynmart_sheep_10
 #: conversationlist_guynmart2_npc.json:guynmart_sheep_10:0
 msgid "Baah!"
-msgstr ""
+msgstr "Äsch!"
 
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep1_n:0
 #: conversationlist_tinlyn_sheep.json:tinlyn_lostsheep2_n:0
@@ -11714,7 +11714,7 @@ msgstr ""
 
 #: conversationlist_rogorn.json:rogorn_henchman_atk:0
 msgid "Fight"
-msgstr ""
+msgstr "Slåss"
 
 #: conversationlist_rogorn.json:rogorn_henchman_noatk
 msgid "Good to hear that there are at least a few people left out there willing to take a stand against Feygard."
@@ -13585,7 +13585,7 @@ msgstr ""
 
 #: conversationlist_pwcave.json:iqhan_boss
 msgid "*wheeze*"
-msgstr ""
+msgstr "*väser*"
 
 #: conversationlist_pwcave.json:iqhan_boss_1
 msgid "[The figure points its finger towards you, in what looks to be an order for the nearby thralls to attack you]"
@@ -20665,7 +20665,7 @@ msgstr ""
 #: conversationlist_troubling_times.json:fanamor_tt_30:0
 #: conversationlist_troubling_times.json:fanamor_tt_30:1
 msgid "Vilegard?"
-msgstr ""
+msgstr "Vilegard?"
 
 #: conversationlist_lodar.json:lodar_xul3
 msgid "Vilegard - yes, that's the place. You should go see the smith there. He might be able to guide you further."
@@ -71777,7 +71777,7 @@ msgstr ""
 
 #: itemcategories_1.json:lsword
 msgid "Longsword"
-msgstr ""
+msgstr "Långt svärd"
 
 #: itemcategories_1.json:2hsword
 msgid "Two-handed sword"
@@ -71785,7 +71785,7 @@ msgstr ""
 
 #: itemcategories_1.json:bsword
 msgid "Broadsword"
-msgstr ""
+msgstr "Brett svärd"
 
 #: itemcategories_1.json:axe
 msgid "Axe"
@@ -71793,7 +71793,7 @@ msgstr "Yxa"
 
 #: itemcategories_1.json:axe2h
 msgid "Greataxe"
-msgstr ""
+msgstr "Stor yxa"
 
 #: itemcategories_1.json:club
 msgid "Club"
@@ -71948,11 +71948,11 @@ msgstr "Mat"
 
 #: itemcategories_1.json:drink
 msgid "Drink"
-msgstr ""
+msgstr "Dricka"
 
 #: itemcategories_1.json:gem
 msgid "Gem"
-msgstr ""
+msgstr "Ädelsten"
 
 #: itemcategories_1.json:animal
 msgid "Animal part"
