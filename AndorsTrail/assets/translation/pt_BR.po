@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
 "PO-Revision-Date: 2026-02-18 21:08+0000\n"
-"Last-Translator: ArthurJGA <arthurjesusga@gmail.com>\n"
+"Last-Translator: Gabriel Augusto Silva <gabriloq@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -1087,9 +1087,10 @@ msgid ""
 "\n"
 "I'm Leonid, steward of Crossglen village."
 msgstr ""
-"[REVIEW]Olá criança. Você é filho do Mikhail, não é? Com aquele seu irmão.\n"
+"Olá criança. Você é filho mais novo de Mikhail, não é? Com aquele seu "
+"irmão.\n"
 "\n"
-" Eu sou Leonid, taifeiro de Crossglen."
+"Eu sou Leonid, administrador do vilarejo de Crossglen."
 
 #: conversationlist_crossglen_leonid.json:leonid1:1
 #: conversationlist_crossglen_leonid.json:leonid_continue:1
@@ -2908,7 +2909,9 @@ msgstr "Undertell? É lá que posso achar uma Heartstone?"
 #: conversationlist_fallhaven_nocmar.json:nocmar_quest_4
 #: conversationlist_mt_galmore2.json:nocmar_quest_4a
 msgid "Undertell; the pits of the lost souls. Travel south to the devastated wastelands of Galmore Mountain and follow the tracks from there."
-msgstr "[OUTDATED]Undertell são os poços das almas perdidas. Viaje para o sul e entre nas cavernas dos Anões. Siga o cheiro horrível que existe por lá."
+msgstr ""
+"Undertell; os abismos das almas perdidas. Viaje para o sul das terras "
+"devastadas de Galmore e siga os rastros dali."
 
 #: conversationlist_fallhaven_nocmar.json:nocmar_quest_5
 msgid "Beware the liches of Undertell, if they are still around. Those things can kill you by their gaze alone."
@@ -3206,7 +3209,7 @@ msgstr "Não, você vai me dar aquele livro."
 
 #: conversationlist_fallhaven_larcal.json:larcal_4
 msgid "Good, now run away."
-msgstr "[REVIEW]Bom menino. Agora fuja."
+msgstr "Ótimo, agora fuja."
 
 #: conversationlist_fallhaven_larcal.json:larcal_5
 msgid "OK, now you're starting to annoy me, kid. Get lost while you still can."
@@ -3991,7 +3994,10 @@ msgstr "Ah, as coisas que eles fizeram para mim. Muito obrigado por me libertar.
 
 #: conversationlist_flagstone.json:narael_3
 msgid "I was once a citizen in Nor City, during which time some men wanted to open the mines under Mt Galmore again, and like the fool that I am I signed up for the promise of riches."
-msgstr "[OUTDATED]Eu era um cidadão de Nor City, e trabalhei na escavação do Monte Galmore."
+msgstr ""
+"Eu era um cidadão da cidade de Nor, durante a época em que alguns homens "
+"ainda queriam abrir minas em baixo do monte Galmore novamente e como o tolo "
+"que eu sou, eu também fui em busca dessa promessa de riquesas."
 
 #: conversationlist_flagstone.json:narael_4
 msgid "After a while, the day came when I wanted to quit the assignment and return to my wife."
@@ -3999,7 +4005,9 @@ msgstr "Mas um dia eu quis parar a tarefa e voltar para a minha esposa."
 
 #: conversationlist_flagstone.json:narael_5
 msgid "The officer in charge would not let me, and out of malice he threw me in a cell here in the old prison of Flagstone for disobeying his orders."
-msgstr "[OUTDATED]O oficial encarregado não me deixou, e fui enviado para Flagstone como prisioneiro por desobedecer ordens."
+msgstr ""
+"O oficial encarregado não me deixou e por pura malícia, ele me jogou dentro "
+"da cela na velha prisão de Flagstone por desobedecer as suas ordens."
 
 #: conversationlist_flagstone.json:narael_6
 msgid "If only I could see my wife once more. I have hardly any life left in me, and I don't even have enough strength to leave this place."
@@ -20827,7 +20835,7 @@ msgstr "No corpo do Hira'zinn, encontrei essa espada peculiar. Você sabe alguma
 
 #: conversationlist_lodar.json:lodar_d1:3
 msgid "What was that Hira'zinn beast?"
-msgstr "O QUER?! aquela a besta Hira'zinn?"
+msgstr "O que era aquela besta em Hira'zinn?"
 
 #: conversationlist_lodar.json:lodar_d1:4
 msgid "I have come to find you. I am looking for my brother Andor."
@@ -23382,7 +23390,9 @@ msgstr "Por que ele não quer fazer este trabalho?"
 
 #: conversationlist_pathway_fallhaven.json:guard_pathway_2
 msgid "You're really curious kid... Well our superior, the guard captain, only wants to pay the woodcutter when he has done his work."
-msgstr "[REVIEW]Você é realmente curioso criança... Bem, nosso superior, o Guardião, só quer pagar ao lenhador quando ele fizer o trabalho."
+msgstr ""
+"Você é realmente curioso criança... Bem, nosso superior, o capitão da "
+"guarda, só quer pagar ao lenhador quando ele terminar o trabalho."
 
 #: conversationlist_pathway_fallhaven.json:guard_pathway_2:0
 msgid "Maybe I could help?"
@@ -26576,7 +26586,7 @@ msgstr "Então pegue essa flauta e cuide bem dela."
 #: conversationlist_omi2.json:ortholion_12:0
 #: conversationlist_lytwings.json:arensia_lytwing_8:0
 msgid "I will."
-msgstr "[REVIEW]Isto não é um labirinto, eu vou."
+msgstr "Eu vou."
 
 #: conversationlist_guynmart_npc.json:guynmart_hannah2_12
 #: conversationlist_guynmart_npc.json:guynmart_steward5_12
@@ -28261,7 +28271,7 @@ msgid ""
 "* D A N G E R *\n"
 "Do not enter the fog!"
 msgstr ""
-"*PERIGO!* \n"
+"* P E R I G O * \n"
 "Não adentre á névoa!"
 
 #: conversationlist_guynmart2_npc.json:guynmart_robber1_12
@@ -30776,7 +30786,12 @@ msgstr "Mas o sucesso deles não durou muito. Dizem que depois de alguns anos ho
 
 #: conversationlist_stoutford_combined.json:yolgen_surroundings_2c
 msgid "However, recently more and more of the most foul monsters are coming from the mountain and we have to fend them off. There are rumors that the mines are once gain being worked. If true, that is very foolish, and dangerous. With the rise of undead knights in the castle and Lord Erwyn's demise we struggle more and more."
-msgstr "[OUTDATED]No entanto, recentemente, mais e mais monstros imundos estão vindo da montanha e temos que afastá-los. Com o surgimento de cavaleiros mortos-vivos no castelo e a morte de Lord Erwyn, lutamos cada vez mais."
+msgstr ""
+"No entanto, recentemente, mais e mais monstros imundos estão vindo da "
+"montanha e temos que afastá-los. Existem rumores de que estão trabalhando "
+"nas minas novamente. Se isso for verdade, é algo muito estúpido de se fazer, "
+"e perigoso. Com a volta dos cavaleiros morto-vivos no castelo e, com a morte "
+"do Lorde Erwyn, nos só sofremos mais e mais."
 
 #: conversationlist_stoutford_combined.json:yolgen_surroundings_2c:0
 msgid "That sounds dreadful. Can I help you with the castle?"
@@ -31659,7 +31674,7 @@ msgstr "[OUTDATED]NÃO! por favor, não através do portão! eu não irei!"
 
 #: conversationlist_stoutford_combined.json:stn_gyra_52
 msgid "No! Please not to Flagstone! I won't go there!"
-msgstr "NÃO! por favor, não para Flagstone! Eu não irei!"
+msgstr "Não! Por favor, não para Flagstone! Eu não irei!"
 
 #: conversationlist_stoutford_combined.json:stn_gyra_110
 msgid "Now I know the way. I run to my dad and tell him the whole story."
@@ -32699,7 +32714,7 @@ msgstr "Desculpe, não tenho mais informações para você."
 
 #: conversationlist_omicronrg9.json:dunla_guild_2b:1
 msgid "Ok, bye."
-msgstr "OK, tchau."
+msgstr "Tudo bem, tchau."
 
 #: conversationlist_omicronrg9.json:fanamor_guild_1
 msgid "Finally! I was getting tired of waiting here killing these beasts ..."
@@ -32827,7 +32842,9 @@ msgstr "Sim, eu sou. Não tenho tempo para brincadeiras!"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_7b
 msgid "I need a bandage quickly, or I will never return to the guild house. A priest might help ..."
-msgstr "[REVIEW]Preciso de um curativo rapidamente, ou nunca voltarei à casa da guilda."
+msgstr ""
+"Preciso de um curativo rapidamente, ou nunca voltarei à casa da guilda. Um "
+"padre poderia me ajudar ..."
 
 #: conversationlist_omicronrg9.json:fanamor_guild_7b:0
 msgid "Yeah, OK."
@@ -36529,7 +36546,9 @@ msgstr "Você deve ter essa impressão mesmo. Mas não é o que parece."
 
 #: conversationlist_burhczyd.json:burhczydx_10a_6
 msgid "You know, once I feasted with the Lord Commander of the Order of Elythom. A very pleasant man."
-msgstr "[REVIEW]Você sabe, uma vez eu banqueteei com o Senhor Comandante de Elythom. Um homem muito agradável."
+msgstr ""
+"Sabe, uma vez eu participei de um banquete com o Senhor Comandante de "
+"Elythom. Um homem muito agradável."
 
 #: conversationlist_burhczyd.json:burhczydx_10a_6a
 msgid "We got merry, and in high spirits I 'borrowed' a few little things from him."
@@ -36589,7 +36608,9 @@ msgstr "Estou muito curioso sobre a história agora. Diga-me como você tem esta
 
 #: conversationlist_burhczyd.json:burhczydx_11a_4
 msgid "Oh that. I got bored playing Knight of the Elythom. I then spread the word that I was walking around dressed as one."
-msgstr "[REVIEW]Oh aquilo. Fiquei entediado jogando Elythom. Então espalhei a notícia de que estava andando por aí disfarçado de Elythom."
+msgstr ""
+"Ah sim, aquilo. Fiquei entediado atuando como um Cavaleiro de Elythom. Então "
+"espalhei a notícia de que estava andando por aí disfarçado como um."
 
 #: conversationlist_burhczyd.json:burhczydx_11a_5
 msgid "They are still searching and now suspect each other! Extremely amusing!"
@@ -47340,7 +47361,7 @@ msgstr "Eu descobrirei toda a verdade sobre isso."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_36c:1
 msgid "I'm determined to solve this."
-msgstr "[REVIEW]Estou determinado a resolver isso de uma vez por todas."
+msgstr "Estou determinado a resolver isso de uma vez por todas."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_36c:3
 msgid "A few gornauds weren't a problem for me. I have nothing to fear from that thin man."
@@ -47702,7 +47723,7 @@ msgstr "Devo verificar a cabana primeiro."
 
 #: conversationlist_omi2.json:prim_tavern_guest4_37d
 msgid "What about that shady guy you mentioned?"
-msgstr "[REVIEW]Hah! E sobre o cara suspeito que você mencionou?"
+msgstr "E aquele cara suspeito que você mencionou?"
 
 #: conversationlist_omi2.json:prim_tavern_guest4_37d:0
 msgid "I no longer collaborate with him."
@@ -48500,15 +48521,19 @@ msgstr "Há um cheiro horrível dentro dessa passagem. Além disso, está comple
 
 #: conversationlist_omi2.json:elm2_passage2_1
 msgid "Fortunately, the miner's lamp shines brightly. But unfortunately, the passage is still collapsed."
-msgstr "[REVIEW]Por sorte a tocha ainda está queimando, mas infelizmente a passagem ainda está desmoronada."
+msgstr ""
+"Por sorte a lâmpada ainda está brilhando bem, mas infelizmente a passagem "
+"ainda está desmoronada."
 
 #: conversationlist_omi2.json:elm2_passage2_2
 msgid "Another pitch black tunnel. This one has an old, consumed miner's lamp on the wall."
-msgstr "[REVIEW]Outro túnel, escuro como um breu. Este tem uma tocha, velha e consumida, na parede."
+msgstr ""
+"Outro túnel, escuro como um breu. Este tem uma lâmpada, velha e usada, na "
+"parede."
 
 #: conversationlist_omi2.json:elm2_passage2_2:0
 msgid "Add fuel to the miner's lamp."
-msgstr "[REVIEW]Substituir por uma tocha acesa."
+msgstr "Adicionar combústivel a lâmpada."
 
 #: conversationlist_omi2.json:elm2_passage2_3
 msgid "A weak fire illuminates the place. The tunnel is collapsed, but there are some trinkets and clothes on the floor."
@@ -49463,7 +49488,9 @@ msgstr "Você é apenas fraco."
 
 #: conversationlist_omi2.json:ortholion_10b
 msgid "I would duel you here and prove you wrong, but this is really no place to talk. These strange creatures don't cease to appear."
-msgstr "[REVIEW]Você pode não estar errado... Mas este não é um lugar para conversar, cheio dessas criaturas estranhas."
+msgstr ""
+"Eu lutaria com você aqui para provar que está errado, mas este não é um "
+"lugar para conversar. Essas criaturas estranhas não param de aparecer."
 
 #: conversationlist_omi2.json:ortholion_10a
 msgid "Did he tell you... *looks around* Better not here."
@@ -49475,7 +49502,9 @@ msgstr "Assustado?"
 
 #: conversationlist_omi2.json:ortholion_11
 msgid "Yes, yes... I'll get out of this cave. Meet me at the entrance of the mine. There is a large dining room. That will suffice."
-msgstr "[REVIEW]Isso é humilhação o suficiente... Vou sair desta caverna. Estarei na entrada da mina."
+msgstr ""
+"Sim, sim... Eu vou sair desta caverna. Me encontre na saída da mina, lá tem "
+"uma grande sala de jantar. Será o suficiente."
 
 #: conversationlist_omi2.json:ortholion_11:0
 msgid "You are of no interest to me. Bye."
@@ -50870,7 +50899,7 @@ msgstr "O que? Mas isso aconteceu ontem."
 
 #: conversationlist_sullengard.json:sullengard_nanette_9
 msgid "Oh hello there, kid. Have you talked to Kealwea the priest yet?"
-msgstr "[REVIEW]Olá, criança. Você já conversou com o padre Kaelwea?"
+msgstr "Olá, criança. Você já conversou com o padre Kaelwea?"
 
 #: conversationlist_sullengard.json:sullengard_nanette_9:0
 msgid "There must be a reason why it happened. But what is it?"
@@ -51702,7 +51731,7 @@ msgstr "Uau."
 
 #: conversationlist_sullengard.json:sullengard_goat_0
 msgid "Baa."
-msgstr "BAA"
+msgstr "Baa."
 
 #: conversationlist_sullengard.json:sullengard_goat_herder_0
 msgid "Hello child. Please leave me be."
@@ -76155,11 +76184,13 @@ msgstr "Um selo com uma marca de safira azul de Feygard."
 
 #: itemlist_omi2.json:torch
 msgid "Miner's lamp fuel"
-msgstr "[REVIEW]Tocha"
+msgstr "Combústivel de lâmpada."
 
 #: itemlist_omi2.json:torch:description
 msgid "Miner's lamp oil with low odor and pollutants. Useful for pitch black tunnels, caves and passages."
-msgstr "[REVIEW]Útil para túneis escuros, cavernas e passagens."
+msgstr ""
+"Óleo de lâmpada com baixo nível de odores e poluentes. Perfeito para túneis, "
+"cavernas ou passages muito escuras."
 
 #: itemlist_omi2.json:gland2
 msgid "Contaminated poison gland"
@@ -81479,7 +81510,7 @@ msgstr "Esfera lombrigal maturada"
 
 #: monsterlist_fungi_panic.json:lombric_ball3
 msgid "Quick lombric ball"
-msgstr "[REVIEW]Esfera lombrigal veloz"
+msgstr "Esfera lombrigal veloz"
 
 #: monsterlist_fungi_panic.json:lombric_beast
 msgid "Lombric beast"
