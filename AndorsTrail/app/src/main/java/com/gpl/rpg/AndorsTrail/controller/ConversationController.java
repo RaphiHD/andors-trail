@@ -3,6 +3,7 @@ package com.gpl.rpg.AndorsTrail.controller;
 import static com.gpl.rpg.AndorsTrail.controller.SkillController.canLevelupSkillWithQuest;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import android.content.res.Resources;
 
@@ -21,6 +22,8 @@ import com.gpl.rpg.AndorsTrail.model.actor.Player;
 import com.gpl.rpg.AndorsTrail.model.conversation.ConversationCollection;
 import com.gpl.rpg.AndorsTrail.model.conversation.Phrase;
 import com.gpl.rpg.AndorsTrail.model.conversation.Reply;
+import com.gpl.rpg.AndorsTrail.model.item.ItemFilter;
+import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.item.ItemTypeCollection;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
@@ -284,12 +287,36 @@ public final class ConversationController {
 				break;
 			case wear:
 			case wearRemove:
-				result =  player.inventory.isWearing(requirement.requireID, requirement.value);
+				if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
+					result = false;
+					if (filter != null) {
+						for (ItemType item : filter.getItemTypes()) {
+							if (player.inventory.isWearing(item.id, requirement.value)) {
+								result = true;
+								break;
+							}
+						}
+					}
+				} else {
+					result =  player.inventory.isWearing(requirement.requireID, requirement.value);
+				}
 				break;
 			case inventoryKeep:
 			case inventoryRemove:
 				if (ItemTypeCollection.isGoldItemType(requirement.requireID)) {
-					result =  player.inventory.gold >= requirement.value;
+					result = player.inventory.gold >= requirement.value;
+				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
+					result = false;
+					if (filter != null) {
+						for (ItemType item : filter.getItemTypes()) {
+							if (player.inventory.hasItem(item.id, requirement.value)) {
+								result = true;
+								break;
+							}
+						}
+					}
 				} else {
 					result =  player.inventory.hasItem(requirement.requireID, requirement.value);
 				}
@@ -304,7 +331,20 @@ public final class ConversationController {
 				result =  world.model.worldData.hasTimerElapsed(requirement.requireID, requirement.value);
 				break;
 			case usedItem:
-				result =  stats.getNumberOfTimesItemHasBeenUsed(requirement.requireID) >= requirement.value;
+				if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
+					result = false;
+					if (filter != null) {
+						for (ItemType item : filter.getItemTypes()) {
+							if(stats.getNumberOfTimesItemHasBeenUsed(item.id) >= requirement.value) {
+								result = true;
+								break;
+							}
+						}
+					}
+				} else {
+					result =  stats.getNumberOfTimesItemHasBeenUsed(requirement.requireID) >= requirement.value;
+				}
 				break;
 			case spentGold:
 				result =  stats.getSpentGold() >= requirement.value;
@@ -474,10 +514,42 @@ public final class ConversationController {
 			}
 
 			for (Reply r : currentPhrase.replies) {
-				if (!canSelectReply(world, r)) continue;
-				listener.onConversationHasReply(r, getDisplayMessage(r, player));
+				if (!canSelectReply(world, r)) {
+					continue;
+				}
+				if (r.text.toLowerCase().contains(Constants.PLACEHOLDER_REQUIRE_ITEM_ID) && r.hasRequirements()) {
+					for (Requirement requirement : r.requires) {
+						switch (requirement.requireType) {
+							case inventoryKeep:
+							case inventoryRemove:
+							case wear:
+							case wearRemove:
+							case usedItem:
+								proceedToPhraseWithItem(r, requirement);
+								break;
+						}
+					}
+				} else {
+					listener.onConversationHasReply(r, getDisplayMessage(r, player));
+				}
 			}
 			return null;
+		}
+
+		private void proceedToPhraseWithItem(Reply r, Requirement requirement) {
+			List<ItemType> validItems = new ArrayList<>();
+			if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+				validItems = world.itemFilters.getItemFilter(requirement.requireID).getItemTypes();
+			} else {
+				validItems.add(world.itemTypes.getItemType(requirement.requireID));
+			}
+			for (ItemType item : validItems) {
+				// This generates a reply for every matching item, if the player happens to have it in their inventory TODO: When no placeholder is present, only give one reply option
+				if (player.inventory.getItemQuantity(item.id) >= requirement.value) {
+					Reply itemReply = new Reply(r.text.replace(Constants.PLACEHOLDER_REQUIRE_ITEM_ID, item.getName(player)), r.nextPhrase, r.requires);
+					listener.onConversationHasReply(itemReply, getDisplayMessage(itemReply, player));
+				}
+			}
 		}
 
 		private void endConversationWithRemovingNPC() {

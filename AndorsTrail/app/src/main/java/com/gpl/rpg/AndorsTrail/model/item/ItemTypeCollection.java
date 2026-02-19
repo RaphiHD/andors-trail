@@ -26,6 +26,16 @@ public final class ItemTypeCollection {
 		return itemTypeID.equals(ITEMTYPE_GOLD);
 	}
 
+	public static boolean isItemFilter(String itemTypeID) {
+		if (itemTypeID == null) return false;
+		return itemTypeID.toLowerCase().startsWith("filter:");
+	}
+	public static String getItemFilterID(String itemTypeID) {
+		if (isItemFilter(itemTypeID))
+			return itemTypeID.substring(7);
+		else return itemTypeID;
+	}
+
 	public void initialize(final ItemTypeParser parser, String input) {
 		parser.parseRows(input, itemTypes);
 	}
