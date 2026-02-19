@@ -25,6 +25,7 @@ public final class Requirement {
 		,dateEquals
 		,time
 		,timeEquals
+		,skillIncrease		// Check if possible to increase
 	}
 
 	public final RequirementType requireType;
@@ -85,6 +86,7 @@ public final class Requirement {
 			case questProgress:
 				return requireID != null && value >= 0;
 			case skillLevel:
+			case skillIncrease:
 				return requireID != null && value >= 0;
 			case spentGold:
 			case date:

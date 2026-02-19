@@ -1,5 +1,7 @@
 package com.gpl.rpg.AndorsTrail.controller;
 
+import static com.gpl.rpg.AndorsTrail.controller.SkillController.canLevelupSkillWithQuest;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -375,6 +377,16 @@ public final class ConversationController {
 				break;
 			case timeEquals:
 				result = world.model.worldData.getTime(requirement.requireID) == requirement.value;
+				break;
+			case skillIncrease:
+				int levels;
+				if  (requirement.value <= 0){
+					levels = 1;
+				}else{
+					levels = requirement.value;
+				}
+				SkillInfo skill = world.skills.getSkill(SkillCollection.SkillID.valueOf(requirement.requireID));
+				result =  canLevelupSkillWithQuest(player, skill, levels);
 				break;
 			default:
 				result =  true;

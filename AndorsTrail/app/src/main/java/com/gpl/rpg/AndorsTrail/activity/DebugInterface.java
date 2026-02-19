@@ -365,7 +365,7 @@ public final class DebugInterface {
 				,new DebugButton("#2", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "waytolake12", "tower_door", 0, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "undertell_3_lava_01", "west", 0, 0);
 			}
 		})
 
@@ -443,9 +443,10 @@ public final class DebugInterface {
 				,new DebugButton("#13", new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "wild18", "south", 6, 0);
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "feygard_outside1", "south", 6, 0);
 			}
 		})
+
 
 		}));
 		buttonList.addAll(tpButtons3);

@@ -8,31 +8,41 @@ import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
 import com.gpl.rpg.AndorsTrail.util.AndroidStorage;
-import com.gpl.rpg.AndorsTrail.util.Pair;
 
 import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.graphics.Insets;
+import android.os.Build;
 import android.os.Environment;
+import android.util.Pair;
+import android.view.View;
 import android.view.Window;
+import android.view.WindowInsets;
+import android.view.WindowInsetsController;
 import android.view.WindowManager;
 
+import androidx.annotation.RequiresApi;
+
+
 public final class AndorsTrailApplication extends Application {
+	public static final String CURRENT_VERSION_DISPLAY = BuildConfig.VERSION_NAME;
+	public static final boolean IS_DEV_VERSION = CURRENT_VERSION_DISPLAY.endsWith("dev");
+	public static final boolean IS_BETA_VERSION = CURRENT_VERSION_DISPLAY.endsWith("beta");
+	public static final boolean IS_RELEASE_VERSION = !CURRENT_VERSION_DISPLAY.matches(".*[a-zA-Z].*");
 
 	public static final boolean DEVELOPMENT_DEBUGRESOURCES = false;
 	public static final boolean DEVELOPMENT_FORCE_STARTNEWGAME = false;
 	public static final boolean DEVELOPMENT_FORCE_CONTINUEGAME = false;
-	public static final boolean DEVELOPMENT_DEBUGBUTTONS = false;
+    public static final boolean DEVELOPMENT_DEBUGBUTTONS = IS_DEV_VERSION;
 	public static final boolean DEVELOPMENT_FASTSPEED = false;
-	public static final boolean DEVELOPMENT_VALIDATEDATA = false;
-	public static final boolean DEVELOPMENT_DEBUGMESSAGES = false;
-	public static final String CURRENT_VERSION_DISPLAY = "0.8.14";
-	public static final boolean IS_RELEASE_VERSION = !CURRENT_VERSION_DISPLAY.matches(".*[a-d].*");
+	public static final boolean DEVELOPMENT_VALIDATEDATA = IS_BETA_VERSION;
+	public static final boolean DEVELOPMENT_DEBUGMESSAGES = IS_DEV_VERSION;
 	public static final boolean DEVELOPMENT_INCOMPATIBLE_SAVEGAMES = DEVELOPMENT_DEBUGRESOURCES || DEVELOPMENT_DEBUGBUTTONS || DEVELOPMENT_FASTSPEED || !IS_RELEASE_VERSION;
 	public static final int DEVELOPMENT_INCOMPATIBLE_SAVEGAME_VERSION = 999;
-	public static final int CURRENT_VERSION = DEVELOPMENT_INCOMPATIBLE_SAVEGAMES ? DEVELOPMENT_INCOMPATIBLE_SAVEGAME_VERSION : 81;
+	public static final int CURRENT_VERSION = DEVELOPMENT_INCOMPATIBLE_SAVEGAMES ? DEVELOPMENT_INCOMPATIBLE_SAVEGAME_VERSION : BuildConfig.VERSION_CODE;
 
 	private final AndorsTrailPreferences preferences = new AndorsTrailPreferences();
 	private WorldContext world = new WorldContext();
@@ -57,11 +67,43 @@ public final class AndorsTrailApplication extends Application {
 
 	public void setWindowParameters(Activity activity) {
 		activity.requestWindowFeature(Window.FEATURE_NO_TITLE);
-		if (preferences.fullscreen) {
-			activity.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+	}
+
+	public void setFullscreenMode(Activity activity) {
+		setFullscreenMode(preferences.fullscreen, activity.getWindow());
+	}
+	public static void setFullscreenMode(boolean fullscreen, Window window) {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+
+			final WindowInsetsController insetsController = window.getInsetsController();
+			if (insetsController != null) {
+				insetsController.setSystemBarsBehavior(WindowInsetsController.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE);
+				int insetType = WindowInsets.Type.statusBars();
+				if (fullscreen) {
+					insetsController.hide(insetType);
+				} else {
+					insetsController.show(insetType);
+				}
+			}
 		} else {
-			activity.getWindow().setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+			if (fullscreen) {
+				window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+			} else {
+				window.setFlags(0, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+			}
 		}
+	}
+
+	@RequiresApi(Build.VERSION_CODES.R)
+	public int getUsableTouchAreaInsetMask(){
+		int i = 0;
+		i |= WindowInsets.Type.displayCutout();
+		i |= WindowInsets.Type.navigationBars();
+		if (!preferences.fullscreen) {
+			i |= WindowInsets.Type.statusBars();
+		}
+		return i;
 	}
 
 	//Get default locale at startup, as somehow it seems that changing the app's 
@@ -165,5 +207,19 @@ public final class AndorsTrailApplication extends Application {
 		world = new WorldContext();
 		controllers = new ControllerContext(this, world);
 		setup = new WorldSetup(world, controllers, getApplicationContext());
+	}
+
+	public void setUsablePadding(View root) {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+			root.setOnApplyWindowInsetsListener((v, insets) -> {
+				Insets bars = insets.getInsets(getUsableTouchAreaInsetMask());
+				int left = Math.max(bars.left, v.getPaddingLeft());
+				int top = Math.max(bars.top, v.getPaddingTop());
+				int right = Math.max(bars.right, v.getPaddingRight());
+				int bottom = Math.max(bars.bottom, v.getPaddingBottom());
+				v.setPadding(left, top, right, bottom);
+				return WindowInsets.CONSUMED;
+			});
+		}
 	}
 }
