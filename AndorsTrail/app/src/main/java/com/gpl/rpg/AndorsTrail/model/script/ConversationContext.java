@@ -6,9 +6,7 @@ import java.util.Map;
 public class ConversationContext {
     private Map<String, Object> context;
 
-    public ConversationContext () {
-        this.context = new HashMap<>();
-    }
+    public ConversationContext () { this(new HashMap<>()); }
     public ConversationContext (Map<String, Object> context){
         this.context = context;
     }

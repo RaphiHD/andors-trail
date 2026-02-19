@@ -1,11 +1,12 @@
 package com.gpl.rpg.AndorsTrail.resource.parsers;
 
+import android.util.Pair;
+
 import com.gpl.rpg.AndorsTrail.model.item.ItemFilter;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.item.ItemTypeCollection;
 import com.gpl.rpg.AndorsTrail.resource.parsers.json.JsonCollectionParserFor;
 import com.gpl.rpg.AndorsTrail.resource.parsers.json.JsonFieldNames;
-import com.gpl.rpg.AndorsTrail.util.Pair;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,26 +27,18 @@ public class ItemFilterParser extends JsonCollectionParserFor<ItemFilter> {
     public Pair<String, ItemFilter> parseObject(JSONObject o) throws JSONException {
         final String id = o.getString(JsonFieldNames.ItemFilter.itemFilterID);
         final JSONArray includeJson = o.optJSONArray(JsonFieldNames.ItemFilter.include);
-        final JSONArray excludeJson = o.optJSONArray(JsonFieldNames.ItemFilter.exclude);
 
         List<ItemType> include = new ArrayList<ItemType>();
-        List<ItemType> exclude = new ArrayList<ItemType>();
 
         if (includeJson != null) {
             for (int i = 0; i < includeJson.length(); i++) {
                 include.add(itemTypeCollection.getItemType(includeJson.getString(i)));
             }
         }
-        if (excludeJson != null) {
-            for (int i = 0; i < excludeJson.length(); i++) {
-                exclude.add(itemTypeCollection.getItemType(excludeJson.getString(i)));
-            }
-        }
 
         final ItemFilter itemFilter = new ItemFilter(
                 id
                 , include
-                , exclude
         );
         return new Pair<>(id, itemFilter);
     }
