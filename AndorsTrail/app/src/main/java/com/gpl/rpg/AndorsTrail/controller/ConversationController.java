@@ -23,6 +23,7 @@ import com.gpl.rpg.AndorsTrail.model.conversation.ConversationCollection;
 import com.gpl.rpg.AndorsTrail.model.conversation.Phrase;
 import com.gpl.rpg.AndorsTrail.model.conversation.Reply;
 import com.gpl.rpg.AndorsTrail.model.item.ItemFilter;
+import com.gpl.rpg.AndorsTrail.model.item.ItemFilterCollection;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.item.ItemTypeCollection;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
@@ -336,10 +337,8 @@ public final class ConversationController {
 					result = false;
 					if (filter != null) {
 						for (ItemType item : filter.getItemTypes()) {
-							if(stats.getNumberOfTimesItemHasBeenUsed(item.id) >= requirement.value) {
-								result = true;
-								break;
-							}
+							result = stats.getNumberOfTimesItemHasBeenUsed(item.id) >= requirement.value;
+							if (result) break;
 						}
 					}
 				} else {
@@ -399,13 +398,35 @@ public final class ConversationController {
 				if (ItemTypeCollection.isGoldItemType(requirement.requireID)) {
 					p.inventory.gold -= requirement.value;
 					world.model.statistics.addGoldSpent(requirement.value);
+				} else if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
+					if (filter != null) {
+						for (ItemType item : filter.getItemTypes()) {
+							if (p.inventory.hasItem(item.id, requirement.value)) {
+								p.inventory.removeItem(item.id, requirement.value);
+								break;
+							}
+						}
+					}
 				} else {
 					p.inventory.removeItem(requirement.requireID, requirement.value);
 				}
 				break;
             case wearRemove:
-                controllers.itemController.removeEquippedItem(requirement.requireID, requirement.value);
-                break;
+				if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
+					ItemFilter filter = world.itemFilters.getItemFilter(requirement.requireID);
+					if (filter != null) {
+						for (ItemType item : filter.getItemTypes()) {
+							if (p.inventory.isWearing(item.id, requirement.value)) {
+								controllers.itemController.removeEquippedItem(item.id, requirement.value);
+								break;
+							}
+						}
+					}
+				} else {
+					controllers.itemController.removeEquippedItem(requirement.requireID, requirement.value);
+                	break;
+				}
 		}
 	}
 
