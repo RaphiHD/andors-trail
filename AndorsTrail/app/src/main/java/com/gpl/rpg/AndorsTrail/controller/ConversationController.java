@@ -222,7 +222,12 @@ public final class ConversationController {
 	}
 
 	private void addItemReward(String itemTypeID, int quantity, ScriptEffectResult result) {
-		result.loot.add(world.itemTypes.getItemType(itemTypeID), quantity);
+		if (ItemTypeCollection.isItemFilter(itemTypeID)) {
+			ItemFilter filter = world.itemFilters.getItemFilter(itemTypeID);
+			result.loot.add(filter.getRandomItem(), quantity);
+		} else {
+			result.loot.add(world.itemTypes.getItemType(itemTypeID), quantity);
+		}
 	}
 
 	private void addSkillReward(Player player, SkillCollection.SkillID skillID, ScriptEffectResult result) {

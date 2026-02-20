@@ -25,7 +25,7 @@ public final class DropList {
 		for (DropItem item : items) {
 
 			if (ItemTypeCollection.isItemFilter(item.itemTypeID)) {
-				ItemFilter itemFilter = itemFilterCollection.getItemFilter(ItemTypeCollection.getItemFilterID(item.itemTypeID));
+				ItemFilter itemFilter = itemFilterCollection.getItemFilter(item.itemTypeID);
 				item = new DropItem(
 						itemFilter.getRandomItem().id
 						, item.chance
