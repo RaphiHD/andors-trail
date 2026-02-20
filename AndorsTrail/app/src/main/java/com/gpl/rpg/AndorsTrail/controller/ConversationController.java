@@ -543,39 +543,9 @@ public final class ConversationController {
 				if (!canSelectReply(world, r)) {
 					continue;
 				}
-				if (r.text.toLowerCase().contains(Constants.PLACEHOLDER_REQUIRE_ITEM_ID) && r.hasRequirements()) {
-					for (Requirement requirement : r.requires) {
-						switch (requirement.requireType) {
-							case inventoryKeep:
-							case inventoryRemove:
-							case wear:
-							case wearRemove:
-							case usedItem:
-								proceedToPhraseWithItem(r, requirement);
-								break;
-						}
-					}
-				} else {
-					listener.onConversationHasReply(r, getDisplayMessage(r, player));
-				}
+				listener.onConversationHasReply(r, getDisplayMessage(r, player));
 			}
 			return null;
-		}
-
-		private void proceedToPhraseWithItem(Reply r, Requirement requirement) {
-			List<ItemType> validItems = new ArrayList<>();
-			if (ItemTypeCollection.isItemFilter(requirement.requireID)) {
-				validItems = world.itemFilters.getItemFilter(requirement.requireID).getItemTypes();
-			} else {
-				validItems.add(world.itemTypes.getItemType(requirement.requireID));
-			}
-			for (ItemType item : validItems) {
-				// This generates a reply for every matching item, if the player happens to have it in their inventory TODO: When no placeholder is present, only give one reply option
-				if (player.inventory.getItemQuantity(item.id) >= requirement.value) {
-					Reply itemReply = new Reply(r.text.replace(Constants.PLACEHOLDER_REQUIRE_ITEM_ID, item.getName(player)), r.nextPhrase, r.requires);
-					listener.onConversationHasReply(itemReply, getDisplayMessage(itemReply, player));
-				}
-			}
 		}
 
 		private void endConversationWithRemovingNPC() {
