@@ -3,8 +3,9 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-05-03 20:10+0000\n"
-"Last-Translator: Luca Benassi <bennolo@gmail.com>\n"
+"PO-Revision-Date: 2026-02-26 12:10+0000\n"
+"Last-Translator: Hosted Weblate user 142171 "
+"<traaduttore@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/it/>\n"
 "Language: it\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.3\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:28+0000\n"
 
 #: [none]
@@ -405,11 +406,11 @@ msgstr "Sete"
 
 #: actorconditions_laeroth.json:swift_attack
 msgid "Swift attack"
-msgstr ""
+msgstr "Attacco rapido"
 
 #: actorconditions_laeroth.json:blindness
 msgid "Blindness"
-msgstr ""
+msgstr "Cecità"
 
 #: actorconditions_laeroth.json:life_drain
 msgid "Life drain"
@@ -421,11 +422,11 @@ msgstr ""
 
 #: actorconditions_laeroth.json:spider_bite
 msgid "Spider bite"
-msgstr ""
+msgstr "Morso di ragno"
 
 #: actorconditions_laeroth.json:environmental_poisoning
 msgid "Environmental poisoning"
-msgstr ""
+msgstr "Avvelenamento ambientale"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
@@ -453,7 +454,7 @@ msgstr ""
 
 #: actorconditions_mt_galmore2.json:potent_venom
 msgid "Potent venom"
-msgstr ""
+msgstr "Veleno potente"
 
 #: actorconditions_mt_galmore2.json:burning
 msgid "Burning"
@@ -485,7 +486,7 @@ msgstr ""
 
 #: actorconditions_mt_galmore2.json:frostbite
 msgid "Frostbite"
-msgstr ""
+msgstr "Congelamento"
 
 #: actorconditions_mt_galmore2.json:shadowsleep
 msgid "Shadow sleepiness"
@@ -501,11 +502,11 @@ msgstr ""
 
 #: actorconditions_mt_galmore2.json:divine_judgement
 msgid "Divine judgement"
-msgstr ""
+msgstr "Giudizio divino"
 
 #: actorconditions_mt_galmore2.json:divine_punishment
 msgid "Divine punishment"
-msgstr ""
+msgstr "Punizione divina"
 
 #: actorconditions_mt_galmore2.json:baited_strike
 msgid "Baited strike"
@@ -517,7 +518,7 @@ msgstr ""
 
 #: actorconditions_mt_galmore2.json:trapped
 msgid "Trapped"
-msgstr ""
+msgstr "Intrappolato"
 
 #: actorconditions_mt_galmore2.json:splinter
 msgid "Splinter"
@@ -580,7 +581,7 @@ msgstr "Sì, sono qui per consegnare l'ordine di un 'Cuscino di Peluche'. Ma per
 
 #: conversationlist_mikhail.json:mikhail_default:10
 msgid "I don't know...something feels wrong. I thought maybe you were in danger."
-msgstr ""
+msgstr "Non lo so...c'è qualcosa che non va. Pensavo che fossi in pericolo."
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
@@ -691,7 +692,7 @@ msgstr "Grazie per il pane che mi hai portato prima."
 #: conversationlist_sullengard.json:sullengard_hadena_7:1
 #: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
-msgstr ""
+msgstr "Prego."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
@@ -959,7 +960,7 @@ msgstr "Cosa?! Non vedi che sono occupato? Vai ad infastidire qualcun altro."
 
 #: conversationlist_crossglen.json:farm2:1
 msgid "What happened to Leta and Oromir?"
-msgstr ""
+msgstr "Cos'è successo a Leta e Oromir?"
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
@@ -1944,19 +1945,19 @@ msgstr "Mostrami la tua merce."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_10
 msgid "Hey! What are you doing here? How did you get in?"
-msgstr ""
+msgstr "Hey! Cosa stai facendo qui? Come sei entrato?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_10:0
 msgid "By the door. Why?"
-msgstr ""
+msgstr "Dalla porta. Perchè?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_20
 msgid "Nonsense. I would have noticed."
-msgstr ""
+msgstr "Non è possibile. Me ne sarei accorto."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_30
 msgid "Leave immediatly, or I'll call the guards!"
-msgstr ""
+msgstr "Vattene immediatamente o chiamerò le guardie!"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_32
 msgid "And don't dare to enter my house again!"
@@ -2028,7 +2029,7 @@ msgstr ""
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:4
 msgid "I have got a book about world history. Interested?"
-msgstr ""
+msgstr "Ho un libro sulla storia del mondo. Ti interessa?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_1
 msgid "'Calomyran Secrets'? Hmm, yes I think I have one of those in my basement."
@@ -2084,7 +2085,7 @@ msgstr ""
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:0
 msgid "Thanks, I have to go now."
-msgstr ""
+msgstr "Grazie, ora devo andare."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:1
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:1
@@ -2106,7 +2107,7 @@ msgstr ""
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2
 msgid "Ah, a history textbook."
-msgstr ""
+msgstr "Ah, un libro di storia."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1
 msgid "But there are a lot of pages missing. Did you rip them out? You should be ashamed of yourself!"
@@ -2455,15 +2456,15 @@ msgstr ""
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_11
 msgid "Why do you ask?"
-msgstr ""
+msgstr "Perchè lo chiedi?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_11:0
 msgid "Oh, nothing."
-msgstr ""
+msgstr "Oh, niente."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_12
 msgid "You can tell me."
-msgstr ""
+msgstr "Puoi dirmelo."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_12:0
 msgid "Well, behind the fence is the shop of the tailor."
@@ -2475,7 +2476,7 @@ msgstr ""
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_14:0
 msgid "And there is always a window open."
-msgstr ""
+msgstr "E c'è sempre una finestra aperta."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_16
 msgid "Ah, I understand. You want to surprise your friend, the tailor."
@@ -2495,7 +2496,7 @@ msgstr ""
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_20
 msgid "Ten."
-msgstr ""
+msgstr "Dieci."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_20:0
 #: conversationlist_ogam.json:ogam_1:0
@@ -2542,7 +2543,7 @@ msgstr ""
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_22:0
 msgid "Are you crazy?"
-msgstr ""
+msgstr "Sei pazzo?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_23
 msgid "I have to smuggle a ladder into the basement of the church, which is very risky for me."
@@ -2586,7 +2587,7 @@ msgstr ""
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_26
 msgid "Ohh ..."
-msgstr ""
+msgstr "Ohh ..."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_26:0
 #: conversationlist_laeroth.json:gylew7a_1:1
@@ -2685,7 +2686,7 @@ msgstr ""
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_34:0
 msgid "I have bought the twenty cooked pieces of cooked meat."
-msgstr ""
+msgstr "Ho comprato i venti pezzi di carne cotta."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_36
 msgid "Ohh, that smells delicious! You are a true friend."
@@ -2709,7 +2710,7 @@ msgstr ""
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_40:0
 msgid "Could you ..."
-msgstr ""
+msgstr "Potresti ..."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_42
 msgid "... unlock the window again for you? No, I have enough cooked meat for a long time."
@@ -3054,7 +3055,7 @@ msgstr "Torilo ha suggerito di chiedere ad altri locandieri come te riguardo un 
 
 #: conversationlist_fallhaven_tavern.json:bela:3
 msgid "Do you have strawberries?"
-msgstr ""
+msgstr "Hai delle fragole?"
 
 #: conversationlist_fallhaven_tavern.json:bela_room_1
 msgid "A room will cost you only 10 gold."
@@ -10420,7 +10421,7 @@ msgstr ""
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_10:0
 msgid "Y... yes."
-msgstr ""
+msgstr "S... si."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard_20
 msgid "Nice try, kid. Now go play again."
@@ -10432,7 +10433,7 @@ msgstr ""
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2
 msgid "Well, well, well."
-msgstr ""
+msgstr "Bene, bene, bene."
 
 #: conversationlist_prim_merchants.json:prim_treasury_guard2:0
 msgid "Eh, you look bigger than before. And stronger."
@@ -13286,7 +13287,7 @@ msgstr "No, io andrò per la mia strada. La tua stupida Ombra non è altro che c
 #: conversationlist_buceth.json:buceth_25:4
 #: conversationlist_buceth.json:buceth_26:3
 msgid "(Lie) I am ready to follow the Shadow."
-msgstr ""
+msgstr "(Menti) Sono pronto a seguire l'Ombra."
 
 #: conversationlist_buceth.json:buceth_26
 msgid "If the answers you gave previously were indeed your views, then I can assure you that the path that is guided by the Shadow is the right one."
@@ -19200,7 +19201,7 @@ msgstr "Sul muro, vedi una targa che dice: \"Portatemi quello che non posso sopp
 #: conversationlist_v0612graves.json:sign_catacombs1_grave3_10
 #: conversationlist_v0612graves.json:
 msgid "You place the ladder below the tiny window."
-msgstr ""
+msgstr "Metti la scala sotto la piccola finestra."
 
 #: conversationlist_agthor.json:agthor0
 msgid "Hello there. Please move along. These things are property of Feygard, and you have no business here."
@@ -32269,11 +32270,11 @@ msgstr ""
 
 #: conversationlist_stoutford_combined.json:stn_southgate_10a
 msgid "The mechanism doesn't move. It seems to be broken. Maybe someone can fix it for me?"
-msgstr ""
+msgstr "Il meccanismo non si muove. Sembra rotto. Forse qualcuno può ripararlo?"
 
 #: conversationlist_stoutford_combined.json:stn_southgate_10b
 msgid "Oh, cool, Odirath seems to have repaired the mechanism already."
-msgstr ""
+msgstr "Oh, fantastico, sembra che Odirath abbia già riparato il meccanismo."
 
 #: conversationlist_stoutford_combined.json:odirath_8a
 msgid "No, sorry. As long as there are still skeletons running around the castle, I can't work there."
@@ -32995,7 +32996,7 @@ msgstr "[OUTDATED]Posso dare una occhiata agli attuali rifornimenti della Gilda?
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:5
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:7
 msgid "I have found Defy and his men."
-msgstr ""
+msgstr "Ho trovato Defy e i suoi uomini."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:6
 msgid "I'm confused. I gave Defy the fake key that you gave me, but what am I supposed to do now?"
@@ -33014,7 +33015,7 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_13a:11
 msgid "Can I take a look at the Guild's current supplies?"
-msgstr ""
+msgstr "Posso dare un'occhiata alle scorte attuali della Gilda?"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10
 msgid "Hello, friend! Thank you for all you've done for me."
@@ -33030,7 +33031,7 @@ msgstr "E' il mio lavoro. Felice di vederti sopravvissuto a quegli anklebiter...
 
 #: conversationlist_omicronrg9.json:fanamor_guild_10:2
 msgid "Hmm, maybe you can help me?"
-msgstr ""
+msgstr "Hmm, forse puoi aiutarmi?"
 
 #: conversationlist_omicronrg9.json:umar_guild_4b
 msgid "What have you decided?"
@@ -34919,7 +34920,7 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild04_1:0
 msgid "I'm listening."
-msgstr ""
+msgstr "Ti ascolto."
 
 #: conversationlist_omicronrg9.json:umar_guild04_2
 msgid "Here in the guild, as you know, income sources come in different classes from poor to wealthy. The lower-middle class and poor class are usually associated with us."
@@ -34931,7 +34932,7 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild04_3:0
 msgid "My bad."
-msgstr ""
+msgstr "Colpa mia."
 
 #: conversationlist_omicronrg9.json:umar_guild04_3:1
 msgid "That is not my kind of work though."
@@ -34968,15 +34969,15 @@ msgstr ""
 #: conversationlist_omicronrg9.json:umar_guild04_9:0
 #: conversationlist_mt_galmore2.json:mg_eryndor_music_box_10:0
 msgid "Interesting."
-msgstr ""
+msgstr "Interessante."
 
 #: conversationlist_omicronrg9.json:umar_guild04_9:1
 msgid "80 for us and 20 for them?"
-msgstr ""
+msgstr "80 per noi e 20 per loro?"
 
 #: conversationlist_omicronrg9.json:umar_guild04_10b
 msgid "No. 80 for them and 20 for us."
-msgstr ""
+msgstr "No. 80 per loro e 20 per noi."
 
 #: conversationlist_omicronrg9.json:umar_guild04_10a
 msgid "Their 20th anniversary beer festival will be celebrated in the next few weeks. "
@@ -35012,7 +35013,7 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild04_13:0
 msgid "You can count on me."
-msgstr ""
+msgstr "Puoi contare su di me."
 
 #: conversationlist_omicronrg9.json:umar_guild04_13:1
 msgid "But I need an invitation letter first."
@@ -76695,11 +76696,11 @@ msgstr ""
 
 #: itemlist_mt_galmore.json:feline_fang
 msgid "Feline fang"
-msgstr ""
+msgstr "Zanna felina"
 
 #: itemlist_mt_galmore.json:feline_milk
 msgid "Feline milk"
-msgstr ""
+msgstr "Latte felino"
 
 #: itemlist_mt_galmore.json:feline_milk:description
 msgid "A unique elixir exuding the essence of mountain flora."
@@ -76707,15 +76708,15 @@ msgstr ""
 
 #: itemlist_bwmfill.json:green_pepper
 msgid "Green Pepper"
-msgstr ""
+msgstr "Pepe verde"
 
 #: itemlist_bwmfill.json:yellow_pepper
 msgid "Yellow Pepper"
-msgstr ""
+msgstr "Pepe giallo"
 
 #: itemlist_bwmfill.json:red_pepper
 msgid "Red Pepper"
-msgstr ""
+msgstr "Pepe rosso"
 
 #: itemlist_bwmfill.json:bwm_longsword
 msgid "Blackwater iron longsword"
@@ -76723,11 +76724,11 @@ msgstr ""
 
 #: itemlist_bwmfill.json:lamb_meat_raw
 msgid "Raw lamb meat"
-msgstr ""
+msgstr "Carne cruda di agnello"
 
 #: itemlist_bwmfill.json:lamb_meat
 msgid "Cooked lamb meat"
-msgstr ""
+msgstr "Carne di agnello cotta"
 
 #: itemlist_bwmfill.json:lamb_meat2
 msgid "Specially peppered lamb meat"
@@ -76735,15 +76736,15 @@ msgstr ""
 
 #: itemlist_bwmfill.json:tunlon_wood
 msgid "Pile of wood"
-msgstr ""
+msgstr "Mucchio di legna"
 
 #: itemlist_bwmfill.json:tunlon_wood:description
 msgid "This pile of wood is quite heavy."
-msgstr ""
+msgstr "Questo mucchio di legna è piuttosto pesante."
 
 #: itemlist_bwmfill.json:tunlon_fence1
 msgid "Sturdy fence"
-msgstr ""
+msgstr "Recinzione robusta"
 
 #: itemlist_bwmfill.json:tunlon_fence1:description
 msgid "This fence looks like it stood around for years."
@@ -76751,7 +76752,7 @@ msgstr ""
 
 #: itemlist_bwmfill.json:tunlon_fence2
 msgid "New fence"
-msgstr ""
+msgstr "Nuova recinzione"
 
 #: itemlist_bwmfill.json:tunlon_fence2:description
 msgid "This looks like some fine woodcraft."
@@ -76759,11 +76760,11 @@ msgstr ""
 
 #: itemlist_bwmfill.json:stone_mace
 msgid "Gornaud's stone mace"
-msgstr ""
+msgstr "Mazza di pietra di Gornaud"
 
 #: itemlist_bwmfill.json:feygard_gold
 msgid "Feygard gold coins"
-msgstr ""
+msgstr "Monete d'oro di Feygard"
 
 #: itemlist_bwmfill.json:feygard_gold:description
 msgid "A gold goin with the face of Lord Geomyr on it."
@@ -76775,15 +76776,15 @@ msgstr ""
 
 #: itemlist_bwmfill.json:nor_gold:description
 msgid "A gold coin from Nor City."
-msgstr ""
+msgstr "Una moneta d'oro di Nor City."
 
 #: itemlist_laeroth.json:serpent_meat
 msgid "Serpent meat"
-msgstr ""
+msgstr "Carne di serpente"
 
 #: itemlist_laeroth.json:lizard_skin
 msgid "Lizard skin"
-msgstr ""
+msgstr "Pelle di lucertola"
 
 #: itemlist_laeroth.json:shield_dark_ref
 msgid "Shield of dark reflections"
@@ -76795,7 +76796,7 @@ msgstr ""
 
 #: itemlist_laeroth.json:bloodseeker
 msgid "Blood seeker"
-msgstr ""
+msgstr "Cercatore di sangue"
 
 #: itemlist_laeroth.json:shield_of_brave
 msgid "Shield of the Brave"
@@ -76807,7 +76808,7 @@ msgstr ""
 
 #: itemlist_laeroth.json:korhald_coins
 msgid "Korhald coin chest"
-msgstr ""
+msgstr "Cassa di monete Korhald"
 
 #: itemlist_laeroth.json:korhald_coins:description
 msgid "A set of magnificent coins commissioned by the great Korhald during the Noble Wars."
@@ -76815,16 +76816,16 @@ msgstr ""
 
 #: itemlist_laeroth.json:gylew_key
 msgid "Gylew's key"
-msgstr ""
+msgstr "La chiave di Gylew"
 
 #: itemlist_laeroth.json:gylew_key:description
 #: itemlist_laeroth.json:forenza_key:description
 msgid "A key to open the chest that houses Korhald coins."
-msgstr ""
+msgstr "Una chiave per aprire lo scrigno che custodisce le monete di Korhald."
 
 #: itemlist_laeroth.json:forenza_key
 msgid "Forenza's key"
-msgstr ""
+msgstr "La chiave di Forenza"
 
 #: itemlist_laeroth.json:feygard_plated_gloves
 msgid "Feygard plated gloves"
@@ -77566,7 +77567,7 @@ msgstr ""
 
 #: itemlist_mt_galmore2.json:valugha_gloves
 msgid "Valugha's gloves"
-msgstr ""
+msgstr "I guanti di Valugha"
 
 #: itemlist_mt_galmore2.json:judicar
 msgid "Judicar"
@@ -77582,11 +77583,11 @@ msgstr ""
 
 #: itemlist_mt_galmore2.json:corn
 msgid "Corn"
-msgstr ""
+msgstr "Mais"
 
 #: itemlist_mt_galmore2.json:paint_brush
 msgid "Paintbrush"
-msgstr ""
+msgstr "Pennello"
 
 #: itemlist_mt_galmore2.json:rubycrest_feather
 msgid "Rubycrest feather"
@@ -77715,7 +77716,7 @@ msgstr "Irogotu"
 
 #: monsterlist_crossglen_animals.json:reindeer
 msgid "Reindeer"
-msgstr ""
+msgstr "Renna"
 
 #: monsterlist_crossglen_npcs.json:mikhail
 #: monsterlist_stoutford_combined.json:stn_colonel_mons3
@@ -81283,7 +81284,7 @@ msgstr "Arensia"
 
 #: monsterlist_omi2.json:mountain_wolf_2
 msgid "Trained mountain wolf"
-msgstr ""
+msgstr "Lupo di montagna addestrato"
 
 #: monsterlist_omi2.json:slippery_venomfang
 msgid "Slippery Venomfang"
@@ -81397,7 +81398,7 @@ msgstr ""
 
 #: monsterlist_omi2.json:elm_miner1
 msgid "Resurrected miner's skeleton"
-msgstr ""
+msgstr "Scheletro di minatore resuscitato"
 
 #: monsterlist_omi2.json:elm_miner2
 msgid "Foul miner's skeleton"
@@ -81405,7 +81406,7 @@ msgstr ""
 
 #: monsterlist_omi2.json:elm_miner3
 msgid "Contaminated miner's skeleton"
-msgstr ""
+msgstr "Scheletro di minatore contaminato"
 
 #: monsterlist_omi2.json:elm_miner4
 #: monsterlist_omi2.json:elm_miner4a
@@ -87894,34 +87895,36 @@ msgstr ""
 #: questlist_ratdom.json:ratdom_quest:320
 msgid "Wart told me that he needed the head, the ribs and the back bone, 4 legs and the tail."
 msgstr ""
+"Wart mi ha detto che gli servivano la testa, le costole e la spina dorsale, "
+"4 gambe e la coda."
 
 #: questlist_ratdom.json:ratdom_quest:321
 msgid "Wart said that I just have to find the skull."
-msgstr ""
+msgstr "Wart ha detto che devo solo trovare il teschio."
 
 #: questlist_ratdom.json:ratdom_quest:322
 msgid "Wart said that I just have to find the back bone."
-msgstr ""
+msgstr "Wart ha detto che devo solo trovare la spina dorsale."
 
 #: questlist_ratdom.json:ratdom_quest:323
 msgid "Wart said that I have to find the rib bones."
-msgstr ""
+msgstr "Wart ha detto che devo solo trovare le costole."
 
 #: questlist_ratdom.json:ratdom_quest:324
 msgid "Wart said that I just have to find the tail."
-msgstr ""
+msgstr "Wart ha detto che devo solo trovare la coda."
 
 #: questlist_ratdom.json:ratdom_quest:325
 msgid "Wart said that I just have to find the fourth leg."
-msgstr ""
+msgstr "Wart ha detto che devo solo trovare la quarta gamba."
 
 #: questlist_ratdom.json:ratdom_quest:380
 msgid "I donated King Rah's sword to the memory hall."
-msgstr ""
+msgstr "Ho donato la spada di Re Rah alla sala della memoria."
 
 #: questlist_ratdom.json:ratdom_quest:381
 msgid "I sold King Rah's sword to the memory hall."
-msgstr ""
+msgstr "Ho venduto la spada di Re Rah alla sala della memoria."
 
 #: questlist_ratdom.json:ratdom_quest:390
 msgid "Wart was glad to have his rat memorial restored. He granted access to the memory hall now."
@@ -87929,7 +87932,7 @@ msgstr ""
 
 #: questlist_ratdom.json:ratdom_quest:392
 msgid "Wart told me that Fraedro was captured."
-msgstr ""
+msgstr "Wart mi ha detto che Fraedro è stato catturato."
 
 #: questlist_ratdom.json:ratdom_quest:395
 msgid "Wart allowed me to go deeper into the cave and have a word with Fraedro."
@@ -87937,7 +87940,7 @@ msgstr ""
 
 #: questlist_ratdom.json:ratdom_quest:398
 msgid "I believed in Fraedro's innocence and released him."
-msgstr ""
+msgstr "Ho creduto nell'innocenza di Fraedro e l'ho liberato."
 
 #: questlist_ratdom.json:ratdom_quest:399
 msgid "I attacked Fraedro to avenge the theft of King Rah."
@@ -87999,19 +88002,19 @@ msgstr ""
 
 #: questlist_ratdom.json:ratdom_skeleton:61
 msgid "Roskelt asked me to kill his brother."
-msgstr ""
+msgstr "Roskelt mi ha chiesto di uccidere suo fratello."
 
 #: questlist_ratdom.json:ratdom_skeleton:62
 msgid "Bloskelt asked me to kill his brother."
-msgstr ""
+msgstr "Bloskelt mi ha chiesto di uccidere suo fratello."
 
 #: questlist_ratdom.json:ratdom_skeleton:71
 msgid "I have killed Bloskelt."
-msgstr ""
+msgstr "Ho ucciso Bloskelt."
 
 #: questlist_ratdom.json:ratdom_skeleton:72
 msgid "I have killed Roskelt."
-msgstr ""
+msgstr "Ho ucciso Roskelt."
 
 #: questlist_ratdom.json:ratdom_skeleton:90
 msgid "For all my efforts, I've got a pretty poor reward."
@@ -88019,7 +88022,7 @@ msgstr ""
 
 #: questlist_mt_galmore.json:wanted_men
 msgid "Wanted men"
-msgstr ""
+msgstr "Uomini ricercati"
 
 #: questlist_mt_galmore.json:wanted_men:10
 msgid "Off the main road, southeast of Deebo's Orchard, I've stumbled across a group of sketchy looking men with familiar voices."
@@ -88125,7 +88128,7 @@ msgstr ""
 
 #: questlist_mt_galmore.json:wicked_witch:55
 msgid "I have attacked Bonicksa."
-msgstr ""
+msgstr "Ho attaccato Bonicksa."
 
 #: questlist_mt_galmore.json:wicked_witch:60
 msgid "I killed what I thought was Bonicksa, but I quickly realized that I killed an innocent girl."
@@ -88992,31 +88995,34 @@ msgstr ""
 
 #: questlist_troubling_times.json:troubling_times:220
 msgid "I followed her."
-msgstr ""
+msgstr "L'ho seguita."
 
 #: questlist_troubling_times.json:troubling_times:230
 msgid "Seraphina got injured attacking one of the monsters."
-msgstr ""
+msgstr "Seraphina è rimasta ferita attaccando uno dei mostri."
 
 #: questlist_troubling_times.json:troubling_times:240
 msgid "I have killed the monsters blocking the entrance."
-msgstr ""
+msgstr "Ho ucciso i mostri che bloccavano l'ingresso."
 
 #: questlist_troubling_times.json:troubling_times:250
 msgid "I healed Seraphina using potions."
-msgstr ""
+msgstr "Ho curato Seraphina usando delle pozioni."
 
 #: questlist_troubling_times.json:troubling_times:252
 msgid "I tried to poison Seraphina, but she noticed in time. At least she didn't notice that I did it on purpose."
 msgstr ""
+"Ho provato ad avvelenare Seraphina ma se n'è accorta in tempo. Almeno non si "
+"è accorta che l'ho fatto apposta."
 
 #: questlist_troubling_times.json:troubling_times:255
 msgid "Seraphina already started the search for the ring."
-msgstr ""
+msgstr "Seraphina ha già iniziato la ricerca dell'anello."
 
 #: questlist_troubling_times.json:troubling_times:260
 msgid "I searched the cave for Luthor's ring. I couldn't find it."
 msgstr ""
+"Ho cercato l'anello di Luthor nella caverna. Non sono riuscito a trovarlo."
 
 #: questlist_troubling_times.json:troubling_times:270
 msgid "Sly Seraphina had found the ring. She gave it to me and told me to keep it safe. She disappeared again, probably back to Sutdover bridge. I had to go to Talion."
@@ -89135,6 +89141,7 @@ msgstr ""
 #: questlist_darknessanddaylight.json:shadows:180
 msgid "She was performing a ritual that should bring her husband back to life."
 msgstr ""
+"Stava eseguendo un rituale che avrebbe dovuto riportare in vita suo marito."
 
 #: questlist_darknessanddaylight.json:darkness_in_daylight:210
 msgid "Miri, who followed me, convinced the woman that it was actually an evil ritual to overrun Dhayavar with Kazaul's monsters."
@@ -89171,7 +89178,7 @@ msgstr ""
 #: questlist_darknessanddaylight.json:darkness_in_daylight:270
 #: questlist_darknessanddaylight.json:shadows:250
 msgid "I defeated the monster."
-msgstr ""
+msgstr "Ho sconfitto il mostro."
 
 #: questlist_darknessanddaylight.json:darkness_in_daylight:280
 msgid "Miri fulfilled her promise and told me that Andor would be refilling his food supplies at Rosmara's food stand."
@@ -89188,7 +89195,7 @@ msgstr ""
 
 #: questlist_darknessanddaylight.json:shadows
 msgid "Shadows"
-msgstr ""
+msgstr "Ombre"
 
 #: questlist_darknessanddaylight.json:shadows:10
 msgid "I met Borvis on the great road near Alynndir's hut."
@@ -89288,7 +89295,7 @@ msgstr ""
 
 #: questlist_mt_galmore2.json:familiar_shadow
 msgid "A familiar shadow"
-msgstr ""
+msgstr "Un'ombra familiare"
 
 #: questlist_mt_galmore2.json:familiar_shadow:5
 msgid "In the devastated lands south of Stoutford, I found an ominous stone etched with strange symbols."
@@ -89324,7 +89331,7 @@ msgstr ""
 
 #: questlist_mt_galmore2.json:mg2_exploded_star
 msgid "The exploded star"
-msgstr ""
+msgstr "La stella esplosa"
 
 #: questlist_mt_galmore2.json:mg2_exploded_star:5
 msgid "Teccow wouldn't talk to me at the moment. I should get stronger and come back later."
@@ -89348,15 +89355,15 @@ msgstr ""
 
 #: questlist_mt_galmore2.json:mg2_exploded_star:20
 msgid "I refused to do his work."
-msgstr ""
+msgstr "Mi sono rifiutato di fare il suo lavoro."
 
 #: questlist_mt_galmore2.json:mg2_exploded_star:21
 msgid "Teccow would be delighted, I should bring the pieces to him."
-msgstr ""
+msgstr "Teccow ne sarebbe felicissimo, dovrei portargli i pezzi."
 
 #: questlist_mt_galmore2.json:mg2_exploded_star:22
 msgid "Kealwea would be delighted, I should bring the pieces to him."
-msgstr ""
+msgstr "Kealwea ne sarebbe felicissimo, dovrei portargli i pezzi."
 
 #: questlist_mt_galmore2.json:mg2_exploded_star:23
 msgid "Kealwea or Teccow would be delighted, I should bring the pieces to one of them."
@@ -89444,11 +89451,11 @@ msgstr ""
 
 #: questlist_mt_galmore2.json:mg2_exploded_star:110
 msgid "Done at last - I have found the last piece of the crystal."
-msgstr ""
+msgstr "Fatto finalmente - ho trovato l'ultimo pezzo del cristallo."
 
 #: questlist_mt_galmore2.json:swamp_healer
 msgid "The swamp healer"
-msgstr ""
+msgstr "Il guaritore della palude"
 
 #: questlist_mt_galmore2.json:swamp_healer:10
 msgid "I encountered Vaelric, a reclusive healer living in the swamp between Mt. Galmore and Stoutford. He refused to help me unless I dealt with a dangerous creature corrupting his medicinal pools."
@@ -89580,15 +89587,15 @@ msgstr ""
 
 #: worldmap.xml:ratdom_level_5:ratdom_maze_skeleton_dance
 msgid "Skeleton dance"
-msgstr ""
+msgstr "Danza dello scheletro"
 
 #: worldmap.xml:ratdom_level_5:ratdom_maze_museum
 msgid "Museum"
-msgstr ""
+msgstr "Museo"
 
 #: worldmap.xml:ratdom_level_5:ratdom_maze_labyrinth
 msgid "Labyrinth"
-msgstr ""
+msgstr "Labirinto"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_water_area
 msgid "Waterway"
@@ -89600,11 +89607,11 @@ msgstr ""
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_library
 msgid "Library"
-msgstr ""
+msgstr "Biblioteca"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_4_wells
 msgid "4 wells"
-msgstr ""
+msgstr "4 pozzi"
 
 #: worldmap.xml:ratdom_level_6:ratdom_maze_roundlings_area
 msgid "Roundlings"
@@ -89668,15 +89675,15 @@ msgstr ""
 
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
-msgstr ""
+msgstr "Il frutteto di Deebo"
 
 #: worldmap.xml:world1:laeroth_area
 msgid "Lake Laeroth"
-msgstr ""
+msgstr "Lago Laeroth"
 
 #: worldmap.xml:world1:wexlow_village
 msgid "Wexlow Village"
-msgstr ""
+msgstr "Villaggio di Wexlow"
 
 #: worldmap.xml:world1:mt_galmore
 msgid "Mt. Galmore"
@@ -89685,4 +89692,3 @@ msgstr ""
 #: worldmap.xml:world1:mt_bwm
 msgid "Blackwater Mountain"
 msgstr ""
-
