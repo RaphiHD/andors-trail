@@ -468,7 +468,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_sign_ladder_omi2, "map_sign_ladder_omi2", new Size(8, 4), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_table_1, "map_table_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_table_2, "map_table_2", new Size(14, 8), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.map_table_3, "map_table_3", new Size(12, 10), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_table_3, "map_table_3", new Size(14, 10), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_temple_1, "map_temple_1", new Size(23, 16), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_trail_1, "map_trail_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_1, "map_transition_1", mapTileSize, sz1x1, mTileSize);
