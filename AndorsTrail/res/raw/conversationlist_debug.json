@@ -71,17 +71,6 @@
                     { "text": "Back", 				        "nextPhraseID": "dbg_teleport" }]
     },
     {
-        "id": "dbg_teleport_prj_brightportdungeon",
-        "message": "***  brightportdungeon  ***",
-        "replies": [{ "text": "brightport_dungeon",             "nextPhraseID": "dbg_teleport_prj_brightportdungeon_brightport_dungeon" },
-                    { "text": "brightport_dungeon128_pillars",  "nextPhraseID": "dbg_teleport_prj_brightportdungeon_brightport_dungeon128_pillars" },
-                    { "text": "brightport_dungeon86",           "nextPhraseID": "dbg_teleport_prj_brightportdungeon_brightport_dungeon86" },
-                    { "text": "Back", 				            "nextPhraseID": "dbg_teleport" }]
-    },
-    { "id":"dbg_teleport_prj_brightportdungeon_brightport_dungeon",	"rewards":[{ "rewardType":"mapchange", "rewardID":"west", "mapName":"brightport_dungeon" }] },
-    { "id":"dbg_teleport_prj_brightportdungeon_brightport_dungeon128_pillars",	"rewards":[{ "rewardType":"mapchange", "rewardID":"west", "mapName":"brightport_dungeon128_pillars" }] },
-    { "id":"dbg_teleport_prj_brightportdungeon_brightport_dungeon86",	"rewards":[{ "rewardType":"mapchange", "rewardID":"west", "mapName":"brightport_dungeon86" }] },
-    {
         "id": "dbg_teleport_prj_burhczyd",
         "message": "***  The voyage of Burhczyd  ***",
         "replies": [{ "text": " 1: Crossglen", 				"nextPhraseID": "dbg_teleport_burhczyd_1" },
