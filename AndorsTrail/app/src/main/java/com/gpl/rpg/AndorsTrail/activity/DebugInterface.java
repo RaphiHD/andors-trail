@@ -5,10 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
+import com.gpl.rpg.AndorsTrail.Dialogs;
 import com.gpl.rpg.AndorsTrail.R;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
+import com.gpl.rpg.AndorsTrail.controller.ConversationController;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
@@ -55,7 +57,8 @@ public final class DebugInterface {
 				,new DebugButton("teleport", new OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
-						controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "debugmap", "entry", 0, 0);
+						Dialogs.showMapScriptMessage( mainActivity, controllerContext, "dbg");
+						/* controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "debugmap", "entry", 0, 0); */
 					}
 				})
 				,new DebugButton("dmg", new OnClickListener() {
@@ -77,6 +80,7 @@ public final class DebugInterface {
 				,new DebugButton("itm", new OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
+//						Dialogs.showMapScriptMessage( mainActivity, controllerContext, "dbg_shop");
 						for (ItemType item : world.itemTypes.UNITTEST_getAllItemTypes().values()) {
 							world.model.player.inventory.addItem(item, 10);
 						}
@@ -143,6 +147,12 @@ public final class DebugInterface {
 						world.model.worldData.tickWorldTime(10);
 					}
 				})
+				,new DebugButton("fct", new OnClickListener() {
+					@Override
+					public void onClick(View arg0) {
+							Dialogs.showMapScriptMessage( mainActivity, controllerContext, "dbg_scores");
+				}
+	})
 		}));
 
 		buttons = buttonList.toArray(new DebugButton[buttonList.size()]);
