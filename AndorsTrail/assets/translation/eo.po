@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-18 19:50+0200\n"
-"PO-Revision-Date: 2025-02-06 12:02+0000\n"
-"Last-Translator: VeridisQuo <rmcnair516@gmail.com>\n"
+"PO-Revision-Date: 2025-11-04 08:51+0000\n"
+"Last-Translator: Nuntius Deorum <rmcnair516@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/eo/>\n"
 "Language: eo\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -28,7 +28,7 @@ msgstr "Forto"
 
 #: actorconditions_v069.json:regen
 msgid "Shadow Regeneration"
-msgstr ""
+msgstr "Ombroreĝeno"
 
 #: actorconditions_v069_bwm.json:speed_minor
 msgid "Minor speed"
@@ -40,7 +40,7 @@ msgstr "Malforta laceco"
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
-msgstr ""
+msgstr "Eta Armilmalforto"
 
 #: actorconditions_v069_bwm.json:bleeding_wound
 msgid "Bleeding wound"
@@ -48,11 +48,11 @@ msgstr "Sanganta vundo"
 
 #: actorconditions_v069_bwm.json:rage_minor
 msgid "Minor berserker rage"
-msgstr ""
+msgstr "Eta berserka furo"
 
 #: actorconditions_v069_bwm.json:blackwater_misery
 msgid "Blackwater misery"
-msgstr ""
+msgstr "Nigrakva mizero"
 
 #: actorconditions_v069_bwm.json:intoxicated
 msgid "Intoxicated"
@@ -92,27 +92,27 @@ msgstr "Fokusa precizeco"
 
 #: actorconditions_v0611.json:poison_irdegh
 msgid "Irdegh poison"
-msgstr ""
+msgstr "Irdega veneno"
 
 #: actorconditions_v0611_2.json:rotworm
 msgid "Kazaul rotworms"
-msgstr ""
+msgstr "Kazaŭlaj putrvermoj"
 
 #: actorconditions_v0611_2.json:shadowbless_str
 msgid "Blessing of Shadow strength"
-msgstr ""
+msgstr "Ombroforta Beno"
 
 #: actorconditions_v0611_2.json:shadowbless_heal
 msgid "Blessing of Shadow regeneration"
-msgstr ""
+msgstr "Ombroreĝena Beno"
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
-msgstr ""
+msgstr "Ombropreciza Beno"
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
-msgstr ""
+msgstr "Ombrogarda Beno"
 
 #: actorconditions_v0611_2.json:crit1
 msgid "Internal bleeding"
@@ -120,19 +120,19 @@ msgstr "Interna hemoragio"
 
 #: actorconditions_v0611_2.json:crit2
 msgid "Fracture"
-msgstr ""
+msgstr "Frakturo"
 
 #: actorconditions_v0611_2.json:concussion
 msgid "Concussion"
-msgstr ""
+msgstr "Konkuso"
 
 #: actorconditions_v0612_2.json:food
 msgid "Sustenance"
-msgstr ""
+msgstr "Nutrado"
 
 #: actorconditions_v0612_2.json:foodp
 msgid "Food-poisoning"
-msgstr ""
+msgstr "Manĝveneno"
 
 #: actorconditions_v070.json:slime
 msgid "Corrosive slime"
@@ -545,7 +545,7 @@ msgstr ""
 #: conversationlist_umar.json:umar_return_1:0
 #: conversationlist_umar.json:umar_return_1:8
 msgid "Do you have any tasks for me?"
-msgstr ""
+msgstr "Ĉu vi havas taskojn por mi?"
 
 #: conversationlist_mikhail.json:mikhail_default:4
 msgid "Is there anything else you can tell me about Andor?"
@@ -681,7 +681,7 @@ msgstr ""
 #: conversationlist_sullengard.json:sullengard_hadena_7:1
 #: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
-msgstr ""
+msgstr "Nedankinde."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
@@ -76938,7 +76938,7 @@ msgstr ""
 #: monsterlist_crossglen_npcs.json:leonid
 #: monsterlist_ratdom.json:ratdom_leonid
 msgid "Leonid"
-msgstr ""
+msgstr "Leonid"
 
 #: monsterlist_crossglen_npcs.json:farmer
 #: monsterlist_v0610_npcs1.json:loneford_farmer0
@@ -88838,4 +88838,3 @@ msgstr ""
 #: worldmap.xml:world1:mt_bwm
 msgid "Blackwater Mountain"
 msgstr ""
-

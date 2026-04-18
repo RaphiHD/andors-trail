@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2025-09-28 21:02+0000\n"
+"PO-Revision-Date: 2025-11-03 07:51+0000\n"
 "Last-Translator: Damien <vallier.damien@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/fr/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.14.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:28+0000\n"
 
 #: [none]
@@ -89740,7 +89740,10 @@ msgstr "J'ai rencontré Vaelric, un guérisseur solitaire vivant dans le marais 
 
 #: questlist_mt_galmore2.json:swamp_healer:20
 msgid "I defeated the monstrous creature that I found on Vaelric's land. This creature was enormous and venomous, feeding on the lifeblood of the swamp."
-msgstr "'ai vaincu la créature monstrueuse que j'ai trouvée sur les terres de Vaelric. Cette créature était énorme et venimeuse, se nourrissant du sang du marais."
+msgstr ""
+"J'ai vaincu la créature monstrueuse que j'ai trouvée sur les terres de "
+"Vaelric. Cette créature était énorme et venimeuse, se nourrissant du sang du "
+"marais."
 
 #: questlist_mt_galmore2.json:swamp_healer:30
 msgid "Vaelric rewarded me for my efforts by teaching me how to use leeches to heal bleeding wounds. He warned me to save them for dire situations and respect their power."
@@ -89969,4 +89972,3 @@ msgstr ""
 #: worldmap.xml:world1:mt_bwm
 msgid "Blackwater Mountain"
 msgstr ""
-
