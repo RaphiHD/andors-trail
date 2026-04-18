@@ -345,6 +345,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_karvis2, "monsters_karvis2", new Size(9, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_ld1, "monsters_ld1", sz20x12, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_ld2, "monsters_ld2", sz20x12, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_ld_edit, "monsters_ld_edit, sz20x12, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_liches, "monsters_liches", new Size(4, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_mage, "monsters_mage", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_mage2, "monsters_mage2", sz1x1, sz1x1, mTileSize);
@@ -355,6 +356,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_newb_1, "monsters_newb_1", new Size(40, 34), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_newb_2, "monsters_newb_2", new Size(8, 2), sz1x2, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_newb_3, "monsters_newb_3", new Size(10, 10), sz2x2, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_newb_3_edit, "monsters_newb_3_edit", new Size(10, 10), sz2x2, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_newb_4, "monsters_newb_4", new Size(4, 1), sz2x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_nut, "monsters_nut", sz16x8, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_rats, "monsters_rats", new Size(5, 1), sz1x1, mTileSize);
