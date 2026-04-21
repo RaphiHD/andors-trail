@@ -3,9 +3,8 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-02-27 15:09+0000\n"
-"Last-Translator: Elton Viana Gonçalves da Luz <eltongoncalves94@hotmail.com>"
-"\n"
+"PO-Revision-Date: 2026-04-22 02:09+0000\n"
+"Last-Translator: Queen Imanity <queenimanity@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "andors-trail/game-content/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -13,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -51732,7 +51731,7 @@ msgstr "Uau."
 
 #: conversationlist_sullengard.json:sullengard_goat_0
 msgid "Baa."
-msgstr "Baa."
+msgstr "Bee."
 
 #: conversationlist_sullengard.json:sullengard_goat_herder_0
 msgid "Hello child. Please leave me be."
@@ -53465,55 +53464,57 @@ msgstr "Hum, ainda tenho de pensar nisso. Eu já volto..."
 #: conversationlist_sullengard.json:mg2_kealwea_40
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_40
 msgid "You must be out of your mind! Free yourself from them or you are lost!"
-msgstr ""
+msgstr "Você enlouqueceu! Se livra deles ou você tá ferrado!"
 
 #: conversationlist_sullengard.json:mg2_kealwea_40:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_40:0
 msgid "No. I will keep them."
-msgstr ""
+msgstr "Não. Eu vou ficar com eles."
 
 #: conversationlist_sullengard.json:mg2_kealwea_40:1
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_40:1
 msgid "You are certainly right. Take it and do what you have to do."
-msgstr ""
+msgstr "Você tem toda a razão. Leve-o e faça o que for preciso."
 
 #: conversationlist_sullengard.json:mg2_kealwea_50
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_50
 msgid "Wonderful. You have no idea what terrible things this crystal could have done."
-msgstr ""
+msgstr "Que bom. Você nem imagina o estrago que esse cristal podia ter causado."
 
 #: conversationlist_sullengard.json:mg2_kealwea_50:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_50:0
 msgid "Yes - whatever it was exactly."
-msgstr ""
+msgstr "Sim — seja lá o que fosse."
 
 #: conversationlist_sullengard.json:mg2_kealwea_52
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_52
 msgid "You did the right thing. The whole world is grateful to you."
-msgstr ""
+msgstr "Você fez o que era certo. O mundo inteiro lhe é grato."
 
 #: conversationlist_sullengard.json:mg2_kealwea_52:0
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_52:0
 msgid "I do something like that every other day."
-msgstr ""
+msgstr "Eu faço isso dia sim, dia não."
 
 #: conversationlist_sullengard.json:mg2_kealwea_52:1
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_52:1
 msgid "I can't buy anything with words of thanks."
-msgstr ""
+msgstr "Obrigado não paga as minhas contas."
 
 #: conversationlist_sullengard.json:mg2_kealwea_54
 #: conversationlist_mt_galmore2.json:mg2_starwatcher_54
 msgid "Oh. I understand."
-msgstr ""
+msgstr "Ah. Entendi."
 
 #: conversationlist_sullengard.json:mg2_kealwea_56
 msgid "I can't give you any gold. That belongs to the church."
-msgstr ""
+msgstr "Não posso te dar nem um ouro. Ele pertence à Igreja."
 
 #: conversationlist_sullengard.json:mg2_kealwea_60
 msgid "But this little book might bring you joy. Wait, I'll write you a dedication inside."
 msgstr ""
+"Mas este livrinho pode lhe trazer alegria. Espere, vou escrever uma "
+"dedicatória aqui dentro."
 
 #: conversationlist_haunted_forest.json:daw_haunted_enterance
 msgid "As you approach, the hair stands up on the back of your neck and you get a sudden and intense fear sensation and decide that now is not your time to go any further."
@@ -54106,11 +54107,11 @@ msgstr "Olha, esse portão enorme parece ter um buraco."
 
 #: conversationlist_ratdom.json:ratdom_door_412_30
 msgid "This is a rather massive gate."
-msgstr ""
+msgstr "Este portão é gigantesco."
 
 #: conversationlist_ratdom.json:ratdom_door_533_10
 msgid "Look, the door seems to be unlocked."
-msgstr ""
+msgstr "Olha só, a porta parece que tá aberta."
 
 #: conversationlist_ratdom.json:ratdom_door_533_10:0
 #: conversationlist_ratdom.json:ratdom_door_533_20:0
@@ -54120,58 +54121,62 @@ msgstr "Abra a porta."
 #: conversationlist_ratdom.json:ratdom_door_533_12
 msgid "Wait - the door has no handle on the other side. If we go through, we can't go back."
 msgstr ""
+"Peraí — a porta não tem trinco do lado de lá. Se a gente entrar, não tem "
+"como voltar."
 
 #: conversationlist_ratdom.json:ratdom_door_533_12:0
 msgid "Right. I don't think that there is anything interesting there."
-msgstr ""
+msgstr "Certo. Eu não acho que tenha nada de interessante lá."
 
 #: conversationlist_ratdom.json:ratdom_door_533_14
 msgid "I agree. Probably just a shortcut back."
-msgstr ""
+msgstr "Concordo. Provavelmente é só um atalho de volta."
 
 #: conversationlist_ratdom.json:ratdom_door_533_20
 msgid "The door seems to be unlocked."
-msgstr ""
+msgstr "A porta parece estar destrancada."
 
 #: conversationlist_ratdom.json:ratdom_door_533_22
 msgid "Hmm, the door has no handle on the other side. If I go through, I can't go back."
 msgstr ""
+"Hum, a porta não tem maçaneta do outro lado. Se eu passar, não poderei "
+"voltar."
 
 #: conversationlist_ratdom.json:ratdom_door_533_24
 msgid "Looks like there isn't anything interesting there. Probably just a shortcut back."
-msgstr ""
+msgstr "Pelo visto, não tem nada demais ali. Deve ser só um caminho pra voltar."
 
 #: conversationlist_ratdom.json:ratdom_fraedro_key
 msgid "The cave wall looks very massive here."
-msgstr ""
+msgstr "A parede da caverna parece ser bem dura aqui."
 
 #: conversationlist_ratdom.json:ratdom_fraedro_key:0
 msgid "You search the wall for some weak points or holes."
-msgstr ""
+msgstr "Você examina a parede em busca de pontos fracos ou fendas."
 
 #: conversationlist_ratdom.json:ratdom_fraedro_key_10
 msgid "You found a tiny hole."
-msgstr ""
+msgstr "Você encontrou um buraquinho."
 
 #: conversationlist_ratdom.json:ratdom_fraedro_key_10:0
 #: conversationlist_ratdom.json:ratdom_fraedro_key_12:0
 msgid "Insert a bone into the hole."
-msgstr ""
+msgstr "Enfie um osso no buraquinho."
 
 #: conversationlist_ratdom.json:ratdom_fraedro_key_10:1
 #: conversationlist_ratdom.json:ratdom_fraedro_key_12:1
 msgid "Insert Fraedro's golden key into the hole."
-msgstr ""
+msgstr "Insira a chave dourada de Fraedro no buraco."
 
 #: conversationlist_ratdom.json:ratdom_fraedro_key_10:2
 #: conversationlist_ratdom.json:ratdom_fraedro_key_12:2
 msgid "Hit the hole with your pickaxe."
-msgstr ""
+msgstr "Escave o buraco com sua picareta."
 
 #: conversationlist_ratdom.json:ratdom_fraedro_key_10:3
 #: conversationlist_ratdom.json:ratdom_fraedro_key_12:3
 msgid "Stuff a fish into the hole."
-msgstr ""
+msgstr "Enfie um peixe no buraquinho."
 
 #: conversationlist_ratdom.json:ratdom_fraedro_key_12f
 msgid "A fish? Really??"
@@ -54180,10 +54185,12 @@ msgstr "Um peixe? Realmente??"
 #: conversationlist_ratdom.json:ratdom_fraedro_key_20
 msgid "The key easily slipped into the hole and vanished! Suddenly a big rumbling makes you close your eyes."
 msgstr ""
+"A chave entrou sem esforço no buraquinho e sumiu! De repente, um tremor "
+"profundo faz você fechar os olhos."
 
 #: conversationlist_ratdom.json:ratdom_fraedro_key_30
 msgid "I hate to admit it, but that was a good idea for once."
-msgstr ""
+msgstr "Odeio admitir, mas essa foi uma boa ideia, pelo menos uma vez."
 
 #: conversationlist_ratdom.json:ratdom_fraedro_sign
 msgid "Access denied!"
@@ -54191,15 +54198,15 @@ msgstr "Acesso negado!"
 
 #: conversationlist_ratdom.json:ratdom_ghost_10
 msgid "Goosebumps crawl up your back."
-msgstr ""
+msgstr "Você sente um calafrio nas costas."
 
 #: conversationlist_ratdom.json:ratdom_ghost_20
 msgid "B o o m!  A loud crack makes you jump."
-msgstr ""
+msgstr "B U M! Um estalo alto faz você dar um pulo."
 
 #: conversationlist_ratdom.json:ratdom_ghost_30
 msgid "Whooo is distuuurbing my reeeest?!"
-msgstr ""
+msgstr "Queem ousaaa perturbaaaar o meu descaaanso?!"
 
 #: conversationlist_ratdom.json:ratdom_ghost_30:0
 #: conversationlist_ratdom.json:ratdom_ghost_30:1
@@ -54212,7 +54219,7 @@ msgstr "Eu também. [risos]"
 
 #: conversationlist_ratdom.json:ratdom_ghost_40
 msgid "A mad giggle fills the room."
-msgstr ""
+msgstr "Uma risadinha maníaca ecoa pela sala."
 
 #: conversationlist_ratdom.json:ratdom_ghost_40a
 msgid "No reply."
@@ -54220,71 +54227,78 @@ msgstr "Sem resposta."
 
 #: conversationlist_ratdom.json:ratdom_ghost_50
 msgid "Something hisses through the air and hits you hard in the back of the head."
-msgstr ""
+msgstr "Algo corta ar e atinge você com força na nuca."
 
 #: conversationlist_ratdom.json:ratdom_ghost_50a
 msgid "You can't tell what it was. But it hurt."
-msgstr ""
+msgstr "Você não sabe dizer o que foi. Mas doeu."
 
 #: conversationlist_ratdom.json:ratdom_ghost_50b
 msgid "You should learn to dodge in time, you clumsy two-legged creature."
 msgstr ""
+"Você deveria aprender a se esquivar a tempo, sua criatura bípede desajeitada."
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bone_10
 msgid "You grab the content of the gold hunters chest: Some gold nuggets - and a leg bone of a rat!?"
 msgstr ""
+"Você saqueia o baú dos caçadores de ouro: pepitas de ouro e... um fêmur de "
+"rato!?"
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bone_reminder_26
 msgid "I should take a closer look back on the isle."
-msgstr ""
+msgstr "Preciso dar uma olhada melhor naquela ilha de novo."
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_10
 msgid "A wooden plank - hmm ..."
-msgstr ""
+msgstr "Uma tábua de madeira... hum..."
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_10:0
 msgid "That's exactly what I need! Let's build a bridge ..."
-msgstr ""
+msgstr "É exatamente disso que eu preciso! Vamos improvisar uma ponte..."
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_10:1
 msgid "It would be a good idea to make a fire now."
-msgstr ""
+msgstr "Seria prudente acender uma fogueira agora."
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_20
 msgid "No it would not."
-msgstr ""
+msgstr "Não, de modo algum."
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_20:0
 msgid "Oh. Well, then let's build the bridge."
-msgstr ""
+msgstr "Ah. Bem, então vamos construir a ponte."
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_20:1
 msgid "But I want a fire right now! It is cold here, and dark."
-msgstr ""
+msgstr "Mas eu quero uma fogueira agora mesmo! Está frio aqui, e escuro."
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_22
 msgid "Then you'd have a fire. And then? You would never be able to leave again."
-msgstr ""
+msgstr "Então você teria fogo. E depois? Você nunca mais conseguiria sair."
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_22:0
 msgid "Fine. Nothing is allowed!"
-msgstr ""
+msgstr "Ótimo, Não se pode fazer nada!"
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_22:1
 msgid "I want, want, want! Fire - now!"
-msgstr ""
+msgstr "Eu quero, eu quero, eu quero! Fogo - Agora!"
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_24
 msgid "Do you want to stay here forever and starve? Think about the artifact. We have a job to do!"
 msgstr ""
+"Você quer ficar aqui para sempre e morrer de fome? Pense no artefato. Temos "
+"um trabalho a fazer!"
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_24:0
 msgid "Well, then let's just build this stupid bridge. [Grumble]"
-msgstr ""
+msgstr "Bem, então vamos logo construir essa porcaria de ponte. [Resmungo]"
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_30
 msgid "And you will be lonely. Unlike you, I can swim. And I will not spend the end of my life here."
 msgstr ""
+"E você ficará sozinho. Ao contrário de você, eu sei nadar. E eu não passarei "
+"o fim da minha vida aqui."
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_30:0
 msgid "[Light the wood]"
@@ -54293,6 +54307,8 @@ msgstr "[Acenda a madeira]"
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_30:1
 msgid "All right then. So the wood becomes a bridge instead of giving warmth and joy. Sigh."
 msgstr ""
+"Está bem, então. Assim, a madeira vira uma ponte em vez de dar calor e "
+"alegria. Suspiro."
 
 #: conversationlist_ratdom.json:ratdom_goldhunter_bridge_80
 msgid "Farewell then. I will think of you when I have the artifact in my claws!"
@@ -76189,7 +76205,7 @@ msgstr "Um selo com uma marca de safira azul de Feygard."
 
 #: itemlist_omi2.json:torch
 msgid "Miner's lamp fuel"
-msgstr "Combústivel de lâmpada."
+msgstr "Combustível para lanterna de mineiro"
 
 #: itemlist_omi2.json:torch:description
 msgid "Miner's lamp oil with low odor and pollutants. Useful for pitch black tunnels, caves and passages."
@@ -83562,11 +83578,10 @@ msgid ""
 "Nocmar tells me he used to be a smith. But Lord Geomyr has banned the use of heartsteel, so he cannot forge his weapons anymore.\n"
 "If I can find a heartstone and bring it to Nocmar, he should be able to forge the heartsteel again."
 msgstr ""
-"[OUTDATED]Nocmar me dise que ele costumava ser um ferreiro. Mas o Lorde "
-"Geomyr proibiu o uso do Aço do Coração. Assim, ele não pode forjar mais suas "
-"armas.\n"
-"Se eu puder encontrar uma Pedra do Coração e trazê-la para Nocmar, ele deve "
-"ser capaz de forjar com o Aço do Coração novamente."
+"Nocmar me contou que já foi um ferreiro. Contudo, o Lorde Geomyr baniu o uso "
+"do Coração de Aço, o que o impede de forjar suas armas. Se eu localizar uma "
+"Pedra do Coração e entregá-la a Nocmar, ele será capaz de forjar o Coração "
+"de Aço novamente."
 
 #: questlist.json:nocmar:30
 msgid "Nocmar, the Fallhaven smith said that I could find a heartstone in a place called Undertell which is somewhere near Galmore Mountain."
@@ -86219,7 +86234,7 @@ msgstr "Ele ficou bastante impressionado com o meu excelente resultado."
 
 #: questlist_stoutford_combined.json:stn_colonel:172
 msgid "My result confirmed his relatively low expectations."
-msgstr "[OUTDATED]Meu resultado confirmou suas expectativas relativamente baixas."
+msgstr "Meu resultado confirmou suas expectativas relativamente baixas."
 
 #: questlist_stoutford_combined.json:stn_colonel:190
 msgid "Lutarc gave me a medallion as a present. There is a tiny little lizard on it, that looks completely real."
@@ -88092,11 +88107,11 @@ msgstr ""
 
 #: questlist_ratdom.json:ratdom_mikhail:30
 msgid "I have killed Mara."
-msgstr "[REVIEW]Você matou Mara."
+msgstr "Você matou Mara."
 
 #: questlist_ratdom.json:ratdom_mikhail:32
 msgid "I have killed Tharal."
-msgstr "[REVIEW]Você matou Tharal."
+msgstr "Você matou Tharal."
 
 #: questlist_ratdom.json:ratdom_mikhail:52
 msgid "I told Gruiik that I have killed Mara and Tharal."
@@ -88328,23 +88343,23 @@ msgstr ""
 
 #: questlist_ratdom.json:ratdom_skeleton:61
 msgid "Roskelt asked me to kill his brother."
-msgstr "[REVIEW]Roskelt pediu para você matar o irmão dele."
+msgstr "Roskelt pediu para você matar o irmão dele."
 
 #: questlist_ratdom.json:ratdom_skeleton:62
 msgid "Bloskelt asked me to kill his brother."
-msgstr "[REVIEW]Bloskelt pediu para você matar o irmão dele."
+msgstr "Bloskelt pediu para você matar o irmão dele."
 
 #: questlist_ratdom.json:ratdom_skeleton:71
 msgid "I have killed Bloskelt."
-msgstr "[REVIEW]Você matou Bloskelt."
+msgstr "Você matou Bloskelt."
 
 #: questlist_ratdom.json:ratdom_skeleton:72
 msgid "I have killed Roskelt."
-msgstr "[REVIEW]Você matou Roskelt."
+msgstr "Você matou Roskelt."
 
 #: questlist_ratdom.json:ratdom_skeleton:90
 msgid "For all my efforts, I've got a pretty poor reward."
-msgstr "[REVIEW]Pelo seu esforço, você recebeu uma recompensa muito baixa."
+msgstr "Depois de tanto esforço, ganhei uma recompensa bem ruinzinha."
 
 #: questlist_mt_galmore.json:wanted_men
 msgid "Wanted men"
