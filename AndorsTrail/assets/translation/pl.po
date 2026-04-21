@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Andors Trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-04-14 17:27+0000\n"
+"PO-Revision-Date: 2026-04-22 02:09+0000\n"
 "Last-Translator: Daniel Stasiak <daniels.automatyk@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/andors-trail/game-"
 "content/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:27+0000\n"
 
 #: [none]
@@ -61465,38 +61465,51 @@ msgstr ""
 #: conversationlist_laeroth.json:moriath_1_0:2
 msgid "Cuned now sent me to his mother Audela. Where are Audela's item?"
 msgstr ""
+"Cuned odesłał mnie do swojej matki, Audeli. Gdzie mogę znaleźć jej rzeczy?"
 
 #: conversationlist_laeroth.json:moriath_1_0:3
 msgid "Jerelin was not helpful. In fact, he just ignored me."
 msgstr ""
+"Jerelin nie był zbyt pomocny. Tak prawdę mówiąc, to po prostu mnie "
+"zignorował."
 
 #: conversationlist_laeroth.json:moriath_1_0:4
 msgid "Cuned has sent me to talk to his father Jerelin. Now I need a personal item of him"
 msgstr ""
+"Cuned skierował mnie do swego ojca, Jerelina. Teraz potrzebuję czegoś, co "
+"niegdyś do niego należało"
 
 #: conversationlist_laeroth.json:moriath_1_0:5
 msgid "I spoke to the spirit of Eyvipa. Even now he was extremely displeased at being passed over in favor of Cuned in the line of succession. Do you know where I might find a personal item of him?"
 msgstr ""
+"Rozmawiałem z duchem Eyvipy. Nawet teraz był bardzo urażony tym, że przy "
+"sukcesji pominięto go na rzecz Cuneda. Czy wiesz może, gdzie mogę znaleźć "
+"jakiś należący do niego przedmiot?"
 
 #: conversationlist_laeroth.json:moriath_1_0:6
 msgid "I spoke to the spirit of Verigil, but he told me he cannot help. I must speak to his uncle, Eyvipa. So I need a personal item of his. Do you know where I might find one?"
 msgstr ""
+"Rozmawiałem z duchem Verigila, ale on stwierdził, że nie jest w stanie mi "
+"pomóc. Muszę porozmawiać z jego wujem, Eyvipą. A zatem potrzebuję jakiegoś "
+"przedmiotu który do niego należał. Czy wiesz, gdzie mogę go znaleźć?"
 
 #: conversationlist_laeroth.json:moriath_1_0:7
 msgid "I have found how to raise a spirit and talk to it. However, I need a personal item from the deceased."
 msgstr ""
+"Odkryłem sposób na przywołanie ducha i rozmowę z nim. Potrzebuję jednak "
+"jakiegoś przedmiotu który należał do zmarłego."
 
 #: conversationlist_laeroth.json:moriath_1_0:8
 msgid "Can you tell me about this place?"
-msgstr ""
+msgstr "Czy możesz opowiedzieć mi coś o tym miejscu?"
 
 #: conversationlist_laeroth.json:moriath_1_0:9
 msgid "Can you tell me again why you are still here?"
-msgstr ""
+msgstr "Czy mógłbyś wyjaśnić mi raz jeszcze, dlaczego wciąż tu przebywasz?"
 
 #: conversationlist_laeroth.json:moriath_1_0:10
 msgid "I have to leave to look for my brother."
-msgstr ""
+msgstr "Muszę już iść i dalej szukać mojego brata."
 
 #: conversationlist_laeroth.json:moriath_1_1
 msgid "Well, the previous lord was Verigil. His son, Adakin, did not take any of his fathers possesions when he left. You might find something in the master bedroom."
