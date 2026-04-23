@@ -338,7 +338,54 @@
 \nBesök spelforumet för att diskutera spelet med andra spelare och för att hjälpa till att göra spelet ännu bättre (se \"Om\").
 \n
 \nTack för all feedback!</string>
-    <string name="about_interface">&lt;div&gt;Du hittar &lt;b&gt;spelinställningarna&lt;/b&gt; genom att trycka på sin enhets menyknapp.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Gränssnittsikoner&lt;/h1&gt; &lt;div&gt;&lt;b&gt;Kistan&lt;/b&gt;&lt;img alt=kista src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Snabbplatser [Tryck länge på påsarna inuti för att välja ut föremål för snabb åtkomst]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Hjälten&lt;/b&gt;&lt;img alt=hjälte src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Meny [Översikt, Uppdrag, Förmågor &amp;amp; Inventarium *]&lt;/p&gt; &lt;p&gt;* (Medan du är i inventariet, tryck på ett föremål för information &amp;amp; tryck länge för fler alternativ)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Fienden&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Information [Visas under strid]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Strid&lt;/h1&gt; &lt;p&gt;Handlingar under strid kostar AP...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Attack&lt;/b&gt; - [3AP] *&lt;/div&gt; &lt;img alt=attack src=doubleattackexample.png /&gt; &lt;p&gt;* (Att ta på utrustning &amp;amp; använda föremål kan förändra AP &amp;amp; brukskostnad)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Använda föremål&lt;/b&gt; - [5AP]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Flykt&lt;/b&gt; - [6AP]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Avancerad strid&lt;/h1&gt; &lt;div&gt;Under strid, tryck länge på en ruta intill hjälten...&lt;/div&gt; &lt;div&gt;&lt;b&gt;För att fly&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(vald ruta lyses upp - attackknappen ändras till förflyttning)&lt;/p&gt; &lt;img alt=fly src=flee_example.png /&gt; &lt;p&gt;[flyktläge aktiverat - Tryck länge på fienden för att återuppta strid]&lt;/p&gt; &lt;div&gt;&lt;b&gt;För att byta mål&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(den röda målmarkören flyttas mellan fiender)&lt;/p&gt; &lt;p&gt;[anfallsmålet har bytts ut]&lt;/p&gt;</string>
+    <string name="about_interface"><![CDATA[
+
+<div><b>Spelets inställningar</b> hittar du genom att trycka på din enhets Meny Knapp.</div>
+
+<p>________________</p>
+<h1>Grässnittsikoner</h1>
+
+<div><b>Kistan</b><img alt="kista" src="chest.png" /></div>
+<p>Quickslots [Håll in påsarna inuti för att sätta den i en quickslot för snabb åtkomst]</p>
+
+<div><b>Hjälten</b><img alt="hjälte" src="char_hero.png" /></div>
+<p>Meny [Översikt, Uppdrag, Förmågor &amp; Förråd *]</p>
+<p>* (När du är i ditt förråd, "tryck" på en sak för att få upp information &amp; "håll in" för fler val)</p>
+
+<div><b>Fienden</b><img alt="monster" src="monster.png" /></div>
+<p>Information [Visas Under Strid]</p>
+
+
+
+<p>________________</p>
+<h1>Strid</h1>
+
+<p>Handlingar under en strid kostar AP...</p>
+
+<div><b>Attacking</b> - [3AP] *</div>
+<img alt="attackerar" src="doubleattackexample.png" />
+<p>* (Utrustning &amp; Att använda föremål kan ändra ditt AP &amp; vad det kostar)</p>
+
+<div><b>Använda Föremål</b> - [5AP]</div>
+<div><b>Fly</b> - [6AP]</div>
+
+
+
+<p>________________</p>
+<h1>Avancerad Strid</h1>
+
+<div>Under en strid kan du hålla in på en ruta nära hjälten</div>
+
+<div><b>För Att Fly</b></div>
+<p>(valda rutan är markerad - Attack Knappen byter till Gå)</p>
+<img alt="fly" src="flee_example.png" />
+<p>[flyktläge har aktiverats - Håll in på en fiende för att gå med i striden igen]</p>
+
+<div><b>Att Byta Mellan Fiender</b></div>
+<p>(den röda måltavelmarkeringen går emellan fiender)</p>
+<p>[målet har bytts ut]</p>
+
+]]></string>
     <string name="dialog_rest_message">Du har vilat och återfått full hälsa.</string>
     <string name="levelup_add_blockchance_description">Adderar %1$d till din grundpareringschans.</string>
     <string name="levelup_add_blockchance">Öka pareringschans (+%1$d)</string>
@@ -592,4 +639,5 @@
     <string name="iteminfo_effect_decrease_attack_damage_minmax">Sänker attackskada med %1$d-%2$d</string>
     <string name="iteminfo_effect_increase_block_chance">Ökar pareringschans med %1$d</string>
     <string name="iteminfo_effect_decrease_block_chance">Sänker pareringschans med %1$d</string>
+    <string name="about_contents3">Detta program är fri programvara; du kan omdistribuera det och/eller modifiera det enligt villkoren i GNUs General Public License som publicerats av Free Software Foundation; antingen version 2 av licensen, eller (ditt val av) någon senare version.&lt;br /&gt; &lt;br /&gt; Detta program distribueras i hoppet om att det kommer att vara användbart, men UTAN NÅGON GARANTI; utan ens den implicita garantin för SÄLJBARHET eller LÄMPLIGHET FÖR ETT SÄRSKILT ÄNDAMÅL. Se GNUs General Public License för mer information.&lt;br /&gt; &lt;br /&gt; Du bör ha fått en kopia av GNUs General Public License tillsammans med detta program; Om inte, se &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; För källkod och funktionsförfrågningar, besök projektsidan på &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
 </resources>
