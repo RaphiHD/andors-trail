@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-03-15 06:09+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2026-04-24 18:09+0000\n"
+"Last-Translator: Efraim Sundelin <efraim.sundelin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:24+0000\n"
 
 #: [none]
@@ -286,7 +286,7 @@ msgstr "Koncentration"
 
 #: actorconditions_omicronrg9.json:g03_combo
 msgid "Combo"
-msgstr "Kombination"
+msgstr "Kombo"
 
 #: actorconditions_omicronrg9.json:carrying_ambelie
 msgid "Carrying Ambelie"
@@ -385,147 +385,157 @@ msgstr "Sömngång"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "Feygard-lojalisten"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr ""
+msgstr "Rotsnöre"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "Rabies"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "Dålig smak"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr ""
+msgstr "Törst"
 
 #: actorconditions_laeroth.json:swift_attack
 msgid "Swift attack"
-msgstr ""
+msgstr "Snabb attack"
 
 #: actorconditions_laeroth.json:blindness
 msgid "Blindness"
-msgstr ""
+msgstr "Blindhet"
 
 #: actorconditions_laeroth.json:life_drain
 msgid "Life drain"
-msgstr ""
+msgstr "Livs dränering"
 
 #: actorconditions_laeroth.json:sting_major
 msgid "Major sting"
-msgstr ""
+msgstr "Stort stick"
 
 #: actorconditions_laeroth.json:spider_bite
 msgid "Spider bite"
-msgstr ""
+msgstr "Spindelbett"
 
 #: actorconditions_laeroth.json:environmental_poisoning
 msgid "Environmental poisoning"
-msgstr ""
+msgstr "Miljöförgiftning"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
-msgstr ""
+msgstr "Gottegris"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
-msgstr ""
+msgstr "Mindre ökat försvar"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
-msgstr ""
+msgstr "Elytharas förfriskning"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
-msgstr ""
+msgstr "Genomblöt syn"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark
 msgid "Pull of the mark"
-msgstr ""
+msgstr "Dra av märket"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark:description
 msgid "You feel an inexplicable pull toward something familiar, as if a piece of you is tethered to a distant past. An echo of guidance whispers faintly in your mind, urging you to seek clarity from those who once knew you best."
 msgstr ""
+"Du känner ett oförklarligt drag mot något bekant, som om en del av dig är "
+"förankrad i ett avlägset förflutet. Ett eko av vägledning viskar svagt i "
+"ditt huvud och uppmanar dig att söka klarhet hos dem som en gång kände dig "
+"bäst."
 
 #: actorconditions_mt_galmore2.json:potent_venom
 msgid "Potent venom"
-msgstr ""
+msgstr "Starkt gift"
 
 #: actorconditions_mt_galmore2.json:burning
 msgid "Burning"
-msgstr ""
+msgstr "Brinnande"
 
 #: actorconditions_mt_galmore2.json:rockfall
 msgid "Rock fall"
-msgstr ""
+msgstr "Stenfall"
 
 #: actorconditions_mt_galmore2.json:swamp_foot
 msgid "Swamp foot"
-msgstr ""
+msgstr "Träskfot"
 
 #: actorconditions_mt_galmore2.json:unsteady_footing
 msgid "Unsteady footing"
-msgstr ""
+msgstr "Ostadigt fotfäste"
 
 #: actorconditions_mt_galmore2.json:clinging_mud
 msgid "Clinging mud"
-msgstr ""
+msgstr "Klängande lera"
 
 #: actorconditions_mt_galmore2.json:clinging_mud:description
 msgid "Thick mud clings to your legs, hindering your movements and making it harder to act swiftly or strike with precision."
 msgstr ""
+"Tjock lera fastnar på dina ben, vilket hindrar dina rörelser och gör det "
+"svårare att agera snabbt eller attackera med precision."
 
 #: actorconditions_mt_galmore2.json:cinder_rage
 msgid "Cinder rage"
-msgstr ""
+msgstr "Ask ilska"
 
 #: actorconditions_mt_galmore2.json:frostbite
 msgid "Frostbite"
-msgstr ""
+msgstr "Frostskada"
 
 #: actorconditions_mt_galmore2.json:shadowsleep
 msgid "Shadow sleepiness"
-msgstr ""
+msgstr "Skuggsömnighet"
 
 #: actorconditions_mt_galmore2.json:petristill
 msgid "Petristill"
-msgstr ""
+msgstr "Förstillad"
 
 #: actorconditions_mt_galmore2.json:petristill:description
 msgid "A creeping layer of stone overtakes the infliced's form, dulling its reflexes but hardening its body against harm."
 msgstr ""
+"Ett krypande lager av sten tar över den skadades form, vilket saktar ner "
+"reflexerna men skyddar kroppen mot skada."
 
 #: actorconditions_mt_galmore2.json:divine_judgement
 msgid "Divine judgement"
-msgstr ""
+msgstr "Gudomlig dom"
 
 #: actorconditions_mt_galmore2.json:divine_punishment
 msgid "Divine punishment"
-msgstr ""
+msgstr "Gudomligt straff"
 
 #: actorconditions_mt_galmore2.json:baited_strike
 msgid "Baited strike"
-msgstr ""
+msgstr "Betesattack"
 
 #: actorconditions_mt_galmore2.json:baited_strike:description
 msgid "An overcommitment to attacking that sharpens accuracy at the cost of defensive footing."
 msgstr ""
+"En överdriven satsning på attacker som skärper precisionen på bekostnad av "
+"defensivt fotfäste."
 
 #: actorconditions_mt_galmore2.json:trapped
 msgid "Trapped"
-msgstr ""
+msgstr "Instängd"
 
 #: actorconditions_mt_galmore2.json:splinter
 msgid "Splinter"
-msgstr ""
+msgstr "Splittra"
 
 #: actorconditions_mt_galmore2.json:unstable_footing
 msgid "Unstable footing"
-msgstr ""
+msgstr "Ostabilt fotfäste"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -580,7 +590,7 @@ msgstr "Ja, jag är här för att leverera beställningen av en \"plyschkudde\",
 
 #: conversationlist_mikhail.json:mikhail_default:10
 msgid "I don't know...something feels wrong. I thought maybe you were in danger."
-msgstr ""
+msgstr "Jag vet inte...nåt känns fel. Jag trodde att du var i fara."
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
@@ -691,7 +701,7 @@ msgstr "Tack för brödet förut."
 #: conversationlist_sullengard.json:sullengard_hadena_7:1
 #: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
-msgstr ""
+msgstr "Varsågod."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
@@ -720,6 +730,8 @@ msgstr "OK, jag förstår. Jag kan vila här om jag blir skadad och jag borde ko
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
 msgstr ""
+"En sak till: Ser du korgen på golvet där borta? Det är Andors, han kan ha "
+"lämnat nåt användbart i den."
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
@@ -786,6 +798,8 @@ msgstr "Ett annat sätt för att återhämta din styrka är att äta lite mat. D
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
 msgstr ""
+"Om det händer så kanske stadens präst kan hjälpa dig.  Annars får du vila "
+"tills du mår bättre."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
@@ -807,7 +821,7 @@ msgstr "Vänligen visa mig dina varor."
 
 #: conversationlist_crossglen.json:audir1:1
 msgid "Do you have a pickaxe by chance?"
-msgstr ""
+msgstr "Du råkar inte ha en hacka på dig?"
 
 #: conversationlist_crossglen.json:arambold1
 msgid ""
@@ -893,6 +907,10 @@ msgid ""
 "\n"
 "Hey kid, wanna join us in our drinking game?"
 msgstr ""
+"Drick drick drick, drick lite mer.\n"
+"Drick drick drick tills du inte ser.\n"
+"\n"
+"Hej grabben, vill du va' med i vår drycklek?"
 
 #: conversationlist_crossglen.json:drunk1:0
 #: conversationlist_crossglen_odair.json:odair4:2
@@ -925,6 +943,8 @@ msgstr ""
 #: conversationlist_crossglen.json:mara_thanks
 msgid "I heard you helped Odair clean out that old supply cave. Thanks a lot, we'll start using it soon."
 msgstr ""
+"Jag hörde att du hjälpte Odair att rensa ur den gamla förrådsgrottan. Tack "
+"så jättemycket, vi kommer börja använda den snart."
 
 #: conversationlist_crossglen.json:mara_thanks:0
 msgid "It was my pleasure."
@@ -955,7 +975,7 @@ msgstr "Va?! Ser du inte att jag är upptagen? Gå och stör någon annan."
 
 #: conversationlist_crossglen.json:farm2:1
 msgid "What happened to Leta and Oromir?"
-msgstr ""
+msgstr "Vad hände med Leta och Oromir?"
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
@@ -967,10 +987,14 @@ msgid ""
 "\n"
 "Now prepare to die, puny creature."
 msgstr ""
+"Nå ja, vad har vi här? En besökare, vad trevligt. Jag är imponerad att du "
+"kommit så här långt genom mina undersåtar.\n"
+"\n"
+"Var nu redo för att dö, din ynkliga varelse."
 
 #: conversationlist_crossglen.json:snakemaster:0
 msgid "Great, I have been waiting for a fight!"
-msgstr ""
+msgstr "Härligt, jag har väntat på en match!"
 
 #: conversationlist_crossglen.json:snakemaster:1
 msgid "Let's see who dies here."
@@ -985,11 +1009,11 @@ msgstr "Snälla, skada mig inte!"
 
 #: conversationlist_crossglen.json:haunt
 msgid "Oh mortal, free me from this cursed world!"
-msgstr ""
+msgstr "O dödlige, befria mig från denna förbannade värld!"
 
 #: conversationlist_crossglen.json:haunt:0
 msgid "Oh, I'll free you from it alright."
-msgstr ""
+msgstr "Åh, jag ska allt befria dig från den."
 
 #: conversationlist_crossglen.json:haunt:1
 msgid "You mean, by killing you?"
@@ -997,27 +1021,29 @@ msgstr "Du menar, genom att döda dig?"
 
 #: conversationlist_crossglen.json:drunk1a
 msgid "Heeeey - come on. Don't be such a spoilsport."
-msgstr ""
+msgstr "Heeeeej ‐ kom igen. Var inte en sån glädjedödare."
 
 #: conversationlist_crossglen.json:drunk1a:1
 msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
 msgstr ""
+"Nåja, om du verkligen vill. Men jag har en ny och definitiv lek här för dig. "
+"Ta den här och drick den. [Ge en flaska svagt gift]"
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
-msgstr ""
+msgstr "Åhh ... [glugg glugg]"
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
-msgstr ""
+msgstr "Vilken intressant ... [glugg]"
 
 #: conversationlist_crossglen.json:drunk1d
 msgid "... taste [falls over]"
-msgstr ""
+msgstr "... smak [ramlar]"
 
 #: conversationlist_crossglen.json:drunk1d:0
 msgid "Yes, really. A unique taste. And final - bye."
-msgstr ""
+msgstr "Ja verkligen. En unik smak. Det sista du smakar ‐ hejdå."
 
 #: conversationlist_crossglen_gruil.json:gruil1
 msgid ""
@@ -1055,7 +1081,7 @@ msgstr "Tack så mycket, grabben. Den här duger fint."
 
 #: conversationlist_crossglen_gruil.json:gruil_return
 msgid "Look kid, I already told you."
-msgstr ""
+msgstr "Hörru grabben, jag har redan sagt till dig."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor1
 msgid "I talked to him yesterday. He asked if I knew someone called Umar or something like that. I have no idea who he was talking about."
@@ -1064,10 +1090,14 @@ msgstr "Jag pratade med honom igår. Han frågade om jag känner någon som kall
 #: conversationlist_crossglen_gruil.json:gruil_andor2
 msgid "He seemed really upset about something and left in a hurry. Something about the Thieves' Guild in Fallhaven."
 msgstr ""
+"Han verkade väldigt upprörd över något och försvann snabbt iväg. Ha sa nåt "
+"om Tjuvarnas Skrå i Fallhamn."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor3
 msgid "That's all I know. Maybe you should ask around in Fallhaven. Look for my friend Gaela, he probably knows more."
 msgstr ""
+"Det är allt jag vet. Du borde kanske fråga runt i Fallhamn. Leta efter min "
+"vän Gaela, han vet nog mer."
 
 #: conversationlist_crossglen_leonid.json:leonid1
 msgid ""
@@ -1075,6 +1105,9 @@ msgid ""
 "\n"
 "I'm Leonid, steward of Crossglen village."
 msgstr ""
+"Hej grabben. Visst är du Mikhails yngsta barn? Med din brorsa.\n"
+"\n"
+"Jag är Leonid, förvaltare av byn Korsdal."
 
 #: conversationlist_crossglen_leonid.json:leonid1:1
 #: conversationlist_crossglen_leonid.json:leonid_continue:1
@@ -1092,31 +1125,33 @@ msgstr "Din bror? Nej, jag har inte sett honom här idag. Jag tror att jag såg 
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:0
 msgid "Thanks, I'll go talk to Gruil. There was something more I wanted to talk about."
-msgstr ""
+msgstr "Tack, jag går och pratar med Gruil. Det var nåt han ville prata om."
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:1
 msgid "Thanks, I'll go talk to Gruil."
-msgstr ""
+msgstr "Tack, jag går och pratar med Gruil."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen
 msgid "As you know, this is Crossglen village. Mostly a farming community."
-msgstr ""
+msgstr "Som du vte är det här byn Korsdal. Det är mest ett jordbrukssamhälle."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen1
 msgid "We have Audir with his smithy to the southwest, Leta and her husband's cabin to the west, this town hall here and your father's cabin to the northwest."
 msgstr ""
+"Vi har Audir med sin smedja i sydväst, Leta och hennes mans stuga i väst, "
+"rådhuset här och din fars stuga i nordväst."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2
 msgid "That's pretty much it. We try to live a peaceful life."
-msgstr ""
+msgstr "Det är i princip allt. Vi försöker leva ett fridfullt liv."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:0
 msgid "Has there been any recent activity in the village?"
-msgstr ""
+msgstr "Har någonting hänt i byn på senaste tiden?"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:1
 msgid "Let's go back to the other things we talked about."
-msgstr ""
+msgstr "Låt oss gå tillbaka till de andra sakerna vi pratade om."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen3
 msgid "There were some recent disturbances some weeks ago that you may have noticed. Some villagers got into a fight over the new decree from Lord Geomyr."
@@ -76949,7 +76984,7 @@ msgstr "Audir"
 
 #: monsterlist_crossglen_npcs.json:arambold
 msgid "Arambold"
-msgstr ""
+msgstr "Arambold"
 
 #: monsterlist_crossglen_npcs.json:tharal
 #: monsterlist_ratdom.json:ratdom_tharal
@@ -77124,7 +77159,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:bucus
 msgid "Bucus"
-msgstr ""
+msgstr "Bucus"
 
 #: monsterlist_fallhaven_npcs.json:drunkard
 msgid "Drunkard"
@@ -77137,7 +77172,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:nocmar
 msgid "Nocmar"
-msgstr ""
+msgstr "Nocmar"
 
 #: monsterlist_fallhaven_npcs.json:prisoner
 msgid "Prisoner"
@@ -77153,7 +77188,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:athamyr
 msgid "Athamyr"
-msgstr ""
+msgstr "Athamyr"
 
 #: monsterlist_fallhaven_npcs.json:thoronir
 msgid "Thoronir"
@@ -77179,7 +77214,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:larcal
 msgid "Larcal"
-msgstr ""
+msgstr "Larcal"
 
 #: monsterlist_fallhaven_npcs.json:gaela
 msgid "Gaela"
@@ -77218,7 +77253,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:vacor
 msgid "Vacor"
-msgstr ""
+msgstr "Vacor"
 
 #: monsterlist_fallhaven_npcs.json:unzel
 msgid "Unzel"
@@ -77360,7 +77395,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:troublemaker
 msgid "Troublemaker"
-msgstr ""
+msgstr "Bråkmakare"
 
 #: monsterlist_v068_npcs.json:farrik
 msgid "Farrik"
@@ -77414,7 +77449,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:jolnor
 msgid "Jolnor"
-msgstr ""
+msgstr "Jolnor"
 
 #: monsterlist_v068_npcs.json:alynndir
 msgid "Alynndir"
@@ -77430,7 +77465,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:ogam
 msgid "Ogam"
-msgstr ""
+msgstr "Ogam"
 
 #: monsterlist_v068_npcs.json:foaming_flask_cook
 msgid "Foaming Flask cook"
@@ -77459,7 +77494,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:wrye
 msgid "Wrye"
-msgstr ""
+msgstr "Wrye"
 
 #: monsterlist_v068_npcs.json:oluag
 msgid "Oluag"
@@ -77682,7 +77717,7 @@ msgstr ""
 
 #: monsterlist_v069_npcs.json:bjorgur
 msgid "Bjorgur"
-msgstr ""
+msgstr "Bjorgur"
 
 #: monsterlist_v069_npcs.json:prim_prisoner
 msgid "Prim prisoner"
@@ -77690,7 +77725,7 @@ msgstr ""
 
 #: monsterlist_v069_npcs.json:fulus
 msgid "Fulus"
-msgstr ""
+msgstr "Fulus"
 
 #: monsterlist_v069_npcs.json:guthbered
 msgid "Guthbered"
@@ -77787,7 +77822,7 @@ msgstr ""
 
 #: monsterlist_v069_npcs.json:herec
 msgid "Herec"
-msgstr ""
+msgstr "Herec"
 
 #: monsterlist_v069_npcs.json:iducus
 msgid "Iducus"
@@ -77823,7 +77858,7 @@ msgstr ""
 
 #: monsterlist_v069_npcs.json:throdna
 msgid "Throdna"
-msgstr ""
+msgstr "Throdna"
 
 #: monsterlist_v069_npcs.json:throdnas_guard
 msgid "Throdna's guard"
@@ -77952,7 +77987,7 @@ msgstr ""
 
 #: monsterlist_v0610_npcs1.json:benbyr
 msgid "Benbyr"
-msgstr ""
+msgstr "Benbyr"
 
 #: monsterlist_v0610_npcs1.json:celdar
 msgid "Celdar"
@@ -77968,7 +78003,7 @@ msgstr ""
 
 #: monsterlist_v0610_npcs1.json:erinith
 msgid "Erinith"
-msgstr ""
+msgstr "Erinith"
 
 #: monsterlist_v0610_npcs1.json:fanamor
 msgid "Fanamor"
@@ -77983,8 +78018,9 @@ msgid "Gallain"
 msgstr ""
 
 #: monsterlist_v0610_npcs1.json:gandoren
+#, fuzzy
 msgid "Gandoren"
-msgstr ""
+msgstr "Gandoren"
 
 #: monsterlist_v0610_npcs1.json:grimion
 msgid "Grimion"
@@ -78029,7 +78065,7 @@ msgstr ""
 
 #: monsterlist_v0610_npcs1.json:minarra
 msgid "Minarra"
-msgstr ""
+msgstr "Minarra"
 
 #: monsterlist_v0610_npcs1.json:puny_warehouserat
 msgid "Warehouse rat"
@@ -79669,8 +79705,9 @@ msgid "Old woman"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:stoutford_armorer
+#, fuzzy
 msgid "Odirath"
-msgstr ""
+msgstr "Odirath"
 
 #: monsterlist_stoutford_combined.json:cave_troll_1
 #: monsterlist_stoutford_combined.json:cave_troll_7
@@ -79911,7 +79948,7 @@ msgstr ""
 
 #: monsterlist_omicronrg9.json:g03_crackshot
 msgid "Crackshot"
-msgstr ""
+msgstr "Crackshot"
 
 #: monsterlist_omicronrg9.json:g03_crackshot_dying
 msgid "Dying Crackshot"
@@ -80437,7 +80474,7 @@ msgstr ""
 
 #: monsterlist_fungi_panic.json:bogsten_gambler1
 msgid "Bogal"
-msgstr ""
+msgstr "Bogal"
 
 #: monsterlist_fungi_panic.json:bogsten_gambler2
 msgid "Botisto"
@@ -80453,15 +80490,15 @@ msgstr ""
 
 #: monsterlist_gison.json:gison
 msgid "Gison"
-msgstr ""
+msgstr "Gison"
 
 #: monsterlist_gison.json:nimael
 msgid "Nimael"
-msgstr ""
+msgstr "Nimael"
 
 #: monsterlist_gison.json:gael
 msgid "Gael"
-msgstr ""
+msgstr "Gael"
 
 #: monsterlist_gison.json:small_stone_worm
 msgid "Small stone worm"
@@ -80491,11 +80528,11 @@ msgstr ""
 
 #: monsterlist_gorwath.json:gorwath
 msgid "Gorwath"
-msgstr ""
+msgstr "Gorwath"
 
 #: monsterlist_gorwath.json:arensia
 msgid "Arensia"
-msgstr ""
+msgstr "Arensia"
 
 #: monsterlist_omi2.json:mountain_wolf_2
 msgid "Trained mountain wolf"
@@ -80531,7 +80568,7 @@ msgstr ""
 
 #: monsterlist_omi2.json:ehrenfest
 msgid "Ehrenfest"
-msgstr ""
+msgstr "Ehrenfest"
 
 #: monsterlist_omi2.json:ortholion
 #: monsterlist_omi2.json:ortholion_hidden
@@ -80638,7 +80675,7 @@ msgstr ""
 
 #: monsterlist_omi2.json:kamelio
 msgid "Kamelio"
-msgstr ""
+msgstr "Kamelio"
 
 #: monsterlist_omi2.json:kamelio2
 msgid "Undead Kamelio"
@@ -81553,7 +81590,7 @@ msgstr ""
 #: monsterlist_darknessanddaylight.json:dds_andor
 #: monsterlist_mt_galmore2.json:mg2_andor
 msgid "Andor"
-msgstr ""
+msgstr "Andor"
 
 #: monsterlist_laeroth.json:lae_island_boss
 msgid "Dorhantarh"
@@ -88854,7 +88891,7 @@ msgstr ""
 
 #: worldmap.xml:world1:sullengard
 msgid "Sullengard"
-msgstr ""
+msgstr "Sullengard"
 
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
