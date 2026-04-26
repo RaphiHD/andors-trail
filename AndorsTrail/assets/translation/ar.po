@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-17 15:16+0200\n"
-"PO-Revision-Date: 2025-06-11 18:04+0000\n"
-"Last-Translator: احمد <ppidwoii007@gmail.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/andors-trail/"
-"game-content/ar/>\n"
+"PO-Revision-Date: 2026-04-26 15:09+0000\n"
+"Last-Translator: عادل نصري <nsrya06@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/andors-trail/game-"
+"content/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -436,51 +436,55 @@ msgstr "رؤية غارقة"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark
 msgid "Pull of the mark"
-msgstr ""
+msgstr "جاذبية العلامة"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark:description
 msgid "You feel an inexplicable pull toward something familiar, as if a piece of you is tethered to a distant past. An echo of guidance whispers faintly in your mind, urging you to seek clarity from those who once knew you best."
 msgstr ""
+"تشعر بانجذاب غامض نحو شيء مألوف، وكأن جزءًا منك مرتبط بماضٍ بعيد. يتردد صدى "
+"خافت لإرشادك في ذهنك، يحثك على طلب التوضيح من أولئك الذين عرفوك عن كثب."
 
 #: actorconditions_mt_galmore2.json:potent_venom
 msgid "Potent venom"
-msgstr ""
+msgstr "سم فتاك"
 
 #: actorconditions_mt_galmore2.json:burning
 msgid "Burning"
-msgstr ""
+msgstr "حرق"
 
 #: actorconditions_mt_galmore2.json:rockfall
 msgid "Rock fall"
-msgstr ""
+msgstr "سقوط صخور"
 
 #: actorconditions_mt_galmore2.json:swamp_foot
 msgid "Swamp foot"
-msgstr ""
+msgstr "قدم المستنقع"
 
 #: actorconditions_mt_galmore2.json:unsteady_footing
 msgid "Unsteady footing"
-msgstr ""
+msgstr "موطئ قدم غير مستقر"
 
 #: actorconditions_mt_galmore2.json:clinging_mud
 msgid "Clinging mud"
-msgstr ""
+msgstr "وحل لزج"
 
 #: actorconditions_mt_galmore2.json:clinging_mud:description
 msgid "Thick mud clings to your legs, hindering your movements and making it harder to act swiftly or strike with precision."
 msgstr ""
+"يلتصق الوحل الكثيف بساقيك، مما يعيق حركتك و يصعب عليك الحركة بسرعة أو الضرب "
+"بدقة."
 
 #: actorconditions_mt_galmore2.json:cinder_rage
 msgid "Cinder rage"
-msgstr ""
+msgstr "غضب الجمر"
 
 #: actorconditions_mt_galmore2.json:frostbite
 msgid "Frostbite"
-msgstr ""
+msgstr "قضمة الصقيع"
 
 #: actorconditions_mt_galmore2.json:shadowsleep
 msgid "Shadow sleepiness"
-msgstr ""
+msgstr "نعاس الظل"
 
 #: actorconditions_mt_galmore2.json:petristill
 msgid "Petristill"
@@ -489,34 +493,37 @@ msgstr ""
 #: actorconditions_mt_galmore2.json:petristill:description
 msgid "A creeping layer of stone overtakes the infliced's form, dulling its reflexes but hardening its body against harm."
 msgstr ""
+"طبقة زاحفة من الحجر تغطي جسد المتضرر، فتضعف ردود أفعاله لكنها تقوي جسده ضد "
+"الأذى."
 
 #: actorconditions_mt_galmore2.json:divine_judgement
 msgid "Divine judgement"
-msgstr ""
+msgstr "الحكم الإلهي"
 
 #: actorconditions_mt_galmore2.json:divine_punishment
 msgid "Divine punishment"
-msgstr ""
+msgstr "العقاب الإلهي"
 
 #: actorconditions_mt_galmore2.json:baited_strike
 msgid "Baited strike"
-msgstr ""
+msgstr "ضربة مستدرجة"
 
 #: actorconditions_mt_galmore2.json:baited_strike:description
 msgid "An overcommitment to attacking that sharpens accuracy at the cost of defensive footing."
 msgstr ""
+"الإفراط في التركيز على الهجوم مما يزيد من دقة التسديد على حساب الثبات الدفاعي."
 
 #: actorconditions_mt_galmore2.json:trapped
 msgid "Trapped"
-msgstr ""
+msgstr "مُحاصَر"
 
 #: actorconditions_mt_galmore2.json:splinter
 msgid "Splinter"
-msgstr ""
+msgstr "شظية"
 
 #: actorconditions_mt_galmore2.json:unstable_footing
 msgid "Unstable footing"
-msgstr ""
+msgstr "أرضية غير مستقرة"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -571,7 +578,7 @@ msgstr "أجل، أنا هنا لتسليم الطلبية'وسادة قطنية
 
 #: conversationlist_mikhail.json:mikhail_default:10
 msgid "I don't know...something feels wrong. I thought maybe you were in danger."
-msgstr ""
+msgstr "لا أعرف... أشعر أن هناك خطبا ما. ظننتُ أنك ربما كنت في خطر."
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
@@ -950,7 +957,7 @@ msgstr "ماذا؟! ألا ترى أنني مشغول؟ اذهب وازعج شخ
 
 #: conversationlist_crossglen.json:farm2:1
 msgid "What happened to Leta and Oromir?"
-msgstr ""
+msgstr "ماذا حدث لليتا و أورومير؟"
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
@@ -1385,7 +1392,7 @@ msgstr ""
 #: conversationlist_gorwath.json:arensia:5
 #: conversationlist_gorwath.json:arensia_1:0
 msgid "Hello."
-msgstr ""
+msgstr "أهلا."
 
 #: conversationlist_crossglen_leta.json:oromir2
 msgid "I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here."
@@ -88978,4 +88985,3 @@ msgstr ""
 #: worldmap.xml:world1:mt_bwm
 msgid "Blackwater Mountain"
 msgstr ""
-
