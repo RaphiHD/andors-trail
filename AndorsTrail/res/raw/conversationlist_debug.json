@@ -8,20 +8,6 @@
       { "text": "Faction scores", 	"nextPhraseID": "dbg_scores" }]
   },
   {
-    "id": "dbg_prj",
-    "message": "Projects",
-    "replies": [{ "text": "Undertell", 			"nextPhraseID": "dbg_teleport_prj_undertell" },
-      { "text": "Brightport",			"nextPhraseID": "dbg_prj_brightport2" },
-      { "text": "Way to Feygard", 	"nextPhraseID": "dbg_prj_feygard_3" },
-      { "text": "Way to Nor City", 	"nextPhraseID": "dbg_prj_nor_city" },
-      { "text": "brightportdungeon",  "nextPhraseID": "dbg_teleport_prj_brightportdungeon" },
-      { "text": "erumentemple",       "nextPhraseID": "dbg_prj_erumentemple" },
-      { "text": "sutdover_ext",       "nextPhraseID": "dbg_prj_sutdover_ext" },
-      { "text": "moeston",            "nextPhraseID": "dbg_prj_moeston" },
-      { "text": "z_biasZebra",        "nextPhraseID": "dbg_prj_z_biasZebra" },
-      { "text": "Back", 				"nextPhraseID": "dbg" }]
-  },
-  {
     "id": "dbg_teleport",
     "message": "Where do you want to travel?",
     "replies": [{ "text": "Projects (obsolete)",	"nextPhraseID": "dbg_teleport_prj" },
