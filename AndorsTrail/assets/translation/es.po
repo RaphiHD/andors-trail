@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-04-30 11:18+0000\n"
+"PO-Revision-Date: 2026-05-02 16:09+0000\n"
 "Last-Translator: Guillermo Rivero <cuentareloka@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
@@ -52028,7 +52028,6 @@ msgstr ""
 "Qué haces aquí?"
 
 #: conversationlist_sullengard.json:sullengard_find_mother_33
-#, fuzzy
 msgid "You've grown up so fast. Stop doing that. You are making me feel old."
 msgstr "Has crecido muy rápido. Deja de hacer eso. Me haces sentir vieja."
 
@@ -52451,7 +52450,6 @@ msgid "Why me?"
 msgstr "¿Por qué yo?"
 
 #: conversationlist_sullengard.json:ff_captain_beer_110
-#, fuzzy
 msgid "Well, because I am a Feygard captain and as such, the tavern keep will never give me information."
 msgstr ""
 "Bueno, porque soy un capitán de Feygard y como tal, el tabernero nunca me "
@@ -52461,7 +52459,7 @@ msgstr ""
 #: 111
 #, fuzzy
 msgid "Great. Report back to me when you have learnt something usefull."
-msgstr "Genial. Avísame cuando hayas aprendido algo útil."
+msgstr "Genial. Repórtate conmigo cuando hayas aprendido algo útil."
 
 #: conversationlist_sullengard.json:ff_captain_selector
 msgid "Have you learned anything about the beer?"
@@ -52615,7 +52613,6 @@ msgid "Oh yeah. I heard it directly from them."
 msgstr "Ah, sí. Lo escuché directamente de ellos."
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_sull_20:0
-#, fuzzy
 msgid "Thanks and Shadow be with you."
 msgstr "Gracias y que Sombra esté contigo."
 
@@ -52675,7 +52672,6 @@ msgstr ""
 "conseguisteis? Me gustaría llevarle un poco a mi padre."
 
 #: conversationlist_sullengard.json:torilo_beer_10:1
-#, fuzzy
 msgid "Why you're such a jerk?"
 msgstr "¿Por qué eres tan idiota?"
 
@@ -53041,11 +53037,9 @@ msgid "Oh, I see. Now do you trust me?"
 msgstr "Ah, ya veo. ¿Ahora confías en mí?"
 
 #: conversationlist_sullengard.json:sullengard_mayor_beer_50:1
-#, fuzzy
 msgid "Now can you trust me to let me know more about the 'business agreement'"
 msgstr ""
-"Ahora, ¿puedes confiar en que me informarás más sobre el \"acuerdo "
-"comercial\"?"
+"Ahora, puedes confiar en que me informarás más sobre el \"acuerdo comercial\""
 
 #: conversationlist_sullengard.json:sullengard_mayor_beer_60
 msgid "Yes. You have proven yourself to me."
@@ -54129,10 +54123,9 @@ msgid "The noise, my child! It's coming from over there. [He points east]"
 msgstr "¡Ese ruido, hijo mío! Viene desde allá. [Señala hacia el este]"
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete_20
-#, fuzzy
 msgid "I asked you to go investigate the noise and stop it if it is a threat"
 msgstr ""
-"Te pedí que fueras a investigar el ruido y lo detuvieras si representaba una "
+"Te pedí que fueras a investigar el ruido y lo detuvieras si representa una "
 "amenaza."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_incomplete_20:0
@@ -54886,7 +54879,6 @@ msgid "A bag of freshly baked bread is dangling at the door."
 msgstr "Una bolsa de pan recién horneado cuelga de la puerta."
 
 #: conversationlist_ratdom.json:crossglen_ratdom_key_3_20:0
-#, fuzzy
 msgid "Good old Mara - she always knows what I need."
 msgstr "La buena de Mara, ella siempre sabe lo que necesito."
 
@@ -55088,10 +55080,8 @@ msgstr ""
 "hay ratas."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_20f
-#, fuzzy
 msgid "Oh man. Humans are not the smartest beings, but this one ..."
-msgstr ""
-"¡Ay, Dios mío! Los humanos no son los seres más inteligentes, pero éste..."
+msgstr "¡Ay, Dios! Los humanos no son los seres más inteligentes, pero éste..."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_30
 msgid "Ah, I love these tunnels!"
@@ -55261,12 +55251,10 @@ msgstr ""
 "encuentran mar."
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_510c
-#, fuzzy
 msgid "Pursuing it with eager feet, until the proper way is found"
-msgstr "Persiguiéndolo con pies ansiosos, hasta encontrar el camino apropiado."
+msgstr "Persiguiéndolo con pies ansiosos, hasta encontrar el camino apropiado"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_510d
-#, fuzzy
 msgid "towards the yellow artifact, so wonderful and big and round."
 msgstr "hacia el artefacto amarillo, tan maravilloso, grande y redondo."
 
@@ -55403,9 +55391,8 @@ msgid "You can run much faster on four legs. Give it a try!"
 msgstr "Se puede correr mucho más rápido a cuatro patas. ¡Inténtalo!"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_560
-#, fuzzy
 msgid "You are so quiet. Say, what's your problem."
-msgstr "Estás tan callado. Dime, ¿cuál es tu problema?"
+msgstr "Estás tan callado. Dilo, ¿cuál es tu problema?"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_560:0
 msgid "I don't have any problem."
@@ -56764,23 +56751,24 @@ msgstr "Hola $playername. Te estoy observando."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_200
 msgid "Hi $playername. Well done."
-msgstr ""
+msgstr "Hola $playername. Bien hecho."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_202
 msgid "Hi $playername. I am not amused with what you have done."
-msgstr ""
+msgstr "Hola $playername. No me hace ninguna gracia lo que has hecho."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_204
 msgid "You released Fraedro. You should have killed him or left him in custody."
 msgstr ""
+"Liberaste a Fraedro. Deberías haberlo matado o haberlo dejado bajo custodia."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_204:0
 msgid "I think Fraedro is absolutely innocent."
-msgstr ""
+msgstr "Creo que Fraedro es completamente inocente."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_206
 msgid "My plan was that Fraedro should be sentenced to death."
-msgstr ""
+msgstr "Mi plan era que Fraedro fuera condenado a muerte."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_206:0
 msgid "Really - why?"
@@ -56801,82 +56789,94 @@ msgstr "¿No? Ahora estoy confundido."
 #: conversationlist_ratdom_npc.json:ratdom_kriih_230
 msgid "Of course not. As if Fraedro could. He's far too good a rat to do such a thing."
 msgstr ""
+"Por supuesto que no. Como si Fraedro pudiera. Es una rata demasiado buena "
+"para hacer algo así."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_240
 msgid "I took the skeleton myself and scattered the pieces so that no one would find them."
 msgstr ""
+"Tomé el esqueleto yo mismo y dispersé los pedazos para que nadie los "
+"encontrara."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_250
 msgid "And then I blamed it on my cousin Fraedro."
-msgstr ""
+msgstr "Y luego lo culpé a mi primo Fraedro."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_250:0
 msgid "How mean!"
-msgstr ""
+msgstr "¡Que malo!"
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_260
 msgid "Hahaha! You are funny!"
-msgstr ""
+msgstr "¡Jajaja! ¡Eres gracioso!"
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_260:0
 msgid "Why did you do that? He's your cousin."
-msgstr ""
+msgstr "¿Por qué hiciste eso? Es tu primo."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_270
 msgid "Yes, yes. But he got in my way."
-msgstr ""
+msgstr "Sí, sí. Pero se interpuso en mi camino."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_280
 msgid "I caught him and presented him to Wart. He believed my story and put him under arrest."
 msgstr ""
+"Lo atrapé y se lo presenté a Wart. Él creyó mi historia y lo puso bajo "
+"arresto."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_280:0
 msgid "And then I killed him."
-msgstr ""
+msgstr "Y entonces lo maté."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_280:1
 msgid "And then I have set him free."
-msgstr ""
+msgstr "Y entonces lo liberé."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_290
 msgid "That was even better than I had planned. I have to thank you. Here, take some coins for the dirty work."
 msgstr ""
+"Esto superó con creces mis expectativas. Te lo agradezco. Toma, aquí tienes "
+"algunas monedas por el trabajo sucio."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_290:0
 msgid "I don't want your bloody gold."
-msgstr ""
+msgstr "No quiero tu sangriento oro."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_290:1
 msgid "It had better be many coins."
-msgstr ""
+msgstr "Más vale que sean muchas monedas."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_292
 msgid "Oh how cute. This two-leg has a guilty conscience. It just keeps getting better!"
 msgstr ""
+"¡Ay, qué lindo! Este ser de dos piernas tiene la conciencia intranquila. ¡"
+"Cada vez está mejor!"
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_292:0
 msgid "I should leave before I forget myself."
-msgstr ""
+msgstr "Debería irme antes de que me olvide de mí mismo."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_292:1
 msgid "Now you pay for it - attack!"
-msgstr ""
+msgstr "Ahora pagas las consecuencias: ¡ataca!"
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_294
 msgid "10 pieces of gold is not enough? Oh, you draw your weapon? I think I'd better be gone ..."
 msgstr ""
+"¿10 monedas de oro no son suficientes? ¿Ah, sacas tu arma? Creo que será "
+"mejor que me vaya..."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_294:0
 msgid "Wait, you coward!"
-msgstr ""
+msgstr "¡Espera, cobarde!"
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_300
 msgid "Yes, you have destroyed my beautiful plan. You have to pay for that."
-msgstr ""
+msgstr "Sí, has arruinado mi precioso plan. Tienes que pagar por ello."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_300:0
 msgid "We'll see who pays here."
-msgstr ""
+msgstr "Ya veremos quién paga aquí."
 
 #: conversationlist_ratdom_npc.json:ratdom_kriih_300:1
 msgid "I have to run."
@@ -56884,102 +56884,109 @@ msgstr "Tengo que correr."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_2
 msgid "Andor! Good that you are back at last!"
-msgstr ""
+msgstr "¡Andor! ¡Qué bien que por fin hayas vuelto!"
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_2:0
 msgid "I am $playername. You have confused me with my brother."
-msgstr ""
+msgstr "Soy $playername. Me has confundido con mi hermano."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_2:1
 msgid "Indeed. Any news?"
-msgstr ""
+msgstr "En efecto. ¿Alguna novedad?"
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_2:2
 #: conversationlist_ratdom_npc.json:ratdom_librarian_26:0
 msgid "Here I have a new book for your library."
-msgstr ""
+msgstr "Aquí tengo un nuevo libro para tu biblioteca."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_10
 msgid "Yes. I see it now. Please leave. My master is not present today."
-msgstr ""
+msgstr "Sí. Ahora lo veo. Por favor, váyase. Mi amo no está aquí hoy."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_10:0
 msgid "Andor - master? What ... Where is my brother?"
-msgstr ""
+msgstr "Andor - ¿maestro? ¿Qué...? ¿Dónde está mi hermano?"
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_12
 msgid "That does not concern you. Mind your own business and leave now!"
-msgstr ""
+msgstr "Eso no te incumbe. ¡Ocúpate de tus asuntos y vete ya!"
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_12:1
 msgid "Tell me about Andor, or ..."
-msgstr ""
+msgstr "Cuéntame sobre Andor, o..."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_14
 msgid "Or what? Attack? Hahaha!"
-msgstr ""
+msgstr "¿O qué? ¿Ataque? ¡Jajaja!"
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_14:0
 msgid "You'll soon stop laughing."
-msgstr ""
+msgstr "Pronto dejarás de reírte."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_14:1
 msgid "Just you wait when I come back."
-msgstr ""
+msgstr "Ya verás cuando vuelva."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_20
 msgid "I am not sure. Today I hear footsteps of strangers in the corridors."
-msgstr ""
+msgstr "No estoy seguro. Hoy oí pasos de desconocidos en los pasillos."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_20:0
 msgid "[muttering] Probably mine."
-msgstr ""
+msgstr "[Murmurando] Probablemente míos."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_20:1
 msgid "Then what are you waiting for? Go and look who is wandering through our passages!"
-msgstr ""
+msgstr "¿A qué esperas? ¡Ve y mira quién anda merodeando por nuestros pasillos!"
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_20:2
 msgid "Nonsense. Strangers would never find this secret library."
-msgstr ""
+msgstr "Tonterías. Los extraños jamás encontrarían esta biblioteca secreta."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_22
 msgid "What? You are the stranger! You are not allowed to be here!"
-msgstr ""
+msgstr "¿Qué? ¡Tú eres el extraño! ¡No tienes permiso para estar aquí!"
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_22:0
 msgid "It's fine, I'm going already."
-msgstr ""
+msgstr "Está bien, ya me voy."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_22:1
 msgid "Andor is my brother. I'm going to look for a clue to his whereabouts now. You won't stop me from doing that."
 msgstr ""
+"Andor es mi hermano. Voy a buscar alguna pista sobre su paradero. Tú no me "
+"lo impedirás."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_24
 msgid "You're right, I'm sure I only see pipe dreams."
-msgstr ""
+msgstr "Tienes razón, estoy seguro de que solo veo sueños."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_26
 msgid "If only I had something to read. Something new, that I haven't read twenty times already."
 msgstr ""
+"Ojalá tuviera algo que leer. Algo nuevo, que no haya leído ya veinte veces."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_30
 msgid "As you command me - I'll be right back."
-msgstr ""
+msgstr "Como me ordenes, volveré enseguida."
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_30:0
 msgid "Take your time, better to be be thorough!"
-msgstr ""
+msgstr "Tómese su tiempo, mejor ser cuidadoso!"
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_40
 msgid ""
 "Oh! What a wonder! I always wanted to have a copy of that wonderful book!\n"
 "Here, take this special bone as a token of my everlasting thanks. [gives leg bone of a rat]"
 msgstr ""
+"¡Oh! ¡Qué maravilla! ¡Siempre quise tener un ejemplar de ese libro tan "
+"estupendo!\n"
+"Toma este hueso tan especial como muestra de mi eterno agradecimiento. [Le "
+"da el hueso de la pata de una rata]"
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_40:0
 msgid "A lousy bone for this valuable book?!"
-msgstr ""
+msgstr "¿Un hueso miserable por este valioso libro?!"
 
 #: conversationlist_ratdom_npc.json:ratdom_librarian_42
 msgid "The librarian is completely absorbed in his new book."
@@ -57044,11 +57051,11 @@ msgstr "Ya es hora."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_10_20:0
 msgid "What - no thanks? Rats."
-msgstr ""
+msgstr "¿Qué? ¿No, gracias? Ratas."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50
 msgid "Is my garden clean of filthy two-legs again?"
-msgstr ""
+msgstr "¿Mi jardín está libre de esos sucios dos-piernas otra vez?"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:0
 msgid "No, not yet"
@@ -57062,19 +57069,19 @@ msgstr "Sí, Mate a Mara y Tharal en el jardín por ti."
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:3
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_50:4
 msgid "(lie) I killed Mara and Tharal in the garden for you."
-msgstr ""
+msgstr "(mentira) Maté a Mara y a Tharal en el jardín por ti."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_70
 msgid "Where is my bread? Why does it need to take so long?"
-msgstr ""
+msgstr "¿Dónde está mi pan? ¿Por qué tiene que tardar tanto?"
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_70:0
 msgid "Just a minute."
-msgstr ""
+msgstr "Sólo un momento."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_70:3
 msgid "Hey - I have brought some bread already."
-msgstr ""
+msgstr "Hola, ya he traído algo de pan."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_80
 msgid "Good! Now I don't need you anymore!"
@@ -57082,7 +57089,7 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_80:1
 msgid "I would have gone anyway."
-msgstr ""
+msgstr "Habría ido de todos modos."
 
 #: conversationlist_ratdom_npc.json:ratdom_mikhail_90
 msgid "The huge rat ignores you now."
@@ -57312,55 +57319,57 @@ msgstr "Sí, siempre he querido eso. Solo que mis clientes suelen ser un poco es
 #: conversationlist_ratdom_npc.json:ratdom_rat_pub_owner_20
 msgid "They are very picky, especially when it comes to food. For example, nobody has ordered anything today."
 msgstr ""
+"Son muy exigentes, sobre todo con la comida. Por ejemplo, hoy nadie ha "
+"pedido nada."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_pub_owner_20:0
 msgid "What are you offering?"
-msgstr ""
+msgstr "¿Qué ofrecen?"
 
 #: conversationlist_ratdom_npc.json:ratdom_king_rah
 msgid "Who dareth to challenge me?"
-msgstr ""
+msgstr "¿Quién se atreve a desafiarme?"
 
 #: conversationlist_ratdom_npc.json:ratdom_king_rah:0
 #: conversationlist_ratdom_npc.json:ratdom_king_rah:1
 msgid "King Rah? You are not dead since long ago?"
-msgstr ""
+msgstr "¿Rey Rah? ¿No estabas muerto hace mucho tiempo?"
 
 #: conversationlist_ratdom_npc.json:ratdom_king_rah_52
 msgid "Probably this is just a vision to protect the sword."
-msgstr ""
+msgstr "Probablemente se trate de una visión para proteger la espada."
 
 #: conversationlist_ratdom_npc.json:ratdom_king_rah_52:0
 msgid "Probably??"
-msgstr ""
+msgstr "¿¿Probablemente??"
 
 #: conversationlist_ratdom_npc.json:ratdom_king_rah_54
 msgid "Proveth thyself worthy to wield my sword!"
-msgstr ""
+msgstr "¡Proporcionate digno de blandir mi espada!"
 
 #: conversationlist_ratdom_npc.json:ratdom_king_rah_54:0
 msgid "OK then. Attack!"
-msgstr ""
+msgstr "De acuerdo. ¡Ataque!"
 
 #: conversationlist_ratdom_npc.json:ratdom_king_rah_54:1
 msgid "Uh, I'll be right back ..."
-msgstr ""
+msgstr "Eh, vuelvo enseguida..."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden
 msgid "Yes please?"
-msgstr ""
+msgstr "¿Sí, por favor?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden:0
 msgid "I have found some bones. May I enter now?"
-msgstr ""
+msgstr "He encontrado algunos huesos. ¿Puedo entrar ahora?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden:3
 msgid "Could you tell me something about this place?"
-msgstr ""
+msgstr "¿Podrías contarme algo sobre este lugar?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden:4
 msgid "Oh, it's nothing. I just tried the bell."
-msgstr ""
+msgstr "Oh, no es nada. Solo probé el timbre."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden:5
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden:6
@@ -57368,217 +57377,255 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden:8
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden2:4
 msgid "Please give me back my cheese."
-msgstr ""
+msgstr "Por favor, devuélveme mi queso."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_10
 msgid "I am the warden of our Memorial Hall. I keep the exhibits in order and answer questions from visitors. Call me Wart."
 msgstr ""
+"Soy el encargado de nuestro Salón Conmemorativo. Mantengo las exposiciones "
+"en orden y respondo a las preguntas de los visitantes. Pueden llamarme Wart."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_10:0
 msgid "Could you tell me anything about this place?"
-msgstr ""
+msgstr "¿Podrías contarme algo sobre este lugar?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_10:1
 msgid "Wart - really? [giggle]"
-msgstr ""
+msgstr "¿Verruga? ¿En serio? [risita]"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_20
 msgid "[Incomprehensible muttering]"
-msgstr ""
+msgstr "[Murmullos incomprensibles]"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_20:0
 msgid "OK, just leave me then."
-msgstr ""
+msgstr "Vale, entonces déjame en paz."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_30
 msgid "This used to be a happy place of memories. Many objects and statues from the past invite you to linger and think. Every rat loved this place."
 msgstr ""
+"Este solía ser un lugar feliz, lleno de recuerdos. Muchos objetos y estatuas "
+"del pasado invitan a detenerse y reflexionar. Todas las ratas adoraban este "
+"lugar."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_31
 msgid "Well, almost every rat."
-msgstr ""
+msgstr "Bueno, casi todas las ratas."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_32
 msgid "But Fraedro was filled with jealousy and consumed with envy."
-msgstr ""
+msgstr "Pero Fraedro estaba lleno de celos y consumido por la envidia."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_32:0
 msgid "Yes, it is always the same thing."
-msgstr ""
+msgstr "Sí, siempre es lo mismo."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_32:1
 msgid "Sigh. I know that story already. Get to the point."
-msgstr ""
+msgstr "Suspiro. Ya conozco esa historia. Ve al grano."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_33
 msgid "How he hated it when visitors crowded these halls around the valuable exhibits and admired the statues."
 msgstr ""
+"Cuánto odiaba que los visitantes se agolparan en esos pasillos alrededor de "
+"las valiosas piezas de exposición y admiraran las estatuas."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_34
 msgid "He wanted to be the center of attention. A larger-than-life statue of himself should dominate the room, he thought."
 msgstr ""
+"Quería ser el centro de atención. Pensaba que una estatua suya de tamaño "
+"descomunal debía dominar la sala."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_34:0
 msgid "Such a braggart."
-msgstr ""
+msgstr "¡Qué fanfarrón!"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_35
 msgid "He hated especially the fully preserved skeleton of King Rah, the powerful founder of this empire. It was particularly brilliant: King Rah, standing upright, his dreaded sword in his bony right hand."
 msgstr ""
+"Odiaba especialmente el esqueleto perfectamente conservado del Rey Rah, el "
+"poderoso fundador de este imperio. Era particularmente impactante: el Rey "
+"Rah, erguido, con su temible espada en su mano derecha huesuda."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_36
 msgid "Yes, King Rah was a great leader. Many battles were fought against the monsters that came out of the rift. But when the superiority became too great, Rah led his people into the caves under the Blackwater Mountains and founded a new empire there."
 msgstr ""
+"Sí, el Rey Rah fue un gran líder. Se libraron muchas batallas contra los "
+"monstruos que emergieron de la grieta. Pero cuando la superioridad numérica "
+"se hizo demasiado grande, Rah condujo a su pueblo a las cuevas bajo las "
+"Montañas Aguasnegras y fundó allí un nuevo imperio."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_37
 msgid "The wise King Rah had the existing caves further expanded as protection."
 msgstr ""
+"El sabio Rey Rah mandó ampliar aún más las cuevas existentes como medida de "
+"protección."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_37:0
 msgid "That's why the passages are laid out so confusingly?"
-msgstr ""
+msgstr "¿Es por eso que los pasajes están dispuestos de forma tan confusa?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_38
 msgid "Right. This should be additional protection from enemies."
-msgstr ""
+msgstr "Correcto. Esto debería ser protección adicional contra los enemigos."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_38:0
 msgid "Interesting. But why is the passage here closed now?"
-msgstr ""
+msgstr "Interesante. Pero, ¿por qué está cerrado este pasaje ahora?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_40
 msgid "One bad day I found this place ransacked! Only an empty pedestal remained where the richly decorated skeleton of King Rah had been."
 msgstr ""
+"Un mal día encontré este lugar saqueado. Solo quedaba un pedestal vacío "
+"donde antes se erigía el esqueleto ricamente decorado del Rey Rah."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_40:1
 msgid "How did that happen?"
-msgstr ""
+msgstr "¿Cómo sucedió eso?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_41:0
 msgid "Ooh."
-msgstr ""
+msgstr "Ooh."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_42
 msgid "This was probably Fraedro's most terrifying act. We found him and confronted him."
 msgstr ""
+"Este fue probablemente el acto más aterrador de Fraedro. Lo encontramos y lo "
+"confrontamos."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_42:0
 msgid "Such a miserable villain!"
-msgstr ""
+msgstr "¡Qué villano tan miserable!"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_42:1
 msgid "Did he admit it?"
-msgstr ""
+msgstr "¿Él lo admitió?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_44
 msgid "Of course he denied everything, that hypocrite! But who else could have done it?"
 msgstr ""
+"¡Claro que lo negó todo, ese hipócrita! ¿Pero quién más podría haberlo hecho?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_44a
 msgid "He deserved immediate death for this terrible act. However, we only locked him up until he would reveal where he stashed our beloved royal skeleton."
 msgstr ""
+"Merecía la muerte inmediata por este terrible acto. Sin embargo, solo lo "
+"encerramos hasta que revelara dónde había escondido nuestro preciado "
+"esqueleto real."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b
 msgid "For security reasons, we don't let anyone in or out until King Rah is back in his accustomed place."
 msgstr ""
+"Por motivos de seguridad, no dejamos entrar ni salir a nadie hasta que el "
+"Rey Rah regrese a su lugar habitual."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b:0
 msgid "Even 100 pieces of gold wouldn't change your mind?"
-msgstr ""
+msgstr "¿Ni siquiera 100 monedas de oro te harían cambiar de opinión?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b:1
 msgid "If the skeleton is back, may I pass?"
-msgstr ""
+msgstr "Si el esqueleto ha vuelto, ¿puedo pasar?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b:2
 msgid "I want to talk with Fraedro."
-msgstr ""
+msgstr "Quiero hablar con Fraedro."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b:3
 msgid "What lies behind this blocked passage?"
-msgstr ""
+msgstr "¿Qué se esconde tras este pasaje bloqueado?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_44b:4
 msgid "May I enter?"
-msgstr ""
+msgstr "¿Puedo entrar?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_46a
 msgid "Of course not! This door will remain closed until King Rah returns."
 msgstr ""
+"¡Por supuesto que no! Esta puerta permanecerá cerrada hasta que regrese el "
+"Rey Rah."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_46b
 msgid "Impossible! No way."
-msgstr ""
+msgstr "¡Imposible! De ninguna manera."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_46c
 msgid "The memory hall of course."
-msgstr ""
+msgstr "La sala de la memoria, por supuesto."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_44d
 msgid "And another tunnel, but only a short distance and a dead end."
-msgstr ""
+msgstr "Y otro túnel, pero de corta distancia y sin salida."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_44e
 msgid "We never go there, there are scary noises coming from there."
-msgstr ""
+msgstr "Nunca vamos allí, se oyen ruidos aterradores viviendo desde ahí."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_44e:0
 msgid "Finally light at the end of the tunnel."
-msgstr ""
+msgstr "Por fin se ve la luz al final del túnel."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_48
 msgid "If King Rah is with us again, that would be great! Of course you can then go to our memory hall. You would be our guest of honor."
 msgstr ""
+"Si el Rey Rah estuviera con nosotros, ¡sería fantástico! Por supuesto, "
+"entonces podrías visitar nuestra sala de la memoria. Serías nuestro invitado "
+"de honor."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_48a
 msgid "But we are not there yet."
-msgstr ""
+msgstr "Pero aún no llegamos a ese punto."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_52
 msgid ""
 "Let's have a look. Oh, what are my old eyes seeing? King Rah is back, completely! I am overwhelmed with joy!\n"
 "You may pass now of course."
 msgstr ""
+"Echemos un vistazo. ¡Oh, qué ven mis viejos ojos! ¡El Rey Rah ha regresado, "
+"por completo! ¡Estoy rebosante de alegría!\n"
+"Puedes pasar, por supuesto."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_52:0
 msgid "I hope you can puzzle your king back together."
-msgstr ""
+msgstr "Espero que puedas reconstruir a tu rey."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_54b
 msgid "Thank you a thousand times!"
-msgstr ""
+msgstr "¡Te doy mil gracias!"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_54d
 msgid "I am so grateful."
-msgstr ""
+msgstr "Estoy tan agradecido."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_60
 msgid "Wonderful! You've already recovered King Rah's head!"
-msgstr ""
+msgstr "¡Maravilloso! ¡Ya has recuperado la cabeza del Rey Rah!"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_61
 msgid "You've already recovered some of King Rah's legs."
-msgstr ""
+msgstr "Ya has recuperado algunas de las piernas del Rey Rah."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_65
 msgid "Ah, you've already recovered King Rah's tail!"
-msgstr ""
+msgstr "¡Ah, ya has recuperado la cola del Rey Rah!"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_66
 msgid "Good, you've already recovered King Rah's back bone."
-msgstr ""
+msgstr "Bien, ya has recuperado la columna vertebral al Rey Rah."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_67
 msgid "Great! These bones look like King Rah's ribs!"
-msgstr ""
+msgstr "¡Genial! ¡Estos huesos parecen las costillas del Rey Rah!"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_69
 msgid "Please go and find all of King Rah's bones."
-msgstr ""
+msgstr "Por favor, ve y encuentra todos los huesos del Rey Rah."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_70a
 msgid "Let's have a look ... Great! Only King Rah's head is missing. You will find it too, I am sure."
 msgstr ""
+"Echemos un vistazo... ¡Genial! Solo falta la cabeza del Rey Rah. Seguro que "
+"tú también la encuentras."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_70a:1
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_71a:1
@@ -57586,154 +57633,187 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_76a:1
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_77a:1
 msgid "I hope it is worth the hard work."
-msgstr ""
+msgstr "Espero que el esfuerzo valga la pena."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_71a
 msgid "Let's have a look ... Great! Now we only need the fourth leg. You will find it too, I am sure."
 msgstr ""
+"Echemos un vistazo... ¡Genial! Ahora solo necesitamos la cuarta pata. Seguro "
+"que la encontrarás."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_75a
 msgid "Let's have a look ... Great! Only King Rah's tail is missing. You will find it too, I am sure."
 msgstr ""
+"Echemos un vistazo... ¡Genial! Solo le falta la cola al Rey Rah. Seguro que "
+"tú también la encuentras."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_76a
 msgid "Let's have a look ... Great! Only King Rah's back bone is missing. You will find it too, I am sure."
 msgstr ""
+"Echemos un vistazo... ¡Genial! Solo le falta la columna vertebral al Rey "
+"Rah. Seguro que tú también la encontrarás."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_77a
 msgid "Let's have a look ... Great! Only King Rah's rib bones are missing. You will find them too, I am sure."
 msgstr ""
+"Echemos un vistazo... ¡Genial! Solo faltan las costillas del Rey Rah. Seguro "
+"que tú también las encontrarás."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_79
 msgid "Let's have a look ... In total we need the head, the ribs and the back bone, 4 legs and the tail of course."
 msgstr ""
+"Veamos... En total necesitamos la cabeza, las costillas y la columna "
+"vertebral, 4 patas y la cola, por supuesto."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_79:0
 msgid "OK, I'll be back."
-msgstr ""
+msgstr "Vale, volveré."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_80
 msgid "I can't let you enter our Memorial Hall. We have to get back our skeleton statue of King Rah first."
 msgstr ""
+"No puedo permitirte entrar en nuestro Salón Conmemorativo. Primero tenemos "
+"que recuperar la estatua del esqueleto del Rey Rah."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_80:0
 msgid "OK. I will find the bones for you."
-msgstr ""
+msgstr "Vale. Yo te buscaré los huesos."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_80:1
 msgid "This maze is terrible. Do you have any idea how I could find my way out again?"
 msgstr ""
+"Este laberinto es terrible. ¿Tienes alguna idea de cómo podría encontrar la "
+"salida?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_80:2
 msgid "Do you have any idea where I should go looking for your bones?"
-msgstr ""
+msgstr "¿Tienes alguna idea de dónde debería buscar tus huesos?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_82
 msgid "That is easy. Just choose the exit where you see rats in front of it. Rats always know their way out."
 msgstr ""
+"Es fácil. Solo tienes que elegir la salida donde veas ratas delante. Las "
+"ratas siempre saben cómo salir."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_86
 msgid "Didn't I tell you?"
-msgstr ""
+msgstr "¿No te lo dije?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_86:0
 msgid "You talk all the time and too much anyway. I can't always listen to that."
-msgstr ""
+msgstr "Hablas todo el tiempo y demasiado. No puedo escucharte siempre."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_90
 msgid "The cave system is huge and really very confusing. It already surprised me how you found your way to me here."
 msgstr ""
+"El sistema de cuevas es enorme y realmente muy laberíntico. Me sorprende "
+"cómo has llegado hasta aquí conmigo."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_91
 msgid "Maybe you'll find wisdom in my compass?"
-msgstr ""
+msgstr "¿Tal vez encuentres sabiduría en mi brújula?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_91:0
 msgid "What compass?"
-msgstr ""
+msgstr "¿Qué brújula?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_92
 msgid "Start at the entrance where you entered the lower part of these caves."
 msgstr ""
+"Empiece por la entrada por donde accedió a la parte inferior de estas cuevas."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_94
 msgid "There you put on the necklace with my compass. With this compass you may perceive otherwise invisible signs on the walls. Follow these."
 msgstr ""
+"Ahí te pones el collar con mi brújula. Con esta brújula podrás percibir "
+"señales invisibles en las paredes. Síguelas."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_94:0
 msgid "What signs?"
-msgstr ""
+msgstr "¿Qué señales?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95
 msgid "Shields in orange and yellow color. Orange for the main route and yellow for short side tunnels."
 msgstr ""
+"Señales de color naranja y amarillo. Naranja para la ruta principal y "
+"amarillo para los túneles laterales cortos."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_95_30
 msgid "Follow this passage to the end. You might find something important there. Then go back to the crossing and follow the orange shield again."
 msgstr ""
+"Sigue este pasaje hasta el final. Puede que encuentres algo importante. "
+"Luego, regresa al cruce y sigue de nuevo el escudo naranja."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_96
 msgid "It will be a far journey. But you will meet everything that you need to meet. And even more."
 msgstr ""
+"Será un largo viaje. Pero encontrarás todo lo que necesitas encontrar. E "
+"incluso más."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_96:0
 msgid "This is finally good news."
-msgstr ""
+msgstr "Por fin buenas noticias."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_98
 msgid "Beware! It slows you down, because your mind is clouded and partly in another dimension."
 msgstr ""
+"¡Cuidado! Te ralentiza, porque tu mente está nublada y parcialmente en otra "
+"dimensión."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_98:0
 msgid "No problem. Show me this wonderful item."
-msgstr ""
+msgstr "No hay problema. Muéstrame ese maravilloso artículo."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_98:1
 #: conversationlist_ratdom_npc.json:whootibarfag_46:1
 msgid "However, I am as poor as a church rat."
-msgstr ""
+msgstr "Sin embargo, soy tan pobre como una rata de iglesia."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_99
 #: conversationlist_ratdom_npc.json:whootibarfag_48
 msgid "Well, I have too good a heart. Here, take the amulet for 100 gold pieces."
 msgstr ""
+"Bueno, tengo muy buen corazón. Toma, llévate el amuleto por 100 monedas de "
+"oro."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_99:0
 #: conversationlist_ratdom_npc.json:whootibarfag_48:0
 msgid "Oh thank you! Here is the gold."
-msgstr ""
+msgstr "¡Oh, gracias! Aquí está el oro."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_50
 msgid "Sure, here you are."
-msgstr ""
+msgstr "Claro, aquí tienes."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_50:0
 msgid "Thank you. Here, have some coins."
-msgstr ""
+msgstr "Gracias. Aquí, tome algunas monedas."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_50:1
 msgid "Wasn't there one or two more pieces of cheese?"
-msgstr ""
+msgstr "¿No quedaban uno o dos trozos más de queso?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_52
 msgid "2 gold coins - how very generous."
-msgstr ""
+msgstr "2 monedas de oro - que generoso."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_53
 msgid "[low voice] Scrooge."
-msgstr ""
+msgstr "[voz baja] Scrooge."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_cheese_54
 msgid "Insolence. I'll pretend that I didn't hear it."
-msgstr ""
+msgstr "Insolencia. Haré como si no la hubiera oído."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden2
 msgid "Welcome to our great rat memory hall! Shall I tell you something about our great expositions?"
 msgstr ""
+"¡Bienvenidos a nuestra gran sala de recuerdos de ratas! ¿Quieren que les "
+"cuente algo sobre nuestras magníficas exposiciones?"
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden2:0
 msgid "Thank you, I'll find my way."
-msgstr ""
+msgstr "Gracias, encontraré mi camino."
 
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden2:1
 msgid "Why is here an empty pedestal?"
