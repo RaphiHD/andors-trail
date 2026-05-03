@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-05-02 16:09+0000\n"
+"PO-Revision-Date: 2026-05-03 18:45+0000\n"
 "Last-Translator: Efraim Sundelin <efraim.sundelin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/sv/>\n"
@@ -2126,50 +2126,67 @@ msgid ""
 "\n"
 "Yes, Elythara is my protector."
 msgstr ""
+"Åh, hittade du min staty i källaren?\n"
+"\n"
+"Ja, Elythara är min beskyddare."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1
 msgid "I find great pleasure in my books. They contain the accumulated knowledge of past generations."
 msgstr ""
+"Jag finner mycket nöje i mina böcker. De innehåller de gångna "
+"generationernas kunskap."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:0
 msgid "Do you have a book called 'Calomyran Secrets'?"
-msgstr ""
+msgstr "Har du en bok som heter 'Calomyranska Hemligheter'?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:2
 msgid "I have found some valuable looking map. Want to have a look?"
-msgstr ""
+msgstr "Jag har hittat en karta som ser värdefull ut. Vill du ta en titt?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:3
 msgid "I have found a strange book about slavery. Interested?"
-msgstr ""
+msgstr "Jag har hittat en bok om slaveri. Är du intresserad?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:4
 msgid "I have got a book about world history. Interested?"
-msgstr ""
+msgstr "Jag har en bok om världshistoria. Är du intresserad?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_1
 msgid "'Calomyran Secrets'? Hmm, yes I think I have one of those in my basement."
 msgstr ""
+"'Calomyranska Hemligheter'? Hmm, jo jag tror att jag har en av dem i min "
+"källare."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_2
 msgid "Old man Benradas came by last week, wanting to sell me that book. Since it's not really my kind of book, I declined."
 msgstr ""
+"Gamle Benradas kom förbi förra veckan och ville sälja den boken till mig. "
+"Eftersom det inte riktigt är min typ av bok så tackade jag nej."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_3
 msgid "He seemed upset that I didn't like his book, and threw it at me while storming out of the house."
 msgstr ""
+"Han verkade upprörd över att jag inte gillade hans bok, så han kastade den "
+"på mig och stormade ut ur huset."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_4
 msgid "Poor old man Benradas, he probably forgot that he left it here. He tends to forget things."
 msgstr ""
+"Stackars gamle Benradas, han glömde säkert att han lämnade den här. Han "
+"brukar glömma bort saker."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_5
 msgid "You looked downstairs but didn't find it? And a note you say? I guess there must have been someone in my house."
 msgstr ""
+"Du var och tittade där nere men hittade den inte? En anteckning säger du? "
+"Jag antar att någon måste ha varit i mitt hus."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_complete
 msgid "I heard you found it and gave it back to old man Benradas. Thank you. He tends to forget things."
 msgstr ""
+"Jag hörde att du hittade den och gav den till gamle Benradas. Tack. Han "
+"brukar glömma saker."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_6
 msgid ""
@@ -2177,15 +2194,21 @@ msgid ""
 "\n"
 "Larcal ... I know of him. Always causing trouble. He is usually in the barn to the east of here."
 msgstr ""
+"Vad sa anteckningen?\n"
+"\n"
+"Larcal ... Jag känner honom. Han ställer alltid till med problem. Han brukar "
+"vara i ladan öster om oss."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map
 msgid "Oh, an ancient map of the area! This would fit well into my collection of old maps. I offer you 500 gold pieces for it."
 msgstr ""
+"Åh, en forntida karta av området! Den skulle passa bra i min samling med "
+"gamla kartor. Jag kan ge dig 500 guld för den."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:0
 msgid "Thanks, I'd rather keep it."
-msgstr ""
+msgstr "Tack, men jag behåller den hellre."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:1
 msgid "OK. Here is Ewmondold's map."
