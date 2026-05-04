@@ -9,7 +9,7 @@
     <string name="loadsave_title_save">Spara spelet</string>
     <string name="loadsave_title_load">Ladda ett sparat spel</string>
     <string name="loadsave_selectslot">Välj en plats</string>
-    <string name="savegame_currenthero_displayinfo">nivå %1$d, %2$d exp, %3$d guld</string>
+    <string name="savegame_currenthero_displayinfo">nivå %1$d, %2$d exp, %3$d guldmynt</string>
     <string name="dialog_loading_message">Laddar resurser…</string>
     <string name="dialog_loading_failed_title">Laddningen misslyckades</string>
     <string name="dialog_loading_failed_message">Andors Stig kunde inte ladda det sparade spelet.
@@ -34,7 +34,7 @@
     <string name="heroinfo_totalexperience">Erfarenhetssumma</string>
     <string name="heroinfo_wornequipment">Iförd utrustning</string>
     <string name="heroinfo_inventory">Lager</string>
-    <string name="heroinfo_gold">Guld: %1$d</string>
+    <string name="heroinfo_gold">Guldmynt: %1$d</string>
     <string name="app_description">Uppdragsbaserad fantasy RPG</string>
     <string name="heroinfo_actionpoints">Handlingspoäng (AP):</string>
     <string name="heroinfo_quests">Uppdrag</string>
@@ -67,7 +67,7 @@
     <string name="inventory_item_dropped">%1$s lades ner.</string>
     <string name="inventory_item_equipped">Du utrustade dig med %1$s.</string>
     <string name="dialog_loot_pickall">Plocka upp allt</string>
-    <string name="dialog_loot_foundgold">Du hittade %1$d guld.</string>
+    <string name="dialog_loot_foundgold">Du hittade %1$d guldmynt.</string>
     <string name="dialog_loot_pickedupitem">Du tog upp ett föremål.</string>
     <string name="dialog_loot_pickedupitems">Du tog upp %1$d föremål.</string>
     <string name="dialog_groundloot_title">Saker</string>
@@ -97,8 +97,8 @@
     <string name="startscreen_enterheroname">Skriv hjältens namn</string>
     <string name="startscreen_load">Ladda</string>
     <string name="conversation_rewardexp">[Din erfarenhet ökade med %1$d]</string>
-    <string name="conversation_rewardgold">[Du fick %1$d guld]</string>
-    <string name="conversation_lostgold">[Du förlorade %1$d guld]</string>
+    <string name="conversation_rewardgold">[Du fick %1$d guldmynt]</string>
+    <string name="conversation_lostgold">[Du förlorade %1$d guldmynt]</string>
     <string name="conversation_rewarditem">[Du fick ett föremål]</string>
     <string name="conversation_rewarditems">[Du fick %1$d föremål]</string>
     <string name="conversation_next">Nästa</string>
@@ -106,9 +106,9 @@
     <string name="shop_buy">Köp</string>
     <string name="shop_sell">Sälj</string>
     <string name="shop_infoitem">Information</string>
-    <string name="shop_buyitem">Köp (%1$d guld)</string>
-    <string name="shop_sellitem">Sälj (%1$d guld)</string>
-    <string name="shop_yourgold">Du har: %1$d guld</string>
+    <string name="shop_buyitem">Köp (%1$d guldmynt)</string>
+    <string name="shop_sellitem">Sälj (%1$d guldmynt)</string>
+    <string name="shop_yourgold">Du har: %1$d guldmynt</string>
     <string name="shop_item_bought">%1$s köptes.</string>
     <string name="shop_item_sold">%1$s såldes.</string>
     <string name="levelup_description">Välkommen till nivå %1$d!</string>
@@ -127,7 +127,7 @@
     <string name="preferences_dialog_confirmrest_title">Bekräfta vila</string>
     <string name="preferences_dialog_confirmrest">Frågar dig om du vill vila dig när du kommer till en säng. Annars kommer du automatiskt att vila dig.</string>
     <string name="preferences_dialog_confirmattack_title">Bekräfta attack</string>
-    <string name="preferences_dialog_monsterloot">Välj hur du vill visa utgången av en kamp (guld, erfarenhet, byte).</string>
+    <string name="preferences_dialog_monsterloot">Välj hur du vill visa utgången av en kamp (guldmynt, erfarenhet, föremål).</string>
     <string name="preferences_combat_category">Kamp</string>
     <string name="preferences_combat_speed_title">Kamphastighet</string>
     <string name="preferences_combat_speed">Bestämmer hur snabbt monstren attackerar.</string>
@@ -152,8 +152,8 @@
     <string name="preferences_movement_dpad_positions_upper_left">Uppe till vänster</string>
     <string name="preferences_movement_dpad_positions_upper_right">Uppe till höger</string>
     <string name="preferences_movement_dpad_positions_center_top">I mitten uppe</string>
-    <string name="bulkselection_totalcost_buy">Totala kostnaden: %1$d guld</string>
-    <string name="bulkselection_totalcost_sell">Totala kostnaden: %1$d guld</string>
+    <string name="bulkselection_totalcost_buy">Totala kostnad: %1$d guldmynt</string>
+    <string name="bulkselection_totalcost_sell">Totala kostnad: %1$d guldmynt</string>
     <string name="bulkselection_select_all">Allt</string>
     <string name="bulkselection_sell_confirmation_title">Är du säker?</string>
     <string name="bulkselection_sell_confirmation">Är du säker på att du vill sälja %1$s? Detta objekt är %2$s och det är inte säkert att du kan få det tillbaka.</string>
@@ -170,7 +170,7 @@
     <string name="skill_title_resistance_mental">Starkt sinne</string>
     <string name="skill_title_resistance_physical_capacity">Uthållig kropp</string>
     <string name="skill_title_resistance_blood_disorder">Rent Blod</string>
-    <string name="skill_shortdescription_coinfinder">Större chanser för att hitta guld</string>
+    <string name="skill_shortdescription_coinfinder">Större chanser för att hitta guldmynt</string>
     <string name="skill_shortdescription_evasion">Ökade chanser för att flykta</string>
     <string name="skill_shortdescription_magicfinder">Ökade chanser för att hitta magiska objekt</string>
     <string name="skill_shortdescription_resistance_mental">Motståndskraft emot psykiska åkommor</string>
@@ -434,9 +434,7 @@
     <string name="preferences_ui_category">Gränssnitt</string>
     <string name="preferences_language_description">Välj språk. Engelska kommer användas om systemspråket saknas eller om innehållet inte är översatt. (Kräver omstart)</string>
     <string name="preferences_language">Språk</string>
-    <string name="about_contents1">Välkommen till Andors stig, ett roguelikt RPG för Android med öppen källkod.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;För frågor och diskussioner kring spelet, besök forumen på andorstrail.com.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://docs.andorstrail.com/&gt;För information (wiki) om Andors stig med mera.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;
-\nProjektets öppna källkod finns tillgänglig för utvecklare på github.com&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; 
-\nBesök gärna forumen för att diskutera spelet med andra spelare.&lt;br /&gt;</string>
+    <string name="about_contents1">Välkommen till Andors stig, ett roguelikt RPG för Android med öppen källkod.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;För frågor och diskussioner kring spelet, besök forumen på andorstrail.com.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://docs.andorstrail.com/&gt;För information (wiki) om Andors stig med mera.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Projektets öppna källkod finns tillgänglig för utvecklare på github.com&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;Besök gärna forumen för att diskutera spelet med andra spelare.&lt;br /&gt;</string>
     <string name="inventory_sort_name">Namn</string>
     <string name="shoplist_sort_name">Namn</string>
     <string name="shoplist_sort_price">Pris</string>
@@ -563,7 +561,7 @@
 \nObjekt gjorda av tyg anses inte vara rustning.</string>
     <string name="skill_longdescription_better_criticals">Ökar alla befintliga kritiska faktorer som ges av utrustning med %1$d %% för varje färdighetsnivå.</string>
     <string name="skill_longdescription_speed">Ökar maximal handlingspoängen (AP) med %1$d för varje färdighetsnivå.</string>
-    <string name="skill_longdescription_coinfinder">Ökar chansen att hitta guld i monsterdroppar med %1$d%%, och ökar mängden guld i droppar med %2$d%% för varje färdighetsnivå (upp till det maximala belopp som monstret tappar).</string>
+    <string name="skill_longdescription_coinfinder">Ökar chansen att hitta guldmynt från monster med %1$d%%, och ökar mängden guldmynt med %2$d%% för varje färdighetsnivå (upp till det maximala belopp som monstret tappar).</string>
     <string name="skill_longdescription_eater">Ger + %1$d hälsopoäng (HP) på varje död per färdighetsnivå.</string>
     <string name="skill_longdescription_cleave">Ger + %1$d handlingspoäng (AP) för varje död per färdighetsnivå.</string>
     <string name="skill_longdescription_evasion">För varje erfarenhetsnivå minskar både risken för misslyckade undanflykter med %1$d%% och chansen att ett intilliggande monster kommer att attackera med %2$d %%.</string>
