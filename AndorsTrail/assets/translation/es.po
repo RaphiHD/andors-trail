@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-05-06 15:16+0000\n"
-"Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
+"PO-Revision-Date: 2026-05-07 21:15+0000\n"
+"Last-Translator: Guillermo Rivero <cuentareloka@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
 "Language: es\n"
@@ -58275,12 +58275,12 @@ msgstr "¡Hola! Soy $playername."
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3:1
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_20:1
 msgid "Omm."
-msgstr ""
+msgstr "Omm."
 
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_20
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_20:2
 msgid "Ommmmm..."
-msgstr ""
+msgstr "Ommmmm..."
 
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_20:0
 msgid "I am $playername. Who are you?"
@@ -58289,15 +58289,15 @@ msgstr "Soy $playername. ¿Tú quién eres?"
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_30
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_30:1
 msgid "Omm... ommm... ommmmm..."
-msgstr ""
+msgstr "Omm... ommm... ommmmm..."
 
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_30:0
 msgid "Omm... omm... omm..."
-msgstr ""
+msgstr "Omm... omm... omm..."
 
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_30:2
 msgid "Omm... ommm... ommmmmm..."
-msgstr ""
+msgstr "Omm... ommm... ommmmmm..."
 
 #: conversationlist_ratdom_npc.json:ratdom_well_wise3_50
 msgid "Very good. Finally a learned being in this rat hole."
@@ -58690,179 +58690,196 @@ msgstr ""
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:0
 msgid "Well, here is 1 piece and 30 gold."
-msgstr ""
+msgstr "Bueno, aquí hay 1 pieza y 30 de oro."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:1
 msgid "OK, I have 5 pieces and 150 gold."
-msgstr ""
+msgstr "Vale, tengo 5 piezas y 150 de oro."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:2
 msgid "Here, I have 10 pieces that I would like cooked. Here are 300 gold pieces too."
 msgstr ""
+"Aquí tengo 10 piezas que me gustaría que cocinaran. Aquí también hay 300 "
+"monedas de oro."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:3
 msgid "I'm hungry! Here are 20 pieces and 600 gold."
-msgstr ""
+msgstr "¡Tengo hambre! Aquí tienes 20 piezas y 600 de oro."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:4
 msgid "Oh, my mistake, I forgot that I have no meat."
-msgstr ""
+msgstr "Oh, mi error, olvidé que no tengo carne."
 
 #: conversationlist_ratdom_npc.json:gael_cook_10:5
 msgid "Oops, I'm still poor. I can't afford to pay your price."
-msgstr ""
+msgstr "Vaya, sigo siendo pobre. No puedo pagar tu precio."
 
 #: conversationlist_ratdom_npc.json:get_one_cooked_meat
 msgid "Only one? That's no problem. Here's your cooked meat."
-msgstr ""
+msgstr "¿Solo uno? No hay problema. Aquí tienes tu carne cocinada."
 
 #: conversationlist_ratdom_npc.json:get_five_cooked_meat
 msgid "Just five? That's no problem. Here's all your cooked meat."
-msgstr ""
+msgstr "¿Solo cinco? No hay problema. Aquí tienes toda la carne cocinada."
 
 #: conversationlist_ratdom_npc.json:get_ten_cooked_meat
 msgid "10 meat at once? That's no problem. Here's all your cooked meat."
 msgstr ""
+"¿Diez piezas de carne a la vez? No hay problema. Aquí tienes toda la carne "
+"cocinada."
 
 #: conversationlist_ratdom_npc.json:get_twenty_cooked_meat
 msgid "20 meat at once?! You may even love this stuff more than I do. Here's all your cooked meat."
 msgstr ""
+"¿¡20 piezas de carne a la vez!? Puede que incluso te guste más que a mí. "
+"Aquí tienes toda tu carne cocinada."
 
 #: conversationlist_ratdom_npc.json:kendelow_meat
 msgid "No, sorry. I can't let you use my kitchen. But..."
-msgstr ""
+msgstr "No, lo siento. No puedo dejarte usar mi cocina. Pero..."
 
 #: conversationlist_mt_galmore.json:galmore_68_blocked_door
 msgid "You try to push the door open, but it's blocked from the inside. Best to try the other door."
 msgstr ""
+"Intentas abrir la puerta, pero está bloqueada desde dentro. Mejor prueba con "
+"la otra puerta."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0
 msgid "With all that gold that you helped us get back, we plan to fix the bridge so we will be able to ship our beer to the west."
 msgstr ""
+"Con todo ese oro que nos ayudasteis a recuperar, planeamos arreglar el "
+"puente para poder enviar nuestra cerveza al oeste."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0:0
 msgid "\"Bridge\"? What bridge? To the west?"
-msgstr ""
+msgstr "¿\"Puente\"? ¿Qué puente? ¿Hacia el oeste?"
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_0:1
 msgid "Oh, that's great news indeed! It's going to make my life easier."
-msgstr ""
+msgstr "¡Oh, qué buena noticia! Me va a facilitar mucho la vida."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_10
 msgid "Don't you know? The bridge that crosses over the Sutdover River that flows between here and Stoutford. It's been broken for a while now."
 msgstr ""
+"¿No lo sabías? El puente que cruza el río Sutdover, que fluye entre aquí y "
+"Stoutford, lleva roto un tiempo."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_20
 msgid "It should be ready by the time you get there."
-msgstr ""
+msgstr "Debería estar listo cuando llegues."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5
 msgid "The bridge that crosses over the Sutdover River has been repaired thanks to you."
-msgstr ""
+msgstr "El puente que cruza el río Sutdover ha sido reparado gracias a ustedes."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5:0
 msgid "Yes. I am aware. In fact, I've already used it."
-msgstr ""
+msgstr "Sí, lo sé. De hecho, ya lo he usado."
 
 #: conversationlist_mt_galmore.json:sullengard_town_clerk_bridge_5:1
 msgid "I am aware of this, but I am here on another matter."
-msgstr ""
+msgstr "Soy consciente de ello, pero estoy aquí por otro asunto."
 
 #: conversationlist_mt_galmore.json:sutdover_river_bridge_broken_script
 msgid "You can't continue over the broken boards. It's time to turn around and find another way across."
 msgstr ""
+"No puedes seguir adelante por encima de las tablas rotas. Es hora de dar la "
+"vuelta y buscar otro camino para cruzar."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10
 msgid "Hey, kid! Just where do you think you're going?"
-msgstr ""
+msgstr "¡Oye, chico! ¿Adónde crees que vas?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10:0
 msgid "Across the bridge, of course. After all, I can't swim."
-msgstr ""
+msgstr "Al otro lado del puente, por supuesto. Al fin y al cabo, no sé nadar."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_10:1
 msgid "Nowhere...I guess."
-msgstr ""
+msgstr "A ninguna parte... supongo."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_script_20
 msgid "The bridge is broken. You're going nowhere."
-msgstr ""
+msgstr "El puente está roto. Vas a ninguna parte."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_10
 msgid "Let me guess, you're wondering if I know how to cross the river?"
-msgstr ""
+msgstr "Déjame adivinar, ¿te preguntas si sé cómo cruzar el río?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_10:0
 msgid "Well, do you?"
-msgstr ""
+msgstr "Bueno, ¿y tú?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed
 msgid "Please move along. There's nothing to see here."
-msgstr ""
+msgstr "Por favor, sigan su camino. Aquí no hay nada que ver."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:0
 msgid "I've been wondering, do you have anything to sell?"
-msgstr ""
+msgstr "Me preguntaba si ¿tienes algo que vender?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:1
 msgid "Yes, ma'am."
-msgstr ""
+msgstr "Sí, señora."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:2
 msgid "The Guild needs you. Umar ..."
-msgstr ""
+msgstr "El gremio te necesita. Umar..."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_bridge_fixed:3
 msgid "Hi Seraphina, you were away so quickly after you gave me Luthor's ring."
 msgstr ""
+"Hola Seraphina, te fuiste muy rápido después de darme el anillo de Luthor."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20
 msgid "Well, as a matter of fact, I do. I have a board right here under the bridge that you can place over the hole. But it's going to cost you 1000 gold."
 msgstr ""
+"Pues sí, de hecho. Tengo una tabla aquí mismo, debajo del puente, que puedes "
+"colocar sobre el agujero. Pero te costará 1000 monedas de oro."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_20:0
 msgid "Wow! All you thieves are alike. Here, take it."
-msgstr ""
+msgstr "¡Guau! Todos ustedes, ladrones, son iguales. Toma, aquí lo tienes."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_30
 msgid "Great! Now, let me see. Where is that board?"
-msgstr ""
+msgstr "¡Genial! Ahora, veamos. ¿Dónde está esa tabla?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_40
 msgid "Seraphina bends down to look under the bridge."
-msgstr ""
+msgstr "Seraphina se agacha para mirar debajo del puente."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_50
 msgid "Um, it's not here."
-msgstr ""
+msgstr "Emh, no está aquí."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_50:0
 msgid "What do you mean \"it's not here\"? Where is it?"
-msgstr ""
+msgstr "¿Qué quieres decir con \"no está aquí\"? ¿Dónde está?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_60
 msgid "It must have drifted down river. Sorry!"
-msgstr ""
+msgstr "Debió haber sido arrastrado río abajo. ¡Lo siento!"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_60:0
 msgid "\"Sorry\"? I want my gold back."
-msgstr ""
+msgstr "¿\"Lo siento\"? Quiero que me devuelvan mi oro."
 
 #: conversationlist_mt_galmore.json:thief_seraphina_70
 msgid "Maybe next time you come by I'll have the board?"
-msgstr ""
+msgstr "¿Quizás la próxima vez que vengas tendré la tabla?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_80
 msgid "Why are you looking at me like that?"
-msgstr ""
+msgstr "¿Por qué me estás mirando así?"
 
 #: conversationlist_mt_galmore.json:thief_seraphina_80:0
 msgid "I want my gold back. You thief!"
-msgstr ""
+msgstr "Quiero mi oro de vuelta. ¡Ladrón!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_grabby_10
 msgid "I'm just the muscle around here. Go talk to Defy."
-msgstr ""
+msgstr "Yo solo soy el músculo por aquí. Ve a hablar con Defy."
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_10
 msgid "I'm just the...um..."
