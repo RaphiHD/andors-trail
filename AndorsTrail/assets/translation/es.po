@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-05-07 21:15+0000\n"
+"PO-Revision-Date: 2026-05-08 14:53+0000\n"
 "Last-Translator: Guillermo Rivero <cuentareloka@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.5-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -58882,329 +58882,384 @@ msgid "I'm just the muscle around here. Go talk to Defy."
 msgstr "Yo solo soy el músculo por aquí. Ve a hablar con Defy."
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_10
+#, fuzzy
 msgid "I'm just the...um..."
-msgstr ""
+msgstr "Solo soy el ... um ..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_10:0
 msgid "brains?"
-msgstr ""
+msgstr "¿sesos?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_20
 msgid "Um, yes. One of those."
-msgstr ""
+msgstr "Eh, sí. Uno de esos."
 
 #: conversationlist_mt_galmore.json:aidem_camp_zachlanny_10
 msgid "Are you lost, kid?"
-msgstr ""
+msgstr "¿Estas perdido, niño?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_10
 msgid "Shh! What was that? Did you guys here that?"
-msgstr ""
+msgstr "¡Shh! ¿Qué fue eso? ¿Lo oyeron?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_20
 msgid "I heard nothing. Greedy, you need to relax. Here, have a Bandit's Brew."
-msgstr ""
+msgstr "No oí nada. Greedy, relájate. Toma, bebe una Cerveza del Bandido."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easedrop_15
 msgid "There it is again! Please tell me that you guys heard that?"
-msgstr ""
+msgstr "¡Ahí está otra vez! ¿Por favor, díganme que lo oyeron?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_25
 msgid "Greedy! That's enough! Stop it. We are safe here."
-msgstr ""
+msgstr "¡Greedy! ¡Ya basta! ¡Detente! Aquí estamos a salvo."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_25:0
 msgid "Wait a minute, I recognize those guys."
-msgstr ""
+msgstr "Un momento, reconozco a esos tipos."
 
 #: conversationlist_mt_galmore.json:aidem_camp_easdrop_35
 msgid "Ugh. Whatever."
-msgstr ""
+msgstr "Uf. Da igual."
 
 #: conversationlist_mt_galmore.json:easedropping_required_key
 msgid "You should get a better understanding of who these men are before you crash the party."
 msgstr ""
+"Deberías informarte mejor sobre quiénes son estos hombres antes de irrumpir "
+"en la fiesta."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_10
 msgid "Lookie what we have here! Sullengard's five most wanted men, all in one location. This is my lucky day."
 msgstr ""
+"¡Miren lo que tenemos aquí! Los cinco hombres más buscados de Sullengard, "
+"todos juntos en un mismo lugar. Hoy es mi día de suerte."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_10:0
 msgid "Hello boys!"
-msgstr ""
+msgstr "¡Hola chicos!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_20
 msgid "Oh, it's the child from Crossglen. Umar's little toy."
-msgstr ""
+msgstr "Oh, es el niño de Crossglen. El pequeño juguete de Umar."
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_20:0
 msgid "Watch it, thief!"
-msgstr ""
+msgstr "¡Cuidado, ladrón!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_intro_30
 msgid "Why are you yelling from across the woods? Please walk over here and we can talk."
 msgstr ""
+"¿Por qué gritas desde el otro lado del bosque? Por favor, acércate y podemos "
+"hablar."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_10
 msgid "Oh, how interesting your timing is."
-msgstr ""
+msgstr "Oh, qué interesante es tu sentido de la oportunidad."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_10:0
 msgid "Really? And why is that?"
-msgstr ""
+msgstr "¿En serio? ¿Y eso por qué?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_20
 msgid "Well, you see, we are in kind of a predicament."
-msgstr ""
+msgstr "Bueno, verás, estamos en una especie de aprieto."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_20:0
 msgid "Oh, you are feeling guility for what you did to the great people of Sullengard and want to turn yourselves in, but don't want to go to jail?"
 msgstr ""
+"¿Ah, os sentís culpables por lo que le hicisteis al gran pueblo de "
+"Sullengard y queréis entregaros, pero no queréis ir a la cárcel?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_30
 msgid "Now that's funny. No! Now back to what I was trying to tell you..."
 msgstr ""
+"Eso sí que es gracioso. ¡No! Ahora volvamos a lo que intentaba contarte..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35
 msgid "We are planning a heist, but we need your \"skills\" to pull it off."
 msgstr ""
+"Estamos planeando un atraco, pero necesitamos tus \"habilidades\" para "
+"llevarlo a cabo."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35:0
 msgid "Forget it!"
-msgstr ""
+msgstr "¡Olvídalo!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_35:1
 msgid "My \"skills\" are not for hire."
-msgstr ""
+msgstr "Mis \"habilidades\" no están a la venta."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_40
 msgid "Please. Just hear me out."
-msgstr ""
+msgstr "Por favor. Solo escúchame."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45
 msgid "We have knowledge of this vast repository of gold and other treasures, but it is well secured under lock and key."
 msgstr ""
+"Tenemos conocimiento de este vasto depósito de oro y otros tesoros, pero "
+"está bien protegido bajo llave."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45:0
 msgid "OK. You had me at \"treasures\". Please go on."
-msgstr ""
+msgstr "Vale. Me convenciste con la palabra \"tesoros\". Continúa, por favor."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_45:1
 msgid "And you want me to help you return it to its rightful owners?"
-msgstr ""
+msgstr "¿Y quieres que te ayude a devolverlo a sus legítimos dueños?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_50
 msgid "The problem of needing the key is where your \"skills\" come in."
 msgstr ""
+"El problema de necesitar la llave es donde entran en juego tus "
+"\"habilidades\"."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_50:0
 msgid "These \"skills\" that you keep mentioning, what are they?"
-msgstr ""
+msgstr "¿Qué son esas \"habilidades\" que sigues mencionando?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_46
 msgid "[Laughing loudly]. Kid, you are certainly as funny as you are funny looking, I'll tell you that right now. Now, back on topic..."
 msgstr ""
+"[Risas a carcajadas]. Chico, eres tan gracioso que gracioso pareces, te lo "
+"aseguro. Ahora, volvamos al tema..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55
 msgid "I was just getting to that. If you would stop interrupting me, I could get to the plan quicker and how you play a major role in it."
 msgstr ""
+"Justo iba a explicarte eso. Si dejaras de interrumpirme, podría llegar más "
+"rápido al plan y explicarte el papel fundamental que juegas en él."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55:0
 msgid "A \"major\" role you said. So what, I get fifty percent of the loot?"
 msgstr ""
+"Un papel \"importante\", dijiste. ¿Y qué? ¿Me quedo con el cincuenta por "
+"ciento del botín?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_55:1
 msgid "Oh, sorry. Please continue."
-msgstr ""
+msgstr "Oh, lo siento. Por favor, continúa."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_56
 msgid "Again with the humor. No, you will not be getting fifty percent. Anyways..."
 msgstr ""
+"Otra vez con el humor. No, no vas a obtener el cincuenta por ciento. En "
+"fin..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_60
 msgid "Well, before I get into any more details. Hey Alaric [the lost traveler's real name], do we trust this kid enough to tell him the details?"
 msgstr ""
+"Bueno, antes de entrar en más detalles. Oye Alaric [el verdadero nombre del "
+"viajero perdido], ¿confiamos lo suficiente en este chico como para contarle "
+"los detalles?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_alaric_10
 msgid "Well Defy, $playername did let me go after discovering my crime."
-msgstr ""
+msgstr "Bueno, Defy, $playername me dejó ir después de descubrir mi crimen."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_alaric_10:0
 msgid "[Keep quiet about the facts and agree, for now] That's true."
-msgstr ""
+msgstr "[Guarda silencio sobre los hechos y acepta, por ahora] Eso es cierto."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_70
 msgid "That's fair enough. Now let us move on to the details, shall we?"
-msgstr ""
+msgstr "Me parece bien. Ahora pasemos a los detalles, ¿de acuerdo?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_70:0
 msgid "Yes, please. I'm getting bored here."
-msgstr ""
+msgstr "Sí, por favor. Me estoy aburriendo aquí."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75
 msgid "You see, we want to get back some of what is ours. What we helped to accumulate over the years. We want to hit them where it really hurts."
 msgstr ""
+"Verán, queremos recuperar parte de lo que nos pertenece. Lo que ayudamos a "
+"acumular a lo largo de los años. Queremos golpearlos donde más les duele."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:0
 msgid "Who's that?"
-msgstr ""
+msgstr "¿Quien es ese?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:1
 msgid "Feygard? Nor City?"
-msgstr ""
+msgstr "¿Feygard? ¿Nor City?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_75:2
 msgid "The Thieves' Guild?"
-msgstr ""
+msgstr "¿El Gremio de Ladrones?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76
 msgid "Well, yes. But not right now. Those adventures are too big for us right now."
 msgstr ""
+"Bueno, sí. Pero no ahora mismo. Esas aventuras son demasiado grandes para "
+"nosotros en este momento."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76a
 msgid "I'm talking about the Thieves' Guild."
-msgstr ""
+msgstr "Me refiero al Gremio de Ladrones."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_76a:0
 msgid "Why would you want to do that?"
-msgstr ""
+msgstr "¿Por qué querrías hacer eso?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_77
 msgid "Exactly!"
-msgstr ""
+msgstr "¡Exactamente!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_78
 msgid "Well, for starters, Umar and his sidekick brother have wronged us over and over again. Keeping all the wealth for themselves. And don't even get me started on the emotional stress and abuse we suffer from at their hands."
 msgstr ""
+"Para empezar, Umar y su hermano, su secuaz, nos han perjudicado una y otra "
+"vez, quedándose con toda la riqueza. Y ni hablemos del estrés emocional y el "
+"maltrato que sufrimos a manos de ellos."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_78:0
 msgid "Um...what did they do?"
-msgstr ""
+msgstr "Um... ¿que hicieron ellos?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80
 msgid "You know what I am talking about, don't you?"
-msgstr ""
+msgstr "Sabes de lo que estoy hablando, ¿verdad?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80:0
 msgid "I'm not so sure that I do."
-msgstr ""
+msgstr "No estoy tan seguro de hacerlo."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_80:1
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81:0
 msgid "Actually, yeah, kind of. Well, at least that thought has crossed my mind once or twice recently."
 msgstr ""
+"En realidad, sí, más o menos. Bueno, al menos esa idea me ha pasado por la "
+"cabeza un par de veces últimamente."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81
 msgid "Come on, $playername. Open you eyes. Think. Your are just a tool to him. Something for him to use to accomplish whatever his agenda is that day."
 msgstr ""
+"Vamos, $playername. Abre los ojos. Piensa. Para él solo eres una "
+"herramienta. Algo que puede usar para lograr sus objetivos del día."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_81:1
 msgid "I'm not so sure, but please, get on with your plan."
-msgstr ""
+msgstr "No estoy tan seguro, pero por favor, sigue con tu plan."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82
 msgid "Anyways... The Guild has a vault. A repository of treasures and wealth hidden and secure in a location just south of Fallhaven."
 msgstr ""
+"En fin... El Gremio tiene una bóveda. Un depósito de tesoros y riquezas "
+"escondido y seguro en un lugar justo al sur de Fallhaven."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82:0
 msgid "I've been all around the Fallhaven area a thousand times and I've never seen any vault."
 msgstr ""
+"He recorrido toda la zona de Fallhaven miles de veces y nunca he visto "
+"ninguna bóveda."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_82:1
 msgid "I don't believe you. I would have stumbled across it."
-msgstr ""
+msgstr "No te creo. Yo me lo habría encontrado por casualidad."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83
 msgid "Oh, trust me, it's there all right."
-msgstr ""
+msgstr "Oh, créeme, está ahí sin duda."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83:0
 msgid "Trust you? You want me to trust you? A dishonorable thief? Where is it then?"
 msgstr ""
+"¿Confiar en ti? ¿Quieres que confíe en ti? ¿Un ladrón deshonroso? ¿Dónde "
+"está entonces?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_83:1
 msgid "Tell me. I want to know."
-msgstr ""
+msgstr "Dime. Quiero saber."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_84
 msgid "Are you familiar with that vacant house southwest of Fallhaven? The one next to the cliffside?"
 msgstr ""
+"¿Conoces esa casa vacía al suroeste de Fallhaven? ¿La que está al lado del "
+"acantilado?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_84:1
 msgid "[Lie] Yes, yes I am."
-msgstr ""
+msgstr "[Mentir] Sí, sí lo se."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85
 msgid "The entrance to it is found inside that house. It's hidden and secured. You will need to find the passage that leads underground in order to gain access."
 msgstr ""
+"La entrada se encuentra dentro de esa casa. Está oculta y protegida. Tendrás "
+"que encontrar el pasadizo subterráneo para acceder a ella."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85:0
 msgid "That sounds easy. I'll do it."
-msgstr ""
+msgstr "Eso suena fácil. Lo haré."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_85:1
 msgid "I guess I can try and get in there."
-msgstr ""
+msgstr "Supongo que puedo intentar entrar."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_86
 msgid "You won't be doing it."
-msgstr ""
+msgstr "No lo harás."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_86:0
 msgid "I won't be?"
-msgstr ""
+msgstr "¿No lo haré?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_87
 msgid "No. We will be doing that."
-msgstr ""
+msgstr "No. Nosotros haremos eso."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_87:0
 msgid "Then what do you need from me?"
-msgstr ""
+msgstr "¿Entonces qué necesitas entonces de mí?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88
+#, fuzzy
 msgid "What I need from you is more of an inside job. I need you to get the key to the vault from Troublemaker without him suspecting any trickery. Do you think you can handle that?"
 msgstr ""
+"Lo que necesito de ti es algo más interno. Necesito que consigas la llave de "
+"la bóveda de Troublemaker sin que sospeche nada. ¿Crees que puedes con eso?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88:0
 msgid "Why should I help you? What do I get out of this?"
-msgstr ""
+msgstr "¿Por qué debería ayudarte? ¿Qué gano yo con esto?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88:1
 msgid "If I do this for you, then I expect to get paid!"
-msgstr ""
+msgstr "Si hago esto por ti, ¡espero que me paguen!"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89
 msgid "Oh, you aren't as dumb as you are funny."
-msgstr ""
+msgstr "Oh, no eres tan tonto como eres de divertido."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a
 msgid "How does 10 percent of the total treasure sound?"
-msgstr ""
+msgstr "¿Qué te parece el 10 por ciento del tesoro total?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:0
 msgid "I want 50 percent"
-msgstr ""
+msgstr "Quiero el 50 por ciento"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:1
 msgid "How does 30 percent sound?"
-msgstr ""
+msgstr "¿Qué te parece el 30 por ciento?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:2
 msgid "Nope. I will go no lower than 25 percent"
-msgstr ""
+msgstr "No. No bajaré del 25 por ciento."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_89a:3
 msgid "I'll do it for twice that amount. 20 percent."
-msgstr ""
+msgstr "Lo haré por el doble de esa cantidad. El 20 por ciento."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_90
 msgid "Fine! [Shh] I'll take it out of Greedy's portion. He'll never know the difference."
 msgstr ""
+"¡Bien! [Shh] Lo sacaré de la porción de Greedy. Él nunca notará la "
+"diferencia."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_95
 msgid "We will be leaving this campsite in favor of our hideout. Meet up with me there and you can give me the key then."
 msgstr ""
+"Dejaremos este campamento y nos dirigiremos a nuestro escondite. Nos vemos "
+"allí y me darás la llave."
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_95:0
 msgid "Sounds good, but where is your hideout?"
