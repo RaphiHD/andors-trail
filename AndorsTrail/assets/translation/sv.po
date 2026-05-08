@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-05-07 21:15+0000\n"
+"PO-Revision-Date: 2026-05-09 16:11+0000\n"
 "Last-Translator: Efraim Sundelin <efraim.sundelin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17.1\n"
+"X-Generator: Weblate 2026.5-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:24+0000\n"
 
 #: [none]
@@ -262,7 +262,7 @@ msgstr "Blodförgiftning"
 
 #: actorconditions_stoutford_combined.json:deftness
 msgid "Deftness"
-msgstr "Skicklighet"
+msgstr "Färdighet"
 
 #: actorconditions_stoutford_combined.json:tight_grip
 msgid "Tight grip"
@@ -811,7 +811,7 @@ msgid ""
 "\n"
 "Please browse my selection of fine wares."
 msgstr ""
-"Välkommen till min affär!\n"
+"Välkommen till min butik!\n"
 "\n"
 "Vänligen bläddra i min samling av fina varor."
 
@@ -2051,7 +2051,7 @@ msgstr "Strunt samma, jag gjorde det bara för guldmynten."
 #: conversationlist_fallhaven.json:fallhaven_clothes
 msgid "Welcome to my shop. Please browse my selection of fine clothing and jewelry."
 msgstr ""
-"Välkommen till min affär. Ta en titt på mina utvalda varor såsom fina kläder "
+"Välkommen till min butik. Ta en titt på mina utvalda varor såsom fina kläder "
 "och smycken."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes:0
@@ -2542,124 +2542,131 @@ msgstr "Vid Skuggan, du ska inte stoppa mig."
 
 #: conversationlist_fallhaven_church.json:catacombguard1
 msgid "Nooo, you shall not pass!"
-msgstr ""
+msgstr "Neeej, du får inte passera!"
 
 #: conversationlist_fallhaven_church.json:catacombguard1:0
 msgid "OK. Let's fight."
-msgstr ""
+msgstr "OK. Låt oss slåss."
 
 #: conversationlist_fallhaven_church.json:luthor
 msgid "*hissss* What mortal disturbs my sleep?"
-msgstr ""
+msgstr "*hissss* Vilken dödling stör min sömn?"
 
 #: conversationlist_fallhaven_church.json:luthor:0
 msgid "By the Shadow, what are you?"
-msgstr ""
+msgstr "Vid Skuggan, vad är du?"
 
 #: conversationlist_fallhaven_church.json:luthor:1
 msgid "At last, a worthy fight! I have been waiting for this."
-msgstr ""
+msgstr "Äntligen, en värdig strid! Det här har jag väntat på."
 
 #: conversationlist_fallhaven_church.json:luthor:2
 msgid "Whatever, let's get this over with."
-msgstr ""
+msgstr "Nåväl, låt oss få det överstökat."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr
 #: conversationlist_wrye.json:wrye_story_15
 msgid "Walk with the Shadow."
-msgstr ""
+msgstr "Gå med Skuggan."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:0
 msgid "Have you been down in the catacombs?"
-msgstr ""
+msgstr "Har du varit nere i katakomberna?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:1
 msgid "May I ask you a question? Do you know a way to climb over the graveyard fence to the south?"
 msgstr ""
+"Kan jag fråga dig en sak? Vet du något sätt att ta sig över "
+"kyrkogårdsstaketet söderut?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:2
 msgid "What about the ladder?"
-msgstr ""
+msgstr "Vad sägs om stegen?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:3
 msgid "I will go and find your ladder."
-msgstr ""
+msgstr "Jag ska leta efter din stege."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:4
 msgid "I tried the ladder, but the window is locked."
-msgstr ""
+msgstr "Jag försökte använda stegen, men fönstret är låst."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:5
 msgid "The ladder is gone and the window shut."
-msgstr ""
+msgstr "Stegen är borta och fönstret är stängt."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr:6
 msgid "The catacombs were interesting."
-msgstr ""
+msgstr "Katakomberna var intressanta."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_1
 msgid "Yes, I have been in the catacombs beneath Fallhaven Church."
-msgstr ""
+msgstr "Ja, jag har varit i katakomberna under Fallhamns kyrka."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_2
 msgid "But I'm the only one that has both the permission and the bravery to go down there."
 msgstr ""
+"Men jag är den enda som har haft både tillåtelsen och modet att gå ner dit."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_2:0
 msgid "How can I get permission to go down there?"
-msgstr ""
+msgstr "Hur kan jag få tillåtelse att gå ner dit?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_3
 msgid "You want to go down in the catacombs? Hmm, maybe we can make a deal."
 msgstr ""
+"Vill du gå ner till katakomberna? Hmm, vi kanske kan komma överens om nåt."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_4
 msgid "Bring me some of that delicious cooked meat from the tavern and I will give you my permission to enter the catacombs of Fallhaven Church."
 msgstr ""
+"Ge mig några av de där läckra köttbitarna från värdshuset så får du mitt "
+"tillstånd att gå ner till katakomberna under Fallhamns kyrka."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_4:0
 msgid "Here, I have cooked meat for you."
-msgstr ""
+msgstr "Här, jag har köttbitarna till dig."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_4:1
 msgid "OK, I'll go get some."
-msgstr ""
+msgstr "Okej, jag går och hämtar några."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_complete_2
 msgid "You have my permission to enter the catacombs of Fallhaven Church."
 msgstr ""
+"Du har min tillåtelse att gå ner till katakomberna under Fallhamns kyrka."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_complete
 msgid "Thanks, this will do nicely."
-msgstr ""
+msgstr "Tack, de här kommer att räcka."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_complete_12
 msgid "I hope you behaved well there."
-msgstr ""
+msgstr "Jag hoppas att du skötte dig där borta."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_10
 msgid "No, there is no way over the fence."
-msgstr ""
+msgstr "Nej, det finns ingen väg över staketet."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_11
 msgid "Why do you ask?"
-msgstr ""
+msgstr "Varför undrar du?"
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_11:0
 msgid "Oh, nothing."
-msgstr ""
+msgstr "Åh, inget."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_12
 msgid "You can tell me."
-msgstr ""
+msgstr "Du kan berätta för mig."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_12:0
 msgid "Well, behind the fence is the shop of the tailor."
-msgstr ""
+msgstr "Bakom staketet ligger skräddarens butik."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_14
 msgid "That's right."
-msgstr ""
+msgstr "Det stämmer."
 
 #: conversationlist_fallhaven_athamyr.json:athamyr_coup_14:0
 msgid "And there is always a window open."
@@ -16304,7 +16311,7 @@ msgstr ""
 #: conversationlist_ingus.json:ingus_speak1:1
 #: conversationlist_ingus.json:ingus_4b:1
 msgid "Is there a shop in town?"
-msgstr ""
+msgstr "Finns det en butik i den här staden?"
 
 #: conversationlist_ingus.json:ingus_speak1:2
 msgid "What is happening around town?"
@@ -16324,7 +16331,7 @@ msgstr ""
 
 #: conversationlist_ingus.json:ingus_4a:1
 msgid "Never mind that, is there a shop in town?"
-msgstr ""
+msgstr "Strunt i det, finns det en butik i den här staden?"
 
 #: conversationlist_ingus.json:ingus_4b
 msgid "Hopefully, we'll get a few more visitors now that you've helped us with figuring out what happened to the people that went missing."
@@ -16370,13 +16377,16 @@ msgstr ""
 
 #: conversationlist_ingus.json:ingus_t6:2
 msgid "Thank you. I wanted to ask you, is there a shop in town?"
-msgstr ""
+msgstr "Tack. Jag ville bara fråga om det finns en butik i den här staden?"
 
 #: conversationlist_ingus.json:ingus_s1
 msgid ""
 "Shop? Oh yes, of course. There's Rothses' and Arnal's shops right there.\n"
 "[Ingus points to the two nearby houses to the west]"
 msgstr ""
+"Butik? Ja då, självklart. Det finns Rothses och Arnals butiker precis där "
+"borta.\n"
+"[Ingus pekar på två hus i närheten i väst]"
 
 #: conversationlist_ingus.json:ingus_s2
 msgid "Also, if you have the coin, you can always spend it in the tavern down in town."
@@ -17589,6 +17599,8 @@ msgstr ""
 #: conversationlist_norath.json:norath_2
 msgid "Me? No, I don't have anything to sell you. Does this look like a shop to you?"
 msgstr ""
+"Jag? Nej, jag har inget att sälja till dig. Tycker du det här ser ut som en "
+"butik?"
 
 #: conversationlist_norath.json:norath_3
 msgid "Well, usually I tend to the crops that we grow here. Now, I can't find the strength to do that though."
@@ -17889,6 +17901,8 @@ msgstr ""
 #: conversationlist_rothses.json:rothses_c1
 msgid "Our hero enters my shop. I am honored. How may I help you? A new set of boots perhaps, or some new gloves?"
 msgstr ""
+"Vår hjälte går in i min butik. Vilken ära. Hur kan jag hjälpa dig? Letar du "
+"efter ett nytt par stövlar, eller några nya handskar?"
 
 #: conversationlist_rothses.json:rothses_c1:0
 #: conversationlist_rothses.json:rothses_1:0
