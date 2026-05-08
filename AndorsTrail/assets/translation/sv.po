@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-03-15 06:09+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2026-05-07 21:15+0000\n"
+"Last-Translator: Efraim Sundelin <efraim.sundelin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:24+0000\n"
 
 #: [none]
@@ -38,7 +38,7 @@ msgstr "Styrka"
 
 #: actorconditions_v069.json:regen
 msgid "Shadow Regeneration"
-msgstr "Skuggans förnyelse"
+msgstr "Skuggregenerering"
 
 #: actorconditions_v069_bwm.json:speed_minor
 msgid "Minor speed"
@@ -58,7 +58,7 @@ msgstr "Blödande sår"
 
 #: actorconditions_v069_bwm.json:rage_minor
 msgid "Minor berserker rage"
-msgstr "Mindre bärsärkagång"
+msgstr "Mindre bärsärkar-ilska"
 
 #: actorconditions_v069_bwm.json:blackwater_misery
 msgid "Blackwater misery"
@@ -286,7 +286,7 @@ msgstr "Koncentration"
 
 #: actorconditions_omicronrg9.json:g03_combo
 msgid "Combo"
-msgstr "Kombination"
+msgstr "Kombo"
 
 #: actorconditions_omicronrg9.json:carrying_ambelie
 msgid "Carrying Ambelie"
@@ -385,147 +385,157 @@ msgstr "Sömngång"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "Feygard-lojalisten"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr ""
+msgstr "Rotsnöre"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "Rabies"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "Dålig smak"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr ""
+msgstr "Törst"
 
 #: actorconditions_laeroth.json:swift_attack
 msgid "Swift attack"
-msgstr ""
+msgstr "Snabb attack"
 
 #: actorconditions_laeroth.json:blindness
 msgid "Blindness"
-msgstr ""
+msgstr "Blindhet"
 
 #: actorconditions_laeroth.json:life_drain
 msgid "Life drain"
-msgstr ""
+msgstr "Livs dränering"
 
 #: actorconditions_laeroth.json:sting_major
 msgid "Major sting"
-msgstr ""
+msgstr "Stort stick"
 
 #: actorconditions_laeroth.json:spider_bite
 msgid "Spider bite"
-msgstr ""
+msgstr "Spindelbett"
 
 #: actorconditions_laeroth.json:environmental_poisoning
 msgid "Environmental poisoning"
-msgstr ""
+msgstr "Miljöförgiftning"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
-msgstr ""
+msgstr "Gottegris"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
-msgstr ""
+msgstr "Mindre ökat försvar"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
-msgstr ""
+msgstr "Elytharas förfriskning"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
-msgstr ""
+msgstr "Genomblöt syn"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark
 msgid "Pull of the mark"
-msgstr ""
+msgstr "Dra av märket"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark:description
 msgid "You feel an inexplicable pull toward something familiar, as if a piece of you is tethered to a distant past. An echo of guidance whispers faintly in your mind, urging you to seek clarity from those who once knew you best."
 msgstr ""
+"Du känner ett oförklarligt drag mot något bekant, som om en del av dig är "
+"förankrad i ett avlägset förflutet. Ett eko av vägledning viskar svagt i "
+"ditt huvud och uppmanar dig att söka klarhet hos dem som en gång kände dig "
+"bäst."
 
 #: actorconditions_mt_galmore2.json:potent_venom
 msgid "Potent venom"
-msgstr ""
+msgstr "Starkt gift"
 
 #: actorconditions_mt_galmore2.json:burning
 msgid "Burning"
-msgstr ""
+msgstr "Brinnande"
 
 #: actorconditions_mt_galmore2.json:rockfall
 msgid "Rock fall"
-msgstr ""
+msgstr "Stenfall"
 
 #: actorconditions_mt_galmore2.json:swamp_foot
 msgid "Swamp foot"
-msgstr ""
+msgstr "Träskfot"
 
 #: actorconditions_mt_galmore2.json:unsteady_footing
 msgid "Unsteady footing"
-msgstr ""
+msgstr "Ostadigt fotfäste"
 
 #: actorconditions_mt_galmore2.json:clinging_mud
 msgid "Clinging mud"
-msgstr ""
+msgstr "Klängande lera"
 
 #: actorconditions_mt_galmore2.json:clinging_mud:description
 msgid "Thick mud clings to your legs, hindering your movements and making it harder to act swiftly or strike with precision."
 msgstr ""
+"Tjock lera fastnar på dina ben, vilket hindrar dina rörelser och gör det "
+"svårare att agera snabbt eller attackera med precision."
 
 #: actorconditions_mt_galmore2.json:cinder_rage
 msgid "Cinder rage"
-msgstr ""
+msgstr "Ask ilska"
 
 #: actorconditions_mt_galmore2.json:frostbite
 msgid "Frostbite"
-msgstr ""
+msgstr "Frostskada"
 
 #: actorconditions_mt_galmore2.json:shadowsleep
 msgid "Shadow sleepiness"
-msgstr ""
+msgstr "Skuggsömnighet"
 
 #: actorconditions_mt_galmore2.json:petristill
 msgid "Petristill"
-msgstr ""
+msgstr "Förstillad"
 
 #: actorconditions_mt_galmore2.json:petristill:description
 msgid "A creeping layer of stone overtakes the infliced's form, dulling its reflexes but hardening its body against harm."
 msgstr ""
+"Ett krypande lager av sten tar över den skadades form, vilket saktar ner "
+"reflexerna men skyddar kroppen mot skada."
 
 #: actorconditions_mt_galmore2.json:divine_judgement
 msgid "Divine judgement"
-msgstr ""
+msgstr "Gudomlig dom"
 
 #: actorconditions_mt_galmore2.json:divine_punishment
 msgid "Divine punishment"
-msgstr ""
+msgstr "Gudomligt straff"
 
 #: actorconditions_mt_galmore2.json:baited_strike
 msgid "Baited strike"
-msgstr ""
+msgstr "Betesattack"
 
 #: actorconditions_mt_galmore2.json:baited_strike:description
 msgid "An overcommitment to attacking that sharpens accuracy at the cost of defensive footing."
 msgstr ""
+"En överdriven satsning på attacker som skärper precisionen på bekostnad av "
+"defensivt fotfäste."
 
 #: actorconditions_mt_galmore2.json:trapped
 msgid "Trapped"
-msgstr ""
+msgstr "Instängd"
 
 #: actorconditions_mt_galmore2.json:splinter
 msgid "Splinter"
-msgstr ""
+msgstr "Splittra"
 
 #: actorconditions_mt_galmore2.json:unstable_footing
 msgid "Unstable footing"
-msgstr ""
+msgstr "Ostabilt fotfäste"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -572,7 +582,7 @@ msgstr "Jag sökte efter Andor."
 
 #: conversationlist_mikhail.json:mikhail_default:8
 msgid "What kind of book is it that you have in your hand?"
-msgstr "Vilken typ av bok är det som du har i din hand?"
+msgstr "Vilken typ av bok har du i din hand?"
 
 #: conversationlist_mikhail.json:mikhail_default:9
 msgid "Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?"
@@ -580,7 +590,7 @@ msgstr "Ja, jag är här för att leverera beställningen av en \"plyschkudde\",
 
 #: conversationlist_mikhail.json:mikhail_default:10
 msgid "I don't know...something feels wrong. I thought maybe you were in danger."
-msgstr ""
+msgstr "Jag vet inte...nåt känns fel. Jag trodde att du var i fara."
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
@@ -691,7 +701,7 @@ msgstr "Tack för brödet förut."
 #: conversationlist_sullengard.json:sullengard_hadena_7:1
 #: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
-msgstr ""
+msgstr "Varsågod."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
@@ -720,6 +730,8 @@ msgstr "OK, jag förstår. Jag kan vila här om jag blir skadad och jag borde ko
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
 msgstr ""
+"En sak till: Ser du korgen på golvet där borta? Det är Andors, han kan ha "
+"lämnat nåt användbart i den."
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
@@ -786,6 +798,8 @@ msgstr "Ett annat sätt för att återhämta din styrka är att äta lite mat. D
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
 msgstr ""
+"Om det händer så kanske stadens präst kan hjälpa dig.  Annars får du vila "
+"tills du mår bättre."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
@@ -807,7 +821,7 @@ msgstr "Vänligen visa mig dina varor."
 
 #: conversationlist_crossglen.json:audir1:1
 msgid "Do you have a pickaxe by chance?"
-msgstr ""
+msgstr "Du råkar inte ha en hacka på dig?"
 
 #: conversationlist_crossglen.json:arambold1
 msgid ""
@@ -893,6 +907,10 @@ msgid ""
 "\n"
 "Hey kid, wanna join us in our drinking game?"
 msgstr ""
+"Drick drick drick, drick lite mer.\n"
+"Drick drick drick tills du inte ser.\n"
+"\n"
+"Hej grabben, vill du va' med i vår drycklek?"
 
 #: conversationlist_crossglen.json:drunk1:0
 #: conversationlist_crossglen_odair.json:odair4:2
@@ -925,6 +943,8 @@ msgstr ""
 #: conversationlist_crossglen.json:mara_thanks
 msgid "I heard you helped Odair clean out that old supply cave. Thanks a lot, we'll start using it soon."
 msgstr ""
+"Jag hörde att du hjälpte Odair att rensa ur den gamla förrådsgrottan. Tack "
+"så jättemycket, vi kommer börja använda den snart."
 
 #: conversationlist_crossglen.json:mara_thanks:0
 msgid "It was my pleasure."
@@ -955,7 +975,7 @@ msgstr "Va?! Ser du inte att jag är upptagen? Gå och stör någon annan."
 
 #: conversationlist_crossglen.json:farm2:1
 msgid "What happened to Leta and Oromir?"
-msgstr ""
+msgstr "Vad hände med Leta och Oromir?"
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
@@ -967,10 +987,14 @@ msgid ""
 "\n"
 "Now prepare to die, puny creature."
 msgstr ""
+"Nå ja, vad har vi här? En besökare, vad trevligt. Jag är imponerad att du "
+"kommit så här långt genom mina undersåtar.\n"
+"\n"
+"Var nu redo för att dö, din ynkliga varelse."
 
 #: conversationlist_crossglen.json:snakemaster:0
 msgid "Great, I have been waiting for a fight!"
-msgstr ""
+msgstr "Härligt, jag har väntat på en match!"
 
 #: conversationlist_crossglen.json:snakemaster:1
 msgid "Let's see who dies here."
@@ -985,11 +1009,11 @@ msgstr "Snälla, skada mig inte!"
 
 #: conversationlist_crossglen.json:haunt
 msgid "Oh mortal, free me from this cursed world!"
-msgstr ""
+msgstr "O dödlige, befria mig från denna förbannade värld!"
 
 #: conversationlist_crossglen.json:haunt:0
 msgid "Oh, I'll free you from it alright."
-msgstr ""
+msgstr "Åh, jag ska allt befria dig från den."
 
 #: conversationlist_crossglen.json:haunt:1
 msgid "You mean, by killing you?"
@@ -997,27 +1021,29 @@ msgstr "Du menar, genom att döda dig?"
 
 #: conversationlist_crossglen.json:drunk1a
 msgid "Heeeey - come on. Don't be such a spoilsport."
-msgstr ""
+msgstr "Heeeeej ‐ kom igen. Var inte en sån glädjedödare."
 
 #: conversationlist_crossglen.json:drunk1a:1
 msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
 msgstr ""
+"Nåja, om du verkligen vill. Men jag har en ny och definitiv lek här för dig. "
+"Ta den här och drick den. [Ge en flaska svagt gift]"
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
-msgstr ""
+msgstr "Åhh ... [glugg glugg]"
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
-msgstr ""
+msgstr "Vilken intressant ... [glugg]"
 
 #: conversationlist_crossglen.json:drunk1d
 msgid "... taste [falls over]"
-msgstr ""
+msgstr "... smak [ramlar]"
 
 #: conversationlist_crossglen.json:drunk1d:0
 msgid "Yes, really. A unique taste. And final - bye."
-msgstr ""
+msgstr "Ja verkligen. En unik smak. Det sista du smakar ‐ hejdå."
 
 #: conversationlist_crossglen_gruil.json:gruil1
 msgid ""
@@ -1055,7 +1081,7 @@ msgstr "Tack så mycket, grabben. Den här duger fint."
 
 #: conversationlist_crossglen_gruil.json:gruil_return
 msgid "Look kid, I already told you."
-msgstr ""
+msgstr "Hörru grabben, jag har redan sagt till dig."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor1
 msgid "I talked to him yesterday. He asked if I knew someone called Umar or something like that. I have no idea who he was talking about."
@@ -1064,10 +1090,14 @@ msgstr "Jag pratade med honom igår. Han frågade om jag känner någon som kall
 #: conversationlist_crossglen_gruil.json:gruil_andor2
 msgid "He seemed really upset about something and left in a hurry. Something about the Thieves' Guild in Fallhaven."
 msgstr ""
+"Han verkade väldigt upprörd över något och försvann snabbt iväg. Ha sa nåt "
+"om Tjuvarnas Skrå i Fallhamn."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor3
 msgid "That's all I know. Maybe you should ask around in Fallhaven. Look for my friend Gaela, he probably knows more."
 msgstr ""
+"Det är allt jag vet. Du borde kanske fråga runt i Fallhamn. Leta efter min "
+"vän Gaela, han vet nog mer."
 
 #: conversationlist_crossglen_leonid.json:leonid1
 msgid ""
@@ -1075,6 +1105,9 @@ msgid ""
 "\n"
 "I'm Leonid, steward of Crossglen village."
 msgstr ""
+"Hej grabben. Visst är du Mikhails yngsta barn? Med din brorsa.\n"
+"\n"
+"Jag är Leonid, förvaltare av byn Korsdal."
 
 #: conversationlist_crossglen_leonid.json:leonid1:1
 #: conversationlist_crossglen_leonid.json:leonid_continue:1
@@ -1092,43 +1125,52 @@ msgstr "Din bror? Nej, jag har inte sett honom här idag. Jag tror att jag såg 
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:0
 msgid "Thanks, I'll go talk to Gruil. There was something more I wanted to talk about."
-msgstr ""
+msgstr "Tack, jag går och pratar med Gruil. Det var nåt han ville prata om."
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:1
 msgid "Thanks, I'll go talk to Gruil."
-msgstr ""
+msgstr "Tack, jag går och pratar med Gruil."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen
 msgid "As you know, this is Crossglen village. Mostly a farming community."
-msgstr ""
+msgstr "Som du vte är det här byn Korsdal. Det är mest ett jordbrukssamhälle."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen1
 msgid "We have Audir with his smithy to the southwest, Leta and her husband's cabin to the west, this town hall here and your father's cabin to the northwest."
 msgstr ""
+"Vi har Audir med sin smedja i sydväst, Leta och hennes mans stuga i väst, "
+"rådhuset här och din fars stuga i nordväst."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2
 msgid "That's pretty much it. We try to live a peaceful life."
-msgstr ""
+msgstr "Det är i princip allt. Vi försöker leva ett fridfullt liv."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:0
 msgid "Has there been any recent activity in the village?"
-msgstr ""
+msgstr "Har någonting hänt i byn på senaste tiden?"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2:1
 msgid "Let's go back to the other things we talked about."
-msgstr ""
+msgstr "Låt oss gå tillbaka till de andra sakerna vi pratade om."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen3
 msgid "There were some recent disturbances some weeks ago that you may have noticed. Some villagers got into a fight over the new decree from Lord Geomyr."
 msgstr ""
+"Du kanske har märkt av störningsmomenten som hände för några veckor sen. "
+"Några bybor började bråka om Lord Geomyrs nya dom."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4
 msgid "Lord Geomyr issued a statement regarding the unlawful use of bonemeal as healing substance. Some villagers argued that we should oppose Lord Geomyr's word and still use it."
 msgstr ""
+"Lord Geomyr gjorde ett uttalande angående användning av benmjöl som läkande "
+"ämne. Några bybor hävdade att vi borde fortsätta använda det, trots Lord "
+"Geomyrs dom."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen4_1
 msgid "Tharal, our priest, was particularly upset and suggested we do something about Lord Geomyr."
 msgstr ""
+"Vår präst Tharal var särskilt upprörd och föreslog att vi skulle göra något "
+"åt Lord Geomyr."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen5
 msgid ""
@@ -1136,20 +1178,29 @@ msgid ""
 "\n"
 "Personally, I haven't decided what my thoughts are."
 msgstr ""
+"Andra bybor hävdar arr vi borde följa Lord Geomyrs dom.\n"
+"\n"
+"Jag har ännu inte bestämt vad jag tycker."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen6
 msgid ""
 "On one hand, Lord Geomyr supports Crossglen with a lot of protection.\n"
 "[Points to the soldiers in the hall]"
 msgstr ""
+"Å ena sidan har Lord Geomyr gett Korsdal mycket stöd i form av skydd.\n"
+"[Pekar på soldaterna i hallen]"
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen7
 msgid "But on the other hand, the tax and the recent changes of what's allowed are really taking a toll on Crossglen."
 msgstr ""
+"Men å andra sidan har skatten och de nya förändringarna om vad som är "
+"tillåtet gjort det väldigt jobbigt för oss i Korsdal."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen8
 msgid "Someone should go to Castle Geomyr and talk to the steward about our situation here in Crossglen."
 msgstr ""
+"Någon borde gå till Geomyr slottet och prata med förvaltaren om hur det "
+"verkligen är i Korsdal."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen9
 msgid "In the meantime, we've banned all use of bonemeal as a healing substance."
@@ -1202,7 +1253,7 @@ msgstr "Skuggan vare med dig."
 
 #: conversationlist_crossglen_tharal.json:tharal1
 msgid "Walk in the glow of the Shadow, my child."
-msgstr ""
+msgstr "Vandra i Skuggans sken, mitt barn."
 
 #: conversationlist_crossglen_tharal.json:tharal1:1
 #: conversationlist_fallhaven_church.json:thoronir_tharal_1:0
@@ -1217,6 +1268,8 @@ msgstr "Har du nånting som hjälper mot matförgiftning?"
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1
 msgid "Bonemeal? We shouldn't talk about that. Lord Geomyr issued a decree. It's not allowed anymore."
 msgstr ""
+"Benmjöl? Vi borde inte prata om det. Lord Geomyr har utfärdat en dom. Det är "
+"inte längre tillåtet."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal1:0
 #: conversationlist_prim_arghest.json:arghest_6:1
@@ -1231,11 +1284,13 @@ msgstr "Nej, vi borde verkligen inte prata om det."
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2_1:0
 #: conversationlist_omi2.json:bwm_wellspring_1b:0
 msgid "Oh come on."
-msgstr ""
+msgstr "Men kom igen."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2
 msgid "Well if you really are that persistent. Bring me 5 insect wings that I can use for making potions and maybe we can talk more."
 msgstr ""
+"Nå om du verkligen är så envis, ge mig 5 insektsvingar som jag kan använda "
+"till att göra trolldrycker. Då kan vi kanske prata."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2:0
 msgid "Here, I have the insect wings."
@@ -1243,31 +1298,42 @@ msgstr "Här, jag har insektvingarna."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal2:1
 msgid "OK, I'll bring them."
-msgstr ""
+msgstr "Okej, jag hämtar de."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal3
 msgid "Thanks kid. I knew I could count on you."
-msgstr ""
+msgstr "Tack grabben. Jag visste att jag kunde lita på dig."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal4
 msgid "Oh yes, bonemeal. Mixed with the right components it can be one of the most effective healing agents around."
 msgstr ""
+"Åh ja, benmjöl. Blandar man det med de rätt komponenterna kan det bli en av "
+"de mest effektiva läkemedlen som finns."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal5
 msgid "We used to use it extensively before. But now that bastard Lord Geomyr has banned all use of it."
 msgstr ""
+"Vi använde det ofta förut. Men nu har den där förbannade Lord Geomyr "
+"förbjudit all användning av det."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal6
 msgid "How am I supposed to heal people now? Using regular healing potions? Bah, they're so ineffective."
 msgstr ""
+"Hur ska jag kunna läka människor nu? Med vanliga helande trolldrycker? Bah, "
+"de är så ineffektiva."
 
 #: conversationlist_crossglen_tharal.json:tharal_bonemeal7
 msgid "I know someone that still has a supply of bonemeal if you are interested. Go talk to Thoronir, a fellow priest in Fallhaven. Tell him my password 'Glow of the Shadow'."
 msgstr ""
+"Jag vet om någon som fortfarande har kvar en del benmjöl om du är "
+"intresserad. Prata med Thoronir, han är också präst i Fallhamn. Säg "
+"lösenordet \"Skenet från Skuggan\" till honom."
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp1
 msgid "No, sorry. I hear that the potion-maker in Fallhaven can create something to help against that though."
 msgstr ""
+"Tyvärr inte. Dock har jag hört att trolldrycksmakaren i Fallhamn kan ge dig "
+"nåt som hjälper med det."
 
 #: conversationlist_crossglen_tharal.json:tharal_antifoodp2
 msgid "You should go see him and ask if he has anything to help against that. He can probably help you."
@@ -1280,16 +1346,16 @@ msgstr "Tack, jag ska besöka honom."
 
 #: conversationlist_crossglen_leta.json:leta1
 msgid "Hey, this is my house, get out of here!"
-msgstr ""
+msgstr "Hörru, det här är mitt hus! Försvinn!"
 
 #: conversationlist_crossglen_leta.json:leta1:0
 msgid "But I was just ..."
-msgstr ""
+msgstr "Men jag bara ..."
 
 #: conversationlist_crossglen_leta.json:leta1:1
 #: conversationlist_crossglen_leta.json:leta2:0
 msgid "What about your husband Oromir?"
-msgstr ""
+msgstr "Vad kommer hända med din man Oromir?"
 
 #: conversationlist_crossglen_leta.json:leta1:2
 #: conversationlist_crossglen_leta.json:leta1:3
@@ -1299,41 +1365,46 @@ msgstr "Umar har skickat mig."
 
 #: conversationlist_crossglen_leta.json:leta2
 msgid "Beat it kid, get out of my house!"
-msgstr ""
+msgstr "Lägg av grabben, ut ur mitt hus!"
 
 #: conversationlist_crossglen_leta.json:leta_oromir1
 msgid ""
 "Do you know anything about my husband? He should be here helping me with the farm today, but he seems to be missing as usual.\n"
 "Sigh."
 msgstr ""
+"Har du hört något om min man? Han skulle ha hjälpt mig med gården idag men "
+"han verkar ha försvunnit som vanligt.\n"
+"Suck."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:0
 #: conversationlist_rogorn.json:rogorn_story_6:3
 #: conversationlist_rogorn.json:rogorn_story_7:4
 msgid "I have no idea."
-msgstr ""
+msgstr "Jag har ingen aning."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:1
 msgid "Yes, I found him. He is hiding among some trees to the east."
-msgstr ""
+msgstr "Ja, jag har hittat honom. Han gömmer sig vid några träd i öst."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:2
 #: conversationlist_crossglen_leta.json:leta_oromir1:3
 #: conversationlist_crossglen_leta.json:leta_oromir1:4
 msgid "[Lie] I have no idea."
-msgstr ""
+msgstr "[Ljug] Jag har ingen aning."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:5
 msgid "He's found a new hiding spot."
-msgstr ""
+msgstr "Han har hittat ett nytt gömställe."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:6
 msgid "He's found another new hiding spot. Give him credit, he is great at avoiding work."
 msgstr ""
+"Han har hittat ett nytt gömställe. Jag måste ändå säga att han är bra på att "
+"undvika att jobba."
 
 #: conversationlist_crossglen_leta.json:leta_oromir1:7
 msgid "He's in your basement."
-msgstr ""
+msgstr "Han är i din källare."
 
 #: conversationlist_crossglen_leta.json:leta_oromir2
 #: conversationlist_brimhaven_2.json:leta_oromir1_trees_help
@@ -1343,24 +1414,32 @@ msgid ""
 "If you see him, tell him to hurry back here and help me with the housework.\n"
 "Now get out of here!"
 msgstr ""
+"Om du ser honom så säg åt honom att komma tillbka och hjälpa mig med "
+"hushållsarbetet.\n"
+"Seså, stick härifrån!"
 
 #: conversationlist_crossglen_leta.json:leta_oromir_complete
 msgid ""
 "Hiding is he? That's not surprising. I'll go let him know who's the boss around here.\n"
 "Thanks for letting me know though."
 msgstr ""
-"Gömmer han sig? Det förvånar mig inte. Jag ska gå och visa honom vem det är som bestämmer här.\n"
-"Tack för att du talade om det, dock."
+"Gömmer han sig? Det förvånar mig inte. Jag ska gå och visa honom vem det är "
+"som bestämmer här.\n"
+"Tack för att du berättade det."
 
 #: conversationlist_crossglen_leta.json:leta_oromir_complete2
 msgid "Thanks for telling me about Oromir earlier. I will go get him in just a minute."
 msgstr ""
+"Tack för att du berättade för mig Oromir förut. Jag ska hämta honom alldeles "
+"strax."
 
 #: conversationlist_crossglen_leta.json:oromir1
 msgid ""
 "Oh you startled me.\n"
 "Hello."
 msgstr ""
+"Oj du skrämde mig.\n"
+"Hej."
 
 #: conversationlist_crossglen_leta.json:oromir1:0
 #: conversationlist_fallhaven_vacor.json:vacor_begin
@@ -1386,23 +1465,25 @@ msgstr "[Ljug] OK."
 
 #: conversationlist_crossglen_leta.json:oromir2:1
 msgid "Your secret is safe with me."
-msgstr ""
+msgstr "Din hemlighet är säker hos mig."
 
 #: conversationlist_crossglen_odair.json:odair1
 msgid "Oh, it's you. You with that brother of yours. Always causing trouble."
-msgstr ""
+msgstr "Jaha, det är du. Du och din bror som alltid ställer till med problem."
 
 #: conversationlist_crossglen_odair.json:odair2
 msgid "Hmm, maybe you could be of use to me. Do you think you could help me with a small task?"
 msgstr ""
+"Hmm, du kanske skulle kunna vara användbar. Tror du att du kan hjälpa mig "
+"med ett litet uppdrag?"
 
 #: conversationlist_crossglen_odair.json:odair2:0
 msgid "Tell me more about this task."
-msgstr ""
+msgstr "Berätta mer om uppdraget."
 
 #: conversationlist_crossglen_odair.json:odair2:1
 msgid "Sure, if there is anything I can gain from it."
-msgstr ""
+msgstr "Jadå, om jag får ut nåt av det."
 
 #: conversationlist_crossglen_odair.json:odair3
 msgid "I recently went in to that cave over there [points west], to check on our supplies. But apparently, the cave has been infested with rats."
@@ -1411,18 +1492,24 @@ msgstr "Nyligen gick jag in i den där grottan där borta [pekar åt väster] f�
 #: conversationlist_crossglen_odair.json:odair4
 msgid "In particular, I saw one rat that was larger than the other rats. Do you think you have what it takes to help eliminate them?"
 msgstr ""
+"Specifikt såg jag en råtta som var större än dem andra råttorna. Tror du att "
+"du har det som kräva för att eliminera dem?"
 
 #: conversationlist_crossglen_odair.json:odair4:0
 msgid "Sure, I'll help you so that Crossglen can use the supply cave again."
-msgstr ""
+msgstr "Visst, jag kan hjälpa dig så Korsdal kan använda förrådsgrottan igen."
 
 #: conversationlist_crossglen_odair.json:odair4:1
 msgid "Sure, I'll help you. But only because there might be some gain for me in this."
 msgstr ""
+"Visst, jag kan hjälpa dig. Men bara för att jag kanske får ut nåt av det."
 
 #: conversationlist_crossglen_odair.json:odair5
 msgid "I need you to get into that cave and kill the large rat, that way maybe we can stop the rat infestation in the cave and start using it as our old supply cave again."
 msgstr ""
+"Du måste in i grottan och döda den stora råttan. På så sätt kan vi stoppa "
+"råttornas angrepp på grottan och börja använda den som vår gamla "
+"förrådsgrotta igen."
 
 #: conversationlist_crossglen_odair.json:odair5:0
 #: conversationlist_fallhaven_arcir.json:arcir_elythara_1:0
@@ -1459,15 +1546,16 @@ msgstr ""
 #: conversationlist_troubling_times.json:tt_sly_254:0
 #: conversationlist_darknessanddaylight.json:dds_miri_372:0
 msgid "OK."
-msgstr ""
+msgstr "OK."
 
 #: conversationlist_crossglen_odair.json:odair5:1
 msgid "On second thought, I don't think I will help you after all."
-msgstr ""
+msgstr "Vid närmare eftertanke kommer jag nog inte hjälpa dig trots allt."
 
 #: conversationlist_crossglen_odair.json:odair_cowards
 msgid "I didn't think so either. You and that brother of yours always were cowards."
 msgstr ""
+"Jag trodde väl inte det heller. Du och din bror var alltid såna ynklingar."
 
 #: conversationlist_crossglen_odair.json:odair_cowards:0
 #: conversationlist_crossglen_odair.json:odair_complete2:0
@@ -1496,15 +1584,15 @@ msgstr ""
 #: conversationlist_feygard_1.json:gamjee_well_osric_2
 #: conversationlist_mt_galmore2.json:vaelric_restless_grave_end:0
 msgid "Bye."
-msgstr ""
+msgstr "Hejdå."
 
 #: conversationlist_crossglen_odair.json:odair_continue
 msgid "Did you kill that large rat in the cave west of here?"
-msgstr ""
+msgstr "Dödade du den stora råttan i västra grottan?"
 
 #: conversationlist_crossglen_odair.json:odair_continue:0
 msgid "Yes, I have killed the large rat."
-msgstr ""
+msgstr "Ja, jag har dödat den stora råttan."
 
 #: conversationlist_crossglen_odair.json:odair_continue:1
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue:0
@@ -1532,6 +1620,8 @@ msgstr "Vad skulle jag göra nu igen?"
 #: conversationlist_crossglen_odair.json:odair_complete
 msgid "Thanks a lot for your help kid! Maybe you and that brother of yours aren't as cowardly as I thought. Here, take these coins for your help."
 msgstr ""
+"Tack så mycket för din hjälp grabben! Du och din bror kanske inte var så "
+"fega som jag trodde. Här, ta de här mynten som tack."
 
 #: conversationlist_crossglen_odair.json:odair_complete:0
 #: conversationlist_thievesguild_1.json:thievesguild_thief_4:0
@@ -1553,18 +1643,20 @@ msgstr "Tack."
 #: conversationlist_crossglen_odair.json:odair_complete2
 msgid "Thanks a lot for your help earlier. Now we might start using that cave as our old supply cave again."
 msgstr ""
+"Tack så mycket för hjälpen innan. Nu kan vi kanske börja använda den där "
+"grottan som vår gamla förrådsgrotta igen."
 
 #: conversationlist_jan.json:jan_default
 msgid "Hello kid. Please leave me to my mourning."
-msgstr ""
+msgstr "Hej grabben. Snälla lämna mig ifred för att sörja."
 
 #: conversationlist_jan.json:jan_default:0
 msgid "What is the problem?"
-msgstr ""
+msgstr "Vad har hänt?"
 
 #: conversationlist_jan.json:jan_default:1
 msgid "Do you want to talk about it?"
-msgstr ""
+msgstr "Vill du prata om det?"
 
 #: conversationlist_jan.json:jan_default:2
 #: conversationlist_jan.json:jan_default2:1
@@ -1587,11 +1679,11 @@ msgstr ""
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden_10:2
 #: conversationlist_ratdom_npc.json:ratdom_rat_warden2_r_16b:0
 msgid "OK, bye."
-msgstr ""
+msgstr "OK, hejdå."
 
 #: conversationlist_jan.json:jan_default2
 msgid "Oh, it's so sad. I really don't want to talk about it."
-msgstr ""
+msgstr "Åh det är så sorgligt. Jag vill verkligen inte prata om det."
 
 #: conversationlist_jan.json:jan_default2:0
 #: conversationlist_algangror.json:algangror_story:0
@@ -1602,14 +1694,19 @@ msgstr "Gärna."
 #: conversationlist_jan.json:jan_default3
 msgid "Well, I guess it's OK to tell you. You seem to be a nice enough kid."
 msgstr ""
+"Nåja, jag antar att det är okej att berätta för dig. Du verkar snäll nog."
 
 #: conversationlist_jan.json:jan_default4
 msgid "My friend Gandir, his friend Irogotu, and I were down here digging this hole. We had heard there was a hidden treasure down here."
 msgstr ""
+"Jag, min vän Gandir och hans vän Irogotu var här nere och grävde det här "
+"hålet. Vi hörde att det var en gömd skatt där nere."
 
 #: conversationlist_jan.json:jan_default5
 msgid "We started digging and finally broke through to the cave system below. That's when we discovered them. The critters and bugs."
 msgstr ""
+"Vi började gräva och till slut bröt vi oss igenom till grottsystemet. Men "
+"sen upptäckte vi dem. Insekter och kryp."
 
 #: conversationlist_jan.json:jan_default6
 msgid ""
@@ -1617,14 +1714,20 @@ msgid ""
 "\n"
 "Gandir and I told Irogotu that we should stop the digging and leave while we still could."
 msgstr ""
+"Åh de där krypen. De förbannade krypen. De dödade mig nästan.\n"
+"\n"
+"Jag och Gandir sa till Irogotu att vi borde sluta gräva och ta oss där ifrån "
+"medans vi väl kunde."
 
 #: conversationlist_jan.json:jan_default7
 msgid "But Irogotu wanted to continue deeper into the dungeon. He and Gandir got into an argument and started fighting."
 msgstr ""
+"Men Irogotu ville gräva ännu djupare ner. Han och Gandir började bråka med "
+"varandra."
 
 #: conversationlist_jan.json:jan_default8
 msgid "That's when it happened. *sob* Oh what have we done?"
-msgstr ""
+msgstr "Det var då det hände. *snyft* Åh vad har vi gjort?"
 
 #: conversationlist_jan.json:jan_default8:0
 #: conversationlist_ogam.json:ogam_2:1
@@ -1641,26 +1744,29 @@ msgstr "Irogotu dödade Gandir med sina bara händer. Man kunde se elden i hans 
 #: conversationlist_jan.json:jan_default10
 msgid "I fled and haven't dared go back down there because of the critters and Irogotu himself."
 msgstr ""
+"Jag flydde och jag har inte vågat gå ner dit på grund av krypen och Irogotu."
 
 #: conversationlist_jan.json:jan_default11
 msgid "Oh that damn Irogotu. If only I could get to him. I'd show him one thing and another."
 msgstr ""
+"Åh den där förbannade Irogotu. Om jag bara kunde komma åt honom. Då skulle "
+"jag visa honom både det ena och det andra."
 
 #: conversationlist_jan.json:jan_default11:0
 msgid "Do you think I could help?"
-msgstr ""
+msgstr "Tror du att jag kan hjälpa till?"
 
 #: conversationlist_jan.json:jan_default11_1
 msgid "Do you think you could help me?"
-msgstr ""
+msgstr "Tror du att du kan hjälpa mig?"
 
 #: conversationlist_jan.json:jan_default11_1:0
 msgid "Sure, there may be some treasure in this for me."
-msgstr ""
+msgstr "Jadå, det kanske finns skatter jag kan ta."
 
 #: conversationlist_jan.json:jan_default11_1:1
 msgid "Sure. Irogotu should pay for what he did."
-msgstr ""
+msgstr "Ja. Irogotu måste betala för vad han har gjort."
 
 #: conversationlist_jan.json:jan_default11_1:2
 msgid "No thanks, I would rather not be involved in this. It sounds dangerous."
@@ -1669,33 +1775,38 @@ msgstr "Nej tack, jag skulle helst slippa bli indragen i det här. Det låter fa
 #: conversationlist_jan.json:jan_default12
 msgid "Really? You think you could help? Hmm, maybe you could. Beware of those bugs though, they're really tough bastards."
 msgstr ""
+"Tror du verkligen att du kan hjälpa till? Hmm, du kanske kan det. Var "
+"försiktig för de där insekterna, de är ihärdiga jäklar."
 
 #: conversationlist_jan.json:jan_default13
 msgid "If you really want to help, go find Irogotu down in the cave, and get me back Gandir's ring."
 msgstr ""
+"Om du verkligen vill hjälpa mig så gå och leta efter Irogotu nere i grottan "
+"och ge mig Gandirs ring."
 
 #: conversationlist_jan.json:jan_default13:0
 msgid "Sure, I'll help."
-msgstr ""
+msgstr "Ja, jag hjälper till."
 
 #: conversationlist_jan.json:jan_default13:1
 #: conversationlist_flagstone.json:flagstone_sentry_return1:0
 #: conversationlist_flagstone.json:flagstone_sentry_return2:1
 msgid "Can you tell me the story again?"
-msgstr ""
+msgstr "Kan du berätta vad som hände igen?"
 
 #: conversationlist_jan.json:jan_default13:2
 #: conversationlist_prim_tavern.json:birgil_4:1
 msgid "Never mind, goodbye."
-msgstr ""
+msgstr "Det var inget, hejdå."
 
 #: conversationlist_jan.json:jan_default14
 msgid "Return to me when you are done. Bring me Gandir's ring from Irogotu down in the cave."
 msgstr ""
+"Kom tillbaka när du är klar. Ta Gandirs ring från Irogotu nere i grottan."
 
 #: conversationlist_jan.json:jan_return
 msgid "Hello again kid. Did you find Irogotu down in the cave?"
-msgstr ""
+msgstr "Hej igen grabben. Hittade du Irogotu nere i grottan?"
 
 #: conversationlist_jan.json:jan_return:1
 #: conversationlist_benbyr.json:benbyr_mission_1:0
@@ -1706,27 +1817,33 @@ msgstr "Kan du berätta din historia för mig igen?"
 
 #: conversationlist_jan.json:jan_return:2
 msgid "Yes, I have killed Irogotu."
-msgstr ""
+msgstr "Ja, jag har dödat Irogotu."
 
 #: conversationlist_jan.json:jan_background
 msgid "Didn't you listen the first time I told you the story? Do I really have to tell you the story one more time?"
 msgstr ""
+"Lyssnade du inte när jag berättade det för dig första gången? Måste jag "
+"verkligen berätta den en gång till?"
 
 #: conversationlist_jan.json:jan_background:0
 msgid "Yes, please tell me the story again."
-msgstr ""
+msgstr "Ja, snälla berätta den för mig igen."
 
 #: conversationlist_jan.json:jan_background:1
 msgid "I wasn't listening that much the first time you told it. What was that about a treasure?"
 msgstr ""
+"Jag lyssnade inte riktigt när du berättade den första gången. Vad var det du "
+"sa om en skatt?"
 
 #: conversationlist_jan.json:jan_background:2
 msgid "No, never mind. I remember it now."
-msgstr ""
+msgstr "Nej, det var inget. Nu kommer jag ihåg."
 
 #: conversationlist_jan.json:jan_complete2
 msgid "Thanks for dealing with Irogotu earlier! I am forever in debt to you."
 msgstr ""
+"Tack för att du tog hand om Irogotu förut! Jag står i skuld till dig för "
+"evigt."
 
 #: conversationlist_jan.json:jan_complete
 msgid ""
@@ -1734,244 +1851,274 @@ msgid ""
 "\n"
 "Oh thank you so much for bringing me back Gandir's ring! Now I can have something to remember him by."
 msgstr ""
+"Men va? Gick du faktiskt ner dit och kom tillbaka levande? Hur gjorde du "
+"det? Wow, jag dog nästan när jag gick ner i den där grottan.\n"
+"\n"
+"Åh tack så himla mycket för att du gav mig Gandirs ring. Nu har jag något "
+"att minnas honom med."
 
 #: conversationlist_jan.json:jan_complete:0
 msgid "Glad that I could help. Goodbye."
-msgstr ""
+msgstr "Jag är glad att jag kunde hjälpa till. Hejdå."
 
 #: conversationlist_jan.json:jan_complete:1
 msgid "Shadow be with you. Goodbye."
-msgstr ""
+msgstr "Må Skuggan vara med dig. Hejdå."
 
 #: conversationlist_jan.json:jan_complete:2
 msgid "Whatever. I only did it for the loot."
-msgstr ""
+msgstr "Strunt samma. Jag gjorde det bara för bytets skull."
 
 #: conversationlist_jan.json:irogotu
 msgid "Well hello there. Another adventurer coming to steal my bounty. This is MY CAVE. The treasure will be MINE!"
 msgstr ""
+"Nämen hallå där. En till äventyrare som kommer för att stjäla mitt byte. Det "
+"här är MIN GROTTA. Skatten kommer bli min!"
 
 #: conversationlist_jan.json:irogotu:0
 msgid "Did you kill Gandir?"
-msgstr ""
+msgstr "Dödade du Gandir?"
 
 #: conversationlist_jan.json:irogotu1
 msgid "That whelp Gandir? He was in my way. I merely used him as a tool to dig deeper into the cave."
 msgstr ""
+"Den där ynklingen Gandir? Han var i vägen. Jag använde honom bara som ett "
+"verktyg för att ta mig djupare ner i grottan."
 
 #: conversationlist_jan.json:irogotu2
 msgid "Besides, I never really liked him anyway."
-msgstr ""
+msgstr "Oavsett så tyckte jag aldrig om honom ändå."
 
 #: conversationlist_jan.json:irogotu2:0
 msgid "I guess he deserved to die. Did he have a ring on him?"
-msgstr ""
+msgstr "Jag antar att han förtjänade att dö. Hade han en ring på sig?"
 
 #: conversationlist_jan.json:irogotu2:1
 msgid "Jan mentioned something about a ring?"
-msgstr ""
+msgstr "Jan nämnde något om en ring?"
 
 #: conversationlist_jan.json:irogotu3
 msgid "NO! You cannot have it. It's mine! And who are you anyway kid, coming down here to disturb me?!"
 msgstr ""
+"NEJ! Du får den inte. Den är min! Och vem är du grabben som kommer ner och "
+"stör mig?!"
 
 #: conversationlist_jan.json:irogotu3:0
 msgid "I'm not a kid anymore! Now give me that ring!"
-msgstr ""
+msgstr "Jag är inte ett barn! Ge mig ringen nu!"
 
 #: conversationlist_jan.json:irogotu3:1
 msgid "Give me that ring and we might both come out of here alive."
-msgstr ""
+msgstr "Ge mig ringen så kan vi kanske komma ut levande härifrån."
 
 #: conversationlist_jan.json:irogotu4
 msgid "No. If you want it you will have to take it from me by force, and I should tell you that my powers are great. Besides, you probably wouldn't dare fight me anyway."
 msgstr ""
+"Nej. Om du vill ha den måste du ta den ifrån mig, och du ska veta att mina "
+"krafter är stora. Hur som helst vågar du nog inte slåss mot mig ändå."
 
 #: conversationlist_jan.json:irogotu4:0
 msgid "Very well, let's see who dies here."
-msgstr ""
+msgstr "Nåväl, vi får se vem som dör."
 
 #: conversationlist_jan.json:irogotu4:1
 msgid "By the Shadow, Gandir will be avenged."
-msgstr ""
+msgstr "Med Skuggan vid min sida ska Gandir få sin hämnd."
 
 #: conversationlist_fallhaven.json:fallhaven_citizen1
 msgid "Hello there. Nice weather ain't it?"
-msgstr ""
+msgstr "Hallå där. Fint väder eller hur?"
 
 #: conversationlist_fallhaven.json:fallhaven_citizen2
 msgid "Hello. Anything you want from me?"
-msgstr ""
+msgstr "Hallå. Vill du nåt?"
 
 #: conversationlist_fallhaven.json:fallhaven_citizen3
 msgid "Hi. Can I help you?"
-msgstr ""
+msgstr "Hej. Kan jag hjälpa dig?"
 
 #: conversationlist_fallhaven.json:fallhaven_citizen3:0
 #: conversationlist_omi2.json:ortholion_guard_0c:0
 msgid "Have you seen my brother Andor? He looks a bit like me."
-msgstr ""
+msgstr "Har du sett min bror Andor? Han ser lite ut som mig."
 
 #: conversationlist_fallhaven.json:fallhaven_citizen4
 msgid "You're that kid from Crossglen village right?"
-msgstr ""
+msgstr "Du är graabben från Korsdal byn, eller hur?"
 
 #: conversationlist_fallhaven.json:fallhaven_citizen5
 msgid "Out of the way, peasant."
-msgstr ""
+msgstr "Ur vägen, lantis."
 
 #: conversationlist_fallhaven.json:fallhaven_citizen6
 msgid "Good day to you."
-msgstr ""
+msgstr "God dag."
 
 #: conversationlist_fallhaven.json:fallhaven_andor_1
 msgid "No, sorry. I haven't seen anyone by that description."
 msgstr ""
+"Nej, jag ber om ursäkt. Jag har inte sett någon som matchar den "
+"beskrivningen."
 
 #: conversationlist_fallhaven.json:fallhaven_andor_2
 msgid "Some other kid you say? Hmm, let me think."
-msgstr ""
+msgstr "En annan grabb säger du? Hmm, låt mig tänka."
 
 #: conversationlist_fallhaven.json:fallhaven_andor_3
 msgid "Hmm, I might have seen someone that looks a bit like you a few days ago. Can't remember where though."
 msgstr ""
+"Hmm, jag kanske har sett någon som ser lite ut som dig för några dagar sen. "
+"Jag minns dock inte vart."
 
 #: conversationlist_fallhaven.json:fallhaven_andor_4
 msgid "Oh yes, there was another kid from Crossglen village here a few days ago. Not sure he matched your description though."
 msgstr ""
+"Just det, det var nån annan grabb från Korsdal byn här för några dagar sen. "
+"Jag vet dock inte om han matchade din beskrivning."
 
 #: conversationlist_fallhaven.json:fallhaven_andor_4_1
 msgid "There were some shady looking people following him around. Didn't see any more than that."
 msgstr ""
+"Det var några skumma människor som följde efter honom. Såg inget mer än så."
 
 #: conversationlist_fallhaven.json:fallhaven_andor_6
 msgid "Nope. Haven't seen him."
-msgstr ""
+msgstr "Näpp. Har inte sett honom."
 
 #: conversationlist_fallhaven.json:fallhaven_guard
 msgid "Keep out of trouble."
-msgstr ""
+msgstr "Håll dig borta från trubbel."
 
 #: conversationlist_fallhaven.json:fallhaven_priest:0
 #: conversationlist_jolnor.json:jolnor_chapel_1:0
 #: conversationlist_buceth.json:buceth_1:1
 #: conversationlist_haunted_forest.json:gabriel_shadow:0
 msgid "Can you tell me more about the Shadow?"
-msgstr ""
+msgstr "Kan du berätta mer om Skuggan?"
 
 #: conversationlist_fallhaven.json:priest_shadow_1
 msgid "The Shadow protects us. It keeps us safe and comforts us when we sleep."
 msgstr ""
+"Skuggan skyddar oss. Den skyddar oss och håller oss trygga när vi sover."
 
 #: conversationlist_fallhaven.json:priest_shadow_2
 msgid "It follows us wherever we go. Go with the Shadow my child."
-msgstr ""
+msgstr "Den följer oss vart vi än går. Gå med Skuggan mitt barn."
 
 #: conversationlist_fallhaven.json:priest_shadow_2:1
 #: conversationlist_remgard_villagers1.json:atash:1
 msgid "Whatever, bye."
-msgstr ""
+msgstr "Strunt samma, hejdå."
 
 #: conversationlist_fallhaven.json:rigmor
 msgid "Well hello there! Aren't you a cute little fellow."
-msgstr ""
+msgstr "Nämen hallå där! Är inte du en gullig en."
 
 #: conversationlist_fallhaven.json:rigmor:1
 msgid "Can you tell me about the lytwings?"
-msgstr ""
+msgstr "Vad kan du berätta för mig om lytvingarna?"
 
 #: conversationlist_fallhaven.json:rigmor:2
 #: conversationlist_fallhaven.json:rigmor_1:0
 msgid "I really need to go."
-msgstr ""
+msgstr "Jag måste verkligen gå."
 
 #: conversationlist_fallhaven.json:rigmor_1
 msgid "Your brother, you say? His name is Andor? No. I don't recall meeting anyone like that."
 msgstr ""
+"Din bror säger du? Han heter Andor? Nej. Jag kommer inte ihåg att jag "
+"träffat någon sådan."
 
 #: conversationlist_fallhaven.json:rigmor_thanks
 msgid "I heard you helped my old man find his book, thank you. He had been talking about that book for weeks. Poor thing, he tends to forget things."
 msgstr ""
+"Jag hörde att du hjälpte min gamle man att hitta hans bok, tack. Han pratade "
+"om den där boken i flera veckor. Stackars honom, han brukar glömma saker."
 
 #: conversationlist_fallhaven.json:rigmor_thanks:0
 msgid "It was my pleasure. Goodbye."
-msgstr ""
+msgstr "Det var mitt nöje. Hejdå."
 
 #: conversationlist_fallhaven.json:rigmor_thanks:1
 msgid "You should keep an eye on him, or bad things might happen to him."
 msgstr ""
+"Du borde hålla ett ögon på honom annars kommer kanske dåliga saker att hända."
 
 #: conversationlist_fallhaven.json:rigmor_thanks:2
 msgid "Whatever, I just did it for the gold."
-msgstr ""
+msgstr "Strunt samma, jag gjorde det bara för guldmynten."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes
 msgid "Welcome to my shop. Please browse my selection of fine clothing and jewelry."
 msgstr ""
+"Välkommen till min affär. Ta en titt på mina utvalda varor såsom fina kläder "
+"och smycken."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes:0
 #: conversationlist_fallhaven.json:fallhaven_clothes_42:0
 #: conversationlist_fallhaven.json:fallhaven_clothes_42:1
 msgid "Let me see your wares."
-msgstr ""
+msgstr "Låt mig se dina varor."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_10
 msgid "Hey! What are you doing here? How did you get in?"
-msgstr ""
+msgstr "Hallå! Vad gör du här? Hur kom du in?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_10:0
 msgid "By the door. Why?"
-msgstr ""
+msgstr "Jag öppnade dörren. Varför undrar du?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_20
 msgid "Nonsense. I would have noticed."
-msgstr ""
+msgstr "Struntprat. Jag skulle ha märkt det."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_30
 msgid "Leave immediatly, or I'll call the guards!"
-msgstr ""
+msgstr "Gå härifrån annars kallar jag på vakterna!"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_32
 msgid "And don't dare to enter my house again!"
-msgstr ""
+msgstr "Och våga inte gå in i mitt hus igen!"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_40
 msgid "I know your face. How dare you to come back?"
-msgstr ""
+msgstr "Jag känner igen ditt ansikte. Hur vågar du komma tillbaka?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_40:0
 msgid "Are you sure you don't mix me with my brother?"
-msgstr ""
+msgstr "Är du säker på att du inte blandar ihop mig med min bror?"
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_42
 msgid "Andor? I know that boy all too well."
-msgstr ""
+msgstr "Andor? Den pojken känner jag alltför väl."
 
 #: conversationlist_fallhaven.json:fallhaven_clothes_44
 msgid "You wear the stolen valuable necklace and dare lie to my face?"
 msgstr ""
+"Du har på dig det stulna värdefulla halsbandet och vågar ljuga mig i "
+"ansiktet?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_start
 msgid "Hello. I'm Arcir."
-msgstr ""
+msgstr "Hej. Jag är Arcir."
 
 #: conversationlist_fallhaven_arcir.json:arcir_start:0
 #: conversationlist_fallhaven_arcir.json:arcir_anythingelse:0
 msgid "I noticed your statue of Elythara downstairs."
-msgstr ""
+msgstr "Jag såg din Elythara staty på nedervåningen."
 
 #: conversationlist_fallhaven_arcir.json:arcir_start:1
 #: conversationlist_fallhaven_arcir.json:arcir_anythingelse:1
 msgid "You really seem to like your books."
-msgstr ""
+msgstr "Du verkar verkligen tycka om dina böcker."
 
 #: conversationlist_fallhaven_arcir.json:arcir_start:2
 msgid "And I'm your delivery kid. Did you order a 'Dusty old book'?"
-msgstr ""
+msgstr "Och jag är ditt leverans barn. Beställde du en 'Dammig gammal bok'?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_anythingelse
 msgid "Anything else you wanted to ask?"
-msgstr ""
+msgstr "Var det något mer du undrade?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_elythara_1
 msgid ""
@@ -1979,50 +2126,67 @@ msgid ""
 "\n"
 "Yes, Elythara is my protector."
 msgstr ""
+"Åh, hittade du min staty i källaren?\n"
+"\n"
+"Ja, Elythara är min beskyddare."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1
 msgid "I find great pleasure in my books. They contain the accumulated knowledge of past generations."
 msgstr ""
+"Jag finner mycket nöje i mina böcker. De innehåller de gångna "
+"generationernas kunskap."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:0
 msgid "Do you have a book called 'Calomyran Secrets'?"
-msgstr ""
+msgstr "Har du en bok som heter 'Calomyranska Hemligheter'?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:2
 msgid "I have found some valuable looking map. Want to have a look?"
-msgstr ""
+msgstr "Jag har hittat en karta som ser värdefull ut. Vill du ta en titt?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:3
 msgid "I have found a strange book about slavery. Interested?"
-msgstr ""
+msgstr "Jag har hittat en bok om slaveri. Är du intresserad?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_1:4
 msgid "I have got a book about world history. Interested?"
-msgstr ""
+msgstr "Jag har en bok om världshistoria. Är du intresserad?"
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_1
 msgid "'Calomyran Secrets'? Hmm, yes I think I have one of those in my basement."
 msgstr ""
+"'Calomyranska Hemligheter'? Hmm, jo jag tror att jag har en av dem i min "
+"källare."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_2
 msgid "Old man Benradas came by last week, wanting to sell me that book. Since it's not really my kind of book, I declined."
 msgstr ""
+"Gamle Benradas kom förbi förra veckan och ville sälja den boken till mig. "
+"Eftersom det inte riktigt är min typ av bok så tackade jag nej."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_3
 msgid "He seemed upset that I didn't like his book, and threw it at me while storming out of the house."
 msgstr ""
+"Han verkade upprörd över att jag inte gillade hans bok, så han kastade den "
+"på mig och stormade ut ur huset."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_4
 msgid "Poor old man Benradas, he probably forgot that he left it here. He tends to forget things."
 msgstr ""
+"Stackars gamle Benradas, han glömde säkert att han lämnade den här. Han "
+"brukar glömma bort saker."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_5
 msgid "You looked downstairs but didn't find it? And a note you say? I guess there must have been someone in my house."
 msgstr ""
+"Du var och tittade där nere men hittade den inte? En anteckning säger du? "
+"Jag antar att någon måste ha varit i mitt hus."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_complete
 msgid "I heard you found it and gave it back to old man Benradas. Thank you. He tends to forget things."
 msgstr ""
+"Jag hörde att du hittade den och gav den till gamle Benradas. Tack. Han "
+"brukar glömma saker."
 
 #: conversationlist_fallhaven_arcir.json:arcir_calomyran_6
 msgid ""
@@ -2030,104 +2194,126 @@ msgid ""
 "\n"
 "Larcal ... I know of him. Always causing trouble. He is usually in the barn to the east of here."
 msgstr ""
+"Vad sa anteckningen?\n"
+"\n"
+"Larcal ... Jag känner honom. Han ställer alltid till med problem. Han brukar "
+"vara i ladan öster om oss."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map
 msgid "Oh, an ancient map of the area! This would fit well into my collection of old maps. I offer you 500 gold pieces for it."
 msgstr ""
+"Åh, en forntida karta av området! Den skulle passa bra i min samling med "
+"gamla kartor. Jag kan ge dig 500 guldmynt för den."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:0
 msgid "Thanks, I'd rather keep it."
-msgstr ""
+msgstr "Tack, men jag behåller den hellre."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map:1
 msgid "OK. Here is Ewmondold's map."
-msgstr ""
+msgstr "Okej. Här är Ewmondolds karta."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1
 msgid "And here are 500 shining gold pieces. Use them wisely."
-msgstr ""
+msgstr "Och här har du 500 skinande guldmynt. Använd dem klokt."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:0
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:0
 msgid "Thanks, I have to go now."
-msgstr ""
+msgstr "Tack, jag måste gå nu."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_map_1:1
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1:1
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:1
 msgid "Let's talk about other things."
-msgstr ""
+msgstr "Låt oss prata om nåt annat."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1
 msgid "Let's have a look. Oh, what the ... Well, this is no book for little ones as you. Give it to me, you get 200 pieces of gold for it."
 msgstr ""
+"Låt mig ta en titt. Oj, vad i ... Nja, det här är inte en bok för småttingar "
+"som du. Ge den till mig istället, jag kan ge dig 200 guldmynt för den."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1:1
 msgid "OK. Here is the book about slavery."
-msgstr ""
+msgstr "Okej. Här är boken om slaveri."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book1_1
 msgid "And here are 200 shining gold pieces. Be happy that I'm freeing you from this terrible work."
 msgstr ""
+"Och här är dina 200 guldmynt. Var glad att jag befriar dig från det här "
+"fruktansvärda verket."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2
 msgid "Ah, a history textbook."
-msgstr ""
+msgstr "Åh, en historiebok."
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1
 msgid "But there are a lot of pages missing. Did you rip them out? You should be ashamed of yourself!"
-msgstr ""
+msgstr "Men den saknar en massa sidor. Rev du ut dem? Du borde skämmas!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_1:0
 msgid "No, that wasn't me!"
-msgstr ""
+msgstr "Nej, det var inte jag!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2
 msgid "Such a beautiful book, completely broken! You dare to offer this to me and think I won't notice?!"
 msgstr ""
+"En sån vacker bok är nu helt förstörd! Hur vågar du ge den till mig och tro "
+"att jag inte skulle märka?!"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_2:0
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_no:0
 #: conversationlist_delivery.json:brv_wh_delivery_boss_10_10_yes_1:0
 msgid "[Run]"
-msgstr ""
+msgstr "[Spring]"
 
 #: conversationlist_fallhaven_arcir.json:arcir_books_rares_book2_3
 msgid "Yes, just run away, you book murderer!"
-msgstr ""
+msgstr "Jaha, spring iväg då, din bokmördare!"
 
 #: conversationlist_fallhaven_bucus.json:bucus_welcome
 msgid "Hi again, welcome back to the ... Oh wait, I thought you were someone else."
 msgstr ""
+"Hej igen, välkommen tillbaka till ... Vänta lite, jag trodde du var någon "
+"annan."
 
 #: conversationlist_fallhaven_bucus.json:bucus_welcome:1
 msgid "What do you know about the Thieves' Guild?"
-msgstr ""
+msgstr "Vad vet du om Tjuvgillet?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_andor_no_1
 msgid "How interesting that you should ask. What if I had seen him? Why would I tell you?"
 msgstr ""
+"Vilken intressant fråga. Tänk om jag har sett honom. Varför skulle jag "
+"berätta det för dig?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_andor_no_2
 msgid "No, I can't tell you. Now please leave."
-msgstr ""
+msgstr "Nej, jag kan inte berätta det för dig. Snälla gå nu."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_no
 msgid "Wh, what? No, I don't know anything about that."
-msgstr ""
+msgstr "V, va? Nej, det vet jag inget om."
 
 #: conversationlist_fallhaven_bucus.json:bucus_umar_1
 msgid "OK kid. You've proven yourself to me. Yes, I saw some other kid by that description running around here a few days ago."
 msgstr ""
+"Okej grabben. Du har bevisat din förmåga till mig. Jo, jag såg nån annan "
+"unge som såg ut så som sprang omkring här för nåra dagar sen."
 
 #: conversationlist_fallhaven_bucus.json:bucus_umar_2
 msgid "I don't know what he was up to though. He kept asking a lot of questions. Kind of like you do. *snicker*"
 msgstr ""
+"Jag vet dock inte vad han höll på med. Han frågade mig mest en massa frågor. "
+"Typ som du gör nu. *fnitter*"
 
 #: conversationlist_fallhaven_bucus.json:bucus_umar_3
 msgid "Anyway, that's all I know. You should go talk to Umar, he probably knows more. Down that hatch over there."
 msgstr ""
+"Nåja, det var allt jag vet. Du borde prata med Umar, han vet nog mer. Nerför "
+"luckan där borta."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_1
 msgid ""
@@ -2135,10 +2321,13 @@ msgid ""
 "\n"
 "OK so you found us. Now what?"
 msgstr ""
+"Vem berätta' det? Argh.\n"
+"\n"
+"Okej så du hittade oss. Vad nu då?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_1:0
 msgid "Can I join the Thieves' Guild?"
-msgstr ""
+msgstr "Kan jag gå med i Tjuvgillet?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_2
 msgid ""
@@ -2146,172 +2335,210 @@ msgid ""
 "\n"
 "You're one funny kid."
 msgstr ""
+"Hah! Du?! Gå med i Tjuvgillet?!\n"
+"\n"
+"Du är rolig grabben."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_2:0
 msgid "I'm serious."
-msgstr ""
+msgstr "Jag menar allvar."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_2:1
 msgid "Yeah, pretty funny eh?"
-msgstr ""
+msgstr "Ja, rätt kul eller hur?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_3
 msgid "OK, tell you what kid. Do a task for me and maybe I'll consider giving you more info."
 msgstr ""
+"Okej, vet du vad grabben. Gör nåt för mig så kanske jag överväger att "
+"berätta mer."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_3:0
 msgid "What kind of task are we talking about?"
-msgstr ""
+msgstr "Vilken typ av \"nåt\" pratar vi om?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_3:1
 msgid "As long as this leads to some treasure, I'm in!"
-msgstr ""
+msgstr "Så länge det finns nån skatt så är jag med!"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_4
 msgid "Bring me the key of Luthor and we can talk more. I don't know anything about the key itself, but rumor has it that it is located somewhere in the catacombs beneath Fallhaven Church."
 msgstr ""
+"Ge mig Luthors nyckel så kan vi snacka mer. Jag vet inget om själva nyckeln, "
+"men ryktet är att den finns nånstans i katakomberna under Fallhamns kyrka."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_4:0
 msgid "OK, sounds easy enough."
-msgstr ""
+msgstr "Okej, det låter lätt nog."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue
 msgid "How is the search for the key of Luthor going?"
-msgstr ""
+msgstr "Hur går det med att leta efter Luthors nyckel?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue:1
 msgid "Here, I have it. The key of Luthor."
-msgstr ""
+msgstr "Här har du den. Luthors nyckel."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_continue:2
 msgid "I'm still looking for it. Bye."
-msgstr ""
+msgstr "Jag letar fortfarande efter den. Hejdå."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_complete_1
 msgid "Wow, you actually got the key of Luthor? I didn't think you would make it out of there."
 msgstr ""
+"Wow, fick du faktiskt tag på Luthors nyckel? Jag trodde inte att du skulle "
+"ta dig ur därifrån."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_complete_2
 msgid "Well done kid."
-msgstr ""
+msgstr "Bra gjort grabben."
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_complete_3
 msgid "So, let's talk. What do you want to know?"
-msgstr ""
+msgstr "Så, låt oss snacka. Vad vill du veta?"
 
 #: conversationlist_fallhaven_bucus.json:bucus_thieves_complete_3:0
 msgid "What do you know about my brother Andor?"
-msgstr ""
+msgstr "Vad vet du om min bror Andor?"
 
 #: conversationlist_fallhaven_church.json:chapelgoer
 msgid "Shadow, embrace me."
-msgstr ""
+msgstr "Omfamna mig, Skuggan."
 
 #: conversationlist_fallhaven_church.json:thoronir_shadow_1
 #: conversationlist_jolnor.json:jolnor_shadow_1
 msgid "The Shadow protects us from the dangers of the night. It keeps us safe and comforts us when we sleep."
 msgstr ""
+"Skuggan skyddar oss från nattens faror. Den håller oss säker och skyddar oss "
+"när vi sover."
 
 #: conversationlist_fallhaven_church.json:thoronir_shadow_1:0
 msgid "Tharal sent me and told me to tell you the password 'Glow of the Shadow'."
 msgstr ""
+"Tharal skickade hit mig och sa att jag skulle säga lösenordet 'Skenet från "
+"Skuggan'."
 
 #: conversationlist_fallhaven_church.json:thoronir_shadow_1:2
 msgid "Sounds like nonsense to me."
-msgstr ""
+msgstr "Låter bara som nonsens."
 
 #: conversationlist_fallhaven_church.json:thoronir_church_1
 msgid "This is our chapel of worship in Fallhaven. Our community turns to us for support."
-msgstr ""
+msgstr "Det här är vårt bönehus i Fallhamn. Folket kommer till oss för hjälp."
 
 #: conversationlist_fallhaven_church.json:thoronir_church_2
 msgid "This church has withstood hundreds of years, and has been kept safe from grave robbers."
 msgstr ""
+"Den här kyrkan har klarat sig i hundratals år och skyddat oss från "
+"gravplundrare."
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_1
 msgid "Glow of the Shadow indeed my child. So my old friend Tharal in Crossglen village sent you?"
 msgstr ""
+"Självklart mitt barn, Skenet från Skuggan. Så min gamle vän Tharal i Korsdal "
+"skickade hit dig?"
 
 #: conversationlist_fallhaven_church.json:thoronir_church_3
 msgid "The catacombs beneath the church house the remains of our passed leaders. Our great King Luthor is rumored to be buried there."
 msgstr ""
+"Katakomberna under kyrkan har kvarlevorna av våra avlidna ledare. Det ryktas "
+"att vår store kung Luthor är begravd där."
 
 #: conversationlist_fallhaven_church.json:thoronir_church_3:0
 msgid "Has anyone entered the catacombs?"
-msgstr ""
+msgstr "Har någon annan gått in i katakomberna?"
 
 #: conversationlist_fallhaven_church.json:thoronir_church_3:1
 #: conversationlist_fallhaven_church.json:thoronir_trade_bonemeal:1
 msgid "There was something else I wanted to talk about."
-msgstr ""
+msgstr "Det var nåt mer jag ville prata om."
 
 #: conversationlist_fallhaven_church.json:thoronir_church_4
 msgid "No one is allowed down in the catacombs, except for Athamyr, my apprentice. He is the only one that has been down there for years."
 msgstr ""
+"Ingen annan har haft tillåtelse att gå ner i katakomberna förutom min "
+"lärling Athamyr. Han är den enda som varit där nere i flera år."
 
 #: conversationlist_fallhaven_church.json:thoronir_church_4:0
 msgid "OK, I might go see him."
-msgstr ""
+msgstr "Okej, jag kanske går och träffar honom."
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_2
 msgid "Shhh, we shouldn't talk so loud about using bonemeal. As you know, Lord Geomyr issued a ban on all use of bonemeal."
 msgstr ""
+"Shhh, vi borde inte prata så högt om att använda benmjöl. Som du redan vet "
+"har Lord Geomyr utfärdat ett förbud mot all användning av benmjöl."
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_3
 msgid "When the ban came, I did not dare keep any, so I threw my whole supply away. It was quite foolish now that I look back on it."
 msgstr ""
+"När förbudet kom så vågade jag inte behålla något av det jag hade så jag "
+"kastade iväg allt. Det var ganska dumt nu när jag tänker på det."
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_4
 msgid "Do you think you could find me 5 skeletal bones that I can use for mixing a bonemeal potion? The bonemeal is very potent in healing old wounds."
 msgstr ""
+"Tror du att du kan hitta 5 skelettben som jag kan använda för att blanda "
+"ihop en benmjölsdryck? Benmjölet är väldigt kraftfullt när det kommer till "
+"att läka gamla sår."
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_4:0
 msgid "Sure, I might be able to do that."
-msgstr ""
+msgstr "Jadå, det ska jag kunna göra."
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_4:1
 msgid "I have those bones for you."
-msgstr ""
+msgstr "Jag har de där benen till dig."
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_5
 msgid "Thank you, please come back soon. I heard there were some undead near an old abandoned house just north of Fallhaven. Maybe you can check for bones there?"
 msgstr ""
+"Tack, kom gärna tillbaka snart. Jag hörde att det var några odöda nära ett "
+"övergivet hus norr om Fallhamn. Du kanske kan kolla efter ben där?"
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_5:0
 msgid "OK, I'll go check there."
-msgstr ""
+msgstr "Okej, jag går dit och kollar."
 
 #: conversationlist_fallhaven_church.json:thoronir_tharal_complete
 msgid "Thank you, these bones will do fine. Now I can start creating some bonemeal healing potions for you."
 msgstr ""
+"Tack, de här benen går bra. Nu kan jag börja skapa några läkande "
+"benmjölsdrycker till dig."
 
 #: conversationlist_fallhaven_church.json:thoronir_complete_2
 msgid "Give me some time to mix the bonemeal potion. It is a very potent healing potion. Come back in a little while."
 msgstr ""
+"Ge mig lite tid att blanda ihop benmjölsdrycken. Det är en väldigt kraftfull "
+"dryck. Kom tillbaka om en stund."
 
 #: conversationlist_fallhaven_church.json:thoronir_trade_bonemeal
 msgid "Yes, the bonemeal potions are ready. Please use them with care, and don't let the guards see you. We are not actually allowed to use them anymore."
 msgstr ""
+"Ja, benmjölsdryckerna är färdiga. Var försiktig med dem, och låt inte "
+"vakterna se dig. Vi får egentligen inte använda dem längre."
 
 #: conversationlist_fallhaven_church.json:thoronir_trade_bonemeal:0
 msgid "Let me see what potions you have made so far."
-msgstr ""
+msgstr "Låt mig se vilka drycker du har gjort än så länge."
 
 #: conversationlist_fallhaven_church.json:catacombguard
 msgid "Turn back while you still can, mortal. This is no place for you. Only death awaits you here."
 msgstr ""
+"Gå tillbaka medans du kan, din dödlige. Det här är ingen plats för dig. Det "
+"finns bara död här."
 
 #: conversationlist_fallhaven_church.json:catacombguard:0
 msgid "Very well. I will turn back."
-msgstr ""
+msgstr "Nåväl. Jag går tillbaka."
 
 #: conversationlist_fallhaven_church.json:catacombguard:1
 msgid "Move aside, I need to get deeper into the catacombs."
-msgstr ""
+msgstr "Flytta på dig, jag måste ta mig djupare ner i katakomberna."
 
 #: conversationlist_fallhaven_church.json:catacombguard:2
 msgid "By the Shadow, you will not stop me."
-msgstr ""
+msgstr "Vid Skuggan, du ska inte stoppa mig."
 
 #: conversationlist_fallhaven_church.json:catacombguard1
 msgid "Nooo, you shall not pass!"
@@ -14192,7 +14419,7 @@ msgstr "Världen omkring dig verkar förflytta sig lite långsammare när du bä
 
 #: conversationlist_algangror.json:algangror_task2_4:0
 msgid "OK. I will help you with your task."
-msgstr "Ok. Jag ska hjälpa dig med uppgiften."
+msgstr "Okej. Jag ska hjälpa dig med uppgiften."
 
 #: conversationlist_algangror.json:algangror_task2_4:1
 #: conversationlist_algangror.json:algangror_task2_5:1
@@ -14213,7 +14440,7 @@ msgstr "Som sagt, kan jag inte berätta för dig vilken uppgift jag har i tankar
 
 #: conversationlist_algangror.json:algangror_task2_5:0
 msgid "OK. I will agree to help you with your task."
-msgstr "Ok. Jag går med på att hjälpa dig med din uppgift."
+msgstr "Okej. Jag går med på att hjälpa dig med din uppgift."
 
 #: conversationlist_algangror.json:algangror_task2_5:2
 msgid "No. I will not help you unless you tell me what you want me to do."
@@ -76949,7 +77176,7 @@ msgstr "Audir"
 
 #: monsterlist_crossglen_npcs.json:arambold
 msgid "Arambold"
-msgstr ""
+msgstr "Arambold"
 
 #: monsterlist_crossglen_npcs.json:tharal
 #: monsterlist_ratdom.json:ratdom_tharal
@@ -77124,7 +77351,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:bucus
 msgid "Bucus"
-msgstr ""
+msgstr "Bucus"
 
 #: monsterlist_fallhaven_npcs.json:drunkard
 msgid "Drunkard"
@@ -77137,7 +77364,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:nocmar
 msgid "Nocmar"
-msgstr ""
+msgstr "Nocmar"
 
 #: monsterlist_fallhaven_npcs.json:prisoner
 msgid "Prisoner"
@@ -77153,7 +77380,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:athamyr
 msgid "Athamyr"
-msgstr ""
+msgstr "Athamyr"
 
 #: monsterlist_fallhaven_npcs.json:thoronir
 msgid "Thoronir"
@@ -77179,7 +77406,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:larcal
 msgid "Larcal"
-msgstr ""
+msgstr "Larcal"
 
 #: monsterlist_fallhaven_npcs.json:gaela
 msgid "Gaela"
@@ -77218,7 +77445,7 @@ msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:vacor
 msgid "Vacor"
-msgstr ""
+msgstr "Vacor"
 
 #: monsterlist_fallhaven_npcs.json:unzel
 msgid "Unzel"
@@ -77360,7 +77587,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:troublemaker
 msgid "Troublemaker"
-msgstr ""
+msgstr "Bråkmakare"
 
 #: monsterlist_v068_npcs.json:farrik
 msgid "Farrik"
@@ -77414,7 +77641,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:jolnor
 msgid "Jolnor"
-msgstr ""
+msgstr "Jolnor"
 
 #: monsterlist_v068_npcs.json:alynndir
 msgid "Alynndir"
@@ -77430,7 +77657,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:ogam
 msgid "Ogam"
-msgstr ""
+msgstr "Ogam"
 
 #: monsterlist_v068_npcs.json:foaming_flask_cook
 msgid "Foaming Flask cook"
@@ -77459,7 +77686,7 @@ msgstr ""
 
 #: monsterlist_v068_npcs.json:wrye
 msgid "Wrye"
-msgstr ""
+msgstr "Wrye"
 
 #: monsterlist_v068_npcs.json:oluag
 msgid "Oluag"
@@ -77682,7 +77909,7 @@ msgstr ""
 
 #: monsterlist_v069_npcs.json:bjorgur
 msgid "Bjorgur"
-msgstr ""
+msgstr "Bjorgur"
 
 #: monsterlist_v069_npcs.json:prim_prisoner
 msgid "Prim prisoner"
@@ -77690,7 +77917,7 @@ msgstr ""
 
 #: monsterlist_v069_npcs.json:fulus
 msgid "Fulus"
-msgstr ""
+msgstr "Fulus"
 
 #: monsterlist_v069_npcs.json:guthbered
 msgid "Guthbered"
@@ -77787,7 +78014,7 @@ msgstr ""
 
 #: monsterlist_v069_npcs.json:herec
 msgid "Herec"
-msgstr ""
+msgstr "Herec"
 
 #: monsterlist_v069_npcs.json:iducus
 msgid "Iducus"
@@ -77823,7 +78050,7 @@ msgstr ""
 
 #: monsterlist_v069_npcs.json:throdna
 msgid "Throdna"
-msgstr ""
+msgstr "Throdna"
 
 #: monsterlist_v069_npcs.json:throdnas_guard
 msgid "Throdna's guard"
@@ -77952,7 +78179,7 @@ msgstr ""
 
 #: monsterlist_v0610_npcs1.json:benbyr
 msgid "Benbyr"
-msgstr ""
+msgstr "Benbyr"
 
 #: monsterlist_v0610_npcs1.json:celdar
 msgid "Celdar"
@@ -77968,7 +78195,7 @@ msgstr ""
 
 #: monsterlist_v0610_npcs1.json:erinith
 msgid "Erinith"
-msgstr ""
+msgstr "Erinith"
 
 #: monsterlist_v0610_npcs1.json:fanamor
 msgid "Fanamor"
@@ -77983,8 +78210,9 @@ msgid "Gallain"
 msgstr ""
 
 #: monsterlist_v0610_npcs1.json:gandoren
+#, fuzzy
 msgid "Gandoren"
-msgstr ""
+msgstr "Gandoren"
 
 #: monsterlist_v0610_npcs1.json:grimion
 msgid "Grimion"
@@ -78029,7 +78257,7 @@ msgstr ""
 
 #: monsterlist_v0610_npcs1.json:minarra
 msgid "Minarra"
-msgstr ""
+msgstr "Minarra"
 
 #: monsterlist_v0610_npcs1.json:puny_warehouserat
 msgid "Warehouse rat"
@@ -79669,8 +79897,9 @@ msgid "Old woman"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:stoutford_armorer
+#, fuzzy
 msgid "Odirath"
-msgstr ""
+msgstr "Odirath"
 
 #: monsterlist_stoutford_combined.json:cave_troll_1
 #: monsterlist_stoutford_combined.json:cave_troll_7
@@ -79911,7 +80140,7 @@ msgstr ""
 
 #: monsterlist_omicronrg9.json:g03_crackshot
 msgid "Crackshot"
-msgstr ""
+msgstr "Crackshot"
 
 #: monsterlist_omicronrg9.json:g03_crackshot_dying
 msgid "Dying Crackshot"
@@ -80437,7 +80666,7 @@ msgstr ""
 
 #: monsterlist_fungi_panic.json:bogsten_gambler1
 msgid "Bogal"
-msgstr ""
+msgstr "Bogal"
 
 #: monsterlist_fungi_panic.json:bogsten_gambler2
 msgid "Botisto"
@@ -80453,15 +80682,15 @@ msgstr ""
 
 #: monsterlist_gison.json:gison
 msgid "Gison"
-msgstr ""
+msgstr "Gison"
 
 #: monsterlist_gison.json:nimael
 msgid "Nimael"
-msgstr ""
+msgstr "Nimael"
 
 #: monsterlist_gison.json:gael
 msgid "Gael"
-msgstr ""
+msgstr "Gael"
 
 #: monsterlist_gison.json:small_stone_worm
 msgid "Small stone worm"
@@ -80491,11 +80720,11 @@ msgstr ""
 
 #: monsterlist_gorwath.json:gorwath
 msgid "Gorwath"
-msgstr ""
+msgstr "Gorwath"
 
 #: monsterlist_gorwath.json:arensia
 msgid "Arensia"
-msgstr ""
+msgstr "Arensia"
 
 #: monsterlist_omi2.json:mountain_wolf_2
 msgid "Trained mountain wolf"
@@ -80531,7 +80760,7 @@ msgstr ""
 
 #: monsterlist_omi2.json:ehrenfest
 msgid "Ehrenfest"
-msgstr ""
+msgstr "Ehrenfest"
 
 #: monsterlist_omi2.json:ortholion
 #: monsterlist_omi2.json:ortholion_hidden
@@ -80638,7 +80867,7 @@ msgstr ""
 
 #: monsterlist_omi2.json:kamelio
 msgid "Kamelio"
-msgstr ""
+msgstr "Kamelio"
 
 #: monsterlist_omi2.json:kamelio2
 msgid "Undead Kamelio"
@@ -81553,7 +81782,7 @@ msgstr ""
 #: monsterlist_darknessanddaylight.json:dds_andor
 #: monsterlist_mt_galmore2.json:mg2_andor
 msgid "Andor"
-msgstr ""
+msgstr "Andor"
 
 #: monsterlist_laeroth.json:lae_island_boss
 msgid "Dorhantarh"
@@ -88830,7 +89059,7 @@ msgstr ""
 
 #: worldmap.xml:world1:remgard
 msgid "Remgard"
-msgstr ""
+msgstr "Remgard"
 
 #: worldmap.xml:world1:vilegard
 msgid "Vilegard"
@@ -88854,7 +89083,7 @@ msgstr ""
 
 #: worldmap.xml:world1:sullengard
 msgid "Sullengard"
-msgstr ""
+msgstr "Sullengard"
 
 #: worldmap.xml:world1:deebo_orchard
 msgid "Deebo's Orchard"
