@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-05-09 16:11+0000\n"
+"PO-Revision-Date: 2026-05-10 11:00+0000\n"
 "Last-Translator: Guillermo Rivero <cuentareloka@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
@@ -46738,11 +46738,11 @@ msgstr "¿Me lo prometes?"
 #: conversationlist_omi2.json:moyra_9a:0
 #: conversationlist_omi2.json:ortholion_2b:0
 msgid "I do."
-msgstr "Si."
+msgstr "Sí."
 
 #: conversationlist_omi2.json:moyra_9a:1
 msgid "[Lie] I do."
-msgstr "[Mentira] Sí."
+msgstr "[Mentir] Sí."
 
 #: conversationlist_omi2.json:moyra_10
 msgid ""
@@ -46775,7 +46775,7 @@ msgstr "Te dije todo lo que sé, lo siento."
 
 #: conversationlist_omi2.json:prim_commoner3_2
 msgid "Oh, poor Lorn. I heard that he fell off the mountain."
-msgstr "Oh, pobre Lorn. Escuche que cayó de la montaña."
+msgstr "Oh, pobre Lorn. Oí que se cayó de la montaña."
 
 #: conversationlist_omi2.json:prim_commoner3_2:1
 msgid "People say he was quite skilled at climbing."
@@ -51919,7 +51919,6 @@ msgstr ""
 "elegancia."
 
 #: conversationlist_sullengard.json:sullengard_mariora_20
-#, fuzzy
 msgid "What can I do for you, cutie."
 msgstr "¿Qué puedo hacer por ti, lindura?"
 
@@ -51934,12 +51933,10 @@ msgid "Umm...I think I should leave now."
 msgstr "Umm... Creo que debería irme ya."
 
 #: conversationlist_sullengard.json:sull_herding_dog_0
-#, fuzzy
 msgid "Woof."
 msgstr "¡Guau!"
 
 #: conversationlist_sullengard.json:sullengard_goat_0
-#, fuzzy
 msgid "Baa."
 msgstr "¡Baah!"
 
@@ -52001,10 +51998,9 @@ msgid "What?! Where is he? Why is your father not with you?"
 msgstr "¿Qué? ¿Dónde está? ¿Por qué no está tu padre contigo?"
 
 #: conversationlist_sullengard.json:sullengard_find_mother_20:0
-#, fuzzy
 msgid "I guess because he needed to stay home and watch over the house. Or maybe he thinks I'm ready for the challenge?"
 msgstr ""
-"Supongo que era porque necesitaba quedarse en casa y cuidar la casa. ¿O tal "
+"Supongo que era porque necesitaba quedarse en casa y cuidar el hogar. ¿O tal "
 "vez cree que estoy listo para el reto?"
 
 #: conversationlist_sullengard.json:sullengard_find_mother_30
@@ -54170,7 +54166,6 @@ msgstr ""
 "por el bosque."
 
 #: conversationlist_haunted_forest.json:gabriel_daw_complete_30:0
-#, fuzzy
 msgid "They inhabited this abandoned house in the forest and were doing some sort of ritual. I think that they were planning to make Vilegard their first victims"
 msgstr ""
 "Habitaban esta casa abandonada en el bosque y estaban realizando algún tipo "
@@ -54230,7 +54225,6 @@ msgstr ""
 "fuertes aquí."
 
 #: conversationlist_haunted_forest.json:road5_daw_10
-#, fuzzy
 msgid "As you stick your head between the trees, you feel a burst of cold air and a shiver goes down your body"
 msgstr ""
 "Al asomar la cabeza entre los árboles, sientes una ráfaga de aire frío y un "
@@ -55388,7 +55382,6 @@ msgid "You can run much faster on four legs. Give it a try!"
 msgstr "Se puede correr mucho más rápido a cuatro patas. ¡Inténtalo!"
 
 #: conversationlist_ratdom.json:ratdom_rat_conv2_560
-#, fuzzy
 msgid "You are so quiet. Say, what's your problem."
 msgstr "Estás tan callado. Dilo, ¿cuál es tu problema?"
 
@@ -58151,7 +58144,6 @@ msgid "Eh, yes. How did you know?"
 msgstr "Eh, sí. ¿Cómo lo supiste?"
 
 #: conversationlist_ratdom_npc.json:ratdom_skeleton_boss_12_50
-#, fuzzy
 msgid "My brother again! He always tries to mock me! And surely  you are now going to tell me, that I should surrender?"
 msgstr ""
 "¡Otra vez mi hermano! ¡Siempre intenta burlarse de mí! ¿Y ahora me vas a "
@@ -58888,9 +58880,8 @@ msgid "I'm just the muscle around here. Go talk to Defy."
 msgstr "Yo solo soy el músculo por aquí. Ve a hablar con Defy."
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_10
-#, fuzzy
 msgid "I'm just the...um..."
-msgstr "Solo soy el ... um ..."
+msgstr "Solo soy... um..."
 
 #: conversationlist_mt_galmore.json:aidem_camp_greedy_10:0
 msgid "brains?"
@@ -59217,7 +59208,6 @@ msgid "Then what do you need from me?"
 msgstr "¿Entonces qué necesitas entonces de mí?"
 
 #: conversationlist_mt_galmore.json:aidem_camp_defy_88
-#, fuzzy
 msgid "What I need from you is more of an inside job. I need you to get the key to the vault from Troublemaker without him suspecting any trickery. Do you think you can handle that?"
 msgstr ""
 "Lo que necesito de ti es algo más interno. Necesito que consigas la llave de "
@@ -59968,453 +59958,529 @@ msgstr "¡Qué barco tan chulo! ¿Dónde puedo conseguir uno?"
 #: conversationlist_mt_galmore.json:sutdover_fisherman_10:2
 msgid "[While Pointing behind Isobel, you yell] Look at the size of that fish behind you!"
 msgstr ""
+"[Señalando detrás de Isobel, gritas] ¡Mira el tamaño de ese pez que está "
+"detrás de ti!"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_20
 msgid "Where?!"
-msgstr ""
+msgstr "¡¿Dónde?!"
 
 #: conversationlist_mt_galmore.json:sutdover_fisherman_20:0
 msgid "[While laughing uncontrollably] \"Shh, your scaring him away.\""
-msgstr ""
+msgstr "[Mientras ríe sin control] \"Shh, lo estás asustando.\""
 
 #: conversationlist_mt_galmore.json:captive_girl_10
 msgid "Excuse me, young one! Wait! Thank you for sparing me earlier. You've shown true compassion."
 msgstr ""
+"¡Disculpa, jovencito! ¡Espera! Gracias por perdonarme antes. Has demostrado "
+"verdadera compasión."
 
 #: conversationlist_mt_galmore.json:captive_girl_10:0
 msgid "What ... do I know you? You're just a young girl?"
-msgstr ""
+msgstr "¿Qué...? ¿Te conozco? ¿Eres solo una niña?"
 
 #: conversationlist_mt_galmore.json:captive_girl_20
 msgid "Yes, I was under a spell that made me appear as the witch. She wanted to test your heart. I'm glad you proved kind."
 msgstr ""
+"Sí, estaba bajo un hechizo que me hizo parecer una bruja. Quería poner a "
+"prueba tu corazón. Me alegra que hayas demostrado ser amable."
 
 #: conversationlist_mt_galmore.json:captive_girl_20:0
 msgid "Thank you, but you don't look well."
-msgstr ""
+msgstr "Gracias, pero no tienes buen aspecto."
 
 #: conversationlist_mt_galmore.json:captive_girl_30
 msgid "I am not well. Which is why I have not run far from this awful place and this awful witch."
 msgstr ""
+"No me encuentro bien. Por eso no he huido mucho de este horrible lugar y de "
+"esta bruja terrible."
 
 #: conversationlist_mt_galmore.json:captive_girl_30:0
 msgid "What's wrong? Why can't you leave?"
-msgstr ""
+msgstr "¿Qué ocurre? ¿Por qué no te puedes ir?"
 
 #: conversationlist_mt_galmore.json:captive_girl_30:1
 msgid "What happened to you here? How did you get here?"
-msgstr ""
+msgstr "¿Qué te pasó aquí? ¿Cómo llegaste hasta aquí?"
 
 #: conversationlist_mt_galmore.json:captive_girl_31
 msgid "Thank you again, my savior! I will go now."
-msgstr ""
+msgstr "¡Gracias de nuevo, mi salvador! Me voy ahora."
 
 #: conversationlist_mt_galmore.json:captive_girl_35
 msgid " I need nutrients! You see, I've been held down in that basement of that horrific house for what feels like a year."
 msgstr ""
+" ¡Necesito nutrientes! Verás, llevo encerrada en el sótano de esa casa "
+"horrible por lo que parece un año."
 
 #: conversationlist_mt_galmore.json:captive_girl_35a
 msgid "I am too sick to talk about this right now."
-msgstr ""
+msgstr "Estoy demasiado enferma para hablar de esto en este momento."
 
 #: conversationlist_mt_galmore.json:captive_girl_40
 msgid "All the witch ever gave me is something called 'Tonic of Blood'. At first, I refused to drink it, but soon I became desperate and I drank it."
 msgstr ""
+"Lo único que me dio la bruja fue algo llamado \"Tónico de Sangre\". Al "
+"principio me negué a beberlo, pero pronto me desesperé y lo bebí."
 
 #: conversationlist_mt_galmore.json:captive_girl_40:0
 msgid "I've had one or two of those. They are not that bad."
-msgstr ""
+msgstr "He probado uno o dos de esos. No están tan mal."
 
 #: conversationlist_mt_galmore.json:captive_girl_40:1
 msgid "Are those things even good for you?"
-msgstr ""
+msgstr "¿Esas cosas son realmente buenas para ti?"
 
 #: conversationlist_mt_galmore.json:captive_girl_45
 msgid "Yes, maybe in moderation. But after a few dozen, they do something to your body as I can no longer consume anything but them."
 msgstr ""
+"Sí, tal vez con moderación. Pero después de unas cuantas docenas, le hacen "
+"algo al cuerpo, ya que no puedo consumir nada más."
 
 #: conversationlist_mt_galmore.json:captive_girl_50
 msgid "I really need to get my hands on a lot of those 'Tonic of Blood' potions. Can you help me? I need a lot."
 msgstr ""
+"Necesito urgentemente muchas de esas pociones de \"Tónico de Sangre\". ¿"
+"Puedes ayudarme? Necesito muchísimas."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:0
 msgid "Well, I have twenty-five of those for you."
-msgstr ""
+msgstr "Bueno, tengo veinticinco de esos para ti."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:1
 msgid "Well, I have twenty of those for you."
-msgstr ""
+msgstr "Bueno, tengo veinte de esos para ti."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:2
 msgid "Well, I have ten of those for you."
-msgstr ""
+msgstr "Bueno, tengo diez de esos para ti."
 
 #: conversationlist_mt_galmore.json:captive_girl_50:3
 msgid "Well, I have five of those for you and I'm not sure where I got them. Do you know where I can get some?"
 msgstr ""
+"Bueno, tengo cinco de esos para ti y no estoy seguro de dónde los conseguí. ¿"
+"Sabes dónde puedo conseguir algunos?"
 
 #: conversationlist_mt_galmore.json:captive_girl_50:4
 msgid "Well, I only have one of those for you and I don't remember where I got it. Do you know where I can get some more?"
 msgstr ""
+"Bueno, solo tengo uno de esos para ti y no recuerdo dónde lo conseguí. ¿"
+"Sabes dónde puedo conseguir más?"
 
 #: conversationlist_mt_galmore.json:captive_girl_50:5
 msgid "I'm sorry, but I don't have any of those."
-msgstr ""
+msgstr "Lo siento, pero no tengo ninguno de esos."
 
 #: conversationlist_mt_galmore.json:captive_girl_55
 msgid "Well, I am not exactly sure about that as the witch would make it. Damn! I hate that smell. Damn! I love that taste however."
 msgstr ""
+"Bueno, no estoy del todo seguro de eso, ya que la bruja lo haría. ¡Maldita "
+"sea! Odio ese olor. ¡Maldita sea! Sin embargo, me encanta ese sabor."
 
 #: conversationlist_mt_galmore.json:captive_girl_55:0
 msgid "Can you help me out a little bit? Do you know anything about them?"
-msgstr ""
+msgstr "¿Me puedes ayudar un poco? ¿Sabes algo sobre ellos?"
 
 #: conversationlist_mt_galmore.json:captive_girl_60
 msgid "Hold on. Let me think...."
-msgstr ""
+msgstr "Espera. Déjame pensar..."
 
 #: conversationlist_mt_galmore.json:captive_girl_65
 msgid "Ah, YES. I remember her saying that an \"undead\" friend of her's east of here taught her how to make them."
 msgstr ""
+"Ah, SÍ. Recuerdo que dijo que un amigo suyo \"no muerto\" que vivía al este "
+"de aquí le enseñó a hacerlos."
 
 #: conversationlist_mt_galmore.json:captive_girl_65:0
 msgid "OK. Stay here. I will be back with more of them."
-msgstr ""
+msgstr "Vale. Quédate aquí. Volveré con más."
 
 #: conversationlist_mt_galmore.json:captive_girl_56
 msgid "Can you get me twenty-five of them?"
-msgstr ""
+msgstr "¿Puedes conseguirme veinticinco de ellos?"
 
 #: conversationlist_mt_galmore.json:captive_girl_56:0
 msgid "Where can I get some?"
-msgstr ""
+msgstr "¿Dónde puedo conseguirlo?"
 
 #: conversationlist_mt_galmore.json:captive_girl_54
 msgid "Only twenty? I was really hoping for twenty-five."
-msgstr ""
+msgstr "¿Solo veinte? Yo esperaba veinticinco."
 
 #: conversationlist_mt_galmore.json:captive_girl_54:0
 msgid "Whatever! Fine. I will go get you five more."
-msgstr ""
+msgstr "¡Como sea! De acuerdo. Iré a buscarte cinco más."
 
 #: conversationlist_mt_galmore.json:captive_girl_54:1
 msgid "I know that you \"asked\" for twenty-five, but I have twenty and they are hard to get. Please take these."
 msgstr ""
+"Sé que \"pediste\" veinticinco, pero tengo veinte y son difíciles de "
+"conseguir. Por favor, quédate con estos."
 
 #: conversationlist_mt_galmore.json:captive_girl_70
 msgid "OK. I won't make you go back just for five more when you've already brought me twenty."
 msgstr ""
+"Vale. No te haré volver solo por cinco más cuando ya me has traído veinte."
 
 #: conversationlist_mt_galmore.json:captive_girl_71
 msgid "WOW! You actually managed to find twenty-five! I am so grateful."
 msgstr ""
+"¡GUAU! De verdad lograste encontrar veinticinco! ¡Te lo agradezco muchísimo."
 
 #: conversationlist_mt_galmore.json:captive_girl_75
 msgid "Before you go, I was able to steal this from the witch as I was escaping. I want you to have it. I need to go now."
 msgstr ""
+"Antes de que te vayas, logré robarle esto a la bruja mientras escapaba. "
+"Quiero que te lo quedes. Tengo que irme ya."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10
 msgid "Oh my, what have we here? Another brave soul seeking to challenge me?"
 msgstr ""
+"¡Ay, Dios mío! ¿Qué tenemos aquí? ¿Otra alma valiente que busca desafiarme?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10:0
 msgid "[While backing up] Me? No ma'am. I just wandered into the wrong house. Please don't hurt me."
 msgstr ""
+"[Mientras retrocede] ¿Yo? No, señora. Simplemente entré por error en la casa "
+"equivocada. Por favor, no me haga daño."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_10:1
 msgid "Halt, foul witch! Your reign of darkness ends here!"
-msgstr ""
+msgstr "¡Alto, bruja inmunda! ¡Tu reinado de oscuridad termina aquí!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20
 msgid "And with such polite manners too. Come. Come. Take a seat."
-msgstr ""
+msgstr "Y con tan buenos modales, además. Ven. Ven. Toma asiento."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20:0
 msgid "Your tricks won't work on me. Prepare to meet your end!"
-msgstr ""
+msgstr "Tus trucos no funcionarán conmigo. ¡Prepárate para tu fin!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_20:1
 msgid "Witches don't bother me. I'll leave you be."
-msgstr ""
+msgstr "Las brujas no me molestan. Te dejaré en paz."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_25
 msgid "How intriguing. Such confidence in your path. We shall see, won't we?"
-msgstr ""
+msgstr "Qué interesante. ¡Qué seguridad tienes en tu camino! Ya veremos, ¿no?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_30
 msgid "Oh, the \"confident child\". Please leave me to my business."
-msgstr ""
+msgstr "¡Ay, el \"niño seguro de sí mismo\"! Por favor, déjenme en paz."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_40
 msgid "[laughs] How amusing. You're not the first to try, and you won't be the last. But do go ahead, if you must."
 msgstr ""
+"[Risas] Qué gracioso. No eres el primero en intentarlo, ni serás el último. "
+"Pero adelante, si es necesario."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_40:0
 #: conversationlist_mt_galmore.json:wicked_witch_first_45:0
 msgid "I won't hesitate! Take this!"
-msgstr ""
+msgstr "¡No dudaré! ¡Toma esto!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_45
 msgid "Oh, this fight will be fun ... for me that is."
-msgstr ""
+msgstr "Oh, esta pelea será divertida... para mí, claro."
 
 #: conversationlist_mt_galmore.json:wicked_witch_first_killed_script
 msgid "As the \"witch\" dies, she begins to transform into her true form, revealing a young girl and you quickly realize the tragedy of your choices. When all of a sudden..."
 msgstr ""
+"Mientras la \"bruja\" muere, comienza a transformarse en su verdadera forma, "
+"revelando a una jovencita, y rápidamente te das cuenta de la tragedia de tus "
+"decisiones. De repente..."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_10
 msgid "Bravo, hero! You fell right into my trap."
-msgstr ""
+msgstr "¡Bravo, héroe! Caíste de lleno en mi trampa."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_10:0
 msgid "What? No, it can't be!"
-msgstr ""
+msgstr "¿Qué? ¡No, no puede ser!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_20
 msgid "Oh, but it is. You see, that old witch you slew was nothing more than an illusion. A clever ruse to manipulate your actions."
 msgstr ""
+"Oh, pero sí lo es. Verás, esa vieja bruja a la que mataste no era más que "
+"una ilusión. Una astuta artimaña para manipular tus acciones."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_20:0
 msgid "[shocked] Then who are you?"
-msgstr ""
+msgstr "[Asombrado] Entonces, ¿quién eres?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_30
 msgid "I am the real witch, and you've played right into my hands. That display of arrogance, that thirst for victory - perfect for my amusement."
 msgstr ""
+"Yo soy la verdadera bruja, y has caído en mi trampa. Esa muestra de "
+"arrogancia, esa sed de victoria - perfecta para mi diversión."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_30:0
 msgid "[angry] You won't get away with this!"
-msgstr ""
+msgstr "[Enojado] ¡No te saldrás con la tuya!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_40
 msgid "[chuckles] You can certainly try, my dear hero. But your bravado has already cost you."
 msgstr ""
+"[Risas] Desde luego puedes intentarlo, mi querido héroe. Pero tu "
+"bravuconería ya te ha costado caro."
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_40:0
 msgid "You're the one that will pay!"
-msgstr ""
+msgstr "¡Eres la que pagará!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_second_killed
 msgid "After defeating the real witch, she quickly reappears."
-msgstr ""
+msgstr "Tras derrotar a la verdadera bruja, ella reaparece rápidamente."
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_selector:0
 msgid "It's over, witch!"
-msgstr ""
+msgstr "¡Se acabó, bruja!"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_selector:1
 msgid "What did you mean when you said \"what lies ahead\"?"
-msgstr ""
+msgstr "¿Qué quisiste decir cuando dijiste \"lo que nos espera\"?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_10
 msgid "[weakened] Yes, yes, you've bested me. Congratulations, but have you really won?"
 msgstr ""
+"[Debilitada] Sí, sí, me has vencido. Felicidades, pero ¿de verdad has ganado?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_10:0
 msgid "[panting] Why all this deception?"
-msgstr ""
+msgstr "[Jadeando] ¿Por qué todo este engaño?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_20
 msgid "Oh, just a bit of entertainment. And for that, you get a big reward: You get to live."
 msgstr ""
+"Oh, solo un poco de entretenimiento. Y a cambio, obtienes una gran "
+"recompensa: puedes vivir."
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_20:0
 msgid "[disgruntled] Is this some kind of sick game to you?"
-msgstr ""
+msgstr "[Disgustado] ¿Esto es algún tipo de juego enfermizo para ti?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_30
 msgid "[smirks] Perhaps. But remember, hero, life's full of surprises. You may have won this time, but who's to say what lies ahead?"
 msgstr ""
+"[Sonríe con picardía] Quizás. Pero recuerda, héroe, la vida está llena de "
+"sorpresas. Puede que hayas ganado esta vez, pero ¿quién sabe lo que te "
+"depara el futuro?"
 
 #: conversationlist_mt_galmore.json:wicked_witch_third_40
 msgid "Leave me now, child before you end up like that young girl you killed."
 msgstr ""
+"Déjame ahora, niño, antes de que acabes como esa joven a la que mataste."
 
 #: conversationlist_mt_galmore.json:captive_girl_76
 msgid "I need to go now. Thanks a lot."
-msgstr ""
+msgstr "Tengo que irme ya. Muchas gracias."
 
 #: conversationlist_mt_galmore.json:crystal_teleportation_disabled
 msgid "There is nothing to see here except for that wolf dung over there. Gross!"
-msgstr ""
+msgstr "Aquí no hay nada que ver, excepto esa caca de lobo de allá. ¡Qué asco!"
 
 #: conversationlist_mt_galmore.json:witch_playing_kid
 msgid "Look what I have found here - bewitched crystals! They are really fun!"
 msgstr ""
+"¡Mira lo que he encontrado aquí: cristales encantados! ¡Son realmente "
+"divertidos!"
 
 #: conversationlist_mt_galmore.json:witch_playing_kid_1
 msgid "I wonder if there are more of them in the area?"
-msgstr ""
+msgstr "Me pregunto si ¿habrá más de ellos en la zona?"
 
 #: conversationlist_mt_galmore.json:guardian_mushroom_1
 msgid "You're here to take our magical mushroom!"
-msgstr ""
+msgstr "¡Estás aquí para llevarte nuestro hongo mágico!"
 
 #: conversationlist_mt_galmore.json:guardian_mushroom_1:1
 msgid "No, I swear. Please don't hurt me."
-msgstr ""
+msgstr "No, lo juro. Por favor, no me hagas daño."
 
 #: conversationlist_mt_galmore.json:dirty_grimmthorn_marauder_1
 msgid "We are in a rush to get through here, kid. Get out of our way or die."
 msgstr ""
+"Tenemos prisa por pasar por aquí, chico. Quítate de nuestro camino o muere."
 
 #: conversationlist_mt_galmore.json:dirty_grimmthorn_marauder_1:0
 msgid "Where is the Shadow to help me now?"
-msgstr ""
+msgstr "¿Dónde está la Sombra para ayudarme ahora?"
 
 #: conversationlist_mt_galmore.json:cat_dialog
 msgid "Meow."
-msgstr ""
+msgstr "Miaw."
 
 #: conversationlist_mt_galmore.json:blue_cat_1
 msgid "Hello, my name is \"Old Blue\"."
-msgstr ""
+msgstr "Hola, mi nombre es \"Old Blue\"."
 
 #: conversationlist_mt_galmore.json:blue_cat_1:0
 msgid "What! You can talk?"
-msgstr ""
+msgstr "¡¿Qué?! ¿Puedes hablar?"
 
 #: conversationlist_mt_galmore.json:blue_cat_1:1
 msgid "You are an unusual color. Why are you blue?"
-msgstr ""
+msgstr "Eres de un color inusual. ¿Por qué eres azul?"
 
 #: conversationlist_mt_galmore.json:blue_cat_talk
 msgid "Talk? Well, let me ask you this: Why don't my friends up there talk?"
 msgstr ""
+"¿Hablar? Bueno, déjame preguntarte esto: ¿Por qué mis amigos de allá arriba "
+"no hablan?"
 
 #: conversationlist_mt_galmore.json:blue_cat_talk:0
 msgid "Well, I guess you've got me there."
-msgstr ""
+msgstr "Bueno, creo que me has pillado."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue
 msgid "It was Bonicksa, that wicked witch, she did this to me."
-msgstr ""
+msgstr "Fue Bonicksa, esa bruja malvada, ella me hizo esto."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue2
 msgid "Well, you see those rats over there? The ones in the cage?"
-msgstr ""
+msgstr "Bueno, ¿ves esas ratas de allí? ¿Las que están en la jaula?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue2:0
 msgid "Yeah."
-msgstr ""
+msgstr "Si."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue3
 msgid "You see, those things are delicious."
-msgstr ""
+msgstr "Verás, esas cosas están deliciosas."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue3:0
 msgid "Um, OK, but what does that have to do with Bonicksa?"
-msgstr ""
+msgstr "Eh, vale, pero ¿qué tiene eso que ver con Bonicksa?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue4
 msgid "Oh, you don't know? Those are Bonicksa's rats and she doesn't appreciate anything happening to them."
 msgstr ""
+"¿Ah, no lo sabes? Esas son las ratas de Bonicksa y a ella no le gusta que "
+"les pase nada."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue5
 msgid "She caught me killing her favorite one day. I got away that day, but she was relentless in her attempts to hurt me."
 msgstr ""
+"Un día me pilló matando a su animal favorito. Aquel día conseguí escapar, "
+"pero ella fue implacable en sus intentos de hacerme daño."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue5:0
 msgid "What happened next?"
-msgstr ""
+msgstr "¿Qué pasó después?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue6
 msgid "Well, after many months of trying, she was lucky one day and was able to capture me."
 msgstr ""
+"Bueno, después de muchos meses intentándolo, un día tuvo suerte y logró "
+"capturarme."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue6:0
 msgid "Then?"
-msgstr ""
+msgstr "¿Y entonces?"
 
 #: conversationlist_mt_galmore.json:blue_cat_blue7
 msgid "She used her black magic to turn my beautiful white fur to this awful color I am now."
 msgstr ""
+"Ella usó su magia negra para convertir mi hermoso pelaje blanco en este "
+"horrible color que tengo ahora."
 
 #: conversationlist_mt_galmore.json:blue_cat_blue7:0
 msgid "Oh, I am so sorry for you."
-msgstr ""
+msgstr "Oh, lo siento mucho por ti."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_5_alt
 msgid "Oh, yes. I was asking you what you said to Defy after learning that they wanted to hire you to rob us. Then you so rudely left the conversation. So I will ask you again. What did you say?"
 msgstr ""
+"Ah, sí. Te preguntaba qué le dijiste a Defy después de enterarme de que "
+"querían contratarte para robarnos. Luego, de forma muy grosera, te retiraste "
+"de la conversación. Así que te lo pregunto de nuevo: ¿Qué dijiste?"
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_45
 msgid "Seriously? Man, it is so hard to get good help nowadays! I instructed you to go with them to the vault as we may need your help there."
 msgstr ""
+"¿En serio? ¡Qué difícil es encontrar ayuda de calidad hoy en día! Te indiqué "
+"que fueras con ellos a la bóveda, ya que podríamos necesitar tu ayuda allí."
 
 #: conversationlist_mt_galmore.json:troublemaker_wm_report_45:0
 msgid "Oh, yeah, I forgot."
-msgstr ""
+msgstr "Ah, sí, lo olvidé."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_10
 msgid "What a beautiful view from here."
-msgstr ""
+msgstr "Qué vista tan hermosa desde aquí."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_10:0
 msgid "Is that a skeleton that I see behind the hill?"
-msgstr ""
+msgstr "¿Es un esqueleto lo que veo detrás de la colina?"
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_20
 msgid "You think how to lure the skeleton back into the castle."
-msgstr ""
+msgstr "Piensas en cómo atraer al esqueleto de vuelta al castillo."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_20:0
 msgid "I could close the castle gates again."
-msgstr ""
+msgstr "Podría volver a cerrar las puertas del castillo."
 
 #: conversationlist_mt_galmore.json:fix_stn_skeletons_22
 msgid "What a strange idea. But who knows, maybe it helps?"
-msgstr ""
+msgstr "Qué idea tan extraña. Pero quién sabe, quizás ¿ayude?"
 
 #: conversationlist_omifix2.json:capvjern_23
 msgid "Hey, $playername! You're back, where is the general?"
-msgstr ""
+msgstr "¡Hola, $playername! Has vuelto, ¿dónde está el general?"
 
 #: conversationlist_omifix2.json:capvjern_24
 msgid "It sure took you a while. What happened?"
-msgstr ""
+msgstr "¡Vaya que te ha llevado tiempo! ¿Qué ha pasado?"
 
 #: conversationlist_omifix2.json:capvjern_24:0
 msgid "General Ortholion was almost murdered by Ehrenfest, but I was there to save him."
 msgstr ""
+"El general Ortholion estuvo a punto de ser asesinado por Ehrenfest, pero yo "
+"estaba allí para salvarlo."
 
 #: conversationlist_omifix2.json:capvjern_24:1
 msgid "I killed Kamelio. Twice."
-msgstr ""
+msgstr "Maté a Kamelio. Dos veces."
 
 #: conversationlist_omifix2.json:capvjern_25a
 msgid "You sure are brave enough, kid. I hope you'll be staying around for a while."
-msgstr ""
+msgstr "Eres muy valiente, chico. Espero que te quedes por aquí un tiempo."
 
 #: conversationlist_omifix2.json:capvjern_25a:1
 msgid "I don't think the job is paid well enough."
-msgstr ""
+msgstr "No creo que el sueldo sea lo suficientemente buena."
 
 #: conversationlist_omifix2.json:capvjern_25a:2
 msgid "Sorry, but I must do as I was told and find my brother Andor."
 msgstr ""
+"Lo siento, pero debo hacer lo que me han dicho y encontrar a mi hermano "
+"Andor."
 
 #: conversationlist_omifix2.json:capvjern_25b
 msgid "You WHAT?!"
-msgstr ""
+msgstr "¡¿Tú QUÉ?!"
 
 #: conversationlist_omifix2.json:capvjern_25b:0
 msgid "Hey, hey, calm down big man! Let me explain."
-msgstr ""
+msgstr "¡Oye, oye, cálmate, grandulón! Déjame explicarte."
 
 #: conversationlist_omifix2.json:capvjern_25b:1
 msgid "I had no other choice."
-msgstr ""
+msgstr "No tenía otra opción."
 
 #: conversationlist_omifix2.json:capvjern_26a
 msgid ""
 "Ha HA! You want the kid to do your job for free? \n"
 "You see, $playername? We have not even begun clearing the mountain entrance. I wonder why!"
 msgstr ""
+"¡Ja, ja! ¿Quieres que el niño haga tu trabajo gratis?\n"
+"¿Lo ves, $playername? Ni siquiera hemos empezado a despejar la entrada de la "
+"montaña. ¡Me pregunto por qué!"
 
 #: conversationlist_omifix2.json:capvjern_26a:0
 msgid "Do you need any help with that?"
-msgstr ""
+msgstr "¿Necesitas alguna ayuda con eso?"
 
 #: conversationlist_omifix2.json:capvjern_26b
 msgid ""
@@ -60422,106 +60488,123 @@ msgid ""
 "\n"
 "Kamelio, alive? How? Where?"
 msgstr ""
+"Cálmate, Jern.\n"
+"\n"
+"¿Kamelio, vivo? ¿Cómo? ¿Dónde?"
 
 #: conversationlist_omifix2.json:capvjern_26b:0
 msgid "Deep in a cave below the Elm mine."
-msgstr ""
+msgstr "En lo profundo de una cueva debajo de la mina Elm."
 
 #: conversationlist_omifix2.json:capvjern_26c
 msgid "Explain, explain it already!"
-msgstr ""
+msgstr "¡Explícalo, explícalo ya!"
 
 #: conversationlist_omifix2.json:capvjern_27a
 msgid "We have more important matters to attend. Now, where is the general? What about the workers of the mine?"
 msgstr ""
+"Tenemos asuntos más importantes que atender. Ahora bien, ¿dónde está el "
+"general? ¿Y qué hay de los mineros?"
 
 #: conversationlist_omifix2.json:capvjern_27a:0
 msgid "Uh ... The general will certainly let you know in full detail ... Soon enough."
 msgstr ""
+"Eh... El general sin duda te lo hará saber con todo detalle... Muy pronto."
 
 #: conversationlist_omifix2.json:capvjern_27a:1
 msgid "No survivors, except Arghest. Many Feygard soldiers have fallen too."
 msgstr ""
+"No hay supervivientes, excepto Arghest. Muchos soldados de Feygard también "
+"han caído."
 
 #: conversationlist_omifix2.json:capvjern_27b
 msgid "For the Shadow, tell me why you had to kill my beloved friend!! "
-msgstr ""
+msgstr "¡Por la Sombra, dime por qué tuviste que matar a mi querido amigo! "
 
 #: conversationlist_omifix2.json:capvjern_27b:0
 msgid "It was me or him. He was no longer your friend."
-msgstr ""
+msgstr "Era él o yo. Él ya no era tu amigo."
 
 #: conversationlist_omifix2.json:capvjern_27b:1
 msgid "I am truly sorry, but he did try to kill us too."
-msgstr ""
+msgstr "Lo siento mucho, pero él también intentó matarnos."
 
 #: conversationlist_omifix2.json:capvjern_28a
 msgid "That's absurd! Kamelio?! Trying to kill a kid? Be reasonable, $playername. We cannot simply believe that."
 msgstr ""
+"¡Eso es absurdo! ¿Kamelio? ¿Intentando matar a un niño? Sé razonable, "
+"$playername. No podemos simplemente creer eso."
 
 #: conversationlist_omifix2.json:capvjern_28a:0
 msgid "Kamelio was no longer the person you knew."
-msgstr ""
+msgstr "Kamelio ya no era la persona que conocías."
 
 #: conversationlist_omifix2.json:capvjern_28a:1
 msgid "General Ortholion was there."
-msgstr ""
+msgstr "El general Ortholion estaba allí."
 
 #: conversationlist_omifix2.json:capvjern_28b:0
 msgid "General Ortholion is inside the mine dependencies. I found Kamelio, he tried to kill us but I defeated him."
 msgstr ""
+"El general Ortholion está dentro de las dependencias de la mina. Encontré a "
+"Kamelio, intentó matarnos pero lo derroté."
 
 #: conversationlist_omifix2.json:capvjern_28b:1
 msgid "You better ask the general, I am tired already. He is still in the Elm mine celebrating he's still alive."
 msgstr ""
+"Mejor pregúntale al general, yo ya estoy cansado. Él sigue en la mina Elm "
+"celebrando que aún está vivo."
 
 #: conversationlist_omifix2.json:capvjern_28c
 msgid "We will wait for him here, in that case."
-msgstr ""
+msgstr "Lo esperaremos aquí, en ese caso."
 
 #: conversationlist_omifix2.json:capvjern_28d
 msgid "You or ...? That's utter nonsense!"
-msgstr ""
+msgstr "¿Tú o...? ¡Eso es una completa tontería!"
 
 #: conversationlist_omifix2.json:capvjern_29a
 msgid "So? You want me to believe that Kamelio went crazy and tried to kill you?"
-msgstr ""
+msgstr "¿Y qué? ¿Quieres que crea que Kamelio se volvió loco e intentó matarte?"
 
 #: conversationlist_omifix2.json:capvjern_29a:0
 msgid "Believe what you want. I give up."
-msgstr ""
+msgstr "Cree lo que quieras. Yo me rindo."
 
 #: conversationlist_omifix2.json:capvjern_29a:1
 msgid "I am not lying!"
-msgstr ""
+msgstr "¡No estoy mintiendo!"
 
 #: conversationlist_omifix2.json:capvjern_29a:2
 msgid "This is his cloak, right? [Show the Kazarite cloak]"
-msgstr ""
+msgstr "Esta es su capa, ¿verdad? [Muestra la capa de Kazarita]"
 
 #: conversationlist_omifix2.json:capvjern_30a
 msgid "What in the world ...? It moves!"
-msgstr ""
+msgstr "¿Qué demonios...? ¡Se mueve!"
 
 #: conversationlist_omifix2.json:capvjern_30a:0
 msgid "Yes. This strange substance was responsible of your friend's behaviour."
 msgstr ""
+"Sí. Esa extraña sustancia fue la responsable del comportamiento de tu amigo."
 
 #: conversationlist_omifix2.json:capvjern_30a:1
 msgid "Do you believe me now?"
-msgstr ""
+msgstr "¿Ahora me crees?"
 
 #: conversationlist_omifix2.json:capvjern_29b
 msgid "I cannot believe in your words, $playername."
-msgstr ""
+msgstr "No puedo creer tus palabras, $playername."
 
 #: conversationlist_omifix2.json:capvjern_30b
 msgid "But the truth is that I can neither believe you killed him for the sake of it. Plus, the General is alive as you say, and it is thanks to you."
 msgstr ""
+"Pero la verdad es que no puedo creer que lo hayas matado por gusto. Además, "
+"el general está vivo, como dices, y es gracias a ti."
 
 #: conversationlist_omifix2.json:capvjern_29c
 msgid "Speak for yourself, cap! I'll head to the mine."
-msgstr ""
+msgstr "¡Habla por ti, capi! Yo me voy a la mina."
 
 #: conversationlist_omifix2.json:capvjern_29c:0
 msgid "You are needed here more."
@@ -82964,9 +83047,8 @@ msgid "Mature lombric ball"
 msgstr ""
 
 #: monsterlist_fungi_panic.json:lombric_ball3
-#, fuzzy
 msgid "Quick lombric ball"
-msgstr "Bola de lombric rápida"
+msgstr "Bola de Lombric rápida"
 
 #: monsterlist_fungi_panic.json:lombric_beast
 msgid "Lombric beast"
