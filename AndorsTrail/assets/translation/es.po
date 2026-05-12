@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-05-10 11:00+0000\n"
+"PO-Revision-Date: 2026-05-12 15:11+0000\n"
 "Last-Translator: Guillermo Rivero <cuentareloka@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
@@ -26,7 +26,7 @@ msgid "translator-credits"
 msgstr ""
 "(K´)ah, Julian Lamus, Karla, Mariano Agüero, Miguel de Dios, Travis Nguyen, "
 "ndika, willicab, Palkia, Carlos Duque, Pahsito, Juanma Cantero, "
-"@Jordan.Unlocked, @Rocket_Space on telegram,"
+"@Jordan.Unlocked, @Rocket_Space on telegram, Tormenthor (Guillermo Rivero)"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -60608,19 +60608,22 @@ msgstr "¡Habla por ti, capi! Yo me voy a la mina."
 
 #: conversationlist_omifix2.json:capvjern_29c:0
 msgid "You are needed here more."
-msgstr ""
+msgstr "Aquí te necesitamos más."
 
 #: conversationlist_omifix2.json:capvjern_29c:1
 msgid "The mine is no longer a safe place."
-msgstr ""
+msgstr "La mina ya no es un lugar seguro."
 
 #: conversationlist_omifix2.json:capvjern_30c
 msgid "Hmpf ... You know what? Right, someone has to patrol this settlement."
 msgstr ""
+"Hmpf... ¿Sabes qué? Exacto, alguien tiene que patrullar este asentamiento."
 
 #: conversationlist_omifix2.json:capvjern_31a
 msgid "Take this old key. I used to work in the mines when I was younger. I am sure there was a supply chest somewhere inside."
 msgstr ""
+"Toma esta llave vieja. De joven yo trabajaba en las minas. Estoy seguro que "
+"había un cofre con provisiones por ahí dentro."
 
 #: conversationlist_omifix2.json:capvjern_32a
 msgid ""
@@ -60628,11 +60631,14 @@ msgid ""
 "\n"
 " *looks at the captain* I'll be going."
 msgstr ""
+"Gracias de nuevo.\n"
+"\n"
+" *miras al capitán* Me voy."
 
 #: conversationlist_omifix2.json:capvjern_32a:1
 #: conversationlist_omifix2.json:capvjern_32c:1
 msgid "Good luck in your shift."
-msgstr ""
+msgstr "¡Buena suerte en tu turno!"
 
 #: conversationlist_omifix2.json:capvjern_30d
 msgid ""
@@ -60640,34 +60646,40 @@ msgid ""
 "\n"
 "Jern, let Feygard folks take care of the mine for a while, we have a lot to do here."
 msgstr ""
+"Me lo creo.\n"
+"\n"
+"Jern, deja que la gente de Feygard se encargue de la mina un tiempo; tenemos "
+"mucho trabajo aquí."
 
 #: conversationlist_omifix2.json:capvjern_31b
 msgid "[staring at the cloak] I have never seen this before. Not even when I used to work there. What in the world is this?"
 msgstr ""
+"[mirando fijamente la capa] Nunca había visto esto. Ni siquiera cuando "
+"trabajaba allí. ¿Qué demonios es esto?"
 
 #: conversationlist_omifix2.json:capvjern_32b
 msgid "[looks at you]"
-msgstr ""
+msgstr "[te mira]"
 
 #: conversationlist_omifix2.json:capvjern_33
 msgid "[stares at the cloak again]"
-msgstr ""
+msgstr "[vuelve a mirar fijamente la capa]"
 
 #: conversationlist_omifix2.json:capvjern_34
 msgid "[stares at you again]"
-msgstr ""
+msgstr "[te mira fijamente de nuevo]"
 
 #: conversationlist_omifix2.json:capvjern_34:1
 msgid "You alright?"
-msgstr ""
+msgstr "¿Todo bien?"
 
 #: conversationlist_omifix2.json:capvjern_35
 msgid "[puts his hand over the captain's shoulder] Hey, captain, wake up."
-msgstr ""
+msgstr "[pone la mano sobre el hombro del capitán] Oye, capitán, despierta."
 
 #: conversationlist_omifix2.json:capvjern_35:0
 msgid "[Put the cloak away]"
-msgstr ""
+msgstr "[aleja la capa]"
 
 #: conversationlist_omifix2.json:capvjern_36
 msgid ""
@@ -60675,6 +60687,9 @@ msgid ""
 "\n"
 "It is un...unbearable."
 msgstr ""
+"...\n"
+"\n"
+"Es in... insoportable."
 
 #: conversationlist_omifix2.json:capvjern_37
 msgid ""
@@ -60682,46 +60697,57 @@ msgid ""
 "\n"
 "$playername, you must destroy the cloak!"
 msgstr ""
+"[respirando con dificultad] ¡Esa... esa sustancia es peligrosa!\n"
+"\n"
+"$playername, ¡debes destruir la capa!"
 
 #: conversationlist_omifix2.json:capvjern_37:0
 msgid "The mine is full of it! Do you believe me now?"
-msgstr ""
+msgstr "¡La mina está llena de eso! ¿Ahora me crees?"
 
 #: conversationlist_omifix2.json:capvjern_38
 msgid "I do. [looks at Jern] I do believe in what the kid says."
-msgstr ""
+msgstr "Sí. [mira a Jern] Sí creo en lo que dice el chico."
 
 #: conversationlist_omifix2.json:capvjern_39
 msgid "Grgh ... Let's go to the mine, then. We must take Kamelio's corpse from there and give it a proper burial!"
 msgstr ""
+"Grgh... Vayamos entonces a la mina. ¡Debemos sacar el cadáver de Kamelio de "
+"allí y darle un entierro digno!"
 
 #: conversationlist_omifix2.json:capvjern_39:0
 msgid "It is too dangerous, you mustn't go."
-msgstr ""
+msgstr "Es demasiado peligroso, no deberías ir."
 
 #: conversationlist_omifix2.json:capvjern_39:1
 msgid "Trained soldiers were lost down there. Let General's men handle this."
 msgstr ""
+"Soldados entrenados se perdieron allí. Dejemos que los hombres del general "
+"se encarguen de esto."
 
 #: conversationlist_omifix2.json:capvjern_40
 msgid "So you suggest what? Staying here doing nothing!? I am NOT leaving my friend's corpse there."
 msgstr ""
+"¿Entonces qué sugieres? ¿Quedarme aquí sin hacer nada? ¡NO voy a dejar el "
+"cadáver de mi amigo allí!"
 
 #: conversationlist_omifix2.json:capvjern_40:0
 msgid "What about those who are alive here?"
-msgstr ""
+msgstr "¿Qué pasa con los que están vivos aquí?"
 
 #: conversationlist_omifix2.json:capvjern_40:1
 msgid "Do not lose your life for a bunch of dead bones. You must live for your friends."
 msgstr ""
+"No pierdas la vida por un montón de huesos muertos. Debes vivir por tus "
+"amigos."
 
 #: conversationlist_omifix2.json:capvjern_41
 msgid "I'll wait here. Farewell, $playername."
-msgstr ""
+msgstr "Esperaré aquí. Me despido, $playername."
 
 #: conversationlist_omifix2.json:capvjern_41:2
 msgid "As useful as always, captain."
-msgstr ""
+msgstr "Tan útil como siempre, capitán."
 
 #: conversationlist_omifix2.json:capvjern_32c
 msgid ""
@@ -60729,22 +60755,29 @@ msgid ""
 "\n"
 "[looks at the captain] I'll be going."
 msgstr ""
+"Gracias de nuevo.\n"
+"\n"
+"[mira al capitán] Ya me voy."
 
 #: conversationlist_omifix2.json:ortholion_guard_0e
 msgid "No, kid, I don't have anything to trade right now. I am tired of this place. Mountains are not my thing, you know?"
 msgstr ""
+"No, chico, no tengo nada que intercambiar ahora mismo. Estoy cansado de este "
+"lugar. Las montañas no son lo mío, ¿sabes?"
 
 #: conversationlist_omifix2.json:ortholion_guard_0e:0
 msgid "I have a very important message fr..."
-msgstr ""
+msgstr "Tengo un mensaje muy importante de..."
 
 #: conversationlist_omifix2.json:ortholion_guard_1e
 msgid "I prefer the great plains of calm, always calm Loneford ... Yes, always quiet and peaceful ..."
 msgstr ""
+"Prefiero las vastas llanuras de la calma, siempre tranquila Loneford... Sí, "
+"siempre tranquila y pacífica..."
 
 #: conversationlist_omifix2.json:ortholion_guard_1e:0
 msgid "But General Orth..."
-msgstr ""
+msgstr "Pero, General Orth..."
 
 #: conversationlist_omifix2.json:ortholion_guard_2e
 msgid ""
@@ -60752,50 +60785,60 @@ msgid ""
 "\n"
 "[The soldier continues lamenting and completely ignores your presence]"
 msgstr ""
+"¡Ah! La suave brisa de la costa, la vibrante vida del puerto de Feygard…\n"
+"\n"
+"[El soldado continúa lamentándose e ignora por completo tu presencia]"
 
 #: conversationlist_omifix2.json:ortholion_guard_2e:0
 msgid "Hey, pay attention!"
-msgstr ""
+msgstr "¡Oye, presta atención!"
 
 #: conversationlist_omifix2.json:ortholion_guard_2e:1
 msgid "Okay, I give up. Let's try with someone else."
-msgstr ""
+msgstr "Vale, me rindo. Probemos con otra persona."
 
 #: conversationlist_omifix2.json:ortholion_guard3_8
 msgid "I hate these escorting trips. It's not like the general really needs us for this."
 msgstr ""
+"Odio estos viajes de escolta. No es que el general realmente nos necesite "
+"para esto."
 
 #: conversationlist_omifix2.json:ortholion_guard3_9
 msgid "The trip here was anything but safe. I miss my former post in Crossglen."
 msgstr ""
+"El viaje hasta aquí fue de todo menos seguro. Echo de menos mi antiguo "
+"puesto en Crossglen."
 
 #: conversationlist_omifix2.json:ortholion_guard3_9:0
 msgid "Oh, so you are one of those good for nothing, always drunk, soldiers?"
 msgstr ""
+"¿Ah, así que eres uno de esos soldados buenos para nada, siempre borrachos?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10
 msgid "Yes sir, I w... Hey! What did you just say?"
-msgstr ""
+msgstr "Sí señor, yo... ¡Oye! ¿Qué acabas de decir?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10:0
 msgid "I have important information to deliver!"
-msgstr ""
+msgstr "¡Tengo información importante que transmitir!"
 
 #: conversationlist_omifix2.json:ortholion_guard3_10:1
 msgid "I am proud of you, drunkard. Where's your boss?"
-msgstr ""
+msgstr "Estoy orgulloso de ti, borracho. ¿Dónde está tu jefe?"
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a
 msgid "Whatever it is, it is none of my concern. Go talk with our mountain scout, she's the one in charge, *hic*."
 msgstr ""
+"Sea lo que sea, no es asunto mío. Ve a hablar con nuestra exploradora de "
+"montaña, ella es la que está al mando, *hip*."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a:0
 msgid "Blackwater brew, eh? Truly disappointing. Goodbye."
-msgstr ""
+msgstr "¿Cerveza Blackwater, eh? Verdaderamente decepcionante. Adiós."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11a:1
 msgid "OK sir, many thanks."
-msgstr ""
+msgstr "De acuerdo, señor, muchas gracias."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b
 msgid ""
@@ -60803,14 +60846,17 @@ msgid ""
 "\n"
 "*points at the mountain scout*"
 msgstr ""
+"[te mira perplejo] Eh... *hip* Allí.\n"
+"\n"
+"*Señala la exploradora de montaña*"
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b:0
 msgid "Finally, bye."
-msgstr ""
+msgstr "Finalmente, adiós."
 
 #: conversationlist_omifix2.json:ortholion_guard3_11b:1
 msgid "Thanks, and sleep it off... Sigh."
-msgstr ""
+msgstr "Gracias, y descanse un poco... Suspiro."
 
 #: conversationlist_bwmfill.json:sign_bwmfill3
 msgid ""
@@ -60818,381 +60864,416 @@ msgid ""
 "\n"
 "Please do not feed any animals."
 msgstr ""
+"Aquí vive Tunlon de Crossglen, un granjero de ovejas.\n"
+"\n"
+"Por favor, no alimenten ningún animales."
 
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue
 msgid "Baa!"
-msgstr ""
+msgstr "¡Baah!"
 
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue:0
 msgid "[Pet]"
-msgstr ""
+msgstr "[Mascota]"
 
 #: conversationlist_bwmfill.json:bwm_sheep_dialogue:1
 msgid "You look tasty - attack!"
-msgstr ""
+msgstr "¡Te ves delicioso! ¡Ataca!"
 
 #: conversationlist_bwmfill.json:bwmfill_killsheep_20
 msgid "You filthy MURDERER!!"
-msgstr ""
+msgstr "¡Tú, sucio ASESINO!"
 
 #: conversationlist_bwmfill.json:bwmfill_killsheep_22
 msgid "My poor sheep! What have you done?!"
-msgstr ""
+msgstr "¡Mi pobre oveja! ¡¿Qué has hecho?!"
 
 #: conversationlist_bwmfill.json:bwmfill_killsheep_24
 msgid "Just you wait - you will pay for it!!"
-msgstr ""
+msgstr "¡Solo espera, ya lo pagarás caro!"
 
 #: conversationlist_bwmfill.json:tunlon_start_1
 msgid "Hello kid! How are you?"
-msgstr ""
+msgstr "¡Hola, chico! ¿Cómo estás?"
 
 #: conversationlist_bwmfill.json:tunlon_start_1:0
 msgid "Fine, thank you. Who are you?"
-msgstr ""
+msgstr "Bien, gracias. ¿Quién eres?"
 
 #: conversationlist_bwmfill.json:tunlon_start_1:1
 msgid "Good. Do you have anything to trade?"
-msgstr ""
+msgstr "Bien. ¿Tienes algo para intercambiar?"
 
 #: conversationlist_bwmfill.json:tunlon_start_1:2
 msgid "Have you seen Andor, my brother? He looks a bit ..."
-msgstr ""
+msgstr "¿Has visto a Andor, mi hermano? Se ve un poco..."
 
 #: conversationlist_bwmfill.json:tunlon_start_2
 msgid "I am Tunlon of Crossglen. I look after my flock of sheep here."
-msgstr ""
+msgstr "Soy Tunlon de Crossglen. Cuido de mi rebaño de ovejas aquí."
 
 #: conversationlist_bwmfill.json:tunlon_start_2:0
 msgid "I am from Crossglen too!"
-msgstr ""
+msgstr "¡Yo también soy de Crossglen!"
 
 #: conversationlist_bwmfill.json:tunlon_start_2:1
 msgid "Nice to have met you."
-msgstr ""
+msgstr "Es un placer haberte conocido."
 
 #: conversationlist_bwmfill.json:tunlon_andor
 msgid "I know Andor. Of course I do."
-msgstr ""
+msgstr "Conozco a Andor. Por supuesto que sí."
 
 #: conversationlist_bwmfill.json:tunlon_andor_2
 msgid "Always good for mischief, that boy."
-msgstr ""
+msgstr "Ese chico siempre está metido en líos."
 
 #: conversationlist_bwmfill.json:tunlon_andor_2:0
 msgid "Yes, that's him. Do you know where he is?"
-msgstr ""
+msgstr "Sí, es él. ¿Sabes dónde está?"
 
 #: conversationlist_bwmfill.json:tunlon_andor_3
 msgid "No. And I want to keep it that way."
-msgstr ""
+msgstr "No. Y quiero que siga siendo así."
 
 #: conversationlist_bwmfill.json:tunlon_andor_3:0
 msgid "Oh. What has he done to you?"
-msgstr ""
+msgstr "Oh. ¿Qué te ha hecho?"
 
 #: conversationlist_bwmfill.json:tunlon_andor_4
 msgid "He scared my sheep. They didn't dare to leave the stable for two weeks."
 msgstr ""
+"Asustó a mis ovejas. No se atrevieron a salir del establo durante dos "
+"semanas."
 
 #: conversationlist_bwmfill.json:tunlon_andor_5
 msgid "I then confronted him, even though I was a little scared myself."
-msgstr ""
+msgstr "Entonces lo confronté, aunque yo misma estaba un poco asustada."
 
 #: conversationlist_bwmfill.json:tunlon_andor_6
 msgid "And then? Nothing. With a look that made my blood run cold, he left."
-msgstr ""
+msgstr "¿Y luego? Nada. Con una mirada que me heló la sangre, se marchó."
 
 #: conversationlist_bwmfill.json:tunlon_andor_6:0
 msgid "Yes, my beloved brother. Who are you by the way?"
-msgstr ""
+msgstr "Sí, mi querido hermano. Por cierto, ¿quién eres?"
 
 #: conversationlist_bwmfill.json:tunlon_andor_6:1
 msgid "Then that's settled. Another question: Do you have anything to trade?"
 msgstr ""
+"Entonces, asunto resuelto. Otra pregunta: ¿Tienes algo para intercambiar?"
 
 #: conversationlist_bwmfill.json:tunlon_trade
 msgid "Yes, I have a few basic supplies that I could offer. Do you want to have a look?"
 msgstr ""
+"Sí, tengo algunos artículos básicos que podría ofrecerte. ¿Quieres echar un "
+"vistazo?"
 
 #: conversationlist_bwmfill.json:tunlon_quest_1
 msgid "That is great to hear. Could you by any chance get me something from Crossglen? Unfortunately I have to stay here to watch my sheep."
 msgstr ""
+"Me alegra oír eso. ¿Podrías, por casualidad, conseguirme algo de Crossglen? "
+"Lamentablemente, tengo que quedarme aquí para cuidar mis ovejas."
 
 #: conversationlist_bwmfill.json:tunlon_quest_1:0
 msgid "Oh yeah, no problem!"
-msgstr ""
+msgstr "¡Ah, sí, no hay problema!"
 
 #: conversationlist_bwmfill.json:tunlon_quest_1:1
 msgid "Sorry, I have other things to do right now."
-msgstr ""
+msgstr "Lo siento, tengo otras cosas que hacer ahora mismo."
 
 #: conversationlist_bwmfill.json:tunlon_quest_2
 msgid "Thank you, kid. What I need is some wood to repair my fence."
-msgstr ""
+msgstr "Gracias, chico. Lo que necesito es madera para reparar mi cerca."
 
 #: conversationlist_bwmfill.json:tunlon_quest_2:0
 msgid "Where do I get that from?"
-msgstr ""
+msgstr "¿De dónde lo consigo?"
 
 #: conversationlist_bwmfill.json:tunlon_quest_3
 msgid "Oh, isn't there a lumberjack in Crossglen anymore? I haven't been down there for a long time"
 msgstr ""
+"Oh, ¿ya no hay ningún leñador en Crossglen? Hace mucho que no voy por allí."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3:0
 msgid "Maybe this explains why the forest around Crossglen is too dense to get through..."
 msgstr ""
+"Quizás esto explique por qué el bosque alrededor de Crossglen es demasiado "
+"denso para atravesarlo..."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3:1
 msgid "At least not that I know."
-msgstr ""
+msgstr "Al menos que yo sepa, no."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3a
 msgid "What do you mean? The climb into the mountains is just northeast of Crossglen?"
 msgstr ""
+"¿Qué quieres decir? ¿La subida a las montañas está justo al noreste de "
+"Crossglen?"
 
 #: conversationlist_bwmfill.json:tunlon_quest_3a:0
 msgid "Maybe it used to be like that."
-msgstr ""
+msgstr "Quizás antes era así."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3a:1
 msgid "If there was a path, it has long since become overgrown."
-msgstr ""
+msgstr "Si alguna vez hubo un sendero, hace mucho que quedó cubierto de maleza."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3b:0
 msgid "I had to take a long detour past Stoutford and Prim and come from the other side."
 msgstr ""
+"Tuve que dar un largo rodeo pasando por Stoutford y Prim y venir desde el "
+"otro lado."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3c
 msgid "Then it's a good thing that I haven't tried to go down to Crossglen with my sheep in recent years."
 msgstr ""
+"Entonces, es una suerte que no haya intentado ir a Crossglen con mis ovejas "
+"en los últimos años."
 
 #: conversationlist_bwmfill.json:tunlon_quest_3c:0
 msgid "In any case, there is no lumberjack in Crossglen."
-msgstr ""
+msgstr "En cualquier caso, no hay ningún leñador en Crossglen."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4
 msgid "Well, then you would have to travel over to Fallhaven. Of course only, if that's not too much for you."
 msgstr ""
+"Bueno, entonces tendrías que viajar hasta Fallhaven. Claro, solo si no te "
+"supone demasiado esfuerzo."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4:0
 msgid "Not for me! I know the way perfectly well."
-msgstr ""
+msgstr "¡Para mí no! Conozco el camino perfectamente."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4:1
 msgid "Hmm, now that I think about it ..."
-msgstr ""
+msgstr "Mmmh, ahora que lo pienso..."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4a
 msgid "Please don't let me down. There are wolves and worse here threatening my sheep."
 msgstr ""
+"Por favor, no me defraudes. Hay lobos y cosas peores aquí que amenazan a mis "
+"ovejas."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4a:0
 msgid "Sigh, I have too good a heart. It's okay, I'll do it."
-msgstr ""
+msgstr "Ay, tengo muy buen corazón. Está bien, lo haré."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4a:1
 msgid "No, forget it. I'm out."
-msgstr ""
+msgstr "No, olvídalo. Me voy."
 
 #: conversationlist_bwmfill.json:tunlon_quest_4b
 msgid "A pity. Come back if you change your mind."
-msgstr ""
+msgstr "Qué lástima. Vuelve si cambias de opinión."
 
 #: conversationlist_bwmfill.json:tunlon_quest_5
 msgid "Thank you so much! Here is a bit of gold so you can pay for it."
 msgstr ""
+"¡Muchísimas gracias! Aquí tienes un poco de oro para que puedas pagarlo."
 
 #: conversationlist_bwmfill.json:tunlon_quest_5:0
 msgid "I will go and get it now."
-msgstr ""
+msgstr "Iré a buscarlo ahora mismo."
 
 #: conversationlist_bwmfill.json:tunlon_quest_5:1
 msgid "Hehe, thank you!"
-msgstr ""
+msgstr "Jeje, ¡gracias!"
 
 #: conversationlist_bwmfill.json:tunlon_noquest
 msgid "No problem, kid. Just come back here whenever you have some time."
-msgstr ""
+msgstr "No hay problema, chico. Vuelve cuando tengas algo de tiempo."
 
 #: conversationlist_bwmfill.json:tunlon_prog_1
 msgid "Hello - are you back yet? I wasn't expecting you yet."
-msgstr ""
+msgstr "Hola, ¿ya has vuelto? No te esperaba todavía."
 
 #: conversationlist_bwmfill.json:tunlon_prog_1b
 msgid "Have you found some wood already?"
-msgstr ""
+msgstr "¿Ya has encontrado algo de madera?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_1b:0
 msgid "No, I am still searching."
-msgstr ""
+msgstr "No, aún sigo buscando."
 
 #: conversationlist_bwmfill.json:tunlon_prog_1b:1
 msgid "No, I asked Jakrar in Fallhaven, but he just sent me to other woodcutters."
 msgstr ""
+"No, le pregunté a Jakrar en Fallhaven, pero simplemente me envió a otros "
+"leñadores."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2
 msgid "Have you been there yet?"
-msgstr ""
+msgstr "¿Ya has estado allí?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_2:0
 msgid "No. I will go there next."
-msgstr ""
+msgstr "No. Iré allí después."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2:1
 msgid "Yes. They created a shortcut here into the forest."
-msgstr ""
+msgstr "Sí. Han creado un atajo para entrar en el bosque."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2:2
 #: conversationlist_bwmfill.json:tunlon_prog_2a:0
 msgid "Yes. However, they only have firewood available."
-msgstr ""
+msgstr "Sí. Sin embargo, solo tienen leña para fogatas disponible."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2a
 msgid "That's good to hear."
-msgstr ""
+msgstr "Que bueno oír eso."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2b
 msgid "But firewood isn't good for fences."
-msgstr ""
+msgstr "Pero la leña no es buena para las cercas."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2b:0
 msgid "Exactly. Where else can you get suitable wood?"
-msgstr ""
+msgstr "Exactamente. ¿Dónde más se puede conseguir madera adecuada?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_2c
 msgid "Maybe it would be better to buy the finished fences straight away."
-msgstr ""
+msgstr "Quizás sería mejor comprar las vallas ya terminadas directamente."
 
 #: conversationlist_bwmfill.json:tunlon_prog_2c:0
 msgid "Finished fences? Where do you get something like that from?"
-msgstr ""
+msgstr "¿Vallas terminadas? ¿Dónde se consigue algo así?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_3
 msgid "Hmm. Maybe my brother knows a place where to get fences."
-msgstr ""
+msgstr "Mmh. Quizás mi hermano conozca algún sitio donde comprar vallas."
 
 #: conversationlist_bwmfill.json:tunlon_prog_3:0
 #: conversationlist_bwmfill.json:tunlon_prog_3:1
 msgid "Your brother?"
-msgstr ""
+msgstr "¿Tu hermano?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_4_1
 msgid "Tinlyn, my brother. Poor guy, lost all of his sheep. He lives north of Crossroads guardhouse."
 msgstr ""
+"Tinlyn, mi hermano. Pobre hombre, perdió todas sus ovejas. Vive al norte de "
+"la caseta de vigilancia de Crossroads."
 
 #: conversationlist_bwmfill.json:tunlon_prog_4_1:0
 msgid "Well ... yeah I know him."
-msgstr ""
+msgstr "Bueno... sí, lo conozco."
 
 #: conversationlist_bwmfill.json:tunlon_prog_4_2
 msgid "Tinlyn, my brother. He lives north of Crossroads guardhouse."
 msgstr ""
+"Tinlyn, mi hermano. Vive al norte de la caseta de vigilancia de Crossroads."
 
 #: conversationlist_bwmfill.json:tunlon_prog_4_2:0
 msgid "Ah, I think I know him."
-msgstr ""
+msgstr "Ah, creo que lo conozco."
 
 #: conversationlist_bwmfill.json:tunlon_prog_4_2:1
 msgid "I don't know this Tinlyn yet, but I will find him."
-msgstr ""
+msgstr "Todavía no conozco a este Tinlyn, pero lo encontraré."
 
 #: conversationlist_bwmfill.json:tunlon_prog_5
 msgid "Please go and ask him, if he knows anyone who could help."
-msgstr ""
+msgstr "Por favor, ve y pregúntale si conoce a alguien que pueda ayudarte."
 
 #: conversationlist_bwmfill.json:tunlon_prog_5:0
 msgid "I'm on my way!"
-msgstr ""
+msgstr "¡Estoy en camino!"
 
 #: conversationlist_bwmfill.json:tunlon_prog_11
 msgid "So how is your journey going?"
-msgstr ""
+msgstr "Así que, ¿Qué tal va tu viaje?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_11:0
 #: conversationlist_bwmfill.json:tunlon_prog_11:1
 msgid "Tinlyn said there is a woodcutter in Loneford who can help."
-msgstr ""
+msgstr "Tinlyn dijo que hay un leñador en Loneford que puede ayudar."
 
 #: conversationlist_bwmfill.json:tunlon_prog_11:2
 msgid "I still have to ask Tinlyn."
-msgstr ""
+msgstr "Todavía debo preguntarle a Tinlyn."
 
 #: conversationlist_bwmfill.json:tunlon_prog_11:3
 msgid "Here, I brought you fences."
-msgstr ""
+msgstr "Aquí les traje vallas."
 
 #: conversationlist_bwmfill.json:tunlon_prog_11:4
 msgid "I still have to look for the fences ..."
-msgstr ""
+msgstr "Todavía tengo que buscar las vallas..."
 
 #: conversationlist_bwmfill.json:tunlon_prog_12
 msgid "Have you been there already?"
-msgstr ""
+msgstr "¿Ya has estado allí?"
 
 #: conversationlist_bwmfill.json:tunlon_noprog
 msgid "Keep on going!"
-msgstr ""
+msgstr "¡Sigue en movimiento!"
 
 #: conversationlist_bwmfill.json:tunlon_prog_15
 msgid "Let me see!"
-msgstr ""
+msgstr "¡Déjeme ver!"
 
 #: conversationlist_bwmfill.json:tunlon_prog_16
 msgid "Hmm, no, these posts are too short. My sheep are probably able to jump over them."
 msgstr ""
+"Mmh, no, estos postes son demasiado cortos. Mis ovejas probablemente podrían "
+"saltarlos."
 
 #: conversationlist_bwmfill.json:tunlon_prog_17
 msgid "Could you go and ask him for other fences?"
-msgstr ""
+msgstr "¿Podrías ir a pedirle otras vallas?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_17:0
 msgid "Sure! No problem."
-msgstr ""
+msgstr "¡Claro! No hay problema."
 
 #: conversationlist_bwmfill.json:tunlon_prog_17:1
 msgid "Maybe ..."
-msgstr ""
+msgstr "Tal vez..."
 
 #: conversationlist_bwmfill.json:tunlon_prog_17:2
 msgid "What? All the way over again just because you didn't tell me how high your fences had to be?"
 msgstr ""
+"¿Qué? ¿Todo de nuevo solo porque no me dijiste qué tan altas tenían que ser "
+"tus vallas?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_17a:0
 msgid "Do you actually know how far the path is?"
-msgstr ""
+msgstr "¿Sabes realmente lo largo que es el camino?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_17a:1
 msgid "I also have something else to do. After all, I'm on Andor's trail."
 msgstr ""
+"También tengo algo más que hacer. Al fin y al cabo, estoy siguiendo la pista "
+"de Andor."
 
 #: conversationlist_bwmfill.json:tunlon_prog_17b
 msgid "Please ..."
-msgstr ""
+msgstr "Por favor..."
 
 #: conversationlist_bwmfill.json:tunlon_prog_17b:0
 msgid "All right. I'll go again."
-msgstr ""
+msgstr "De acuerdo. Iré de nuevo."
 
 #: conversationlist_bwmfill.json:tunlon_prog_18
 msgid "Thank you. I knew I could trust you."
-msgstr ""
+msgstr "Gracias. Sabía que podía confiar en ti."
 
 #: conversationlist_bwmfill.json:tunlon_prog_21
 msgid "Ah, my litle friend."
-msgstr ""
+msgstr "Ah, mi pequeño amigo."
 
 #: conversationlist_bwmfill.json:tunlon_prog_21:0
 msgid "Yes, I am back again."
-msgstr ""
+msgstr "Sí, he vuelto nuevamente."
 
 #: conversationlist_bwmfill.json:tunlon_prog_21a
 msgid "Have you brought new fences?"
-msgstr ""
+msgstr "¿Has traído vallas nuevas?"
 
 #: conversationlist_bwmfill.json:tunlon_prog_21a:0
 msgid "Here, I hope these are better."
-msgstr ""
+msgstr "Toma, espero que estas sean mejores."
 
 #: conversationlist_bwmfill.json:tunlon_prog_22
 msgid "Yeah, these posts are looking really good! Thank you, kid. Here, take this as a small reward."
