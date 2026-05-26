@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-05-26 05:43+0000\n"
+"PO-Revision-Date: 2026-05-26 15:40+0000\n"
 "Last-Translator: Palkia <dxavi215@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
@@ -20289,7 +20289,6 @@ msgid "What weapon types can you teach me?"
 msgstr "¿Qué tipos de armas puedes enseñarme?"
 
 #: conversationlist_falothen.json:falothen1_5
-#, fuzzy
 msgid "I can teach you about swords, either one-handed or two-handed ones. I know a bit about daggers, axes, polearms, and blunt weapons. I also know a fair deal about fighting with your bare fists."
 msgstr ""
 "Puedo enseñarte sobre espadas, ya sea a una o a dos manos. Sé un poco de "
@@ -20565,7 +20564,6 @@ msgid "Sounds good. Teach me how to fight with axes. Here are two Oegyth crystal
 msgstr "Suena bien. Enséñame a luchar con hachas. Aquí hay dos cristales de Oegyth y 5000 de oro como pago."
 
 #: conversationlist_falothen.json:falothen1_2nd_b0
-#, fuzzy
 msgid "Now, blunt weapons is my way of categorizing everything from the simple club, to maces up to quarterstaves. The technique for using them well is mostly the same."
 msgstr ""
 "Ahora, las armas contundentes son mi manera de categorizar todo, desde el "
@@ -63594,23 +63592,31 @@ msgstr "¡Espero que hayas interrumpido mi descanso por una buena razón!"
 #: conversationlist_laeroth.json:cuned_2a:0
 #: conversationlist_laeroth.json:audela_0:0
 msgid "I am $playername. Apologies for distubing you, but I need some help."
-msgstr ""
+msgstr "Yo soy $playername. Me disculpas por molestarte, pero necesito ayuda."
 
 #: conversationlist_laeroth.json:eyvipa_1
 msgid "What help do you need?"
-msgstr ""
+msgstr "¿Que ayuda necesitas?"
 
 #: conversationlist_laeroth.json:eyvipa_1:0
 msgid "Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I ask you to release him from the oath."
 msgstr ""
+"Tu familia ha abandonado Laeroth y ahora está abandonado. Pero el cuidador "
+"todavía sigue aquí. Él está atado a un juramento que hizo su tatarabuelo. "
+"Como ya nadie vive aquí aparte de él, te pido que lo liberes de ese "
+"juramento."
 
 #: conversationlist_laeroth.json:eyvipa_2
 msgid "Why ask me? I was not the last lord. Or in fact lord at all."
 msgstr ""
+"¿Por qué me lo pides a mí? Yo no fui el último lord. O, de hecho, nunca fui "
+"lord en absoluto."
 
 #: conversationlist_laeroth.json:eyvipa_2:0
 msgid "I talked to the last lord that is buried here, Verigil. He said he cannot release him because the oath was not made by his branch of the family."
 msgstr ""
+"Hablé con el último señor que está enterrado aquí, Verigil. Él dijo que no "
+"puede liberarlo porque el juramento no fue hecho por su rama de la familia."
 
 #: conversationlist_laeroth.json:eyvipa_3
 msgid "Ah. The son of the usurper. I will not help you, or the caretaker, or anyone else. I should have been Lord. My father passed me over for the usurper, Cuned, my younger brother. Ask him for help. But before you go, since you disturbed me, you owe me your life force! "
@@ -63622,15 +63628,17 @@ msgstr ""
 
 #: conversationlist_laeroth.json:eyvipa_3:0
 msgid "[You feel your life being drained from you]."
-msgstr ""
+msgstr "[Sientes que tu vida esta siendo drenada de ti]."
 
 #: conversationlist_laeroth.json:eyvipa_4a
 msgid "I feel stronger already! Soon I will rise again, and then I will be Lord. A terrible lord, for those that wronged me!"
 msgstr ""
+"¡Ya me siento más fuerte! Pronto me alzaré de nuevo, y entonces seré señor. ¡"
+"Un señor terrible para aquellos que me hicieron daño!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:0
 msgid "I'm leaving!"
-msgstr ""
+msgstr "Ya me voy!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:1
 msgid "Estay imgrey earcepay!"
@@ -63651,43 +63659,51 @@ msgstr ""
 #: conversationlist_laeroth.json:eyvipa_4b
 msgid "The ghost of Eyvipa vanishes. You feel great relief that the chant worked. You take back the oegyth crystal, although it seems to be losing some of its luster."
 msgstr ""
+"El fantasma de Eyvipa desaparece. Sientes un gran alivio de que el canto "
+"haya funcionado. Recuperas el cristal oegyth, aunque parece estar perdiendo "
+"algo de su brillo."
 
 #: conversationlist_laeroth.json:cupboard_search_1
 msgid "Maybe there is something in these cupboards that would be useful."
-msgstr ""
+msgstr "Quizás haya algo en estos armarios que pueda ser útil."
 
 #: conversationlist_laeroth.json:cupboard_search_1:0
 msgid "Too much clutter in here. Not worth the effort."
-msgstr ""
+msgstr "Hay demasiado desorden aquí. No vale la pena el esfuerzo."
 
 #: conversationlist_laeroth.json:cupboard_search_1:1
 msgid "You rummage around in the clutter in the cupboards."
-msgstr ""
+msgstr "Rebuscas entre el desorden de los armarios."
 
 #: conversationlist_laeroth.json:cupboard_search_2
 msgid "You find a book, that says \"My Diary\" on the cover, with an ornate \"C\" embossed in the cover. This must surely have belonged to Cuned! You take the book."
 msgstr ""
+"Encuentras un libro que dice “Mi diario” en la portada, con una “C” "
+"ornamentada grabada en la cubierta. ¡Esto seguramente debió pertenecer a "
+"Cuned! Tomas el libro."
 
 #: conversationlist_laeroth.json:cuned_script_0
 #: conversationlist_laeroth.json:cuned_script_1
 msgid "Here lies Cuned, Eighth Lord of Laeroth."
-msgstr ""
+msgstr "Aquí yace Cuned, octavo señor de Laeroth."
 
 #: conversationlist_laeroth.json:cuned_script_1:0
 msgid "Place diary on the tomb."
-msgstr ""
+msgstr "Coloca el diario en la tumba."
 
 #: conversationlist_laeroth.json:cuned_script_1:1
 msgid "Call for Cuned."
-msgstr ""
+msgstr "Llama a Cuned."
 
 #: conversationlist_laeroth.json:cuned_script_2a
 msgid "You place the diminished oegyth crystal and Cuned's diary on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Colocas el cristal oegyth debilitado y el diario de Cuned sobre la tumba, y "
+"entonas “iseray iritspay”."
 
 #: conversationlist_laeroth.json:cuned_2a
 msgid "What do you want? I was at peace until you brought me back!"
-msgstr ""
+msgstr "¿Qué quieres? ¡Estaba en paz hasta que me trajiste de vuelta!"
 
 #: conversationlist_laeroth.json:cuned_3:0
 msgid "Your family has left Laeroth, and it is now abandoned. But the caretaker is still here. He is bound by an oath his great great grandfather made. With nobody living here any more other than him I ask you to release him from the oath. Verigil said he cannot, because it is not his branch of the family. Eyvipa refused, because he was not made Lord."
@@ -63709,14 +63725,16 @@ msgstr ""
 #: conversationlist_laeroth.json:cuned_script_b_2a
 msgid "You place the heavily diminished oegyth crystal on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Colocas el cristal oegyth muy debilitado sobre la tumba y entonas “iseray "
+"iritspay”"
 
 #: conversationlist_laeroth.json:cuned_b_2a
 msgid "You again! I told you to talk to Jerelin."
-msgstr ""
+msgstr "Tu de nuevo! Te dije que hablaras con Jerelin."
 
 #: conversationlist_laeroth.json:cuned_b_2a:0
 msgid "Sorry. Jerelin refused to talk to me or help me."
-msgstr ""
+msgstr "Lo siento. Jerelin se nego a hablar conmigo o ayudarme."
 
 #: conversationlist_laeroth.json:cuned_b_3
 msgid ""
@@ -63731,40 +63749,46 @@ msgstr ""
 
 #: conversationlist_laeroth.json:jerelin_chest_search_1
 msgid "This chest looks pretty old. Is it worth taking a look?"
-msgstr ""
+msgstr "Este cobre se ve bastante viejo. ¿Vale la pena echarle un vistaso?"
 
 #: conversationlist_laeroth.json:jerelin_chest_search_1:0
 msgid "The chest will probably crumble if you touch it."
-msgstr ""
+msgstr "El cofre probablemente se desmoronará si lo tocas."
 
 #: conversationlist_laeroth.json:jerelin_chest_search_1:1
 msgid "You rummage around in the clutter in the chest."
-msgstr ""
+msgstr "Rebuscas entre el desorden del cofre."
 
 #: conversationlist_laeroth.json:jerelin_chest_search_2
 msgid "You find a ring that apparently served as a seal for Jerelin, as it had a large \"J\" on it. You take the seal."
 msgstr ""
+"Encuentras un anillo que aparentemente servía como sello de Jerelin, ya que "
+"tenía una gran “J” grabada. Tomas el sello."
 
 #: conversationlist_laeroth.json:jerelin_script_0
 #: conversationlist_laeroth.json:jerelin_script_1
 msgid "Here lies Jerelin, Seventh Lord of Laeroth."
-msgstr ""
+msgstr "Aqui yase Jerelin. El septimo señor de Laeroth."
 
 #: conversationlist_laeroth.json:jerelin_script_1:0
 msgid "Place seal on the tomb."
-msgstr ""
+msgstr "Coloca el sello en la tumba."
 
 #: conversationlist_laeroth.json:jerelin_script_1:1
 msgid "Call for Jerelin."
-msgstr ""
+msgstr "Llama a Jerelin."
 
 #: conversationlist_laeroth.json:jerelin_script_2a
 msgid "You place the very diminished oegyth crystal and Jerelin's seal on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Colocas el cristal oegyth muy debilitado y el sello de Jerelin sobre la "
+"tumba, y entonas “iseray iritspay”"
 
 #: conversationlist_laeroth.json:jerelin_0
 msgid "I dislike being disturbed. I disliked it when I was alive, and I dislike it even more now!"
 msgstr ""
+"No me gusta que me molesten. No me gustaba cuando estaba vivo, y ahora me "
+"disgusta aún mas!"
 
 #: conversationlist_laeroth.json:jerelin_1
 msgid ""
@@ -63772,18 +63796,25 @@ msgid ""
 "\n"
 "[You take the rather dull looking oegyth crystal.]"
 msgstr ""
+"Hmpff. Go away!\n"
+"\n"
+"[Tomas el cristal oegyth de aspecto bastante opaco.]"
 
 #: conversationlist_laeroth.json:jerelin_script_b_2a
 msgid "You place the nearly depleted oegyth crystal on the tomb, and chant \"iseray iritspay\""
 msgstr ""
+"Colocas el cristal oegyth casi agotado sobre la tumba y entonas “iseray "
+"iritspay”"
 
 #: conversationlist_laeroth.json:jerelin_b_2a
 msgid "Again? I told you I don't like being disturbed!"
-msgstr ""
+msgstr "¿Otra vez? ¡Ya te dije que no me gusta que me molesten!"
 
 #: conversationlist_laeroth.json:jerelin_b_2a:0
 msgid "I spoke to Audela. She said to tell you that she insists you do this. She even made some kind of threat about reaching into your grave if you don't."
 msgstr ""
+"Hablé con Audela. Dijo que te dijera que insiste en que hagas esto. Incluso "
+"hizo algún tipo de amenaza sobre meterse en tu tumba si no lo haces."
 
 #: conversationlist_laeroth.json:jerelin_b_3
 msgid "It seems I can't escape my nagging wife even in death! OK, I release the caretaker from the oath. But there is a condition. He needs to do one more thing, which is to move my grave away from my wife's grave so that I can rest in peace. Now leave!"
@@ -63798,14 +63829,19 @@ msgid ""
 "Here lies Jerelin, Seventh Lord of Laeroth.\n"
 "In peace at last."
 msgstr ""
+"Aquí yace Jerelin, El séptimo señor de Laeroth.\n"
+"Por fin en paz."
 
 #: conversationlist_laeroth.json:dresser_1
 msgid "You rummage around in the dresser. You have found a fancy looking key!"
-msgstr ""
+msgstr "Rebuscas en la cómoda. ¡Has encontrado una llave de aspecto elegante!"
 
 #: conversationlist_laeroth.json:jewelry_box_1
 msgid "This looks interesting. Could be a jewelry box. It has \"A\" inscribed on it. It is locked though, and too heavy to move to the tomb."
 msgstr ""
+"Esto parece interesante. Podría ser un joyero. Tiene una “A” grabada. Sin "
+"embargo, está cerrado con llave y es demasiado pesado para moverlo hasta la "
+"tumba."
 
 #: conversationlist_laeroth.json:jewelry_box_2
 msgid "The key fits the box! You turn it, and the lid springs open. It appears to be mainly full of trinkets and keepsakes. You rummage around inside, and find a necklace with \"With love to Audela\" written on the back. This should work!"
@@ -63814,11 +63850,11 @@ msgstr ""
 #: conversationlist_laeroth.json:audela_script_0
 #: conversationlist_laeroth.json:audela_script_1
 msgid "Here lies Audela, wife of Jerelin."
-msgstr ""
+msgstr "Aqui yace Audela. La esposa de Jerelin."
 
 #: conversationlist_laeroth.json:audela_script_1:0
 msgid "Place Audela's necklace on the tomb."
-msgstr ""
+msgstr "Coloca el collar de Audela sobre la tumba."
 
 #: conversationlist_laeroth.json:audela_script_2a
 msgid "You place the very heavily diminished oegyth crystal and Audela's necklace on the tomb, and chant \"iseray iritspay\""
@@ -63850,15 +63886,15 @@ msgstr ""
 
 #: conversationlist_laeroth.json:caretaker_grave_1
 msgid "Here lies Gormelyn, caretaker of Laeroth."
-msgstr ""
+msgstr "Aquí yace Gormelyn, El cuidador de Laeroth."
 
 #: conversationlist_laeroth.json:caretaker_grave_2
 msgid "Here lies Leofric, caretaker of Laeroth, son of Gormelyn."
-msgstr ""
+msgstr "Aqui yace Leofric, El cuidador de Laeroth, hijo de Gormelyn."
 
 #: conversationlist_laeroth.json:caretaker_grave_3
 msgid "Here lies Gauron, caretaker of Laeroth, son of Leofric."
-msgstr ""
+msgstr "Aqui yace Gauron, El cuidador de Laerth, hijo de Leofric."
 
 #: conversationlist_laeroth.json:caretaker_grave_4
 msgid "Here lies Farpith, caretaker of Laeroth, son of Gauron."
@@ -63894,55 +63930,69 @@ msgstr ""
 
 #: conversationlist_laeroth.json:Jenoel_grave
 msgid "Here lies Jenoel, a great friend of the Laeroth family."
-msgstr ""
+msgstr "Aqui yace Jenoel, un gran amigo de la familia Laeroth."
 
 #: conversationlist_laeroth.json:eraep_0
 msgid "Hello. Can I help you?"
-msgstr ""
+msgstr "Hola. ¿En que puedo ayudarte?"
 
 #: conversationlist_laeroth.json:eraep_0:0
 msgid "I am looking for my brother, Andor. He looks a bit like me. Have you seen him?"
 msgstr ""
+"Estoy buscando a mi hermano, Andor. Se parece un poco a mi. ¿Lo has visto?"
 
 #: conversationlist_laeroth.json:eraep_1
 msgid "There was someone that came here recently that looked somewhat like you, but I didn't speak to him. Sorry, that's all the information I can give you."
 msgstr ""
+"Hubo alguien que vino aquí recientemente que se parecía un poco a ti, pero "
+"no hablé con él. Lo siento, eso es toda la información que puedo darte."
 
 #: conversationlist_laeroth.json:eraep_1:0
 msgid "OK. Thanks. Bye."
-msgstr ""
+msgstr "Bien. Gracias. Adios."
 
 #: conversationlist_laeroth.json:eraep_1:1
 msgid "Thanks. What do you do around here?"
-msgstr ""
+msgstr "Gracias. ¿Qué haces por aquí?"
 
 #: conversationlist_laeroth.json:eraep_2
 msgid "I came here for the solitude. I wish to be a playwright. So I am writing my first play. I hope that someday I will be famous."
 msgstr ""
+"Vine aquí por la soledad. Quiero ser dramaturgo. Así que estoy escribiendo "
+"mi primera obra. Espero que algún día sea famoso."
 
 #: conversationlist_laeroth.json:eraep_2:0
 msgid "Best of luck. Sounds like a boring thing to do to me."
-msgstr ""
+msgstr "Buena suerte. Me parece una cosa aburrida de hacer."
 
 #: conversationlist_laeroth.json:eraep_2:1
 msgid "What is the play about?"
-msgstr ""
+msgstr "¿De qué trata la obra?"
 
 #: conversationlist_laeroth.json:eraep_3
 msgid "It is set in a very small village. So I called it \"Hamlet\". An old Dhayavarian word for a very small village.  "
 msgstr ""
+"Está ambientada en una aldea muy pequeña. Así que la llamé “Hamlet”. Una "
+"antigua palabra dhayavariana para una aldea muy pequeña.  "
 
 #: conversationlist_laeroth.json:eraep_3:0
 msgid "Life in a small village? I come from one. It must be a very boring play."
 msgstr ""
+"¿La vida en una aldea pequeña? Yo vengo de una. Debe de ser una obra muy "
+"aburrida."
 
 #: conversationlist_laeroth.json:eraep_4
 msgid "Not at all. It involves murder, revenge for the murder, but the murderer knows the avenger is coming, so plots to kill him. There's ghosts too."
 msgstr ""
+"Para nada. Se trata de un asesinato, de la venganza por ese asesinato, pero "
+"el asesino sabe que el vengador viene, así que trama matarlo. También hay "
+"fantasmas."
 
 #: conversationlist_laeroth.json:eraep_4:0
 msgid "OK. Sounds more exciting than I thought. If you finish it and I happen to be close to a showing, perhaps I will watch."
 msgstr ""
+"De acuerdo. Suena más emocionante de lo que pensé. Si la terminas y resulta "
+"que estoy cerca de una función, quizá la vea."
 
 #: conversationlist_laeroth.json:eraep_4:1
 msgid "Sounds exciting! But if you really want to get the audience's attention you need to add some s..."
