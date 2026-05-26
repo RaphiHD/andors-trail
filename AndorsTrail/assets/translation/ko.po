@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2024-05-02 15:07+0000\n"
-"Last-Translator: tabby <tabby4442@gmail.com>\n"
-"Language-Team: Korean <https://hosted.weblate.org/projects/andors-trail/"
-"game-content/ko/>\n"
+"PO-Revision-Date: 2026-05-26 15:40+0000\n"
+"Last-Translator: norhaidy <guesst07331@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/andors-trail/game-"
+"content/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.3-dev\n"
+"X-Generator: Weblate 2026.6.dev0\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
@@ -377,127 +377,132 @@ msgstr "안식"
 
 #: actorconditions_omi2.json:kazarite_misery
 msgid "Kazaul possession"
-msgstr ""
+msgstr "카자울 소유"
 
 #: actorconditions_haunted_forest.json:death_plague
 msgid "Death Plague"
-msgstr ""
+msgstr "죽음의 전염병"
 
 #: actorconditions_haunted_forest.json:sleepwalking
 msgid "Sleepwalking"
-msgstr ""
+msgstr "몽유병"
 
 #: actorconditions_mt_galmore.json:loyalist
 msgid "Feygard Loyalist"
-msgstr ""
+msgstr "페이가드 충신"
 
 #: actorconditions_mt_galmore.json:rootsnare
 msgid "Rootsnare"
-msgstr ""
+msgstr "뿌리덫"
 
 #: actorconditions_mt_galmore.json:rabies
 msgid "Rabies"
-msgstr ""
+msgstr "광견병"
 
 #: actorconditions_mt_galmore.json:bad_taste
 msgid "Bad taste"
-msgstr ""
+msgstr "나쁜 취향"
 
 #: actorconditions_bwmfill.json:thirst
 msgid "Thirst"
-msgstr ""
+msgstr "갈증"
 
 #: actorconditions_laeroth.json:swift_attack
 msgid "Swift attack"
-msgstr ""
+msgstr "신속한 공격"
 
 #: actorconditions_laeroth.json:blindness
 msgid "Blindness"
-msgstr ""
+msgstr "실명"
 
 #: actorconditions_laeroth.json:life_drain
 msgid "Life drain"
-msgstr ""
+msgstr "생명 흡수"
 
 #: actorconditions_laeroth.json:sting_major
 msgid "Major sting"
-msgstr ""
+msgstr "성체의 독침"
 
 #: actorconditions_laeroth.json:spider_bite
 msgid "Spider bite"
-msgstr ""
+msgstr "거미에게 물림"
 
 #: actorconditions_laeroth.json:environmental_poisoning
 msgid "Environmental poisoning"
-msgstr ""
+msgstr "환경 오염"
 
 #: actorconditions_feygard_1.json:sweet_tooth
 msgid "Sweet tooth"
-msgstr ""
+msgstr "달달한 것"
 
 #: actorconditions_feygard_1.json:minor_increased_defense
 msgid "Minor increased defense"
-msgstr ""
+msgstr "경미한 방어력 증가"
 
 #: actorconditions_feygard_1.json:elytharabless_heal
 msgid "Elythara's refreshment"
-msgstr ""
+msgstr "엘리타라의 다과"
 
 #: actorconditions_feygard_1.json:soaked_vision
 msgid "Soaked vision"
-msgstr ""
+msgstr "젖은 시야"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark
 msgid "Pull of the mark"
-msgstr ""
+msgstr "시위를 당기다"
 
 #: actorconditions_mt_galmore2.json:pull_of_the_mark:description
 msgid "You feel an inexplicable pull toward something familiar, as if a piece of you is tethered to a distant past. An echo of guidance whispers faintly in your mind, urging you to seek clarity from those who once knew you best."
 msgstr ""
+"당신은 마치 당신의 한 조각이 먼 과거에 묶여 있는 것처럼 익숙한 무언가를 향해 "
+"설명할 수 없는 끌림을 느낍니다. 한때 당신을 가장 잘 알고 있던 사람들에게 "
+"명확성을 찾으라고 촉구하는 안내의 메아리가 마음속에 희미하게 속삭입니다."
 
 #: actorconditions_mt_galmore2.json:potent_venom
 msgid "Potent venom"
-msgstr ""
+msgstr "강력한 독"
 
 #: actorconditions_mt_galmore2.json:burning
 msgid "Burning"
-msgstr ""
+msgstr "화상"
 
 #: actorconditions_mt_galmore2.json:rockfall
 msgid "Rock fall"
-msgstr ""
+msgstr "낙석"
 
 #: actorconditions_mt_galmore2.json:swamp_foot
 msgid "Swamp foot"
-msgstr ""
+msgstr "늪지대 걸음"
 
 #: actorconditions_mt_galmore2.json:unsteady_footing
 msgid "Unsteady footing"
-msgstr ""
+msgstr "불안정한 발판"
 
 #: actorconditions_mt_galmore2.json:clinging_mud
 msgid "Clinging mud"
-msgstr ""
+msgstr "달라붙는 진흙"
 
 #: actorconditions_mt_galmore2.json:clinging_mud:description
 msgid "Thick mud clings to your legs, hindering your movements and making it harder to act swiftly or strike with precision."
 msgstr ""
+"두꺼운 진흙이 다리에 달라붙어 움직임을 방해하고 신속하게 행동하거나 정확하게 "
+"공격하기 어렵게 만듭니다."
 
 #: actorconditions_mt_galmore2.json:cinder_rage
 msgid "Cinder rage"
-msgstr ""
+msgstr "화산재 격노"
 
 #: actorconditions_mt_galmore2.json:frostbite
 msgid "Frostbite"
-msgstr ""
+msgstr "동상"
 
 #: actorconditions_mt_galmore2.json:shadowsleep
 msgid "Shadow sleepiness"
-msgstr ""
+msgstr "서서히 졸음"
 
 #: actorconditions_mt_galmore2.json:petristill
 msgid "Petristill"
-msgstr ""
+msgstr "페트리스틸"
 
 #: actorconditions_mt_galmore2.json:petristill:description
 msgid "A creeping layer of stone overtakes the infliced's form, dulling its reflexes but hardening its body against harm."
@@ -505,31 +510,31 @@ msgstr ""
 
 #: actorconditions_mt_galmore2.json:divine_judgement
 msgid "Divine judgement"
-msgstr ""
+msgstr "신의 심판"
 
 #: actorconditions_mt_galmore2.json:divine_punishment
 msgid "Divine punishment"
-msgstr ""
+msgstr "신벌"
 
 #: actorconditions_mt_galmore2.json:baited_strike
 msgid "Baited strike"
-msgstr ""
+msgstr "눈속임 공격"
 
 #: actorconditions_mt_galmore2.json:baited_strike:description
 msgid "An overcommitment to attacking that sharpens accuracy at the cost of defensive footing."
-msgstr ""
+msgstr "공격에 신경쓰기 위해 방어를 희생하며 정확성을 높힙니다."
 
 #: actorconditions_mt_galmore2.json:trapped
 msgid "Trapped"
-msgstr ""
+msgstr "덫에 걸림"
 
 #: actorconditions_mt_galmore2.json:splinter
 msgid "Splinter"
-msgstr ""
+msgstr "스플린터"
 
 #: actorconditions_mt_galmore2.json:unstable_footing
 msgid "Unstable footing"
-msgstr ""
+msgstr "불안정한 발판"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -559,7 +564,7 @@ msgstr "도와드릴 일이 더 있을까요?"
 #: conversationlist_umar.json:umar_return_1:0
 #: conversationlist_umar.json:umar_return_1:8
 msgid "Do you have any tasks for me?"
-msgstr ""
+msgstr "저에게 할 일이 있나요?"
 
 #: conversationlist_mikhail.json:mikhail_default:4
 msgid "Is there anything else you can tell me about Andor?"
@@ -580,11 +585,13 @@ msgstr "아빠 손에 책은 무슨 책이에요?"
 
 #: conversationlist_mikhail.json:mikhail_default:9
 msgid "Yes, I'm here to deliver the order for a 'Plush Pillow'. But what for?"
-msgstr ""
+msgstr "네, 저는 '부드러운 베개' 주문을 배달하러 왔습니다. 하지만 뭐 때문에?"
 
 #: conversationlist_mikhail.json:mikhail_default:10
 msgid "I don't know...something feels wrong. I thought maybe you were in danger."
 msgstr ""
+"모르겠어요...뭔가 잘못 느껴집니다. 당신이 위험에 처했을지도 모른다고 "
+"생각했어요."
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
@@ -695,7 +702,7 @@ msgstr "요전의 빵은 고맙구나."
 #: conversationlist_sullengard.json:sullengard_hadena_7:1
 #: conversationlist_sullengard.json:sullengard_ainsley_3:0
 msgid "You're welcome."
-msgstr ""
+msgstr "천만에요."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there?"
@@ -724,6 +731,8 @@ msgstr "네 알았어요. 다치면 집에서 쉬고, 쓸 만한 게 있는지 �
 #: conversationlist_mikhail.json:mikhail_rats_start3a
 msgid "One more thing: Look at that basket on the floor over there. It belongs to Andor and he might have left something useful inside."
 msgstr ""
+"한 가지 더: 저기 바닥에 있는 바구니를 보세요. 안도의 소유이며 그 안에 유용한 "
+"것을 남겼을 수도 있습니다."
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
@@ -811,7 +820,7 @@ msgstr "물건 좀 보여주세요."
 
 #: conversationlist_crossglen.json:audir1:1
 msgid "Do you have a pickaxe by chance?"
-msgstr ""
+msgstr "혹시 곡괭이가 있나요?"
 
 #: conversationlist_crossglen.json:arambold1
 msgid ""
@@ -963,7 +972,7 @@ msgstr "뭐?! 바쁜거 안보이니? 가서 다른사람이나 귀찮게 해라
 
 #: conversationlist_crossglen.json:farm2:1
 msgid "What happened to Leta and Oromir?"
-msgstr ""
+msgstr "레타와 오르미르는 어떻게 되었나요?"
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
@@ -1008,11 +1017,13 @@ msgstr "나를 죽임으로써 말인가?"
 
 #: conversationlist_crossglen.json:drunk1a
 msgid "Heeeey - come on. Don't be such a spoilsport."
-msgstr ""
+msgstr "히이 - 제발. 그렇게 버릇없게 굴지 마세요."
 
 #: conversationlist_crossglen.json:drunk1a:1
 msgid "Well, if you really want to. But I have a new and definitive game for you. Here, drink this. [Give a bottle of weak poison]"
 msgstr ""
+"정말 원한다면. 여러분을 위한 새롭고 확실한 게임이 있습니다. 여기, 이거 "
+"마셔봐. [약한 독 한 병 주기]"
 
 #: conversationlist_crossglen.json:drunk1b
 msgid "Ohh ... [glug glug]"
@@ -1020,7 +1031,7 @@ msgstr ""
 
 #: conversationlist_crossglen.json:drunk1c
 msgid "What an interesting ... [glug]"
-msgstr ""
+msgstr "정말 흥미로운 ... [글루그]"
 
 #: conversationlist_crossglen.json:drunk1d
 msgid "... taste [falls over]"
@@ -88949,4 +88960,3 @@ msgstr ""
 #: worldmap.xml:world1:mt_bwm
 msgid "Blackwater Mountain"
 msgstr ""
-
