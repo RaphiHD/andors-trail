@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
 "PO-Revision-Date: 2026-05-27 20:11+0000\n"
-"Last-Translator: Palkia <dark_plasma007@users.noreply.hosted.weblate.org>\n"
+"Last-Translator: Guillermo Rivero <cuentareloka@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
 "Language: es\n"
@@ -26821,7 +26821,7 @@ msgstr "Todo esto es muy interesante. ¿Me dejas pasar ahora?"
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_130
 msgid "What? No, of course not!"
-msgstr "¿Qué? No, por supuesto que no!"
+msgstr "¿Qué? ¡No, por supuesto que no!"
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_220:0
 msgid "Here are 100 gold."
@@ -26893,7 +26893,7 @@ msgstr "Cualquiera podría decir eso. Pero tal vez..."
 #: conversationlist_lytwings.json:lytwing_fallhaven_26:0
 #: conversationlist_mt_galmore2.json:vaelric_creature_talk_leech_10
 msgid "Yes?"
-msgstr "Si?"
+msgstr "¿Si?"
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_364
 msgid "Nothing. You don't seem to have enough money. Forget it."
@@ -26914,7 +26914,7 @@ msgstr "Oh."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_370
 msgid "for 100 gold..."
-msgstr "por 100 de oro...."
+msgstr "por 100 de oro..."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_370:0
 msgid "I understand. Here, 100 gold."
@@ -26922,7 +26922,7 @@ msgstr "Entiendo. Toma, 100 de oro."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_370:1
 msgid "Oh you greedy, filthy, ..."
-msgstr "Oh, avaricioso, asqueroso, ...."
+msgstr "Oh, que avaricioso, asqueroso, ..."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_380
 msgid "And here is the rose. Don't tell anybody that you got it from me."
@@ -26946,7 +26946,9 @@ msgstr "No es de extrañar con la puerta principal abierta."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_420
 msgid "Ah, that is why. OK. I am not allowed to let anyone in or out. And I am incorruptable below 2 pieces of gold."
-msgstr "Ah, por eso es. De acuerdo. No se me permite dejar entrar ni salir a nadie. Y yo soy incorruptible por debajo de dos piezas de oro."
+msgstr ""
+"Ah, por eso es. De acuerdo. No se me permite dejar entrar ni salir a nadie. "
+"Y yo soy incorruptible por debajo de 2 piezas de oro."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_420:0
 msgid "Here is 2 gold."
@@ -26961,12 +26963,16 @@ msgid ""
 "[Gold taken]\n"
 "Very good. Before you enter maybe you should also know the family names: Lord Guynmart, his beautiful but complicated daughter Hannah and his annoying son Rob. Got it?"
 msgstr ""
-"[Coge el oro]\n"
-"Muy bien. Antes de entrar, tal vez también deberías saber los apellidos: Lord Guynmart, su hermosa pero complicada hija Hannah y su molesto hijo Rob. ¿Entendido?"
+"[Toma el oro]\n"
+"Muy bien. Antes de entrar, tal vez también deberías saber los nombres de la "
+"familia: Lord Guynmart, su hermosa pero complicada hija Hannah y su molesto "
+"hijo Rob. ¿Entendido?"
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_904
 msgid "Rob is always playing some stupid game, and Hannah is always having problems. See?"
-msgstr "Rob siempre está jugando un juego estúpido y Hannah siempre tiene problemas. ¿Ves?"
+msgstr ""
+"Rob siempre está jugando algún juego estúpido y Hannah siempre tiene "
+"problemas. ¿Ves?"
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_906
 msgid "Enough talk. No trespassing! I will close my eyes now and count to 10."
@@ -26977,20 +26983,20 @@ msgid ""
 "[Gold taken]\n"
 "Very good. I will close my eyes now and count to 10."
 msgstr ""
-"[Coge el oro]\n"
+"[Toma el oro]\n"
 "Muy bien. Ahora cerraré los ojos y contaré hasta 10."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_911
 msgid "...one..."
-msgstr "...uno...."
+msgstr "...uno..."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_912
 msgid "...two..."
-msgstr "...dos...."
+msgstr "...dos..."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_913
 msgid "...three..."
-msgstr "...tres...."
+msgstr "...tres..."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_914
 msgid "...four..."
@@ -26998,7 +27004,7 @@ msgstr "...cuatro..."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_915
 msgid "...five..."
-msgstr "...cinco...."
+msgstr "...cinco..."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_916
 msgid "...six..."
@@ -27084,11 +27090,11 @@ msgstr "Parece que ya no te queda dinero."
 
 #: conversationlist_guynmart_npc.json:guynmart_player_80_1:0
 msgid "Yes indeed, I'm broke. Sorry, then I have to leave."
-msgstr "Sí, de hecho, estoy sin blanca. Lo siento, entonces tengo que irme."
+msgstr "Sí, de hecho, estoy arruinado. Lo siento, entonces tengo que irme."
 
 #: conversationlist_guynmart_npc.json:guynmart_player_80_2
 msgid "OK. I have drawn a card. Which color is it?"
-msgstr "OK. He cogido una carta. ¿De qué color es?"
+msgstr "Bien. He tomado una carta. ¿De qué color es?"
 
 #: conversationlist_guynmart_npc.json:guynmart_player_80_2:0
 msgid "Red"
@@ -27118,7 +27124,7 @@ msgid ""
 "Let's try another card."
 msgstr ""
 "¡Tengo una Negra! Lo siento por ti, chico. Ahora tengo 100.\n"
-"[Coge el oro]\n"
+"[Toma el oro]\n"
 "Probemos con otra carta."
 
 #: conversationlist_guynmart_npc.json:guynmart_player_152
@@ -27128,7 +27134,7 @@ msgid ""
 "Let's try another card."
 msgstr ""
 "¡Tengo una Roja! Lo siento por ti, chico. Yo me quedo con 100.\n"
-"[Coge el oro]\n"
+"[Toma el oro]\n"
 "Probemos con otra carta."
 
 #: conversationlist_guynmart_npc.json:guynmart_player_161
@@ -27138,7 +27144,7 @@ msgid ""
 "Can you do this again?"
 msgstr ""
 "¡Rojo! ¿Cómo lo supiste? Aquí tienes 100 otra vez.\n"
-"[Coges el oro]\n"
+"[Tomas el oro]\n"
 "¿Puedes hacerlo de nuevo?"
 
 #: conversationlist_guynmart_npc.json:guynmart_player_162
@@ -27148,7 +27154,7 @@ msgid ""
 "Let's try another card."
 msgstr ""
 "¡Negro! Lo adivinaste de nuevo. Aquí tienes 100 de oro.\n"
-"[Coges el oro]\n"
+"[Tomas el oro]\n"
 "Probemos con otra carta."
 
 #: conversationlist_guynmart_npc.json:guynmart_guard_arms_10
@@ -27170,7 +27176,9 @@ msgstr "Tú y tu estúpida rosa."
 
 #: conversationlist_guynmart_npc.json:guynmart_hannah_20
 msgid "I cannot think clearly ... I need a rose! A fresh, fragrant rose! Please bring me a rose from my garden..."
-msgstr "No puedo pensar con claridad... ¡Necesito una rosa! Una rosa fresca y fragante! Por favor, tráeme una rosa de mi jardín...."
+msgstr ""
+"No puedo pensar con claridad... ¡Necesito una rosa! Una rosa fresca y "
+"fragante! Por favor, tráeme una rosa de mi jardín..."
 
 #: conversationlist_guynmart_npc.json:guynmart_hannah_20:0
 msgid "I have some delicious lunch for you."
@@ -27419,15 +27427,15 @@ msgstr "No deberías hacer eso, chico travieso."
 
 #: conversationlist_guynmart_npc.json:guynmart_rob2_10:1
 msgid "Here, take a few bigger rocks. That guard has earned it."
-msgstr "Toma, coge unas cuantas rocas más grandes. Ese guardia se lo ha ganado."
+msgstr "Toma, ten unas cuantas rocas más grandes. Ese guardia se lo ha ganado."
 
 #: conversationlist_guynmart_npc.json:guynmart_rob2_12
 msgid ""
 "[6 rocks taken]\n"
 "Great! Let's see if I can knock his helmet off..."
 msgstr ""
-"[coges 6 rocas]\n"
-"¡Genial! Veamos si puedo quitarle el casco...."
+"[tomas 6 rocas]\n"
+"¡Genial! Veamos si puedo quitarle el casco..."
 
 #: conversationlist_guynmart_npc.json:guynmart_rob3_10
 msgid "What shall we play now?"
@@ -27451,7 +27459,7 @@ msgstr "Gran idea."
 
 #: conversationlist_guynmart_npc.json:guynmart_rob3_40
 msgid "Follow me in a minute - but make no noise."
-msgstr "Sígueme en un minuto, pero no hagas ruido."
+msgstr "Sígueme en un minuto - pero no hagas ruido."
 
 #: conversationlist_guynmart_npc.json:guynmart_rob4_10
 msgid "Quick! Downstairs!"
@@ -27475,7 +27483,7 @@ msgstr "Estoy comprobando que la cama del joven Robalyrius sigue en orden."
 
 #: conversationlist_guynmart_npc.json:guynmart_maid_11
 msgid "Since Lady Hannah was married, she never sings anymore."
-msgstr "Desde que Lady Hannah se casó, ya no canta."
+msgstr "Desde que Lady Hannah se casó, ya no canta más."
 
 #: conversationlist_guynmart_npc.json:guynmart_maid_11:0
 msgid "So she's finally grown up."
@@ -27527,7 +27535,7 @@ msgstr "Tal vez podría ir a buscar a Lovis por ella."
 
 #: conversationlist_guynmart_npc.json:guynmart_maid_60
 msgid "You would do this? That is very kind of you."
-msgstr "¿Tú harías esto? Es muy amable por tu parte."
+msgstr "¿Tú harías esto? Es muy amable de tu parte."
 
 #: conversationlist_guynmart_npc.json:guynmart_maid_62
 msgid "Please go directly to Hannah. She will be on top of the tower again, looking for Lovis."
@@ -27615,7 +27623,7 @@ msgstr "¡Tienes suerte! Acabo de recoger unas hierbas frescas maravillosas. Lle
 
 #: conversationlist_guynmart_npc.json:guynmart_nuik_110:0
 msgid "Thanks a lot!"
-msgstr "Muchas gracias!"
+msgstr "¡Muchisimas gracias!"
 
 #: conversationlist_guynmart_npc.json:guynmart_wizard_12
 msgid "It is dangerous here. Please stay outside, in front of the signs on the floor, and wait there. I will be with you in a minute."
@@ -27668,7 +27676,9 @@ msgstr "¿Qué sabes tú de anillos mágicos?"
 
 #: conversationlist_guynmart_npc.json:guynmart_wizard_30
 msgid "Ah - just one thing: I know the power some rings can have, and I would prefer you took yours off in my presence."
-msgstr "Ah - sólo una cosa: Sé el poder que algunos anillos pueden tener, y preferiría que te quitaras el tuyo en mi presencia."
+msgstr ""
+"Ah - sólo una cosa: Sé del poder que algunos anillos pueden tener, y "
+"preferiría que te quitaras los tuyos en mi presencia."
 
 #: conversationlist_guynmart_npc.json:guynmart_wizard_30:0
 msgid "OK, just a second."
@@ -27696,8 +27706,10 @@ msgid ""
 "** Ring of far lesser Shadow **\n"
 "You are lucky indeed."
 msgstr ""
-"Con la ayuda de algunas pociones de harina de huesos podría mejorarlo para que sea un anillo aún más grande. Los poderes serán similares pero mayores. Se convertirá en el\n"
-"*Anillo de sombra mucho menor*\n"
+"Con la ayuda de algunas pociones de harina de huesos podría mejorarlo para "
+"que sea un anillo aún más grande. Los poderes serán similares pero mayores. "
+"Se convertirá en el\n"
+"*Anillo de Sombra mucho menor*\n"
 "Tienes mucha suerte."
 
 #: conversationlist_guynmart_npc.json:guynmart_wizard_54
@@ -27742,11 +27754,11 @@ msgstr "No, nunca te daría mi anillo."
 
 #: conversationlist_guynmart_npc.json:guynmart_wizard_70
 msgid "Oops!"
-msgstr "¡Vaya!"
+msgstr "¡Ups!"
 
 #: conversationlist_guynmart_npc.json:guynmart_wizard_70:0
 msgid "Oops? What does \"oops\" mean? Something went wrong?"
-msgstr "Oops? ¿Qué significa \"oops\"? ¿Algo salió mal?"
+msgstr "Ups? ¿Qué significa \"ups\"? ¿Algo salió mal?"
 
 #: conversationlist_guynmart_npc.json:guynmart_wizard_72
 msgid "Oh no, it is nothing. All is ... well, perfect. Yes. Now go, go and leave me, I have work to do. No need to thank me. Farewell."
@@ -27804,7 +27816,7 @@ msgstr "Gracias. Iré arriba."
 
 #: conversationlist_guynmart_npc.json:guynmart_steward_40
 msgid "You have a message for our Lord?"
-msgstr "¿Tienes un mensaje para nuestro Señor?"
+msgstr "¿Tienes un mensaje para nuestro Lord?"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward_42
 msgid "Lord Guynmart is uproad tending to urgent affairs. I expect him back tomorrow."
@@ -27840,7 +27852,7 @@ msgstr "No, gracias, ya me voy."
 
 #: conversationlist_guynmart_npc.json:guynmart_steward3_20
 msgid "You Dare To Speak To Me!"
-msgstr "Te atreves a hablarme!"
+msgstr "¡Te atreves a hablarme!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward3_20:0
 msgid "Hey, what did I do?"
@@ -27848,7 +27860,7 @@ msgstr "Oye, ¿qué hice?"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward3_22
 msgid "I Saw You On The Tower! What Were You Doing There?"
-msgstr "Te vi en la torre! ¿Qué estabas haciendo allí?"
+msgstr "¡Te vi en la torre! ¿Qué estabas haciendo allí?"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward3_22:0
 msgid "I just talked to Lady Hannah."
@@ -27856,15 +27868,15 @@ msgstr "Acabo de hablar con Lady Hannah."
 
 #: conversationlist_guynmart_npc.json:guynmart_steward3_24
 msgid "Don't You Dare Defile Her Lovely Name By Using It!"
-msgstr "No te atrevas a profanar su encantador nombre usándolo!"
+msgstr "¡No te atrevas a profanar su encantador nombre usándolo!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward3_50
 msgid "Olav! Come Here!"
-msgstr "¡Olav! Ven aquí!"
+msgstr "¡Olav! ¡Ven aquí!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward3_52
 msgid "Show our - guest - the special exit."
-msgstr "Muéstrale a nuestro invitado la salida especial."
+msgstr "Muéstrale a nuestro - invitado - la salida especial."
 
 #: conversationlist_guynmart_npc.json:guynmart_steward3_52:0
 msgid "Special exit?"
@@ -27893,7 +27905,7 @@ msgstr "¿Tú crees que sí? ¡Traidor!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_30
 msgid "Now you will get what you deserve!"
-msgstr "Ahora tendrás lo que te mereces!"
+msgstr "¡Ahora tendrás lo que te mereces!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_30:0
 msgid "No, please, please don't hurt me!"
@@ -27901,7 +27913,7 @@ msgstr "¡No, por favor, por favor, no me hagas daño!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_32
 msgid "Pathetic. So run, and never let me set eyes on you again!"
-msgstr "Patético. Así que corre, y no dejes que te vuelva a ver!"
+msgstr "Patético. Así que corre, ¡y no dejes que te vuelva a ver!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_50
 msgid "What did you call me? I'll beat you until you whine for mercy."
@@ -27909,7 +27921,7 @@ msgstr "¿Cómo me llamaste? Te golpearé hasta que me implores piedad."
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_50:0
 msgid "Ha! So come on and try! No? I will put an end to you now!"
-msgstr "Ja! Así que vamos a probar! No? ¡Terminaré contigo ahora mismo!"
+msgstr "¡Ja! ¡Así que, ven a probar! ¿No? ¡Terminaré contigo ahora mismo!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_50:1
 msgid "Oh dear, please forgive my rash words."
@@ -27917,11 +27929,13 @@ msgstr "Oh querido, por favor, perdona mis palabras precipitadas."
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_60
 msgid "OK. I will go now. But I will not forget you - fear my revenge! And before I leave, I will stab your beloved Guynmart..."
-msgstr "OK. Me iré ahora. Pero no te olvidaré - teme mi venganza! Y antes de irme, apuñalaré a tu amado Guynmart...."
+msgstr ""
+"Bien. Me iré ahora. Pero no te olvidaré - ¡teme mi venganza! Y antes de "
+"irme, apuñalaré a tu amado Guynmart..."
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_60:0
 msgid "Nooo! What did you do? Stay and face me, you coward!"
-msgstr "Nooo! ¿Qué es lo que hiciste? ¡Quédate y enfréntate a mí, cobarde!"
+msgstr "¡Nooo! ¿Qué es lo que hiciste? ¡Quédate y enfréntate a mí, cobarde!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_120
 msgid "Indeed. I am surprised to see you here."
@@ -27949,7 +27963,7 @@ msgstr "No. ¡Nunca te creeré a menos que dejes ir a Guynmart!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_124:1
 msgid "OK. One minute."
-msgstr "OK. Un minuto."
+msgstr "Vale. Un minuto."
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_130
 msgid "Until recently, everything was fine. Guynmart was a righteous man, open-minded and tolerant. And Hannah was supposed to marry me when she was old enough."
@@ -27981,7 +27995,7 @@ msgstr "Un joven, que era mi invitado en ese momento, me dio su caja de poción 
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_162
 msgid "So I took it for safekeeping. Look here."
-msgstr "Así que lo cogí para mantenerla a salvo. Mira aquí."
+msgstr "Así que la agarré para mantenerla a salvo. Mira, aquí."
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_162:0
 msgid "I know this box - it belongs to my brother Andor!"
@@ -28037,7 +28051,9 @@ msgstr "Gracias. En realidad, no esperaba esto de Lord Guynmart."
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_230
 msgid "Yes, Guynmart had changed a lot recently. Here, please take Andor's bonemeal potion box and return it to him."
-msgstr "Sí, Guynmart había cambiado mucho recientemente. Toma, por favor, coge la caja de poción de harina de huesos de Andor y devuélvesela."
+msgstr ""
+"Sí, Guynmart había cambiado mucho recientemente. Toma, por favor, ten la "
+"caja de poción de harina de huesos de Andor y devuélvesela."
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_230:0
 msgid "If only I had finally found my brother."
@@ -28049,7 +28065,9 @@ msgstr "Y ahora apégate a tu plan. Abre la puerta. Mis hombres esperarán a Nor
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_292
 msgid "Then go to the farm south of here and stay there for the night. May The Shadow be with you!"
-msgstr "Entonces ve a la granja al sur de aquí y quédate allí esta noche. Que la Sombra esté contigo!"
+msgstr ""
+"Entonces ve a la granja al sur de aquí y quédate allí esta noche. ¡Que la "
+"Sombra esté contigo!"
 
 #: conversationlist_guynmart_npc.json:guynmart_steward5_14
 msgid "Hello $playername - The Shadow be with you."
@@ -28100,7 +28118,7 @@ msgstr "¿Trajiste las hierbas para el almuerzo de Hannah?"
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_22:0
 msgid "Oh. I knew I had forgotten something..."
-msgstr "Oh. Sabía que había olvidado algo...."
+msgstr "Oh. Sabía que había olvidado algo..."
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_32
 msgid "Do you think I am stupid? I already gave you two fine loaves of bread, for free! Out of my kitchen, you scum!"
@@ -28137,7 +28155,7 @@ msgstr "Sí, por supuesto. Me voy a ir ahora."
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_40:1
 msgid "The steward told me that you could give me some bread."
-msgstr "El camarero me dijo que podías darme algo de pan."
+msgstr "El mayordomo dijo que podías darme algo de pan."
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_50
 msgid "Yes, of course. But be quick, I still have a lot of work to do."
@@ -28149,7 +28167,9 @@ msgstr "Bien, muéstrame lo que tienes."
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_60
 msgid "Good idea! You can carry her lunch up all those stairs to the tower top, and I'll have more time to prepare the wedding meal."
-msgstr "Buena idea! Puedes subirle el almuerzo por las escaleras hasta la cima de la torre, y tendré más tiempo para preparar la comida de la boda."
+msgstr ""
+"¡Buena idea! Puedes subirle el almuerzo por las escaleras hasta la cima de "
+"la torre, y tendré más tiempo para preparar la comida de la boda."
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_70
 msgid "Oh no! I am running out of Lady Hannah's special herbs, and these are essential for her lunch."
@@ -28161,7 +28181,7 @@ msgstr "Rápido, corre a ver a Nuik, el viejo jardinero. Te dará algunas hierba
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_72:0
 msgid "OK. I will get the herbs."
-msgstr "OK. Traeré las hierbas."
+msgstr "Bien. Traeré las hierbas."
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_72:1
 msgid "I've had enough! Do it yourself."
@@ -28176,8 +28196,9 @@ msgid ""
 "You should have brought just 1 portion. These herbs must be used fresh. Nevertheless I will take all the herbs.\n"
 "[All herb portions taken]"
 msgstr ""
-"Deberías haber traído sólo una porción. Estas hierbas deben usarse frescas. Sin embargo, me llevaré todas las hierbas.\n"
-"[Coge todas las porciones de hierbas]"
+"Deberías haber traído sólo 1 porción. Estas hierbas deben usarse frescas. "
+"Sin embargo, me llevaré todas las hierbas.\n"
+"[Toma todas las porciones de hierbas]"
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_106:0
 msgid "Eh, yes of course."
@@ -28185,7 +28206,7 @@ msgstr "Eh, sí, por supuesto."
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_112
 msgid "Of course you won't get another serving of lunch!"
-msgstr "Por supuesto que no conseguirás otro almuerzo!"
+msgstr "¡Por supuesto que no conseguirás otro almuerzo!"
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_112:0
 msgid "Eh, yes, of course."
@@ -28197,7 +28218,7 @@ msgstr "...y ahora es adecuado para ella. ¡Date prisa ahora, mientras aún est�
 
 #: conversationlist_guynmart_npc.json:guynmart_cook_120:0
 msgid "Ouch! It is really hot!"
-msgstr "Ouch! Está muy caliente!!"
+msgstr "¡Auch! ¡Está muy caliente!"
 
 #: conversationlist_guynmart_npc.json:guynmart_drunkard1_20
 msgid "Hey, get us some bottles of wine and then take a seat. I could tell you things you wouldn't believe!"
@@ -28235,7 +28256,7 @@ msgstr "¡Oye, tráenos unas botellas de vino! ¡Podría decirte cosas que no cr
 
 #: conversationlist_guynmart_npc.json:guynmart_drunkard5_13:0
 msgid "Good idea! I'll go for the wine, wait a minute."
-msgstr "Buena idea! Iré por el vino, espera un minuto."
+msgstr "¡Buena idea! Iré por el vino, espera un minuto."
 
 #: conversationlist_guynmart_npc.json:guynmart_drunkard5_14
 msgid "Oh. The wine bottles are all empty. Could you get some more?"
@@ -28247,7 +28268,9 @@ msgstr "Sí, por supuesto. Traeré más botellas."
 
 #: conversationlist_guynmart_npc.json:guynmart_drunkard5_20
 msgid "You standing over me makes me feel uncomfortable. Take a seat next to me first."
-msgstr "El que estés a mi lado me hace sentir incómodo. Siéntate a mi lado primero."
+msgstr ""
+"El que estés parado a mi lado me hace sentir incómodo. Siéntate junto a mí "
+"primero."
 
 #: conversationlist_guynmart_npc.json:guynmart_drunkard5_100
 msgid "Let's have a sip, then I will tell you my story."
@@ -28292,12 +28315,17 @@ msgid ""
 "And there were rumors about even more dangerous creatures - I will not even name them."
 msgstr ""
 "[Fjoerkard vacía la botella]\n"
-"Se decía que los Gornauds vagaban por esas montañas. No habíamos visto ninguno, por la sombra, pero ya habíamos cruzado sus huellas varias veces.\n"
-"Y había rumores sobre criaturas aún más peligrosas - ni siquiera les pondré nombre."
+"Se decía que los Gornauds vagaban por esas montañas. No habíamos visto "
+"ninguno, por la Sombra, pero ya habíamos cruzado sus huellas varias veces.\n"
+"Y había rumores sobre criaturas aún más peligrosas - ni siquiera les pondré "
+"nombre."
 
 #: conversationlist_guynmart_npc.json:guynmart_drunkard5_140
 msgid "A lonely hut came into sight. A friendly light in the midst of the wilderness. There we would ask to camp for the night. New strength flowed through us, when suddenly all hell broke loose."
-msgstr "Una cabaña solitaria apareció a la vista. Una luz amistosa en medio del desierto. Allí pedíamos acampar por la noche. Una nueva fuerza fluyó a través de nosotros, cuando de repente se desató el infierno."
+msgstr ""
+"Una cabaña solitaria apareció a la vista. Una luz amistosa en medio del "
+"desierto. Allí pediríamos acampar por la noche. Una nueva fuerza fluyó a "
+"través de nosotros, cuando de repente se desató el infierno."
 
 #: conversationlist_guynmart_npc.json:guynmart_drunkard5_150
 msgid "Gornauds jumped out from behind the rocks, so close that we could clearly see their facial features. For a few terrible seconds I thought that those would be our last seconds."
@@ -28309,7 +28337,9 @@ msgid ""
 "But then we realized that the monsters were after an easier prey. A small figure was in front of us on the path. A child? Alone up there?"
 msgstr ""
 "[Otra botella]\n"
-"Pero entonces nos dimos cuenta de que los monstruos iban tras una presa más fácil. Una pequeña figura estaba frente a nosotros en el camino. ¿Un niño? ¿Solo allá arriba?"
+"Pero entonces nos dimos cuenta de que los monstruos iban tras una presa más "
+"fácil. Una pequeña figura estaba frente a nosotros en el camino. ¿Un niño? ¿"
+"Sólo allá arriba?"
 
 #: conversationlist_guynmart_npc.json:guynmart_drunkard5_170
 msgid "Shaken, I closed my eyes, despite the great danger. I did not want to look at the slaughter. The dreadful noise lasted only a few seconds."
@@ -28325,7 +28355,10 @@ msgid ""
 "We had had enough of that cursed march. Panicked, we ran back down the path. Tired as we were, we ran without stopping even once, to the inn in the valley, from which we had departed in the morning."
 msgstr ""
 "[Otra botella]\n"
-"Habíamos tenido suficiente de esa maldita marcha. Entramos en pánico y volvimos corriendo por el camino. Cansados como estábamos, corrimos sin parar ni una sola vez a la posada del valle, de la que habíamos partido por la mañana."
+"Habíamos tenido suficiente de esa maldita marcha. Entramos en pánico y "
+"volvimos corriendo por el camino. Cansados como estábamos, corrimos sin "
+"parar ni una sola vez hasta la posada del valle, de la que habíamos partido "
+"por la mañana."
 
 #: conversationlist_guynmart_npc.json:guynmart_drunkard5_200
 msgid "Never will I forget that useless journey. Often I see it again in a nightmare and then I seek the memory of a friendly inn. Where once there was a little girl, probably the daughter of the landlord."
@@ -28405,7 +28438,7 @@ msgstr "Por favor, hazlo. ¿Quizás una melodía que tocabas para Lady Hannah?"
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis_104:1
 msgid "Is that a good idea? We might disturb someone."
-msgstr "¿Es una buena idea? Podríamos molestar a alguien."
+msgstr "¿Es esa una buena idea? Podríamos molestar a alguien."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis_110
 #: conversationlist_guynmart_npc.json:guynmart_lovis_120
@@ -28423,11 +28456,11 @@ msgstr "Bien, gracias por intentarlo."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis_120:0
 msgid "...do me wrong..."
-msgstr "...hazme mal...."
+msgstr "...hazme mal..."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis_130:0
 msgid "...all my joy ... my delight..."
-msgstr "...toda mi alegría....mi deleite..."
+msgstr "...toda mi alegría... mi deleite..."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis_190
 msgid "Hush - I hear footsteps."
@@ -28439,7 +28472,10 @@ msgstr "¿Quizás algún alma amiga nos deje salir? Después de todo, somos comp
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis_200
 msgid "Oh no! Look! The torturer! I will run around him and look for Guynmart's personal guards outside in the wood. They will help us. I hope Guynmart himself is also with them."
-msgstr "Oh no! ¡Mira! ¡El torturador! Lo rodearé y buscaré a los guardias personales de Guynmart en el bosque. Ellos nos ayudarán. Espero que Guynmart también esté con ellos."
+msgstr ""
+"¡Oh no! ¡Mira! ¡El torturador! Lo rodearé y buscaré a los guardias "
+"personales de Guynmart en el bosque. Ellos nos ayudarán. Espero que Guynmart "
+"también esté con ellos."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis_200:0
 msgid "OK, we will see each other later."
@@ -28492,7 +28528,7 @@ msgstr "¡Oh! ¡No puedo creerlo! ¿Es realmente cierto?"
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_100
 msgid "You have earned your reward. Go now into our treasury."
-msgstr "Te has ganado tu recompensa. Ve ahora a nuestro tesoro."
+msgstr "Te has ganado tu recompensa. Ve ahora a nuestra tesorería."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_120
 msgid "So you found something you like. Good."
@@ -28521,7 +28557,9 @@ msgstr "Quejido ... quejido..."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_220c
 msgid "It seems sheep were killed by your hand. Our sheep, to be precise."
-msgstr "Parece que las ovejas fueron asesinadas por tu mano. Nuestras ovejas, para ser precisos."
+msgstr ""
+"Parece que ovejas fueron asesinadas por tu mano. Nuestras ovejas, para ser "
+"precisos."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_221
 msgid "You will be fined 100 gold for each sheep you killed. Do you accept this judgment?"
@@ -28537,7 +28575,7 @@ msgstr "¡Mentiras! ¡Todo mentiras!"
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_221:2
 msgid "I can explain - it was an accident..."
-msgstr "Puedo explicarlo - fue un accidente...."
+msgstr "Puedo explicarlo - fue un accidente..."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_230
 msgid "As you wish. I already regret that we prepared a surprise for you next to the sheep pastures. I am very disappointed in you. Go now."
@@ -28643,15 +28681,18 @@ msgstr "2500 de oro por 25, o quizás más, ovejas muertas."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_350
 msgid "You will find a way to get the missing gold. Then come back and pay the rest."
-msgstr "Encontrarás la forma de conseguir el oro perdido. Entonces vuelve y paga el resto."
+msgstr ""
+"Encontrarás la forma de conseguir el oro faltante. Entonces vuelve y paga el "
+"resto."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_360
 msgid ""
 "[Gold taken]\n"
 "All the sheep you killed are paid for, so now we will forget the whole thing."
 msgstr ""
-"[Coge el oro]\n"
-"Todas las ovejas que mataste están pagadas, así que ahora nos olvidaremos de todo."
+"[Toma el oro]\n"
+"Todas las ovejas que mataste están pagadas, así que ahora nos olvidaremos de "
+"todo."
 
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_360:0
 msgid "I am relieved."
@@ -28726,11 +28767,11 @@ msgstr ""
 
 #: conversationlist_guynmart_npc.json:guynmart_110
 msgid "YOU AGAIN!"
-msgstr "TU OTRA VEZ!!"
+msgstr "¡TU OTRA VEZ!"
 
 #: conversationlist_guynmart_npc.json:guynmart_110:0
 msgid "Yikes! The steward!"
-msgstr "Huy! El mayordomo!"
+msgstr "¡Huy! ¡El mayordomo!"
 
 #: conversationlist_guynmart_npc.json:guynmart_200
 msgid "[Groaning] ...open the gate..."
@@ -28755,7 +28796,7 @@ msgstr "No hablas mucho, ¿verdad?"
 
 #: conversationlist_guynmart_npc.json:guynmart_s_herold_10
 msgid "$playername enters!"
-msgstr "$playername entra!"
+msgstr "¡$playername entra!"
 
 #: conversationlist_guynmart_npc.json:guynmart_s_herold_12
 msgid "Who may I please announce?"
@@ -28921,7 +28962,7 @@ msgid ""
 "Do not enter the fog!"
 msgstr ""
 "* P E L I G R O *\n"
-"No entrar en la niebla!"
+"¡No entrar en la niebla!"
 
 #: conversationlist_guynmart2_npc.json:guynmart_robber1_12
 msgid "I am the new Feygard bridge guard. Har har. We do not let beggars through. Understand? Come back, but only if you have more gold with you."
@@ -28929,11 +28970,11 @@ msgstr "Soy el nuevo guardia del puente Feygard. Jajaja. No dejamos pasar a los 
 
 #: conversationlist_guynmart2_npc.json:guynmart_robber1_20
 msgid "I am the new Feygard bridge guard. Har har. Give me your gold."
-msgstr "Soy el nuevo guardia del puente Feygard. Ja ja. Dame tu oro."
+msgstr "Soy el nuevo guardia del puente Feygard. Jah jah. Dame tu oro."
 
 #: conversationlist_guynmart2_npc.json:guynmart_robber1_20:0
 msgid "OK. Here, you can have 50 pieces of gold. Let me pass now."
-msgstr "OK. Toma, puedes quedarte con 50 piezas de oro. Déjame pasar ahora."
+msgstr "Vale. Toma, puedes quedarte con 50 piezas de oro. Déjame pasar ahora."
 
 #: conversationlist_guynmart2_npc.json:guynmart_robber1_20:1
 msgid "Come and try to get it."
@@ -28942,14 +28983,14 @@ msgstr "Ven y trata de conseguirlo."
 #: conversationlist_guynmart2_npc.json:guynmart_robber1_20:2
 #: conversationlist_guynmart2_npc.json:guynmart_robber1_30:2
 msgid "Hmm, I will think about your offer."
-msgstr "Pensaré en tu oferta."
+msgstr "Hmm, pensaré en tu oferta."
 
 #: conversationlist_guynmart2_npc.json:guynmart_robber1_30
 msgid ""
 "[Gold taken]\n"
 "Very good. But I need more."
 msgstr ""
-"[Coge el oro]\n"
+"[Toma el oro]\n"
 "Muy bien. Pero necesito más."
 
 #: conversationlist_guynmart2_npc.json:guynmart_robber1_30:0
@@ -28974,7 +29015,7 @@ msgstr "Pero... ¿qué niebla?"
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_14
 msgid "Welcome! Nice to see you again."
-msgstr "Bienvenido! Encantado de volver a verte."
+msgstr "¡Bienvenido! Encantado de volver a verte."
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_16
 msgid "Good morning! Did you hear the music last night? I think it came from the castle."
