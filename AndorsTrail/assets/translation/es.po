@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2026-05-28 03:18+0000\n"
+"PO-Revision-Date: 2026-05-29 11:50+0000\n"
 "Last-Translator: Guillermo Rivero <cuentareloka@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
@@ -20289,6 +20289,7 @@ msgid "What weapon types can you teach me?"
 msgstr "¿Qué tipos de armas puedes enseñarme?"
 
 #: conversationlist_falothen.json:falothen1_5
+#, fuzzy
 msgid "I can teach you about swords, either one-handed or two-handed ones. I know a bit about daggers, axes, polearms, and blunt weapons. I also know a fair deal about fighting with your bare fists."
 msgstr ""
 "Puedo enseñarte sobre espadas, ya sea a una o a dos manos. Sé un poco de "
@@ -20564,6 +20565,7 @@ msgid "Sounds good. Teach me how to fight with axes. Here are two Oegyth crystal
 msgstr "Suena bien. Enséñame a luchar con hachas. Aquí hay dos cristales de Oegyth y 5000 de oro como pago."
 
 #: conversationlist_falothen.json:falothen1_2nd_b0
+#, fuzzy
 msgid "Now, blunt weapons is my way of categorizing everything from the simple club, to maces up to quarterstaves. The technique for using them well is mostly the same."
 msgstr ""
 "Ahora, las armas contundentes son mi manera de categorizar todo, desde el "
@@ -25315,7 +25317,6 @@ msgid "No, I won't."
 msgstr "No, no lo haré."
 
 #: conversationlist_stoutford.json:tahalendor_erwyn_5
-#, fuzzy
 msgid ""
 "Now I will bless them with a special enchantment...\n"
 "[Tahalendor holds the coins over the altar and mutters something you can't hear]"
@@ -26439,9 +26440,8 @@ msgid "I am on a mission for Lord Guynmart."
 msgstr "Estoy en una misión para Lord Guynmart."
 
 #: conversationlist_guynmart.json:guynmart_key_tower1_10:1
-#, fuzzy
 msgid "I am on a mission for Steward Unkorh."
-msgstr "Estoy en una misión para el mayordomo Unkorh."
+msgstr "Estoy en una misión para el Mayordomo Unkorh."
 
 #: conversationlist_guynmart.json:guynmart_key_tower1_20
 msgid "OK, then hurry."
@@ -26759,7 +26759,7 @@ msgstr "¿Guynmart tiene una hija?"
 #: conversationlist_guynmart_npc.json:guynmart_gguard_70
 msgid "Hannah knows every single plant in her garden. Nobody but herself and old Nuik may touch the plants."
 msgstr ""
-"Hannah conoce cada planta de su jardín. Nadie más que ella y la vieja Nuik "
+"Hannah conoce cada planta de su jardín. Nadie más que ella y el viejo Nuik "
 "pueden tocar las plantas."
 
 #: conversationlist_guynmart_npc.json:guynmart_gguard_70:0
@@ -53273,6 +53273,7 @@ msgid "All that work, and the reward is just gold?"
 msgstr "¿Todo ese trabajo y la recompensa es sólo oro?"
 
 #: conversationlist_sullengard.json:ff_captain_beer_tell_everything_50
+#, fuzzy
 msgid "Hey, what do you want from me? I'm stuck here babysitting a bunch of drunk guards."
 msgstr ""
 "Oye, ¿qué quieres de mí? Estoy aquí atrapada cuidando a un montón de "
@@ -53568,7 +53569,7 @@ msgstr "¿Así que lo hizo? ¿Qué quieres saber?"
 
 #: conversationlist_sullengard.json:dunla_beer_10:0
 msgid "What is this 'business agreement' that the taven owners have?"
-msgstr "¿Qué es ese «acuerdo comercial» que tienen los dueños de la taberna?"
+msgstr "¿Qué es ese \"acuerdo comercial\" que tienen los dueños de la taberna?"
 
 #: conversationlist_sullengard.json:dunla_beer_20
 msgid "That is not for me to say."
@@ -54303,7 +54304,7 @@ msgstr "Bueno, no eras más que un provocador. ¡Muchas gracias!"
 
 #: conversationlist_sullengard.json:sullengard_church_guard
 msgid "Walk with the Shadow, child"
-msgstr "Camina con la Sombra, niño"
+msgstr "Camina con la Sombra, niño."
 
 #: conversationlist_sullengard.json:sullengard_church_guard:0
 msgid "Yes, I am walking with the Shadow and I'm loving it."
@@ -54644,7 +54645,7 @@ msgstr ""
 
 #: conversationlist_haunted_forest.json:gabriel_shh
 msgid "Shh!"
-msgstr "Shh!"
+msgstr "¡Shh!"
 
 #: conversationlist_haunted_forest.json:gabriel_shh:0
 #: conversationlist_mt_galmore.json:blue_cat_blue:0
@@ -63698,23 +63699,23 @@ msgstr ""
 
 #: conversationlist_laeroth.json:eyvipa_4a:0
 msgid "I'm leaving!"
-msgstr "Ya me voy!"
+msgstr "¡Ya me voy!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:1
 msgid "Estay imgrey earcepay!"
-msgstr "Estay imgrey earcepay!"
+msgstr "¡Estay imgrey earcepay!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:2
 msgid "Estray inyay eacepay!"
-msgstr "Estray inyay eacepay!"
+msgstr "¡Estray inyay eacepay!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:3
 msgid "Esay intray eaceplay!"
-msgstr ""
+msgstr "¡Esay intray eaceplay!"
 
 #: conversationlist_laeroth.json:eyvipa_4a:4
 msgid "Espray inpray eatnpay!"
-msgstr ""
+msgstr "¡Espray inpray eatnpay!"
 
 #: conversationlist_laeroth.json:eyvipa_4b
 msgid "The ghost of Eyvipa vanishes. You feel great relief that the chant worked. You take back the oegyth crystal, although it seems to be losing some of its luster."
@@ -65008,253 +65009,275 @@ msgstr ""
 #: conversationlist_laeroth.json:lae_algangror3_30
 msgid "Oh yes, of course it works. Why do you think the wall closed again?"
 msgstr ""
+"Oh sí, por supuesto que funciona. ¿Por qué crees que se volvió a cerrar la "
+"pared?"
 
 #: conversationlist_laeroth.json:lae_algangror3_30:0
 msgid "Yes, why did it?"
-msgstr ""
+msgstr "Sí, ¿por qué lo hizo?"
 
 #: conversationlist_laeroth.json:lae_algangror3_32
 msgid "Well, because I brought a scroll from the table here with me. That's why."
-msgstr ""
+msgstr "Bueno, porque traje un pergamino de la mesa. Por eso."
 
 #: conversationlist_laeroth.json:lae_algangror3_32:0
 msgid "What?! You ..."
-msgstr ""
+msgstr "¡¿Qué?! Tú..."
 
 #: conversationlist_laeroth.json:lae_algangror3_34
 msgid "Hahaha!"
-msgstr ""
+msgstr "¡Jajaja!"
 
 #: conversationlist_laeroth.json:lae_algangror3_40
 msgid "Now go ahead, you'll be a tasty dinner for our master Dorhantarh tonight."
 msgstr ""
+"Ahora adelante, serás una cena deliciosa para nuestro amo Dorhantarh esta "
+"noche."
 
 #: conversationlist_laeroth.json:lae_algangror3_42
 msgid "You're so speechless. Hahaha! Go now."
-msgstr ""
+msgstr "Te has quedado sin palabras. ¡Jajaja! Vete ya."
 
 #: conversationlist_laeroth.json:lae_algangror3_42:0
 msgid "Well wait - attack!"
-msgstr ""
+msgstr "Bueno, esperen... ¡ataquen!"
 
 #: conversationlist_laeroth.json:lae_algangror3_50
 msgid "No no no. It is not proper to draw a weapon in the presence of our Master."
 msgstr ""
+"No no no. No es apropiado desenfundar un arma en presencia de nuestro "
+"Maestro."
 
 #: conversationlist_laeroth.json:lae_algangror3_100
 msgid "NO! What have you done to our master?!"
-msgstr ""
+msgstr "¡NO! ¡¿Qué le has hecho a nuestro amo?!"
 
 #: conversationlist_laeroth.json:lae_algangror3_100:0
 msgid "The same that I'll do to you now."
-msgstr ""
+msgstr "Lo mismo que te haré a ti ahora."
 
 #: conversationlist_laeroth.json:lae_andor1_1
 #: conversationlist_laeroth.json:lae_andor1_2
 msgid "Are you trying to get out of the affair by faking death? Shame on you!"
-msgstr ""
+msgstr "¿Estás intentando salir del asunto fingiendo tu muerte? ¡Qué vergüenza!"
 
 #: conversationlist_laeroth.json:lae_andor1_10
 msgid "Who is there? Declare yourself!"
-msgstr ""
+msgstr "¿Quién está ahí? ¡Declárate!"
 
 #: conversationlist_laeroth.json:lae_andor1_10:0
 msgid "I know that voice ... Andor, is it really you?"
-msgstr ""
+msgstr "Conozco esa voz... Andor, ¿eres tú de verdad?"
 
 #: conversationlist_laeroth.json:lae_andor1_10:1
 msgid "Calm down, Andor. It's me."
-msgstr ""
+msgstr "Cálmate, Andor. Soy yo."
 
 #: conversationlist_laeroth.json:lae_andor1_30
 msgid "At last, $playername. What kept you so long?"
-msgstr ""
+msgstr "Por fin, $playername. ¿Qué te ha retenido tanto tiempo?"
 
 #: conversationlist_laeroth.json:lae_andor1_30:0
 msgid "What?! "
-msgstr ""
+msgstr "¡¿Qué?! "
 
 #: conversationlist_laeroth.json:lae_andor1_40
 msgid "OK. We have no time for that. Let's come to business."
-msgstr ""
+msgstr "Bueno. No tenemos tiempo para eso. Pasemos a lo que nos ocupa."
 
 #: conversationlist_laeroth.json:lae_andor1_42
 msgid "I entered this room to find a powerful weapon against the enemy, when suddenly the walls closed around me."
 msgstr ""
+"Entré en esta habitación buscando un arma poderosa contra el enemigo, cuando "
+"de repente las paredes se cerraron a mi alrededor."
 
 #: conversationlist_laeroth.json:lae_andor1_42:0
 msgid "Too curious again?"
-msgstr ""
+msgstr "¿Demasiado curioso de nuevo?"
 
 #: conversationlist_laeroth.json:lae_andor1_44
 msgid "Oh, shut up."
-msgstr ""
+msgstr "Oh, cállate."
 
 #: conversationlist_laeroth.json:lae_andor1_44:0
 msgid "Who is locked up here - you or me?"
-msgstr ""
+msgstr "¿Quién está encerrado aquí: tú o yo?"
 
 #: conversationlist_laeroth.json:lae_andor1_50
 msgid "Sigh. Open the wall and come here."
-msgstr ""
+msgstr "Suspiro. Abre la pared y ven aquí."
 
 #: conversationlist_laeroth.json:lae_andor1_50:0
 msgid "How can I do this? The walls look rather massive."
-msgstr ""
+msgstr "¿Cómo puedo hacer esto? Las paredes parecen bastante enormes."
 
 #: conversationlist_laeroth.json:lae_andor1_52
 msgid "It's very easy."
-msgstr ""
+msgstr "Es muy fácil."
 
 #: conversationlist_laeroth.json:lae_andor1_52:0
 msgid "Oh dear. You always said that when things got tricky."
-msgstr ""
+msgstr "Ay, Dios mío. Siempre decías eso cuando las cosas se ponían difíciles."
 
 #: conversationlist_laeroth.json:lae_andor1_54
 msgid "You just have to find the elemental scrolls and the colored globes. Somebody must have taken them and hidden them all over the island."
 msgstr ""
+"Solo tienes que encontrar los pergaminos elementales y los globos de "
+"colores. Alguien debió haberlos robado y escondido por toda la isla."
 
 #: conversationlist_laeroth.json:lae_andor1_54:0
 msgid "Can you be a little more specific?"
-msgstr ""
+msgstr "¿Puedes ser un poco más específico?"
 
 #: conversationlist_laeroth.json:lae_andor1_60
 msgid "There are four scrolls and three globes. Get them here and place them around this room."
 msgstr ""
+"Hay cuatro pergaminos y tres globos terráqueos. Tómalos aquí y colócalos "
+"alrededor de esta habitación."
 
 #: conversationlist_laeroth.json:lae_andor1_60:0
 msgid "Around this room?"
-msgstr ""
+msgstr "¿Alrededor de esta habitación?"
 
 #: conversationlist_laeroth.json:lae_andor1_62
 msgid "Of course around this room. Don't always be so stupid."
-msgstr ""
+msgstr "Por supuesto, en esta habitación. No seas siempre tan tonto."
 
 #: conversationlist_laeroth.json:lae_andor1_70
 msgid "Hurry now!"
-msgstr ""
+msgstr "¡Date prisa, ahora!"
 
 #: conversationlist_laeroth.json:lae_andor1_72
 msgid "And bring something to eat!"
-msgstr ""
+msgstr "¡Y trae algo de comer!"
 
 #: conversationlist_laeroth.json:final_cave_kd
 msgid "Hey, don't run away. Talk to us!"
-msgstr ""
+msgstr "¡Oye, no huyas! ¡Habla con nosotros!"
 
 #: conversationlist_laeroth.json:final_cave2_k
 msgid "Did someone follow me? I thought they couldn't go down here?"
-msgstr ""
+msgstr "¿Alguien me siguió? ¿No se suponía que no podían bajar hasta aquí?"
 
 #: conversationlist_laeroth.json:lae_andor3
 msgid "You really believed I was your brother? Hahaha!"
-msgstr ""
+msgstr "¿De verdad creíste que yo era tu hermano? ¡Jajaja!"
 
 #: conversationlist_laeroth.json:final_cave2_k1_10_f
 msgid "A loud rumbling fills the air! - At the same time the scroll of fire explodes."
 msgstr ""
+"¡Un fuerte estruendo llena el aire! - Al mismo tiempo, el pergamino de fuego "
+"explota."
 
 #: conversationlist_laeroth.json:lae_plant
 msgid "Crap, the plant didn't grow tall enough."
-msgstr ""
+msgstr "Basura, la planta no creció lo suficiente."
 
 #: conversationlist_laeroth.json:lae_fc1_key
 msgid "You see nothing special."
-msgstr ""
+msgstr "No ves nada especial."
 
 #: conversationlist_laeroth.json:lae_fc2_s1_6
 msgid "You hear a loud rumbling from above. Seems to be the walls are opened up again."
 msgstr ""
+"Se oye un fuerte estruendo desde arriba. Parece que las paredes se han "
+"vuelto a abrir."
 
 #: conversationlist_laeroth.json:lae_fc2_s1_10
 msgid "You call back upstairs that there was no problem going down."
-msgstr ""
+msgstr "Llamas desde arriba para decir que no hubo ningún problema al bajar."
 
 #: conversationlist_laeroth.json:lae_fc2_s1_12
 msgid "But something is very wrong here."
-msgstr ""
+msgstr "Pero aquí hay algo que no funciona bien."
 
 #: conversationlist_laeroth.json:lae_island_boss
 msgid "Ah, my dinner at last."
-msgstr ""
+msgstr "Ah, por fin mi cena."
 
 #: conversationlist_laeroth.json:lae_island_boss_10
 msgid "And no horse meat this time. My servants promised me a delicious surprise tonight."
 msgstr ""
+"Y esta vez nada de carne de caballo. Mis sirvientes me prometieron una "
+"deliciosa sorpresa esta noche."
 
 #: conversationlist_laeroth.json:lae_island_boss_10:0
 msgid "We'll see. Attack!"
-msgstr ""
+msgstr "Ya veremos. ¡Ataque!"
 
 #: conversationlist_laeroth.json:lae_centaur_10
 #: conversationlist_laeroth.json:lae_centaur1_20
 #: conversationlist_laeroth.json:lae_centaur2_20
 msgid "You are not wanted here."
-msgstr ""
+msgstr "No eres bienvenido aquí."
 
 #: conversationlist_laeroth.json:lae_centaur_20
 msgid "We have an eye on you."
-msgstr ""
+msgstr "Nosotros tenemos un ojo en ti."
 
 #: conversationlist_laeroth.json:lae_centaur1_1
 msgid "You there, human."
-msgstr ""
+msgstr "Tu ahí, humano."
 
 #: conversationlist_laeroth.json:lae_centaur1_2
 msgid "Our leader wants to see you. Now."
-msgstr ""
+msgstr "Nuestro líder quiere verte. Ahora mismo."
 
 #: conversationlist_laeroth.json:lae_centaur1_2:1
 msgid "Who is your leader?"
-msgstr ""
+msgstr "¿Quién es tu líder?"
 
 #: conversationlist_laeroth.json:lae_centaur1_3
 msgid "Don't ask questions. Just do as you're told."
-msgstr ""
+msgstr "No hagas preguntas. Simplemente haz lo que te digan."
 
 #: conversationlist_laeroth.json:lae_centaur1_3:0
 msgid "Fine. Lead the way."
-msgstr ""
+msgstr "De acuerdo. Lidera el camino."
 
 #: conversationlist_laeroth.json:lae_centaur1_3:1
 msgid "And if I refuse?"
-msgstr ""
+msgstr "¿Y si me niego?"
 
 #: conversationlist_laeroth.json:lae_centaur1_4
 msgid "Then you'll regret it. Trust me, you don't want to anger our leader."
-msgstr ""
+msgstr "Entonces te arrepentirás. Créeme, no querrás enfadar a nuestro líder."
 
 #: conversationlist_laeroth.json:lae_centaur1_4:0
 #: conversationlist_laeroth.json:lae_centaur2_5:1
 msgid "It's okay, calm down. Where is this leader?"
-msgstr ""
+msgstr "Está bien, cálmate. ¿Dónde está este líder?"
 
 #: conversationlist_laeroth.json:lae_centaur1_5
 msgid "I have better things to do than play tour guide to useless intruders."
 msgstr ""
+"Tengo mejores cosas que hacer antes que jugar al guía turístico para "
+"intrusos inútiles."
 
 #: conversationlist_laeroth.json:lae_centaur1_5:0
 msgid "Then just tell me where he is."
-msgstr ""
+msgstr "Entonces, solo dime dónde está."
 
 #: conversationlist_laeroth.json:lae_centaur1_8
 #: conversationlist_laeroth.json:lae_centaur2_8
 #: conversationlist_laeroth.json:lae_centaur3_8
 msgid "Thalos, our wise guide, is currently in the northeast of the island."
 msgstr ""
+"Thalos, nuestro sabio guía, se encuentra actualmente en el noreste de la "
+"isla."
 
 #: conversationlist_laeroth.json:lae_centaur1_8:0
 #: conversationlist_laeroth.json:lae_centaur2_5:0
 #: conversationlist_laeroth.json:lae_centaur2_8:0
 #: conversationlist_laeroth.json:lae_centaur3_8:0
 msgid "Fine, I'll go see him."
-msgstr ""
+msgstr "De acuerdo, iré a verlo."
 
 #: conversationlist_laeroth.json:lae_centaur1_8:1
 #: conversationlist_laeroth.json:lae_centaur2_8:1
 #: conversationlist_laeroth.json:lae_centaur3_8:1
 msgid "Hopefully this Thalos will be a little more accommodating."
-msgstr ""
+msgstr "Esperemos que este Thalos sea un poco más complaciente."
 
 #: conversationlist_laeroth.json:lae_centaur1_10
 msgid "Hurry up now. And don't try anything stupid."
