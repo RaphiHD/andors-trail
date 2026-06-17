@@ -13,6 +13,7 @@ import com.gpl.rpg.AndorsTrail.model.item.DropList;
 import com.gpl.rpg.AndorsTrail.model.item.ItemContainer;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
+import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
 import com.gpl.rpg.AndorsTrail.savegames.LegacySavegameFormatReaderForMonster;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
@@ -21,6 +22,7 @@ import com.gpl.rpg.AndorsTrail.util.Range;
 public final class Monster extends Actor {
 
 	public Coord movementDestination = null;
+	public TravelDestinationArea travelDestination = null;
 	public long nextActionTime = 0;
 	public final CoordRect nextPosition;
 

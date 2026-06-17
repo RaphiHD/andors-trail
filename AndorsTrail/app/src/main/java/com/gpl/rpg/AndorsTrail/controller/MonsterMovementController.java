@@ -10,6 +10,7 @@ import com.gpl.rpg.AndorsTrail.model.actor.MonsterType;
 import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
+import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
@@ -30,8 +31,25 @@ public final class MonsterMovementController implements EvaluateWalkable {
 		for (MonsterSpawnArea a : world.model.currentMaps.map.spawnAreas) {
 			for (Monster m : a.monsters) {
 				if (m.nextActionTime <= currentTime) {
-					moveMonster(m, a);
+					moveMonster(m, a.area, a.ignoreAreas);
 				}
+			}
+		}
+
+		for (TravelDestinationArea a : world.model.currentMaps.map.destinationAreas) {
+			for (Monster m : a.monsters) {
+				if (m.nextActionTime <= currentTime) {
+					moveMonster(m, a.area, false); // TODO handle ignoreAreas
+				} 
+			}
+		}
+
+		// Move every monster that is freely travelling (outside spawn area)
+		for (Monster m : world.model.currentMaps.map.travellingMonsters) {
+			// TODO spawn on map if not there yet (if just mapchanged)
+
+			if (m.nextActionTime <= currentTime) {
+				moveMonster(m, new CoordRect(new Coord(0, 0), world.model.currentMaps.map.size), true); // TODO handle ignoreAreas
 			}
 		}
 	}
@@ -74,7 +92,7 @@ public final class MonsterMovementController implements EvaluateWalkable {
 		return true;
 	}
 
-	private void moveMonster(final Monster m, final MonsterSpawnArea area) {
+	private void moveMonster(final Monster m, final CoordRect area, final boolean ignoreAreas) {
 		if (m.getMoveCost() == Constants.MONSTER_IMMOBILE_MOVE_COST) {
 			return;
 		}
@@ -87,7 +105,7 @@ public final class MonsterMovementController implements EvaluateWalkable {
 		} else {
 			determineMonsterNextPosition(m, area, world.model.player.position);
 
-			if (!monsterCanMoveTo(m, map, tileMap, m.nextPosition, area.ignoreAreas)) {
+			if (!monsterCanMoveTo(m, map, tileMap, m.nextPosition, ignoreAreas)) {
 				cancelCurrentMonsterMovement(m);
 				return;
 			}
@@ -104,15 +122,19 @@ public final class MonsterMovementController implements EvaluateWalkable {
 		}
 	}
 
-	private void determineMonsterNextPosition(Monster m, MonsterSpawnArea area, Coord playerPosition) {
+	private void determineMonsterNextPosition(Monster m, CoordRect area, Coord playerPosition) {
 		MonsterType.AggressionType aggressionType = m.getMovementAggressionType();
-		if ((aggressionType == MonsterType.AggressionType.protectSpawn && area.area.contains(playerPosition)) ||
+
+		// If monster is aggressive towards player
+		if ((aggressionType == MonsterType.AggressionType.protectSpawn && area.contains(playerPosition)) ||
 				aggressionType == MonsterType.AggressionType.wholeMap
 		) {
 			if (findPathFor(m, playerPosition)) {
 				// we use m.nextPosition from the pathfinding
 				return;
 			}
+
+		// If monster tries to flee from player
 		} else if (aggressionType == MonsterType.AggressionType.flee) {
 			// if flee then run towards the point where the PC is not
 			m.movementDestination = new Coord(playerPosition);
@@ -120,13 +142,22 @@ public final class MonsterMovementController implements EvaluateWalkable {
 			m.movementDestination.y = Math.clamp((long)2 * m.position.y - playerPosition.y, 0, world.model.currentMaps.map.size.height - 1);// my - ( py - my )
 		}
 
+		// Monster is travelling on new map and needs a new movementDestination
+		if (m.travelDestination != null && m.movementDestination == null) {
+			// TODO check if travelDestination is on current Map, then pathfind to this area
+
+			// TODO apply internal pathfinding towards needed mapChange
+			m.movementDestination = new Coord(m.position); // PLACEHOLDER
+		}
+
 		// Monster has waited and should start to move again.
 		if (m.movementDestination == null) {
 			m.movementDestination = new Coord(m.position);
+			// Decide wether to move horizontally or vertically
 			if (Constants.rnd.nextBoolean()) {
-				m.movementDestination.x = area.area.topLeft.x + Constants.rnd.nextInt(area.area.size.width);
+				m.movementDestination.x = area.topLeft.x + Constants.rnd.nextInt(area.size.width);
 			} else {
-				m.movementDestination.y = area.area.topLeft.y + Constants.rnd.nextInt(area.area.size.height);
+				m.movementDestination.y = area.topLeft.y + Constants.rnd.nextInt(area.size.height);
 			}
 		}
 
