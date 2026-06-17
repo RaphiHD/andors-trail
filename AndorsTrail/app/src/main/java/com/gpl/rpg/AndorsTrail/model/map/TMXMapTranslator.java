@@ -71,6 +71,7 @@ public final class TMXMapTranslator {
 			final Size mapSize = new Size(m.width, m.height);
 			List<MapObject> mapObjects = new LinkedList<MapObject>();
 			List<MonsterSpawnArea> spawnAreas = new LinkedList<MonsterSpawnArea>();
+			List<TravelDestinationArea> destinationAreas = new LinkedList<>();
 			List<String> activeGroups = new LinkedList<String>();
 
 			for (TMXObjectGroup group : m.objectGroups) {
@@ -164,6 +165,15 @@ public final class TMXMapTranslator {
 								,isActiveForNewGame
 						);
 						spawnAreas.add(area);
+					} else if (object.type.equalsIgnoreCase("destination")) {
+						// TODO get script steps
+
+
+						TravelDestinationArea area = new TravelDestinationArea(
+							position
+							,object.name
+						);
+						destinationAreas.add(area);
 					} else if (object.type.equalsIgnoreCase("key")) {
 						String phraseID = "";
 						for (TMXProperty p : object.properties) {
@@ -215,8 +225,10 @@ public final class TMXMapTranslator {
 			_eventObjects = mapObjects.toArray(_eventObjects);
 			MonsterSpawnArea[] _spawnAreas = new MonsterSpawnArea[spawnAreas.size()];
 			_spawnAreas = spawnAreas.toArray(_spawnAreas);
+			TravelDestinationArea[] _destinationAreas = new TravelDestinationArea[destinationAreas.size()];
+			_destinationAreas = destinationAreas.toArray(_destinationAreas);
 
-			result.add(new PredefinedMap(m.xmlResourceId, m.name, mapSize, _eventObjects, _spawnAreas, activeGroups, isOutdoors, colorFilter));
+			result.add(new PredefinedMap(m.xmlResourceId, m.name, mapSize, _eventObjects, _spawnAreas, _destinationAreas, activeGroups, isOutdoors, colorFilter));
 		}
 
 		return result;

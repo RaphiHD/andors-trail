@@ -30,6 +30,8 @@ public final class PredefinedMap {
 	public final Size size;
 	public final MapObject[] eventObjects;
 	public final MonsterSpawnArea[] spawnAreas;
+	public final TravelDestinationArea[] destinationAreas;
+	public final List<Monster> travellingMonsters = new ArrayList<>();
 	public final List<String> initiallyActiveMapObjectGroups;
 	public final List<String> activeMapObjectGroups;
 	public final ArrayList<Loot> groundBags = new ArrayList<Loot>();
@@ -48,6 +50,7 @@ public final class PredefinedMap {
 			, Size size
 			, MapObject[] eventObjects
 			, MonsterSpawnArea[] spawnAreas
+			, TravelDestinationArea[] destinationAreas
 			, List<String> initiallyActiveMapObjectGroups
 			, boolean isOutdoors
 			, String colorFilter
@@ -57,6 +60,7 @@ public final class PredefinedMap {
 		this.size = size;
 		this.eventObjects = eventObjects;
 		this.spawnAreas = spawnAreas;
+		this.destinationAreas = destinationAreas;
 		this.initiallyActiveMapObjectGroups = initiallyActiveMapObjectGroups;
 		this.activeMapObjectGroups = new LinkedList<String>();
 		this.activeMapObjectGroups.addAll(this.initiallyActiveMapObjectGroups);
