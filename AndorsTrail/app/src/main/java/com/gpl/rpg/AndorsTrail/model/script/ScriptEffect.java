@@ -30,6 +30,7 @@ public final class ScriptEffect {
 		, changeMapFilter
 		, mapchange
 		, changeIcon
+		, setTravelDestination
 	}
 
 	public final ScriptEffectType type;

@@ -26,6 +26,7 @@ import com.gpl.rpg.AndorsTrail.model.conversation.Reply;
 import com.gpl.rpg.AndorsTrail.model.item.ItemTypeCollection;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
+import com.gpl.rpg.AndorsTrail.model.map.MapCollection;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
@@ -64,12 +65,12 @@ public final class ConversationController {
 		}
 	}
 
-	private ScriptEffectResult applyScriptEffectsForPhrase(Resources res, final Player player, final Phrase phrase) {
+	private ScriptEffectResult applyScriptEffectsForPhrase(Resources res, final Player player, final Phrase phrase, final Monster npc) {
 		if (phrase.scriptEffects == null || phrase.scriptEffects.length == 0) return null;
 
 		final ScriptEffectResult result = new ScriptEffectResult();
 		for (ScriptEffect effect : phrase.scriptEffects) {
-			applyScriptEffect(res, player, effect, result);
+			applyScriptEffect(res, player, effect, result, npc);
 		}
 
 		if (result.isEmpty()) return null;
@@ -80,7 +81,7 @@ public final class ConversationController {
 		return result;
 	}
 
-	private void applyScriptEffect(Resources res, Player player, ScriptEffect effect, ScriptEffectResult result) {
+	private void applyScriptEffect(Resources res, Player player, ScriptEffect effect, ScriptEffectResult result, Monster npc) {
 		switch (effect.type) {
 			case actorCondition:
 				addActorConditionReward(player, effect.effectID, effect.value, result);
@@ -160,6 +161,9 @@ public final class ConversationController {
 			case changeIcon:
 				changeIcon(res, player, effect.effectID, effect.value );
 				break;
+			case setTravelDestination:
+				setTravelDestination(npc, effect.effectID);
+				break;
 		}
 	}
 
@@ -236,6 +240,10 @@ public final class ConversationController {
 				player.replaceIcon(player.iconID);
 				break;
 		}
+	}
+
+	private void setTravelDestination(Monster monster, String destinationID) {
+		monster.travelDestination = world.maps.travelDestinationAreas.get(destinationID);
 	}
 
 	private void addAlignmentReward(Player player, String faction, int delta) {
@@ -549,7 +557,7 @@ public final class ConversationController {
 			setCurrentPhrase(res, phraseID);
 
 			if (applyScriptEffects) {
-				ScriptEffectResult scriptEffectResult = controllers.conversationController.applyScriptEffectsForPhrase(res, player, currentPhrase);
+				ScriptEffectResult scriptEffectResult = controllers.conversationController.applyScriptEffectsForPhrase(res, player, currentPhrase, npc);
 				if (scriptEffectResult != null) {
 					listener.onScriptEffectsApplied(scriptEffectResult);
 				}
