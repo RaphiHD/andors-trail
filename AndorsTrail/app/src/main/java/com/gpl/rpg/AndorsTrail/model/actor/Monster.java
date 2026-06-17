@@ -25,6 +25,7 @@ public final class Monster extends Actor {
 	public TravelDestinationArea travelDestination = null;
 	public long nextActionTime = 0;
 	public final CoordRect nextPosition;
+	public boolean ignoreAreas;
 
 	private boolean forceAggressive = false;
 	private ItemContainer shopItems = null;
@@ -41,6 +42,7 @@ public final class Monster extends Actor {
 		this.iconID = monsterType.iconID;
 		this.isFlippedX = Constants.roll100(monsterType.horizontalFlipChance);
 		this.nextPosition = new CoordRect(new Coord(), monsterType.tileSize);
+		this.ignoreAreas = area.ignoreAreas;
 		resetStatsToBaseTraits();
 		this.ap.setMax();
 		this.health.setMax();

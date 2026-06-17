@@ -39,7 +39,7 @@ public final class MonsterMovementController implements EvaluateWalkable {
 		for (TravelDestinationArea a : world.model.currentMaps.map.destinationAreas) {
 			for (Monster m : a.monsters) {
 				if (m.nextActionTime <= currentTime) {
-					moveMonster(m, a.area, false); // TODO handle ignoreAreas
+					moveMonster(m, a.area, m.ignoreAreas);
 				} 
 			}
 		}
@@ -49,7 +49,7 @@ public final class MonsterMovementController implements EvaluateWalkable {
 			// TODO spawn on map if not there yet (if just mapchanged)
 
 			if (m.nextActionTime <= currentTime) {
-				moveMonster(m, new CoordRect(new Coord(0, 0), world.model.currentMaps.map.size), true); // TODO handle ignoreAreas
+				moveMonster(m, new CoordRect(new Coord(0, 0), world.model.currentMaps.map.size), m.ignoreAreas);
 			}
 		}
 	}
@@ -219,5 +219,10 @@ public final class MonsterMovementController implements EvaluateWalkable {
 				monsterMovementListeners.onMonsterMoved(map, m, previousPosition);
 			}
 		}, 0);
+	}
+
+	public void beginTravel(final Monster m, final String destinationID) {
+		m.travelDestination = world.maps.travelDestinationAreas.get(destinationID);
+		m.movementDestination = null;
 	}
 }

@@ -243,7 +243,7 @@ public final class ConversationController {
 	}
 
 	private void setTravelDestination(Monster monster, String destinationID) {
-		monster.travelDestination = world.maps.travelDestinationAreas.get(destinationID);
+		this.controllers.monsterMovementController.beginTravel(monster, destinationID);
 	}
 
 	private void addAlignmentReward(Player player, String faction, int delta) {
