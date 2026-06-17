@@ -170,7 +170,8 @@ public final class TMXMapTranslator {
 
 
 						TravelDestinationArea area = new TravelDestinationArea(
-							position
+							m.name
+							,position
 							,object.name
 						);
 						destinationAreas.add(area);

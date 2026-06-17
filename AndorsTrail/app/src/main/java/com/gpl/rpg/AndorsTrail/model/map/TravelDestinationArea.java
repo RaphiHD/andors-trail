@@ -7,14 +7,17 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public final class TravelDestinationArea {
+	public final String mapID;
 	public final CoordRect area;
 	public final String areaID;
 	public final List<Monster> monsters = new CopyOnWriteArrayList<>();
 
 	public TravelDestinationArea(
+			String mapID,
 			CoordRect area
 			, String areaID
 	) {
+		this.mapID = mapID;
 		this.area = area;
 		this.areaID = areaID;
 	}
