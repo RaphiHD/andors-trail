@@ -361,16 +361,19 @@ public final class ConversationController {
 		}
 	}
 
-	private static boolean canSelectReply(final WorldContext world, final Reply reply) {
+	private static boolean canSelectReply(final WorldContext world, final Reply reply, final Monster npc) {
 		if (!reply.hasRequirements()) return true;
 
 		for (Requirement requirement : reply.requires) {
-			if (!canFulfillRequirement(world, requirement)) return false;
+			if (!canFulfillRequirement(world, requirement, npc)) return false;
 		}
 		return true;
 	}
 
 	public static boolean canFulfillRequirement(WorldContext world, Requirement requirement) {
+		return canFulfillRequirement(world, requirement, null);
+	}
+	public static boolean canFulfillRequirement(WorldContext world, Requirement requirement, Monster m) {
 		Player player = world.model.player;
 		GameStatistics stats = world.model.statistics;
 		boolean result;
@@ -445,10 +448,21 @@ public final class ConversationController {
 				SkillInfo skill = world.skills.getSkill(SkillCollection.SkillID.valueOf(requirement.requireID));
 				result =  canLevelupSkillWithQuest(player, skill, levels);
 				break;
+
+			// Requirements specific to Monsters
+			case onMap:
+				result = (m != null && m.currentMapID.equals(requirement.requireID));
+				break;
+			case inArea:
+				result = (m != null && m.area.areaID.equals(requirement.requireID));
+				break;
+			case isTravelling:
+				result = (m != null && m.travelDestination != null);
+				break;
 			default:
 				result =  true;
 		}
-		return requirement.negate ? !result : result;
+		return requirement.negate != result;
 	}
 
 	public static void requirementFulfilled(WorldContext world, Requirement requirement, ControllerContext controllers) {
@@ -562,7 +576,7 @@ public final class ConversationController {
 
 			if (currentPhrase.message == null) {
 				for (Reply r : currentPhrase.replies) {
-					if (!canSelectReply(world, r)) continue;
+					if (!canSelectReply(world, r, npc)) continue;
 					applyReplyEffect(world, r, controllers);
 					return r.nextPhrase;
 				}
@@ -577,7 +591,7 @@ public final class ConversationController {
 			}
 
 			for (Reply r : currentPhrase.replies) {
-				if (!canSelectReply(world, r)) continue;
+				if (!canSelectReply(world, r, npc)) continue;
 				listener.onConversationHasReply(r, getDisplayMessage(r, player));
 			}
 			return null;
@@ -610,7 +624,7 @@ public final class ConversationController {
 			if (currentPhrase.replies.length != 1) return false;
 			final Reply singleReply = currentPhrase.replies[0];
 			if (!singleReply.text.equals(ConversationCollection.REPLY_NEXT)) return false;
-			if (!canSelectReply(world, singleReply)) return false;
+			if (!canSelectReply(world, singleReply, npc)) return false;
 			return true;
 		}
 	}

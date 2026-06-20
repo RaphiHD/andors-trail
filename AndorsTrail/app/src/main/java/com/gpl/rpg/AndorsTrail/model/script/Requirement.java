@@ -26,6 +26,9 @@ public final class Requirement {
 		,time
 		,timeEquals
 		,skillIncrease		// Check if possible to increase
+		,onMap
+		,inArea
+		,isTravelling
 	}
 
 	public final RequirementType requireType;
@@ -73,7 +76,9 @@ public final class Requirement {
 			case hasActorCondition:
 			case factionScore:
 			case factionScoreEquals:
-				return requireID != null;
+            case onMap:
+			case inArea:
+                return requireID != null;
 			case inventoryKeep:
 			case inventoryRemove:
 			case wear:
@@ -98,7 +103,9 @@ public final class Requirement {
 				return chance != null;
 			case timerElapsed:
 				return requireID != null && value >= 0;
-			default:
+			case isTravelling:
+				return true;
+            default:
 				return false;
 		}
 	}
