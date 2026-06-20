@@ -319,8 +319,23 @@ public final class PredefinedMap {
 							L.log("WARNING: Trying to load monsters from savegame in map " + this.name + " for destination #" + i + ". This will totally fail.");
 						}
 					}
-					this.destinationAreas[i].readFromParcel(src, world, fileversion);
-				}
+                    String id = src.readUTF();
+                    int j = i;
+                    boolean found = false;
+                    do {
+                        if (this.destinationAreas[j].areaID.equals(id)) {
+                            this.destinationAreas[j].readFromParcel(src, world, fileversion);
+                            found = true;
+                            break;
+                        }
+                        j = (j+1)%destinationAreas.length;
+                    } while (j != i);
+                    if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
+                        if (!found) {
+                            L.log("WARNING: Trying to load monsters from savegame in map " + this.name + " for destination #" + id + " but this area cannot be found. This will totally fail.");
+                        }
+                    }
+                }
 			}
 			
 			activeMapObjectGroups.clear();

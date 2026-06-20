@@ -38,6 +38,17 @@ public final class TravelDestinationArea extends MapArea {
 
 	public void readFromParcel(DataInputStream src, WorldContext world, int fileversion) throws IOException {
 		monsters.clear();
+		if (fileversion <= 86) {
+			if (fileversion >= 41) {
+				// legacy boolean present for spawn areas; discard it
+				src.readBoolean();
+			}
+			int quantity = src.readInt();
+			for (int i = 0; i < quantity; ++i) {
+				monsters.add(Monster.newFromParcel(src, world, fileversion, this));
+			}
+			return;
+		}
 		int quantity = src.readInt();
 		for(int i = 0; i < quantity; ++i) {
 			monsters.add(Monster.newFromParcel(src, world, fileversion, this));
