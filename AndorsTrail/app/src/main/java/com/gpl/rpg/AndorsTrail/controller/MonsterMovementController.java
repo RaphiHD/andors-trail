@@ -158,7 +158,7 @@ public final class MonsterMovementController implements EvaluateWalkable {
 					// Destination reached
 					m.travelDestination.monsters.add(m);
 					// Set new area (otherwise monster takes coordinate from spawnArea)
-					area = m.travelDestination.area;
+					m.area = m.travelDestination;
 					m.travelDestination = null;
 					m.area.monsters.remove(m);
 				} else if (findPathFor(m, m.travelDestination.area)) {
@@ -182,9 +182,9 @@ public final class MonsterMovementController implements EvaluateWalkable {
 			m.movementDestination = new Coord(m.position);
 			// Decide whether to move horizontally or vertically
 			if (Constants.rnd.nextBoolean()) {
-				m.movementDestination.x = area.topLeft.x + Constants.rnd.nextInt(area.size.width);
+				m.movementDestination.x = m.area.area.topLeft.x + Constants.rnd.nextInt(m.area.area.size.width);
 			} else {
-				m.movementDestination.y = area.topLeft.y + Constants.rnd.nextInt(area.size.height);
+				m.movementDestination.y = m.area.area.topLeft.y + Constants.rnd.nextInt(m.area.area.size.height);
 			}
 		}
 

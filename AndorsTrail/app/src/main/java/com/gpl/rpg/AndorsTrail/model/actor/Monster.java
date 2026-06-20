@@ -33,7 +33,7 @@ public final class Monster extends Actor {
 	private ItemContainer shopItems = null;
 
 	public final MonsterType monsterType;
-	public final MapArea area;
+	public MapArea area;
 
 	public final boolean isFlippedX;
 
