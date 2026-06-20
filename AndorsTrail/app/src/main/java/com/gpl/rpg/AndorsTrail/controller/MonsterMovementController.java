@@ -150,9 +150,20 @@ public final class MonsterMovementController implements EvaluateWalkable {
 			m.movementDestination.y = Math.clamp((long)2 * m.position.y - playerPosition.y, 0, world.model.currentMaps.map.size.height - 1);// my - ( py - my )
 		}
 
-		// Monster is travelling on new map and needs a new movementDestination
-		if (m.travelDestination != null && m.movementDestination == null) {
-			m.movementDestination = m.travelDestination.area.topLeft;
+		// Monster is travelling -> pathfind
+		if (m.travelDestination != null) {
+			if (m.currentMapID.equals(m.travelDestination.mapID)) {
+				// Target map reached, pathfind locally to destinationArea TODO this is incorrect, use the below
+				if (m.travelDestination.area.contains(m.position)) {
+					// Destination reached
+					m.travelDestination.monsters.add(m);
+					m.travelDestination = null;
+					m.area.monsters.remove(m);
+				} else if (findPathFor(m, m.travelDestination.area)) {
+					return;
+				}
+			}
+
 
 //			String mapchangeID = m.travelPath.getNextMapchange(); // TODO implement
 //			if (mapchangeID == null) {
@@ -162,8 +173,6 @@ public final class MonsterMovementController implements EvaluateWalkable {
 //				// Set movement destination to next mapchange
 //				m.movementDestination = getMapchangeByID(mapchangeID).position.topLeft; // TODO implement, also change topLeft to nearest
 //			}
-
-			// TODO currently, npc only walks straight lines, no diagonals. Or is it????
 		}
 
 		// Monster has waited and should start to move again.
@@ -190,6 +199,9 @@ public final class MonsterMovementController implements EvaluateWalkable {
 	}
 
 	private static int getMillisecondsPerMove(Monster m) {
+		if (m.travelDestination != null) {
+			return (Constants.MONSTER_MOVEMENT_TURN_DURATION_MS / 4) * m.getMoveCost() / m.getMaxAP(); // TODO remove, testing
+		}
 		return Constants.MONSTER_MOVEMENT_TURN_DURATION_MS * m.getMoveCost() / m.getMaxAP();
 	}
 	
@@ -206,6 +218,9 @@ public final class MonsterMovementController implements EvaluateWalkable {
 	}
 
 	private final PathFinder pathfinder = new PathFinder(Constants.MAX_MAP_WIDTH, Constants.MAX_MAP_HEIGHT, this);
+	public boolean findPathFor(Monster m, CoordRect to) {
+		return pathfinder.findPathBetween(m.rectPosition, to, m.nextPosition, m);
+	}
 	public boolean findPathFor(Monster m, Coord to) {
 		return pathfinder.findPathBetween(m.rectPosition, to, m.nextPosition, m);
 	}

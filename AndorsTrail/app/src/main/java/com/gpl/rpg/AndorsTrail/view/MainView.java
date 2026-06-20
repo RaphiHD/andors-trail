@@ -26,6 +26,7 @@ import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
 import com.gpl.rpg.AndorsTrail.model.map.MapLayer;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
+import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
 import com.gpl.rpg.AndorsTrail.resource.tiles.TileCollection;
 import com.gpl.rpg.AndorsTrail.resource.tiles.TileManager;
 import com.gpl.rpg.AndorsTrail.util.Coord;
@@ -429,6 +430,19 @@ public final class MainView extends SurfaceView
 			tiles.drawTile(canvas, model.player.mapIconID, x, y, mPaint);
 		}
 		for (MonsterSpawnArea a : currentMap.spawnAreas) {
+			for (Monster m : a.monsters) {
+				if (!m.hasVFXRunning) {
+					drawFromMapPosition(canvas, area, m.rectPosition, m.iconID, m.isFlippedX);
+				} else if (area.intersects(m.rectPosition) || area.intersects(new CoordRect(m.lastPosition,m.rectPosition.size))) {
+					int vfxElapsedTime = (int) (System.currentTimeMillis() - m.vfxStartTime);
+					if (vfxElapsedTime > m.vfxDuration) vfxElapsedTime = m.vfxDuration;
+					int x = ((m.position.x - mapViewArea.topLeft.x) * tileSize * vfxElapsedTime + ((m.lastPosition.x - mapViewArea.topLeft.x) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
+					int y = ((m.position.y - mapViewArea.topLeft.y) * tileSize * vfxElapsedTime + ((m.lastPosition.y - mapViewArea.topLeft.y) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
+					tiles.drawTile(canvas, m.iconID, x, y, mPaint, m.isFlippedX);
+				}
+			}
+		}
+		for (TravelDestinationArea a : currentMap.destinationAreas) {
 			for (Monster m : a.monsters) {
 				if (!m.hasVFXRunning) {
 					drawFromMapPosition(canvas, area, m.rectPosition, m.iconID, m.isFlippedX);

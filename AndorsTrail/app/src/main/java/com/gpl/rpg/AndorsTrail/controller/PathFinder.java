@@ -25,6 +25,49 @@ public class PathFinder {
 		public boolean isWalkable(CoordRect r, Monster m);
 	}
 
+	public boolean findPathBetween(final CoordRect from, final CoordRect to, CoordRect nextStep, Monster m) {
+		int iterations = 0;
+		if (from.intersects(to)) return false;
+
+		Coord measureDistanceTo = from.topLeft;
+		Coord p = nextStep.topLeft;
+		Arrays.fill(visited, false);
+		visitQueue.reset();
+
+		for (int y = to.topLeft.y; y < to.topLeft.y + to.size.height; ++y) {
+			if (y < 0 || y >= maxHeight) continue;
+			for (int x = to.topLeft.x; x < to.topLeft.x + to.size.width; ++x) {
+				if (x < 0 || x >= maxWidth) continue;
+				int i = (y * maxWidth) + x;
+				if (visited[i]) continue;
+				visited[i] = true;
+				int dx = measureDistanceTo.x - x;
+				int dy = measureDistanceTo.y - y;
+				visitQueue.push(x, y, dx * dx + dy * dy);
+			}
+		}
+		if (visitQueue.isEmpty()) return false;
+
+		while (!visitQueue.isEmpty()) {
+			visitQueue.popFirst(p);
+			++iterations;
+
+			if (iterations > 500) return false;
+
+			if (from.isAdjacentTo(p)) return true;
+
+			p.x -= 1; visit(nextStep, measureDistanceTo, m);
+			p.x += 2; visit(nextStep, measureDistanceTo, m);
+			p.x -= 1; p.y -= 1; visit(nextStep, measureDistanceTo, m);
+			p.y += 2; visit(nextStep, measureDistanceTo, m);
+			p.x -= 1; visit(nextStep, measureDistanceTo, m);
+			p.x += 2; visit(nextStep, measureDistanceTo, m);
+			p.y -= 2; visit(nextStep, measureDistanceTo, m);
+			p.x -= 2; visit(nextStep, measureDistanceTo, m);
+		}
+		return false;
+	}
+
 	public boolean findPathBetween(final CoordRect from, final Coord to, CoordRect nextStep, Monster m) {
 		int iterations = 0;
 		if (from.contains(to)) return false;
@@ -41,7 +84,7 @@ public class PathFinder {
 			visitQueue.popFirst(p);
 			++iterations;
 
-			if (iterations > 100) return false;
+			if (iterations > 500) return false;
 
 			if (from.isAdjacentTo(p)) return true;
 
