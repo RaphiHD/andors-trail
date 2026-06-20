@@ -240,7 +240,7 @@ public final class ConversationController {
 	}
 
 	private void setTravelDestination(Monster monster, String mapID, String destinationID) {
-		if (mapID != null) this.controllers.monsterMovementController.beginTravel(monster, mapID, destinationID);
+		if (mapID != null && monster != null) this.controllers.monsterMovementController.beginTravel(monster, mapID, destinationID);
 	}
 
 	private void addAlignmentReward(Player player, String faction, int delta) {

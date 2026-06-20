@@ -57,7 +57,7 @@ public final class DebugInterface {
 				,new DebugButton("teleport", new OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
-						Dialogs.showMapScriptMessage( mainActivity, controllerContext, "dbg");
+						Dialogs.showMapScriptMessage( mainActivity, controllerContext, "dbg", null);
 						/* controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "debugmap", "entry", 0, 0); */
 					}
 				})
@@ -150,7 +150,7 @@ public final class DebugInterface {
 				,new DebugButton("fct", new OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
-							Dialogs.showMapScriptMessage( mainActivity, controllerContext, "dbg_scores");
+							Dialogs.showMapScriptMessage( mainActivity, controllerContext, "dbg_scores", null);
 				}
 	})
 		}));

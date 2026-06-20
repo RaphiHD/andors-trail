@@ -194,7 +194,7 @@ public final class ResourceLoader {
 
 		// ========================================================================
 		// Load maps
-		TMXMapTranslator mapReader = new TMXMapTranslator();
+		TMXMapTranslator mapReader = new TMXMapTranslator(world);
 		final TypedArray mapsToLoad = r.obtainTypedArray(mapsResourceId);
 		for (int i = 0; i < mapsToLoad.length(); ++i) {
 			final int mapResourceId = mapsToLoad.getResourceId(i, -1);

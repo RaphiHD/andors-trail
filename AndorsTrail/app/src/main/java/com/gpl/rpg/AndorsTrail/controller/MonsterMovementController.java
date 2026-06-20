@@ -153,14 +153,10 @@ public final class MonsterMovementController implements EvaluateWalkable {
 		// Monster is travelling -> pathfind
 		if (m.travelDestination != null) {
 			if (m.currentMapID.equals(m.travelDestination.mapID)) {
-				// Target map reached, pathfind locally to destinationArea TODO this is incorrect, use the below
+				// Target map reached, pathfind locally to destinationArea TODO this only works if the area is reachable without mapchanges, use the below instead
 				if (m.travelDestination.area.contains(m.position)) {
 					// Destination reached
-					m.travelDestination.monsters.add(m);
-					// Set new area (otherwise monster takes coordinate from spawnArea)
-					m.area = m.travelDestination;
-					m.travelDestination = null;
-					m.area.monsters.remove(m);
+					m.travelDestination.onMonsterArrived(m);
 				} else if (findPathFor(m, m.travelDestination.area)) {
 					return;
 				}

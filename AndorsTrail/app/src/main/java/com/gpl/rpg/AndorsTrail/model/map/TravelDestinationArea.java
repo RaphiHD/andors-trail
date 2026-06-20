@@ -1,6 +1,8 @@
 package com.gpl.rpg.AndorsTrail.model.map;
 
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
+import com.gpl.rpg.AndorsTrail.context.ControllerContext;
+import com.gpl.rpg.AndorsTrail.controller.ConversationController;
 import com.gpl.rpg.AndorsTrail.model.ChecksumBuilder;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.util.Coord;
@@ -13,20 +15,43 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public final class TravelDestinationArea extends MapArea {
+	public final String arrivalScript;
+	private ConversationController.ConversationStatemachine mapScriptExecutor;
+	private ControllerContext controllers;
 	public TravelDestinationArea(
-			String mapID,
-			CoordRect area
+			WorldContext world
+			, String mapID
+			, CoordRect area
 			, String areaID
+			, String arrivalScript
 	) {
-        super(area, areaID, mapID);
+		super(world, area, areaID, mapID);
+		this.arrivalScript = arrivalScript;
 	}
 
-    public void onMonsterArrived(Monster monster) {
-    monster.travelDestination = null;
-		// EVTL set current movement box to here (separate from spawn area)
+    public void onMonsterArrived(Monster m) {
+		// Move monster from its old area into this destination area.
+		if (m.area != null) {
+			m.area.monsters.remove(m);
+		}
+		m.area = this;
+		m.travelDestination = null;
+		this.monsters.add(m);
 
-    // Iterate over steps once implemented
-  }
+		if (arrivalScript != null) {
+			if (mapScriptExecutor != null && controllers != null) {
+				mapScriptExecutor.setCurrentNPC(m);
+				mapScriptExecutor.proceedToPhrase(controllers.getResources(), arrivalScript, true, true);
+				controllers.mapController.applyCurrentMapReplacements(controllers.getResources(), true);
+			}
+		}
+    	// Iterate over steps once implemented
+  	}
+
+	public void setScriptEnvironment(ConversationController.ConversationStatemachine exec, ControllerContext controllers) {
+		this.mapScriptExecutor = exec;
+		this.controllers = controllers;
+	}
 
 	public void executeNextStep() {
 		// TODO once implemented

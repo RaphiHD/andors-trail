@@ -13,6 +13,7 @@ import java.util.List;
 import android.content.res.Resources;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
+import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.model.actor.MonsterType;
 import com.gpl.rpg.AndorsTrail.model.actor.MonsterTypeCollection;
 import com.gpl.rpg.AndorsTrail.model.item.DropList;
@@ -37,9 +38,14 @@ import com.gpl.rpg.AndorsTrail.util.Range;
 import com.gpl.rpg.AndorsTrail.util.Size;
 
 public final class TMXMapTranslator {
+	private final WorldContext world;
 	private final ArrayList<TMXObjectMap> maps = new ArrayList<TMXObjectMap>();
 
-	public void read(Resources r, int xmlResourceId, String name) {
+    public TMXMapTranslator(WorldContext world) {
+        this.world = world;
+    }
+
+    public void read(Resources r, int xmlResourceId, String name) {
 		maps.add(TMXMapFileParser.readObjectMap(r, xmlResourceId, name));
 	}
 
@@ -154,7 +160,8 @@ public final class TMXMapTranslator {
 							monsterTypeIDs[i] = types.get(i).id;
 						}
 						MonsterSpawnArea area = new MonsterSpawnArea(
-								position
+								world
+								,position
 								,new Range(maxQuantity, 0)
 								,new Range(1000, respawnspeed)
 								,object.name
@@ -167,13 +174,19 @@ public final class TMXMapTranslator {
 						);
 						spawnAreas.add(area);
 					} else if (object.type.equalsIgnoreCase("destination")) {
-						// TODO get script steps
-
+						String script = null;
+						for (TMXProperty p : object.properties) {
+							if (p.name.equalsIgnoreCase("script")) {
+								script = p.value;
+							}
+						}
 
 						TravelDestinationArea area = new TravelDestinationArea(
-							m.name
-							,position
-							,object.name
+								world
+								,m.name
+								,position
+								,object.name
+								,script
 						);
 						destinationAreas.add(area);
 					} else if (object.type.equalsIgnoreCase("key")) {

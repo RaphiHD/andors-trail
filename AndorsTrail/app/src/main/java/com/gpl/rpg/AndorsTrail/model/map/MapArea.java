@@ -13,16 +13,19 @@ import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
 
 public abstract class MapArea {
+    public final WorldContext world;
     public final CoordRect area;
     public final String areaID;
     public final String mapID;
     public final List<Monster> monsters = new CopyOnWriteArrayList<>();
 
     public MapArea(
-            CoordRect area
+            WorldContext world
+            , CoordRect area
             , String areaID
             , String mapID
     ) {
+        this.world = world;
         this.area = area;
         this.areaID = areaID;
         this.mapID = mapID;

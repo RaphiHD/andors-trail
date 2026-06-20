@@ -26,7 +26,8 @@ public final class MonsterSpawnArea extends MapArea {
 	public final boolean isSpawningForNewGame;
 
 	public MonsterSpawnArea(
-			CoordRect area
+			WorldContext world
+			, CoordRect area
 			, Range quantity
 			, Range respawnspeed
 			, String areaID
@@ -37,7 +38,7 @@ public final class MonsterSpawnArea extends MapArea {
 			, boolean isSpawningForNewGame
 			, String mapID
 	) {
-		super(area, areaID, mapID);
+		super(world, area, areaID, mapID);
 		this.quantity = quantity;
 		this.respawnspeed = respawnspeed;
 		this.monsterTypeIDs = monsterTypeIDs;

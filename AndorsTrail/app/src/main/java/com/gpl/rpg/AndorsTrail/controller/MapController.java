@@ -17,6 +17,7 @@ import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.model.map.ReplaceableMapSection;
+import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 
 public final class MapController {
@@ -227,7 +228,11 @@ public final class MapController {
 	private final ConversationController.ConversationStatemachine.ConversationStateListener conversationStateListener = new ConversationController.ConversationStatemachine.ConversationStateListener() {
 		@Override
 		public void onTextPhraseReached(String message, Actor actor, String phraseID) {
-			worldEventListeners.onScriptAreaStartedConversation(phraseID);
+			if (actor instanceof Monster) {
+				worldEventListeners.onScriptAreaStartedConversation((Monster) actor, phraseID);
+			} else {
+				worldEventListeners.onScriptAreaStartedConversation(null, phraseID);
+			}
 		}
 		@Override public void onScriptEffectsApplied(ConversationController.ScriptEffectResult scriptEffectResult) { }
 		@Override public void onConversationEnded() { }
@@ -239,6 +244,13 @@ public final class MapController {
 	};
 	public void prepareScriptsOnCurrentMap() {
 		mapScriptExecutor = new ConversationController.ConversationStatemachine(world, controllers, conversationStateListener);
+		// Provide the same script executor and controller context to travel destination areas so
+		// they can run arrival scripts when monsters arrive.
+		if (world.model.currentMaps != null && world.model.currentMaps.map != null) {
+			for (TravelDestinationArea a : world.model.currentMaps.map.destinationAreas) {
+				if (a != null) a.setScriptEnvironment(mapScriptExecutor, controllers);
+			}
+		}
 	}
 
 	public void activateMapObjectGroup(PredefinedMap map, String group) {

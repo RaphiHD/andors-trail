@@ -3,6 +3,10 @@ package com.gpl.rpg.AndorsTrail;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.lang.ref.WeakReference;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -51,6 +55,9 @@ import com.gpl.rpg.AndorsTrail.view.ItemContainerAdapter;
 
 public final class Dialogs {
 
+	private static final AtomicInteger NEXT_MONSTER_REF_ID = new AtomicInteger(1);
+	private static final Map<Integer, WeakReference<Monster>> MONSTER_REGISTRY = new ConcurrentHashMap<Integer, WeakReference<Monster>>();
+
 	private static void showDialogAndPause(CustomDialog d, final ControllerContext context) {
 		showDialogAndPause(d, context, null);
 	}
@@ -66,8 +73,8 @@ public final class Dialogs {
 		CustomDialogFactory.show(d);
 	}
 
-	public static void showMapScriptMessage(final MainActivity currentActivity, final ControllerContext context, String phraseID) {
-		showConversation(currentActivity, context, phraseID, null, false);
+	public static void showMapScriptMessage(final MainActivity currentActivity, final ControllerContext context, final String phraseID, final Monster npc) {
+		showConversation(currentActivity, context, phraseID, npc, false);
 	}
 
 	public static void showConversation(final MainActivity currentActivity, final ControllerContext context, final String phraseID, final Monster npc) {
@@ -87,11 +94,17 @@ public final class Dialogs {
 		if (monster == null) return;
 		intent.putExtra("x", monster.position.x);
 		intent.putExtra("y", monster.position.y);
+		int refId = NEXT_MONSTER_REF_ID.getAndIncrement();
+		MONSTER_REGISTRY.put(refId, new WeakReference<Monster>(monster));
+		intent.putExtra("monster_ref_id", refId);
 	}
 	public static void addMonsterIdentifiers(Bundle bundle, Monster monster) {
 		if (monster == null) return;
 		bundle.putInt("x", monster.position.x);
 		bundle.putInt("y", monster.position.y);
+		int refId = NEXT_MONSTER_REF_ID.getAndIncrement();
+		MONSTER_REGISTRY.put(refId, new WeakReference<Monster>(monster));
+		bundle.putInt("monster_ref_id", refId);
 	}
 
 	public static Monster getMonsterFromIntent(Intent intent, final WorldContext world) {
@@ -102,7 +115,14 @@ public final class Dialogs {
 		if (!params.containsKey("x")) return null;
 		int x = params.getInt("x");
 		int y = params.getInt("y");
-		return world.model.currentMaps.map.getMonsterAt(x, y);
+		Monster m = world.model.currentMaps.map.getMonsterAt(x, y);
+		if (m != null) return m;
+		if (params.containsKey("monster_ref_id")) {
+			int refId = params.getInt("monster_ref_id");
+			WeakReference<Monster> ref = MONSTER_REGISTRY.get(refId);
+			if (ref != null) return ref.get();
+		}
+		return null;
 	}
 
 	public static void showMonsterEncounter(final MainActivity currentActivity, final ControllerContext context, final Monster monster) {
