@@ -166,7 +166,9 @@ public final class Monster extends Actor {
 			}
 		}
 
-		this.ignoreAreas = src.readBoolean();
+		if (fileversion > 85) {
+			this.ignoreAreas = src.readBoolean();
+		}
 	}
 
 	public void writeToParcel(DataOutputStream dest) throws IOException {

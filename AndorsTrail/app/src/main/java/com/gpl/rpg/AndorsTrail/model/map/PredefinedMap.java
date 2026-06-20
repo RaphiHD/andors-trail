@@ -73,7 +73,14 @@ public final class PredefinedMap {
 			for (int i = 0; i < spawnAreas.length; i++) {
 				for (int j = i + 1; j < spawnAreas.length; j++) {
 					if (spawnAreas[i].areaID.equals(spawnAreas[j].areaID)) {
-						L.log("WARNING: duplicate areaID " + spawnAreas[i].areaID + " in map " + this.name);
+						L.log("WARNING: duplicate spawnAreaID " + spawnAreas[i].areaID + " in map " + this.name);
+					}
+				}
+			}
+			for (int i = 0; i < destinationAreas.length; i++) {
+				for (int j = i + 1; j < destinationAreas.length; j++) {
+					if (destinationAreas[i].areaID.equals(destinationAreas[j].areaID)) {
+						L.log("WARNING: duplicate destinationAreaID " + destinationAreas[i].areaID + " in map " + this.name);
 					}
 				}
 			}
@@ -304,14 +311,16 @@ public final class PredefinedMap {
 					this.spawnAreas[i].readFromParcel(src, world, fileversion);
 				}
 			}
-			loadedDestinationAreas = src.readInt();
-			for(int i = 0; i < loadedDestinationAreas; ++i) {
-				if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
-					if (i >= this.destinationAreas.length) {
-						L.log("WARNING: Trying to load monsters from savegame in map " + this.name + " for destination #" + i + ". This will totally fail.");
+			if (fileversion > 85) {
+				loadedDestinationAreas = src.readInt();
+				for(int i = 0; i < loadedDestinationAreas; ++i) {
+					if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
+						if (i >= this.destinationAreas.length) {
+							L.log("WARNING: Trying to load monsters from savegame in map " + this.name + " for destination #" + i + ". This will totally fail.");
+						}
 					}
+					this.destinationAreas[i].readFromParcel(src, world, fileversion);
 				}
-				this.destinationAreas[i].readFromParcel(src, world, fileversion);
 			}
 			
 			activeMapObjectGroups.clear();
@@ -403,6 +412,11 @@ public final class PredefinedMap {
 				dest.writeUTF(a.areaID);
 				a.writeToParcel(dest);
 			}
+			dest.writeInt(destinationAreas.length);
+			for(TravelDestinationArea a : destinationAreas) {
+				dest.writeUTF(a.areaID);
+				a.writeToParcel(dest);
+			}
 			dest.writeInt(activeMapObjectGroups.size());
 			for(String s : activeMapObjectGroups) {
 				dest.writeUTF(s);
@@ -426,6 +440,11 @@ public final class PredefinedMap {
 			builder.add(true);
 			builder.add(spawnAreas.length);
 			for(MonsterSpawnArea a : spawnAreas) {
+				builder.add(a.areaID);
+				a.addToChecksum(builder);
+			}
+			builder.add(destinationAreas.length);
+			for(TravelDestinationArea a : destinationAreas) {
 				builder.add(a.areaID);
 				a.addToChecksum(builder);
 			}
