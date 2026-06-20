@@ -134,11 +134,19 @@ public final class PredefinedMap {
 			Monster m = a.getMonsterAt(p);
 			if (m != null && (exceptMe == null || exceptMe != m)) return m;
 		}
+		for (TravelDestinationArea a : destinationAreas) {
+			Monster m = a.getMonsterAt(p);
+			if (m != null && (exceptMe == null || exceptMe != m)) return m;
+		}
 		return null;
 	}
 	public Monster getMonsterAt(final Coord p) { return getMonsterAt(p.x, p.y); }
 	public Monster getMonsterAt(final int x, final int y) {
 		for (MonsterSpawnArea a : spawnAreas) {
+			Monster m = a.getMonsterAt(x, y);
+			if (m != null) return m;
+		}
+		for (TravelDestinationArea a : destinationAreas) {
 			Monster m = a.getMonsterAt(x, y);
 			if (m != null) return m;
 		}

@@ -157,6 +157,8 @@ public final class MonsterMovementController implements EvaluateWalkable {
 				if (m.travelDestination.area.contains(m.position)) {
 					// Destination reached
 					m.travelDestination.monsters.add(m);
+					// Set new area (otherwise monster takes coordinate from spawnArea)
+					area = m.travelDestination.area;
 					m.travelDestination = null;
 					m.area.monsters.remove(m);
 				} else if (findPathFor(m, m.travelDestination.area)) {
@@ -178,7 +180,7 @@ public final class MonsterMovementController implements EvaluateWalkable {
 		// Monster has waited and should start to move again.
 		if (m.movementDestination == null) {
 			m.movementDestination = new Coord(m.position);
-			// Decide wether to move horizontally or vertically
+			// Decide whether to move horizontally or vertically
 			if (Constants.rnd.nextBoolean()) {
 				m.movementDestination.x = area.topLeft.x + Constants.rnd.nextInt(area.size.width);
 			} else {
@@ -199,9 +201,6 @@ public final class MonsterMovementController implements EvaluateWalkable {
 	}
 
 	private static int getMillisecondsPerMove(Monster m) {
-		if (m.travelDestination != null) {
-			return (Constants.MONSTER_MOVEMENT_TURN_DURATION_MS / 4) * m.getMoveCost() / m.getMaxAP(); // TODO remove, testing
-		}
 		return Constants.MONSTER_MOVEMENT_TURN_DURATION_MS * m.getMoveCost() / m.getMaxAP();
 	}
 	
