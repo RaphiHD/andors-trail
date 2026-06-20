@@ -1,43 +1,27 @@
 package com.gpl.rpg.AndorsTrail.model.map;
 
+import com.gpl.rpg.AndorsTrail.context.WorldContext;
+import com.gpl.rpg.AndorsTrail.model.ChecksumBuilder;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-public final class TravelDestinationArea {
-	public final String mapID;
-	public final CoordRect area;
-	public final String areaID;
-	public final List<Monster> monsters = new CopyOnWriteArrayList<>();
-
+public final class TravelDestinationArea extends MapArea {
 	public TravelDestinationArea(
 			String mapID,
 			CoordRect area
 			, String areaID
 	) {
-		this.mapID = mapID;
-		this.area = area;
-		this.areaID = areaID;
+        super(area, areaID, mapID);
 	}
 
-	public Monster getMonsterAt(final Coord p) { return getMonsterAt(p.x, p.y); }
-	public Monster getMonsterAt(final int x, final int y) {
-		for (Monster m : monsters) {
-			if (m.rectPosition.contains(x, y)) return m;
-		}
-		return null;
-	}
-	public Monster getMonsterAt(final CoordRect p) {
-		for (Monster m : monsters) {
-			if (m.rectPosition.intersects(p)) return m;
-		}
-		return null;
-	}
-
-  public void onMonsterArrived(Monster monster) {
+    public void onMonsterArrived(Monster monster) {
     monster.travelDestination = null;
 		// EVTL set current movement box to here (separate from spawn area)
 
@@ -49,4 +33,28 @@ public final class TravelDestinationArea {
 		// execute steps like "stay 10", "goto destArea2", ...
 	}
 
+
+	// ====== PARCELABLE ===================================================================
+
+	public void readFromParcel(DataInputStream src, WorldContext world, int fileversion) throws IOException {
+		monsters.clear();
+		int quantity = src.readInt();
+		for(int i = 0; i < quantity; ++i) {
+			monsters.add(Monster.newFromParcel(src, world, fileversion, this));
+		}
+	}
+
+	public void writeToParcel(DataOutputStream dest) throws IOException {
+		dest.writeInt(monsters.size());
+		for (Monster m : monsters) {
+			m.writeToParcel(dest);
+		}
+	}
+
+	public void addToChecksum(ChecksumBuilder builder) {
+		builder.add(monsters.size());
+		for (Monster m : monsters) {
+			m.addToChecksum(builder);
+		}
+	}
 }

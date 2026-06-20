@@ -226,7 +226,7 @@ public final class MonsterMovementController implements EvaluateWalkable {
 
 	@Override
 	public boolean isWalkable(CoordRect r, Monster m) {
-		return monsterCanMoveTo(null, world.model.currentMaps.map, world.model.currentMaps.tileMap, r, m.area.ignoreAreas);
+		return monsterCanMoveTo(null, world.model.currentMaps.map, world.model.currentMaps.tileMap, r, m.ignoreAreas);
 	}
 
 	public void moveMonsterToNextPosition(final Monster m, final PredefinedMap map) {
@@ -251,8 +251,12 @@ public final class MonsterMovementController implements EvaluateWalkable {
 		}, 0);
 	}
 
-	public void beginTravel(final Monster m, final String destinationID) {
-		m.travelDestination = world.maps.travelDestinationAreas.get(destinationID);
-		m.movementDestination = null;
+	public void beginTravel(final Monster m, final String mapID, final String destinationID) {
+		for (TravelDestinationArea a : world.maps.findPredefinedMap(mapID).destinationAreas) {
+			if (a.areaID.equals(destinationID)) {
+				m.travelDestination = a;
+				m.movementDestination = null;
+			}
+		}
 	}
 }

@@ -18,7 +18,6 @@ import com.gpl.rpg.AndorsTrail.util.L;
 public final class MapCollection {
 	private final HashMap<String, PredefinedMap> predefinedMaps = new HashMap<String, PredefinedMap>();
 	public final HashMap<String, WorldMapSegment> worldMapSegments = new HashMap<String, WorldMapSegment>();
-	public final HashMap<String, TravelDestinationArea> travelDestinationAreas = new HashMap<>();
 	public boolean worldMapRequiresUpdate = true;
 
 	public MapCollection() {}
@@ -26,12 +25,6 @@ public final class MapCollection {
 	public void addAll(ArrayList<PredefinedMap> mapsToAdd) {
 		for (PredefinedMap map : mapsToAdd) {
 			predefinedMaps.put(map.name, map);
-
-			if (map.destinationAreas != null) {
-				for (TravelDestinationArea area : map.destinationAreas) {
-					travelDestinationAreas.put(area.areaID, area);
-				}
-			}
 		}
 	}
 

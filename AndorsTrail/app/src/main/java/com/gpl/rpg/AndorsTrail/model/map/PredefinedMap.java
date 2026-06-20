@@ -273,6 +273,7 @@ public final class PredefinedMap {
 		if (fileversion >= 37) shouldLoadMapData = src.readBoolean();
 
 		int loadedSpawnAreas = 0;
+		int loadedDestinationAreas = 0;
 		if (shouldLoadMapData) {
 			loadedSpawnAreas = src.readInt();
 			for(int i = 0; i < loadedSpawnAreas; ++i) {
@@ -302,6 +303,15 @@ public final class PredefinedMap {
 				} else {
 					this.spawnAreas[i].readFromParcel(src, world, fileversion);
 				}
+			}
+			loadedDestinationAreas = src.readInt();
+			for(int i = 0; i < loadedDestinationAreas; ++i) {
+				if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
+					if (i >= this.destinationAreas.length) {
+						L.log("WARNING: Trying to load monsters from savegame in map " + this.name + " for destination #" + i + ". This will totally fail.");
+					}
+				}
+				this.destinationAreas[i].readFromParcel(src, world, fileversion);
 			}
 			
 			activeMapObjectGroups.clear();

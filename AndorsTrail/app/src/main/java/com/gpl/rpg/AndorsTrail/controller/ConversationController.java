@@ -159,7 +159,7 @@ public final class ConversationController {
 				changeIcon(res, player, effect.effectID, effect.value );
 				break;
 			case setDestination:
-				setTravelDestination(npc, effect.effectID);
+				setTravelDestination(npc, effect.mapName, effect.effectID);
 				break;
 		}
 	}
@@ -239,8 +239,8 @@ public final class ConversationController {
 		}
 	}
 
-	private void setTravelDestination(Monster monster, String destinationID) {
-		this.controllers.monsterMovementController.beginTravel(monster, destinationID);
+	private void setTravelDestination(Monster monster, String mapID, String destinationID) {
+		if (mapID != null) this.controllers.monsterMovementController.beginTravel(monster, mapID, destinationID);
 	}
 
 	private void addAlignmentReward(Player player, String faction, int delta) {

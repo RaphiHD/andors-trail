@@ -12,6 +12,7 @@ import com.gpl.rpg.AndorsTrail.model.ability.SkillCollection;
 import com.gpl.rpg.AndorsTrail.model.item.DropList;
 import com.gpl.rpg.AndorsTrail.model.item.ItemContainer;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
+import com.gpl.rpg.AndorsTrail.model.map.MapArea;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
 import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
 import com.gpl.rpg.AndorsTrail.savegames.LegacySavegameFormatReaderForMonster;
@@ -26,17 +27,17 @@ public final class Monster extends Actor {
 	public long nextActionTime = 0;
 	public String currentMapID;
 	public final CoordRect nextPosition;
-	public boolean ignoreAreas;
+	public boolean ignoreAreas = false;
 
 	private boolean forceAggressive = false;
 	private ItemContainer shopItems = null;
 
 	public final MonsterType monsterType;
-	public final MonsterSpawnArea area;
+	public final MapArea area;
 
 	public final boolean isFlippedX;
 
-	public Monster(MonsterType monsterType, MonsterSpawnArea area) {
+	public Monster(MonsterType monsterType, MapArea area) {
 		super(monsterType.tileSize, false, monsterType.isImmuneToCriticalHits());
 		this.monsterType = monsterType;
 		this.area = area;
@@ -44,7 +45,7 @@ public final class Monster extends Actor {
 		this.isFlippedX = Constants.roll100(monsterType.horizontalFlipChance);
 		this.currentMapID = area.mapID;
 		this.nextPosition = new CoordRect(new Coord(), monsterType.tileSize);
-		this.ignoreAreas = area.ignoreAreas;
+		if (area instanceof MonsterSpawnArea) this.ignoreAreas = ((MonsterSpawnArea) area).ignoreAreas;
 		resetStatsToBaseTraits();
 		this.ap.setMax();
 		this.health.setMax();
@@ -112,19 +113,20 @@ public final class Monster extends Actor {
 
 	// ====== PARCELABLE ===================================================================
 
-	public static Monster newFromParcel(DataInputStream src, WorldContext world, int fileversion, MonsterSpawnArea area) throws IOException {
+	public static Monster newFromParcel(DataInputStream src, WorldContext world, int fileversion, MapArea area) throws IOException {
 		String monsterTypeId = src.readUTF();
 		if (fileversion < 20) {
 			monsterTypeId = monsterTypeId.replace(' ', '_').replace("\\'", "").toLowerCase();
 		}
 		MonsterType monsterType = world.monsterTypes.getMonsterType(monsterTypeId);
 
-		if (fileversion < 25) return LegacySavegameFormatReaderForMonster.newFromParcel_pre_v25(src, fileversion, monsterType, area);
-
+		if (fileversion < 25 && area instanceof MonsterSpawnArea) {
+			return LegacySavegameFormatReaderForMonster.newFromParcel_pre_v25(src, fileversion, monsterType, (MonsterSpawnArea) area);
+		}
 		return new Monster(src, world, fileversion, monsterType, area);
 	}
 
-	private Monster(DataInputStream src, WorldContext world, int fileversion, MonsterType monsterType, MonsterSpawnArea area) throws IOException {
+	private Monster(DataInputStream src, WorldContext world, int fileversion, MonsterType monsterType, MapArea area) throws IOException {
 		this(monsterType, area);
 
 		boolean readCombatTraits = true;
@@ -163,6 +165,8 @@ public final class Monster extends Actor {
 				this.shopItems = ItemContainer.newFromParcel(src, world, fileversion);
 			}
 		}
+
+		this.ignoreAreas = src.readBoolean();
 	}
 
 	public void writeToParcel(DataOutputStream dest) throws IOException {
@@ -202,6 +206,8 @@ public final class Monster extends Actor {
 		} else {
 			dest.writeBoolean(false);
 		}
+
+		dest.writeBoolean(ignoreAreas);
 	}
 
 	public void addToChecksum(ChecksumBuilder builder) {
@@ -241,5 +247,7 @@ public final class Monster extends Actor {
 		} else {
 			builder.add(false);
 		}
+
+		builder.add(ignoreAreas);
 	}
 }
