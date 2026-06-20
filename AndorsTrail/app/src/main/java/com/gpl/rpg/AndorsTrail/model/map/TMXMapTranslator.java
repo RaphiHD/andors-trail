@@ -163,6 +163,7 @@ public final class TMXMapTranslator {
 								,ignoreAreas
 								,group.name
 								,isActiveForNewGame
+								,m.name
 						);
 						spawnAreas.add(area);
 					} else if (object.type.equalsIgnoreCase("destination")) {

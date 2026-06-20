@@ -1,6 +1,5 @@
 package com.gpl.rpg.AndorsTrail.controller;
 
-import static com.gpl.rpg.AndorsTrail.controller.CombatController.BeginTurnAs.player;
 import static com.gpl.rpg.AndorsTrail.controller.SkillController.canLevelupSkillWithQuest;
 
 import java.util.ArrayList;
@@ -18,7 +17,6 @@ import com.gpl.rpg.AndorsTrail.model.ability.SkillCollection;
 import com.gpl.rpg.AndorsTrail.model.ability.SkillInfo;
 import com.gpl.rpg.AndorsTrail.model.actor.Actor;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
-import com.gpl.rpg.AndorsTrail.model.actor.MonsterType;
 import com.gpl.rpg.AndorsTrail.model.actor.Player;
 import com.gpl.rpg.AndorsTrail.model.conversation.ConversationCollection;
 import com.gpl.rpg.AndorsTrail.model.conversation.Phrase;
@@ -26,7 +24,6 @@ import com.gpl.rpg.AndorsTrail.model.conversation.Reply;
 import com.gpl.rpg.AndorsTrail.model.item.ItemTypeCollection;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
-import com.gpl.rpg.AndorsTrail.model.map.MapCollection;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
@@ -161,7 +158,7 @@ public final class ConversationController {
 			case changeIcon:
 				changeIcon(res, player, effect.effectID, effect.value );
 				break;
-			case setTravelDestination:
+			case setDestination:
 				setTravelDestination(npc, effect.effectID);
 				break;
 		}

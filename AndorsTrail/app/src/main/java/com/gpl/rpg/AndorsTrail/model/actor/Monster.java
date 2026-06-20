@@ -24,6 +24,7 @@ public final class Monster extends Actor {
 	public Coord movementDestination = null;
 	public TravelDestinationArea travelDestination = null;
 	public long nextActionTime = 0;
+	public String currentMapID;
 	public final CoordRect nextPosition;
 	public boolean ignoreAreas;
 
@@ -41,6 +42,7 @@ public final class Monster extends Actor {
 		this.area = area;
 		this.iconID = monsterType.iconID;
 		this.isFlippedX = Constants.roll100(monsterType.horizontalFlipChance);
+		this.currentMapID = area.mapID;
 		this.nextPosition = new CoordRect(new Coord(), monsterType.tileSize);
 		this.ignoreAreas = area.ignoreAreas;
 		resetStatsToBaseTraits();

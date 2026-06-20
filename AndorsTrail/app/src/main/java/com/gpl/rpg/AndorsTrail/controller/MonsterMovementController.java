@@ -27,8 +27,9 @@ public final class MonsterMovementController implements EvaluateWalkable {
 
 	public void moveMonsters() {
 		long currentTime = System.currentTimeMillis();
+		PredefinedMap currentMap = world.model.currentMaps.map;
 
-		for (MonsterSpawnArea a : world.model.currentMaps.map.spawnAreas) {
+		for (MonsterSpawnArea a : currentMap.spawnAreas) {
 			for (Monster m : a.monsters) {
 				if (m.nextActionTime <= currentTime) {
 					moveMonster(m, a.area, a.ignoreAreas);
@@ -36,7 +37,7 @@ public final class MonsterMovementController implements EvaluateWalkable {
 			}
 		}
 
-		for (TravelDestinationArea a : world.model.currentMaps.map.destinationAreas) {
+		for (TravelDestinationArea a : currentMap.destinationAreas) {
 			for (Monster m : a.monsters) {
 				if (m.nextActionTime <= currentTime) {
 					moveMonster(m, a.area, m.ignoreAreas);
@@ -44,14 +45,21 @@ public final class MonsterMovementController implements EvaluateWalkable {
 			}
 		}
 
-		// Move every monster that is freely travelling (outside spawn area)
-		for (Monster m : world.model.currentMaps.map.travellingMonsters) {
-			// TODO spawn on map if not there yet (if just mapchanged)
-
-			if (m.nextActionTime <= currentTime) {
-				moveMonster(m, new CoordRect(new Coord(0, 0), world.model.currentMaps.map.size), m.ignoreAreas);
-			}
-		}
+		// Move every monster that is freely traveling (outside spawn area)
+//		for (Monster m : getTravellingMonsters()) { // TODO implement
+//			// TODO make this only monsters that could be on this map
+//			if (m.currentMapID.equals(currentMap.name)) {
+//				// Monster is on map, move him regularly
+//				if (m.nextActionTime <= currentTime) {
+//					moveMonster(m, new CoordRect(new Coord(0, 0), currentMap.size), m.ignoreAreas);
+//				}
+//			} else {
+//				// Monster is not on map
+//
+//				// Check if monster should be on map right now
+//				// if so, spawn him at correct mapchange
+//			}
+//		}
 	}
 
 	public void attackWithAgressiveMonsters() {
@@ -144,10 +152,18 @@ public final class MonsterMovementController implements EvaluateWalkable {
 
 		// Monster is travelling on new map and needs a new movementDestination
 		if (m.travelDestination != null && m.movementDestination == null) {
-			// TODO check if travelDestination is on current Map, then pathfind to this area
+			m.movementDestination = m.travelDestination.area.topLeft;
 
-			// TODO apply internal pathfinding towards needed mapChange
-			m.movementDestination = new Coord(m.position); // PLACEHOLDER
+//			String mapchangeID = m.travelPath.getNextMapchange(); // TODO implement
+//			if (mapchangeID == null) {
+//				// Target map reached, pathfind locally to destinationArea
+//				m.movementDestination = m.travelDestination.area.topLeft; // TODO change topLeft to nearest
+//			} else {
+//				// Set movement destination to next mapchange
+//				m.movementDestination = getMapchangeByID(mapchangeID).position.topLeft; // TODO implement, also change topLeft to nearest
+//			}
+
+			// TODO currently, npc only walks straight lines, no diagonals. Or is it????
 		}
 
 		// Monster has waited and should start to move again.

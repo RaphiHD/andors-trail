@@ -31,7 +31,6 @@ public final class PredefinedMap {
 	public final MapObject[] eventObjects;
 	public final MonsterSpawnArea[] spawnAreas;
 	public final TravelDestinationArea[] destinationAreas;
-	public final List<Monster> travellingMonsters = new ArrayList<>();
 	public final List<String> initiallyActiveMapObjectGroups;
 	public final List<String> activeMapObjectGroups;
 	public final ArrayList<Loot> groundBags = new ArrayList<Loot>();

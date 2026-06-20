@@ -20,6 +20,7 @@ public final class MonsterSpawnArea {
 	public final Range quantity;
 	private final Range respawnspeed;
 	public final String areaID;
+	public final String mapID;
 	public final String[] monsterTypeIDs;
 	public final List<Monster> monsters = new CopyOnWriteArrayList<Monster>();
 	public final boolean isUnique; // unique == non-respawnable
@@ -38,6 +39,7 @@ public final class MonsterSpawnArea {
 			, boolean ignoreAreas
 			, String group
 			, boolean isSpawningForNewGame
+			, String mapID
 	) {
 		this.area = area;
 		this.quantity = quantity;
@@ -49,6 +51,7 @@ public final class MonsterSpawnArea {
 		this.group = group;
 		this.isSpawningForNewGame = isSpawningForNewGame;
 		this.isSpawning = isSpawningForNewGame;
+		this.mapID = mapID;
 	}
 
 	public Monster getMonsterAt(final Coord p) { return getMonsterAt(p.x, p.y); }
