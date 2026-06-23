@@ -57,7 +57,8 @@ public class PathFinder {
 				if (x < 0 || x >= maxWidth) continue;
 				int i = (y * maxWidth) + x;
 				nextStep.topLeft.x = x; nextStep.topLeft.y = y;
-				if (!map.isWalkable(nextStep, m)) continue;
+				if (m != null && !map.isWalkable(nextStep, m)) continue;
+				else if (!map.isWalkable(nextStep, true)) continue;
 				gScore[i] = 0;
 				int h = heuristic(measureDistanceTo.x, measureDistanceTo.y, x, y);
 				openSet.add(x, y, h);
@@ -94,7 +95,8 @@ public class PathFinder {
 
 					// check walkable using nextStep as scratch
 					nextStep.topLeft.x = nx; nextStep.topLeft.y = ny;
-					if (!map.isWalkable(nextStep, m)) continue;
+					if (m != null && !map.isWalkable(nextStep, m)) continue;
+					else if (!map.isWalkable(nextStep, true)) continue;
 
 					int moveCost = (dx == 0 || dy == 0) ? 10 : 14;
 					int tentativeG = gScore[ci] + moveCost;
