@@ -15,7 +15,7 @@ import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
 
-public final class MonsterMovementController implements EvaluateWalkable {
+public final class MonsterMovementController {
 	private final ControllerContext controllers;
 	private final WorldContext world;
 	public final MonsterMovementListeners monsterMovementListeners = new MonsterMovementListeners();
@@ -212,17 +212,17 @@ public final class MonsterMovementController implements EvaluateWalkable {
 		return 0;
 	}
 
-	private final PathFinder pathfinder = new PathFinder(Constants.MAX_MAP_WIDTH, Constants.MAX_MAP_HEIGHT, this);
+	private final PathFinder pathfinder = new PathFinder(Constants.MAX_MAP_WIDTH, Constants.MAX_MAP_HEIGHT, new EvaluateWalkable() {
+		@Override
+		public boolean isWalkable(CoordRect r, Monster m) {
+			return monsterCanMoveTo(m, world.model.currentMaps.map, world.model.currentMaps.tileMap, r, m.ignoreAreas);
+		}
+	});
 	public boolean findPathFor(Monster m, CoordRect to) {
 		return pathfinder.findPathBetween(m.rectPosition, to, m.nextPosition, m);
 	}
 	public boolean findPathFor(Monster m, Coord to) {
 		return pathfinder.findPathBetween(m.rectPosition, to, m.nextPosition, m);
-	}
-
-	@Override
-	public boolean isWalkable(CoordRect r, Monster m) {
-		return monsterCanMoveTo(null, world.model.currentMaps.map, world.model.currentMaps.tileMap, r, m.ignoreAreas);
 	}
 
 	public void moveMonsterToNextPosition(final Monster m, final PredefinedMap map) {

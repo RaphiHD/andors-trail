@@ -1,7 +1,6 @@
 package com.gpl.rpg.AndorsTrail.controller;
 
 import java.util.Arrays;
-// Use a primitive heap implementation for performance (avoid object allocations)
 
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.util.Coord;
