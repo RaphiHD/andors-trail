@@ -50,8 +50,8 @@ public final class PredefinedMap {
 	public final ArrayList<BloodSplatter> splatters = new ArrayList<BloodSplatter>();
 
 	public final PathFinder pathfinder;
-	private final int[][] mapchangeDistances;
-	private final HashMap<String, Integer> mapchangeIndices;
+	private int[][] mapchangeDistances;
+	private HashMap<String, Integer> mapchangeIndices;
 
 	public PredefinedMap(
 			int xmlResourceId
@@ -82,21 +82,7 @@ public final class PredefinedMap {
 		this.initialColorFilter = colorFilter;
 
 		this.pathfinder = new PathFinder(size.width, size.height, this);
-
-		List<String> mapchangeIds = new ArrayList<String>();
-		for (MapObject o : eventObjects) {
-			if (o.type == MapObjectType.newmap) {
-				if (!mapchangeIds.contains(o.id)) {
-					mapchangeIds.add(o.id);
-				}
-			}
-		}
-		int count = mapchangeIds.size();
-		mapchangeDistances = new int[count][count];
-		mapchangeIndices = new HashMap<String, Integer>(count);
-		for (int i = 0; i < count; i++) {
-			mapchangeIndices.put(mapchangeIds.get(i), i);
-		}
+		this.calculateDistanceMatrix();
 
 		if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
 			for (int i = 0; i < spawnAreas.length; i++) {
@@ -180,35 +166,6 @@ public final class PredefinedMap {
 		}
 	}
 
-	public void fillMapchangeDistances(PathFinder pathfinder) {
-		int count = mapchangeDistances.length;
-		if (count <= 1) return;
-
-		MapObject[] mapchanges = new MapObject[count];
-		for (MapObject o : eventObjects) {
-			if (o.type == MapObjectType.newmap) {
-				Integer index = mapchangeIndices.get(o.id);
-				if (index != null && mapchanges[index] == null) {
-					mapchanges[index] = o;
-				}
-			}
-		}
-
-		CoordRect nextStep = new CoordRect(new Size(1, 1));
-		for (int i = 0; i < count; i++) {
-			if (mapchanges[i] == null) continue;
-			Coord c1 = mapchanges[i].position.getCenter();
-			for (int j = i + 1; j < count; j++) {
-				if (mapchanges[j] == null) continue;
-				Coord c2 = mapchanges[j].position.getCenter();
-
-				pathfinder.findPathBetween(new CoordRect(c1, new Size(1, 1)), c2, nextStep, null);
-				int dist = pathfinder.getLastPathDistance();
-				mapchangeDistances[i][j] = dist;
-				mapchangeDistances[j][i] = dist;
-			}
-		}
-	}
 	public List<MapObject> getActiveEventObjectsAt(final Coord p) {
 		List<MapObject> result = null;
 		for (MapObject o : eventObjects) {
@@ -364,6 +321,55 @@ public final class PredefinedMap {
 				if (o.group.equals(group)) {
 					o.isActive = false;
 				}
+			}
+		}
+	}
+
+	public void calculateDistanceMatrix() {
+		List<String> mapchangeIds = new ArrayList<>();
+		for (MapObject o : eventObjects) {
+			if (o.type == MapObjectType.newmap) {
+				if (!mapchangeIds.contains(o.id)) {
+					mapchangeIds.add(o.id);
+				}
+			}
+		}
+		int count = mapchangeIds.size();
+		mapchangeDistances = new int[count][count];
+		mapchangeIndices = new HashMap<>(count);
+		for (int i = 0; i < count; i++) {
+			mapchangeIndices.put(mapchangeIds.get(i), i);
+		}
+
+		fillMapchangeDistances(pathfinder);
+	}
+
+	private void fillMapchangeDistances(PathFinder pathfinder) {
+		int count = mapchangeDistances.length;
+		if (count <= 1) return;
+
+		MapObject[] mapchanges = new MapObject[count];
+		for (MapObject o : eventObjects) {
+			if (o.type == MapObjectType.newmap) {
+				Integer index = mapchangeIndices.get(o.id);
+				if (index != null && mapchanges[index] == null) {
+					mapchanges[index] = o;
+				}
+			}
+		}
+
+		CoordRect nextStep = new CoordRect(new Size(1, 1));
+		for (int i = 0; i < count; i++) {
+			if (mapchanges[i] == null) continue;
+			Coord c1 = mapchanges[i].position.getCenter();
+			for (int j = i + 1; j < count; j++) {
+				if (mapchanges[j] == null) continue;
+				Coord c2 = mapchanges[j].position.getCenter();
+
+				pathfinder.findPathBetween(new CoordRect(c1, new Size(1, 1)), c2, nextStep);
+				int dist = pathfinder.getLastPathDistance();
+				mapchangeDistances[i][j] = dist;
+				mapchangeDistances[j][i] = dist;
 			}
 		}
 	}

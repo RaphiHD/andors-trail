@@ -31,6 +31,9 @@ public class PathFinder {
 	public boolean findPathBetween(final CoordRect from, final Coord to, CoordRect nextStep) {
 		return findPathBetween(from, new CoordRect(to, new Size(1, 1)), nextStep, null);
 	}
+	public boolean findPathBetween(final CoordRect from, final CoordRect to, CoordRect nextStep) {
+		return findPathBetween(from, to, nextStep, null);
+	}
 	public boolean findPathBetween(final CoordRect from, final Coord to, CoordRect nextStep, Monster m) {
 		return findPathBetween(from, new CoordRect(to, new Size(1, 1)), nextStep, m);
 	}
