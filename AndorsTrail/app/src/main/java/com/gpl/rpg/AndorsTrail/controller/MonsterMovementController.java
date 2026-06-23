@@ -2,7 +2,6 @@ package com.gpl.rpg.AndorsTrail.controller;
 
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
-import com.gpl.rpg.AndorsTrail.controller.PathFinder.EvaluateWalkable;
 import com.gpl.rpg.AndorsTrail.controller.listeners.MonsterMovementListeners;
 import com.gpl.rpg.AndorsTrail.model.ability.SkillCollection;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
@@ -212,16 +211,12 @@ public final class MonsterMovementController {
 		return 0;
 	}
 
-	private final PathFinder pathfinder = new PathFinder(Constants.MAX_MAP_WIDTH, Constants.MAX_MAP_HEIGHT, new EvaluateWalkable() {
-		@Override
-		public boolean isWalkable(CoordRect r, Monster m) {
-			return monsterCanMoveTo(m, world.model.currentMaps.map, world.model.currentMaps.tileMap, r, m.ignoreAreas);
-		}
-	});
 	public boolean findPathFor(Monster m, CoordRect to) {
+		PathFinder pathfinder = world.maps.findPredefinedMap(m.currentMapID).pathfinder;
 		return pathfinder.findPathBetween(m.rectPosition, to, m.nextPosition, m);
 	}
 	public boolean findPathFor(Monster m, Coord to) {
+		PathFinder pathfinder = world.maps.findPredefinedMap(m.currentMapID).pathfinder;
 		return pathfinder.findPathBetween(m.rectPosition, to, m.nextPosition, m);
 	}
 

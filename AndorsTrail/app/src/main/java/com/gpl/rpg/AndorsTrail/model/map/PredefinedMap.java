@@ -1,9 +1,13 @@
 package com.gpl.rpg.AndorsTrail.model.map;
 
+import static com.gpl.rpg.AndorsTrail.controller.MonsterMovementController.monsterCanMoveTo;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -11,6 +15,7 @@ import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
+import com.gpl.rpg.AndorsTrail.controller.PathFinder;
 import com.gpl.rpg.AndorsTrail.controller.VisualEffectController.BloodSplatter;
 import com.gpl.rpg.AndorsTrail.model.ChecksumBuilder;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
@@ -28,6 +33,7 @@ public final class PredefinedMap {
 	public final int xmlResourceId;
 	public final String name;
 	public final Size size;
+	public final LayeredTileMap tileMap;
 	public final MapObject[] eventObjects;
 	public final MonsterSpawnArea[] spawnAreas;
 	public final TravelDestinationArea[] destinationAreas;
@@ -43,10 +49,15 @@ public final class PredefinedMap {
 
 	public final ArrayList<BloodSplatter> splatters = new ArrayList<BloodSplatter>();
 
+	public final PathFinder pathfinder;
+	private final int[][] mapchangeDistances;
+	private final HashMap<String, Integer> mapchangeIndices;
+
 	public PredefinedMap(
 			int xmlResourceId
 			, String name
 			, Size size
+			, LayeredTileMap tileMap
 			, MapObject[] eventObjects
 			, MonsterSpawnArea[] spawnAreas
 			, TravelDestinationArea[] destinationAreas
@@ -57,6 +68,7 @@ public final class PredefinedMap {
 		this.xmlResourceId = xmlResourceId;
 		this.name = name;
 		this.size = size;
+		this.tileMap = tileMap;
 		this.eventObjects = eventObjects;
 		this.spawnAreas = spawnAreas;
 		this.destinationAreas = destinationAreas;
@@ -68,6 +80,23 @@ public final class PredefinedMap {
 		assert(size.height > 0);
 		this.isOutdoors = isOutdoors;
 		this.initialColorFilter = colorFilter;
+
+		this.pathfinder = new PathFinder(size.width, size.height, this);
+
+		List<String> mapchangeIds = new ArrayList<String>();
+		for (MapObject o : eventObjects) {
+			if (o.type == MapObjectType.newmap) {
+				if (!mapchangeIds.contains(o.id)) {
+					mapchangeIds.add(o.id);
+				}
+			}
+		}
+		int count = mapchangeIds.size();
+		mapchangeDistances = new int[count][count];
+		mapchangeIndices = new HashMap<String, Integer>(count);
+		for (int i = 0; i < count; i++) {
+			mapchangeIndices.put(mapchangeIds.get(i), i);
+		}
 
 		if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
 			for (int i = 0; i < spawnAreas.length; i++) {
@@ -104,7 +133,29 @@ public final class PredefinedMap {
 	public boolean intersects(CoordRect area) {
 		return new CoordRect(new Coord(0,0), size).intersects(area);
 	}
-	
+
+	public boolean isWalkable(final CoordRect area, boolean ignoreAreas) {
+		if (!this.tileMap.isWalkable(area)) return false;
+
+		if (!ignoreAreas) {
+			for (MapObject mObj : this.eventObjects) {
+				if (mObj == null) continue;
+				if (!mObj.isActive) continue;
+				if (!mObj.position.intersects(area)) continue;
+				switch (mObj.type) {
+					case newmap:
+					case keyarea:
+					case rest:
+						return false;
+				}
+			}
+		}
+		return true;
+	}
+	public boolean isWalkable(final CoordRect area, Monster m) {
+		return monsterCanMoveTo(m, this, tileMap, area, m.ignoreAreas);
+	}
+
 	public MapObject findEventObject(MapObject.MapObjectType objectType, String name) {
 		for (MapObject o : eventObjects) {
 			if (o.type != objectType) continue;
@@ -112,6 +163,51 @@ public final class PredefinedMap {
 			return o;
 		}
 		return null;
+	}
+
+	public int getDistance(String id1, String id2) {
+		Integer i1 = mapchangeIndices.get(id1);
+		Integer i2 = mapchangeIndices.get(id2);
+		if (i1 == null || i2 == null) return -1;
+		return mapchangeDistances[i1][i2];
+	}
+
+	public void setDistance(String id1, String id2, int distance) {
+		Integer i1 = mapchangeIndices.get(id1);
+		Integer i2 = mapchangeIndices.get(id2);
+		if (i1 != null && i2 != null) {
+			mapchangeDistances[i1][i2] = distance;
+		}
+	}
+
+	public void fillMapchangeDistances(PathFinder pathfinder) {
+		int count = mapchangeDistances.length;
+		if (count <= 1) return;
+
+		MapObject[] mapchanges = new MapObject[count];
+		for (MapObject o : eventObjects) {
+			if (o.type == MapObjectType.newmap) {
+				Integer index = mapchangeIndices.get(o.id);
+				if (index != null && mapchanges[index] == null) {
+					mapchanges[index] = o;
+				}
+			}
+		}
+
+		CoordRect nextStep = new CoordRect(new Size(1, 1));
+		for (int i = 0; i < count; i++) {
+			if (mapchanges[i] == null) continue;
+			Coord c1 = mapchanges[i].position.getCenter();
+			for (int j = i + 1; j < count; j++) {
+				if (mapchanges[j] == null) continue;
+				Coord c2 = mapchanges[j].position.getCenter();
+
+				pathfinder.findPathBetween(new CoordRect(c1, new Size(1, 1)), c2, nextStep, null);
+				int dist = pathfinder.getLastPathDistance();
+				mapchangeDistances[i][j] = dist;
+				mapchangeDistances[j][i] = dist;
+			}
+		}
 	}
 	public List<MapObject> getActiveEventObjectsAt(final Coord p) {
 		List<MapObject> result = null;
