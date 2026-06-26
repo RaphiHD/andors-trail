@@ -3,6 +3,9 @@
         "id":"gorwath",
         "replies":[
             {
+                "nextPhraseID": "gorwath_debug"
+            },
+            {
                 "nextPhraseID":"gorwath_done",
                 "requires":[
                     {
@@ -44,6 +47,142 @@
             },
             {
                 "nextPhraseID":"gorwath_letter"
+            }
+        ]
+    },
+    {
+        "id": "gorwath_debug",
+        "message": "Travel Destination choose",
+        "replies": [
+            {
+                "text": "isTravelling",
+                "nextPhraseID": "X",
+                "requires": [
+                    {
+                        "requireType": "isTravelling",
+                        "requireID": ""
+                    }
+                ]
+            },
+            {
+                "text": "onMap Crossglen",
+                "nextPhraseID": "X",
+                "requires": [
+                    {
+                        "requireType": "onMap",
+                        "requireID": "crossglen"
+                    }
+                ]
+            },
+            {
+                "text": "onMap bwmfill10",
+                "nextPhraseID": "X",
+                "requires": [
+                    {
+                        "requireType": "onMap",
+                        "requireID": "bwmfill10"
+                    }
+                ]
+            },
+            {
+                "text": "inArea gorwath",
+                "nextPhraseID": "X",
+                "requires": [
+                    {
+                        "requireType": "inArea",
+                        "requireID": "gorwath"
+                    }
+                ]
+            },
+            {
+                "text": "inArea destArea1",
+                "nextPhraseID": "X",
+                "requires": [
+                    {
+                        "requireType": "inArea",
+                        "requireID": "destArea1"
+                    }
+                ]
+            },
+            {
+                "text": "Go to area1",
+                "nextPhraseID": "gorwath_debug_1"
+            },
+            {
+                "text": "Go to area2",
+                "nextPhraseID": "gorwath_debug_2"
+            },
+            {
+                "text": "Go to area3",
+                "nextPhraseID": "gorwath_debug_3"
+            },
+            {
+                "text": "Go to area1 - wild1",
+                "nextPhraseID": "gorwath_debug_4"
+            },
+            {
+                "text": "Go to area2 - wild1",
+                "nextPhraseID": "gorwath_debug_5"
+            }
+        ]
+    },
+    {
+        "id": "gorwath_debug_1",
+        "message": "Travel Destination set to 1",
+        "rewards": [
+            {
+                "rewardType":"setDestination",
+                "rewardID":"destArea1",
+                "value":0,
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id": "gorwath_debug_2",
+        "message": "Travel Destination set to 2",
+        "rewards": [
+            {
+                "rewardType":"setDestination",
+                "rewardID":"destArea2",
+                "value":0,
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id": "gorwath_debug_3",
+        "message": "Travel Destination set to 3",
+        "rewards": [
+            {
+                "rewardType":"setDestination",
+                "rewardID":"destArea3",
+                "value":0,
+                "mapName":"crossglen"
+            }
+        ]
+    },
+    {
+        "id": "gorwath_debug_4",
+        "message": "Travel Destination set to 1 on wild1",
+        "rewards": [
+            {
+                "rewardType":"setDestination",
+                "rewardID":"destArea1",
+                "value":0,
+                "mapName":"wild1"
+            }
+        ]
+    },
+    {
+        "id": "gorwath_debug_5",
+        "message": "Travel Destination set to 2 on wild1",
+        "rewards": [
+            {
+                "rewardType":"setDestination",
+                "rewardID":"destArea2",
+                "value":0,
+                "mapName":"wild1"
             }
         ]
     },
