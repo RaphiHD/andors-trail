@@ -52,20 +52,19 @@ public final class LayeredTileMap {
 		this.currentLayout = layout;
 		this.replacements = replacements;
 		this.originalColorFilter = colorFilter;
-		colorFilter = originalColorFilter;
-		this.usedTileIDs = usedTileIDs;
+        this.usedTileIDs = usedTileIDs;
 		this.currentLayoutHash = currentLayout.calculateHash(colorFilter.name());
 	}
 
-	public final boolean isWalkable(final Coord p) {
+	public boolean isWalkable(final Coord p) {
 		if (isOutside(p.x, p.y)) return false;
 		return currentLayout.isWalkable[p.x][p.y];
 	}
-	public final boolean isWalkable(final int x, final int y) {
+	public boolean isWalkable(final int x, final int y) {
 		if (isOutside(x, y)) return false;
 		return currentLayout.isWalkable[x][y];
 	}
-	public final boolean isWalkable(final CoordRect p) {
+	public boolean isWalkable(final CoordRect p) {
 		for (int y = 0; y < p.size.height; ++y) {
 			for (int x = 0; x < p.size.width; ++x) {
 				if (!isWalkable(p.topLeft.x + x, p.topLeft.y + y)) return false;
@@ -73,15 +72,15 @@ public final class LayeredTileMap {
 		}
 		return true;
 	}
-	public final boolean isOutside(final Coord p) { return isOutside(p.x, p.y); }
-	public final boolean isOutside(final int x, final int y) {
+	public boolean isOutside(final Coord p) { return isOutside(p.x, p.y); }
+	public boolean isOutside(final int x, final int y) {
 		if (x < 0) return true;
 		if (y < 0) return true;
 		if (x >= size.width) return true;
 		if (y >= size.height) return true;
 		return false;
 	}
-	public final boolean isOutside(final CoordRect area) {
+	public boolean isOutside(final CoordRect area) {
 		if (isOutside(area.topLeft)) return true;
 		if (area.topLeft.x + area.size.width > size.width) return true;
 		if (area.topLeft.y + area.size.height > size.height) return true;
