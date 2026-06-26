@@ -156,11 +156,11 @@ public final class MonsterMovementController {
 			String destinationID = m.travelPath.getNextDestination();
 			if (destinationID == null) {
 				// Target map reached, pathfind locally to destinationArea
-
 				if (m.travelDestination.area.contains(m.position)) {
 					// Destination reached
 					m.travelDestination.onMonsterArrived(m);
 				} else if (findPathFor(m, m.travelDestination.area)) {
+					// Pathfind locally to destinationArea
 					return;
 				}
 			} else {

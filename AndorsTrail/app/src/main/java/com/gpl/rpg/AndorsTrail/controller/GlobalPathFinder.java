@@ -3,6 +3,7 @@ package com.gpl.rpg.AndorsTrail.controller;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
+import com.gpl.rpg.AndorsTrail.util.L;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -20,17 +21,20 @@ public class GlobalPathFinder {
 	}
 
 	public GlobalPath findPath(String fromMapName, String toMapName) {
+		L.log("PATHFINDER: finding path between " + fromMapName + " and " + toMapName);
+
 		if (fromMapName == null || toMapName == null || fromMapName.equals(toMapName)) {
-			return new GlobalPath(new ArrayList<String>());
+			L.log("PATHFINDER: from and to are on the same map");
+			return new GlobalPath(new ArrayList<>());
 		}
 
 		class Node {
 			final PredefinedMap map;
-			final MapObject portal;
+			final MapObject mapchange;
 
-			Node(PredefinedMap map, MapObject portal) {
+			Node(PredefinedMap map, MapObject mapchange) {
 				this.map = map;
-				this.portal = portal;
+				this.mapchange = mapchange;
 			}
 
 			@Override
@@ -38,12 +42,12 @@ public class GlobalPathFinder {
 				if (this == o) return true;
 				if (o == null || getClass() != o.getClass()) return false;
 				Node node = (Node) o;
-				return map.name.equals(node.map.name) && portal.id.equals(node.portal.id);
+				return map.name.equals(node.map.name) && mapchange.id.equals(node.mapchange.id);
 			}
 
 			@Override
 			public int hashCode() {
-				return map.name.hashCode() * 31 + portal.id.hashCode();
+				return map.name.hashCode() * 31 + mapchange.id.hashCode();
 			}
 		}
 
@@ -58,12 +62,7 @@ public class GlobalPathFinder {
 
 		final Map<Node, Integer> distances = new HashMap<>();
 		final Map<Node, Node> previous = new HashMap<>();
-		PriorityQueue<NodeDistance> pq = new PriorityQueue<>(new Comparator<NodeDistance>() {
-			@Override
-			public int compare(NodeDistance n1, NodeDistance n2) {
-				return Integer.compare(n1.dist, n2.dist);
-			}
-		});
+		PriorityQueue<NodeDistance> pq = new PriorityQueue<>(Comparator.comparingInt(n -> n.dist));
 
 		for (PredefinedMap m : world.maps.getAllMaps()) {
 			for (MapObject o : m.eventObjects) {
@@ -88,17 +87,17 @@ public class GlobalPathFinder {
 			if (uDist == Integer.MAX_VALUE) break;
 			if (uDist > distances.get(u)) continue;
 
-			if (u.portal.map.equals(toMapName)) {
+			if (u.mapchange.map.equals(toMapName)) {
 				targetNode = u;
 				break;
 			}
 
-			// Same map: portals are connected via distanceMatrix
+			// Same map: mapchanges are connected via distanceMatrix
 			for (MapObject vObj : u.map.eventObjects) {
 				if (vObj.type != MapObject.MapObjectType.newmap) continue;
-				if (vObj == u.portal) continue;
+				if (vObj == u.mapchange) continue;
 
-				int d = u.map.getDistance(u.portal.id, vObj.id);
+				int d = u.map.getDistance(u.mapchange.id, vObj.id);
 				if (d < 0) continue;
 
 				Node v = new Node(u.map, vObj);
@@ -110,19 +109,18 @@ public class GlobalPathFinder {
 				}
 			}
 
-			// Across portal: transition to next map (distance 0)
-			PredefinedMap nextMap = world.maps.findPredefinedMap(u.portal.map);
+			// Across mapchange: transition to next map (distance 0)
+			PredefinedMap nextMap = world.maps.findPredefinedMap(u.mapchange.map);
 			if (nextMap != null) {
 				for (MapObject vObj : nextMap.eventObjects) {
 					if (vObj.type != MapObject.MapObjectType.newmap) continue;
-					if (vObj.id.equals(u.portal.place)) {
+					if (vObj.id.equals(u.mapchange.place)) {
 						Node v = new Node(nextMap, vObj);
-						int alt = uDist;
-						Integer vDist = distances.get(v);
-						if (vDist != null && alt < vDist) {
-							distances.put(v, alt);
+                        Integer vDist = distances.get(v);
+						if (vDist != null && uDist < vDist) {
+							distances.put(v, uDist);
 							previous.put(v, u);
-							pq.add(new NodeDistance(v, alt));
+							pq.add(new NodeDistance(v, uDist));
 						}
 						break;
 					}
@@ -130,12 +128,12 @@ public class GlobalPathFinder {
 			}
 		}
 
-		if (targetNode == null) return new GlobalPath(new ArrayList<String>());
+		if (targetNode == null) return new GlobalPath(new ArrayList<>());
 
 		List<String> path = new ArrayList<>();
 		Node curr = targetNode;
 		while (curr != null) {
-			path.add(curr.portal.id);
+			path.add(curr.mapchange.id);
 			Node p = previous.get(curr);
 			while (p != null && p.map.name.equals(curr.map.name)) {
 				p = previous.get(p);
@@ -143,6 +141,8 @@ public class GlobalPathFinder {
 			curr = p;
 		}
 		Collections.reverse(path);
+
+		L.log("PATHFINDER: found path: " + path);
 		return new GlobalPath(path);
 	}
 
@@ -156,7 +156,7 @@ public class GlobalPathFinder {
 
 		public String getNextDestination() {
 			if (currentPosition >= path.size()) return null;
-			return path.get(currentPosition++);
+			return path.get(currentPosition);
 		}
 	}
 }
