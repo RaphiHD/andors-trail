@@ -1,11 +1,14 @@
 package com.gpl.rpg.AndorsTrail.controller;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
+import com.gpl.rpg.AndorsTrail.util.L;
 import com.gpl.rpg.AndorsTrail.util.Size;
 
 public class PathFinder {
@@ -13,9 +16,14 @@ public class PathFinder {
 	private final int maxHeight;
 	private final boolean[] visited;
 	private final int[] gScore;
+	private final int[] predecessor;
 	private final OpenSetHeap openSet;
 	private final PredefinedMap map;
 	private int lastPathDistance = -1;
+
+	public static volatile boolean showPathfinderDebug = false;
+	public final boolean[] last_visited;
+	public final List<Coord> last_path = new ArrayList<Coord>();
 
 	public int getLastPathDistance() { return lastPathDistance; }
 
@@ -25,7 +33,9 @@ public class PathFinder {
 		this.map = map;
 		this.visited = new boolean[maxWidth*maxHeight];
 		this.gScore = new int[maxWidth*maxHeight];
+		this.predecessor = new int[maxWidth*maxHeight];
 		this.openSet = new OpenSetHeap(maxWidth*maxHeight);
+		this.last_visited = new boolean[maxWidth*maxHeight];
 	}
 
 	public boolean findPathBetween(final CoordRect from, final Coord to, CoordRect nextStep) {
@@ -39,9 +49,20 @@ public class PathFinder {
 	}
 
 	public boolean findPathBetween(final CoordRect from, final CoordRect to, CoordRect nextStep, Monster m) {
+		L.log("PATHFINDER: finding path between "
+				+ "(" + from.topLeft.x + ", " + from.topLeft.y + ")"
+				+ " and "
+				+ "(" + to.topLeft.x + ", " + to.topLeft.y + ")");
+
 		lastPathDistance = -1;
 		if (from.intersects(to)) {
 			lastPathDistance = 0;
+			if (showPathfinderDebug) {
+				synchronized (last_path) {
+					last_path.clear();
+					Arrays.fill(last_visited, false);
+				}
+			}
 			return false;
 		}
 
@@ -51,6 +72,7 @@ public class PathFinder {
 
 		Arrays.fill(visited, false);
 		Arrays.fill(gScore, Integer.MAX_VALUE / 4);
+		Arrays.fill(predecessor, -1);
 		openSet.clear();
 
 		// seed open set with all reachable tiles in `to` rectangle
@@ -67,11 +89,29 @@ public class PathFinder {
 				openSet.add(x, y, h);
 			}
 		}
-		if (openSet.isEmpty()) return false;
+		if (openSet.isEmpty()) {
+			L.log("PATHFINDER: openSet is empty, no path possible.");
+			if (showPathfinderDebug) {
+				synchronized (last_path) {
+					last_path.clear();
+					Arrays.fill(last_visited, false);
+				}
+			}
+			return false;
+		}
 
 		while (!openSet.isEmpty()) {
 			openSet.pop();
-			if (++iterations > 500) return false;
+			if (++iterations > 500) {
+				L.log("PATHFINDER: iteration limit reached (500).");
+				if (showPathfinderDebug) {
+					synchronized (last_path) {
+						System.arraycopy(visited, 0, last_visited, 0, visited.length);
+						last_path.clear();
+					}
+				}
+				return false;
+			}
 			int cx = openSet.px; int cy = openSet.py;
 			int ci = (cy * maxWidth) + cx;
 			if (visited[ci]) continue;
@@ -84,6 +124,17 @@ public class PathFinder {
 				int dy = Math.abs(cy - closest.y);
 				int moveCost = (dx == 0 || dy == 0) ? 10 : 14;
 				lastPathDistance = gScore[ci] + moveCost;
+				if (showPathfinderDebug) {
+					synchronized (last_path) {
+						System.arraycopy(visited, 0, last_visited, 0, visited.length);
+						last_path.clear();
+						int i = ci;
+						while (i != -1) {
+							last_path.add(new Coord(i % maxWidth, i / maxWidth));
+							i = predecessor[i];
+						}
+					}
+				}
 				return true;
 			}
 
@@ -105,10 +156,17 @@ public class PathFinder {
 					int tentativeG = gScore[ci] + moveCost;
 					if (tentativeG < gScore[ni]) {
 						gScore[ni] = tentativeG;
+						predecessor[ni] = ci;
 						int h = heuristic(measureDistanceTo.x, measureDistanceTo.y, nx, ny);
 						openSet.add(nx, ny, tentativeG + h);
 					}
 				}
+			}
+		}
+		if (showPathfinderDebug) {
+			synchronized (last_path) {
+				System.arraycopy(visited, 0, last_visited, 0, visited.length);
+				last_path.clear();
 			}
 		}
 		return false;

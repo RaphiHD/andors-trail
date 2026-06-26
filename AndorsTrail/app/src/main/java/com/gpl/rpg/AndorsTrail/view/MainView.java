@@ -19,6 +19,7 @@ import com.gpl.rpg.AndorsTrail.controller.listeners.MonsterMovementListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.MonsterSpawnListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.PlayerMovementListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.VisualEffectFrameListener;
+import com.gpl.rpg.AndorsTrail.controller.PathFinder;
 import com.gpl.rpg.AndorsTrail.model.ModelContainer;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
@@ -391,8 +392,55 @@ public final class MainView extends SurfaceView
 		doDrawRect_Ground(canvas, area);
 		doDrawRect_Objects(canvas, area);
 		doDrawRect_Above(canvas, area);
+		if (PathFinder.showPathfinderDebug) {
+			drawPathfinderDebug(canvas, area);
+		}
 		if (useAlternateColorFilterPaint) {
 			applyAlternateFilter(canvas, area);
+		}
+	}
+
+	private void drawPathfinderDebug(Canvas canvas, CoordRect area) {
+		PredefinedMap map = currentMap;
+		if (map == null) return;
+		PathFinder pf = map.pathfinder;
+		if (pf == null || pf.last_visited == null) return;
+
+		synchronized (pf.last_path) {
+			debugPaint.setStyle(Style.FILL);
+			int my = area.topLeft.y;
+			for (int y = 0; y < area.size.height; ++y, ++my) {
+				if (my < 0) continue;
+				if (my >= map.size.height) break;
+				int mx = area.topLeft.x;
+				for (int x = 0; x < area.size.width; ++x, ++mx) {
+					if (mx < 0) continue;
+					if (mx >= map.size.width) break;
+
+					if (pf.last_visited[my * map.size.width + mx]) {
+						debugPaint.setColor(Color.argb(100, 255, 255, 0)); // Yellow
+						canvas.drawRect(
+								(mx - mapViewArea.topLeft.x) * tileSize,
+								(my - mapViewArea.topLeft.y) * tileSize,
+								(mx - mapViewArea.topLeft.x + 1) * tileSize,
+								(my - mapViewArea.topLeft.y + 1) * tileSize,
+								debugPaint
+						);
+					}
+				}
+			}
+			debugPaint.setColor(Color.argb(150, 0, 255, 0)); // Green
+			for (Coord c : pf.last_path) {
+				if (area.contains(c)) {
+					canvas.drawRect(
+							(c.x - mapViewArea.topLeft.x) * tileSize,
+							(c.y - mapViewArea.topLeft.y) * tileSize,
+							(c.x - mapViewArea.topLeft.x + 1) * tileSize,
+							(c.y - mapViewArea.topLeft.y + 1) * tileSize,
+							debugPaint
+					);
+				}
+			}
 		}
 	}
 

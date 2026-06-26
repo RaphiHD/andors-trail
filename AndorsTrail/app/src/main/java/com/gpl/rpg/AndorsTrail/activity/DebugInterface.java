@@ -11,6 +11,7 @@ import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
 import com.gpl.rpg.AndorsTrail.controller.ConversationController;
+import com.gpl.rpg.AndorsTrail.controller.PathFinder;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
@@ -153,6 +154,14 @@ public final class DebugInterface {
 							Dialogs.showMapScriptMessage( mainActivity, controllerContext, "dbg_scores", null);
 				}
 	})
+				,new DebugButton("pth", new OnClickListener() {
+					@Override
+					public void onClick(View arg0) {
+						PathFinder.showPathfinderDebug = !PathFinder.showPathfinderDebug;
+						showToast(mainActivity, "DEBUG: pathfinder overlay=" + (PathFinder.showPathfinderDebug ? "ON" : "OFF"), Toast.LENGTH_SHORT);
+						mainActivity.findViewById(R.id.main_mainview).postInvalidate();
+					}
+				})
 		}));
 
 		buttons = buttonList.toArray(new DebugButton[buttonList.size()]);
