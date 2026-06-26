@@ -203,7 +203,7 @@ public final class ResourceLoader {
 		}
 		mapsToLoad.recycle();
 		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("TMXMapReader");
-		world.maps.addAll(mapReader.transformMaps(world.monsterTypes, world.dropLists));
+		world.maps.addAll(mapReader.transformMaps(r, world.monsterTypes, world.dropLists));
 		loader.prepareAllMapTiles();
 		mapReader = null;
 		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("mapReader.transformMaps");

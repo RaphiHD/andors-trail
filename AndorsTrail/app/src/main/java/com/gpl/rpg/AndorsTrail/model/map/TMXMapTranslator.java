@@ -54,15 +54,15 @@ public final class TMXMapTranslator {
 		return transformMap(resultMap, tileCache);
 	}
 
-	public ArrayList<PredefinedMap> transformMaps(MonsterTypeCollection monsterTypes, DropListCollection dropLists) {
-		return transformMaps(maps, monsterTypes, dropLists);
+	public ArrayList<PredefinedMap> transformMaps(Resources res, MonsterTypeCollection monsterTypes, DropListCollection dropLists) {
+		return transformMaps(res, maps, monsterTypes, dropLists);
 	}
-	public ArrayList<PredefinedMap> transformMaps(Collection<TMXObjectMap> maps, MonsterTypeCollection monsterTypes, DropListCollection dropLists) {
+	public ArrayList<PredefinedMap> transformMaps(Resources res, Collection<TMXObjectMap> maps, MonsterTypeCollection monsterTypes, DropListCollection dropLists) {
 		ArrayList<PredefinedMap> result = new ArrayList<PredefinedMap>();
 
 		for (TMXObjectMap m : maps) {
 			assert(m.name != null);
-			assert(m.name.length() > 0);
+			assert(!m.name.isEmpty());
 			assert(m.width > 0);
 			assert(m.height > 0);
 
@@ -243,7 +243,7 @@ public final class TMXMapTranslator {
 			TravelDestinationArea[] _destinationAreas = new TravelDestinationArea[destinationAreas.size()];
 			_destinationAreas = destinationAreas.toArray(_destinationAreas);
 
-			result.add(new PredefinedMap(m.xmlResourceId, m.name, mapSize, _eventObjects, _spawnAreas, _destinationAreas, activeGroups, isOutdoors, colorFilter));
+			result.add(new PredefinedMap(world, res, m.xmlResourceId, m.name, mapSize, _eventObjects, _spawnAreas, _destinationAreas, activeGroups, isOutdoors, colorFilter));
 		}
 
 		return result;

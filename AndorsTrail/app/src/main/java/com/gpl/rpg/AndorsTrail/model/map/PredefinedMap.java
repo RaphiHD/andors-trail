@@ -11,6 +11,8 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
+import android.content.res.Resources;
+
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
@@ -29,6 +31,8 @@ import com.gpl.rpg.AndorsTrail.util.Size;
 
 public final class PredefinedMap {
 	private static final long VISIT_RESET = 0;
+
+	public final WorldContext world;
 
 	public final int xmlResourceId;
 	public final String name;
@@ -54,10 +58,11 @@ public final class PredefinedMap {
 	private HashMap<String, Integer> mapchangeIndices;
 
 	public PredefinedMap(
-			int xmlResourceId
+			WorldContext world
+			, Resources res
+			, int xmlResourceId
 			, String name
 			, Size size
-			, LayeredTileMap tileMap
 			, MapObject[] eventObjects
 			, MonsterSpawnArea[] spawnAreas
 			, TravelDestinationArea[] destinationAreas
@@ -65,10 +70,10 @@ public final class PredefinedMap {
 			, boolean isOutdoors
 			, String colorFilter
 	) {
+		this.world = world;
 		this.xmlResourceId = xmlResourceId;
 		this.name = name;
 		this.size = size;
-		this.tileMap = tileMap;
 		this.eventObjects = eventObjects;
 		this.spawnAreas = spawnAreas;
 		this.destinationAreas = destinationAreas;
@@ -80,6 +85,8 @@ public final class PredefinedMap {
 		assert(size.height > 0);
 		this.isOutdoors = isOutdoors;
 		this.initialColorFilter = colorFilter;
+
+		tileMap = TMXMapTranslator.readLayeredTileMap(res, world.tileManager.tileCache, this);
 
 		this.pathfinder = new PathFinder(size.width, size.height, this);
 		this.calculateDistanceMatrix();
