@@ -17,11 +17,13 @@ import com.gpl.rpg.AndorsTrail.util.CoordRect;
 public final class MonsterMovementController {
 	private final ControllerContext controllers;
 	private final WorldContext world;
+	private final GlobalPathFinder globalPathFinder;
 	public final MonsterMovementListeners monsterMovementListeners = new MonsterMovementListeners();
 
 	public MonsterMovementController(ControllerContext controllers, WorldContext world) {
 		this.controllers = controllers;
 		this.world = world;
+		this.globalPathFinder = new GlobalPathFinder(world);
 	}
 
 	public void moveMonsters() {
@@ -151,25 +153,27 @@ public final class MonsterMovementController {
 
 		// Monster is travelling -> pathfind
 		if (m.travelDestination != null) {
-			if (m.currentMapID.equals(m.travelDestination.mapID)) {
-				// Target map reached, pathfind locally to destinationArea TODO this only works if the area is reachable without mapchanges, use the below instead
+			String destinationID = m.travelPath.getNextDestination();
+			if (destinationID == null) {
+				// Target map reached, pathfind locally to destinationArea
+
 				if (m.travelDestination.area.contains(m.position)) {
 					// Destination reached
 					m.travelDestination.onMonsterArrived(m);
 				} else if (findPathFor(m, m.travelDestination.area)) {
 					return;
 				}
+			} else {
+				// Pathfind locally to next mapchange
+				for (MapObject o : world.model.currentMaps.map.eventObjects) {
+					if (o.type != MapObject.MapObjectType.newmap) continue;
+					if (!o.id.equals(destinationID)) continue;
+					if (!o.isActive) continue;
+					if (findPathFor(m, o.position)) {
+						return;
+					}
+				}
 			}
-
-
-//			String mapchangeID = m.travelPath.getNextMapchange(); // TODO implement
-//			if (mapchangeID == null) {
-//				// Target map reached, pathfind locally to destinationArea
-//				m.movementDestination = m.travelDestination.area.topLeft; // TODO change topLeft to nearest
-//			} else {
-//				// Set movement destination to next mapchange
-//				m.movementDestination = getMapchangeByID(mapchangeID).position.topLeft; // TODO implement, also change topLeft to nearest
-//			}
 		}
 
 		// Monster has waited and should start to move again.
@@ -246,6 +250,9 @@ public final class MonsterMovementController {
 		for (TravelDestinationArea a : world.maps.findPredefinedMap(mapID).destinationAreas) {
 			if (a.areaID.equals(destinationID)) {
 				m.travelDestination = a;
+				m.travelPath = globalPathFinder.findPath(m.currentMapID, mapID);
+				// Calculate path to destination
+
 				m.movementDestination = null;
 			}
 		}

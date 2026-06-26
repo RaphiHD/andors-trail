@@ -6,6 +6,7 @@ import java.io.IOException;
 
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
+import com.gpl.rpg.AndorsTrail.controller.GlobalPathFinder;
 import com.gpl.rpg.AndorsTrail.model.ChecksumBuilder;
 import com.gpl.rpg.AndorsTrail.model.ability.ActorCondition;
 import com.gpl.rpg.AndorsTrail.model.ability.SkillCollection;
@@ -24,6 +25,7 @@ public final class Monster extends Actor {
 
 	public Coord movementDestination = null;
 	public TravelDestinationArea travelDestination = null;
+	public GlobalPathFinder.GlobalPath travelPath = null;
 	public long nextActionTime = 0;
 	public String currentMapID;
 	public final CoordRect nextPosition;
