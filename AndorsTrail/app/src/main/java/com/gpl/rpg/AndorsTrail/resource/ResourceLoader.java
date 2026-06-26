@@ -203,17 +203,18 @@ public final class ResourceLoader {
 		}
 		mapsToLoad.recycle();
 		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("TMXMapReader");
-		world.maps.addAll(mapReader.transformMaps(r, world.monsterTypes, world.dropLists));
-		loader.prepareAllMapTiles();
-		mapReader = null;
-		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("mapReader.transformMaps");
-
 
 		// ========================================================================
 		// Load graphics resources (icons and tiles)
+		loader.prepareAllMapTiles();
 		loader.flush();
-		loader = null;
 		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("DynamicTileLoader");
+
+		world.maps.addAll(mapReader.transformMaps(r, world.monsterTypes, world.dropLists));
+		mapReader = null;
+		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("mapReader.transformMaps");
+
+		loader = null;
 		// ========================================================================
 
 

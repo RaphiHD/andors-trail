@@ -523,7 +523,9 @@ public final class PredefinedMap {
 			if (a.isSpawning != a.isSpawningForNewGame) return true;
 		}
 		if (!new HashSet<>(activeMapObjectGroups).containsAll(initiallyActiveMapObjectGroups)
-				|| !new HashSet<>(initiallyActiveMapObjectGroups).containsAll(activeMapObjectGroups)) return true;
+				|| !new HashSet<>(initiallyActiveMapObjectGroups).containsAll(activeMapObjectGroups)) {
+			return true;
+		}
         return currentColorFilter != null;
     }
 
