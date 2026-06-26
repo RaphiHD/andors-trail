@@ -5,9 +5,9 @@ import static com.gpl.rpg.AndorsTrail.controller.MonsterMovementController.monst
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -109,15 +109,15 @@ public final class PredefinedMap {
 		}
 	}
 
-	public final boolean isOutside(final Coord p) { return isOutside(p.x, p.y); }
-	public final boolean isOutside(final int x, final int y) {
+	public boolean isOutside(final Coord p) { return isOutside(p.x, p.y); }
+	public boolean isOutside(final int x, final int y) {
 		if (x < 0) return true;
 		if (y < 0) return true;
 		if (x >= size.width) return true;
 		if (y >= size.height) return true;
 		return false;
 	}
-	public final boolean isOutside(final CoordRect area) {
+	public boolean isOutside(final CoordRect area) {
 		if (isOutside(area.topLeft)) return true;
 		if (area.topLeft.x + area.size.width > size.width) return true;
 		if (area.topLeft.y + area.size.height > size.height) return true;
@@ -522,11 +522,10 @@ public final class PredefinedMap {
 			if (this.visited && a.isUnique) return true;
 			if (a.isSpawning != a.isSpawningForNewGame) return true;
 		}
-		if (!activeMapObjectGroups.containsAll(initiallyActiveMapObjectGroups) 
-				|| !initiallyActiveMapObjectGroups.containsAll(activeMapObjectGroups)) return true;
-		if (currentColorFilter != null) return true;
-		return false;
-	}
+		if (!new HashSet<>(activeMapObjectGroups).containsAll(initiallyActiveMapObjectGroups)
+				|| !new HashSet<>(initiallyActiveMapObjectGroups).containsAll(activeMapObjectGroups)) return true;
+        return currentColorFilter != null;
+    }
 
 	public void writeToParcel(DataOutputStream dest, WorldContext world) throws IOException {
 		if (shouldSaveMapData(world)) {
