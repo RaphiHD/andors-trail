@@ -39,6 +39,25 @@ public final class MonsterMovementController {
 			}
 		}
 
+		for (Monster m : world.monsters.travellingMonsters) {
+			if (m.nextActionTime <= currentTime) {
+				// calculate if should be on map right now
+				if (m.travelPath != null) {
+					boolean contains = false;
+					for (GlobalPathFinder.GlobalPath.GlobalPathEntry entry : m.travelPath.path) {
+						if (entry.mapID.equals(world.model.currentMaps.map.name)) {
+							contains = true;
+							break;
+						}
+					}
+
+					if (contains) {
+						// Spawn monster at calculated position
+					}
+				}
+			}
+		}
+
 		// Move every monster that is freely traveling (outside spawn area)
 //		for (Monster m : getTravellingMonsters()) { // TODO implement
 //			// TODO make this only monsters that could be on this map
@@ -145,7 +164,7 @@ public final class MonsterMovementController {
 
 		// Monster is travelling -> pathfind
 		if (m.travelDestination != null) {
-			String destinationID = m.travelPath.getNextDestination();
+			String destinationID = m.travelPath.getNextDestination().destinationID;
 			if (destinationID == null) {
 				// Target map reached, pathfind locally to destinationArea
 				if (m.travelDestination.area.contains(m.position)) {

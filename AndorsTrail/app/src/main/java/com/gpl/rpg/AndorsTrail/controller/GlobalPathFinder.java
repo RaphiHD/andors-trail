@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
@@ -130,10 +131,10 @@ public class GlobalPathFinder {
 
 		if (targetNode == null) return new GlobalPath(new ArrayList<>());
 
-		List<String> path = new ArrayList<>();
+		List<GlobalPath.GlobalPathEntry> path = new ArrayList<>();
 		Node curr = targetNode;
 		while (curr != null) {
-			path.add(curr.mapchange.id);
+			path.add(new GlobalPath.GlobalPathEntry(curr.map.name, curr.mapchange.id));
 			Node p = previous.get(curr);
 			while (p != null && p.map.name.equals(curr.map.name)) {
 				p = previous.get(p);
@@ -147,16 +148,26 @@ public class GlobalPathFinder {
 	}
 
 	public static class GlobalPath {
-		public final List<String> path;
+		public final List<GlobalPathEntry> path;
 		public int currentPosition = 0;
 
-		public GlobalPath(List<String> path) {
+		public GlobalPath(List<GlobalPathEntry> path) {
 			this.path = path;
 		}
 
-		public String getNextDestination() {
+		public GlobalPathEntry getNextDestination() {
 			if (currentPosition >= path.size()) return null;
 			return path.get(currentPosition);
+		}
+
+		public static class GlobalPathEntry {
+			public final String mapID;
+			public final String destinationID;
+
+			public GlobalPathEntry(String mapID, String destinationID) {
+				this.mapID = mapID;
+				this.destinationID = destinationID;
+			}
 		}
 	}
 }
