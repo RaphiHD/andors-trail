@@ -351,7 +351,7 @@
   <object id="25" name="gorwath" type="spawn" x="288" y="128" width="96" height="64">
    <properties>
     <property name="spawngroup" value="gorwath"/>
-    <properties name="ignoreAreas" value="true"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
   <object id="26" name="halvor" type="spawn" x="736" y="608" width="32" height="32">
