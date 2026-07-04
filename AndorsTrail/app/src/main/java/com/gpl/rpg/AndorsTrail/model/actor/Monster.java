@@ -30,6 +30,7 @@ public final class Monster extends Actor {
 	public String currentMapID;
 	public final CoordRect nextPosition;
 	public boolean ignoreAreas = false;
+	public boolean isUnique = false;
 
 	private boolean forceAggressive = false;
 	private ItemContainer shopItems = null;
@@ -112,6 +113,12 @@ public final class Monster extends Actor {
 		forceAggressive = true;
 	}
 
+	public void clearMobCap() {
+		if (area instanceof MonsterSpawnArea) {
+			((MonsterSpawnArea) area).quantity.current -= 1;
+		}
+	}
+
 
 	// ====== PARCELABLE ===================================================================
 
@@ -170,6 +177,7 @@ public final class Monster extends Actor {
 
 		if (fileversion > 85) {
 			this.ignoreAreas = src.readBoolean();
+			this.area.readFromParcel(src, world, fileversion);
 		}
 	}
 
@@ -212,6 +220,8 @@ public final class Monster extends Actor {
 		}
 
 		dest.writeBoolean(ignoreAreas);
+		dest.writeUTF(currentMapID);
+		area.writeToParcel(dest);
 	}
 
 	public void addToChecksum(ChecksumBuilder builder) {

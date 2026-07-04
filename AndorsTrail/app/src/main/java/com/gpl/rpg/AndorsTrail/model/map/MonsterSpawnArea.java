@@ -63,13 +63,10 @@ public final class MonsterSpawnArea extends MapArea {
 	public Monster spawn(Coord p, MonsterType type) {
 		Monster m = new Monster(type, this);
 		m.position.set(p);
-		monsters.add(m);
+		PredefinedMap map = world.maps.findPredefinedMap(this.mapID);
+		map.monsters.add(m);
 		quantity.current++;
 		return m;
-	}
-
-	public void remove(Monster m) {
-		if (monsters.remove(m)) quantity.current--;
 	}
 
 	public boolean isSpawnable(boolean includeUniqueMonsters) {
@@ -82,13 +79,7 @@ public final class MonsterSpawnArea extends MapArea {
 		return Constants.rollResult(respawnspeed);
 	}
 
-	public void removeAllMonsters() {
-		monsters.clear();
-		quantity.current = 0;
-	}
-
     public void resetForNewGame() {
-		removeAllMonsters();
 		isSpawning = isSpawningForNewGame;
 	}
 
@@ -96,28 +87,23 @@ public final class MonsterSpawnArea extends MapArea {
 	// ====== PARCELABLE ===================================================================
 
 	public void readFromParcel(DataInputStream src, WorldContext world, int fileversion) throws IOException {
-		monsters.clear();
 		isSpawning = isSpawningForNewGame;
 		if (fileversion >= 41) isSpawning = src.readBoolean();
 		quantity.current = src.readInt();
-		for(int i = 0; i < quantity.current; ++i) {
-			monsters.add(Monster.newFromParcel(src, world, fileversion, this));
-		}
+		if (fileversion >= 85) {
+			// Previously saved Monsters now go to PredefinedMap
+			Monster m = Monster.newFromParcel(src, world, fileversion, this);
+            world.maps.findPredefinedMap(this.mapID).monsters.add(m);
+        }
 	}
 
 	public void writeToParcel(DataOutputStream dest) throws IOException {
 		dest.writeBoolean(isSpawning);
-		dest.writeInt(monsters.size());
-		for (Monster m : monsters) {
-			m.writeToParcel(dest);
-		}
+		dest.writeInt(quantity.current);
 	}
 
 	public void addToChecksum(ChecksumBuilder builder) {
 		builder.add(isSpawning);
-		builder.add(monsters.size());
-		for (Monster m : monsters) {
-			m.addToChecksum(builder);
-		}
+		builder.add(quantity.current);
 	}
 }

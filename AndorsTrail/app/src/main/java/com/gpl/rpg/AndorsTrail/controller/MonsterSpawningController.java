@@ -72,9 +72,7 @@ public final class MonsterSpawningController {
 	}
 
 	public void remove(PredefinedMap map, Monster m) {
-		for (MonsterSpawnArea a : map.spawnAreas) {
-			a.remove(m);
-		}
+		map.removeMonster(m);
 		monsterSpawnListeners.onMonsterRemoved(map, m, m.rectPosition);
 	}
 
@@ -89,7 +87,12 @@ public final class MonsterSpawningController {
 	public void deactivateSpawnArea(MonsterSpawnArea spawnArea, boolean removeAllMonsters) {
 		spawnArea.isSpawning = false;
 		if (removeAllMonsters) {
-			spawnArea.removeAllMonsters();
+			PredefinedMap map = world.maps.findPredefinedMap(spawnArea.mapID);
+			for (Monster m : map.monsters) {
+				if (m.area == spawnArea) {
+					map.removeMonster(m);
+				}
+			}
 		}
 	}
 }

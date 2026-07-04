@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 import android.content.res.Resources;
 
@@ -43,6 +44,7 @@ public final class PredefinedMap {
 	public final TravelDestinationArea[] destinationAreas;
 	public final List<String> initiallyActiveMapObjectGroups;
 	public final List<String> activeMapObjectGroups;
+	public final List<Monster> monsters = new CopyOnWriteArrayList<>();
 	public final ArrayList<Loot> groundBags = new ArrayList<Loot>();
 	public final String initialColorFilter;
 	public boolean visited = false;
@@ -197,36 +199,43 @@ public final class PredefinedMap {
 		return getMonsterAt(p, null);
 	}
 	public Monster getMonsterAt(final CoordRect p, Monster exceptMe) {
-		for (MonsterSpawnArea a : spawnAreas) {
-			Monster m = a.getMonsterAt(p);
-			if (m != null && (exceptMe == null || exceptMe != m)) return m;
-		}
-		for (TravelDestinationArea a : destinationAreas) {
-			Monster m = a.getMonsterAt(p);
-			if (m != null && (exceptMe == null || exceptMe != m)) return m;
-		}
+		Monster m = getMonsterAt(p);
+		if (m != null && (exceptMe == null || exceptMe != m)) return m;
 		return null;
 	}
 	public Monster getMonsterAt(final Coord p) { return getMonsterAt(p.x, p.y); }
 	public Monster getMonsterAt(final int x, final int y) {
-		for (MonsterSpawnArea a : spawnAreas) {
-			Monster m = a.getMonsterAt(x, y);
-			if (m != null) return m;
-		}
-		for (TravelDestinationArea a : destinationAreas) {
-			Monster m = a.getMonsterAt(x, y);
-			if (m != null) return m;
+		for (Monster m : monsters) {
+			if (m.rectPosition.contains(x, y)) return m;
 		}
 		return null;
 	}
 
 	public Monster findSpawnedMonster(final String monsterTypeID) {
-		for (MonsterSpawnArea a : spawnAreas) {
-			Monster m = a.findSpawnedMonster(monsterTypeID);
-			if (m != null) return m;
+		for (Monster m : monsters) {
+			if (m.getMonsterTypeID().equals(monsterTypeID)) return m;
 		}
 		return null;
 	}
+
+	public void removeMonster(Monster m) {
+		m.clearMobCap();
+		monsters.remove(m);
+	}
+
+	public void removeAllMonsters() {
+		for (Monster m : monsters) {
+			m.clearMobCap();
+		}
+		monsters.clear();
+	}
+
+	public void resetShops() {
+		for (Monster m : monsters) {
+			m.resetShopItems();
+		}
+	}
+
 
 	public Loot getBagAt(final Coord p) {
 		for (Loot l : groundBags) {
@@ -257,6 +266,7 @@ public final class PredefinedMap {
 		groundBags.remove(loot);
 	}
 	public void resetForNewGame() {
+		removeAllMonsters();
 		for (MonsterSpawnArea a : spawnAreas) {
 			a.resetForNewGame();
 		}
@@ -278,9 +288,9 @@ public final class PredefinedMap {
 		lastVisitTime = System.currentTimeMillis();
 	}
 	public void resetTemporaryData() {
-		for(MonsterSpawnArea a : spawnAreas) {
-			if (a.isUnique) a.resetShops();
-			else a.removeAllMonsters();
+		for (Monster m : monsters) {
+			if (m.isUnique) m.resetShopItems();
+			else removeAllMonsters();
 		}
 		splatters.clear();
 		lastVisitTime = VISIT_RESET;
@@ -445,6 +455,14 @@ public final class PredefinedMap {
                         }
                     }
                 }
+
+				int monsterCount = src.readInt();
+				for (int i = 0; i < monsterCount; i++) {
+					Monster m = Monster.newFromParcel(src, world, fileversion, null);
+					monsters.add(m);
+				}
+
+
 			}
 			
 			activeMapObjectGroups.clear();
@@ -542,6 +560,10 @@ public final class PredefinedMap {
 				dest.writeUTF(a.areaID);
 				a.writeToParcel(dest);
 			}
+			dest.writeInt(monsters.size());
+			for(Monster m : monsters) {
+				m.writeToParcel(dest);
+			}
 			dest.writeInt(activeMapObjectGroups.size());
 			for(String s : activeMapObjectGroups) {
 				dest.writeUTF(s);
@@ -572,6 +594,9 @@ public final class PredefinedMap {
 			for(TravelDestinationArea a : destinationAreas) {
 				builder.add(a.areaID);
 				a.addToChecksum(builder);
+			}
+			for(Monster m : monsters) {
+				m.addToChecksum(builder);
 			}
 			builder.add(activeMapObjectGroups.size());
 			for(String s : activeMapObjectGroups) {

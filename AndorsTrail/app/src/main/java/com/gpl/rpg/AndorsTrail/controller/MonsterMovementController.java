@@ -8,7 +8,6 @@ import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.actor.MonsterType;
 import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
-import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
 import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.util.Coord;
@@ -30,19 +29,13 @@ public final class MonsterMovementController {
 		long currentTime = System.currentTimeMillis();
 		PredefinedMap currentMap = world.model.currentMaps.map;
 
-		for (MonsterSpawnArea a : currentMap.spawnAreas) {
-			for (Monster m : a.monsters) {
-				if (m.nextActionTime <= currentTime) {
-					moveMonster(m, a.area, a.ignoreAreas);
+		for (Monster m : currentMap.monsters) {
+			if (m.nextActionTime <= currentTime) {
+				if (m.travelDestination != null) {
+					moveMonster(m, new CoordRect(new Coord(0, 0), currentMap.size), m.ignoreAreas);
+				} else {
+					moveMonster(m, m.area.area, m.ignoreAreas);
 				}
-			}
-		}
-
-		for (TravelDestinationArea a : currentMap.destinationAreas) {
-			for (Monster m : a.monsters) {
-				if (m.nextActionTime <= currentTime) {
-					moveMonster(m, a.area, m.ignoreAreas);
-				} 
 			}
 		}
 
@@ -64,17 +57,16 @@ public final class MonsterMovementController {
 	}
 
 	public void attackWithAgressiveMonsters() {
-		for (MonsterSpawnArea a : world.model.currentMaps.map.spawnAreas) {
-			for (Monster m : a.monsters) {
-				if (!m.isAgressive(world.model.player)) continue;
-				if (!m.isAdjacentTo(world.model.player)) continue;
+		PredefinedMap currentMap = world.model.currentMaps.map;
+		for (Monster m : currentMap.monsters) {
+			if (!m.isAgressive(world.model.player)) continue;
+			if (!m.isAdjacentTo(world.model.player)) continue;
 
-				int aggressionChanceBias = world.model.player.getSkillLevel(SkillCollection.SkillID.evasion) * SkillCollection.PER_SKILLPOINT_INCREASE_EVASION_MONSTER_ATTACK_CHANCE_PERCENTAGE;
-				if (Constants.roll100(Constants.MONSTER_AGGRESSION_CHANCE_PERCENT - aggressionChanceBias)) {
-					monsterMovementListeners.onMonsterSteppedOnPlayer(m);
-					controllers.combatController.monsterSteppedOnPlayer(m);
-					return;
-				}
+			int aggressionChanceBias = world.model.player.getSkillLevel(SkillCollection.SkillID.evasion) * SkillCollection.PER_SKILLPOINT_INCREASE_EVASION_MONSTER_ATTACK_CHANCE_PERCENTAGE;
+			if (Constants.roll100(Constants.MONSTER_AGGRESSION_CHANCE_PERCENT - aggressionChanceBias)) {
+				monsterMovementListeners.onMonsterSteppedOnPlayer(m);
+				controllers.combatController.monsterSteppedOnPlayer(m);
+				return;
 			}
 		}
 	}
@@ -169,7 +161,15 @@ public final class MonsterMovementController {
 					if (o.type != MapObject.MapObjectType.newmap) continue;
 					if (!o.id.equals(destinationID)) continue;
 					if (!o.isActive) continue;
+
+					// Check if Monster already reached mapchange area
+					if (o.position.contains(m.position)) {
+						world.monsters.addTravellingMonster(m); // Monster set to floating state
+						return;
+					}
+
 					if (findPathFor(m, o.position)) {
+						// Path found, monster moved
 						return;
 					}
 				}
@@ -204,10 +204,9 @@ public final class MonsterMovementController {
 	}
 	
 
-	private int getMillisecondsPerCombatMove(Monster m) {
-		if (controllers.preferences.attackspeed_milliseconds <= 0) return 0;
-		return controllers.preferences.attackspeed_milliseconds;
-	}
+	private int getMillisecondsPerCombatMove() {
+        return Math.max(controllers.preferences.attackspeed_milliseconds, 0);
+    }
 
 	private static int sgn(int i) {
 		if (i <= -1) return -1;
@@ -229,7 +228,7 @@ public final class MonsterMovementController {
 	}
 	
 	public void moveMonsterToNextPositionDuringCombat(final Monster m, final PredefinedMap map, final VisualEffectController.VisualEffectCompletedCallback callback) {
-		moveMonsterToNextPositionWithCallback(m, map, getMillisecondsPerCombatMove(m) / 4, callback);
+		moveMonsterToNextPositionWithCallback(m, map, getMillisecondsPerCombatMove() / 4, callback);
 	}
 	
 	private void moveMonsterToNextPositionWithCallback(final Monster m, final PredefinedMap map, int duration, final VisualEffectController.VisualEffectCompletedCallback callback) {
