@@ -429,9 +429,16 @@ public final class MainView extends SurfaceView
 					}
 				}
 			}
-			debugPaint.setColor(Color.argb(150, 0, 255, 0)); // Green
-			for (Coord c : pf.last_path) {
+			for (int i = 0; i < pf.last_path.size(); ++i) {
+				Coord c = pf.last_path.get(i);
 				if (area.contains(c)) {
+					if (i == pf.last_path.size() - 1) {
+						debugPaint.setColor(Color.argb(150, 255, 0, 0)); // Red
+					} else if (i == 0) {
+						debugPaint.setColor(Color.argb(150, 255, 0, 255)); // Purple
+					} else {
+						debugPaint.setColor(Color.argb(150, 0, 255, 0)); // Green
+					}
 					canvas.drawRect(
 							(c.x - mapViewArea.topLeft.x) * tileSize,
 							(c.y - mapViewArea.topLeft.y) * tileSize,
