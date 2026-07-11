@@ -150,12 +150,12 @@ public final class TileManager {
 			for (String monsterTypeID : a.monsterTypeIDs) {
 				iconIDs.add(world.monsterTypes.getMonsterType(monsterTypeID).iconID);
 			}
+		}
+		for (Monster m : map.monsters) {
 			// Add icons for monsters that are already spawned, but that do not belong to the group of
 			// monsters that usually spawn here. This could happen if we change the contents of spawn-
 			// areas in a later release,
-			for (Monster m : a.monsters) {
-				iconIDs.add(m.iconID);
-			}
+			iconIDs.add(m.iconID);
 		}
 		iconIDs.addAll(tileMap.usedTileIDs);
 		return iconIDs;

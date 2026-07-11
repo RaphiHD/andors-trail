@@ -196,7 +196,10 @@ public final class PredefinedMap {
 		return false;
 	}
 	public Monster getMonsterAt(final CoordRect p) {
-		return getMonsterAt(p, null);
+		for (Monster m : monsters) {
+			if (m.rectPosition.intersects(p)) return m;
+		}
+		return null;
 	}
 	public Monster getMonsterAt(final CoordRect p, Monster exceptMe) {
 		Monster m = getMonsterAt(p);
@@ -391,6 +394,16 @@ public final class PredefinedMap {
 		}
 	}
 
+
+	public MapArea getArea(String areaID) {
+		for (MonsterSpawnArea a : spawnAreas) {
+			if (a.areaID.equals(areaID)) return a;
+		}
+		for (TravelDestinationArea a : destinationAreas) {
+			if (a.areaID.equals(areaID)) return a;
+		}
+		return null;
+	}
 
 	// ====== PARCELABLE ===================================================================
 

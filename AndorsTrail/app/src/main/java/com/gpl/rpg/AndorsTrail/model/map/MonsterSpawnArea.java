@@ -90,11 +90,6 @@ public final class MonsterSpawnArea extends MapArea {
 		isSpawning = isSpawningForNewGame;
 		if (fileversion >= 41) isSpawning = src.readBoolean();
 		quantity.current = src.readInt();
-		if (fileversion >= 85) {
-			// Previously saved Monsters now go to PredefinedMap
-			Monster m = Monster.newFromParcel(src, world, fileversion, this);
-            world.maps.findPredefinedMap(this.mapID).monsters.add(m);
-        }
 	}
 
 	public void writeToParcel(DataOutputStream dest) throws IOException {

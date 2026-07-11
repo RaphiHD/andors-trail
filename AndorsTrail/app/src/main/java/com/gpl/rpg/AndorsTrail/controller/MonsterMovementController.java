@@ -268,8 +268,7 @@ public final class MonsterMovementController {
 		for (TravelDestinationArea a : world.maps.findPredefinedMap(mapID).destinationAreas) {
 			if (a.areaID.equals(destinationID)) {
 				m.travelDestination = a;
-				m.travelPath = globalPathFinder.findPath(m.currentMapID, mapID);
-				// Calculate path to destination
+				m.travelPath = globalPathFinder.findPath(m.currentMapID, m.rectPosition, mapID, a.area, a.areaID);
 
 				m.movementDestination = null;
 			}

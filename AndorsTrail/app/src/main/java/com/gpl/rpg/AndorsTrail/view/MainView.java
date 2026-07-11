@@ -484,30 +484,15 @@ public final class MainView extends SurfaceView
 			int y = ((model.player.position.y - mapViewArea.topLeft.y) * tileSize * vfxElapsedTime + ((model.player.lastPosition.y - mapViewArea.topLeft.y) * tileSize * (model.player.vfxDuration - vfxElapsedTime))) / model.player.vfxDuration;
 			tiles.drawTile(canvas, model.player.mapIconID, x, y, mPaint);
 		}
-		for (MonsterSpawnArea a : currentMap.spawnAreas) {
-			for (Monster m : a.monsters) {
-				if (!m.hasVFXRunning) {
-					drawFromMapPosition(canvas, area, m.rectPosition, m.iconID, m.isFlippedX);
-				} else if (area.intersects(m.rectPosition) || area.intersects(new CoordRect(m.lastPosition,m.rectPosition.size))) {
-					int vfxElapsedTime = (int) (System.currentTimeMillis() - m.vfxStartTime);
-					if (vfxElapsedTime > m.vfxDuration) vfxElapsedTime = m.vfxDuration;
-					int x = ((m.position.x - mapViewArea.topLeft.x) * tileSize * vfxElapsedTime + ((m.lastPosition.x - mapViewArea.topLeft.x) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
-					int y = ((m.position.y - mapViewArea.topLeft.y) * tileSize * vfxElapsedTime + ((m.lastPosition.y - mapViewArea.topLeft.y) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
-					tiles.drawTile(canvas, m.iconID, x, y, mPaint, m.isFlippedX);
-				}
-			}
-		}
-		for (TravelDestinationArea a : currentMap.destinationAreas) {
-			for (Monster m : a.monsters) {
-				if (!m.hasVFXRunning) {
-					drawFromMapPosition(canvas, area, m.rectPosition, m.iconID, m.isFlippedX);
-				} else if (area.intersects(m.rectPosition) || area.intersects(new CoordRect(m.lastPosition,m.rectPosition.size))) {
-					int vfxElapsedTime = (int) (System.currentTimeMillis() - m.vfxStartTime);
-					if (vfxElapsedTime > m.vfxDuration) vfxElapsedTime = m.vfxDuration;
-					int x = ((m.position.x - mapViewArea.topLeft.x) * tileSize * vfxElapsedTime + ((m.lastPosition.x - mapViewArea.topLeft.x) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
-					int y = ((m.position.y - mapViewArea.topLeft.y) * tileSize * vfxElapsedTime + ((m.lastPosition.y - mapViewArea.topLeft.y) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
-					tiles.drawTile(canvas, m.iconID, x, y, mPaint, m.isFlippedX);
-				}
+		for (Monster m : currentMap.monsters) {
+			if (!m.hasVFXRunning) {
+				drawFromMapPosition(canvas, area, m.rectPosition, m.iconID, m.isFlippedX);
+			} else if (area.intersects(m.rectPosition) || area.intersects(new CoordRect(m.lastPosition,m.rectPosition.size))) {
+				int vfxElapsedTime = (int) (System.currentTimeMillis() - m.vfxStartTime);
+				if (vfxElapsedTime > m.vfxDuration) vfxElapsedTime = m.vfxDuration;
+				int x = ((m.position.x - mapViewArea.topLeft.x) * tileSize * vfxElapsedTime + ((m.lastPosition.x - mapViewArea.topLeft.x) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
+				int y = ((m.position.y - mapViewArea.topLeft.y) * tileSize * vfxElapsedTime + ((m.lastPosition.y - mapViewArea.topLeft.y) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
+				tiles.drawTile(canvas, m.iconID, x, y, mPaint, m.isFlippedX);
 			}
 		}
 	}

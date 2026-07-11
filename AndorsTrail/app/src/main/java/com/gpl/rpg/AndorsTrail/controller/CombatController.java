@@ -341,10 +341,8 @@ public final class CombatController implements VisualEffectCompletedCallback {
 	private void beginMonsterTurn(boolean isFirstRound) {
 		controllers.actorStatsController.setActorMinAP(world.model.player);
 		world.model.uiSelections.isPlayersCombatTurn = false;
-		for (MonsterSpawnArea a : world.model.currentMaps.map.spawnAreas) {
-			for (Monster m : a.monsters) {
-				controllers.actorStatsController.setActorMaxAP(m);
-			}
+		for (Monster m : world.model.currentMaps.map.monsters) {
+			controllers.actorStatsController.setActorMaxAP(m);
 		}
 		currentActiveMonster = null;
 		if (!isFirstRound) controllers.gameRoundController.onNewMonsterRound();
@@ -359,17 +357,15 @@ public final class CombatController implements VisualEffectCompletedCallback {
 			if (shouldAttackWithMonsterInCombat(currentActiveMonster, playerPosition)) return MonsterAction.attack;
 		}
 
-		for (MonsterSpawnArea a : world.model.currentMaps.map.spawnAreas) {
-			for (Monster m : a.monsters) {
-				if (!m.isAgressive(world.model.player)) continue;
+		for (Monster m : world.model.currentMaps.map.monsters) {
+			if (!m.isAgressive(world.model.player)) continue;
 
-				if (shouldAttackWithMonsterInCombat(m, playerPosition)) {
-					currentActiveMonster = m;
-					return MonsterAction.attack;
-				} else if (shouldMoveMonsterInCombat(m, a, world.model.player, playerPosition)) {
-					currentActiveMonster = m;
-					return MonsterAction.move;
-				}
+			if (shouldAttackWithMonsterInCombat(m, playerPosition)) {
+				currentActiveMonster = m;
+				return MonsterAction.attack;
+			} else if (shouldMoveMonsterInCombat(m, world.model.player, playerPosition)) {
+				currentActiveMonster = m;
+				return MonsterAction.move;
 			}
 		}
 		return MonsterAction.none;
@@ -377,10 +373,9 @@ public final class CombatController implements VisualEffectCompletedCallback {
 
 	private static boolean shouldAttackWithMonsterInCombat(Monster m, Coord playerPosition) {
 		if (!m.hasAPs(m.getAttackCost())) return false;
-		if (!m.rectPosition.isAdjacentTo(playerPosition)) return false;
-		return true;
-	}
-	private static boolean shouldMoveMonsterInCombat(Monster m, MonsterSpawnArea a, Player p, Coord playerPosition) {
+        return m.rectPosition.isAdjacentTo(playerPosition);
+    }
+	private boolean shouldMoveMonsterInCombat(Monster m, Player p, Coord playerPosition) {
 		final MonsterType.AggressionType movementAggressionType = m.getMovementAggressionType();
 		if (movementAggressionType == MonsterType.AggressionType.none) return false;
 
@@ -389,15 +384,14 @@ public final class CombatController implements VisualEffectCompletedCallback {
 		if (!m.isAgressive(p)) return false;
 
 		if (movementAggressionType == MonsterType.AggressionType.protectSpawn) {
-			if (a.area.contains(playerPosition)) return true;
+            return m.area.area.contains(playerPosition);
 		} else if (movementAggressionType == MonsterType.AggressionType.helpOthers) {
-			for (Monster o : a.monsters) {
+			for (Monster o : world.model.currentMaps.map.monsters) {
 				if (o == m) continue;
+				if (!o.area.equals(m.area)) continue;
 				if (o.rectPosition.isAdjacentTo(playerPosition)) return true;
 			}
-		} else if (movementAggressionType == MonsterType.AggressionType.wholeMap) {
-			return true;
-		}
+		} else return movementAggressionType == MonsterType.AggressionType.wholeMap;
 		return false;
 	}
 

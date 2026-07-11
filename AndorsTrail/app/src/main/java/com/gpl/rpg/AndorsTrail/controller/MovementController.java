@@ -292,13 +292,11 @@ public final class MovementController implements TimedMessageTask.Callback {
 		// If any monsters somehow spawned on an unwalkable tile, we move the monster to a new position on the spawnarea
 		// This could happen if we change some tile to non-walkable in a future version.
 		Coord playerPosition = model.player.position;
-		for (MonsterSpawnArea a : map.spawnAreas) {
-			for (Monster m : a.monsters) {
-				if (tileMap.isWalkable(m.rectPosition)) continue;
-				Coord p = MonsterSpawningController.getRandomFreePosition(map, tileMap, a, m.tileSize, playerPosition);
-				if (p == null) continue;
-				m.position.set(p);
-			}
+		for (Monster m : map.monsters) {
+			if (tileMap.isWalkable(m.rectPosition)) continue;
+			Coord p = MonsterSpawningController.getRandomFreePosition(map, tileMap, m.area.area, m.tileSize, playerPosition, m.ignoreAreas);
+			if (p == null) continue;
+			m.position.set(p);
 		}
 
 		// Move ground bags that are are placed on unwalkable tiles.
@@ -362,11 +360,9 @@ public final class MovementController implements TimedMessageTask.Callback {
 		return getAdjacentAggressiveMonster(map, player) != null;
 	}
 	public static Monster getAdjacentAggressiveMonster(PredefinedMap map, Player player) {
-		for (MonsterSpawnArea a : map.spawnAreas) {
-			for (Monster m : a.monsters) {
-				if (!m.isAgressive(player)) continue;
-				if (m.isAdjacentTo(player)) return m;
-			}
+		for (Monster m : map.monsters) {
+			if (!m.isAgressive(player)) continue;
+			if (m.isAdjacentTo(player)) return m;
 		}
 		return null;
 	}

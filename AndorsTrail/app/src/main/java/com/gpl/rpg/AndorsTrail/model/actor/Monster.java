@@ -15,6 +15,7 @@ import com.gpl.rpg.AndorsTrail.model.item.ItemContainer;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.MapArea;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
+import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
 import com.gpl.rpg.AndorsTrail.savegames.LegacySavegameFormatReaderForMonster;
 import com.gpl.rpg.AndorsTrail.util.Coord;
@@ -46,9 +47,11 @@ public final class Monster extends Actor {
 		this.area = area;
 		this.iconID = monsterType.iconID;
 		this.isFlippedX = Constants.roll100(monsterType.horizontalFlipChance);
-		this.currentMapID = area.mapID;
+		if (area != null) {
+			this.currentMapID = area.mapID;
+			if (area instanceof MonsterSpawnArea) this.ignoreAreas = ((MonsterSpawnArea) area).ignoreAreas;
+		}
 		this.nextPosition = new CoordRect(new Coord(), monsterType.tileSize);
-		if (area instanceof MonsterSpawnArea) this.ignoreAreas = ((MonsterSpawnArea) area).ignoreAreas;
 		resetStatsToBaseTraits();
 		this.ap.setMax();
 		this.health.setMax();
@@ -177,7 +180,14 @@ public final class Monster extends Actor {
 
 		if (fileversion > 85) {
 			this.ignoreAreas = src.readBoolean();
-			this.area.readFromParcel(src, world, fileversion);
+			this.currentMapID = src.readUTF();
+			if (src.readBoolean()) {
+				String areaID = src.readUTF();
+				PredefinedMap map = world.maps.findPredefinedMap(this.currentMapID);
+				if (map != null) {
+					this.area = map.getArea(areaID);
+				}
+			}
 		}
 	}
 
@@ -221,7 +231,12 @@ public final class Monster extends Actor {
 
 		dest.writeBoolean(ignoreAreas);
 		dest.writeUTF(currentMapID);
-		area.writeToParcel(dest);
+		if (area != null) {
+			dest.writeBoolean(true);
+			dest.writeUTF(area.areaID);
+		} else {
+			dest.writeBoolean(false);
+		}
 	}
 
 	public void addToChecksum(ChecksumBuilder builder) {

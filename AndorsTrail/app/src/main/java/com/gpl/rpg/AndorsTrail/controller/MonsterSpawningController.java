@@ -27,7 +27,7 @@ public final class MonsterSpawningController {
 			final boolean wasAbleToSpawn = spawnInArea(map, tileMap, area, null);
 			if (!wasAbleToSpawn) break;
 		}
-		controllers.actorStatsController.healAllMonsters(area);
+		controllers.actorStatsController.healAllMonsters(map, area);
 	}
 
 	public void maybeSpawn(PredefinedMap map, LayeredTileMap tileMap) {
@@ -51,20 +51,20 @@ public final class MonsterSpawningController {
 	}
 	public boolean TEST_spawnInArea(PredefinedMap map, LayeredTileMap tileMap, MonsterSpawnArea a, MonsterType type) { return spawnInArea(map, tileMap, a, type, null); }
 	private boolean spawnInArea(PredefinedMap map, LayeredTileMap tileMap, MonsterSpawnArea a, MonsterType type, Coord playerPosition) {
-		Coord p = getRandomFreePosition(map, tileMap, a, type.tileSize, playerPosition);
+		Coord p = getRandomFreePosition(map, tileMap, a.area, type.tileSize, playerPosition, a.ignoreAreas);
 		if (p == null) return false;
 		Monster m = a.spawn(p, type);
 		monsterSpawnListeners.onMonsterSpawned(map, m);
 		return true;
 	}
 
-	public static Coord getRandomFreePosition(PredefinedMap map, LayeredTileMap tileMap, MonsterSpawnArea a, Size requiredSize, Coord playerPosition) {
+	public static Coord getRandomFreePosition(PredefinedMap map, LayeredTileMap tileMap, CoordRect area, Size requiredSize, Coord playerPosition, boolean ignoreAreas) {
 		CoordRect p = new CoordRect(requiredSize);
 		for(int i = 0; i < 100; ++i) {
 			p.topLeft.set(
-					a.area.topLeft.x + Constants.rnd.nextInt(a.area.size.width)
-					,a.area.topLeft.y + Constants.rnd.nextInt(a.area.size.height));
-			if (!MonsterMovementController.monsterCanMoveTo(null, map, tileMap, p, a.ignoreAreas)) continue;
+					area.topLeft.x + Constants.rnd.nextInt(area.size.width)
+					,area.topLeft.y + Constants.rnd.nextInt(area.size.height));
+			if (!MonsterMovementController.monsterCanMoveTo(null, map, tileMap, p, ignoreAreas)) continue;
 			if (playerPosition != null && p.contains(playerPosition)) continue;
 			return p.topLeft;
 		}

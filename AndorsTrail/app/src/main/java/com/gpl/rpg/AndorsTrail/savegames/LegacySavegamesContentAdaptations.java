@@ -21,22 +21,19 @@ public class LegacySavegamesContentAdaptations {
 	public static void adaptToNewContentForVersion45(WorldContext world, ControllerContext controllers, Resources res) {
 		PredefinedMap fields5Map = world.maps.findPredefinedMap("fields5");
 		if (fields5Map != null) {
-			for (MonsterSpawnArea area : fields5Map.spawnAreas) {
-				if (area.monsters != null) {
-					for (Monster m : area.monsters) {
-						if (m.getMonsterTypeID().equals("feygard_bridgeguard")) {
-							area.resetForNewGame();
-							for (MonsterSpawnArea newarea : fields5Map.spawnAreas) {
-								if (newarea.areaID.equals("guynmart_robber1")) {
-									controllers.monsterSpawnController.spawnAllInArea(fields5Map, 
-											(world.model.currentMaps.map == fields5Map ? world.model.currentMaps.tileMap : null),
-											newarea, true);
-									break;
-								}
-							}
+			for (Monster m : fields5Map.monsters) {
+				if (m.getMonsterTypeID().equals("feygard_bridgeguard")) {
+					MonsterSpawnArea area = (MonsterSpawnArea) m.area;
+					area.resetForNewGame();
+					for (MonsterSpawnArea newarea : fields5Map.spawnAreas) {
+						if (newarea.areaID.equals("guynmart_robber1")) {
+							controllers.monsterSpawnController.spawnAllInArea(fields5Map,
+									(world.model.currentMaps.map == fields5Map ? world.model.currentMaps.tileMap : null),
+									newarea, true);
 							break;
 						}
 					}
+					break;
 				}
 			}
 		}
