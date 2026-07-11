@@ -269,6 +269,8 @@
         <item>@raw/questlist_mt_galmore2</item>
         <!--Added by ATCS v0.6.27 for project Brightport2-->
         <item>@raw/questlist_brightport</item>
+
+        <item>@raw/questlist_traveltest</item>
     </array>
         
     <array name="loadresource_conversationlists">
@@ -493,6 +495,8 @@
         <item>@raw/conversationlist_fsc_calc</item>
         <!--Added by ATCS v0.6.27 for project Brightport2-->
         <item>@raw/conversationlist_brightport</item>
+
+        <item>@raw/conversationlist_traveltest</item>
     </array>
         
     <array name="loadresource_monsters">
@@ -570,6 +574,8 @@
         <item>@raw/monsterlist_mt_galmore2</item>
         <!--Added by ATCS v0.6.27 for project Brightport2-->
         <item>@raw/monsterlist_brightport</item>
+
+        <item>@raw/monsterlist_traveltest</item>
     </array>
         
     <array name="loadresource_maps">
@@ -1825,6 +1831,9 @@
         <item>@xml/waytobrightport7</item>
         <item>@xml/waytobrightport8</item>
         <item>@xml/waytobrightport9</item>
+
+        <item>@xml/traveltest1</item>
+        <item>@xml/traveltest2</item>
     </array>
         
 </resources>

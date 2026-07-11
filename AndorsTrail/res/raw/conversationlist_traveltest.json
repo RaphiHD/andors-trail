@@ -1,0 +1,312 @@
+[
+    {
+        "id":"traveltester_start",
+        "message":"Choose a destination.",
+        "replies": [
+            {
+                "text": "Go to rect 1 corner",
+                "nextPhraseID": "traveltester_rect1_corner"
+            },
+            {
+                "text": "Go to rect 2 corner",
+                "nextPhraseID": "traveltester_rect2_corner"
+            },
+            {
+                "text": "Go to rect 3 corner",
+                "nextPhraseID": "traveltester_rect3_corner"
+            },
+            {
+                "text": "Go to rect 4 corner",
+                "nextPhraseID": "traveltester_rect4_corner"
+            },
+            {
+                "text": "Go to rect 1 center",
+                "nextPhraseID": "traveltester_rect1_center"
+            },
+            {
+                "text": "Go to rect 2 center",
+                "nextPhraseID": "traveltester_rect2_center"
+            },
+            {
+                "text": "Go to rect 3 center",
+                "nextPhraseID": "traveltester_rect3_center"
+            },
+            {
+                "text": "Go to rect 4 center",
+                "nextPhraseID": "traveltester_rect4_center"
+            },
+            {
+                "text": "Go to diag 1",
+                "nextPhraseID": "traveltester_diag_1"
+            },
+            {
+                "text": "Go to diag 2",
+                "nextPhraseID": "traveltester_diag_2"
+            },
+            {
+                "text": "Go to snake",
+                "nextPhraseID": "traveltester_snake"
+            },
+            {
+                "text": "Go to variation one tile center",
+                "nextPhraseID": "traveltester_variation_one"
+            },
+            {
+                "text": "Go to variation two tile center",
+                "nextPhraseID": "traveltester_variation_two"
+            },
+            {
+                "text": "Go to obstacle 1",
+                "nextPhraseID": "traveltester_obstacle_1"
+            },
+            {
+                "text": "Go to obstacle 2",
+                "nextPhraseID": "traveltester_obstacle_2"
+            },
+            {
+                "text": "Go to obstacle 3",
+                "nextPhraseID": "traveltester_obstacle_3"
+            },
+            {
+                "text": "Go to obstacle 4",
+                "nextPhraseID": "traveltester_obstacle_4"
+            },
+            {
+                "text": "Go to map 2 left",
+                "nextPhraseID": "traveltester_map2_rect1"
+            },
+            {
+                "text": "Go to map 2 right",
+                "nextPhraseID": "traveltester_map2_rect2"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_rect1_corner",
+        "message": "Travelling to rect 1 corner",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"rect1_corner",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_rect2_corner",
+        "message": "Travelling to rect 2 corner",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"rect2_corner",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_rect3_corner",
+        "message": "Travelling to rect 3 corner",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"rect3_corner",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_rect4_corner",
+        "message": "Travelling to rect 4 corner",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"rect4_corner",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_rect1_center",
+        "message": "Travelling to rect 1 center",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"rect1_center",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_rect2_center",
+        "message": "Travelling to rect 2 center",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"rect2_center",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_rect3_center",
+        "message": "Travelling to rect 3 center",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"rect3_center",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_rect4_center",
+        "message": "Travelling to rect 4 center",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"rect4_center",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_diag_1",
+        "message": "Travelling to diag 1",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"diag_1",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_diag_2",
+        "message": "Travelling to diag 2",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"diag_2",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_snake",
+        "message": "Travelling to snake",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"snake",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_variation_one",
+        "message": "Travelling to variation one",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"variation_one",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_variation_two",
+        "message": "Travelling to variation two",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"variation_two",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_obstacle_1",
+        "message": "Travelling to obstacle 1",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"obstacle_1",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_obstacle_2",
+        "message": "Travelling to obstacle 2",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"obstacle_2",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_obstacle_3",
+        "message": "Travelling to obstacle 3",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"obstacle_3",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_obstacle_4",
+        "message": "Travelling to obstacle 4",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"obstacle_4",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_map2_rect1",
+        "message": "Travelling to map 2 left",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"map2_rect1",
+                "value":0,
+                "mapName":"traveltest2"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_map2_rect2",
+        "message": "Travelling to map 2 right",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"map2_rect2",
+                "value":0,
+                "mapName":"traveltest2"
+            }
+        ]
+    }
+]

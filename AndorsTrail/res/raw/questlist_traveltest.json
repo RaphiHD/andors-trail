@@ -1,0 +1,17 @@
+[
+    {
+        "id":"traveltests",
+        "name":"Traveltests",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"[Tester] exit closed."
+            },
+            {
+                "progress":11,
+                "logText":"[Tester] exit opened."
+            }
+        ]
+    }
+]
