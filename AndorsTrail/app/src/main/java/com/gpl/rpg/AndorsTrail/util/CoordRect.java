@@ -61,8 +61,11 @@ public final class CoordRect {
 	}
 
 	public boolean isAdjacentTo(Coord p) {
-		final int dx = p.x - topLeft.x;
-		final int dy = p.y - topLeft.y;
+		return isAdjacentTo(p.x, p.y);
+	}
+	public boolean isAdjacentTo(final int x, final int y) {
+		final int dx = x - topLeft.x;
+		final int dy = y - topLeft.y;
 		if (dx < -1) return false;
 		if (dy < -1) return false;
 		if (dx > size.width) return false;

@@ -42,7 +42,7 @@ public class GlobalPathFinder {
 		L.log("PATHFINDER: finding path between " + fromMapName + " and " + toMapName);
 
 		// Basic validation: pathfinding requires both start and end maps to exist.
-		if (fromMapName == null || toMapName == null) return new GlobalPath(new ArrayList<>(), fromPosition.topLeft, world.model.worldData.getWorldTime(), 0);
+		if (fromMapName == null || toMapName == null) return new GlobalPath(new ArrayList<>(), fromPosition.topLeft, System.currentTimeMillis(), 0);
 
 		// Optimization: If already on the target map, perform local pathfinding. TODO: there is not always a local path -> still do global!
 		if (fromMapName.equals(toMapName)) {
@@ -52,9 +52,9 @@ public class GlobalPathFinder {
 				List<GlobalPath.GlobalPathEntry> path = new ArrayList<>();
 		// Path consists of a single leg: staying on this map to reach the destination.
 		path.add(new GlobalPath.GlobalPathEntry(fromMapName, destinationID, d, d));
-		return new GlobalPath(path, fromPosition.topLeft, world.model.worldData.getWorldTime(), d);
+		return new GlobalPath(path, fromPosition.topLeft, System.currentTimeMillis(), d);
 	}
-	return new GlobalPath(new ArrayList<GlobalPath.GlobalPathEntry>(), fromPosition.topLeft, world.model.worldData.getWorldTime(), -1);
+	return new GlobalPath(new ArrayList<GlobalPath.GlobalPathEntry>(), fromPosition.topLeft, System.currentTimeMillis(), -1);
 }
 
 		/**
@@ -204,7 +204,7 @@ public class GlobalPathFinder {
 		}
 
 		// If no path was found to the target map.
-		if (targetNode == null) return new GlobalPath(new ArrayList<GlobalPath.GlobalPathEntry>(), fromPosition.topLeft, world.model.worldData.getWorldTime(), -1);
+		if (targetNode == null) return new GlobalPath(new ArrayList<GlobalPath.GlobalPathEntry>(), fromPosition.topLeft, System.currentTimeMillis(), -1);
 
 		// Path Reconstruction
 		List<GlobalPath.GlobalPathEntry> path = new ArrayList<>();
@@ -235,7 +235,7 @@ public class GlobalPathFinder {
 		Collections.reverse(path);
 
 		L.log("PATHFINDER: found path: " + path);
-		return new GlobalPath(path, fromPosition.topLeft, world.model.worldData.getWorldTime(), totalDistance);
+		return new GlobalPath(path, fromPosition.topLeft, System.currentTimeMillis(), totalDistance);
 	}
 
 	/**

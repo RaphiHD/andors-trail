@@ -179,6 +179,60 @@ public class PathFinder {
 		return false;
 	}
 
+	public Coord findPositionOnPath(final Coord from, final CoordRect to, final long distance, Monster m) {
+		return findPositionOnPath(new CoordRect(from, m.rectPosition.size), to, distance, m);
+	}
+
+	public Coord findPositionOnPath(final CoordRect from, final CoordRect to, final long distance, Monster m) {
+		if (distance <= 0) return from.topLeft;
+
+		CoordRect nextStep = new CoordRect(new Coord(), new Size(1, 1));
+		if (!findPathBetween(from, to, nextStep, m)) return from.topLeft;
+
+		if (distance >= lastPathDistance) {
+			// Find a tile in the target area that was reached
+			for (int y = to.topLeft.y; y < to.topLeft.y + to.size.height; ++y) {
+				if (y < 0 || y >= maxHeight) continue;
+				for (int x = to.topLeft.x; x < to.topLeft.x + to.size.width; ++x) {
+					if (x < 0 || x >= maxWidth) continue;
+					int i = (y * maxWidth) + x;
+					if (visited[i] && gScore[i] == 0) return new Coord(x, y);
+				}
+			}
+			return to.topLeft;
+		}
+
+		// Find the tile adjacent to 'from' that starts the path
+		int ci = -1;
+		for (int y = 0; y < maxHeight; ++y) {
+			for (int x = 0; x < maxWidth; ++x) {
+				int i = (y * maxWidth) + x;
+				if (visited[i] && from.isAdjacentTo(x, y)) {
+					int dx = Math.abs(x - from.topLeft.x);
+					int dy = Math.abs(y - from.topLeft.y);
+					int moveCost = (dx == 0 || dy == 0) ? 10 : 14;
+					if (gScore[i] + moveCost == lastPathDistance) {
+						ci = i;
+						break;
+					}
+				}
+			}
+			if (ci != -1) break;
+		}
+
+		if (ci == -1) return from.topLeft;
+
+		int i = ci;
+		Coord best = from.topLeft;
+		while (i != -1) {
+			int distFromStart = lastPathDistance - gScore[i];
+			if (distFromStart > distance) return best;
+			best = new Coord(i % maxWidth, i / maxWidth);
+			i = predecessor[i];
+		}
+		return best;
+	}
+
 	/** Octile heuristic tuned to move costs orth=10 diag=14 (integers) */
 	private static int heuristic(int ax, int ay, int bx, int by) {
 		int dx = Math.abs(ax - bx);
