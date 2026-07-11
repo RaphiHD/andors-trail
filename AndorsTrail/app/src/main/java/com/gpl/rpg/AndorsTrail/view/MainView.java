@@ -446,6 +446,17 @@ public final class MainView extends SurfaceView
 							(c.y - mapViewArea.topLeft.y + 1) * tileSize,
 							debugPaint
 					);
+
+					if (i < pf.last_path_distances.size()) {
+						int dist = pf.last_path_distances.get(i);
+						debugPaint.setColor(Color.WHITE);
+						debugPaint.setTextSize(tileSize * 0.4f);
+						String text = String.valueOf(dist);
+						canvas.drawText(text,
+								(c.x - mapViewArea.topLeft.x) * tileSize + 2,
+								(c.y - mapViewArea.topLeft.y) * tileSize + debugPaint.getTextSize(),
+								debugPaint);
+					}
 				}
 			}
 		}

@@ -24,6 +24,7 @@ public class PathFinder {
 	public static volatile boolean showPathfinderDebug = false;
 	public final boolean[] last_visited;
 	public final List<Coord> last_path = new ArrayList<Coord>();
+	public final List<Integer> last_path_distances = new ArrayList<Integer>();
 
 	public int getLastPathDistance() { return lastPathDistance; }
 
@@ -60,6 +61,7 @@ public class PathFinder {
 			if (showPathfinderDebug) {
 				synchronized (last_path) {
 					last_path.clear();
+					last_path_distances.clear();
 					Arrays.fill(last_visited, false);
 				}
 			}
@@ -94,6 +96,7 @@ public class PathFinder {
 			if (showPathfinderDebug) {
 				synchronized (last_path) {
 					last_path.clear();
+					last_path_distances.clear();
 					Arrays.fill(last_visited, false);
 				}
 			}
@@ -108,6 +111,7 @@ public class PathFinder {
 					synchronized (last_path) {
 						System.arraycopy(visited, 0, last_visited, 0, visited.length);
 						last_path.clear();
+						last_path_distances.clear();
 					}
 				}
 				return false;
@@ -128,9 +132,11 @@ public class PathFinder {
 					synchronized (last_path) {
 						System.arraycopy(visited, 0, last_visited, 0, visited.length);
 						last_path.clear();
+						last_path_distances.clear();
 						int i = ci;
 						while (i != -1) {
 							last_path.add(new Coord(i % maxWidth, i / maxWidth));
+							last_path_distances.add(lastPathDistance - gScore[i]);
 							i = predecessor[i];
 						}
 					}
@@ -167,6 +173,7 @@ public class PathFinder {
 			synchronized (last_path) {
 				System.arraycopy(visited, 0, last_visited, 0, visited.length);
 				last_path.clear();
+				last_path_distances.clear();
 			}
 		}
 		return false;
