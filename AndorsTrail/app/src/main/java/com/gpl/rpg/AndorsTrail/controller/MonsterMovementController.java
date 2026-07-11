@@ -164,17 +164,18 @@ public final class MonsterMovementController {
 
 		// Monster is travelling -> pathfind
 		if (m.travelDestination != null) {
-			String destinationID = m.travelPath.getNextDestination().destinationID;
-			if (destinationID == null) {
+			if (m.travelPath.currentPosition >= m.travelPath.path.size() - 1) {
 				// Target map reached, pathfind locally to destinationArea
 				if (m.travelDestination.area.contains(m.position)) {
 					// Destination reached
 					m.travelDestination.onMonsterArrived(m);
+					return;
 				} else if (findPathFor(m, m.travelDestination.area)) {
 					// Pathfind locally to destinationArea
 					return;
 				}
 			} else {
+				String destinationID = m.travelPath.getNextDestination().destinationID;
 				// Pathfind locally to next mapchange
 				for (MapObject o : world.model.currentMaps.map.eventObjects) {
 					if (o.type != MapObject.MapObjectType.newmap) continue;
@@ -184,12 +185,15 @@ public final class MonsterMovementController {
 					// Check if Monster already reached mapchange area
 					if (o.position.contains(m.position)) {
 						world.monsters.addTravellingMonster(m); // Monster set to floating state
+						// TODO remove monster from map
 						return;
 					}
 
 					if (findPathFor(m, o.position)) {
 						// Path found, monster moved
 						return;
+					} else {
+						// Path blocked, do something to clear path TODO
 					}
 				}
 			}

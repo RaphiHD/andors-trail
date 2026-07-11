@@ -87,11 +87,12 @@ public class GlobalPathFinder {
 		}
 
 		for (PredefinedMap m : world.maps.getAllMaps()) {
-			if (m == fromMap) continue;
 			for (MapObject o : m.eventObjects) {
 				if (o.type == MapObject.MapObjectType.newmap) {
 					Node node = new Node(m, o);
-					distances.put(node, Integer.MAX_VALUE);
+					if (!distances.containsKey(node)) {
+						distances.put(node, Integer.MAX_VALUE);
+					}
 				}
 			}
 		}
@@ -108,7 +109,7 @@ public class GlobalPathFinder {
 			if (uDist == Integer.MAX_VALUE) break;
 			if (uDist > distances.get(u)) continue;
 
-			if (u.mapchange.map.equals(toMapName)) {
+			if (toMapName.equals(u.mapchange.map)) {
 				PredefinedMap targetMap = world.maps.findPredefinedMap(toMapName);
 				MapObject entryPoint = targetMap.findEventObject(MapObject.MapObjectType.newmap, u.mapchange.place);
 				if (entryPoint != null) {
@@ -142,19 +143,21 @@ public class GlobalPathFinder {
 			}
 
 			// Across mapchange: transition to next map (distance 0)
-			PredefinedMap nextMap = world.maps.findPredefinedMap(u.mapchange.map);
-			if (nextMap != null) {
-				for (MapObject vObj : nextMap.eventObjects) {
-					if (vObj.type != MapObject.MapObjectType.newmap) continue;
-					if (vObj.id.equals(u.mapchange.place)) {
-						Node v = new Node(nextMap, vObj);
-                        Integer vDist = distances.get(v);
-						if (vDist != null && uDist < vDist) {
-							distances.put(v, uDist);
-							previous.put(v, u);
-							pq.add(new NodeDistance(v, uDist));
+			if (u.mapchange.map != null) {
+				PredefinedMap nextMap = world.maps.findPredefinedMap(u.mapchange.map);
+				if (nextMap != null) {
+					for (MapObject vObj : nextMap.eventObjects) {
+						if (vObj.type != MapObject.MapObjectType.newmap) continue;
+						if (u.mapchange.place != null && u.mapchange.place.equals(vObj.id)) {
+							Node v = new Node(nextMap, vObj);
+							Integer vDist = distances.get(v);
+							if (vDist != null && uDist < vDist) {
+								distances.put(v, uDist);
+								previous.put(v, u);
+								pq.add(new NodeDistance(v, uDist));
+							}
+							break;
 						}
-						break;
 					}
 				}
 			}

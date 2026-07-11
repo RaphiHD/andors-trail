@@ -49,10 +49,10 @@ public class PathFinder {
 	}
 
 	public boolean findPathBetween(final CoordRect from, final CoordRect to, CoordRect nextStep, Monster m) {
-		L.log("PATHFINDER: finding path between "
-				+ "(" + from.topLeft.x + ", " + from.topLeft.y + ")"
-				+ " and "
-				+ "(" + to.topLeft.x + ", " + to.topLeft.y + ")");
+//		L.log("PATHFINDER: finding path between "
+//				+ "(" + from.topLeft.x + ", " + from.topLeft.y + ")"
+//				+ " and "
+//				+ "(" + to.topLeft.x + ", " + to.topLeft.y + ")");
 
 		lastPathDistance = -1;
 		if (from.intersects(to)) {
@@ -90,7 +90,7 @@ public class PathFinder {
 			}
 		}
 		if (openSet.isEmpty()) {
-			L.log("PATHFINDER: openSet is empty, no path possible.");
+//			L.log("PATHFINDER: openSet is empty, no path possible.");
 			if (showPathfinderDebug) {
 				synchronized (last_path) {
 					last_path.clear();
