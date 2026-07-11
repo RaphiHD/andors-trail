@@ -49,33 +49,37 @@ public final class MonsterMovementController {
 
 			long elapsedDistance = (currentTime - m.travelPath.startTime) * 10 / getMillisecondsPerMove(m);
 
-			if (elapsedDistance >= m.travelPath.predictedTime) {
-				// Arrived at destination
-				GlobalPathFinder.GlobalPath.GlobalPathEntry lastEntry = m.travelPath.path.get(m.travelPath.path.size() - 1);
-				PredefinedMap destMap = world.maps.findPredefinedMap(lastEntry.mapID);
-				if (m.travelDestination != null) {
-					m.position.set(m.travelDestination.area.topLeft);
-					m.nextPosition.topLeft.set(m.travelDestination.area.topLeft);
-				}
-				m.currentMapID = lastEntry.mapID;
-				destMap.monsters.add(m);
-				toRemoveFromTravelling.add(m);
-				if (m.travelDestination != null) m.travelDestination.onMonsterArrived(m);
-				continue;
-			}
-
-			for (int i = m.travelPath.currentPosition; i < m.travelPath.path.size(); i++) {
-				GlobalPathFinder.GlobalPath.GlobalPathEntry entry = m.travelPath.path.get(i);
-				if (elapsedDistance < entry.cumulatedDistance) {
-					if (entry.mapID.equals(currentMap.name)) {
-						m.travelPath.currentPosition = i;
-						long distanceOnLeg = elapsedDistance - (entry.cumulatedDistance - entry.distance);
-						spawnMonsterOnCurrentMap(m, distanceOnLeg);
-
-						toRemoveFromTravelling.add(m);
-					}
+			// Find current leg
+			int legIndex = -1;
+			for (int i = 0; i < m.travelPath.path.size(); i++) {
+				if (elapsedDistance < m.travelPath.path.get(i).cumulatedDistance) {
+					legIndex = i;
 					break;
 				}
+			}
+
+			boolean arrived = (elapsedDistance >= m.travelPath.predictedTime);
+			if (arrived) {
+				legIndex = m.travelPath.path.size() - 1;
+				elapsedDistance = m.travelPath.predictedTime;
+			}
+
+			GlobalPathFinder.GlobalPath.GlobalPathEntry entry = m.travelPath.path.get(legIndex);
+			long distanceOnLeg = elapsedDistance - (entry.cumulatedDistance - entry.distance);
+
+			if (entry.mapID.equals(currentMap.name)) {
+				// Monster is on the map the player is currently on.
+				m.travelPath.currentPosition = legIndex;
+				spawnMonsterOnMap(m, currentMap, legIndex, distanceOnLeg);
+				toRemoveFromTravelling.add(m);
+				if (arrived && m.travelDestination != null) m.travelDestination.onMonsterArrived(m);
+			} else if (arrived) {
+				// Arrived at destination on a DIFFERENT map.
+				PredefinedMap destMap = world.maps.findPredefinedMap(entry.mapID);
+				m.travelPath.currentPosition = legIndex;
+				spawnMonsterOnMap(m, destMap, legIndex, distanceOnLeg);
+				toRemoveFromTravelling.add(m);
+				if (m.travelDestination != null) m.travelDestination.onMonsterArrived(m);
 			}
 		}
 		for (Monster m : toRemoveFromTravelling) {
@@ -193,6 +197,8 @@ public final class MonsterMovementController {
 					// Check if Monster already reached mapchange area
 					if (o.position.contains(m.position)) {
 						// Remove Monster from map and add it to global travelling monsters
+						long unitsSoFar = m.travelPath.path.get(m.travelPath.currentPosition).cumulatedDistance;
+						m.travelPath.startTime = System.currentTimeMillis() - (unitsSoFar * getMillisecondsPerMove(m) / 10);
 						m.travelPath.currentPosition++;
 						world.monsters.addTravellingMonster(m);
 						world.model.currentMaps.map.removeMonster(m);
@@ -278,13 +284,10 @@ public final class MonsterMovementController {
 		}, 0);
 	}
 
-	private void spawnMonsterOnCurrentMap(Monster m, long distanceOnLeg) {
-		int legIndex = m.travelPath.currentPosition;
-		PredefinedMap map = world.model.currentMaps.map;
-
-		Coord startPos;
+	private void spawnMonsterOnMap(Monster m, PredefinedMap map, int legIndex, long distanceOnLeg) {
+		CoordRect startArea;
 		if (legIndex == 0) {
-			startPos = m.travelPath.startingPosition;
+			startArea = new CoordRect(m.travelPath.startingPosition, m.nextPosition.size);
 		} else {
 			GlobalPathFinder.GlobalPath.GlobalPathEntry prevEntry = m.travelPath.path.get(legIndex - 1);
 			PredefinedMap prevMap = world.maps.findPredefinedMap(prevEntry.mapID);
@@ -292,12 +295,12 @@ public final class MonsterMovementController {
 			if (exitObj != null) {
 				MapObject entranceObj = map.findEventObject(MapObject.MapObjectType.newmap, exitObj.place);
 				if (entranceObj != null) {
-					startPos = entranceObj.position.topLeft;
+					startArea = entranceObj.position;
 				} else {
-					startPos = new Coord(0,0);
+					startArea = new CoordRect(new Coord(0,0), m.nextPosition.size);
 				}
 			} else {
-				startPos = new Coord(0,0);
+				startArea = new CoordRect(new Coord(0,0), m.nextPosition.size);
 			}
 		}
 
@@ -310,13 +313,24 @@ public final class MonsterMovementController {
 			toArea = m.travelDestination.area;
 		}
 
-		Coord spawnPos = map.pathfinder.findPositionOnPath(new CoordRect(startPos, m.nextPosition.size), toArea, distanceOnLeg, m);
+		Coord spawnPos = map.pathfinder.findPositionOnPath(startArea, toArea, distanceOnLeg, m);
 
 		m.position.set(spawnPos);
 		m.nextPosition.topLeft.set(spawnPos);
 		m.currentMapID = map.name;
 		map.monsters.add(m);
-		controllers.monsterSpawnController.monsterSpawnListeners.onMonsterSpawned(map, m);
+
+		long unitsToTile = (distanceOnLeg / 10) * 10;
+		long unitsRemaining = 10 - (distanceOnLeg - unitsToTile);
+		if (unitsRemaining > 0) {
+			m.nextActionTime = System.currentTimeMillis() + (unitsRemaining * getMillisecondsPerMove(m) / 10);
+		} else {
+			m.nextActionTime = System.currentTimeMillis();
+		}
+
+		if (map == world.model.currentMaps.map) {
+			controllers.monsterSpawnController.monsterSpawnListeners.onMonsterSpawned(map, m);
+		}
 	}
 
 	public void beginTravel(final Monster m, final String mapID, final String destinationID) {

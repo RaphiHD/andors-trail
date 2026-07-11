@@ -126,7 +126,7 @@ public class PathFinder {
 				Coord closest = from.findPositionAdjacentTo(curr);
 				int dx = Math.abs(cx - closest.x);
 				int dy = Math.abs(cy - closest.y);
-				int moveCost = (dx == 0 || dy == 0) ? 10 : 14;
+				int moveCost = 10;
 				lastPathDistance = gScore[ci] + moveCost;
 				if (showPathfinderDebug) {
 					synchronized (last_path) {
@@ -158,7 +158,7 @@ public class PathFinder {
 					if (m != null && !map.isWalkable(nextStep, m)) continue;
 					else if (!map.isWalkable(nextStep, true)) continue;
 
-					int moveCost = (dx == 0 || dy == 0) ? 10 : 14;
+					int moveCost = 10;
 					int tentativeG = gScore[ci] + moveCost;
 					if (tentativeG < gScore[ni]) {
 						gScore[ni] = tentativeG;
@@ -210,7 +210,7 @@ public class PathFinder {
 				if (visited[i] && from.isAdjacentTo(x, y)) {
 					int dx = Math.abs(x - from.topLeft.x);
 					int dy = Math.abs(y - from.topLeft.y);
-					int moveCost = (dx == 0 || dy == 0) ? 10 : 14;
+					int moveCost = 10;
 					if (gScore[i] + moveCost == lastPathDistance) {
 						ci = i;
 						break;

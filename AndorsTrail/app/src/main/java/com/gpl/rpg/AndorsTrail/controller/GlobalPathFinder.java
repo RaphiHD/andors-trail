@@ -245,7 +245,7 @@ public class GlobalPathFinder {
 		public final List<GlobalPathEntry> path; // Sequence of map legs.
 		public final Coord startingPosition;    // Starting position of the journey.
 		public int currentPosition = 0;          // Current step in the journey.
-		public final long startTime;             // Game round when travel started.
+		public long startTime;             // System.currentTimeMillis() when travel started.
 		public final int predictedTime;          // Estimated total distance/cost.
 
 		public GlobalPath(List<GlobalPathEntry> path, Coord startingPosition, long startTime, int predictedTime) {
