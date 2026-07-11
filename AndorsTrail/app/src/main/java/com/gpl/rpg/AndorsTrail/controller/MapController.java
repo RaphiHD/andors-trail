@@ -75,6 +75,12 @@ public final class MapController {
 			if (o.map == null || o.place == null) return;
 			int offset_x = position.x - o.position.topLeft.x;
 			int offset_y = position.y - o.position.topLeft.y;
+			for (Monster m : world.model.currentMaps.map.monsters) {
+				if (m.travelDestination != null) {
+					world.model.currentMaps.map.removeMonster(m);
+					world.monsters.addTravellingMonster(m);
+				}
+			}
 			controllers.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, o.map, o.place, offset_x, offset_y);
 			break;
 		case rest:

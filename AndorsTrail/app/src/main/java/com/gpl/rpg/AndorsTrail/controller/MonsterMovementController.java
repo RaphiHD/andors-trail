@@ -47,9 +47,9 @@ public final class MonsterMovementController {
 			if (m.nextActionTime > currentTime) continue;
 			if (m.travelPath == null || m.travelPath.predictedTime < 0 || m.travelPath.path.isEmpty()) continue;
 
-			long tilesCovered = (currentTime - m.travelPath.startTime) / getMillisecondsPerMove(m);
+			long elapsedDistance = (currentTime - m.travelPath.startTime) * 10 / getMillisecondsPerMove(m);
 
-			if (tilesCovered >= m.travelPath.predictedTime) {
+			if (elapsedDistance >= m.travelPath.predictedTime) {
 				// Arrived at destination
 				GlobalPathFinder.GlobalPath.GlobalPathEntry lastEntry = m.travelPath.path.get(m.travelPath.path.size() - 1);
 				PredefinedMap destMap = world.maps.findPredefinedMap(lastEntry.mapID);
@@ -66,10 +66,10 @@ public final class MonsterMovementController {
 
 			for (int i = m.travelPath.currentPosition; i < m.travelPath.path.size(); i++) {
 				GlobalPathFinder.GlobalPath.GlobalPathEntry entry = m.travelPath.path.get(i);
-				if (tilesCovered < entry.cumulatedDistance) {
+				if (elapsedDistance < entry.cumulatedDistance) {
 					if (entry.mapID.equals(currentMap.name)) {
 						m.travelPath.currentPosition = i;
-						long distanceOnLeg = 12 * (tilesCovered - (entry.cumulatedDistance - entry.distance));
+						long distanceOnLeg = elapsedDistance - (entry.cumulatedDistance - entry.distance);
 						spawnMonsterOnCurrentMap(m, distanceOnLeg);
 
 						toRemoveFromTravelling.add(m);
