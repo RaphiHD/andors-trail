@@ -30,8 +30,8 @@ public final class Constants {
 	public static final int MONSTER_IMMOBILE_MOVE_COST = 999;
 
 	public static final int TICK_DELAY = 500;
-	private static final int ROUND_DURATION = 6000;
-	private static final int FULLROUND_DURATION = 25000;
+	public static final int ROUND_DURATION = 6000;
+	public static final int FULLROUND_DURATION = 25000;
 	public static final int TICKS_PER_ROUND = ROUND_DURATION / TICK_DELAY;
 	public static final int TICKS_PER_FULLROUND = FULLROUND_DURATION / TICK_DELAY;
 	public static final int SPLATTER_DURATION_MS = 20000;

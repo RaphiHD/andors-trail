@@ -157,6 +157,10 @@ public final class TileManager {
 			// areas in a later release,
 			iconIDs.add(m.iconID);
 		}
+		for (Monster m : world.monsters.travellingMonsters) {
+			// All icons of travelling monsters have to be added in case they get spawned on this map
+			iconIDs.add(m.iconID);
+		}
 		iconIDs.addAll(tileMap.usedTileIDs);
 		return iconIDs;
 	}
