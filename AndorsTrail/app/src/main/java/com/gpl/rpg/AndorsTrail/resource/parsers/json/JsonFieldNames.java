@@ -172,6 +172,7 @@ public final class JsonFieldNames {
 		public static final String killEffect = "killEffect";
 		public static final String hitReceivedEffect = "hitReceivedEffect";
 		public static final String missReceivedEffect = "missReceivedEffect";
+		public static final String scriptOnUse = "scriptOnUse";
 	}
 
 

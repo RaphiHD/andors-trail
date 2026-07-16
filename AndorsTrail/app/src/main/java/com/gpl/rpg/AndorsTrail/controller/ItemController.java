@@ -2,16 +2,23 @@ package com.gpl.rpg.AndorsTrail.controller;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Objects;
+
+import android.content.res.Resources;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailPreferences;
 import com.gpl.rpg.AndorsTrail.R;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
+import com.gpl.rpg.AndorsTrail.controller.listeners.ItemEventListeners;
 import com.gpl.rpg.AndorsTrail.controller.listeners.QuickSlotListeners;
 import com.gpl.rpg.AndorsTrail.model.ModelContainer;
 import com.gpl.rpg.AndorsTrail.model.ability.SkillCollection;
 import com.gpl.rpg.AndorsTrail.model.ability.traits.AbilityModifierTraits;
+import com.gpl.rpg.AndorsTrail.model.actor.Actor;
+import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.actor.Player;
+import com.gpl.rpg.AndorsTrail.model.conversation.Reply;
 import com.gpl.rpg.AndorsTrail.model.item.Inventory;
 import com.gpl.rpg.AndorsTrail.model.item.ItemContainer;
 import com.gpl.rpg.AndorsTrail.model.item.ItemContainer.ItemEntry;
@@ -27,6 +34,8 @@ public final class ItemController {
 	private final ControllerContext controllers;
 	private final WorldContext world;
 	public final QuickSlotListeners quickSlotListeners = new QuickSlotListeners();
+	public final ItemEventListeners itemEventListeners = new ItemEventListeners();
+	private ConversationController.ConversationStatemachine itemScriptExecutor;
 
 	public ItemController(ControllerContext controllers, WorldContext world) {
 		this.controllers = controllers;
@@ -102,6 +111,12 @@ public final class ItemController {
 		world.model.combatLog.append(controllers.getResources().getString(R.string.inventory_item_used, type.getName(player)));
 		controllers.actorStatsController.applyUseEffect(player, null, type.effects_use);
 		world.model.statistics.addItemUsage(type);
+
+		if (!Objects.equals(type.scriptOnUse, "")) {
+			Resources res = controllers.getResources();
+			itemScriptExecutor.proceedToPhrase(res, type.scriptOnUse, true, true);
+		}
+
 		if (world.model.uiSelections.isInCombat && !controllers.combatController.playerHasApLeft()) {
 			controllers.combatController.endPlayerTurn();
 		}
@@ -464,5 +479,22 @@ public final class ItemController {
 			player.damagePotential.add(Math.round(minBaseDamage * ((modifier - 100)/100f)), true);
 			player.damagePotential.addToMax(Math.round(maxBaseDamage * ((modifier - 100)/100f)));
 		}
+	}
+
+	private final ConversationController.ConversationStatemachine.ConversationStateListener conversationStateListener = new ConversationController.ConversationStatemachine.ConversationStateListener() {
+		@Override
+		public void onTextPhraseReached(String message, Actor actor, String phraseID) {
+			itemEventListeners.onItemUseStartedConversation(phraseID);
+		}
+		@Override public void onScriptEffectsApplied(ConversationController.ScriptEffectResult scriptEffectResult) { }
+		@Override public void onConversationEnded() { }
+		@Override public void onConversationEndedWithShop(Monster npc) { }
+		@Override public void onConversationEndedWithCombat(Monster npc) { }
+		@Override public void onConversationEndedWithRemoval(Monster npc) { }
+		@Override public void onConversationCanProceedWithNext() { }
+		@Override public void onConversationHasReply(Reply r, String message) { }
+	};
+	public void prepareScripts() {
+		itemScriptExecutor = new ConversationController.ConversationStatemachine(world, controllers, conversationStateListener);
 	}
 }

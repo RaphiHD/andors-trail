@@ -37,6 +37,7 @@ public final class ItemType {
 	public final ItemTraits_OnUse effects_kill;
 	public final ItemTraits_OnHitReceived effects_hitReceived;
 	public final ItemTraits_OnHitReceived effects_missReceived;
+	public final String scriptOnUse;
 
 	public ItemType(
 			String id
@@ -54,6 +55,7 @@ public final class ItemType {
 			, ItemTraits_OnUse effects_kill
 			, ItemTraits_OnHitReceived effects_hitReceived
 			, ItemTraits_OnHitReceived effects_missReceived
+			, String scriptOnUse
 	) {
 		this.id = id;
 		this.iconID = iconID;
@@ -72,6 +74,7 @@ public final class ItemType {
 		this.effects_hitReceived = effects_hitReceived;
 		this.effects_missReceived = effects_missReceived;
 		this.hasPersonalizedName = name.contains(Constants.PLACEHOLDER_PLAYERNAME);
+		this.scriptOnUse = scriptOnUse;
 	}
 
 	public boolean isEquippable() { return category.isEquippable(); }

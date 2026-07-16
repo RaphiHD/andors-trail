@@ -64,6 +64,7 @@ public final class ItemTypeParser extends JsonCollectionParserFor<ItemType> {
 				, killEffect
 				, hitReceivedEffect
 				, missReceivedEffect
+				, o.optString(JsonFieldNames.ItemType.scriptOnUse, "")
 			);
 		return new Pair<String, ItemType>(id, itemType);
 	}

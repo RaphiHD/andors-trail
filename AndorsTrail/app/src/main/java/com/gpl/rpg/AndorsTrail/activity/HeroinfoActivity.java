@@ -1,5 +1,6 @@
 package com.gpl.rpg.AndorsTrail.activity;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import androidx.fragment.app.FragmentTabHost;
@@ -9,16 +10,20 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
+import com.gpl.rpg.AndorsTrail.Dialogs;
 import com.gpl.rpg.AndorsTrail.R;
 import com.gpl.rpg.AndorsTrail.activity.fragment.HeroinfoActivity_Inventory;
 import com.gpl.rpg.AndorsTrail.activity.fragment.HeroinfoActivity_Quests;
 import com.gpl.rpg.AndorsTrail.activity.fragment.HeroinfoActivity_Skills;
 import com.gpl.rpg.AndorsTrail.activity.fragment.HeroinfoActivity_Stats;
+import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
+import com.gpl.rpg.AndorsTrail.controller.listeners.ItemEventListener;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 
-public final class HeroinfoActivity extends AndorsTrailBaseFragmentActivity {
+public final class HeroinfoActivity extends AndorsTrailBaseFragmentActivity implements ItemEventListener {
 	private WorldContext world;
+	private ControllerContext controllers;
 
 	private FragmentTabHost tabHost;
 
@@ -29,6 +34,7 @@ public final class HeroinfoActivity extends AndorsTrailBaseFragmentActivity {
 		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(this);
 		if (!app.isInitialized()) { finish(); return; }
 		this.world = app.getWorld();
+		this.controllers = app.getControllerContext();
 		initializeView(this, R.layout.tabbedlayout, android.R.id.tabhost);
 
 		Resources res = getResources();
@@ -76,6 +82,18 @@ public final class HeroinfoActivity extends AndorsTrailBaseFragmentActivity {
 	}
 	
 	@Override
+	protected void onStart() {
+		super.onStart();
+		controllers.itemController.itemEventListeners.add(this);
+	}
+
+	@Override
+	protected void onStop() {
+		super.onStop();
+		controllers.itemController.itemEventListeners.remove(this);
+	}
+
+	@Override
 	protected void onResume() {
 		super.onResume();
 		updateIconForPlayer();
@@ -90,5 +108,18 @@ public final class HeroinfoActivity extends AndorsTrailBaseFragmentActivity {
 	protected void onPause() {
 		super.onPause();
 		world.model.uiSelections.selectedTabHeroInfo = tabHost.getCurrentTabTag();
+	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		super.onActivityResult(requestCode, resultCode, data);
+		if (requestCode == MainActivity.INTENTREQUEST_CONVERSATION) {
+			controllers.mapController.applyCurrentMapReplacements(getResources(), true);
+		}
+	}
+
+	@Override
+	public void onItemUseStartedConversation(String phraseID) {
+		Dialogs.showItemScriptMessage(this, controllers, phraseID);
 	}
 }

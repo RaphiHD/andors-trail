@@ -29,6 +29,7 @@ import com.gpl.rpg.AndorsTrail.controller.CombatController;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
 import com.gpl.rpg.AndorsTrail.controller.listeners.CombatActionListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.CombatTurnListener;
+import com.gpl.rpg.AndorsTrail.controller.listeners.ItemEventListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.PlayerMovementListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.WorldEventListener;
 import com.gpl.rpg.AndorsTrail.model.ability.ActorCondition;
@@ -60,7 +61,8 @@ public final class MainActivity
 		PlayerMovementListener
 		, CombatActionListener
 		, CombatTurnListener
-		, WorldEventListener {
+		, WorldEventListener
+		, ItemEventListener {
 
 	public static final int INTENTREQUEST_MONSTERENCOUNTER = 2;
 	public static final int INTENTREQUEST_CONVERSATION = 4;
@@ -210,9 +212,11 @@ public final class MainActivity
 		controllers.actorStatsController.combatActionListeners.remove(this);
 		controllers.skillController.combatActionListeners.remove(this);
 		controllers.mapController.worldEventListeners.remove(this);
+		controllers.itemController.itemEventListeners.remove(this);
 	}
 
 	private void subscribeToModelChanges() {
+		controllers.itemController.itemEventListeners.add(this);
 		controllers.mapController.worldEventListeners.add(this);
 		controllers.combatController.combatTurnListeners.add(this);
 		controllers.combatController.combatActionListeners.add(this);
@@ -388,6 +392,11 @@ public final class MainActivity
 	@Override
 	public void onScriptAreaStartedConversation(String phraseID) {
 		Dialogs.showMapScriptMessage(this, controllers, phraseID);
+	}
+
+	@Override
+	public void onItemUseStartedConversation(String phraseID) {
+		Dialogs.showItemScriptMessage(this, controllers, phraseID);
 	}
 
 	@Override

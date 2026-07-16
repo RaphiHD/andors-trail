@@ -180,7 +180,17 @@ public final class TileManager {
 
 	public void setImageViewTile(Resources res, TextView textView, Monster monster, TileCollection tiles) { setImageViewTileForMonster(res, textView, monster.iconID, tiles); }
 	public void setImageViewTile(Resources res, TextView textView, Player player) { setImageViewTileForPlayer(res, textView, player.iconID); }
-	public void setImageViewTileForMonster(Resources res, TextView textView, int iconID, TileCollection tiles) { setImageViewTile(res, textView, tiles.getBitmap(iconID)); }
+	public void setImageViewTileForMonster(Resources res, TextView textView, int iconID, TileCollection tiles) {
+		Bitmap icon = null;
+		if (tiles != null && iconID >= 0 && iconID <= tiles.maxTileID) {
+			icon = tiles.getBitmap(iconID);
+		}
+		if (icon != null) {
+			setImageViewTile(res, textView, icon);
+		} else {
+			setImageViewTile(res, textView, tileCache.loadSingleTile(iconID, res));
+		}
+	}
 	public void setImageViewTileForPlayer(Resources res, TextView textView, int iconID) { setImageViewTile(res, textView, preloadedTiles.getBitmap(iconID)); }
 	public void setImageViewTile(Resources res, TextView textView, ActorConditionType conditionType) { setImageViewTile(res, textView, preloadedTiles.getBitmap(conditionType.iconID)); }
 	public void setImageViewTile(Resources res, TextView textView, ActorConditionType conditionType, boolean immunityOverlay) { setImageViewTile(res, textView, preloadedTiles.getBitmap(conditionType.iconID), immunityOverlay); }
@@ -222,8 +232,15 @@ public final class TileManager {
 		setImageViewTile(res, textView, itemType, icon);
 	}
 	public void setImageViewTile(Resources res, TextView textView, ItemType itemType, TileCollection itemTileCollection) {
-		final Bitmap icon = itemTileCollection.getBitmap(itemType.iconID);
-		setImageViewTile(res, textView, itemType, icon);
+		Bitmap icon = null;
+		if (itemTileCollection != null && itemType.iconID >= 0 && itemType.iconID <= itemTileCollection.maxTileID) {
+			icon = itemTileCollection.getBitmap(itemType.iconID);
+		}
+		if (icon != null) {
+			setImageViewTile(res, textView, itemType, icon);
+		} else {
+			setImageViewTileForSingleItemType(res, textView, itemType);
+		}
 	}
 	private void setImageViewTile(Resources res, TextView textView, ItemType itemType, Bitmap icon) {
 		final int overlayIconID = itemType.getOverlayTileID();
@@ -252,7 +269,17 @@ public final class TileManager {
 
 	public void setImageViewTile(Resources res, ImageView imageView, Monster monster, TileCollection tiles) { setImageViewTileForMonster(res, imageView, monster.iconID, tiles); }
 	public void setImageViewTile(Resources res, ImageView imageView, Player player) { setImageViewTileForPlayer(res, imageView, player.iconID); }
-	public void setImageViewTileForMonster(Resources res, ImageView imageView, int iconID, TileCollection tiles) {  setImageViewTile(res, imageView, tiles.getBitmap(iconID)); }
+	public void setImageViewTileForMonster(Resources res, ImageView imageView, int iconID, TileCollection tiles) {
+		Bitmap icon = null;
+		if (tiles != null && iconID >= 0 && iconID <= tiles.maxTileID) {
+			icon = tiles.getBitmap(iconID);
+		}
+		if (icon != null) {
+			setImageViewTile(res, imageView, icon);
+		} else {
+			setImageViewTile(res, imageView, tileCache.loadSingleTile(iconID, res));
+		}
+	}
 	public void setImageViewTileForPlayer(Resources res, ImageView imageView, int iconID) {  setImageViewTile(res, imageView, preloadedTiles.getBitmap(iconID)); }
 //	public void setImageViewTile(Resources res, ImageView imageView, ActorConditionType conditionType) {  setImageViewTile(res, imageView, preloadedTiles.getBitmap(conditionType.iconID)); }
 	public void setImageViewTile(Context ctx, ImageView imageView, ActorConditionType conditionType, boolean immunityOverlay) {  setImageViewTile(ctx, imageView, preloadedTiles.getBitmap(conditionType.iconID), immunityOverlay); }
@@ -305,9 +332,20 @@ public final class TileManager {
 		imageView.setImageDrawable(d);
 	}
 	
-	public void setImageViewTile(Resources res, ImageView imageView, ItemType itemType, TileCollection itemTileCollection) {
-		final Bitmap icon = itemTileCollection.getBitmap(itemType.iconID);
+	public void setImageViewTileForSingleItemType(Resources res, ImageView imageView, ItemType itemType) {
+		final Bitmap icon = tileCache.loadSingleTile(itemType.iconID, res);
 		setImageViewTile(res, imageView, itemType, icon);
+	}
+	public void setImageViewTile(Resources res, ImageView imageView, ItemType itemType, TileCollection itemTileCollection) {
+		Bitmap icon = null;
+		if (itemTileCollection != null && itemType.iconID >= 0 && itemType.iconID <= itemTileCollection.maxTileID) {
+			icon = itemTileCollection.getBitmap(itemType.iconID);
+		}
+		if (icon != null) {
+			setImageViewTile(res, imageView, itemType, icon);
+		} else {
+			setImageViewTileForSingleItemType(res, imageView, itemType);
+		}
 	}
 	public void setImageViewTileWithOverlay(Resources res, ImageView imageView, int overlayIconID, Bitmap icon, boolean overlayAbove) {
 		if (overlayIconID != -1) {
