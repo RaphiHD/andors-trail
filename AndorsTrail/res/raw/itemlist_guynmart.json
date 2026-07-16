@@ -15,7 +15,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_flask"
     },
     {
         "id":"guynmart_herbs",

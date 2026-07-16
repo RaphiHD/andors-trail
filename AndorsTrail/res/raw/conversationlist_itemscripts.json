@@ -1,0 +1,67 @@
+[
+  {
+    "id": "returns_empty_small_vial",
+    "rewards":[
+      {
+        "rewardType":"giveItem",
+        "rewardID":"vial_empty1",
+        "value":1
+      }
+    ]
+  },
+  {
+    "id": "returns_empty_vial",
+    "rewards":[
+      {
+        "rewardType":"giveItem",
+        "rewardID":"vial_empty2",
+        "value":1
+      }
+    ]
+  },
+  {
+    "id": "returns_empty_flask",
+    "rewards":[
+      {
+        "rewardType":"giveItem",
+        "rewardID":"vial_empty3",
+        "value":1
+      }
+    ]
+  },
+  {
+    "id": "returns_empty_potion_bottle",
+    "rewards":[
+      {
+        "rewardType":"giveItem",
+        "rewardID":"vial_empty4",
+        "value":1
+      }
+    ]
+  },
+  {
+    "id": "returns_bone_15",
+    "replies":[
+      {
+        "text":"N",
+        "nextPhraseID":"returns_bone",
+        "requirements": [
+          {
+            "requireType":"random",
+            "requireID":"15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "returns_bone",
+    "rewards":[
+      {
+        "rewardType":"giveItem",
+        "rewardID":"bone",
+        "value":1
+      }
+    ]
+  }
+]

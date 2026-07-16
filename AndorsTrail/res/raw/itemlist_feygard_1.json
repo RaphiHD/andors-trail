@@ -38,7 +38,8 @@
                 "min":13,
                 "max":13
             }
-        }
+        },
+        "scriptOnUse": "returns_empty_flask"
     },
     {
         "id":"coconut",

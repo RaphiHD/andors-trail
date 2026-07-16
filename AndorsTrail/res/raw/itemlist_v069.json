@@ -326,7 +326,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_flask"
     },
     {
         "id":"woodcutter_hatchet",
@@ -390,7 +391,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_vial"
     },
     {
         "id":"pot_poison_weak",
@@ -408,7 +410,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_vial"
     },
     {
         "id":"pot_poison_weak_antidote",
@@ -425,7 +428,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_flask"
     },
     {
         "id":"pot_bleeding_ointment",
@@ -442,7 +446,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_vial"
     },
     {
         "id":"pot_fatigue_restore",
@@ -459,7 +464,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_vial"
     },
     {
         "id":"pot_blind_rage",
@@ -477,6 +483,7 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_vial"
     }
 ]

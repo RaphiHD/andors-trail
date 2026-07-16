@@ -15,7 +15,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_vial"
     },
     {
         "id":"pot_focus_dmg2",
@@ -33,7 +34,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_vial"
     },
     {
         "id":"pot_focus_ac",
@@ -51,7 +53,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_vial"
     },
     {
         "id":"pot_focus_ac2",
@@ -69,7 +72,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_vial"
     },
     {
         "id":"pot_scaradon",
@@ -83,7 +87,8 @@
                 "min":5,
                 "max":10
             }
-        }
+        },
+        "scriptOnUse": "returns_empty_small_vial"
     },
     {
         "id":"remgard_shield_1",

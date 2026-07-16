@@ -412,6 +412,7 @@
                     "chance":"90"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_flask"
     }
 ]

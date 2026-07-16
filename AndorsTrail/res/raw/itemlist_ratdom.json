@@ -250,7 +250,8 @@
                 "min":5,
                 "max":20
             }
-        }
+        },
+        "scriptOnUse": "returns_empty_flask"
     },
     {
         "id":"kids_ring",

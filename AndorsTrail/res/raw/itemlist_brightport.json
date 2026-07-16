@@ -317,7 +317,8 @@
                     "chance":"15"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_bone_15"
     },
     {
         "id":"brightport_paper",
@@ -356,7 +357,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_bone_15"
     },
     {
         "id":"brightport_sword",

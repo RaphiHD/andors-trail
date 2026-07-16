@@ -142,7 +142,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_flask"
     },
     {
         "id":"bwm_water2",
@@ -166,7 +167,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_potion_bottle"
     },
     {
         "id":"bwm_water1_quest",
@@ -572,7 +574,8 @@
                     "chance":"100"
                 }
             ]
-        }
+        },
+        "scriptOnUse": "returns_empty_small_vial"
     },
     {
         "id":"elm_mushroom1",
