@@ -9,6 +9,11 @@ import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.View.OnTouchListener;
+import java.text.NumberFormat;
+import java.text.ParsePosition;
+import java.util.Locale;
+import com.gpl.rpg.AndorsTrail.util.Format;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.SeekBar;
@@ -125,7 +130,7 @@ public final class BulkSelectionInterface extends AndorsTrailBaseActivity implem
 		// initialize the visual components visuals
 		okButton.setText(actionText);
 		bulkselection_action_type.setText(actionText + ' ');
-		bulkselection_amount_available.setText(Integer.toString(totalAvailableAmount));
+		bulkselection_amount_available.setText(Format.localizeInt(totalAvailableAmount));
 		bulkselection_slider.setMax(totalAvailableAmount - 1);
 
 		// hide Slider and Buttons when there is only 1 item available
@@ -289,7 +294,7 @@ public final class BulkSelectionInterface extends AndorsTrailBaseActivity implem
 		if (newAmount > totalAvailableAmount) newAmount = totalAvailableAmount;
 
 		// update controls
-		if (newAmount != oldEditboxAmount) bulkselection_amount_taken.setText(Integer.toString(newAmount));	// change the amount taken/text
+		if (newAmount != oldEditboxAmount) bulkselection_amount_taken.setText(Format.localizeInt(newAmount));	// change the amount taken/text
 		if (newAmount != oldSliderAmount) bulkselection_slider.setProgress(newAmount - 1);					// change the amount taken/text
 
 		// display buying/selling information if not dropping
@@ -304,10 +309,13 @@ public final class BulkSelectionInterface extends AndorsTrailBaseActivity implem
 
 	private int getTextboxAmount() {
 		final String s = bulkselection_amount_taken.getText().toString();
-		if (s.equals("")) return 0;
-		try {
-			return Integer.parseInt(s);
-		} catch (NumberFormatException ignored) { }
+		if (s.isEmpty()) return 0;
+		NumberFormat numberFormat = NumberFormat.getIntegerInstance(Locale.getDefault());
+		ParsePosition parsePosition = new ParsePosition(0);
+		Number parsed = numberFormat.parse(s, parsePosition);
+		if (parsed != null && parsePosition.getIndex() == s.length()) {
+			return parsed.intValue();
+		}
 		return 0;
 	}
 
