@@ -128,6 +128,9 @@ public final class MovementController implements TimedMessageTask.Callback {
 		newMap.updateLastVisitTime();
 		moveBlockedActors(newMap, model.currentMaps.tileMap);
 		refreshMonsterAggressiveness(newMap, model.player);
+		// Place any travelling monster that belongs on this map right now, rather than waiting for
+		// the next moveMonsters() tick (up to Constants.TICK_DELAY after the map is already visible).
+		controllers.monsterMovementController.syncTravellingMonstersOntoCurrentMap();
 		controllers.effectController.updateSplatters(newMap);
 		WorldMapController.updateWorldMap(controllers.getContext(), world, res);
 	}

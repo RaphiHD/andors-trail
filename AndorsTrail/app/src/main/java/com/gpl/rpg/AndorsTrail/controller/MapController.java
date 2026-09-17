@@ -77,8 +77,10 @@ public final class MapController {
 			int offset_y = position.y - o.position.topLeft.y;
 			for (Monster m : world.model.currentMaps.map.monsters) {
 				if (m.travelDestination != null) {
-					world.model.currentMaps.map.removeMonster(m);
-					world.monsters.addTravellingMonster(m);
+					// Recalibrates travelPath.startTime from this monster's actual current position
+					// (it may be mid-leg, not at a leg boundary) rather than leaving it stale - see
+					// MonsterMovementController.enterTravellingPool.
+					controllers.monsterMovementController.enterTravellingPool(m, world.model.currentMaps.map);
 				}
 			}
 			controllers.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, o.map, o.place, offset_x, offset_y);

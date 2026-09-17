@@ -12,6 +12,8 @@ import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
+import com.gpl.rpg.AndorsTrail.util.L;
+import com.gpl.rpg.AndorsTrail.util.Size;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +23,9 @@ public final class MonsterMovementController {
 	private final WorldContext world;
 	private final GlobalPathFinder globalPathFinder;
 	public final MonsterMovementListeners monsterMovementListeners = new MonsterMovementListeners();
+
+	/** Toggled by the "trv" debug button. Logs travelling-monster timing/placement decisions. */
+	public static volatile boolean showTravelDebug = false;
 
 	public MonsterMovementController(ControllerContext controllers, WorldContext world) {
 		this.controllers = controllers;
@@ -45,46 +50,91 @@ public final class MonsterMovementController {
 		List<Monster> toRemoveFromTravelling = new ArrayList<>();
 		for (Monster m : world.monsters.travellingMonsters) {
 			if (m.nextActionTime > currentTime) continue;
-			if (m.travelPath == null || m.travelPath.predictedTime < 0 || m.travelPath.path.isEmpty()) continue;
-
-			long elapsedDistance = (currentTime - m.travelPath.startTime) * 10 / getMillisecondsPerMove(m);
-
-			// Find current leg
-			int legIndex = -1;
-			for (int i = 0; i < m.travelPath.path.size(); i++) {
-				if (elapsedDistance < m.travelPath.path.get(i).cumulatedDistance) {
-					legIndex = i;
-					break;
-				}
-			}
-
-			boolean arrived = (elapsedDistance >= m.travelPath.predictedTime);
-			if (arrived) {
-				legIndex = m.travelPath.path.size() - 1;
-				elapsedDistance = m.travelPath.predictedTime;
-			}
-
-			GlobalPathFinder.GlobalPath.GlobalPathEntry entry = m.travelPath.path.get(legIndex);
-			long distanceOnLeg = elapsedDistance - (entry.cumulatedDistance - entry.distance);
-
-			if (entry.mapID.equals(currentMap.name)) {
-				// Monster is on the map the player is currently on.
-				m.travelPath.currentPosition = legIndex;
-				spawnMonsterOnMap(m, currentMap, legIndex, distanceOnLeg);
+			if (tryPlaceTravellingMonster(m, currentMap, currentTime)) {
 				toRemoveFromTravelling.add(m);
-				if (arrived && m.travelDestination != null) m.travelDestination.onMonsterArrived(m);
-			} else if (arrived) {
-				// Arrived at destination on a DIFFERENT map.
-				PredefinedMap destMap = world.maps.findPredefinedMap(entry.mapID);
-				m.travelPath.currentPosition = legIndex;
-				spawnMonsterOnMap(m, destMap, legIndex, distanceOnLeg);
-				toRemoveFromTravelling.add(m);
-				if (m.travelDestination != null) m.travelDestination.onMonsterArrived(m);
 			}
 		}
 		for (Monster m : toRemoveFromTravelling) {
 			world.monsters.removeTravellingMonster(m);
 		}
+	}
+
+	/**
+	 * Immediately (re-)evaluates every travelling monster's position against whatever map the
+	 * player has just arrived on, instead of waiting for the next moveMonsters() tick. Without
+	 * this, a monster that should already be visible on a freshly-loaded map wouldn't appear until
+	 * up to one full tick (Constants.TICK_DELAY) after that map has already been rendered to the
+	 * player. Unlike moveMonsters()'s own pass, this does not gate on nextActionTime - a fresh map
+	 * load should show the monster's true current position right away, not wait for its next
+	 * scheduled recompute.
+	 */
+	public void syncTravellingMonstersOntoCurrentMap() {
+		long currentTime = System.currentTimeMillis();
+		PredefinedMap currentMap = world.model.currentMaps.map;
+
+		List<Monster> toRemoveFromTravelling = new ArrayList<>();
+		for (Monster m : world.monsters.travellingMonsters) {
+			if (tryPlaceTravellingMonster(m, currentMap, currentTime)) {
+				toRemoveFromTravelling.add(m);
+			}
+		}
+		for (Monster m : toRemoveFromTravelling) {
+			world.monsters.removeTravellingMonster(m);
+		}
+	}
+
+	/**
+	 * Checks whether the travelling monster `m` should now be materialized on `currentMap` -
+	 * either because that's the map its current leg is on, or because it has fully arrived - and
+	 * if so, places it via spawnMonsterOnMap (and fires arrival, if applicable).
+	 *
+	 * @return true if `m` was placed and should be removed from the travelling pool.
+	 */
+	private boolean tryPlaceTravellingMonster(Monster m, PredefinedMap currentMap, long currentTime) {
+		if (m.travelPath == null || m.travelPath.predictedTime < 0 || m.travelPath.path.isEmpty()) return false;
+
+		long elapsedDistance = (currentTime - m.travelPath.startTime) * 10 / getMillisecondsPerMove(m);
+
+		// Find current leg
+		int legIndex = -1;
+		for (int i = 0; i < m.travelPath.path.size(); i++) {
+			if (elapsedDistance < m.travelPath.path.get(i).cumulatedDistance) {
+				legIndex = i;
+				break;
+			}
+		}
+
+		boolean arrived = (elapsedDistance >= m.travelPath.predictedTime);
+		if (arrived) {
+			legIndex = m.travelPath.path.size() - 1;
+			elapsedDistance = m.travelPath.predictedTime;
+		}
+
+		GlobalPathFinder.GlobalPath.GlobalPathEntry entry = m.travelPath.path.get(legIndex);
+		long distanceOnLeg = elapsedDistance - (entry.cumulatedDistance - entry.distance);
+
+		if (showTravelDebug) {
+			L.log("TRAVEL: " + m.getMonsterTypeID() + " tick: elapsedDistance=" + elapsedDistance
+					+ ", legIndex=" + legIndex + " (map=" + entry.mapID + ", dest=" + entry.destinationID + ")"
+					+ ", distanceOnLeg=" + distanceOnLeg + ", arrived=" + arrived
+					+ ", playerMap=" + currentMap.name);
+		}
+
+		if (entry.mapID.equals(currentMap.name)) {
+			// Monster is on the map the player is currently on.
+			m.travelPath.currentPosition = legIndex;
+			spawnMonsterOnMap(m, currentMap, legIndex, distanceOnLeg);
+			if (arrived && m.travelDestination != null) m.travelDestination.onMonsterArrived(m);
+			return true;
+		} else if (arrived) {
+			// Arrived at destination on a DIFFERENT map.
+			PredefinedMap destMap = world.maps.findPredefinedMap(entry.mapID);
+			m.travelPath.currentPosition = legIndex;
+			spawnMonsterOnMap(m, destMap, legIndex, distanceOnLeg);
+			if (m.travelDestination != null) m.travelDestination.onMonsterArrived(m);
+			return true;
+		}
+		return false;
 	}
 
 	public void attackWithAgressiveMonsters() {
@@ -135,7 +185,13 @@ public final class MonsterMovementController {
 			// Monster has been moving and arrived at the destination.
 			cancelCurrentMonsterMovement(m);
 		} else {
-			determineMonsterNextPosition(m, area, world.model.player.position);
+			if (determineMonsterNextPosition(m, area, world.model.player.position)) {
+				// The monster was already fully handled inside determineMonsterNextPosition
+				// (e.g. handed off to the travelling pool, or it just arrived at its travel
+				// destination) - m.nextPosition was never updated, and the monster may no longer
+				// even be a member of `map.monsters`, so applying a move here would be wrong.
+				return;
+			}
 
 			if (!monsterCanMoveTo(m, map, tileMap, m.nextPosition, ignoreAreas)) {
 				cancelCurrentMonsterMovement(m);
@@ -154,7 +210,16 @@ public final class MonsterMovementController {
 		}
 	}
 
-	private void determineMonsterNextPosition(Monster m, CoordRect area, Coord playerPosition) {
+	/**
+	 * Computes this monster's next move and stores it in {@code m.nextPosition} for the caller
+	 * ({@link #moveMonster}) to apply.
+	 *
+	 * @return {@code true} if the monster was already fully handled here (handed off to the
+	 * travelling pool, or it just arrived at its travel destination) and the caller must NOT touch
+	 * {@code m.nextPosition} or otherwise treat it as still being locally simulated on this tick;
+	 * {@code false} if {@code m.nextPosition} was computed normally and the caller should apply it.
+	 */
+	private boolean determineMonsterNextPosition(Monster m, CoordRect area, Coord playerPosition) {
 		MonsterType.AggressionType aggressionType = m.getMovementAggressionType();
 
 		// If monster is aggressive towards player
@@ -163,7 +228,7 @@ public final class MonsterMovementController {
 		) {
 			if (findPathFor(m, playerPosition)) {
 				// we use m.nextPosition from the pathfinding
-				return;
+				return false;
 			}
 
 		// If monster tries to flee from player
@@ -181,10 +246,10 @@ public final class MonsterMovementController {
 				if (m.travelDestination.area.contains(m.position)) {
 					// Destination reached
 					m.travelDestination.onMonsterArrived(m);
-					return;
+					return true;
 				} else if (findPathFor(m, m.travelDestination.area)) {
 					// Pathfind locally to destinationArea
-					return;
+					return false;
 				}
 			} else {
 				String destinationID = m.travelPath.getNextDestination().destinationID;
@@ -196,23 +261,55 @@ public final class MonsterMovementController {
 
 					// Check if Monster already reached mapchange area
 					if (o.position.contains(m.position)) {
-						// Remove Monster from map and add it to global travelling monsters
-						long unitsSoFar = m.travelPath.path.get(m.travelPath.currentPosition).cumulatedDistance;
-						m.travelPath.startTime = System.currentTimeMillis() - (unitsSoFar * getMillisecondsPerMove(m) / 10);
-						m.travelPath.currentPosition++;
-						world.monsters.addTravellingMonster(m);
-						world.model.currentMaps.map.removeMonster(m);
-						return;
+						// Some `newmap` objects point back at their own map (e.g. a "west edge"
+						// warp pair) rather than a genuinely different one - GlobalPathFinder
+						// already treats crossing any mapchange as an instantaneous, zero-cost
+						// hop (see its Relaxation Step 2), so the plan's distances already assume
+						// this executes as a teleport, not a further walk. Execute it as such here
+						// instead of handing off to the travelling pool, which is only meant for
+						// actually leaving this map.
+						if (o.map != null && o.map.equals(world.model.currentMaps.map.name)) {
+							MapObject placeObj = world.model.currentMaps.map.findEventObject(MapObject.MapObjectType.newmap, o.place);
+							if (placeObj != null) {
+								int offset_x = m.position.x - o.position.topLeft.x;
+								int offset_y = m.position.y - o.position.topLeft.y;
+								m.position.set(placeObj.position.topLeft);
+								m.position.x += Math.min(offset_x, placeObj.position.size.width - 1);
+								m.position.y += Math.min(offset_y, placeObj.position.size.height - 1);
+								m.nextPosition.topLeft.set(m.position);
+								m.travelPath.currentPosition++;
+								if (showTravelDebug) {
+									L.log("TRAVEL: " + m.getMonsterTypeID() + " used same-map warp " + o.id
+											+ " -> " + o.place + ", now at " + m.position
+											+ ", advancing to leg " + m.travelPath.currentPosition);
+								}
+								return true;
+							}
+							L.log("WARNING: same-map mapchange " + o.id + " on map " + o.map
+									+ " has no matching 'place' object " + o.place + " - falling back to normal cross-map handling.");
+						}
+						enterTravellingPool(m, world.model.currentMaps.map);
+						return true;
 					}
 
 					if (findPathFor(m, o.position)) {
 						// Path found, monster moved
-						return;
+						return false;
 					} else {
 						// Path blocked, do something to clear path TODO
 					}
 				}
 			}
+		}
+
+		if (showTravelDebug && m.travelDestination != null) {
+			// We only get here if the travel-approach findPathFor(...) above failed (final-leg
+			// destination, or the next mapchange) - about to fall through to the UNRELATED wandering
+			// fallback below (a random point inside the monster's original spawn area), which would
+			// take a step away from the actual travel route. Logged to check whether this is
+			// happening often enough to explain the local-walk timing overrun.
+			L.log("TRAVEL: " + m.getMonsterTypeID() + " travel-approach pathfinding failed this tick"
+					+ " (pos=" + m.rectPosition.topLeft + ", falling through to unrelated wander step)");
 		}
 
 		// Monster has waited and should start to move again.
@@ -231,6 +328,7 @@ public final class MonsterMovementController {
 				m.position.x + sgn(m.movementDestination.x - m.position.x)
 				, m.position.y + sgn(m.movementDestination.y - m.position.y)
 		);
+		return false;
 	}
 
 	private static void cancelCurrentMonsterMovement(final Monster m) {
@@ -239,7 +337,14 @@ public final class MonsterMovementController {
 	}
 
 	private static int getMillisecondsPerMove(Monster m) {
-		return Constants.MONSTER_MOVEMENT_TURN_DURATION_MS * m.getMoveCost() / m.getMaxAP();
+		int nominal = Constants.MONSTER_MOVEMENT_TURN_DURATION_MS * m.getMoveCost() / m.getMaxAP();
+		// Monster movement is only ever advanced from moveMonsters(), which itself only runs once
+		// per game tick (Constants.TICK_DELAY). A monster whose stats say it should move faster than
+		// that can never actually achieve that speed in practice - moveMonsters() simply isn't called
+		// often enough - so every wall-clock prediction based on this value (travel ETAs, the
+		// interpolation/recalibration math, and this monster's own move/wait scheduling) must use
+		// what the tick loop can actually deliver, not the unreachable nominal figure.
+		return Math.max(nominal, Constants.TICK_DELAY);
 	}
 	
 
@@ -284,25 +389,80 @@ public final class MonsterMovementController {
 		}, 0);
 	}
 
-	private void spawnMonsterOnMap(Monster m, PredefinedMap map, int legIndex, long distanceOnLeg) {
-		CoordRect startArea;
+	/**
+	 * Finds the area a monster starts walking from at the beginning of the given leg of its
+	 * {@code travelPath}: either the monster's original starting position (leg 0), or the entrance
+	 * object on {@code map} matching the exit used to enter this leg's map (later legs). Shared by
+	 * {@link #spawnMonsterOnMap} and {@link #enterTravellingPool} so both agree on where a leg begins.
+	 */
+	private CoordRect getLegStartArea(Monster m, PredefinedMap map, int legIndex) {
 		if (legIndex == 0) {
-			startArea = new CoordRect(m.travelPath.startingPosition, m.nextPosition.size);
-		} else {
-			GlobalPathFinder.GlobalPath.GlobalPathEntry prevEntry = m.travelPath.path.get(legIndex - 1);
-			PredefinedMap prevMap = world.maps.findPredefinedMap(prevEntry.mapID);
-			MapObject exitObj = prevMap.findEventObject(MapObject.MapObjectType.newmap, prevEntry.destinationID);
-			if (exitObj != null) {
-				MapObject entranceObj = map.findEventObject(MapObject.MapObjectType.newmap, exitObj.place);
-				if (entranceObj != null) {
-					startArea = entranceObj.position;
-				} else {
-					startArea = new CoordRect(new Coord(0,0), m.nextPosition.size);
-				}
-			} else {
-				startArea = new CoordRect(new Coord(0,0), m.nextPosition.size);
+			return new CoordRect(m.travelPath.startingPosition, m.nextPosition.size);
+		}
+		GlobalPathFinder.GlobalPath.GlobalPathEntry prevEntry = m.travelPath.path.get(legIndex - 1);
+		PredefinedMap prevMap = world.maps.findPredefinedMap(prevEntry.mapID);
+		MapObject exitObj = prevMap.findEventObject(MapObject.MapObjectType.newmap, prevEntry.destinationID);
+		if (exitObj != null) {
+			MapObject entranceObj = map.findEventObject(MapObject.MapObjectType.newmap, exitObj.place);
+			if (entranceObj != null) {
+				return entranceObj.position;
 			}
 		}
+		return new CoordRect(new Coord(0,0), m.nextPosition.size);
+	}
+
+	/**
+	 * Hands a monster off from locally-simulated, tick-by-tick movement (on {@code currentLegMap}'s
+	 * monster list) into the world-level, wall-clock-interpolated {@code travellingMonsters} pool,
+	 * recalibrating {@code travelPath.startTime} from the monster's actual current position rather
+	 * than a theoretical leg boundary. This is what keeps later interpolation in sync with reality
+	 * regardless of *why* the monster is being handed off: it may have just reached its leg's exit
+	 * tile (the normal case), or it may be yanked off mid-leg because the player left the map first
+	 * (see {@code MapController.handleMapEvent}'s "player leaves map" sweep) - either way, the actual
+	 * distance walked so far on the current leg is measured live via the local pathfinder instead of
+	 * assumed.
+	 */
+	public void enterTravellingPool(Monster m, PredefinedMap currentLegMap) {
+		if (m.travelPath != null && !m.travelPath.path.isEmpty()) {
+			int legIndex = Math.min(m.travelPath.currentPosition, m.travelPath.path.size() - 1);
+			GlobalPathFinder.GlobalPath.GlobalPathEntry entry = m.travelPath.path.get(legIndex);
+			long legStartDistance = entry.cumulatedDistance - entry.distance;
+
+			CoordRect startArea = getLegStartArea(m, currentLegMap, legIndex);
+			long distanceIntoLeg;
+			if (startArea.intersects(m.rectPosition)) {
+				// Monster hasn't moved from the start of this leg yet.
+				distanceIntoLeg = 0;
+			} else {
+				CoordRect nextStep = new CoordRect(new Coord(), new Size(1, 1));
+				if (currentLegMap.pathfinder.findPathBetween(startArea, m.rectPosition, nextStep, m)) {
+					distanceIntoLeg = currentLegMap.pathfinder.getLastPathDistance();
+				} else {
+					// Live search failed (blocked, or the 500-iteration cap was hit) - fall back to
+					// treating the leg as complete rather than silently under-counting progress.
+					distanceIntoLeg = entry.distance;
+				}
+			}
+
+			long unitsSoFar = legStartDistance + distanceIntoLeg;
+			long previousStartTime = m.travelPath.startTime;
+			m.travelPath.startTime = System.currentTimeMillis() - (unitsSoFar * getMillisecondsPerMove(m) / 10);
+			m.travelPath.currentPosition = legIndex;
+
+			if (showTravelDebug) {
+				L.log("TRAVEL: " + m.getMonsterTypeID() + " entering travelling pool on map " + currentLegMap.name
+						+ ", leg " + legIndex + ": legStartDistance=" + legStartDistance
+						+ ", distanceIntoLeg=" + distanceIntoLeg + ", unitsSoFar=" + unitsSoFar
+						+ ", startTime " + previousStartTime + " -> " + m.travelPath.startTime);
+			}
+		}
+
+		world.monsters.addTravellingMonster(m);
+		currentLegMap.removeMonster(m);
+	}
+
+	private void spawnMonsterOnMap(Monster m, PredefinedMap map, int legIndex, long distanceOnLeg) {
+		CoordRect startArea = getLegStartArea(m, map, legIndex);
 
 		GlobalPathFinder.GlobalPath.GlobalPathEntry entry = m.travelPath.path.get(legIndex);
 		CoordRect toArea;
@@ -314,6 +474,12 @@ public final class MonsterMovementController {
 		}
 
 		Coord spawnPos = map.pathfinder.findPositionOnPath(startArea, toArea, distanceOnLeg, m);
+
+		if (showTravelDebug) {
+			L.log("TRAVEL: " + m.getMonsterTypeID() + " spawning on map " + map.name + " leg " + legIndex
+					+ ": startArea=" + startArea.topLeft + ", toArea=" + toArea.topLeft
+					+ ", distanceOnLeg=" + distanceOnLeg + " -> spawnPos=" + spawnPos);
+		}
 
 		m.position.set(spawnPos);
 		m.nextPosition.topLeft.set(spawnPos);
@@ -340,6 +506,44 @@ public final class MonsterMovementController {
 				m.travelPath = globalPathFinder.findPath(m.currentMapID, m.rectPosition, mapID, a.area, a.areaID);
 
 				m.movementDestination = null;
+
+				if (showTravelDebug) {
+					StringBuilder legs = new StringBuilder();
+					for (GlobalPathFinder.GlobalPath.GlobalPathEntry e : m.travelPath.path) {
+						legs.append("[map=").append(e.mapID).append(" dest=").append(e.destinationID)
+								.append(" distance=").append(e.distance)
+								.append(" cumulated=").append(e.cumulatedDistance).append("] ");
+					}
+					long expectedTotalMs = (long) m.travelPath.predictedTime * getMillisecondsPerMove(m) / 10;
+					L.log("TRAVEL: " + m.getMonsterTypeID() + " beginTravel from map=" + m.currentMapID
+							+ " pos=" + m.rectPosition.topLeft + " to map=" + mapID + " dest=" + destinationID
+							+ " at wallClock=" + System.currentTimeMillis()
+							+ ": predictedTime=" + m.travelPath.predictedTime
+							+ " (~" + expectedTotalMs + "ms at " + getMillisecondsPerMove(m) + "ms/tile), legs: " + legs);
+				}
+
+				// If this monster isn't on the map the player currently has loaded, nothing will
+				// ever call moveMonster()/determineMonsterNextPosition() for it -
+				// moveMonsters()'s local-simulation pass only walks the current map's monster
+				// list. Left alone, it would just sit frozen wherever it physically is until the
+				// player happens to visit that map. This can happen e.g. when an arrival script
+				// immediately sends a monster on a new journey while the player is still
+				// elsewhere. Hand it straight to the travelling pool in that case, the same way it
+				// would get there mid-journey, so wall-clock interpolation picks it up starting
+				// this tick instead.
+				PredefinedMap playerMap = world.model.currentMaps.map;
+				if (playerMap == null || !m.currentMapID.equals(playerMap.name)) {
+					PredefinedMap monsterMap = world.maps.findPredefinedMap(m.currentMapID);
+					if (monsterMap != null && monsterMap.monsters.contains(m)) {
+						if (showTravelDebug) {
+							L.log("TRAVEL: " + m.getMonsterTypeID() + " started travel while off-screen (on "
+									+ m.currentMapID + ", player on "
+									+ (playerMap == null ? "?" : playerMap.name)
+									+ ") - moving straight to the travelling pool");
+						}
+						enterTravellingPool(m, monsterMap);
+					}
+				}
 			}
 		}
 	}

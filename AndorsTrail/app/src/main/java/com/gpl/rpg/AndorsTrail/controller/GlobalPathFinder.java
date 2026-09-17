@@ -8,13 +8,18 @@ import com.gpl.rpg.AndorsTrail.util.CoordRect;
 import com.gpl.rpg.AndorsTrail.util.L;
 import com.gpl.rpg.AndorsTrail.util.Size;
 
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
+import java.util.Set;
 
 /**
  * GlobalPathFinder is responsible for finding the shortest path for a monster (or potentially other actors)
@@ -44,18 +49,27 @@ public class GlobalPathFinder {
 		// Basic validation: pathfinding requires both start and end maps to exist.
 		if (fromMapName == null || toMapName == null) return new GlobalPath(new ArrayList<>(), fromPosition.topLeft, System.currentTimeMillis(), 0);
 
-		// Optimization: If already on the target map, perform local pathfinding. TODO: there is not always a local path -> still do global!
+		// Optimization: if already on the target map, try a direct local path first - much cheaper
+		// than the full graph search below, and correct whenever nothing blocks a straight walk.
 		if (fromMapName.equals(toMapName)) {
 			PredefinedMap map = world.maps.findPredefinedMap(fromMapName);
-			if (map.pathfinder.findPathBetween(fromPosition, toPosition, new CoordRect(new Size(1, 1)))) {
-				int d = map.pathfinder.getLastPathDistance();
+			// Don't gate on findPathBetween's boolean return: it reports "fromPosition already
+			// overlaps toPosition" the same way as "genuinely unreachable" (both `false`).
+			// getLastPathDistance() is the authoritative signal: -1 = unreachable, >=0 = a real
+			// distance (0 meaning "already there").
+			map.pathfinder.findPathBetween(fromPosition, toPosition, new CoordRect(new Size(1, 1)));
+			int d = map.pathfinder.getLastPathDistance();
+			if (d >= 0) {
 				List<GlobalPath.GlobalPathEntry> path = new ArrayList<>();
-		// Path consists of a single leg: staying on this map to reach the destination.
-		path.add(new GlobalPath.GlobalPathEntry(fromMapName, destinationID, d, d));
-		return new GlobalPath(path, fromPosition.topLeft, System.currentTimeMillis(), d);
-	}
-	return new GlobalPath(new ArrayList<GlobalPath.GlobalPathEntry>(), fromPosition.topLeft, System.currentTimeMillis(), -1);
-}
+				// Path consists of a single leg: staying on this map to reach the destination.
+				path.add(new GlobalPath.GlobalPathEntry(fromMapName, destinationID, d, d));
+				return new GlobalPath(path, fromPosition.topLeft, System.currentTimeMillis(), d);
+			}
+			// No direct local path (e.g. a physical barrier splits the map) - fall through to the
+			// full graph search below instead of giving up. That search works regardless of
+			// whether the start and target map happen to be the same one, and can find a route
+			// that leaves this map and re-enters it through a different exit.
+		}
 
 		/**
 		 * Represents a "state" in our global search.
@@ -99,15 +113,25 @@ public class GlobalPathFinder {
 		// Dijkstra's algorithm structures
 		final Map<Node, Integer> distances = new HashMap<>(); // Shortest known distance to each map exit
 		final Map<Node, Node> previous = new HashMap<>();     // Used for backtracking to reconstruct the path
+		// Nodes whose current shortest-known route arrives via a same-map warp crossing
+		// (Relaxation Step 2, e.g. a "west edge" teleport pair) rather than a normal walk
+		// (Relaxation Step 1). Such a node cannot be walked to directly - reconstruction must not
+		// silently fold it into an earlier leg the way it safely can for a walk-connected node.
+		final Set<Node> viaCrossing = new HashSet<>();
 		PriorityQueue<NodeDistance> pq = new PriorityQueue<>(Comparator.comparingInt(n -> n.dist));
 
 		// Initial seeding: find all exits on the starting map that are reachable from the current position.
 		PredefinedMap fromMap = world.maps.findPredefinedMap(fromMapName);
 		for (MapObject o : fromMap.eventObjects) {
 			if (o.type == MapObject.MapObjectType.newmap) {
-				// Use the map's local pathfinder to calculate distance to each exit.
-				if (fromMap.pathfinder.findPathBetween(fromPosition, o.position, new CoordRect(new Size(1, 1)))) {
-					int d = fromMap.pathfinder.getLastPathDistance();
+				// Use the map's local pathfinder to calculate distance to each exit. Read
+				// getLastPathDistance() instead of gating on the boolean return, so an exit whose
+				// area the traveler's starting position already overlaps (distance 0, findPathBetween
+				// returns false the same as "unreachable") still gets seeded instead of silently
+				// dropped from the search.
+				fromMap.pathfinder.findPathBetween(fromPosition, o.position, new CoordRect(new Size(1, 1)));
+				int d = fromMap.pathfinder.getLastPathDistance();
+				if (d >= 0) {
 					Node node = new Node(fromMap, o);
 					distances.put(node, d);
 					pq.add(new NodeDistance(node, d));
@@ -148,9 +172,15 @@ public class GlobalPathFinder {
 				// Find the specific point where we enter the target map from this exit.
 				MapObject entryPoint = targetMap.findEventObject(MapObject.MapObjectType.newmap, u.mapchange.place);
 				if (entryPoint != null) {
-					// Calculate distance from that entry point to the final destination area.
-					if (targetMap.pathfinder.findPathBetween(entryPoint.position, toPosition, new CoordRect(new Size(1, 1)))) {
-						int dToDest = targetMap.pathfinder.getLastPathDistance();
+					// Calculate distance from that entry point to the final destination area. As
+					// above, read getLastPathDistance() rather than gating on the boolean return -
+					// otherwise a destination area that overlaps this map's entry point (a
+					// trivially-short final leg) would look "unreachable" via this entry and get
+					// skipped, possibly leaving the whole journey unreachable if every candidate
+					// entry point has the same property.
+					targetMap.pathfinder.findPathBetween(entryPoint.position, toPosition, new CoordRect(new Size(1, 1)));
+					int dToDest = targetMap.pathfinder.getLastPathDistance();
+					if (dToDest >= 0) {
 						int total = uDist + dToDest;
 						// Keep track of the best entry point into the final map.
 						if (total < bestDistanceToTargetMap) {
@@ -176,6 +206,7 @@ public class GlobalPathFinder {
 				if (alt < distances.get(v)) {
 					distances.put(v, alt);
 					previous.put(v, u);
+					viaCrossing.remove(v); // this route to v is a walk, superseding any earlier crossing-based route
 					pq.add(new NodeDistance(v, alt));
 				}
 			}
@@ -194,6 +225,7 @@ public class GlobalPathFinder {
 							if (vDist != null && uDist < vDist) {
 								distances.put(v, uDist);
 								previous.put(v, u);
+								viaCrossing.add(v);
 								pq.add(new NodeDistance(v, uDist));
 							}
 							break;
@@ -216,8 +248,12 @@ public class GlobalPathFinder {
 		Node curr = targetNode;
 		while (curr != null) {
 			Node p = previous.get(curr);
-			// Skip redundant nodes on the same map to keep the path concise.
-			while (p != null && p.map.name.equals(curr.map.name)) {
+			// Skip redundant nodes connected by a plain same-map walk to keep the path concise -
+			// local pathfinding reaches them automatically while walking toward `curr`. Stop as
+			// soon as the node we'd skip past was itself reached via a same-map warp crossing: the
+			// far side of a warp cannot be walked to directly, so it must remain its own leg
+			// boundary rather than being silently absorbed into this one.
+			while (p != null && p.map.name.equals(curr.map.name) && !viaCrossing.contains(p)) {
 				p = previous.get(p);
 			}
 
@@ -229,7 +265,14 @@ public class GlobalPathFinder {
 			}
 
 			path.add(new GlobalPath.GlobalPathEntry(curr.map.name, curr.mapchange.id, dist, (dCurr == null) ? 0 : dCurr));
-			curr = p;
+
+			if (p != null && viaCrossing.contains(p)) {
+				// `p` is itself an unwalkable warp destination - the next leg backward must
+				// target where that warp actually departs from, not `p` itself.
+				curr = previous.get(p);
+			} else {
+				curr = p;
+			}
 		}
 		// The path is backtracked from finish to start, so reverse it for the correct order.
 		Collections.reverse(path);
@@ -250,7 +293,13 @@ public class GlobalPathFinder {
 
 		public GlobalPath(List<GlobalPathEntry> path, Coord startingPosition, long startTime, int predictedTime) {
 			this.path = path;
-			this.startingPosition = startingPosition;
+			// Defensive copy: every caller passes some actor's live rectPosition.topLeft here
+			// (e.g. Monster.rectPosition is built as `new CoordRect(this.position, ...)`, aliasing
+			// the same Coord instance - CoordRect's constructor stores it by reference, not by
+			// value). Without copying, startingPosition would silently track the monster's current
+			// position forever instead of freezing where the journey began, which breaks leg-0
+			// distance/position math (getLegStartArea) for the entire lifetime of this path.
+			this.startingPosition = new Coord(startingPosition);
 			this.startTime = startTime;
 			this.predictedTime = predictedTime;
 		}
@@ -261,6 +310,38 @@ public class GlobalPathFinder {
 		public GlobalPathEntry getNextDestination() {
 			if (currentPosition >= path.size()) return null;
 			return path.get(currentPosition);
+		}
+
+		// ====== PARCELABLE ===================================================================
+
+		public void writeToParcel(DataOutputStream dest) throws IOException {
+			dest.writeInt(path.size());
+			for (GlobalPathEntry e : path) {
+				dest.writeUTF(e.mapID);
+				dest.writeUTF(e.destinationID);
+				dest.writeInt(e.distance);
+				dest.writeInt(e.cumulatedDistance);
+			}
+			startingPosition.writeToParcel(dest);
+			dest.writeInt(currentPosition);
+			dest.writeLong(startTime);
+			dest.writeInt(predictedTime);
+		}
+
+		public static GlobalPath newFromParcel(DataInputStream src, int fileversion) throws IOException {
+			int numEntries = src.readInt();
+			List<GlobalPathEntry> path = new ArrayList<>(numEntries);
+			for (int i = 0; i < numEntries; i++) {
+				path.add(new GlobalPathEntry(src.readUTF(), src.readUTF(), src.readInt(), src.readInt()));
+			}
+			Coord startingPosition = new Coord(src, fileversion);
+			int currentPosition = src.readInt();
+			long startTime = src.readLong();
+			int predictedTime = src.readInt();
+
+			GlobalPath result = new GlobalPath(path, startingPosition, startTime, predictedTime);
+			result.currentPosition = currentPosition;
+			return result;
 		}
 
 		/**

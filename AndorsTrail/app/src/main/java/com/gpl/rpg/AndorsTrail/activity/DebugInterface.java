@@ -11,6 +11,7 @@ import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
 import com.gpl.rpg.AndorsTrail.controller.ConversationController;
+import com.gpl.rpg.AndorsTrail.controller.MonsterMovementController;
 import com.gpl.rpg.AndorsTrail.controller.PathFinder;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
@@ -160,6 +161,13 @@ public final class DebugInterface {
 						PathFinder.showPathfinderDebug = !PathFinder.showPathfinderDebug;
 						showToast(mainActivity, "DEBUG: pathfinder overlay=" + (PathFinder.showPathfinderDebug ? "ON" : "OFF"), Toast.LENGTH_SHORT);
 						mainActivity.findViewById(R.id.main_mainview).postInvalidate();
+					}
+				})
+				,new DebugButton("trv", new OnClickListener() {
+					@Override
+					public void onClick(View arg0) {
+						MonsterMovementController.showTravelDebug = !MonsterMovementController.showTravelDebug;
+						showToast(mainActivity, "DEBUG: travel logging=" + (MonsterMovementController.showTravelDebug ? "ON" : "OFF"), Toast.LENGTH_SHORT);
 					}
 				})
 		}));

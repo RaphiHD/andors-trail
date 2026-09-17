@@ -184,6 +184,12 @@ public class PathFinder {
 	}
 
 	public Coord findPositionOnPath(final CoordRect from, final CoordRect to, final long distance, Monster m) {
+		// findPathBetween reports "from already overlaps to" as a plain `false`, indistinguishable
+		// from "no path exists" - without this check we'd fall through to the `from.topLeft` fallback
+		// below and never actually arrive, even though we're already there (e.g. a travelling
+		// monster's leg starts on the very tile it needs to end on, such as a mapchange object it
+		// just arrived through).
+		if (from.intersects(to)) return to.topLeft;
 		if (distance <= 0) return from.topLeft;
 
 		CoordRect nextStep = new CoordRect(new Coord(), new Size(1, 1));

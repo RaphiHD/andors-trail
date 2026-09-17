@@ -3,9 +3,11 @@ package com.gpl.rpg.AndorsTrail.model.map;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.controller.ConversationController;
+import com.gpl.rpg.AndorsTrail.controller.MonsterMovementController;
 import com.gpl.rpg.AndorsTrail.model.ChecksumBuilder;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
+import com.gpl.rpg.AndorsTrail.util.L;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -27,6 +29,11 @@ public final class TravelDestinationArea extends MapArea {
 	}
 
     public void onMonsterArrived(Monster m) {
+		if (MonsterMovementController.showTravelDebug) {
+			L.log("TRAVEL: " + m.getMonsterTypeID() + " arrived at " + areaID + " on map " + mapID
+					+ " pos=" + m.rectPosition.topLeft + " at wallClock=" + System.currentTimeMillis());
+		}
+
 		// Move monster from its old area into this destination area.
 		m.area = this;
 		m.travelDestination = null;

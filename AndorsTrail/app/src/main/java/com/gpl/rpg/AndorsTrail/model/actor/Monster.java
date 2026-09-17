@@ -189,6 +189,23 @@ public final class Monster extends Actor {
 				}
 			}
 		}
+
+		if (fileversion >= 87) {
+			if (src.readBoolean()) {
+				String destMapID = src.readUTF();
+				String destAreaID = src.readUTF();
+				PredefinedMap destMap = world.maps.findPredefinedMap(destMapID);
+				if (destMap != null) {
+					MapArea destArea = destMap.getArea(destAreaID);
+					if (destArea instanceof TravelDestinationArea) {
+						this.travelDestination = (TravelDestinationArea) destArea;
+					}
+				}
+			}
+			if (src.readBoolean()) {
+				this.travelPath = GlobalPathFinder.GlobalPath.newFromParcel(src, fileversion);
+			}
+		}
 	}
 
 	public void writeToParcel(DataOutputStream dest) throws IOException {
@@ -234,6 +251,20 @@ public final class Monster extends Actor {
 		if (area != null) {
 			dest.writeBoolean(true);
 			dest.writeUTF(area.areaID);
+		} else {
+			dest.writeBoolean(false);
+		}
+
+		if (travelDestination != null) {
+			dest.writeBoolean(true);
+			dest.writeUTF(travelDestination.mapID);
+			dest.writeUTF(travelDestination.areaID);
+		} else {
+			dest.writeBoolean(false);
+		}
+		if (travelPath != null) {
+			dest.writeBoolean(true);
+			travelPath.writeToParcel(dest);
 		} else {
 			dest.writeBoolean(false);
 		}

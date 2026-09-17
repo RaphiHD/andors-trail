@@ -68,6 +68,7 @@ public final class WorldContext {
 	}
 	public void resetForNewGame() {
 		maps.resetForNewGame();
+		monsters.resetForNewGame();
 	}
 
 	public byte[] getChecksum() throws DigestException {
