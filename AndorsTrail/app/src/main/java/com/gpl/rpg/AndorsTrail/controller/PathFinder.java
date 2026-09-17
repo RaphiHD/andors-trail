@@ -50,6 +50,22 @@ public class PathFinder {
 	}
 
 	public boolean findPathBetween(final CoordRect from, final CoordRect to, CoordRect nextStep, Monster m) {
+		return findPathBetween(from, to, nextStep, m, null);
+	}
+
+	/**
+	 * Same as {@link #findPathBetween(CoordRect, CoordRect, CoordRect, Monster)}, but additionally
+	 * treats the single tile {@code avoid} as unwalkable for this search only. Used to route a
+	 * travelling monster around the player: {@code monsterCanMoveTo}/{@code map.isWalkable(_, m)}
+	 * already exclude other monsters from this graph (see {@code PredefinedMap.getMonsterAt}), but
+	 * have no concept of the player at all, so without this the player is invisible to the search -
+	 * a route that happens to lead straight through wherever the player is standing looks perfectly
+	 * walkable, and the monster keeps recomputing and re-attempting that exact route instead of
+	 * detouring around them. Not applied to aggressive monsters pathing *at* the player (that search
+	 * targets the player's own tile as {@code to}, which would make the destination itself
+	 * unreachable) - only travel-approach callers pass a non-null {@code avoid}.
+	 */
+	public boolean findPathBetween(final CoordRect from, final CoordRect to, CoordRect nextStep, Monster m, final Coord avoid) {
 //		L.log("PATHFINDER: finding path between "
 //				+ "(" + from.topLeft.x + ", " + from.topLeft.y + ")"
 //				+ " and "
@@ -83,6 +99,7 @@ public class PathFinder {
 			for (int x = to.topLeft.x; x < to.topLeft.x + to.size.width; ++x) {
 				if (x < 0 || x >= maxWidth) continue;
 				int i = (y * maxWidth) + x;
+				if (avoid != null && x == avoid.x && y == avoid.y) continue;
 				nextStep.topLeft.x = x; nextStep.topLeft.y = y;
 				if (m != null && !map.isWalkable(nextStep, m)) continue;
 				else if (!map.isWalkable(nextStep, true)) continue;
@@ -152,6 +169,7 @@ public class PathFinder {
 					if (nx < 0 || ny < 0 || nx >= maxWidth || ny >= maxHeight) continue;
 					int ni = (ny * maxWidth) + nx;
 					if (visited[ni]) continue;
+					if (avoid != null && nx == avoid.x && ny == avoid.y) continue;
 
 					// check walkable using nextStep as scratch
 					nextStep.topLeft.x = nx; nextStep.topLeft.y = ny;

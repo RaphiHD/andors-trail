@@ -1,5 +1,6 @@
 package com.gpl.rpg.AndorsTrail.controller;
 
+import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.listeners.MonsterMovementListeners;
@@ -249,7 +250,10 @@ public final class MonsterMovementController {
 					return true;
 				} else if (findPathFor(m, m.travelDestination.area)) {
 					// Pathfind locally to destinationArea
+					m.travelBlockedRetries = 0;
 					return false;
+				} else {
+					return handleBlockedTravelPath(m);
 				}
 			} else {
 				String destinationID = m.travelPath.getNextDestination().destinationID;
@@ -294,9 +298,10 @@ public final class MonsterMovementController {
 
 					if (findPathFor(m, o.position)) {
 						// Path found, monster moved
+						m.travelBlockedRetries = 0;
 						return false;
 					} else {
-						// Path blocked, do something to clear path TODO
+						return handleBlockedTravelPath(m);
 					}
 				}
 			}
@@ -336,6 +341,46 @@ public final class MonsterMovementController {
 		m.nextActionTime = System.currentTimeMillis() + ((long) getMillisecondsPerMove(m) * Constants.rollValue(Constants.monsterWaitTurns));
 	}
 
+	/**
+	 * Called when a travelling monster's local approach step (findPathFor towards the next
+	 * mapchange, or towards the final destination area) fails to find a route this tick - either
+	 * a blocking actor (player/another monster) parked on the only path, or a layout change that
+	 * closed it off. `findPathFor`'s A* search already excludes occupied/unwalkable tiles from
+	 * the graph, so it naturally finds a detour on its own the next time it's tried, if one
+	 * exists - the bug here was never retrying at all. Waits with a bounded retry/backoff
+	 * (reusing cancelCurrentMonsterMovement's pattern, so it doesn't hammer the pathfinder every
+	 * single tick) instead of falling through to the unrelated wander fallback, and gives up on
+	 * the whole journey after too many consecutive failures - where no detour physically exists
+	 * (a one-tile-wide corridor, the player standing in a doorway), an NPC shouldn't be able to
+	 * shove the player out of the way, so eventually failing per beginTravel's convention (clear
+	 * travelDestination/travelPath) is the correct fallback instead of waiting forever.
+	 *
+	 * @return always true - the monster is considered fully handled this tick either way
+	 * (waiting, or the journey was just abandoned), so the caller must not apply any further
+	 * movement of its own.
+	 */
+	private boolean handleBlockedTravelPath(Monster m) {
+		m.travelBlockedRetries++;
+		if (m.travelBlockedRetries > Constants.MONSTER_TRAVEL_MAX_BLOCKED_RETRIES) {
+			if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA || showTravelDebug) {
+				L.log("WARNING: " + m.getMonsterTypeID() + " gave up travelling (blocked path, "
+						+ m.travelBlockedRetries + " consecutive failed retries) at pos="
+						+ m.rectPosition.topLeft + ", map=" + m.currentMapID);
+			}
+			m.travelDestination = null;
+			m.travelPath = null;
+			m.travelBlockedRetries = 0;
+		} else {
+			if (showTravelDebug) {
+				L.log("TRAVEL: " + m.getMonsterTypeID() + " local path blocked at pos="
+						+ m.rectPosition.topLeft + " (retry " + m.travelBlockedRetries + "/"
+						+ Constants.MONSTER_TRAVEL_MAX_BLOCKED_RETRIES + ") - waiting before retrying");
+			}
+			cancelCurrentMonsterMovement(m);
+		}
+		return true;
+	}
+
 	private static int getMillisecondsPerMove(Monster m) {
 		int nominal = Constants.MONSTER_MOVEMENT_TURN_DURATION_MS * m.getMoveCost() / m.getMaxAP();
 		// Monster movement is only ever advanced from moveMonsters(), which itself only runs once
@@ -358,9 +403,15 @@ public final class MonsterMovementController {
 		return 0;
 	}
 
+	/**
+	 * Only used by travel-approach pathing (never by aggressive-chase-player, which uses the
+	 * {@code Coord} overload below and targets the player's own tile as {@code to}) - so it's safe
+	 * to always route around wherever the player currently stands, the same way other monsters are
+	 * already excluded from this graph via {@code monsterCanMoveTo}/{@code getMonsterAt}.
+	 */
 	public boolean findPathFor(Monster m, CoordRect to) {
 		PathFinder pathfinder = world.maps.findPredefinedMap(m.currentMapID).pathfinder;
-		return pathfinder.findPathBetween(m.rectPosition, to, m.nextPosition, m);
+		return pathfinder.findPathBetween(m.rectPosition, to, m.nextPosition, m, world.model.player.position);
 	}
 	public boolean findPathFor(Monster m, Coord to) {
 		PathFinder pathfinder = world.maps.findPredefinedMap(m.currentMapID).pathfinder;
@@ -504,6 +555,21 @@ public final class MonsterMovementController {
 			if (a.areaID.equals(destinationID)) {
 				m.travelDestination = a;
 				m.travelPath = globalPathFinder.findPath(m.currentMapID, m.rectPosition, mapID, a.area, a.areaID);
+
+				if (m.travelPath.predictedTime < 0) {
+					// No route exists at all between here and the destination - don't leave the
+					// monster wedged with isTravelling permanently true and a travelPath that can
+					// never be walked. Fail the request immediately instead.
+					if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA || showTravelDebug) {
+						L.log("WARNING: " + m.getMonsterTypeID() + " has no travel route from map="
+								+ m.currentMapID + " pos=" + m.rectPosition.topLeft + " to map=" + mapID
+								+ " dest=" + destinationID + " - travel request ignored.");
+					}
+					m.travelDestination = null;
+					m.travelPath = null;
+					return;
+				}
+				m.travelBlockedRetries = 0;
 
 				m.movementDestination = null;
 

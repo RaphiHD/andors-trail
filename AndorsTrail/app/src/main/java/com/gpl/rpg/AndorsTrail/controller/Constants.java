@@ -38,6 +38,7 @@ public final class Constants {
 	public static final int STATUS_TEXT_AUTOHIDE_DELAY = ROUND_DURATION;
 
 	public static final ConstRange monsterWaitTurns = new ConstRange(5,1);
+	public static final int MONSTER_TRAVEL_MAX_BLOCKED_RETRIES = 10;
 	public static final long MAP_UNVISITED_RESPAWN_DURATION_MS = 3 * 60 * 1000; // 3 min in milliseconds
 
 	public static final String PREFERENCE_MODEL_LASTRUNVERSION = "lastversion";

@@ -27,6 +27,13 @@ public final class Monster extends Actor {
 	public Coord movementDestination = null;
 	public TravelDestinationArea travelDestination = null;
 	public GlobalPathFinder.GlobalPath travelPath = null;
+	/**
+	 * Consecutive ticks the local approach step of an in-progress journey has failed to find a
+	 * path (an obstruction, or a layout change that closed the route). Not persisted - it's a
+	 * short-lived retry counter, not part of the journey itself. See
+	 * MonsterMovementController.handleBlockedTravelPath.
+	 */
+	public int travelBlockedRetries = 0;
 	public long nextActionTime = 0;
 	public String currentMapID;
 	public final CoordRect nextPosition;
