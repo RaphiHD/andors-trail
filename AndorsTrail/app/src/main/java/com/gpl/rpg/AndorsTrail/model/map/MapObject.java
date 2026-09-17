@@ -31,6 +31,18 @@ public final class MapObject {
 	public final DropList dropList;
 	public final MapObjectEvaluationType evaluateWhen;
 	public boolean isActive;
+	/**
+	 * Only meaningful for {@code keyarea}: whether a travelling monster's local pathfinding
+	 * treats this specific key-gated passage as passable. Player passage is unaffected either way
+	 * - that's still decided per-attempt by {@code enteringRequirement}
+	 * (`MapController.canEnterKeyArea`). Monsters don't evaluate `enteringRequirement` at all
+	 * (most requirement types - hasItem, questProgress - are checked against the player, so
+	 * "does this monster satisfy it" usually isn't a meaningful question); this is a static,
+	 * map-author-set flag instead of a dynamic per-requirement check, so it needs no support from
+	 * GlobalPathFinder's distance computations. A keyarea whose monster-passability should change
+	 * based on quest state should use a ReplaceableMapSection instead.
+	 */
+	public final boolean monstersCanPass;
 
 	private MapObject(
 			final CoordRect position
@@ -42,6 +54,7 @@ public final class MapObject {
 			, final DropList dropList
 			, final MapObjectEvaluationType evaluateWhen
 			, final String group
+			, final boolean monstersCanPass
 	) {
 		this.position = new CoordRect(position);
 		this.type = type;
@@ -53,6 +66,7 @@ public final class MapObject {
 		this.evaluateWhen = evaluateWhen;
 		this.group = group;
 		this.isActive = true;
+		this.monstersCanPass = monstersCanPass;
 	}
 
 
@@ -61,7 +75,7 @@ public final class MapObject {
 			, final String phraseID
 			, String group
 	) {
-		return new MapObject(position, MapObjectType.sign, phraseID, null, null, null, null, MapObjectEvaluationType.whenEntering, group);
+		return new MapObject(position, MapObjectType.sign, phraseID, null, null, null, null, MapObjectEvaluationType.whenEntering, group, false);
 	}
 
 	public static MapObject createMapChangeArea(
@@ -71,7 +85,7 @@ public final class MapObject {
 			, final String destinationPlace
 			, String group
 	) {
-		return new MapObject(position, MapObjectType.newmap, thisMapTitle, destinationMap, destinationPlace, null, null, MapObjectEvaluationType.whenEntering, group);
+		return new MapObject(position, MapObjectType.newmap, thisMapTitle, destinationMap, destinationPlace, null, null, MapObjectEvaluationType.whenEntering, group, false);
 	}
 
 	public static MapObject createRestArea(
@@ -79,7 +93,7 @@ public final class MapObject {
 			, final String placeId
 			, String group
 	) {
-		return new MapObject(position, MapObjectType.rest, placeId, null, null, null, null, MapObjectEvaluationType.whenEntering, group);
+		return new MapObject(position, MapObjectType.rest, placeId, null, null, null, null, MapObjectEvaluationType.whenEntering, group, false);
 	}
 
 	public static MapObject createKeyArea(
@@ -87,8 +101,9 @@ public final class MapObject {
 			, final String phraseID
 			, final Requirement enteringRequirement
 			, String group
+			, boolean monstersCanPass
 	) {
-		return new MapObject(position, MapObjectType.keyarea, phraseID, null, null, enteringRequirement, null, MapObjectEvaluationType.whenEntering, group);
+		return new MapObject(position, MapObjectType.keyarea, phraseID, null, null, enteringRequirement, null, MapObjectEvaluationType.whenEntering, group, monstersCanPass);
 	}
 
 	public static MapObject createContainerArea(
@@ -96,7 +111,7 @@ public final class MapObject {
 			, final DropList dropList
 			, String group
 	) {
-		return new MapObject(position, MapObjectType.container, null, null, null, null, dropList, MapObjectEvaluationType.whenEntering, group);
+		return new MapObject(position, MapObjectType.container, null, null, null, null, dropList, MapObjectEvaluationType.whenEntering, group, false);
 	}
 
 	public static MapObject createScriptArea(
@@ -105,6 +120,6 @@ public final class MapObject {
 			, final MapObjectEvaluationType evaluateWhen
 			, String group
 	) {
-		return new MapObject(position, MapObjectType.script, phraseID, null, null, null, null, evaluateWhen, group);
+		return new MapObject(position, MapObjectType.script, phraseID, null, null, null, null, evaluateWhen, group, false);
 	}
 }

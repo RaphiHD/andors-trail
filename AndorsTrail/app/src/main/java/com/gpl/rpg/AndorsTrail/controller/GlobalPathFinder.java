@@ -44,7 +44,9 @@ public class GlobalPathFinder {
 	 * @return A GlobalPath object containing the sequence of maps and transitions, or a path with distance -1 if unreachable.
 	 */
 	public GlobalPath findPath(String fromMapName, CoordRect fromPosition, String toMapName, CoordRect toPosition, String destinationID) {
-		L.log("PATHFINDER: finding path between " + fromMapName + " and " + toMapName);
+		if (MonsterMovementController.showTravelDebug) {
+			L.log("PATHFINDER: finding path between " + fromMapName + " and " + toMapName);
+		}
 
 		// Basic validation: pathfinding requires both start and end maps to exist.
 		if (fromMapName == null || toMapName == null) return new GlobalPath(new ArrayList<>(), fromPosition.topLeft, System.currentTimeMillis(), 0);
@@ -277,7 +279,9 @@ public class GlobalPathFinder {
 		// The path is backtracked from finish to start, so reverse it for the correct order.
 		Collections.reverse(path);
 
-		L.log("PATHFINDER: found path: " + path);
+		if (MonsterMovementController.showTravelDebug) {
+			L.log("PATHFINDER: found path: " + path);
+		}
 		return new GlobalPath(path, fromPosition.topLeft, System.currentTimeMillis(), totalDistance);
 	}
 

@@ -191,9 +191,12 @@ public final class TMXMapTranslator {
 						destinationAreas.add(area);
 					} else if (object.type.equalsIgnoreCase("key")) {
 						String phraseID = "";
+						boolean monstersCanPass = false;
 						for (TMXProperty p : object.properties) {
 							if (p.name.equalsIgnoreCase("phrase")) {
 								phraseID = p.value;
+							} else if (p.name.equalsIgnoreCase("monstersCanPass")) {
+								monstersCanPass = Boolean.parseBoolean(p.value);
 							} else if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
 								if (!requirementPropertiesNames.contains(p.name.toLowerCase())) {
 									L.log("OPTIMIZE: Map " + m.name + ", key " + object.name + "@" + topLeft.toString() + " has unrecognized property \"" + p.name + "\".");
@@ -201,7 +204,7 @@ public final class TMXMapTranslator {
 							}
 						}
 						Requirement req = parseRequirement(object);
-						mapObjects.add(MapObject.createKeyArea(position, phraseID, req, group.name));
+						mapObjects.add(MapObject.createKeyArea(position, phraseID, req, group.name, monstersCanPass));
 					} else if (object.type.equals("rest")) {
 						mapObjects.add(MapObject.createRestArea(position, object.name, group.name));
 					} else if (object.type.equals("container")) {

@@ -19,12 +19,15 @@ import com.gpl.rpg.AndorsTrail.controller.listeners.MonsterMovementListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.MonsterSpawnListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.PlayerMovementListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.VisualEffectFrameListener;
+import com.gpl.rpg.AndorsTrail.controller.GlobalPathFinder;
+import com.gpl.rpg.AndorsTrail.controller.MonsterMovementController;
 import com.gpl.rpg.AndorsTrail.controller.PathFinder;
 import com.gpl.rpg.AndorsTrail.model.ModelContainer;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
 import com.gpl.rpg.AndorsTrail.model.map.MapLayer;
+import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
@@ -395,6 +398,9 @@ public final class MainView extends SurfaceView
 		if (PathFinder.showPathfinderDebug) {
 			drawPathfinderDebug(canvas, area);
 		}
+		if (MonsterMovementController.showTravelDebug) {
+			drawTravelDebug(canvas, area);
+		}
 		if (useAlternateColorFilterPaint) {
 			applyAlternateFilter(canvas, area);
 		}
@@ -459,6 +465,69 @@ public final class MainView extends SurfaceView
 					}
 				}
 			}
+		}
+	}
+
+	/**
+	 * Visualizes GlobalPathFinder's cross-map route planning on top of whichever map is currently
+	 * on-screen - the pathfinder overlay above only ever shows one map's *local* A* search, so
+	 * there was previously no way to see a travelling monster's overall multi-map route at a
+	 * glance; you had to cross-reference showTravelDebug's logcat output by hand. For every
+	 * monster anywhere in the world with an active travelDestination (on any map's monster list,
+	 * or abstracted in the world-level travelling pool), highlights whichever of that monster's
+	 * travelPath legs land on the currently displayed map: the next mapchange exit it's heading
+	 * for (cyan), or its final TravelDestinationArea if this is the last leg (orange), each
+	 * labeled with the monster's type ID so multiple travelling monsters stay distinguishable.
+	 */
+	private void drawTravelDebug(Canvas canvas, CoordRect area) {
+		PredefinedMap map = currentMap;
+		if (map == null) return;
+
+		debugPaint.setStyle(Style.STROKE);
+		debugPaint.setStrokeWidth(3);
+		debugPaint.setTextSize(tileSize * 0.3f);
+
+		for (PredefinedMap m : world.maps.getAllMaps()) {
+			for (Monster monster : m.monsters) {
+				drawTravelDebugLegsOnMap(canvas, area, map, monster);
+			}
+		}
+		for (Monster monster : world.monsters.travellingMonsters) {
+			drawTravelDebugLegsOnMap(canvas, area, map, monster);
+		}
+	}
+
+	private void drawTravelDebugLegsOnMap(Canvas canvas, CoordRect area, PredefinedMap displayedMap, Monster m) {
+		if (m.travelDestination == null || m.travelPath == null) return;
+
+		for (int i = 0; i < m.travelPath.path.size(); ++i) {
+			GlobalPathFinder.GlobalPath.GlobalPathEntry e = m.travelPath.path.get(i);
+			if (!e.mapID.equals(displayedMap.name)) continue;
+
+			boolean isFinalLeg = (i == m.travelPath.path.size() - 1);
+			CoordRect markerArea;
+			if (isFinalLeg) {
+				markerArea = m.travelDestination.area;
+			} else {
+				MapObject mo = displayedMap.findEventObject(MapObject.MapObjectType.newmap, e.destinationID);
+				if (mo == null) continue;
+				markerArea = mo.position;
+			}
+			if (!area.intersects(markerArea)) continue;
+
+			debugPaint.setColor(isFinalLeg ? Color.argb(230, 255, 140, 0) : Color.argb(230, 0, 200, 255));
+			canvas.drawRect(
+					(markerArea.topLeft.x - mapViewArea.topLeft.x) * tileSize,
+					(markerArea.topLeft.y - mapViewArea.topLeft.y) * tileSize,
+					(markerArea.topLeft.x - mapViewArea.topLeft.x + markerArea.size.width) * tileSize,
+					(markerArea.topLeft.y - mapViewArea.topLeft.y + markerArea.size.height) * tileSize,
+					debugPaint
+			);
+			String label = m.getMonsterTypeID() + (isFinalLeg ? " (dest)" : " leg " + i);
+			canvas.drawText(label,
+					(markerArea.topLeft.x - mapViewArea.topLeft.x) * tileSize + 2,
+					(markerArea.topLeft.y - mapViewArea.topLeft.y) * tileSize - 4,
+					debugPaint);
 		}
 	}
 

@@ -125,14 +125,14 @@ public final class MonsterMovementController {
 			// Monster is on the map the player is currently on.
 			m.travelPath.currentPosition = legIndex;
 			spawnMonsterOnMap(m, currentMap, legIndex, distanceOnLeg);
-			if (arrived && m.travelDestination != null) m.travelDestination.onMonsterArrived(m);
+			if (arrived && m.travelDestination != null) m.travelDestination.onMonsterArrived(m, controllers);
 			return true;
 		} else if (arrived) {
 			// Arrived at destination on a DIFFERENT map.
 			PredefinedMap destMap = world.maps.findPredefinedMap(entry.mapID);
 			m.travelPath.currentPosition = legIndex;
 			spawnMonsterOnMap(m, destMap, legIndex, distanceOnLeg);
-			if (m.travelDestination != null) m.travelDestination.onMonsterArrived(m);
+			if (m.travelDestination != null) m.travelDestination.onMonsterArrived(m, controllers);
 			return true;
 		}
 		return false;
@@ -166,9 +166,11 @@ public final class MonsterMovementController {
 				if (!mObj.position.intersects(p)) continue;
 				switch (mObj.type) {
 				case newmap:
-				case keyarea:
 				case rest:
 					return false;
+				case keyarea:
+					if (!mObj.monstersCanPass) return false;
+					break;
 				}
 			}
 		}
@@ -246,7 +248,7 @@ public final class MonsterMovementController {
 				// Target map reached, pathfind locally to destinationArea
 				if (m.travelDestination.area.contains(m.position)) {
 					// Destination reached
-					m.travelDestination.onMonsterArrived(m);
+					m.travelDestination.onMonsterArrived(m, controllers);
 					return true;
 				} else if (findPathFor(m, m.travelDestination.area)) {
 					// Pathfind locally to destinationArea
@@ -370,6 +372,7 @@ public final class MonsterMovementController {
 			m.travelDestination = null;
 			m.travelPath = null;
 			m.travelBlockedRetries = 0;
+			fireTravelFailedScript(m);
 		} else {
 			if (showTravelDebug) {
 				L.log("TRAVEL: " + m.getMonsterTypeID() + " local path blocked at pos="
@@ -379,6 +382,22 @@ public final class MonsterMovementController {
 			cancelCurrentMonsterMovement(m);
 		}
 		return true;
+	}
+
+	/**
+	 * Runs a monster's standing travelFailedScript, if it has one, after a journey has just been
+	 * abandoned (travelDestination/travelPath already cleared by the caller). Not one-shot - the
+	 * script stays set for the next failure too, since it represents a per-NPC fallback behavior
+	 * ("always go back home if you can't get there"), not per-journey state. Caution for script
+	 * authors: if this script's own effects start another journey (setDestination) that is itself
+	 * immediately unreachable, beginTravel fails synchronously and re-invokes this same script -
+	 * an infinite recursion if the fallback destination can never be reached. Nothing here guards
+	 * against that; the fallback destination must be one that's actually reachable.
+	 */
+	private void fireTravelFailedScript(Monster m) {
+		if (m.travelFailedScript != null) {
+			controllers.mapController.runScriptForNpc(m.travelFailedScript, m);
+		}
 	}
 
 	private static int getMillisecondsPerMove(Monster m) {
@@ -567,6 +586,7 @@ public final class MonsterMovementController {
 					}
 					m.travelDestination = null;
 					m.travelPath = null;
+					fireTravelFailedScript(m);
 					return;
 				}
 				m.travelBlockedRetries = 0;

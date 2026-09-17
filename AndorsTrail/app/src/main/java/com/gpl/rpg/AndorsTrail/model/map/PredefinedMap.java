@@ -21,6 +21,7 @@ import com.gpl.rpg.AndorsTrail.controller.Constants;
 import com.gpl.rpg.AndorsTrail.controller.PathFinder;
 import com.gpl.rpg.AndorsTrail.controller.VisualEffectController.BloodSplatter;
 import com.gpl.rpg.AndorsTrail.model.ChecksumBuilder;
+import com.gpl.rpg.AndorsTrail.model.ModelContainer;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
@@ -129,8 +130,28 @@ public final class PredefinedMap {
 		return new CoordRect(new Coord(0,0), size).intersects(area);
 	}
 
+	/**
+	 * The tileMap to read live walkability from: {@code this.tileMap} is built once and never
+	 * touched again (not even by {@code ReplaceableMapSection} - {@code MapController
+	 * .applyReplacements} only ever mutates {@code world.model.currentMaps.tileMap}, a separate
+	 * instance rebuilt from scratch each time a map becomes current), so pathfinding against
+	 * {@code this.tileMap} would be permanently blind to any wall that opens or closes after this
+	 * map was first loaded. Prefer the live, current-map copy - the same one the player's own
+	 * movement already checks - whenever this map happens to be it. There's no live copy to prefer
+	 * for a map the player currently isn't on (nothing tracks replacement state for a non-current
+	 * map at all), so this remains a known limitation for travelling monsters routing through such
+	 * a map; only the current map's replacements are ever guaranteed reflected here.
+	 */
+	private LayeredTileMap liveTileMap() {
+		ModelContainer model = world.model;
+		if (model != null && model.currentMaps != null && model.currentMaps.map == this && model.currentMaps.tileMap != null) {
+			return model.currentMaps.tileMap;
+		}
+		return this.tileMap;
+	}
+
 	public boolean isWalkable(final CoordRect area, boolean ignoreAreas) {
-		if (!this.tileMap.isWalkable(area)) return false;
+		if (!liveTileMap().isWalkable(area)) return false;
 
 		if (!ignoreAreas) {
 			for (MapObject mObj : this.eventObjects) {
@@ -139,16 +160,18 @@ public final class PredefinedMap {
 				if (!mObj.position.intersects(area)) continue;
 				switch (mObj.type) {
 					case newmap:
-					case keyarea:
 					case rest:
 						return false;
+					case keyarea:
+						if (!mObj.monstersCanPass) return false;
+						break;
 				}
 			}
 		}
 		return true;
 	}
 	public boolean isWalkable(final CoordRect area, Monster m) {
-		return monsterCanMoveTo(m, this, tileMap, area, m.ignoreAreas);
+		return monsterCanMoveTo(m, this, liveTileMap(), area, m.ignoreAreas);
 	}
 
 	public MapObject findEventObject(MapObject.MapObjectType objectType, String name) {

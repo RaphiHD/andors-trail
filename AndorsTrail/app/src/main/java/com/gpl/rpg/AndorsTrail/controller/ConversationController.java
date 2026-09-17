@@ -161,6 +161,9 @@ public final class ConversationController {
 			case setDestination:
 				setTravelDestination(npc, effect.mapName, effect.effectID);
 				break;
+			case setTravelFailedScript:
+				setTravelFailedScript(npc, effect.effectID);
+				break;
 		}
 	}
 
@@ -241,6 +244,10 @@ public final class ConversationController {
 
 	private void setTravelDestination(Monster monster, String mapID, String destinationID) {
 		if (mapID != null && monster != null) this.controllers.monsterMovementController.beginTravel(monster, mapID, destinationID);
+	}
+
+	private void setTravelFailedScript(Monster monster, String phraseID) {
+		if (monster != null) monster.travelFailedScript = phraseID;
 	}
 
 	private void addAlignmentReward(Player player, String faction, int delta) {

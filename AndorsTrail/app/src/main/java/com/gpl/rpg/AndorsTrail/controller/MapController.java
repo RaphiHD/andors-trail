@@ -17,7 +17,6 @@ import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
 import com.gpl.rpg.AndorsTrail.model.map.ReplaceableMapSection;
-import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 
 public final class MapController {
@@ -107,6 +106,29 @@ public final class MapController {
 		Resources res = controllers.getResources();
 		mapScriptExecutor.proceedToPhrase(res, o.id, true, true);
 		controllers.mapController.applyCurrentMapReplacements(res, true);
+	}
+
+	/**
+	 * Runs a script phrase for a monster that isn't necessarily on the current map - e.g. a travel
+	 * arrivalScript, or a travelFailedScript, firing on a map the player hasn't visited this
+	 * session. Unlike runScriptInArea/mapScriptExecutor (which depend on
+	 * prepareScriptsOnCurrentMap() having been called for the phrase's map, i.e. only ever true
+	 * for whichever map the player currently has loaded), this builds its own
+	 * ConversationStatemachine on demand so the script runs the same way regardless of visit
+	 * history. Deliberately does not reapply ReplaceableMapSection changes for a map other than
+	 * the current one - nothing in this codebase tracks replacement/requirement state for a
+	 * non-current map, so there's nothing correct to reapply there yet; only reapplies when the
+	 * monster's current map happens to be the one currently loaded, matching runScriptInArea's
+	 * existing behavior.
+	 */
+	public void runScriptForNpc(String phraseID, Monster npc) {
+		Resources res = controllers.getResources();
+		ConversationController.ConversationStatemachine exec = new ConversationController.ConversationStatemachine(world, controllers, conversationStateListener);
+		exec.setCurrentNPC(npc);
+		exec.proceedToPhrase(res, phraseID, true, true);
+		if (world.model.currentMaps.map != null && world.model.currentMaps.map.name.equals(npc.currentMapID)) {
+			applyCurrentMapReplacements(res, true);
+		}
 	}
 
 	private void steppedOnRestArea(MapObject area) {
@@ -263,13 +285,6 @@ public final class MapController {
 	};
 	public void prepareScriptsOnCurrentMap() {
 		mapScriptExecutor = new ConversationController.ConversationStatemachine(world, controllers, conversationStateListener);
-		// Provide the same script executor and controller context to travel destination areas so
-		// they can run arrival scripts when monsters arrive.
-		if (world.model.currentMaps != null && world.model.currentMaps.map != null) {
-			for (TravelDestinationArea a : world.model.currentMaps.map.destinationAreas) {
-				if (a != null) a.setScriptEnvironment(mapScriptExecutor, controllers);
-			}
-		}
 	}
 
 	public void activateMapObjectGroup(PredefinedMap map, String group) {

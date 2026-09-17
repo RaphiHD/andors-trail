@@ -34,6 +34,17 @@ public final class Monster extends Actor {
 	 * MonsterMovementController.handleBlockedTravelPath.
 	 */
 	public int travelBlockedRetries = 0;
+	/**
+	 * Phrase ID run (as this monster's NPC context, via MapController.runScriptForNpc) whenever a
+	 * journey fails - either unreachable from the start (beginTravel) or given up on after too
+	 * many blocked retries (handleBlockedTravelPath). Unlike travelDestination, this isn't cleared
+	 * once used - it's a standing per-NPC fallback behavior (e.g. "always go back home if you
+	 * can't get there"), set via the setTravelFailedScript reward, not a one-shot per-journey
+	 * setting. Deliberately a property of the traveler, not of TravelDestinationArea: which
+	 * destinations exist is shared across every monster that might target them, but how a specific
+	 * NPC reacts to failing to reach one is not.
+	 */
+	public String travelFailedScript = null;
 	public long nextActionTime = 0;
 	public String currentMapID;
 	public final CoordRect nextPosition;
@@ -213,6 +224,12 @@ public final class Monster extends Actor {
 				this.travelPath = GlobalPathFinder.GlobalPath.newFromParcel(src, fileversion);
 			}
 		}
+
+		if (fileversion >= 88) {
+			if (src.readBoolean()) {
+				this.travelFailedScript = src.readUTF();
+			}
+		}
 	}
 
 	public void writeToParcel(DataOutputStream dest) throws IOException {
@@ -272,6 +289,13 @@ public final class Monster extends Actor {
 		if (travelPath != null) {
 			dest.writeBoolean(true);
 			travelPath.writeToParcel(dest);
+		} else {
+			dest.writeBoolean(false);
+		}
+
+		if (travelFailedScript != null) {
+			dest.writeBoolean(true);
+			dest.writeUTF(travelFailedScript);
 		} else {
 			dest.writeBoolean(false);
 		}

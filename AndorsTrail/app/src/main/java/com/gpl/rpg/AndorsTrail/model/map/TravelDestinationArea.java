@@ -2,7 +2,6 @@ package com.gpl.rpg.AndorsTrail.model.map;
 
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
-import com.gpl.rpg.AndorsTrail.controller.ConversationController;
 import com.gpl.rpg.AndorsTrail.controller.MonsterMovementController;
 import com.gpl.rpg.AndorsTrail.model.ChecksumBuilder;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
@@ -15,8 +14,6 @@ import java.io.IOException;
 
 public final class TravelDestinationArea extends MapArea {
 	public final String arrivalScript;
-	private ConversationController.ConversationStatemachine mapScriptExecutor;
-	private ControllerContext controllers;
 	public TravelDestinationArea(
 			WorldContext world
 			, String mapID
@@ -28,7 +25,14 @@ public final class TravelDestinationArea extends MapArea {
 		this.arrivalScript = arrivalScript;
 	}
 
-    public void onMonsterArrived(Monster m) {
+	/**
+	 * @param controllers Always available - unlike the old setScriptEnvironment()-based approach,
+	 * this no longer depends on MapController.prepareScriptsOnCurrentMap() having been called for
+	 * this area's map (which only ever happened for whichever map the player currently has
+	 * loaded), so an arrival script now runs the same way regardless of whether the player has
+	 * ever visited this map this session. See MapController.runScriptForNpc.
+	 */
+    public void onMonsterArrived(Monster m, ControllerContext controllers) {
 		if (MonsterMovementController.showTravelDebug) {
 			L.log("TRAVEL: " + m.getMonsterTypeID() + " arrived at " + areaID + " on map " + mapID
 					+ " pos=" + m.rectPosition.topLeft + " at wallClock=" + System.currentTimeMillis());
@@ -39,24 +43,9 @@ public final class TravelDestinationArea extends MapArea {
 		m.travelDestination = null;
 
 		if (arrivalScript != null) {
-			if (mapScriptExecutor != null && controllers != null) {
-				mapScriptExecutor.setCurrentNPC(m);
-				mapScriptExecutor.proceedToPhrase(controllers.getResources(), arrivalScript, true, true);
-				controllers.mapController.applyCurrentMapReplacements(controllers.getResources(), true);
-			}
+			controllers.mapController.runScriptForNpc(arrivalScript, m);
 		}
-    	// Iterate over steps once implemented
   	}
-
-	public void setScriptEnvironment(ConversationController.ConversationStatemachine exec, ControllerContext controllers) {
-		this.mapScriptExecutor = exec;
-		this.controllers = controllers;
-	}
-
-	public void executeNextStep() {
-		// TODO once implemented
-		// execute steps like "stay 10", "goto destArea2", ...
-	}
 
 
 	// ====== PARCELABLE ===================================================================

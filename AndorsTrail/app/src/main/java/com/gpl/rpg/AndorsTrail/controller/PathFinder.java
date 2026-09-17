@@ -86,6 +86,7 @@ public class PathFinder {
 
 		int iterations = 0;
 		Coord measureDistanceTo = from.topLeft;
+		Coord straightLineGoal = to.getCenter();
 		Coord curr = nextStep.topLeft;
 
 		Arrays.fill(visited, false);
@@ -104,7 +105,7 @@ public class PathFinder {
 				if (m != null && !map.isWalkable(nextStep, m)) continue;
 				else if (!map.isWalkable(nextStep, true)) continue;
 				gScore[i] = 0;
-				int h = heuristic(measureDistanceTo.x, measureDistanceTo.y, x, y);
+				int h = heuristic(measureDistanceTo.x, measureDistanceTo.y, x, y, straightLineGoal.x, straightLineGoal.y);
 				openSet.add(x, y, h);
 			}
 		}
@@ -181,7 +182,7 @@ public class PathFinder {
 					if (tentativeG < gScore[ni]) {
 						gScore[ni] = tentativeG;
 						predecessor[ni] = ci;
-						int h = heuristic(measureDistanceTo.x, measureDistanceTo.y, nx, ny);
+						int h = heuristic(measureDistanceTo.x, measureDistanceTo.y, nx, ny, straightLineGoal.x, straightLineGoal.y);
 						openSet.add(nx, ny, tentativeG + h);
 					}
 				}
@@ -257,13 +258,43 @@ public class PathFinder {
 		return best;
 	}
 
-	/** Octile heuristic tuned to move costs orth=10 diag=14 (integers) */
-	private static int heuristic(int ax, int ay, int bx, int by) {
+	/**
+	 * Since diagonal and orthogonal moves cost the same (10), many visually different tile
+	 * sequences between two points tie on total cost - e.g. for a trip 10 tiles east and 20 south,
+	 * "20 diagonal-then-straight" and "10 diagonal moves clustered at one end, 10 straight at the
+	 * other" and "diagonal/straight neatly interleaved into an even staircase" all cost exactly the
+	 * same. Plain Chebyshev distance doesn't prefer any of them, so which one A* actually returns
+	 * is decided arbitrarily by exploration order - which can look like a random zig-zag depending
+	 * on map layout. `tiebreak` below nudges the search toward whichever candidate node stays
+	 * closest to the straight line between this search's two fixed endpoints (`ax,ay` and `gx,gy`,
+	 * both constant for the whole search), which is exactly what turns "cluster all diagonals at
+	 * one end" or "arbitrary zig-zag" into the natural-looking even interleave.
+	 *
+	 * `perpendicularDistance` (the candidate's distance from that line, in tiles - the raw
+	 * cross-product normalized by the line's own length, not by some fixed worst-case constant, so
+	 * it stays meaningful at any trip length instead of rounding away to 0 on short/local searches)
+	 * feeds a `tiebreak` term hard-capped at 9 - well below one move's cost (10) - so it can only
+	 * ever break a genuine tie between equal-true-cost paths, never override a real shortest-path
+	 * decision by any meaningful margin, regardless of map size or trip length.
+	 */
+	private static final double TIEBREAK_WEIGHT = 3.0;
+
+	private static int heuristic(int ax, int ay, int bx, int by, int gx, int gy) {
 		int dx = Math.abs(ax - bx);
 		int dy = Math.abs(ay - by);
-		int max = Math.max(dx, dy);
-		int min = Math.min(dx, dy);
-		return 10 * max + 4 * min;
+		int base = 10 * Math.max(dx, dy);
+
+		double lineDx = gx - ax;
+		double lineDy = gy - ay;
+		double lineLength = Math.sqrt(lineDx * lineDx + lineDy * lineDy);
+		int tiebreak = 0;
+		if (lineLength > 0) {
+			double cross = Math.abs((bx - ax) * lineDy - lineDx * (by - ay));
+			double perpendicularDistance = cross / lineLength;
+			tiebreak = (int) Math.min(9, perpendicularDistance * TIEBREAK_WEIGHT);
+		}
+
+		return base + tiebreak;
 	}
 
 	/** Minimal primitive binary heap for open set (stores x,y,f) */

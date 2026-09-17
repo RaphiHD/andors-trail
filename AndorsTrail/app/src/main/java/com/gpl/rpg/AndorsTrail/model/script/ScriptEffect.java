@@ -31,6 +31,7 @@ public final class ScriptEffect {
 		, mapchange
 		, changeIcon
 		, setDestination
+		, setTravelFailedScript
 	}
 
 	public final ScriptEffectType type;
