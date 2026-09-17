@@ -199,12 +199,14 @@ public final class MapController {
 
 	private boolean applyReplacements(PredefinedMap map, LayeredTileMap tileMap) {
 		boolean hasUpdated = false;
+		boolean layoutChanged = false;
 		if (tileMap.replacements != null) {
 			for(ReplaceableMapSection replacement : tileMap.replacements) {
 				if (replacement.isApplied) continue;
 				if (!satisfiesCondition(replacement)) continue;
 				else ConversationController.requirementFulfilled(world, replacement.requirement, controllers);
 				tileMap.applyReplacement(replacement);
+				layoutChanged = true;
 				for (ReplaceableMapSection impactedReplacement : tileMap.replacements) {
 					if (replacement != impactedReplacement && impactedReplacement.isApplied && impactedReplacement.replacementArea.intersects(replacement.replacementArea)) {
 						//The applied replacement has overwritten changes made by a previously applied replacement.
@@ -225,6 +227,15 @@ public final class MapController {
 		if (!map.lastSeenLayoutHash.equalsIgnoreCase(tileMap.getCurrentLayoutHash())) {
 			map.lastSeenLayoutHash = tileMap.getCurrentLayoutHash();
 			hasUpdated = true;
+		}
+		if (layoutChanged) {
+			// A ReplaceableMapSection can change which tiles are walkable (e.g. opening/closing
+			// a wall), which makes the exit-to-exit distances PredefinedMap.calculateDistanceMatrix()
+			// baked in at construction time stale. GlobalPathFinder.getDistance() would otherwise
+			// keep planning through a route that just closed, or miss a shortcut that just opened,
+			// until the app restarts. Only recompute when an actual tile replacement was applied -
+			// a color filter or hash-only change never affects walkability.
+			map.calculateDistanceMatrix();
 		}
 		return hasUpdated;
 	}
