@@ -127,6 +127,14 @@ public final class JsonFieldNames {
 		public static final String hitEffect = "hitEffect";
 		public static final String hitReceivedEffect = "hitReceivedEffect";
 		public static final String deathEffect = "deathEffect";
+		public static final String travelFailedScript = "travelFailedScript";
+		public static final String travelDestination = "travelDestination";
+	}
+
+	/** Nested object shape for the Monster.travelDestination field, e.g. {"mapName":"townmap","areaID":"shop_home"}. */
+	public static final class MonsterTravelDestination {
+		public static final String mapName = "mapName";
+		public static final String areaID = "areaID";
 	}
 
 	public static final class ItemTraits_OnUse {

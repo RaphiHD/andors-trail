@@ -423,6 +423,24 @@ public final class MainView extends SurfaceView
 					if (mx < 0) continue;
 					if (mx >= map.size.width) break;
 
+					// Control-layer weight, drawn first as a base tint so the visited/path overlays
+					// below still show through on top of it - lets whoever's debugging see, at a
+					// glance, *why* a travelling NPC's route avoided (or accepted) a given tile,
+					// instead of only seeing the resulting path with no visibility into the cost
+					// data that shaped it. 0 (the overwhelming majority of tiles on any map that
+					// doesn't author a "control" layer at all) draws nothing.
+					int weight = map.getPathWeight(mx, my);
+					if (weight > 0) {
+						debugPaint.setColor(Color.argb(110, 255, 120, 0)); // Orange
+						canvas.drawRect(
+								(mx - mapViewArea.topLeft.x) * tileSize,
+								(my - mapViewArea.topLeft.y) * tileSize,
+								(mx - mapViewArea.topLeft.x + 1) * tileSize,
+								(my - mapViewArea.topLeft.y + 1) * tileSize,
+								debugPaint
+						);
+					}
+
 					if (pf.last_visited[my * map.size.width + mx]) {
 						debugPaint.setColor(Color.argb(100, 255, 255, 0)); // Yellow
 						canvas.drawRect(
@@ -432,6 +450,18 @@ public final class MainView extends SurfaceView
 								(my - mapViewArea.topLeft.y + 1) * tileSize,
 								debugPaint
 						);
+					}
+
+					if (weight > 0) {
+						// Bottom-left, deliberately not overlapping the path distance label below
+						// (top-left of whichever tiles are part of last_path) even on a tile that's
+						// both weighted and on the path.
+						debugPaint.setColor(Color.argb(255, 255, 210, 140));
+						debugPaint.setTextSize(tileSize * 0.35f);
+						canvas.drawText(String.valueOf(weight),
+								(mx - mapViewArea.topLeft.x) * tileSize + 2,
+								(my - mapViewArea.topLeft.y + 1) * tileSize - 2,
+								debugPaint);
 					}
 				}
 			}

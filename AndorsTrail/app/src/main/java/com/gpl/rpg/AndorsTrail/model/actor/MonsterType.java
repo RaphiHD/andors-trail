@@ -51,6 +51,15 @@ public final class MonsterType {
 	public final ItemTraits_OnUse[] onHitEffects;
 	public final ItemTraits_OnHitReceived[] onHitReceivedEffects;
 	public final ItemTraits_OnUse onDeathEffects;
+	/** Standing fallback script applied to every spawned Monster of this type - see Monster.travelFailedScript. Null if not set. */
+	public final String travelFailedScript;
+	/**
+	 * Optional spawn-time journey: if set, a freshly spawned Monster of this type immediately
+	 * begins travelling toward this map/area (MonsterSpawningController.spawnInArea), the same way
+	 * a setDestination script reward would. Both null, or both non-null - never just one.
+	 */
+	public final String travelDestinationMapID;
+	public final String travelDestinationAreaID;
 
 	public MonsterType(
 			String id
@@ -79,6 +88,9 @@ public final class MonsterType {
 			, ItemTraits_OnUse[] onHitEffects
 			, ItemTraits_OnHitReceived[] onHitReceivedEffects
 			, ItemTraits_OnUse onDeathEffects
+			, String travelFailedScript
+			, String travelDestinationMapID
+			, String travelDestinationAreaID
 	) {
 		this.id = id;
 		this.name = name;
@@ -106,6 +118,9 @@ public final class MonsterType {
 		this.onHitEffects = onHitEffects;
 		this.onHitReceivedEffects = onHitReceivedEffects;
 		this.onDeathEffects = onDeathEffects;
+		this.travelFailedScript = travelFailedScript;
+		this.travelDestinationMapID = travelDestinationMapID;
+		this.travelDestinationAreaID = travelDestinationAreaID;
 	}
 
 	public static enum AggressionType {

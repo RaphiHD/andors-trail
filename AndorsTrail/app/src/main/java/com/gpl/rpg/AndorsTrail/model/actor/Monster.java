@@ -70,6 +70,12 @@ public final class Monster extends Actor {
 			if (area instanceof MonsterSpawnArea) this.ignoreAreas = ((MonsterSpawnArea) area).ignoreAreas;
 		}
 		this.nextPosition = new CoordRect(new Coord(), monsterType.tileSize);
+		// Applied here, once, rather than in resetStatsToBaseTraits(): that method is also called
+		// from ActorStatsController.recalculateMonsterCombatTraits(), on every combat-stat
+		// recalculation (e.g. after a condition change), which happens repeatedly over a monster's
+		// whole lifetime, not just at spawn - re-applying the MonsterType default there would
+		// silently clobber a travelFailedScript already set via the setTravelFailedScript reward.
+		this.travelFailedScript = monsterType.travelFailedScript;
 		resetStatsToBaseTraits();
 		this.ap.setMax();
 		this.health.setMax();

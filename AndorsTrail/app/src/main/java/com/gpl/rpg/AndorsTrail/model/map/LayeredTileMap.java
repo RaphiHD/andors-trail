@@ -72,6 +72,13 @@ public final class LayeredTileMap {
 		}
 		return true;
 	}
+
+	/** Travel path-cost modifier for entering tile (x,y) - 0 (unmodified baseline) outside the map, or on any map that doesn't author a "control" layer at all (the common case - pathWeight is null there, not a zero-filled array, so most maps pay nothing for this feature). See PathFinder's heuristic()/moveCost. */
+	public int getPathWeight(final int x, final int y) {
+		if (isOutside(x, y)) return 0;
+		if (currentLayout.pathWeight == null) return 0;
+		return currentLayout.pathWeight[x][y];
+	}
 	public boolean isOutside(final Coord p) { return isOutside(p.x, p.y); }
 	public boolean isOutside(final int x, final int y) {
 		if (x < 0) return true;

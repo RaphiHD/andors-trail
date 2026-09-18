@@ -20,6 +20,11 @@ public class PathFinder {
 	private final OpenSetHeap openSet;
 	private final PredefinedMap map;
 	private int lastPathDistance = -1;
+	// Reused scratch rect for the clearance probes in heuristic()/countUnwalkableNeighbors(),
+	// the same allocation-avoidance pattern as findPathBetween's own `nextStep` scratch - never
+	// touched outside heuristic()'s own call stack, so it can't collide with the caller's use of
+	// `nextStep` as scratch for the "real" neighbour check happening around the same statements.
+	private final CoordRect clearanceScratch = new CoordRect(new Coord(), new Size(1, 1));
 
 	public static volatile boolean showPathfinderDebug = false;
 	public final boolean[] last_visited;
@@ -144,7 +149,11 @@ public class PathFinder {
 				Coord closest = from.findPositionAdjacentTo(curr);
 				int dx = Math.abs(cx - closest.x);
 				int dy = Math.abs(cy - closest.y);
-				int moveCost = 10;
+				// (cx,cy) is the tile the monster's very first physical step lands on (the search
+				// runs backward from `to`, terminating as soon as it's adjacent to `from`) - so its
+				// own control-layer weight applies here, the same "cost of entering this tile"
+				// convention as the neighbour-expansion loop below.
+				int moveCost = 10 + map.getPathWeight(cx, cy);
 				lastPathDistance = gScore[ci] + moveCost;
 				if (showPathfinderDebug) {
 					synchronized (last_path) {
@@ -177,7 +186,13 @@ public class PathFinder {
 					if (m != null && !map.isWalkable(nextStep, m)) continue;
 					else if (!map.isWalkable(nextStep, true)) continue;
 
-					int moveCost = 10;
+					// Cost of entering (nx,ny) - see the control-layer/pathWeight doc comment on
+					// TMXMapTranslator.LAYERNAME_CONTROL. Penalty-only by construction (pathWeight is
+					// clamped >= 0 at data-load time - see TMXMapFileParser.readTMXTile), so this can
+					// only ever make a tile cost 10 or more, never less - the heuristic() base term
+					// below (10 * Chebyshev distance) therefore stays a valid admissible lower bound
+					// with no changes needed there.
+					int moveCost = 10 + map.getPathWeight(nx, ny);
 					int tentativeG = gScore[ci] + moveCost;
 					if (tentativeG < gScore[ni]) {
 						gScore[ni] = tentativeG;
@@ -235,7 +250,11 @@ public class PathFinder {
 				if (visited[i] && from.isAdjacentTo(x, y)) {
 					int dx = Math.abs(x - from.topLeft.x);
 					int dy = Math.abs(y - from.topLeft.y);
-					int moveCost = 10;
+					// Must match findPathBetween's own final-step cost formula exactly (including
+					// the control-layer weight) - this is re-deriving which candidate node the just-
+					// completed search actually used to produce `lastPathDistance`, not a fresh cost
+					// computation of its own.
+					int moveCost = 10 + map.getPathWeight(x, y);
 					if (gScore[i] + moveCost == lastPathDistance) {
 						ci = i;
 						break;
@@ -265,7 +284,7 @@ public class PathFinder {
 	 * other" and "diagonal/straight neatly interleaved into an even staircase" all cost exactly the
 	 * same. Plain Chebyshev distance doesn't prefer any of them, so which one A* actually returns
 	 * is decided arbitrarily by exploration order - which can look like a random zig-zag depending
-	 * on map layout. `tiebreak` below nudges the search toward whichever candidate node stays
+	 * on map layout. `lineTiebreak` below nudges the search toward whichever candidate node stays
 	 * closest to the straight line between this search's two fixed endpoints (`ax,ay` and `gx,gy`,
 	 * both constant for the whole search), which is exactly what turns "cluster all diagonals at
 	 * one end" or "arbitrary zig-zag" into the natural-looking even interleave.
@@ -273,13 +292,52 @@ public class PathFinder {
 	 * `perpendicularDistance` (the candidate's distance from that line, in tiles - the raw
 	 * cross-product normalized by the line's own length, not by some fixed worst-case constant, so
 	 * it stays meaningful at any trip length instead of rounding away to 0 on short/local searches)
-	 * feeds a `tiebreak` term hard-capped at 9 - well below one move's cost (10) - so it can only
-	 * ever break a genuine tie between equal-true-cost paths, never override a real shortest-path
-	 * decision by any meaningful margin, regardless of map size or trip length.
+	 * feeds `lineTiebreak`.
+	 *
+	 * `clearanceTiebreak` fixes a separate gap `lineTiebreak` can't: every tile sitting exactly on
+	 * the straight line has perpendicular distance 0, including every tile along the direct
+	 * approach to an obstacle that's *on* that line - so among several equal-true-cost routes that
+	 * differ only in *when* they start detouring around it, `lineTiebreak` can't tell "detour
+	 * starts here" from "detour starts one tile closer to the obstacle" apart, and exploration
+	 * order picks arbitrarily. Observed as the monster walking straight at an obstacle right up to
+	 * the last possible tile, then turning sharply, instead of easing away from it a little
+	 * earlier. `clearanceScore` measures how hemmed in a candidate is by unwalkable terrain within
+	 * a 2-tile radius (immediate neighbours weighted fully, the outer ring less - a falloff, not a
+	 * sharp step function), and `clearanceTiebreak` penalizes hugging obstacle edges, so among tied
+	 * routes the search prefers the one that keeps a little more breathing room as soon as that's
+	 * free to do, without affecting searches that never come near an obstacle at all (0 there, same
+	 * as today).
+	 *
+	 * An immediate-8-neighbour, un-falloff version of this term (and a version sharing one combined
+	 * cap with `lineTiebreak` instead of each term having its own) both looked correct on paper but
+	 * produced a direction-dependent result once checked against real map data: on `traveltest1`,
+	 * every one of the four corner destinations sits right next to its room's walls (that's what
+	 * makes it a "corner"), but which walls (N+W, N+E, ...) differs per corner, and depending on
+	 * whether escaping those particular walls happened to agree or conflict with staying on that
+	 * trip's straight line, the two prior, narrower terms either reinforced or cancelled out - e.g.
+	 * `rect1`&harr;`rect2` (an escape direction that happened to agree with the line) eased in
+	 * correctly while `rect2`&harr;`rect4` (an escape direction perpendicular to the line) didn't,
+	 * even though the underlying formulas are properly symmetric under swapping x/y - the asymmetry
+	 * came from the specific, differently-oriented geometry each corner happens to sit in, not from
+	 * either term's math. Widening the radius (so it isn't so sharply tied to the exact tile
+	 * standing at a wall) and no longer sharing `lineTiebreak`'s cap (so a strong nearby-wall signal
+	 * can't be crowded out by an already-large line deviation) resolved all four corners
+	 * consistently when checked the same way - see `changelog.md` for the full investigation.
+	 *
+	 * Each term is bounded by its own cap (9, still well below one move's cost of 10) rather than a
+	 * shared one, so the combined worst case (both fully saturated, 18) is a deliberately larger,
+	 * but still small and bounded, allowance than a single term alone would get - gScore (the real
+	 * accumulated cost) is never touched by either term, only priority order is, so the practical
+	 * effect of this widened allowance is confined to which of several near-equal-cost routes gets
+	 * explored first; empirically (checked against every corner pair plus the original Phase 6
+	 * regression case) this produced zero path-length regressions.
 	 */
 	private static final double TIEBREAK_WEIGHT = 3.0;
+	private static final int TIEBREAK_MAX = 9;
+	private static final double CLEARANCE_WEIGHT = 2.0;
+	private static final int CLEARANCE_TIEBREAK_MAX = 9;
 
-	private static int heuristic(int ax, int ay, int bx, int by, int gx, int gy) {
+	private int heuristic(int ax, int ay, int bx, int by, int gx, int gy) {
 		int dx = Math.abs(ax - bx);
 		int dy = Math.abs(ay - by);
 		int base = 10 * Math.max(dx, dy);
@@ -287,14 +345,36 @@ public class PathFinder {
 		double lineDx = gx - ax;
 		double lineDy = gy - ay;
 		double lineLength = Math.sqrt(lineDx * lineDx + lineDy * lineDy);
-		int tiebreak = 0;
+		double lineTiebreak = 0;
 		if (lineLength > 0) {
 			double cross = Math.abs((bx - ax) * lineDy - lineDx * (by - ay));
 			double perpendicularDistance = cross / lineLength;
-			tiebreak = (int) Math.min(9, perpendicularDistance * TIEBREAK_WEIGHT);
+			lineTiebreak = Math.min(TIEBREAK_MAX, perpendicularDistance * TIEBREAK_WEIGHT);
 		}
+		double clearanceTiebreak = Math.min(CLEARANCE_TIEBREAK_MAX, clearanceScore(bx, by) * CLEARANCE_WEIGHT);
 
-		return base + tiebreak;
+		return (int) (base + lineTiebreak + clearanceTiebreak);
+	}
+
+	/**
+	 * Weighted count of unwalkable terrain within a 2-tile radius of (x,y) - immediate (radius-1)
+	 * neighbours count fully, radius-2 ones count less, a falloff rather than a hard cutoff.
+	 * Terrain-only (ignores event areas/monster occupancy - see heuristic()'s doc comment).
+	 */
+	private double clearanceScore(int x, int y) {
+		double score = 0;
+		for (int dy = -2; dy <= 2; ++dy) {
+			for (int dx = -2; dx <= 2; ++dx) {
+				if (dx == 0 && dy == 0) continue;
+				int nx = x + dx; int ny = y + dy;
+				if (nx < 0 || ny < 0 || nx >= maxWidth || ny >= maxHeight) continue;
+				clearanceScratch.topLeft.x = nx;
+				clearanceScratch.topLeft.y = ny;
+				if (map.isWalkable(clearanceScratch, true)) continue;
+				score += (Math.max(Math.abs(dx), Math.abs(dy)) == 1) ? 1.0 : 0.4;
+			}
+		}
+		return score;
 	}
 
 	/** Minimal primitive binary heap for open set (stores x,y,f) */

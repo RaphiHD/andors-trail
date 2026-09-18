@@ -57,6 +57,11 @@ public final class MonsterTypeParser extends JsonCollectionParserFor<MonsterType
 
 		final int horizontalFlipChance = o.optInt(JsonFieldNames.Monster.horizontalFlipChance, 0);
 
+		final String travelFailedScript = o.optString(JsonFieldNames.Monster.travelFailedScript, null);
+		final JSONObject travelDestination = o.optJSONObject(JsonFieldNames.Monster.travelDestination);
+		final String travelDestinationMapID = travelDestination == null ? null : travelDestination.optString(JsonFieldNames.MonsterTravelDestination.mapName, null);
+		final String travelDestinationAreaID = travelDestination == null ? null : travelDestination.optString(JsonFieldNames.MonsterTravelDestination.areaID, null);
+
 		return new Pair<String, MonsterType>(monsterTypeID, new MonsterType(
 				monsterTypeID
 				, translationLoader.translateMonsterTypeName(o.getString(JsonFieldNames.Monster.name))
@@ -84,6 +89,9 @@ public final class MonsterTypeParser extends JsonCollectionParserFor<MonsterType
 				, hitEffect == null ? null : new ItemTraits_OnUse[] { hitEffect }
 				, hitReceivedEffect == null ? null : new ItemTraits_OnHitReceived[] { hitReceivedEffect }
 				, deathEffect
+				, travelFailedScript
+				, travelDestinationMapID
+				, travelDestinationAreaID
 		));
 	}
 

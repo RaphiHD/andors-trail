@@ -174,6 +174,11 @@ public final class PredefinedMap {
 		return monsterCanMoveTo(m, this, liveTileMap(), area, m.ignoreAreas);
 	}
 
+	/** Travel path-cost modifier for entering tile (x,y) - see LayeredTileMap.getPathWeight and PathFinder. Reads the same live/current-map-aware copy isWalkable already does. */
+	public int getPathWeight(final int x, final int y) {
+		return liveTileMap().getPathWeight(x, y);
+	}
+
 	public MapObject findEventObject(MapObject.MapObjectType objectType, String name) {
 		for (MapObject o : eventObjects) {
 			if (o.type != objectType) continue;
