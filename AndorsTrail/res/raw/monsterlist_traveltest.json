@@ -1,5 +1,5 @@
 [
-    
+
     {
         "id":"traveltester",
         "name":"Traveltester",
@@ -10,5 +10,16 @@
         "phraseID":"traveltester_start",
         "maxAP":20,
         "moveCost":5
+    },
+    {
+        "id":"traveltester_defaults",
+        "name":"Traveltester (spawn-time defaults)",
+        "iconID":"monsters_antison:0",
+        "monsterClass":"humanoid",
+        "spawnGroup":"traveltester_defaults",
+        "maxAP":20,
+        "moveCost":5,
+        "travelFailedScript":"traveltester_rect1_center",
+        "travelDestination":{"mapName":"traveltest1","areaID":"diag_1"}
     }
 ]

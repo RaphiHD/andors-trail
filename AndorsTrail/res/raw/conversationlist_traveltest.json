@@ -78,6 +78,14 @@
             {
                 "text": "Go to map 2 right",
                 "nextPhraseID": "traveltester_map2_rect2"
+            },
+            {
+                "text": "Go to control test 1 (preferred path)",
+                "nextPhraseID": "traveltester_control_test_1"
+            },
+            {
+                "text": "Go to control test 2 (across the weighted row)",
+                "nextPhraseID": "traveltester_control_test_2"
             }
         ]
     },
@@ -306,6 +314,30 @@
                 "rewardID":"map2_rect2",
                 "value":0,
                 "mapName":"traveltest2"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_control_test_1",
+        "message": "Travelling to control test 1",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"control_test_1",
+                "value":0,
+                "mapName":"traveltest1"
+            }
+        ]
+    },
+    {
+        "id": "traveltester_control_test_2",
+        "message": "Travelling to control test 2",
+        "rewards":[
+            {
+                "rewardType":"setDestination",
+                "rewardID":"control_test_2",
+                "value":0,
+                "mapName":"traveltest1"
             }
         ]
     }
