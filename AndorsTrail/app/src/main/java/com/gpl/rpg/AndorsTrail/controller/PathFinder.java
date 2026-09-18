@@ -151,9 +151,10 @@ public class PathFinder {
 				int dy = Math.abs(cy - closest.y);
 				// (cx,cy) is the tile the monster's very first physical step lands on (the search
 				// runs backward from `to`, terminating as soon as it's adjacent to `from`) - so its
-				// own control-layer weight applies here, the same "cost of entering this tile"
+				// own control-layer weight (and, if m != null, its own route jitter - see
+				// moveCost()'s doc comment) applies here, the same "cost of entering this tile"
 				// convention as the neighbour-expansion loop below.
-				int moveCost = 10 + map.getPathWeight(cx, cy);
+				int moveCost = moveCost(cx, cy, m);
 				lastPathDistance = gScore[ci] + moveCost;
 				if (showPathfinderDebug) {
 					synchronized (last_path) {
@@ -186,13 +187,8 @@ public class PathFinder {
 					if (m != null && !map.isWalkable(nextStep, m)) continue;
 					else if (!map.isWalkable(nextStep, true)) continue;
 
-					// Cost of entering (nx,ny) - see the control-layer/pathWeight doc comment on
-					// TMXMapTranslator.LAYERNAME_CONTROL. Penalty-only by construction (pathWeight is
-					// clamped >= 0 at data-load time - see TMXMapFileParser.readTMXTile), so this can
-					// only ever make a tile cost 10 or more, never less - the heuristic() base term
-					// below (10 * Chebyshev distance) therefore stays a valid admissible lower bound
-					// with no changes needed there.
-					int moveCost = 10 + map.getPathWeight(nx, ny);
+					// Cost of entering (nx,ny) - see moveCost()'s doc comment.
+					int moveCost = moveCost(nx, ny, m);
 					int tentativeG = gScore[ci] + moveCost;
 					if (tentativeG < gScore[ni]) {
 						gScore[ni] = tentativeG;
@@ -251,10 +247,11 @@ public class PathFinder {
 					int dx = Math.abs(x - from.topLeft.x);
 					int dy = Math.abs(y - from.topLeft.y);
 					// Must match findPathBetween's own final-step cost formula exactly (including
-					// the control-layer weight) - this is re-deriving which candidate node the just-
-					// completed search actually used to produce `lastPathDistance`, not a fresh cost
-					// computation of its own.
-					int moveCost = 10 + map.getPathWeight(x, y);
+					// the control-layer weight and, since `m` is always non-null on every real
+					// caller of this method, this monster's own route jitter) - this is re-deriving
+					// which candidate node the just-completed search actually used to produce
+					// `lastPathDistance`, not a fresh cost computation of its own.
+					int moveCost = moveCost(x, y, m);
 					if (gScore[i] + moveCost == lastPathDistance) {
 						ci = i;
 						break;
@@ -375,6 +372,61 @@ public class PathFinder {
 			}
 		}
 		return score;
+	}
+
+	/**
+	 * Cost of entering (x,y): the base move (10) plus this tile's authored terrain preference
+	 * (control-layer weight - see TMXMapTranslator.LAYERNAME_CONTROL's doc comment, R3), plus,
+	 * only when {@code m != null}, this individual monster's own small route jitter ({@link
+	 * #jitter}, R4). The {@code m}-nullness check is the same seam {@code findPathBetween} already
+	 * uses to scope player-avoidance to travel-approach searches - every caller that passes a real
+	 * monster (local, on-screen travel-approach pathing) gets jitter for free, and every caller
+	 * that passes {@code null} (the shared, monster-independent exit-distance matrix and
+	 * GlobalPathFinder's own searches - see R4's plan writeup) is guaranteed to never see it, with
+	 * no extra scoping logic needed here.
+	 */
+	private int moveCost(int x, int y, Monster m) {
+		int cost = 10 + map.getPathWeight(x, y);
+		if (m != null) cost += jitter(m, x, y);
+		return cost;
+	}
+
+	/**
+	 * A small, deterministic per-tile cost bump so two monsters of the same type walking the same
+	 * route don't compute byte-for-byte identical paths. Deliberately a hash of
+	 * ({@code m.pathVarianceSeed}, x, y), not a fresh {@code Constants.rnd} draw - the same monster
+	 * re-searching the same tile on a later tick (A* reruns from scratch every tick) must get the
+	 * same jitter value for that tile every time, or the path would visibly flicker instead of
+	 * looking like one coherent, organic route. {@code pathVarianceSeed} is per-instance (assigned
+	 * once, in {@code Monster}'s constructor) so this reads as a stable quirk of that individual,
+	 * not something that reshuffles on every reload.
+	 *
+	 * Unlike R3's control-layer weight (deliberately admissible - see moveCost()'s doc comment),
+	 * this is deliberately, knowingly inadmissible within its own small bound: the whole point is a
+	 * visibly different, not-always-strictly-shortest path, capped low enough (see JITTER_MAX) that
+	 * a monster never takes an obviously bad detour purely from jitter. {@code
+	 * MonsterType.pathVarianceMultiplier} (clamped to [0, 1] at parse time) scales the effect per
+	 * monster type; {@code 0} (the default) always resolves to exactly {@code 0} added cost, so
+	 * existing monster types are provably unaffected unless a content author opts in.
+	 */
+	private static final int JITTER_MAX = 18;
+	private static int jitter(Monster m, int x, int y) {
+		float multiplier = m.monsterType.pathVarianceMultiplier;
+		if (multiplier <= 0) return 0;
+
+		// A standard 32-bit integer mix (murmur3-style finalizer) over (seed, x, y) - fast, and
+		// well-distributed enough that neighbouring tiles don't visibly correlate.
+		int h = m.pathVarianceSeed;
+		h ^= x * 0x27d4eb2f;
+		h ^= y * 0x165667b1;
+		h ^= (h >>> 15);
+		h *= 0x85ebca6b;
+		h ^= (h >>> 13);
+		h *= 0xc2b2ae35;
+		h ^= (h >>> 16);
+
+		double hash01 = (h & 0x7fffffff) / (double) Integer.MAX_VALUE;
+		return (int) Math.round(multiplier * hash01 * JITTER_MAX);
 	}
 
 	/** Minimal primitive binary heap for open set (stores x,y,f) */

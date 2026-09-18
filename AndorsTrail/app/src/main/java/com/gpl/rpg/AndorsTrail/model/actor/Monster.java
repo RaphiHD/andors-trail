@@ -34,6 +34,37 @@ public final class Monster extends Actor {
 	 * MonsterMovementController.handleBlockedTravelPath.
 	 */
 	public int travelBlockedRetries = 0;
+
+	/**
+	 * R6: which reason (if any) is currently suspending this monster's tick-driven travel movement -
+	 * null means "not paused". The only case that exists today is {@code resting} (R5); a future
+	 * activity system (hunting, roaming, etc. - explicitly out of scope for R6) would add its own
+	 * case here and reuse {@code MonsterMovementController.handleTravelPause}/
+	 * {@code correctTravelPathForPause} rather than maintaining its own parallel "stand still and
+	 * correct the ETA" logic. See travellingNPC.md's forward-looking design note for what a future
+	 * pause reason would still need to coordinate with.
+	 */
+	public static enum TravelPauseReason {
+		resting
+	}
+	public TravelPauseReason travelPauseReason = null;
+	/**
+	 * Ticks remaining in the current travelPauseReason, if any - decremented once per tick while
+	 * paused, standing still (see MonsterMovementController.handleTravelPause). Like
+	 * travelBlockedRetries, this is short-lived, on-screen-only state, not part of the journey
+	 * itself - not persisted.
+	 */
+	public int travelPauseTicksRemaining = 0;
+	/**
+	 * Ticks remaining before another rest may be rolled, counted down from
+	 * Constants.MONSTER_TRAVEL_REST_COOLDOWN_TICKS once an in-progress rest ends - stops a monster
+	 * from resting, walking a single tile, and immediately resting again, which reads as unnatural.
+	 * Deliberately kept separate from travelPauseReason/travelPauseTicksRemaining above, rather than
+	 * folded into the generalized pause hook: this is specifically a cooldown on *rolling a new
+	 * rest*, a concept a future, unrelated pause reason (e.g. hunting) has no reason to inherit.
+	 * Ephemeral like travelPauseTicksRemaining - not persisted.
+	 */
+	public int travelRestCooldownRemaining = 0;
 	/**
 	 * Phrase ID run (as this monster's NPC context, via MapController.runScriptForNpc) whenever a
 	 * journey fails - either unreachable from the start (beginTravel) or given up on after too
@@ -45,6 +76,16 @@ public final class Monster extends Actor {
 	 * NPC reacts to failing to reach one is not.
 	 */
 	public String travelFailedScript = null;
+	/**
+	 * Per-instance seed for PathFinder.jitter()'s deterministic per-tile route variance (R4) -
+	 * assigned once, here, so this monster's "walks slightly off the exact same line as every
+	 * other monster of its type" quirk reads as a stable trait of this individual rather than
+	 * reshuffling every time a path is recomputed (which happens every tick) or every time the
+	 * game is reloaded. Not authored data - see MonsterType.pathVarianceMultiplier for the
+	 * authored *amount* of variance; this is only ever the per-instance random offset that gets
+	 * scaled by it.
+	 */
+	public int pathVarianceSeed;
 	public long nextActionTime = 0;
 	public String currentMapID;
 	public final CoordRect nextPosition;
@@ -76,6 +117,7 @@ public final class Monster extends Actor {
 		// whole lifetime, not just at spawn - re-applying the MonsterType default there would
 		// silently clobber a travelFailedScript already set via the setTravelFailedScript reward.
 		this.travelFailedScript = monsterType.travelFailedScript;
+		this.pathVarianceSeed = Constants.rnd.nextInt();
 		resetStatsToBaseTraits();
 		this.ap.setMax();
 		this.health.setMax();
@@ -236,6 +278,13 @@ public final class Monster extends Actor {
 				this.travelFailedScript = src.readUTF();
 			}
 		}
+
+		if (fileversion >= 89) {
+			// Overwrites the fresh random seed the delegated constructor above just assigned -
+			// deliberately, so a saved individual keeps looking like the same individual across
+			// reloads instead of getting a new jitter quirk every time the save is loaded.
+			this.pathVarianceSeed = src.readInt();
+		}
 	}
 
 	public void writeToParcel(DataOutputStream dest) throws IOException {
@@ -305,6 +354,8 @@ public final class Monster extends Actor {
 		} else {
 			dest.writeBoolean(false);
 		}
+
+		dest.writeInt(pathVarianceSeed);
 	}
 
 	public void addToChecksum(ChecksumBuilder builder) {

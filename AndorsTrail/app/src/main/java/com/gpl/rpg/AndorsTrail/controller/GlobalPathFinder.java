@@ -293,7 +293,14 @@ public class GlobalPathFinder {
 		public final Coord startingPosition;    // Starting position of the journey.
 		public int currentPosition = 0;          // Current step in the journey.
 		public long startTime;             // System.currentTimeMillis() when travel started.
-		public final int predictedTime;          // Estimated total distance/cost.
+		/**
+		 * Estimated total distance/cost. Not final: an on-screen travel pause (R5's resting; R6
+		 * generalized this to any future pause reason) mutates this in place (increasing it by 10 per
+		 * paused tick, the same distance-per-move convention used everywhere else) to keep the
+		 * off-screen wall-clock model in sync with real elapsed time - see
+		 * MonsterMovementController.correctTravelPathForPause.
+		 */
+		public int predictedTime;
 
 		public GlobalPath(List<GlobalPathEntry> path, Coord startingPosition, long startTime, int predictedTime) {
 			this.path = path;
@@ -355,7 +362,15 @@ public class GlobalPathFinder {
 			public final String mapID;         // Name of the map for this leg.
 			public final String destinationID; // ID of the MapChange or Area to reach.
 			public final int distance;         // Distance cost of this specific leg.
-			public final int cumulatedDistance; // Cumulated distance cost from start to this leg.
+			/**
+			 * Cumulated distance cost from start to this leg. Not final: an on-screen travel pause
+			 * (R5's resting; R6 generalized this to any future pause reason) increases this in place
+			 * (on the current leg and every later one - never an already-completed leg, never
+			 * `distance` itself, which stays the leg's true physical length) so the off-screen
+			 * wall-clock model's leg-boundary thresholds correctly grow to account for real time spent
+			 * paused - see MonsterMovementController.correctTravelPathForPause.
+			 */
+			public int cumulatedDistance;
 
 			public GlobalPathEntry(String mapID, String destinationID, int distance, int cumulatedDistance) {
 				this.mapID = mapID;

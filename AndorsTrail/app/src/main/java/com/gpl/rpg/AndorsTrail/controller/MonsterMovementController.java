@@ -244,6 +244,29 @@ public final class MonsterMovementController {
 
 		// Monster is travelling -> pathfind
 		if (m.travelDestination != null) {
+			// R6: an in-progress pause (today, only ever R5's resting) stands the monster still,
+			// before any pathfinding call - structurally on-screen-only, since this whole method is
+			// only ever reached from moveMonsters()'s loop over currentMap.monsters (the player's
+			// current map); tryPlaceTravellingMonster (the wall-clock path for pooled, off-screen
+			// monsters) never calls this method at all.
+			if (handleTravelPause(m)) return true;
+
+			// Deciding WHETHER to begin a new pause is deliberately kept local to resting's own
+			// trigger here, not folded into handleTravelPause - the cooldown gate in particular
+			// (travelRestCooldownRemaining) is specific to "don't roll another rest too soon" and
+			// has no reason to constrain some future, unrelated pause reason (e.g. hunting).
+			if (m.travelRestCooldownRemaining > 0) {
+				// On cooldown since the last rest ended - don't even roll travelRestChance, just
+				// fall through to normal travel-approach movement below like any other tick.
+				m.travelRestCooldownRemaining--;
+			} else if (m.monsterType.travelRestChance > 0 && Constants.roll100(m.monsterType.travelRestChance)) {
+				int restTicks = Constants.rollValue(m.monsterType.travelRestDuration);
+				if (restTicks > 0) {
+					beginTravelPause(m, Monster.TravelPauseReason.resting, restTicks);
+					return true;
+				}
+			}
+
 			if (m.travelPath.currentPosition >= m.travelPath.path.size() - 1) {
 				// Target map reached, pathfind locally to destinationArea
 				if (m.travelDestination.area.contains(m.position)) {
@@ -435,6 +458,98 @@ public final class MonsterMovementController {
 	public boolean findPathFor(Monster m, Coord to) {
 		PathFinder pathfinder = world.maps.findPredefinedMap(m.currentMapID).pathfinder;
 		return pathfinder.findPathBetween(m.rectPosition, to, m.nextPosition, m);
+	}
+
+	/**
+	 * R6: continues whatever pause (today, only ever R5's resting) is already in progress on `m`.
+	 * This is the generalized, reason-agnostic half of the mechanism - a future activity system
+	 * (hunting, roaming, etc.) would reuse this exact continuation logic for its own pause reason via
+	 * {@link Monster#travelPauseReason}/{@link Monster#travelPauseTicksRemaining} rather than
+	 * maintaining its own parallel "stand still, tick down, eventually stop" copy. Deciding *whether*
+	 * to begin a new pause (e.g. resting's own cooldown gate and {@code travelRestChance} roll) is
+	 * deliberately not this method's job - see {@link #beginTravelPause} and the call site in
+	 * {@link #determineMonsterNextPosition}.
+	 *
+	 * @return true if `m` was paused (already fully handled - the caller must return true from
+	 * determineMonsterNextPosition without touching nextPosition); false if `m` has no active pause
+	 * and the caller should proceed with normal travel-approach logic.
+	 */
+	private boolean handleTravelPause(Monster m) {
+		if (m.travelPauseReason == null) return false;
+
+		m.travelPauseTicksRemaining--;
+		if (showTravelDebug) {
+			L.log("TRAVEL: " + m.getMonsterTypeID() + " paused on-screen (" + m.travelPauseReason
+					+ ", moveMonsters()'s currentMap.monsters loop, map=" + world.model.currentMaps.map.name
+					+ "), " + m.travelPauseTicksRemaining + " tick(s) remaining");
+		}
+		if (m.travelPauseTicksRemaining <= 0) {
+			onTravelPauseEnded(m);
+		}
+		return true;
+	}
+
+	/**
+	 * R6: begins a new pause of `ticks` ticks for `reason`, correcting the ETA (see
+	 * {@link #correctTravelPathForPause}) immediately. Shared by resting today and by any future
+	 * pause reason - see {@link Monster#travelPauseReason}'s doc comment.
+	 */
+	private void beginTravelPause(Monster m, Monster.TravelPauseReason reason, int ticks) {
+		m.travelPauseReason = reason;
+		m.travelPauseTicksRemaining = ticks - 1; // this tick is the first paused tick
+		correctTravelPathForPause(m, ticks);
+		if (showTravelDebug) {
+			L.log("TRAVEL: " + m.getMonsterTypeID() + " begins travel pause (" + reason + ") on-screen"
+					+ " (moveMonsters()'s currentMap.monsters loop, map=" + world.model.currentMaps.map.name
+					+ ") for " + ticks + " tick(s), predictedTime now " + m.travelPath.predictedTime);
+		}
+		if (m.travelPauseTicksRemaining <= 0) {
+			// A one-tick pause is already over as of this same tick - end it now rather than
+			// waiting for a handleTravelPause() decrement that will never happen.
+			onTravelPauseEnded(m);
+		}
+	}
+
+	/**
+	 * R6: reason-specific cleanup once a pause's ticks have run out. Resting's own follow-up
+	 * (starting {@link Monster#travelRestCooldownRemaining}) is scoped to the `resting` case
+	 * specifically, deliberately not part of the shared pause machinery above, so it can't leak into
+	 * whatever a future pause reason needs - see {@link Monster#travelRestCooldownRemaining}'s doc
+	 * comment.
+	 */
+	private void onTravelPauseEnded(Monster m) {
+		Monster.TravelPauseReason endedReason = m.travelPauseReason;
+		m.travelPauseReason = null;
+		m.travelPauseTicksRemaining = 0;
+		if (endedReason == Monster.TravelPauseReason.resting) {
+			m.travelRestCooldownRemaining = Constants.MONSTER_TRAVEL_REST_COOLDOWN_TICKS;
+		}
+	}
+
+	/**
+	 * R5's ETA correction, generalized in R6 to any pause reason: a paused tick is real wall-clock
+	 * time spent with zero physical progress, so every distance-equivalent threshold the off-screen
+	 * wall-clock model (tryPlaceTravellingMonster, enterTravellingPool) later compares real elapsed
+	 * time against must grow by the same amount, or a monster that pauses and then leaves the
+	 * player's current map mid-journey would desync exactly the way the Phase 0 cross-cutting concern
+	 * warns about. `predictedTime` (the whole journey's total) and every remaining leg's
+	 * `cumulatedDistance` (the current one - identified by `travelPath.currentPosition` - and every
+	 * later one, never an already-completed leg, never `distance` itself, which stays each leg's true
+	 * physical length) are increased by `pausedTicks * 10`, the same distance-per-move convention
+	 * used everywhere else in this codebase. Correcting the *current* leg's `cumulatedDistance` (not
+	 * just later ones) is what makes this correct even if the monster pauses more than once on the
+	 * same leg, or is later handed off to the travelling pool mid-leg: both `enterTravellingPool` and
+	 * `tryPlaceTravellingMonster` derive a leg's *start* threshold as `cumulatedDistance - distance`,
+	 * so inflating `cumulatedDistance` alone correctly pushes both the start and end of the paused leg
+	 * outward by the cumulative paused time so far, without this method needing to know which of
+	 * those two callers will read it next.
+	 */
+	private void correctTravelPathForPause(Monster m, int pausedTicks) {
+		int delta = pausedTicks * 10;
+		m.travelPath.predictedTime += delta;
+		for (int i = m.travelPath.currentPosition; i < m.travelPath.path.size(); ++i) {
+			m.travelPath.path.get(i).cumulatedDistance += delta;
+		}
 	}
 
 	public void moveMonsterToNextPosition(final Monster m, final PredefinedMap map) {

@@ -39,6 +39,11 @@ public final class Constants {
 
 	public static final ConstRange monsterWaitTurns = new ConstRange(5,1);
 	public static final int MONSTER_TRAVEL_MAX_BLOCKED_RETRIES = 10;
+	// One tick's local travel-approach step covers at most one tile (see PathFinder's move cost, 10
+	// distance units per move) - the same tick~move~tile equivalence R5's own ETA correction already
+	// relies on - so a flat tick count doubles as a tile-count minimum spacing between rests without
+	// needing to track actual walked distance separately.
+	public static final int MONSTER_TRAVEL_REST_COOLDOWN_TICKS = 10;
 	public static final long MAP_UNVISITED_RESPAWN_DURATION_MS = 3 * 60 * 1000; // 3 min in milliseconds
 
 	public static final String PREFERENCE_MODEL_LASTRUNVERSION = "lastversion";

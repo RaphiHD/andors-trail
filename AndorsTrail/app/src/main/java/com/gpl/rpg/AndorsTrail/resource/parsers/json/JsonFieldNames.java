@@ -129,6 +129,9 @@ public final class JsonFieldNames {
 		public static final String deathEffect = "deathEffect";
 		public static final String travelFailedScript = "travelFailedScript";
 		public static final String travelDestination = "travelDestination";
+		public static final String pathVarianceMultiplier = "pathVarianceMultiplier";
+		public static final String travelRestChance = "travelRestChance";
+		public static final String travelRestDuration = "travelRestDuration";
 	}
 
 	/** Nested object shape for the Monster.travelDestination field, e.g. {"mapName":"townmap","areaID":"shop_home"}. */

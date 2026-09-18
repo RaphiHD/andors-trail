@@ -60,6 +60,24 @@ public final class MonsterType {
 	 */
 	public final String travelDestinationMapID;
 	public final String travelDestinationAreaID;
+	/**
+	 * How much per-monster route "jitter" PathFinder.moveCost applies for local, on-screen travel
+	 * searches for this type (see PathFinder.jitter()'s doc comment) - 0 (the default) reproduces
+	 * today's deterministic, monster-independent pathfinding exactly. Clamped to [0, 1] at parse
+	 * time (MonsterTypeParser) so content data can't accidentally request an unbounded detour.
+	 */
+	public final float pathVarianceMultiplier;
+	/**
+	 * Percent chance (rolled once per tick via Constants.roll100), checked only while a monster of
+	 * this type is physically simulated on the map the player currently has loaded, that a
+	 * travelling monster stops to rest instead of taking its next step - see
+	 * MonsterMovementController.determineMonsterNextPosition's rest-triggering logic, which begins a
+	 * pause (Monster.travelPauseReason.resting) via handleTravelPause/correctTravelPathForPause.
+	 * 0 (the default) means "never rests", preserving today's behavior exactly.
+	 */
+	public final int travelRestChance;
+	/** How many ticks a rest triggered by travelRestChance lasts. Only consulted when a rest is rolled. */
+	public final ConstRange travelRestDuration;
 
 	public MonsterType(
 			String id
@@ -91,6 +109,9 @@ public final class MonsterType {
 			, String travelFailedScript
 			, String travelDestinationMapID
 			, String travelDestinationAreaID
+			, float pathVarianceMultiplier
+			, int travelRestChance
+			, ConstRange travelRestDuration
 	) {
 		this.id = id;
 		this.name = name;
@@ -121,6 +142,9 @@ public final class MonsterType {
 		this.travelFailedScript = travelFailedScript;
 		this.travelDestinationMapID = travelDestinationMapID;
 		this.travelDestinationAreaID = travelDestinationAreaID;
+		this.pathVarianceMultiplier = pathVarianceMultiplier;
+		this.travelRestChance = travelRestChance;
+		this.travelRestDuration = travelRestDuration;
 	}
 
 	public static enum AggressionType {
