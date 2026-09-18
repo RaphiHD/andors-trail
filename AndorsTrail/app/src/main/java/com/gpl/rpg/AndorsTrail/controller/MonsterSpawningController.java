@@ -54,6 +54,13 @@ public final class MonsterSpawningController {
 		Coord p = getRandomFreePosition(map, tileMap, a.area, type.tileSize, playerPosition, a.ignoreAreas);
 		if (p == null) return false;
 		Monster m = a.spawn(p, type);
+		// Before the spawn listener fires, so it observes this monster's final settled state -
+		// beginTravel() can immediately hand the monster off to the travelling pool (removing it
+		// from map.monsters) if the player isn't on this map, and the listener should see that,
+		// not a monster that's about to be yanked away right after being announced as spawned here.
+		if (type.travelDestinationMapID != null) {
+			controllers.monsterMovementController.beginTravel(m, type.travelDestinationMapID, type.travelDestinationAreaID);
+		}
 		monsterSpawnListeners.onMonsterSpawned(map, m);
 		return true;
 	}
