@@ -258,6 +258,59 @@ Ranked roughly by how likely each is to bite first.
    a stale `travelPath` would become a live bug if that check were ever
    relaxed or reordered).
 
+## Future extension point: pausing travel for other activities
+
+Not designed or implemented here — this is deliberately just a note on where
+a future "activity system" (deciding a travelling monster should stop to
+hunt, roam, or do something else instead of continuing its journey) would
+attach, written down now because the refinement phase that shaped this
+attachment point (see `PLAN_refinement.md`'s R6) is fresh. The activity
+system itself needs its own separate design pass; don't treat anything below
+as a decision already made about it.
+
+**The attachment point that exists today:** `Monster.travelPauseReason`
+(nullable enum, currently the only case is `resting`, from R5) plus
+`MonsterMovementController.handleTravelPause`/`beginTravelPause` — the
+generalized "stand still for a data-driven number of ticks, correcting the
+ETA" mechanism R5's resting originally implemented one-off, then R6
+factored out specifically so a second pause reason wouldn't need its own
+parallel copy. A future activity system's minimum obligations, reusing this
+exact mechanism rather than inventing a second one:
+
+- **Suspend tick-driven movement the same way resting does** — call
+  `beginTravelPause(m, SomeNewReason, ticks)` to start, and let
+  `handleTravelPause` (already called at the top of
+  `determineMonsterNextPosition`'s travel branch) continue it tick by tick.
+  No changes needed to that call site itself for a new reason to work.
+- **Correct the ETA the same way R5 established, unconditionally.** Any
+  activity that delays a journey must grow `travelPath.predictedTime` and
+  the current/later legs' `cumulatedDistance` by the paused duration —
+  `beginTravelPause` already does this via `correctTravelPathForPause` for
+  free, for *any* reason, not just resting. Skipping it (e.g. a future
+  reason that bypasses `beginTravelPause` and stops the monster some other
+  way) would desync off-screen wall-clock interpolation from on-screen
+  reality exactly as the Phase 0 cross-cutting concern warns about.
+- **Reason-specific cleanup stays reason-specific.** `onTravelPauseEnded`
+  dispatches on `travelPauseReason` for exactly this purpose — resting's own
+  follow-up (starting `Monster.travelRestCooldownRemaining`) is scoped to
+  the `resting` case there and nowhere else, specifically so it doesn't leak
+  into whatever a future activity needs when *its* pause ends. A future
+  reason with its own post-pause bookkeeping (e.g. a cooldown before the
+  same activity can trigger again) would add its own case the same way,
+  not touch resting's.
+
+**Explicitly open questions for that future, separate planning pass — not
+answered here:**
+- Whether an NPC resumes the *same* `travelPath` after an activity ends, or
+  whether the activity fully replaces travel for a while (e.g. abandoning
+  the journey rather than pausing it).
+- Whether an activity can be interrupted by combat/aggression, and if so
+  what happens to the in-progress pause/ETA correction.
+- Whether `isTravelling` (`travellingNPC_dataSchema.md` §3.3) needs a third
+  state, distinct from both "travelling" and "not travelling", for scripts
+  to correctly query a monster that's currently paused for an activity
+  rather than either actively travelling or done.
+
 ## The manual test bed: `traveltest1` / `traveltest2`
 
 A purpose-built pair of maps exists for exercising this feature by hand, and
@@ -294,7 +347,11 @@ behind `DEVELOPMENT_DEBUGRESOURCES`:
     A\* search's visited tiles (yellow) and resulting path (start/end
     highlighted) on top of whichever map is currently on-screen
     (`MainView.drawPathfinderDebug`) — one map's `PathFinder` at a time,
-    whichever ran most recently.
+    whichever ran most recently. Also overlays the "control" tile layer's
+    per-tile weight (orange tint plus the numeric value, drawn as a base
+    layer under the visited/path overlays) wherever it's non-zero, so a
+    route that looks longer than expected can be explained at a glance
+    instead of by reading map XML — see the data schema doc's §2.6.
   - `trv` toggles `MonsterMovementController.showTravelDebug`, which (in
     addition to the `TRAVEL:`-prefixed logcat detail described throughout
     this doc) now also drives `MainView.drawTravelDebug`: for every monster

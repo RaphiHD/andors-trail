@@ -988,6 +988,829 @@ them.
   data, and a minimal worked example alongside pointers into the
   `traveltest1`/`traveltest2` test bed for a fuller one. No code change.
 
+## Refinement planning
+
+With the core feature working end-to-end and confirmed by the user, added
+**`docs/wip/PLAN_refinement.md`** — a plan for six further, non-bugfix
+enhancements requested next: fixing the accepted abrupt-pre-detour-turning
+cosmetic gap; per-`MonsterType` default `travelFailedScript`/
+`travelDestination` (data-driven, alongside the existing script-reward
+mechanism); a new non-rendered TMX "control" tile layer letting map authors
+weight terrain so travelling monsters prefer paths/roads without being
+forced onto them; a data-driven per-NPC path-variance multiplier so
+identical journeys look individually organic rather than machine-generated;
+letting an on-screen travelling NPC pause to rest for 1-2 ticks with its
+`travelPath` ETA corrected accordingly; and a preparatory extension point
+(not the feature itself) for a later, separately-planned system letting
+NPCs interrupt travel for other activities. Phases are sequenced R1-R6 by
+shared risk/dependency rather than request order — notably, R3 (terrain
+weighting) and R4 (path variance) are placed adjacently since both modify
+the same `PathFinder` per-tile move-cost computation, and R6 is placed last
+since it deliberately reuses R5's pause/ETA-correction mechanism rather than
+building parallel machinery. Two cross-cutting constraints from the already-
+completed work are carried forward explicitly into the plan: A* admissibility
+(R3 chosen to preserve it via a penalty-only cost model; R4 deliberately
+relaxes it in a small, bounded way, with the trade-off called out) and the
+Phase 0 lesson that on-screen-only behavior must never desync from the
+wall-clock interpolation model used for off-screen travelling monsters (R4
+sidesteps this by construction; R5 addresses it head-on via an explicit ETA
+correction). No code change.
+
+## R1 — Fix the abrupt pre-detour turning
+
+See [PLAN_refinement.md](PLAN_refinement.md) for the full writeup. Summary:
+implementing the plan's proposed "turn-angle heuristic term" (option A)
+surfaced that neither of its two literal framings actually work — a turn
+*penalty* pushes the wrong direction (the reported behavior already has the
+fewest possible turns, so discouraging turns further entrenches it, not
+fixes it), and a per-step bearing-deviation term can't distinguish "on the
+direct approach to an obstacle" from "on a normal straight stretch," since
+every tile on that approach genuinely is the most direct bearing available
+at the moment it's stepped on - a local metric has no way to anticipate an
+obstacle a few tiles ahead.
+
+The real gap is the same *class* of tie the Phase 6 line-tiebreak already
+resolves (multiple equal-true-cost routes, chosen arbitrarily by exploration
+order) along a different axis: *when* a route starts detouring around an
+obstacle sitting on the straight line, not how it distributes diagonal moves
+once already detouring - every tile on that line has perpendicular distance
+0, so the existing tiebreak can't distinguish "detour starts here" from
+"detour starts one tile closer to the wall." Fixed with a second, small,
+bounded tiebreak term, `clearanceTiebreak`: `PathFinder.heuristic()` (now an
+instance method, so it can reach `map`) counts a candidate's unwalkable
+terrain neighbours via a new `countUnwalkableNeighbors` helper (using a
+preallocated `clearanceScratch` `CoordRect` to avoid any new per-call
+allocation in this hot path), deliberately terrain-only (ignoring event
+areas/other actors, which move every tick and would make this a moving
+target). Combined with the existing `lineTiebreak` under one shared cap
+(`TIEBREAK_MAX = 9`, `CLEARANCE_TIEBREAK_MAX = 6` for the new term's own
+ceiling) rather than stacking two independent bounds, preserving the
+original invariant that the combined bias always stays well below one
+move's cost (10) - it can only ever break a genuine tie, never outrank a
+real shortest-path difference.
+
+**Files:** `PathFinder.java`.
+**Verification:** compiles clean
+(`gradlew :app:compileDebugJavaWithJavac`). On-device verification on
+`traveltest1` (`rect1_corner` → `rect3_corner`) still to be done by the
+user, per this feature's established pattern of needing real-device
+confirmation before trusting a tiebreak change (the original Phase 6
+tie-breaker needed two rounds of correction after looking right on paper).
+
+## R1 follow-up, correction — the first clearance term was direction-dependent
+
+**Symptom (reported):** travelling corner-to-corner on `traveltest1`
+(`rect4`→`rect3` and `rect1`→`rect2`, both horizontal-primary trips) showed
+the new eased-turn behavior correctly, but `rect2`→`rect4` and `rect3`→`rect1`
+(both vertical-primary trips) still showed the old abrupt behavior - straight
+for several tiles, then a sharp turn.
+
+**Investigation:** rather than guessing, replayed the *exact* algorithm -
+`heuristic()`'s formula *and* a faithful port of `OpenSetHeap` (a plain
+array-based binary heap with no explicit tie-breaking, so which of several
+equal-`f` candidates wins depends on insertion order/heap structure, not
+just the scoring formula) - against `traveltest1`'s real decoded `Walkable`
+layer data, tick-by-tick (recomputing from the current position each step,
+exactly like `MonsterMovementController` does every game tick, not a single
+upfront full-path solve). This reproduced the reported split exactly:
+`rect1`↔`rect2`/`rect4`↔`rect3` eased in immediately, `rect2`↔`rect4`/
+`rect3`↔`rect1` didn't.
+
+**Root cause:** every one of the four corner destinations sits directly
+against its room's walls (that's what makes it a "corner" test case) - but
+*which* walls differ per corner (`rect1`: north+west, `rect2`: north+east,
+`rect3`: west+south, `rect4`: east+south-ish, confirmed by decoding and
+printing the actual tile grid around each). The direction that "escapes" a
+given corner's walls sometimes happens to roughly agree with that trip's
+straight line to its destination, and sometimes is roughly perpendicular to
+it. When perpendicular, the previous fix's clearance signal (an immediate
+8-neighbour unwalkable count, sharing one combined cap with `lineTiebreak`)
+was both too weak/sharply-localized and too easily crowded out by
+`lineTiebreak`'s own pull back toward the line, so the line term won and the
+old abrupt pattern resurfaced. Confirmed via hand-traced heuristic values at
+`rect1`'s corner that the two terms' formulas are themselves properly
+symmetric under swapping x/y - this was never a directional bug in the math,
+purely an interaction between two individually-correct but jointly
+under-powered/over-coupled terms and each corner's specific, differently-
+oriented wall geometry.
+
+**Fix:** widened `clearanceScore` (renamed from `countUnwalkableNeighbors`)
+to a 2-tile-radius weighted falloff (immediate neighbours weight 1.0, the
+outer ring weight 0.4) instead of a flat 8-neighbour count, and gave
+`clearanceTiebreak`/`lineTiebreak` **independent** caps (`CLEARANCE_TIEBREAK_MAX
+= 9`, same value as `TIEBREAK_MAX`, no longer sharing one combined ceiling)
+instead of one shared cap that let a large `lineTiebreak` starve
+`clearanceTiebreak` of any room to act. Swept the clearance weight via the
+same simulation harness (values 2.0-6.0) before settling on `2.0`: it was the
+smallest weight that produced a leading straight-run of 0 (diagonal easing
+from the very first step) for **all four** corner pairs simultaneously,
+rather than shifting which two pairs looked right the way every other weight
+tried did. Re-verified with the same harness: all four corner pairs, the
+original Phase 6 `rect1_corner`→`rect3_corner` regression case, and two
+longer corner-to-opposite-corner diagonal trips (`rect1`↔`rect4`,
+`rect2`↔`rect3`) - every one matches its pre-this-phase path length exactly
+(no shortest-path regression), with diagonal/straight moves redistributed
+earlier rather than added or removed.
+
+Widening the combined worst-case bound from 9 to 18 (each term capped at 9,
+no longer sharing) is a deliberate, explicitly-accepted trade-off: `gScore`
+(the real accumulated path cost) is never touched by either tiebreak term,
+only exploration priority is, so the practical effect of the wider bound is
+confined to which of several near-equal-cost routes gets explored first -
+and empirically, across every case checked, it never changed which route
+was *found*, only when it started curving.
+
+**Files:** `PathFinder.java`.
+**Verification:** compiles clean. Checked via the same real-data,
+real-heap-algorithm simulation described above for all four corner pairs,
+the original Phase 6 regression case, and two additional diagonal-corner
+trips - all show consistent early easing with unchanged path length.
+On-device confirmation from the user is still the final word before this is
+considered settled - please re-test all four corner pairs this time (not
+just one), since that's exactly what exposed the first version's blind spot.
+
+**User-confirmed on-device:** "the path already looks very natural." R1 is
+done.
+
+## R2 — Per-`MonsterType` default `travelFailedScript` / `travelDestination`
+
+See [PLAN_refinement.md](PLAN_refinement.md) for the full writeup. Both
+fields, previously settable only via the `setTravelFailedScript`/
+`setDestination` script rewards scoped to a live conversation's NPC context,
+can now also be declared once per `MonsterType` in `monsterlist` JSON as a
+standing default applied to every spawned instance of that type:
+
+- `JsonFieldNames.Monster` gained `travelFailedScript` (plain phrase-ID
+  string) and `travelDestination` (nested object, `{mapName, areaID}` -
+  new `JsonFieldNames.MonsterTravelDestination` class for its two inner
+  keys), parsed by `MonsterTypeParser` and carried on three new `MonsterType`
+  fields (`travelFailedScript`, `travelDestinationMapID`,
+  `travelDestinationAreaID`).
+- `travelFailedScript`'s default is applied in `Monster`'s constructor -
+  deliberately **not** in `resetStatsToBaseTraits()`, which was the plan's
+  other candidate location. Checking call sites first (rather than assuming)
+  found `resetStatsToBaseTraits()` is also invoked from
+  `ActorStatsController.recalculateMonsterCombatTraits()`, which runs
+  repeatedly over a monster's whole life (any condition change triggers it),
+  not just at spawn - applying the default there would have silently
+  clobbered a `setTravelFailedScript` reward's value on the next unrelated
+  combat-stat recalculation. The constructor runs exactly once, matching the
+  field's actual "starting value only, a reward always wins afterward"
+  semantics.
+- `travelDestination`'s default can't be a simple field copy - it needs a
+  real `beginTravel` call (pathfinding, `ControllerContext`/`WorldContext`),
+  so it's triggered from `MonsterSpawningController.spawnInArea` (every real
+  spawn path) right after `MonsterSpawnArea.spawn(...)` returns the new
+  `Monster`, and deliberately *before* `monsterSpawnListeners
+  .onMonsterSpawned(...)` fires - `beginTravel` can immediately hand the
+  monster to the travelling pool (removing it from `map.monsters`) if the
+  player isn't on this map, so the listener should see that settled state,
+  not a monster about to be yanked away right after being announced.
+- Savegame interaction checked, not assumed: the parcel-reading `Monster`
+  constructor calls the regular constructor first (applying the default),
+  then conditionally overwrites `travelFailedScript` from save data only if
+  `fileversion >= 88` *and* this specific monster had a persisted value.
+  There's no `else` branch resetting to `null` when absent - consistent with
+  how every other optional, fileversion-gated field already works in this
+  constructor (`travelDestination`/`travelPath` included) - so loading an
+  older save now lets a newly-added `MonsterType` default apply retroactively
+  to a monster that never got the reward, rather than leaving it stuck on
+  `null` forever. No `fileversion` bump needed.
+- Respawn re-triggers the default every time (documented as deliberate, not
+  a gap, in `travellingNPC_dataSchema.md`'s new §3.4) - matches the
+  motivating "shopkeeper always starts by walking to their stall" case; a
+  respawned monster never "remembers" a previous instance's progress, since
+  that's unrelated per-instance savegame state.
+
+Added a second test `MonsterType`, `traveltester_defaults`
+(`monsterlist_traveltest.json`, spawned via a new spawn object on
+`traveltest1.tmx`), deliberately without a `phraseID` (not talkable) so only
+the default-driven path can be exercised, independent of the existing
+reward-driven `traveltester`. It declares both new fields: a
+`travelFailedScript` reusing the existing `traveltester_rect1_center` phrase,
+and a `travelDestination` of `rect4_corner` on `traveltest1`.
+
+**Files:** `resource/parsers/json/JsonFieldNames.java`,
+`resource/parsers/MonsterTypeParser.java`, `model/actor/MonsterType.java`,
+`model/actor/Monster.java`, `controller/MonsterSpawningController.java`,
+`docs/wip/travellingNPC_dataSchema.md` (new §3.4),
+`res/raw/monsterlist_traveltest.json`, `res/xml/traveltest1.tmx`.
+**Verification:** compiles clean; JSON syntax validated. On-device
+verification still to be done by the user: confirm `traveltester_defaults`
+begins travelling to `rect4_corner` immediately on spawn with no dialogue
+interaction, and confirm `traveltester`'s existing reward-driven flow is
+unaffected.
+
+**User-confirmed on-device:** "the second test monster immediately starts
+travelling when I enter the map - and also returns when I block the path."
+
+## R2 follow-up — global, map-visit-independent spawning for always-travelling monster types
+
+See [PLAN_refinement.md](PLAN_refinement.md) for the full assessment written
+before implementing, at the user's explicit request. Summary: the user asked
+for a behavior change on top of the now-confirmed R2 - a monster with a
+`travelDestination` default should begin travelling as soon as the world
+loads, regardless of which map is active, not only once the player happens
+to visit its spawn's home map. Assessed feasibility and performance first
+(every map's exit-distance matrix is already computed at asset-load time
+regardless of visited status, so `beginTravel` was never the blocker - only
+monster *creation* is lazy/map-visit-gated today), then asked the user to
+choose between a one-time eager spawn only, or also making *ongoing*
+respawns of non-unique always-travelling types map-independent. **The user
+chose the larger option.**
+
+Implemented without any new savegame state or schema - entirely a change to
+when/how an already-declared `travelDestination` default gets acted on:
+
+- `MonsterSpawningController.getTravelSpawnAreas()` - a lazily-built, cached
+  list (process lifetime, never invalidated - the underlying map/spawn-area/
+  MonsterType asset data never changes across game sessions, only each
+  area's live `isSpawning`/`quantity.current` state does, which is
+  deliberately read fresh every time rather than cached) of every spawn area,
+  across every map, whose spawn group resolves to exactly one `MonsterType`
+  declaring a `travelDestination`. Deliberately excludes mixed-type spawn
+  groups - `getRandomMonsterType`'s random roll can't guarantee it lands on
+  the travel-default type, so treating a mixed group as "always travels"
+  would be misleading; an always-travelling NPC should get its own dedicated
+  spawn area, the same pattern `traveltester_defaults` already uses.
+- `spawnAllTravellers()` (one-time catch-up, reuses the existing
+  `spawnAllInArea(..., respawnUniqueMonsters=true)` unchanged) wired into
+  both `MapController.lotsOfTimePassed()` (new game, player respawn, resting
+  - all moments that already mean "let the world's background state catch
+  up") and `Savegames.onWorldLoaded()` (loading an existing save doesn't go
+  through `lotsOfTimePassed()`, and skipping this would leave an old save's
+  never-visited travel-eligible areas stuck waiting on the slow probabilistic
+  roll below - inconsistent with R2's own "old saves retroactively benefit
+  from new defaults" precedent).
+- `maybeSpawnTravellers()` (ongoing per-tick half, mirrors `maybeSpawn`'s
+  per-area body - `isSpawnable(false)` excluding uniques, then
+  `rollShouldSpawn()`, then spawn) wired into `GameRoundController
+  .onNewTick()` alongside the existing `maybeSpawn` call.
+
+**The one real design risk, addressed deliberately:** naively making the
+per-*tick* check (not just the one-time catch-up) scan every spawn area on
+every map, every 500ms, would scale with total world size for a feature
+meant to cover a handful of specially-authored NPCs - the wrong shape, even
+though each individual `isSpawnable`/`rollShouldSpawn` check is cheap alone.
+Fixed by pre-filtering once into the small cached list above and only ever
+iterating *that* per tick, keeping the added cost proportional to how many
+always-travelling NPCs actually exist in the content, not to total map count
+- mirroring the same "expensive work stays on-demand, not per-tick" shape
+`GlobalPathFinder` already uses.
+
+**Files:** `controller/MonsterSpawningController.java`,
+`controller/MapController.java`, `controller/GameRoundController.java`,
+`savegames/Savegames.java`.
+**Verification:** compiles clean. On-device verification still to be done
+by the user: confirm immediate travel on a fresh game/load without ever
+visiting `traveltest1`; confirm respawn-and-resume-travelling after killing
+it (it doesn't despawn on its own after arriving, so exercising the ongoing
+per-tick respawn path specifically needs the quota freed by a kill); confirm
+no duplicate spawns if the player later visits `traveltest1` normally.
+
+## R3 — Data-driven terrain weighting via a new "control" tile layer
+
+See [PLAN_refinement.md](PLAN_refinement.md) for the full writeup. A new,
+non-rendered `Control` tile layer (same never-drawn treatment as the
+existing `Walkable` layer) lets a map author weight terrain so a travelling
+monster prefers certain ground (a road, a path) without being forced onto
+it - implemented as a per-tile addition to `PathFinder`'s move cost,
+deliberately penalty-only (never a discount) so the existing heuristic stays
+provably admissible with no changes to it at all.
+
+**A real, previously-unknown parser gap had to be fixed first, not just
+extended.** `TMXMapFileParser` never captured tile-level custom properties
+at all - `readTMXTileSet` only read the `<tileset>` tag's own attributes,
+never descending into `<tile>` children. Worse than a simple gap: because
+`XmlResourceParserUtils.readCurrentTagUntilEnd` dispatches every `START_TAG`
+it sees until the matching outer `END_TAG` with no depth tracking, leaving a
+tileset's `<tile><properties><property .../></properties></tile>` block
+unconsumed wouldn't just silently drop the new data - the map-level
+dispatcher one level up would have picked up that stray `<property>` tag
+and misfiled it into the *map's own* top-level properties list. Fixed by
+giving `readTMXTileSet` its own explicit body-consuming call (the same
+pattern every other nested element in this parser already uses), and adding
+`TMXTileSet.tileWeights` (local tile id → the tile's `weight` custom
+property, authored in Tiled's Tileset Editor - the same place/workflow used
+for every other tile property, not a new hardcoded lookup table) plus a new
+`readTMXTile` helper.
+
+**Data plumbing**, mirroring the existing `isWalkable` precedent throughout,
+with one deliberate difference: `MapSection.pathWeight` (`int[][]`) - unlike
+`isWalkable`, which can legitimately be `null` - is always fully allocated,
+even on a map with no `Control` layer at all, since most maps won't have
+one and `PathFinder`'s hot per-tile lookup must never need a null check.
+`LayeredTileMap.getPathWeight`/`PredefinedMap.getPathWeight` read through
+the same `liveTileMap()` seam `isWalkable` already uses. A `replace` object
+can also carry a `Control` property alongside `Walkable`, so a preferred
+route can change with quest state for free, the same as walkability already
+can.
+
+**`PathFinder` integration found a third spot the plan's own step 5 didn't
+name.** Beyond the two obvious ones (the neighbour-expansion loop, the
+final adjacent-to-`from` step), `findPositionOnPath()` has a third place
+that computes `moveCost` - to re-derive, after a completed search, which
+candidate node actually produced `lastPathDistance` (used by the
+travelling-pool's wall-clock position interpolation,
+`MonsterMovementController.spawnMonsterOnMap`). Missing this would have
+left it hardcoded at the old flat `10`, silently breaking mid-leg position
+interpolation specifically on weighted maps - found by grepping every
+`moveCost` occurrence in the file after the main change, not by re-reading
+the plan text alone.
+
+Added a placeholder tileset (`res/drawable/map_control_1.png`, generated
+directly via Python's stdlib `zlib`/`struct` - no image library was
+available - 4 flat-color 32x32 tiles, real pixel content is irrelevant
+since this layer never renders) with tile-level `weight` properties (3, 6,
+9), and a test setup on `traveltest1`: a `Control` layer weighting all of
+row 5 (an always-open east-west corridor shared with row 4) at 6, plus two
+new `traveltester`-menu destinations - `control_test_1` on the unweighted
+row 4, `control_test_2` on the weighted row 5 (forcing at least one
+unavoidable step onto it). Expected: the monster walks almost the entire
+distance along row 4, dropping onto row 5 only at the last unavoidable
+step, rather than freely mixing both rows the way pure Chebyshev-shortest
+pathing would without weighting. The generated layer's base64/zlib tile
+data and gid arithmetic were round-trip verified with a throwaway Python
+script before being embedded in the TMX file, rather than trusting
+hand-computed bytes.
+
+**Files:** `model/map/TMXMapTranslator.java`, `model/map/TMXMapFileParser.java`,
+`model/map/MapSection.java`, `model/map/LayeredTileMap.java`,
+`model/map/PredefinedMap.java`, `controller/PathFinder.java`,
+new `res/drawable/map_control_1.png`, `docs/wip/travellingNPC_dataSchema.md`
+(new §2.6), `res/xml/traveltest1.tmx`, `res/raw/conversationlist_traveltest.json`.
+**Verification:** compiles clean; JSON/XML syntax validated; layer data
+round-trip verified. On-device verification still to be done by the user:
+confirm the row-4-then-drop-to-row-5 behavior on `control_test_1` ↔
+`control_test_2`, and re-run the Phase 6/R1 regression case
+(`rect1_corner`→`rect3_corner`, an unweighted route) to confirm the new cost
+term is a no-op there.
+
+## R3 correction — out-of-memory crash during new-character creation
+
+**Symptom (reported):** the game reliably crashed with an out-of-memory
+error while creating a new character (first launch of a fresh app process;
+a subsequent retry within the same session succeeded). The user's logcat
+showed `Cannot find maplayer "control" requested by map "home"`, and heap
+usage climbing steadily to 191MB/192MB across roughly a minute of
+background resource-loading before `OutOfMemoryError: Failed to allocate a
+24 byte allocation... giving up on allocation because <1% of heap free
+after GC` and process termination.
+
+**Root cause:** this game has **1229 maps** and **1990 `replace` objects**
+- a fact the R3 work above never accounted for, having been developed and
+tested exclusively against the tiny `traveltest1`/`traveltest2` bed. Two
+places in that work correctly mirrored the existing `Walkable`-layer
+precedent for *behavior* but diverged from it on *cost*:
+
+1. `defaultLayerNames` unconditionally included `"control"`, so every one
+   of the ~1228 other maps (plus ~1990 replace sections) looked it up and
+   logged a `DEVELOPMENT_VALIDATEDATA` warning for not having one - the
+   `"home"` map warning in the log was the first of what would have been
+   thousands of such calls across a full asset load.
+2. `transformControlMapLayer` always allocated a real, full-size `int[][]`
+   even when there was no control layer at all, instead of returning `null`
+   the way `transformWalkableMapLayer` deliberately does. That meant
+   roughly 3219 permanently-retained, almost-entirely-zero arrays (one per
+   map's default layout, one per replace section) persisting for the app's
+   entire lifetime - several MB of dead weight for a feature exactly one
+   test map uses, on a heap the log showed already sitting at its ceiling
+   before finally failing.
+
+**Fix:** matched the `Walkable` precedent exactly instead of diverging from
+it for the sake of avoiding one extra null check in `PathFinder`'s hot loop
+- a tradeoff that wasn't worth it once actually measured against real data.
+`transformControlMapLayer` now returns `null` when absent;
+`"control"` is exempted from `findLayer`'s warning the same way
+`"top"`/`"base"` already are; `LayeredTileMap.getPathWeight` and
+`MapSection.replaceLayerContentsWith` each gained the one cheap null check
+this reintroduces.
+
+**Files:** `model/map/TMXMapTranslator.java`, `model/map/MapSection.java`,
+`model/map/LayeredTileMap.java`.
+**Verification:** compiles clean. On-device verification still to be done
+by the user: confirm new-character creation no longer crashes, and that
+`traveltest1`'s control-layer test destinations are unaffected (only the
+allocation timing changed, not the weighting logic).
+
+## R3 correction, part 2 — the remaining crash is a heap-ceiling issue, not a code leak
+
+**Symptom (reported):** re-tested after the fix above; still crashed with
+an out-of-memory error during new-character creation.
+
+**What changed, and why it matters:** the `"Cannot find maplayer control"`
+warning spam was completely gone from the new logcat (confirming the first
+fix worked), and the app progressed significantly further before failing.
+But the new crash's stack trace is entirely inside the Android framework -
+`android.graphics.drawable.AnimationDrawable.run` (the loading-screen
+spinner) - not anywhere in AndorsTrail's own code, and it hit the *exact
+same* heap ceiling as before (`Clamp target GC heap from ... to 192MB`,
+repeated many times right before failing). An unrelated allocation failing
+at the identical cap, after the confirmed leak was fixed, points away from
+a retained-memory leak and toward this specific emulator/device simply
+defaulting to a 192MB per-app heap ceiling that a 1229-map game with a
+large tileset library - loaded in one startup burst - legitimately needs
+more of.
+
+**Fix:** added `android:largeHeap="true"` to `AndroidManifest.xml`'s
+`<application>` tag - the standard Android mechanism for exactly this
+situation, not a workaround. This asks the OS for a larger ceiling; it
+doesn't reduce what the app actually uses.
+
+**Files:** `app/src/main/AndroidManifest.xml`.
+**Verification:** manifest XML validated. On-device verification still to
+be done by the user - the last lead from this investigation. If the crash
+still occurs with a larger heap, that would point back to genuine excess
+memory use worth checking against a clean pre-session checkout.
+
+## R2 follow-up disabled — crashes the real game world, root cause not found
+
+**🛑 CRITICAL — MUST BE RESOLVED BEFORE RELEASE.** Confirmed on-device: with
+this feature's call sites wired in, `GlobalPathFinder.findPath()` against
+the real, full game world can burn 170+ seconds of CPU and exhaust the heap,
+reliably preventing new-character creation entirely. It is currently
+**disabled** (see "Fix" below) and the game works normally with it off - but
+the underlying defect in `GlobalPathFinder` was never found, only worked
+around by not calling it this way. Before release: either root-cause and fix
+the actual performance problem (needs on-device CPU profiling - see below),
+or make a deliberate decision to permanently drop the map-visit-independent
+global spawning mechanism (R2 follow-up) and keep only R2's original,
+narrower, already-validated hook. Do not re-enable the disabled call sites
+without first confirming whichever path is chosen.
+
+**Symptom (reported):** still crashed with a fresh logcat even with
+`android:largeHeap="true"` applied. This time the evidence pointed somewhere
+completely different from the first two rounds.
+
+**What the log showed:** a thread dump captured at the moment of failure -
+included because the OOM handler dumps all runnable threads - showed a
+background `AsyncTask` with **171+ seconds of accumulated CPU time**, stuck
+in: `MonsterSpawningController.spawnAllTravellers()` →
+`MapController.lotsOfTimePassed()` → `WorldSetup.createNewWorld()` →
+`GlobalPathFinder.findPath()` → `PathFinder.findPathBetween()`. This is
+squarely the R2 follow-up feature (global, map-visit-independent spawning
+for always-travelling monster types) - and specifically, it's the *first
+and only* code path anywhere that had ever called `beginTravel()` against
+the real ~1229-map game world. Every previous confirmation of this whole
+feature (R2's reward path, R2's original per-spawn-area hook,
+`traveltester_defaults` working as reported) only ever exercised the 2-map
+`traveltest1`/`traveltest2` bed.
+
+**Investigated thoroughly; root cause not found.** Checked and ruled out,
+against the real map data rather than assumption:
+- Graph size (1229 maps, 3827 total exits, 50 max on one map - too small to
+  explain 171 seconds via a standard Dijkstra).
+- Destination unreachability (`crossglen`, a plausible player start, has a
+  direct, correctly bidirectional link straight to `traveltest1`).
+- A linear map-name lookup (`MapCollection.findPredefinedMap` is a proper
+  `HashMap` lookup, not a scan).
+- An infinite loop (both `GlobalPathFinder`'s Dijkstra and `PathFinder`'s
+  local A* are structurally bounded by construction - non-negative edges
+  with strict-improvement relaxation, and a hard 500-iteration cap per local
+  search call, respectively).
+
+None of these explain the actual magnitude observed. The true mechanism
+remains unknown - would need on-device CPU profiling to identify the real
+hot loop, which wasn't available this session.
+
+**Fix: disable rather than guess.** Given the severity (new-character
+creation was completely blocked) and no confirmed mechanism to target
+directly, removed the three call sites wiring this feature into the tick
+loop and world-setup paths (`MapController.lotsOfTimePassed()`,
+`GameRoundController.onNewTick()`, `Savegames.onWorldLoaded()`), leaving the
+underlying `MonsterSpawningController` methods in place but unused, so nothing
+is lost - only re-enable once `GlobalPathFinder`'s real-world performance is
+understood. R2's original, narrower hook (travel starts when a monster's own
+spawn point is actually visited) is untouched and still confirmed working -
+only the part that calls `beginTravel()` against a real, distant starting
+map is disabled.
+
+**Files:** `controller/MapController.java`,
+`controller/GameRoundController.java`, `savegames/Savegames.java`.
+**Verification:** compiles clean. On-device verification still to be done
+by the user: confirm the game now starts and a new character can be
+created; confirm `traveltester_defaults` reverts to R2's original,
+visit-triggered behavior rather than travelling immediately.
+
+**User-confirmed on-device:** a new character can be created again.
+
+## `pth` debug overlay now also visualizes control-layer weights
+
+Requested by the user specifically to help debug R3 (the "control" tile
+layer added earlier): when the `pth` debug overlay is active, it previously
+showed only local A* search state (which tiles were visited, the resulting
+path, per-tile cumulative distance) - with no visibility into *why* a
+travelling monster's path avoided or crossed a given tile once a `Control`
+layer entered the picture. Since `PathFinder`'s per-tile cost is now
+`10 + map.getPathWeight(...)`, someone debugging a route that looks longer
+than expected had no way to see the weight data that shaped it without
+reading map XML directly.
+
+`MainView.drawPathfinderDebug` now also queries `PredefinedMap.getPathWeight`
+for every visible tile and, wherever it's non-zero, draws an orange tint
+(as a base layer, so the existing visited/path overlays still show through
+on top of it) plus the numeric weight value in the tile's bottom-left corner
+- deliberately not overlapping the existing per-path-tile distance label,
+which occupies the top-left. Tied to the same `pth` toggle rather than a new
+one, per the request ("when active, it should also display the control
+layer"). Costs nothing extra on a map that never authors a `Control` layer
+at all (`getPathWeight` returns 0 everywhere, so nothing new is drawn).
+
+**Files:** `view/MainView.java`.
+**Verification:** compiles clean. On-device verification still to be done by
+the user - enable `pth`, send a travelling NPC across `traveltest1`'s
+weighted row-5 corridor (`control_test_1`/`control_test_2`, from R3), and
+confirm the weighted tiles are visibly tinted with their weight value shown,
+explaining the route's preference for row 4.
+
+## R2/R3 confirmed working; `android:largeHeap` removed as unnecessary
+
+**User-confirmed on-device:** both R2 (per-`MonsterType` default
+`travelFailedScript`/`travelDestination`) and R3 (control-layer terrain
+weighting) work as designed. Marked done in `PLAN_refinement.md`.
+
+Reconsidered `android:largeHeap="true"` (added mid-investigation, see the
+"heap-ceiling" correction above) now that R2 follow-up - the actual cause of
+all three crash reports - is disabled. Reconstructing the timeline: R2
+follow-up's runaway `GlobalPathFinder` computation was already active during
+*every* crash report, including the first two, before the manifest was ever
+touched. The R3 fix genuinely helped (removed real dead weight, delayed the
+crash) but was never sufficient alone, since R2 follow-up kept burning
+CPU/memory in the background regardless. Adding `largeHeap` didn't fix
+anything - it just gave that runaway computation more room to run (192MB →
+576MB) before finally exhausting even the larger heap; the only reason it
+looked like partial progress is that a bigger heap took longer to fill,
+which incidentally gave Android enough time to capture the thread dump that
+finally revealed the real culprit. With no remaining evidence of a genuine
+baseline memory need now that R2 follow-up is off, and given `largeHeap` is
+generally discouraged (costs other apps their share of system memory,
+signals a memory-inefficient app) except when actually necessary, removed it
+- also so that any future memory issue produces a clean signal rather than
+being masked by a needlessly larger heap.
+
+**Files:** `app/src/main/AndroidManifest.xml`.
+**Verification:** manifest XML validated. Not separately re-tested on-device
+(no reason to expect a regression - this only lowers the heap ceiling back
+to the platform default, and the app was already confirmed working at that
+default before R2 follow-up ever existed); flag it if a memory issue
+resurfaces.
+
+## R2 follow-up's dead code fully removed from the codebase
+
+The user manually reverted the three call sites disabled earlier
+(`MapController.lotsOfTimePassed()`, `GameRoundController.onNewTick()`,
+`Savegames.onWorldLoaded()`) back to their pre-R2-follow-up state, and asked
+whether `MonsterSpawningController.java` - left untouched at the time, since
+disabling it wasn't required to stop the crash - could be cleaned up the
+same way without breaking anything.
+
+Confirmed and removed the now-fully-dead part: `TravelSpawn`, the
+`travelSpawnAreas` cache field, `getTravelSpawnAreas()`, `spawnAllTravellers()`,
+and `maybeSpawnTravellers()`, plus the now-unused `ArrayList`/`List` imports.
+With all three call sites gone, nothing anywhere referenced these anymore.
+
+**Explicitly left in place**, and must stay: the `travelDestinationMapID`
+check inside the private `spawnInArea(...)` method (`beginTravel(...)` call)
+- this is R2's *original* hook, confirmed working, triggered by the normal
+per-map-visit spawn machinery (`spawnAll`/`maybeSpawn`/`spawnAllInArea`,
+never the disabled global mechanism). Removing it would have regressed R2
+itself, not just finished cleaning up the crash-causing follow-up.
+
+**Files:** `controller/MonsterSpawningController.java`.
+**Verification:** compiles clean.
+
+## R4 — Data-driven per-NPC path variance ("organic" route jitter)
+
+**Goal:** two monsters of the same type walking the same route shouldn't
+compute byte-for-byte identical paths — see `PLAN_refinement.md`'s R4 section
+for the full design writeup. Implemented per that plan, no deviations.
+
+**Design:** `MonsterType` gains `pathVarianceMultiplier` (float, `[0,1]`,
+clamped at parse time, default `0`); `Monster` gains `pathVarianceSeed` (int,
+assigned once via `Constants.rnd.nextInt()` at construction, persisted across
+saves). `PathFinder` hashes `(pathVarianceSeed, x, y)` into a small,
+deterministic per-tile cost bump (`jitter()`, capped by `JITTER_MAX = 18`,
+scaled by the monster type's multiplier) — deterministic so the same monster
+re-searching the same tile on a later tick (every tick reruns A* from
+scratch) doesn't flicker between alternatives, but different per monster so
+two individuals of the same type visibly diverge.
+
+Unlike R3's control-layer weighting (deliberately kept admissible), this is
+knowingly, deliberately a small bounded exception to "provably shortest path"
+— the goal here was never route-optimality, only that a monster never takes
+an obviously bad detour purely from jitter.
+
+**Scoping:** rides the exact same `Monster m`-nullness seam
+`PathFinder.findPathBetween` already uses to scope player-avoidance to
+travel-approach searches, for free — no new plumbing needed. Confirmed by
+grep, not assumed, that every `m == null` caller
+(`PredefinedMap.calculateDistanceMatrix`, all three of `GlobalPathFinder`'s
+own `findPathBetween` calls) is therefore structurally guaranteed to never
+see jitter, keeping the shared exit-distance matrix and off-screen wall-clock
+interpolation exactly as before. `moveCost` is now computed by one shared
+`PathFinder.moveCost(x, y, m)` helper, called from all three spots that used
+to separately inline `10 + map.getPathWeight(...)` (the two in
+`findPathBetween`, plus `findPositionOnPath`'s re-derivation of which node
+produced `lastPathDistance` — the same third spot R3's own notes already
+flagged as easy to miss), so a future change to this formula only has one
+place to get right instead of three kept in sync by hand.
+
+`MonsterMovementController.enterTravellingPool`/`.spawnMonsterOnMap` also
+pass a real `m`, so their local searches (recalibrating `travelPath
+.startTime`/finding a wall-clock handoff position) pick up jitter too — by
+design, not a scope leak: those recomputations must agree with the same
+jittered cost model that actually produced the monster's on-screen movement
+moments earlier, or they'd desync from reality the same way Phase 0's bugs
+did, just between "what was actually walked" and "what this recalibration
+thinks was walked" instead of between on-screen and off-screen state.
+
+**Savegame compatibility:** `pathVarianceSeed` is written/read unconditionally
+as a plain int (`fileversion >= 89`, one past R2's `travelFailedScript` gate
+of 88) — no presence flag needed, since every `Monster` always has a value,
+mirroring how `moveCost` itself (`fileversion >= 34`) is handled. No
+savegame format change beyond this one new gated field.
+
+**Test rig:** set `pathVarianceMultiplier: 1.0` on the existing `traveltester`
+`MonsterType` rather than authoring new spawn/monster/TMX data — doing so
+activates `variation_one`/`variation_two`, destination objects already
+present in `traveltest1.tmx` with matching "Go to variation one/two tile
+center" replies already wired in `conversationlist_traveltest.json`, both
+apparently pre-staged for exactly this phase and otherwise unused until now.
+Documented in `travellingNPC_dataSchema.md` §3.5 that this also perturbs
+`traveltester`'s other trips (including the Phase 6/R1 regression routes) —
+temporarily zero the field for an exact jitter-free regression re-check.
+
+**Files:** `resource/parsers/json/JsonFieldNames.java`,
+`resource/parsers/MonsterTypeParser.java`, `model/actor/MonsterType.java`,
+`model/actor/Monster.java`, `controller/PathFinder.java`,
+`docs/wip/travellingNPC_dataSchema.md`, plus test data
+(`res/raw/monsterlist_traveltest.json`'s `traveltester` entry).
+**Verification:** compiles clean (`gradlew :app:compileDebugJavaWithJavac`).
+**On-device verification still needed from the user**: talk to `traveltester`
+and send it to "variation one"/"variation two" (and a couple of existing
+rect/diag/control-test trips) to confirm the walked path looks organically
+varied rather than perfectly clean and still arrives correctly, and that
+temporarily setting `pathVarianceMultiplier` back to `0` reproduces the exact
+pre-R4 deterministic route on the Phase 6 `rect1_corner`→`rect3_corner` case.
+
+## R5 — Let an on-screen travelling NPC pause to rest mid-journey
+
+**Goal:** a travelling NPC, only while physically simulated on the map the
+player currently has loaded, should occasionally stand still for a short,
+data-driven number of ticks, with `travelPath`'s ETA bookkeeping corrected to
+match. Full design in `PLAN_refinement.md`'s R5 section.
+
+**Design:** `MonsterType` gains `travelRestChance` (int percent, default `0`,
+rolled once per tick via `Constants.roll100`) and `travelRestDuration`
+(`ConstRange`, default `{min:1, max:2}`). `Monster` gains a **not persisted**
+`travelRestTicksRemaining` (int), mirroring `travelBlockedRetries`'
+short-lived, journey-independent lifetime. The check sits at the very top of
+`MonsterMovementController.determineMonsterNextPosition`'s travel branch,
+before any pathfinding call: if already resting, decrement and stand still;
+otherwise roll `travelRestChance` once, and on success roll
+`travelRestDuration`, correct the ETA (below), and stand still the same way.
+
+**On-screen only, structurally, not by policy.** `determineMonsterNextPosition`
+is only ever reached from `moveMonsters()`'s loop over `currentMap.monsters`;
+`tryPlaceTravellingMonster` (the wall-clock path for pooled, off-screen
+monsters) never calls it at all - confirmed by grep before implementing, not
+assumed. A new `showTravelDebug` log line fires the first time resting logic
+runs, naming the loop/map, so this stays positively checkable on-device too.
+
+**Return value note:** both resting paths return `true` from
+`determineMonsterNextPosition`, not the plan's literal `false` - re-checked
+against that method's own documented return contract (`true` = "already
+fully handled, don't touch `nextPosition`") immediately above it in the
+file. Returning `false` would have driven the normal move machinery
+(`monsterCanMoveTo` + `moveMonsterToNextPosition`, a real animation +
+`onMonsterMoved` listener firing) every single resting tick for a
+zero-distance "move" - directly against the plan's own "cheaper than a real
+tick" framing for this path. `true` matches both the contract and that intent.
+
+**ETA correction:** `MonsterMovementController.correctTravelPathForRest`
+increases `travelPath.predictedTime` by `ticksRested * 10` and
+`cumulatedDistance` on the current `GlobalPathEntry` (identified by
+`travelPath.currentPosition`) and every later one - never an already-completed
+leg, never `distance` itself - by the same amount. Required loosening
+`GlobalPath.predictedTime` and `GlobalPathEntry.cumulatedDistance` from
+`final` to mutable (checked every reader of both fields first via grep -
+only `MonsterMovementController` and `MainView`'s debug view, both read-only,
+neither assumes immutability - before loosening them). Worked through
+algebraically why correcting only `cumulatedDistance` (never touching
+`distance`) is sufficient even across multiple rests on the same leg or a
+later mid-leg hand-off to the travelling pool: both `enterTravellingPool` and
+`tryPlaceTravellingMonster` derive a leg's *start* threshold as
+`cumulatedDistance - distance` rather than from a stored value, so inflating
+`cumulatedDistance` alone correctly shifts both ends of the resting leg
+outward by the cumulative rest time so far, regardless of which of those two
+call sites reads it next. No separate hand-off correction needed:
+`enterTravellingPool` already recalibrates `startTime` from the monster's
+live physical position, which has no independent dependency on how it got
+there.
+
+**Test rig:** `traveltester` (`monsterlist_traveltest.json`) now also has
+`travelRestChance: 25` and `travelRestDuration: {min:1, max:3}` - reuses the
+existing NPC and menu, no new spawn/monster/TMX data needed.
+
+**Files:** `resource/parsers/json/JsonFieldNames.java`,
+`resource/parsers/MonsterTypeParser.java`, `model/actor/MonsterType.java`,
+`model/actor/Monster.java`, `controller/MonsterMovementController.java`,
+`controller/GlobalPathFinder.java`, `docs/wip/travellingNPC_dataSchema.md`,
+plus test data (`res/raw/monsterlist_traveltest.json`'s `traveltester` entry).
+**Verification:** compiles clean (`gradlew :app:compileDebugJavaWithJavac`).
+**On-device verification still needed from the user**: send `traveltester`
+on any trip while staying on `traveltest1`, confirm it visibly pauses for a
+tick or few at a time; check the `showTravelDebug` log for the "resting
+on-screen (...) map=" line and for `predictedTime` growing by exactly
+`10 * ticksRested` each time a rest begins; separately, confirm a monster
+that travels entirely off-screen arrives with no behavioral difference from
+before this phase.
+
+## R5 follow-up — hardcoded cooldown between rests
+
+**Symptom (user-reported after on-device testing):** R5 worked, but a
+monster could rest, walk a single tile, and immediately roll another rest -
+technically correct (each tick's `travelRestChance` roll is independent) but
+visually unnatural, "rest, walk 1 tile, rest again."
+
+**Fix:** `Constants.MONSTER_TRAVEL_REST_COOLDOWN_TICKS = 10` (hardcoded, not
+a new authorable `MonsterType` field, per the user's explicit request) -
+placed alongside `MONSTER_TRAVEL_MAX_BLOCKED_RETRIES`, the same "travel
+tuning constant" family. New, not-persisted `Monster
+.travelRestCooldownRemaining` starts counting down from that constant the
+instant a rest ends (handled for both the "multi-tick rest's final
+decrement" case and the "one-tick rest already over this same tick" case,
+which needed its own explicit check). While the cooldown is active, the
+`travelRestChance` roll is skipped entirely each tick and the monster falls
+through to normal travel movement, exactly as if `travelRestChance` were `0`
+for that stretch.
+
+Implemented as a tick count rather than tracking literal walked distance:
+one tick's local travel-approach step covers at most one tile (the same
+tick~move~tile equivalence R5's own `correctTravelPathForRest` already
+relies on), so a flat tick count is a faithful, much simpler stand-in for
+"tiles walked" - actual distance tracking would also have to account for
+ticks where movement was attempted but blocked, which consume a tick without
+any real position change.
+
+**Files:** `controller/Constants.java`, `model/actor/Monster.java`,
+`controller/MonsterMovementController.java`,
+`docs/wip/travellingNPC_dataSchema.md`.
+**Verification:** compiles clean (`gradlew :app:compileDebugJavaWithJavac`).
+**On-device verification still needed from the user**: confirm consecutive
+rests are now visibly spaced apart rather than back-to-back.
+
+## R6 — Extension point for a future "pause travel for other activities" feature
+
+**Goal:** prepare a clean, reusable attachment point for a future activity
+system (hunting, roaming, etc. - its own separate design pass, out of scope
+here), using R5's resting mechanism as the prototype. No new pause trigger,
+no observable behavior change - a pure refactor. Full design in
+`PLAN_refinement.md`'s R6 section.
+
+**Design:** `Monster.travelRestTicksRemaining` is replaced by a nested
+`Monster.TravelPauseReason` enum (one case today: `resting`) plus
+`travelPauseReason` (nullable) / `travelPauseTicksRemaining`. The single
+inline rest-continuation block in `MonsterMovementController` is split into
+four single-purpose methods: `handleTravelPause(m)` (generalized
+continuation, called once at the top of the travel branch), `beginTravelPause
+(m, reason, ticks)` (starts a new pause and corrects the ETA),
+`onTravelPauseEnded(m)` (reason-specific cleanup), and `correctTravelPathForPause`
+(R5's `correctTravelPathForRest`, renamed - its logic was already fully
+reason-agnostic).
+
+**Per the user's explicit instruction** ("the Rest separation should not
+interfere with stuff like hunting"), `travelRestCooldownRemaining` was
+deliberately *not* folded into the generalized hook - it stays a separate
+field, checked and decremented locally where resting's own trigger (the
+`travelRestChance` roll) lives, not inside the shared
+`handleTravelPause`/`beginTravelPause`/`onTravelPauseEnded` machinery.
+`onTravelPauseEnded`'s `if (endedReason == resting)` guard is the only place
+resting's own follow-up state is touched, so a future pause reason inherits
+the stand-still/ETA-correction mechanism for free but nothing rest-specific.
+The decision of *whether* to begin a pause (resting's cooldown gate + chance
+roll) was likewise kept local to `determineMonsterNextPosition`'s travel
+branch, not folded into a shared "decide to pause" method, for the same
+reason.
+
+Added a "Future extension point" section to `travellingNPC.md` restating the
+plan's coordination requirements (suspend movement via the same hook,
+correct the ETA the same unconditional way, keep reason-specific cleanup
+reason-specific) and its three explicitly open questions (same `travelPath`
+resumed vs. replaced, combat interruptibility, whether `isTravelling` needs
+a third state) without answering them - that's for a future, separate
+planning pass.
+
+**Files:** `model/actor/Monster.java`, `model/actor/MonsterType.java` (one
+stale doc-comment reference fixed), `controller/MonsterMovementController.java`,
+`controller/GlobalPathFinder.java` (doc comments only, updated to point at
+the renamed method), `docs/wip/travellingNPC.md`,
+`docs/wip/travellingNPC_dataSchema.md`.
+**Verification:** compiles clean (`gradlew :app:compileDebugJavaWithJavac`).
+No behavior change intended - re-verify R5's own on-device checks (rests
+pause visibly, spaced apart by the cooldown, `predictedTime` still grows
+correctly) still hold after this refactor.
+
 ## Not yet addressed
 
 Everything else in [PLAN.md](PLAN.md) beyond what's listed above remains
