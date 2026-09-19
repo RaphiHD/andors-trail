@@ -5,7 +5,9 @@
         "iconID":"monsters_ld1:88",
         "monsterClass":"humanoid",
         "spawnGroup":"gorwath",
-        "phraseID":"gorwath"
+        "phraseID":"gorwath",
+        "maxAP":50,
+        "unique":1
     },
     {
         "id":"arensia",

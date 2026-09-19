@@ -30,14 +30,20 @@ public final class Constants {
 	public static final int MONSTER_IMMOBILE_MOVE_COST = 999;
 
 	public static final int TICK_DELAY = 500;
-	private static final int ROUND_DURATION = 6000;
-	private static final int FULLROUND_DURATION = 25000;
+	public static final int ROUND_DURATION = 6000;
+	public static final int FULLROUND_DURATION = 25000;
 	public static final int TICKS_PER_ROUND = ROUND_DURATION / TICK_DELAY;
 	public static final int TICKS_PER_FULLROUND = FULLROUND_DURATION / TICK_DELAY;
 	public static final int SPLATTER_DURATION_MS = 20000;
 	public static final int STATUS_TEXT_AUTOHIDE_DELAY = ROUND_DURATION;
 
 	public static final ConstRange monsterWaitTurns = new ConstRange(5,1);
+	public static final int MONSTER_TRAVEL_MAX_BLOCKED_RETRIES = 10;
+	// One tick's local travel-approach step covers at most one tile (see PathFinder's move cost, 10
+	// distance units per move) - the same tick~move~tile equivalence R5's own ETA correction already
+	// relies on - so a flat tick count doubles as a tile-count minimum spacing between rests without
+	// needing to track actual walked distance separately.
+	public static final int MONSTER_TRAVEL_REST_COOLDOWN_TICKS = 10;
 	public static final long MAP_UNVISITED_RESPAWN_DURATION_MS = 3 * 60 * 1000; // 3 min in milliseconds
 
 	public static final String PREFERENCE_MODEL_LASTRUNVERSION = "lastversion";

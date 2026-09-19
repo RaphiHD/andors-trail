@@ -27,7 +27,7 @@ public final class MonsterSpawningController {
 			final boolean wasAbleToSpawn = spawnInArea(map, tileMap, area, null);
 			if (!wasAbleToSpawn) break;
 		}
-		controllers.actorStatsController.healAllMonsters(area);
+		controllers.actorStatsController.healAllMonsters(map, area);
 	}
 
 	public void maybeSpawn(PredefinedMap map, LayeredTileMap tileMap) {
@@ -51,20 +51,27 @@ public final class MonsterSpawningController {
 	}
 	public boolean TEST_spawnInArea(PredefinedMap map, LayeredTileMap tileMap, MonsterSpawnArea a, MonsterType type) { return spawnInArea(map, tileMap, a, type, null); }
 	private boolean spawnInArea(PredefinedMap map, LayeredTileMap tileMap, MonsterSpawnArea a, MonsterType type, Coord playerPosition) {
-		Coord p = getRandomFreePosition(map, tileMap, a, type.tileSize, playerPosition);
+		Coord p = getRandomFreePosition(map, tileMap, a.area, type.tileSize, playerPosition, a.ignoreAreas);
 		if (p == null) return false;
 		Monster m = a.spawn(p, type);
+		// Before the spawn listener fires, so it observes this monster's final settled state -
+		// beginTravel() can immediately hand the monster off to the travelling pool (removing it
+		// from map.monsters) if the player isn't on this map, and the listener should see that,
+		// not a monster that's about to be yanked away right after being announced as spawned here.
+		if (type.travelDestinationMapID != null) {
+			controllers.monsterMovementController.beginTravel(m, type.travelDestinationMapID, type.travelDestinationAreaID);
+		}
 		monsterSpawnListeners.onMonsterSpawned(map, m);
 		return true;
 	}
 
-	public static Coord getRandomFreePosition(PredefinedMap map, LayeredTileMap tileMap, MonsterSpawnArea a, Size requiredSize, Coord playerPosition) {
+	public static Coord getRandomFreePosition(PredefinedMap map, LayeredTileMap tileMap, CoordRect area, Size requiredSize, Coord playerPosition, boolean ignoreAreas) {
 		CoordRect p = new CoordRect(requiredSize);
 		for(int i = 0; i < 100; ++i) {
 			p.topLeft.set(
-					a.area.topLeft.x + Constants.rnd.nextInt(a.area.size.width)
-					,a.area.topLeft.y + Constants.rnd.nextInt(a.area.size.height));
-			if (!MonsterMovementController.monsterCanMoveTo(null, map, tileMap, p, a.ignoreAreas)) continue;
+					area.topLeft.x + Constants.rnd.nextInt(area.size.width)
+					,area.topLeft.y + Constants.rnd.nextInt(area.size.height));
+			if (!MonsterMovementController.monsterCanMoveTo(null, map, tileMap, p, ignoreAreas)) continue;
 			if (playerPosition != null && p.contains(playerPosition)) continue;
 			return p.topLeft;
 		}
@@ -72,9 +79,7 @@ public final class MonsterSpawningController {
 	}
 
 	public void remove(PredefinedMap map, Monster m) {
-		for (MonsterSpawnArea a : map.spawnAreas) {
-			a.remove(m);
-		}
+		map.removeMonster(m);
 		monsterSpawnListeners.onMonsterRemoved(map, m, m.rectPosition);
 	}
 
@@ -89,7 +94,12 @@ public final class MonsterSpawningController {
 	public void deactivateSpawnArea(MonsterSpawnArea spawnArea, boolean removeAllMonsters) {
 		spawnArea.isSpawning = false;
 		if (removeAllMonsters) {
-			spawnArea.removeAllMonsters();
+			PredefinedMap map = world.maps.findPredefinedMap(spawnArea.mapID);
+			for (Monster m : map.monsters) {
+				if (m.area == spawnArea) {
+					map.removeMonster(m);
+				}
+			}
 		}
 	}
 }

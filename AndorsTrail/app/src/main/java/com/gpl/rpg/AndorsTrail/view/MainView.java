@@ -19,13 +19,18 @@ import com.gpl.rpg.AndorsTrail.controller.listeners.MonsterMovementListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.MonsterSpawnListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.PlayerMovementListener;
 import com.gpl.rpg.AndorsTrail.controller.listeners.VisualEffectFrameListener;
+import com.gpl.rpg.AndorsTrail.controller.GlobalPathFinder;
+import com.gpl.rpg.AndorsTrail.controller.MonsterMovementController;
+import com.gpl.rpg.AndorsTrail.controller.PathFinder;
 import com.gpl.rpg.AndorsTrail.model.ModelContainer;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
 import com.gpl.rpg.AndorsTrail.model.map.MapLayer;
+import com.gpl.rpg.AndorsTrail.model.map.MapObject;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
+import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
 import com.gpl.rpg.AndorsTrail.resource.tiles.TileCollection;
 import com.gpl.rpg.AndorsTrail.resource.tiles.TileManager;
 import com.gpl.rpg.AndorsTrail.util.Coord;
@@ -390,8 +395,169 @@ public final class MainView extends SurfaceView
 		doDrawRect_Ground(canvas, area);
 		doDrawRect_Objects(canvas, area);
 		doDrawRect_Above(canvas, area);
+		if (PathFinder.showPathfinderDebug) {
+			drawPathfinderDebug(canvas, area);
+		}
+		if (MonsterMovementController.showTravelDebug) {
+			drawTravelDebug(canvas, area);
+		}
 		if (useAlternateColorFilterPaint) {
 			applyAlternateFilter(canvas, area);
+		}
+	}
+
+	private void drawPathfinderDebug(Canvas canvas, CoordRect area) {
+		PredefinedMap map = currentMap;
+		if (map == null) return;
+		PathFinder pf = map.pathfinder;
+		if (pf == null || pf.last_visited == null) return;
+
+		synchronized (pf.last_path) {
+			debugPaint.setStyle(Style.FILL);
+			int my = area.topLeft.y;
+			for (int y = 0; y < area.size.height; ++y, ++my) {
+				if (my < 0) continue;
+				if (my >= map.size.height) break;
+				int mx = area.topLeft.x;
+				for (int x = 0; x < area.size.width; ++x, ++mx) {
+					if (mx < 0) continue;
+					if (mx >= map.size.width) break;
+
+					// Control-layer weight, drawn first as a base tint so the visited/path overlays
+					// below still show through on top of it - lets whoever's debugging see, at a
+					// glance, *why* a travelling NPC's route avoided (or accepted) a given tile,
+					// instead of only seeing the resulting path with no visibility into the cost
+					// data that shaped it. 0 (the overwhelming majority of tiles on any map that
+					// doesn't author a "control" layer at all) draws nothing.
+					int weight = map.getPathWeight(mx, my);
+					if (weight > 0) {
+						debugPaint.setColor(Color.argb(110, 255, 120, 0)); // Orange
+						canvas.drawRect(
+								(mx - mapViewArea.topLeft.x) * tileSize,
+								(my - mapViewArea.topLeft.y) * tileSize,
+								(mx - mapViewArea.topLeft.x + 1) * tileSize,
+								(my - mapViewArea.topLeft.y + 1) * tileSize,
+								debugPaint
+						);
+					}
+
+					if (pf.last_visited[my * map.size.width + mx]) {
+						debugPaint.setColor(Color.argb(100, 255, 255, 0)); // Yellow
+						canvas.drawRect(
+								(mx - mapViewArea.topLeft.x) * tileSize,
+								(my - mapViewArea.topLeft.y) * tileSize,
+								(mx - mapViewArea.topLeft.x + 1) * tileSize,
+								(my - mapViewArea.topLeft.y + 1) * tileSize,
+								debugPaint
+						);
+					}
+
+					if (weight > 0) {
+						// Bottom-left, deliberately not overlapping the path distance label below
+						// (top-left of whichever tiles are part of last_path) even on a tile that's
+						// both weighted and on the path.
+						debugPaint.setColor(Color.argb(255, 255, 210, 140));
+						debugPaint.setTextSize(tileSize * 0.35f);
+						canvas.drawText(String.valueOf(weight),
+								(mx - mapViewArea.topLeft.x) * tileSize + 2,
+								(my - mapViewArea.topLeft.y + 1) * tileSize - 2,
+								debugPaint);
+					}
+				}
+			}
+			for (int i = 0; i < pf.last_path.size(); ++i) {
+				Coord c = pf.last_path.get(i);
+				if (area.contains(c)) {
+					if (i == pf.last_path.size() - 1) {
+						debugPaint.setColor(Color.argb(150, 255, 0, 0)); // Red
+					} else if (i == 0) {
+						debugPaint.setColor(Color.argb(150, 255, 0, 255)); // Purple
+					} else {
+						debugPaint.setColor(Color.argb(150, 0, 255, 0)); // Green
+					}
+					canvas.drawRect(
+							(c.x - mapViewArea.topLeft.x) * tileSize,
+							(c.y - mapViewArea.topLeft.y) * tileSize,
+							(c.x - mapViewArea.topLeft.x + 1) * tileSize,
+							(c.y - mapViewArea.topLeft.y + 1) * tileSize,
+							debugPaint
+					);
+
+					if (i < pf.last_path_distances.size()) {
+						int dist = pf.last_path_distances.get(i);
+						debugPaint.setColor(Color.WHITE);
+						debugPaint.setTextSize(tileSize * 0.4f);
+						String text = String.valueOf(dist);
+						canvas.drawText(text,
+								(c.x - mapViewArea.topLeft.x) * tileSize + 2,
+								(c.y - mapViewArea.topLeft.y) * tileSize + debugPaint.getTextSize(),
+								debugPaint);
+					}
+				}
+			}
+		}
+	}
+
+	/**
+	 * Visualizes GlobalPathFinder's cross-map route planning on top of whichever map is currently
+	 * on-screen - the pathfinder overlay above only ever shows one map's *local* A* search, so
+	 * there was previously no way to see a travelling monster's overall multi-map route at a
+	 * glance; you had to cross-reference showTravelDebug's logcat output by hand. For every
+	 * monster anywhere in the world with an active travelDestination (on any map's monster list,
+	 * or abstracted in the world-level travelling pool), highlights whichever of that monster's
+	 * travelPath legs land on the currently displayed map: the next mapchange exit it's heading
+	 * for (cyan), or its final TravelDestinationArea if this is the last leg (orange), each
+	 * labeled with the monster's type ID so multiple travelling monsters stay distinguishable.
+	 */
+	private void drawTravelDebug(Canvas canvas, CoordRect area) {
+		PredefinedMap map = currentMap;
+		if (map == null) return;
+
+		debugPaint.setStyle(Style.STROKE);
+		debugPaint.setStrokeWidth(3);
+		debugPaint.setTextSize(tileSize * 0.3f);
+
+		for (PredefinedMap m : world.maps.getAllMaps()) {
+			for (Monster monster : m.monsters) {
+				drawTravelDebugLegsOnMap(canvas, area, map, monster);
+			}
+		}
+		for (Monster monster : world.monsters.travellingMonsters) {
+			drawTravelDebugLegsOnMap(canvas, area, map, monster);
+		}
+	}
+
+	private void drawTravelDebugLegsOnMap(Canvas canvas, CoordRect area, PredefinedMap displayedMap, Monster m) {
+		if (m.travelDestination == null || m.travelPath == null) return;
+
+		for (int i = 0; i < m.travelPath.path.size(); ++i) {
+			GlobalPathFinder.GlobalPath.GlobalPathEntry e = m.travelPath.path.get(i);
+			if (!e.mapID.equals(displayedMap.name)) continue;
+
+			boolean isFinalLeg = (i == m.travelPath.path.size() - 1);
+			CoordRect markerArea;
+			if (isFinalLeg) {
+				markerArea = m.travelDestination.area;
+			} else {
+				MapObject mo = displayedMap.findEventObject(MapObject.MapObjectType.newmap, e.destinationID);
+				if (mo == null) continue;
+				markerArea = mo.position;
+			}
+			if (!area.intersects(markerArea)) continue;
+
+			debugPaint.setColor(isFinalLeg ? Color.argb(230, 255, 140, 0) : Color.argb(230, 0, 200, 255));
+			canvas.drawRect(
+					(markerArea.topLeft.x - mapViewArea.topLeft.x) * tileSize,
+					(markerArea.topLeft.y - mapViewArea.topLeft.y) * tileSize,
+					(markerArea.topLeft.x - mapViewArea.topLeft.x + markerArea.size.width) * tileSize,
+					(markerArea.topLeft.y - mapViewArea.topLeft.y + markerArea.size.height) * tileSize,
+					debugPaint
+			);
+			String label = m.getMonsterTypeID() + (isFinalLeg ? " (dest)" : " leg " + i);
+			canvas.drawText(label,
+					(markerArea.topLeft.x - mapViewArea.topLeft.x) * tileSize + 2,
+					(markerArea.topLeft.y - mapViewArea.topLeft.y) * tileSize - 4,
+					debugPaint);
 		}
 	}
 
@@ -428,17 +594,15 @@ public final class MainView extends SurfaceView
 			int y = ((model.player.position.y - mapViewArea.topLeft.y) * tileSize * vfxElapsedTime + ((model.player.lastPosition.y - mapViewArea.topLeft.y) * tileSize * (model.player.vfxDuration - vfxElapsedTime))) / model.player.vfxDuration;
 			tiles.drawTile(canvas, model.player.mapIconID, x, y, mPaint);
 		}
-		for (MonsterSpawnArea a : currentMap.spawnAreas) {
-			for (Monster m : a.monsters) {
-				if (!m.hasVFXRunning) {
-					drawFromMapPosition(canvas, area, m.rectPosition, m.iconID, m.isFlippedX);
-				} else if (area.intersects(m.rectPosition) || area.intersects(new CoordRect(m.lastPosition,m.rectPosition.size))) {
-					int vfxElapsedTime = (int) (System.currentTimeMillis() - m.vfxStartTime);
-					if (vfxElapsedTime > m.vfxDuration) vfxElapsedTime = m.vfxDuration;
-					int x = ((m.position.x - mapViewArea.topLeft.x) * tileSize * vfxElapsedTime + ((m.lastPosition.x - mapViewArea.topLeft.x) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
-					int y = ((m.position.y - mapViewArea.topLeft.y) * tileSize * vfxElapsedTime + ((m.lastPosition.y - mapViewArea.topLeft.y) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
-					tiles.drawTile(canvas, m.iconID, x, y, mPaint, m.isFlippedX);
-				}
+		for (Monster m : currentMap.monsters) {
+			if (!m.hasVFXRunning) {
+				drawFromMapPosition(canvas, area, m.rectPosition, m.iconID, m.isFlippedX);
+			} else if (area.intersects(m.rectPosition) || area.intersects(new CoordRect(m.lastPosition,m.rectPosition.size))) {
+				int vfxElapsedTime = (int) (System.currentTimeMillis() - m.vfxStartTime);
+				if (vfxElapsedTime > m.vfxDuration) vfxElapsedTime = m.vfxDuration;
+				int x = ((m.position.x - mapViewArea.topLeft.x) * tileSize * vfxElapsedTime + ((m.lastPosition.x - mapViewArea.topLeft.x) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
+				int y = ((m.position.y - mapViewArea.topLeft.y) * tileSize * vfxElapsedTime + ((m.lastPosition.y - mapViewArea.topLeft.y) * tileSize * (m.vfxDuration - vfxElapsedTime))) / m.vfxDuration;
+				tiles.drawTile(canvas, m.iconID, x, y, mPaint, m.isFlippedX);
 			}
 		}
 	}

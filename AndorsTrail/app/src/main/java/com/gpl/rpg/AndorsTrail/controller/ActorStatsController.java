@@ -362,12 +362,8 @@ public final class ActorStatsController {
 	}
 
 	public void applyConditionsToMonsters(PredefinedMap map, boolean isFullRound) {
-		for (MonsterSpawnArea a : map.spawnAreas) {
-			// Iterate the array backwards, since monsters may get removed from the array inside applyConditionsToMonster.
-			for (int i = a.monsters.size()-1; i >= 0; --i) {
-				final Monster m = a.monsters.get(i);
-				applyConditionsToMonster(m, isFullRound);
-			}
+		for (Monster m : map.monsters) {
+			applyConditionsToMonster(m, isFullRound);
 		}
 	}
 
@@ -640,10 +636,12 @@ public final class ActorStatsController {
 		recalculatePlayerStats(player);
 	}
 
-	public void healAllMonsters(MonsterSpawnArea area) {
-		for (Monster m : area.monsters) {
-			removeAllTemporaryConditions(m);
-			setActorMaxHealth(m);
+	public void healAllMonsters(PredefinedMap map, MonsterSpawnArea area) {
+		for (Monster m : map.monsters) {
+			if (m.area.equals(area)) {
+				removeAllTemporaryConditions(m);
+				setActorMaxHealth(m);
+			}
 		}
 	}
 

@@ -206,7 +206,7 @@ public final class ResourceLoader {
 
 		// ========================================================================
 		// Load maps
-		TMXMapTranslator mapReader = new TMXMapTranslator();
+		TMXMapTranslator mapReader = new TMXMapTranslator(world);
 		final TypedArray mapsToLoad = r.obtainTypedArray(mapsResourceId);
 		for (int i = 0; i < mapsToLoad.length(); ++i) {
 			final int mapResourceId = mapsToLoad.getResourceId(i, -1);
@@ -215,17 +215,18 @@ public final class ResourceLoader {
 		}
 		mapsToLoad.recycle();
 		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("TMXMapReader");
-		world.maps.addAll(mapReader.transformMaps(world.monsterTypes, world.dropLists));
-		loader.prepareAllMapTiles();
-		mapReader = null;
-		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("mapReader.transformMaps");
-
 
 		// ========================================================================
 		// Load graphics resources (icons and tiles)
+		loader.prepareAllMapTiles();
 		loader.flush();
-		loader = null;
 		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("DynamicTileLoader");
+
+		world.maps.addAll(mapReader.transformMaps(r, world.monsterTypes, world.dropLists));
+		mapReader = null;
+		if (AndorsTrailApplication.DEVELOPMENT_DEBUGMESSAGES) timingCheckpoint("mapReader.transformMaps");
+
+		loader = null;
 		// ========================================================================
 
 

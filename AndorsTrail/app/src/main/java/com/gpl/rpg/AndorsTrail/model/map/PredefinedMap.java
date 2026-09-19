@@ -1,18 +1,27 @@
 package com.gpl.rpg.AndorsTrail.model.map;
 
+import static com.gpl.rpg.AndorsTrail.controller.MonsterMovementController.monsterCanMoveTo;
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+
+import android.content.res.Resources;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
+import com.gpl.rpg.AndorsTrail.controller.PathFinder;
 import com.gpl.rpg.AndorsTrail.controller.VisualEffectController.BloodSplatter;
 import com.gpl.rpg.AndorsTrail.model.ChecksumBuilder;
+import com.gpl.rpg.AndorsTrail.model.ModelContainer;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
@@ -26,13 +35,18 @@ import com.gpl.rpg.AndorsTrail.util.Size;
 public final class PredefinedMap {
 	private static final long VISIT_RESET = 0;
 
+	public final WorldContext world;
+
 	public final int xmlResourceId;
 	public final String name;
 	public final Size size;
+	public final LayeredTileMap tileMap;
 	public final MapObject[] eventObjects;
 	public final MonsterSpawnArea[] spawnAreas;
+	public final TravelDestinationArea[] destinationAreas;
 	public final List<String> initiallyActiveMapObjectGroups;
 	public final List<String> activeMapObjectGroups;
+	public final List<Monster> monsters = new CopyOnWriteArrayList<>();
 	public final ArrayList<Loot> groundBags = new ArrayList<Loot>();
 	public final String initialColorFilter;
 	public boolean visited = false;
@@ -43,21 +57,30 @@ public final class PredefinedMap {
 
 	public final ArrayList<BloodSplatter> splatters = new ArrayList<BloodSplatter>();
 
+	public final PathFinder pathfinder;
+	private int[][] mapchangeDistances;
+	private HashMap<String, Integer> mapchangeIndices;
+
 	public PredefinedMap(
-			int xmlResourceId
+			WorldContext world
+			, Resources res
+			, int xmlResourceId
 			, String name
 			, Size size
 			, MapObject[] eventObjects
 			, MonsterSpawnArea[] spawnAreas
+			, TravelDestinationArea[] destinationAreas
 			, List<String> initiallyActiveMapObjectGroups
 			, boolean isOutdoors
 			, String colorFilter
 	) {
+		this.world = world;
 		this.xmlResourceId = xmlResourceId;
 		this.name = name;
 		this.size = size;
 		this.eventObjects = eventObjects;
 		this.spawnAreas = spawnAreas;
+		this.destinationAreas = destinationAreas;
 		this.initiallyActiveMapObjectGroups = initiallyActiveMapObjectGroups;
 		this.activeMapObjectGroups = new LinkedList<String>();
 		this.activeMapObjectGroups.addAll(this.initiallyActiveMapObjectGroups);
@@ -67,26 +90,38 @@ public final class PredefinedMap {
 		this.isOutdoors = isOutdoors;
 		this.initialColorFilter = colorFilter;
 
+		tileMap = TMXMapTranslator.readLayeredTileMap(res, world.tileManager.tileCache, this);
+
+		this.pathfinder = new PathFinder(size.width, size.height, this);
+		this.calculateDistanceMatrix();
+
 		if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
 			for (int i = 0; i < spawnAreas.length; i++) {
 				for (int j = i + 1; j < spawnAreas.length; j++) {
 					if (spawnAreas[i].areaID.equals(spawnAreas[j].areaID)) {
-						L.log("WARNING: duplicate areaID " + spawnAreas[i].areaID + " in map " + this.name);
+						L.log("WARNING: duplicate spawnAreaID " + spawnAreas[i].areaID + " in map " + this.name);
+					}
+				}
+			}
+			for (int i = 0; i < destinationAreas.length; i++) {
+				for (int j = i + 1; j < destinationAreas.length; j++) {
+					if (destinationAreas[i].areaID.equals(destinationAreas[j].areaID)) {
+						L.log("WARNING: duplicate destinationAreaID " + destinationAreas[i].areaID + " in map " + this.name);
 					}
 				}
 			}
 		}
 	}
 
-	public final boolean isOutside(final Coord p) { return isOutside(p.x, p.y); }
-	public final boolean isOutside(final int x, final int y) {
+	public boolean isOutside(final Coord p) { return isOutside(p.x, p.y); }
+	public boolean isOutside(final int x, final int y) {
 		if (x < 0) return true;
 		if (y < 0) return true;
 		if (x >= size.width) return true;
 		if (y >= size.height) return true;
 		return false;
 	}
-	public final boolean isOutside(final CoordRect area) {
+	public boolean isOutside(final CoordRect area) {
 		if (isOutside(area.topLeft)) return true;
 		if (area.topLeft.x + area.size.width > size.width) return true;
 		if (area.topLeft.y + area.size.height > size.height) return true;
@@ -95,7 +130,56 @@ public final class PredefinedMap {
 	public boolean intersects(CoordRect area) {
 		return new CoordRect(new Coord(0,0), size).intersects(area);
 	}
-	
+
+	/**
+	 * The tileMap to read live walkability from: {@code this.tileMap} is built once and never
+	 * touched again (not even by {@code ReplaceableMapSection} - {@code MapController
+	 * .applyReplacements} only ever mutates {@code world.model.currentMaps.tileMap}, a separate
+	 * instance rebuilt from scratch each time a map becomes current), so pathfinding against
+	 * {@code this.tileMap} would be permanently blind to any wall that opens or closes after this
+	 * map was first loaded. Prefer the live, current-map copy - the same one the player's own
+	 * movement already checks - whenever this map happens to be it. There's no live copy to prefer
+	 * for a map the player currently isn't on (nothing tracks replacement state for a non-current
+	 * map at all), so this remains a known limitation for travelling monsters routing through such
+	 * a map; only the current map's replacements are ever guaranteed reflected here.
+	 */
+	private LayeredTileMap liveTileMap() {
+		ModelContainer model = world.model;
+		if (model != null && model.currentMaps != null && model.currentMaps.map == this && model.currentMaps.tileMap != null) {
+			return model.currentMaps.tileMap;
+		}
+		return this.tileMap;
+	}
+
+	public boolean isWalkable(final CoordRect area, boolean ignoreAreas) {
+		if (!liveTileMap().isWalkable(area)) return false;
+
+		if (!ignoreAreas) {
+			for (MapObject mObj : this.eventObjects) {
+				if (mObj == null) continue;
+				if (!mObj.isActive) continue;
+				if (!mObj.position.intersects(area)) continue;
+				switch (mObj.type) {
+					case newmap:
+					case rest:
+						return false;
+					case keyarea:
+						if (!mObj.monstersCanPass) return false;
+						break;
+				}
+			}
+		}
+		return true;
+	}
+	public boolean isWalkable(final CoordRect area, Monster m) {
+		return monsterCanMoveTo(m, this, liveTileMap(), area, m.ignoreAreas);
+	}
+
+	/** Travel path-cost modifier for entering tile (x,y) - see LayeredTileMap.getPathWeight and PathFinder. Reads the same live/current-map-aware copy isWalkable already does. */
+	public int getPathWeight(final int x, final int y) {
+		return liveTileMap().getPathWeight(x, y);
+	}
+
 	public MapObject findEventObject(MapObject.MapObjectType objectType, String name) {
 		for (MapObject o : eventObjects) {
 			if (o.type != objectType) continue;
@@ -104,6 +188,22 @@ public final class PredefinedMap {
 		}
 		return null;
 	}
+
+	public int getDistance(String id1, String id2) {
+		Integer i1 = mapchangeIndices.get(id1);
+		Integer i2 = mapchangeIndices.get(id2);
+		if (i1 == null || i2 == null) return -1;
+		return mapchangeDistances[i1][i2];
+	}
+
+	public void setDistance(String id1, String id2, int distance) {
+		Integer i1 = mapchangeIndices.get(id1);
+		Integer i2 = mapchangeIndices.get(id2);
+		if (i1 != null && i2 != null) {
+			mapchangeDistances[i1][i2] = distance;
+		}
+	}
+
 	public List<MapObject> getActiveEventObjectsAt(final Coord p) {
 		List<MapObject> result = null;
 		for (MapObject o : eventObjects) {
@@ -125,31 +225,49 @@ public final class PredefinedMap {
 		return false;
 	}
 	public Monster getMonsterAt(final CoordRect p) {
-		return getMonsterAt(p, null);
+		for (Monster m : monsters) {
+			if (m.rectPosition.intersects(p)) return m;
+		}
+		return null;
 	}
 	public Monster getMonsterAt(final CoordRect p, Monster exceptMe) {
-		for (MonsterSpawnArea a : spawnAreas) {
-			Monster m = a.getMonsterAt(p);
-			if (m != null && (exceptMe == null || exceptMe != m)) return m;
-		}
+		Monster m = getMonsterAt(p);
+		if (m != null && (exceptMe == null || exceptMe != m)) return m;
 		return null;
 	}
 	public Monster getMonsterAt(final Coord p) { return getMonsterAt(p.x, p.y); }
 	public Monster getMonsterAt(final int x, final int y) {
-		for (MonsterSpawnArea a : spawnAreas) {
-			Monster m = a.getMonsterAt(x, y);
-			if (m != null) return m;
+		for (Monster m : monsters) {
+			if (m.rectPosition.contains(x, y)) return m;
 		}
 		return null;
 	}
 
 	public Monster findSpawnedMonster(final String monsterTypeID) {
-		for (MonsterSpawnArea a : spawnAreas) {
-			Monster m = a.findSpawnedMonster(monsterTypeID);
-			if (m != null) return m;
+		for (Monster m : monsters) {
+			if (m.getMonsterTypeID().equals(monsterTypeID)) return m;
 		}
 		return null;
 	}
+
+	public void removeMonster(Monster m) {
+		m.clearMobCap();
+		monsters.remove(m);
+	}
+
+	public void removeAllMonsters() {
+		for (Monster m : monsters) {
+			m.clearMobCap();
+		}
+		monsters.clear();
+	}
+
+	public void resetShops() {
+		for (Monster m : monsters) {
+			m.resetShopItems();
+		}
+	}
+
 
 	public Loot getBagAt(final Coord p) {
 		for (Loot l : groundBags) {
@@ -180,6 +298,7 @@ public final class PredefinedMap {
 		groundBags.remove(loot);
 	}
 	public void resetForNewGame() {
+		removeAllMonsters();
 		for (MonsterSpawnArea a : spawnAreas) {
 			a.resetForNewGame();
 		}
@@ -201,9 +320,9 @@ public final class PredefinedMap {
 		lastVisitTime = System.currentTimeMillis();
 	}
 	public void resetTemporaryData() {
-		for(MonsterSpawnArea a : spawnAreas) {
-			if (a.isUnique) a.resetShops();
-			else a.removeAllMonsters();
+		for (Monster m : monsters) {
+			if (m.isUnique) m.resetShopItems();
+			else removeAllMonsters();
 		}
 		splatters.clear();
 		lastVisitTime = VISIT_RESET;
@@ -255,6 +374,65 @@ public final class PredefinedMap {
 		}
 	}
 
+	public void calculateDistanceMatrix() {
+		List<String> mapchangeIds = new ArrayList<>();
+		for (MapObject o : eventObjects) {
+			if (o.type == MapObjectType.newmap) {
+				if (!mapchangeIds.contains(o.id)) {
+					mapchangeIds.add(o.id);
+				}
+			}
+		}
+		int count = mapchangeIds.size();
+		mapchangeDistances = new int[count][count];
+		mapchangeIndices = new HashMap<>(count);
+		for (int i = 0; i < count; i++) {
+			mapchangeIndices.put(mapchangeIds.get(i), i);
+		}
+
+		fillMapchangeDistances(pathfinder);
+	}
+
+	private void fillMapchangeDistances(PathFinder pathfinder) {
+		int count = mapchangeDistances.length;
+		if (count <= 1) return;
+
+		MapObject[] mapchanges = new MapObject[count];
+		for (MapObject o : eventObjects) {
+			if (o.type == MapObjectType.newmap) {
+				Integer index = mapchangeIndices.get(o.id);
+				if (index != null && mapchanges[index] == null) {
+					mapchanges[index] = o;
+				}
+			}
+		}
+
+		CoordRect nextStep = new CoordRect(new Size(1, 1));
+		for (int i = 0; i < count; i++) {
+			if (mapchanges[i] == null) continue;
+			Coord c1 = mapchanges[i].position.getCenter();
+			for (int j = i + 1; j < count; j++) {
+				if (mapchanges[j] == null) continue;
+				Coord c2 = mapchanges[j].position.getCenter();
+
+				pathfinder.findPathBetween(new CoordRect(c1, new Size(1, 1)), c2, nextStep);
+				int dist = pathfinder.getLastPathDistance();
+				mapchangeDistances[i][j] = dist;
+				mapchangeDistances[j][i] = dist;
+			}
+		}
+	}
+
+
+	public MapArea getArea(String areaID) {
+		for (MonsterSpawnArea a : spawnAreas) {
+			if (a.areaID.equals(areaID)) return a;
+		}
+		for (TravelDestinationArea a : destinationAreas) {
+			if (a.areaID.equals(areaID)) return a;
+		}
+		return null;
+	}
 
 	// ====== PARCELABLE ===================================================================
 
@@ -263,6 +441,7 @@ public final class PredefinedMap {
 		if (fileversion >= 37) shouldLoadMapData = src.readBoolean();
 
 		int loadedSpawnAreas = 0;
+		int loadedDestinationAreas = 0;
 		if (shouldLoadMapData) {
 			loadedSpawnAreas = src.readInt();
 			for(int i = 0; i < loadedSpawnAreas; ++i) {
@@ -312,6 +491,40 @@ public final class PredefinedMap {
 				} else {
 					this.spawnAreas[i].readFromParcel(src, world, fileversion);
 				}
+			}
+			if (fileversion > 85) {
+				loadedDestinationAreas = src.readInt();
+				for(int i = 0; i < loadedDestinationAreas; ++i) {
+					if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
+						if (i >= this.destinationAreas.length) {
+							L.log("WARNING: Trying to load monsters from savegame in map " + this.name + " for destination #" + i + ". This will totally fail.");
+						}
+					}
+                    String id = src.readUTF();
+                    int j = i;
+                    boolean found = false;
+                    do {
+                        if (this.destinationAreas[j].areaID.equals(id)) {
+                            this.destinationAreas[j].readFromParcel(src, world, fileversion);
+                            found = true;
+                            break;
+                        }
+                        j = (j+1)%destinationAreas.length;
+                    } while (j != i);
+                    if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
+                        if (!found) {
+                            L.log("WARNING: Trying to load monsters from savegame in map " + this.name + " for destination #" + id + " but this area cannot be found. This will totally fail.");
+                        }
+                    }
+                }
+
+				int monsterCount = src.readInt();
+				for (int i = 0; i < monsterCount; i++) {
+					Monster m = Monster.newFromParcel(src, world, fileversion, null);
+					monsters.add(m);
+				}
+
+
 			}
 			
 			activeMapObjectGroups.clear();
@@ -389,11 +602,12 @@ public final class PredefinedMap {
 			if (this.visited && a.isUnique) return true;
 			if (a.isSpawning != a.isSpawningForNewGame) return true;
 		}
-		if (!activeMapObjectGroups.containsAll(initiallyActiveMapObjectGroups) 
-				|| !initiallyActiveMapObjectGroups.containsAll(activeMapObjectGroups)) return true;
-		if (currentColorFilter != null) return true;
-		return false;
-	}
+		if (!new HashSet<>(activeMapObjectGroups).containsAll(initiallyActiveMapObjectGroups)
+				|| !new HashSet<>(initiallyActiveMapObjectGroups).containsAll(activeMapObjectGroups)) {
+			return true;
+		}
+        return currentColorFilter != null;
+    }
 
 	public void writeToParcel(DataOutputStream dest, WorldContext world) throws IOException {
 		if (shouldSaveMapData(world)) {
@@ -402,6 +616,15 @@ public final class PredefinedMap {
 			for(MonsterSpawnArea a : spawnAreas) {
 				dest.writeUTF(a.areaID);
 				a.writeToParcel(dest);
+			}
+			dest.writeInt(destinationAreas.length);
+			for(TravelDestinationArea a : destinationAreas) {
+				dest.writeUTF(a.areaID);
+				a.writeToParcel(dest);
+			}
+			dest.writeInt(monsters.size());
+			for(Monster m : monsters) {
+				m.writeToParcel(dest);
 			}
 			dest.writeInt(activeMapObjectGroups.size());
 			for(String s : activeMapObjectGroups) {
@@ -428,6 +651,14 @@ public final class PredefinedMap {
 			for(MonsterSpawnArea a : spawnAreas) {
 				builder.add(a.areaID);
 				a.addToChecksum(builder);
+			}
+			builder.add(destinationAreas.length);
+			for(TravelDestinationArea a : destinationAreas) {
+				builder.add(a.areaID);
+				a.addToChecksum(builder);
+			}
+			for(Monster m : monsters) {
+				m.addToChecksum(builder);
 			}
 			builder.add(activeMapObjectGroups.size());
 			for(String s : activeMapObjectGroups) {

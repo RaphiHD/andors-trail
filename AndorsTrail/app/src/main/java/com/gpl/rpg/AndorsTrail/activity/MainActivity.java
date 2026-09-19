@@ -444,8 +444,8 @@ public final class MainActivity
 	}
 
 	@Override
-	public void onScriptAreaStartedConversation(String phraseID) {
-		Dialogs.showMapScriptMessage(this, controllers, phraseID);
+	public void onScriptAreaStartedConversation(Monster m, String phraseID) {
+		Dialogs.showMapScriptMessage(this, controllers, phraseID, m);
 	}
 
 	@Override

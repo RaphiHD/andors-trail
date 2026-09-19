@@ -4,6 +4,7 @@ import com.gpl.rpg.AndorsTrail.model.ChecksumBuilder;
 import com.gpl.rpg.AndorsTrail.model.ModelContainer;
 import com.gpl.rpg.AndorsTrail.model.ability.ActorConditionTypeCollection;
 import com.gpl.rpg.AndorsTrail.model.ability.SkillCollection;
+import com.gpl.rpg.AndorsTrail.model.actor.MonsterCollection;
 import com.gpl.rpg.AndorsTrail.model.actor.MonsterTypeCollection;
 import com.gpl.rpg.AndorsTrail.model.item.DropListCollection;
 import com.gpl.rpg.AndorsTrail.model.item.ItemCategoryCollection;
@@ -24,6 +25,7 @@ public final class WorldContext {
 	public final ItemFilterCollection itemFilters;
 	public final ItemCategoryCollection itemCategories;
 	public final MonsterTypeCollection monsterTypes;
+	public final MonsterCollection monsters;
 	public final VisualEffectCollection visualEffectTypes;
 	public final DropListCollection dropLists;
 	public final QuestCollection quests;
@@ -43,6 +45,7 @@ public final class WorldContext {
 		this.itemFilters = new ItemFilterCollection();
 		this.itemCategories = new ItemCategoryCollection();
 		this.monsterTypes = new MonsterTypeCollection();
+		this.monsters = new MonsterCollection();
 		this.visualEffectTypes = new VisualEffectCollection();
 		this.dropLists = new DropListCollection();
 		this.tileManager = new TileManager();
@@ -57,6 +60,7 @@ public final class WorldContext {
 		this.itemFilters = copy.itemFilters;
 		this.itemCategories = copy.itemCategories;
 		this.monsterTypes = copy.monsterTypes;
+		this.monsters = copy.monsters;
 		this.visualEffectTypes = copy.visualEffectTypes;
 		this.dropLists = copy.dropLists;
 		this.tileManager = copy.tileManager;
@@ -68,6 +72,7 @@ public final class WorldContext {
 	}
 	public void resetForNewGame() {
 		maps.resetForNewGame();
+		monsters.resetForNewGame();
 	}
 
 	public byte[] getChecksum() throws DigestException {

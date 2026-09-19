@@ -67,7 +67,7 @@ public final class ConversationController {
 		}
 	}
 
-	private ScriptEffectResult applyScriptEffectsForPhrase(Resources res, final Player player, final Phrase phrase) {
+	private ScriptEffectResult applyScriptEffectsForPhrase(Resources res, final Player player, final Phrase phrase, final Monster npc) {
 		if (phrase.scriptEffects == null || phrase.scriptEffects.length == 0) return null;
 
 		final ScriptEffectResult result = new ScriptEffectResult();
@@ -82,7 +82,7 @@ public final class ConversationController {
 				}
 			}
 			if (!req_false) {
-				applyScriptEffect(res, player, effect, result);
+				applyScriptEffect(res, player, effect, result, npc);
 			}
 		}
 		if (result.isEmpty()) return null;
@@ -92,7 +92,7 @@ public final class ConversationController {
 		return result;
 	}
 
-	private void applyScriptEffect(Resources res, Player player, ScriptEffect effect, ScriptEffectResult result) {
+	private void applyScriptEffect(Resources res, Player player, ScriptEffect effect, ScriptEffectResult result, Monster npc) {
 		switch (effect.type) {
 			case actorCondition:
 				addActorConditionReward(player, effect.effectID, effect.value, result);
@@ -175,6 +175,12 @@ public final class ConversationController {
 			case changeIcon:
 				changeIcon(res, player, effect.effectID, effect.value );
 				break;
+			case setDestination:
+				setTravelDestination(npc, effect.mapName, effect.effectID);
+				break;
+			case setTravelFailedScript:
+				setTravelFailedScript(npc, effect.effectID);
+				break;
 		}
 	}
 
@@ -251,6 +257,14 @@ public final class ConversationController {
 				player.replaceIcon(player.iconID);
 				break;
 		}
+	}
+
+	private void setTravelDestination(Monster monster, String mapID, String destinationID) {
+		if (mapID != null && monster != null) this.controllers.monsterMovementController.beginTravel(monster, mapID, destinationID);
+	}
+
+	private void setTravelFailedScript(Monster monster, String phraseID) {
+		if (monster != null) monster.travelFailedScript = phraseID;
 	}
 
 	private void addAlignmentReward(Player player, String faction, int delta) {
@@ -376,16 +390,19 @@ public final class ConversationController {
 		}
 	}
 
-	private static boolean canSelectReply(final WorldContext world, final Reply reply) {
+	private static boolean canSelectReply(final WorldContext world, final Reply reply, final Monster npc) {
 		if (!reply.hasRequirements()) return true;
 
 		for (Requirement requirement : reply.requires) {
-			if (!canFulfillRequirement(world, requirement)) return false;
+			if (!canFulfillRequirement(world, requirement, npc)) return false;
 		}
 		return true;
 	}
 
 	public static boolean canFulfillRequirement(WorldContext world, Requirement requirement) {
+		return canFulfillRequirement(world, requirement, null);
+	}
+	public static boolean canFulfillRequirement(WorldContext world, Requirement requirement, Monster m) {
 		Player player = world.model.player;
 		GameStatistics stats = world.model.statistics;
 		boolean result;
@@ -495,10 +512,21 @@ public final class ConversationController {
 				SkillInfo skill = world.skills.getSkill(SkillCollection.SkillID.valueOf(requirement.requireID));
 				result =  canLevelupSkillWithQuest(player, skill, levels);
 				break;
+
+			// Requirements specific to Monsters
+			case onMap:
+				result = (m != null && m.currentMapID.equals(requirement.requireID));
+				break;
+			case inArea:
+				result = (m != null && m.area.areaID.equals(requirement.requireID));
+				break;
+			case isTravelling:
+				result = (m != null && m.travelDestination != null);
+				break;
 			default:
 				result =  true;
 		}
-		return requirement.negate ? !result : result;
+		return requirement.negate != result;
 	}
 
 	public static void requirementFulfilled(WorldContext world, Requirement requirement, ControllerContext controllers) {
@@ -641,7 +669,7 @@ public final class ConversationController {
 			setCurrentPhrase(res, phraseID);
 
 			if (applyScriptEffects) {
-				ScriptEffectResult scriptEffectResult = controllers.conversationController.applyScriptEffectsForPhrase(res, player, currentPhrase);
+				ScriptEffectResult scriptEffectResult = controllers.conversationController.applyScriptEffectsForPhrase(res, player, currentPhrase, npc);
 				if (scriptEffectResult != null) {
 					listener.onScriptEffectsApplied(scriptEffectResult);
 				}
@@ -649,7 +677,7 @@ public final class ConversationController {
 
 			if (currentPhrase.message == null) {
 				for (Reply r : currentPhrase.replies) {
-					if (!canSelectReply(world, r)) continue;
+					if (!canSelectReply(world, r, npc)) continue;
 					applyReplyEffect(world, r, controllers);
 					return getNextPhraseID(world, r);
 				}
@@ -664,9 +692,7 @@ public final class ConversationController {
 			}
 
 			for (Reply r : currentPhrase.replies) {
-				if (!canSelectReply(world, r)) {
-					continue;
-				}
+				if (!canSelectReply(world, r, npc)) continue;
 				listener.onConversationHasReply(r, getDisplayMessage(r, player));
 			}
 			return null;
@@ -699,7 +725,7 @@ public final class ConversationController {
 			if (currentPhrase.replies.length != 1) return false;
 			final Reply singleReply = currentPhrase.replies[0];
 			if (!singleReply.text.equals(ConversationCollection.REPLY_NEXT)) return false;
-			if (!canSelectReply(world, singleReply)) return false;
+			if (!canSelectReply(world, singleReply, npc)) return false;
 			return true;
 		}
 	}

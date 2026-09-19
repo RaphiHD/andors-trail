@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="48">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="51">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -203,12 +203,12 @@
  </layer>
  <layer id="4" name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJy9VjsOwjAMDZ0Y+akSCxIcgLU34UYwciOuwI6EWDgBsAICi1o1xrGdqOUt0Djxix3/QvjgVoZwLYOJfWHvieFc6z9Mm7WbwUn3evZrvNYaouj/rmm+ub/v+Jg2v9oZjXch8MbA/QJ4CGvafs+dJNwNbsql6Y75dD0IYTPw34fb7Y3ltgG8kp+rd86s6rddkTem/6uMvMJ3SH2/HNAYR1BesMWyYVvo3xoXRdf2xnLlH37ukjc1xize5zj/Lqm8PZIrs8m3DOt1ry+vSzpQTmu2xDsnZ5aMF+v1kOkdsW9Lvst8lxxenlMp/RRq6qX89gmA9y1LDmgjpi0dIOf2SmdidSiWL1Zv4fJ/9iOMZ+AEW9vI0aMyOyAnAv3LcxQgzVUe0ByN9Qbk5TkK8M5VfI6z+hDlTZVRzhy5NVddOoo3ztsVD0dqjfSAz+uS3IOTEJtSvHp+vcC6Te+Yo4eeBbwA5TOGvw==
+   eJy9VjsOwjAMDZ0Y+akSCxIcgLU34UYwciOuwI6EWDgBsAICi1o1xrGdqOUt0Djxix3/QvjgVoZwLYOJfWHvieFc6z9Mm7WbwUn3evZrvNYaouj/rmm+ub/v+Jg2v9oZjXch8MbA/QJ4CGvafs+dJNwNbsql6Y75dD0IYTPw34fb7Y3ltgG8kp+rd86s6rddkTem/6uMvMJ3SH2/HNAYR1BesMWyYVvo3xoXRdf2xnLlH37ukjc1xize5zj/Lqm8PZIrs8m3DOt1ry+vSzpQTmu2xDsnZ5aMF+v1kOkdsW9Lvst8lxxenlMp/RRq6qX89gmA9y1LDmgjpi0dIOf2SmdidSiWL1Zv4fJ/9iMez23k6FGZHZATgTnGcxQgzVUeUJtivQFjjucowDtX8TnO6kMALX88Ma7p1uTWXHXpKN44b1c8HKk10gM+r0tyD05CbErx6vn1AuOO3jFHDz0LeAGFV4QG
   </data>
  </layer>
  <layer id="5" name="Top" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBiZgJFjYOxVHCB7H4sNjL2jYBSMglEwCkbBKBj+YKS1q0bBKBhOAAAFYwFe
+   eJztzTERACAMBLB2QwE7/mVhBBnfOxIDqfpTr8x7Qu/dmRcAAJjrAV0cASw=
   </data>
  </layer>
  <layer id="6" name="Walkable" width="30" height="30" visible="0">
@@ -250,6 +250,12 @@
    <properties>
     <property name="map" value="home"/>
     <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object id="5" name="traveltest" type="mapchange" x="64" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="traveltest1"/>
+    <property name="place" value="entry"/>
    </properties>
   </object>
   <object id="6" name="east" type="mapchange" x="928" y="416" width="32" height="64">
@@ -295,109 +301,119 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="10" name="Spawn">
-  <object id="16" name="crossglen_wasp" type="spawn" x="736" y="160" width="192" height="160">
+ <objectgroup id="10" name="Destinations">
+  <object id="16" name="destArea1" type="destination" x="320" y="768" width="160" height="64">
+   <properties>
+    <property name="script" value="gorwath_debug"/>
+   </properties>
+  </object>
+  <object id="49" name="destArea2" type="destination" x="32" y="320" width="160" height="64"/>
+  <object id="50" name="destArea3" type="destination" x="320" y="128" width="160" height="64"/>
+ </objectgroup>
+ <objectgroup id="11" name="Spawn">
+  <object id="17" name="crossglen_wasp" type="spawn" x="736" y="160" width="192" height="160">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="crossglen_wasp"/>
    </properties>
   </object>
-  <object id="17" name="trainingrat" type="spawn" x="320" y="96" width="192" height="128">
+  <object id="18" name="trainingrat" type="spawn" x="320" y="96" width="192" height="128">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="trainingrat"/>
    </properties>
   </object>
-  <object id="18" name="crossglen_farmer1" type="spawn" x="192" y="320" width="256" height="128">
+  <object id="19" name="crossglen_farmer1" type="spawn" x="192" y="320" width="256" height="128">
    <properties>
     <property name="spawngroup" value="crossglen_farmer1"/>
    </properties>
   </object>
-  <object id="19" name="crossglen_farmer2" type="spawn" x="64" y="416" width="96" height="192">
+  <object id="20" name="crossglen_farmer2" type="spawn" x="64" y="416" width="96" height="192">
    <properties>
     <property name="spawngroup" value="crossglen_farmer2"/>
    </properties>
   </object>
-  <object id="20" name="crossglen_beetle" type="spawn" x="32" y="320" width="384" height="224">
+  <object id="21" name="crossglen_beetle" type="spawn" x="32" y="320" width="384" height="224">
    <properties>
     <property name="spawngroup" value="crossglen_beetle"/>
    </properties>
   </object>
-  <object id="21" name="crossglen_ant" type="spawn" x="512" y="832" width="384" height="96">
+  <object id="22" name="crossglen_ant" type="spawn" x="512" y="832" width="384" height="96">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="crossglen_ant"/>
    </properties>
   </object>
-  <object id="22" name="odair" type="spawn" x="896" y="32" width="32" height="32">
+  <object id="23" name="odair" type="spawn" x="896" y="32" width="32" height="32">
    <properties>
     <property name="spawngroup" value="odair"/>
    </properties>
   </object>
-  <object id="23" name="oromir" type="spawn" x="896" y="864" width="32" height="32">
+  <object id="24" name="oromir" type="spawn" x="896" y="864" width="32" height="32">
    <properties>
     <property name="spawngroup" value="oromir"/>
    </properties>
   </object>
-  <object id="24" name="gorwath" type="spawn" x="288" y="128" width="96" height="64">
+  <object id="25" name="gorwath" type="spawn" x="288" y="128" width="96" height="64">
    <properties>
     <property name="spawngroup" value="gorwath"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
-  <object id="25" name="halvor" type="spawn" x="736" y="608" width="32" height="32">
+  <object id="26" name="halvor" type="spawn" x="736" y="608" width="32" height="32">
    <properties>
     <property name="spawngroup" value="halvor"/>
    </properties>
   </object>
-  <object id="26" name="oromir_behind_inn_help" type="spawn" x="864" y="544" width="32" height="32">
+  <object id="27" name="oromir_behind_inn_help" type="spawn" x="864" y="544" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="oromir_behind_inn_help"/>
    </properties>
   </object>
-  <object id="27" name="oromir_behind_haystack_help" type="spawn" x="512" y="160" width="32" height="32">
+  <object id="28" name="oromir_behind_haystack_help" type="spawn" x="512" y="160" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="oromir_behind_haystack_help"/>
    </properties>
   </object>
-  <object id="28" name="oromir_behind_inn" type="spawn" x="864" y="512" width="32" height="32">
+  <object id="29" name="oromir_behind_inn" type="spawn" x="864" y="512" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="oromir_behind_inn"/>
    </properties>
   </object>
-  <object id="29" name="oromir_behind_haystack" type="spawn" x="512" y="160" width="32" height="32">
+  <object id="30" name="oromir_behind_haystack" type="spawn" x="512" y="160" width="32" height="32">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="oromir_behind_haystack"/>
    </properties>
   </object>
-  <object id="30" name="ratdom_mara" type="spawn" x="352" y="96" width="192" height="128">
+  <object id="31" name="ratdom_mara" type="spawn" x="352" y="96" width="192" height="128">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="ratdom_mara"/>
    </properties>
   </object>
-  <object id="31" name="ratdom_tharal" type="spawn" x="352" y="96" width="192" height="128">
+  <object id="32" name="ratdom_tharal" type="spawn" x="352" y="96" width="192" height="128">
    <properties>
     <property name="active" value="false"/>
     <property name="spawngroup" value="ratdom_tharal"/>
    </properties>
   </object>
-  <object id="32" name="crossglen_caverat" type="spawn" x="64" y="64" width="864" height="864">
+  <object id="33" name="crossglen_caverat" type="spawn" x="64" y="64" width="864" height="864">
    <properties>
     <property name="active" value="false"/>
     <property name="quantity" value="20"/>
     <property name="spawngroup" value="crossglen_caverat"/>
    </properties>
   </object>
-  <object id="33" name="ratdom_rat_crossglen" type="spawn" x="384" y="0" width="32" height="32">
+  <object id="34" name="ratdom_rat_crossglen" type="spawn" x="384" y="0" width="32" height="32">
    <properties>
     <property name="spawngroup" value="ratdom_rat_crossglen"/>
    </properties>
   </object>
-  <object id="34" name="reindeer" type="spawn" x="96" y="32" width="448" height="128">
+  <object id="35" name="reindeer" type="spawn" x="96" y="32" width="448" height="128">
    <properties>
     <property name="active" value="false"/>
     <property name="ignoreAreas" value="true"/>
@@ -405,8 +421,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Keys">
-  <object id="35" name="galmore_marked_stone_warning_crossglen" type="key" x="320" y="608" width="32" height="32">
+ <objectgroup id="12" name="Keys">
+  <object id="36" name="galmore_marked_stone_warning_crossglen" type="key" x="320" y="608" width="32" height="32">
    <properties>
     <property name="phrase" value="crossglen_marked_stone_warning_selector"/>
     <property name="requireId" value="familiar_shadow"/>
@@ -416,11 +432,11 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="12" name="ratdom_keys" visible="0">
+ <objectgroup id="13" name="ratdom_keys" visible="0">
   <properties>
    <property name="active" value="false"/>
   </properties>
-  <object id="36" name="crossglen_ratdom_key_2" type="key" x="928" y="416" width="32" height="64">
+  <object id="37" name="crossglen_ratdom_key_2" type="key" x="928" y="416" width="32" height="64">
    <properties>
     <property name="phrase" value="crossglen_ratdom_key"/>
     <property name="requireId" value="ratdom_nondisplay"/>
@@ -429,7 +445,7 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="37" name="crossglen_ratdom_key" type="key" x="256" y="928" width="32" height="32">
+  <object id="38" name="crossglen_ratdom_key" type="key" x="256" y="928" width="32" height="32">
    <properties>
     <property name="phrase" value="crossglen_ratdom_key"/>
     <property name="requireId" value="ratdom_nondisplay"/>
@@ -438,7 +454,7 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="38" name="crossglen_ratdom_key_3" type="key" x="544" y="608" width="32" height="32">
+  <object id="39" name="crossglen_ratdom_key_3" type="key" x="544" y="608" width="32" height="32">
    <properties>
     <property name="phrase" value="crossglen_ratdom_key_3"/>
     <property name="requireId" value="ratdom_nondisplay"/>
@@ -448,8 +464,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="13" name="Replace" visible="0">
-  <object id="39" name="ratdom_nondisplay_1" type="replace" x="0" y="0" width="960" height="960">
+ <objectgroup id="14" name="Replace" visible="0">
+  <object id="40" name="ratdom_nondisplay_1" type="replace" x="0" y="0" width="960" height="960">
    <properties>
     <property name="Top" value="ratdom_Top"/>
     <property name="requireId" value="ratdom_nondisplay"/>
@@ -457,7 +473,7 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="40" name="ratdom_nondisplay_not_1" type="replace" x="0" y="0" width="960" height="960">
+  <object id="41" name="ratdom_nondisplay_not_1" type="replace" x="0" y="0" width="960" height="960">
    <properties>
     <property name="Top" value="Top0"/>
     <property name="requireId" value="ratdom_nondisplay"/>
@@ -466,7 +482,7 @@
     <property name="requireValue" value="1"/>
    </properties>
   </object>
-  <object id="41" name="gal_h1g" type="replace" x="768" y="608" width="32" height="32">
+  <object id="42" name="gal_h1g" type="replace" x="768" y="608" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_h"/>
     <property name="requireId" value="sutdover_hidden"/>
@@ -474,7 +490,7 @@
     <property name="requireValue" value="7"/>
    </properties>
   </object>
-  <object id="42" name="gal_h1f" type="replace" x="608" y="96" width="32" height="32">
+  <object id="43" name="gal_h1f" type="replace" x="608" y="96" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_h"/>
     <property name="requireId" value="sutdover_hidden"/>
@@ -482,7 +498,7 @@
     <property name="requireValue" value="7"/>
    </properties>
   </object>
-  <object id="43" name="gal_h1e" type="replace" x="288" y="160" width="32" height="32">
+  <object id="44" name="gal_h1e" type="replace" x="288" y="160" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_h"/>
     <property name="requireId" value="sutdover_hidden"/>
@@ -490,7 +506,7 @@
     <property name="requireValue" value="7"/>
    </properties>
   </object>
-  <object id="44" name="gal_h1d" type="replace" x="288" y="576" width="32" height="32">
+  <object id="45" name="gal_h1d" type="replace" x="288" y="576" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_h"/>
     <property name="requireId" value="sutdover_hidden"/>
@@ -498,7 +514,7 @@
     <property name="requireValue" value="7"/>
    </properties>
   </object>
-  <object id="45" name="gal_h1c" type="replace" x="512" y="608" width="96" height="32">
+  <object id="46" name="gal_h1c" type="replace" x="512" y="608" width="96" height="32">
    <properties>
     <property name="Objects" value="Objects_h"/>
     <property name="requireId" value="sutdover_hidden"/>
@@ -506,7 +522,7 @@
     <property name="requireValue" value="7"/>
    </properties>
   </object>
-  <object id="46" name="gal_h1b" type="replace" x="160" y="800" width="32" height="32">
+  <object id="47" name="gal_h1b" type="replace" x="160" y="800" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_h"/>
     <property name="requireId" value="sutdover_hidden"/>
@@ -514,7 +530,7 @@
     <property name="requireValue" value="7"/>
    </properties>
   </object>
-  <object id="47" name="gal_h1a" type="replace" x="128" y="160" width="32" height="32">
+  <object id="48" name="gal_h1a" type="replace" x="128" y="160" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_h"/>
     <property name="requireId" value="sutdover_hidden"/>

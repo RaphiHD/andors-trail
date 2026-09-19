@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.InflaterInputStream;
 
@@ -121,7 +122,10 @@ public final class TMXMapFileParser {
 	}
 
 
-	private static TMXTileSet readTMXTileSet(XmlResourceParser xrp) {
+	/** Custom per-tile property name (Tiled Tileset Editor) read into TMXTileSet.tileWeights. */
+	private static final String PROPNAME_TILE_WEIGHT = "weight";
+
+	private static TMXTileSet readTMXTileSet(XmlResourceParser xrp) throws XmlPullParserException, IOException {
 		final TMXTileSet ts = new TMXTileSet();
 		ts.firstgid = xrp.getAttributeIntValue(null, "firstgid", 1);
 		ts.name = xrp.getAttributeValue(null, "name");
@@ -135,7 +139,45 @@ public final class TMXMapFileParser {
 				L.log("Tileset \"" + ts.name + "\" has tileheight=" + tileheight + " . Expected " + TILESIZE);
 			}
 		}
+		// Only <tile> child elements carry data we need (per-tile custom properties, e.g. the
+		// "control" tile layer's weight - see TMXMapTranslator); everything else about a tileset
+		// (image source, tile count, ...) is resolved separately via TileCache/DynamicTileLoader
+		// by tileset name, not through this parser.
+		XmlResourceParserUtils.readCurrentTagUntilEnd(xrp, new XmlResourceParserUtils.TagHandler() {
+			@Override
+			public void handleTag(XmlResourceParser xrp, String tagName) throws XmlPullParserException, IOException {
+				if (tagName.equals("tile")) {
+					readTMXTile(xrp, ts);
+				}
+			}
+		});
 		return ts;
+	}
+
+	private static void readTMXTile(XmlResourceParser xrp, final TMXTileSet ts) throws XmlPullParserException, IOException {
+		final int localId = xrp.getAttributeIntValue(null, "id", -1);
+		XmlResourceParserUtils.readCurrentTagUntilEnd(xrp, new XmlResourceParserUtils.TagHandler() {
+			@Override
+			public void handleTag(XmlResourceParser xrp, String tagName) throws XmlPullParserException, IOException {
+				if (!tagName.equals("property")) return;
+				TMXProperty p = readTMXProperty(xrp);
+				if (p.name == null || !p.name.equalsIgnoreCase(PROPNAME_TILE_WEIGHT)) return;
+				try {
+					int weight = Integer.parseInt(p.value);
+					if (weight < 0) {
+						if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
+							L.log("WARNING: Tileset \"" + ts.name + "\", tile " + localId + " has negative weight " + weight + " - clamped to 0.");
+						}
+						weight = 0;
+					}
+					ts.tileWeights.put(localId, weight);
+				} catch (NumberFormatException e) {
+					if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
+						L.log("WARNING: Tileset \"" + ts.name + "\", tile " + localId + " has unparsable weight value \"" + p.value + "\".");
+					}
+				}
+			}
+		});
 	}
 
 	private static TMXObjectGroup readTMXObjectGroup(XmlResourceParser xrp) throws XmlPullParserException, IOException {
@@ -286,6 +328,8 @@ public final class TMXMapFileParser {
 	public static final class TMXTileSet {
 		public int firstgid;
 		public String name;
+		/** Local tile id (0-based within this tileset) -> "weight" custom property, if declared. */
+		public final HashMap<Integer, Integer> tileWeights = new HashMap<Integer, Integer>();
 	}
 	public static final class TMXLayer {
 		public String name;

@@ -2,6 +2,7 @@ package com.gpl.rpg.AndorsTrail.controller.listeners;
 
 import java.util.Collection;
 
+import com.gpl.rpg.AndorsTrail.model.actor.Actor;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 import com.gpl.rpg.AndorsTrail.model.map.MapObject;
@@ -13,8 +14,8 @@ public final class WorldEventListeners extends ListOfListeners<WorldEventListene
 		@Override public void call(WorldEventListener listener, Monster m, String phraseID) { listener.onPlayerStartedConversation(m, phraseID); }
 	};
 
-	private final Function1<WorldEventListener, String> onScriptAreaStartedConversation = new Function1<WorldEventListener, String>() {
-		@Override public void call(WorldEventListener listener, String phraseID) { listener.onScriptAreaStartedConversation(phraseID); }
+	private final Function2<WorldEventListener, Monster, String> onScriptAreaStartedConversation = new Function2<WorldEventListener, Monster, String>() {
+		@Override public void call(WorldEventListener listener, Monster m, String phraseID) { listener.onScriptAreaStartedConversation(m, phraseID); }
 	};
 
 	private final Function1<WorldEventListener, Monster> onPlayerSteppedOnMonster = new Function1<WorldEventListener, Monster>() {
@@ -63,8 +64,8 @@ public final class WorldEventListeners extends ListOfListeners<WorldEventListene
 	}
 
 	@Override
-	public void onScriptAreaStartedConversation(String phraseID) {
-		callAllListeners(this.onScriptAreaStartedConversation, phraseID);
+	public void onScriptAreaStartedConversation(Monster m, String phraseID) {
+		callAllListeners(this.onScriptAreaStartedConversation, m, phraseID);
 	}
 
 	@Override

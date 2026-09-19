@@ -13,6 +13,7 @@ import java.util.List;
 import android.content.res.Resources;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
+import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.model.actor.MonsterType;
 import com.gpl.rpg.AndorsTrail.model.actor.MonsterTypeCollection;
 import com.gpl.rpg.AndorsTrail.model.item.DropList;
@@ -37,9 +38,14 @@ import com.gpl.rpg.AndorsTrail.util.Range;
 import com.gpl.rpg.AndorsTrail.util.Size;
 
 public final class TMXMapTranslator {
+	private final WorldContext world;
 	private final ArrayList<TMXObjectMap> maps = new ArrayList<TMXObjectMap>();
 
-	public void read(Resources r, int xmlResourceId, String name) {
+    public TMXMapTranslator(WorldContext world) {
+        this.world = world;
+    }
+
+    public void read(Resources r, int xmlResourceId, String name) {
 		maps.add(TMXMapFileParser.readObjectMap(r, xmlResourceId, name));
 	}
 
@@ -48,15 +54,15 @@ public final class TMXMapTranslator {
 		return transformMap(resultMap, tileCache);
 	}
 
-	public ArrayList<PredefinedMap> transformMaps(MonsterTypeCollection monsterTypes, DropListCollection dropLists) {
-		return transformMaps(maps, monsterTypes, dropLists);
+	public ArrayList<PredefinedMap> transformMaps(Resources res, MonsterTypeCollection monsterTypes, DropListCollection dropLists) {
+		return transformMaps(res, maps, monsterTypes, dropLists);
 	}
-	public ArrayList<PredefinedMap> transformMaps(Collection<TMXObjectMap> maps, MonsterTypeCollection monsterTypes, DropListCollection dropLists) {
+	public ArrayList<PredefinedMap> transformMaps(Resources res, Collection<TMXObjectMap> maps, MonsterTypeCollection monsterTypes, DropListCollection dropLists) {
 		ArrayList<PredefinedMap> result = new ArrayList<PredefinedMap>();
 
 		for (TMXObjectMap m : maps) {
 			assert(m.name != null);
-			assert(m.name.length() > 0);
+			assert(!m.name.isEmpty());
 			assert(m.width > 0);
 			assert(m.height > 0);
 
@@ -71,6 +77,7 @@ public final class TMXMapTranslator {
 			final Size mapSize = new Size(m.width, m.height);
 			List<MapObject> mapObjects = new LinkedList<MapObject>();
 			List<MonsterSpawnArea> spawnAreas = new LinkedList<MonsterSpawnArea>();
+			List<TravelDestinationArea> destinationAreas = new LinkedList<>();
 			List<String> activeGroups = new LinkedList<String>();
 
 			for (TMXObjectGroup group : m.objectGroups) {
@@ -153,7 +160,8 @@ public final class TMXMapTranslator {
 							monsterTypeIDs[i] = types.get(i).id;
 						}
 						MonsterSpawnArea area = new MonsterSpawnArea(
-								position
+								world
+								,position
 								,new Range(maxQuantity, 0)
 								,new Range(1000, respawnspeed)
 								,object.name
@@ -162,13 +170,33 @@ public final class TMXMapTranslator {
 								,ignoreAreas
 								,group.name
 								,isActiveForNewGame
+								,m.name
 						);
 						spawnAreas.add(area);
+					} else if (object.type.equalsIgnoreCase("destination")) {
+						String script = null;
+						for (TMXProperty p : object.properties) {
+							if (p.name.equalsIgnoreCase("script")) {
+								script = p.value;
+							}
+						}
+
+						TravelDestinationArea area = new TravelDestinationArea(
+								world
+								,m.name
+								,position
+								,object.name
+								,script
+						);
+						destinationAreas.add(area);
 					} else if (object.type.equalsIgnoreCase("key")) {
 						String phraseID = "";
+						boolean monstersCanPass = false;
 						for (TMXProperty p : object.properties) {
 							if (p.name.equalsIgnoreCase("phrase")) {
 								phraseID = p.value;
+							} else if (p.name.equalsIgnoreCase("monstersCanPass")) {
+								monstersCanPass = Boolean.parseBoolean(p.value);
 							} else if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
 								if (!requirementPropertiesNames.contains(p.name.toLowerCase())) {
 									L.log("OPTIMIZE: Map " + m.name + ", key " + object.name + "@" + topLeft.toString() + " has unrecognized property \"" + p.name + "\".");
@@ -176,7 +204,7 @@ public final class TMXMapTranslator {
 							}
 						}
 						Requirement req = parseRequirement(object);
-						mapObjects.add(MapObject.createKeyArea(position, phraseID, req, group.name));
+						mapObjects.add(MapObject.createKeyArea(position, phraseID, req, group.name, monstersCanPass));
 					} else if (object.type.equals("rest")) {
 						mapObjects.add(MapObject.createRestArea(position, object.name, group.name));
 					} else if (object.type.equals("container")) {
@@ -215,8 +243,10 @@ public final class TMXMapTranslator {
 			_eventObjects = mapObjects.toArray(_eventObjects);
 			MonsterSpawnArea[] _spawnAreas = new MonsterSpawnArea[spawnAreas.size()];
 			_spawnAreas = spawnAreas.toArray(_spawnAreas);
+			TravelDestinationArea[] _destinationAreas = new TravelDestinationArea[destinationAreas.size()];
+			_destinationAreas = destinationAreas.toArray(_destinationAreas);
 
-			result.add(new PredefinedMap(m.xmlResourceId, m.name, mapSize, _eventObjects, _spawnAreas, activeGroups, isOutdoors, colorFilter));
+			result.add(new PredefinedMap(world, res, m.xmlResourceId, m.name, mapSize, _eventObjects, _spawnAreas, _destinationAreas, activeGroups, isOutdoors, colorFilter));
 		}
 
 		return result;
@@ -274,8 +304,19 @@ public final class TMXMapTranslator {
 	private static final String LAYERNAME_ABOVE = "above";
 	private static final String LAYERNAME_TOP = "top";
 	private static final String LAYERNAME_WALKABLE = "walkable";
+	/**
+	 * Purely technical, never-rendered layer (same treatment as LAYERNAME_WALKABLE - simply never
+	 * added to defaultLayerNames' rendered set, so MainView never draws it, no rendering code
+	 * involved at all): marks tiles that add weight to a travelling monster's pathfinding cost via
+	 * PathFinder, letting a map author make certain terrain (e.g. a road) preferable without making
+	 * it a hard constraint. Deliberately penalty-only (see travellingNPC_dataSchema.md) - a tile
+	 * with no "weight" custom property (TMXTileSet.tileWeights, read from the Tiled tileset editor)
+	 * costs 0, i.e. unmodified baseline; content authors make a path attractive by weighting the
+	 * terrain *around* it, not by discounting the path itself.
+	 */
+	private static final String LAYERNAME_CONTROL = "control";
 	private static final String PROPNAME_FILTER = "colorfilter";
-	private static final SetOfLayerNames defaultLayerNames = new SetOfLayerNames(LAYERNAME_BASE, LAYERNAME_GROUND, LAYERNAME_OBJECTS, LAYERNAME_ABOVE, LAYERNAME_TOP, LAYERNAME_WALKABLE);
+	private static final SetOfLayerNames defaultLayerNames = new SetOfLayerNames(LAYERNAME_BASE, LAYERNAME_GROUND, LAYERNAME_OBJECTS, LAYERNAME_ABOVE, LAYERNAME_TOP, LAYERNAME_WALKABLE, LAYERNAME_CONTROL);
 
 	private static LayeredTileMap transformMap(TMXLayerMap map, TileCache tileCache) {
 		final Size mapSize = new Size(map.width, map.height);
@@ -323,6 +364,7 @@ public final class TMXMapTranslator {
 						else if (prop.name.equalsIgnoreCase(LAYERNAME_ABOVE)) layerNames.aboveLayersName = prop.value;
 						else if (prop.name.equalsIgnoreCase(LAYERNAME_TOP)) layerNames.topLayersName = prop.value;
 						else if (prop.name.equalsIgnoreCase(LAYERNAME_WALKABLE)) layerNames.walkableLayersName = prop.value;
+						else if (prop.name.equalsIgnoreCase(LAYERNAME_CONTROL)) layerNames.controlLayerName = prop.value;
 						else if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
 							if (!requirementPropertiesNames.contains(prop.name.toLowerCase()))
 								L.log("OPTIMIZE: Map " + map.name + " contains replace area with unknown property \"" + prop.name + "\".");
@@ -367,8 +409,9 @@ public final class TMXMapTranslator {
 		final MapLayer layerAbove = transformMapLayer(layersPerLayerName, layerNames.aboveLayersName, srcMap, tileCache, area, usedTileIDs);
 		final MapLayer layerTop = transformMapLayer(layersPerLayerName, layerNames.topLayersName, srcMap, tileCache, area, usedTileIDs);
 		boolean[][] isWalkable = transformWalkableMapLayer(findLayer(layersPerLayerName, layerNames.walkableLayersName, srcMap.name), area);
+		int[][] pathWeight = transformControlMapLayer(srcMap, findLayer(layersPerLayerName, layerNames.controlLayerName, srcMap.name), area);
 		byte[] layoutHash = calculateLayoutHash(srcMap, layersPerLayerName, layerNames);
-		return new MapSection(layerBase, layerGround, layerObjects, layerAbove, layerTop, isWalkable, layoutHash);
+		return new MapSection(layerBase, layerGround, layerObjects, layerAbove, layerTop, isWalkable, pathWeight, layoutHash);
 	}
 
 	private static TMXLayer findLayer(HashMap<String, TMXLayer> layersPerLayerName, String layerName, String mapName) {
@@ -376,7 +419,12 @@ public final class TMXMapTranslator {
 		if (layerName.length() == 0) return null;
 		TMXLayer result = layersPerLayerName.get(layerName.toLowerCase());
 		if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
-			if (result == null && !"top".equals(layerName) && !"base".equals(layerName)) {
+			// "control" is exempted the same way "top"/"base" already are: legitimately absent on
+			// the overwhelming majority of maps (it's an opt-in, rarely-used layer), unlike every
+			// other named layer here, which is either required or a deliberate per-replace-object
+			// override. Without this, every map lacking one - effectively the entire game except
+			// whichever test map(s) actually use this feature - would log a spurious warning.
+			if (result == null && !"top".equals(layerName) && !"base".equals(layerName) && !LAYERNAME_CONTROL.equals(layerName)) {
 				L.log("WARNING: Cannot find maplayer \"" + layerName + "\" requested by map \"" + mapName + "\".");
 			}
 		}
@@ -432,6 +480,49 @@ public final class TMXMapTranslator {
 		return isWalkable;
 	}
 
+	/**
+	 * Unlike transformWalkableMapLayer (which only needs gid presence/absence), a weight layer
+	 * needs to know *which* tile was placed, since the weight is a per-tile custom property (see
+	 * TMXTileSet.tileWeights). Returns null when there's no control layer on this map at all - the
+	 * same null-when-absent contract as transformWalkableMapLayer/isWalkable, not the
+	 * always-allocated array an earlier version of this method used. That earlier version allocated
+	 * a full map-sized int[][] for every one of this game's ~1229 maps and ~1990 replace sections
+	 * regardless of whether any of them ever authored a control layer (only one test map does),
+	 * permanently retaining several MB of all-zero arrays for the entire app lifetime - found to be
+	 * a real contributor to an out-of-memory crash during world setup, not just a theoretical
+	 * concern. Worth the one extra null check this reintroduces in PathFinder's hot loop.
+	 */
+	private static int[][] transformControlMapLayer(TMXLayerMap srcMap, TMXLayer srcLayer, CoordRect area) {
+		if (srcLayer == null) return null;
+		final int[][] pathWeight = new int[area.size.width][area.size.height];
+		for (int dy = 0, sy = area.topLeft.y; dy < area.size.height; ++dy, ++sy) {
+			for (int dx = 0, sx = area.topLeft.x; dx < area.size.width; ++dx, ++sx) {
+				int gid = srcLayer.gids[sx][sy];
+				if (gid <= 0) continue;
+				pathWeight[dx][dy] = getTileWeight(srcMap, gid);
+			}
+		}
+		return pathWeight;
+	}
+
+	private static int getTileWeight(TMXLayerMap map, int gid) {
+		for (int i = map.tileSets.length - 1; i >= 0; --i) {
+			TMXTileSet ts = map.tileSets[i];
+			if (ts.firstgid <= gid) {
+				Integer weight = ts.tileWeights.get(gid - ts.firstgid);
+				if (weight == null) {
+					if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
+						L.log("OPTIMIZE: Map " + map.name + " has a control-layer tile from tileset \"" + ts.name + "\" (local id " + (gid - ts.firstgid) + ") with no \"weight\" property - treated as 0.");
+					}
+					return 0;
+				}
+				return weight;
+			}
+		}
+		L.log("WARNING: Cannot find tileset for control-layer gid " + gid + " on map " + map.name);
+		return 0;
+	}
+
 	private static byte[] calculateLayoutHash(TMXLayerMap map, HashMap<String, TMXLayer> layersPerLayerName, SetOfLayerNames layerNames) {
 		try {
 			MessageDigest digest = MessageDigest.getInstance("MD5");
@@ -479,6 +570,7 @@ public final class TMXMapTranslator {
 		public String aboveLayersName;
 		public String topLayersName;
 		public String walkableLayersName;
+		public String controlLayerName;
 		public SetOfLayerNames() {
 			this.baseLayerName = null;
 			this.groundLayerName = null;
@@ -486,14 +578,16 @@ public final class TMXMapTranslator {
 			this.aboveLayersName = null;
 			this.topLayersName = null;
 			this.walkableLayersName = null;
+			this.controlLayerName = null;
 		}
-		public SetOfLayerNames(String baseLayerName, String groundLayerName, String objectsLayerName, String aboveLayersName, String topLayersName, String walkableLayersName) {
+		public SetOfLayerNames(String baseLayerName, String groundLayerName, String objectsLayerName, String aboveLayersName, String topLayersName, String walkableLayersName, String controlLayerName) {
 			this.baseLayerName = baseLayerName;
 			this.groundLayerName = groundLayerName;
 			this.objectsLayerName = objectsLayerName;
 			this.aboveLayersName = aboveLayersName;
 			this.topLayersName = topLayersName;
 			this.walkableLayersName = walkableLayersName;
+			this.controlLayerName = controlLayerName;
 		}
 	}
 }

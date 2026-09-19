@@ -15,13 +15,10 @@ import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
 import com.gpl.rpg.AndorsTrail.util.Range;
 
-public final class MonsterSpawnArea {
-	public final CoordRect area;
+public final class MonsterSpawnArea extends MapArea {
 	public final Range quantity;
 	private final Range respawnspeed;
-	public final String areaID;
 	public final String[] monsterTypeIDs;
-	public final List<Monster> monsters = new CopyOnWriteArrayList<Monster>();
 	public final boolean isUnique; // unique == non-respawnable
 	public final boolean ignoreAreas; //Can spawn on other game objects area.
 	private final String group;
@@ -29,7 +26,8 @@ public final class MonsterSpawnArea {
 	public final boolean isSpawningForNewGame;
 
 	public MonsterSpawnArea(
-			CoordRect area
+			WorldContext world
+			, CoordRect area
 			, Range quantity
 			, Range respawnspeed
 			, String areaID
@@ -38,11 +36,11 @@ public final class MonsterSpawnArea {
 			, boolean ignoreAreas
 			, String group
 			, boolean isSpawningForNewGame
+			, String mapID
 	) {
-		this.area = area;
+		super(world, area, areaID, mapID);
 		this.quantity = quantity;
 		this.respawnspeed = respawnspeed;
-		this.areaID = areaID;
 		this.monsterTypeIDs = monsterTypeIDs;
 		this.isUnique = isUnique;
 		this.ignoreAreas = ignoreAreas;
@@ -51,28 +49,7 @@ public final class MonsterSpawnArea {
 		this.isSpawning = isSpawningForNewGame;
 	}
 
-	public Monster getMonsterAt(final Coord p) { return getMonsterAt(p.x, p.y); }
-	public Monster getMonsterAt(final int x, final int y) {
-		for (Monster m : monsters) {
-			if (m.rectPosition.contains(x, y)) return m;
-		}
-		return null;
-	}
-	public Monster getMonsterAt(final CoordRect p) {
-		for (Monster m : monsters) {
-			if (m.rectPosition.intersects(p)) return m;
-		}
-		return null;
-	}
-
-	public Monster findSpawnedMonster(String monsterTypeID) {
-		for (Monster m : monsters) {
-			if (m.getMonsterTypeID().equals(monsterTypeID)) return m;
-		}
-		return null;
-	}
-
-	public void spawn(Coord p, WorldContext context) {
+    public void spawn(Coord p, WorldContext context) {
 		final String monsterTypeID = monsterTypeIDs[Constants.rnd.nextInt(monsterTypeIDs.length)];
 		spawn(p, monsterTypeID, context);
 	}
@@ -86,13 +63,10 @@ public final class MonsterSpawnArea {
 	public Monster spawn(Coord p, MonsterType type) {
 		Monster m = new Monster(type, this);
 		m.position.set(p);
-		monsters.add(m);
+		PredefinedMap map = world.maps.findPredefinedMap(this.mapID);
+		map.monsters.add(m);
 		quantity.current++;
 		return m;
-	}
-
-	public void remove(Monster m) {
-		if (monsters.remove(m)) quantity.current--;
 	}
 
 	public boolean isSpawnable(boolean includeUniqueMonsters) {
@@ -105,19 +79,7 @@ public final class MonsterSpawnArea {
 		return Constants.rollResult(respawnspeed);
 	}
 
-	public void removeAllMonsters() {
-		monsters.clear();
-		quantity.current = 0;
-	}
-
-	public void resetShops() {
-		for (Monster m : monsters) {
-			m.resetShopItems();
-		}
-	}
-
-	public void resetForNewGame() {
-		removeAllMonsters();
+    public void resetForNewGame() {
 		isSpawning = isSpawningForNewGame;
 	}
 
@@ -125,28 +87,18 @@ public final class MonsterSpawnArea {
 	// ====== PARCELABLE ===================================================================
 
 	public void readFromParcel(DataInputStream src, WorldContext world, int fileversion) throws IOException {
-		monsters.clear();
 		isSpawning = isSpawningForNewGame;
 		if (fileversion >= 41) isSpawning = src.readBoolean();
 		quantity.current = src.readInt();
-		for(int i = 0; i < quantity.current; ++i) {
-			monsters.add(Monster.newFromParcel(src, world, fileversion, this));
-		}
 	}
 
 	public void writeToParcel(DataOutputStream dest) throws IOException {
 		dest.writeBoolean(isSpawning);
-		dest.writeInt(monsters.size());
-		for (Monster m : monsters) {
-			m.writeToParcel(dest);
-		}
+		dest.writeInt(quantity.current);
 	}
 
 	public void addToChecksum(ChecksumBuilder builder) {
 		builder.add(isSpawning);
-		builder.add(monsters.size());
-		for (Monster m : monsters) {
-			m.addToChecksum(builder);
-		}
+		builder.add(quantity.current);
 	}
 }

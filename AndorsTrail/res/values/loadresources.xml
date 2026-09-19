@@ -286,6 +286,8 @@
         <!--Added by ATCS 0.7.4 for project undertell-->
         <item>@raw/questlist_lake_laeroth_2</item>
         <item>@raw/questlist_undertell</item>
+
+        <item>@raw/questlist_traveltest</item>
     </array>
         
     <array name="loadresource_conversationlists">
@@ -513,6 +515,8 @@
         <!--Added by ATCS 0.7.4 for project undertell-->
         <item>@raw/conversationlist_lake_laeroth_2</item>
         <item>@raw/conversationlist_undertell</item>
+
+        <item>@raw/conversationlist_traveltest</item>
     </array>
         
     <array name="loadresource_monsters">
@@ -593,6 +597,8 @@
         <!--Added by ATCS 0.7.4 for project undertell-->
         <item>@raw/monsterlist_lake_laeroth_2</item>
         <item>@raw/monsterlist_undertell</item>
+
+        <item>@raw/monsterlist_traveltest</item>
     </array>
         
     <array name="loadresource_maps">
@@ -1919,6 +1925,9 @@
         <item>@xml/undertell_exit</item>
         <item>@xml/white_house</item>
         <item>@xml/white_house_basement</item>
+
+        <item>@xml/traveltest1</item>
+        <item>@xml/traveltest2</item>
     </array>
         
 </resources>

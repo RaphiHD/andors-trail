@@ -20,6 +20,9 @@ import com.gpl.rpg.AndorsTrail.util.Size;
 public final class MonsterTypeParser extends JsonCollectionParserFor<MonsterType> {
 
 	private final Size size1x1 = new Size(1, 1);
+	// ConstRange(max, current) - "current" is the min end of the range, per the constructor's own
+	// convention (see parseConstRange). "1-2 ticks" as {min:1, max:2}.
+	private static final ConstRange defaultTravelRestDuration = new ConstRange(2, 1);
 	private final DropListCollection droplists;
 	private final ItemTraitsParser itemTraitsParser;
 	private final DynamicTileLoader tileLoader;
@@ -57,6 +60,21 @@ public final class MonsterTypeParser extends JsonCollectionParserFor<MonsterType
 
 		final int horizontalFlipChance = o.optInt(JsonFieldNames.Monster.horizontalFlipChance, 0);
 
+		final String travelFailedScript = o.optString(JsonFieldNames.Monster.travelFailedScript, null);
+		final JSONObject travelDestination = o.optJSONObject(JsonFieldNames.Monster.travelDestination);
+		final String travelDestinationMapID = travelDestination == null ? null : travelDestination.optString(JsonFieldNames.MonsterTravelDestination.mapName, null);
+		final String travelDestinationAreaID = travelDestination == null ? null : travelDestination.optString(JsonFieldNames.MonsterTravelDestination.areaID, null);
+		// Clamped here (not just documented as a convention) so a typo'd or out-of-range content
+		// value can't slip through into PathFinder as an unbounded per-tile detour incentive - see
+		// MonsterType.pathVarianceMultiplier's doc comment.
+		final float pathVarianceMultiplier = Math.max(0f, Math.min(1f, (float) o.optDouble(JsonFieldNames.Monster.pathVarianceMultiplier, 0)));
+
+		final int travelRestChance = o.optInt(JsonFieldNames.Monster.travelRestChance, 0);
+		final JSONObject travelRestDurationObj = o.optJSONObject(JsonFieldNames.Monster.travelRestDuration);
+		final ConstRange travelRestDuration = travelRestDurationObj != null
+				? ResourceParserUtils.parseConstRange(travelRestDurationObj)
+				: defaultTravelRestDuration;
+
 		return new Pair<String, MonsterType>(monsterTypeID, new MonsterType(
 				monsterTypeID
 				, translationLoader.translateMonsterTypeName(o.getString(JsonFieldNames.Monster.name))
@@ -84,6 +102,12 @@ public final class MonsterTypeParser extends JsonCollectionParserFor<MonsterType
 				, hitEffect == null ? null : new ItemTraits_OnUse[] { hitEffect }
 				, hitReceivedEffect == null ? null : new ItemTraits_OnHitReceived[] { hitReceivedEffect }
 				, deathEffect
+				, travelFailedScript
+				, travelDestinationMapID
+				, travelDestinationAreaID
+				, pathVarianceMultiplier
+				, travelRestChance
+				, travelRestDuration
 		));
 	}
 

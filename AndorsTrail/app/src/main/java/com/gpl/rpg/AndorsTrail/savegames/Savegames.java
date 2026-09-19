@@ -255,6 +255,7 @@ public final class Savegames {
 
 		world.maps.writeToParcel(dest, world);
 		world.model.writeToParcel(dest);
+		world.monsters.writeToParcel(dest);
 		dest.close();
 	}
 
@@ -266,6 +267,7 @@ public final class Savegames {
 
 		world.maps.readFromParcel(src, world, controllers, header.fileversion);
 		world.model = new ModelContainer(src, world, controllers, header.fileversion);
+		world.monsters.readFromParcel(src, world, header.fileversion);
 		src.close();
 		if (header.fileversion >= 81) {
 			checkChecksum(world);

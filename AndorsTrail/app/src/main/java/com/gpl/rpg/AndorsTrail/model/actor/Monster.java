@@ -6,13 +6,17 @@ import java.io.IOException;
 
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.Constants;
+import com.gpl.rpg.AndorsTrail.controller.GlobalPathFinder;
 import com.gpl.rpg.AndorsTrail.model.ChecksumBuilder;
 import com.gpl.rpg.AndorsTrail.model.ability.ActorCondition;
 import com.gpl.rpg.AndorsTrail.model.ability.SkillCollection;
 import com.gpl.rpg.AndorsTrail.model.item.DropList;
 import com.gpl.rpg.AndorsTrail.model.item.ItemContainer;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
+import com.gpl.rpg.AndorsTrail.model.map.MapArea;
 import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
+import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
+import com.gpl.rpg.AndorsTrail.model.map.TravelDestinationArea;
 import com.gpl.rpg.AndorsTrail.savegames.LegacySavegameFormatReaderForMonster;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
@@ -21,24 +25,99 @@ import com.gpl.rpg.AndorsTrail.util.Range;
 public final class Monster extends Actor {
 
 	public Coord movementDestination = null;
+	public TravelDestinationArea travelDestination = null;
+	public GlobalPathFinder.GlobalPath travelPath = null;
+	/**
+	 * Consecutive ticks the local approach step of an in-progress journey has failed to find a
+	 * path (an obstruction, or a layout change that closed the route). Not persisted - it's a
+	 * short-lived retry counter, not part of the journey itself. See
+	 * MonsterMovementController.handleBlockedTravelPath.
+	 */
+	public int travelBlockedRetries = 0;
+
+	/**
+	 * R6: which reason (if any) is currently suspending this monster's tick-driven travel movement -
+	 * null means "not paused". The only case that exists today is {@code resting} (R5); a future
+	 * activity system (hunting, roaming, etc. - explicitly out of scope for R6) would add its own
+	 * case here and reuse {@code MonsterMovementController.handleTravelPause}/
+	 * {@code correctTravelPathForPause} rather than maintaining its own parallel "stand still and
+	 * correct the ETA" logic. See travellingNPC.md's forward-looking design note for what a future
+	 * pause reason would still need to coordinate with.
+	 */
+	public static enum TravelPauseReason {
+		resting
+	}
+	public TravelPauseReason travelPauseReason = null;
+	/**
+	 * Ticks remaining in the current travelPauseReason, if any - decremented once per tick while
+	 * paused, standing still (see MonsterMovementController.handleTravelPause). Like
+	 * travelBlockedRetries, this is short-lived, on-screen-only state, not part of the journey
+	 * itself - not persisted.
+	 */
+	public int travelPauseTicksRemaining = 0;
+	/**
+	 * Ticks remaining before another rest may be rolled, counted down from
+	 * Constants.MONSTER_TRAVEL_REST_COOLDOWN_TICKS once an in-progress rest ends - stops a monster
+	 * from resting, walking a single tile, and immediately resting again, which reads as unnatural.
+	 * Deliberately kept separate from travelPauseReason/travelPauseTicksRemaining above, rather than
+	 * folded into the generalized pause hook: this is specifically a cooldown on *rolling a new
+	 * rest*, a concept a future, unrelated pause reason (e.g. hunting) has no reason to inherit.
+	 * Ephemeral like travelPauseTicksRemaining - not persisted.
+	 */
+	public int travelRestCooldownRemaining = 0;
+	/**
+	 * Phrase ID run (as this monster's NPC context, via MapController.runScriptForNpc) whenever a
+	 * journey fails - either unreachable from the start (beginTravel) or given up on after too
+	 * many blocked retries (handleBlockedTravelPath). Unlike travelDestination, this isn't cleared
+	 * once used - it's a standing per-NPC fallback behavior (e.g. "always go back home if you
+	 * can't get there"), set via the setTravelFailedScript reward, not a one-shot per-journey
+	 * setting. Deliberately a property of the traveler, not of TravelDestinationArea: which
+	 * destinations exist is shared across every monster that might target them, but how a specific
+	 * NPC reacts to failing to reach one is not.
+	 */
+	public String travelFailedScript = null;
+	/**
+	 * Per-instance seed for PathFinder.jitter()'s deterministic per-tile route variance (R4) -
+	 * assigned once, here, so this monster's "walks slightly off the exact same line as every
+	 * other monster of its type" quirk reads as a stable trait of this individual rather than
+	 * reshuffling every time a path is recomputed (which happens every tick) or every time the
+	 * game is reloaded. Not authored data - see MonsterType.pathVarianceMultiplier for the
+	 * authored *amount* of variance; this is only ever the per-instance random offset that gets
+	 * scaled by it.
+	 */
+	public int pathVarianceSeed;
 	public long nextActionTime = 0;
+	public String currentMapID;
 	public final CoordRect nextPosition;
+	public boolean ignoreAreas = false;
+	public boolean isUnique = false;
 
 	private boolean forceAggressive = false;
 	private ItemContainer shopItems = null;
 
 	public final MonsterType monsterType;
-	public final MonsterSpawnArea area;
+	public MapArea area;
 
 	public final boolean isFlippedX;
 
-	public Monster(MonsterType monsterType, MonsterSpawnArea area) {
+	public Monster(MonsterType monsterType, MapArea area) {
 		super(monsterType.tileSize, false, monsterType.isImmuneToCriticalHits());
 		this.monsterType = monsterType;
 		this.area = area;
 		this.iconID = monsterType.iconID;
 		this.isFlippedX = Constants.roll100(monsterType.horizontalFlipChance);
+		if (area != null) {
+			this.currentMapID = area.mapID;
+			if (area instanceof MonsterSpawnArea) this.ignoreAreas = ((MonsterSpawnArea) area).ignoreAreas;
+		}
 		this.nextPosition = new CoordRect(new Coord(), monsterType.tileSize);
+		// Applied here, once, rather than in resetStatsToBaseTraits(): that method is also called
+		// from ActorStatsController.recalculateMonsterCombatTraits(), on every combat-stat
+		// recalculation (e.g. after a condition change), which happens repeatedly over a monster's
+		// whole lifetime, not just at spawn - re-applying the MonsterType default there would
+		// silently clobber a travelFailedScript already set via the setTravelFailedScript reward.
+		this.travelFailedScript = monsterType.travelFailedScript;
+		this.pathVarianceSeed = Constants.rnd.nextInt();
 		resetStatsToBaseTraits();
 		this.ap.setMax();
 		this.health.setMax();
@@ -103,22 +182,29 @@ public final class Monster extends Actor {
 		forceAggressive = true;
 	}
 
+	public void clearMobCap() {
+		if (area instanceof MonsterSpawnArea) {
+			((MonsterSpawnArea) area).quantity.current -= 1;
+		}
+	}
+
 
 	// ====== PARCELABLE ===================================================================
 
-	public static Monster newFromParcel(DataInputStream src, WorldContext world, int fileversion, MonsterSpawnArea area) throws IOException {
+	public static Monster newFromParcel(DataInputStream src, WorldContext world, int fileversion, MapArea area) throws IOException {
 		String monsterTypeId = src.readUTF();
 		if (fileversion < 20) {
 			monsterTypeId = monsterTypeId.replace(' ', '_').replace("\\'", "").toLowerCase();
 		}
 		MonsterType monsterType = world.monsterTypes.getMonsterType(monsterTypeId);
 
-		if (fileversion < 25) return LegacySavegameFormatReaderForMonster.newFromParcel_pre_v25(src, fileversion, monsterType, area);
-
+		if (fileversion < 25 && area instanceof MonsterSpawnArea) {
+			return LegacySavegameFormatReaderForMonster.newFromParcel_pre_v25(src, fileversion, monsterType, (MonsterSpawnArea) area);
+		}
 		return new Monster(src, world, fileversion, monsterType, area);
 	}
 
-	private Monster(DataInputStream src, WorldContext world, int fileversion, MonsterType monsterType, MonsterSpawnArea area) throws IOException {
+	private Monster(DataInputStream src, WorldContext world, int fileversion, MonsterType monsterType, MapArea area) throws IOException {
 		this(monsterType, area);
 
 		boolean readCombatTraits = true;
@@ -156,6 +242,48 @@ public final class Monster extends Actor {
 			if (src.readBoolean()) {
 				this.shopItems = ItemContainer.newFromParcel(src, world, fileversion);
 			}
+		}
+
+		if (fileversion > 85) {
+			this.ignoreAreas = src.readBoolean();
+			this.currentMapID = src.readUTF();
+			if (src.readBoolean()) {
+				String areaID = src.readUTF();
+				PredefinedMap map = world.maps.findPredefinedMap(this.currentMapID);
+				if (map != null) {
+					this.area = map.getArea(areaID);
+				}
+			}
+		}
+
+		if (fileversion >= 87) {
+			if (src.readBoolean()) {
+				String destMapID = src.readUTF();
+				String destAreaID = src.readUTF();
+				PredefinedMap destMap = world.maps.findPredefinedMap(destMapID);
+				if (destMap != null) {
+					MapArea destArea = destMap.getArea(destAreaID);
+					if (destArea instanceof TravelDestinationArea) {
+						this.travelDestination = (TravelDestinationArea) destArea;
+					}
+				}
+			}
+			if (src.readBoolean()) {
+				this.travelPath = GlobalPathFinder.GlobalPath.newFromParcel(src, fileversion);
+			}
+		}
+
+		if (fileversion >= 88) {
+			if (src.readBoolean()) {
+				this.travelFailedScript = src.readUTF();
+			}
+		}
+
+		if (fileversion >= 89) {
+			// Overwrites the fresh random seed the delegated constructor above just assigned -
+			// deliberately, so a saved individual keeps looking like the same individual across
+			// reloads instead of getting a new jitter quirk every time the save is loaded.
+			this.pathVarianceSeed = src.readInt();
 		}
 	}
 
@@ -196,6 +324,38 @@ public final class Monster extends Actor {
 		} else {
 			dest.writeBoolean(false);
 		}
+
+		dest.writeBoolean(ignoreAreas);
+		dest.writeUTF(currentMapID);
+		if (area != null) {
+			dest.writeBoolean(true);
+			dest.writeUTF(area.areaID);
+		} else {
+			dest.writeBoolean(false);
+		}
+
+		if (travelDestination != null) {
+			dest.writeBoolean(true);
+			dest.writeUTF(travelDestination.mapID);
+			dest.writeUTF(travelDestination.areaID);
+		} else {
+			dest.writeBoolean(false);
+		}
+		if (travelPath != null) {
+			dest.writeBoolean(true);
+			travelPath.writeToParcel(dest);
+		} else {
+			dest.writeBoolean(false);
+		}
+
+		if (travelFailedScript != null) {
+			dest.writeBoolean(true);
+			dest.writeUTF(travelFailedScript);
+		} else {
+			dest.writeBoolean(false);
+		}
+
+		dest.writeInt(pathVarianceSeed);
 	}
 
 	public void addToChecksum(ChecksumBuilder builder) {
@@ -235,5 +395,7 @@ public final class Monster extends Actor {
 		} else {
 			builder.add(false);
 		}
+
+		builder.add(ignoreAreas);
 	}
 }

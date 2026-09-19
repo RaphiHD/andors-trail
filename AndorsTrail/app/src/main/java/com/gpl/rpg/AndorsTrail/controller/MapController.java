@@ -74,6 +74,14 @@ public final class MapController {
 			if (o.map == null || o.place == null) return;
 			int offset_x = position.x - o.position.topLeft.x;
 			int offset_y = position.y - o.position.topLeft.y;
+			for (Monster m : world.model.currentMaps.map.monsters) {
+				if (m.travelDestination != null) {
+					// Recalibrates travelPath.startTime from this monster's actual current position
+					// (it may be mid-leg, not at a leg boundary) rather than leaving it stale - see
+					// MonsterMovementController.enterTravellingPool.
+					controllers.monsterMovementController.enterTravellingPool(m, world.model.currentMaps.map);
+				}
+			}
 			controllers.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, o.map, o.place, offset_x, offset_y);
 			break;
 		case rest:
@@ -98,6 +106,29 @@ public final class MapController {
 		Resources res = controllers.getResources();
 		mapScriptExecutor.proceedToPhrase(res, o.id, true, true);
 		controllers.mapController.applyCurrentMapReplacements(res, true);
+	}
+
+	/**
+	 * Runs a script phrase for a monster that isn't necessarily on the current map - e.g. a travel
+	 * arrivalScript, or a travelFailedScript, firing on a map the player hasn't visited this
+	 * session. Unlike runScriptInArea/mapScriptExecutor (which depend on
+	 * prepareScriptsOnCurrentMap() having been called for the phrase's map, i.e. only ever true
+	 * for whichever map the player currently has loaded), this builds its own
+	 * ConversationStatemachine on demand so the script runs the same way regardless of visit
+	 * history. Deliberately does not reapply ReplaceableMapSection changes for a map other than
+	 * the current one - nothing in this codebase tracks replacement/requirement state for a
+	 * non-current map, so there's nothing correct to reapply there yet; only reapplies when the
+	 * monster's current map happens to be the one currently loaded, matching runScriptInArea's
+	 * existing behavior.
+	 */
+	public void runScriptForNpc(String phraseID, Monster npc) {
+		Resources res = controllers.getResources();
+		ConversationController.ConversationStatemachine exec = new ConversationController.ConversationStatemachine(world, controllers, conversationStateListener);
+		exec.setCurrentNPC(npc);
+		exec.proceedToPhrase(res, phraseID, true, true);
+		if (world.model.currentMaps.map != null && world.model.currentMaps.map.name.equals(npc.currentMapID)) {
+			applyCurrentMapReplacements(res, true);
+		}
 	}
 
 	private void steppedOnRestArea(MapObject area) {
@@ -198,12 +229,14 @@ public final class MapController {
 
 	private boolean applyReplacements(PredefinedMap map, LayeredTileMap tileMap) {
 		boolean hasUpdated = false;
+		boolean layoutChanged = false;
 		if (tileMap.replacements != null) {
 			for(ReplaceableMapSection replacement : tileMap.replacements) {
 				if (replacement.isApplied) continue;
 				if (!satisfiesCondition(replacement)) continue;
 				else ConversationController.requirementFulfilled(world, replacement.requirement, controllers);
 				tileMap.applyReplacement(replacement);
+				layoutChanged = true;
 				for (ReplaceableMapSection impactedReplacement : tileMap.replacements) {
 					if (replacement != impactedReplacement && impactedReplacement.isApplied && impactedReplacement.replacementArea.intersects(replacement.replacementArea)) {
 						//The applied replacement has overwritten changes made by a previously applied replacement.
@@ -225,6 +258,15 @@ public final class MapController {
 			map.lastSeenLayoutHash = tileMap.getCurrentLayoutHash();
 			hasUpdated = true;
 		}
+		if (layoutChanged) {
+			// A ReplaceableMapSection can change which tiles are walkable (e.g. opening/closing
+			// a wall), which makes the exit-to-exit distances PredefinedMap.calculateDistanceMatrix()
+			// baked in at construction time stale. GlobalPathFinder.getDistance() would otherwise
+			// keep planning through a route that just closed, or miss a shortcut that just opened,
+			// until the app restarts. Only recompute when an actual tile replacement was applied -
+			// a color filter or hash-only change never affects walkability.
+			map.calculateDistanceMatrix();
+		}
 		return hasUpdated;
 	}
 
@@ -235,7 +277,11 @@ public final class MapController {
 	private final ConversationController.ConversationStatemachine.ConversationStateListener conversationStateListener = new ConversationController.ConversationStatemachine.ConversationStateListener() {
 		@Override
 		public void onTextPhraseReached(String message, Actor actor, String phraseID) {
-			worldEventListeners.onScriptAreaStartedConversation(phraseID);
+			if (actor instanceof Monster) {
+				worldEventListeners.onScriptAreaStartedConversation((Monster) actor, phraseID);
+			} else {
+				worldEventListeners.onScriptAreaStartedConversation(null, phraseID);
+			}
 		}
 		@Override public void onScriptEffectsApplied(ConversationController.ScriptEffectResult scriptEffectResult) { }
 		@Override public void onConversationEnded() { }
